@@ -64,7 +64,7 @@ Our analysis of the `thermostat_control_data.csv` dataset indicates that the "Th
 ## 5. Visual Analysis: The July 2019 Strategic Divergence
 The following matrix illustrates the "Divergence Point" where the Epstein network's collapse acted as a smokescreen for the shift in AI sovereignty.
 
-![July 2019 Pivot Matrix](06_Visualizations/july_2019_pivot_matrix.png)
+06_Visualizations/1766389347560.jpg
 
 ### Key Analytical Insight:
 While US attention (Media, DOJ, Congress) locked onto the trafficking scandal in July 2019, the primary geopolitical beneficiary (China) utilized the distraction to finalize and launch a $100 Billion AI investment plan. This marks the moment the "Unwitting Asset" model transitioned from human intelligence brokerage to strategic infrastructure capture.
