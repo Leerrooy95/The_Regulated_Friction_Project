@@ -61,13 +61,13 @@ Our analysis of the `thermostat_control_data.csv` dataset indicates that the "Th
 * **The Hand-Off:** As US regulators looked backward at the scandal, data indicates a surge in "Quiet Acceleration" of IP transfer in critical sectors (Nuclear/TerraPower, AI).
 * **Thermostat Control:** The current redaction patterns benefit this "Quiet Phase," using the scandal's noise to mask the continued transfer of dual-use R&D.
 
+### Key Analytical Insight:
+While US attention (Media, DOJ, Congress) locked onto the trafficking scandal in July 2019, the primary geopolitical beneficiary (China) utilized the distraction to finalize and launch a $100 Billion AI investment plan. This marks the moment the "Unwitting Asset" model transitioned from human intelligence brokerage to strategic infrastructure capture.
+
 ## 5. Visual Analysis: The July 2019 Strategic Divergence
 The following matrix illustrates the "Divergence Point" where the Epstein network's collapse acted as a smokescreen for the shift in AI sovereignty.
 
 06_Visualizations/1766389347560.jpg
-
-### Key Analytical Insight:
-While US attention (Media, DOJ, Congress) locked onto the trafficking scandal in July 2019, the primary geopolitical beneficiary (China) utilized the distraction to finalize and launch a $100 Billion AI investment plan. This marks the moment the "Unwitting Asset" model transitioned from human intelligence brokerage to strategic infrastructure capture.
 
 
 ---
