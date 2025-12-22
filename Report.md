@@ -67,7 +67,7 @@ While US attention (Media, DOJ, Congress) locked onto the trafficking scandal in
 ## 5. Visual Analysis: The July 2019 Strategic Divergence
 The following matrix illustrates the "Divergence Point" where the Epstein network's collapse acted as a smokescreen for the shift in AI sovereignty.
 
-06_Visualizations/1766389347560.jpg
+[06_Visualizations/1766389347560.jpg](https://github.com/Leerrooy95/Epstein_Files_Uses_Theory/blob/60afc8bcf7f7124ec92274cc5808f5fb058d58fc/06_Visualizations/1766389347560.jpg)
 
 
 ---
