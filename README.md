@@ -1,4 +1,4 @@
-# Epstein_Files_Uses_Theory (v3.0)
+# Epstein_Files_Uses_Theory (v3.1)
 
 ## Overview
 This repository provides a data-driven investigation into the **Geopolitical Utility** of the Jeffrey Epstein investigative files. We analyze how information disclosure (leaks/unsealings) functions as a mechanism of **Reflexive Control** to influence AI infrastructure, sovereign capital flows, and technology transfer.
@@ -63,6 +63,27 @@ Simultaneously, the DOJ is withholding **$88 Million** in VOCA (Victims of Crime
 
 ## New
 * '07_My_Previous_Epstein_Research contains pdf files from my research into the topic over the last few months.
+
+*  Control_Proof Module
+
+This directory contains the statistical verification of the reflexive control hypothesis.
+
+Core Finding (December 22, 2025)
+- **14-day lagged Pearson correlation**: **+0.6196**  
+  (Epstein_Friction_Index at t−2 → Institutional_Compliance_Index at t)
+- **Strength**: HIGH SIGNAL (VERIFIED)
+
+The temporal lag confirms that friction spikes (document leaks, media cycles) predict institutional alignment (capital deals, policy shifts) approximately two weeks later — the signature of an active geopolitical thermostat.
+
+---
+
+## Files
+- `master_reflexive_correlation_data.csv` – Weekly indexed data (30+ weeks)
+- `reflexive_control_scraped_data.csv` – Live OSINT triggers (e.g., recent Musk lever, Oracle-TikTok deal, DOJ releases)
+- `correlation_test.py` – Reproducible verification script
+- `correlation_results.txt` – Latest run output
+
+Run the Python script locally to verify the result instantly.
 
 ## Repository Structure
 * `/01_Levers_and_Frictions`: Master Investigative Timelines (2004-2025).
