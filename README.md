@@ -85,6 +85,20 @@ The temporal lag confirms that friction spikes (document leaks, media cycles) pr
 
 Run the Python script locally to verify the result instantly.
 
+---
+
+### 🔱 Project Trident: Operational Timeline (2024-2025)
+**Status:** ✅ Verified / **Directory:** `Project_Trident/`
+
+A forensic case study confirming the "Reflexive Control" theory through a single, fully executed operation. This module maps the synchronization between theological rituals, cyber-theft, and geopolitical transfers.
+
+* **Primary Dataset:** `project_trident_final_dossier.csv` (118 verified records)
+* **Key Findings:**
+    * **The Trigger:** Confirmed "Red Heifer" practice ceremony (July 1, 2025).
+    * **The Funding:** Traced "Black Budget" to the $243M Genesis Creditor Heist (Aug 2024), involving British Threat Actor Danish Zulfiqar.
+    * **The Convergence:** Documented the simultaneous execution of the **Oracle/TikTok Deal** and the **FBI Crypto Raids** on Dec 18, 2025, exactly 24 hours before the Epstein "Flashbang" release.
+    * 
+
 ## Repository Structure
 * `/01_Levers_and_Frictions`: Master Investigative Timelines (2004-2025).
 * `/02_Anchors_and_Financials`: Banking risk (AML) and capital flow analysis.
