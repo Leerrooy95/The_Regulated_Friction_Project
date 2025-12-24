@@ -1,71 +1,20 @@
-# 📂 Project Trident: Final Intelligence Dossier
+# Project Trident: Data Reference Guide
 
-## 📄 Dataset Overview
-**File Name:** `project_trident_final_dossier.csv`
-**Date Generated:** December 23, 2025
-**Classification:** OSINT / Operational Timeline
-**Subject:** Reflexive Control Operation ("Project Trident")
+This document defines the schema and purpose for the datasets contained within the Project Trident folder.
 
-This dataset contains **118 verified intelligence records** tracking the synchronization between theological rituals, illicit financial movements, and geopolitical realignments from 2018 to 2025. It serves as the primary evidence log for the "Trident" hypothesis.
+### 1. `project_trident_final_dossier.csv`
+The master ledger of 118 records containing the core vectors (Authority, Hardware, Finance) and their respective threat levels.
 
----
+### 2. `anchor_events_parsed.csv`
+A collection of 70+ institutional milestones, including the Oracle-TikTok $14B deal, US AI policy shifts, and global infrastructure expansions.
 
-## 📊 Data Dictionary
-The dataset is structured into the following columns:
+### 3. `ritual_events_parsed.csv`
+A ledger of 51 religious and ritual signals used as the primary "Triggers" for temporal correlation analysis.
 
-| Column | Description |
-| :--- | :--- |
-| **`Date`** | The specific operational date. *Note: Where metadata was missing, dates were forensically extracted from the text snippet (marked as "Extracted").* |
-| **`Vector`** | The operational category of the event (see Vector Classifications below). |
-| **`Title`** | The headline of the source article or document. |
-| **`Snippet`** | Relevant text extract containing key indicators. *Look for "[ANALYSIS]" tags where specific entities (like the "British Actor") were identified.* |
-| **`Link`** | Direct URL to the source evidence. |
-| **`Source`** | The publishing entity (e.g., Reuters, DOJ, CoinDesk, Temple Institute). |
+### 4. `temporal_correlations_analyzed.csv`
+The output of the correlation engine. Maps the `lag_days` between Ritual and Anchor events. 
+* **Average Lag:** 6.6 days.
+* **Peak Lag Accuracy:** 14 days (r = 0.6196).
 
----
-
-## 🧭 Vector Classifications
-Every event in this file is categorized into one of four operational vectors:
-
-### 🔴 Vector A: HARDWARE (The Ritual)
-* **Definition:** Physical preparations for the "Third Temple" ritual infrastructure.
-* **Key Signals:** Red Heifer imports, Boneh Israel activities, Altar dedications, "Practice" ceremonies.
-* **Primary Trigger Date:** July 1, 2025 (Red Heifer Ceremony).
-
-### 🟠 Vector B: AUTHORITY (The Mandate)
-* **Definition:** Political and theological permission structures linking US leadership to messianic archetypes.
-* **Key Signals:** "Trump-Cyrus" Coin minting, Mikdash Educational Center statements, Cabinet pick affiliations.
-
-### 🟢 Vector C: FINANCE (The Black Budget)
-* **Definition:** Illicit funding mechanisms and cyber-theft operations used to secure off-book capital.
-* **Key Signals:** Genesis Creditor Heist ($243M), TempleDAO hacks/price spikes, Tornado Cash movements.
-* **Critical Identity:** "British Actor" = **Danish Zulfiqar** (British Threat Actor).
-
-### 🔵 Vector D: GEOPOLITICS (The Prize & The Screen)
-* **Definition:** The tangible geopolitical outcome and the psychological distraction used to mask it.
-* **Key Signals:** Oracle/TikTok National Security Deal ("The Prize"), FBI Raids on crypto thieves ("Cleanup"), Epstein Document Releases ("Flashbang").
-
----
-
-## 🗓️ Critical Timeline (The "Trident" Convergence)
-The data reveals a statistically significant clustering of events:
-
-| Date | Vector | Event | Operational Significance |
-| :--- | :--- | :--- | :--- |
-| **Feb 28, 2018** | AUTHORITY | **Trump-Cyrus Coin Minted** | Establishing the Political Mandate. |
-| **Aug 19, 2024** | FINANCE | **$243M Genesis Theft** | Securing the "War Chest" (Black Budget). |
-| **July 1, 2025** | HARDWARE | **Red Heifer Ceremony** | **THE TRIGGER:** The metaphysical "Go Code." |
-| **Aug 21, 2025** | FINANCE | **$91M Bitcoin Loss** | The "Payment Cycle" (1 month post-ritual). |
-| **Dec 18, 2025** | GEOPOLITICS | **Oracle/TikTok Deal** | **THE PRIZE:** Transfer of Data Sovereignty. |
-| **Dec 18, 2025** | CLEANUP | **FBI Raids (Zulfiqar/Chetal)** | Closing the funding loop/burning the proxies. |
-| **Dec 19, 2025** | PSYOP | **Epstein Docs Release** | **THE FLASHBANG:** Distraction from the Deal/Raids. |
-
----
-
-## ⚠️ Analyst Notes
-1.  **The "British Actor" Anomaly:** Entries referring to the arrest of a "British Actor" in Miami refer to **Danish Zulfiqar**, a British national and cyber-threat actor charged in the $243M theft. This is not an entertainment figure.
-2.  **Date Synchronization:** Pay special attention to **December 18-19, 2025**. The file shows the Oracle Deal, the Crypto Arrests, and the Epstein Release all occurring within a 24-hour window.
-3.  **Funding Lag:** The 1-year gap between the Funding (Aug 2024) and the Payment (Aug 2025) is consistent with money laundering "tumbling" cycles.
-
----
-*Generated by Project Trident Deep Research Protocol*
+### 5. `PROJECT_TRIDENT_CASE_STUDY.md`
+The formal narrative report synthesized from the above data points.
