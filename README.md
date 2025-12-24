@@ -76,19 +76,78 @@ Core Finding (December 22, 2025)
 The temporal lag confirms that friction spikes (document leaks, media cycles) predict institutional alignment (capital deals, policy shifts) approximately two weeks later — the signature of an active geopolitical thermostat.
 
 
-### 🔱 PROJECT TRITON 2.0: The Infrastructure of Sovereign Custody
-**Status:** OPERATIONAL | **Framework:** Signal-to-Noise Ratio Analysis (2015–2025)
+### 🔱 Project Triton: Temporal Correlation Analysis (Verified)
 
-Project Triton 2.0 is the forensic mapping of the **Sovereign Activation Clock**. It identifies the transition from "Reflexive Control" (scandal as a lever) to "Sovereign Custody"—the physical and fiscal shielding of institutional assets.
+**Status:** Statistical analysis complete | **Directory:** `Project_Triton/`
 
-#### **The Core Discovery: Non-Annual Signaling**
-* **Annual Noise (Holidays):** 10 years of verified data (`Holidays_2015_2025_Verified.csv`) shows that predictable, fixed-date holidays possess zero operational entropy and **do not correlate** with infrastructure shifts ($r < 0.20$).
-* **Non-Annual Signals (Operational):** These are irregular, surgical, and procedural events (`ritual_events_parsed.csv`). Because they are non-predictable, they act as the **Active Trigger** for policy anchors and $100B+ data migrations with a verified 14-day lead-lag correlation (**$r = 0.62$**).
+A systematic temporal correlation study examining the statistical relationship between ritual event timelines and policy/infrastructure announcements across 2015-2025. Analysis verifies whether policy actions cluster more closely with non-annual ritual events than with standard holiday calendars.
 
-#### **The Trident Infrastructure:**
-- **The Battery:** $38B in security MOU aid recycled into subterranean AI hardware (`aid_timeline_clean.csv`).
-- **The Vault:** $800B+ migration into Oracle’s 9-story underground Jerusalem facilities (`tech_filled_dates.csv`).
-- **The Shield:** Targeted federal policy (DJI bans/AI EOs) used to clear the market for "Sanitized" custodial partners.
+**Core Methodology:**
+- **Dataset scope:** 533 policy/infrastructure events analyzed against 51 ritual events and 44 annual holidays
+- **Temporal analysis:** Calculated lag distances between policy actions and both ritual events and holiday baselines
+- **Statistical testing:** Mann-Whitney U test, proximity ratio analysis, temporal window clustering
+
+**Key Findings:**
+
+**1. Statistically Significant Clustering**
+- **Within ±14 days:** 50.7% of events correlate with ritual dates vs. 19.9% with holidays (+30.8% difference)
+- **Proximity ratio:** Ritual events are **3.5x closer** temporally to policy actions than annual holidays
+- **Statistical significance:** p = 0.002 (significant at p < 0.05 level)
+- **Effect size:** Cohen's d = 0.417 (small but measurable effect)
+
+**2. Temporal Window Breakdown**
+| Window | Ritual Events | Holidays | Advantage |
+|--------|---------------|----------|-----------|
+| ±7 days | 38.6% | 12.0% | +26.6% |
+| ±14 days | 50.7% | 19.9% | +30.8% |
+| ±30 days | 59.1% | 42.2% | +16.9% |
+
+Maximum predictive advantage occurs in the ±7 to ±30 day tactical window.
+
+**3. Category-Specific Results**
+Recent policy categories demonstrate stronger clustering than historical data:
+- **AI Policy** (n=8): 4.0 day mean ritual lag vs. 16.0 day holiday lag
+- **Expanded Policy Anchors** (n=11): 10.5 day ritual lag vs. 20.5 day holiday lag
+- **Historical Aid/Tech** (1990-2016): Weak clustering, suggesting recent phenomenon
+
+**4. December 2025 Cluster (Case Study)**
+Demonstrates highest observed temporal precision:
+- **23 events analyzed**
+- **Mean ritual lag:** 0.4 days (near-simultaneous)
+- **Mean holiday lag:** 12.1 days  
+- **100%** of events within ±7 days of ritual dates
+- **21.7%** of events within ±7 days of holidays
+
+Notable December events include:
+- Dec 9-10: Pentagon GenAI.mil platform launch (Google Cloud)
+- Dec 10: Palantir-Navy AI integration
+- Dec 11: Trump AI National Policy Executive Order
+- Dec 18: Space Superiority Executive Order
+- Dec 22: DJI import restrictions, Interior policy changes
+
+**Limitations & Interpretations:**
+
+**Statistical Constraints:**
+- Correlation does not establish causation
+- Small sample sizes in recent policy categories (AI Policy: n=8)
+- Historical data shows weak clustering, suggesting recent rather than long-term pattern
+- Multiple alternative explanations remain viable
+
+**Alternative Frameworks:**
+1. **Institutional calendar synchronization:** Policy announcements naturally align with cultural calendars for diplomatic/legislative scheduling
+2. **Strategic communications timing:** Deliberate announcement timing to maximize/minimize media attention
+3. **Fiscal deadline clustering:** Year-end policy actions cluster in Q4 due to budget cycles
+4. **Coordinated operational timing:** December 2025 precision (0.4 day mean lag, 100% within ±7 days) suggests potential active coordination
+
+**Data & Reproducibility:**
+- `Lag_Correlation_Analysis_Verified_Holidays.csv` - Full correlation matrix (533 events)
+- `verify_triton_analysis.py` - Statistical verification script
+- `Holidays_2015_2025_Verified.csv` - Annual holiday baseline
+- `ritual_events_parsed.csv` - Ritual event timeline
+
+**Statistical Summary:**
+Project Triton identifies statistically significant temporal clustering (p = 0.002) with ritual events showing 3.5x higher proximity to policy actions than holidays. While correlation is verified, causation remains unestablished. The December 2025 cluster demonstrates temporal precision warranting investigation into potential coordination mechanisms, though multiple non-causal explanations remain plausible.
+
 ---
 
 ## Files
