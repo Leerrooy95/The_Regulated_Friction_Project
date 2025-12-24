@@ -87,28 +87,6 @@ Run the Python script locally to verify the result instantly.
 
 ---
 
-### 🔱 Project Trident: Temporal Analysis of Tech and Ritual Events (2024-2025)
-**Status:** Verified | **Directory:** `Project_Trident/`
-
-This module examines temporal alignments between ritual events and technology sector milestones, utilizing `israel_tech_research_2015_2025.csv` and `anchor_events_parsed.csv`. The analysis identifies high-density clustering patterns within ±14-day windows, yielding a Pearson correlation of **r = 0.6196** for 14-day lags between specific ritual "triggers" and institutional "anchors."
-
-**Primary Dataset:** `PROJECT_TRIDENT_FULL_DOSSIER.csv` (118 records)
-
-#### **Key Temporal Alignments:**
-* **Red Heifer Ceremony (July 1, 2025):** Baseline ritual trigger event recorded at Mount of Olives/Shiloh.
-* **Oracle Facility Activation (July 15, 2025):** **+14 days lag**; Oracle CEO Safra Catz confirmed operational status of the 9-story underground Jerusalem data center (Source: *Calcalistech*).
-* **AI Infrastructure Executive Order (July 23, 2025):** **+22 days lag**; US Executive Branch signed EO accelerating federal permitting for data center infrastructure (Source: *AI.Gov*).
-
-#### **Quantitative Clustering (from Anchor Events):**
-* **Total Correlations:** 338 unique hits within ±14 days.
-* **Distribution by Type:** Evangelical Temple Delegation (170), Papal Extraordinary Consistory (90), Temple Mount Foundation Stone Laying (55), Grand Mufti Al-Aqsa Declaration (14), Sanhedrin Convocation (7), Red Heifer Ceremony (2).
-* **Average Lag:** 6.6 days.
-* **December 2025 Convergence:** Dense clustering observed between Dec 10 (Ritual Delegation) and Dec 18–23 (Oracle-TikTok $14B Deal, Israeli Defense Contracts, and $15.6B tech funding surge).
-
-This data supports the quantitative review of event synchronization and geopolitical "Reflexive Control" infrastructure.
-
----
-
 ## Repository Structure
 * `/01_Levers_and_Frictions`: Master Investigative Timelines (2004-2025).
 * `/02_Anchors_and_Financials`: Banking risk (AML) and capital flow analysis.
