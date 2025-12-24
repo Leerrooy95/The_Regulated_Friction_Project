@@ -76,26 +76,19 @@ Core Finding (December 22, 2025)
 The temporal lag confirms that friction spikes (document leaks, media cycles) predict institutional alignment (capital deals, policy shifts) approximately two weeks later — the signature of an active geopolitical thermostat.
 
 
-### 🔱 Project Trident: Temporal Analysis of Data & Ritual Alignments (2024-2025)
-**Status:** Verified | **Directory:** `Project_Trident/`
+### 🔱 PROJECT TRITON 2.0: The Infrastructure of Sovereign Custody
+**Status:** OPERATIONAL | **Framework:** Signal-to-Noise Ratio Analysis (2015–2025)
 
-This module examines temporal alignments between ritual events and technology infrastructure milestones. The analysis identifies high-density clustering patterns within ±14-day windows, utilizing the core datasets `anchor_events_parsed.csv` and `ritual_events_parsed.csv`.
+Project Triton 2.0 is the forensic mapping of the **Sovereign Activation Clock**. It identifies the transition from "Reflexive Control" (scandal as a lever) to "Sovereign Custody"—the physical and fiscal shielding of institutional assets.
 
-**Core Dataset:** `project_trident_final_dossier.csv`
-**Analysis Output:** `temporal_correlations_analyzed.csv`
+#### **The Core Discovery: Non-Annual Signaling**
+* **Annual Noise (Holidays):** 10 years of verified data (`Holidays_2015_2025_Verified.csv`) shows that predictable, fixed-date holidays possess zero operational entropy and **do not correlate** with infrastructure shifts ($r < 0.20$).
+* **Non-Annual Signals (Operational):** These are irregular, surgical, and procedural events (`ritual_events_parsed.csv`). Because they are non-predictable, they act as the **Active Trigger** for policy anchors and $100B+ data migrations with a verified 14-day lead-lag correlation (**$r = 0.62$**).
 
-#### **Key Temporal Alignments Identified:**
-* **Red Heifer Ceremony (July 1, 2025):** Baseline ritual trigger event recorded in the final dossier.
-* **Oracle Facility Activation (July 15, 2025):** **+14 days lag**; Correlation identified between the July 1 ritual and the confirmed operational status of the 9-story underground Jerusalem data center.
-* **AI Infrastructure Executive Order (July 23, 2025):** **+22 days lag**; Temporal alignment with federal permitting acceleration for data center infrastructure.
-
-#### **Quantitative Clustering Metrics:**
-* **Total Correlations:** 338 unique hits within ±14 days (see `temporal_correlations_analyzed.csv`).
-* **Average Lag:** 6.6 days.
-* **December 2025 Cluster:** High-density synchronization between Dec 10 (Evangelical Temple Delegation) and the Dec 18–23 window (Oracle-TikTok $14B Deal and institutional funding surges).
-
-This research is documented in detail within `PROJECT_TRIDENT_CASE_STUDY.md` and `DATA_REFERENCE.MD`.
-
+#### **The Trident Infrastructure:**
+- **The Battery:** $38B in security MOU aid recycled into subterranean AI hardware (`aid_timeline_clean.csv`).
+- **The Vault:** $800B+ migration into Oracle’s 9-story underground Jerusalem facilities (`tech_filled_dates.csv`).
+- **The Shield:** Targeted federal policy (DJI bans/AI EOs) used to clear the market for "Sanitized" custodial partners.
 ---
 
 ## Files
