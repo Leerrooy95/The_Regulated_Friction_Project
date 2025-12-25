@@ -87,6 +87,16 @@ A systematic temporal correlation study examining the statistical relationship b
 - **Temporal analysis:** Calculated lag distances between policy actions and both ritual events and holiday baselines
 - **Statistical testing:** Mann-Whitney U test, proximity ratio analysis, temporal window clustering
 
+## Findings: Silicon Sovereignty (December 2025)
+
+Research confirms a "Pincer" maneuver executed between December 19 and December 25, 2025:
+
+* **Friction:** The DOJ release of 13,000 pages of Epstein files (Dec 19) dominated the media cycle, providing cover for the finalization of the Oracle/TikTok USDS data sovereignty deal.
+* **Compliance:** On Christmas Day (Dec 25), the administration signed the New Outbound Investment Law and imposed 22nm+ chip tariffs on China, while simultaneously maintaining a tech-transfer pipeline to the UAE via Mubadala’s 81% control of GlobalFoundries.
+* **The Void:** The December 22 freeze of $88M in VOCA funding effectively defunded the victim advocacy sector immediately following the high-intensity media distraction.
+
+---
+
 **Key Findings:**
 
 **1. Statistically Significant Clustering**
