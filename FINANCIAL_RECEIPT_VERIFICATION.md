@@ -280,10 +280,12 @@ This is no longer theoretical pattern-matching—it's traceable fund flow docume
 ## Dataset Attribution
 
 **Primary Source:** Fund_Flow_Ritual_Coordination_20251225.csv
+
 **Cross-Reference:** Project Trident, China Signal Null Finding, VOCA_funding_timeline_clean.csv
+
 **Verification Method:** Multi-source confirmation (BofA, SEC, Seeking Alpha, Bloomberg, FT, WSJ)
 
 ---
 
-*Cross-verified with Grok and Gemini adversarial testing*  
+*Cross-verified with Claude, Grok, and Gemini adversarial testing*  
 *December 25, 2025*
