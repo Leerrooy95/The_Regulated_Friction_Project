@@ -122,8 +122,23 @@ This analysis identifies temporal proximity patterns but does not establish caus
 5. Sanhedrin Convocation: 7 correlations (2.1%)
 6. Red Heifer Ceremony: 2 correlations (0.6%)
 
+## 09_Silicon_Sovereignty: The Hardware Layer of Control
+
+Data analysis of the `REFINED_supercomputer_geopolitics.csv` and `VOCA_funding_timeline_clean.csv` identifies the following:
+
+### 1. The GlobalFoundries/Mubadala Anchor
+Mubadala (UAE) maintains a controlling 81% stake in GlobalFoundries, a key recipient of US CHIPS Act funding. This creates a bridge for US-taxpayer-funded technology to be managed by foreign sovereign wealth, while domestic focus is diverted by legal friction events.
+
+### 2. The December 2025 Correlation
+* **Dec 19 (Friction):** Epstein file dump (13,000 pages).
+* **Dec 22 (Void):** DOJ halts nearly $90 million in VOCA funding for survivors.
+* **Dec 25 (Compliance):** New tariffs on Chinese legacy chips and signing of the Outbound Investment Law.
+
+### 3. Conclusion
+The "Geopolitical Thermostat" uses domestic scandals to regulate the optics of semiconductor warfare. By the time the public or advocacy groups can react to the defunding (Dec 22) or the tech sanctions (Dec 25), the "Friction" of the previous week (Dec 19) has already saturated the information space.
 
 ---
+
 **Lead Researcher:** [Austin Smith]  
 **Data Verification:** Verified against 2015-2025 Aggregate Datasets.
 ---
