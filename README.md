@@ -87,13 +87,16 @@ A systematic temporal correlation study examining the statistical relationship b
 - **Temporal analysis:** Calculated lag distances between policy actions and both ritual events and holiday baselines
 - **Statistical testing:** Mann-Whitney U test, proximity ratio analysis, temporal window clustering
 
-## Findings: Silicon Sovereignty (December 2025)
+## NEW FINDING: The Silicon Pincer (December 2025)
 
-Research confirms a "Pincer" maneuver executed between December 19 and December 25, 2025:
+Investigation into the **09_Silicon_Sovereignty** dataset identifies a coordinated three-stage administrative maneuver executed between December 19 and December 25, 2025:
 
-* **Friction:** The DOJ release of 13,000 pages of Epstein files (Dec 19) dominated the media cycle, providing cover for the finalization of the Oracle/TikTok USDS data sovereignty deal.
-* **Compliance:** On Christmas Day (Dec 25), the administration signed the New Outbound Investment Law and imposed 22nm+ chip tariffs on China, while simultaneously maintaining a tech-transfer pipeline to the UAE via Mubadala’s 81% control of GlobalFoundries.
-* **The Void:** The December 22 freeze of $88M in VOCA funding effectively defunded the victim advocacy sector immediately following the high-intensity media distraction.
+1. **Friction (Dec 19):** DOJ release of 13,000+ pages of Epstein-related documents. This event created a high-intensity media saturation point, effectively masking major tech sovereignty shifts.
+2. **The Void (Dec 22):** Implementation of an administrative freeze on ~$90M in Victims of Crime Act (VOCA) funding. This defunds domestic oversight and advocacy groups at the peak of the media distraction cycle.
+3. **Compliance (Dec 25):** Signing of the New Outbound Investment Law and 22nm+ chip tariffs on China. These restrict domestic capital while a "tech-bridge" remains open via the UAE (Mubadala/GlobalFoundries).
+
+**Key Takeaway:** Domestic legal "friction" is being utilized to bypass public scrutiny of the transfer of US semiconductor and AI supremacy to foreign sovereign wealth entities.
+
 
 ---
 
