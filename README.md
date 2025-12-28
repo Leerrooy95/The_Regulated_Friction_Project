@@ -24,6 +24,25 @@ This repository documents statistically significant correlations between:
 
 ---
 
+## Theory Origins: The September 26, 2025 Convergence
+
+This theory originated from observing a same-day pincer on **September 26, 2025**:
+
+| Time | Event | Source |
+|------|-------|--------|
+| **Morning** | House Oversight Democrats release third batch of Epstein estate documents (8,544 records) | [House Oversight](https://oversightdemocrats.house.gov/news/press-releases/oversight-democrats-release-third-batch-documents-jeffrey-epstein-estate) |
+| **Same day** | Documents include: "Reminder: Elon Musk to island Dec. 6 (is this still happening?)" | [CNBC](https://www.cnbc.com/2025/09/26/musk-thiel-bannon-partially-redacted-epstein-files-democrats-release.html), [Axios](https://www.axios.com/2025/09/26/elon-musk-peter-thiel-steve-bannon-epstein-files), [PBS](https://www.pbs.org/newshour/politics/house-democrats-release-partial-epstein-records-referencing-musk-gates-and-prince-andrew) |
+| **Same day (after UN speech)** | Netanyahu holds private roundtable with ~15 pro-Israel American influencers at Israeli Consulate NYC | [Antiwar.com](https://news.antiwar.com/2025/09/28/netanyahu-meets-with-pro-israel-influencers-in-new-york-describes-social-media-as-a-weapon-for-israel/) |
+| **Same roundtable** | Netanyahu: "We have to talk to Elon. He's not an enemy, he's a friend." Calls TikTok "the most important purchase" and social media "weapons" | Leaked video via Debra Lea, [PressTV](https://www.presstv.ir/Detail/2025/10/01/756044/), [Drop Site News](https://x.com/DropSiteNews/status/1971741657834934453) |
+
+**The pattern**: Reputational friction applied to Musk (Epstein island reference hits headlines) + immediate "he's a friend" reinforcement from Netanyahu within hours.
+
+This same-day convergence—friction on a tech figure paired with instant diplomatic signaling—became the template for identifying the "Geopolitical Thermostat" pattern that subsequent research verified statistically (r = +0.6196, 14-day lag).
+
+**Note**: The broader OSINT research journey began after the Charlie Kirk incident (September 2025), but this specific theory crystallized from observing the Musk/Netanyahu timing convergence.
+
+---
+
 ## Key Statistics
 
 | Finding | Value | Status |
@@ -391,6 +410,7 @@ The claim is structural: performative noise patterns enable detection of quieter
 ## Contact
 
 - **GitHub:** [@Leerrooy95](https://github.com/Leerrooy95)
+- **Submissions:** Senate Select Committee on Intelligence, DoD Inspector General
 
 ---
 
