@@ -10,6 +10,14 @@
 
 ---
 
+### New Addition: Historical Transparency Timeline
+New `'Transparency'_Timeline.md` documents the decade-long pattern of controlled, timed Epstein document releases (2007–2025), including strategic sealing, batching during political cycles, and persistent withholding of core evidence despite bipartisan mandates. This extends the friction event analysis, illustrating structured opacity across administrations.
+
+- **Key Insight:** Releases generate recurring attention cycles while maintaining gaps around co-conspirators and electronic evidence.
+- **File:** [`'Transparency'_Timeline.md`]('Transparency'_Timeline.md)
+
+---
+
 ## Quick Summary
 
 This repository documents statistically significant correlations between:
