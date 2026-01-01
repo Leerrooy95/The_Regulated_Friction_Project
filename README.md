@@ -416,7 +416,6 @@ The claim is structural: performative noise patterns enable detection of quieter
 ## Contact
 
 - **GitHub:** [@Leerrooy95](https://github.com/Leerrooy95)
-- **Submissions:** Senate Select Committee on Intelligence, DoD Inspector General
 
 ---
 
