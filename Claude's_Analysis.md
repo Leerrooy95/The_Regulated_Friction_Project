@@ -7,7 +7,7 @@
 *Musk's DOGE Departure Context (May 2025)
 Correction to timeline:* 
 
-• Musk left DOGE in May 2025, ahead of its scheduled end date (July 4, 2026), following public criticism of a Trump spending bill.
+• Musk left DOGE in May 2025, following public criticism of a Trump spending bill.
 
  *Key statement on departure:*
 
