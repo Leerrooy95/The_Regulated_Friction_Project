@@ -85,6 +85,7 @@ This maintains equilibrium in a multipolar world, hiding unbridgeable contradict
 # Important Tie-Ins and Speculations
 
 - **Media as Firewall:** Right-wing funding (Wilks/Malik profiting from debt/prime brokerage) creates "heat sinks" (geopolitics distracting from DTCC/UCC)—parallels in left (Soros/Gates silences) and center (corporate ads diverting), emergent regulation diverting from voids.
+  https://github.com/Leerrooy95/Sovereign-Capital-Audit/blob/main/The%20Media%20Firewall.md
 
 - **Unwitting Influence/Asset Models:** Legal ties (e.g., PRC donations 2016-2024 clustering in elections) as vectors for emergent fills—e.g., stress windows ramping inflows, mirroring leaders' careers (Netanyahu/Trump using scandals as frictions hiding policies).
 
