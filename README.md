@@ -1,4 +1,4 @@
-# Epstein Files Uses Theory v7.0
+# Epstein Files Uses Theory
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -25,6 +25,7 @@ This repository documents statistically significant correlations between high-vi
 | Ritual → Policy proximity | 50.7% vs. 19.9% baseline (3.5x) | ✅ Verified |
 | Project Trident significance | p = 0.002 (Mann-Whitney U) | ✅ Verified |
 | December 2025 cluster | 108 events in 12-day window | ✅ Verified |
+| Dec 22 signal types | 5 (Friction, Geopolitics, Financial, Policy, Cyber) | ✅ Verified |
 
 ---
 
@@ -60,10 +61,11 @@ The Dec 19-23, 2025 window demonstrates convergent clustering:
 | Dec 19 | Financial | Bull & Bear sell signal (8.5) |
 | Dec 22 | Geopolitics | China EU dairy tariffs (42.7%) |
 | Dec 22 | Financial | BlackRock Bitcoin ETF "top theme" |
+| Dec 22 | Cyber/Intel | CRINK nation-state threat analysis |
 | Dec 22-23 | Peak | 6-8 friction + 9-13 compliance events/day |
 | Dec 23 | Infrastructure | Redaction failures exposed (NYT) |
 
-Four independent signal types converged on the same window—not because one caused another, but because all actors respond to the same environmental signals.
+Five independent signal types converged on the same window—not because one caused another, but because all actors respond to the same environmental signals.
 
 ---
 
@@ -94,7 +96,8 @@ Epstein_Files_Uses_Theory/
 │   ├── Repository_Synthesis.md            # Three-layer framework
 │   ├── Thermostat_Explained.md            # Why the mechanism exists
 │   ├── Claude's_Analysis.md               # AI-assisted interpretation
-│   └── Grok_Analysis.md                   # Cross-verification
+│   ├── Grok_Analysis.md                   # Cross-verification
+│   └── CRINK_Analysis.md                  # CRINK axis integration
 │
 ├── December 2025 Focus
 │   ├── CRUCIAL_Synthesis_Dec19_Convergence.md
@@ -177,6 +180,8 @@ Raw event count analysis replaces subjective 1-10 scoring:
 2. **DOGE → Redaction Chain:** Adobe cuts (Mar 2025) → inadequate tools (Dec 2025)
 3. **December 22-23 Peak:** Highest event density of any dates in dataset
 4. **BlackRock Fed Positioning:** Larry Fink-Trump talks during pincer window
+5. **CRINK Fifth Signal:** Cyber threat analysis published Dec 22 adds intelligence dimension
+6. **Sep 26 Triple Alignment:** Theory origin day = Epstein docs + Netanyahu + CSIS CRINK analysis
 
 ---
 
@@ -197,6 +202,7 @@ python correlation_test.py
 - `master_reflexive_correlation_data.csv` — Weekly friction/compliance indices
 - `ritual_events_parsed.csv` — Project Trident ritual timing
 - `Fund_Flow_Ritual_Coordination_20251225.csv` — December 2025 dark pool data
+- `CRINK_Intelligence_Dataset_Final_Verified.csv` — CRINK axis discourse tracking (34 records)
 
 ---
 
