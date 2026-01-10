@@ -16,6 +16,29 @@ This repository documents statistically significant correlations between high-vi
 
 ---
 
+## Understanding the Statistics
+
+This research uses **Pearson correlation (r)** to measure relationships between event types.
+
+| r Value | Interpretation |
+|---------|----------------|
+| 0.0 | No relationship |
+| ±0.1-0.3 | Weak |
+| ±0.3-0.5 | Moderate |
+| ±0.5-0.7 | Strong |
+| ±0.7-1.0 | Very strong |
+
+**Our finding (r = +0.6685):** When friction events occur, compliance events cluster in the same time window 67% more than random chance would predict. The positive sign means they move together (both increase simultaneously).
+
+**Why this matters:** 
+- A correlation this strong (p < 0.0001) has less than 0.01% probability of occurring by chance
+- It's reproducible—run `correlation_test.py` yourself
+- It suggests a structural pattern, not random coincidence
+
+**Important caveat:** Correlation ≠ causation. We document that these events cluster together, not that one causes the other. The claim is structural: the pattern exists and is statistically significant.
+
+---
+
 ## Key Statistics
 
 | Finding | Value | Status |
