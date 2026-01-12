@@ -1,0 +1,21 @@
+month,total_events,implemented,contested,blocked,success_rate,resistance_indicators,avg_resistance_per_event
+December 2025,6,3,2,1,50.0%,17,2.83
+January 2026,4,3,0,1,75.0%,2,0.50
+
+# Event Classification Details:
+#
+# DECEMBER 2025 (6 events):
+# - Implemented (3): Travel Ban (Dec 16→Jan 1), China EU Tariffs (Dec 22), BlackRock Bitcoin positioning
+# - Contested (2): Epstein Files Release (DOJ), DOGE Operations
+# - Blocked (1): Elon Musk America Party (failed, returned to GOP Jan 1)
+#
+# JANUARY 2026 (4 events):
+# - Implemented (3): Travel Ban enforcement, Venezuela Military Operation, Musk GOP support renewal
+# - Blocked (1): Graham Cuba/Iran threats (announced but not implemented by Jan 12)
+#
+# Success Rate Calculation:
+# - December: 3 implemented / 6 total = 50.0%
+# - January: 3 implemented / 4 total = 75.0%
+#
+# Note: "Contested" events show significant resistance but still proceed (partial implementation)
+# "Blocked" events are announced but do not proceed or are abandoned
