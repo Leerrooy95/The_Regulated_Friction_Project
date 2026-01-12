@@ -15,7 +15,5 @@ January 2026,4,3,0,1,75.0%,2,0.50
 #
 # Success Rate Calculation:
 # - December: 3 implemented / 6 total = 50.0%
-# - January: 3 implemented / 4 total = 75.0%
-#
 # Note: "Contested" events show significant resistance but still proceed (partial implementation)
 # "Blocked" events are announced but do not proceed or are abandoned
