@@ -1,4 +1,4 @@
-# Epstein Files Uses Theory v7.6
+# Epstein Files Uses Theory v7.7
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -207,6 +207,28 @@ Raw event count analysis replaces subjective 1-10 scoring:
 5. **CRINK Fifth Signal:** Cyber threat analysis published Dec 22 adds intelligence dimension
 6. **Sep 26 Triple Alignment:** Theory origin day = Epstein docs + Netanyahu + CSIS CRINK analysis
 
+## Files Added via Claude Code
+
+### Statistical Verification (Jan 11, 2026)
+- `VERIFICATION_REPORT_Jan2026.md` - Independent statistical validation of all core findings
+- `DISCREPANCY_ANALYSIS.md` - Methodology transparency and correlation value reconciliation
+- `independent_statistical_verification.py` - Complete verification script (6 statistical tests)
+- `reproduce_original_correlation.py` - Targeted replication of original methodology
+- `TRANSPARENCY_NOTE_FOR_2026_ANALYSIS.md` - Ready-to-integrate methodology documentation
+
+### Operator Analysis (Jan 12, 2026)
+- `Graham_Venezuela_Posts_Timeline.csv` - Timeline of Lindsey Graham's Venezuela advocacy (14 events, Oct 2025-Jan 2026)
+- `Graham_Venezuela_Analysis.md` - Comprehensive case study validating convergence model with operator positioning
+
+### Allied Defection Research (Jan 12, 2026)
+- `05_Geopolitical_Vectors/Global_Election_Analysis.md` - Systematic analysis of Australia (2022), UK (2024), Canada (2025) pivots toward China
+
+### Resistance Analysis (Jan 12, 2026)
+- `success_rate_by_month.csv` - Monthly compliance success rates and resistance indicator counts
+- `resistance_indicators.md` - 25-page analysis of compliance outcomes and resistance patterns (Dec 2025-Jan 2026)
+
+All files include complete source documentation and reproducible methodology.
+
 ---
 
 ## For Researchers
@@ -331,4 +353,4 @@ GitHub: [@Leerrooy95](https://github.com/Leerrooy95)
 
 ---
 
-*Last updated: January 11, 2026*
+*Last updated: January 12, 2026*
