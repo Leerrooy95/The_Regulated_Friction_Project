@@ -1,4 +1,4 @@
-# Epstein Files Uses Theory v7.7
+# The Regulated Friction Project v7.8
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -231,6 +231,16 @@ All files include complete source documentation and reproducible methodology.
 
 ---
 
+## Whats New v7.8
+
+**Updated repository name and description.**
+
+**Previously added David Barnes analysis.**
+
+**Previously added folder to share my SuperGrok daily tasks and monthly analysis updates.**
+
+---
+
 ## For Researchers
 
 ### Start Here
@@ -353,4 +363,4 @@ GitHub: [@Leerrooy95](https://github.com/Leerrooy95)
 
 ---
 
-*Last updated: January 12, 2026*
+*Last updated: January 15, 2026*
