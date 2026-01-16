@@ -28,7 +28,7 @@ Investigators should audit all physical protests occurring near "Institutional C
 
  * The "Rate Card" Precedent: Use of tiered payment structures for speaking vs. non-speaking roles (Reference: Entergy New Orleans Case).
 
- * Pre-Paid Debit Cards: The presence of standardized, untraceable payment cards on detained participants—the "Smoking Gun" of the FaaS supply chain.
+ * Pre-Paid Debit Cards: The presence of standardized, untraceable payment cards on detained participants—the a strong indicator of the FaaS supply chain.
 
  * Dual-Use Cover Stories: Events using apolitical themes (e.g., the Jan 15 Bethesda "Pop Culture" event) to mask the deployment of street teams influencing energy and tech disputes.
 
