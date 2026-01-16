@@ -58,4 +58,4 @@ Data confirms a 50.7% surge in kinetic events during the critical period of Dece
 
 ---
 
-Last updated: January 15, 2025
+Last updated: January 15, 2026
