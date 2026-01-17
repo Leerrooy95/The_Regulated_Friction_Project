@@ -4,6 +4,8 @@
 
 https://github.com/Leerrooy95/Sovereign-Capital-Audit
 
+**Last updated; January 17, 2026**
+
 ---
 
 ## Executive Summary: The "Heat Sink" Hypothesis
@@ -64,6 +66,60 @@ Despite "anti-establishment" branding, Malik maintains high-level access to inst
 
  * Observation: This silence aligns with the report's finding that key "anti-establishment" figures are structurally integrated into the Vendor-State capital flows they ostensibly critique.
 
- * ---
+ ---
 
- Last updated January 15, 2026
+## How to Interpret This Model
+
+**This diagram illustrates the "Media Firewall" architecture, creating a structural buffer between Sovereign Capital and public influence.**
+
+ * The Hidden Layer (L1 & L2): Represents the ultimate underwriters of the "Vendor-State," primarily Gulf and East Asian Sovereign Wealth Funds (e.g., PIF, Sanabil, SoftBank). These entities provide the "Patient Capital" required for the process.
+
+ * The Visible Layer (L3 & L4): Represents the domestic interface.
+
+  * Level 3 (Intermediary): The "Prime Brokerage" class or Venture Capitalists (e.g., 1789 Capital, Wilks Brothers) who manage the capital deployment. This layer enforces the "structural prohibition" against auditing the financial system.
+  * Level 4 (Platform): The consumer-facing media brands (e.g., Tucker Carlson Network, The Daily Wire, PublicSq).
+
+ * The Individual: The high-visibility influencer (for example; Tucker, Candace, Kanye) who functions as a "Heat Sink".
+
+## Critical Insight:
+
+**The "Validation Flow" (Upstream) explains the transaction: The Individual directs populist energy outward (at NATO, for example) to generate "Soft Power" for the Sovereign, while the "Capital Flow" (Downstream) ensures the Individual remains silent on the "Financial Architecture" (L3) that funds them.**
+
+---
+
+## The "Layered Distance" Model
+
+**The network relies on a four-tier architecture to separate the capital source from the cultural output, utilizing a "Fund of Funds" mechanism to obscure direct links and maintain "Binary Immunity."**
+
+```mermaid
+graph TD
+    %% Subgraphs to emphasize the Separation of Church and State
+    subgraph "The Hidden Layer (Sovereign Origin)"
+        L1[Level 1: Sovereign Wealth Fund]
+        L2[Level 2: Fund of Funds<br/>State-Owned Subsidiary]
+    end
+
+    subgraph "The Visible Layer (Market Interface)"
+        L3[Level 3: Regional VC/PE Firm<br/>Active Manager]
+        L4[Level 4: Portfolio Company<br/>Consumer Brand/Asset]
+    end
+    
+    %% External Nodes
+    Individual[("Individual / Cultural Icon")]
+    Talent[Shared Creative Talent]
+
+    %% Capital Flows (Downstream)
+    L1 == "Strategic Mandate" ==> L2
+    L2 -->|Anchor Investment| L3
+    L3 -->|Series A/B Funding| L4
+
+    %% Validation Flows (Upstream)
+    Individual -->|Brand Validation & Hype| L4
+    L4 -.->|Revenue & Market Share| L3
+    L3 -.->|Economic Diversification| L2
+    L2 -.->|Soft Power & Legitimacy| L1
+
+    %% The Personnel Bridge
+    L4 -.->|Incubated Talent| Talent
+    Talent -.->|Hired by| Individual
+
