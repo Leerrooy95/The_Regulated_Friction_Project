@@ -1,5 +1,9 @@
 # The Media Firewall
 
+**Related Repo:**
+
+https://github.com/Leerrooy95/Sovereign-Capital-Audit
+
 ---
 
 ## Executive Summary: The "Heat Sink" Hypothesis
