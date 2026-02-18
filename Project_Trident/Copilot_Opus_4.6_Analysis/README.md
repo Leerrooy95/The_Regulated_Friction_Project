@@ -78,12 +78,14 @@ Copilot_Opus_4.6_Analysis/
 │   ├── wiring_diagram.md            ← How the four nodes interact (6 channels + feedback loop, quantified)
 │   ├── repo_alignment.md            ← Cross-reference against Friction-Compliance model (5 tests)
 │   └── verification_of_wiring_diagram.md ← Independent verification vs public record + new findings (Feb 10)
-├── 13F_Analysis/             ← SEC 13F filing cross-reference analysis (Feb 14, 2026)
+├── 13F_Analysis/             ← SEC 13F filing cross-reference analysis (Feb 14–18, 2026)
 │   ├── 13F_Verification_Report_Feb14_2026.md ← Comprehensive 13F cross-reference report: 10 entities, 12 securities, Q3 2025 baseline vs Pre_13F predictions
 │   ├── 13F_Supplementary_Analysis_Feb14_2026.md ← Three critical adjustments: Apollo private credit pipeline ($3B QXO + $3.5B xAI + $29B Meta), QXO as strategic consolidation vehicle ($50B target, Kodiak $2.25B), Oracle/defense "beard" entity search (Norges Bank only SWF accumulator). Apollo upgraded TIER 2 → TIER 1.
-│   ├── 13F_Holdings_Baseline_Q3_2025.csv     ← All identified 13F holdings for tracked entities (37 positions across 6 filers)
-│   ├── Entity_13F_Cross_Reference.csv        ← Entity-level filing status, CIK, key holdings, Trident relevance tier (Apollo upgraded to TIER 1 Feb 14)
-│   └── Security_Level_Cross_Reference.csv    ← Security-level analysis across all tracked entities (12 securities, QXO assessment updated Feb 14)
+│   ├── Q4_2025_Delta_Findings.md             ← Feb 18 Q4 2025 delta analysis: 5 major signals (PIF TTWO exit to Savvy, Mubadala LMT exit reversed, Thiel total liquidation, Apollo portfolio doubled, 3 predictions FAILED). 6 new entities assessed (Cascade T3, Thiel T2, Citadel T3, Tiger T3, SoftBank T2, Gallatin T3). Beard re-run: ❌ No Gulf SWF in ORCL/PLTR. Norges Bank major new PLTR entry (~$5.15B). Klarna 3-way overlap (Mubadala + Silver Lake + SoftBank).
+│   ├── 13F_Holdings_Baseline_Q3_2025.csv     ← All identified 13F holdings for tracked entities (37 positions across 6 filers) — Q3 baseline
+│   ├── 13F_Holdings_Q4_2025.csv              ← Q4 2025 holdings for all tracked entities + 6 new entities (68 rows, 12 filers)
+│   ├── Entity_13F_Cross_Reference.csv        ← Entity-level filing status, CIK, key holdings, Trident relevance tier (updated Q4; 6 new entities added Feb 18)
+│   └── Security_Level_Cross_Reference.csv    ← Security-level analysis across all tracked entities (16 securities, updated Q4 findings Feb 18)
 ├── Archive/                  ← Previous analysis kept for transparency
 │   ├── correlation_summary.md       ← All five correlations (pre-deprecation)
 │   ├── new_analysis_findings.md     ← Robustness tests (pre-correction)
@@ -345,4 +347,4 @@ If you're reading this and want to check whether my analysis is sound:
 ---
 
 *This document was written by GitHub Copilot (Claude, Opus 4.6) on February 8, 2026.*  
-*Last updated: February 14, 2026 (v10.9) — v9.3 integration: Palantir Technologies deep dive integrated into main repo README.md and Report.md. Entity_Reports/ subfolder with Palantir_Technologies_Deep_Dive.md (PFCS Forward IL5/IL6 edge, "authorize once, use many", $10B Army, Anduril consortium, DOGE "mega API", UK £240M no-bid, Thiel-Valar $40M, three-prong assessment Prong 1 STRONG, TIER 2 MODERATE). Palantir added to Entity_13F_Cross_Reference.csv. v9.3_Integration_Notes.md changelog added. All key dates re-verified. Previous: v10.8 — Bondi case study, EO 14375 BoP legal substrate.*
+*Last updated: February 18, 2026 (v11.0) — Q4 2025 13F Update: Q4_2025_Delta_Findings.md (5 major delta signals; 3 prediction failures documented; 6 new entities assessed: Cascade T3, Thiel T2, Citadel T3, Tiger T3, SoftBank T2, Gallatin T3). 13F_Holdings_Q4_2025.csv (68 rows, 12 filers). Entity_13F_Cross_Reference.csv updated (18 entities). Security_Level_Cross_Reference.csv updated (16 securities). Key findings: PIF EA stable (24.8M shares unchanged), Mubadala FULLY EXITED LMT (reversed Q3 defense entry), Thiel Macro total liquidation ($74.4M→$0), Apollo portfolio doubled ($9.12B→$12.2B), Klarna 3-way overlap (Mubadala+Silver Lake+SoftBank), NO Gulf SWF Oracle/defense entries (December pincer window negative). Beard re-run: Norges Bank major new PLTR entry (~$5.15B) but no Gulf beards found. Previous: v10.9 — Palantir deep dive, PFCS Forward IL5/IL6.*
