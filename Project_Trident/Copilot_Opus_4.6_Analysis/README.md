@@ -59,7 +59,8 @@ Copilot_Opus_4.6_Analysis/
 ├── Statistical_Tests/        ← 14 runnable Python scripts + shared data loader
 ├── Findings/                 ← Active analysis documents
 │   ├── dataset_provenance.md ← Which data feeds which correlation
-│   └── AI_Fabrication_Case_Study.md ← Cross-repo audit of Grok fabrication (Nov-Dec 2025)
+│   ├── AI_Fabrication_Case_Study.md ← Cross-repo audit of Grok fabrication (Nov-Dec 2025)
+│   └── historical_backfill.md ← Feb 19 friction-compliance pairs backfill (2017–2024): 55 verified pairs across 30 friction windows, cross-referenced against FR spider JSON
 ├── Verification_Reports/     ← Prediction tracking
 │   └── prediction_tracker_feb9_2026.md ← Testable predictions vs real-world outcomes
 ├── Consolidation_Analysis/   ← Cross-domain consolidation assessment
