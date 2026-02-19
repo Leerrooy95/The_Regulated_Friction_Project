@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** February 14, 2026
-**Version:** v9.3
+**Last Updated:** February 19, 2026
+**Version:** v9.4
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -733,6 +733,65 @@ See `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technolog
 
 ---
 
+## Q4 2025 13F Delta Analysis & Board of Peace Summit (v9.4)
+
+### What This Section Covers
+
+Previous sections documented friction-compliance patterns, administrative consolidation, enforcement architecture, financial pipelines, the manufactured indispensability thesis, the Bondi hearing case study, and the Palantir defense tech consolidation. This section integrates Q4 2025 13F delta findings — testing three predictions against actual SEC filing data — and documents the Board of Peace inaugural summit outcomes (Feb 19, 2026).
+
+### Q4 2025 13F Delta Findings (Feb 18, 2026)
+
+Comprehensive analysis of Q4 2025 13F filings (filed Feb 13–17, 2026) against the Q3 baseline. 18 entities tracked, 68 holdings documented, 6 new entities assessed.
+
+| Signal | Detail | Assessment |
+|--------|--------|------------|
+| **PIF exits Take-Two** | 11.4M TTWO shares transferred to Savvy Games Group (PIF subsidiary). PIF portfolio $19.4B → $12.95B. EA shares unchanged (24.8M, deal locked). | Structural, not a loss — gaming consolidated under subsidiary |
+| **Mubadala exits LMT** | FULLY reversed Q3's "first defense entry." 18,554 shares → 0. Zero direct US defense. Added Adobe ($8M), Pony AI ($25.3M). | 🚩 **Opposite** of predicted pattern |
+| **Mubadala IBIT +46%** | Bitcoin ETF: 8.7M → 12.7M shares ($567M → $630.6M). Al Warda (Abu Dhabi Investment Council) holds 8.2M shares ($408M). Combined ~$1.04B. | Abu Dhabi sovereign complex = largest known sovereign Bitcoin ETF holder |
+| **Thiel Macro total liquidation** | $74.4M (TSLA/MSFT/AAPL) sold to $0. Founders Fund also exited ETHZilla. All investments now private. | 13F rendered irrelevant by design |
+| **Apollo portfolio doubled** | 53 → 108 positions. AUM $9.12B → $12.2B (+33.8%). EchoStar +330%. New SMH puts. | Credit book ($938B AUM) remains primary signal |
+| **Norges Bank PLTR** | ~28.97M shares (~$5.15B) — world's largest SWF. Major new sovereign entry. | Norwegian, NOT Gulf — Gulf SWF absence confirmed |
+| **LCID resolved** | 1-for-10 reverse stock split (Aug 29, 2025) explains ~1.77B → ~177M share count. | ✅ Data conflict resolved — corporate action, not position change |
+
+### Three Predictions Tested — All Three FAILED
+
+| Prediction | Result | Explanation |
+|-----------|--------|-------------|
+| PIF EA position change | ❌ No change | EA shareholders approved $55B take-private Dec 2025. Position locked as roll-over stake. |
+| Mubadala defense expansion | ❌ Reversed | Mubadala fully exited LMT; added tech/AI instead. Q3 defense entry was exploratory, not strategic. |
+| Gulf SWF Oracle/defense entries | ❌ Not found | Only Norges Bank (Norway) accumulating ORCL (+13.76%) and PLTR. No Gulf SWF entries. |
+
+**Framework impact:** Three failed predictions do not invalidate the broader framework. They demonstrate that: (1) locked deal positions are stable by design; (2) Q3 defense entries should not be over-weighted as trend indicators; (3) Gulf SWF capital may route through non-13F-visible channels (managed mandates, private structures, confidential treatment). Negative findings are findings — the absence of predicted patterns is data.
+
+### Cross-Entity Signals (Q4 2025)
+
+- **Klarna 3-way overlap:** Mubadala (~$110M) + Silver Lake (~$530M) + SoftBank (size unknown) — strongest cross-entity equity signal. Silver Lake is a known Mubadala LP investor; SoftBank has ARM/Mubadala structural link.
+- **Apollo-QIA GBTG overlap:** Apollo initiated new GBTG position; QIA holds 16.6% via 13D/13G. Two TIER 1 entities in same security.
+- **Tiger Global-Apollo cross-holding:** Tiger Global holds ~$899M in APO stock — major tech growth fund exposed to the credit backbone entity.
+
+### Board of Peace Inaugural Summit (Feb 19, 2026)
+
+The Board of Peace held its first summit at the US Institute of Peace in Washington, D.C. on February 19, 2026.
+
+| Element | Detail |
+|---------|--------|
+| **Attendance** | ~50 countries represented; 40+ sent official delegations (EU included) |
+| **Pledges** | $7B from 9 countries (Kazakhstan, Azerbaijan, UAE, Morocco, Bahrain, Qatar, Saudi Arabia, Uzbekistan, Kuwait) |
+| **US commitment** | Additional $10B pledged |
+| **Gap** | $70B estimated reconstruction need vs. $7B pledged = **10% funded** |
+| **Troops** | Indonesia remains only country firmly committing troops for proposed stabilization force |
+| **Declined** | Several top US allies declined, citing constitutional incompatibilities and concerns about bypassing UN peacekeeping |
+| **Membership** | $1B = permanent membership confirmed in reporting (TIME, Axios) |
+| **Leadership** | Trump chaired; executive committee includes Kushner, Rubio, Witkoff, Blair |
+
+**Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) the ISF troop commitment gap (Indonesia only) raises questions about enforcement capacity for the governance body.
+
+**What this does NOT claim:** The summit's outcomes are documented as observed facts. Whether the financial commitments represent genuine reconstruction investment or strategic positioning is an interpretive question.
+
+See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` for full Q4 delta analysis.
+
+---
+
 ## CRINK Integration
 
 CRINK (China-Russia-Iran-North Korea) actors appear as primary beneficiaries across all three layers:
@@ -801,8 +860,9 @@ Key datasets:
 - `Project_Trident/Best_Data_For_Project_Trident/ritual_events_parsed.csv` — Project Trident ritual timing
 - `New_Data_2026/` — Updated datasets for raw event count analysis (8 datasets)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Baseline_Q3_2025.csv` — Q3 2025 13F holdings (37 positions, 6 filers)
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Entity_13F_Cross_Reference.csv` — Entity-level Trident relevance tiers
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Security_Level_Cross_Reference.csv` — Security-level cross-entity analysis
+- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Q4_2025.csv` — Q4 2025 13F holdings (68 rows, 12 filers)
+- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Entity_13F_Cross_Reference.csv` — Entity-level Trident relevance tiers (18 entities)
+- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Security_Level_Cross_Reference.csv` — Security-level cross-entity analysis (16 securities)
 
 ---
 
@@ -812,13 +872,13 @@ Key datasets:
 |-----------|-----------|--------|---------------|
 | Event clustering at next file deadline | Ongoing | ✅ Confirmed (Jan 30-Feb 1: Epstein files + WLFI deal + Mandelson) | Media cycle tracking |
 | Tu BiShvat policy action | Feb 1-2, 2026 | ✅ Window confirmed (DOJ files + WLFI deal) | Policy/funding shifts |
-| Gulf SWF Q4 positioning revealed | Feb 14, 2026 | ⚠️ Q3 baseline established; Q4 filings due Feb 17+ (critical test) | SEC EDGAR, 13F_Analysis/ |
+| Gulf SWF Q4 positioning revealed | Feb 14, 2026 | ❌ RESOLVED — No Gulf SWF in Oracle/defense; only Norges Bank accumulating ORCL (+13.76%) and PLTR (~$5.15B) | SEC EDGAR, 13F_Analysis/ |
 | DOGE-predicted instability | Q1 2026 | Tracking (Mali, Syria, Sudan) | Situation monitoring |
 | California TikTok investigation findings | Q1 2026 | Pending | AG office |
 | Khanna Congressional investigation findings | March 2026 | Document deadline March 1 | Congressional record |
 | UK Mandelson disclosure | Feb-March 2026 | ✅ Escalated (Met Police criminal investigation; parliamentary vote passed) | UK Hansard |
-| Board of Peace first summit | Feb 19, 2026 | ✅ Confirmed (TIME, Politico, Axios — fundraising for Gaza reconstruction) | White House, Institute of Peace |
-| Board of Peace = "Board of Profits" | Feb 2026 | ✅ Confirmed (American Prospect; forensic vetting supports commercial thesis) | Senate Finance Committee, court filings |
+| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries, $7B pledged, $10B US; Indonesia only troop commitment | TIME, Axios, AP |
+| Board of Peace = "Board of Profits" | Feb 2026 | ✅ Confirmed ($1B = permanent membership confirmed; American Prospect) | Senate Finance Committee, court filings |
 | West Bank annexation acceleration | Feb 2026 | ✅ Confirmed (Feb 8 cabinet vote — de facto annexation per Al Jazeera, OHCHR) | Israeli cabinet records, OHCHR |
 | Al-Tanf withdrawal / Iran concession | Feb 11, 2026 | ✅ Confirmed (withdrawal) / ⚠️ Causal link partially verified | CENTCOM, regional reporting |
 | Arkansas PSC order text release | Q1 2026 | FOIA pending | State records |
@@ -828,9 +888,9 @@ Key datasets:
 | 1789 Capital → Anduril → WDS 2026 | Feb 2026 | ✅ Confirmed (1789 Capital investor in Anduril; Pulsar EW system at WDS 2026) | Fox Business, Army Recognition |
 | NTEU court-ordered position list disclosure | Feb 27, 2026 | Pending — first public view of which jobs lose protections | Court records |
 | Schedule Policy/Career implementation | Mar 9, 2026 | Pending — ~50,000 positions become at-will | Federal Register, OPM |
-| Q4 2025 13F: PIF EA position change | Feb 17+, 2026 | Pending — did EA change from 24.8M shares? | SEC EDGAR |
-| Q4 2025 13F: Mubadala defense expansion | Feb 17+, 2026 | Pending — did Mubadala's LMT increase? New defense/AI entries? | SEC EDGAR |
-| Q4 2025 13F: Gulf SWF Oracle/defense entries | Feb 17+, 2026 | Pending — critical test of December pincer window | SEC EDGAR |
+| Q4 2025 13F: PIF EA position change | Feb 17+, 2026 | ❌ NO CHANGE — 24,807,932 shares stable (deal locked for $55B take-private) | SEC EDGAR |
+| Q4 2025 13F: Mubadala defense expansion | Feb 17+, 2026 | ❌ REVERSED — Mubadala FULLY EXITED LMT (18,554 shares → 0). Zero direct US defense. | SEC EDGAR |
+| Q4 2025 13F: Gulf SWF Oracle/defense entries | Feb 17+, 2026 | ❌ NOT FOUND — December pincer window produced no visible Gulf SWF accumulation | SEC EDGAR |
 | QXO further acquisitions | 2026 | Tracking — $10B M&A war chest, "very active" pipeline | QXO IR, SEC filings |
 | EO 14375 legal challenge (IOIA authorization) | 2026 | Pending — Just Security questions Congressional authorization | Court filings, Congress.gov |
 | Feb 11 compliance density repeat at next hearing | Ongoing | Pending — Bondi case study predicts pattern recurrence | Transcript review, Federal Register |
@@ -847,6 +907,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 - Run robustness tests in `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` for full verification suite
 - Review `Archive/Repository_Synthesis.md` for the original three-layer framework (archived — Layers 2-3 used fabricated data)
 - See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Verification_Report_Feb14_2026.md` for 13F baseline (10 entities, 12 securities, Q3 2025)
+- See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` for Q4 2025 delta (18 entities, 68 holdings, 3 predictions tested)
 - See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Supplementary_Analysis_Feb14_2026.md` for Apollo credit pipeline, QXO consolidation, beard search
 - See `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md` for enforcement architecture verification and ISF command structure
 - See `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` for "Semiotic Bridge" forensic node analysis
@@ -861,7 +922,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 - See `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` for Q1 2026 applied findings
 
 ### Journalists/Policymakers
-- Start with `How_This_Happened-A_Policy_Breif.md` for regulatory questions
+- Start with `14_Files/How_This_Happened-A_Policy_Brief.md` for regulatory questions
 - See `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md` for ISF command structure and enforcement architecture verification
 - See `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` for 1789 Capital as "Semiotic Bridge" (Media + Finance + Defense)
 - See `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` for Board of Peace forensic vetting and verified capital pipeline
@@ -885,8 +946,8 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 ### Skeptics
 - The claim is narrow: clustering exists and is statistically significant
-- Alternative explanations are documented in `Alternate_Mechanisms.md`
-- Methodology transparency documented in `TRANSPARENCY_NOTE_FOR_2026_ANALYSIS.md`
+- Alternative explanations are documented in `14_Files/Alternate_Mechanisms.md`
+- Methodology transparency documented in `14_Files/TRANSPARENCY_NOTE_FOR_2026_ANALYSIS.md`
 - Robustness tests (permutation, autocorrelation adjustment, Dec 2025 exclusion, normalization) documented in `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/new_analysis_findings.md`
 - Fork the repo and run your own analysis — core scripts in `Run_Correlations_Yourself/`, robustness scripts in `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
 
@@ -896,7 +957,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 ## Summary
 
-This research documents eleven connected patterns:
+This research documents twelve connected patterns:
 
 **The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004) in the 30-week hand-scored dataset. This finding is confirmed by the multi-dataset Spearman rank correlation (ρ = 0.61, p < 0.0001) across 2,951 events from all repository datasets. Robustness testing confirms the signal survives permutation testing (p < 0.001), Granger causality shows friction → compliance at lag 1 (p = 0.0008), and binary presence/absence correlation is r = 0.59. The Spearman rank-order pattern is robust to December 2025 exclusion (ρ = 0.60), though Pearson r on expanded event counts (r = 0.11) is sensitive to 2025 concentration.
 
@@ -920,6 +981,8 @@ This research documents eleven connected patterns:
 
 **The defense tech consolidation & Palantir information layer (Feb 14, 2026):** Palantir Technologies occupies a structural position parallel to Apollo (credit layer) — as the **information layer** in the Manufactured Indispensability framework. DISA's PFCS Forward authorization (Feb 12, 2026) established an "authorize once, use many" inheritable security model covering IL5/IL6 edge deployments — a Prong 1 STRONG match for regulatory moat creation. This authorization fell within the Feb 8-19 convergence window, 1 day after the Bondi hearing. The Palantir-Anduril consortium (Dec 6, 2024) — both Thiel-backed, both Tolkien-named — formally challenges legacy defense contractors and expands to include SpaceX, OpenAI, and Scale AI, creating a consolidated defense tech axis. DOGE-Palantir integration is verified: Palantir building a "mega API" at IRS for data centralization, Treasury awarded a "unified API layer" contract (Sep 2025), and federal contracts nearly doubled ($541.2M → $970.5M, 2024-2025). UK integration includes £670M+ in contracts and a £240M MoD contract awarded without competitive tender. The Thiel-Epstein-Valar connection ($40M investment, verified via DOJ files) runs through Thiel's personal vehicle — NO direct Palantir equity link to Epstein. Palantir is assessed at TIER 2 MODERATE with defined upgrade conditions (Gulf SWF discovery, BoP direct involvement, DOGE contract expansion confirmation). IDF strategic partnership (Jan 2024) is verified; connection to specific targeting systems is correlation, not confirmed causation.
 
+**The 13F prediction test & Board of Peace summit outcomes (Feb 18-19, 2026):** Three Q3-based 13F predictions were tested against Q4 2025 data — all three FAILED. PIF's EA position was unchanged (deal locked), Mubadala fully reversed its defense entry (exiting LMT entirely), and no Gulf SWF Oracle/defense entries materialized. The failures are documented as findings: negative results are data. Separately, Mubadala's Bitcoin ETF position surged 46% ($567M → $630.6M), and combined with Al Warda Investments, the Abu Dhabi sovereign complex now controls ~$1.04B in BlackRock's IBIT — making it the largest known sovereign Bitcoin ETF holder. Thiel Macro LLC fully liquidated all public equities ($74.4M → $0), moving entirely into private vehicles. The Board of Peace inaugural summit (Feb 19) drew ~50 countries and secured $7B in pledges from 9 countries plus $10B from the US, against an estimated $70B reconstruction need (10% funded). The $1B permanent membership fee was confirmed in reporting. Indonesia remains the only country firmly committing troops. Several US allies declined, citing constitutional objections and concerns about bypassing UN peacekeeping. The summit outcomes reinforce the "Board of Profits" thesis — the donor list maps directly to Gulf SWF entities tracked in the project's 13F analysis.
+
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
 The data is public. The code is public. The claims are reproducible and sourced.
@@ -940,4 +1003,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 14, 2026 (v9.3). Integrated Palantir Technologies entity report (PFCS Forward IL5/IL6 edge authorization Feb 12, $10B Army contract, Anduril consortium, DOGE "mega API", UK £240M no-bid, Thiel-Valar $40M verified, TIER 2 MODERATE). Three-prong assessment: Prong 1 STRONG, Prong 2 PARTIAL, Prong 3 PARTIAL. Defense tech consolidation axis documented (Palantir-Anduril-Oracle). Palantir added to Manufactured Indispensability table as "Data/Intelligence" layer. Feb 12 PFCS Forward added to Feb 8-19 convergence window. All key dates re-verified (BoP summit Feb 19 ✅, Schedule P/C Mar 9 ✅, NTEU Feb 27 ✅, Khanna Mar 1 ✅). Summary expanded from ten to eleven connected patterns.*
+*This report was last updated February 19, 2026 (v9.4). Q4 2025 13F delta analysis: 18 entities tracked, 68 holdings, 3 predictions FAILED (PIF EA stable, Mubadala defense reversed, no Gulf SWF Oracle/defense). Mubadala IBIT +46% ($630.6M; Abu Dhabi complex ~$1.04B in Bitcoin ETF). Thiel Macro total liquidation. Apollo portfolio doubled ($12.2B). LCID data conflict resolved (reverse stock split). Board of Peace inaugural summit held (Feb 19): ~50 countries, $7B pledged, $10B US, Indonesia only troop commitment, $1B = permanent membership confirmed. Summary expanded from eleven to twelve connected patterns.*

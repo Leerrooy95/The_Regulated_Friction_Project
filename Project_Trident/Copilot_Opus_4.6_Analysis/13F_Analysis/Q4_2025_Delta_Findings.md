@@ -48,7 +48,7 @@ Q4 2025 13F filings reveal **five major delta signals** against the Q3 baseline:
 |----------|--------|-----------|-----------|----------|----------|--------|
 | Uber Technologies | UBER | 72,840,541 | 72,840,541 | $6.80B | $5.95B | ✅ Shares stable; value down (market) |
 | Electronic Arts | EA | 24,807,932 | 24,807,932 | $3.96B | $5.07B | ✅ Shares stable; value UP |
-| Lucid Group | LCID | ~1,770,888,684 | ~177,088,868 | $3.74B | $1.87B | ⚠️ DATA CONFLICT — see note |
+| Lucid Group | LCID | ~1,770,888,684 | ~177,088,868 | $3.74B | $1.87B | ✅ RESOLVED — 1-for-10 reverse stock split (Aug 29, 2025) |
 | Take-Two Interactive | TTWO | 11,414,680 | 0 | $2.77B | $0 | 🚩 EXITED (transferred to Savvy Games) |
 | Allurion Technologies (warrants) | ALUR | 0 | ~1,100,000 | $0 | Unknown | NEW — small warrant position |
 | Clarivate | CTEV | 0 | ~1,300,000 | $0 | ~$54.8M | NEW — small position |
@@ -56,7 +56,7 @@ Q4 2025 13F filings reveal **five major delta signals** against the Q3 baseline:
 **Key Findings:**
 - **TTWO Transfer:** PIF transferred 11,414,680 Take-Two shares to Savvy Games Group (PIF subsidiary) in December 2025. The shares are still PIF-controlled but no longer appear on PIF's direct 13F. This consolidates PIF's gaming assets under its dedicated gaming subsidiary.
 - **EA Stability:** EA shares UNCHANGED at 24,807,932. Shareholders approved the $55B take-private in December 2025. PIF will roll over its existing 9.9% stake into the deal. No accumulation or reduction — consistent with a locked deal.
-- **LCID Data Conflict:** ⚠️ Q3 baseline shows ~1.77B shares; Q4 data shows ~177M shares. This is a 10x difference that could indicate a reverse stock split, share consolidation, or reporting methodology change. The ~50% value decline ($3.74B → $1.87B) may be partially explained by market movement, but the share count discrepancy requires independent verification against SEC filings before treating as definitive.
+- **LCID Data Conflict — RESOLVED:** ✅ Q3 baseline shows ~1.77B shares; Q4 data shows ~177M shares. This 10x difference is explained by Lucid Group's **1-for-10 reverse stock split** effective August 29, 2025 (approved at special shareholder meeting August 18, 2025). The share count change is a corporate action, not a position reduction. The ~50% value decline ($3.74B → $1.87B) reflects market price movement post-split. PIF retains 60%+ ownership of Lucid.
 - **New Small Positions:** Allurion (medtech warrants) and Clarivate (data analytics) are both small, non-strategic entries.
 - **Tier Assessment:** TIER 1 — CRITICAL (unchanged). EA consortium role remains primary signal.
 
@@ -69,7 +69,7 @@ Q4 2025 13F filings reveal **five major delta signals** against the Q3 baseline:
 | Security | Ticker | Q3 Status | Q4 Status | Change |
 |----------|--------|-----------|-----------|--------|
 | GlobalFoundries | GFS | 450.4M shares, $16.14B | 450.4M shares, ~$16.14B | ✅ Stable |
-| iShares Bitcoin Trust | IBIT | 8.7M shares, $567M | Maintained, ~$567M | ✅ Stable |
+| iShares Bitcoin Trust | IBIT | 8.7M shares, $567M | 12.7M shares, ~$630.6M | 🚩 +46% increase |
 | Blue Owl Tech Finance | OTF | 29.1M shares, $403M | 29.1M shares, ~$402.6M | ✅ Stable |
 | ARM Holdings | ARM | 1.5M shares, $213M | 1.5M shares, ~$212.5M | ✅ Stable |
 | Klarna | KLAR | 3.0M shares, $110M | Maintained, ~$110M | ✅ Stable |
@@ -89,6 +89,10 @@ This is the **opposite** of the predicted pattern. Rather than expanding into de
 **What was added instead:** Adobe ($8M — creative/enterprise software) and Pony AI ($25.3M — autonomous vehicles). Both are tech/AI, not defense.
 
 **No Oracle, Palantir, or new defense entries found in Q4.**
+
+**NOTABLE FINDING — Bitcoin ETF Expansion:**
+
+Mubadala increased its iShares Bitcoin Trust (IBIT) position by 46% — from 8.7M shares ($567M) in Q3 to 12.7M shares ($630.6M) in Q4. Additionally, Al Warda Investments (another entity under the Abu Dhabi Investment Council/Mubadala umbrella) holds 8.2M shares ($408M) of IBIT. Combined, the Abu Dhabi sovereign complex controls approximately **$1.04B in BlackRock's Bitcoin ETF** — making it the largest known sovereign Bitcoin ETF holder. This expansion occurred during Q4 when Bitcoin dropped ~23%, indicating a contrarian, long-term allocation strategy rather than momentum trading.
 
 **Tier Assessment:** TIER 1 — CRITICAL (unchanged, due to GFS dominance and CHIPS Act implications). Defense signal downgraded from "NOTABLE" to "REVERSED."
 
@@ -322,7 +326,7 @@ The Palantir call/put spread (~$1.73B net call bias) similarly cannot be interpr
 | Entity | Security | Q3 Shares | Q4 Shares | Change % | Flag |
 |--------|----------|-----------|-----------|----------|------|
 | PIF | TTWO | 11,414,680 | 0 (→ Savvy Games) | -100% | 🚩 MAJOR — subsidiary transfer |
-| PIF | LCID | ~1,770,888,684 | ~177,088,868 | ⚠️ DATA CONFLICT | ⚠️ VERIFY — possible reverse split |
+| PIF | LCID | ~1,770,888,684 | ~177,088,868 | -90% (reverse split) | ✅ RESOLVED — 1-for-10 reverse stock split |
 | PIF | EA | 24,807,932 | 24,807,932 | 0% | ✅ Stable |
 | PIF | UBER | 72,840,541 | 72,840,541 | 0% | ✅ Stable |
 | Mubadala | LMT | 18,554 | 0 | -100% | 🚩 MAJOR — reversed Q3 defense entry |
