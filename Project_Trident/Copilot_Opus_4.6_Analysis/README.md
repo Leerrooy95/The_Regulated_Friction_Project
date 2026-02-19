@@ -56,11 +56,12 @@ Copilot_Opus_4.6_Analysis/
 ├── [12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md] ← Feb 12 forensic node analysis: Omeed Malik as "Semiotic Bridge" (1789 Capital pipeline, Fannie Mae board, Silver Lake→Mubadala capital chain, TCN/Daily Caller media loop, xAI/SpaceX/Arkansas corridor, Colombier III SPAC, no Epstein connection, 50+ verified claims)
 ├── [12_The_Media_Firewall/Super_Bowl_LX_Media_Firewall_Case_Study.md] ← Feb 12 case study: Super Bowl LX as Regulated Friction event (Bad Bunny vs. Kid Rock binary, scrutiny gap analysis, 1789 Capital–TPUSA–Gulf SWF connections, 50+ sources)
 ├── [05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md] ← Feb 12 enforcement layer analysis: UG Solutions (private contractor, BoP talks), Pakistan/ISF (SMDA, Khalid-Munir meeting), Palo Alto/CyberArk ($25B merger, TASE dual listing), G42/Microsoft digital infrastructure. Three-pillar privatized security model mapped.
-├── Statistical_Tests/        ← 14 runnable Python scripts + shared data loader
+├── Statistical_Tests/        ← 16 runnable Python scripts + shared data loader
 ├── Findings/                 ← Active analysis documents
 │   ├── dataset_provenance.md ← Which data feeds which correlation
 │   ├── AI_Fabrication_Case_Study.md ← Cross-repo audit of Grok fabrication (Nov-Dec 2025)
-│   └── historical_backfill.md ← Feb 19 friction-compliance pairs backfill (2017–2024): 55 verified pairs across 30 friction windows, cross-referenced against FR spider JSON
+│   ├── historical_backfill.md ← Feb 19 friction-compliance pairs backfill (2017–2024): 66 pairs across 30 friction windows, cross-referenced against FR spider JSON
+│   └── backfill_correlation_results.md ← Feb 19 backfill integration results: merged dataset Pearson/Spearman, lag distribution, 10/10 verification, negligible impact on baseline
 ├── Verification_Reports/     ← Prediction tracking
 │   └── prediction_tracker_feb9_2026.md ← Testable predictions vs real-world outcomes
 ├── Consolidation_Analysis/   ← Cross-domain consolidation assessment
@@ -117,6 +118,8 @@ python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/granger_firs
 python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/granger_discrepancy_investigation.py
 python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/partial_correlation_political.py
 python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/backfill_analysis.py
+python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/backfill_lag_distribution.py
+python3 Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/combined_dataset_correlation.py
 ```
 
 ### `Datasets/`
@@ -360,4 +363,4 @@ If you're reading this and want to check whether my analysis is sound:
 ---
 
 *This document was written by GitHub Copilot (Claude, Opus 4.6) on February 8, 2026.*  
-*Last updated: February 19, 2026 (v11.2) — Future Recommendations completed (5/5): (1) Granger excluding Dec 2025 — bidirectional survives, but ALL Granger disappears without 2025 data; (2) First-differenced Granger — event-count Granger is artifact, but 30-row hand-scored F→C survives at lags 1-2; (3) Hand-scored vs event-count discrepancy — explained by 84-87% zero inflation + intensity vs frequency measurement; (4) Partial correlation with political activity — congressional calendar explains -0.3% (NOT a confound); (5) Backfill guide created with 49 verified 2015-2018 events, minimal correlation impact. 5 new scripts in Statistical_Tests/, 5 new documents in Findings/. Previous: v11.1 — v9.4 Integration.*
+*Last updated: February 19, 2026 (v11.3) — v9.5 Integration: Historical backfill (2017-2024) CSVs, lag distribution analysis, combined dataset correlation, backfill_correlation_results.md. 66 friction→compliance pairs across 8 years, median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Negligible impact on existing correlations (Δr = +0.0012). 2 new scripts in Statistical_Tests/, 1 new document in Findings/. Previous: v11.2 — Future Recommendations completed (5/5).*

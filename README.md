@@ -1,6 +1,6 @@
-# The Regulated Friction Project v9.4
+# The Regulated Friction Project v9.5
 
-A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
+A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
 **New to this project?** See [Glossary.md](14_Files/Glossary.md)
 
@@ -15,7 +15,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.4)](#whats-new-v94---february-2026)
+- [What's New (v9.5)](#whats-new-v95---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -83,6 +83,8 @@ This research uses Pearson correlation (r) to measure relationships between even
 | Q4 2025 13F: 3 predictions tested | EA stable (deal locked), Mubadala defense REVERSED, no Gulf SWF Oracle/defense entries | ❌ All 3 FAILED (Feb 18, 2026) |
 | Mubadala Bitcoin ETF expansion | IBIT +46% (8.7M→12.7M shares, $567M→$630.6M); Abu Dhabi complex ~$1.04B in IBIT | ✅ Verified (Feb 19, 2026) |
 | Board of Peace inaugural summit | ~50 countries, $7B pledged (9 countries), $10B US pledge, 10% of $70B need | ✅ Confirmed (Feb 19, 2026) |
+| Historical backfill (2017-2024) | 66 friction→compliance pairs across 8 years; median lag +7 days; 5 negative windows; 10/10 claims verified | ✅ Verified (Feb 19, 2026) |
+| Backfill correlation impact | Δr = +0.0012 (Pearson), Δρ = +0.0023 (Spearman) — negligible; r = 0.6196 baseline unaffected | ✅ Verified (Feb 19, 2026) |
 
 ---
 
@@ -268,8 +270,8 @@ The_Regulated_Friction_Project/
 │           ├── Changelogs/                           # Version changelogs
 │           │   ├── v9.3_Integration_Notes.md             # v9.3 Palantir integration, verification, and cleanup notes
 │           │   └── v9.2_Integration_Notes.md             # v9.2 integration, verification, and cleanup notes
-│           ├── Statistical_Tests/                     # 9 runnable Python robustness scripts
-│           ├── Findings/                              # Active analysis — provenance, backfill guide
+│           ├── Statistical_Tests/                     # 16 runnable Python robustness scripts
+│           ├── Findings/                              # Active analysis — provenance, backfill guide, backfill results
 │           ├── Verification_Reports/                  # Prediction tracker
 │           ├── Consolidation_Analysis/                # Cross-domain consolidation assessment
 │           ├── FaaS_Signal_Analysis/                  # SuperGrok signal verification + January 2026 signal map
@@ -323,40 +325,35 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v9.4 - February 2026)
+## What's New (v9.5 - February 2026)
 
-### Q4 2025 13F Delta Analysis & Board of Peace Summit Outcomes
+### Historical Backfill Integration (2017-2024)
 
-Comprehensive Q4 2025 13F delta analysis (Feb 18, 2026) and real-time Board of Peace summit integration (Feb 19, 2026). Three Q3-based predictions tested and FAILED — documenting negative findings as data. LCID data conflict resolved. Mubadala Bitcoin ETF expansion identified. Board of Peace inaugural summit outcomes documented.
+Systematic backfill of friction-compliance pairs from 2017-2024, independently verified and integrated into the statistical framework. This extends the dataset's historical coverage and validates the core pattern across 8 additional years.
 
-**Q4 2025 13F Key Findings (18 entities, 68 holdings tracked):**
+**Key findings:**
 
-- **PIF exits Take-Two:** 11.4M TTWO shares transferred to Savvy Games Group (PIF subsidiary). PIF portfolio drops from $19.4B → ~$12.95B. EA shares unchanged at 24.8M ($5.07B) — deal locked.
-- **Mubadala FULLY exits Lockheed Martin:** Reversed Q3's "first defense entry" entirely. Zero direct US defense positions. Added Adobe ($8M) and Pony AI ($25.3M) instead.
-- **Mubadala Bitcoin ETF surge:** IBIT holdings increased 46% — from 8.7M shares ($567M) to 12.7M shares ($630.6M). Combined with Al Warda Investments (Abu Dhabi Investment Council), the Abu Dhabi sovereign complex now controls ~$1.04B in BlackRock's Bitcoin ETF.
-- **Thiel Macro total liquidation:** $74.4M portfolio (TSLA/MSFT/AAPL) sold to zero. All Thiel investments now in private vehicles. 13F rendered irrelevant by design.
-- **Apollo portfolio doubled:** Position count 53 → 108; AUM $9.12B → $12.2B (+33.8%). EchoStar +330%. New semiconductor ETF puts. Credit book ($938B AUM, $305B originated in 2025) remains the primary signal.
-- **Norges Bank PLTR position:** ~28.97M shares (~$5.15B) — world's largest sovereign wealth fund now holds a major Palantir position. NO Gulf SWF entries found in PLTR or ORCL.
-- **Klarna 3-way overlap:** Mubadala (~$110M), Silver Lake (~$530M), SoftBank (size unknown) — strongest cross-entity equity signal.
-- **LCID data conflict RESOLVED:** Lucid Group executed a 1-for-10 reverse stock split (effective Aug 29, 2025). The ~1.77B → ~177M share count change is explained by this corporate action, not a position reduction.
-- **Six new entities assessed:** Cascade (Gates) TIER 3, Thiel Macro TIER 2, Citadel TIER 3, Tiger Global TIER 3, SoftBank TIER 2, Gallatin TIER 3.
-- **Three Q3 predictions FAILED:** EA unchanged (deal locked), Mubadala defense reversed (not expanded), no Gulf SWF Oracle/defense entries found. Negative findings documented as data.
+- **66 friction→compliance pairs** identified across 30 friction windows (2017-2024), cross-referenced against the Federal Register spider JSON
+- **Median lag: +7 days** (mean +6.5 days) — consistent with the existing 2-week lag model
+- **89% of compliance events follow friction** (59/66 positive lags, 5 same-day, 2 negative)
+- **5 confirmed negative windows** (Syria strikes 2017, Parkland 2018, impeachment inquiry 2019, Oct 7 2023, Epstein docs 2024) — methodological validation
+- **10/10 verification claims confirmed** via independent web search (PACT Act, IRA, impeachments, Dobbs, SVB, GA RICO, COVID emergency, CARES Act dates all verified ✅)
+- **Negligible impact on existing correlations:** Δr = +0.0012 (Pearson), Δρ = +0.0023 (Spearman) — **r = 0.6196 baseline is unaffected**
+- **Densest windows:** Jan 6→Inauguration 2021 (22+ EOs across two administrations), travel ban protests 2017 (7 EOs in 12 days), Mar-a-Lago search 2022 (5 compliance events in 8 days)
 
-**Board of Peace Summit Outcomes (Feb 19, 2026):**
+**New files:**
 
-- ~50 countries represented; 40+ sent official delegations (EU included).
-- **$7B pledged** from 9 countries (Kazakhstan, Azerbaijan, UAE, Morocco, Bahrain, Qatar, Saudi Arabia, Uzbekistan, Kuwait). US pledged additional $10B.
-- $70B estimated reconstruction cost vs. $7B pledged = **10% funded**.
-- Indonesia remains only country firmly committed to deploy troops for the proposed stabilization force.
-- Several top US allies declined participation, citing constitutional incompatibilities and concerns about bypassing UN peacekeeping frameworks.
-- $1B = permanent membership confirmed in reporting (TIME, Axios).
-- Executive committee: Kushner, Rubio, Witkoff, Blair.
+- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — All 66 pairs with ISO dates and source URLs
+- `Run_Correlations_Yourself/negative_windows.csv` — 5 confirmed negative windows
+- `Statistical_Tests/backfill_lag_distribution.py` — Lag distribution analysis
+- `Statistical_Tests/combined_dataset_correlation.py` — Merged dataset Pearson/Spearman re-analysis
+- `Findings/backfill_correlation_results.md` — Full results report
 
-See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` for full Q4 delta analysis.
+See `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/historical_backfill.md` for the complete backfill methodology and source data.
 
-### Previous: v9.3 Highlights
+### Previous: v9.4 Highlights
 
-**Palantir Technologies Deep Dive & Defense Tech Consolidation** — Palantir entity report (Feb 14, 2026): PFCS Forward IL5/IL6 edge authorization ("authorize once, use many"), $10B Army contract, Anduril consortium, DOGE "mega API," UK £240M no-bid, Thiel-Valar $40M verified. TIER 2 MODERATE. Three-prong assessment: Prong 1 STRONG, Prong 2 PARTIAL, Prong 3 PARTIAL.
+**Q4 2025 13F Delta & Board of Peace Summit** — 18 entities tracked, 68 holdings, 3 predictions FAILED (negative findings documented as data). Mubadala IBIT +46% ($630.6M; Abu Dhabi complex ~$1.04B in Bitcoin ETF). Thiel Macro total liquidation. LCID reverse split resolved. Board of Peace inaugural summit: ~50 countries, $7B pledged, Indonesia only troop commitment. See `13F_Analysis/Q4_2025_Delta_Findings.md`.
 
 ---
 
@@ -423,10 +420,13 @@ See `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/` for 
 
 ### Statistical Verification
 - `Run_Correlations_Yourself/run_original_analysis.py` — Reproduce original r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002 (pre-2026 data)
+- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — 66 friction→compliance pairs (2017-2024) with source URLs
+- `Run_Correlations_Yourself/negative_windows.csv` — 5 confirmed negative windows
 - `Run_Correlations_Yourself/Wrong_Correlations/` — ⚠️ Archived scripts that used wrong datasets or excluded data (kept for transparency)
 - `Project_Trident/Veriify_Trident_Analysis.py` — Verify ritual timing analysis
-- `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` — 9 robustness test scripts (permutation, autocorrelation, normalization, Dec 2025 exclusion, rolling window, event-study, Granger causality)
+- `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` — 16 robustness test scripts (permutation, autocorrelation, normalization, Dec 2025 exclusion, rolling window, event-study, Granger causality, backfill lag distribution, combined dataset correlation)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/dataset_provenance.md` — Dataset provenance documentation
+- `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/backfill_correlation_results.md` — Backfill integration correlation results
 
 ### Deep Dives by Topic
 - **Q4 2025 13F Delta Analysis (Feb 18, 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md`
@@ -624,4 +624,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 19, 2026 (v9.4) — Q4 2025 13F delta analysis (18 entities, 68 holdings): PIF exits TTWO → Savvy Games, Mubadala fully exits LMT (reversed Q3 defense entry), Mubadala IBIT +46% ($630.6M; Abu Dhabi complex ~$1.04B in Bitcoin ETF), Thiel Macro total liquidation ($0), Apollo portfolio doubled, 3 predictions FAILED (negative findings documented). LCID data conflict resolved (1-for-10 reverse stock split Aug 2025). Board of Peace inaugural summit held (Feb 19): ~50 countries, $7B pledged, $10B US, Indonesia only troop commitment. Norges Bank PLTR ~$5.15B. Klarna 3-way overlap. Loose files organized into `14_Files/`. Summary expanded from eleven to twelve connected patterns.
+**Last updated**: February 19, 2026 (v9.5) — Historical backfill integration (2017-2024): 66 friction→compliance pairs across 8 years, median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact on correlations negligible (Δr = +0.0012). r = 0.6196 baseline unaffected. New CSVs, scripts, and results in Run_Correlations_Yourself/ and Statistical_Tests/.

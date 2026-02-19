@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** February 19, 2026
-**Version:** v9.4
+**Version:** v9.5
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -792,6 +792,93 @@ See `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findin
 
 ---
 
+## Historical Backfill (2017-2024) (v9.5)
+
+### What This Section Covers
+
+The preceding sections documented patterns using data primarily from 2015-2016 and 2019-2026. This section fills the historical gap by systematically identifying friction-compliance event pairs across 2017-2024, cross-referenced against the repo's Federal Register spider JSON.
+
+### Methodology
+
+1. Top 5-10 highest-media-saturation events identified per year using news archives and Wikipedia yearly summaries
+2. ±14 day compliance windows searched for each friction event
+3. EO dates cross-referenced against `federal_register/Spider Output Files/items_federal_register_eo_1.json` (1,000 EOs, 2006-2026)
+4. 10 key claims independently verified via web search (all 10 confirmed ✅)
+5. Negative findings (no compliance in window) reported explicitly
+
+### Key Findings
+
+| Metric | Value |
+|--------|-------|
+| Total friction→compliance pairs | 66 across 30 friction windows |
+| Years covered | 2017-2024 (8 years) |
+| Median lag | +7 days |
+| Mean lag | +6.5 days |
+| Positive lags (compliance follows friction) | 59/66 (89%) |
+| Same-day events | 5/66 |
+| Confirmed negative windows | 5 |
+
+### Lag Distribution
+
+| Lag Range | Count | Percentage |
+|-----------|-------|------------|
+| −3 to 0 days | 7 | 11% |
+| +1 to +3 days | 17 | 26% |
+| +4 to +7 days | 16 | 24% |
+| +8 to +10 days | 10 | 15% |
+| +11 to +14 days | 15 | 23% |
+| +15+ days | 1 | 2% |
+
+### Densest Windows
+
+| Friction Event | Year | Compliance Events |
+|---------------|------|-------------------|
+| Jan 6 Capitol breach → Inauguration | 2021 | 22+ EOs (5 Trump + 17 Biden Day 1) |
+| Travel ban protests | 2017 | 7 EOs in 12 days |
+| FBI Mar-a-Lago search | 2022 | 5 events (CHIPS + PACT + IRA + EO + 13F) |
+
+### Negative Windows (Methodological Validation)
+
+Five friction windows produced **zero** compliance events within ±14 days:
+
+1. **Syria strikes** (2017-04-07) — No EOs in Apr 7-21 window
+2. **Parkland shooting** (2018-02-14) — No EOs in Feb 14-28 window
+3. **Impeachment inquiry announced** (2019-09-24) — No EOs in Sep 24 - Oct 8 window
+4. **Israel-Hamas Oct 7** (2023-10-07) — No EOs in Oct 7-21 window
+5. **Epstein document unsealing** (2024-01-03) — No EOs in Jan 3-17 window
+
+These negatives validate the methodology: the pattern is not universal, and the analysis does not force-fit compliance events into every friction window.
+
+### Impact on Existing Correlations
+
+| Metric | Original | With Backfill | Change |
+|--------|----------|---------------|--------|
+| Pearson r (event-count) | 0.1099 | 0.1111 | +0.0012 |
+| Spearman ρ (event-count) | 0.6067 | 0.6090 | +0.0023 |
+
+**The r = 0.6196 hand-scored baseline is unaffected.** The backfill adds 29 friction and 66 compliance events to the expanded event-count dataset, with negligible correlation impact. The +7 day median lag from the backfill is consistent with the existing 2-week lag model (the hand-scored dataset captures the full window peak, while the backfill captures the median response time).
+
+### Verification
+
+Ten specific claims from the backfill independently verified via web search — all 10 confirmed ✅:
+
+| # | Claim | Verified Date | Status |
+|---|-------|--------------|--------|
+| 1 | PACT Act signed | Aug 10, 2022 | ✅ |
+| 2 | Inflation Reduction Act signed | Aug 16, 2022 | ✅ |
+| 3 | Trump 2nd impeachment House vote | Jan 13, 2021 | ✅ |
+| 4 | Biden signed 17 EOs on Inauguration Day | Jan 20, 2021 | ✅ |
+| 5 | Dobbs v. Jackson decision | Jun 24, 2022 | ✅ |
+| 6 | SVB collapse | Mar 10, 2023 | ✅ |
+| 7 | Trump GA RICO indictment | Aug 14, 2023 | ✅ |
+| 8 | COVID national emergency declared | Mar 13, 2020 | ✅ |
+| 9 | CARES Act signed | Mar 27, 2020 | ✅ |
+| 10 | First Trump impeachment House vote | Dec 18, 2019 | ✅ |
+
+See `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/historical_backfill.md` for the complete backfill with all 66 pairs and source URLs. Structured CSVs at `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` and `Run_Correlations_Yourself/negative_windows.csv`.
+
+---
+
 ## CRINK Integration
 
 CRINK (China-Russia-Iran-North Korea) actors appear as primary beneficiaries across all three layers:
@@ -957,31 +1044,33 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 ## Summary
 
-This research documents twelve connected patterns:
+This research documents thirteen connected patterns:
 
-**The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004) in the 30-week hand-scored dataset. This finding is confirmed by the multi-dataset Spearman rank correlation (ρ = 0.61, p < 0.0001) across 2,951 events from all repository datasets. Robustness testing confirms the signal survives permutation testing (p < 0.001), Granger causality shows friction → compliance at lag 1 (p = 0.0008), and binary presence/absence correlation is r = 0.59. The Spearman rank-order pattern is robust to December 2025 exclusion (ρ = 0.60), though Pearson r on expanded event counts (r = 0.11) is sensitive to 2025 concentration.
+**The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004) in the 30-week hand-scored dataset. Confirmed by multi-dataset Spearman ρ = 0.61 (p < 0.0001) across 2,951 events. Survives permutation testing (p < 0.001), Granger causality at lag 1 (p = 0.0008), and binary presence/absence (r = 0.59). Robust to December 2025 exclusion (ρ = 0.60).
 
-**The structural extension (Q1 2026):** During these same clustering windows, formal institutional mechanisms are being supplemented by private channels — Gulf sovereign capital flowing through US private equity into settlement-linked companies, a pay-to-play governance body bypassing UN frameworks, technical military integration proceeding without bilateral treaties, and territorial reconstruction treated as a privatized real estate venture. At the state level, legislative architecture in Arkansas creates a regulatory environment where denial is procedurally temporary and approval functionally inevitable.
+**The historical backfill (2017-2024):** 66 friction→compliance pairs across 30 friction windows, cross-referenced against the Federal Register spider JSON. Median lag +7 days, 89% positive lags, 5 confirmed negative windows. Backfill impact on existing correlations negligible (Δr = +0.0012). All 10 verification claims confirmed. The pattern holds across 8 additional years of data.
 
-**The signal map (Jan–Feb 2026):** January 2026 full-month analysis identified three peaks (Jan 3–9, Jan 20–22, Jan 27–31) and one trough (Jan 10–16) across 34 verified events. The 2-week lag held across all major friction-compliance pairs. The signal escalated across the month. The Media Firewall narrative timing analysis revealed that influencer narrative pushes precede compliance events at the same 2-week lag, with consistent structural silence on financial architecture. The February 2026 compliance window (Feb 1–19) documented 9 compliance events — including US-Iran nuclear talks, Netanyahu's visit, the Board of Peace first summit, and the 13F filing deadline — executing during maximum domestic friction from protests and the DHS funding crisis.
+**The structural extension (Q1 2026):** Formal institutional mechanisms supplemented by private channels — Gulf sovereign capital through US private equity, pay-to-play governance body bypassing UN frameworks, technical military integration without bilateral treaties, territorial reconstruction as privatized real estate. Arkansas legislative architecture creates regulatory environments where denial is procedurally temporary.
 
-**The administrative consolidation (Feb 2026):** The friction-compliance pattern operates inside the government itself. Four federal nodes (DOGE→OPM→DOJ+FBI) formed a closed loop that restructured the civil service — 317,000+ employees departed in 2025, ~50,000 positions are losing appeal rights via the Schedule Policy/Career rule (effective Mar 9, 2026), and the appeals board (MSPB) was overwhelmed by a 2,145% surge in cases before the rule eliminated the appeal right. The compliance events generate their own friction ("recursive friction"), and the OPM Director who executed the restructuring came from a VC firm (a16z) funded by the same sovereign capital pipeline the project documents.
+**The signal map (Jan–Feb 2026):** Three peaks, one trough across 34 verified events in January; 2-week lag held across all major pairs. Media Firewall narrative timing confirms influencer pushes precede compliance events. February window: 9 compliance events during maximum domestic friction.
 
-**The vendor-state stress test (Feb 2026):** The friction-compliance model assumed vendor stability — that infrastructure vendors (xAI, Oracle, Anduril) would consolidate without significant internal resistance. February 2026 data contradicts this assumption: xAI lost 6 of 12 co-founders amid deepfake lawsuits and the $1.25T SpaceX merger; Oracle carries $248B in lease stress with active securities fraud litigation; Anduril shows drone test failures. This "unregulated friction" — originating from within vendor nodes rather than from external events — introduces a structurally novel pattern. Simultaneously, forensic vetting of the Board of Peace confirmed the "Board of Profits" thesis: verified capital pipeline from Saudi PIF through Affinity Partners to Israeli settlement companies and Gaza reconstruction, with Board members bringing active financial conflicts of interest rather than coordinated Epstein protection (the "Lifeboat" hypothesis was NOT SUPPORTED).
+**The administrative consolidation (Feb 2026):** DOGE→OPM→DOJ+FBI closed loop restructured the civil service — 317,000+ departed, ~50,000 positions losing appeal rights (Schedule P/C, effective Mar 9, 2026), MSPB overwhelmed by 2,145% surge. "Recursive friction": compliance events generate their own cover.
 
-**The enforcement architecture & semiotic bridge (Feb 2026):** The Board of Peace's enforcement layer is a three-pillar privatized security model — private contractors (UG Solutions), state military (Pakistan SMDA, Indonesia ISF troops), and cyber/identity infrastructure (Palo Alto/CyberArk, G42/Microsoft) — all operating under a command structure where the ISF reports to the Board of Peace (not UN DPKO) and the Chairman has personal delegation authority over the ISF Commander appointment (Resolution 2803). The "Semiotic Bridge" connecting the Media Firewall to the enforcement layer is verified: 1789 Capital (Omeed Malik) simultaneously funds narrative infrastructure (TCN $15M, Daily Caller, PublicSq), defense technology (Anduril — Pulsar EW system exhibited at WDS 2026 Riyadh), and sits on government boards (Fannie Mae), all linked through a Gulf SWF capital chain (Mubadala → Silver Lake → 1789 Capital). This confirms that the same capital pipeline funds both the narrative cover and the physical enforcement mechanism.
+**The vendor-state stress test (Feb 2026):** Vendor instability contradicts consolidation assumptions — xAI co-founder exodus, Oracle $248B lease stress, Anduril test failures. Board of Peace forensic vetting confirmed "Board of Profits" thesis; "Lifeboat" hypothesis NOT SUPPORTED.
 
-**The financial architecture layer (Feb 14, 2026):** SEC 13F filing analysis reveals that the most strategically significant financial arrangements operate below the 13F visibility threshold — private deals, non-US securities (TASE), LP interests, and private JVs are all structurally invisible. What 13F data does show: PIF's EA position (9.9%, $3.96B) is verified; Mubadala's GlobalFoundries dominance (81.1%, $16.14B) validates the CHIPS Act vulnerability thesis; Affinity Partners' sole holding is QXO ($623M), a strategic consolidation vehicle with a $50B revenue target. The critical finding is Apollo's role as the credit backbone — providing $3B to QXO, $3.5B to xAI/Valor Compute, and $29B to Meta data centers, while Marc Rowan sits on the Board of Peace executive committee. This creates a governance → financing pipeline where the same person participates in reconstruction governance and funds the consolidation platform owned by another Board member (Kushner via Affinity). The 13F visibility gap itself confirms Prong 2 (Regulatory Exemptions) of the Trident framework: the architecture is deliberately structured to operate within regulatory blind spots.
+**The enforcement architecture & semiotic bridge (Feb 2026):** Three-pillar privatized security model (private contractors, state military, cyber infrastructure) under Board of Peace command (not UN). 1789 Capital (Omeed Malik) verified as "Semiotic Bridge" linking narrative infrastructure, defense technology, and government boards through Gulf SWF capital chain.
 
-**The enforcement hollowing layer (Feb 14, 2026):** Four underreported administrative actions advance with minimal mainstream coverage while high-friction events (UFO declassification, Epstein drama) dominate the news: HUD proposed removing the disparate impact standard (comment period closed Feb 13, 24-state AG coalition opposing); CFPB killed HMDA email alerts citing "operational constraints"; USDA launched an "Agricultural Lawfare" framework reframing environmental protections; and the White House released the Maritime Action Plan with "Maritime Prosperity Zones" for allied investment. These "technical" changes cluster within 3 days of the 13F deadline. Simultaneously, enforcement capacity is hollowed across five agencies: SEC lost 15%+ of staff with enforcement at record lows; CFTC lost 21.5% of staff with an Inspector General warning of "capacity crisis"; CFIUS faces quadrupled workload with flat resources; and Schedule Policy/Career (effective Mar 9, 2026) makes ~50,000 policy-influencing positions at-will. This completes the three-prong architecture: Prong 1 (regulatory exemptions), Prong 2 (structural complexity), and Prong 3 (enforcement capacity gaps). The PineBridge Form D anomaly ($586M identical filings 2023-2024, then acceleration to $981M by 2026 coinciding with MetLife acquisition) exemplifies the kind of pattern that GS-13 to GS-15 career analysts would detect — the same analysts now departing or being made at-will. As Austin framed it: "You hollow out the watchers, and the watched can do whatever they want."
+**The financial architecture layer (Feb 14, 2026):** Most significant arrangements operate below 13F visibility. Apollo as credit backbone ($3B QXO + $3.5B xAI + $29B Meta) while Rowan sits on Board of Peace executive committee — governance → financing pipeline. 13F visibility gap confirms Prong 2.
 
-**The manufactured indispensability layer (Feb 14, 2026):** The narrative protection mechanism that makes the preceding eight patterns resistant to accountability. Individuals positioned within critical systems — governance (Board of Peace), finance (Apollo $73B+ credit pipeline), media (1789 Capital), territory (Phoenix settlements), information (xAI, TikTok/Oracle), enforcement (Schedule P/C) — create the perception that they *are* the critical systems, so that accountability appears synonymous with systemic collapse. The framing swap: "investigate = destroy the economy" becomes the narrative, when the structural reality is "investigate = replace some executives." Historical precedent confirms this: the world reorganized after Enron (2001) and the 2008 financial crisis without civilizational collapse. The three-prong architecture (regulatory exemptions → structural complexity → enforcement hollowing) provides the structural protection; manufactured indispensability provides the narrative protection. Together they create a compound shield: you can't see the architecture (Prong 1), you can't understand it (Prong 2), no one is left to investigate it (Prong 3), and even if they could, the narrative says investigating would be catastrophic (manufactured indispensability). This thesis documents observed positioning patterns, not proven conspiracy — but the *effect* of that positioning is structurally verifiable regardless of intent.
+**The enforcement hollowing layer (Feb 14, 2026):** Four underreported administrative actions during high-friction cover. SEC -15%+, CFTC -21.5%, CFIUS quadrupled workload. Schedule P/C makes ~50,000 positions at-will. Completes three-prong architecture: regulatory exemptions → structural complexity → enforcement capacity gaps.
 
-**The Bondi hearing case study & BoP legal substrate (Feb 14, 2026):** The Feb 11 Bondi hearing before the House Judiciary Committee — 5+ hours of Epstein accountability questioning, capped by Bondi's "The Dow is over 50,000" deflection — coincided with 7 compliance events on the same day (5 EOs, USDA framework, QXO acquisition), the highest single-day compliance density in the 2026 dataset. The ±7 day window (Feb 4–18) contained 17 compliance events vs ~3–4 baseline expectation (+467% above baseline), classified as PATTERN MATCH with the r = 0.6196 friction-compliance clustering. Separately, EO 14375 (signed Jan 16, published Jan 22, 2026) was identified as the direct legal substrate for the Board of Peace — designating it as a public international organization under the International Organizations Immunities Act (22 U.S.C. 288), granting legal immunities, lawsuit exemption, and property protection. Legal scholars at Just Security question whether this designation has Congressional authorization. Apollo's credit pipeline expanded to $76B+ with a second $3.4B xAI deal nearing close. Economic deflection as a rhetorical tactic is well-documented and bipartisan (2008 crisis, COVID oversight, 2017–2024 hearings) — the Bondi instance is notable not for the deflection itself but for the structural density of compliance events executing simultaneously.
+**The manufactured indispensability layer (Feb 14, 2026):** Individuals positioned within critical systems create the perception that they *are* the systems, making accountability appear synonymous with systemic collapse. Three-prong structural protection + narrative protection = compound shield.
 
-**The defense tech consolidation & Palantir information layer (Feb 14, 2026):** Palantir Technologies occupies a structural position parallel to Apollo (credit layer) — as the **information layer** in the Manufactured Indispensability framework. DISA's PFCS Forward authorization (Feb 12, 2026) established an "authorize once, use many" inheritable security model covering IL5/IL6 edge deployments — a Prong 1 STRONG match for regulatory moat creation. This authorization fell within the Feb 8-19 convergence window, 1 day after the Bondi hearing. The Palantir-Anduril consortium (Dec 6, 2024) — both Thiel-backed, both Tolkien-named — formally challenges legacy defense contractors and expands to include SpaceX, OpenAI, and Scale AI, creating a consolidated defense tech axis. DOGE-Palantir integration is verified: Palantir building a "mega API" at IRS for data centralization, Treasury awarded a "unified API layer" contract (Sep 2025), and federal contracts nearly doubled ($541.2M → $970.5M, 2024-2025). UK integration includes £670M+ in contracts and a £240M MoD contract awarded without competitive tender. The Thiel-Epstein-Valar connection ($40M investment, verified via DOJ files) runs through Thiel's personal vehicle — NO direct Palantir equity link to Epstein. Palantir is assessed at TIER 2 MODERATE with defined upgrade conditions (Gulf SWF discovery, BoP direct involvement, DOGE contract expansion confirmation). IDF strategic partnership (Jan 2024) is verified; connection to specific targeting systems is correlation, not confirmed causation.
+**The Bondi hearing case study & BoP legal substrate (Feb 14, 2026):** Feb 11 Bondi hearing coincided with 7 compliance events (highest single-day density in 2026). ±7 day window: 17 events vs ~3-4 baseline (+467%). EO 14375 identified as Board of Peace legal substrate (IOIA designation).
 
-**The 13F prediction test & Board of Peace summit outcomes (Feb 18-19, 2026):** Three Q3-based 13F predictions were tested against Q4 2025 data — all three FAILED. PIF's EA position was unchanged (deal locked), Mubadala fully reversed its defense entry (exiting LMT entirely), and no Gulf SWF Oracle/defense entries materialized. The failures are documented as findings: negative results are data. Separately, Mubadala's Bitcoin ETF position surged 46% ($567M → $630.6M), and combined with Al Warda Investments, the Abu Dhabi sovereign complex now controls ~$1.04B in BlackRock's IBIT — making it the largest known sovereign Bitcoin ETF holder. Thiel Macro LLC fully liquidated all public equities ($74.4M → $0), moving entirely into private vehicles. The Board of Peace inaugural summit (Feb 19) drew ~50 countries and secured $7B in pledges from 9 countries plus $10B from the US, against an estimated $70B reconstruction need (10% funded). The $1B permanent membership fee was confirmed in reporting. Indonesia remains the only country firmly committing troops. Several US allies declined, citing constitutional objections and concerns about bypassing UN peacekeeping. The summit outcomes reinforce the "Board of Profits" thesis — the donor list maps directly to Gulf SWF entities tracked in the project's 13F analysis.
+**The defense tech consolidation & Palantir information layer (Feb 14, 2026):** Palantir as information layer parallel to Apollo's credit layer. PFCS Forward IL5/IL6 authorization = Prong 1 STRONG. Palantir-Anduril consortium + DOGE integration verified. TIER 2 MODERATE.
+
+**The 13F prediction test & Board of Peace summit (Feb 18-19, 2026):** Three Q3-based predictions FAILED (negative findings = data). Mubadala IBIT +46%; Abu Dhabi complex ~$1.04B in Bitcoin ETF. Thiel Macro liquidated all public equities. Board of Peace summit: ~50 countries, $7B pledged, 10% of $70B need, Indonesia only troop commitment.
 
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
@@ -1003,4 +1092,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 19, 2026 (v9.4). Q4 2025 13F delta analysis: 18 entities tracked, 68 holdings, 3 predictions FAILED (PIF EA stable, Mubadala defense reversed, no Gulf SWF Oracle/defense). Mubadala IBIT +46% ($630.6M; Abu Dhabi complex ~$1.04B in Bitcoin ETF). Thiel Macro total liquidation. Apollo portfolio doubled ($12.2B). LCID data conflict resolved (reverse stock split). Board of Peace inaugural summit held (Feb 19): ~50 countries, $7B pledged, $10B US, Indonesia only troop commitment, $1B = permanent membership confirmed. Summary expanded from eleven to twelve connected patterns.*
+*This report was last updated February 19, 2026 (v9.5). Historical backfill integration (2017-2024): 66 friction→compliance pairs across 8 years, median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact on correlations negligible (Δr = +0.0012). r = 0.6196 baseline unaffected. Summary expanded from twelve to thirteen connected patterns.*
