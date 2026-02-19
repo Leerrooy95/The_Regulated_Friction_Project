@@ -229,8 +229,8 @@ MSPB overwhelm now quantified (2,145% surge, ~12,000 cases FY2025).
 
 - [x] Re-run Granger causality excluding December 2025 to test robustness — **Result: Bidirectional pattern survives Dec 2025 removal, but ALL Granger causality disappears without 2025 data entirely.** See `Findings/granger_dec2025_robustness.md` and `Statistical_Tests/granger_exclude_dec2025.py`
 - [x] Test with first-differenced series (Δfriction, Δcompliance) to address stationarity — **Result: First-differencing DESTROYS event-count Granger causality (artifact), but 30-row hand-scored F→C SURVIVES at lags 1-2.** See `Findings/first_differenced_granger.md` and `Statistical_Tests/granger_first_differenced.py`
-- [ ] Investigate the hand-scored vs event-count discrepancy in Granger direction
-- [ ] Partial correlation controlling for a "political activity" index (e.g., congressional session calendar)
+- [x] Investigate the hand-scored vs event-count discrepancy in Granger direction — **Result: Discrepancy explained by 84-87% zero-inflation in event counts + measurement type (intensity vs frequency). Hand-scored F→C is genuine signal, not artifact.** See `Findings/granger_discrepancy_investigation.md` and `Statistical_Tests/granger_discrepancy_investigation.py`
+- [x] Partial correlation controlling for a "political activity" index (e.g., congressional session calendar) — **Result: Political activity explains only -0.3% of correlation (r changes from 0.1099 to 0.1102). NOT a confound.** See `Findings/partial_correlation_political_activity.md` and `Statistical_Tests/partial_correlation_political.py`
 - [ ] Backfill earlier years per backfill_guide.md to enable fairer cross-year comparisons
 
 ---
