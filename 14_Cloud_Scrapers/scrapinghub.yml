@@ -1,0 +1,11 @@
+# Zyte Scrapy Cloud deployment configuration
+# Docs: https://shub.readthedocs.io/en/latest/configuration.html
+
+projects:
+  default: PROJECT_ID  # Replace PROJECT_ID with your Zyte project number
+
+stacks:
+  default: scrapy:2.11
+
+requirements:
+  file: requirements.txt
