@@ -60,7 +60,7 @@ Copilot_Opus_4.6_Analysis/
 ├── Findings/                 ← Active analysis documents
 │   ├── dataset_provenance.md ← Which data feeds which correlation
 │   ├── AI_Fabrication_Case_Study.md ← Cross-repo audit of Grok fabrication (Nov-Dec 2025)
-│   └── historical_backfill.md ← Feb 19 friction-compliance pairs backfill (2017–2024): 55 verified pairs across 30 friction windows, cross-referenced against FR spider JSON (1,000 EOs). Densest windows: Jan 6→Inauguration (22+ EOs), travel ban protests (7 EOs), Mar-a-Lago search (5 events). 5 confirmed negative windows. Median lag +7d, mode +7d.
+│   └── historical_backfill.md ← Feb 19 friction-compliance pairs backfill (2017–2024): 55 verified pairs across 30 friction windows, cross-referenced against FR spider JSON
 ├── Verification_Reports/     ← Prediction tracking
 │   └── prediction_tracker_feb9_2026.md ← Testable predictions vs real-world outcomes
 ├── Consolidation_Analysis/   ← Cross-domain consolidation assessment
