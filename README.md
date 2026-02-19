@@ -464,12 +464,12 @@ See `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/` for 
 2. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` — Q4 2025 13F delta: 18 entities, 68 holdings, 3 predictions tested
 3. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Verification_Report_Feb14_2026.md` — 13F baseline: 10 entities, 12 securities, Q3 2025
 4. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Supplementary_Analysis_Feb14_2026.md` — Apollo credit pipeline, QXO consolidation, beard search
-4. `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md` — Enforcement architecture, ISF command, research verification
-5. `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` — Board of Peace leadership forensic vetting
-6. `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` — "Semiotic Bridge" forensic node analysis
-7. `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` — Q1 2026 applied findings
-8. `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md` — Palantir entity report (PFCS Forward, defense tech consolidation, DOGE integration, TIER 2 MODERATE)
-9. `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` — State-level pattern
+5. `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md` — Enforcement architecture, ISF command, research verification
+6. `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` — Board of Peace leadership forensic vetting
+7. `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` — "Semiotic Bridge" forensic node analysis
+8. `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` — Q1 2026 applied findings
+9. `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md` — Palantir entity report (PFCS Forward, defense tech consolidation, DOGE integration, TIER 2 MODERATE)
+10. `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` — State-level pattern
 
 ### Verify the Statistics
 ```bash
