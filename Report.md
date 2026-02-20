@@ -3,7 +3,7 @@
 **Author:** Austin
 **Last Updated:** February 20, 2026
 **Version:** v9.6
-**Interactive website for the repo:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://regulatedfriction.streamlit.app/))
+**Interactive website for the repo:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://regulatedfriction.streamlit.app/)
 
 ---
 
