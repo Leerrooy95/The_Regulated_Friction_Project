@@ -1,8 +1,8 @@
-# Project Trident: Temporal Correlation Case Study v6.0
+# Temporal Correlation Case Study v6.1
 
 **Testing Ritual/Religious Timing as a Coordination Signal Vector**
 
-*Epstein_Files_Uses_Theory | December 25, 2025*
+*The_Regulated_Friction_Project (repo was initially named Epstein_Files_Uses_Theory) | Created December 25, 2025; Last updated February 20, 2026*
 
 ---
 
@@ -370,5 +370,8 @@ Project_Trident/
 
 ---
 
-*Cross-verified with Grok and Gemini adversarial testing*  
+*Cross-verified with Grok and Gemini adversarial testing*
 *Version 6.0 | December 25, 2025*
+
+*Updated name*
+*Version 6.1 | February 20, 2026
