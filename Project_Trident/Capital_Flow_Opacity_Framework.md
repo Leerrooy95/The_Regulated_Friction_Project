@@ -1,7 +1,7 @@
 # Project Trident: The Three-Prong Architecture of Opacity
 
 **Document Status:** Verified Technical + Documented Regulatory  
-**Last Updated:** December 26, 2025
+**Last Updated:** February 20, 2026
 
 ---
 
