@@ -1,7 +1,7 @@
-# The Three-Prong Architecture of Opacity
+# Capital Flow Opacity Framework
 
 **Document Status:** Verified Technical + Documented Regulatory  
-**Last Updated:** February 20, 2026
+**Last Updated:** December 26, 2025
 
 ---
 
@@ -181,7 +181,7 @@ The three prongs do not require central coordination to produce systematic effec
 
 ## Repository Reference
 
-**Full Documentation:** https://github.com/Leerrooy95/Epstein_Files_Uses_Theory
+**Full Documentation:** https://github.com/Leerrooy95/The_Regulated_Friction_Project
 
 | Module | Contents |
 |--------|----------|

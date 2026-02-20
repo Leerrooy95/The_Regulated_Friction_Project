@@ -1,0 +1,48 @@
+name: Validate Dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - 'Control_Proof/**'
+      - 'Run_Correlations_Yourself/**'
+      - 'federal_register/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - 'Control_Proof/**'
+      - 'Run_Correlations_Yourself/**'
+      - 'federal_register/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r dashboard/requirements.txt
+
+      - name: Verify correlation engine
+        run: python dashboard/correlation_engine.py
+
+      - name: Check data files exist
+        run: |
+          test -f Control_Proof/master_reflexive_correlation_data.csv
+          test -f Run_Correlations_Yourself/historical_backfill_2017_2024.csv
+          test -f Run_Correlations_Yourself/negative_windows.csv
+          test -f "federal_register/Spider Output Files/items_federal_register_eo_1.json"
+
+      - name: Syntax check dashboard modules
+        run: |
+          python -m py_compile dashboard/app.py
+          python -m py_compile dashboard/data_loader.py
+          python -m py_compile dashboard/constants.py

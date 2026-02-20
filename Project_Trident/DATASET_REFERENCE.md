@@ -16,7 +16,7 @@ The output of the correlation engine. Maps the `lag_days` between Ritual and Anc
 * **Average Lag:** 6.6 days.
 * **Peak Lag Accuracy:** 14 days (r = 0.6196).
 
-### 5. `PROJECT_TRIDENT_CASE_STUDY.md`
+### 5. `Ritual_Timing_Signal_Analysis.md`
 The formal narrative report synthesized from the above data points.
 
 ---

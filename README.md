@@ -1,6 +1,8 @@
-# The Regulated Friction Project v9.5
+# The Regulated Friction Project v9.6
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
+
+**Live Dashboard**: [regulatedfriction.dev](https://regulatedfriction.dev)
 
 **New to this project?** See [Glossary.md](14_Files/Glossary.md)
 
@@ -15,7 +17,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.5)](#whats-new-v95---february-2026)
+- [What's New (v9.6)](#whats-new-v96---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -239,8 +241,8 @@ The_Regulated_Friction_Project/
 │   │       └── DISCREPANCY_ANALYSIS.md                # Methodology comparison (still valid)
 │   │
 │   └── Project_Trident/                               # Temporal correlation study
-│       ├── PROJECT_TRIDENT_CASE_STUDY.md
-│       ├── The_Trident.md                             # Three-prong mechanism
+│       ├── Ritual_Timing_Signal_Analysis.md
+│       ├── Capital_Flow_Opacity_Framework.md   # Three-prong mechanism
 │       ├── DATASET_REFERENCE.md
 │       ├── Veriify_Trident_Analysis.py                # Verify ritual timing analysis
 │       ├── anchor_events_parsed.csv                   # 70 anchor events
@@ -325,7 +327,11 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v9.5 - February 2026)
+## What's New (v9.6 - February 2026)
+
+### Project_Trident Restructure & Dashboard Update
+
+February 20, 2026 — Project_Trident folder restructured: PROJECT_TRIDENT_CASE_STUDY.md renamed to Ritual_Timing_Signal_Analysis.md; The_Trident.md renamed to Capital_Flow_Opacity_Framework.md. Project_Trident README added. Internal filename references updated across all affected documents. Streamlit dashboard updated with homepage and negative windows table clarification.
 
 ### Historical Backfill Integration (2017-2024)
 
@@ -624,4 +630,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 19, 2026 (v9.5) — Historical backfill integration (2017-2024): 66 friction→compliance pairs across 8 years, median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact on correlations negligible (Δr = +0.0012). r = 0.6196 baseline unaffected. New CSVs, scripts, and results in Run_Correlations_Yourself/ and Statistical_Tests/.
+**Last updated**: February 20, 2026 (v9.6) — Project_Trident restructured, homepage added to dashboard, negative windows table clarified.

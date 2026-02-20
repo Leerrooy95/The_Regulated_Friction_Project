@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Regulated Friction Project</title>
+  <meta name="description" content="Statistically significant correlation (r = +0.6196, p = 0.0004) between friction events and institutional compliance at 2-week lag. 71 events analyzed, 2017-2026. Fully reproducible.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Regulated Friction Project">
+  <meta property="og:description" content="Friction events predict institutional compliance at a 2-week lag (r = +0.6196, p = 0.0004). 71 events, 2017-2026. Fully reproducible.">
+  <meta property="og:image" content="https://regulatedfriction.dev/assets/og-image.svg">
+  <meta property="og:url" content="https://regulatedfriction.dev">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Regulated Friction Project">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Regulated Friction Project">
+  <meta name="twitter:description" content="Friction events predict institutional compliance at a 2-week lag (r = +0.6196, p = 0.0004). Fully reproducible.">
+  <meta name="twitter:image" content="https://regulatedfriction.dev/assets/og-image.svg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <p class="version-tag">v9.5 &mdash; February 2026</p>
+      <h1>The Regulated Friction Project</h1>
+      <p class="subtitle">Data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2017&ndash;2026).</p>
+      <div class="hero-stat">
+        <span class="stat-label">Core Finding</span>
+        <span class="stat-value">r = +0.6196</span>
+        <span class="stat-context">p = 0.0004 &middot; 2-week lag &middot; n = 30 weeks</span>
+      </div>
+      <a href="https://regulated-friction.streamlit.app" class="cta" target="_blank" rel="noopener">Explore the Dashboard</a>
+    </div>
+  </header>
+
+  <!-- Key Statistics -->
+  <section class="stats" id="findings">
+    <div class="container">
+      <h2>Key Findings</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">+0.6196</div>
+          <div class="stat-desc">Pearson <em>r</em> at 2-week lag</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">0.0004</div>
+          <div class="stat-desc"><em>p</em>-value (two-tailed)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">71</div>
+          <div class="stat-desc">Friction events analyzed (2017&ndash;2026)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">93%</div>
+          <div class="stat-desc">Compliance response rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">+7 days</div>
+          <div class="stat-desc">Median lag (historical backfill)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">66</div>
+          <div class="stat-desc">Historical friction-compliance pairs</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What This Means -->
+  <section class="explainer">
+    <div class="container">
+      <h2>What This Means</h2>
+      <p>When high-visibility friction events spike&mdash;document releases, scandals, media cycles&mdash;institutional compliance events (policy shifts, financial positioning, regulatory changes) follow approximately 14 days later. This correlation has less than a 0.05% probability of occurring by chance.</p>
+      <p>The project does <strong>not</strong> claim causation, conspiracy, or individual intent. It documents a statistically significant structural pattern: friction and compliance events cluster together in time, suggesting shared exploitation of calendar-driven attention windows by independent actors.</p>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="methodology" id="methodology">
+    <div class="container">
+      <h2>Methodology</h2>
+      <div class="method-grid">
+        <div class="method-card">
+          <h3>Core Analysis</h3>
+          <p>Pearson product-moment correlation with lag sweep (0&ndash;6 weeks). Fisher z-transform for confidence intervals. Spearman rank correlation for robustness. OLS regression with &plusmn;2 SD prediction bands.</p>
+        </div>
+        <div class="method-card">
+          <h3>Robustness Testing</h3>
+          <p>16 independent tests including permutation (1K shuffles, p&lt;0.001), block bootstrap for autocorrelation, December 2025 exclusion, binary normalization, event-study framework (20&ndash;42x baseline), and Granger causality.</p>
+        </div>
+        <div class="method-card">
+          <h3>Historical Backfill</h3>
+          <p>66 friction-compliance pairs across 30 windows (2017&ndash;2024). 89% positive lag pattern. 5 confirmed negative windows within expected statistical variance (binomial test: p&nbsp;=&nbsp;0.006).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reproducibility -->
+  <section class="reproducibility" id="verify">
+    <div class="container">
+      <h2>Verify It Yourself</h2>
+      <p>All data and analysis scripts are open source. Clone the repository and reproduce the core finding independently:</p>
+      <pre><code>git clone https://github.com/Leerrooy95/The_Regulated_Friction_Project.git
+cd The_Regulated_Friction_Project/Run_Correlations_Yourself
+pip install -r requirements.txt
+python run_original_analysis.py</code></pre>
+      <p>This reproduces <strong>r = 0.6196</strong> from the raw 30-week dataset. The 16 robustness test scripts are in <code>Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/</code>.</p>
+      <div class="repo-links">
+        <a href="https://github.com/Leerrooy95/The_Regulated_Friction_Project" class="btn-secondary" target="_blank" rel="noopener">View on GitHub</a>
+        <a href="https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/Run_Correlations_Yourself" class="btn-secondary" target="_blank" rel="noopener">Verification Scripts</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Findings -->
+  <section class="additional" id="additional">
+    <div class="container">
+      <h2>Additional Findings</h2>
+      <div class="method-grid">
+        <div class="method-card">
+          <h3>Project Trident</h3>
+          <p>Temporal correlation study (118 ritual/policy event pairs). Ritual event proximity to policy: 50.7% vs 19.9% baseline (2.5x expected rate). Mann-Whitney U: p&nbsp;=&nbsp;0.002.</p>
+        </div>
+        <div class="method-card">
+          <h3>Cross-Validation</h3>
+          <p>14-day periodicity test across 2,102 events: &chi;&sup2;&nbsp;=&nbsp;330.62 (p&nbsp;&lt;&nbsp;0.0001). Multi-dataset Spearman rank: &rho;&nbsp;=&nbsp;0.61 (p&nbsp;&lt;&nbsp;0.0001). Event colocation: 20&ndash;42x above random baseline.</p>
+        </div>
+        <div class="method-card">
+          <h3>Convergence Model</h3>
+          <p>Revised finding: multiple actors respond independently to shared calendar anchors (holidays, solstices, fiscal deadlines), creating simultaneous convergence rather than sequential causation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="disclaimer">Correlation is not causation. This site presents observational statistical patterns for research purposes only. The friction-compliance correlation (r&nbsp;=&nbsp;0.6196) describes a measured association, not a proven causal mechanism. All findings are reproducible using the scripts in <a href="https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/Run_Correlations_Yourself">Run_Correlations_Yourself/</a>.</p>
+      <p class="footer-methods">Statistical methods: Pearson product-moment correlation with lag sweep (0&ndash;6 weeks), Fisher z-transform for confidence intervals, Spearman rank correlation for robustness, OLS regression with &plusmn;2 SD prediction bands. Historical backfill analyzed via lag-day distribution with binomial significance testing for non-response rate.</p>
+      <p class="footer-meta">The Regulated Friction Project v9.5 &middot; <a href="https://github.com/Leerrooy95/The_Regulated_Friction_Project">GitHub</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

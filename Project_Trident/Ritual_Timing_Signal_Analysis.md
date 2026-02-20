@@ -349,7 +349,7 @@ The patterns are documented. The statistics are significant. The financial recei
 
 ```
 Project_Trident/
-├── PROJECT_TRIDENT_CASE_STUDY.md      # This document (v6.0)
+├── Ritual_Timing_Signal_Analysis.md   # This document (v6.0)
 ├── DATASET_REFERENCE.md               # Data source documentation
 ├── Veriify_Trident_Analysis.py        # Statistical verification script
 ├── ritual_events_parsed.csv           # Ritual event timeline
