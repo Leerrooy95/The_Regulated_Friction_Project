@@ -1,6 +1,6 @@
 # The Regulated Friction Project: Report
 
-**Author:** Austin
+**Author:** Austin Smith
 
 **Last Updated:** February 20, 2026
 
