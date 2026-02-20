@@ -2,7 +2,7 @@
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
-**Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app/)
+**Interactive Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app/)
 
 **New to this project?** See [Glossary.md](14_Files/Glossary.md)
 
