@@ -219,6 +219,16 @@ Epstein (May 14, 2002).
   and his Tony Blair Institute's consulting relationships with Middle Eastern
   governments — not the Epstein connection
 
+**TBI Board of Peace lobbying (Feb 2026):** Internal EU documents obtained by
+Follow the Money (ftm.eu) reveal that lobbyists for the Tony Blair Institute
+for Global Change (TBI) privately urged the European Commission to take a
+"prominent role" in the Board of Peace. This demonstrates that Blair's
+involvement in the BoP extends beyond personal executive board membership —
+his institutional apparatus is actively working to expand BoP's international
+legitimacy and membership. TBI is registered in the EU Transparency Register
+as a not-for-profit lobbying organization with multiple declared lobbyists and
+a growing Brussels presence.
+
 **Mandelson's role has evolved dramatically since the original lead:** As of
 2025–2026, Mandelson himself has been fired, is under criminal investigation,
 and has resigned from all positions. This strengthens the evidentiary record
@@ -234,6 +244,7 @@ ongoing relationship.
 | Blair had an ongoing relationship with Epstein | ❌ UNVERIFIED — no evidence of post-2002 contact |
 | The Epstein connection creates a conflict of interest for Blair's Board role | ⚠️ PLAUSIBLE but SECONDARY — the primary conflict is Blair's Iraq War legacy and consulting relationships, not the single 2002 Epstein meeting |
 | Mandelson continued relationship with Epstein post-conviction | ✅ VERIFIED — through at least 2016, now under criminal investigation |
+| TBI actively lobbying European Commission to join BoP | ✅ VERIFIED — Internal EU documents obtained by Follow the Money (ftm.eu) confirm TBI lobbyists urged EU to take "prominent role" in Board of Peace |
 
 ---
 
@@ -316,6 +327,7 @@ sources. The FARA question is whether this pipeline constitutes foreign agency.
 | **Sultan bin Sulayem** (DP World) | Is the "Sultan" in DOJ Epstein files who sent a violent email in 2009 | **✅ VERIFIED (Feb 2026)** — DOJ released emails between Bin Sulayem and Epstein; Rep. Thomas Massie publicly identified him. Bin Sulayem resigned as DP World CEO Feb 13, 2026. April 2009 email confirmed. | DOJ Epstein file release; TMZ/Yahoo Finance (Feb 13, 2026); Rep. Thomas Massie public identification |
 | **Sultan bin Sulayem** (DP World) | DP World contracted for Gaza port logistics | **UNVERIFIED** — No formal contract announced; DP World is a plausible candidate on capability grounds but no engagement confirmed. Bin Sulayem's resignation adds uncertainty. | Jerusalem Post; AGBI; DP World official site; Reuters |
 | **Tony Blair** | Met Epstein (2002); Mandelson was the bridge; creates conflict of interest for Board role | **VERIFIED** (meeting + Mandelson bridge) / **PLAUSIBLE** (conflict of interest) — May 14, 2002 Downing Street meeting confirmed via declassified memos. Mandelson's "safe" email confirmed. No evidence of ongoing Blair-Epstein relationship post-2002. Primary Board conflict is Iraq legacy, not Epstein. | The Independent; Finance Monthly; LBC; Express; Bloomberg; Telegraph; declassified Rycroft memo |
+| **Tony Blair** (TBI) | TBI lobbying European Commission to join Board of Peace | **✅ VERIFIED** — Internal EU documents obtained by Follow the Money (ftm.eu) confirm TBI lobbyists privately urged EU to take "prominent role" in BoP. TBI registered in EU Transparency Register. | Follow the Money (ftm.eu); EU Transparency Register (lobbyfacts.eu) |
 | **Jared Kushner** (Affinity Partners) | 99% foreign-funded firm acts as FARA loophole; $157M+ in fees from Gulf sovereigns | **VERIFIED** (funding structure + FARA concerns raised) / **NOT ADJUDICATED** (no charges filed) — Wyden/Raskin formally requested Special Counsel. Investigation documented but no prosecution. | Senate Finance Committee (official press releases); House Oversight Committee; The Hill; Newsweek; Salon |
 
 ---

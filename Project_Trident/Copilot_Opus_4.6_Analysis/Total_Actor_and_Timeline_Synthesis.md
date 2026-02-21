@@ -87,7 +87,7 @@ The constellation of actors involved is remarkably consistent across domains. Th
 | **Omeed Malik** | Semiotic Bridge | 1789 Capital ($1B+ AUM); TCN seed ($15M); Anduril investor; Fannie Mae board (Pulte appointment); Daily Caller minority owner | ✅ Verified (50+ sources) |
 | **Larry Ellison** | Infrastructure Controller | Oracle CEO ($390B fortune); TikTok USDS 15%; Stargate equity; JWCC cloud | ✅ Verified (public filings) |
 | **Peter Thiel** | Ecosystem Architect | Palantir co-founder/chairman; Founders Fund → Anduril; Valar Ventures ($40M Epstein connection, $170M by 2025) | ✅ Verified (SEC, DOJ files) |
-| **Tony Blair** | BoP Legitimacy Bridge | Board of Peace member; Mandelson ally; verified May 2002 Epstein meeting; Global Counsel → Palantir UK contracts | ✅ Verified (declassified memos) |
+| **Tony Blair** | BoP Legitimacy Bridge | Board of Peace executive board member; Mandelson ally; verified May 2002 Epstein meeting; Global Counsel → Palantir UK contracts; TBI lobbying EU to join BoP (Follow the Money, internal EU documents) | ✅ Verified (declassified memos; ftm.eu) |
 
 ### 2.4 Entity Overlap Matrix
 

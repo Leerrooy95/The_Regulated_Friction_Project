@@ -338,7 +338,7 @@ Forensic vetting of four Board of Peace subjects tested the "Lifeboat" hypothesi
 | Subject | Key Finding | Verdict |
 |---------|------------|---------|
 | **Marc Rowan / Apollo** | Co-founder Leon Black paid Epstein $158–170M (VERIFIED). Rowan personal Epstein contact: no evidence found. | Institutional link ✅ / Personal link ❌ |
-| **Tony Blair** | May 14, 2002 Downing Street meeting with Epstein (VERIFIED via declassified memos). Mandelson as bridge (VERIFIED). Ongoing relationship: no evidence. | Single meeting ✅ / Ongoing ❌ |
+| **Tony Blair** | May 14, 2002 Downing Street meeting with Epstein (VERIFIED via declassified memos). Mandelson as bridge (VERIFIED). Ongoing relationship: no evidence. TBI actively lobbying EU to join BoP (VERIFIED — Follow the Money, internal EU documents). | Single meeting ✅ / Ongoing ❌ / TBI-BoP lobbying ✅ |
 | **Jared Kushner / Affinity** | 99% foreign-funded (VERIFIED). $157M+ fees from Gulf sovereigns (VERIFIED). Wyden/Raskin FARA probe (VERIFIED). PIF → Affinity → Phoenix → settlements pipeline (VERIFIED). | Full pipeline ✅ |
 | **Sultan bin Sulayem / DP World** | DOJ released Epstein emails naming Bin Sulayem (identity confirmed by Rep. Thomas Massie). Bin Sulayem resigned as DP World CEO Feb 13, 2026 after financial partners threatened withdrawal. Gaza port contract: unconfirmed. | Epstein link ✅ VERIFIED / Gaza port ❌ |
 
@@ -784,7 +784,7 @@ The Board of Peace held its first summit at the US Institute of Peace in Washing
 | **Membership** | $1B = permanent membership confirmed in reporting (TIME, Axios) |
 | **Leadership** | Trump (chairman for life); executive board includes Kushner, Rubio, Witkoff, Blair, Rowan (Apollo CEO), Banga (World Bank President), Gabay |
 
-**Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) troop commitments from five countries represent a nascent International Stabilization Force, though 20,000 planned personnel remain short of full operational capacity.
+**Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) troop commitments from five countries represent a nascent International Stabilization Force, though 20,000 planned personnel remain short of full operational capacity. Additionally, internal EU documents obtained by Follow the Money (ftm.eu) reveal that Tony Blair Institute for Global Change (TBI) lobbyists privately urged the European Commission to join the BoP — confirming that Blair's institutional apparatus actively works to expand BoP membership beyond the summit's initial participants.
 
 **What this does NOT claim:** The summit's outcomes are documented as observed facts. Whether the financial commitments represent genuine reconstruction investment or strategic positioning is an interpretive question.
 
