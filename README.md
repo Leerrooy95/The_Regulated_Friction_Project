@@ -249,7 +249,7 @@ The_Regulated_Friction_Project/
 │       ├── Ritual_Timing_Signal_Analysis.md
 │       ├── Capital_Flow_Opacity_Framework.md   # Three-prong mechanism
 │       ├── DATASET_REFERENCE.md
-│       ├── Veriify_Trident_Analysis.py                # Verify ritual timing analysis
+│       ├── Verify_Trident_Analysis.py                # Verify ritual timing analysis
 │       ├── anchor_events_parsed.csv                   # 70 anchor events
 │       ├── project_trident_final_dossier.csv          # 118 dossier entries
 │       ├── ritual_events_parsed.csv                   # 51 ritual events
@@ -410,7 +410,7 @@ See `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/` for 
 - `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — 66 friction→compliance pairs (2017-2024) with source URLs
 - `Run_Correlations_Yourself/negative_windows.csv` — 5 confirmed negative windows
 - `Run_Correlations_Yourself/Wrong_Correlations/` — ⚠️ Archived scripts that used wrong datasets or excluded data (kept for transparency)
-- `Project_Trident/Veriify_Trident_Analysis.py` — Verify ritual timing analysis
+- `Project_Trident/Verify_Trident_Analysis.py` — Verify ritual timing analysis
 - `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` — 16 robustness test scripts (permutation, autocorrelation, normalization, Dec 2025 exclusion, rolling window, event-study, Granger causality, backfill lag distribution, combined dataset correlation)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/dataset_provenance.md` — Dataset provenance documentation
 - `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/backfill_correlation_results.md` — Backfill integration correlation results
