@@ -7,8 +7,20 @@ import scrapy
 
 
 class ExecutiveOrderItem(scrapy.Item):
-    """Item representing a Federal Register Executive Order."""
+    """Item representing a Federal Register Presidential Document."""
     Title = scrapy.Field()
     Date = scrapy.Field()
     Document_Number = scrapy.Field()
     URL = scrapy.Field()
+    Subtype = scrapy.Field()
+
+
+class DOJPressReleaseItem(scrapy.Item):
+    """Item representing a DOJ press release."""
+    Title = scrapy.Field()
+    Date = scrapy.Field()
+    URL = scrapy.Field()
+    UUID = scrapy.Field()
+    Number = scrapy.Field()
+    Component = scrapy.Field()
+    Topic = scrapy.Field()
