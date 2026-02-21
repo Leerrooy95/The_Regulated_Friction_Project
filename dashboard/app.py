@@ -91,7 +91,7 @@ with st.sidebar:
     if intel_data:
         st.markdown("- **Llama-4-Scout Extraction (JSON)**")
     st.divider()
-    st.caption("v10.0 | Automated Pipeline Active")
+    st.caption("v10.1 | Responsive Layout Active")
     st.caption(DISCLAIMER)
 
 # ── Compute statistics ───────────────────────────────────────────────────
@@ -191,68 +191,34 @@ with tab_home:
 
     st.divider()
 
-    # ── 3-Audience Navigation Cards ──
+    # ── 3-Audience Navigation Cards (Responsive Native Containers) ──
     st.subheader("Navigate by Role")
 
-    card_css = """
-    <style>
-    .role-card {
-        border: 1px solid rgba(69, 123, 157, 0.3);
-        border-radius: 8px;
-        padding: 1.2rem;
-        background-color: rgba(241, 250, 238, 0.4);
-        height: 100%;
-    }
-    .role-card h4 { margin-top: 0; color: #1D3557; }
-    .role-card p { color: #457B9D; font-size: 0.9rem; }
-    .role-card ul { padding-left: 1.2rem; font-size: 0.85rem; }
-    </style>
-    """
-    st.markdown(card_css, unsafe_allow_html=True)
-
-    rc1, rc2, rc3 = st.columns(3, gap="medium")
+    rc1, rc2, rc3 = st.columns(3, gap="large")
 
     with rc1:
-        st.markdown(
-            '<div class="role-card">'
-            "<h4>For Researchers</h4>"
-            "<p>Statistical methodology, robustness tests, raw datasets</p>"
-            "<ul>"
-            "<li><b>Statistical Overview</b> tab &mdash; lag sweep, regression, CI</li>"
-            "<li><code>Run_Correlations_Yourself/</code> &mdash; reproduce r&nbsp;=&nbsp;0.6196</li>"
-            "<li><code>Statistical_Tests/</code> &mdash; 16 robustness scripts</li>"
-            "</ul>"
-            "</div>",
-            unsafe_allow_html=True,
-        )
+        with st.container(border=True):
+            st.markdown("### 🔬 For Researchers")
+            st.markdown("*(Statistical methodology, robustness tests, raw datasets)*")
+            st.markdown("- **Statistical Overview** tab — lag sweep, regression, CI")
+            st.markdown("- `Run_Correlations_Yourself/` — reproduce r = 0.6196")
+            st.markdown("- `Statistical_Tests/` — 16 robustness scripts")
 
     with rc2:
-        st.markdown(
-            '<div class="role-card">'
-            "<h4>For Journalists &amp; Policymakers</h4>"
-            "<p>Key findings, case studies, policy implications</p>"
-            "<ul>"
-            "<li><b>Prediction Tracker</b> tab &mdash; 25 falsifiable predictions</li>"
-            "<li><code>How_This_Happened&mdash;A_Policy_Brief.md</code></li>"
-            "<li><b>Key Findings</b> table above &mdash; 21 verified results</li>"
-            "</ul>"
-            "</div>",
-            unsafe_allow_html=True,
-        )
+        with st.container(border=True):
+            st.markdown("### 🏛️ For Policymakers")
+            st.markdown("*(Key findings, case studies, policy implications)*")
+            st.markdown("- **Prediction Tracker** tab — 25 falsifiable predictions")
+            st.markdown("- `How_This_Happened—A_Policy_Brief.md`")
+            st.markdown("- **Key Findings** table above — 21 verified results")
 
     with rc3:
-        st.markdown(
-            '<div class="role-card">'
-            "<h4>For Skeptics</h4>"
-            "<p>Verify it yourself &mdash; limitations, alternative explanations, fork the repo</p>"
-            "<ul>"
-            "<li><b>Robustness Tests</b> in Statistical Overview</li>"
-            "<li><code>Alternate_Mechanisms.md</code> &mdash; competing hypotheses</li>"
-            "<li><code>git clone</code> + <code>pip install</code> + <code>python run_original_analysis.py</code></li>"
-            "</ul>"
-            "</div>",
-            unsafe_allow_html=True,
-        )
+        with st.container(border=True):
+            st.markdown("### 🕵️ For Skeptics")
+            st.markdown("*(Verify it yourself — limitations, alternative explanations)*")
+            st.markdown("- **Robustness Tests** in Statistical Overview")
+            st.markdown("- `Alternate_Mechanisms.md` — competing hypotheses")
+            st.markdown("- `git clone` + `pip install` + `python run_original_analysis.py`")
 
     st.divider()
 
@@ -268,22 +234,22 @@ with tab_home:
 
     st.code(
         "         ┌───────────────────────────────────────┐\n"
-        "         │        CALENDAR ANCHOR               │\n"
+        "         │        CALENDAR ANCHOR                │\n"
         "         │  (Solstice, Holiday, Fiscal Deadline) │\n"
         "         └──────────────────┬────────────────────┘\n"
-        "                          │\n"
-        "            ┌─────────────┼─────────────┐\n"
-        "            ▼             ▼             ▼\n"
-        "       ┌─────────┐  ┌──────────┐  ┌──────────┐\n"
-        "       │Friction │  │  Policy  │  │Financial │\n"
-        "       │ Events  │  │  Shifts  │  │  Moves   │\n"
-        "       └────┬────┘  └────┬─────┘  └────┬─────┘\n"
-        "            │             │             │\n"
-        "            └─────────────┼─────────────┘\n"
-        "                          ▼\n"
-        "              CONVERGENT CLUSTERING\n"
-        "            (r = 0.6196, 2-week lag)",
-        language=None,
+        "                            │\n"
+        "            ┌───────────────┼───────────────┐\n"
+        "            ▼               ▼               ▼\n"
+        "       ┌─────────┐    ┌──────────┐    ┌──────────┐\n"
+        "       │Friction │    │  Policy  │    │Financial │\n"
+        "       │ Events  │    │  Shifts  │    │  Moves   │\n"
+        "       └────┬────┘    └────┬─────┘    └────┬─────┘\n"
+        "            │              │               │\n"
+        "            └──────────────┼───────────────┘\n"
+        "                           ▼\n"
+        "                 CONVERGENT CLUSTERING\n"
+        "               (r = 0.6196, 2-week lag)",
+        language="text"
     )
 
     model_c1, model_c2 = st.columns(2)
