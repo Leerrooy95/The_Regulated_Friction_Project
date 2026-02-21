@@ -165,18 +165,145 @@ with tab_home:
 
     st.divider()
 
-    # Framework overview
-    st.subheader("Framework Overview")
+    # ── 3-Audience Navigation Cards ──
+    st.subheader("Navigate by Role")
+
+    card_css = """
+    <style>
+    .role-card {
+        border: 1px solid rgba(69, 123, 157, 0.3);
+        border-radius: 8px;
+        padding: 1.2rem;
+        background-color: rgba(241, 250, 238, 0.4);
+        height: 100%;
+    }
+    .role-card h4 { margin-top: 0; color: #1D3557; }
+    .role-card p { color: #457B9D; font-size: 0.9rem; }
+    .role-card ul { padding-left: 1.2rem; font-size: 0.85rem; }
+    </style>
+    """
+    st.markdown(card_css, unsafe_allow_html=True)
+
+    rc1, rc2, rc3 = st.columns(3, gap="medium")
+
+    with rc1:
+        st.markdown(
+            '<div class="role-card">'
+            "<h4>For Researchers</h4>"
+            "<p>Statistical methodology, robustness tests, raw datasets</p>"
+            "<ul>"
+            "<li><b>Statistical Overview</b> tab &mdash; lag sweep, regression, CI</li>"
+            "<li><code>Run_Correlations_Yourself/</code> &mdash; reproduce r&nbsp;=&nbsp;0.6196</li>"
+            "<li><code>Statistical_Tests/</code> &mdash; 16 robustness scripts</li>"
+            "</ul>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+    with rc2:
+        st.markdown(
+            '<div class="role-card">'
+            "<h4>For Journalists &amp; Policymakers</h4>"
+            "<p>Key findings, case studies, policy implications</p>"
+            "<ul>"
+            "<li><b>Prediction Tracker</b> tab &mdash; 25 falsifiable predictions</li>"
+            "<li><code>How_This_Happened&mdash;A_Policy_Brief.md</code></li>"
+            "<li><b>Key Findings</b> table above &mdash; 21 verified results</li>"
+            "</ul>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+    with rc3:
+        st.markdown(
+            '<div class="role-card">'
+            "<h4>For Skeptics</h4>"
+            "<p>Verify it yourself &mdash; limitations, alternative explanations, fork the repo</p>"
+            "<ul>"
+            "<li><b>Robustness Tests</b> in Statistical Overview</li>"
+            "<li><code>Alternate_Mechanisms.md</code> &mdash; competing hypotheses</li>"
+            "<li><code>git clone</code> + <code>pip install</code> + <code>python run_original_analysis.py</code></li>"
+            "</ul>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+    st.divider()
+
+    # ── Convergence Model Diagram ──
+    st.subheader("The Convergence Model")
 
     st.markdown(
-        "This dashboard tracks the **friction-compliance correlation**: when "
-        "high-visibility events cluster, institutional compliance events follow at a "
-        "statistically significant 2-week lag. **Core finding:** r\u2009=\u20090.6196, "
-        "p\u2009=\u20090.0004 (30 weeks). **Historical validation:** 66 pairs across "
-        "2017\u20132024, median lag +7 days. **Negative windows:** 5 confirmed. "
-        "For the broader framework (regulatory exemptions, technical opacity), see the "
-        "full repository."
+        "The raw data shows friction and compliance events **cluster together** "
+        "rather than following a sequential cause\u2011effect pattern. Multiple actors "
+        "respond to the same calendar signals independently \u2014 no coordination "
+        "required. This explains why the pattern is robust across 8 years of data."
     )
+
+    st.code(
+        "         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
+        "         \u2502        CALENDAR ANCHOR               \u2502\n"
+        "         \u2502  (Solstice, Holiday, Fiscal Deadline) \u2502\n"
+        "         \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n"
+        "                          \u2502\n"
+        "            \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
+        "            \u25bc             \u25bc             \u25bc\n"
+        "       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
+        "       \u2502Friction \u2502  \u2502  Policy  \u2502  \u2502Financial \u2502\n"
+        "       \u2502 Events  \u2502  \u2502  Shifts  \u2502  \u2502  Moves   \u2502\n"
+        "       \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2518  \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518  \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518\n"
+        "            \u2502             \u2502             \u2502\n"
+        "            \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n"
+        "                          \u25bc\n"
+        "              CONVERGENT CLUSTERING\n"
+        "            (r = 0.6196, 2-week lag)",
+        language=None,
+    )
+
+    model_c1, model_c2 = st.columns(2)
+    model_c1.markdown(
+        "**Original hypothesis (sequential):**\n\n"
+        "Friction (t) \u2192 *creates window* \u2192 Compliance (t+14d)"
+    )
+    model_c2.markdown(
+        "**Revised finding (convergence):**\n\n"
+        "Calendar anchor drives friction, policy, and financial events "
+        "into the same window independently."
+    )
+
+    st.divider()
+
+    # ── December 2025 Case Study ──
+    with st.expander("Case Study: December 19\u201323, 2025 \u2014 The Pincer Window"):
+        st.markdown(
+            "The December 2025 window demonstrates the convergence model in action: "
+            "**5 independent signal types** clustering on the same low-attention anchor "
+            "(winter solstice + pre-Christmas). Total: **108 events in 12 days.**"
+        )
+
+        dec_events = pd.DataFrame([
+            {"Date": "Dec 19", "Friction": 1, "Compliance": 5, "Highlights": "Epstein Library release (DOJ); Bull & Bear sell signal (8.5)"},
+            {"Date": "Dec 22", "Friction": 6, "Compliance": 13, "Highlights": "Peak convergence day \u2014 19 total events"},
+            {"Date": "Dec 23", "Friction": 8, "Compliance": 9, "Highlights": "Redaction failures exposed (NYT)"},
+            {"Date": "Dec 24", "Friction": 2, "Compliance": 3, "Highlights": "DOJ finds 1M more pages"},
+        ])
+        st.dataframe(dec_events, use_container_width=True, hide_index=True)
+
+        st.markdown("**Five signal types on December 22:**")
+        st.markdown(
+            "1. **Friction:** Epstein redaction failures exposed (NYT: \u201ceasily recovered\u201d)\n"
+            "2. **Geopolitics:** China EU dairy tariffs (42.7%) take effect\n"
+            "3. **Financial:** BlackRock names Bitcoin ETF \u201ctop 2025 theme\u201d\n"
+            "4. **Policy:** Travel ban expansion, DOGE year-end analysis\n"
+            "5. **Cyber/Intel:** CRINK nation-state threat analysis published"
+        )
+
+        st.caption(
+            "These events did not cause each other. They clustered because December 22 "
+            "\u2014 between the solstice and Christmas \u2014 is a predictable low-attention "
+            "anchor. Removing the entire December 2025 window still yields \u03c1 = 0.60, "
+            "p < 0.0001 (see Robustness Tests)."
+        )
 
     st.divider()
 
