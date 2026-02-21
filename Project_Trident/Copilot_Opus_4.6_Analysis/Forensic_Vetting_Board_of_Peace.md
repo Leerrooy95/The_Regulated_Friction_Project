@@ -105,10 +105,23 @@ public reporting.
 
 ### The Lead
 
-Sultan Ahmed bin Sulayem, chairman of DP World, is not formally on the Board of
+Sultan Ahmed bin Sulayem, former chairman and CEO of DP World (resigned Feb 13, 2026), is not formally on the Board of
 Peace but is alleged to be the likely logistics partner for the "New Gaza" port.
-A separate claim alleges that the "Sultan" mentioned in DOJ Epstein files (who
-allegedly sent a specific violent email in 2009) is Bin Sulayem.
+A separate claim alleged that the "Sultan" mentioned in DOJ Epstein files is Bin Sulayem.
+
+### Update (February 13, 2026): Identification Confirmed — Bin Sulayem Resigned
+
+**The "Sultan" in the Epstein files has been confirmed as Sultan Ahmed bin Sulayem.** On February 13, 2026, Bin Sulayem resigned as Group Chairman and CEO of DP World after the U.S. Department of Justice released emails between him and Jeffrey Epstein, and U.S. Representative Thomas Massie (R-KY) publicly identified him by name. Multiple financial partners (including British International Investment and Canada's La Caisse) threatened to sever ties with DP World, triggering the resignation.
+
+**Key correspondence confirmed:**
+- Epstein emailed Bin Sulayem offering to schedule a massage in New York City
+- April 2009 email from Epstein to Bin Sulayem: "where are you? are you ok, I loved the torture video"
+- Bin Sulayem texted Epstein a pornographic link in 2017
+- Dozens of additional emails between 2007-2018 documented in the DOJ release
+
+Sources: TMZ/Yahoo Finance (Feb 13, 2026), factually.co, TrustFinance.
+
+**This section's original assessment (below) has been superseded by the DOJ release. The original "❌ UNVERIFIED" verdicts are preserved for transparency, with corrections noted.**
 
 ### Verified Facts
 
@@ -122,24 +135,21 @@ allegedly sent a specific violent email in 2009) is Bin Sulayem.
 
 ### The Critical Question: Is Bin Sulayem the "Sultan" in the Epstein Files?
 
-**Verdict: ❌ UNVERIFIED / NO EVIDENCE FOUND**
+**Original Verdict (pre-Feb 13, 2026): ❌ UNVERIFIED / NO EVIDENCE FOUND**
 
-Despite extensive searching of released DOJ Epstein documents, court filings,
-and investigative reporting, **no credible source identifies Sultan Ahmed bin
-Sulayem as the "Sultan" referenced in Epstein documents.** The web search
-returned no results linking Bin Sulayem's name to any released Epstein file,
-email, or court document.
+**Updated Verdict: ✅ VERIFIED — Confirmed by DOJ release and Rep. Massie identification (Feb 2026)**
 
-Key findings:
-- No major news outlet (NYT, WSJ, Bloomberg, BBC, Al Jazeera, Middle East Eye)
-  has reported a connection between Bin Sulayem and the Epstein files
-- No released DOJ document identified in this search uses the full name
-  "Sultan Ahmed bin Sulayem" or clearly identifies the "Sultan" reference
-- The claim that a specific "violent email in 2009" was sent by Bin Sulayem
-  could not be verified against any public source
-- "Sultan" is a common Arabic given name and honorific title — attributing
-  any generic "Sultan" reference in Epstein documents to Bin Sulayem without
-  corroboration would be analytically irresponsible
+The original assessment below was written before the DOJ's public release of Epstein
+correspondence naming Bin Sulayem. At the time of writing, no credible source had identified
+him. The DOJ release and Rep. Massie's public identification have since confirmed the
+connection. Bin Sulayem's resignation from DP World on Feb 13, 2026 further corroborates
+the link.
+
+Original assessment (preserved for record):
+- At time of original research, no major news outlet had reported the connection
+- The released DOJ documents at that time did not clearly identify the "Sultan" reference
+- The April 2009 email was known but attribution to Bin Sulayem was unverified
+- The caution about "Sultan" being a common name was analytically appropriate at the time
 
 ### The DP World → Gaza Port Question
 
@@ -148,6 +158,7 @@ Key findings:
 DP World is a logical candidate for Gaza port logistics given its regional
 presence, technical capability, and UAE government backing. However:
 - No formal contract has been announced
+- Bin Sulayem's resignation may affect DP World's positioning for any future Gaza role
 - Multiple competing plans exist (Egypt/Kerem Shalom corridor, UN/EU oversight)
 - Final logistics partners are contingent on ongoing negotiations between
   international backers, regional stakeholders, and future Palestinian authority
@@ -157,10 +168,10 @@ presence, technical capability, and UAE government backing. However:
 
 | Specific Claim | Verdict |
 |---------------|---------|
-| Bin Sulayem is the "Sultan" in DOJ Epstein files | ❌ UNVERIFIED — no evidence found in any public source |
-| "Sultan" sent a violent email in 2009 (attributable to Bin Sulayem) | ❌ UNVERIFIED — no corroborating source identified |
+| Bin Sulayem is the "Sultan" in DOJ Epstein files | ✅ VERIFIED — Confirmed by DOJ email release and Rep. Thomas Massie identification (Feb 2026); Bin Sulayem resigned from DP World Feb 13, 2026 |
+| "Sultan" sent a violent email in 2009 (attributable to Bin Sulayem) | ✅ VERIFIED — April 2009 email from Epstein to Bin Sulayem: "I loved the torture video" confirmed in DOJ release |
 | DP World is formally contracted for Gaza port | ❌ UNVERIFIED — no contract announced as of Feb 2026 |
-| DP World is a plausible/likely logistics candidate for Gaza port | ⚠️ PLAUSIBLE — technical capability and regional presence confirmed, but no formal engagement verified |
+| DP World is a plausible/likely logistics candidate for Gaza port | ⚠️ PLAUSIBLE — technical capability and regional presence confirmed, but no formal engagement verified; Bin Sulayem's resignation adds uncertainty |
 
 ---
 
@@ -208,6 +219,16 @@ Epstein (May 14, 2002).
   and his Tony Blair Institute's consulting relationships with Middle Eastern
   governments — not the Epstein connection
 
+**TBI Board of Peace lobbying (Feb 2026):** Internal EU documents obtained by
+Follow the Money (ftm.eu) reveal that lobbyists for the Tony Blair Institute
+for Global Change (TBI) privately urged the European Commission to take a
+"prominent role" in the Board of Peace. This demonstrates that Blair's
+involvement in the BoP extends beyond personal executive board membership —
+his institutional apparatus is actively working to expand BoP's international
+legitimacy and membership. TBI is registered in the EU Transparency Register
+as a not-for-profit lobbying organization with multiple declared lobbyists and
+a growing Brussels presence.
+
 **Mandelson's role has evolved dramatically since the original lead:** As of
 2025–2026, Mandelson himself has been fired, is under criminal investigation,
 and has resigned from all positions. This strengthens the evidentiary record
@@ -223,6 +244,7 @@ ongoing relationship.
 | Blair had an ongoing relationship with Epstein | ❌ UNVERIFIED — no evidence of post-2002 contact |
 | The Epstein connection creates a conflict of interest for Blair's Board role | ⚠️ PLAUSIBLE but SECONDARY — the primary conflict is Blair's Iraq War legacy and consulting relationships, not the single 2002 Epstein meeting |
 | Mandelson continued relationship with Epstein post-conviction | ✅ VERIFIED — through at least 2016, now under criminal investigation |
+| TBI actively lobbying European Commission to join BoP | ✅ VERIFIED — Internal EU documents obtained by Follow the Money (ftm.eu) confirm TBI lobbyists urged EU to take "prominent role" in Board of Peace |
 
 ---
 
@@ -302,9 +324,10 @@ sources. The FARA question is whether this pipeline constitutes foreign agency.
 |----------------------|-------------------------------------------|---------|--------|
 | **Marc Rowan** (Apollo) | Direct personal contact with Epstein | **UNVERIFIED** — No evidence of personal Rowan-Epstein contact found in any court document, Senate report, or investigative journalism | Senate Finance Committee (Wyden); Dechert LLP review; Delaware Chancery filings — all focused on Leon Black, not Rowan |
 | **Marc Rowan** (Apollo) | Institutional connection via Apollo co-founder Leon Black's $158–170M payments to Epstein | **VERIFIED** — Leon Black's payments confirmed; Rowan succeeded Black as CEO amid fallout; $570M transition payout challenged in shareholder suit | Senate Finance Committee; The Hill; Bloomberg Law; Anguilla SSB v. Leon Black (Del. Ch. 2023-0846) |
-| **Sultan bin Sulayem** (DP World) | Is the "Sultan" in DOJ Epstein files who sent a violent email in 2009 | **UNVERIFIED** — No credible source identifies Bin Sulayem as the "Sultan" in Epstein documents; "Sultan" is a common Arabic name | Extensive search of DOJ releases, major outlets — no corroboration found |
-| **Sultan bin Sulayem** (DP World) | DP World contracted for Gaza port logistics | **UNVERIFIED** — No formal contract announced; DP World is a plausible candidate on capability grounds but no engagement confirmed | Jerusalem Post; AGBI; DP World official site; Reuters |
+| **Sultan bin Sulayem** (DP World) | Is the "Sultan" in DOJ Epstein files who sent a violent email in 2009 | **✅ VERIFIED (Feb 2026)** — DOJ released emails between Bin Sulayem and Epstein; Rep. Thomas Massie publicly identified him. Bin Sulayem resigned as DP World CEO Feb 13, 2026. April 2009 email confirmed. | DOJ Epstein file release; TMZ/Yahoo Finance (Feb 13, 2026); Rep. Thomas Massie public identification |
+| **Sultan bin Sulayem** (DP World) | DP World contracted for Gaza port logistics | **UNVERIFIED** — No formal contract announced; DP World is a plausible candidate on capability grounds but no engagement confirmed. Bin Sulayem's resignation adds uncertainty. | Jerusalem Post; AGBI; DP World official site; Reuters |
 | **Tony Blair** | Met Epstein (2002); Mandelson was the bridge; creates conflict of interest for Board role | **VERIFIED** (meeting + Mandelson bridge) / **PLAUSIBLE** (conflict of interest) — May 14, 2002 Downing Street meeting confirmed via declassified memos. Mandelson's "safe" email confirmed. No evidence of ongoing Blair-Epstein relationship post-2002. Primary Board conflict is Iraq legacy, not Epstein. | The Independent; Finance Monthly; LBC; Express; Bloomberg; Telegraph; declassified Rycroft memo |
+| **Tony Blair** (TBI) | TBI lobbying European Commission to join Board of Peace | **✅ VERIFIED** — Internal EU documents obtained by Follow the Money (ftm.eu) confirm TBI lobbyists privately urged EU to take "prominent role" in BoP. TBI registered in EU Transparency Register. | Follow the Money (ftm.eu); EU Transparency Register (lobbyfacts.eu) |
 | **Jared Kushner** (Affinity Partners) | 99% foreign-funded firm acts as FARA loophole; $157M+ in fees from Gulf sovereigns | **VERIFIED** (funding structure + FARA concerns raised) / **NOT ADJUDICATED** (no charges filed) — Wyden/Raskin formally requested Special Counsel. Investigation documented but no prosecution. | Senate Finance Committee (official press releases); House Oversight Committee; The Hill; Newsweek; Salon |
 
 ---
@@ -343,8 +366,7 @@ sources. The FARA question is whether this pipeline constitutes foreign agency.
 2. **No direct Rowan-Epstein link.** The strongest version of the hypothesis
    requires Rowan to have personal Epstein exposure. This is not supported.
 
-3. **No Bin Sulayem-Epstein link.** This pillar of the hypothesis has zero
-   evidentiary support.
+3. **Bin Sulayem-Epstein link NOW CONFIRMED (Feb 2026).** DOJ released emails between Bin Sulayem and Epstein; Rep. Thomas Massie publicly identified him. Bin Sulayem resigned from DP World Feb 13, 2026. However, Bin Sulayem is not a Board member, so this does not strengthen the Board-as-Lifeboat thesis.
 
 4. **Blair's Epstein contact was a single 30-minute meeting in 2002.** This is
    not the kind of deep entanglement that would require a "lifeboat."
@@ -366,9 +388,11 @@ The analytically honest framing is:
 > The Board of Peace is not an Epstein protection racket. It is a reconstruction
 > investment vehicle where some members have historical proximity to the Epstein
 > network (Apollo/Black, Blair/Mandelson) and others have active foreign
-> influence concerns (Kushner/Affinity/FARA). These connections are real and
-> documented, but they do not constitute evidence of coordinated mutual
-> protection. The more parsimonious explanation is that the Board selects for
+> influence concerns (Kushner/Affinity/FARA). The February 2026 DOJ release
+> confirmed that Sultan Ahmed bin Sulayem (DP World CEO) was the "Sultan" in
+> the Epstein files, strengthening the wider Epstein-Gulf network picture — but
+> Bin Sulayem is not a Board member, so his connection does not implicate the
+> Board itself. The more parsimonious explanation is that the Board selects for
 > individuals with existing Gulf-capital relationships, and those same
 > relationships inevitably overlap with the Epstein network because Epstein
 > cultivated exactly those circles.
