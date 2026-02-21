@@ -122,6 +122,49 @@ with tab_home:
 
     st.divider()
 
+    # Key Statistics table (sourced from README.md Key Statistics)
+    with st.expander("**Key Findings (21 Verified)**", expanded=False):
+        key_stats_data = [
+            {"Finding": "Friction \u2192 Compliance correlation", "Value": "r = +0.6196 (2-week lag)", "Status": "\u2705 Verified"},
+            {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 30 weeks", "Status": "\u2705 Verified"},
+            {"Finding": "Ritual \u2192 Policy proximity", "Value": "50.7% vs. 19.9% baseline (2.5x)", "Status": "\u2705 Verified"},
+            {"Finding": "Project Trident significance", "Value": "p = 0.002 (Mann-Whitney U)", "Status": "\u2705 Verified"},
+            {"Finding": "Cross-validation (14-day periodicity)", "Value": "\u03c7\u00b2 = 330.62 (p < 0.0001, 2,102 events)", "Status": "\u2705 Verified"},
+            {"Finding": "December 2025 cluster", "Value": "108 events in 12-day window", "Status": "\u2705 Verified"},
+            {"Finding": "Dec 22 signal types", "Value": "5 (Friction, Geopolitics, Financial, Policy, Cyber)", "Status": "\u2705 Verified"},
+            {"Finding": "Event colocation", "Value": "Friction dates attract 20\u201342x more compliance than random", "Status": "\u2705 Verified"},
+            {"Finding": "January 2026 signal peaks", "Value": "3 peaks (Jan 3\u20139, Jan 20\u201322, Jan 27\u201331), 1 trough", "Status": "\u2705 Verified"},
+            {"Finding": "January 2026 event density", "Value": "34 events: 12 friction, 19 compliance, 3 anchors", "Status": "\u2705 Verified"},
+            {"Finding": "Feb 1\u201319 compliance window", "Value": "9 compliance events to 6 friction events in 19 days", "Status": "\u2705 Verified"},
+            {"Finding": "13F visibility gap", "Value": "Architecture below 13F threshold \u2014 private deals, non-US, LP interests", "Status": "\u2705 Verified"},
+            {"Finding": "Apollo credit pipeline", "Value": "$938B AUM, $305B originated 2025; $3B QXO + $3.5B xAI + $29B Meta", "Status": "\u2705 Verified"},
+            {"Finding": "Enforcement hollowing (Prong 3)", "Value": "SEC 15%+, CFTC 21.5% cut, CFPB alerts killed, 50K positions", "Status": "\u2705 Verified"},
+            {"Finding": "Feb 11 single-day compliance density", "Value": "7 compliance events (5 EOs + USDA + QXO) \u2014 highest in 2026", "Status": "\u2705 Verified"},
+            {"Finding": "Bondi hearing \u00b17 day window", "Value": "17 compliance events vs ~3\u20134 baseline (+467%)", "Status": "\u2705 Verified"},
+            {"Finding": "Q4 2025 13F: 3 predictions tested", "Value": "EA stable, Mubadala reversed, no Gulf SWF entries", "Status": "\u274c All 3 FAILED"},
+            {"Finding": "Mubadala Bitcoin ETF expansion", "Value": "IBIT +46% (8.7M\u219212.7M shares); Abu Dhabi ~$1.04B", "Status": "\u2705 Verified"},
+            {"Finding": "Board of Peace inaugural summit", "Value": "~50 countries, $7B pledged, $10B US, 10% of $70B need", "Status": "\u2705 Verified"},
+            {"Finding": "Historical backfill (2017\u20132024)", "Value": "66 pairs, median +7d, 5 neg. windows, 10/10 claims verified", "Status": "\u2705 Verified"},
+            {"Finding": "Backfill correlation impact", "Value": "\u0394r = +0.0012, \u0394\u03c1 = +0.0023 \u2014 baseline unaffected", "Status": "\u2705 Verified"},
+        ]
+
+        key_stats_df = pd.DataFrame(key_stats_data)
+
+        def _style_key_stats(row):
+            if "\u274c" in row["Status"]:
+                return ["background-color: rgba(230, 57, 70, 0.15)"] * len(row)
+            return ["background-color: rgba(42, 157, 143, 0.10)"] * len(row)
+
+        styled = key_stats_df.style.apply(_style_key_stats, axis=1)
+        st.dataframe(styled, use_container_width=True, hide_index=True)
+
+        st.caption(
+            "20 of 21 findings verified. 1 entry documents 3 failed 13F predictions "
+            "(displayed in red). Source: README.md Key Statistics table."
+        )
+
+    st.divider()
+
     # Framework overview
     st.subheader("Framework Overview")
 
