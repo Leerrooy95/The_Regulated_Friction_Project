@@ -1,0 +1,50 @@
+name: Daily Intelligence Pipeline
+
+on:
+  schedule:
+    # Runs every day at 8:00 AM UTC (adjust as needed)
+    - cron: '0 8 * * *' 
+  workflow_dispatch: # This allows you to manually click a "Run" button in GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    # Grants the bot permission to push the new JSON files to your repo
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Matches your Codespace environment
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scrapy azure-ai-inference azure-core python-dotenv
+          # If you have a requirements.txt in your root, use `pip install -r requirements.txt` instead
+
+      - name: Run Zyte Spider (Federal Register EOs)
+        run: |
+          scrapy crawl federal_register_eo -o output/federal_register_data.json
+
+      - name: Run Llama Scout LLM Extraction
+        env:
+          # Passes your secure API key to the python script
+          GITHUB_TOKEN: ${{ secrets.LLM_API_KEY }} 
+        run: |
+          python test_api.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          
+          # This line checks if there is actually new data. If yes, it commits and pushes.
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: Fresh Spider & LLM JSON" && git push)
