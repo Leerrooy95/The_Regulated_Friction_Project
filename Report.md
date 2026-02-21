@@ -782,7 +782,7 @@ The Board of Peace held its first summit at the US Institute of Peace in Washing
 | **Troops** | Five countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania); Egypt and Jordan committed to police training |
 | **Declined** | Several top US allies declined, citing constitutional incompatibilities and concerns about bypassing UN peacekeeping |
 | **Membership** | $1B = permanent membership confirmed in reporting (TIME, Axios) |
-| **Leadership** | Trump chaired; executive committee includes Kushner, Rubio, Witkoff, Blair |
+| **Leadership** | Trump (chairman for life); executive board includes Kushner, Rubio, Witkoff, Blair, Rowan (Apollo CEO), Banga (World Bank President), Gabay |
 
 **Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) troop commitments from five countries represent a nascent International Stabilization Force, though 20,000 planned personnel remain short of full operational capacity.
 
@@ -1038,7 +1038,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 - Robustness tests (permutation, autocorrelation adjustment, Dec 2025 exclusion, normalization) documented in `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/new_analysis_findings.md`
 - Fork the repo and run your own analysis — core scripts in `Run_Correlations_Yourself/`, robustness scripts in `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
 
-**If this were random coincidence, events would distribute evenly. Instead, we see a 2.5x higher clustering around ritual dates (50.7%) compared to the baseline (19.9%), with a statistical significance of p=0.002. Coincidence does not produce consistent 14-day lags across 30 weeks of data is the legitimate read of the data, but it doesnt prove cause.**
+**If this were random coincidence, events would distribute evenly. Instead, we see a 2.5x higher clustering around ritual dates (50.7%) compared to the baseline (19.9%), with a statistical significance of p=0.002. Coincidence does not produce consistent 14-day lags across 30 weeks of data — this is the legitimate read of the data, but it doesn't prove cause.**
 
 ---
 
