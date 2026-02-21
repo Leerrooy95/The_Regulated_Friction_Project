@@ -191,34 +191,116 @@ with tab_home:
 
     st.divider()
 
-    # ── 3-Audience Navigation Cards (Responsive Native Containers) ──
+    # ── 3-Audience Navigation Cards (Responsive CSS Grid) ──
     st.subheader("Navigate by Role")
 
-    rc1, rc2, rc3 = st.columns(3, gap="large")
-
-    with rc1:
-        with st.container(border=True):
-            st.markdown("### 🔬 For Researchers")
-            st.markdown("*(Statistical methodology, robustness tests, raw datasets)*")
-            st.markdown("- **Statistical Overview** tab — lag sweep, regression, CI")
-            st.markdown("- `Run_Correlations_Yourself/` — reproduce r = 0.6196")
-            st.markdown("- `Statistical_Tests/` — 16 robustness scripts")
-
-    with rc2:
-        with st.container(border=True):
-            st.markdown("### 🏛️ For Policymakers")
-            st.markdown("*(Key findings, case studies, policy implications)*")
-            st.markdown("- **Prediction Tracker** tab — 25 falsifiable predictions")
-            st.markdown("- `How_This_Happened—A_Policy_Brief.md`")
-            st.markdown("- **Key Findings** table above — 21 verified results")
-
-    with rc3:
-        with st.container(border=True):
-            st.markdown("### 🕵️ For Skeptics")
-            st.markdown("*(Verify it yourself — limitations, alternative explanations)*")
-            st.markdown("- **Robustness Tests** in Statistical Overview")
-            st.markdown("- `Alternate_Mechanisms.md` — competing hypotheses")
-            st.markdown("- `git clone` + `pip install` + `python run_original_analysis.py`")
+    st.markdown(
+        """
+        <style>
+        .role-cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1rem 0 2rem 0;
+        }
+        
+        .role-card {
+            border: 1px solid var(--secondary-background-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            background-color: var(--background-color);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.2s ease;
+        }
+        
+        .role-card:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+        
+        .role-card h3 {
+            color: var(--text-color);
+            margin: 0 0 0.5rem 0;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .role-card .subtitle {
+            color: var(--text-color);
+            opacity: 0.7;
+            font-style: italic;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .role-card ul {
+            margin: 0;
+            padding-left: 1.2rem;
+            list-style-type: none;
+        }
+        
+        .role-card li {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+            position: relative;
+            padding-left: 0.3rem;
+        }
+        
+        .role-card li::before {
+            content: "•";
+            position: absolute;
+            left: -1rem;
+            font-weight: bold;
+        }
+        
+        .role-card code {
+            background-color: var(--secondary-background-color);
+            padding: 0.15rem 0.4rem;
+            border-radius: 0.25rem;
+            font-size: 0.85em;
+            color: var(--text-color);
+        }
+        
+        .role-card strong {
+            color: var(--text-color);
+            font-weight: 600;
+        }
+        </style>
+        
+        <div class="role-cards-container">
+            <div class="role-card">
+                <h3>🔬 For Researchers</h3>
+                <div class="subtitle">(Statistical methodology, robustness tests, raw datasets)</div>
+                <ul>
+                    <li><strong>Statistical Overview</strong> tab — lag sweep, regression, CI</li>
+                    <li><code>Run_Correlations_Yourself/</code> — reproduce r = 0.6196</li>
+                    <li><code>Statistical_Tests/</code> — 16 robustness scripts</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h3>🏛️ For Policymakers</h3>
+                <div class="subtitle">(Key findings, case studies, policy implications)</div>
+                <ul>
+                    <li><strong>Prediction Tracker</strong> tab — 25 falsifiable predictions</li>
+                    <li><code>How_This_Happened—A_Policy_Brief.md</code></li>
+                    <li><strong>Key Findings</strong> table above — 21 verified results</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h3>🕵️ For Skeptics</h3>
+                <div class="subtitle">(Verify it yourself — limitations, alternative explanations)</div>
+                <ul>
+                    <li><strong>Robustness Tests</strong> in Statistical Overview</li>
+                    <li><code>Alternate_Mechanisms.md</code> — competing hypotheses</li>
+                    <li><code>git clone</code> + <code>pip install</code> + <code>python run_original_analysis.py</code></li>
+                </ul>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     st.divider()
 
