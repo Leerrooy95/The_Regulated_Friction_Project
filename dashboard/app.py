@@ -85,12 +85,13 @@ if backfill_df is not None:
     backfill_stats = compute_lag_stats(backfill_df["lag_parsed"])
 
 # ── Tabs ─────────────────────────────────────────────────────────────────
-tab_home, tab_overview, tab_timeseries, tab_backfill, tab_data = st.tabs([
+tab_home, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions = st.tabs([
     "Home",
     "Statistical Overview",
     "Time Series & Scatter",
     "Lag Distribution (Backfill)",
     "Raw Data Explorer",
+    "Prediction Tracker",
 ])
 
 # =====================================================================
@@ -512,6 +513,94 @@ with tab_data:
             )
         else:
             st.warning("EO spider dataset not available.")
+
+# =====================================================================
+# TAB 5: PREDICTION TRACKER
+# =====================================================================
+with tab_predictions:
+    st.header("Prediction Tracker")
+
+    st.markdown(
+        "Falsifiable predictions are the test of any model. This tracker shows all "
+        "predictions made by this project, including failures. Three Q4 2025 13F "
+        "predictions failed \u2014 this is recorded as data, not hidden."
+    )
+
+    st.divider()
+
+    # ── Prediction data (sourced from README.md Testable Predictions table) ──
+    predictions_data = [
+        {"Prediction": "Event clustering at next file deadline", "Timeframe": "Ongoing", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Tu BiShvat policy action", "Timeframe": "Feb 1\u20132, 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "UK Mandelson disclosure", "Timeframe": "Feb\u2013Mar 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Board of Peace first summit", "Timeframe": "Feb 19, 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": 'Board of Peace = "Board of Profits"', "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "West Bank annexation acceleration", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Al-Tanf withdrawal / Iran concession", "Timeframe": "Feb 11, 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Feb 1\u201319 compliance window density", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Indonesia ISF troop deployment", "Timeframe": "2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "ISF under BoP (not UN) command", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "1789 Capital \u2192 Anduril \u2192 WDS 2026 link", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Q4 2025 13F: PIF EA position change", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
+        {"Prediction": "Q4 2025 13F: Mubadala defense expansion", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
+        {"Prediction": "Q4 2025 13F: New Gulf SWF Oracle/defense entries", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
+        {"Prediction": "Gulf SWF Q4 positioning revealed", "Timeframe": "Feb 14, 2026", "Status": "\u274c Failed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "DOGE-predicted instability", "Timeframe": "Q1 2026", "Status": "\u23f3 Tracking", "Date Added": "Pre-v9.0"},
+        {"Prediction": "California TikTok investigation findings", "Timeframe": "Q1 2026", "Status": "\u23f3 Pending", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Khanna investigation findings", "Timeframe": "Mar 2026", "Status": "\u23f3 Pending", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Arkansas PSC order text release", "Timeframe": "Q1 2026", "Status": "\u23f3 Pending", "Date Added": "v9.4"},
+        {"Prediction": "QXO further acquisitions", "Timeframe": "2026", "Status": "\u23f3 Tracking", "Date Added": "v9.2"},
+        {"Prediction": "EO 14375 legal challenge (IOIA authorization)", "Timeframe": "2026", "Status": "\u23f3 Pending", "Date Added": "v9.2"},
+        {"Prediction": "NTEU court-ordered position list disclosure", "Timeframe": "Feb 27, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
+        {"Prediction": "Schedule Policy/Career implementation", "Timeframe": "Mar 9, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
+        {"Prediction": "Feb 11 compliance density repeat at next major hearing", "Timeframe": "Ongoing", "Status": "\u23f3 Pending", "Date Added": "v9.2"},
+        {"Prediction": "Khanna investigation document deadline", "Timeframe": "Mar 1, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
+    ]
+
+    pred_df = pd.DataFrame(predictions_data)
+
+    # ── Summary counters ──
+    n_confirmed = pred_df["Status"].str.contains("\u2705").sum()
+    n_failed = pred_df["Status"].str.contains("\u274c").sum()
+    n_pending = len(pred_df) - n_confirmed - n_failed
+
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Confirmed", f"{n_confirmed} \u2705")
+    m2.metric("Failed", f"{n_failed} \u274c")
+    m3.metric("Pending / Tracking", f"{n_pending} \u23f3")
+
+    st.divider()
+
+    # ── Failed predictions (prominent display) ──
+    st.subheader("Failed Predictions")
+    st.caption(
+        "These predictions were publicly made and publicly failed. "
+        "The 13F visibility gap is now a documented finding: the architecture "
+        "operates below 13F disclosure thresholds via private deals, non-US "
+        "securities, and LP interests."
+    )
+    failed_df = pred_df[pred_df["Status"].str.contains("\u274c")].reset_index(drop=True)
+    st.dataframe(failed_df, use_container_width=True, hide_index=True)
+
+    st.divider()
+
+    # ── Full prediction table with filter ──
+    st.subheader("All Predictions")
+
+    status_filter = st.multiselect(
+        "Filter by status",
+        ["\u2705 Confirmed", "\u274c Failed", "\u23f3 Pending", "\u23f3 Tracking"],
+        default=["\u2705 Confirmed", "\u274c Failed", "\u23f3 Pending", "\u23f3 Tracking"],
+    )
+
+    filtered_pred = pred_df[pred_df["Status"].isin(status_filter)]
+    st.dataframe(filtered_pred, use_container_width=True, hide_index=True)
+
+    st.caption(
+        f"Total: {len(pred_df)} predictions | "
+        f"{n_confirmed} confirmed, {n_failed} failed, {n_pending} pending/tracking"
+    )
+
 
 # ── Footer ───────────────────────────────────────────────────────────────
 st.divider()
