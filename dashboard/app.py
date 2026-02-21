@@ -109,31 +109,29 @@ with tab_home:
     h1, h2, h3, h4 = st.columns(4, gap="small")
     h1.metric("Pearson r", "0.6196", help="2-week lag, core 30-week dataset")
     h2.metric("p-value", "0.0004", help="Two-tailed significance")
-    h3.metric("Response rate", "93%", help="66 of 71 friction events")
+    h3.metric("Response rate", "93%",
+              help="% of friction events with compliance response within lag window")
     h4.metric("Backfill pairs", "66", help="2017\u20132024")
+
+    st.caption(
+        "When high-visibility friction events spike, institutional compliance events "
+        "follow ~14 days later. This relationship has less than 0.05% probability of "
+        "occurring by chance."
+    )
 
     st.divider()
 
     # Framework overview
     st.subheader("Framework Overview")
 
-    st.markdown("**1. Technical Opacity**")
     st.markdown(
-        "Documented vulnerabilities in cross-border payment systems including "
-        "NULL field defaults and cover payment blind spots."
-    )
-
-    st.markdown("**2. Regulatory Exemptions**")
-    st.markdown(
-        "Codified pathways including CFIUS \u00a7800.307, CHIPS Act Gulf state "
-        "exclusions, and FARA non-enforcement."
-    )
-
-    st.markdown("**3. Administrative Timing**")
-    st.markdown(
-        "The statistical layer this dashboard measures \u2014 friction events "
-        "correlating with compliance events at r=0.6196, 2-week lag, verified "
-        "across 2017\u20132026."
+        "This dashboard tracks the **friction-compliance correlation**: when "
+        "high-visibility events cluster, institutional compliance events follow at a "
+        "statistically significant 2-week lag. **Core finding:** r\u2009=\u20090.6196, "
+        "p\u2009=\u20090.0004 (30 weeks). **Historical validation:** 66 pairs across "
+        "2017\u20132024, median lag +7 days. **Negative windows:** 5 confirmed. "
+        "For the broader framework (regulatory exemptions, technical opacity), see the "
+        "full repository."
     )
 
     st.divider()
