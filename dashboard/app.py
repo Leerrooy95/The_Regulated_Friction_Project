@@ -3,6 +3,9 @@ Historical Friction-Compliance Explorer — Track A MVP Dashboard
 Main Streamlit entry point.
 """
 
+import os
+import glob
+import json
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -36,16 +39,29 @@ from data_loader import load_backfill, load_core_dataset, load_eo_spider, load_n
 # ── Page config ──────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Historical Friction-Compliance Explorer",
-    page_icon="\U0001f4ca",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# ── LLM Data Loader ──────────────────────────────────────────────────────
+@st.cache_data(ttl=3600) 
+def load_latest_intel():
+    """Finds and loads the most recent JSON extraction from the LLM."""
+    list_of_files = glob.glob("output/*_extracted.json")
+    if not list_of_files:
+        return None
+    latest_file = sorted(list_of_files, reverse=True)[0]
+    with open(latest_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
 
 # ── Load data ────────────────────────────────────────────────────────────
 core_df = load_core_dataset()
 backfill_df = load_backfill()
 negative_df = load_negative_windows()
 eo_df = load_eo_spider()
+intel_data = load_latest_intel()
 
 if core_df is None:
     st.stop()
@@ -55,6 +71,12 @@ with st.sidebar:
     st.title("Friction-Compliance Explorer")
     st.caption("Track A | Correlation Model")
     st.divider()
+
+    if intel_data:
+        timestamp = intel_data.get("extraction_metadata", {}).get("timestamp", "Unknown")
+        events_processed = intel_data.get("extraction_metadata", {}).get("events_processed", 0)
+        st.success(f"🤖 Live Intel Active\n\nLast updated: {timestamp[:10]}\n\nEvents processed: {events_processed}")
+        st.divider()
 
     selected_lag = st.slider("Lag (weeks)", min_value=0, max_value=6, value=2)
     show_negatives = st.checkbox("Show negative windows", value=True)
@@ -66,8 +88,10 @@ with st.sidebar:
     st.markdown("- `historical_backfill_2017_2024.csv` (66 pairs)")
     st.markdown("- `negative_windows.csv` (5 windows)")
     st.markdown("- Federal Register EO spider (JSON)")
+    if intel_data:
+        st.markdown("- **Llama-4-Scout Extraction (JSON)**")
     st.divider()
-    st.caption("v9.9 | February 2026")
+    st.caption("v10.0 | Automated Pipeline Active")
     st.caption(DISCLAIMER)
 
 # ── Compute statistics ───────────────────────────────────────────────────
@@ -86,8 +110,9 @@ if backfill_df is not None:
     backfill_stats = compute_lag_stats(backfill_df["lag_parsed"])
 
 # ── Tabs ─────────────────────────────────────────────────────────────────
-tab_home, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions = st.tabs([
+tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions = st.tabs([
     "Home",
+    "🔴 Live Intelligence",
     "Statistical Overview",
     "Time Series & Scatter",
     "Lag Distribution (Backfill)",
@@ -102,7 +127,7 @@ with tab_home:
     st.header("The Regulated Friction Project")
     st.markdown(
         "A data-driven analysis of temporal correlations between friction events, "
-        "policy shifts, and capital flows (2015\u20132026)."
+        "policy shifts, and capital flows (2015–2026)."
     )
 
     st.divider()
@@ -113,7 +138,7 @@ with tab_home:
     h2.metric("p-value", "0.0004", help="Two-tailed significance")
     h3.metric("Response rate", "93%",
               help="% of friction events with compliance response within lag window")
-    h4.metric("Backfill pairs", "66", help="2017\u20132024")
+    h4.metric("Backfill pairs", "66", help="2017–2024")
 
     st.caption(
         "When high-visibility friction events spike, institutional compliance events "
@@ -126,33 +151,33 @@ with tab_home:
     # Key Statistics table (sourced from README.md Key Statistics)
     with st.expander("**Key Findings (21 Verified)**", expanded=False):
         key_stats_data = [
-            {"Finding": "Friction \u2192 Compliance correlation", "Value": "r = +0.6196 (2-week lag)", "Status": "\u2705 Verified"},
-            {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 28", "Status": "\u2705 Verified"},
-            {"Finding": "Ritual \u2192 Policy proximity", "Value": "50.7% vs. 19.9% baseline (2.5x)", "Status": "\u2705 Verified"},
-            {"Finding": "Project Trident significance", "Value": "p = 0.002 (Mann-Whitney U)", "Status": "\u2705 Verified"},
-            {"Finding": "Cross-validation (14-day periodicity)", "Value": "\u03c7\u00b2 = 330.62 (p < 0.0001, 2,102 events)", "Status": "\u2705 Verified"},
-            {"Finding": "December 2025 cluster", "Value": "108 events in 12-day window", "Status": "\u2705 Verified"},
-            {"Finding": "Dec 22 signal types", "Value": "5 (Friction, Geopolitics, Financial, Policy, Cyber)", "Status": "\u2705 Verified"},
-            {"Finding": "Event colocation", "Value": "Friction dates attract 20\u201342x more compliance than random", "Status": "\u2705 Verified"},
-            {"Finding": "January 2026 signal peaks", "Value": "3 peaks (Jan 3\u20139, Jan 20\u201322, Jan 27\u201331), 1 trough", "Status": "\u2705 Verified"},
-            {"Finding": "January 2026 event density", "Value": "34 events: 12 friction, 19 compliance, 3 anchors", "Status": "\u2705 Verified"},
-            {"Finding": "Feb 1\u201319 compliance window", "Value": "9 compliance events to 6 friction events in 19 days", "Status": "\u2705 Verified"},
-            {"Finding": "13F visibility gap", "Value": "Architecture below 13F threshold \u2014 private deals, non-US, LP interests", "Status": "\u2705 Verified"},
-            {"Finding": "Apollo credit pipeline", "Value": "$938B AUM, $305B originated 2025; $3B QXO + $3.5B xAI + $29B Meta", "Status": "\u2705 Verified"},
-            {"Finding": "Enforcement hollowing (Prong 3)", "Value": "SEC 15%+, CFTC 21.5% cut, CFPB alerts killed, 50K positions", "Status": "\u2705 Verified"},
-            {"Finding": "Feb 11 single-day compliance density", "Value": "7 compliance events (5 EOs + USDA + QXO) \u2014 highest in 2026", "Status": "\u2705 Verified"},
-            {"Finding": "Bondi hearing \u00b17 day window", "Value": "17 compliance events vs ~3\u20134 baseline (+467%)", "Status": "\u2705 Verified"},
-            {"Finding": "Q4 2025 13F: 3 predictions tested", "Value": "EA stable, Mubadala reversed, no Gulf SWF entries", "Status": "\u274c All 3 FAILED"},
-            {"Finding": "Mubadala Bitcoin ETF expansion", "Value": "IBIT +46% (8.7M\u219212.7M shares); Abu Dhabi ~$1.04B", "Status": "\u2705 Verified"},
-            {"Finding": "Board of Peace inaugural summit", "Value": "~50 countries, $7B pledged, $10B US, 10% of $70B need", "Status": "\u2705 Verified"},
-            {"Finding": "Historical backfill (2017\u20132024)", "Value": "66 pairs, median +7d, 5 neg. windows, 10/10 claims verified", "Status": "\u2705 Verified"},
-            {"Finding": "Backfill correlation impact", "Value": "\u0394r = +0.0012, \u0394\u03c1 = +0.0023 \u2014 baseline unaffected", "Status": "\u2705 Verified"},
+            {"Finding": "Friction → Compliance correlation", "Value": "r = +0.6196 (2-week lag)", "Status": "✅ Verified"},
+            {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 28", "Status": "✅ Verified"},
+            {"Finding": "Ritual → Policy proximity", "Value": "50.7% vs. 19.9% baseline (2.5x)", "Status": "✅ Verified"},
+            {"Finding": "Project Trident significance", "Value": "p = 0.002 (Mann-Whitney U)", "Status": "✅ Verified"},
+            {"Finding": "Cross-validation (14-day periodicity)", "Value": "χ² = 330.62 (p < 0.0001, 2,102 events)", "Status": "✅ Verified"},
+            {"Finding": "December 2025 cluster", "Value": "108 events in 12-day window", "Status": "✅ Verified"},
+            {"Finding": "Dec 22 signal types", "Value": "5 (Friction, Geopolitics, Financial, Policy, Cyber)", "Status": "✅ Verified"},
+            {"Finding": "Event colocation", "Value": "Friction dates attract 20–42x more compliance than random", "Status": "✅ Verified"},
+            {"Finding": "January 2026 signal peaks", "Value": "3 peaks (Jan 3–9, Jan 20–22, Jan 27–31), 1 trough", "Status": "✅ Verified"},
+            {"Finding": "January 2026 event density", "Value": "34 events: 12 friction, 19 compliance, 3 anchors", "Status": "✅ Verified"},
+            {"Finding": "Feb 1–19 compliance window", "Value": "9 compliance events to 6 friction events in 19 days", "Status": "✅ Verified"},
+            {"Finding": "13F visibility gap", "Value": "Architecture below 13F threshold — private deals, non-US, LP interests", "Status": "✅ Verified"},
+            {"Finding": "Apollo credit pipeline", "Value": "$938B AUM, $305B originated 2025; $3B QXO + $3.5B xAI + $29B Meta", "Status": "✅ Verified"},
+            {"Finding": "Enforcement hollowing (Prong 3)", "Value": "SEC 15%+, CFTC 21.5% cut, CFPB alerts killed, 50K positions", "Status": "✅ Verified"},
+            {"Finding": "Feb 11 single-day compliance density", "Value": "7 compliance events (5 EOs + USDA + QXO) — highest in 2026", "Status": "✅ Verified"},
+            {"Finding": "Bondi hearing ±7 day window", "Value": "17 compliance events vs ~3–4 baseline (+467%)", "Status": "✅ Verified"},
+            {"Finding": "Q4 2025 13F: 3 predictions tested", "Value": "EA stable, Mubadala reversed, no Gulf SWF entries", "Status": "❌ All 3 FAILED"},
+            {"Finding": "Mubadala Bitcoin ETF expansion", "Value": "IBIT +46% (8.7M→12.7M shares); Abu Dhabi ~$1.04B", "Status": "✅ Verified"},
+            {"Finding": "Board of Peace inaugural summit", "Value": "~50 countries, $7B pledged, $10B US, 10% of $70B need", "Status": "✅ Verified"},
+            {"Finding": "Historical backfill (2017–2024)", "Value": "66 pairs, median +7d, 5 neg. windows, 10/10 claims verified", "Status": "✅ Verified"},
+            {"Finding": "Backfill correlation impact", "Value": "Δr = +0.0012, Δρ = +0.0023 — baseline unaffected", "Status": "✅ Verified"},
         ]
 
         key_stats_df = pd.DataFrame(key_stats_data)
 
         def _style_key_stats(row):
-            if "\u274c" in row["Status"]:
+            if "❌" in row["Status"]:
                 return ["background-color: rgba(230, 57, 70, 0.15)"] * len(row)
             return ["background-color: rgba(42, 157, 143, 0.10)"] * len(row)
 
@@ -236,26 +261,26 @@ with tab_home:
 
     st.markdown(
         "The raw data shows friction and compliance events **cluster together** "
-        "rather than following a sequential cause\u2011effect pattern. Multiple actors "
-        "respond to the same calendar signals independently \u2014 no coordination "
+        "rather than following a sequential cause‑effect pattern. Multiple actors "
+        "respond to the same calendar signals independently — no coordination "
         "required. This explains why the pattern is robust across 8 years of data."
     )
 
     st.code(
-        "         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
-        "         \u2502        CALENDAR ANCHOR               \u2502\n"
-        "         \u2502  (Solstice, Holiday, Fiscal Deadline) \u2502\n"
-        "         \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n"
-        "                          \u2502\n"
-        "            \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
-        "            \u25bc             \u25bc             \u25bc\n"
-        "       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n"
-        "       \u2502Friction \u2502  \u2502  Policy  \u2502  \u2502Financial \u2502\n"
-        "       \u2502 Events  \u2502  \u2502  Shifts  \u2502  \u2502  Moves   \u2502\n"
-        "       \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2518  \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518  \u2514\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2518\n"
-        "            \u2502             \u2502             \u2502\n"
-        "            \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n"
-        "                          \u25bc\n"
+        "         ┌───────────────────────────────────────┐\n"
+        "         │        CALENDAR ANCHOR               │\n"
+        "         │  (Solstice, Holiday, Fiscal Deadline) │\n"
+        "         └──────────────────┬────────────────────┘\n"
+        "                          │\n"
+        "            ┌─────────────┼─────────────┐\n"
+        "            ▼             ▼             ▼\n"
+        "       ┌─────────┐  ┌──────────┐  ┌──────────┐\n"
+        "       │Friction │  │  Policy  │  │Financial │\n"
+        "       │ Events  │  │  Shifts  │  │  Moves   │\n"
+        "       └────┬────┘  └────┬─────┘  └────┬─────┘\n"
+        "            │             │             │\n"
+        "            └─────────────┼─────────────┘\n"
+        "                          ▼\n"
         "              CONVERGENT CLUSTERING\n"
         "            (r = 0.6196, 2-week lag)",
         language=None,
@@ -264,7 +289,7 @@ with tab_home:
     model_c1, model_c2 = st.columns(2)
     model_c1.markdown(
         "**Original hypothesis (sequential):**\n\n"
-        "Friction (t) \u2192 *creates window* \u2192 Compliance (t+14d)"
+        "Friction (t) → *creates window* → Compliance (t+14d)"
     )
     model_c2.markdown(
         "**Revised finding (convergence):**\n\n"
@@ -275,7 +300,7 @@ with tab_home:
     st.divider()
 
     # ── December 2025 Case Study ──
-    with st.expander("Case Study: December 19\u201323, 2025 \u2014 The Pincer Window"):
+    with st.expander("Case Study: December 19–23, 2025 — The Pincer Window"):
         st.markdown(
             "The December 2025 window demonstrates the convergence model in action: "
             "**5 independent signal types** clustering on the same low-attention anchor "
@@ -284,7 +309,7 @@ with tab_home:
 
         dec_events = pd.DataFrame([
             {"Date": "Dec 19", "Friction": 1, "Compliance": 5, "Highlights": "Epstein Library release (DOJ); Bull & Bear sell signal (8.5)"},
-            {"Date": "Dec 22", "Friction": 6, "Compliance": 13, "Highlights": "Peak convergence day \u2014 19 total events"},
+            {"Date": "Dec 22", "Friction": 6, "Compliance": 13, "Highlights": "Peak convergence day — 19 total events"},
             {"Date": "Dec 23", "Friction": 8, "Compliance": 9, "Highlights": "Redaction failures exposed (NYT)"},
             {"Date": "Dec 24", "Friction": 2, "Compliance": 3, "Highlights": "DOJ finds 1M more pages"},
         ])
@@ -292,17 +317,17 @@ with tab_home:
 
         st.markdown("**Five signal types on December 22:**")
         st.markdown(
-            "1. **Friction:** Epstein redaction failures exposed (NYT: \u201ceasily recovered\u201d)\n"
+            "1. **Friction:** Epstein redaction failures exposed (NYT: “easily recovered”)\n"
             "2. **Geopolitics:** China EU dairy tariffs (42.7%) take effect\n"
-            "3. **Financial:** BlackRock names Bitcoin ETF \u201ctop 2025 theme\u201d\n"
+            "3. **Financial:** BlackRock names Bitcoin ETF “top 2025 theme”\n"
             "4. **Policy:** Travel ban expansion, DOGE year-end analysis\n"
             "5. **Cyber/Intel:** CRINK nation-state threat analysis published"
         )
 
         st.caption(
             "These events did not cause each other. They clustered because December 22 "
-            "\u2014 between the solstice and Christmas \u2014 is a predictable low-attention "
-            "anchor. Removing the entire December 2025 window still yields \u03c1 = 0.60, "
+            "— between the solstice and Christmas — is a predictable low-attention "
+            "anchor. Removing the entire December 2025 window still yields ρ = 0.60, "
             "p < 0.0001 (see Robustness Tests)."
         )
 
@@ -324,8 +349,61 @@ with tab_home:
 
     st.info("Navigate to the **Statistical Overview** tab to explore the correlation data.")
 
+
 # =====================================================================
-# TAB 1: STATISTICAL OVERVIEW
+# TAB 1.5: LIVE INTELLIGENCE (LLM)
+# =====================================================================
+with tab_live_intel:
+    if not intel_data:
+        st.warning("No automated intelligence data found. Run the GitHub Action pipeline first.")
+    else:
+        st.header("Live Intelligence Feed")
+        st.markdown("Automated extraction via **Llama-4-Scout-17B-16E-Instruct**")
+        
+        # Window Summary
+        window = intel_data.get("active_window_summary", {})
+        col1, col2, col3, col4 = st.columns(4)
+        col1.metric("Active Window", f"{window.get('window_start', '')[5:]} to {window.get('window_end', '')[5:]}")
+        col2.metric("Friction Events", window.get("total_friction_events", 0))
+        col3.metric("Compliance Events", window.get("total_compliance_events", 0))
+        col4.metric("Density Multiplier", window.get("density_vs_baseline", "N/A"))
+        
+        st.divider()
+        
+        # Tier 1 Events
+        st.subheader("Tier 1 Critical Events")
+        events = intel_data.get("events", [])
+        t1_events = [e for e in events if e.get("dashboard_relevance") == "TIER_1_CRITICAL"]
+        
+        if t1_events:
+            df_events = pd.DataFrame(t1_events)
+            df_events = df_events[["date", "event_type", "category", "actors", "description"]]
+            df_events["actors"] = df_events["actors"].apply(lambda x: ", ".join(x) if isinstance(x, list) else x)
+            st.dataframe(df_events, use_container_width=True, hide_index=True)
+        else:
+            st.info("No Tier 1 events in the current window.")
+            
+        st.divider()
+        
+        # Convergence Nodes
+        st.subheader("Convergence Nodes (3+ Domains)")
+        nodes = intel_data.get("convergence_nodes", [])
+        
+        if nodes:
+            for node in nodes:
+                with st.expander(f"**{node.get('entity')}** — {node.get('domain_count')} Domains"):
+                    st.write(f"**Assessment:** {node.get('assessment')}")
+                    st.write(f"**Domains:** {', '.join(node.get('domains', []))}")
+                    if node.get("key_persons"):
+                        st.write(f"**Key Persons:** {', '.join(node.get('key_persons', []))}")
+                    if node.get("total_dollar_exposure"):
+                        st.write(f"**Financial Exposure:** ${node.get('total_dollar_exposure'):,}")
+        else:
+            st.info("No convergence nodes detected in this extraction.")
+
+
+# =====================================================================
+# TAB 2: STATISTICAL OVERVIEW
 # =====================================================================
 with tab_overview:
     st.header("Statistical Overview")
@@ -334,12 +412,12 @@ with tab_overview:
     st.subheader("Robustness Tests")
 
     robustness_data = [
-        {"Test": "Permutation (30-row, 1K shuffles)", "Result": "r = 0.62, p < 0.001", "Status": "\u2705 Pass"},
-        {"Test": "Permutation (multi-dataset, 10K shuffles)", "Result": "\u03c1 = 0.61, p < 0.0001", "Status": "\u2705 Pass"},
-        {"Test": "Granger causality (lag 1)", "Result": "p = 0.0008", "Status": "\u2705 Pass"},
-        {"Test": "Granger causality (lag 2)", "Result": "p = 0.027", "Status": "\u2705 Pass"},
-        {"Test": "Block bootstrap (autocorrelation-adjusted)", "Result": "p = 0.008", "Status": "\u2705 Pass"},
-        {"Test": "Dec 2025 exclusion", "Result": "\u03c1 = 0.60, p < 0.0001", "Status": "\u2705 Signal survives"},
+        {"Test": "Permutation (30-row, 1K shuffles)", "Result": "r = 0.62, p < 0.001", "Status": "✅ Pass"},
+        {"Test": "Permutation (multi-dataset, 10K shuffles)", "Result": "ρ = 0.61, p < 0.0001", "Status": "✅ Pass"},
+        {"Test": "Granger causality (lag 1)", "Result": "p = 0.0008", "Status": "✅ Pass"},
+        {"Test": "Granger causality (lag 2)", "Result": "p = 0.027", "Status": "✅ Pass"},
+        {"Test": "Block bootstrap (autocorrelation-adjusted)", "Result": "p = 0.008", "Status": "✅ Pass"},
+        {"Test": "Dec 2025 exclusion", "Result": "ρ = 0.60, p < 0.0001", "Status": "✅ Signal survives"},
     ]
 
     robustness_df = pd.DataFrame(robustness_data)
@@ -402,7 +480,7 @@ with tab_overview:
 
     st.caption(
         f"0-lag Pearson: r = {r0:.4f} | "
-        f"{selected_lag}-lag Spearman: \u03c1 = {rho:.4f}"
+        f"{selected_lag}-lag Spearman: ρ = {rho:.4f}"
     )
 
     st.divider()
@@ -418,8 +496,8 @@ with tab_overview:
                 "**Binomial test**:\n"
                 f"- Observed: {len(negative_df)} non-responses in {total_events} trials "
                 f"({len(negative_df) / total_events * 100:.1f}%)\n"
-                "- H\u2080: true non-response rate = 0.20 (generous null)\n"
-                "- Result: p = 0.006 (reject H\u2080 \u2014 the non-response rate is "
+                "- H₀: true non-response rate = 0.20 (generous null)\n"
+                "- Result: p = 0.006 (reject H₀ — the non-response rate is "
                 "significantly *lower* than 20%)\n\n"
                 "**Interpretation**: The 93% response rate is statistically significantly "
                 "high. The 5 non-response events are *fewer* than would be expected under "
@@ -442,7 +520,7 @@ with tab_overview:
 
 
 # =====================================================================
-# TAB 2: TIME SERIES & SCATTER
+# TAB 3: TIME SERIES & SCATTER
 # =====================================================================
 with tab_timeseries:
     st.header("Time Series & Scatter Analysis")
@@ -505,7 +583,7 @@ with tab_timeseries:
             fill="toself",
             fillcolor=COLOR_PREDICTION_BAND,
             line=dict(color="rgba(0,0,0,0)"),
-            name="\u00b12 SD prediction band",
+            name="±2 SD prediction band",
             showlegend=True,
         ))
 
@@ -537,19 +615,19 @@ with tab_timeseries:
 
     col_left, col_right = st.columns(2)
     col_left.markdown(
-        f"**Regression**: Compliance = {reg['slope']:.3f} \u00d7 Friction + {reg['intercept']:.3f}"
+        f"**Regression**: Compliance = {reg['slope']:.3f} × Friction + {reg['intercept']:.3f}"
     )
     col_right.markdown(
-        f"**r\u00b2 = {r**2:.4f}** \u2014 {r**2 * 100:.1f}% of compliance variance "
+        f"**r² = {r**2:.4f}** — {r**2 * 100:.1f}% of compliance variance "
         f"explained by friction"
     )
 
 
 # =====================================================================
-# TAB 3: LAG DISTRIBUTION (BACKFILL)
+# TAB 4: LAG DISTRIBUTION (BACKFILL)
 # =====================================================================
 with tab_backfill:
-    st.header("Lag Distribution: Historical Backfill (2017\u20132024)")
+    st.header("Lag Distribution: Historical Backfill (2017–2024)")
 
     if backfill_df is None:
         st.warning("Backfill dataset not available.")
@@ -602,7 +680,7 @@ with tab_backfill:
             y=backfill_df["lag_parsed"],
             mode="markers",
             marker=dict(size=8, color=COLOR_NEUTRAL),
-            name="Friction\u2192Compliance Pair",
+            name="Friction→Compliance Pair",
             text=backfill_df["Friction_Event"],
             hovertemplate="<b>%{text}</b><br>Lag: %{y} days<extra></extra>",
         ))
@@ -615,7 +693,7 @@ with tab_backfill:
         fig_timeline.add_hrect(
             y0=median_lag - std_lag, y1=median_lag + std_lag,
             fillcolor="rgba(233, 196, 106, 0.15)", line_width=0,
-            annotation_text="\u00b11 SD",
+            annotation_text="±1 SD",
         )
 
         # Negative windows as gray vertical bands
@@ -642,12 +720,12 @@ with tab_backfill:
             st.caption(
                 "Gray bands = negative windows (friction events with no compliance "
                 "response found in the 14-day Federal Register search window). "
-                "These represent 7% of all examined events \u2014 expected statistical variance."
+                "These represent 7% of all examined events — expected statistical variance."
             )
 
 
 # =====================================================================
-# TAB 4: RAW DATA EXPLORER
+# TAB 5: RAW DATA EXPLORER
 # =====================================================================
 with tab_data:
     st.header("Raw Data Explorer")
@@ -709,59 +787,62 @@ with tab_data:
             st.warning("EO spider dataset not available.")
 
 # =====================================================================
-# TAB 5: PREDICTION TRACKER
+# TAB 6: PREDICTION TRACKER
 # =====================================================================
 with tab_predictions:
     st.header("Prediction Tracker")
 
+    if intel_data and intel_data.get("pending_signals"):
+        st.subheader("🔴 Active Monitoring Priorities (Live LLM Intel)")
+        st.dataframe(pd.DataFrame(intel_data["pending_signals"]), use_container_width=True, hide_index=True)
+        st.divider()
+
     st.markdown(
         "Falsifiable predictions are the test of any model. This tracker shows all "
-        "predictions made by this project, including failures. Three Q4 2025 13F "
-        "predictions failed \u2014 this is recorded as data, not hidden."
+        "historical predictions made by this project, including failures. Three Q4 2025 13F "
+        "predictions failed — this is recorded as data, not hidden."
     )
-
-    st.divider()
 
     # ── Prediction data (sourced from README.md Testable Predictions table) ──
     predictions_data = [
-        {"Prediction": "Event clustering at next file deadline", "Timeframe": "Ongoing", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
-        {"Prediction": "Tu BiShvat policy action", "Timeframe": "Feb 1\u20132, 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
-        {"Prediction": "UK Mandelson disclosure", "Timeframe": "Feb\u2013Mar 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
-        {"Prediction": "Board of Peace first summit", "Timeframe": "Feb 19, 2026", "Status": "\u2705 Confirmed", "Date Added": "Pre-v9.0"},
-        {"Prediction": 'Board of Peace = "Board of Profits"', "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "West Bank annexation acceleration", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "Al-Tanf withdrawal / Iran concession", "Timeframe": "Feb 11, 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "Feb 1\u201319 compliance window density", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "Indonesia ISF troop deployment", "Timeframe": "2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "ISF under BoP (not UN) command", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "1789 Capital \u2192 Anduril \u2192 WDS 2026 link", "Timeframe": "Feb 2026", "Status": "\u2705 Confirmed", "Date Added": "v9.4"},
-        {"Prediction": "Q4 2025 13F: PIF EA position change", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
-        {"Prediction": "Q4 2025 13F: Mubadala defense expansion", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
-        {"Prediction": "Q4 2025 13F: New Gulf SWF Oracle/defense entries", "Timeframe": "Feb 17+, 2026", "Status": "\u274c Failed", "Date Added": "v9.0"},
-        {"Prediction": "Gulf SWF Q4 positioning revealed", "Timeframe": "Feb 14, 2026", "Status": "\u274c Failed", "Date Added": "Pre-v9.0"},
-        {"Prediction": "DOGE-predicted instability", "Timeframe": "Q1 2026", "Status": "\u23f3 Tracking", "Date Added": "Pre-v9.0"},
-        {"Prediction": "California TikTok investigation findings", "Timeframe": "Q1 2026", "Status": "\u23f3 Pending", "Date Added": "Pre-v9.0"},
-        {"Prediction": "Khanna investigation findings", "Timeframe": "Mar 2026", "Status": "\u23f3 Pending", "Date Added": "Pre-v9.0"},
-        {"Prediction": "Arkansas PSC order text release", "Timeframe": "Q1 2026", "Status": "\u23f3 Pending", "Date Added": "v9.4"},
-        {"Prediction": "QXO further acquisitions", "Timeframe": "2026", "Status": "\u23f3 Tracking", "Date Added": "v9.2"},
-        {"Prediction": "EO 14375 legal challenge (IOIA authorization)", "Timeframe": "2026", "Status": "\u23f3 Pending", "Date Added": "v9.2"},
-        {"Prediction": "NTEU court-ordered position list disclosure", "Timeframe": "Feb 27, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
-        {"Prediction": "Schedule Policy/Career implementation", "Timeframe": "Mar 9, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
-        {"Prediction": "Feb 11 compliance density repeat at next major hearing", "Timeframe": "Ongoing", "Status": "\u23f3 Pending", "Date Added": "v9.2"},
-        {"Prediction": "Khanna investigation document deadline", "Timeframe": "Mar 1, 2026", "Status": "\u23f3 Pending", "Date Added": "v9.7"},
+        {"Prediction": "Event clustering at next file deadline", "Timeframe": "Ongoing", "Status": "✅ Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Tu BiShvat policy action", "Timeframe": "Feb 1–2, 2026", "Status": "✅ Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "UK Mandelson disclosure", "Timeframe": "Feb–Mar 2026", "Status": "✅ Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Board of Peace first summit", "Timeframe": "Feb 19, 2026", "Status": "✅ Confirmed", "Date Added": "Pre-v9.0"},
+        {"Prediction": 'Board of Peace = "Board of Profits"', "Timeframe": "Feb 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "West Bank annexation acceleration", "Timeframe": "Feb 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Al-Tanf withdrawal / Iran concession", "Timeframe": "Feb 11, 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Feb 1–19 compliance window density", "Timeframe": "Feb 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Indonesia ISF troop deployment", "Timeframe": "2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "ISF under BoP (not UN) command", "Timeframe": "Feb 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "1789 Capital → Anduril → WDS 2026 link", "Timeframe": "Feb 2026", "Status": "✅ Confirmed", "Date Added": "v9.4"},
+        {"Prediction": "Q4 2025 13F: PIF EA position change", "Timeframe": "Feb 17+, 2026", "Status": "❌ Failed", "Date Added": "v9.0"},
+        {"Prediction": "Q4 2025 13F: Mubadala defense expansion", "Timeframe": "Feb 17+, 2026", "Status": "❌ Failed", "Date Added": "v9.0"},
+        {"Prediction": "Q4 2025 13F: New Gulf SWF Oracle/defense entries", "Timeframe": "Feb 17+, 2026", "Status": "❌ Failed", "Date Added": "v9.0"},
+        {"Prediction": "Gulf SWF Q4 positioning revealed", "Timeframe": "Feb 14, 2026", "Status": "❌ Failed", "Date Added": "Pre-v9.0"},
+        {"Prediction": "DOGE-predicted instability", "Timeframe": "Q1 2026", "Status": "⏳ Tracking", "Date Added": "Pre-v9.0"},
+        {"Prediction": "California TikTok investigation findings", "Timeframe": "Q1 2026", "Status": "⏳ Pending", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Khanna investigation findings", "Timeframe": "Mar 2026", "Status": "⏳ Pending", "Date Added": "Pre-v9.0"},
+        {"Prediction": "Arkansas PSC order text release", "Timeframe": "Q1 2026", "Status": "⏳ Pending", "Date Added": "v9.4"},
+        {"Prediction": "QXO further acquisitions", "Timeframe": "2026", "Status": "⏳ Tracking", "Date Added": "v9.2"},
+        {"Prediction": "EO 14375 legal challenge (IOIA authorization)", "Timeframe": "2026", "Status": "⏳ Pending", "Date Added": "v9.2"},
+        {"Prediction": "NTEU court-ordered position list disclosure", "Timeframe": "Feb 27, 2026", "Status": "⏳ Pending", "Date Added": "v9.7"},
+        {"Prediction": "Schedule Policy/Career implementation", "Timeframe": "Mar 9, 2026", "Status": "⏳ Pending", "Date Added": "v9.7"},
+        {"Prediction": "Feb 11 compliance density repeat at next major hearing", "Timeframe": "Ongoing", "Status": "⏳ Pending", "Date Added": "v9.2"},
+        {"Prediction": "Khanna investigation document deadline", "Timeframe": "Mar 1, 2026", "Status": "⏳ Pending", "Date Added": "v9.7"},
     ]
 
     pred_df = pd.DataFrame(predictions_data)
 
     # ── Summary counters ──
-    n_confirmed = pred_df["Status"].str.contains("\u2705").sum()
-    n_failed = pred_df["Status"].str.contains("\u274c").sum()
+    n_confirmed = pred_df["Status"].str.contains("✅").sum()
+    n_failed = pred_df["Status"].str.contains("❌").sum()
     n_pending = len(pred_df) - n_confirmed - n_failed
 
     m1, m2, m3 = st.columns(3)
-    m1.metric("Confirmed", f"{n_confirmed} \u2705")
-    m2.metric("Failed", f"{n_failed} \u274c")
-    m3.metric("Pending / Tracking", f"{n_pending} \u23f3")
+    m1.metric("Historical Confirmed", f"{n_confirmed} ✅")
+    m2.metric("Historical Failed", f"{n_failed} ❌")
+    m3.metric("Historical Pending / Tracking", f"{n_pending} ⏳")
 
     st.divider()
 
@@ -773,18 +854,18 @@ with tab_predictions:
         "operates below 13F disclosure thresholds via private deals, non-US "
         "securities, and LP interests."
     )
-    failed_df = pred_df[pred_df["Status"].str.contains("\u274c")].reset_index(drop=True)
+    failed_df = pred_df[pred_df["Status"].str.contains("❌")].reset_index(drop=True)
     st.dataframe(failed_df, use_container_width=True, hide_index=True)
 
     st.divider()
 
     # ── Full prediction table with filter ──
-    st.subheader("All Predictions")
+    st.subheader("All Historical Predictions")
 
     status_filter = st.multiselect(
         "Filter by status",
-        ["\u2705 Confirmed", "\u274c Failed", "\u23f3 Pending", "\u23f3 Tracking"],
-        default=["\u2705 Confirmed", "\u274c Failed", "\u23f3 Pending", "\u23f3 Tracking"],
+        ["✅ Confirmed", "❌ Failed", "⏳ Pending", "⏳ Tracking"],
+        default=["✅ Confirmed", "❌ Failed", "⏳ Pending", "⏳ Tracking"],
     )
 
     filtered_pred = pred_df[pred_df["Status"].isin(status_filter)]
@@ -794,7 +875,6 @@ with tab_predictions:
         f"Total: {len(pred_df)} predictions | "
         f"{n_confirmed} confirmed, {n_failed} failed, {n_pending} pending/tracking"
     )
-
 
 # ── Footer ───────────────────────────────────────────────────────────────
 st.divider()
