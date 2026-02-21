@@ -203,7 +203,7 @@ with tab_overview:
         margin=dict(t=20, b=40),
         yaxis=dict(range=[-0.8, 0.8]),
     )
-    st.plotly_chart(fig_sweep, use_container_width=True)
+    st.plotly_chart(fig_sweep, width='stretch')
 
     st.caption(
         f"0-lag Pearson: r = {r0:.4f} | "
@@ -236,7 +236,7 @@ with tab_overview:
         display_df["Context"] = display_df["Friction_Event"].map(NEGATIVE_WINDOW_CONTEXT)
         st.dataframe(
             display_df[["Year", "Friction_Event", "Friction_Date", "Notes", "Context"]],
-            use_container_width=True,
+            width='stretch',
             hide_index=True,
         )
 
@@ -289,7 +289,7 @@ with tab_timeseries:
     fig_ts.update_layout(height=400, margin=dict(t=20, b=40),
                          legend=dict(orientation="h", yanchor="bottom", y=1.02))
 
-    st.plotly_chart(fig_ts, use_container_width=True)
+    st.plotly_chart(fig_ts, width='stretch')
     st.caption(
         f"Visual inspection: friction peaks tend to precede compliance peaks "
         f"by approximately {selected_lag} week(s)."
@@ -338,7 +338,7 @@ with tab_timeseries:
         height=450,
         margin=dict(t=20, b=40),
     )
-    st.plotly_chart(fig_scatter, use_container_width=True)
+    st.plotly_chart(fig_scatter, width='stretch')
 
     col_left, col_right = st.columns(2)
     col_left.markdown(
@@ -379,7 +379,7 @@ with tab_backfill:
             height=350,
             margin=dict(t=20, b=40),
         )
-        st.plotly_chart(fig_hist, use_container_width=True)
+        st.plotly_chart(fig_hist, width='stretch')
 
         # Bin table and year breakdown side by side
         col_bins, col_years = st.columns(2)
@@ -387,12 +387,12 @@ with tab_backfill:
         with col_bins:
             st.subheader("Lag Bins")
             bin_data = compute_lag_bins(backfill_df["lag_parsed"])
-            st.dataframe(pd.DataFrame(bin_data), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame(bin_data), hide_index=True, width='stretch')
 
         with col_years:
             st.subheader("Year Breakdown")
             year_df = compute_year_breakdown(backfill_df)
-            st.dataframe(year_df, hide_index=True, use_container_width=True)
+            st.dataframe(year_df, hide_index=True, width='stretch')
 
         st.divider()
 
@@ -441,7 +441,7 @@ with tab_backfill:
             height=450,
             margin=dict(t=20, b=40),
         )
-        st.plotly_chart(fig_timeline, use_container_width=True)
+        st.plotly_chart(fig_timeline, width='stretch')
 
         if show_negatives:
             st.caption(
@@ -465,7 +465,7 @@ with tab_data:
     )
 
     if data_choice == "Core 30-Week Data":
-        st.dataframe(core_df, use_container_width=True, hide_index=True)
+        st.dataframe(core_df, width='stretch', hide_index=True)
         st.download_button(
             "Download CSV", core_df.to_csv(index=False),
             "core_30_week_data.csv", "text/csv",
@@ -482,7 +482,7 @@ with tab_data:
             st.dataframe(
                 filtered[["Year", "Friction_Event", "Friction_Date",
                            "Compliance_Event", "Compliance_Date", "Lag_Days"]],
-                use_container_width=True, hide_index=True,
+                width='stretch', hide_index=True,
             )
             st.download_button(
                 "Download CSV", filtered.to_csv(index=False),
@@ -493,7 +493,7 @@ with tab_data:
 
     elif data_choice == "Negative Windows (5)":
         if negative_df is not None:
-            st.dataframe(negative_df, use_container_width=True, hide_index=True)
+            st.dataframe(negative_df, width='stretch', hide_index=True)
             st.caption("5 of 71 events (7%) = expected variance for r = 0.62 model")
             st.download_button(
                 "Download CSV", negative_df.to_csv(index=False),
@@ -504,7 +504,7 @@ with tab_data:
 
     elif data_choice == "Federal Register EOs (Spider)":
         if eo_df is not None:
-            st.dataframe(eo_df, use_container_width=True, hide_index=True)
+            st.dataframe(eo_df, width='stretch', hide_index=True)
             st.caption(f"Total EOs in spider dataset: {len(eo_df)}")
             st.download_button(
                 "Download CSV", eo_df.to_csv(index=False),
