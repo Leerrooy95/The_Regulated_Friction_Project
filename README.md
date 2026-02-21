@@ -1,8 +1,8 @@
-# The Regulated Friction Project v9.6
+# The Regulated Friction Project v9.7
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
-**Interactive Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app/)
+**Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app)
 
 **New to this project?** See [Glossary.md](14_Files/Glossary.md)
 
@@ -17,7 +17,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.6)](#whats-new-v96---february-2026)
+- [What's New (v9.7)](#whats-new-v97---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -146,6 +146,11 @@ This repository documents the core statistical finding:
 ```
 The_Regulated_Friction_Project/
 │
+├── .devcontainer/
+│   └── devcontainer.json                # Dev container configuration
+├── .github/
+│   └── workflows/
+│       └── validate.yml                 # CI validation workflow
 ├── README.md                    # This file
 ├── Report.md                    # Executive summary and findings report
 │
@@ -327,39 +332,15 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v9.6 - February 2026)
+## What's New (v9.7 - February 2026)
 
-### Project_Trident Restructure & Dashboard Update
+### Automated Scraping Infrastructure & Dashboard Deployment
 
-February 20, 2026 — Project_Trident folder restructured: PROJECT_TRIDENT_CASE_STUDY.md renamed to Ritual_Timing_Signal_Analysis.md; The_Trident.md renamed to Capital_Flow_Opacity_Framework.md. Project_Trident README added. Internal filename references updated across all affected documents. Streamlit dashboard updated with homepage and negative windows table clarification.
+February 20, 2026 — DigitalOcean droplet configured with two automated daily scrapers: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app. Dashboard URL corrected in README.
 
-### Historical Backfill Integration (2017-2024)
+### Previous: v9.6 Highlights
 
-Systematic backfill of friction-compliance pairs from 2017-2024, independently verified and integrated into the statistical framework. This extends the dataset's historical coverage and validates the core pattern across 8 additional years.
-
-**Key findings:**
-
-- **66 friction→compliance pairs** identified across 30 friction windows (2017-2024), cross-referenced against the Federal Register spider JSON
-- **Median lag: +7 days** (mean +6.5 days) — consistent with the existing 2-week lag model
-- **89% of compliance events follow friction** (59/66 positive lags, 5 same-day, 2 negative)
-- **5 confirmed negative windows** (Syria strikes 2017, Parkland 2018, impeachment inquiry 2019, Oct 7 2023, Epstein docs 2024) — methodological validation
-- **10/10 verification claims confirmed** via independent web search (PACT Act, IRA, impeachments, Dobbs, SVB, GA RICO, COVID emergency, CARES Act dates all verified ✅)
-- **Negligible impact on existing correlations:** Δr = +0.0012 (Pearson), Δρ = +0.0023 (Spearman) — **r = 0.6196 baseline is unaffected**
-- **Densest windows:** Jan 6→Inauguration 2021 (22+ EOs across two administrations), travel ban protests 2017 (7 EOs in 12 days), Mar-a-Lago search 2022 (5 compliance events in 8 days)
-
-**New files:**
-
-- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — All 66 pairs with ISO dates and source URLs
-- `Run_Correlations_Yourself/negative_windows.csv` — 5 confirmed negative windows
-- `Statistical_Tests/backfill_lag_distribution.py` — Lag distribution analysis
-- `Statistical_Tests/combined_dataset_correlation.py` — Merged dataset Pearson/Spearman re-analysis
-- `Findings/backfill_correlation_results.md` — Full results report
-
-See `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/historical_backfill.md` for the complete backfill methodology and source data.
-
-### Previous: v9.4 Highlights
-
-**Q4 2025 13F Delta & Board of Peace Summit** — 18 entities tracked, 68 holdings, 3 predictions FAILED (negative findings documented as data). Mubadala IBIT +46% ($630.6M; Abu Dhabi complex ~$1.04B in Bitcoin ETF). Thiel Macro total liquidation. LCID reverse split resolved. Board of Peace inaugural summit: ~50 countries, $7B pledged, Indonesia only troop commitment. See `13F_Analysis/Q4_2025_Delta_Findings.md`.
+**Historical Backfill & Project_Trident Restructure** — 66 friction→compliance pairs (2017-2024) cross-referenced against the Federal Register spider JSON. Median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact negligible (Δr = +0.0012). Project_Trident folder restructured: files renamed for clarity, README added, Streamlit dashboard updated with homepage and negative windows table. See `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/historical_backfill.md` for complete backfill.
 
 ---
 
@@ -630,4 +611,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 20, 2026 (v9.6) — Project_Trident restructured, homepage added to dashboard, negative windows table clarified.
+**Last updated**: February 20, 2026 (v9.7) — DigitalOcean automated scraping infrastructure deployed (Federal Register + DOJ press release spiders). Streamlit dashboard deployed at regulatedfriction.streamlit.app. Dashboard URL corrected.

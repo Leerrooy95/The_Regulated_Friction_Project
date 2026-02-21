@@ -1,12 +1,9 @@
 # The Regulated Friction Project: Report
 
-**Author:** Austin Smith
-
+**Author:** Austin
 **Last Updated:** February 20, 2026
-
-**Version:** v9.6
-
-**Interactive website for the repo:** [The_Regulated_Friction_Project](https://regulatedfriction.streamlit.app/)
+**Version:** v9.7
+**Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
 
@@ -18,7 +15,7 @@ This report documents a statistically significant pattern: high-visibility "fric
 
 **What this means in plain language:** When friction events spike, institutional compliance events follow approximately two weeks later. This relationship has less than a 0.05% probability of occurring by coincidence.
 
-**Q1 2026 extension:** Research conducted in January-February 2026 reveals that the friction-compliance clustering pattern connects to a broader structural shift. While public attention concentrates on high-visibility events, functional integration between state and private actors proceeds through capital flows, private governance bodies, and technical military frameworks — a pattern this project terms "Privatized Integration." The same entities (Oracle, Silver Lake, Saudi PIF, UAE MGX) and individuals (Kushner, Gabay, Witkoff, Rowan) appear across multiple domains simultaneously: tech acquisitions, diplomatic governance, defense coordination, and territorial reconstruction. Project_Trident documentation restructured February 20, 2026 — files renamed for clarity, README added.
+**Q1 2026 extension:** Research conducted in January-February 2026 reveals that the friction-compliance clustering pattern connects to a broader structural shift. While public attention concentrates on high-visibility events, functional integration between state and private actors proceeds through capital flows, private governance bodies, and technical military frameworks — a pattern this project terms "Privatized Integration." The same entities (Oracle, Silver Lake, Saudi PIF, UAE MGX) and individuals (Kushner, Gabay, Witkoff, Rowan) appear across multiple domains simultaneously: tech acquisitions, diplomatic governance, defense coordination, and territorial reconstruction. Automated scraping infrastructure deployed on DigitalOcean provides daily Federal Register and DOJ press release monitoring, feeding a publicly accessible Streamlit dashboard.
 
 **What this does NOT claim:** Central coordination, conspiracy, or intentional orchestration. The pattern is emergent—multiple actors exploiting the same environmental signals (holidays, fiscal deadlines, media saturation) without requiring communication between them. The Q1 2026 findings document actor overlap and temporal clustering as observable facts; interpretation is left to the reader.
 
@@ -1095,4 +1092,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 20, 2026 (v9.6). Historical backfill integration (2017-2024): 66 friction→compliance pairs across 8 years, median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact on correlations negligible (Δr = +0.0012). r = 0.6196 baseline unaffected. Summary expanded from twelve to thirteen connected patterns.*
+*This report was last updated February 20, 2026 (v9.7). Automated scraping infrastructure deployed on DigitalOcean: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app. Dashboard URL corrected in README.*
