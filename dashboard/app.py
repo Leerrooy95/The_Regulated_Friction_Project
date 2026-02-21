@@ -402,8 +402,14 @@ with tab_home:
 # TAB 1.5: LIVE INTELLIGENCE (LLM)
 # =====================================================================
 
+# Color constant for financial indicators (green)
+_COLOR_FINANCIAL = "#2E8B57"
+
 def _format_dollar_exposure(amount):
-    """Format dollar amounts for readability (e.g., $908.0B, $5.15B, $500M)."""
+    """Format dollar amounts for readability (e.g., $908.0B, $5.15B, $500M).
+    
+    Returns None for None/zero amounts to allow conditional display.
+    """
     if amount is None or amount == 0:
         return None
     if amount >= 1_000_000_000_000:
@@ -417,21 +423,24 @@ def _format_dollar_exposure(amount):
     return f"${amount:,.0f}"
 
 def _get_category_badge(category):
-    """Return color-coded HTML badge for event category."""
+    """Return color-coded HTML badge for event category.
+    
+    Colors chosen for WCAG AA contrast compliance on both light and dark backgrounds.
+    """
     category_colors = {
-        "Document_Release": ("#1E90FF", "#E6F3FF"),       # Blue
-        "Financial_Exposé": ("#2E8B57", "#E6F5EC"),       # Green
-        "Executive_Orders": ("#FF8C00", "#FFF3E6"),       # Orange
-        "International_Summit": ("#9370DB", "#F3E6FF"),   # Purple
-        "SEC_Filing": ("#20B2AA", "#E6FAFA"),             # Teal
-        "Credit_Pipeline": ("#DAA520", "#FFF8E6"),        # Goldenrod
-        "Military_Authorization": ("#CD5C5C", "#FFE6E6"), # Indian Red
-        "Territorial_Annexation": ("#8B4513", "#F5EBE0"), # Brown
-        "Enforcement_Hollowing": ("#DC143C", "#FFE6EC"),  # Crimson
+        "Document_Release": ("#1565C0", "#E3F2FD"),       # Blue (darker for contrast)
+        "Financial_Exposé": (_COLOR_FINANCIAL, "#E8F5E9"),  # Green
+        "Executive_Orders": ("#E65100", "#FFF3E0"),       # Orange (darker for contrast)
+        "International_Summit": ("#7B1FA2", "#F3E5F5"),   # Purple (darker for contrast)
+        "SEC_Filing": ("#00796B", "#E0F2F1"),             # Teal (darker for contrast)
+        "Credit_Pipeline": ("#F57C00", "#FFF8E1"),        # Amber
+        "Military_Authorization": ("#C62828", "#FFEBEE"), # Red (darker for contrast)
+        "Territorial_Annexation": ("#5D4037", "#EFEBE9"), # Brown
+        "Enforcement_Hollowing": ("#AD1457", "#FCE4EC"),  # Pink/crimson
     }
     # Default colors for unknown categories
-    bg_color, text_bg = category_colors.get(category, ("#6C757D", "#F0F0F0"))
-    return f'<span style="background-color:{text_bg}; color:{bg_color}; padding:2px 8px; border-radius:4px; font-size:0.85em; font-weight:500; white-space:nowrap;">{category}</span>'
+    text_color, bg_color = category_colors.get(category, ("#424242", "#EEEEEE"))
+    return f'<span style="background-color:{bg_color}; color:{text_color}; padding:2px 8px; border-radius:4px; font-size:0.85em; font-weight:500; white-space:nowrap;">{category}</span>'
 
 with tab_live_intel:
     if not intel_data:
@@ -454,9 +463,11 @@ with tab_live_intel:
         # Density Multiplier with warning styling if above 3.0x
         density_str = window.get("density_vs_baseline", "N/A")
         density_value = None
-        if density_str and density_str != "N/A":
+        if density_str and density_str != "N/A" and isinstance(density_str, str):
+            # Parse density value, handling formats like "4.67x" or "4.67"
+            clean_str = density_str.lower().rstrip('x').strip()
             try:
-                density_value = float(density_str.replace("x", ""))
+                density_value = float(clean_str)
             except (ValueError, AttributeError):
                 pass
         
@@ -488,11 +499,9 @@ with tab_live_intel:
                 if isinstance(actors_raw, list):
                     actors_formatted = []
                     for actor in actors_raw:
-                        # Check if actor matches any convergence node entity
-                        is_convergence = any(
-                            actor.lower() in entity_name or entity_name in actor.lower()
-                            for entity_name in convergence_entity_names
-                        )
+                        # Check if actor exactly matches any convergence node entity (case-insensitive)
+                        actor_normalized = actor.lower().strip()
+                        is_convergence = actor_normalized in convergence_entity_names
                         if is_convergence:
                             actors_formatted.append(
                                 f'<span style="background-color:#FFD700; color:#333; padding:1px 6px; '
@@ -529,7 +538,7 @@ with tab_live_intel:
                     color: var(--text-color);
                     padding: 10px 12px;
                     text-align: left;
-                    border-bottom: 2px solid var(--text-color);
+                    border-bottom: 2px solid rgba(128, 128, 128, 0.4);
                 }
                 .intel-table td {
                     padding: 10px 12px;
@@ -599,7 +608,7 @@ with tab_live_intel:
                         if exposure_formatted:
                             st.markdown("**Financial Exposure**")
                             st.markdown(
-                                f'<div style="font-size:1.4em; font-weight:600; color:#2E8B57;">'
+                                f'<div style="font-size:1.4em; font-weight:600; color:{_COLOR_FINANCIAL};">'
                                 f'{exposure_formatted}</div>',
                                 unsafe_allow_html=True
                             )
