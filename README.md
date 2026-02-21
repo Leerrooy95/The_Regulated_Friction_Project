@@ -426,7 +426,7 @@ The project's core finding is that friction events (scandals, crises) cluster wi
 | Jan 16, 2026 | EO 14375: Board of Peace designated as public international organization (IOIA) | ✅ Signed; grants legal immunities. Legal challenge expected (Just Security) |
 | Feb 14, 2026 | 13F disclosure deadline | ✅ Q3 baseline established; Q4 filings received Feb 13–17 (see 13F_Analysis/) |
 | Feb 17, 2026 | Rule 13f-2 / Form SHO compliance date | ✅ New short position disclosure requirement now in effect |
-| Feb 19, 2026 | Board of Peace first summit | ✅ **HELD** — ~50 countries, $7B pledged, US $10B additional. Indonesia only troop commitment. |
+| Feb 19, 2026 | Board of Peace first summit | ✅ **HELD** — ~50 countries (27 members, ~22 observers), $7B pledged from 9 countries, US $10B additional. Five countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania). |
 | Feb 27, 2026 | NTEU court-ordered OPM disclosure | Pending — first public view of which specific positions lose protections |
 | Mar 1, 2026 | Khanna investigation document deadline | Pending — $500M UAE deal documents due (Select Committee on China) |
 | Mar 9, 2026 | Schedule Policy/Career effective date | Pending — ~50,000 positions formally become at-will |
@@ -567,7 +567,7 @@ python granger_causality_test.py             # Predictive direction test
 | California TikTok investigation findings | Q1 2026 | Pending |
 | Khanna investigation findings | March 2026 | Document deadline March 1 |
 | UK Mandelson disclosure | Feb-March 2026 | ✅ Escalated (Met Police criminal investigation; parliamentary vote passed) |
-| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries, $7B pledged, $10B US; Indonesia only troop commitment |
+| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries (27 members, ~22 observers), $7B pledged, $10B US; 5 countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania) |
 | Board of Peace = "Board of Profits" | Feb 2026 | ✅ Confirmed ($1B = permanent membership confirmed; American Prospect) |
 | West Bank annexation acceleration | Feb 2026 | ✅ Confirmed (Feb 8 cabinet vote — de facto annexation per Al Jazeera, OHCHR) |
 | Al-Tanf withdrawal / Iran concession | Feb 11, 2026 | ✅ Confirmed (withdrawal) / ⚠️ Causal link to Oman talks partially verified |

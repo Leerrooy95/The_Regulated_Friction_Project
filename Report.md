@@ -340,9 +340,9 @@ Forensic vetting of four Board of Peace subjects tested the "Lifeboat" hypothesi
 | **Marc Rowan / Apollo** | Co-founder Leon Black paid Epstein $158–170M (VERIFIED). Rowan personal Epstein contact: no evidence found. | Institutional link ✅ / Personal link ❌ |
 | **Tony Blair** | May 14, 2002 Downing Street meeting with Epstein (VERIFIED via declassified memos). Mandelson as bridge (VERIFIED). Ongoing relationship: no evidence. | Single meeting ✅ / Ongoing ❌ |
 | **Jared Kushner / Affinity** | 99% foreign-funded (VERIFIED). $157M+ fees from Gulf sovereigns (VERIFIED). Wyden/Raskin FARA probe (VERIFIED). PIF → Affinity → Phoenix → settlements pipeline (VERIFIED). | Full pipeline ✅ |
-| **Sultan bin Sulayem / DP World** | "Sultan" in Epstein files: no credible source identifies Bin Sulayem. Gaza port contract: unconfirmed. | ❌ UNVERIFIED |
+| **Sultan bin Sulayem / DP World** | DOJ released Epstein emails naming Bin Sulayem (identity confirmed by Rep. Thomas Massie). Bin Sulayem resigned as DP World CEO Feb 13, 2026 after financial partners threatened withdrawal. Gaza port contract: unconfirmed. | Epstein link ✅ VERIFIED / Gaza port ❌ |
 
-**Conclusion**: The "Lifeboat" hypothesis is **NOT SUPPORTED** in its strong form. The "Board of Profits" thesis **IS SUPPORTED** — the Board functions as a reconstruction investment vehicle where members bring documented financial conflicts of interest. The verified capital pipelines:
+**Conclusion**: The "Lifeboat" hypothesis is **NOT SUPPORTED** in its strong form. Bin Sulayem's Epstein link is now verified (DOJ release, Feb 2026), but he is not a Board member, so his confirmed connection does not establish the Board itself as an Epstein-network vehicle. The "Board of Profits" thesis **IS SUPPORTED** — the Board functions as a reconstruction investment vehicle where members bring documented financial conflicts of interest. The verified capital pipelines:
 
 ```
 Pipeline 1 (Territory):  Saudi PIF → Affinity Partners → Phoenix Holdings (9.9%) → 11+ settlement companies
@@ -775,16 +775,16 @@ The Board of Peace held its first summit at the US Institute of Peace in Washing
 
 | Element | Detail |
 |---------|--------|
-| **Attendance** | ~50 countries represented; 40+ sent official delegations (EU included) |
+| **Attendance** | ~50 countries represented (27 full members, ~22 observers including EU) |
 | **Pledges** | $7B from 9 countries (Kazakhstan, Azerbaijan, UAE, Morocco, Bahrain, Qatar, Saudi Arabia, Uzbekistan, Kuwait) |
 | **US commitment** | Additional $10B pledged |
 | **Gap** | $70B estimated reconstruction need vs. $7B pledged = **10% funded** |
-| **Troops** | Indonesia remains only country firmly committing troops for proposed stabilization force |
+| **Troops** | Five countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania); Egypt and Jordan committed to police training |
 | **Declined** | Several top US allies declined, citing constitutional incompatibilities and concerns about bypassing UN peacekeeping |
 | **Membership** | $1B = permanent membership confirmed in reporting (TIME, Axios) |
 | **Leadership** | Trump chaired; executive committee includes Kushner, Rubio, Witkoff, Blair |
 
-**Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) the ISF troop commitment gap (Indonesia only) raises questions about enforcement capacity for the governance body.
+**Structural significance:** The summit confirms several repository predictions: (1) BoP functions as a commercial investment vehicle ($1B buy-in for permanent membership); (2) the "Board of Profits" thesis is reinforced by the donor list matching Gulf SWF entities tracked in 13F analysis; (3) troop commitments from five countries represent a nascent International Stabilization Force, though 20,000 planned personnel remain short of full operational capacity.
 
 **What this does NOT claim:** The summit's outcomes are documented as observed facts. Whether the financial commitments represent genuine reconstruction investment or strategic positioning is an interpretive question.
 
@@ -964,7 +964,7 @@ Key datasets:
 | California TikTok investigation findings | Q1 2026 | Pending | AG office |
 | Khanna Congressional investigation findings | March 2026 | Document deadline March 1 | Congressional record |
 | UK Mandelson disclosure | Feb-March 2026 | ✅ Escalated (Met Police criminal investigation; parliamentary vote passed) | UK Hansard |
-| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries, $7B pledged, $10B US; Indonesia only troop commitment | TIME, Axios, AP |
+| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries (27 members, ~22 observers), $7B pledged, $10B US; 5 countries committed troops | TIME, Axios, AP, DW, POLITICO |
 | Board of Peace = "Board of Profits" | Feb 2026 | ✅ Confirmed ($1B = permanent membership confirmed; American Prospect) | Senate Finance Committee, court filings |
 | West Bank annexation acceleration | Feb 2026 | ✅ Confirmed (Feb 8 cabinet vote — de facto annexation per Al Jazeera, OHCHR) | Israeli cabinet records, OHCHR |
 | Al-Tanf withdrawal / Iran concession | Feb 11, 2026 | ✅ Confirmed (withdrawal) / ⚠️ Causal link partially verified | CENTCOM, regional reporting |
@@ -1070,7 +1070,7 @@ This research documents thirteen connected patterns:
 
 **The defense tech consolidation & Palantir information layer (Feb 14, 2026):** Palantir as information layer parallel to Apollo's credit layer. PFCS Forward IL5/IL6 authorization = Prong 1 STRONG. Palantir-Anduril consortium + DOGE integration verified. TIER 2 MODERATE.
 
-**The 13F prediction test & Board of Peace summit (Feb 18-19, 2026):** Three Q3-based predictions FAILED (negative findings = data). Mubadala IBIT +46%; Abu Dhabi complex ~$1.04B in Bitcoin ETF. Thiel Macro liquidated all public equities. Board of Peace summit: ~50 countries, $7B pledged, 10% of $70B need, Indonesia only troop commitment.
+**The 13F prediction test & Board of Peace summit (Feb 18-19, 2026):** Three Q3-based predictions FAILED (negative findings = data). Mubadala IBIT +46%; Abu Dhabi complex ~$1.04B in Bitcoin ETF. Thiel Macro liquidated all public equities. Board of Peace summit: ~50 countries (27 members), $7B pledged, 10% of $70B need, five countries committed troops.
 
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 

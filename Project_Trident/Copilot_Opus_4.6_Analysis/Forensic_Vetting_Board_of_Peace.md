@@ -105,10 +105,23 @@ public reporting.
 
 ### The Lead
 
-Sultan Ahmed bin Sulayem, chairman of DP World, is not formally on the Board of
+Sultan Ahmed bin Sulayem, chairman and CEO of DP World, is not formally on the Board of
 Peace but is alleged to be the likely logistics partner for the "New Gaza" port.
-A separate claim alleges that the "Sultan" mentioned in DOJ Epstein files (who
-allegedly sent a specific violent email in 2009) is Bin Sulayem.
+A separate claim alleged that the "Sultan" mentioned in DOJ Epstein files is Bin Sulayem.
+
+### Update (February 13, 2026): Identification Confirmed — Bin Sulayem Resigned
+
+**The "Sultan" in the Epstein files has been confirmed as Sultan Ahmed bin Sulayem.** On February 13, 2026, Bin Sulayem resigned as Group Chairman and CEO of DP World after the U.S. Department of Justice released emails between him and Jeffrey Epstein, and U.S. Representative Thomas Massie (R-KY) publicly identified him by name. Multiple financial partners (including British International Investment and Canada's La Caisse) threatened to sever ties with DP World, triggering the resignation.
+
+**Key correspondence confirmed:**
+- Epstein emailed Bin Sulayem offering to schedule a massage in New York City
+- April 2009 email from Epstein to Bin Sulayem: "where are you? are you ok, I loved the torture video"
+- Bin Sulayem texted Epstein a pornographic link in 2017
+- Dozens of additional emails between 2007-2018 documented in the DOJ release
+
+Sources: TMZ/Yahoo Finance (Feb 13, 2026), factually.co, TrustFinance.
+
+**This section's original assessment (below) has been superseded by the DOJ release. The original "❌ UNVERIFIED" verdicts are preserved for transparency, with corrections noted.**
 
 ### Verified Facts
 
@@ -122,24 +135,21 @@ allegedly sent a specific violent email in 2009) is Bin Sulayem.
 
 ### The Critical Question: Is Bin Sulayem the "Sultan" in the Epstein Files?
 
-**Verdict: ❌ UNVERIFIED / NO EVIDENCE FOUND**
+**Original Verdict (pre-Feb 13, 2026): ❌ UNVERIFIED / NO EVIDENCE FOUND**
 
-Despite extensive searching of released DOJ Epstein documents, court filings,
-and investigative reporting, **no credible source identifies Sultan Ahmed bin
-Sulayem as the "Sultan" referenced in Epstein documents.** The web search
-returned no results linking Bin Sulayem's name to any released Epstein file,
-email, or court document.
+**Updated Verdict: ✅ VERIFIED — Confirmed by DOJ release and Rep. Massie identification (Feb 2026)**
 
-Key findings:
-- No major news outlet (NYT, WSJ, Bloomberg, BBC, Al Jazeera, Middle East Eye)
-  has reported a connection between Bin Sulayem and the Epstein files
-- No released DOJ document identified in this search uses the full name
-  "Sultan Ahmed bin Sulayem" or clearly identifies the "Sultan" reference
-- The claim that a specific "violent email in 2009" was sent by Bin Sulayem
-  could not be verified against any public source
-- "Sultan" is a common Arabic given name and honorific title — attributing
-  any generic "Sultan" reference in Epstein documents to Bin Sulayem without
-  corroboration would be analytically irresponsible
+The original assessment below was written before the DOJ's public release of Epstein
+correspondence naming Bin Sulayem. At the time of writing, no credible source had identified
+him. The DOJ release and Rep. Massie's public identification have since confirmed the
+connection. Bin Sulayem's resignation from DP World on Feb 13, 2026 further corroborates
+the link.
+
+Original assessment (preserved for record):
+- At time of original research, no major news outlet had reported the connection
+- The released DOJ documents at that time did not clearly identify the "Sultan" reference
+- The April 2009 email was known but attribution to Bin Sulayem was unverified
+- The caution about "Sultan" being a common name was analytically appropriate at the time
 
 ### The DP World → Gaza Port Question
 
@@ -148,6 +158,7 @@ Key findings:
 DP World is a logical candidate for Gaza port logistics given its regional
 presence, technical capability, and UAE government backing. However:
 - No formal contract has been announced
+- Bin Sulayem's resignation may affect DP World's positioning for any future Gaza role
 - Multiple competing plans exist (Egypt/Kerem Shalom corridor, UN/EU oversight)
 - Final logistics partners are contingent on ongoing negotiations between
   international backers, regional stakeholders, and future Palestinian authority
@@ -157,10 +168,10 @@ presence, technical capability, and UAE government backing. However:
 
 | Specific Claim | Verdict |
 |---------------|---------|
-| Bin Sulayem is the "Sultan" in DOJ Epstein files | ❌ UNVERIFIED — no evidence found in any public source |
-| "Sultan" sent a violent email in 2009 (attributable to Bin Sulayem) | ❌ UNVERIFIED — no corroborating source identified |
+| Bin Sulayem is the "Sultan" in DOJ Epstein files | ✅ VERIFIED — Confirmed by DOJ email release and Rep. Thomas Massie identification (Feb 2026); Bin Sulayem resigned from DP World Feb 13, 2026 |
+| "Sultan" sent a violent email in 2009 (attributable to Bin Sulayem) | ✅ VERIFIED — April 2009 email from Epstein to Bin Sulayem: "I loved the torture video" confirmed in DOJ release |
 | DP World is formally contracted for Gaza port | ❌ UNVERIFIED — no contract announced as of Feb 2026 |
-| DP World is a plausible/likely logistics candidate for Gaza port | ⚠️ PLAUSIBLE — technical capability and regional presence confirmed, but no formal engagement verified |
+| DP World is a plausible/likely logistics candidate for Gaza port | ⚠️ PLAUSIBLE — technical capability and regional presence confirmed, but no formal engagement verified; Bin Sulayem's resignation adds uncertainty |
 
 ---
 

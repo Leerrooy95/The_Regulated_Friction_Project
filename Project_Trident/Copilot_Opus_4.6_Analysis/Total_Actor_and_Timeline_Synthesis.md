@@ -485,7 +485,7 @@ The following analytic threads were started but not conclusively resolved:
 
 | Thread | Started In | Current State | What's Missing |
 |--------|-----------|---------------|---------------|
-| **Sultan bin Sulayem / DP World → Gaza port** | Forensic_Vetting_Board_of_Peace.md | UNVERIFIED — no credible source identifies Bin Sulayem as "Sultan" in Epstein files; DP World Gaza contract unconfirmed | Requires investigative confirmation or explicit disconfirmation |
+| **Sultan bin Sulayem / DP World → Gaza port** | Forensic_Vetting_Board_of_Peace.md | Epstein link ✅ VERIFIED (DOJ release, Rep. Massie identification, Bin Sulayem resigned DP World Feb 13, 2026); DP World Gaza contract remains unconfirmed | Epstein connection resolved; Gaza port logistics role remains open |
 | **WBD/Paramount bid ($108.4B)** | February_2026_Consolidation_Timeline.md | Documented (PIF/QIA/L'imad $24B equity) but no follow-up | Outcome of bid; whether narrative control was primary motive |
 | **DOGE-Palantir relationship** | Palantir_Technologies_Deep_Dive.md (Open Question) | Speculative — no contract data found | DOGE's data-driven mandate creates structural plausibility; requires FOIA or contract data |
 | **Founders Fund full portfolio overlap** | Palantir_Technologies_Deep_Dive.md | Anduril known; broader portfolio unmapped | Full mapping of Founders Fund investments against repo-tracked entities |
@@ -516,7 +516,7 @@ The following analytic threads were started but not conclusively resolved:
 
 4. **Update legacy repository name references** in 14_Files/Main_Characters.md and similar files.
 
-5. **Monitor the Sultan bin Sulayem thread** — either confirm or explicitly close with "NO EVIDENCE FOUND" designation. Current "UNVERIFIED" status leaves it as an open question that could mislead readers.
+5. **Sultan bin Sulayem thread: RESOLVED.** DOJ released Epstein emails naming Bin Sulayem (Feb 2026). Rep. Thomas Massie publicly identified him. Bin Sulayem resigned as DP World CEO Feb 13, 2026 after financial partners threatened withdrawal. Epstein link confirmed; DP World Gaza port contract remains unverified.
 
 6. **The Saudi-UAE divergence requires sustained tracking.** The Yemen events significantly complicate the consortium model. A dedicated tracking file for the PIF-MGX cooperative/competitive dynamic would strengthen the analysis.
 

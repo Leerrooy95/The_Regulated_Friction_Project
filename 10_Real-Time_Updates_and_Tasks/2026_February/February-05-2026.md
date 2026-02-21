@@ -58,20 +58,21 @@ The Department of Justice released over 3 million pages of documents related to 
 
 ### UAE Connection Through Epstein
 
-**Sultan Ahmed bin Sulayem Documentation**:
+**Sultan Ahmed bin Sulayem Documentation** *(Epstein link confirmed: DOJ release Feb 2026; Rep. Massie identified Bin Sulayem; Bin Sulayem resigned as DP World CEO Feb 13, 2026)*:
 
 | Detail | Documentation |
 |--------|---------------|
-| Position | DP World CEO, UAE royal family advisor, controls global ports |
-| Epstein Emails | Dozens/hundreds between 2007-2018 |
+| Position | DP World Group Chairman & CEO (resigned Feb 13, 2026); operates ports in 75+ countries |
+| Epstein Emails | Correspondence between 2007-2018, released by DOJ |
 | May 29, 2015 | Sulayem asked Epstein to connect him with Musk for Tesla battery discussion |
 | 2017 | Musk and Sulayem led Dubai discussion about Tesla batteries for renewable energy at global ports |
 | 2014 | Sulayem had Epstein ask Mandelson to join board of one of his companies |
 | Documented | Photos of Sulayem and Epstein cooking together |
 | Financial | Sulayem paid Epstein $6,200 in 2017 (Epstein transferred same amount back next day) |
 | Visits | Scheduled visits to Epstein's Manhattan townhouse 2011-2014 |
+| DOJ Confirmed | Epstein offered Bin Sulayem a massage in NYC; April 2009 email: "I loved the torture video"; 2017 porn link |
 
-**Significance**: Documented pathway for Epstein connecting UAE infrastructure officials to US tech executives
+**Significance**: Documented pathway for Epstein connecting UAE infrastructure officials to US tech executives. Bin Sulayem's resignation from DP World confirms the connection was material enough to force corporate leadership change.
 
 ---
 
