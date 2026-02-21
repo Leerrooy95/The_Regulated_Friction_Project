@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** February 20, 2026
-**Version:** v9.7
+**Last Updated:** February 21, 2026
+**Version:** v9.8
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -1092,4 +1092,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 20, 2026 (v9.7). Automated scraping infrastructure deployed on DigitalOcean: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app. Dashboard URL corrected in README.*
+*This report was last updated February 21, 2026 (v9.8). Dashboard overhaul: Prediction Tracker tab, Key Statistics table, Robustness Tests summary, 3-audience navigation cards, Convergence Model diagram, December 2025 case study. Repository structure updated. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

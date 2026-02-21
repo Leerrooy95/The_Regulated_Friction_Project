@@ -67,6 +67,7 @@ with st.sidebar:
     st.markdown("- `negative_windows.csv` (5 windows)")
     st.markdown("- Federal Register EO spider (JSON)")
     st.divider()
+    st.caption("v9.8 | February 2026")
     st.caption(DISCLAIMER)
 
 # ── Compute statistics ───────────────────────────────────────────────────

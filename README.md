@@ -1,4 +1,4 @@
-# The Regulated Friction Project v9.7
+# The Regulated Friction Project v9.8
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
@@ -17,7 +17,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.7)](#whats-new-v97---february-2026)
+- [What's New (v9.8)](#whats-new-v98---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -328,15 +328,46 @@ The_Regulated_Friction_Project/
     ├── High_Growth_Companies_2015_2026.csv
     ├── Infrastructure_Forensics.csv
     └── Timeline_Update_Jan2026_Corrected (1).csv
+
+dashboard/                                     # Streamlit dashboard (regulatedfriction.streamlit.app)
+├── app.py                                     # Main dashboard entry point (800 lines)
+├── constants.py                               # Color palette, thresholds, disclaimer text
+├── correlation_engine.py                      # Statistical computation layer
+├── data_loader.py                             # Data ingestion and validation
+├── requirements.txt                           # Dashboard Python dependencies
+└── CHANGELOG_20260221.md                      # Dashboard version history
+
+federal_register/                              # Automated scraping infrastructure
+├── spiders/
+│   ├── federal_register_eo.py                 # Federal Register spider (EOs, 6 AM UTC)
+│   └── doj_press_releases.py                  # DOJ press releases (30-day rolling, 6:30 AM UTC)
+├── items.py                                   # Scrapy item definitions
+├── settings.py                                # Scrapy settings
+├── pipelines.py                               # Item processing pipelines
+└── Spider Output Files/
+    └── items_federal_register_eo_1.json       # Spider output (1,000 Executive Orders)
 ```
 
 ---
 
-## What's New (v9.7 - February 2026)
+## What's New (v9.8 - February 2026)
 
-### Automated Scraping Infrastructure & Dashboard Deployment
+### Dashboard Overhaul & Documentation Update
 
-February 20, 2026 — DigitalOcean droplet configured with two automated daily scrapers: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app. Dashboard URL corrected in README.
+February 21, 2026 — Comprehensive dashboard overhaul adding 6 new content sections:
+
+- **Prediction Tracker tab** — 25 falsifiable predictions with status badges (11 confirmed, 4 failed, 10 pending). Failed predictions displayed prominently.
+- **Key Statistics table** — 21 verified findings in collapsible expander with conditional row styling (green verified, red failed). Source: README.md Key Statistics.
+- **Robustness Tests summary** — 6-test table (permutation, Granger, bootstrap, Dec 2025 exclusion) added to Statistical Overview tab.
+- **3-Audience Navigation Cards** — Role-based entry points for Researchers, Journalists & Policymakers, and Skeptics with styled CSS cards.
+- **Convergence Model diagram** — ASCII box-drawing visualization of the calendar anchor → convergent clustering model with original vs. revised hypothesis comparison.
+- **December 2025 Case Study** — Collapsible expander documenting the Pincer Window (108 events in 12 days, 5 signal types on Dec 22). All facts verified against README.md, Report.md, and CRUCIAL_Synthesis_Dec19_Convergence.md.
+
+Repository structure updated to include `dashboard/` (6 files) and `federal_register/` (7 files) in the tree. Version bumped to v9.8 across all files.
+
+### Previous: v9.7 Highlights
+
+**Automated Scraping Infrastructure & Dashboard Deployment** — DigitalOcean droplet configured with two automated daily scrapers: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app.
 
 ### Previous: v9.6 Highlights
 
@@ -611,4 +642,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 20, 2026 (v9.7) — DigitalOcean automated scraping infrastructure deployed (Federal Register + DOJ press release spiders). Streamlit dashboard deployed at regulatedfriction.streamlit.app. Dashboard URL corrected.
+**Last updated**: February 21, 2026 (v9.8) — Dashboard overhaul: Prediction Tracker tab, Key Statistics table, Robustness Tests summary, 3-audience navigation cards, Convergence Model diagram, December 2025 case study. Repository structure updated.
