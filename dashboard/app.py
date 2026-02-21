@@ -401,6 +401,38 @@ with tab_home:
 # =====================================================================
 # TAB 1.5: LIVE INTELLIGENCE (LLM)
 # =====================================================================
+
+def _format_dollar_exposure(amount):
+    """Format dollar amounts for readability (e.g., $908.0B, $5.15B, $500M)."""
+    if amount is None or amount == 0:
+        return None
+    if amount >= 1_000_000_000_000:
+        return f"${amount / 1_000_000_000_000:.1f}T"
+    elif amount >= 1_000_000_000:
+        return f"${amount / 1_000_000_000:.1f}B"
+    elif amount >= 1_000_000:
+        return f"${amount / 1_000_000:.1f}M"
+    elif amount >= 1_000:
+        return f"${amount / 1_000:.1f}K"
+    return f"${amount:,.0f}"
+
+def _get_category_badge(category):
+    """Return color-coded HTML badge for event category."""
+    category_colors = {
+        "Document_Release": ("#1E90FF", "#E6F3FF"),       # Blue
+        "Financial_Exposé": ("#2E8B57", "#E6F5EC"),       # Green
+        "Executive_Orders": ("#FF8C00", "#FFF3E6"),       # Orange
+        "International_Summit": ("#9370DB", "#F3E6FF"),   # Purple
+        "SEC_Filing": ("#20B2AA", "#E6FAFA"),             # Teal
+        "Credit_Pipeline": ("#DAA520", "#FFF8E6"),        # Goldenrod
+        "Military_Authorization": ("#CD5C5C", "#FFE6E6"), # Indian Red
+        "Territorial_Annexation": ("#8B4513", "#F5EBE0"), # Brown
+        "Enforcement_Hollowing": ("#DC143C", "#FFE6EC"),  # Crimson
+    }
+    # Default colors for unknown categories
+    bg_color, text_bg = category_colors.get(category, ("#6C757D", "#F0F0F0"))
+    return f'<span style="background-color:{text_bg}; color:{bg_color}; padding:2px 8px; border-radius:4px; font-size:0.85em; font-weight:500; white-space:nowrap;">{category}</span>'
+
 with tab_live_intel:
     if not intel_data:
         st.warning("No automated intelligence data found. Run the GitHub Action pipeline first.")
@@ -408,13 +440,37 @@ with tab_live_intel:
         st.header("Live Intelligence Feed")
         st.markdown("Automated extraction via **Llama-4-Scout-17B-16E-Instruct**")
         
+        # Build set of convergence node entity names for actor highlighting
+        nodes = intel_data.get("convergence_nodes", [])
+        convergence_entity_names = {node.get("entity", "").lower() for node in nodes}
+        
         # Window Summary
         window = intel_data.get("active_window_summary", {})
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Active Window", f"{window.get('window_start', '')[5:]} to {window.get('window_end', '')[5:]}")
         col2.metric("Friction Events", window.get("total_friction_events", 0))
         col3.metric("Compliance Events", window.get("total_compliance_events", 0))
-        col4.metric("Density Multiplier", window.get("density_vs_baseline", "N/A"))
+        
+        # Density Multiplier with warning styling if above 3.0x
+        density_str = window.get("density_vs_baseline", "N/A")
+        density_value = None
+        if density_str and density_str != "N/A":
+            try:
+                density_value = float(density_str.replace("x", ""))
+            except (ValueError, AttributeError):
+                pass
+        
+        if density_value and density_value > 3.0:
+            # Display with warning styling for statistically significant clustering
+            col4.metric("Density Multiplier", density_str)
+            col4.markdown(
+                f'<div style="background-color:rgba(255,165,0,0.2); border-left:3px solid #FF8C00; '
+                f'padding:4px 8px; margin-top:-10px; border-radius:0 4px 4px 0; font-size:0.8em;">'
+                f'⚠️ Significant clustering event</div>',
+                unsafe_allow_html=True
+            )
+        else:
+            col4.metric("Density Multiplier", density_str)
         
         st.divider()
         
@@ -424,10 +480,92 @@ with tab_live_intel:
         t1_events = [e for e in events if e.get("dashboard_relevance") == "TIER_1_CRITICAL"]
         
         if t1_events:
-            df_events = pd.DataFrame(t1_events)
-            df_events = df_events[["date", "event_type", "category", "actors", "description"]]
-            df_events["actors"] = df_events["actors"].apply(lambda x: ", ".join(x) if isinstance(x, list) else x)
-            st.dataframe(df_events, use_container_width=True, hide_index=True)
+            # Build table with entity linking and category badges
+            table_rows = []
+            for event in t1_events:
+                # Process actors with convergence node highlighting
+                actors_raw = event.get("actors", [])
+                if isinstance(actors_raw, list):
+                    actors_formatted = []
+                    for actor in actors_raw:
+                        # Check if actor matches any convergence node entity
+                        is_convergence = any(
+                            actor.lower() in entity_name or entity_name in actor.lower()
+                            for entity_name in convergence_entity_names
+                        )
+                        if is_convergence:
+                            actors_formatted.append(
+                                f'<span style="background-color:#FFD700; color:#333; padding:1px 6px; '
+                                f'border-radius:3px; font-weight:600;" title="Convergence Node">🔗 {actor}</span>'
+                            )
+                        else:
+                            actors_formatted.append(actor)
+                    actors_display = ", ".join(actors_formatted)
+                else:
+                    actors_display = str(actors_raw)
+                
+                # Get category badge
+                category_badge = _get_category_badge(event.get("category", ""))
+                
+                table_rows.append({
+                    "Date": event.get("date", ""),
+                    "Type": event.get("event_type", ""),
+                    "Category": category_badge,
+                    "Actors": actors_display,
+                    "Description": event.get("description", "")
+                })
+            
+            # Render as HTML table for rich formatting
+            st.markdown(
+                """
+                <style>
+                .intel-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    font-size: 0.9em;
+                }
+                .intel-table th {
+                    background-color: var(--secondary-background-color);
+                    color: var(--text-color);
+                    padding: 10px 12px;
+                    text-align: left;
+                    border-bottom: 2px solid var(--text-color);
+                }
+                .intel-table td {
+                    padding: 10px 12px;
+                    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+                    vertical-align: top;
+                }
+                .intel-table tr:hover {
+                    background-color: rgba(128, 128, 128, 0.05);
+                }
+                @media (max-width: 768px) {
+                    .intel-table {
+                        font-size: 0.8em;
+                    }
+                    .intel-table th, .intel-table td {
+                        padding: 6px 8px;
+                    }
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+            
+            # Build HTML table
+            html_table = '<table class="intel-table"><thead><tr>'
+            for col in ["Date", "Type", "Category", "Actors", "Description"]:
+                html_table += f'<th>{col}</th>'
+            html_table += '</tr></thead><tbody>'
+            
+            for row in table_rows:
+                html_table += '<tr>'
+                for col in ["Date", "Type", "Category", "Actors", "Description"]:
+                    html_table += f'<td>{row[col]}</td>'
+                html_table += '</tr>'
+            html_table += '</tbody></table>'
+            
+            st.markdown(html_table, unsafe_allow_html=True)
         else:
             st.info("No Tier 1 events in the current window.")
             
@@ -435,17 +573,40 @@ with tab_live_intel:
         
         # Convergence Nodes
         st.subheader("Convergence Nodes (3+ Domains)")
-        nodes = intel_data.get("convergence_nodes", [])
         
         if nodes:
             for node in nodes:
-                with st.expander(f"**{node.get('entity')}** — {node.get('domain_count')} Domains"):
-                    st.write(f"**Assessment:** {node.get('assessment')}")
-                    st.write(f"**Domains:** {', '.join(node.get('domains', []))}")
-                    if node.get("key_persons"):
-                        st.write(f"**Key Persons:** {', '.join(node.get('key_persons', []))}")
-                    if node.get("total_dollar_exposure"):
-                        st.write(f"**Financial Exposure:** ${node.get('total_dollar_exposure'):,}")
+                entity_name = node.get('entity', 'Unknown')
+                domain_count = node.get('domain_count', 0)
+                exposure = node.get("total_dollar_exposure")
+                exposure_formatted = _format_dollar_exposure(exposure)
+                
+                # Build expander title with exposure if available
+                expander_title = f"**{entity_name}** — {domain_count} Domains"
+                if exposure_formatted:
+                    expander_title += f" | {exposure_formatted}"
+                
+                with st.expander(expander_title):
+                    # Use columns for better layout
+                    left_col, right_col = st.columns([3, 2])
+                    
+                    with left_col:
+                        st.markdown(f"**Assessment**")
+                        st.write(node.get('assessment', 'N/A'))
+                        st.markdown(f"**Domains:** {', '.join(node.get('domains', []))}")
+                    
+                    with right_col:
+                        if exposure_formatted:
+                            st.markdown("**Financial Exposure**")
+                            st.markdown(
+                                f'<div style="font-size:1.4em; font-weight:600; color:#2E8B57;">'
+                                f'{exposure_formatted}</div>',
+                                unsafe_allow_html=True
+                            )
+                        if node.get("key_persons"):
+                            st.markdown("**Key Persons**")
+                            for person in node.get("key_persons", []):
+                                st.markdown(f"• {person}")
         else:
             st.info("No convergence nodes detected in this extraction.")
 
