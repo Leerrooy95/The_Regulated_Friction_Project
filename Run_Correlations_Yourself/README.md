@@ -2,7 +2,7 @@
 
 **Purpose:** Independent verification scripts for the reported correlations.
 
-**Last Updated:** February 9, 2026
+**Last Updated:** February 21, 2026
 
 ---
 
@@ -22,7 +22,7 @@ python run_original_analysis.py
 
 | Script | What It Reproduces | Datasets Used |
 |--------|-------------------|---------------|
-| `run_original_analysis.py` | Part 1: r = 0.6196 (2-week lag, 30 weeks)<br>Part 2: Mann-Whitney U p = 0.002<br>Part 3: χ² = 330.62 (14-day periodicity) | Original pre-2026 CSVs from `Control_Proof/`, `Project_Trident/`, `09_Silicon_Sovereignty/` |
+| `run_original_analysis.py` | Part 1: r = 0.6196 (2-week lag, n = 28)<br>Part 2: Mann-Whitney U p = 0.002<br>Part 3: χ² = 330.62 (14-day periodicity) | Original pre-2026 CSVs from `Control_Proof/`, `Project_Trident/`, `09_Silicon_Sovereignty/` |
 
 ---
 
@@ -64,4 +64,4 @@ The `Wrong_Correlations/` subfolder contains archived scripts that are preserved
 
 ---
 
-*Last updated: February 9, 2026*
+*Last updated: February 21, 2026*

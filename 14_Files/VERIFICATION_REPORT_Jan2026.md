@@ -38,7 +38,7 @@ This report presents an independent verification of statistical claims made in t
 **Verification Results:**
 ```
 Dataset: master_reflexive_correlation_data.csv
-Sample size: n = 30 weeks
+Sample size: n = 30 rows (n = 28 effective after 2-week lag)
 Variables: Epstein_Friction_Index, Institutional_Compliance_Index
 
 0-week lag (simultaneous):    r = -0.0323, p = 0.8653

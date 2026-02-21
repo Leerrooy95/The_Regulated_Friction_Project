@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** February 21, 2026
-**Version:** v9.8
+**Version:** v9.9
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -11,7 +11,7 @@
 
 This report documents a statistically significant pattern: high-visibility "friction" events (document releases, scandals, media cycles) and institutional "compliance" events (policy shifts, financial moves, regulatory changes) cluster together on the same calendar windows.
 
-**The core finding:** r = +0.6196 correlation at 2-week lag, p = 0.0004 (n = 30 weeks)
+**The core finding:** r = +0.6196 correlation at 2-week lag, p = 0.0004 (n = 28 paired observations from a 30-week dataset)
 
 **What this means in plain language:** When friction events spike, institutional compliance events follow approximately two weeks later. This relationship has less than a 0.05% probability of occurring by coincidence.
 
@@ -79,12 +79,12 @@ The original hypothesis assumed a cause-effect sequence: friction creates a dist
 
 | Finding | Value | Verification |
 |---------|-------|--------------|
-| Friction → Compliance correlation | r = +0.6196 (2-week lag) | 1-10 scale indices (30 weeks) |
+| Friction → Compliance correlation | r = +0.6196 (2-week lag) | 1-10 scale indices, 30-week dataset (n = 28 after lag) |
 | Statistical significance | p = 0.0004 | Less than 0.05% chance of random |
 | Ritual → Policy proximity | 50.7% vs. 19.9% baseline | 2.5x expected rate |
 | Multi-dataset Spearman | ρ = 0.61 (0-lag) | Rank correlation across all datasets (p < 0.0001) |
 
-**Methodology note:** The r = 0.6196 uses 1-10 scoring over 30 weeks. The multi-dataset Spearman ρ = 0.61 uses raw event counts across all repository datasets and confirms the rank-order relationship. Both findings are independently significant.
+**Methodology note:** The r = 0.6196 uses 1-10 scoring from a 30-week dataset (n = 28 effective paired observations after 2-week lag alignment). The multi-dataset Spearman ρ = 0.61 uses raw event counts across all repository datasets and confirms the rank-order relationship. Both findings are independently significant.
 
 **Note:** The previously reported r = 0.6685 (from New_Data_2026) has been deprecated since v8.3. That correlation was produced in early January 2026 when the user accidentally mixed New_Data_2026 datasets (uploaded January 4, 2026) into verification scripts intended for the original December 2025 data. This was a user dataset-mixing error, not an AI computation error — the AI tools correctly computed the correlations for the data they were given. See `Run_Correlations_Yourself/Wrong_Correlations/` for the archived scripts.
 
@@ -144,7 +144,7 @@ This repository documents the core statistical relationship:
 
 | Finding | Value | Verification |
 |---------|-------|--------------|
-| Friction → Compliance correlation | r = +0.6196 (2-week lag) | ✅ Verified (30 weeks, hand-scored) |
+| Friction → Compliance correlation | r = +0.6196 (2-week lag) | ✅ Verified (n = 28 after lag, hand-scored) |
 | Statistical significance | p = 0.0004 | ✅ Less than 0.05% chance of random |
 
 **Thesis:** Domestic friction saturates media bandwidth, creating calendar windows in which compliance events (policy shifts, financial moves) proceed with reduced scrutiny.
@@ -939,7 +939,7 @@ python event_study_framework.py             # Compliance response analysis
 python granger_causality_test.py             # Predictive direction test
 ```
 
-**Methodology transparency:** The primary correlation (r = 0.6196) uses 30 weeks of hand-scored friction/compliance indices at a 2-week lag. The multi-dataset Spearman rank correlation (ρ = 0.61) confirms the rank-order pattern across 2,951 events from all repository datasets. The Pearson r on expanded event counts (r = 0.11) is weaker due to magnitude sensitivity but remains significant after autocorrelation adjustment (block-bootstrap p = 0.008).
+**Methodology transparency:** The primary correlation (r = 0.6196) uses a 30-week dataset of hand-scored friction/compliance indices at a 2-week lag (n = 28 effective paired observations). The multi-dataset Spearman rank correlation (ρ = 0.61) confirms the rank-order pattern across 2,951 events from all repository datasets. The Pearson r on expanded event counts (r = 0.11) is weaker due to magnitude sensitivity but remains significant after autocorrelation adjustment (block-bootstrap p = 0.008).
 
 Key datasets:
 - `Control_Proof/master_reflexive_correlation_data.csv` — Original weekly friction/compliance indices
@@ -1046,7 +1046,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 This research documents thirteen connected patterns:
 
-**The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004) in the 30-week hand-scored dataset. Confirmed by multi-dataset Spearman ρ = 0.61 (p < 0.0001) across 2,951 events. Survives permutation testing (p < 0.001), Granger causality at lag 1 (p = 0.0008), and binary presence/absence (r = 0.59). Robust to December 2025 exclusion (ρ = 0.60).
+**The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004, n = 28) in the 30-week hand-scored dataset. Confirmed by multi-dataset Spearman ρ = 0.61 (p < 0.0001) across 2,951 events. Survives permutation testing (p < 0.001), Granger causality at lag 1 (p = 0.0008), and binary presence/absence (r = 0.59). Robust to December 2025 exclusion (ρ = 0.60).
 
 **The historical backfill (2017-2024):** 66 friction→compliance pairs across 30 friction windows, cross-referenced against the Federal Register spider JSON. Median lag +7 days, 89% positive lags, 5 confirmed negative windows. Backfill impact on existing correlations negligible (Δr = +0.0012). All 10 verification claims confirmed. The pattern holds across 8 additional years of data.
 
@@ -1092,4 +1092,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 21, 2026 (v9.8). Dashboard overhaul: Prediction Tracker tab, Key Statistics table, Robustness Tests summary, 3-audience navigation cards, Convergence Model diagram, December 2025 case study. Repository structure updated. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated February 21, 2026 (v9.9). Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

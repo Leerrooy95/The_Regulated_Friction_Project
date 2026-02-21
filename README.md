@@ -1,4 +1,4 @@
-# The Regulated Friction Project v9.8
+# The Regulated Friction Project v9.9
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
@@ -17,7 +17,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.8)](#whats-new-v98---february-2026)
+- [What's New (v9.9)](#whats-new-v99---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -33,7 +33,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 This repository documents statistically significant correlations between high-visibility "friction" events (file releases, scandals, media cycles) and institutional compliance events (policy shifts, financial positioning, regulatory changes).
 
-**Core Finding**: Friction events (document releases, scandals) predict institutional compliance events (policy shifts, financial moves) at a 2-week lag (r = +0.6196, p = 0.0004, n = 30 weeks).
+**Core Finding**: Friction events (document releases, scandals) predict institutional compliance events (policy shifts, financial moves) at a 2-week lag (r = +0.6196, p = 0.0004, n = 28 paired observations from a 30-week dataset).
 
 **What this means**: When high-visibility friction events spike, institutional compliance events follow ~14 days later — suggesting shared exploitation of calendar-driven attention windows.
 
@@ -67,7 +67,7 @@ This research uses Pearson correlation (r) to measure relationships between even
 | Finding | Value | Status |
 |---------|-------|--------|
 | Friction → Compliance correlation | r = +0.6196 (2-week lag) | ✅ Verified |
-| Statistical significance | p = 0.0004, n = 30 weeks | ✅ Verified |
+| Statistical significance | p = 0.0004, n = 28 | ✅ Verified |
 | Ritual → Policy proximity | 50.7% vs. 19.9% baseline (2.5x) | ✅ Verified |
 | Project Trident significance | p = 0.002 (Mann-Whitney U) | ✅ Verified |
 | Cross-validation (14-day periodicity) | χ² = 330.62 (p < 0.0001, 2,102 events) | ✅ Verified |
@@ -135,7 +135,7 @@ This repository documents the core statistical finding:
 | Finding | Value | Status |
 |---------|-------|--------|
 | Friction → Compliance correlation | r = +0.6196 at 2-week lag | ✅ Verified |
-| Statistical significance | p = 0.0004, n = 30 weeks | ✅ Verified |
+| Statistical significance | p = 0.0004, n = 28 | ✅ Verified |
 
 > **Note (v8.6):** This section previously presented a "Three-Layer Model" that included two external repositories (DOGE_Global_Effects, BRICS-NDB-LocalCurrency-DiD). Those external repositories contained Grok-fabricated data and have been retracted. The retracted references are preserved in [`Archive/Retracted_Three_Layer_References.md`](Archive/Retracted_Three_Layer_References.md) for transparency. See the [AI Fabrication Case Study](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md) for the full audit.
 
@@ -350,9 +350,20 @@ federal_register/                              # Automated scraping infrastructu
 
 ---
 
-## What's New (v9.8 - February 2026)
+## What's New (v9.9 - February 2026)
 
-### Dashboard Overhaul & Documentation Update
+### Statistical Alignment Audit
+
+February 21, 2026 — Comprehensive statistical alignment audit synchronizing all metrics across dashboard, README, and Report:
+
+- **n-count corrected** — Effective sample size for the 2-week lagged correlation is n = 28 (30 rows minus 2 for lag alignment). All references to "n = 30 weeks" alongside correlation statistics corrected to n = 28 across README.md, Report.md, and dashboard code. The dataset itself contains 30 weekly observations; n = 28 is the effective paired-observation count that produces r = 0.6196, p = 0.0004.
+- **Pearson r verified at 0.6196** — Recomputed from `master_reflexive_correlation_data.csv` using `scipy.stats.pearsonr`. Confirmed: r = 0.6196, p = 0.000437 at 2-week lag, n_eff = 28.
+- **Historical backfill verified** — 66 valid friction-compliance pairs confirmed in `historical_backfill_2017_2024.csv`.
+- **Negative windows verified** — 5 non-response events confirmed in `negative_windows.csv`.
+- **Dashboard constants synchronized** — `constants.py` CORE_N updated to effective n = 28. Hardcoded Key Statistics table in `app.py` corrected.
+- **Legacy figures (r = 0.6685, r = 0.5268)** — Confirmed as properly deprecated in v8.3–v8.4. No active references found outside the archived/deprecated notes.
+
+### Previous: v9.8 Highlights
 
 February 21, 2026 — Comprehensive dashboard overhaul adding 6 new content sections:
 
@@ -363,7 +374,7 @@ February 21, 2026 — Comprehensive dashboard overhaul adding 6 new content sect
 - **Convergence Model diagram** — ASCII box-drawing visualization of the calendar anchor → convergent clustering model with original vs. revised hypothesis comparison.
 - **December 2025 Case Study** — Collapsible expander documenting the Pincer Window (108 events in 12 days, 5 signal types on Dec 22). All facts verified against README.md, Report.md, and CRUCIAL_Synthesis_Dec19_Convergence.md.
 
-Repository structure updated to include `dashboard/` (6 files) and `federal_register/` (7 files) in the tree. Version bumped to v9.8 across all files.
+Repository structure updated to include `dashboard/` (6 files) and `federal_register/` (7 files) in the tree.
 
 ### Previous: v9.7 Highlights
 
@@ -642,4 +653,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 21, 2026 (v9.8) — Dashboard overhaul: Prediction Tracker tab, Key Statistics table, Robustness Tests summary, 3-audience navigation cards, Convergence Model diagram, December 2025 case study. Repository structure updated.
+**Last updated**: February 21, 2026 (v9.9) — Statistical alignment audit. Synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset; corrected all documentation to reflect effective paired-observation count.

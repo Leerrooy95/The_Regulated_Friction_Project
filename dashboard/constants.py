@@ -33,9 +33,9 @@ COLOR_EXPECTED_VARIANCE = "rgba(42, 157, 143, 0.12)"    # Faint teal — expecte
 # =========================================================================
 # Reference values verified by Run_Correlations_Yourself/run_original_analysis.py
 
-CORE_R               = 0.6196     # Pearson r at 2-week lag (30 obs)
+CORE_R               = 0.6196     # Pearson r at 2-week lag (n_eff = 28)
 CORE_P               = 0.0004     # Two-tailed p-value
-CORE_N               = 30         # Original weekly observations
+CORE_N               = 28         # Effective paired observations after 2-week lag (dataset has 30 rows)
 CORE_LAG_WEEKS       = 2          # Optimal lag in weeks
 BACKFILL_PAIRS       = 66         # Historical backfill event pairs (2017-2024)
 BACKFILL_MEDIAN_DAYS = 7          # Median lag in days across backfill
@@ -184,7 +184,7 @@ TAB_LABELS = [
 ]
 
 DATA_SOURCE_DESCRIPTIONS = [
-    "`master_reflexive_correlation_data.csv` (30 weekly obs)",
+    "`master_reflexive_correlation_data.csv` (30 rows, n=28 after lag)",
     "`historical_backfill_2017_2024.csv` (66 event pairs)",
     "`negative_windows.csv` (5 non-response windows)",
     "Federal Register EO spider output (JSON)",

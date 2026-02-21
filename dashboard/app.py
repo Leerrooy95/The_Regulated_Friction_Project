@@ -67,7 +67,7 @@ with st.sidebar:
     st.markdown("- `negative_windows.csv` (5 windows)")
     st.markdown("- Federal Register EO spider (JSON)")
     st.divider()
-    st.caption("v9.8 | February 2026")
+    st.caption("v9.9 | February 2026")
     st.caption(DISCLAIMER)
 
 # ── Compute statistics ───────────────────────────────────────────────────
@@ -127,7 +127,7 @@ with tab_home:
     with st.expander("**Key Findings (21 Verified)**", expanded=False):
         key_stats_data = [
             {"Finding": "Friction \u2192 Compliance correlation", "Value": "r = +0.6196 (2-week lag)", "Status": "\u2705 Verified"},
-            {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 30 weeks", "Status": "\u2705 Verified"},
+            {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 28", "Status": "\u2705 Verified"},
             {"Finding": "Ritual \u2192 Policy proximity", "Value": "50.7% vs. 19.9% baseline (2.5x)", "Status": "\u2705 Verified"},
             {"Finding": "Project Trident significance", "Value": "p = 0.002 (Mann-Whitney U)", "Status": "\u2705 Verified"},
             {"Finding": "Cross-validation (14-day periodicity)", "Value": "\u03c7\u00b2 = 330.62 (p < 0.0001, 2,102 events)", "Status": "\u2705 Verified"},

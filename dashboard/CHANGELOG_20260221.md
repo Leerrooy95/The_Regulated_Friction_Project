@@ -1,5 +1,28 @@
 # Dashboard Changelog — 2026-02-21
 
+---
+
+# v9.9 — Statistical Alignment Audit (2026-02-21)
+
+## Summary
+
+Comprehensive statistical alignment audit synchronizing all metrics across dashboard code, README.md, and Report.md.
+
+### Changes
+
+- **`constants.py`**: `CORE_N` updated from 30 to 28 (effective paired observations after 2-week lag). Comment clarified.
+- **`constants.py`**: `DATA_SOURCE_DESCRIPTIONS` updated to note "30 rows, n=28 after lag".
+- **`app.py`**: Key Statistics table entry corrected from "n = 30 weeks" to "n = 28".
+- **`app.py`**: Sidebar version bumped from v9.8 to v9.9.
+
+### Rationale
+
+The master dataset (`master_reflexive_correlation_data.csv`) contains 30 rows. The Pearson correlation at 2-week lag uses n_eff = 28 (30 minus 2 for lag alignment). The p-value of 0.0004 corresponds to n = 28. Documentation previously reported "n = 30 weeks" alongside r = 0.6196 and p = 0.0004, which was inconsistent with the dashboard's dynamically computed `n_eff = 28`. All references now synchronized.
+
+---
+
+# v9.8 — Dashboard Overhaul (2026-02-21)
+
 ## Summary
 
 Three HIGH priority additions implemented based on comprehensive dashboard audit.
