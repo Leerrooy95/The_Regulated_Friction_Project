@@ -103,3 +103,93 @@ Home | Statistical Overview | Time Series & Scatter | Lag Distribution | Raw Dat
 - Color scheme unchanged (Red/Steel Blue/Teal/Navy)
 - Reproducibility links preserved
 - Sidebar controls unchanged
+
+---
+
+# P2 Visual/UX Improvements — 2026-02-21 (Session 2)
+
+## Summary
+
+Three P2 additions to the Home tab: audience navigation cards, convergence
+model diagram, and December 2025 case study. All facts verified against
+README.md, Report.md, and CRUCIAL_Synthesis_Dec19_Convergence.md.
+
+---
+
+## Task 4: Add 3-Audience Navigation Cards
+
+**Commit:** `72a4480` — "Add 3-audience navigation cards to Home tab"
+
+**What was added:**
+- Three styled cards using custom CSS (bordered, tinted backgrounds)
+- **Researchers:** Links to Statistical Overview, `Run_Correlations_Yourself/`, 16 robustness scripts
+- **Journalists & Policymakers:** Links to Prediction Tracker, policy brief, Key Findings
+- **Skeptics:** Links to Robustness Tests, `Alternate_Mechanisms.md`, clone instructions
+- Uses existing color scheme (#457B9D borders, #F1FAEE backgrounds, #1D3557 headers)
+
+---
+
+## Task 5: Add Convergence Model Diagram
+
+**Included in commit:** `72a4480`
+
+**What was added:**
+- "The Convergence Model" subheader replacing former "Framework Overview"
+- Explanatory text about convergent clustering vs sequential causation
+- ASCII box-drawing diagram showing Calendar Anchor → Friction/Policy/Financial → Convergent Clustering
+- Side-by-side comparison: Original hypothesis (sequential) vs. Revised finding (convergence)
+- Sources: README.md lines 93-111 (The Convergence Model section)
+
+---
+
+## Task 6: Add December 2025 Case Study Expander
+
+**Included in commit:** `72a4480`
+
+**What was added:**
+- Collapsible `st.expander` titled "Case Study: December 19-23, 2025 — The Pincer Window"
+- Event count table (verified against Report.md lines 105-125):
+  - Dec 19: 1 friction, 5 compliance (Epstein Library release)
+  - Dec 22: 6 friction, 13 compliance (peak convergence — 19 total)
+  - Dec 23: 8 friction, 9 compliance (redaction failures)
+  - Dec 24: 2 friction, 3 compliance (DOJ finds 1M more pages)
+- Five signal types on Dec 22 (verified against README.md lines 115-127 and Report.md lines 116-121):
+  1. Friction: Epstein redaction failures (NYT)
+  2. Geopolitics: China EU dairy tariffs (42.7%)
+  3. Financial: BlackRock Bitcoin ETF "top 2025 theme"
+  4. Policy: Travel ban expansion, DOGE year-end analysis
+  5. Cyber/Intel: CRINK nation-state threat analysis
+- Closing caption linking to robustness test (Dec 2025 exclusion still yields rho = 0.60)
+- "108 events in 12 days" claim sourced from README.md Key Statistics (line 74)
+
+---
+
+## Fact Verification Sources
+
+All December 2025 claims verified against:
+- `README.md` lines 74-75 (Key Statistics), 113-127 (Pincer Window table)
+- `Report.md` lines 105-125 (December 2025 Case Study with daily counts)
+- `14_Files/CRUCIAL_Synthesis_Dec19_Convergence.md` (multi-signal analysis)
+- `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/cross_validation_dec2025.py` (exclusion test)
+
+---
+
+## Updated File Stats
+
+| File | Total Lines | Session 2 Change |
+|------|-------------|-------------------|
+| `dashboard/app.py` | 800 | +127 lines (net) |
+| `dashboard/CHANGELOG_20260221.md` | updated | +80 lines |
+
+## Home Tab Structure (Final)
+
+```
+1. Header + description
+2. Metric cards (r, p, response rate, backfill pairs)
+3. Key Statistics expander (21 findings)
+4. Navigate by Role (3 audience cards)   ← NEW
+5. The Convergence Model (diagram)       ← NEW
+6. Dec 2025 Case Study (expander)        ← NEW
+7. Reproducibility + source links
+8. Verification caption + info box
+```
