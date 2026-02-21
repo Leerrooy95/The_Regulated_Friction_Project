@@ -105,7 +105,7 @@ public reporting.
 
 ### The Lead
 
-Sultan Ahmed bin Sulayem, chairman and CEO of DP World, is not formally on the Board of
+Sultan Ahmed bin Sulayem, former chairman and CEO of DP World (resigned Feb 13, 2026), is not formally on the Board of
 Peace but is alleged to be the likely logistics partner for the "New Gaza" port.
 A separate claim alleged that the "Sultan" mentioned in DOJ Epstein files is Bin Sulayem.
 

@@ -62,7 +62,7 @@ The Department of Justice released over 3 million pages of documents related to 
 
 | Detail | Documentation |
 |--------|---------------|
-| Position | DP World Group Chairman & CEO (resigned Feb 13, 2026); operates ports in 75+ countries |
+| Position | Former DP World Group Chairman & CEO (resigned Feb 13, 2026); DP World operates ports in 75+ countries |
 | Epstein Emails | Correspondence between 2007-2018, released by DOJ |
 | May 29, 2015 | Sulayem asked Epstein to connect him with Musk for Tesla battery discussion |
 | 2017 | Musk and Sulayem led Dubai discussion about Tesla batteries for renewable energy at global ports |
