@@ -194,6 +194,7 @@ with tab_home:
     # ── 3-Audience Navigation Cards (Responsive CSS Grid) ──
     st.subheader("Navigate by Role")
 
+    # CSS for role cards
     st.markdown(
         """
         <style>
@@ -253,11 +254,12 @@ with tab_home:
             font-weight: bold;
         }
         
-        .role-card code {
+        .role-card .code-text {
             background-color: var(--secondary-background-color);
             padding: 0.15rem 0.4rem;
             border-radius: 0.25rem;
             font-size: 0.85em;
+            font-family: monospace;
             color: var(--text-color);
         }
         
@@ -266,35 +268,39 @@ with tab_home:
             font-weight: 600;
         }
         </style>
-        
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Role cards HTML content (separate call to avoid parsing issues)
+    st.markdown(
+        """
         <div class="role-cards-container">
             <div class="role-card">
                 <h3>🔬 For Researchers</h3>
                 <div class="subtitle">(Statistical methodology, robustness tests, raw datasets)</div>
                 <ul>
                     <li><strong>Statistical Overview</strong> tab — lag sweep, regression, CI</li>
-                    <li><code>Run_Correlations_Yourself/</code> — reproduce r = 0.6196</li>
-                    <li><code>Statistical_Tests/</code> — 16 robustness scripts</li>
+                    <li><span class="code-text">Run_Correlations_Yourself/</span> — reproduce r = 0.6196</li>
+                    <li><span class="code-text">Statistical_Tests/</span> — 16 robustness scripts</li>
                 </ul>
             </div>
-            
             <div class="role-card">
                 <h3>🏛️ For Policymakers</h3>
                 <div class="subtitle">(Key findings, case studies, policy implications)</div>
                 <ul>
                     <li><strong>Prediction Tracker</strong> tab — 25 falsifiable predictions</li>
-                    <li><code>How_This_Happened—A_Policy_Brief.md</code></li>
+                    <li><span class="code-text">How_This_Happened-A_Policy_Brief.md</span></li>
                     <li><strong>Key Findings</strong> table above — 21 verified results</li>
                 </ul>
             </div>
-            
             <div class="role-card">
                 <h3>🕵️ For Skeptics</h3>
                 <div class="subtitle">(Verify it yourself — limitations, alternative explanations)</div>
                 <ul>
                     <li><strong>Robustness Tests</strong> in Statistical Overview</li>
-                    <li><code>Alternate_Mechanisms.md</code> — competing hypotheses</li>
-                    <li><code>git clone</code> + <code>pip install</code> + <code>python run_original_analysis.py</code></li>
+                    <li><span class="code-text">Alternate_Mechanisms.md</span> — competing hypotheses</li>
+                    <li><span class="code-text">git clone</span> + <span class="code-text">pip install</span> + <span class="code-text">python run_original_analysis.py</span></li>
                 </ul>
             </div>
         </div>
@@ -314,25 +320,59 @@ with tab_home:
         "required. This explains why the pattern is robust across 8 years of data."
     )
 
-    st.code(
-        "         ┌───────────────────────────────────────┐\n"
-        "         │        CALENDAR ANCHOR                │\n"
-        "         │  (Solstice, Holiday, Fiscal Deadline) │\n"
-        "         └──────────────────┬────────────────────┘\n"
-        "                            │\n"
-        "            ┌───────────────┼───────────────┐\n"
-        "            ▼               ▼               ▼\n"
-        "       ┌─────────┐    ┌──────────┐    ┌──────────┐\n"
-        "       │Friction │    │  Policy  │    │Financial │\n"
-        "       │ Events  │    │  Shifts  │    │  Moves   │\n"
-        "       └────┬────┘    └────┬─────┘    └────┬─────┘\n"
-        "            │              │               │\n"
-        "            └──────────────┼───────────────┘\n"
-        "                           ▼\n"
-        "                 CONVERGENT CLUSTERING\n"
-        "               (r = 0.6196, 2-week lag)",
-        language="text"
+    # Convergence Model CSS 
+    st.markdown(
+        """
+        <style>
+        .convergence-diagram {
+            background: linear-gradient(135deg, var(--secondary-background-color) 0%, var(--background-color) 100%);
+            border: 1px solid var(--secondary-background-color);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            font-family: 'Courier New', Consolas, monospace;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            white-space: pre;
+            overflow-x: auto;
+            color: var(--text-color);
+            text-align: center;
+        }
+        .convergence-diagram .highlight {
+            color: #E63946;
+            font-weight: bold;
+        }
+        .convergence-diagram .anchor {
+            color: #457B9D;
+            font-weight: bold;
+        }
+        .convergence-diagram .result {
+            color: #2A9D8F;
+            font-weight: bold;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
     )
+    
+    # Convergence Model Diagram content (separate call)
+    diagram_html = """<div class="convergence-diagram">         ┌───────────────────────────────────────┐
+         │        <span class="anchor">CALENDAR ANCHOR</span>                │
+         │  (Solstice, Holiday, Fiscal Deadline) │
+         └──────────────────┬────────────────────┘
+                            │
+            ┌───────────────┼───────────────┐
+            ▼               ▼               ▼
+       ┌─────────┐    ┌──────────┐    ┌──────────┐
+       │<span class="highlight">Friction</span> │    │  <span class="highlight">Policy</span>  │    │<span class="highlight">Financial</span> │
+       │ Events  │    │  Shifts  │    │  Moves   │
+       └────┬────┘    └────┬─────┘    └────┬─────┘
+            │              │               │
+            └──────────────┼───────────────┘
+                           ▼
+                 <span class="result">CONVERGENT CLUSTERING</span>
+               (r = 0.6196, 2-week lag)</div>"""
+    st.markdown(diagram_html, unsafe_allow_html=True)
 
     model_c1, model_c2 = st.columns(2)
     model_c1.markdown(
