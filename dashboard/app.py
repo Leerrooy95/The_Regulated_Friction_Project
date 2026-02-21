@@ -202,6 +202,29 @@ with tab_home:
 with tab_overview:
     st.header("Statistical Overview")
 
+    # ── Robustness Tests ──
+    st.subheader("Robustness Tests")
+
+    robustness_data = [
+        {"Test": "Permutation (30-row, 1K shuffles)", "Result": "r = 0.62, p < 0.001", "Status": "\u2705 Pass"},
+        {"Test": "Permutation (multi-dataset, 10K shuffles)", "Result": "\u03c1 = 0.61, p < 0.0001", "Status": "\u2705 Pass"},
+        {"Test": "Granger causality (lag 1)", "Result": "p = 0.0008", "Status": "\u2705 Pass"},
+        {"Test": "Granger causality (lag 2)", "Result": "p = 0.027", "Status": "\u2705 Pass"},
+        {"Test": "Block bootstrap (autocorrelation-adjusted)", "Result": "p = 0.008", "Status": "\u2705 Pass"},
+        {"Test": "Dec 2025 exclusion", "Result": "\u03c1 = 0.60, p < 0.0001", "Status": "\u2705 Signal survives"},
+    ]
+
+    robustness_df = pd.DataFrame(robustness_data)
+    st.dataframe(robustness_df, use_container_width=True, hide_index=True)
+
+    st.caption(
+        "The core correlation (r = 0.6196) survives multiple robustness tests including "
+        "permutation shuffling, Granger causality, and removal of the December 2025 "
+        "anomaly window. Full scripts: Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/"
+    )
+
+    st.divider()
+
     # Metric row 1
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Pearson r (lag)", f"{r:.4f}", help=f"{selected_lag}-week lag, core dataset")
