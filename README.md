@@ -16,6 +16,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [Quick Summary](#quick-summary)
 - [Understanding the Statistics](#understanding-the-statistics)
 - [Key Statistics](#key-statistics)
+- [Recent Framework Validation](#recent-framework-validation-february-2026)
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
@@ -89,6 +90,21 @@ This research uses Pearson correlation (r) to measure relationships between even
 | Board of Peace inaugural summit | ~50 countries, $7B pledged (9 countries), $10B US pledge, 10% of $70B need | ✅ Confirmed (Feb 19, 2026) |
 | Historical backfill (2017-2024) | 66 friction→compliance pairs across 8 years; median lag +7 days; 5 negative windows; 10/10 claims verified | ✅ Verified (Feb 19, 2026) |
 | Backfill correlation impact | Δr = +0.0012 (Pearson), Δρ = +0.0023 (Spearman) — negligible; r = 0.6196 baseline unaffected | ✅ Verified (Feb 19, 2026) |
+
+---
+
+## Recent Framework Validation (February 2026)
+
+Multiple high-profile figures have made statements directly validating framework mechanics:
+
+| Who | What They Said | What It Validates |
+|-----|---------------|-------------------|
+| **Barack Obama** | "It is true that it gets attention. It's true that it's a distraction." | Friction events as attention capture |
+| **Thomas Massie (R-KY)** | "They've deployed the ultimate weapon of mass distraction, but the Epstein files aren't going away… even for aliens." | Distraction deployment timing |
+| **Lara Trump** | Trump has UFO speech ready for "the right time" | Pre-staged distraction content |
+| **Sarah Huckabee Sanders** | Supreme Court ruling "doesn't matter... he has so many tools in his toolbox" | Executive Firewall / institutional bypass |
+
+See [`_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md) for full sourcing.
 
 ---
 
