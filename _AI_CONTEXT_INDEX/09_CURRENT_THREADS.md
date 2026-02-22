@@ -31,7 +31,7 @@
 | Detail | Information |
 |--------|-------------|
 | Status | Sacked as US Ambassador designate |
-| Criminal | Metropolitan Police investigating misconduct |
+| Criminal Investigation | Metropolitan Police investigating misconduct |
 | Parliamentary | Unanimous vote to disclose vetting documents |
 | Connection | Palantir-Epstein-Thiel triangle documented |
 

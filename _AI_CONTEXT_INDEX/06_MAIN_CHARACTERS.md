@@ -12,7 +12,7 @@
 | Patel controls Epstein file release mechanics | ✅ VERIFIED | FBI/DOJ structure |
 | Hegseth's "Dept of War" rebrand: $2B estimated cost | ✅ VERIFIED | NBC News |
 | Bongino resigned precisely around Dec 19 deadline | ✅ VERIFIED | NPR, CNN |
-| Noem's DHS ad campaign: $200M budget | ✅ VERIFIED | DHS.gov |
+| Noem's DHS ad campaign: $220M budget | ✅ VERIFIED | DHS.gov |
 
 ---
 
