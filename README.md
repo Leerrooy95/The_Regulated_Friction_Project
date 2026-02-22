@@ -6,6 +6,8 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 **New to this project?** See [Glossary.md](14_Files/Glossary.md)
 
+**AI Assistant?** See [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) — Quick reference files for AI models to understand this repository
+
 **In a rush?** See [consolidation_pattern_significance.md](Project_Trident/Copilot_Opus_4.6_Analysis/Consolidation_Analysis/consolidation_pattern_significance.md)
 
 ---
