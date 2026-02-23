@@ -1074,8 +1074,6 @@ This research documents fifteen connected patterns:
 
 **The actor network synthesis (Feb 21, 2026):** Repository-wide audit mapped 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) across Tech/AI, Diplomacy, Defense, Finance, and Media domains. Three verified capital pipelines documented. 7 timeline discrepancies identified for correction.
 
-**The evangelical network analysis (Feb 21, 2026):** Three evangelical channels mapped (Russia/WCF-Graham, Gulf/Rosenberg-MBS, Israel/CUFI). Channels are PARALLEL but SEPARATE — no personnel overlap, divergent framing. WCF↔Russian Orthodox = strong synchronization. Sanctions ineffective against narrative operations (Malofeev, Yakunin). Malofeev node Russia-specific, no Gulf connection.
-
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
 The data is public. The code is public. The claims are reproducible and sourced.
@@ -1096,4 +1094,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 23, 2026 (v10.0). Total Actor and Timeline Synthesis, Evangelical Network Analysis. Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated February 23, 2026 (v10.0). Total Actor and Timeline Synthesis. Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

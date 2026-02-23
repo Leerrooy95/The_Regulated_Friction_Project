@@ -12,7 +12,28 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 ---
 
+## AI Context Index Overview
+
+The `_AI_CONTEXT_INDEX/` directory provides structured context files for AI assistants and researchers:
+
+| File | Content |
+|------|---------|
+| `00_START_HERE.md` | Navigation guide and repository overview |
+| `01_CORE_THEORY.md` | Thermostat model, 14-day lag, convergence pattern |
+| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
+| `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff |
+| `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, Silicon Sovereignty |
+| `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |
+| `06_MAIN_CHARACTERS.md` | Patel, Hegseth, Noem as noise generators |
+| `07_METHODOLOGY.md` | Correlation methodology, verification standards |
+| `08_KEY_DATASETS.md` | CSV schemas and data file reference |
+| `09_CURRENT_THREADS.md` | Active research questions |
+| `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
+
+---
+
 ## Table of Contents
+- [AI Context Index Overview](#ai-context-index-overview)
 - [Quick Summary](#quick-summary)
 - [Understanding the Statistics](#understanding-the-statistics)
 - [Key Statistics](#key-statistics)
@@ -376,7 +397,6 @@ February 21, 2026 — Comprehensive repository-wide qualitative audit spanning 1
 
 - **Actor Network Map** — 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) mapped across 5 domains (Tech/AI, Diplomacy, Defense, Finance, Media). 6 Tier 2 entities added (Palantir, SoftBank, Mubadala, xAI/Musk, G42, Palo Alto/CyberArk).
 - **Capital Flow Architecture** — 3 verified pipelines documented: Territory (PIF→Affinity→Phoenix→settlements), Credit (Apollo $938B AUM→BoP→QXO), Information (Mubadala→Silver Lake→1789 Capital→TCN/Anduril).
-- **Evangelical Network Analysis** — 3 evangelical channels mapped (Russia/WCF-Graham, Gulf/Rosenberg, Israel/CUFI). Channels PARALLEL but SEPARATE (no personnel overlap). Malofeev node Russia-specific. Sanctions ineffective against narrative operations.
 - **Timeline Discrepancies** — 7 identified and documented for correction (Tu BiShvat date, Sep 26/28 conflation, Dec 18/19 Oracle-TikTok, others).
 - **Statistical Integrity Assessment** — 9 valid statistics confirmed, 5 retracted/deprecated statistics cataloged.
 
@@ -664,4 +684,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 23, 2026 (v10.0) — Total Actor and Timeline Synthesis, Evangelical Network Analysis, statistical alignment audit synchronized, n-count corrected to n = 28 effective.
+**Last updated**: February 23, 2026 (v10.0) — Total Actor and Timeline Synthesis, statistical alignment audit synchronized, n-count corrected to n = 28 effective.
