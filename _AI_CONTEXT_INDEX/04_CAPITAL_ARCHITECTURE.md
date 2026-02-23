@@ -200,39 +200,52 @@ While information leverage (Track A) consumes public attention through high-visi
 |--------|-------------|
 | Initial investment | $6B |
 | Full buildout | $21B |
-| Location | Arkansas |
+| Location | Pulaski County, Arkansas (760-acre site near Little Rock) |
+| Announcement | January 12, 2026 |
 | Backer | Undisclosed "$25 billion investment manager" ([Inference] 5 years anonymity maintained per Arkansas PSC filings) |
-| Political alignment | Tom Cotton (R-AR) constituency |
+| Political alignment | Gov. Sarah Huckabee Sanders (R-AR), Sen. Tom Cotton (R-AR) |
 | Regulatory framework | Acts 373 and 548 (see Arkansas Regulatory Loop above) |
+| Power | Entergy Arkansas contracted for 150 MW initial, up to 1 GW at full buildout |
+| Timeline | Q1 2026 construction start, June 2027 first phase completion |
 
-**Status**: ⚠️ MONITORING — Investor identity remains undisclosed despite multi-billion commitment.
+**Status**: ⚠️ MONITORING — Investor identity remains undisclosed despite multi-billion commitment. Sanders called it "the largest economic investment in Arkansas' history."
+
+**Source**: AVAIO Digital press release (Jan 12, 2026); Arkansas Democrat-Gazette; Construction Dive
 
 ### DATA Act of 2026
 
 | Component | Detail |
 |-----------|--------|
-| Full name | Data Availability Through Accessible Energy Act of 2026 |
-| Key provision | Creates Compute Resource Exempt Utility (CREU) designation |
-| CREU exemption | Data centers designated as CREUs exempt from FERC jurisdiction |
+| Full name | Decentralized Access to Technology Alternatives Act of 2026 |
+| Sponsor | Sen. Tom Cotton (R-AR) |
+| Introduced | January 8, 2026 |
+| Key provision | Creates Consumer-Regulated Electric Utility (CREU) designation |
+| CREU exemption | Off-grid power systems exempt from FERC jurisdiction, Federal Power Act, PURPA, and PUHCA |
+| Condition | System must be fully isolated ("islanded") from the grid |
 | Impact | [Inference] Bypasses federal energy oversight for designated facilities |
-| Beneficiaries | Large-scale data center operators with sufficient capital |
+| Beneficiaries | Large-scale data center operators with sufficient capital to build independent power infrastructure |
+
+**Source**: Utility Dive (Jan 12, 2026); Data Center Dynamics (Jan 13, 2026); Reason (Jan 12, 2026)
 
 ### CREU Exemption Structure
 
 [Inference] The CREU designation creates a regulatory carve-out where:
-1. Qualifying data centers receive utility-level infrastructure access
-2. FERC oversight is bypassed through state-level designation
-3. Acts 373/548 (Arkansas) provide complementary tax exemption
-4. Combined structure enables foreign capital to build domestic infrastructure with reduced regulatory scrutiny
+1. Qualifying data centers build independent power generation (natural gas, solar, etc.)
+2. FERC oversight is bypassed as long as the system remains "islanded" from the grid
+3. No rate hearings, no transmission planning, no cost allocation requirements
+4. Acts 373/548 (Arkansas) provide complementary tax exemption at state level
+5. Combined structure enables capital-intensive operators to build domestic infrastructure with reduced regulatory scrutiny
+
+**Key Quote** (Travis Fisher, Cato Institute): "The rapid pace of innovation means the AI revolution won't wait for multi-year permitting fights, cost-of-service hearings held by regulators, or planning processes built for the analog era."
 
 ### Thermostat Function
 
 [Inference] Gulf SWFs serve as friction regulators:
-- **Too much friction** → Infrastructure investments at risk
-- **Too little friction** → Narrative utility of distraction reduced
+- **Too much friction** → Infrastructure investments at risk (war, sanctions, instability)
+- **Too little friction** → Narrative utility of distraction reduced (public scrutiny returns to structural changes)
 - **Optimal friction** → Maintains attention management while protecting capital positions
 
-This explains positioning in both: (1) friction-adjacent investments (media, narrative) and (2) long-term infrastructure (data centers, energy, compute).
+This explains positioning in both: (1) friction-adjacent investments (media, narrative infrastructure) and (2) long-term infrastructure (data centers, energy, compute).
 
 ### Cross-References
 
@@ -272,6 +285,8 @@ This explains positioning in both: (1) friction-adjacent investments (media, nar
 | TikTok US users | 200M+ |
 | Saudi PIF gaming acquisitions | $10B+ |
 | Grok federal pricing | $0.42/agency |
+| AVAIO Arkansas | $6B initial / $21B full buildout |
+| DATA Act sponsor | Sen. Tom Cotton (R-AR) |
 
 ---
 
