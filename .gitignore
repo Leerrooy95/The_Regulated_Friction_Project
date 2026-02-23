@@ -8,3 +8,7 @@ build/
 .eggs/
 .scrapy/
 .env
+
+# Log files
+*.log
+/var/log/

@@ -1,0 +1,108 @@
+# ============================================================================
+# The Regulated Friction Project - Crontab Configuration
+# ============================================================================
+#
+# INSTRUCTIONS:
+# 1. Update the variables below with your actual paths and URLs
+# 2. Copy the cron schedule section to your crontab: crontab -e
+# 3. Monitor logs to verify everything works
+#
+# ============================================================================
+
+# ── REQUIRED CONFIGURATION (UPDATE THESE!) ──────────────────────────────────
+
+# Full path to your repository on the Droplet
+# Example: REPO_DIR=/home/johndoe/The_Regulated_Friction_Project
+REPO_DIR=<UPDATE_THIS_PATH>
+
+# Your Streamlit dashboard URL (find at https://share.streamlit.io/)
+# Example: DASHBOARD_URL=https://my-friction-dashboard.streamlit.app
+DASHBOARD_URL=<UPDATE_THIS_URL>
+
+# ── OPTIONAL CONFIGURATION ──────────────────────────────────────────────────
+
+# Shell and PATH
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Python executable (verify with: which python3)
+PYTHON=/usr/bin/python3
+
+# Email for cron failure notifications (optional - comment out to disable)
+# MAILTO=your-email@example.com
+
+# ── CRON SCHEDULE ───────────────────────────────────────────────────────────
+# Format: minute hour day month weekday command
+#
+# Examples:
+#   0 2 * * *     = Every day at 2:00 AM
+#   */6 * * * *   = Every 6 hours
+#   0 9 */6 * *   = Every 6 days at 9:00 AM
+# ============================================================================
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ DAILY SPIDER RUN - Federal Register Executive Orders                    │
+# ├─────────────────────────────────────────────────────────────────────────┤
+# │ Scrapes the last 7 days of Executive Orders, Proclamations, and Notices │
+# │ Saves output to: federal_register/Spider Output Files/                  │
+# │ Default: 2:00 AM UTC daily                                              │
+# └─────────────────────────────────────────────────────────────────────────┘
+0 2 * * * cd $REPO_DIR && $PYTHON -m scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json" >> /var/log/spider_run.log 2>&1
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ PUSH DATA TO GITHUB                                                     │
+# ├─────────────────────────────────────────────────────────────────────────┤
+# │ Commits and pushes spider output to GitHub repository                   │
+# │ Default: 2:15 AM UTC daily (15 min after spider completes)              │
+# └─────────────────────────────────────────────────────────────────────────┘
+15 2 * * * $REPO_DIR/push_spider_data.sh
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ KEEP STREAMLIT DASHBOARD AWAKE                                          │
+# ├─────────────────────────────────────────────────────────────────────────┤
+# │ Pings dashboard to prevent it from sleeping after 7 days of inactivity  │
+# │ Default: 9:00 AM UTC every 6 days                                       │
+# └─────────────────────────────────────────────────────────────────────────┘
+0 9 */6 * * /usr/bin/curl -s -o /dev/null -w "%{http_code}\n" "$DASHBOARD_URL" >> /var/log/dashboard_ping.log 2>&1
+
+# ============================================================================
+# ALTERNATIVE SCHEDULES (commented out - uncomment to use)
+# ============================================================================
+
+# ── Run spider every 6 hours ────────────────────────────────────────────────
+# 0 */6 * * * cd $REPO_DIR && $PYTHON -m scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json" >> /var/log/spider_run.log 2>&1
+# 15 */6 * * * $REPO_DIR/push_spider_data.sh
+
+# ── Run spider at 6 AM EST (11 AM UTC) ──────────────────────────────────────
+# 0 11 * * * cd $REPO_DIR && $PYTHON -m scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json" >> /var/log/spider_run.log 2>&1
+# 15 11 * * * $REPO_DIR/push_spider_data.sh
+
+# ── Ping dashboard more frequently (every 3 days) ───────────────────────────
+# 0 9 */3 * * /usr/bin/curl -s -o /dev/null -w "%{http_code}\n" "$DASHBOARD_URL" >> /var/log/dashboard_ping.log 2>&1
+
+# ── Run multiple spiders in sequence ────────────────────────────────────────
+# If you have multiple spiders, run them with delays:
+# 0 2 * * * cd $REPO_DIR && $PYTHON -m scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json" >> /var/log/spider_run.log 2>&1
+# 10 2 * * * cd $REPO_DIR && $PYTHON -m scrapy crawl doj_press_releases -o "federal_register/Spider Output Files/items_doj_press_releases.json" >> /var/log/spider_run.log 2>&1
+# 20 2 * * * $REPO_DIR/push_spider_data.sh
+
+# ============================================================================
+# LOG MONITORING COMMANDS
+# ============================================================================
+#
+# Monitor spider runs:
+#   tail -f /var/log/spider_run.log
+#
+# Monitor data pushes:
+#   tail -f /var/log/spider_push.log
+#
+# Monitor dashboard pings:
+#   tail -f /var/log/dashboard_ping.log
+#
+# View all cron jobs:
+#   crontab -l
+#
+# Check cron execution (Ubuntu/Debian):
+#   grep CRON /var/log/syslog
+#
+# ============================================================================

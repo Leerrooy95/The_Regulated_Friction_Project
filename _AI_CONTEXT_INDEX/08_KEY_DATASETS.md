@@ -4,6 +4,27 @@
 
 ---
 
+## Data Pipeline Architecture
+
+### Live Data Sources
+The Streamlit dashboard loads data from the following locations:
+- `Control_Proof/master_reflexive_correlation_data.csv` - Core 30-week friction/compliance index
+- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` - 66 historical event pairs
+- `Run_Correlations_Yourself/negative_windows.csv` - 5 non-response windows
+- `federal_register/Spider Output Files/items_federal_register_eo_1.json` - Live EO data from spider
+- `output/*_extracted.json` - Latest LLM intelligence extractions
+
+### Data Update Flow
+1. **DigitalOcean Droplet** runs Scrapy spiders daily (cron scheduled)
+2. Spider saves JSON output to `federal_register/Spider Output Files/`
+3. Push script commits and pushes data to GitHub
+4. **Streamlit Community Cloud** pulls from GitHub and caches data (1-hour TTL)
+
+### Cache Configuration
+All data loaders use `@st.cache_data(ttl=3600)` (1-hour cache) to balance performance and freshness.
+
+---
+
 ## Primary Analysis Datasets
 
 ### Epstein Files Timeline

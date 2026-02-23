@@ -145,7 +145,7 @@ def _parse_lag(val) -> int | float:
 # =========================================================================
 #  LOADER 1A: Core 30-Week Dataset
 # =========================================================================
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_core_dataset() -> pd.DataFrame | None:
     """Load and validate the 30-observation friction/compliance index dataset.
 
@@ -203,7 +203,7 @@ def load_core_dataset() -> pd.DataFrame | None:
 # =========================================================================
 #  LOADER 1B: Historical Backfill (2017-2024)
 # =========================================================================
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_backfill() -> pd.DataFrame | None:
     """Load and validate the 66-pair historical backfill dataset.
 
@@ -249,7 +249,7 @@ def load_backfill() -> pd.DataFrame | None:
 # =========================================================================
 #  LOADER 1C: Negative Windows (5 Non-Response Events)
 # =========================================================================
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_negative_windows() -> pd.DataFrame | None:
     """Load and validate the 5 negative-window events.
 
@@ -295,7 +295,7 @@ def load_negative_windows() -> pd.DataFrame | None:
 # =========================================================================
 #  LOADER 1D: Federal Register EO Spider Output (JSON)
 # =========================================================================
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_eo_spider() -> pd.DataFrame | None:
     """Load Executive Orders from the Zyte/Scrapy spider JSON output.
 
