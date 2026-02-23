@@ -192,7 +192,7 @@ While information leverage (Track A) consumes public attention through high-visi
 | **QIA** (Qatar) | ~$500B | Global diversification, US real estate |
 | **KIA** (Kuwait) | ~$900B | Conservative allocation, US equities |
 
-**Combined Leverage**: ~$4.9T AUM positions Gulf states as critical capital providers, creating structural dependencies that influence policy outcomes.
+**Combined Leverage**: ~$4.9T AUM positions Gulf states as critical capital providers. [Inference] This scale creates structural dependencies that influence policy outcomes.
 
 ### AVAIO Arkansas Campus
 
@@ -201,7 +201,7 @@ While information leverage (Track A) consumes public attention through high-visi
 | Initial investment | $6B |
 | Full buildout | $21B |
 | Location | Arkansas |
-| Backer | Undisclosed "$25 billion investment manager" (5 years anonymity maintained) |
+| Backer | Undisclosed "$25 billion investment manager" ([Inference] 5 years anonymity maintained per Arkansas PSC filings) |
 | Political alignment | Tom Cotton (R-AR) constituency |
 | Regulatory framework | Acts 373 and 548 (see Arkansas Regulatory Loop above) |
 

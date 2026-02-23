@@ -25,7 +25,7 @@
 | Detail | Status (Feb 2026) |
 |--------|-------------------|
 | Leverage type | Information leverage (cyber) + kinetic deterrent (nuclear threshold) |
-| Cyber holdings | [Inference] IRGC holds ~100GB Trump inner circle emails ("Robert" operation, 2024 campaign targeting) |
+| Cyber holdings | [Inference] IRGC holds ~100GB Trump inner circle emails ("Robert" operation, 2024 campaign targeting; per ODNI briefing 2024) |
 | Additional cyber | Handala hacking group targeting Israeli officials (Ehud Barak hack, October 2024) |
 | Nuclear status | Nuclear threshold capacity maintained as kinetic deterrent |
 | Strategic function | Dual-track leverage: information for diplomatic compliance, nuclear for existential deterrent |
