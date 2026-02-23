@@ -134,16 +134,17 @@ High-visibility "scandals" and media friction are not merely smokescreens or noi
 
 | Date | Source | Statement | Interpretation |
 |------|--------|-----------|----------------|
-| Feb 15, 2026 | Barack Obama | Called current events a "distraction" | Acknowledges friction as attention-management mechanism |
-| Feb 19, 2026 | Rep. Thomas Massie (R-KY) | Posted "weapon of mass distraction" | Congressional recognition of dual-track dynamics |
-| Feb 21, 2026 | Sen. Bernie Sanders (I-VT) | Stated it "doesn't matter" | Suggests awareness of structural reality beneath surface events |
+| Feb 15, 2026 | Barack Obama (Brian Tyler Cohen podcast) | "It is true that it gets attention. It's true that it's a distraction." | Former president explicitly identifies friction events as attention-capturing distractions |
+| Feb 19, 2026 | Rep. Thomas Massie (R-KY) (@RepThomasMassie on X) | "They've deployed the ultimate weapon of mass distraction, but the Epstein files aren't going away… even for aliens." | Congressional recognition of dual-track dynamics; uses military terminology |
+| Feb 21, 2026 | Gov. Sarah Huckabee Sanders (R-AR) (NewsNation interview) | "But ultimately, I don't think it matters... He has so many tools in his toolbox." (re: Supreme Court 6-3 tariff ruling) | Governor explicitly states institutional check "doesn't matter"; confirms Executive Firewall concept |
 
-**Key Insight**: Multiple figures across political spectrum independently identifying the same structural pattern—friction events serving to redirect attention while substantive changes occur elsewhere.
+**Key Insight**: Multiple figures across political spectrum independently identifying the same structural pattern—friction events serving to redirect attention while substantive changes occur elsewhere. Bipartisan recognition (Obama-D, Massie-R, Sanders-R) strengthens the observation.
 
 ### Cross-Reference
 
 - **For detailed capital infrastructure (Track B)**: `04_CAPITAL_ARCHITECTURE.md`
 - **For active leverage nodes**: `09_CURRENT_THREADS.md`
+- **For full validation documentation**: `10_FRAMEWORK_VALIDATION.md`
 
 ---
 
