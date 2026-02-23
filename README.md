@@ -1,4 +1,4 @@
-# The Regulated Friction Project v9.9
+# The Regulated Friction Project v10.0
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
 
@@ -20,7 +20,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 - [The Convergence Model](#the-convergence-model)
 - [The Friction-Compliance Model](#the-friction-compliance-model)
 - [Repository Structure](#repository-structure)
-- [What's New (v9.9)](#whats-new-v99---february-2026)
+- [What's New (v10.0)](#whats-new-v100---february-2026)
 - [Administrative State Consolidation](#administrative-state-consolidation)
 - [Quick Navigation by Type](#quick-navigation-by-type)
 - [For Researchers](#for-researchers)
@@ -368,39 +368,32 @@ federal_register/                              # Automated scraping infrastructu
 
 ---
 
-## What's New (v9.9 - February 2026)
+## What's New (v10.0 - February 2026)
 
-### Statistical Alignment Audit
+### Total Actor and Timeline Synthesis
 
-February 21, 2026 — Comprehensive statistical alignment audit synchronizing all metrics across dashboard, README, and Report:
+February 21, 2026 — Comprehensive repository-wide qualitative audit spanning 110+ markdown files across all folders:
 
-- **n-count corrected** — Effective sample size for the 2-week lagged correlation is n = 28 (30 rows minus 2 for lag alignment). All references to "n = 30 weeks" alongside correlation statistics corrected to n = 28 across README.md, Report.md, and dashboard code. The dataset itself contains 30 weekly observations; n = 28 is the effective paired-observation count that produces r = 0.6196, p = 0.0004.
-- **Pearson r verified at 0.6196** — Recomputed from `master_reflexive_correlation_data.csv` using `scipy.stats.pearsonr`. Confirmed: r = 0.6196, p = 0.000437 at 2-week lag, n_eff = 28.
-- **Historical backfill verified** — 66 valid friction-compliance pairs confirmed in `historical_backfill_2017_2024.csv`.
-- **Negative windows verified** — 5 non-response events confirmed in `negative_windows.csv`.
-- **Dashboard constants synchronized** — `constants.py` CORE_N updated to effective n = 28. Hardcoded Key Statistics table in `app.py` corrected.
-- **Legacy figures (r = 0.6685, r = 0.5268)** — Confirmed as properly deprecated in v8.3–v8.4. No active references found outside the archived/deprecated notes.
+- **Actor Network Map** — 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) mapped across 5 domains (Tech/AI, Diplomacy, Defense, Finance, Media). 6 Tier 2 entities added (Palantir, SoftBank, Mubadala, xAI/Musk, G42, Palo Alto/CyberArk).
+- **Capital Flow Architecture** — 3 verified pipelines documented: Territory (PIF→Affinity→Phoenix→settlements), Credit (Apollo $938B AUM→BoP→QXO), Information (Mubadala→Silver Lake→1789 Capital→TCN/Anduril).
+- **Evangelical Network Analysis** — 3 evangelical channels mapped (Russia/WCF-Graham, Gulf/Rosenberg, Israel/CUFI). Channels PARALLEL but SEPARATE (no personnel overlap). Malofeev node Russia-specific. Sanctions ineffective against narrative operations.
+- **Timeline Discrepancies** — 7 identified and documented for correction (Tu BiShvat date, Sep 26/28 conflation, Dec 18/19 Oracle-TikTok, others).
+- **Statistical Integrity Assessment** — 9 valid statistics confirmed, 5 retracted/deprecated statistics cataloged.
+
+See `Project_Trident/Copilot_Opus_4.6_Analysis/Total_Actor_and_Timeline_Synthesis.md` for full synthesis.
+
+### Previous: v9.9 Highlights
+
+February 21, 2026 — Statistical alignment audit:
+
+- **n-count corrected** — Effective sample size for 2-week lagged correlation is n = 28. All references synchronized across README, Report, and dashboard.
+- **Pearson r verified** — Recomputed from `master_reflexive_correlation_data.csv`. Confirmed: r = 0.6196, p = 0.000437 at 2-week lag.
+- **Historical backfill verified** — 66 valid friction-compliance pairs (2017-2024). Median lag +7 days. Backfill impact negligible (Δr = +0.0012).
+- **Dashboard synchronized** — `constants.py` CORE_N updated, Key Statistics table corrected, 6 new content sections added.
 
 ### Previous: v9.8 Highlights
 
-February 21, 2026 — Comprehensive dashboard overhaul adding 6 new content sections:
-
-- **Prediction Tracker tab** — 25 falsifiable predictions with status badges (11 confirmed, 4 failed, 10 pending). Failed predictions displayed prominently.
-- **Key Statistics table** — 21 verified findings in collapsible expander with conditional row styling (green verified, red failed). Source: README.md Key Statistics.
-- **Robustness Tests summary** — 6-test table (permutation, Granger, bootstrap, Dec 2025 exclusion) added to Statistical Overview tab.
-- **3-Audience Navigation Cards** — Role-based entry points for Researchers, Journalists & Policymakers, and Skeptics with styled CSS cards.
-- **Convergence Model diagram** — ASCII box-drawing visualization of the calendar anchor → convergent clustering model with original vs. revised hypothesis comparison.
-- **December 2025 Case Study** — Collapsible expander documenting the Pincer Window (108 events in 12 days, 5 signal types on Dec 22). All facts verified against README.md, Report.md, and CRUCIAL_Synthesis_Dec19_Convergence.md.
-
-Repository structure updated to include `dashboard/` (6 files) and `federal_register/` (7 files) in the tree.
-
-### Previous: v9.7 Highlights
-
-**Automated Scraping Infrastructure & Dashboard Deployment** — DigitalOcean droplet configured with two automated daily scrapers: Federal Register spider (EOs, Proclamations, Notices — 6 AM UTC) and DOJ press release spider (30-day rolling window — 6:30 AM UTC). Streamlit dashboard deployed publicly at regulatedfriction.streamlit.app.
-
-### Previous: v9.6 Highlights
-
-**Historical Backfill & Project_Trident Restructure** — 66 friction→compliance pairs (2017-2024) cross-referenced against the Federal Register spider JSON. Median lag +7 days, 5 negative windows, 10/10 verification claims confirmed. Backfill impact negligible (Δr = +0.0012). Project_Trident folder restructured: files renamed for clarity, README added, Streamlit dashboard updated with homepage and negative windows table. See `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/historical_backfill.md` for complete backfill.
+February 21, 2026 — Dashboard overhaul: Prediction Tracker tab (25 predictions, 11 confirmed, 4 failed), Key Statistics table (21 findings), Robustness Tests summary, 3-Audience Navigation Cards, Convergence Model diagram, December 2025 Case Study.
 
 ---
 
@@ -671,4 +664,4 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 21, 2026 (v9.9) — Statistical alignment audit. Synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset; corrected all documentation to reflect effective paired-observation count.
+**Last updated**: February 23, 2026 (v10.0) — Total Actor and Timeline Synthesis, Evangelical Network Analysis, statistical alignment audit synchronized, n-count corrected to n = 28 effective.
