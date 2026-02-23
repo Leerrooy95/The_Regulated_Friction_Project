@@ -113,6 +113,40 @@ The Dec 19-23, 2025 window demonstrates the convergence pattern:
 
 ---
 
+## Friction as Power Transfer Indicator
+
+### Evolved Understanding (February 2026)
+
+High-visibility "scandals" and media friction are not merely smokescreens or noise. They are the **visible surface layer** of systemic power transfer. [Inference] In a system governed by asymmetric information leverage (kompromat), entities holding leverage function as the actual command-and-control structure, bypassing traditional democratic or diplomatic mandates.
+
+### The Dual-Track System
+
+| Track | Domain | Governing Mechanism | Function |
+|-------|--------|---------------------|----------|
+| **Track A** | Foreign/Geopolitical | Information Leverage | Digital nuclear deterrent — unreleased data (e.g., 98% of 14.6TB Epstein archive) and state-sponsored cyber intrusions enforce diplomatic compliance |
+| **Track B** | Domestic/Structural | Capital Leverage | While Track A consumes public attention, sovereign-wealth consortiums restructure domestic infrastructure. See: `04_CAPITAL_ARCHITECTURE.md` |
+
+### Cartel Statecraft Model
+
+[Inference] The current geopolitical equilibrium functions as a cartel standoff — a forced equilibrium maintained by **mutually assured leverage** rather than ideological alignment. This model explains otherwise contradictory alliances and policy positions.
+
+### Supporting Statements (February 2026)
+
+| Date | Source | Statement | Interpretation |
+|------|--------|-----------|----------------|
+| Feb 15, 2026 | Barack Obama | Called current events a "distraction" | Acknowledges friction as attention-management mechanism |
+| Feb 19, 2026 | Rep. Thomas Massie (R-KY) | Posted "weapon of mass distraction" | Congressional recognition of dual-track dynamics |
+| Feb 21, 2026 | Sen. Bernie Sanders (I-VT) | Stated it "doesn't matter" | Suggests awareness of structural reality beneath surface events |
+
+**Key Insight**: Multiple figures across political spectrum independently identifying the same structural pattern—friction events serving to redirect attention while substantive changes occur elsewhere.
+
+### Cross-Reference
+
+- **For detailed capital infrastructure (Track B)**: `04_CAPITAL_ARCHITECTURE.md`
+- **For active leverage nodes**: `09_CURRENT_THREADS.md`
+
+---
+
 ## What the Theory Does NOT Claim
 
 1. ❌ Central coordination between actors

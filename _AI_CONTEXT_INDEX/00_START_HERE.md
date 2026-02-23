@@ -16,6 +16,35 @@ This OSINT repository documents a statistically significant pattern: **high-visi
 
 ---
 
+## Evolved Framework (February 2026)
+
+### Dual-Track System
+
+The repository now documents a dual-track model for understanding friction-compliance dynamics:
+
+| Track | Domain | Governing Mechanism | Function |
+|-------|--------|---------------------|----------|
+| **Track A** | Foreign/Geopolitical | Information Leverage | High-visibility friction consumes attention; unreleased data (e.g., Epstein archive) and cyber intrusions enforce diplomatic compliance |
+| **Track B** | Domestic/Structural | Capital Leverage | While Track A dominates headlines, sovereign-wealth consortiums (~$4.9T AUM) restructure domestic infrastructure |
+
+**Detailed documentation**: `01_CORE_THEORY.md` (theory), `04_CAPITAL_ARCHITECTURE.md` (Track B infrastructure)
+
+### Cartel Statecraft Model
+
+[Inference] The current geopolitical equilibrium functions as a cartel standoff — a forced equilibrium maintained by **mutually assured leverage** rather than ideological alignment. This explains otherwise contradictory alliances and policy positions.
+
+### Active Leverage Nodes (Tracking)
+
+| Node | Leverage Type | Status |
+|------|---------------|--------|
+| **G. Maxwell** | Information → Clemency | 5th Amendment before House Oversight (Feb 9, 2026) |
+| **Iran** | Cyber + Nuclear | ~100GB emails (IRGC); nuclear threshold capacity |
+| **Gulf SWFs** | Capital ($4.9T AUM) | "Thermostat" function — regulating friction intensity |
+
+**Detailed tracking**: `09_CURRENT_THREADS.md`
+
+---
+
 ## How to Use This Context Index
 
 | If You Need To... | Read First |
