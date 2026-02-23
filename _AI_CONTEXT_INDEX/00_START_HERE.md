@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: February 2026 | **Repository Version**: v9.9
+**Last Updated**: February 2026 | **Repository Version**: v10.0
 
 ---
 

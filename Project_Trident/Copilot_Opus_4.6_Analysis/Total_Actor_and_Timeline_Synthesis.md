@@ -25,7 +25,7 @@
 
 ## 1. Executive Summary
 
-The Regulated Friction Project, across its v9.9 state and ~110 markdown files spanning 15+ numbered folders and the Project_Trident analysis tree, documents a central finding: **high-visibility "friction" events and institutional "compliance" events cluster together on shared calendar windows at a statistically significant rate (r = +0.6196 at 2-week lag, p = 0.0004, n = 28)**.
+The Regulated Friction Project, across its v10.0 state and ~110 markdown files spanning 15+ numbered folders and the Project_Trident analysis tree, documents a central finding: **high-visibility "friction" events and institutional "compliance" events cluster together on shared calendar windows at a statistically significant rate (r = +0.6196 at 2-week lag, p = 0.0004, n = 28)**.
 
 The repository's analytical progression can be summarized in four phases:
 
@@ -556,7 +556,7 @@ The following analytic threads were started but not conclusively resolved:
 
 | File | Contribution |
 |------|-------------|
-| `Report.md` (v9.9) | Master reference — all major claims consolidated |
+| `Report.md` (v10.0) | Master reference — all major claims consolidated |
 | `09_Silicon_Sovereignty/Infrastructure_Consolidation_Pattern_Jan2026.md` | Most comprehensive entity overlap analysis |
 | `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Supplementary_Analysis_Feb14_2026.md` | Apollo TIER 1 upgrade; QXO consolidation |
 | `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md` | Most rigorous single-entity assessment |
