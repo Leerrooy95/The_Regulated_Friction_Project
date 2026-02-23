@@ -53,6 +53,23 @@
 - Arkansas PSC proceedings
 - Press releases (EA, TikTok, Stargate)
 
+### Node 4: Israel (Cyber/Intelligence + Tech Integration)
+
+| Detail | Status (Feb 2026) |
+|--------|-------------------|
+| Leverage type | Cyber/Intelligence (Track A) + Regional Tech Anchor (Track B) |
+| Cyber/Intel holdings | Elite signals intelligence (Unit 8200); commercial cyber-intelligence exports (e.g., NSO Group/Pegasus) utilized as diplomatic currency |
+| Tech infrastructure | "Silicon Wadi" node: Deeply integrated with US defense-tech and enterprise computing (Intel fab expansions, Oracle cloud regions) |
+| Capital integration | Abraham Accords architecture bridging Gulf sovereign capital (Track B) with Israeli technological innovation |
+| Strategic function | Serves as the primary intelligence/kinetic counter-weight to Iran in the Cartel Standoff; central geographic and political anchor for Board of Peace operations |
+| Last updated | Feb 2026 |
+
+**Sources**:
+- Commercial cyber-export diplomatic documentation (2021-2026)
+- Abraham Accords capital flow tracking
+- US-Israel tech infrastructure investments (Oracle, Intel)
+- Board of Peace accession agreements (Feb 2026)
+
 ### Leverage Node Summary
 
 | Node | Leverage Type | Current Status | Strategic Function |
@@ -60,6 +77,7 @@
 | **G. Maxwell** | Information → Clemency | 5th Amendment invoked (Feb 9, 2026) | Potential testimony exchange |
 | **Iran** | Cyber + Nuclear | ~100GB emails + threshold capacity | Diplomatic compliance enforcement |
 | **Gulf SWFs** | Capital (~$4.9T AUM) | Active positioning | Friction intensity regulation |
+| **Israel** | Cyber/Intel + Tech | Unit 8200 + Silicon Wadi | Iran counter-weight; Gulf-tech bridge |
 
 ---
 
@@ -157,6 +175,16 @@
 
 **Next Steps**: Continue temporal tracking through 2026
 
+### 6. Israel-Gulf Tech Integration
+**Question**: How does Abraham Accords architecture enable capital-technology exchange?
+
+**Status**: 🔍 MONITORING
+- Israeli tech companies receiving Gulf investment
+- Joint ventures in AI, cybersecurity, defense tech
+- Oracle/Intel infrastructure spanning both regions
+
+**Next Steps**: Track cross-border tech investments and joint ventures through 2026
+
 ---
 
 ## Failed Predictions (Transparency)
@@ -244,11 +272,13 @@
 2. UG Solutions Board of Peace contract terms
 3. Pakistan ISF contribution details
 4. Arkansas AVAIO investor identity
+5. Israel-Gulf cross-border tech investment tracking
 
 ### Needs Verification
 1. TikTok "power outage" explanation
 2. Stargate infrastructure security status (post-Switch failure)
 3. G42 chip allocation details
+4. NSO Group export licensing status (2025-2026)
 
 ### Methodological Improvements Suggested
 1. First-differencing for autocorrelation control
