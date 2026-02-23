@@ -1,182 +1,81 @@
 # The Regulated Friction Project v10.0
 
-A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026). Historical backfill now extends coverage to 2017-2024.
+A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
 **Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app)
 
-**New to this project?** See [Glossary.md](14_Files/Glossary.md)
-
-**AI Assistant?** See [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) — Quick reference files for AI models to understand this repository
-
-**In a rush?** See [consolidation_pattern_significance.md](Project_Trident/Copilot_Opus_4.6_Analysis/Consolidation_Analysis/consolidation_pattern_significance.md)
-
----
-
-## AI Context Index Overview
-
-The `_AI_CONTEXT_INDEX/` directory provides structured context files for AI assistants and researchers:
-
-| File | Content |
-|------|---------|
-| `00_START_HERE.md` | Navigation guide and repository overview |
-| `01_CORE_THEORY.md` | Thermostat model, 14-day lag, convergence pattern |
-| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
-| `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff |
-| `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, Silicon Sovereignty |
-| `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |
-| `06_MAIN_CHARACTERS.md` | Patel, Hegseth, Noem as noise generators |
-| `07_METHODOLOGY.md` | Correlation methodology, verification standards |
-| `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active research questions |
-| `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
+| Quick Links | |
+|-------------|---|
+| **New here?** | [Glossary](14_Files/Glossary.md) |
+| **AI Assistant?** | [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) |
+| **In a rush?** | [Consolidation Pattern Significance](Project_Trident/Copilot_Opus_4.6_Analysis/Consolidation_Analysis/consolidation_pattern_significance.md) |
+| **Run it yourself** | [Run_Correlations_Yourself/](Run_Correlations_Yourself/) |
 
 ---
 
-## Table of Contents
-- [AI Context Index Overview](#ai-context-index-overview)
-- [Quick Summary](#quick-summary)
-- [Understanding the Statistics](#understanding-the-statistics)
-- [Key Statistics](#key-statistics)
-- [Recent Framework Validation](#recent-framework-validation-february-2026)
-- [The Convergence Model](#the-convergence-model)
-- [The Friction-Compliance Model](#the-friction-compliance-model)
-- [Repository Structure](#repository-structure)
-- [What's New (v10.0)](#whats-new-v100---february-2026)
-- [Administrative State Consolidation](#administrative-state-consolidation)
-- [Quick Navigation by Type](#quick-navigation-by-type)
-- [For Researchers](#for-researchers)
-- [For Policymakers & Journalists](#for-policymakers--journalists)
-- [Methodology](#methodology)
-- [Limitations & Disclaimer](#limitations--disclaimer)
-- [Connected Repositories](#connected-repositories)
-- [Statistical Validation](#statistical-validation)
+## Core Finding
 
----
+**Friction events predict compliance events at a 2-week lag.**
 
-## Quick Summary
+| Metric | Value |
+|--------|-------|
+| Correlation | r = +0.6196 |
+| Significance | p = 0.0004 |
+| Sample | n = 28 paired observations (30-week dataset) |
 
-This repository documents statistically significant correlations between high-visibility "friction" events (file releases, scandals, media cycles) and institutional compliance events (policy shifts, financial positioning, regulatory changes).
+When high-visibility friction events spike (document releases, scandals, media cycles), institutional compliance events (policy shifts, financial moves, regulatory changes) follow ~14 days later. This relationship has less than 0.05% probability of occurring by chance.
 
-**Core Finding**: Friction events (document releases, scandals) predict institutional compliance events (policy shifts, financial moves) at a 2-week lag (r = +0.6196, p = 0.0004, n = 28 paired observations from a 30-week dataset).
-
-**What this means**: When high-visibility friction events spike, institutional compliance events follow ~14 days later — suggesting shared exploitation of calendar-driven attention windows.
+**What this does NOT claim:** Central coordination, conspiracy, or intentional orchestration. The pattern is emergent — multiple actors exploiting the same environmental signals (holidays, fiscal deadlines, media saturation) without requiring communication between them. Correlation ≠ causation. The claim is structural: the pattern exists and is statistically significant.
 
 ---
 
 ## Understanding the Statistics
 
-This research uses Pearson correlation (r) to measure relationships between event types.
-
 | r Value | Interpretation |
 |---------|----------------|
 | 0.0 | No relationship |
-| ±0.1-0.3 | Weak |
 | ±0.3-0.5 | Moderate |
-| ±0.5-0.7 | Strong |
+| **±0.5-0.7** | **Strong** ← Our finding |
 | ±0.7-1.0 | Very strong |
 
-**Our finding (r = +0.6196)**: When friction events spike, compliance events follow approximately 2 weeks later. This correlation (p = 0.0004) has less than 0.05% probability of occurring by chance.
-
-**Why this matters**:
-- A correlation this strong is reproducible — run the scripts in `Run_Correlations_Yourself/` yourself
-- It suggests a structural pattern, not random coincidence
-- Separate analyses (Project Trident, cross-validation) confirm the pattern using independent datasets
-
-**Important caveat**: Correlation ≠ causation. We document that these events cluster together, not that one causes the other. The claim is structural: the pattern exists and is statistically significant.
+The correlation is reproducible — run the scripts in `Run_Correlations_Yourself/` yourself.
 
 ---
 
-## Key Statistics
+## Key Statistics (Summary)
 
-| Finding | Value | Status |
-|---------|-------|--------|
-| Friction → Compliance correlation | r = +0.6196 (2-week lag) | ✅ Verified |
-| Statistical significance | p = 0.0004, n = 28 | ✅ Verified |
-| Ritual → Policy proximity | 50.7% vs. 19.9% baseline (2.5x) | ✅ Verified |
-| Project Trident significance | p = 0.002 (Mann-Whitney U) | ✅ Verified |
-| Cross-validation (14-day periodicity) | χ² = 330.62 (p < 0.0001, 2,102 events) | ✅ Verified |
-| December 2025 cluster | 108 events in 12-day window | ✅ Verified |
-| Dec 22 signal types | 5 (Friction, Geopolitics, Financial, Policy, Cyber) | ✅ Verified |
-| Event colocation | Friction dates attract 20–42x more compliance than random dates | ✅ Verified |
-| January 2026 signal peaks | 3 peaks (Jan 3-9, Jan 20-22, Jan 27-31), 1 trough (Jan 10-16) | ✅ Verified |
-| January 2026 event density | 34 events: 12 friction, 19 compliance, 3 anchors | ✅ Verified |
-| Feb 1–19 compliance window | 9 compliance events to 6 friction events in 19 days | ✅ Verified |
-| 13F visibility gap | Architecture operates below 13F threshold — private deals, non-US securities, LP interests | ✅ Verified (Q3–Q4 2025) |
-| Apollo credit pipeline | $938B AUM, $305B originated 2025; $3B QXO + $3.5B xAI + $29B Meta — TIER 1 CRITICAL | ✅ Verified (Feb 19, 2026) |
-| Enforcement hollowing (Prong 3) | SEC 15%+ departed, CFTC 21.5% cut, CFPB HMDA alerts killed, Schedule P/C 50K positions | ✅ Verified (Feb 14, 2026) |
-| Feb 11 single-day compliance density | 7 compliance events (5 EOs + USDA framework + QXO acquisition) — highest single-day density in 2026 dataset | ✅ Verified (Feb 14, 2026) |
-| Bondi hearing ±7 day window | 17 compliance events vs ~3-4 baseline expectation (+467% above baseline) | ✅ Verified (Feb 14, 2026) |
-| Q4 2025 13F: 3 predictions tested | EA stable (deal locked), Mubadala defense REVERSED, no Gulf SWF Oracle/defense entries | ❌ All 3 FAILED (Feb 18, 2026) |
-| Mubadala Bitcoin ETF expansion | IBIT +46% (8.7M→12.7M shares, $567M→$630.6M); Abu Dhabi complex ~$1.04B in IBIT | ✅ Verified (Feb 19, 2026) |
-| Board of Peace inaugural summit | ~50 countries, $7B pledged (9 countries), $10B US pledge, 10% of $70B need | ✅ Confirmed (Feb 19, 2026) |
-| Historical backfill (2017-2024) | 66 friction→compliance pairs across 8 years; median lag +7 days; 5 negative windows; 10/10 claims verified | ✅ Verified (Feb 19, 2026) |
-| Backfill correlation impact | Δr = +0.0012 (Pearson), Δρ = +0.0023 (Spearman) — negligible; r = 0.6196 baseline unaffected | ✅ Verified (Feb 19, 2026) |
+| Category | Finding | Status |
+|----------|---------|--------|
+| **Core Correlation** | r = +0.6196 at 2-week lag (p = 0.0004) | ✅ Verified |
+| **Ritual Proximity** | 50.7% vs. 19.9% baseline (2.5x) | ✅ Verified |
+| **Cross-validation** | χ² = 330.62 (p < 0.0001, 2,102 events) | ✅ Verified |
+| **Historical Backfill** | 66 pairs across 2017-2024; Δr = +0.0012 (negligible impact) | ✅ Verified |
+| **Q4 2025 13F Predictions** | 3 predictions tested | ❌ All 3 FAILED |
+| **Board of Peace Summit** | ~50 countries, $7B pledged, $10B US | ✅ Confirmed |
+
+→ **Full statistics table**: [14_Files/Key_Statistics.md](14_Files/Key_Statistics.md)
+
+**Note on failed predictions:** The Q4 2025 13F predictions (Gulf SWF positioning) failed. This is documented transparently — negative findings are data.
 
 ---
 
-## Recent Framework Validation (February 2026)
+## AI Context Index
 
-Multiple high-profile figures have made statements directly validating framework mechanics:
+The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants and researchers:
 
-| Who | What They Said | What It Validates |
-|-----|---------------|-------------------|
-| **Barack Obama** | "It is true that it gets attention. It's true that it's a distraction." | Friction events as attention capture |
-| **Thomas Massie (R-KY)** | "They've deployed the ultimate weapon of mass distraction, but the Epstein files aren't going away… even for aliens." | Distraction deployment timing |
-| **Lara Trump** | Trump has UFO speech ready for "the right time" | Pre-staged distraction content |
-| **Sarah Huckabee Sanders** | Supreme Court ruling "doesn't matter... he has so many tools in his toolbox" | Executive Firewall / institutional bypass |
-
-See [`_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md) for full sourcing.
-
----
-
-## The Convergence Model
-
-### Original Hypothesis (Sequence)
-```
-Friction (t) → [creates window] → Compliance (t+14 days)
-```
-
-### Revised Finding (Convergence)
-```
-Calendar Anchor (solstice, holiday, fiscal deadline)
-        ↓
-┌───────┼───────┐
-↓       ↓       ↓
-Friction  Policy  Financial
-        ↓
-Lagged Clustering (r = 0.6196, 2-week lag)
-```
-
-The raw data shows friction and compliance events cluster together rather than following a sequential cause-effect pattern. This makes the phenomenon more robust—it doesn't require coordination, just shared exploitation of the same calendar signals.
-
-### December 19-23, 2025: The Pincer Window
-
-The Dec 19-23, 2025 window demonstrates convergent clustering:
-
-| Date | Event Type | Events |
-|------|-----------|--------|
-| Dec 19 | Friction | Epstein Library release (DOJ) |
-| Dec 19 | Financial | Bull & Bear sell signal (8.5) |
-| Dec 22 | Geopolitics | China EU dairy tariffs (42.7%) |
-| Dec 22 | Financial | BlackRock Bitcoin ETF "top theme" |
-| Dec 22 | Cyber/Intel | CRINK nation-state threat analysis |
-| Dec 22-23 | Peak | 6-8 friction + 9-13 compliance events/day |
-| Dec 23 | Infrastructure | Redaction failures exposed (NYT) |
-
-Five independent signal types converged on the same window—not because one caused another, but because all actors respond to the same environmental signals.
-
----
-
-## The Friction-Compliance Model
-
-This repository documents the core statistical finding:
-
-| Finding | Value | Status |
-|---------|-------|--------|
-| Friction → Compliance correlation | r = +0.6196 at 2-week lag | ✅ Verified |
-| Statistical significance | p = 0.0004, n = 28 | ✅ Verified |
-
-> **Note (v8.6):** This section previously presented a "Three-Layer Model" that included two external repositories (DOGE_Global_Effects, BRICS-NDB-LocalCurrency-DiD). Those external repositories contained Grok-fabricated data and have been retracted. The retracted references are preserved in [`Archive/Retracted_Three_Layer_References.md`](Archive/Retracted_Three_Layer_References.md) for transparency. See the [AI Fabrication Case Study](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md) for the full audit.
+| File | Content |
+|------|---------|
+| `00_START_HERE.md` | Navigation guide, Dual-Track System, Cartel Statecraft Model |
+| `01_CORE_THEORY.md` | Thermostat model, 14-day lag, convergence pattern, framework validation |
+| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
+| `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff, capital pipeline |
+| `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, DATA Act, AVAIO Arkansas |
+| `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |
+| `06_MAIN_CHARACTERS.md` | Performative actors as noise generators |
+| `07_METHODOLOGY.md` | Correlation methodology, verification standards |
+| `08_KEY_DATASETS.md` | CSV schemas and data file reference |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel) |
+| `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 
 ---
 
@@ -184,449 +83,100 @@ This repository documents the core statistical finding:
 
 ```
 The_Regulated_Friction_Project/
-│
-├── .devcontainer/
-│   └── devcontainer.json                # Dev container configuration
-├── .github/
-│   └── workflows/
-│       └── validate.yml                 # CI validation workflow
-├── README.md                    # This file
-├── Report.md                    # Executive summary and findings report
-│
-├── 00_Quick_Breakdowns/                        # Executive-level summaries
-│   ├── About_Me.md                              # Background on the author
-│   └── Copilot_Executive_Synthesis_Feb2026.md  # Comprehensive repository synthesis (Feb 2026)
-│
-├── 01_Levers_and_Frictions/                    # Friction events timeline
-│   ├── Epstein_Files_timeline.csv
-│   └── Epstein_Files_timeline_updated.csv
-│
-├── 02_Anchors_and_Financials/                  # Capital flow data
-│   ├── pep_banking_combined.csv
-│   └── pep_banking_sentiment.csv
-│
-├── 03_Master_Framework/                        # Primary datasets
-│   ├── MASTER_reflexive_control_2015-2025.csv
-│   ├── MASTER_timeline_2015-2025_UPDATED.csv
-│   └── updated_master_theory.csv
-│
-├── 04_Testing_and_Counters/                    # Validation datasets
-│   ├── expanded_historical_backtest.csv
-│   └── merged_backtest_counters.csv
-│
-├── 05_Geopolitical_Vectors/                    # Nation-state analysis
-│   ├── CRINK_Analysis.md                              # CRINK axis integration
-│   ├── Global_Election_Analysis.md                    # Allied election patterns
-│   ├── Graham_Venezuela_Analysis.md                   # Graham's 54-day Venezuela escalation
-│   ├── Graham_Venezuela_Posts_Timeline.csv            # Supporting timeline data
-│   ├── January_2026_Parallel_Operations_Timeline.md   # Venezuela-Yemen parallel operations
-│   ├── Venezuela_Privatization_Amnesty_Stack_Feb2026.md  # Venezuela compliance stack
-│   ├── Board_of_Peace_Security_Architecture.md        # ISF enforcement layer: UG Solutions, Pakistan ISF troops, Palo Alto/CyberArk, G42
-│   └── thermostat_control_data.csv                    # Nation-state linkage data
-│
-├── 06_Visualizations/                          # Charts and images
-│
-├── 07_My_Previous_Epstein_Research/            # Pre-project archive (4 PDFs)
-│
-├── 08_How_It's_Possible/                       # Mechanism documentation
-│   ├── 08_How_Its_Possible.md                         # Core mechanism analysis
-│   ├── DOJ_Probe_Results.csv
-│   ├── Phase_0_Maxwell_Pivot.csv
-│   └── pincer_data.csv
-│
-├── 09_Silicon_Sovereignty/                     # Semiconductor, AI & infrastructure
-│   ├── SILICON_SOVEREIGNTY_REPORT.md                  # Core report: compute-as-currency thesis
-│   ├── Infrastructure_Consolidation_Pattern_Jan2026.md  # Oracle/MGX/PIF consortium analysis
-│   ├── CRUCIAL-Cross_Verification_Check.md            # Cross-verification with llama2
-│   ├── Coalition_Narrative_Map_2015-2025.csv          # Media coverage patterns (456 records)
-│   ├── REFINED_supercomputer_geopolitics (1).csv      # Supercomputer geopolitics (906 records)
-│   ├── Regulatory_Map_Data_CLEANED.csv                # Policy/compliance events (76 records)
-│   └── VOCA_funding_timeline_clean.csv                # Victim services funding (667 records)
-│
-├── 10_Real-Time_Updates_and_Tasks/             # Ongoing analysis and daily tasks
-│   ├── README.md
-│   ├── 2026_January/                                  # January 2026 daily updates
-│   ├── 2026_February/                                 # February 2026 daily updates
-│   └── Tasks/                                         # Standing monitoring tasks (14 trackers)
-│
-├── 11_Protest_Dynamics_and_Funding/            # Protest analysis
-│   ├── Protest_Funding_Audit.pdf
-│   └── README.md
-│
-├── 12_The_Media_Firewall/                      # Media coverage patterns
-│   ├── 1789_Symbolism_Analysis.md                     # 1789 Capital / Gulf SWF funding network
-│   ├── Omeed_Malik_Forensic_Node_Analysis.md          # "Semiotic Bridge": 1789 Capital → Media + Finance + Defense
-│   ├── Super_Bowl_LX_Media_Firewall_Case_Study.md     # Super Bowl LX as Regulated Friction event
-│   ├── Analyzing Geopolitical and Media Control.pdf
-│   └── README.md
-│
-├── 13_State_and_County_Analysis/               # State-level forensics
-│   └── arkansas_infrastructure_forensic_audit.md      # Arkansas Act 373/548, PSC analysis
-│
-├── Statistical Verification
-│   ├── Control_Proof/                                 # Core correlation data
-│   │   ├── master_reflexive_correlation_data.csv      # Weekly friction/compliance indices
-│   │   ├── MASTER_reflexive_control_v2.csv
-│   │   ├── reflexive_control_scraped_data.csv
-│   │   ├── thermostat_control_data.csv
-│   │   └── correlation_results.txt
-│   │
-│   ├── Run_Correlations_Yourself/                     # Independent verification suite
-│   │   ├── README.md                                  # Folder guide and correlation reference
-│   │   ├── requirements.txt                           # Python dependencies (pandas, numpy, scipy, statsmodels)
-│   │   ├── run_original_analysis.py                   # Reproduce r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002 (pre-2026 data)
-│   │   └── Wrong_Correlations/                        # ⚠️ Archived scripts that used wrong datasets or excluded data
-│   │       ├── README.md                              # Explanation of what went wrong
-│   │       ├── reproduce_updated_correlation.py       # ⚠️ DEPRECATED (used 2025-only datasets — produced inflated r = 0.6685)
-│   │       ├── original_correlation_test.py           # (used relative paths — was correct)
-│   │       ├── reproduce_original_correlation.py      # (used hardcoded paths to wrong datasets)
-│   │       ├── independent_statistical_verification.py # (used hardcoded paths to wrong datasets)
-│   │       ├── run_original_analysis.py               # (was correct — archived copy)
-│   │       └── DISCREPANCY_ANALYSIS.md                # Methodology comparison (still valid)
-│   │
-│   └── Project_Trident/                               # Temporal correlation study
-│       ├── Ritual_Timing_Signal_Analysis.md
-│       ├── Capital_Flow_Opacity_Framework.md   # Three-prong mechanism
-│       ├── DATASET_REFERENCE.md
-│       ├── Verify_Trident_Analysis.py                # Verify ritual timing analysis
-│       ├── anchor_events_parsed.csv                   # 70 anchor events
-│       ├── project_trident_final_dossier.csv          # 118 dossier entries
-│       ├── ritual_events_parsed.csv                   # 51 ritual events
-│       ├── temporal_correlations_analyzed.csv          # 338 temporal pairings
-│       ├── Best_Data_For_Project_Trident/             # Ritual timing, fund flow datasets (8 files)
-│       ├── Claude_Code_Analysis/                      # Q1 2026 Privatized Integration research
-│       │   ├── Privatized_Integration_Networks_Q1_2026_Synthesis.md  # Master document
-│       │   ├── Phoenix_Settlement_Portfolio_and_New_Gaza.md          # Reference appendix
-│       │   ├── LEAD_ANALYST_REVIEW.md                               # Independent verification
-│       │   └── README.md
-│       └── Copilot_Opus_4.6_Analysis/                 # Lead Researcher statistical verification
-│           ├── README.md                              # Transparency notice, methodology, work log
-│           ├── February_2026_System_Pattern_Analysis.md # Vendor fragmentation, institutional resistance, Israel deep dive
-│           ├── February_2026_Supplementary_Addition.md  # West Bank, Al-Tanf, Arkansas, Board of Peace portfolios, Media Firewall tech
-│           ├── Forensic_Vetting_Board_of_Peace.md       # "Lifeboat" hypothesis test — NOT SUPPORTED; "Board of Profits" SUPPORTED
-│           ├── February_2026_Consolidation_Timeline.md  # Consolidation and timing: Massie-Bondi, entity overlap matrix, Feb 8-19 convergence
-│           ├── Omeed_Malik_Forensic_Node_Analysis.md    # Workspace summary of "Semiotic Bridge" analysis (full in 12_The_Media_Firewall/)
-│           ├── TikTok_Algorithm_Anomaly_Investigation.md # TikTok anomalies around Oracle takeover (7 verified anomalies)
-│           ├── Final_Research_Sweep_Feb12.md             # Anduril WDS 2026, Res. 2803 ISF command, Indonesia/Pakistan troops, SMDA
-│           ├── Arkansas_Federal_Energy_Bypass.md         # DATA Act CREU, RATE Act, ADQ/ECP, AVAIO, Act 373, TX/NH models
-│           ├── Narrative_Case_Studies/               # Narrative-policy cross-reference case studies
-│           │   └── Bondi_Hearing_Feb14_2026.md           # Feb 11 Bondi hearing: ±7 day window (17 events, 467% above baseline), EO 14375 BoP substrate
-│           ├── Entity_Reports/                      # Comprehensive entity deep-dive assessments
-│           │   └── Palantir_Technologies_Deep_Dive.md    # Defense tech consolidation, DOGE integration, TIER 2 MODERATE
-│           ├── Changelogs/                           # Version changelogs
-│           │   ├── v9.3_Integration_Notes.md             # v9.3 Palantir integration, verification, and cleanup notes
-│           │   └── v9.2_Integration_Notes.md             # v9.2 integration, verification, and cleanup notes
-│           ├── Statistical_Tests/                     # 16 runnable Python robustness scripts
-│           ├── Findings/                              # Active analysis — provenance, backfill guide, backfill results
-│           ├── Verification_Reports/                  # Prediction tracker
-│           ├── Consolidation_Analysis/                # Cross-domain consolidation assessment
-│           ├── FaaS_Signal_Analysis/                  # SuperGrok signal verification + January 2026 signal map
-│           ├── Influencer_Narrative_Timing/            # Media Firewall narrative timing analysis
-│           ├── Administrative_State_Audit/            # DOGE→OPM→DOJ(+FBI) closed loop analysis (7 docs)
-│           ├── 13F_Analysis/                          # SEC 13F filing cross-reference (Feb 14–19, 2026)
-│           │   ├── 13F_Verification_Report_Feb14_2026.md  # Q3 2025 baseline: 10 entities, 12 securities
-│           │   ├── 13F_Supplementary_Analysis_Feb14_2026.md # Apollo credit pipeline, QXO consolidation, beard search
-│           │   ├── Q4_2025_Delta_Findings.md               # Q4 2025 delta: 5 major signals, 6 new entities, 3 predictions FAILED
-│           │   ├── 13F_Holdings_Baseline_Q3_2025.csv       # All tracked entity holdings (37 positions)
-│           │   ├── 13F_Holdings_Q4_2025.csv                # Q4 2025 holdings (68 rows, 12 filers)
-│           │   ├── Entity_13F_Cross_Reference.csv          # Entity-level status and Trident relevance tier (18 entities)
-│           │   └── Security_Level_Cross_Reference.csv      # Security-level cross-entity analysis (16 securities)
-│           ├── Archive/                               # Previous analysis kept for transparency
-│           └── Datasets/                              # Local copies of original pre-2026 CSVs (23 files)
-│
-├── 14_Files/                                   # Supporting documents (moved from root for organization)
-│   ├── Glossary.md                                    # Key terminology definitions
-│   ├── SOURCES.md                                     # 138 unique sources catalogued
-│   ├── CITATION.cff                                   # Citation metadata
-│   ├── How_This_Happened-A_Policy_Brief.md            # Regulatory citations, oversight questions
-│   ├── Implications.md                                # China BRI expansion implications
-│   ├── Main_Characters.md                             # Cabinet timing analysis
-│   ├── Alternate_Mechanisms.md                        # Alternative explanations considered
-│   ├── Thermostat_Explained.md                        # Why the mechanism exists
-│   ├── Claude's_Analysis.md                           # AI-assisted interpretation
-│   ├── Grok_Analysis.md                               # Cross-verification with Grok
-│   ├── CRUCIAL_Synthesis_Dec19_Convergence.md         # Dec 19-23 pincer window analysis
-│   ├── FINANCIAL_RECEIPT_VERIFICATION.md              # Financial event verification
-│   ├── TRANSPARENCY_NOTE_FOR_2026_ANALYSIS.md         # Dataset inclusion/exclusion criteria
-│   ├── VERIFICATION_REPORT_Jan2026.md                 # Complete independent statistical verification
-│   ├── China_State_Media_Null_and_Meanings.md         # Null finding: China state media
-│   ├── Case_Study_David_Barnes_Detention.md           # Hostage diplomacy as human leverage
-│   ├── 'Transparency'_Timeline.md                     # Document release history
-│   └── resistance_indicators.md                       # Resistance indicator tracking
-│
-├── Archive/                                    # Archived files kept for transparency
-│   ├── Repository_Synthesis.md                        # Original three-layer framework (contains retracted statistics)
-│   └── Retracted_Three_Layer_References.md            # Retracted Layers 2-3 references preserved for transparency
-│
-└── New_Data_2026/                              # January-February 2026 datasets
-    ├── 2026_Analysis.md                               # Correlation methodology and findings
-    ├── Additional_Anchors_Jan2026_Final.csv
-    ├── Biopharma.csv
-    ├── BlackRock_Timeline_Full_Decade.csv
-    ├── CRINK_Intelligence_Dataset_Final_Verified.csv
-    ├── High_Growth_Companies_2015_2026.csv
-    ├── Infrastructure_Forensics.csv
-    └── Timeline_Update_Jan2026_Corrected (1).csv
-
-dashboard/                                     # Streamlit dashboard (regulatedfriction.streamlit.app)
-├── app.py                                     # Main dashboard entry point (800 lines)
-├── constants.py                               # Color palette, thresholds, disclaimer text
-├── correlation_engine.py                      # Statistical computation layer
-├── data_loader.py                             # Data ingestion and validation
-├── requirements.txt                           # Dashboard Python dependencies
-└── CHANGELOG_20260221.md                      # Dashboard version history
-
-federal_register/                              # Automated scraping infrastructure
-├── spiders/
-│   ├── federal_register_eo.py                 # Federal Register spider (EOs, 6 AM UTC)
-│   └── doj_press_releases.py                  # DOJ press releases (30-day rolling, 6:30 AM UTC)
-├── items.py                                   # Scrapy item definitions
-├── settings.py                                # Scrapy settings
-├── pipelines.py                               # Item processing pipelines
-└── Spider Output Files/
-    └── items_federal_register_eo_1.json       # Spider output (1,000 Executive Orders)
+├── 00_Quick_Breakdowns/          # Executive summaries
+├── 01_Levers_and_Frictions/      # Control mechanisms, Epstein timeline
+├── 02_Anchors_and_Financials/    # Financial anchor analysis
+├── 03_Master_Framework/          # Core theory (2015-2025)
+├── 04_Testing_and_Counters/      # Backtesting, counter-hypotheses
+├── 05_Geopolitical_Vectors/      # Global election analysis, Venezuela
+├── 06_Visualizations/            # Charts, diagrams
+├── 07_My_Previous_Epstein_Research/  # Prior investigations (PDFs)
+├── 08_How_It's_Possible/         # Methodological deep dives
+├── 09_Silicon_Sovereignty/       # Tech geopolitics, VOCA funding
+├── 10_Real-Time_Updates_and_Tasks/   # Daily logs (Jan-Feb 2026)
+├── 11_Protest_Dynamics_and_Funding/  # Protest funding audits
+├── 12_The_Media_Firewall/        # Media control, 1789 Capital analysis
+├── 13_State_and_County_Analysis/ # Arkansas infrastructure audit
+├── 14_Files/                     # Glossary, sources, main characters
+├── _AI_CONTEXT_INDEX/            # Structured context for AI assistants
+├── Project_Trident/              # Independent verification (Opus 4.6)
+├── Run_Correlations_Yourself/    # Reproducibility scripts
+├── New_Data_2026/                # 2026 datasets
+├── federal_register/             # Scrapy spiders (automated scraping)
+└── dashboard/                    # Streamlit dashboard source
 ```
 
 ---
 
-## What's New (v10.0 - February 2026)
+## What's New (v10.0) — February 2026
 
-### Total Actor and Timeline Synthesis
+- **Total Actor and Timeline Synthesis**: Repository-wide audit of 7 Tier 1 entities across Tech/AI, Diplomacy, Defense, Finance, Media domains
+- **Statistical alignment audit**: n-count synchronized to n = 28 effective; verified r = 0.6196 against master dataset
+- **Israel leverage node added**: Completes four-node architecture (Maxwell, Iran, Gulf SWFs, Israel) in `09_CURRENT_THREADS.md`
+- **Dual-Track System documentation**: Track A (Information Leverage) + Track B (Capital Leverage) framework in context index
+- **Framework validation statements**: Obama, Massie, Sanders quotes added to `01_CORE_THEORY.md`
+- **Historical backfill complete**: 66 friction→compliance pairs (2017-2024) with negligible correlation impact
 
-February 21, 2026 — Comprehensive repository-wide qualitative audit spanning 110+ markdown files across all folders:
-
-- **Actor Network Map** — 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) mapped across 5 domains (Tech/AI, Diplomacy, Defense, Finance, Media). 6 Tier 2 entities added (Palantir, SoftBank, Mubadala, xAI/Musk, G42, Palo Alto/CyberArk).
-- **Capital Flow Architecture** — 3 verified pipelines documented: Territory (PIF→Affinity→Phoenix→settlements), Credit (Apollo $938B AUM→BoP→QXO), Information (Mubadala→Silver Lake→1789 Capital→TCN/Anduril).
-- **Timeline Discrepancies** — 7 identified and documented for correction (Tu BiShvat date, Sep 26/28 conflation, Dec 18/19 Oracle-TikTok, others).
-- **Statistical Integrity Assessment** — 9 valid statistics confirmed, 5 retracted/deprecated statistics cataloged.
-
-See `Project_Trident/Copilot_Opus_4.6_Analysis/Total_Actor_and_Timeline_Synthesis.md` for full synthesis.
-
-### Previous: v9.9 Highlights
-
-February 21, 2026 — Statistical alignment audit:
-
-- **n-count corrected** — Effective sample size for 2-week lagged correlation is n = 28. All references synchronized across README, Report, and dashboard.
-- **Pearson r verified** — Recomputed from `master_reflexive_correlation_data.csv`. Confirmed: r = 0.6196, p = 0.000437 at 2-week lag.
-- **Historical backfill verified** — 66 valid friction-compliance pairs (2017-2024). Median lag +7 days. Backfill impact negligible (Δr = +0.0012).
-- **Dashboard synchronized** — `constants.py` CORE_N updated, Key Statistics table corrected, 6 new content sections added.
-
-### Previous: v9.8 Highlights
-
-February 21, 2026 — Dashboard overhaul: Prediction Tracker tab (25 predictions, 11 confirmed, 4 failed), Key Statistics table (21 findings), Robustness Tests summary, 3-Audience Navigation Cards, Convergence Model diagram, December 2025 Case Study.
+→ **Full changelog**: [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
-## Administrative State Consolidation
+## Robustness Tests
 
-This section summarizes how the friction-compliance pattern operates *inside* the federal government — not just around it.
+The core correlation survives multiple validation methods:
 
-### The Closed Loop
+| Test | Result |
+|------|--------|
+| Permutation (10K shuffles) | p < 0.0001 |
+| Granger causality (lag 1) | p = 0.0008 |
+| Block bootstrap (autocorrelation-adjusted) | p = 0.008 |
+| December 2025 exclusion | ρ = 0.60 (pattern holds) |
+| Binary presence/absence | r = 0.59 |
 
-Four federal nodes form a self-reinforcing cycle:
-
-```
-┌──────────────────┐     Directive flow     ┌──────────────────┐
-│  DOGE (Architect) │ ──────────────────────▶│ OPM (Executioner) │
-│  Designs mandates │                        │  Processes RIFs   │
-│  Creates voids    │                        │  Schedule F rule  │
-└──────────────────┘                        │  Strips appeals   │
-                                             └────────┬─────────┘
-                                                      │ Actions challenged
-┌──────────────────┐     Internal compliance ┌────────▼─────────┐
-│  FBI (Enforcer)   │◀─────────────────────── │  DOJ (Shield)    │
-│  Leadership purge │                        │  Defends in court │
-│  Decentralization │                        │  Appeals to SCOTUS│
-└──────────────────┘                        └──────────────────┘
-```
-
-**In plain language:** DOGE designed the workforce reduction mandates. OPM executed them (mass emails, firings, new rules removing job protections). When employees challenged these actions in court, DOJ defended them. FBI ensured internal compliance. When DOGE formally disbanded in November 2025, OPM absorbed its functions — the loop persisted without the original architect.
-
-### Why This Matters for the Model
-
-The project's core finding is that friction events (scandals, crises) cluster with compliance events (policy shifts, capital moves) at a 2-week lag. The Administrative State Audit reveals that the government's own workforce restructuring follows this same pattern — and adds something new:
-
-**Recursive friction:** The compliance events (mass firings, Schedule Policy/Career rule) generate their own friction (protests, lawsuits, media coverage). This self-generated friction then covers the *next* compliance event. The system doesn't need an external distraction — the restructuring creates its own.
-
-**Defense mechanism elimination:** The appeal board (MSPB) that employees would use to challenge these actions was overwhelmed (2,145% surge in appeals, ~12,000 new cases) — and then the Schedule Policy/Career rule eliminates the appeal right entirely for ~50,000 positions (effective March 9, 2026).
-
-### Key Dates Ahead
-
-| Date | Event | Why It Matters |
-|------|-------|----------------|
-| Jan 16, 2026 | EO 14375: Board of Peace designated as public international organization (IOIA) | ✅ Signed; grants legal immunities. Legal challenge expected (Just Security) |
-| Feb 14, 2026 | 13F disclosure deadline | ✅ Q3 baseline established; Q4 filings received Feb 13–17 (see 13F_Analysis/) |
-| Feb 17, 2026 | Rule 13f-2 / Form SHO compliance date | ✅ New short position disclosure requirement now in effect |
-| Feb 19, 2026 | Board of Peace first summit | ✅ **HELD** — ~50 countries (27 members, ~22 observers), $7B pledged from 9 countries, US $10B additional. Five countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania). |
-| Feb 27, 2026 | NTEU court-ordered OPM disclosure | Pending — first public view of which specific positions lose protections |
-| Mar 1, 2026 | Khanna investigation document deadline | Pending — $500M UAE deal documents due (Select Committee on China) |
-| Mar 9, 2026 | Schedule Policy/Career effective date | Pending — ~50,000 positions formally become at-will |
-
-See `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/` for the full audit (7 documents).
+→ **Full robustness analysis**: [Project_Trident/Copilot_Opus_4.6_Analysis/](Project_Trident/Copilot_Opus_4.6_Analysis/)
 
 ---
 
-## Quick Navigation by Type
+## Key Questions
 
-### Datasets
-- `Control_Proof/master_reflexive_correlation_data.csv` — Core friction/compliance data
-- `New_Data_2026/` — January-February 2026 updates (8 datasets)
-- `05_Geopolitical_Vectors/thermostat_control_data.csv` — Nation-state linkages
-- `Project_Trident/Best_Data_For_Project_Trident/` — Ritual timing, fund flows
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Baseline_Q3_2025.csv` — Q3 2025 13F holdings (37 positions, 6 filers)
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Q4_2025.csv` — Q4 2025 13F holdings (68 rows, 12 filers)
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Entity_13F_Cross_Reference.csv` — Entity-level Trident relevance tiers (18 entities)
-- `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Security_Level_Cross_Reference.csv` — Security-level cross-entity analysis (16 securities)
+These questions arise from documented patterns and verified data:
 
-### Statistical Verification
-- `Run_Correlations_Yourself/run_original_analysis.py` — Reproduce original r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002 (pre-2026 data)
-- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — 66 friction→compliance pairs (2017-2024) with source URLs
-- `Run_Correlations_Yourself/negative_windows.csv` — 5 confirmed negative windows
-- `Run_Correlations_Yourself/Wrong_Correlations/` — ⚠️ Archived scripts that used wrong datasets or excluded data (kept for transparency)
-- `Project_Trident/Verify_Trident_Analysis.py` — Verify ritual timing analysis
-- `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` — 16 robustness test scripts (permutation, autocorrelation, normalization, Dec 2025 exclusion, rolling window, event-study, Granger causality, backfill lag distribution, combined dataset correlation)
-- `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/dataset_provenance.md` — Dataset provenance documentation
-- `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/backfill_correlation_results.md` — Backfill integration correlation results
+1. Why does the same capital entity (1789 Capital) fund both the Media Firewall (TCN, PublicSq) and enforcement layer (Anduril) pitched to Saudi defense?
 
-### Deep Dives by Topic
-- **Q4 2025 13F Delta Analysis (Feb 18, 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md`
-- **13F Baseline & Apollo Credit Architecture (Feb 14, 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Verification_Report_Feb14_2026.md`
-- **Apollo Credit Pipeline & QXO Consolidation**: `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Supplementary_Analysis_Feb14_2026.md`
-- **Enforcement Architecture & ISF Command (Feb 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md`
-- **Bondi Hearing Narrative Case Study (Feb 14, 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Bondi_Hearing_Feb14_2026.md`
-- **Palantir Technologies Entity Report (Feb 14, 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md`
-- **Omeed Malik "Semiotic Bridge"**: `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md`
-- **Board of Peace Security Architecture**: `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md`
-- **Super Bowl LX Media Firewall Case Study**: `12_The_Media_Firewall/Super_Bowl_LX_Media_Firewall_Case_Study.md`
-- **Arkansas-Federal Energy Bypass (DATA Act, CREU, Act 373)**: `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Federal_Energy_Bypass.md`
-- **Consolidation Timeline & Entity Overlap**: `Project_Trident/Copilot_Opus_4.6_Analysis/February_2026_Consolidation_Timeline.md`
-- **Vendor-State Fragmentation (Feb 2026)**: `Project_Trident/Copilot_Opus_4.6_Analysis/February_2026_System_Pattern_Analysis.md`
-- **Board of Peace Forensic Vetting**: `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md`
-- **West Bank Annexation / Al-Tanf / Arkansas / Media Firewall Tech**: `Project_Trident/Copilot_Opus_4.6_Analysis/February_2026_Supplementary_Addition.md`
-- **Administrative State Audit**: `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/` (DOGE→OPM→DOJ+FBI closed loop, 7 documents)
-- **Tech Infrastructure**: `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`
-- **Infrastructure Consolidation**: `Project_Trident/Copilot_Opus_4.6_Analysis/Consolidation_Analysis/consolidation_pattern_significance.md`
-- **Privatized Integration**: `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md`
-- **State Regulatory Capture**: `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md`
-- **Geopolitical Shifts**: `05_Geopolitical_Vectors/` (Venezuela, Yemen, CRINK, allied elections)
-- **Media Funding Networks**: `12_The_Media_Firewall/1789_Symbolism_Analysis.md`
-- **Media Firewall Narrative Timing**: `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md`
-- **January 2026 Signal Map**: `Project_Trident/Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/january_2026_signal_analysis.md`
-- **AI Fabrication Case Study**: `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md`
-- **February 2026 Compliance Window**: `Project_Trident/Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/recommendation_verification_feb9.md`
+2. Why does Resolution 2803 place the ISF under Board of Peace command rather than UN peacekeeping — with the Chairman given personal appointment authority?
+
+3. Why does the Board of Peace function as a corporate investment vehicle (verified PIF → Affinity → Phoenix → settlements → Gaza pipeline) while presenting as a diplomatic body?
+
+4. Why does the most strategically significant financial architecture operate entirely below the SEC 13F visibility threshold?
+
+5. Why was the Schedule Policy/Career rule published despite 94% public comment opposition — during the Epstein files media cycle?
+
+6. Why did PIF concentrate from 57 US equity positions to just 6 in a single quarter — and where did the exited capital go?
+
+→ **Full question list**: [Report.md](Report.md#key-questions)
 
 ---
 
-## For Researchers
+## For Different Audiences
 
-### Start Here
-1. `New_Data_2026/2026_Analysis.md` — Latest correlation findings
-2. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` — Q4 2025 13F delta: 18 entities, 68 holdings, 3 predictions tested
-3. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Verification_Report_Feb14_2026.md` — 13F baseline: 10 entities, 12 securities, Q3 2025
-4. `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Supplementary_Analysis_Feb14_2026.md` — Apollo credit pipeline, QXO consolidation, beard search
-5. `Project_Trident/Copilot_Opus_4.6_Analysis/Final_Research_Sweep_Feb12.md` — Enforcement architecture, ISF command, research verification
-6. `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` — Board of Peace leadership forensic vetting
-7. `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` — "Semiotic Bridge" forensic node analysis
-8. `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` — Q1 2026 applied findings
-9. `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md` — Palantir entity report (PFCS Forward, defense tech consolidation, DOGE integration, TIER 2 MODERATE)
-10. `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` — State-level pattern
-
-### Verify the Statistics
-```bash
-# Install dependencies
-cd Run_Correlations_Yourself/
-pip install -r requirements.txt
-
-# Reproduce original correlations (pre-2026 datasets)
-python run_original_analysis.py              # r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002
-
-# Run robustness tests (from repo root)
-cd ../Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/
-python permutation_test.py                   # Shuffle-based significance
-python autocorrelation_adjusted_test.py      # Block bootstrap
-python cross_validation_dec2025.py           # Dec 2025 exclusion test
-python granger_causality_test.py             # Predictive direction test
-```
-
-### Key Datasets
-- `Control_Proof/master_reflexive_correlation_data.csv` — Weekly friction/compliance indices
-- `Project_Trident/Best_Data_For_Project_Trident/ritual_events_parsed.csv` — Project Trident ritual timing
-- `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv` — CRINK axis discourse tracking
-- `09_Silicon_Sovereignty/VOCA_funding_timeline_clean.csv` — Victim services funding
-
----
-
-## For Policymakers & Journalists
-
-### Start Here
-1. `14_Files/How_This_Happened-A_Policy_Brief.md` — Regulatory citations, oversight questions
-2. `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` — Board of Peace forensic vetting, capital pipeline confirmation
-3. `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` — Board of Peace, Affinity/Phoenix, MEAD-CDOC
-4. `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` — State-level regulatory capture
-5. `05_Geopolitical_Vectors/Venezuela_Privatization_Amnesty_Stack_Feb2026.md` — Compliance reset pattern
-
-### Key Questions Raised
-- Why did the PSC approve a $1.5B project it explicitly found "not reasonable"?
-- Why did TikTok censorship reports emerge 72 hours after Oracle/UAE consortium takeover?
-- Why did major Saudi-UAE rupture occur during Venezuela media saturation?
-- Why do the same entities appear in EA, TikTok, Stargate, Grok, and World Liberty Financial deals?
-- Why has AVAIO's $750M anchor investor remained undisclosed for 5 years?
-- Why was Warsh's Fed Chair nomination announced on the same day as the largest Epstein file release in US history?
-- Why does the Media Firewall ecosystem cover Epstein demands and anti-NATO narratives but never cover MGX, Silver Lake, or Board of Peace financial architecture?
-- Why does the same capital entity (1789 Capital) that funds the Media Firewall (TCN, PublicSq) also fund the enforcement layer (Anduril) that pitches counter-drone systems to Saudi defense at WDS 2026?
-- Why does Resolution 2803 place the ISF under Board of Peace command rather than UN peacekeeping (DPKO), and why does the founding text give the Chairman personal delegation authority over the ISF Commander appointment?
-- Why does the DATA Act of 2026 create a federal utility exemption category (CREU) structurally identical to New Hampshire's HB 672 off-grid precedent — five months after HB 672 took effect?
-- Why was the Schedule Policy/Career rule published despite 94% public comment opposition — and during the Epstein files media cycle?
-- Why does the OPM Director who eliminated MSPB protections for 50,000 positions come from the same VC firm (a16z) that receives Saudi PIF capital?
-- Why does the Board of Peace function as a corporate investment vehicle — with verified capital pipeline from Saudi PIF through settlement companies to Gaza reconstruction — while presenting as a diplomatic body?
-- Why did Israel's security cabinet accelerate West Bank annexation measures (Feb 8) three days before Netanyahu's Board of Peace accession (Feb 11)?
-- Why does Apollo provide $3B+ in credit to QXO (Affinity Partners' sole public holding) while Marc Rowan sits on the Board of Peace executive committee that manages reconstruction contracts?
-- Why was the Board of Peace granted IOIA immunities (EO 14375) without Congressional authorization or treaty basis — and what are the legal implications of extending sovereign immunity to a body chaired by a sitting president?
-- Why did PIF concentrate from 57 US equity positions to just 6 in a single quarter — and where did the exited capital go?
-- Why does the most strategically significant financial architecture (Affinity → Phoenix, 1789 Capital → Anduril, MGX → TikTok) operate entirely below the SEC 13F visibility threshold?
-- Why does DISA's "authorize once, use many" framework for Palantir — which reduces deployment friction Pentagon-wide — receive authorization during the same convergence window (Feb 8-19) as the Bondi hearing, Board of Peace summit, and 13F filing deadline?
-- If the world reorganized after Enron (2001) and the 2008 financial crisis without systemic collapse, why does the current narrative frame the removal of specific individuals from critical positions as civilizational catastrophe — and who benefits from that framing?
-
-### Testable Predictions
-
-| Prediction | Timeframe | Status |
-|-----------|-----------|--------|
-| Event clustering at next file deadline | Ongoing | ✅ Confirmed (Jan 30-Feb 1: Epstein files + WLFI deal + Mandelson) |
-| Tu BiShvat policy action | Feb 1-2, 2026 | ✅ Window confirmed (DOJ files + WLFI deal) |
-| Gulf SWF Q4 positioning revealed | Feb 14, 2026 | ❌ RESOLVED — No Gulf SWF in Oracle/defense; only Norges Bank accumulating ORCL (+13.76%) and PLTR (~$5.15B) |
-| DOGE-predicted instability | Q1 2026 | Tracking (Mali, Syria, Sudan) |
-| California TikTok investigation findings | Q1 2026 | Pending |
-| Khanna investigation findings | March 2026 | Document deadline March 1 |
-| UK Mandelson disclosure | Feb-March 2026 | ✅ Escalated (Met Police criminal investigation; parliamentary vote passed) |
-| Board of Peace first summit | Feb 19, 2026 | ✅ **HELD** — ~50 countries (27 members, ~22 observers), $7B pledged, $10B US; 5 countries committed troops (Indonesia, Morocco, Kazakhstan, Kosovo, Albania) |
-| Board of Peace = "Board of Profits" | Feb 2026 | ✅ Confirmed ($1B = permanent membership confirmed; American Prospect) |
-| West Bank annexation acceleration | Feb 2026 | ✅ Confirmed (Feb 8 cabinet vote — de facto annexation per Al Jazeera, OHCHR) |
-| Al-Tanf withdrawal / Iran concession | Feb 11, 2026 | ✅ Confirmed (withdrawal) / ⚠️ Causal link to Oman talks partially verified |
-| Arkansas PSC order text release | Q1 2026 | FOIA pending |
-| Feb 1–19 compliance window density | Feb 2026 | ✅ Confirmed (9 compliance events documented) |
-| Indonesia ISF troop deployment | 2026 | ✅ In active preparation (5,000–8,000 troops; expected first to deploy) |
-| ISF under BoP (not UN) command | Feb 2026 | ✅ Confirmed (Resolution 2803 text, ASIL analysis, Chatham House) |
-| 1789 Capital → Anduril → WDS 2026 link | Feb 2026 | ✅ Confirmed (1789 Capital investor in Anduril; Anduril exhibited at WDS 2026 Riyadh) |
-| NTEU court-ordered position list disclosure | Feb 27, 2026 | Pending — first public view of which jobs lose protections |
-| Schedule Policy/Career implementation | Mar 9, 2026 | Pending — ~50,000 positions become at-will |
-| Q4 2025 13F: PIF EA position change | Feb 17+, 2026 | ❌ NO CHANGE — 24,807,932 shares stable (deal locked for $55B take-private) |
-| Q4 2025 13F: Mubadala defense expansion | Feb 17+, 2026 | ❌ REVERSED — Mubadala FULLY EXITED LMT (18,554 shares → 0). Zero direct US defense. |
-| Q4 2025 13F: New Gulf SWF Oracle/defense entries | Feb 17+, 2026 | ❌ NOT FOUND — December pincer window produced no visible Gulf SWF accumulation |
-| QXO further acquisitions | 2026 | Tracking — "very active" pipeline, $10B M&A war chest |
-| EO 14375 legal challenge (IOIA authorization) | 2026 | Pending — Just Security analysis questions Congressional authorization |
-| Feb 11 compliance density repeat at next major hearing | Ongoing | Pending — testable prediction from Bondi case study |
+| Audience | Start Here |
+|----------|------------|
+| **Researchers** | [Project_Trident/](Project_Trident/) — Independent verification, robustness tests |
+| **Journalists** | [14_Files/How_This_Happened-A_Policy_Brief.md](14_Files/How_This_Happened-A_Policy_Brief.md) |
+| **Skeptics** | [Run_Correlations_Yourself/](Run_Correlations_Yourself/) — Fork and verify |
+| **AI Assistants** | [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) |
 
 ---
 
 ## Methodology
 
-1. **Multi-AI Verification**: Findings cross-checked using Claude, Grok, and Gemini
+1. **Multi-AI Verification**: Cross-checked using Claude, Grok, and Gemini
 2. **Statistical Testing**: Pearson correlation, Mann-Whitney U, chi-square, Granger causality, permutation tests
-3. **Robustness Testing**: Autocorrelation adjustment, Dec 2025 exclusion, normalized correlation, rolling-window analysis, event-study framework (see `Project_Trident/Copilot_Opus_4.6_Analysis/`)
-4. **Raw Event Counts**: Replaced subjective scoring with verifiable event counts
-5. **Source Triangulation**: Government filings, financial data, news archives
-6. **Cross-Repo Validation**: Patterns verified across internal datasets (external repo data from Layers 2-3 retracted — see `Archive/Retracted_Three_Layer_References.md`)
-7. **Explicit Limitations**: Documented in each module
+3. **Raw Event Counts**: Replaced subjective scoring with verifiable event counts
+4. **Source Triangulation**: Government filings, financial data, news archives
+5. **Explicit Limitations**: Documented in each module
+
+→ **Full methodology**: [14_Files/METHODOLOGY.md](14_Files/METHODOLOGY.md)
 
 ---
 
@@ -634,49 +184,23 @@ python granger_causality_test.py             # Predictive direction test
 
 This repository documents **correlations, not causation**. All findings derive from publicly available data using standard statistical methods.
 
-**The author makes no claims about**:
+**The author makes no claims about:**
 - Intent or coordination between actors
 - Individual motivations or culpability
 - Whether patterns are deliberate or emergent
 
-**The claim is structural**: Statistically significant clustering patterns exist and are reproducible.
-
-The `14_Files/Main_Characters.md`, `14_Files/Implications.md`, and state-level analysis modules specifically disclaim any assertion of conscious coordination. Performative patterns enable detection of quieter correlations—this is an analytical observation, not an accusation.
+**The claim is structural:** Statistically significant clustering patterns exist and are reproducible.
 
 ---
 
 ## Connected Repositories
 
 | Repository | Focus |
-|-----------|-------|
-| **Project-Chrysanthemum_Japan-China-AI** | Japan-China tech integration |
-| **Sovereign-Capital-Audit** | Gulf SWF positioning |
+|------------|-------|
+| [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
+| [Sovereign-Capital-Audit](https://github.com/Leerrooy95/Sovereign-Capital-Audit) | Gulf SWF positioning |
 
-> **Note:** DOGE_Global_Effects and BRICS-NDB-LocalCurrency-DiD were previously listed here but have been removed due to Grok-fabricated data. See `Archive/Retracted_Three_Layer_References.md`.
-
----
-
-## Statistical Validation
-
-Core findings independently verified January–February 2026:
-- **Original correlation** (r = 0.6196, 2-week lag): ✅ Exact reproduction
-- **Project Trident** (p = 0.002): ✅ Exact reproduction
-- **Ritual proximity** (50.7% vs 19.9%, 2.5x): ✅ Exact reproduction
-- **Cross-validation** (χ² = 330.62): ✅ Exact reproduction
-- **December 2025 anomaly**: ✅ Confirmed (z = 2.35, p < 0.01)
-
-**Note:** The previously reported r = 0.6685 and r = 0.5268 were deprecated in v8.3-v8.4. Those correlations were produced when the user accidentally mixed New_Data_2026 datasets into verification scripts — a user dataset-mixing error, not an AI computation error. Archived scripts in `Run_Correlations_Yourself/Wrong_Correlations/` for transparency.
-
-### Robustness Tests (Copilot_Opus_4.6_Analysis, Feb 2026)
-
-Using the original pre-2026 datasets plus newly incorporated data from folders 01, 02, 03:
-- **Permutation test (30-row)**: r = 0.62 significant (p < 0.001, 1K shuffles)
-- **Permutation test (multi-dataset)**: Spearman ρ = 0.61 significant (p < 0.0001, 10K shuffles)
-- **Granger causality (30-row)**: Friction → Compliance at lag 1 (p = 0.0008)
-- **Binary correlation (presence/absence)**: r = 0.59 (p < 0.0001)
-- **Block bootstrap (autocorrelation-adjusted)**: Pearson p = 0.008, Spearman p = 0.0001
-
-See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_4.6_Analysis/` for complete independent analyses.
+> **Note:** DOGE_Global_Effects and BRICS-NDB-LocalCurrency-DiD were removed due to Grok-fabricated data. See [Archive/Retracted_Three_Layer_References.md](Archive/Retracted_Three_Layer_References.md).
 
 ---
 
@@ -684,4 +208,8 @@ See `14_Files/VERIFICATION_REPORT_Jan2026.md` and `Project_Trident/Copilot_Opus_
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 23, 2026 (v10.0) — Total Actor and Timeline Synthesis, statistical alignment audit synchronized, n-count corrected to n = 28 effective.
+**Last updated**: February 23, 2026 (v10.0)
+
+---
+
+*The data is public. The code is public. The claims are reproducible and sourced.*
