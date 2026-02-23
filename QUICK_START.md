@@ -55,7 +55,8 @@ Your data pipeline had a **disconnect** between:
 ### Step 1: Update Push Script Path
 Edit `push_spider_data.sh` line 19:
 ```bash
-REPO_DIR="/home/yourusername/The_Regulated_Friction_Project"  # Change this!
+REPO_DIR="<UPDATE_THIS_PATH>"  # Replace with actual path
+# Example: REPO_DIR="/home/johndoe/The_Regulated_Friction_Project"
 ```
 
 ### Step 2: Configure Git Authentication
@@ -89,8 +90,8 @@ cat /var/log/spider_push.log
 crontab -e
 
 # Add these lines (update REPO_DIR and DASHBOARD_URL first):
-REPO_DIR=/your/repo/path
-DASHBOARD_URL=https://your-app.streamlit.app
+REPO_DIR=<UPDATE_THIS_PATH>
+DASHBOARD_URL=<UPDATE_THIS_URL>
 
 0 2 * * * cd $REPO_DIR && /usr/bin/python3 -m scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json" >> /var/log/spider_run.log 2>&1
 15 2 * * * $REPO_DIR/push_spider_data.sh

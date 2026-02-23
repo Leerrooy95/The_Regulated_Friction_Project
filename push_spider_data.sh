@@ -16,7 +16,7 @@ set -e  # Exit on error
 set -u  # Exit on undefined variable
 
 # ── Configuration ────────────────────────────────────────────────────────────
-REPO_DIR="/path/to/The_Regulated_Friction_Project"  # UPDATE THIS PATH
+REPO_DIR="<UPDATE_THIS_PATH>"  # REQUIRED: Full path to your repo (e.g., /home/user/The_Regulated_Friction_Project)
 SPIDER_OUTPUT_DIR="federal_register/Spider Output Files"
 OUTPUT_DIR="output"
 GIT_BRANCH="main"  # or your default branch
@@ -52,7 +52,8 @@ log "Pulled latest changes from origin/$GIT_BRANCH"
 # Stage spider output files
 if [ -d "$SPIDER_OUTPUT_DIR" ]; then
     git add "$SPIDER_OUTPUT_DIR"/*.json 2>/dev/null || true
-    log "Staged files from $SPIDER_OUTPUT_DIR"
+    SPIDER_STAGED=$(git diff --cached --name-only | grep -c "^$SPIDER_OUTPUT_DIR/" || true)
+    log "Staged $SPIDER_STAGED file(s) from $SPIDER_OUTPUT_DIR"
 else
     log "WARNING: Spider output directory not found: $SPIDER_OUTPUT_DIR"
 fi
@@ -61,7 +62,8 @@ fi
 if [ -d "$OUTPUT_DIR" ]; then
     git add "$OUTPUT_DIR"/*.json 2>/dev/null || true
     git add "$OUTPUT_DIR"/*.txt 2>/dev/null || true
-    log "Staged files from $OUTPUT_DIR"
+    OUTPUT_STAGED=$(git diff --cached --name-only | grep -c "^$OUTPUT_DIR/" || true)
+    log "Staged $OUTPUT_STAGED file(s) from $OUTPUT_DIR"
 else
     log "WARNING: Output directory not found: $OUTPUT_DIR"
 fi

@@ -12,10 +12,12 @@
 # ── REQUIRED CONFIGURATION (UPDATE THESE!) ──────────────────────────────────
 
 # Full path to your repository on the Droplet
-REPO_DIR=/home/yourusername/The_Regulated_Friction_Project
+# Example: REPO_DIR=/home/johndoe/The_Regulated_Friction_Project
+REPO_DIR=<UPDATE_THIS_PATH>
 
 # Your Streamlit dashboard URL (find at https://share.streamlit.io/)
-DASHBOARD_URL=https://your-app-name.streamlit.app
+# Example: DASHBOARD_URL=https://my-friction-dashboard.streamlit.app
+DASHBOARD_URL=<UPDATE_THIS_URL>
 
 # ── OPTIONAL CONFIGURATION ──────────────────────────────────────────────────
 
