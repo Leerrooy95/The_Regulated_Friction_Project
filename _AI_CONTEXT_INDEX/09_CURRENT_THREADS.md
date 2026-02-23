@@ -4,6 +4,65 @@
 
 ---
 
+## Active Leverage Nodes (February 2026)
+
+**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics.
+
+### Node 1: G. Maxwell (Information → Clemency)
+
+| Detail | Status (Feb 2026) |
+|--------|-------------------|
+| Leverage type | Information leverage (Epstein network knowledge) |
+| Current status | Incarcerated; invoked 5th Amendment before House Oversight (Feb 9, 2026) |
+| Negotiation | [Inference] Offered testimony in exchange for executive clemency |
+| Strategic value | Access to unreleased Epstein network documentation |
+| Last updated | Feb 9, 2026 (House Oversight testimony) |
+
+**Source**: House Oversight Committee hearing transcript (Feb 9, 2026)
+
+### Node 2: Iran (Cyber Leverage + Nuclear Threshold)
+
+| Detail | Status (Feb 2026) |
+|--------|-------------------|
+| Leverage type | Information leverage (cyber) + kinetic deterrent (nuclear threshold) |
+| Cyber holdings | [Inference] IRGC holds ~100GB Trump inner circle emails ("Robert" operation, 2024 campaign targeting) |
+| Additional cyber | Handala hacking group targeting Israeli officials (Ehud Barak hack, October 2024) |
+| Nuclear status | Nuclear threshold capacity maintained as kinetic deterrent |
+| Strategic function | Dual-track leverage: information for diplomatic compliance, nuclear for existential deterrent |
+| Last updated | Feb 2026 |
+
+**Sources**: 
+- ODNI briefing on "Robert" operation (2024)
+- Handala hack reporting (October 2024)
+- IAEA assessments (ongoing)
+
+### Node 3: Gulf SWFs (Capital Leverage)
+
+| Detail | Status (Feb 2026) |
+|--------|-------------------|
+| Leverage type | Capital leverage (~$4.9T combined AUM) |
+| Primary funds | PIF (Saudi), Mubadala/ADIA (UAE), QIA (Qatar), KIA (Kuwait) |
+| Strategic function | [Inference] Acting as "thermostat" — regulating US-Iran friction intensity to protect infrastructure investments |
+| Key investments | AVAIO campus (Arkansas, $21B), TikTok (45% consortium), EA ($55B), Stargate equity |
+| Policy influence | DATA Act of 2026 (CREU exemption), Arkansas Acts 373/548 |
+| Political alignment | Tom Cotton (R-AR) constituency for Arkansas infrastructure |
+| Last updated | Feb 2026 |
+
+**Sources**:
+- SEC 13F filings (Q4 2025)
+- Arkansas PSC proceedings
+- Press releases (EA, TikTok, Stargate)
+
+### Leverage Node Summary
+
+| Node | Leverage Type | Current Status | Strategic Function |
+|------|---------------|----------------|-------------------|
+| **G. Maxwell** | Information → Clemency | 5th Amendment invoked (Feb 9, 2026) | Potential testimony exchange |
+| **Iran** | Cyber + Nuclear | ~100GB emails + threshold capacity | Diplomatic compliance enforcement |
+| **Gulf SWFs** | Capital (~$4.9T AUM) | Active positioning | Friction intensity regulation |
+
+---
+
 ## February 2026 Developments
 
 ### DOJ Epstein Files Release (Jan 30-31, 2026)

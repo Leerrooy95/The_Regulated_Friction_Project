@@ -176,6 +176,72 @@ Unified Control
 
 ---
 
+## Domestic Track B: Capital Leverage Infrastructure
+
+### The Dual-Track Framework
+
+While information leverage (Track A) consumes public attention through high-visibility friction events, capital leverage (Track B) restructures domestic infrastructure with reduced scrutiny. [Inference] Gulf sovereign wealth funds (~$4.9T combined AUM) act as a "thermostat" — regulating US-Iran friction intensity to protect physical infrastructure investments.
+
+### Gulf SWF Capital Positioning (~$4.9T AUM)
+
+| Fund | AUM (Est.) | Key Role |
+|------|------------|----------|
+| **PIF** (Saudi Arabia) | ~$930B | Gaming infrastructure, EA acquisition |
+| **Mubadala** (UAE) | ~$300B | GlobalFoundries, Bitcoin ETF, tech diversification |
+| **ADIA** (UAE) | ~$990B | Diversified portfolio, real estate, infrastructure |
+| **QIA** (Qatar) | ~$500B | Global diversification, US real estate |
+| **KIA** (Kuwait) | ~$900B | Conservative allocation, US equities |
+
+**Combined Leverage**: ~$4.9T AUM positions Gulf states as critical capital providers, creating structural dependencies that influence policy outcomes.
+
+### AVAIO Arkansas Campus
+
+| Detail | Information |
+|--------|-------------|
+| Initial investment | $6B |
+| Full buildout | $21B |
+| Location | Arkansas |
+| Backer | Undisclosed "$25 billion investment manager" (5 years anonymity maintained) |
+| Political alignment | Tom Cotton (R-AR) constituency |
+| Regulatory framework | Acts 373 and 548 (see Arkansas Regulatory Loop above) |
+
+**Status**: ⚠️ MONITORING — Investor identity remains undisclosed despite multi-billion commitment.
+
+### DATA Act of 2026
+
+| Component | Detail |
+|-----------|--------|
+| Full name | Data Availability Through Accessible Energy Act of 2026 |
+| Key provision | Creates Compute Resource Exempt Utility (CREU) designation |
+| CREU exemption | Data centers designated as CREUs exempt from FERC jurisdiction |
+| Impact | [Inference] Bypasses federal energy oversight for designated facilities |
+| Beneficiaries | Large-scale data center operators with sufficient capital |
+
+### CREU Exemption Structure
+
+[Inference] The CREU designation creates a regulatory carve-out where:
+1. Qualifying data centers receive utility-level infrastructure access
+2. FERC oversight is bypassed through state-level designation
+3. Acts 373/548 (Arkansas) provide complementary tax exemption
+4. Combined structure enables foreign capital to build domestic infrastructure with reduced regulatory scrutiny
+
+### Thermostat Function
+
+[Inference] Gulf SWFs serve as friction regulators:
+- **Too much friction** → Infrastructure investments at risk
+- **Too little friction** → Narrative utility of distraction reduced
+- **Optimal friction** → Maintains attention management while protecting capital positions
+
+This explains positioning in both: (1) friction-adjacent investments (media, narrative) and (2) long-term infrastructure (data centers, energy, compute).
+
+### Cross-References
+
+- **For Dual-Track System overview**: `01_CORE_THEORY.md`
+- **For active leverage tracking**: `09_CURRENT_THREADS.md`
+- **For Arkansas regulatory detail**: `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md`
+
+---
+
 ## Key Sources
 
 | Document | Location |
