@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** February 21, 2026
-**Version:** v9.9
+**Last Updated:** February 23, 2026
+**Version:** v10.0
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -1044,7 +1044,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 ## Summary
 
-This research documents thirteen connected patterns:
+This research documents fifteen connected patterns:
 
 **The statistical foundation:** Friction events predict compliance events at a 2-week lag (r = +0.6196, p = 0.0004, n = 28) in the 30-week hand-scored dataset. Confirmed by multi-dataset Spearman ρ = 0.61 (p < 0.0001) across 2,951 events. Survives permutation testing (p < 0.001), Granger causality at lag 1 (p = 0.0008), and binary presence/absence (r = 0.59). Robust to December 2025 exclusion (ρ = 0.60).
 
@@ -1072,6 +1072,10 @@ This research documents thirteen connected patterns:
 
 **The 13F prediction test & Board of Peace summit (Feb 18-19, 2026):** Three Q3-based predictions FAILED (negative findings = data). Mubadala IBIT +46%; Abu Dhabi complex ~$1.04B in Bitcoin ETF. Thiel Macro liquidated all public equities. Board of Peace summit: ~50 countries (27 members), $7B pledged, 10% of $70B need, five countries committed troops.
 
+**The actor network synthesis (Feb 21, 2026):** Repository-wide audit mapped 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) across Tech/AI, Diplomacy, Defense, Finance, and Media domains. Three verified capital pipelines documented. 7 timeline discrepancies identified for correction.
+
+**The evangelical network analysis (Feb 21, 2026):** Three evangelical channels mapped (Russia/WCF-Graham, Gulf/Rosenberg-MBS, Israel/CUFI). Channels are PARALLEL but SEPARATE — no personnel overlap, divergent framing. WCF↔Russian Orthodox = strong synchronization. Sanctions ineffective against narrative operations (Malofeev, Yakunin). Malofeev node Russia-specific, no Gulf connection.
+
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
 The data is public. The code is public. The claims are reproducible and sourced.
@@ -1092,4 +1096,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 21, 2026 (v9.9). Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated February 23, 2026 (v10.0). Total Actor and Timeline Synthesis, Evangelical Network Analysis. Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
