@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** February 23, 2026
-**Version:** v10.0
+**Last Updated:** February 24, 2026
+**Version:** v10.1
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -1094,4 +1094,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 23, 2026 (v10.0). Total Actor and Timeline Synthesis. Statistical alignment audit: synchronized n-count (n = 28 effective) across dashboard and reports; verified r = 0.6196 against master dataset. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated February 24, 2026 (v10.1). Dashboard infrastructure validated: spider→merge→push→dashboard pipeline confirmed operational. Repository restructured: validation reports to `docs/validation/`, LLM archive to `output/archive/`. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

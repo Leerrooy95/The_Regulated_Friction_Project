@@ -12,7 +12,7 @@ The Streamlit dashboard loads data from the following locations:
 - `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` - 66 historical event pairs
 - `Run_Correlations_Yourself/negative_windows.csv` - 5 non-response windows
 - `federal_register/Spider Output Files/items_federal_register_eo_1.json` - Live EO data from spider
-- `output/*_extracted.json` - Latest LLM intelligence extractions
+- `output/*_extracted.json` - Latest LLM intelligence extractions (older in `output/archive/`)
 
 ### Data Update Flow
 1. **DigitalOcean Droplet** runs Scrapy spiders daily (cron scheduled)
@@ -235,4 +235,4 @@ Most datasets include a `verification_status` field:
 
 ---
 
-*This reference guide documents CSVs as of February 2026.*
+*This reference guide documents CSVs as of February 24, 2026.*
