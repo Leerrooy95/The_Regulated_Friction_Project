@@ -16,6 +16,9 @@ on:
       - 'Run_Correlations_Yourself/**'
       - 'federal_register/**'
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
