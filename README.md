@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.0
+# The Regulated Friction Project v10.1
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -103,19 +103,21 @@ The_Regulated_Friction_Project/
 ├── Run_Correlations_Yourself/    # Reproducibility scripts
 ├── New_Data_2026/                # 2026 datasets
 ├── federal_register/             # Scrapy spiders (automated scraping)
-└── dashboard/                    # Streamlit dashboard source
+├── dashboard/                    # Streamlit dashboard source
+├── docs/validation/              # Infrastructure validation reports
+└── output/                       # LLM extractions (archive/ for older)
 ```
 
 ---
 
-## What's New (v10.0) — February 2026
+## What's New (v10.1) — February 2026
 
+- **Dashboard infrastructure validated**: Full end-to-end validation passed (spider→merge→push→dashboard pipeline). See `docs/validation/VALIDATION_REPORT_2026-02-24.md`
+- **Repository restructured**: Validation reports moved to `docs/validation/`, older LLM extractions archived to `output/archive/`
+- **Live data pipeline active**: Federal Register spider fetching and merging 1006+ EOs (2006-2026), automated via DigitalOcean cron
 - **Total Actor and Timeline Synthesis**: Repository-wide audit of 7 Tier 1 entities across Tech/AI, Diplomacy, Defense, Finance, Media domains
 - **Statistical alignment audit**: n-count synchronized to n = 28 effective; verified r = 0.6196 against master dataset
 - **Israel leverage node added**: Completes four-node architecture (Maxwell, Iran, Gulf SWFs, Israel) in `09_CURRENT_THREADS.md`
-- **Dual-Track System documentation**: Track A (Information Leverage) + Track B (Capital Leverage) framework in context index
-- **Framework validation statements**: Obama, Massie, Sanders quotes added to `01_CORE_THEORY.md`
-- **Historical backfill complete**: 66 friction→compliance pairs (2017-2024) with negligible correlation impact
 
 → **Full changelog**: [CHANGELOG.md](CHANGELOG.md)
 
@@ -208,7 +210,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 23, 2026 (v10.0)
+**Last updated**: February 24, 2026 (v10.1)
 
 ---
 
