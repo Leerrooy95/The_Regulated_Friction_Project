@@ -3,9 +3,10 @@ Historical Friction-Compliance Explorer — Track A MVP Dashboard
 Main Streamlit entry point.
 """
 
-import os
-import glob
 import json
+from collections import Counter
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -36,6 +37,9 @@ from correlation_engine import (
 )
 from data_loader import load_backfill, load_core_dataset, load_eo_spider, load_negative_windows
 
+# ── Repo root for path resolution (matches data_loader.py) ───────────────
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 # ── Page config ──────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Historical Friction-Compliance Explorer",
@@ -47,14 +51,35 @@ st.set_page_config(
 # ── LLM Data Loader ──────────────────────────────────────────────────────
 @st.cache_data(ttl=3600) 
 def load_latest_intel():
-    """Finds and loads the most recent JSON extraction from the LLM."""
-    list_of_files = glob.glob("output/*_extracted.json")
-    if not list_of_files:
+    """Finds and loads the most recent timestamped JSON extraction from the LLM.
+    
+    Dynamically discovers the latest *_extracted.json file in output/ folder
+    by sorting filenames (YYYYMMDD_HHMMSS_extracted.json format ensures
+    lexicographic sorting matches chronological order).
+    
+    Returns
+    -------
+    dict or None
+        Parsed JSON data from the latest extraction file, or None if no files found.
+    """
+    output_dir = REPO_ROOT / "output"
+    if not output_dir.exists():
         return None
-    latest_file = sorted(list_of_files, reverse=True)[0]
-    with open(latest_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
+    
+    # Find all timestamped extraction files
+    extraction_files = list(output_dir.glob("*_extracted.json"))
+    if not extraction_files:
+        return None
+    
+    # Sort by filename (timestamp format ensures chronological order)
+    latest_file = sorted(extraction_files, key=lambda p: p.name, reverse=True)[0]
+    
+    try:
+        with open(latest_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data
+    except (json.JSONDecodeError, IOError):
+        return None
 
 # ── Load data ────────────────────────────────────────────────────────────
 core_df = load_core_dataset()
@@ -769,31 +794,107 @@ with tab_live_intel:
             friction_events = [e for e in events if e.get("event_type") == "FRICTION"]
             compliance_evts = [e for e in events if e.get("event_type") == "COMPLIANCE"]
 
+            # Helper: Count events per date to detect high-density days
+            all_dates = [e.get("date") for e in events]
+            date_counts = Counter(all_dates)
+            HIGH_DENSITY_THRESHOLD = 3  # Days with more than this many events use jittering/hover
+            
+            def get_jittered_y_positions(event_list, base_y):
+                """Return y-positions with vertical jitter for high-density dates.
+                
+                For dates with >3 events, spread markers vertically to avoid overlap.
+                Uses small offsets (±0.12) to create visual separation.
+                """
+                dates = [e.get("date") for e in event_list]
+                date_indices = {}  # Track how many events we've seen per date
+                y_positions = []
+                
+                for i, date in enumerate(dates):
+                    count = date_counts.get(date, 0)
+                    if count > HIGH_DENSITY_THRESHOLD:
+                        # High density: apply vertical jitter
+                        if date not in date_indices:
+                            date_indices[date] = 0
+                        idx = date_indices[date]
+                        date_indices[date] += 1
+                        
+                        # Spread events around base_y with small offsets
+                        # Pattern: 0, +0.12, -0.12, +0.24, -0.24, etc.
+                        if idx == 0:
+                            offset = 0
+                        else:
+                            offset = (0.12 * ((idx + 1) // 2)) * (1 if idx % 2 == 1 else -1)
+                        y_positions.append(base_y + offset)
+                    else:
+                        y_positions.append(base_y)
+                
+                return y_positions
+            
+            def get_smart_text_labels(event_list):
+                """Return text labels, hiding them for high-density days (hover instead)."""
+                labels = []
+                for e in event_list:
+                    date = e.get("date")
+                    count = date_counts.get(date, 0)
+                    if count > HIGH_DENSITY_THRESHOLD:
+                        # High density: hide text label, rely on hover
+                        labels.append("")
+                    else:
+                        # Normal density: show abbreviated event ID
+                        labels.append(e.get("event_id", "").split("_")[-1][:12])
+                return labels
+            
+            def get_rich_hover_text(event_list):
+                """Build rich hover text with event details."""
+                hover_texts = []
+                for e in event_list:
+                    date = e.get("date", "")
+                    event_id = e.get("event_id", "")
+                    category = e.get("category", "")
+                    desc = e.get("description", "")[:100]
+                    count = date_counts.get(date, 0)
+                    
+                    if count > HIGH_DENSITY_THRESHOLD:
+                        # High density: include count in hover
+                        hover_texts.append(
+                            f"<b>{event_id}</b><br>"
+                            f"<i>{category}</i><br>"
+                            f"{desc}<br>"
+                            f"<span style='color:#FF8C00;'>({count} events this day)</span>"
+                        )
+                    else:
+                        hover_texts.append(
+                            f"<b>{event_id}</b><br>"
+                            f"<i>{category}</i><br>"
+                            f"{desc}"
+                        )
+                return hover_texts
+
             if friction_events:
                 fig_timeline.add_trace(go.Scatter(
                     x=[e.get("date") for e in friction_events],
-                    y=[1] * len(friction_events),
+                    y=get_jittered_y_positions(friction_events, base_y=1),
                     mode="markers+text",
                     marker=dict(size=12, color=COLOR_FRICTION, symbol="triangle-up"),
-                    text=[e.get("event_id", "").split("_")[-1][:12] for e in friction_events],
+                    text=get_smart_text_labels(friction_events),
                     textposition="top center",
                     textfont=dict(size=9),
                     name="Friction",
-                    hovertext=[e.get("description", "")[:80] for e in friction_events],
+                    hovertext=get_rich_hover_text(friction_events),
                     hoverinfo="text",
                 ))
 
             if compliance_evts:
                 fig_timeline.add_trace(go.Scatter(
                     x=[e.get("date") for e in compliance_evts],
-                    y=[0] * len(compliance_evts),
+                    y=get_jittered_y_positions(compliance_evts, base_y=0),
                     mode="markers+text",
                     marker=dict(size=12, color=COLOR_COMPLIANCE, symbol="square"),
-                    text=[e.get("event_id", "").split("_")[-1][:12] for e in compliance_evts],
+                    text=get_smart_text_labels(compliance_evts),
                     textposition="bottom center",
                     textfont=dict(size=9),
                     name="Compliance",
-                    hovertext=[e.get("description", "")[:80] for e in compliance_evts],
+                    hovertext=get_rich_hover_text(compliance_evts),
                     hoverinfo="text",
                 ))
 
@@ -828,7 +929,8 @@ with tab_live_intel:
             st.plotly_chart(fig_timeline, use_container_width=True)
             st.caption(
                 "Orange dashed line = highest single-day compliance density. "
-                "Hover over markers for event descriptions."
+                "High-density days (>3 events) use vertical jittering and hover tooltips "
+                "to prevent label overlap. Hover over markers for full event details."
             )
 
 
