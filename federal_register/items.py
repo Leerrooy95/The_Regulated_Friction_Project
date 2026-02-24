@@ -13,6 +13,7 @@ class ExecutiveOrderItem(scrapy.Item):
     Document_Number = scrapy.Field()
     URL = scrapy.Field()
     Subtype = scrapy.Field()
+    Capital_Leverage_Keywords = scrapy.Field()  # Track B keywords matched (Section 122, etc.)
 
 
 class DOJPressReleaseItem(scrapy.Item):
@@ -24,3 +25,4 @@ class DOJPressReleaseItem(scrapy.Item):
     Number = scrapy.Field()
     Component = scrapy.Field()
     Topic = scrapy.Field()
+    Capital_Leverage_Keywords = scrapy.Field()  # Track B keywords matched (Section 122, etc.)
