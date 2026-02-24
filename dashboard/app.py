@@ -4,6 +4,7 @@ Main Streamlit entry point.
 """
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -76,11 +77,15 @@ def load_latest_intel():
     latest_file = sorted(extraction_files, key=lambda p: p.name, reverse=True)[0]
     
     # Extract date from filename (format: YYYYMMDD_HHMMSS_extracted.json)
+    # Use regex for robust pattern validation
     filename = latest_file.name
     file_timestamp = None
-    if len(filename) >= 8 and filename[:8].isdigit():
-        # Parse YYYYMMDD to YYYY-MM-DD format
-        file_timestamp = f"{filename[:4]}-{filename[4:6]}-{filename[6:8]}"
+    match = re.match(r'^(\d{4})(\d{2})(\d{2})_\d{6}_extracted\.json$', filename)
+    if match:
+        year, month, day = match.groups()
+        # Validate date components are reasonable
+        if 1 <= int(month) <= 12 and 1 <= int(day) <= 31:
+            file_timestamp = f"{year}-{month}-{day}"
     
     try:
         with open(latest_file, "r", encoding="utf-8") as f:
@@ -108,7 +113,12 @@ with st.sidebar:
     if intel_data:
         # Use file timestamp (from filename) for accurate "last updated" date
         # Falls back to extraction_metadata timestamp if filename parsing fails
-        display_timestamp = intel_file_timestamp or intel_data.get("extraction_metadata", {}).get("timestamp", "Unknown")[:10]
+        if intel_file_timestamp:
+            display_timestamp = intel_file_timestamp
+        else:
+            fallback = intel_data.get("extraction_metadata", {}).get("timestamp", "Unknown")
+            # Safely slice timestamp to YYYY-MM-DD format if long enough, otherwise use as-is
+            display_timestamp = fallback[:10] if len(fallback) >= 10 else fallback
         # Use actual event array length — the model's metadata count can hallucinate
         events_processed = len(intel_data.get("events", []))
         st.success(f"🤖 Live Intel Active\n\nLast updated: {display_timestamp}\n\nEvents processed: {events_processed}")
