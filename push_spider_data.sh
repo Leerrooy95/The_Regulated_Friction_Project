@@ -49,6 +49,13 @@ log "Checked out branch: $GIT_BRANCH"
 git pull origin "$GIT_BRANCH" || error_exit "Failed to pull latest changes"
 log "Pulled latest changes from origin/$GIT_BRANCH"
 
+# Merge spider output JSON (fixes multi-array issue from scrapy -o append mode)
+SPIDER_JSON="$SPIDER_OUTPUT_DIR/items_federal_register_eo_1.json"
+if [ -f "$SPIDER_JSON" ]; then
+    python3 merge_spider_output.py "$SPIDER_JSON" || error_exit "Failed to merge spider output JSON"
+    log "Merged spider output JSON: $SPIDER_JSON"
+fi
+
 # Stage spider output files
 if [ -d "$SPIDER_OUTPUT_DIR" ]; then
     git add "$SPIDER_OUTPUT_DIR"/*.json 2>/dev/null || true

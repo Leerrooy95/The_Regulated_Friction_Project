@@ -32,6 +32,13 @@ cd /path/to/The_Regulated_Friction_Project
 scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_federal_register_eo_1.json"
 ```
 
+**Note**: The `-o` flag appends to the existing JSON file. The `push_spider_data.sh` script automatically merges multiple JSON arrays using `merge_spider_output.py` to maintain a single valid JSON array.
+
+### Test the merge script (optional manual test):
+```bash
+python3 merge_spider_output.py "federal_register/Spider Output Files/items_federal_register_eo_1.json"
+```
+
 ### Test the push script:
 ```bash
 ./push_spider_data.sh
