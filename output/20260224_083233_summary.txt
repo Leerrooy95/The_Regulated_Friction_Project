@@ -1,0 +1,33 @@
+=== EXTRACTION SUMMARY — 20260224_083233 ===
+Events processed:       23
+Convergence nodes:      9
+Active window:          2026-02-08 to 2026-02-21
+Friction events:        6
+Compliance events:      11
+Density vs baseline:    4.67x
+Pending signals:        10
+
+--- CONVERGENCE NODES ---
+  Apollo Global Management — 3 domains: Finance, Defense, Governance
+  Mubadala — 3 domains: Finance, Energy, Governance
+  Saudi PIF — 3 domains: Finance, Energy, Defense
+  Silver Lake — 3 domains: Finance, Technology, Media
+  Oracle — 3 domains: Technology, Finance, Defense
+  MGX — 3 domains: Finance, Energy, Defense
+  Affinity Partners — 3 domains: Finance, Real_Estate, Governance
+  Thiel Macro LLC — 3 domains: Finance, Technology, Defense
+  1789 Capital — 3 domains: Finance, Media, Defense
+
+--- TIER 1 CRITICAL EVENTS ---
+  [FRICTION] 2026-01-30 — Department of Justice released 3,000,000+ pages of Epstein documents
+  [FRICTION] 2026-02-01 — WSJ breaks $500M Trump-UAE crypto deal
+  [FRICTION] 2026-02-01 — Lord Mandelson sacked as US Ambassador designate, resigned from Labour Party and House of Lords
+  [COMPLIANCE] 2026-02-11 — HIGHEST SINGLE-DAY COMPLIANCE DENSITY IN 2026: 7 compliance events on Feb 11
+  [COMPLIANCE] 2026-02-11 — Executive Order 14375 granted Board of Peace IOIA privileges
+  [COMPLIANCE] 2026-02-14 — Q4 2025 13F DELTA — 5 MAJOR SIGNALS
+  [COMPLIANCE] 2026-02-19 — BOARD OF PEACE INAUGURAL SUMMIT held in Washington
+  [COMPLIANCE] 2026-02-19 — Apollo credit pipeline to QXO: initially $1.2B (Jan 5, 2026), upsized to $3B (Jan 12, 2026)
+  [COMPLIANCE] 2026-02-08 — DISA's 'authorize once, use many' framework for Palantir reduces deployment friction Pentagon-wide
+
+--- MODEL NOTES ---
+The Regulated Friction Project uses a statistical baseline of r = 0.6196 at 2-week lag (p = 0.0004, n = 28) to analyze correlations between friction events and compliance events.
