@@ -32,8 +32,11 @@ def merge_spider_output(file_path: Path) -> None:
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
     
-    # Split by array boundaries (]\n[)
-    parts = content.split('\n]\n[')
+    # Split by array boundaries - handle various whitespace patterns
+    # Try multiple common patterns for robustness
+    import re
+    # Split on ][ with optional whitespace
+    parts = re.split(r'\]\s*\[', content)
     
     all_items = []
     
@@ -48,7 +51,8 @@ def merge_spider_output(file_path: Path) -> None:
         
         # Ensure it ends with ]
         if not json_str.strip().endswith(']'):
-            json_str = json_str.rsplit(']', 1)[0] + ']'
+            # Simply append ] if missing (after trimming)
+            json_str = json_str.rstrip() + ']'
         
         # Parse this array
         try:
