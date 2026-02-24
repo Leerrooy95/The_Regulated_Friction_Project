@@ -4,6 +4,7 @@ Main Streamlit entry point.
 """
 
 import json
+from collections import Counter
 from pathlib import Path
 
 import numpy as np
@@ -794,7 +795,6 @@ with tab_live_intel:
             compliance_evts = [e for e in events if e.get("event_type") == "COMPLIANCE"]
 
             # Helper: Count events per date to detect high-density days
-            from collections import Counter
             all_dates = [e.get("date") for e in events]
             date_counts = Counter(all_dates)
             HIGH_DENSITY_THRESHOLD = 3  # Days with more than this many events use jittering/hover
@@ -803,7 +803,7 @@ with tab_live_intel:
                 """Return y-positions with vertical jitter for high-density dates.
                 
                 For dates with >3 events, spread markers vertically to avoid overlap.
-                Uses small offsets (±0.15) to create visual separation.
+                Uses small offsets (±0.12) to create visual separation.
                 """
                 dates = [e.get("date") for e in event_list]
                 date_indices = {}  # Track how many events we've seen per date
