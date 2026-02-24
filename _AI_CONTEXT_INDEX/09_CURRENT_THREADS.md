@@ -121,6 +121,35 @@
 | Gap | 90% of estimated $70B need unfunded |
 | Troop commitments | Indonesia, Morocco, Kazakhstan, Kosovo, Albania |
 
+### Section 122 Tariff Pivot (Feb 10-23, 2026)
+
+**Summary**: A critical three-branch constitutional clash has fundamentally disrupted Track B (Capital Leverage) capital flow mechanisms. The Executive Branch's primary tariff authority has been struck down, triggering a temporary workaround with a hard expiration date.
+
+| Date | Event | Impact |
+|------|-------|--------|
+| Feb 10, 2026 | "Tariff Mutiny" in House | Rep. Thomas Massie (R-KY) defected with 2 others, destroying Speaker Johnson's procedural shield for administration tariffs |
+| Feb 20, 2026 | SCOTUS rules IEEPA unconstitutional (6-3) | Primary tariff mechanism under International Emergency Economic Powers Act invalidated |
+| Feb 20, 2026 | Executive pivots to Section 122 | Invoked Section 122 of Trade Act of 1974 (19 U.S.C. § 2132) for 15% global tariff under "balance-of-payments deficit" pretext |
+| Feb 23, 2026 | Speaker Johnson: "unlikely consensus" | Legislative compliance window officially collapsed; Congress will not codify tariffs |
+| **July 24, 2026** | **Section 122 expires** | 150-day statutory limit on temporary import surcharge authority |
+
+**Mechanism**: Section 122 of the Trade Act of 1974 allows the President to impose temporary import surcharges to address balance-of-payments deficits, but only for 150 days without Congressional action.
+
+**Capital Leverage Implications**:
+- Primary capital flow mechanism disrupted (IEEPA invalidated)
+- Temporary workaround has hard deadline (July 24, 2026)
+- Congressional refusal to codify = no permanent replacement mechanism
+- [Inference] Gulf SWF positioning may shift as tariff uncertainty increases
+
+**Tracked Node**: Rep. Thomas Massie (R-KY) - already tracked for Unregulated Friction, now pivotal in Track B disruption
+
+**Spider Tracking**: Keywords added to federal_register spiders:
+- "Section 122"
+- "Trade Act of 1974"  
+- "19 U.S.C. 2132"
+- "Balance-of-Payments deficit"
+- "Temporary import surcharge"
+
 ---
 
 ## Active Research Questions
@@ -185,6 +214,21 @@
 
 **Next Steps**: Track cross-border tech investments and joint ventures through 2026
 
+### 7. Section 122 Capital Flow Disruption
+**Question**: How will the Executive Branch maintain Track B capital flows after IEEPA invalidation and Section 122 expiration?
+
+**Status**: 🚨 CRITICAL - ACTIVE TRACKING
+- IEEPA tariff mechanism invalidated by SCOTUS (Feb 20, 2026)
+- Section 122 workaround expires July 24, 2026 (150-day limit)
+- Congressional codification ruled out by Speaker Johnson (Feb 23, 2026)
+- Rep. Massie defection indicates fractured legislative support
+
+**Next Steps**: 
+- Monitor Federal Register for Section 122 implementations
+- Track congressional tariff legislation attempts
+- Watch for alternative capital flow mechanisms
+- Analyze Gulf SWF positioning changes as July 24 deadline approaches
+
 ---
 
 ## Failed Predictions (Transparency)
@@ -210,6 +254,9 @@
 | California TikTok investigation results | Newsom review | Q1 2026 | Pending |
 | CFIUS review of EA deal | Regulatory process | Q1-Q2 2026 | Pending |
 | Additional Epstein file releases | DOJ process ongoing | 2026 | Pending |
+| Section 122 tariff authority expires | 150-day statutory limit | July 24, 2026 | ⏱️ Critical deadline |
+| Congressional tariff codification attempt | Speaker Johnson "unlikely" | Q2 2026 | Tracking |
+| Gulf SWF positioning shift pre-July 24 | Tariff uncertainty | Q2-Q3 2026 | 🔍 Monitor 13Fs |
 
 ### From January 2026 Documentation
 
@@ -262,6 +309,7 @@
 | CFIUS EA review | Q1-Q2 |
 | League of Women Voters trial | July 20 |
 | Arkansas signature deadline | July 3 |
+| **Section 122 tariff authority expires** | **July 24** |
 
 ---
 
@@ -326,4 +374,4 @@
 
 ---
 
-*Last Updated: February 2026. This document should be updated as new developments occur.*
+*Last Updated: February 24, 2026. Added Section 122 Tariff Pivot tracking (IEEPA invalidation, Track B disruption). This document should be updated as new developments occur.*

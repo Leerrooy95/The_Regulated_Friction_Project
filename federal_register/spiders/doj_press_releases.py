@@ -14,6 +14,7 @@ last page so the most recent press releases are encountered first.
 
 import json
 import math
+import re
 from datetime import datetime, timedelta
 
 import scrapy
@@ -24,6 +25,29 @@ PAGESIZE = 50
 BASE_URL = "https://www.justice.gov/api/v1/press_releases.json"
 
 
+# =============================================================================
+# CAPITAL LEVERAGE (TRACK B) KEYWORD TRACKING
+# =============================================================================
+# These keywords track Section 122 tariff workarounds following the Feb 20, 2026
+# SCOTUS ruling that IEEPA tariffs are unconstitutional. The Executive Branch
+# pivoted to Section 122 of the Trade Act of 1974 as a 150-day bypass mechanism.
+#
+# Context:
+# - Feb 10, 2026: "Tariff Mutiny" - Rep. Massie defection destroys procedural shield
+# - Feb 20, 2026: SCOTUS rules IEEPA tariffs unconstitutional (6-3)
+# - Feb 20, 2026: Executive pivots to Section 122 (Trade Act of 1974)
+# - Feb 23, 2026: Speaker Johnson states Congress "unlikely to find consensus"
+# - July 24, 2026: Section 122 authority expires (150-day limit)
+# =============================================================================
+CAPITAL_LEVERAGE_KEYWORDS = [
+    "Section 122",
+    "Trade Act of 1974",
+    "19 U.S.C. 2132",
+    "Balance-of-Payments deficit",
+    "Temporary import surcharge",
+]
+
+
 class DOJPressReleaseSpider(scrapy.Spider):
     """Scrape DOJ press releases from the justice.gov API (last 30 days)."""
 
@@ -32,6 +56,9 @@ class DOJPressReleaseSpider(scrapy.Spider):
 
     # Rolling window in days (configurable via -a days=N)
     days = 30
+    
+    # Compile keyword patterns for efficient matching (case-insensitive)
+    keyword_patterns = [re.compile(re.escape(kw), re.IGNORECASE) for kw in CAPITAL_LEVERAGE_KEYWORDS]
 
     def start_requests(self):
         self.cutoff = datetime.utcnow() - timedelta(days=int(self.days))
@@ -90,6 +117,14 @@ class DOJPressReleaseSpider(scrapy.Spider):
             item["Topic"] = ", ".join(
                 t.get("name", "") for t in topics
             ) if isinstance(topics, list) else ""
+
+            # Check for Capital Leverage (Track B) keyword matches in title
+            title = doc.get("title", "") or ""
+            matched_keywords = [
+                kw for kw, pattern in zip(CAPITAL_LEVERAGE_KEYWORDS, self.keyword_patterns)
+                if pattern.search(title)
+            ]
+            item["Capital_Leverage_Keywords"] = matched_keywords if matched_keywords else None
 
             yield item
 
