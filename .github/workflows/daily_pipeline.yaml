@@ -2,40 +2,41 @@ name: Daily Intelligence Pipeline
 
 on:
   schedule:
-    # Runs every day at 8:00 AM UTC (adjust as needed)
+    # Runs every day at 8:00 AM UTC
     - cron: '0 8 * * *' 
-  workflow_dispatch: # This allows you to manually click a "Run" button in GitHub
+  workflow_dispatch: # Allows manual "Run" button in GitHub
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     
-    # Grants the bot permission to push the new JSON files to your repo
     permissions:
       contents: write 
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history so rebase works properly
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Matches your Codespace environment
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install scrapy azure-ai-inference azure-core python-dotenv
-          # If you have a requirements.txt in your root, use `pip install -r requirements.txt` instead
+          pip install scrapy azure-ai-inference azure-core python-dotenv pandas
+          # Added pandas since your new merge script needs it
 
-      - name: Run Zyte Spider (Federal Register EOs)
+      - name: Run Spider (Federal Register EOs)
         run: |
-          scrapy crawl federal_register_eo -o output/federal_register_data.json
+          # We save to a temp file so we don't accidentally overwrite the main database
+          scrapy crawl federal_register_eo -o output/latest_scrape.json
 
       - name: Run Llama Scout LLM Extraction
         env:
-          # Passes your secure API key to the python script
           GITHUB_TOKEN: ${{ secrets.LLM_API_KEY }} 
         run: |
           python test_api.py
@@ -46,5 +47,12 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
           
-          # This line checks if there is actually new data. If yes, it commits and pushes.
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: Fresh Spider & LLM JSON" && git push)
+          # Check for changes
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Automated update: Fresh Spider & LLM JSON"
+            # The Magic Fix: Pull any changes from Droplet/Codespace first, then stack new data on top
+            git pull origin main --rebase
+            git push origin main
+          else
+            echo "No new data to commit."
+          fi
