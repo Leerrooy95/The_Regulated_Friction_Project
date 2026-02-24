@@ -135,6 +135,37 @@ The repository now documents a dual-track model for understanding friction-compl
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Active research questions |
+| `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
+
+---
+
+## Node Dossiers: Modular Context Loading
+
+**NEW (February 2026)**: The `Node_Dossiers/` directory provides isolated, entity-specific context files for targeted analysis. Instead of reading the entire repository, AI assistants can load only the dossiers relevant to the entities in a specific event.
+
+### How to Use Node Dossiers
+
+1. **Read the index**: `Node_Dossiers/NODE_INDEX.md`
+2. **Identify entities** in the event you're analyzing
+3. **Load matching dossiers** from the three tiers:
+
+| Tier | Purpose | When to Load |
+|------|---------|--------------|
+| **Tier 1: Historical Friction Nodes** | Background precedent | When historical actors/locations appear |
+| **Tier 2: Active Capital Nodes** | Current financial positioning | When analyzing capital movements |
+| **Tier 3: Geopolitical Thermostat** | 14-day lag ruleset | Always (for timing analysis) |
+
+### Available Node Dossiers
+
+| Dossier | Trigger Entities |
+|---------|------------------|
+| `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, New Mexico, DOJ files |
+| `tier1_kushner_historical.md` | Charles Kushner, pardon, Kushner Companies |
+| `tier2_affinity_qxo.md` | Affinity Partners, QXO, Apollo, Jared Kushner |
+| `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi, UAE, 13F filings |
+| `tier3_thermostat_ruleset.md` | Any timing/convergence analysis |
+
+**Full documentation**: `Node_Dossiers/NODE_INDEX.md`
 
 ---
 
