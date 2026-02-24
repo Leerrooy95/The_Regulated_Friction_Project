@@ -59,34 +59,42 @@ def load_latest_intel():
     
     Returns
     -------
-    dict or None
-        Parsed JSON data from the latest extraction file, or None if no files found.
+    tuple(dict, str) or (None, None)
+        Parsed JSON data from the latest extraction file and the file timestamp 
+        extracted from filename (YYYY-MM-DD format), or (None, None) if no files found.
     """
     output_dir = REPO_ROOT / "output"
     if not output_dir.exists():
-        return None
+        return None, None
     
     # Find all timestamped extraction files
     extraction_files = list(output_dir.glob("*_extracted.json"))
     if not extraction_files:
-        return None
+        return None, None
     
     # Sort by filename (timestamp format ensures chronological order)
     latest_file = sorted(extraction_files, key=lambda p: p.name, reverse=True)[0]
     
+    # Extract date from filename (format: YYYYMMDD_HHMMSS_extracted.json)
+    filename = latest_file.name
+    file_timestamp = None
+    if len(filename) >= 8 and filename[:8].isdigit():
+        # Parse YYYYMMDD to YYYY-MM-DD format
+        file_timestamp = f"{filename[:4]}-{filename[4:6]}-{filename[6:8]}"
+    
     try:
         with open(latest_file, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return data
+        return data, file_timestamp
     except (json.JSONDecodeError, IOError):
-        return None
+        return None, None
 
 # ── Load data ────────────────────────────────────────────────────────────
 core_df = load_core_dataset()
 backfill_df = load_backfill()
 negative_df = load_negative_windows()
 eo_df = load_eo_spider()
-intel_data = load_latest_intel()
+intel_data, intel_file_timestamp = load_latest_intel()
 
 if core_df is None:
     st.stop()
@@ -98,10 +106,12 @@ with st.sidebar:
     st.divider()
 
     if intel_data:
-        timestamp = intel_data.get("extraction_metadata", {}).get("timestamp", "Unknown")
+        # Use file timestamp (from filename) for accurate "last updated" date
+        # Falls back to extraction_metadata timestamp if filename parsing fails
+        display_timestamp = intel_file_timestamp or intel_data.get("extraction_metadata", {}).get("timestamp", "Unknown")[:10]
         # Use actual event array length — the model's metadata count can hallucinate
         events_processed = len(intel_data.get("events", []))
-        st.success(f"🤖 Live Intel Active\n\nLast updated: {timestamp[:10]}\n\nEvents processed: {events_processed}")
+        st.success(f"🤖 Live Intel Active\n\nLast updated: {display_timestamp}\n\nEvents processed: {events_processed}")
         st.divider()
 
     selected_lag = st.slider("Lag (weeks)", min_value=0, max_value=6, value=2)
@@ -545,7 +555,13 @@ with tab_live_intel:
         _actual_compliance = sum(1 for e in events if e.get("event_type") == "COMPLIANCE")
         
         col1, col2, col3, col4 = st.columns(4)
-        col1.metric("Active Window", f"{window.get('window_start', '')[5:]} to {window.get('window_end', '')[5:]}")
+        # Use compact format with en-dash to prevent text truncation
+        window_start = window.get('window_start', '')
+        window_end = window.get('window_end', '')
+        # Extract MM-DD from YYYY-MM-DD format, use full value if format is different
+        start_display = window_start[5:] if len(window_start) >= 10 else window_start
+        end_display = window_end[5:] if len(window_end) >= 10 else window_end
+        col1.metric("Active Window", f"{start_display}–{end_display}")
         col2.metric("Friction Events", _actual_friction)
         col3.metric("Compliance Events", _actual_compliance)
         
