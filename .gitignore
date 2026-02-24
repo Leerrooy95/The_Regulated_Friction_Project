@@ -12,3 +12,6 @@ build/
 # Log files
 *.log
 /var/log/
+
+# Private Local Research (Unregulated Friction)
+Research_Documents/
