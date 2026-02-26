@@ -121,6 +121,51 @@
 | Gap | 90% of estimated $70B need unfunded |
 | Troop commitments | Indonesia, Morocco, Kazakhstan, Kosovo, Albania |
 
+### State of the Union & Alternative Broadcast (Feb 25, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Official SOTU | ~27.8M viewers (preliminary Nielsen); ~12% YoY decline |
+| Official final viewership | [PENDING_OFFICIAL_DATA] |
+| "People's State of the Union" | MeidasTouch / MoveOn counter-broadcast; 35+ Democratic lawmakers; 4M+ digital views |
+| Alternative final viewership | [PENDING_OFFICIAL_DATA] |
+| Significance | Largest organized SOTU boycott in U.S. history |
+| Location | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
+
+### FBI Whistleblower Disclosures (Feb 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Recipient | Sen. Dick Durbin / Senate Judiciary Committee |
+| Allegation 1 | Director Patel's personal use of FBI jets delayed response to Brown University shooting (Dec 2025) and Charlie Kirk assassination investigation (Sept 2025) |
+| Allegation 2 | DOJ withheld FBI interview memos re: Epstein-related allegations; only 1 of 4+ memos in public database |
+| DOJ monitoring | DOJ admitted tracking congressional member searches of unredacted Epstein files |
+| Congressional response | Rep. Raskin accused DOJ of "spying on members of Congress"; Rep. Garcia accused DOJ of illegally withholding evidence |
+| Location | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
+
+### FBI Purge — Mar-a-Lago / Jack Smith Personnel (Feb 25, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Action | FBI Director Kash Patel fired at least 10 FBI employees |
+| Affected | Agents, analysts, support staff connected to Mar-a-Lago search and Jack Smith investigations |
+| Trigger cited | Revelation that Biden-era FBI subpoenaed Patel's and Susie Wiles' phone records |
+| Evidence of misconduct | None provided by Patel |
+| FBIAA response | Denounced firings as violation of due process; warned of national security risk |
+| Location | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
+
+### Schedule P/C Deadline (March 8, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Legal basis | Executive Order 14171 (Jan 20, 2025) |
+| Final rule | Published Federal Register Feb 5-6, 2026 |
+| Effective date | **March 8, 2026** |
+| Positions affected | ~50,000 career federal employees in "policy-influencing" roles |
+| Change | Converts career employees to at-will status; strips MSPB appeal rights |
+| Public comment opposition | 94%+ opposed |
+| Convergence | FBI purge + whistleblower disclosures cluster in 10-day pre-deadline window |
+
 ### Section 122 Tariff Pivot (Feb 10-23, 2026)
 
 **Summary**: A critical three-branch constitutional clash has fundamentally disrupted Track B (Capital Leverage) capital flow mechanisms. The Executive Branch's primary tariff authority has been struck down, triggering a temporary workaround with a hard expiration date.
@@ -229,9 +274,22 @@
 - Watch for alternative capital flow mechanisms
 - Analyze Gulf SWF positioning changes as July 24 deadline approaches
 
----
+### 8. Schedule P/C Pre-Deadline Agency Actions
+**Question**: Do FBI/DOJ personnel actions (purge, whistleblower disclosures) cluster in the pre-March 8 window as agencies position before at-will authority expands?
 
-## Failed Predictions (Transparency)
+**Status**: 🚨 CRITICAL - ACTIVE TRACKING
+- FBI Director Patel fired 10+ employees connected to Trump investigations (Feb 25, 2026)
+- FBI whistleblowers delivered documents to Congress (Feb 2026)
+- Schedule P/C final rule published Feb 5-6, 2026; effective March 8, 2026
+- ~50,000 positions affected; 94% public comment opposition
+
+**Next Steps**:
+- Monitor agency personnel actions between Feb 26 and March 8
+- Track whistleblower filings before civil service protections change
+- Document any additional FBI/DOJ restructuring
+- Watch for legal challenges to Schedule P/C implementation
+
+---
 
 | Prediction | Status | Notes |
 |------------|--------|-------|
@@ -257,6 +315,8 @@
 | Section 122 tariff authority expires | 150-day statutory limit | July 24, 2026 | ⏱️ Critical deadline |
 | Congressional tariff codification attempt | Speaker Johnson "unlikely" | Q2 2026 | Tracking |
 | Gulf SWF positioning shift pre-July 24 | Tariff uncertainty | Q2-Q3 2026 | 🔍 Monitor 13Fs |
+| Schedule P/C agency implementation | EO 14171; ~50K positions | March 8, 2026 | ⏱️ Critical deadline |
+| Official SOTU viewership data | Nielsen consolidated ratings | March 2026 | [PENDING_OFFICIAL_DATA] |
 
 ### From January 2026 Documentation
 
@@ -295,11 +355,15 @@
 |------|-------|
 | Feb 17 | Q4 2025 13F filing deadline |
 | Feb 19 | Board of Peace inaugural summit (COMPLETED) |
+| Feb 25 | State of the Union address (COMPLETED) |
+| Feb 25 | FBI purge of Mar-a-Lago / Jack Smith personnel (COMPLETED) |
+| Feb 25 | FBI whistleblower documents delivered to Congress (COMPLETED) |
 
 ### March 2026
 | Date | Event |
 |------|-------|
 | Mar 1 | Khanna investigation document deadline |
+| **Mar 8** | **Schedule P/C takes effect (~50,000 positions to at-will)** |
 | Mar 17 | Maduro next court date |
 
 ### Q2-Q3 2026
@@ -339,6 +403,7 @@
 
 | Source | Location |
 |--------|----------|
+| February 26, 2026 Update | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
 | February 2026 Update | `10_Real-Time_Updates_and_Tasks/2026_February/February-05-2026.md` |
 | 2026 Analysis | `New_Data_2026/2026_Analysis.md` |
 | README (latest stats) | `README.md` |
@@ -374,4 +439,4 @@
 
 ---
 
-*Last Updated: February 24, 2026. Added Section 122 Tariff Pivot tracking (IEEPA invalidation, Track B disruption). This document should be updated as new developments occur.*
+*Last Updated: February 26, 2026. Added SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*

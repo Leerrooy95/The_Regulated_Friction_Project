@@ -37,12 +37,16 @@
 | Appointment | February 2025 |
 | Structural Position | Controls release mechanics for Epstein files |
 | Key Event | July 2025: FBI/DOJ memo - "No client list," no murder evidence |
+| Key Event | Feb 25, 2026: Fired 10+ FBI employees connected to Mar-a-Lago raid / Jack Smith investigations |
+| Key Event | Feb 2026: Whistleblower disclosed Patel's personal use of FBI jets delayed investigations |
 | Pattern | Remained in position despite MAGA backlash over memo |
 
 **Media Saturation Events**:
 - Podcast interviews and "warrior ethos" speeches
 - November 2025 government plane usage controversy
 - Social media posts about active investigations
+- Feb 2026: Whistleblower documents to Senate Judiciary Committee (Patel jet use, investigation delays)
+- Feb 25, 2026: FBI purge of Mar-a-Lago/Jack Smith personnel (same day as SOTU)
 
 ### Pete Hegseth — Secretary of Defense
 
@@ -130,7 +134,8 @@
 | DHS ad campaign ethics | 10-12 days | Noem |
 | Bongino resignation arc | 8-10 days | Bongino |
 | Patel plane/social media issues | 5-7 days | Patel |
-| **Total "main character" saturation** | **38-49 days** | — |
+| Patel FBI purge + whistleblower (Feb 2026) | 5-10 days (est.) | Patel |
+| **Total "main character" saturation** | **43-59 days** | — |
 
 ---
 
