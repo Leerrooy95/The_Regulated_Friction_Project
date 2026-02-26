@@ -2,7 +2,7 @@
 
 **Purpose**: This index enables AI assistants to selectively load relevant historical context when analyzing new friction or compliance events. Instead of reading one massive file, the AI should identify matching entities and pull only the specific dossiers needed for that analysis.
 
-**Last Updated**: February 24, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
+**Last Updated**: February 26, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
 
 ---
 
@@ -40,7 +40,7 @@ These dossiers document historical context that may become relevant when matchin
 | Dossier | File | Trigger Entities | Summary |
 |---------|------|------------------|---------|
 | **Zorro Ranch / Epstein Architecture** | `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, San Rafael Ranch, New Mexico, Huffines, DOJ files, document releases | Documents the 1993 purchase, 2023 sale to Huffines family, renaming, and active Feb 2026 investigations. Provides context for ongoing file releases. |
-| **Kushner Historical Node** | `tier1_kushner_historical.md` | Charles Kushner, Jared Kushner, pardon, Kushner Companies, 666 Fifth Avenue | Documents the Kushner family's business history, Charles Kushner's 2005 conviction and 2020 pardon, and the foundation of the family's real estate and political capital. |
+| **Kushner Historical Node** | `tier1_kushner_historical.md` | Charles Kushner, Jared Kushner, pardon, Kushner Companies, 666 Fifth Avenue, France diplomatic crisis, ambassador summons, Jean-Noël Barrot | Documents the Kushner family's business history, Charles Kushner's 2005 conviction and 2020 pardon, the foundation of the family's real estate and political capital, and the 2025-2026 France diplomatic crisis (2 ignored summons, barred from ministerial access). |
 
 ---
 
@@ -72,6 +72,7 @@ This is the master logic file. Load this for any timing analysis.
 | Epstein / DOJ files | `tier1_zorro_ranch_epstein.md`, `tier3_thermostat_ruleset.md` |
 | Kushner (Jared) | `tier1_kushner_historical.md`, `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
 | Kushner (Charles) | `tier1_kushner_historical.md` |
+| France diplomatic crisis / ambassador summons | `tier1_kushner_historical.md` |
 | Apollo / Marc Rowan | `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
 | QXO / Beacon | `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
 | Saudi PIF | `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |

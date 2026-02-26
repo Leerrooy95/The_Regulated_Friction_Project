@@ -1,8 +1,8 @@
 # Tier 1 Node Dossier: Kushner Historical Node
 
 **Node Type**: Historical Friction Node (Precedent)  
-**Last Updated**: February 24, 2026  
-**Trigger Entities**: Charles Kushner, Jared Kushner, pardon, Kushner Companies, 666 Fifth Avenue
+**Last Updated**: February 26, 2026  
+**Trigger Entities**: Charles Kushner, Jared Kushner, pardon, Kushner Companies, 666 Fifth Avenue, France diplomatic crisis, ambassador summons, Jean-Noël Barrot
 
 ---
 
@@ -143,6 +143,52 @@ The witness tampering conviction arose from Charles Kushner's retaliation agains
 
 ---
 
+## 2025–2026 Diplomatic Conduct: France Ambassador
+
+### Diplomatic Summons Record
+
+| Date | Trigger | Response | Outcome | Verification |
+|------|---------|----------|---------|--------------|
+| Aug 25, 2025 | WSJ open letter accusing France of failing to combat antisemitism; linking Palestinian state recognition to endangering French Jews | Sent deputy; cited "personal commitments" | France denounced remarks as "unacceptable" and violation of international norms | ✅ VERIFIED — NBC News, CBS News, Telegraph |
+| Feb 23, 2026 | U.S. Embassy / State Dept. social media comments on death of French far-right activist Quentin Deranque framed as "violent radical leftism" | Sent subordinate; cited "personal commitments" | FM Barrot formally barred Kushner from direct ministerial access | ✅ VERIFIED — France24, Al Jazeera, Euronews |
+
+### February 2026: Barred from Ministerial Access
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| Date of formal restriction | February 23-24, 2026 | ✅ VERIFIED |
+| Imposed by | French Foreign Minister Jean-Noël Barrot | ✅ VERIFIED |
+| Restriction | Direct access to French government ministers revoked | ✅ VERIFIED |
+| Scope | Retains other diplomatic functions and exchanges with officials | ✅ VERIFIED |
+| Condition for lifting | Must adequately explain himself in line with diplomatic protocol | ✅ VERIFIED |
+| Number of ignored summons | 2 (August 2025 and February 2026) | ✅ VERIFIED |
+
+**Significance**: Being formally barred from ministerial access while remaining in-post is extremely rare in modern diplomacy. The more common formal procedure is declaration of persona non grata (full expulsion). France's action represents a calibrated diplomatic rebuke — severe enough to signal displeasure, but stopping short of expulsion to preserve bilateral relations.
+
+### Historical Diplomatic Precedents (Context)
+
+The Kushner diplomatic crisis can be contextualized against these precedents:
+
+| Year | Incident | Severity | Comparison |
+|------|----------|----------|------------|
+| 2021 | **AUKUS Crisis** — France recalled ambassador from US (first time ever) after secret Australia/US/UK submarine pact canceled France's $40-66B deal. FM Le Drian: "stab in the back" | Ambassador recall | More severe than Kushner barring; Kushner situation is a lower-tier rebuke |
+| 2013 | **US-Germany Wiretapping** — Germany summoned US ambassador after NSA tapped Chancellor Merkel's phone. Ambassador complied with summons | Ambassador summoned (complied) | Ambassador obeyed the summons; Kushner did not |
+| 1987 | **Panama** — National Assembly voted to declare US Ambassador Arthur Davis persona non grata before arrival | PNG attempted | Full PNG is the ultimate diplomatic sanction; Kushner's situation falls between summons and PNG |
+| 1964 | **Tanzania** — US diplomats Frank Carlucci and Robert Gordon declared PNG, given 24 hours to leave | Full expulsion | Standard escalation when host country finds ambassador unacceptable |
+
+**Pattern Note**: Ignoring a diplomatic summons is viewed as extremely provocative in international protocol. Most ambassadors comply even under adversarial conditions (e.g., US ambassador to Germany in 2013). Repeated non-compliance by Kushner is highly unusual in modern allied diplomacy.
+
+**Sources**:
+- France24 (Feb 23, 2026): "France curtails US Ambassador Kushner's access after he fails to obey government summons"
+- Al Jazeera (Feb 24, 2026): "France restricts US ambassador's access to officials after summons no-show"
+- Euronews (Feb 24, 2026): "US ambassador to France barred from government access after failing to show up for summons"
+- NBC News (Aug 25, 2025): "France summons U.S. Ambassador Kushner over antisemitism letter"
+- CBS News (Aug 2025): "France summons U.S. ambassador over letter about response to rising antisemitism"
+- Harvard International Review: "Dilemme Diplomatique: Examining Diplomatic Revocation as Foreign Policy Tool"
+- ADST.org: "'You're Outta Here!': Getting Declared Persona Non Grata"
+
+---
+
 ## Relevance to Current Framework
 
 ### Connection to Tier 2 Nodes
@@ -160,6 +206,8 @@ Charles Kushner's history provides context for understanding:
 | Pardon timing (Dec 23) within calendar anchor window | ✅ Documented |
 | Family member subsequently received diplomatic appointment | ✅ Documented |
 | Son (Jared) subsequently founded Gulf-funded investment firm | ✅ Documented |
+| Ambassador ignored 2 formal diplomatic summons (Aug 2025, Feb 2026) | ✅ Documented |
+| Host country (France) barred ambassador from ministerial access | ✅ Documented |
 
 **Standard disclaimer**: These patterns are documented as observable facts. The repository does not claim coordination or improper intent.
 
@@ -170,7 +218,7 @@ Charles Kushner's history provides context for understanding:
 1. ❌ No claim that the pardon was legally improper
 2. ❌ No claim about Charles Kushner's current activities beyond public records
 3. ❌ No claim of coordination between family members' business activities
-4. ❌ No claim about Ambassador Kushner's diplomatic conduct
+4. ❌ No claim about the diplomatic motivation behind the summons non-compliance — only that the events occurred as documented by verified sources
 
 ---
 
@@ -191,6 +239,8 @@ Load this dossier when analyzing events that mention:
 - Kushner Companies or 666 Fifth Avenue
 - Ambassador to France (in Kushner context)
 - Historical context for Jared Kushner's activities
+- Franco-American diplomatic crises or ambassador summons
+- Diplomatic protocol breakdowns between allies
 
 ---
 
