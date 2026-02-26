@@ -166,6 +166,36 @@
 | Public comment opposition | 94%+ opposed |
 | Convergence | FBI purge + whistleblower disclosures cluster in 10-day pre-deadline window |
 
+### Kushner–France Diplomatic Crisis (Feb 23-24, 2026)
+
+**Summary**: French Foreign Minister Jean-Noël Barrot formally barred U.S. Ambassador Charles Kushner from direct access to French government ministers after Kushner failed to appear for a formal diplomatic summons — the second such snub since his appointment.
+
+| Date | Event | Impact |
+|------|-------|--------|
+| Feb 23, 2026 | Kushner fails to appear for diplomatic summons at Quai d'Orsay | Second ignored summons (first: August 25, 2025 over antisemitism letter); sent subordinate citing "personal commitments" |
+| Feb 24, 2026 | FM Barrot formally bars Kushner from direct ministerial access | Kushner retains other diplomatic functions but cannot meet French ministers until he provides adequate explanation |
+
+**Trigger**: The U.S. State Department Counterterrorism Bureau and the U.S. Embassy in Paris posted social media comments framing the death of French far-right activist Quentin Deranque (killed in Lyon clashes) as evidence of "violent radical leftism" in France. French officials considered this interference in domestic affairs and summoned Kushner.
+
+**First Summons (August 2025)**: Kushner published a Wall Street Journal open letter accusing France of failing to combat antisemitism and linking Palestinian state recognition to endangering French Jews. France's foreign ministry denounced his remarks as "unacceptable" and a violation of international norms. Kushner sent his deputy instead of attending the summons.
+
+**Framework Relevance**:
+- Represents a severe breakdown of standard diplomatic protocol between NATO allies
+- Example of hubris against sovereign international allies — ignoring diplomatic summons is extremely rare and viewed as contemptuous
+- Parallels the 2021 AUKUS crisis (France recalled ambassador from US) as another Franco-American diplomatic rupture
+- Kushner's appointment itself (convicted felon → pardoned → ambassador) documented in `Node_Dossiers/tier1_kushner_historical.md`
+
+**Historical Precedents**:
+- **2021 AUKUS Crisis**: France recalled its ambassador from the US (first time in history) after Australia/US/UK secretly formed submarine pact, canceling France's $40-66B submarine deal. FM Le Drian called it a "stab in the back"
+- **2013 US-Germany Wiretapping**: Germany summoned the US ambassador after NSA tapped Chancellor Merkel's phone — ambassador complied with summons
+- **1987 Panama**: National Assembly voted to declare US Ambassador Arthur Davis persona non grata before his arrival
+
+**Sources**:
+- France24 (Feb 23, 2026): "France curtails US Ambassador Kushner's access after he fails to obey government summons"
+- Al Jazeera (Feb 24, 2026): "France restricts US ambassador's access to officials after summons no-show"
+- Euronews (Feb 24, 2026): "US ambassador to France barred from government access after failing to show up for summons"
+- NBC News (Aug 2025): "France summons U.S. Ambassador Kushner over antisemitism letter"
+
 ### Section 122 Tariff Pivot (Feb 10-23, 2026)
 
 **Summary**: A critical three-branch constitutional clash has fundamentally disrupted Track B (Capital Leverage) capital flow mechanisms. The Executive Branch's primary tariff authority has been struck down, triggering a temporary workaround with a hard expiration date.
@@ -358,6 +388,7 @@
 | Feb 25 | State of the Union address (COMPLETED) |
 | Feb 25 | FBI purge of Mar-a-Lago / Jack Smith personnel (COMPLETED) |
 | Feb 25 | FBI whistleblower documents delivered to Congress (COMPLETED) |
+| Feb 23-24 | Kushner barred from French ministerial access (COMPLETED) |
 
 ### March 2026
 | Date | Event |
@@ -439,4 +470,4 @@
 
 ---
 
-*Last Updated: February 26, 2026. Added SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*
+*Last Updated: February 26, 2026. Added Kushner–France diplomatic crisis (Feb 23-24), SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*
