@@ -49,3 +49,4 @@ jobs:
           python -m py_compile dashboard/app.py
           python -m py_compile dashboard/data_loader.py
           python -m py_compile dashboard/constants.py
+          python -m py_compile daily_perplexity_update.py

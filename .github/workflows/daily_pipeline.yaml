@@ -41,6 +41,13 @@ jobs:
         run: |
           python test_api.py
 
+      - name: Run Perplexity Daily Intelligence Update
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: |
+          pip install openai
+          python daily_perplexity_update.py
+
       - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
@@ -49,7 +56,7 @@ jobs:
           
           # Check for changes
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Automated update: Fresh Spider & LLM JSON"
+            git commit -m "🤖 Daily update: LLM extraction + Perplexity verification"
             # The Magic Fix: Pull any changes from Droplet/Codespace first, then stack new data on top
             git pull origin main --rebase
             git push origin main
