@@ -121,10 +121,31 @@
 
 | Detail | Information |
 |--------|-------------|
-| Status | Sacked as US Ambassador designate |
-| Criminal Investigation | Metropolitan Police investigating misconduct |
-| Parliamentary | Unanimous vote to disclose vetting documents |
+| Status | Arrested Feb 23, 2026; released on bail |
+| Charges | Misconduct in public office |
+| Allegations | Leaked market-sensitive government information to Epstein (2008-2010) |
+| Specific leaks | Greek bailout timing, banker bonus tax lobbying, UK fundraising report |
+| Financial | $75,000 in transfers from Epstein to Mandelson-linked accounts |
+| Prior status | Sacked as US Ambassador (Sept 2025); resigned House of Lords (Feb 2026) |
+| Parliamentary | Unanimous vote to disclose vetting documents (expected March 2026) |
 | Connection | Palantir-Epstein-Thiel triangle documented |
+
+**Sources**: <a href="https://www.npr.org/2026/02/23/g-s1-111196/uk-peter-mandelson-epstein-misconduct-investigation">NPR</a>, <a href="https://www.cnn.com/2026/02/23/uk/peter-mandelson-arrested-gbr-intl">CNN</a>, <a href="https://time.com/7380534/peter-mandelson-arrested-epstein-files-fallout/">TIME</a>
+
+### Prince Andrew Arrest (Feb 19, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Date | February 19, 2026 (same day as Board of Peace summit + UFO directive) |
+| Charges | Misconduct in public office |
+| Allegations | Shared confidential trade reports with Epstein while UK trade envoy (2010) |
+| Custody | 11 hours at Norfolk police station; released "under investigation" |
+| Significance | First member of UK royal family arrested in modern history |
+| Current title | Andrew Mountbatten-Windsor (stripped of HRH, royal duties) |
+
+**Convergence Note**: Arrest occurred same day as Board of Peace summit and Trump UFO directive — three major events on Feb 19.
+
+**Sources**: <a href="https://www.cnn.com/2026/02/23/uk/peter-mandelson-arrested-gbr-intl">CNN</a> (references Andrew arrest 4 days prior)
 
 ### Board of Peace Summit (Feb 19, 2026)
 
@@ -137,6 +158,21 @@
 | Pledged | $7B from 9 countries + $10B US |
 | Gap | 90% of estimated $70B need unfunded |
 | Troop commitments | Indonesia, Morocco, Kazakhstan, Kosovo, Albania |
+
+### Gaza Stablecoin Proposal (Feb 23, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| First reported | Feb 23, 2026 (Financial Times) |
+| Concept | Dollar-pegged stablecoin for digital transactions in Gaza |
+| Status | Preliminary discussions; not a "Gaza Coin" or new currency |
+| Lead | Liran Tancman (Israeli tech entrepreneur, former Israeli intelligence officer) |
+| Governance | Board of Peace + NCAG (National Committee for Administration of Gaza) |
+| Potential coins | Tether (Cantor Fitzgerald/Lutnick connection) or USD1 (Trump family's World Liberty Financial) |
+| Concerns | Could economically separate Gaza from West Bank; surveillance potential; 2G infrastructure limits |
+| Context | Gaza banking collapsed; Israel blocked cash since Oct 2023; ATMs destroyed |
+
+**Sources**: <a href="https://www.ft.com">Financial Times</a>, <a href="https://gizmodo.com/trumps-so-called-board-of-peace-wants-to-put-gaza-on-the-blockchain-2000725437">Gizmodo</a>, <a href="https://www.timesofisrael.com/board-of-peace-said-looking-into-stablecoin-to-boost-economy-of-postwar-gaza/">Times of Israel</a>, <a href="https://www.theblock.co/post/390864/trumps-board-of-peace-stablecoin-support-digital-transactions-gaza-ft">The Block</a>
 
 ### State of the Union & Alternative Broadcast (Feb 25, 2026)
 
@@ -170,6 +206,97 @@
 | Evidence of misconduct | None provided by Patel |
 | FBIAA response | Denounced firings as violation of due process; warned of national security risk |
 | Location | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
+
+### 2026 Cuban Crisis (Active)
+
+| Detail | Information |
+|--------|-------------|
+| Trigger | US capture of Maduro (Jan 3, 2026) cut Venezuelan oil to Cuba |
+| Mechanism | EO 14380 (Jan 29) — national emergency; tariffs on any country supplying oil |
+| Effect | ~75% of Cuba's oil supply cut; blackouts, jet fuel suspension, hospitals impacted |
+| Escalation | Feb 25 speedboat shootout — 4 killed (including 1 US citizen), 6 wounded in Cuban waters |
+| Cuba's claim | "Armed infiltration for terrorist purposes"; boat occupants fired first |
+| US response | Rubio: "highly unusual"; DHS/Coast Guard investigating; denies US government operation |
+| Russia response | Defended Cuba's actions; called US approach "provocation" (CRINK signal) |
+| US stated goal | Regime change by end of 2026 (per Politico sources citing administration officials) |
+| Humanitarian | UN Secretary-General warned of potential "collapse" if oil needs unmet |
+
+**Key Dates**:
+- Jan 3: Maduro captured
+- Jan 29: EO 14380 signed
+- Feb 9: Cuba suspends aircraft refueling
+- Feb 13: Havana refinery fire
+- Feb 25: Speedboat shootout (day after SOTU)
+- Feb 25-26: Treasury allows limited Venezuelan oil resale
+
+**Sources**: <a href="https://www.aljazeera.com/news/2026/2/25/cuban-border-agents-fire-upon-florida-tagged-speedboat-killing-four">Al Jazeera</a>, <a href="https://www.npr.org/2026/02/25/g-s1-111529/cuba-florida-speedboat">NPR</a>, <a href="https://www.cnn.com/2026/02/26/americas/cuba-speedboat-shooting-what-we-know-intl-latam">CNN</a>, <a href="https://time.com/7381346/cuba-florida-speedboat-shooting-terrorism-oil-energy-crisis-rubio-us/">TIME</a>, <a href="https://en.wikipedia.org/wiki/2026_Cuban_crisis">Wikipedia</a>
+
+### El Mencho CJNG Operation (Feb 22, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Target | Nemesio "El Mencho" Oseguera Cervantes — CJNG cartel leader |
+| Date | February 22, 2026 (Tapalpa, Jalisco, Mexico) |
+| Outcome | El Mencho killed; died during transfer to Mexico City |
+| US role | White House confirmed US "provided intelligence support" |
+| Cartel response | 252 roadblocks across Mexico; 25 National Guard killed in Jalisco clashes |
+| Key casualty | "El Tuli" (El Mencho's right-hand man) also killed same day |
+| Bounty | $15M US reward; $1.1M bounty offered by cartel for each soldier killed |
+| Impact | Puerto Vallarta/Guadalajara shut down; airlines cancelled flights |
+| Significance | Guadalajara is 2026 FIFA World Cup host city |
+
+**Framework Relevance**: US intelligence-supported operation = friction event with immediate cartel compliance/retaliation pattern.
+
+**Sources**: <a href="https://www.aljazeera.com/news/2026/2/22/mexico-announces-killing-of-drug-cartel-kingpin-el-mencho">Al Jazeera</a>, <a href="https://www.cbsnews.com/news/violence-mexico-jalisco-new-generation-cartel-killed-military-puerto-vallarta/">CBS News</a>, <a href="https://www.cnn.com/world/live-news/mexico-el-mencho-killed-travel-chaos-02-23-26-intl-hnk">CNN</a>, <a href="https://en.wikipedia.org/wiki/2026_Jalisco_operation">Wikipedia</a>
+
+### DHS Shutdown (Ongoing since Feb 14, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Start | February 14, 2026 (12:01 AM) |
+| Trigger | Minneapolis shootings of 2 US citizens by ICE agents (Alex Pretti, Renee Good) |
+| Scope | Only DHS affected; all other agencies funded through Sept 30 |
+| Workforce | 272,000 employees; ~90% working without pay |
+| Feb 22 impact | Global Entry suspended; TSA PreCheck suspension reversed |
+| Democratic demands | Body cameras, warrant requirements, no masks, restricted patrol zones |
+| Context | First-ever SOTU delivered during government shutdown (Feb 24) |
+| Critical date | TSA workers miss first full paycheck March 14 if unresolved |
+
+**Framework Relevance**: Schedule P/C takes effect March 8 while DHS remains unfunded — potential for overlapping institutional pressure.
+
+**Sources**: <a href="https://www.npr.org/2026/02/14/nx-s1-5713914/department-of-homeland-security-shutdown">NPR</a>, <a href="https://www.cnn.com/2026/02/12/politics/department-homeland-security-government-shutdown">CNN</a>, <a href="https://en.wikipedia.org/wiki/2026_United_States_federal_government_shutdowns">Wikipedia</a>
+
+### Iran Nuclear Talks (Active — Feb 25-27, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Location | Geneva (Omani mediation); Vienna technical talks next week |
+| US negotiators | Steve Witkoff, Jared Kushner |
+| Iran negotiator | Foreign Minister Abbas Araghchi |
+| Iran offer | 3-5 year enrichment pause; dilute 60% uranium; IAEA monitoring |
+| US demand | Permanent halt to all enrichment; surrender stockpile; "last forever" deal |
+| Current status | Iran not enriching since June 2025 (post-US strikes on nuclear facilities) |
+| Military posture | USS Ford + Lincoln carrier groups positioned; CENTCOM briefed Trump on strike options |
+| Deadline | Trump's Feb 19 statement: deal in "10-15 days" or "really bad things" |
+| Next round | Vienna technical talks scheduled for next week |
+
+**Sources**: <a href="https://www.npr.org/2026/02/26/g-s1-111595/u-s-iran-to-third-round-nuclear-talks">NPR</a>, <a href="https://www.cbsnews.com/news/trump-us-iran-nuclear-deal-to-avert-war-prospects-for-geneva-talks/">CBS News</a>, <a href="https://www.axios.com/2026/02/26/iran-nuclear-talks-geneva">Axios</a>
+
+### Taiwan Strait Monitoring (Feb 25-27, 2026)
+
+| Date | PLA Aircraft | Median Crossings | PLAN Vessels |
+|------|--------------|------------------|--------------|
+| Feb 25 | 28 | 22 | — |
+| Feb 26 | 30 | 22 | 6 |
+| Feb 27 | 8 | 6 | 6 |
+
+**Allied Responses:**
+- Feb 16: US-Philippines 12th BSD — "collective defense critical for deterring aggression along First Island Chain"
+- Feb 24: Japan announces Type-03 Chu-SAM deployment to Yonaguni (110 km from Taiwan) by fiscal 2030
+
+**Pattern**: PLA gray-zone pressure sustained; no de-escalation signals. Allied coordination (drills, missile deployments) prompts continued incursions = action-reaction escalation dynamic.
+
+**Sources**: [Taiwan MND](https://x.com/MoNDefense), [State Dept](https://www.state.gov/releases/office-of-the-spokesperson/2026/02/joint-statement-on-the-philippines-united-states-bilateral-strategic-dialogue/), [Stars and Stripes](https://www.stripes.com/theaters/asia_pacific/2026-02-24/japan-missiles-yonaguni-taiwan-china-20858588.html)
 
 ### Schedule P/C Deadline (March 8, 2026)
 
@@ -400,18 +527,23 @@
 ### February 2026
 | Date | Event |
 |------|-------|
+| Feb 14 | DHS shutdown begins (ongoing) |
 | Feb 17 | Q4 2025 13F filing deadline |
-| Feb 19 | Board of Peace inaugural summit (COMPLETED) |
-| Feb 25 | State of the Union address (COMPLETED) |
-| Feb 25 | FBI purge of Mar-a-Lago / Jack Smith personnel (COMPLETED) |
-| Feb 25 | FBI whistleblower documents delivered to Congress (COMPLETED) |
+| Feb 19 | Board of Peace summit + UFO directive + Prince Andrew arrest (convergence) |
+| Feb 22 | El Mencho killed; Global Entry suspended; Kurdish coalition formed |
+| Feb 23 | Mandelson arrested; Gaza stablecoin reported; Iran concessions offered |
 | Feb 23-24 | Kushner barred from French ministerial access (COMPLETED) |
+| Feb 24 | SOTU address (longest ever); USPS v. Konan ruling |
+| Feb 25 | FBI purge + whistleblower docs + Cuba shootout (SOTU window clustering) |
+| Feb 27 | Turkish intel validates "CRINK Axis" |
+| **Feb 28-Mar 3** | **Trump Iran nuclear deadline window** |
 
 ### March 2026
 | Date | Event |
 |------|-------|
 | Mar 1 | Khanna investigation document deadline |
 | **Mar 8** | **Schedule P/C takes effect (~50,000 positions to at-will)** |
+| Mar 14 | TSA workers miss first full paycheck if DHS shutdown continues |
 | Mar 17 | Maduro next court date |
 
 ### Q2-Q3 2026
@@ -422,6 +554,47 @@
 | League of Women Voters trial | July 20 |
 | Arkansas signature deadline | July 3 |
 | **Section 122 tariff authority expires** | **July 24** |
+
+---
+
+## Convergence Notes
+
+**⚠️ February 19, 2026 Convergence Note**: Four major events occurred on same day:
+1. Board of Peace summit (~62 invited, $7B pledged) — capital compliance
+2. Trump UFO declassification directive — attention capture
+3. Prince Andrew arrested (first royal arrest in modern UK history) — information leverage
+4. Rep. Massie: "They've deployed the ultimate weapon of mass distraction" — meta-validation
+
+This is the densest single-day convergence documented in the repository.
+
+**⚠️ February 24-25, 2026 SOTU Window**: Major events clustered around address:
+- Feb 24: State of the Union (1hr 48min — longest ever; first during shutdown)
+- Feb 25: FBI purge of Mar-a-Lago/Jack Smith personnel (domestic compliance)
+- Feb 25: FBI whistleblower documents to Congress (domestic friction)
+- Feb 25: Cuba speedboat shootout — 4 killed (international friction)
+- Feb 25: Treasury eases Cuba oil restrictions (compliance signal)
+
+This clustering pattern is consistent with Thermostat model predictions.
+
+### Additional February 2026 Events
+
+| Date | Event | Relevance |
+|------|-------|-----------|
+| Feb 14 | DHS shutdown begins | Institutional friction |
+| Feb 19 | Prince Andrew arrested (first royal arrest in modern UK history) | Epstein leverage; convergence with BoP/UFO |
+| Feb 22 | El Mencho (CJNG) killed — US intel support | US-Mexico cartel friction |
+| Feb 22 | Kurdish Coalition formed (Coalition of Political Forces in Iranian Kurdistan) | Iran destabilization signal |
+| Feb 22 | Global Entry suspended | DHS shutdown impact |
+| Feb 23 | Mandelson arrested | Epstein leverage UK |
+| Feb 23 | Gaza stablecoin reported (FT) | Board of Peace capital architecture |
+| Feb 23 | Iran offers nuclear concessions ahead of Geneva talks | Diplomacy track |
+| Feb 24 | SOTU address (1hr 48min — longest ever) | Attention capture |
+| Feb 24 | USPS v. Konan (5-4 Supreme Court ruling) | Postal Service legal |
+| Feb 25 | FBI purge (10+ Mar-a-Lago/Jack Smith personnel) | Domestic compliance |
+| Feb 25 | FBI whistleblower docs to Congress | Domestic friction |
+| Feb 25 | Cuba speedboat shootout (4 killed) | International friction |
+| Feb 25 | Uber/Joby Dubai air taxi announcement | UAE tech infrastructure |
+| Feb 27 | Turkish intel validates "CRINK Axis" | Framework validation |
 
 ---
 
@@ -487,4 +660,4 @@
 
 ---
 
-*Last Updated: February 27, 2026. Added Epstein Network Documentation as Node 5, updated Board of Peace summit data (62 invited / 25 signatories, governance structure, notable declines). Previous: Kushner–France diplomatic crisis (Feb 23-24), SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*
+*Last Updated: February 27, 2026. Added: 2026 Cuban Crisis, Prince Andrew arrest (Feb 19), El Mencho CJNG operation (Feb 22), DHS shutdown (Feb 14), Gaza stablecoin proposal (Feb 23), Iran nuclear talks update (Feb 25-27), convergence notes (Feb 19 four-event, Feb 24-25 SOTU window). Expanded: Mandelson section (arrest details Feb 23). Updated: Key Dates tables, additional February events summary. Previous: Epstein Network Documentation as Node 5, Board of Peace summit data, Kushner–France diplomatic crisis, FBI purge, Schedule P/C deadline tracking. This document should be updated as new developments occur.*
