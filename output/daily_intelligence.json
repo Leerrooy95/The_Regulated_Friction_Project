@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-02-27T21:52:47Z",
+  "generated_by": "Perplexity sonar-pro",
+  "top_3_developments": [
+    "QXO 10-K annual report filing (verified filed on 2026-02-27, one day late, with $6.84B sales, $(0.63) GAAP EPS, $647.8M adj. EBITDA)",
+    "NTEU court-ordered position list disclosure (deadline today 2026-02-27; verified not disclosed, FOIA suit ongoing)",
+    "Schedule Policy/Career implementation (final rule published, effective ~March 8-9, 2026; agencies preparing conversions)"
+  ],
+  "verification_updates": [
+    "QXO 10-K: Newly filed today (2026-02-27), confirming financials and Beacon integration; Kodiak acquisition pending early Q2[1][2]",
+    "NTEU disclosure: No court order or disclosure as of today[signal 2]",
+    "Khanna investigation: No specific March 1 deadline; DOJ partial releases ongoing[signal 3]",
+    "QXO acquisitions: Kodiak pending, financing active[signal 6]",
+    "Israel-Hamas ultimatum: Active ~10-14 days in[signal 7]",
+    "Iran signals: Active US strike considerations, IRGC drills[signal 8]"
+  ],
+  "new_alerts": [],
+  "priority_watchlist": [
+    "QXO 10-K market reaction and Kodiak financing updates (post-filing volatility)",
+    "NTEU FOIA suit developments (today's deadline)",
+    "Khanna/Epstein files next deadline (2026-03-01)",
+    "Iran military signals (Trump strike decision indicators)",
+    "Schedule Policy/Career agency position lists (pre-effective date)"
+  ],
+  "entities_scanned": [
+    "Apollo Global Management",
+    "Board of Peace",
+    "Palantir",
+    "Saudi PIF",
+    "Mubadala",
+    "Silver Lake",
+    "Oracle",
+    "Affinity Partners",
+    "MGX"
+  ],
+  "pending_signals_checked": 8,
+  "api_calls_made": 10
+}
