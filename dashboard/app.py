@@ -37,6 +37,7 @@ from correlation_engine import (
     fisher_ci,
 )
 from data_loader import load_backfill, load_core_dataset, load_eo_spider, load_negative_windows
+from gemini_verify import verify_pending_signals
 
 # ── Repo root for path resolution (matches data_loader.py) ───────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -1391,6 +1392,36 @@ with tab_predictions:
 
     if pending_items:
         st.dataframe(pd.DataFrame(pending_items), use_container_width=True, hide_index=True)
+
+    # ── Gemini Web Verification (Google Search grounding) ──
+    _verify_queries = [
+        sig.get("verification_query", sig.get("event", ""))
+        for sig in (intel_data.get("pending_signals") or [])
+        if sig.get("web_verification_needed")
+    ] if intel_data else []
+
+    if _verify_queries:
+        st.subheader("🌐 Live Web Verification (Gemini + Google Search)")
+        st.caption(
+            "Uses Gemini with Google Search grounding to verify pending signals "
+            "against live web sources. Requires GEMINI_API_KEY."
+        )
+        if st.button("▶ Run Web Verification", key="btn_gemini_verify"):
+            with st.spinner("Querying Gemini with Google Search grounding…"):
+                _vresults = verify_pending_signals(_verify_queries)
+            for vr in _vresults:
+                _icon = {"verified": "✅", "unverified": "⚠️", "error": "❌"}.get(vr["status"], "❓")
+                with st.expander(f'{_icon} {vr["query"]}', expanded=vr["status"] == "verified"):
+                    st.markdown(vr["description"])
+                    if vr["source"]:
+                        st.markdown(f"**Source:** {vr['source']}")
+                    st.caption(f"Checked: {vr['date']} · Status: {vr['status']}")
+            st.download_button(
+                "⬇ Download verification results (JSON)",
+                data=json.dumps(_vresults, indent=2),
+                file_name="gemini_verification.json",
+                mime="application/json",
+            )
     st.divider()
 
     st.markdown(
