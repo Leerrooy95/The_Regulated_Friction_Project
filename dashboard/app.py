@@ -37,7 +37,7 @@ from correlation_engine import (
     fisher_ci,
 )
 from data_loader import load_backfill, load_core_dataset, load_eo_spider, load_negative_windows
-from gemini_verify import verify_pending_signals
+from perplexity_verify import verify_pending_signals
 
 # ── Repo root for path resolution (matches data_loader.py) ───────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -1393,7 +1393,7 @@ with tab_predictions:
     if pending_items:
         st.dataframe(pd.DataFrame(pending_items), use_container_width=True, hide_index=True)
 
-    # ── Gemini Web Verification (Google Search grounding) ──
+    # ── Perplexity Web Verification (search built-in) ──
     _verify_queries = [
         sig.get("verification_query", sig.get("event", ""))
         for sig in (intel_data.get("pending_signals") or [])
@@ -1401,13 +1401,13 @@ with tab_predictions:
     ] if intel_data else []
 
     if _verify_queries:
-        st.subheader("🌐 Live Web Verification (Gemini + Google Search)")
+        st.subheader("🌐 Live Web Verification (Perplexity Sonar)")
         st.caption(
-            "Uses Gemini with Google Search grounding to verify pending signals "
-            "against live web sources. Requires GEMINI_API_KEY."
+            "Uses Perplexity Sonar Pro with built-in web search to verify pending signals "
+            "against live web sources. Requires PERPLEXITY_API_KEY."
         )
-        if st.button("▶ Run Web Verification", key="btn_gemini_verify"):
-            with st.spinner("Querying Gemini with Google Search grounding…"):
+        if st.button("▶ Run Web Verification", key="btn_perplexity_verify"):
+            with st.spinner("Querying Perplexity Sonar Pro…"):
                 _vresults = verify_pending_signals(_verify_queries)
             for vr in _vresults:
                 _icon = {"verified": "✅", "unverified": "⚠️", "error": "❌"}.get(vr["status"], "❓")
@@ -1419,7 +1419,7 @@ with tab_predictions:
             st.download_button(
                 "⬇ Download verification results (JSON)",
                 data=json.dumps(_vresults, indent=2),
-                file_name="gemini_verification.json",
+                file_name="perplexity_verification.json",
                 mime="application/json",
             )
     st.divider()

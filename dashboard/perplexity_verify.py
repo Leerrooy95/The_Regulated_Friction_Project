@@ -1,12 +1,11 @@
 """
-Gemini API integration with Google Search grounding for live web
-verification of pending signals.
+Perplexity API integration for live web verification of pending signals.
 
-Uses the google-genai SDK (successor to deprecated google-generativeai).
-API key is read from the GEMINI_API_KEY environment variable.
+Uses the OpenAI-compatible SDK pointed at the Perplexity API endpoint.
+Perplexity has web search built-in — no extra tool config needed.
+API key is read from the PERPLEXITY_API_KEY environment variable.
 """
 
-import json
 import logging
 import os
 import time
@@ -16,32 +15,33 @@ logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
 # SDK import – deferred so the rest of the dashboard still works when
-# google-genai is not installed (e.g. local dev without the dependency).
+# openai is not installed (e.g. local dev without the dependency).
 # ---------------------------------------------------------------------------
 try:
-    from google import genai  # type: ignore[import-untyped]
-    _HAS_GENAI = True
+    from openai import OpenAI  # type: ignore[import-untyped]
+    _HAS_OPENAI = True
 except ImportError:
-    _HAS_GENAI = False
+    _HAS_OPENAI = False
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-_MODEL_ID = "gemini-2.0-flash"
+_MODEL_ID = "sonar-pro"
+_BASE_URL = "https://api.perplexity.ai"
 _MAX_RETRIES = 3
 _BASE_BACKOFF = 2  # seconds; doubles on each retry
 
 
 def _get_client():
-    """Return a configured genai Client, or *None* when unavailable."""
-    if not _HAS_GENAI:
-        logger.warning("google-genai is not installed – verification disabled")
+    """Return a configured OpenAI client pointed at Perplexity, or *None*."""
+    if not _HAS_OPENAI:
+        logger.warning("openai package is not installed – verification disabled")
         return None
-    api_key = os.environ.get("GEMINI_API_KEY", "")
+    api_key = os.environ.get("PERPLEXITY_API_KEY", "")
     if not api_key:
-        logger.warning("GEMINI_API_KEY not set – verification disabled")
+        logger.warning("PERPLEXITY_API_KEY not set – verification disabled")
         return None
-    return genai.Client(api_key=api_key)
+    return OpenAI(api_key=api_key, base_url=_BASE_URL)
 
 
 # ---------------------------------------------------------------------------
@@ -49,7 +49,7 @@ def _get_client():
 # ---------------------------------------------------------------------------
 
 def verify_pending_signals(queries: list[str]) -> list[dict]:
-    """Verify a list of pending-signal queries via Gemini + Google Search.
+    """Verify a list of pending-signal queries via Perplexity (web search built-in).
 
     Parameters
     ----------
@@ -66,7 +66,7 @@ def verify_pending_signals(queries: list[str]) -> list[dict]:
     """
     client = _get_client()
     if client is None:
-        return [_error_result(q, "Gemini client unavailable") for q in queries]
+        return [_error_result(q, "Perplexity client unavailable") for q in queries]
 
     results: list[dict] = []
     for query in queries:
@@ -76,33 +76,33 @@ def verify_pending_signals(queries: list[str]) -> list[dict]:
 
 
 def _verify_single(client, query: str, *, _retries: int = 0) -> dict:
-    """Call Gemini for a single query, retrying on rate-limit errors."""
-    prompt = (
-        f"Search the web for the latest information about: {query}\n\n"
-        "Return a concise summary (2-3 sentences) of what you found, "
-        "including the most recent date mentioned and the primary source. "
-        "If no relevant results are found, say so clearly."
-    )
+    """Call Perplexity for a single query, retrying on rate-limit errors."""
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a fact-checking assistant. Search the web and return "
+                "a concise summary (2-3 sentences) of what you found, "
+                "including the most recent date mentioned and the primary source URL. "
+                "If no relevant results are found, say so clearly."
+            ),
+        },
+        {"role": "user", "content": query},
+    ]
     try:
-        response = client.models.generate_content(
+        response = client.chat.completions.create(
             model=_MODEL_ID,
-            contents=prompt,
-            config={"tools": [{"google_search": {}}]},
+            messages=messages,
         )
 
-        # Extract grounding metadata when available
-        description = response.text or ""
+        description = response.choices[0].message.content or ""
+
+        # Perplexity may include citations in the response object
         source = ""
-        search_queries: list[str] = []
-        if response.candidates:
-            meta = response.candidates[0].grounding_metadata
-            if meta:
-                search_queries = list(meta.web_search_queries or [])
-                chunks = meta.grounding_chunks or []
-                if chunks:
-                    first = chunks[0]
-                    if hasattr(first, "web") and first.web:
-                        source = getattr(first.web, "uri", "") or getattr(first.web, "url", "")
+        citations: list[str] = []
+        if hasattr(response, "citations") and response.citations:
+            citations = list(response.citations)
+            source = citations[0] if citations else ""
 
         return {
             "query": query,
@@ -110,18 +110,18 @@ def _verify_single(client, query: str, *, _retries: int = 0) -> dict:
             "description": description.strip(),
             "source": source,
             "status": "verified" if description.strip() else "unverified",
-            "search_queries": search_queries,
+            "citations": citations,
         }
 
     except Exception as exc:  # noqa: BLE001
         err_msg = str(exc).lower()
         # Retry on rate-limit / resource-exhausted errors
-        if ("429" in err_msg or "resource" in err_msg) and _retries < _MAX_RETRIES:
+        if ("429" in err_msg or "rate" in err_msg) and _retries < _MAX_RETRIES:
             wait = _BASE_BACKOFF * (2 ** _retries)
             logger.info("Rate-limited on %r – retrying in %ss", query, wait)
             time.sleep(wait)
             return _verify_single(client, query, _retries=_retries + 1)
-        logger.exception("Gemini verification failed for %r", query)
+        logger.exception("Perplexity verification failed for %r", query)
         return _error_result(query, str(exc))
 
 
@@ -133,5 +133,5 @@ def _error_result(query: str, message: str) -> dict:
         "description": f"Verification error: {message}",
         "source": "",
         "status": "error",
-        "search_queries": [],
+        "citations": [],
     }
