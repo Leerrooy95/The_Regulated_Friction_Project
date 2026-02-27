@@ -143,12 +143,12 @@ def _call_perplexity(client, prompt: str, *, _retries: int = 0) -> str:
 
 def _parse_json(text: str):
     """Best-effort JSON parse from LLM output."""
+    import re as _re
+
     text = text.strip()
-    # Strip markdown fences if present
-    if text.startswith("```"):
-        text = text.split("\n", 1)[-1]
-    if text.endswith("```"):
-        text = text.rsplit("```", 1)[0]
+    # Strip markdown fences (with optional language identifier)
+    text = _re.sub(r"^```(?:\w+)?\s*\n?", "", text)
+    text = _re.sub(r"\n?```\s*$", "", text)
     text = text.strip()
     try:
         return json.loads(text)
@@ -251,17 +251,17 @@ def prioritize_for_today(
     client,
     verified_signals: list,
     breaking_news: list,
-    events: list,
+    pending_signals: list,
 ) -> tuple[dict, int]:
     """Use Perplexity to rank and prioritize what matters TODAY."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    # Build upcoming deadlines from events (next 7 days handled by Perplexity)
+    # Build upcoming deadlines from pending signals (they have deadline fields)
     upcoming = []
-    for evt in events:
-        deadline = evt.get("deadline") or evt.get("date")
+    for sig in pending_signals:
+        deadline = sig.get("deadline") or sig.get("date")
         if deadline:
-            upcoming.append(f"{evt.get('event', evt.get('description', ''))}: {deadline}")
+            upcoming.append(f"{sig.get('event', sig.get('description', ''))}: {deadline}")
 
     prompt = DAILY_PRIORITY_PROMPT.format(
         today=today,
