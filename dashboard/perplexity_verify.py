@@ -33,7 +33,7 @@ _BASE_BACKOFF = 2  # seconds; doubles on each retry
 
 
 def _get_client():
-    """Return a configured OpenAI client pointed at Perplexity, or *None*."""
+    """Return a configured OpenAI client pointed at Perplexity, or ``None``."""
     if not _HAS_OPENAI:
         logger.warning("openai package is not installed – verification disabled")
         return None
@@ -61,7 +61,8 @@ def verify_pending_signals(queries: list[str]) -> list[dict]:
     -------
     list[dict]
         One dict per query with the keys expected by the dashboard:
-        ``query``, ``date``, ``description``, ``source``, ``status``.
+        ``query``, ``date``, ``description``, ``source``, ``status``,
+        and ``citations`` (list of source URLs from Perplexity).
         Status is one of ``"verified"``, ``"unverified"``, or ``"error"``.
     """
     client = _get_client()
