@@ -70,6 +70,19 @@
 - US-Israel tech infrastructure investments (Oracle, Intel)
 - Board of Peace accession agreements (Feb 2026)
 
+### Node 5: Epstein Network Documentation (Information Leverage)
+
+| Detail | Status (Feb 2026) |
+|--------|-------------------|
+| Leverage type | Information leverage (network documentation) |
+| Key disclosure | Sultan bin Sulayem: 4,700+ mentions in DOJ files |
+| Consequence | Bin Sulayem resigned DP World CEO (Feb 13, 2026) |
+| Maxwell status | Filed to set aside conviction; offered immunity testimony |
+| DOJ issue | Schnitt video alleging transfer to suppress testimony (⚠️ SINGLE SOURCE) |
+| Last updated | Feb 27, 2026 |
+
+**Sources**: DOJ Epstein file releases, Rep. Khanna/Massie statements (Feb 9-10, 2026) — [CBS News](https://www.cbsnews.com/news/massie-khanna-epstein-files-6-men/), [Politico](https://www.politico.com/live-updates/2026/02/10/congress/ro-khanna-names-names-00774551)
+
 ### Leverage Node Summary
 
 | Node | Leverage Type | Current Status | Strategic Function |
@@ -78,6 +91,7 @@
 | **Iran** | Cyber + Nuclear | ~100GB emails + threshold capacity | Diplomatic compliance enforcement |
 | **Gulf SWFs** | Capital (~$4.9T AUM) | Active positioning | Friction intensity regulation |
 | **Israel** | Cyber/Intel + Tech | Unit 8200 + Silicon Wadi | Iran counter-weight; Gulf-tech bridge |
+| **Epstein Network** | Information (documentation) | 4,700+ bin Sulayem mentions; Maxwell leverage | Network exposure driving resignations |
 
 ---
 
@@ -116,7 +130,10 @@
 
 | Detail | Information |
 |--------|-------------|
-| Attendance | ~50 countries |
+| Attendance | ~62 invited, 25 charter signatories |
+| Governance | Trump as permanent chairman (no term limits) |
+| Membership fee | $1B for permanent status; otherwise 3-year terms |
+| Notable declines | UK, France, Norway, Canada (rescinded) |
 | Pledged | $7B from 9 countries + $10B US |
 | Gap | 90% of estimated $70B need unfunded |
 | Troop commitments | Indonesia, Morocco, Kazakhstan, Kosovo, Albania |
@@ -470,4 +487,4 @@
 
 ---
 
-*Last Updated: February 26, 2026. Added Kushner–France diplomatic crisis (Feb 23-24), SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*
+*Last Updated: February 27, 2026. Added Epstein Network Documentation as Node 5, updated Board of Peace summit data (62 invited / 25 signatories, governance structure, notable declines). Previous: Kushner–France diplomatic crisis (Feb 23-24), SOTU viewership placeholders, FBI whistleblower disclosures, FBI purge (Feb 25), Schedule P/C deadline tracking (March 8). This document should be updated as new developments occur.*
