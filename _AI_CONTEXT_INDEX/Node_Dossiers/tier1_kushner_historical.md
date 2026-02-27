@@ -141,6 +141,16 @@ The witness tampering conviction arose from Charles Kushner's retaliation agains
 | Vote | 51-45 | ✅ VERIFIED |
 | Assumed office | July 11, 2025 | ✅ VERIFIED |
 
+### February 2026 Diplomatic Incident
+
+| Date | Event | Source |
+|------|-------|--------|
+| Feb 21, 2026 | Summoned by French Foreign Ministry over State Dept social media post | [France24](https://www.france24.com/en/france/20260223-france-curtails-us-ambassador-kushner-access-fails-obey-government-summons) |
+| Feb 23, 2026 | Barred from Quai d'Orsay after second interference incident | [Al Jazeera](https://www.aljazeera.com/news/2026/2/24/france-restricts-us-ambassador-access-officials-after-summons-no-show), [Euronews](https://www.euronews.com/2026/02/24/us-ambassador-to-france-barred-from-government-access) |
+| Post-Feb 23 | Kushner called FM Barrot; agreed not to interfere in French domestic affairs | ⚠️ SINGLE SOURCE — not independently verified |
+
+**Context**: State Dept post framed death of far-right activist Quentin Deranque in Lyon clashes as evidence of "violent radical leftism" in France. France considered this interference in domestic affairs.
+
 ---
 
 ## 2025–2026 Diplomatic Conduct: France Ambassador
