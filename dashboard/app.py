@@ -95,6 +95,18 @@ def load_latest_intel():
     except (json.JSONDecodeError, IOError):
         return None, None
 
+@st.cache_data(ttl=3600)
+def load_daily_intelligence():
+    """Load the daily Perplexity-generated intelligence summary."""
+    daily_file = REPO_ROOT / "output" / "daily_intelligence.json"
+    if daily_file.exists():
+        try:
+            with open(daily_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            return None
+    return None
+
 # ── Load data ────────────────────────────────────────────────────────────
 core_df = load_core_dataset()
 backfill_df = load_backfill()
@@ -530,6 +542,39 @@ def _get_category_badge(category):
     return f'<span style="background-color:{bg_color}; color:{text_color}; padding:2px 8px; border-radius:4px; font-size:0.85em; font-weight:500; white-space:nowrap;">{category}</span>'
 
 with tab_live_intel:
+    # ── Daily Perplexity Intelligence (if available) ──
+    daily_intel = load_daily_intelligence()
+
+    if daily_intel:
+        st.subheader("📌 Today's Priority Developments")
+        if daily_intel.get("generated_at"):
+            st.caption(f"Generated: {daily_intel['generated_at']} by {daily_intel.get('generated_by', 'Perplexity')}")
+
+        for item in daily_intel.get("top_3_developments", []):
+            if isinstance(item, dict):
+                st.markdown(f"**{item.get('headline', '')}**")
+                st.caption(f"Source: {item.get('source', 'Perplexity')} | {item.get('timestamp', 'Today')}")
+                st.write(item.get("summary", ""))
+            else:
+                st.write(f"• {item}")
+            st.divider()
+
+        if daily_intel.get("verification_updates"):
+            with st.expander("🔍 Signal Verification Updates"):
+                for update in daily_intel["verification_updates"]:
+                    if isinstance(update, dict):
+                        status_icon = "✅" if update.get("status") == "verified" else "⚠️"
+                        st.write(f"{status_icon} **{update.get('signal', '')}**: {update.get('result', '')}")
+                    else:
+                        st.write(f"• {update}")
+
+        if daily_intel.get("priority_watchlist"):
+            with st.expander("⏰ 24-Hour Watchlist"):
+                for item in daily_intel["priority_watchlist"]:
+                    st.write(f"• {item}")
+
+        st.divider()
+
     if not intel_data:
         st.warning("No automated intelligence data found. Run the GitHub Action pipeline first.")
     else:
