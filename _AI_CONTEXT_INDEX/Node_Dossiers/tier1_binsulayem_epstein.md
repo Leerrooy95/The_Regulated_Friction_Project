@@ -46,7 +46,6 @@ This dossier documents the connection between Sultan Ahmed bin Sulayem (former D
 |------------|------|----------|
 | Ehud Barak (Israeli PM) | 2012 | Epstein initiated contact — ✅ VERIFIED ([Middle East Eye](https://www.middleeasteye.net/news/jeffrey-epstein-brokered-meetings-between-ehud-barak-and-uae-billionaire-abraham-accords), [CBC](https://www.cbc.ca/news/world/epstein-files-barak-ruemmler-salayem-9.7088603), [Al Jazeera](https://www.aljazeera.com/news/2026/2/13/former-israeli-pm-barak-responds-to-criticism-over-close-epstein-links)) |
 | Prince Andrew | 2013 | Bin Sulayem email re: lunch invitation — ⚠️ SINGLE SOURCE |
-| Anil Ambani (Indian billionaire) | 2017 | Bin Sulayem introduction — ❌ CANNOT VERIFY (no corroborating sources found) |
 
 ### Notable Communications
 

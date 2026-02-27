@@ -77,7 +77,7 @@
 | Leverage type | Information leverage (network documentation) |
 | Key disclosure | Sultan bin Sulayem: 4,700+ mentions in DOJ files |
 | Consequence | Bin Sulayem resigned DP World CEO (Feb 13, 2026) |
-| Maxwell status | Filed to set aside conviction; offered immunity testimony |
+| Maxwell status | Filed to set aside conviction ([ABC News](https://abcnews.com/US/epstein-associate-ghislaine-maxwell-asks-court-set-aside/story?id=128086043), [NBC News](https://www.nbcnews.com/news/us-news/ghislaine-maxwell-files-petition-challenging-sex-trafficking-convictio-rcna249807)); offered immunity testimony ([USA Today](https://www.usatoday.com/story/news/politics/2025/07/29/ghislaine-maxwell-jeffrey-epstein-letter-congress-latest/85431311007/)) |
 | DOJ issue | Schnitt video alleging transfer to suppress testimony (⚠️ SINGLE SOURCE) |
 | Last updated | Feb 27, 2026 |
 
