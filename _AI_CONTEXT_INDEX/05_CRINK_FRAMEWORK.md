@@ -78,6 +78,30 @@ Dec 22 convergence now includes five independent signal types:
 | Policy | Travel ban expansion, DOGE analysis | Multiple |
 | **Cyber/Intel** | CRINK cyber threat analysis for 2026 | ITpro |
 
+### February 27, 2026 — Turkish Intelligence Validation
+
+| Detail | Information |
+|--------|-------------|
+| Source | Turkish National Intelligence Academy report |
+| Coverage | Daily Sabah (Feb 27, 2026) |
+| Key finding | Explicitly references "CRINK Axis" — defines it as a "flexible security ecosystem" |
+| Framework alignment | Validates repository model: coordination without formal alliance |
+| Context | Report frames CRINK within Russia-Ukraine war as turning point in great power competition |
+
+**Significance**: First official intelligence agency to publicly validate the "flexible security ecosystem" characterization — matches this repository's analytical framework.
+
+### February 25, 2026 — Russia-Cuba CRINK Signal
+
+| Detail | Information |
+|--------|-------------|
+| Event | Cuba speedboat shootout (4 killed, 6 wounded) |
+| Russia response | Kremlin spokesman: Cuban border guards "did what they had to do" |
+| Foreign Ministry | Called US approach "provocation" |
+| Timing | Within 24 hours of incident |
+| Pattern | CRINK member backing anti-US friction |
+
+**Sources**: <a href="https://www.aa.com.tr/en/asia-pacific/russia-defends-cubas-actions-after-deadly-confrontation-with-us-boarded-vessel/3840819">Anadolu Agency</a>
+
 ---
 
 ## CSIS as Primary Voice
@@ -144,6 +168,18 @@ China's Belt and Road Initiative engagement reached record levels precisely as U
 | Dec 12 | Hegseth-Koizumi 40-min call |
 | Dec 12 | China-Russia joint bomber patrol near Japan |
 
+### China — Taiwan Strait Gray-Zone Pressure (Feb 2026)
+
+| Date | PLA Aircraft | Median Crossings | PLAN Vessels |
+|------|--------------|------------------|--------------|
+| Feb 25 | 28 | 22 | — |
+| Feb 26 | 30 | 22 | 6 |
+| Feb 27 | 8 | 6 | 6 |
+
+- Feb 26 = highest single-day median crossings in February 2026
+- Japan's Feb 24 Yonaguni Type-03 Chu-SAM deployment announcement falls in SOTU window (convergence)
+- Allied responses (US-Philippines BSD Feb 16, Japan missile deployment) prompts continued PLA incursions = action-reaction escalation dynamic
+
 ### Iran-CRINK Coordination
 - Iran provides drones to Russia for Ukraine
 - North Korea provides artillery shells to Russia
@@ -197,7 +233,7 @@ China's Belt and Road Initiative engagement reached record levels precisely as U
 | Peak discourse | September-November 2025 |
 | China H1 2025 BRI | $124B |
 | Africa BRI growth | +395% |
-| Key convergence dates | Sep 26, Dec 22 |
+| Key convergence dates | Sep 26, Dec 22, Feb 19, Feb 25 |
 
 ---
 
@@ -211,4 +247,4 @@ The CRINK framework would be **falsified** if:
 
 ---
 
-*This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+*Last Updated: February 27, 2026. Added Turkish Intelligence Validation (Feb 27) and Russia-Cuba CRINK Signal (Feb 25). This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
