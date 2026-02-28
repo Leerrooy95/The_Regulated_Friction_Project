@@ -54,6 +54,7 @@ These dossiers document current financial positioning that the dashboard tracks 
 | **Affinity Partners & QXO** | `tier2_affinity_qxo.md` | Affinity Partners, Kushner, QXO, Apollo, Marc Rowan, Beacon Roofing, Phoenix Holdings | Documents Jared Kushner's $3B Apollo credit exposure, QXO as sole 13F holding, and the governance-financing pipeline through Board of Peace. |
 | **Sovereign Wealth Movers** | `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi Arabia, UAE, sovereign wealth fund, SWF, 13F, Bitcoin ETF, GlobalFoundries | Documents Q4 2025/Q1 2026 movements of Saudi PIF and Mubadala, including defense exits, Bitcoin accumulation, and gaming consolidation. |
 | **Egypt-Gulf Integration** | `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Cairo, Suez | Documents Egypt's financial integration with Gulf SWFs as geographic bridge between Gulf capital and Mediterranean. |
+| **UAE Coordination Node** | `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge, OPEC+, Kushner, Witkoff, Board of Peace | Documents UAE's function as multi-track coordination node: Russia-Ukraine negotiation venue + BRICS member + mBridge participant + OPEC+ coordination with Russia + US diplomatic operations via Kushner/Witkoff. |
 
 ---
 
@@ -84,6 +85,10 @@ This is the master logic file. Load this for any timing analysis.
 | Bin Sulayem / DP World | `tier1_binsulayem_epstein.md`, `tier3_thermostat_ruleset.md` |
 | Great St. James Island | `tier1_binsulayem_epstein.md`, `tier1_zorro_ranch_epstein.md` |
 | Egypt / Sisi / Ras El-Hekma | `tier2_egypt_gulf_integration.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
+| UAE diplomatic venue / Abu Dhabi talks | `tier2_uae_coordination_node.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
+| Russia-Ukraine negotiations | `tier2_uae_coordination_node.md`, `tier3_thermostat_ruleset.md` |
+| BRICS / mBridge | `tier2_uae_coordination_node.md`, `tier2_sovereign_wealth_movers.md` |
+| OPEC+ Russia coordination | `tier2_uae_coordination_node.md` |
 
 ---
 

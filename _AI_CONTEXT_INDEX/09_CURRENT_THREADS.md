@@ -58,6 +58,8 @@
 | OPEC+ coordination | 8-nation group (Saudi, Russia, Iraq, UAE, Kuwait, Kazakhstan, Algeria, Oman) includes 5 nations in Iran strike geography |
 | mBridge exposure | UAE and Saudi Arabia (mBridge participants) directly targeted by Iran retaliation (Feb 28, 2026) |
 | Defense industrial integration | R2S (Raytheon-Rafael) JV in same Arkansas geography as AVAIO/DATA Act infrastructure — see `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` |
+| **UAE diplomatic coordination** | **UAE hosts Russia-Ukraine negotiations (Russia's preferred venue over Geneva); Starlink cutoff (Feb 5) synchronized with Abu Dhabi Round 2 (Feb 4-5); UAE is BRICS member (Jan 2024), mBridge founding participant, OPEC+ 8-nation group member WITH Russia; Iran struck UAE (Feb 28) — pressure applied to coordination node** |
+| UAE coordination dossier | See `Node_Dossiers/tier2_uae_coordination_node.md` |
 | Last updated | Feb 28, 2026 |
 
 **Sources**:
@@ -66,6 +68,7 @@
 - Press releases (EA, TikTok, Stargate)
 - OPEC official press releases, Columbia CGEP analysis
 - Arsenal of Freedom source: `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`
+- UAE coordination: [TASS](https://tass.com/world/2093105), [Al Jazeera](https://www.aljazeera.com/news/2026/2/4/russia-ukraine-war-second-round-of-peace-talks-set-to-begin-in-abu-dhabi), [BIS mBridge](https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm)
 
 ### Node 4: Israel (Cyber/Intelligence + Tech Integration)
 
