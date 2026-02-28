@@ -98,6 +98,7 @@ The capital architecture document tracks ~$4.9 trillion in combined Gulf SWF ass
 | Thermostat Ruleset | `_AI_CONTEXT_INDEX/Node_Dossiers/tier3_thermostat_ruleset.md` |
 | Current Threads | `_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md` |
 | Egypt-Gulf Integration | `_AI_CONTEXT_INDEX/Node_Dossiers/tier2_egypt_gulf_integration.md` |
+| Arsenal of Freedom Convergence | `_AI_CONTEXT_INDEX/sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` |
 
 ---
 
