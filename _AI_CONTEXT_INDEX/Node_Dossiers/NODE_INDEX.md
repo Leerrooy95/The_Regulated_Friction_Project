@@ -2,7 +2,7 @@
 
 **Purpose**: This index enables AI assistants to selectively load relevant historical context when analyzing new friction or compliance events. Instead of reading one massive file, the AI should identify matching entities and pull only the specific dossiers needed for that analysis.
 
-**Last Updated**: February 27, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
+**Last Updated**: February 28, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
 
 ---
 
@@ -53,6 +53,7 @@ These dossiers document current financial positioning that the dashboard tracks 
 |---------|------|------------------|---------|
 | **Affinity Partners & QXO** | `tier2_affinity_qxo.md` | Affinity Partners, Kushner, QXO, Apollo, Marc Rowan, Beacon Roofing, Phoenix Holdings | Documents Jared Kushner's $3B Apollo credit exposure, QXO as sole 13F holding, and the governance-financing pipeline through Board of Peace. |
 | **Sovereign Wealth Movers** | `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi Arabia, UAE, sovereign wealth fund, SWF, 13F, Bitcoin ETF, GlobalFoundries | Documents Q4 2025/Q1 2026 movements of Saudi PIF and Mubadala, including defense exits, Bitcoin accumulation, and gaming consolidation. |
+| **Egypt-Gulf Integration** | `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Cairo, Suez | Documents Egypt's financial integration with Gulf SWFs as geographic bridge between Gulf capital and Mediterranean. |
 
 ---
 
@@ -82,6 +83,7 @@ This is the master logic file. Load this for any timing analysis.
 | Board of Peace | `tier2_affinity_qxo.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
 | Bin Sulayem / DP World | `tier1_binsulayem_epstein.md`, `tier3_thermostat_ruleset.md` |
 | Great St. James Island | `tier1_binsulayem_epstein.md`, `tier1_zorro_ranch_epstein.md` |
+| Egypt / Sisi / Ras El-Hekma | `tier2_egypt_gulf_integration.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
 
 ---
 

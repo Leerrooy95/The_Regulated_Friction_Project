@@ -29,12 +29,18 @@
 | Additional cyber | Handala hacking group targeting Israeli officials (Ehud Barak hack, October 2024) |
 | Nuclear status | Nuclear threshold capacity maintained as kinetic deterrent |
 | Strategic function | Dual-track leverage: information for diplomatic compliance, nuclear for existential deterrent |
-| Last updated | Feb 2026 |
+| **Feb 28 update** | **Operation Epic Fury / Lion's Roar launched by US/Israel; Iran retaliated under Operation Fateh Khyber** |
+| Retaliation targets | UAE (Al Dhafra Air Base), Saudi Arabia (Riyadh), Qatar (Al Udeid Air Base), Bahrain (5th Fleet HQ), Kuwait (Ali al-Salem Air Base) |
+| SWF overlap | Strike targets overlap with geographic footprint of Gulf SWF capital infrastructure (~$4.9T AUM) — see `sources/2026-02-28_Iran_Strike_Target_Mapping.md` |
+| Last updated | Feb 28, 2026 |
 
 **Sources**: 
 - ODNI briefing on "Robert" operation (2024)
 - Handala hack reporting (October 2024)
 - IAEA assessments (ongoing)
+- [Al Jazeera — Gulf states targeted by Iran retaliation (Feb 28, 2026)](https://www.aljazeera.com/news/2026/2/28/multiple-gulf-arab-states-that-host-us-assets-targeted-in-iran-retaliation)
+- [Middle East Eye — Iranian missiles strike Gulf countries (Feb 28, 2026)](https://www.middleeasteye.net/news/iranian-missiles-strike-gulf-countries-bahrain-says-us-fifth-fleet-base-attacked)
+- Target mapping: `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
 
 ### Node 3: Gulf SWFs (Capital Leverage)
 
@@ -88,7 +94,7 @@
 | Node | Leverage Type | Current Status | Strategic Function |
 |------|---------------|----------------|-------------------|
 | **G. Maxwell** | Information → Clemency | 5th Amendment invoked (Feb 9, 2026) | Potential testimony exchange |
-| **Iran** | Cyber + Nuclear | ~100GB emails + threshold capacity | Diplomatic compliance enforcement |
+| **Iran** | Cyber + Nuclear + Kinetic | Operation Fateh Khyber retaliation (Feb 28); strikes on 5 Gulf states | Diplomatic compliance + kinetic deterrent; SWF infrastructure overlap |
 | **Gulf SWFs** | Capital (~$4.9T AUM) | Active positioning | Friction intensity regulation |
 | **Israel** | Cyber/Intel + Tech | Unit 8200 + Silicon Wadi | Iran counter-weight; Gulf-tech bridge |
 | **Epstein Network** | Information (documentation) | 4,700+ bin Sulayem mentions; Maxwell leverage | Network exposure driving resignations |
@@ -536,7 +542,7 @@
 | Feb 24 | SOTU address (longest ever); USPS v. Konan ruling |
 | Feb 25 | FBI purge + whistleblower docs + Cuba shootout (SOTU window clustering) |
 | Feb 27 | Turkish intel validates "CRINK Axis" |
-| **Feb 28-Mar 3** | **Trump Iran nuclear deadline window** |
+| **Feb 28** | **Operation Epic Fury / Lion's Roar: US-Israel strikes on Iran; Iran retaliates on 5 Gulf states (Fateh Khyber)** |
 
 ### March 2026
 | Date | Event |
@@ -660,4 +666,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: February 27, 2026. Added: 2026 Cuban Crisis, Prince Andrew arrest (Feb 19), El Mencho CJNG operation (Feb 22), DHS shutdown (Feb 14), Gaza stablecoin proposal (Feb 23), Iran nuclear talks update (Feb 25-27), convergence notes (Feb 19 four-event, Feb 24-25 SOTU window). Expanded: Mandelson section (arrest details Feb 23). Updated: Key Dates tables, additional February events summary. Previous: Epstein Network Documentation as Node 5, Board of Peace summit data, Kushner–France diplomatic crisis, FBI purge, Schedule P/C deadline tracking. This document should be updated as new developments occur.*
+*Last Updated: February 28, 2026. Added: Operation Epic Fury / Lion's Roar (Feb 28) — US-Israel strikes on Iran, Iran Fateh Khyber retaliation on 5 Gulf states, SWF infrastructure overlap mapping (see sources/2026-02-28_Iran_Strike_Target_Mapping.md). Previous: 2026 Cuban Crisis, Prince Andrew arrest (Feb 19), El Mencho CJNG operation (Feb 22), DHS shutdown (Feb 14), Gaza stablecoin proposal (Feb 23), Iran nuclear talks update (Feb 25-27), convergence notes (Feb 19 four-event, Feb 24-25 SOTU window). Expanded: Mandelson section (arrest details Feb 23). Updated: Key Dates tables, additional February events summary. Previous: Epstein Network Documentation as Node 5, Board of Peace summit data, Kushner–France diplomatic crisis, FBI purge, Schedule P/C deadline tracking. This document should be updated as new developments occur.*
