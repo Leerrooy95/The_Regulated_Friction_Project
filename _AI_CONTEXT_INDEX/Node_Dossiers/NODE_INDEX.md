@@ -89,6 +89,11 @@ This is the master logic file. Load this for any timing analysis.
 | Russia-Ukraine negotiations | `tier2_uae_coordination_node.md`, `tier3_thermostat_ruleset.md` |
 | BRICS / mBridge | `tier2_uae_coordination_node.md`, `tier2_sovereign_wealth_movers.md` |
 | OPEC+ Russia coordination | `tier2_uae_coordination_node.md` |
+| Iran cyber operations / Handala / Clalit | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `tier3_thermostat_ruleset.md` |
+| Operation Robert / Trump emails hack | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
+| Cyber-kinetic sequencing / timeline analysis | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `tier3_thermostat_ruleset.md` |
+| Bennett phone hack / Operation Octopus | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
+| Nahal Soreq / nuclear data breach | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
 
 ---
 
