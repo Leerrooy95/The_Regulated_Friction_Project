@@ -107,6 +107,27 @@ def load_daily_intelligence():
             return None
     return None
 
+
+def infer_event_type(text: str) -> str:
+    """Infer event type from content when not explicitly provided."""
+    text_lower = text.lower()
+    kinetic_keywords = ["strike", "strikes", "bombing", "attack", "military action",
+                        "invasion", "missiles", "troops", "combat", "war", "assault"]
+    if any(kw in text_lower for kw in kinetic_keywords):
+        return "KINETIC"
+    return "UNKNOWN"
+
+
+def infer_imminence(text: str) -> str:
+    """Infer imminence from content."""
+    text_lower = text.lower()
+    if any(kw in text_lower for kw in ["today", "imminent", "within hours", "possibly today"]):
+        return "IMMINENT"
+    elif any(kw in text_lower for kw in ["this week", "coming days", "expected soon"]):
+        return "NEAR_TERM"
+    return "MONITORING"
+
+
 # ── Load data ────────────────────────────────────────────────────────────
 core_df = load_core_dataset()
 backfill_df = load_backfill()
@@ -560,6 +581,17 @@ with tab_live_intel:
                     else str(item.get("sources", "Perplexity"))
                 )
                 timestamp = item.get("timestamp", "Today")
+
+                # Check for kinetic/imminent escalation (with keyword fallback)
+                combined_text = title + " " + body
+                event_type = item.get("event_type", "").strip().upper() or infer_event_type(combined_text)
+                imminence = item.get("imminence", "").strip().upper() or infer_imminence(combined_text)
+
+                if event_type == "KINETIC" and imminence == "IMMINENT":
+                    st.error("🚨 **CRITICAL: IMMINENT KINETIC EVENT**")
+                elif event_type == "KINETIC":
+                    st.warning("⚠️ **KINETIC EVENT**")
+
                 st.markdown(f"**{title}**")
                 st.caption(f"Source: {source} | {timestamp}")
                 st.write(body)
@@ -601,9 +633,21 @@ with tab_live_intel:
             with st.expander("🚨 New Alerts", expanded=True):
                 for alert in daily_intel["new_alerts"]:
                     if isinstance(alert, dict):
+                        headline = alert.get("headline", "")
+                        combined_text = headline + " " + alert.get("relevance", "")
+                        event_type = alert.get("event_type", "").strip().upper() or infer_event_type(combined_text)
+                        imminence = alert.get("imminence", "").strip().upper() or infer_imminence(combined_text)
                         priority = alert.get("priority", "")
-                        priority_icon = "🔴" if priority == "HIGH" else "🟡" if priority == "MEDIUM" else "🟢"
-                        st.markdown(f"{priority_icon} **{alert.get('headline', '')}**")
+
+                        # Escalation hierarchy
+                        if event_type == "KINETIC" and imminence == "IMMINENT":
+                            st.error(f"🚨 **CRITICAL: {headline}**")
+                        elif event_type == "KINETIC" or (priority == "HIGH" and imminence == "IMMINENT"):
+                            st.warning(f"⚠️ **{headline}**")
+                        else:
+                            priority_icon = "🔴" if priority == "HIGH" else "🟡" if priority == "MEDIUM" else "🟢"
+                            st.markdown(f"{priority_icon} **{headline}**")
+
                         if alert.get("alert_type"):
                             st.caption(f"Type: {alert['alert_type']} | {alert.get('timestamp', 'Today')}")
                         if alert.get("relevance"):
