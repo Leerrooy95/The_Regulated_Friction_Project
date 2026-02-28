@@ -117,4 +117,30 @@ graph TD
 
 ---
 
-Last updated: January 17, 2026
+## Boundary Shift Log
+
+### February 27, 2026 — Potential Boundary Shift Detected
+
+- **Event:** Tucker Carlson interviews Catherine Austin Fitts (~2 hours) on the "control grid," CBDCs, the black budget, and the Epstein–programmable-money connection.
+- **Source:** https://youtu.be/BvLz1bI2sXU
+- **Full analysis:** `_AI_CONTEXT_INDEX/sources/2026-02-27_Carlson_Fitts_Control_Grid.md`
+
+#### New Permissible Topic
+- Central bank / CBDC critique (systemic level)
+- Black budget existence
+- Programmable money as "control grid" concept
+
+#### Still-Protected Topics (assessed based on what Fitts does NOT name)
+- 1789 Capital and its Gulf SWF pipeline
+- Silver Lake's role as intermediary
+- MGX consortium structure
+- PIF / Mubadala direct capital flows to U.S. media
+- Omeed Malik's Prime Brokerage background as structural conflict
+- Specific Board of Peace capital architecture
+
+#### Assessment
+**Controlled Disclosure / Narrative Expansion** — The firewall has expanded permissible topics to include systemic financial critique (CBDCs, central bank operations) while the specific actors and capital pipelines documented in this repository remain structurally protected. No protected entities were named. See full assessment in source file.
+
+---
+
+Last updated: February 28, 2026
