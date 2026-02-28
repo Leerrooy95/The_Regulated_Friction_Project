@@ -630,11 +630,12 @@ with tab_live_intel:
                         st.write(f"• {update}")
 
         if daily_intel.get("signal_status"):
+            _signal_icons = {"CONFIRMED": "✅", "ACTIVE": "🔴", "MONITORING": "👀", "RESOLVED": "✓", "ERROR": "❌"}
             with st.expander("📡 Active Signal Status"):
                 for sig in daily_intel["signal_status"]:
                     if isinstance(sig, dict):
                         status = sig.get("status", "UNKNOWN")
-                        icon = {"CONFIRMED": "✅", "ACTIVE": "🔴", "MONITORING": "👀", "RESOLVED": "✓", "ERROR": "❌"}.get(status, "❓")
+                        icon = _signal_icons.get(status, "❓")
                         st.markdown(f"{icon} **{sig.get('original_signal', '')}**: {sig.get('headline', '')}")
                         if sig.get("summary"):
                             st.caption(sig["summary"])

@@ -204,8 +204,8 @@ def _load_budget() -> dict:
         try:
             with open(BUDGET_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except (json.JSONDecodeError, IOError):
-            pass
+        except (json.JSONDecodeError, IOError) as exc:
+            logger.warning("Failed to load budget file, resetting: %s", exc)
     return {"date": "", "calls": 0}
 
 
