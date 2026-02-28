@@ -157,6 +157,22 @@ Unified Control
 - Outbound Investment Law restricts US→China direct
 - UAE "bridge" remains open
 
+### UAE Multi-Track Bridge (Extended)
+
+The UAE functions not only as a silicon bridge but as a multi-track coordination node spanning diplomatic, financial, and energy architectures:
+
+| Track | UAE Role | Verification |
+|-------|---------|--------------|
+| **Diplomatic** | Hosts Russia-Ukraine peace talks at Al Shati Palace (Russia's preferred venue over Geneva) | ✅ VERIFIED — [TASS](https://tass.com/world/2093105), [France 24](https://www.france24.com/en/europe/20260123-us-ukraine-and-russia-meet-in-abu-dhabi-for-first-trilateral-peace-talks) |
+| **Financial (BRICS)** | Full BRICS member since Jan 2024; part of bloc pursuing alternatives to Western-dominated financial systems | ✅ VERIFIED — [UAE MOFA](https://www.mofa.gov.ae/en/mediahub/news/2024/10/23/copy-of-copy-of-23-10-2024-uae-brics3) |
+| **Financial (mBridge)** | Founding participant in BIS cross-border CBDC platform; first real-value CBDC transaction ($13M to China, Jan 2024) | ✅ VERIFIED — [BIS](https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm) |
+| **Energy (OPEC+)** | Member of 8-nation voluntary production coordination group WITH Russia | ✅ VERIFIED — [OPEC official](https://www.opec.org/pr-detail/587-4-january-2026.html) |
+| **Silicon** | Mubadala 81.5% GlobalFoundries (CHIPS Act recipient); MGX 15% TikTok + Stargate equity | ✅ VERIFIED — SEC 13F, press releases |
+
+[Inference] This multi-track positioning makes the UAE a bridge not just for silicon but for capital, diplomacy, and energy — simultaneously aligned with Western infrastructure (CHIPS Act, TikTok, Stargate) and alternative architecture (BRICS, mBridge, OPEC+ with Russia).
+
+Cross-reference: `Node_Dossiers/tier2_uae_coordination_node.md`
+
 ---
 
 ## 13F Visibility Gap
