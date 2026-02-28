@@ -93,10 +93,12 @@ The eight-nation OPEC+ coordination group (Saudi Arabia, Russia, Iraq, UAE, Kuwa
 
 ### Overlap: Iran Strike Targets + BRICS/mBridge Participants
 
-| Target | BRICS Status | mBridge | OPEC+ |
+*Note: BRICS membership and mBridge (BIS CBDC platform) participation are separate programs with independent accession dates.*
+
+| Target | BRICS Status | mBridge (BIS CBDC Platform) | OPEC+ |
 |--------|--------------|---------|-------|
 | UAE | Full member (Jan 2024) | ✅ [Founding participant](https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm) | ✅ 8-nation group |
-| Saudi Arabia | Full member (July 2025; [some sources disputed](https://dfrac.org/en/2025/07/08/saudi-arabia-is-not-a-member-country-of-brics-proposal-still-held-under-consideration/)) | ✅ [Full participant (June 2024)](https://www.sama.gov.sa/en-us/news/pages/news-1029.aspx) | ✅ 8-nation group |
+| Saudi Arabia | Full member (July 2025; [some sources disputed](https://dfrac.org/en/2025/07/08/saudi-arabia-is-not-a-member-country-of-brics-proposal-still-held-under-consideration/)) | ✅ [Joined as full participant (June 2024)](https://www.sama.gov.sa/en-us/news/pages/news-1029.aspx) | ✅ 8-nation group |
 | Kuwait | Not member | GCC coordination | ✅ 8-nation group |
 
 ---
