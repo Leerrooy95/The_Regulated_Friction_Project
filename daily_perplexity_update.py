@@ -85,18 +85,28 @@ Today's date: {today}
 
 Analyze all inputs and determine:
 
-1. **top_3_developments**: The three most important items for TODAY. Consider:
-   - Breaking news that maps to framework predictions
-   - Signals that just verified or changed status
-   - Deadlines occurring in next 48 hours
+1. **top_3_developments**: Array of the three most important items for TODAY. Each object MUST have these keys:
+   - "headline": One-line title
+   - "summary": 2-3 sentence explanation
+   - "source": Primary source or reference
+   - "timestamp": Date string (e.g. "2026-02-28")
 
-2. **verification_updates**: Any pending signals that are now resolved or have new information
+2. **verification_updates**: Array of pending signals that are now resolved or have new information. Each object MUST have:
+   - "signal": Name of the signal
+   - "status": One of "verified", "unverified", or "pending"
+   - "result": Description of current status
+   - "new_sources": Source references (string)
 
-3. **new_alerts**: Breaking news that introduces NEW friction or compliance events not in existing tracking
+3. **new_alerts**: Array of breaking news that introduces NEW friction or compliance events. Each object MUST have:
+   - "headline": One-line title
+   - "alert_type": Category of alert
+   - "relevance": Framework relevance explanation
+   - "timestamp": Date string
+   - "priority": "HIGH", "MEDIUM", or "LOW"
 
-4. **priority_watchlist**: 3-5 items to monitor in the next 24 hours
+4. **priority_watchlist**: Array of 3-5 plain text strings describing items to monitor in the next 24 hours
 
-Return as JSON object with these four keys."""
+Return as JSON object with these four keys. Use EXACTLY the field names specified above."""
 
 
 # ---------------------------------------------------------------------------
