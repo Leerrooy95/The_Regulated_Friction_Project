@@ -83,10 +83,14 @@ Cross-reference: `tier2_sovereign_wealth_movers.md`
 
 ### Track 5: US Diplomatic Operations
 
-| Individual | Role | UAE Connection | Verification |
-|------------|------|----------------|--------------|
-| Jared Kushner | Board of Peace Executive Board; Lead negotiator (Iran + Ukraine) | Affinity Partners received $2B from Saudi PIF (2021), additional $1.5B from UAE Lunate + QIA (2024); total AUM ~$5B | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Affinity_Partners), [MarketScreener](https://www.marketscreener.com/news/latest/Kushner-s-Affinity-s-assets-jump-to-4-8-billion-after-Gulf-cash-injection-49468548/), [Senate Finance Committee](https://www.finance.senate.gov/chairmans-news/wyden-investigation-of-kushner-firm-continues-new-letter-outlines-affinity-partners-fee-structure-lack-of-return-to-investors-questionable-deals-with-foreign-governments) |
-| Steve Witkoff | Trump envoy; Board of Peace Executive Board | Family entities received $31M from UAE (World Liberty Financial 49% stake deal) | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/02/01/spy-sheikh-stake-trump-crypto.html), [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-01/abu-dhabi-royal-bought-stake-in-trump-s-crypto-venture-wsj-says), [ABC News](https://abcnews.com/Politics/white-house-faces-questions-uae-royals-investment-trump/story?id=129774262) |
+| Individual | Role | UAE Connection |
+|------------|------|----------------|
+| Jared Kushner | Board of Peace Executive Board; Lead negotiator (Iran + Ukraine) | Affinity Partners: $2B from Saudi PIF (2021), $1.5B from UAE Lunate + QIA (2024); total AUM ~$5B |
+| Steve Witkoff | Trump envoy; Board of Peace Executive Board | Family entities received $31M from UAE (World Liberty Financial 49% stake deal) |
+
+**Kushner verification**: ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Affinity_Partners), [MarketScreener](https://www.marketscreener.com/news/latest/Kushner-s-Affinity-s-assets-jump-to-4-8-billion-after-Gulf-cash-injection-49468548/), [Senate Finance Committee](https://www.finance.senate.gov/chairmans-news/wyden-investigation-of-kushner-firm-continues-new-letter-outlines-affinity-partners-fee-structure-lack-of-return-to-investors-questionable-deals-with-foreign-governments)
+
+**Witkoff verification**: ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/02/01/spy-sheikh-stake-trump-crypto.html), [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-01/abu-dhabi-royal-bought-stake-in-trump-s-crypto-venture-wsj-says), [ABC News](https://abcnews.com/Politics/white-house-faces-questions-uae-royals-investment-trump/story?id=129774262)
 
 **Dual Role (Feb 26, 2026)**: On the same day in Geneva, Kushner and Witkoff met Iranian Foreign Minister Araghchi (morning, at Omani ambassador's residence) then Ukrainian negotiator Umerov (afternoon, at Hôtel des Bergues). Observers described this diplomatic sprint as a "biathlon."
 
