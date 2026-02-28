@@ -183,9 +183,74 @@ The most productive paths to unmasking the investor identity include:
 
 ---
 
+## 8. Defense Industrial Base: L3Harris, Rafael, and the Arsenal of Freedom Tour
+
+On **February 27, 2026**, Secretary of War Pete Hegseth concluded his nationwide "Arsenal of Freedom" tour at the **L3Harris Technologies Campus in East Camden, Arkansas** — less than 24 hours before Operation Epic Fury launched against Iran.
+
+### L3Harris Camden Facility
+
+| Detail | Value | Source |
+|--------|-------|--------|
+| Rocket motors produced annually | 115,000+ | [Arkansas Advocate](https://arkansasadvocate.com/2026/02/27/hegseth-touts-arkansas-missile-industry-in-speech-at-arms-factory-expansion-site/) |
+| Expansion investment (AAPF) | ~$500M (groundbreaking Nov 2025; 110 acres, 20+ buildings) | Arkansas Advocate, [L3Harris](https://www.l3harris.com/newsroom/press-release/2025/11/l3harris-breaks-ground-arkansas-advanced-propulsion-facilities) |
+| Product lines | PAC-3, strategic deterrence, interceptors, hypersonic systems | [L3Harris](https://www.l3harris.com/newsroom/press-release/2026/02/secretary-war-pete-hegseth-visits-l3harris-solid-rocket-motor-site) |
+| Employees | ~1,500 | Arkansas Advocate, L3Harris |
+| Aerospace/defense exports | $950M (2024, top AR export category) | Arkansas Advocate |
+
+### R2S (Raytheon-Rafael) Joint Venture
+
+| Detail | Value | Source |
+|--------|-------|--------|
+| Partners | Raytheon (RTX) + Rafael Advanced Defense Systems (Israel) | [Rafael](https://www.rafael.co.il/news/r2s-opens-new-manufacturing-facility-in-east-camden-arkansas/) |
+| JV name | R2S (Raytheon-Rafael Protection Systems) | [RTX](https://www.rtx.com/news/news-center/2025/11/21/r2s-receives-1-25-billion-tamir-production-contract-for-facility-in-camden-arka) |
+| Investment | Initially $33M (announced 2023 Paris Air Show), grew to $63M | [AR Governor](https://governor.arkansas.gov/news_post/governor-sanders-joins-r2s-state-leaders-to-break-ground-on-manufacturing-facility-in-east-camden/), [Talk Business](https://talkbusiness.net/2025/11/r2s-opens-new-missile-manufacturing-plant-at-camden/) |
+| Products | Tamir missiles (Iron Dome), SkyHunter missiles (US MRIC) | RTX, Rafael |
+| Facility opened | November 2025 | [AR EDC](https://www.arkansasedc.com/news-events/newsroom/detail/2025/11/21/r2s-opens-new-manufacturing-facility-in-east-camden--arkansas) |
+| Contract | $1.25B Tamir production contract (Nov 2025) | [RTX](https://www.rtx.com/news/news-center/2025/11/21/r2s-receives-1-25-billion-tamir-production-contract-for-facility-in-camden-arka) |
+| Location | East Camden, Highland Industrial Park | AR EDC |
+
+### Pine Bluff Arsenal
+
+| Detail | Value | Source |
+|--------|-------|--------|
+| Investment | $1.3B from Hanwha Defense USA (South Korean subsidiary) | [U.S. Army](https://www.army.mil/article/290209/army_modernizes_munitions_production_with_landmark_lease_at_pine_bluff_arsenal) |
+| Mechanism | Army Enhanced Use Lease | [Talk Business](https://talkbusiness.net/2026/01/1-3-billion-army-contract-awarded-to-restart-pine-bluff-munitions-production/) |
+| Announced | January 2026 | U.S. Army |
+| Products | Munitions ingredients (explosives, propellants, incl. 155mm components) | U.S. Army |
+| Jobs | ~200 new positions | [AR Business](https://www.arkansasbusiness.com/article/hanwha-defense-invests-pine-bluff-arsenal-munitions-plant/) |
+
+### Hegseth Visit (February 27, 2026)
+
+Hegseth was introduced by **Governor Sarah Huckabee Sanders**, **Senator Tom Cotton**, and **Representative Bruce Westerman** — the same political alignment documented in Acts 373/548 and the DATA Act infrastructure. During the visit, Hegseth claimed **44 missiles** powered by L3Harris rocket motors were used in the Venezuela/Maduro capture operation, stating they struck "three minutes before warfighters landed" ([Arkansas Advocate](https://arkansasadvocate.com/2026/02/27/hegseth-touts-arkansas-missile-industry-in-speech-at-arms-factory-expansion-site/)).
+
+### Connection to Existing Infrastructure Architecture
+
+The defense industrial base in Arkansas operates in parallel with the regulatory/capital architecture documented in Sections 1-5:
+
+| Layer | Entity | Detail | Section |
+|-------|--------|--------|---------|
+| Regulatory override | Act 373 | PSC cannot permanently deny utility projects | Section 3 |
+| Tax incentive | Act 548 | Bespoke data center framework, "nonadjacent" clause | Section 4 |
+| Data infrastructure | AVAIO Campus | $6-21B, undisclosed backer | Section 5 |
+| Energy infrastructure | Jefferson Power Station | $1.5B, approved despite "not reasonable" cost | Section 1 |
+| Defense manufacturing | L3Harris Camden | 115K rocket motors/year, ~$500M expansion | This section |
+| Israeli-US JV | R2S (Raytheon-Rafael) | Initially $33M → $63M; $1.25B Tamir contract | This section |
+| Army investment | Pine Bluff Arsenal | $1.3B Hanwha via Enhanced Use Lease (Jan 2026) | This section |
+| Democratic check | LWV v. Jester | Ballot initiative restrictions on appeal | Section 2 |
+
+### Timing Convergence with Iran Strikes
+
+Hegseth's Camden visit occurred **less than 24 hours** before Operation Epic Fury / Lion's Roar launched US-Israel strikes against Iran (Feb 28, 2026). Iran retaliated under Operation Fateh Khyber, striking five Gulf states — UAE, Saudi Arabia, Qatar, Bahrain, Kuwait — whose sovereign wealth funds are documented in the capital architecture (`_AI_CONTEXT_INDEX/04_CAPITAL_ARCHITECTURE.md`).
+
+**Note:** This timing is documented for correlation analysis. No causal claim is made that the visit was intentionally timed to precede the strikes.
+
+**Source:** `_AI_CONTEXT_INDEX/sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`
+
+---
+
 ## Conclusion: A Closed Regulatory Loop by Design
 
-The forensic picture emerging from these five research threads reveals an interlocking legislative and regulatory architecture:
+The forensic picture emerging from these six research threads reveals an interlocking legislative and regulatory architecture:
 
 **Act 373 creates a system where the PSC cannot permanently deny utility projects**—only delay them through an iterative loop that terminates exclusively in approval, withdrawal, or appeal. The PSC's January 2026 order approving the Jefferson Power Station despite finding its costs unreasonable is the predictable outcome of this statutory design, not an anomaly.
 
@@ -195,7 +260,9 @@ The forensic picture emerging from these five research threads reveals an interl
 
 **The one democratic mechanism that could allow Arkansas voters to challenge this framework—the ballot initiative process—is the subject of an active federal lawsuit** where the state lost at the district court level but the appeal creates operational uncertainty through the July 3, 2026 signature deadline. The district court trial is set for **July 20, 2026**—after the signature window closes.
 
-Each element functions independently but reinforces the others, creating a closed loop between legislative authorization, constrained regulation, targeted incentives, undisclosed capital, and restricted citizen recourse. The structural evidence—a regulatory body approving what it found "not reasonable" because the law compelled it—is stronger than any individual quote. It documents capture not through rhetoric but through mechanism.
+**The defense industrial base adds a sixth dimension.** L3Harris's Camden facility (115,000+ rocket motors/year, ~$500M expansion) and the R2S joint venture between Raytheon and Rafael Advanced Defense Systems (initially $33M, grew to $63M; $1.25B Tamir production contract) establish direct Israeli-US defense industry integration in the same Arkansas geography. The $1.3B Hanwha Defense USA investment at Pine Bluff Arsenal (Jan 2026) and Hegseth's "Arsenal of Freedom" visit (<24 hours before Iran strikes) connect defense manufacturing to the same political alignment (Sanders, Cotton, Westerman) that enabled the regulatory and tax architecture.
+
+Each element functions independently but reinforces the others, creating a closed loop between legislative authorization, constrained regulation, targeted incentives, undisclosed capital, defense manufacturing, and restricted citizen recourse. The structural evidence—a regulatory body approving what it found "not reasonable" because the law compelled it—is stronger than any individual quote. It documents capture not through rhetoric but through mechanism.
 
 ---
 
@@ -265,6 +332,22 @@ Each element functions independently but reinforces the others, creating a close
 - Case No. 5:25-cv-05087 (W.D. Ark.): League of Women Voters of Arkansas v. Jester
 - Case No. 25-3389 (8th Cir.): Appeal of preliminary injunction
 
+### Defense Industrial Base (Section 8)
+- Arkansas Advocate (Hegseth visit): https://arkansasadvocate.com/2026/02/27/hegseth-touts-arkansas-missile-industry-in-speech-at-arms-factory-expansion-site/
+- L3Harris (Hegseth visit press release): https://www.l3harris.com/newsroom/press-release/2026/02/secretary-war-pete-hegseth-visits-l3harris-solid-rocket-motor-site
+- L3Harris (AAPF groundbreaking): https://www.l3harris.com/newsroom/press-release/2025/11/l3harris-breaks-ground-arkansas-advanced-propulsion-facilities
+- KATV (Hegseth visit): https://katv.com/news/local/l3harris-breaks-ground-on-new-arkansas-propulsion-site-as-rocket-motor-output-ramps-up-katv-news-share-inform-public-safety-community
+- KARK: https://www.kark.com/news/state-news/u-s-secretary-of-war-pete-hegseth-visits-arkansas-as-part-of-arsenal-of-freedom-tour/
+- Fox 16: https://www.fox16.com/news/state-news/u-s-secretary-of-war-pete-hegseth-visits-arkansas-as-part-of-arsenal-of-freedom-tour/
+- Rafael (R2S facility opening): https://www.rafael.co.il/news/r2s-opens-new-manufacturing-facility-in-east-camden-arkansas/
+- RTX (R2S Tamir contract): https://www.rtx.com/news/news-center/2025/11/21/r2s-receives-1-25-billion-tamir-production-contract-for-facility-in-camden-arka
+- AR Governor (R2S groundbreaking): https://governor.arkansas.gov/news_post/governor-sanders-joins-r2s-state-leaders-to-break-ground-on-manufacturing-facility-in-east-camden/
+- AR EDC (R2S facility): https://www.arkansasedc.com/news-events/newsroom/detail/2025/11/21/r2s-opens-new-manufacturing-facility-in-east-camden--arkansas
+- Talk Business (R2S): https://talkbusiness.net/2025/11/r2s-opens-new-missile-manufacturing-plant-at-camden/
+- U.S. Army (Pine Bluff Arsenal): https://www.army.mil/article/290209/army_modernizes_munitions_production_with_landmark_lease_at_pine_bluff_arsenal
+- Talk Business (Pine Bluff): https://talkbusiness.net/2026/01/1-3-billion-army-contract-awarded-to-restart-pine-bluff-munitions-production/
+- DoW (Arsenal of Freedom tour): https://www.war.gov/News/News-Stories/Article/Article/4408685/hegseth-brings-dows-arsenal-of-freedom-tour-to-fighterland-usa/
+
 ---
 
-*Report compiled: February 7, 2026*
+*Report compiled: February 7, 2026; Section 8 added February 28, 2026*
