@@ -629,6 +629,19 @@ with tab_live_intel:
                     else:
                         st.write(f"• {update}")
 
+        if daily_intel.get("signal_status"):
+            _signal_icons = {"CONFIRMED": "✅", "ACTIVE": "🔴", "MONITORING": "👀", "RESOLVED": "✓", "ERROR": "❌"}
+            with st.expander("📡 Active Signal Status"):
+                for sig in daily_intel["signal_status"]:
+                    if isinstance(sig, dict):
+                        status = sig.get("status", "UNKNOWN")
+                        icon = _signal_icons.get(status, "❓")
+                        st.markdown(f"{icon} **{sig.get('original_signal', '')}**: {sig.get('headline', '')}")
+                        if sig.get("summary"):
+                            st.caption(sig["summary"])
+                    else:
+                        st.write(f"• {sig}")
+
         if daily_intel.get("new_alerts"):
             with st.expander("🚨 New Alerts", expanded=True):
                 for alert in daily_intel["new_alerts"]:

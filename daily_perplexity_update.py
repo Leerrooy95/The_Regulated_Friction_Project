@@ -1,11 +1,13 @@
 """
-daily_perplexity_update.py
-==========================
-Runs after Llama Scout extraction in the daily GitHub Actions pipeline.
+daily_perplexity_update.py (Standalone Version)
+================================================
+Perplexity-only intelligence pipeline. No Llama Scout dependency.
+Loads tracked entities and signals from intelligence_config.json.
+
 Uses Perplexity (sonar-pro) to:
-1. Verify all HIGH priority pending signals
-2. Search for breaking news relevant to framework entities
-3. Prioritize today's most important developments
+1. Check status of each active signal
+2. Scan breaking news across all tracked entities
+3. Generate prioritized daily summary
 4. Save daily_intelligence.json for dashboard consumption
 
 Requires PERPLEXITY_API_KEY environment variable.
@@ -39,78 +41,91 @@ _MODEL_ID = "sonar-pro"
 _BASE_URL = "https://api.perplexity.ai"
 _MAX_RETRIES = 3
 _BASE_BACKOFF = 2  # seconds; doubles on each retry
+_DAILY_API_BUDGET = 50  # max API calls per 24-hour period
+CONFIG_FILE = Path("intelligence_config.json")
 OUTPUT_DIR = Path("output")
+BUDGET_FILE = OUTPUT_DIR / ".api_budget.json"
 
 # ---------------------------------------------------------------------------
 # Prompt templates
 # ---------------------------------------------------------------------------
 
-BREAKING_NEWS_PROMPT = """You are monitoring breaking news for The Regulated Friction Project.
+SIGNAL_STATUS_PROMPT = """You are a real-time intelligence analyst. Today is {today}.
 
-Today's date: {today}
+Check the CURRENT STATUS of this signal: {signal}
 
-Search for any breaking news in the last 24 hours related to these entities:
+Search terms to use: {search_terms}
+
+Return a JSON object with:
+- "status": "CONFIRMED" (event happened), "ACTIVE" (ongoing/developing), "MONITORING" (no new developments), or "RESOLVED"
+- "headline": One-line current status
+- "summary": 2-3 sentences on what's happening RIGHT NOW
+- "event_type": "KINETIC" (military/strikes), "REGULATORY", "FINANCIAL", "POLITICAL", or "INTELLIGENCE"
+- "imminence": "ONGOING" (happening now), "IMMINENT" (within 24h), "NEAR_TERM" (this week), or "MONITORING"
+- "sources": Array of source references
+- "timestamp": Today's date
+
+Be specific about what HAS HAPPENED vs what MIGHT happen."""
+
+BREAKING_NEWS_PROMPT = """You are a real-time intelligence analyst. Today is {today}.
+
+Search for breaking news in the LAST 24 HOURS related to these entities:
 {entities}
 
-Focus areas:
-- Executive orders, policy changes, regulatory actions
-- Corporate leadership changes, SEC filings, major deals
-- International developments (Iran, Cuba, Israel/Gaza, Taiwan)
-- DOJ/FBI actions, congressional hearings
-- Schedule F/Schedule P/C implementation
+Framework context: {framework_context}
 
-For each relevant finding, return:
-- headline: One-line summary
-- source: Primary source URL
-- timestamp: When reported
-- framework_relevance: How this connects to friction/compliance patterns
-- priority: HIGH/MEDIUM/LOW
+For each significant finding, return a JSON object with:
+- "headline": One-line summary of what HAPPENED (not predictions)
+- "summary": 2-3 sentences on the event
+- "event_type": "KINETIC", "REGULATORY", "FINANCIAL", "POLITICAL", or "INTELLIGENCE"
+- "imminence": "ONGOING", "IMMINENT", "NEAR_TERM", or "MONITORING"
+- "priority": "HIGH", "MEDIUM", or "LOW"
+- "framework_relevance": How this connects to friction/compliance patterns
+- "sources": Source references
+- "timestamp": When it occurred
 
-Return as JSON array. If no relevant news found, return empty array."""
+Return as JSON array. Focus on CONFIRMED events, not speculation. If something happened, say it happened."""
 
-DAILY_PRIORITY_PROMPT = """You are the intelligence analyst for The Regulated Friction Project.
+DAILY_SUMMARY_PROMPT = """You are the intelligence analyst for The Regulated Friction Project.
 
-Today's date: {today}
+Today: {today}
 
-## VERIFIED SIGNALS
-{verified_signals}
+## SIGNAL STATUS UPDATES
+{signal_updates}
 
 ## BREAKING NEWS
 {breaking_news}
 
-## UPCOMING DEADLINES (next 7 days)
-{upcoming_deadlines}
+## FRAMEWORK CONTEXT
+{framework_context}
 
-## YOUR TASK
+Generate a daily intelligence summary with:
 
-Analyze all inputs and determine:
-
-1. **top_3_developments**: Array of the three most important items for TODAY. Each object MUST have these keys:
-   - "headline": One-line title
+1. **top_3_developments**: The three most important items TODAY. Each MUST have:
+   - "headline": What HAPPENED (past tense for confirmed events)
    - "summary": 2-3 sentence explanation
-   - "source": Primary source or reference
-   - "timestamp": Date string (e.g. "2026-02-28")
-   - "event_type": One of: "KINETIC" (military action, strikes, conflict), "REGULATORY" (filings, deadlines, court actions), "FINANCIAL" (deals, capital movements), "POLITICAL" (appointments, policy), "INTELLIGENCE" (threat assessments, signals, warnings, intelligence reports)
-   - "imminence": One of: "IMMINENT" (within 24 hours), "NEAR_TERM" (within 7 days), "MONITORING" (ongoing)
+   - "event_type": "KINETIC", "REGULATORY", "FINANCIAL", "POLITICAL", or "INTELLIGENCE"
+   - "imminence": "ONGOING", "IMMINENT", "NEAR_TERM", or "MONITORING"
+   - "source": Primary source
+   - "timestamp": Date
 
-2. **verification_updates**: Array of pending signals that are now resolved or have new information. Each object MUST have:
-   - "signal": Name of the signal
-   - "status": One of "verified", "unverified", or "pending"
-   - "result": Description of current status
-   - "new_sources": Source references (string)
+2. **new_alerts**: Breaking developments. Each MUST have:
+   - "headline": What happened
+   - "alert_type": Category
+   - "event_type": Same options as above
+   - "imminence": Same options as above
+   - "relevance": Framework connection
+   - "priority": "HIGH", "MEDIUM", "LOW"
+   - "timestamp": Date
 
-3. **new_alerts**: Array of breaking news that introduces NEW friction or compliance events. Each object MUST have:
-   - "headline": One-line title
-   - "alert_type": Category of alert
-   - "event_type": One of: "KINETIC", "REGULATORY", "FINANCIAL", "POLITICAL", "INTELLIGENCE"
-   - "imminence": One of: "IMMINENT", "NEAR_TERM", "MONITORING"
-   - "relevance": Framework relevance explanation
-   - "timestamp": Date string
-   - "priority": "HIGH", "MEDIUM", or "LOW"
+3. **signal_updates**: Status changes on tracked signals
 
-4. **priority_watchlist**: Array of 3-5 plain text strings describing items to monitor in the next 24 hours
+4. **priority_watchlist**: 3-5 items to monitor next 24 hours
 
-Return as JSON object with these four keys. Use EXACTLY the field names specified above."""
+Use PAST TENSE for confirmed events. "US struck Iran" not "US may strike Iran".
+Use PRESENT TENSE for ongoing situations. "Negotiations are underway" not "negotiations may occur".
+
+Return as JSON object."""
 
 
 # ---------------------------------------------------------------------------
@@ -180,138 +195,131 @@ def _parse_json(text: str):
 
 
 # ---------------------------------------------------------------------------
+# API budget management — resets every 24 hours
+# ---------------------------------------------------------------------------
+
+def _load_budget() -> dict:
+    """Load daily API budget tracker from disk."""
+    if BUDGET_FILE.exists():
+        try:
+            with open(BUDGET_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError) as exc:
+            logger.warning("Failed to load budget file, resetting: %s", exc)
+    return {"date": "", "calls": 0}
+
+
+def _save_budget(budget: dict):
+    """Persist the budget tracker."""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    with open(BUDGET_FILE, "w", encoding="utf-8") as f:
+        json.dump(budget, f)
+
+
+def _check_budget() -> tuple[dict, bool]:
+    """Check if we have remaining API budget today.
+
+    Resets the counter when the UTC date rolls over.
+    Returns (budget_dict, is_within_budget).
+    """
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    budget = _load_budget()
+    if budget.get("date") != today:
+        budget = {"date": today, "calls": 0}
+    return budget, budget["calls"] < _DAILY_API_BUDGET
+
+
+def _record_api_call(budget: dict) -> dict:
+    """Increment the call counter and persist."""
+    budget["calls"] = budget.get("calls", 0) + 1
+    _save_budget(budget)
+    return budget
+
+
+# ---------------------------------------------------------------------------
 # Core pipeline functions
 # ---------------------------------------------------------------------------
 
-def load_latest_extraction() -> dict | None:
-    """Find and load the most recent *_extracted.json from output/."""
-    if not OUTPUT_DIR.exists():
-        logger.warning("output/ directory not found")
-        return None
-
-    extraction_files = sorted(
-        OUTPUT_DIR.glob("*_extracted.json"),
-        key=lambda p: p.name,
-        reverse=True,
-    )
-    if not extraction_files:
-        logger.warning("No *_extracted.json files found in output/")
-        return None
-
-    latest = extraction_files[0]
-    logger.info("Loading latest extraction: %s", latest.name)
-    try:
-        with open(latest, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, IOError) as exc:
-        logger.error("Failed to load %s: %s", latest, exc)
-        return None
+def load_config() -> dict:
+    """Load intelligence configuration."""
+    if not CONFIG_FILE.exists():
+        logger.error("Config file not found: %s", CONFIG_FILE)
+        sys.exit(1)
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def verify_pending_signals(client, pending_signals: list) -> tuple[list, int]:
-    """Call Perplexity to verify each HIGH priority signal.
-
-    Re-uses the same verification approach as ``perplexity_verify.py`` but
-    returns a richer structure for the daily intelligence file.
-    """
-    results = []
-    api_calls = 0
-    for sig in pending_signals:
-        query = sig.get("verification_query", sig.get("event", ""))
-        if not query:
-            continue
-        try:
-            raw = _call_perplexity(client, f"Verify this signal as of today: {query}")
-            api_calls += 1
-            description = raw.strip()
-            status = "verified" if description and "no relevant" not in description.lower() else "unverified"
-            results.append({
-                "signal": sig.get("event", query),
-                "original_deadline": sig.get("deadline"),
-                "status": status,
-                "result": description[:500],
-                "source": "",
-            })
-        except Exception:  # noqa: BLE001
-            results.append({
-                "signal": sig.get("event", query),
-                "original_deadline": sig.get("deadline"),
-                "status": "error",
-                "result": "Verification failed",
-                "source": "",
-            })
-    return results, api_calls
+def get_all_entities(config: dict) -> list:
+    """Flatten all tracked entities into a single list."""
+    entities = []
+    for category, items in config.get("tracked_entities", {}).items():
+        entities.extend(items)
+    return entities
 
 
-def scan_for_breaking_news(client, entities: list) -> tuple[list, int]:
-    """Query Perplexity for breaking news on key entities."""
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    prompt = BREAKING_NEWS_PROMPT.format(
+def check_signal_status(client, signal: dict, today: str) -> dict:
+    """Check current status of a tracked signal via Perplexity."""
+    prompt = SIGNAL_STATUS_PROMPT.format(
         today=today,
-        entities="\n".join(f"- {e}" for e in entities),
-    )
-    try:
-        raw = _call_perplexity(client, prompt)
-        parsed = _parse_json(raw)
-        if isinstance(parsed, list):
-            return parsed, 1
-        return [], 1
-    except Exception:  # noqa: BLE001
-        logger.warning("Breaking news scan failed")
-        return [], 1
-
-
-def prioritize_for_today(
-    client,
-    verified_signals: list,
-    breaking_news: list,
-    pending_signals: list,
-) -> tuple[dict, int]:
-    """Use Perplexity to rank and prioritize what matters TODAY."""
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    # Build upcoming deadlines from pending signals (they have deadline fields)
-    upcoming = []
-    for sig in pending_signals:
-        deadline = sig.get("deadline") or sig.get("date")
-        if deadline:
-            upcoming.append(f"{sig.get('event', sig.get('description', ''))}: {deadline}")
-
-    prompt = DAILY_PRIORITY_PROMPT.format(
-        today=today,
-        verified_signals=json.dumps(verified_signals, indent=2) if verified_signals else "None available",
-        breaking_news=json.dumps(breaking_news, indent=2) if breaking_news else "None found",
-        upcoming_deadlines="\n".join(upcoming) if upcoming else "None identified",
+        signal=signal.get("signal", ""),
+        search_terms=", ".join(signal.get("search_terms", []))
     )
     try:
         raw = _call_perplexity(client, prompt)
         parsed = _parse_json(raw)
         if isinstance(parsed, dict):
-            return parsed, 1
-        # If parsing fails, return structured empty result
-        return {
-            "top_3_developments": [],
-            "verification_updates": [],
-            "new_alerts": [],
-            "priority_watchlist": [],
-        }, 1
+            parsed["original_signal"] = signal.get("signal", "")
+            parsed["category"] = signal.get("category", "")
+            return parsed
     except Exception:  # noqa: BLE001
-        logger.warning("Prioritization failed")
-        return {
-            "top_3_developments": [],
-            "verification_updates": [],
-            "new_alerts": [],
-            "priority_watchlist": [],
-        }, 1
+        logger.warning("Failed to check signal: %s", signal.get("signal", ""))
+    return {
+        "original_signal": signal.get("signal", ""),
+        "status": "ERROR",
+        "headline": "Check failed",
+        "summary": "",
+        "sources": []
+    }
 
 
-def save_daily_intelligence(data: dict):
-    """Save to output/daily_intelligence.json (overwritten daily)."""
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    output_path = OUTPUT_DIR / "daily_intelligence.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    logger.info("Daily intelligence saved to %s", output_path)
+def scan_breaking_news(client, entities: list, framework_context: str, today: str) -> list:
+    """Scan for breaking news across all entities."""
+    prompt = BREAKING_NEWS_PROMPT.format(
+        today=today,
+        entities="\n".join(f"- {e}" for e in entities),
+        framework_context=framework_context
+    )
+    try:
+        raw = _call_perplexity(client, prompt)
+        parsed = _parse_json(raw)
+        if isinstance(parsed, list):
+            return parsed
+    except Exception:  # noqa: BLE001
+        logger.warning("Breaking news scan failed")
+    return []
+
+
+def generate_daily_summary(client, signal_updates: list, breaking_news: list, framework_context: str, today: str) -> dict:
+    """Generate prioritized daily summary."""
+    prompt = DAILY_SUMMARY_PROMPT.format(
+        today=today,
+        signal_updates=json.dumps(signal_updates, indent=2) if signal_updates else "No updates",
+        breaking_news=json.dumps(breaking_news, indent=2) if breaking_news else "No breaking news",
+        framework_context=framework_context
+    )
+    try:
+        raw = _call_perplexity(client, prompt)
+        parsed = _parse_json(raw)
+        if isinstance(parsed, dict):
+            return parsed
+    except Exception:  # noqa: BLE001
+        logger.warning("Daily summary generation failed")
+    return {
+        "top_3_developments": [],
+        "new_alerts": [],
+        "signal_updates": [],
+        "priority_watchlist": []
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -324,55 +332,91 @@ def main():
         logger.error("Cannot proceed without Perplexity API key")
         sys.exit(1)
 
-    extraction = load_latest_extraction()
-    if extraction is None:
-        logger.error("No extraction data available — skipping daily update")
-        sys.exit(1)
+    config = load_config()
+    entities = get_all_entities(config)
+    active_signals = config.get("active_signals", [])
+    framework_context = config.get("framework_context", "")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    pending = extraction.get("pending_signals", [])
-    nodes = extraction.get("convergence_nodes", [])
-    events = extraction.get("events", [])
+    # Budget gate — abort early if daily limit is reached
+    budget, within_budget = _check_budget()
+    if not within_budget:
+        logger.warning(
+            "Daily API budget exhausted (%d/%d calls). Skipping run.",
+            budget["calls"], _DAILY_API_BUDGET,
+        )
+        sys.exit(0)
+    logger.info("API budget: %d/%d calls used today", budget["calls"], _DAILY_API_BUDGET)
 
     total_api_calls = 0
 
-    # Step 1: Verify HIGH priority pending signals
-    high_priority = [s for s in pending if s.get("monitoring_priority") == "HIGH"]
-    logger.info("Verifying %d HIGH priority signals…", len(high_priority))
-    verified, calls = verify_pending_signals(client, high_priority)
-    total_api_calls += calls
+    # Step 1: Check status of each active signal
+    logger.info("Checking %d active signals...", len(active_signals))
+    signal_updates = []
+    for signal in active_signals:
+        budget, ok = _check_budget()
+        if not ok:
+            logger.warning("Budget limit reached during signal checks")
+            break
+        result = check_signal_status(client, signal, today)
+        signal_updates.append(result)
+        total_api_calls += 1
+        budget = _record_api_call(budget)
 
-    # Step 2: Scan for breaking news on key entities
-    entity_names = [n["entity"] for n in nodes if n.get("entity")]
-    logger.info("Scanning breaking news for %d entities…", len(entity_names))
-    breaking, calls = scan_for_breaking_news(client, entity_names)
-    total_api_calls += calls
+    # Step 2: Scan breaking news
+    budget, ok = _check_budget()
+    if ok:
+        logger.info("Scanning breaking news for %d entities...", len(entities))
+        breaking_news = scan_breaking_news(client, entities, framework_context, today)
+        total_api_calls += 1
+        budget = _record_api_call(budget)
+    else:
+        logger.warning("Budget limit reached — skipping breaking news scan")
+        breaking_news = []
 
-    # Step 3: Have Perplexity prioritize for today
-    logger.info("Generating daily prioritization…")
-    daily_intel, calls = prioritize_for_today(client, verified, breaking, pending)
-    total_api_calls += calls
+    # Step 3: Generate daily summary
+    budget, ok = _check_budget()
+    if ok:
+        logger.info("Generating daily summary...")
+        daily_summary = generate_daily_summary(client, signal_updates, breaking_news, framework_context, today)
+        total_api_calls += 1
+        budget = _record_api_call(budget)
+    else:
+        logger.warning("Budget limit reached — skipping summary generation")
+        daily_summary = {
+            "top_3_developments": [],
+            "new_alerts": [],
+            "signal_updates": [],
+            "priority_watchlist": []
+        }
 
-    # Step 4: Assemble and save output
-    daily_intel.setdefault("top_3_developments", [])
-    daily_intel.setdefault("verification_updates", verified)
-    daily_intel.setdefault("new_alerts", [])
-    daily_intel.setdefault("priority_watchlist", [])
-
+    # Step 4: Assemble output
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "generated_by": f"Perplexity {_MODEL_ID}",
-        **daily_intel,
-        "entities_scanned": entity_names,
-        "pending_signals_checked": len(high_priority),
+        "generated_by": "Perplexity sonar-pro (standalone)",
+        "config_version": config.get("last_updated", "unknown"),
+        **daily_summary,
+        "signal_status": signal_updates,
+        "entities_scanned": entities,
         "api_calls_made": total_api_calls,
+        "daily_budget_used": budget.get("calls", 0),
+        "daily_budget_limit": _DAILY_API_BUDGET
     }
 
-    save_daily_intelligence(output)
+    # Save
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    output_path = OUTPUT_DIR / "daily_intelligence.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    logger.info("Daily intelligence saved to %s", output_path)
     logger.info(
-        "Done. %d signals checked, %d breaking items, %d API calls.",
-        len(high_priority),
-        len(breaking),
+        "Done. %d signals checked, %d breaking items, %d API calls. Budget: %d/%d.",
+        len(active_signals),
+        len(breaking_news),
         total_api_calls,
+        budget.get("calls", 0),
+        _DAILY_API_BUDGET,
     )
 
 

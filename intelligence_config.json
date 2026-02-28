@@ -1,0 +1,80 @@
+{
+  "last_updated": "2026-02-28",
+  "tracked_entities": {
+    "sovereign_wealth": [
+      "Saudi PIF",
+      "Mubadala",
+      "ADIA",
+      "QIA",
+      "MGX",
+      "Affinity Partners"
+    ],
+    "private_equity": [
+      "Apollo Global Management",
+      "Silver Lake",
+      "Thiel Macro LLC",
+      "Palantir"
+    ],
+    "government": [
+      "Board of Peace",
+      "DOGE",
+      "Schedule F",
+      "CFIUS"
+    ],
+    "geopolitical": [
+      "Iran",
+      "Israel",
+      "UAE",
+      "Saudi Arabia",
+      "Russia",
+      "Ukraine"
+    ],
+    "tech_infrastructure": [
+      "Stargate",
+      "TikTok",
+      "Oracle",
+      "GlobalFoundries",
+      "Starlink"
+    ],
+    "legal_regulatory": [
+      "Epstein files",
+      "DOJ",
+      "SEC 13F",
+      "QXO",
+      "Executive Orders"
+    ]
+  },
+  "active_signals": [
+    {
+      "signal": "Iran-US military action",
+      "category": "KINETIC",
+      "priority": "HIGH",
+      "search_terms": ["Iran strikes", "US Iran military", "Operation Epic Fury", "Iran retaliation"]
+    },
+    {
+      "signal": "Board of Peace developments",
+      "category": "POLITICAL",
+      "priority": "HIGH",
+      "search_terms": ["Board of Peace", "Trump Gaza plan", "EO 14375"]
+    },
+    {
+      "signal": "Gulf SWF capital movements",
+      "category": "FINANCIAL",
+      "priority": "MEDIUM",
+      "search_terms": ["PIF investment", "Mubadala acquisition", "Gulf sovereign wealth"]
+    },
+    {
+      "signal": "Epstein document releases",
+      "category": "INTELLIGENCE",
+      "priority": "HIGH",
+      "search_terms": ["Epstein files", "DOJ Epstein", "Epstein documents released"]
+    },
+    {
+      "signal": "Russia-Ukraine negotiations",
+      "category": "POLITICAL",
+      "priority": "HIGH",
+      "search_terms": ["Russia Ukraine talks", "Abu Dhabi negotiations", "Zelensky Putin"]
+    }
+  ],
+  "framework_context": "The Regulated Friction Project tracks correlations between high-visibility friction events and institutional compliance responses, with a documented 14-day lag pattern (r=0.62, p<0.001)."
+}
