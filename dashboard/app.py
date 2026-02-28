@@ -95,7 +95,7 @@ def load_latest_intel():
     except (json.JSONDecodeError, IOError):
         return None, None
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=900)
 def load_daily_intelligence():
     """Load the daily Perplexity-generated intelligence summary."""
     daily_file = REPO_ROOT / "output" / "daily_intelligence.json"
@@ -552,9 +552,16 @@ with tab_live_intel:
 
         for item in daily_intel.get("top_3_developments", []):
             if isinstance(item, dict):
-                st.markdown(f"**{item.get('headline', '')}**")
-                st.caption(f"Source: {item.get('source', 'Perplexity')} | {item.get('timestamp', 'Today')}")
-                st.write(item.get("summary", ""))
+                # Support both LLM output schemas: headline/item, summary/reason, source/sources
+                title = item.get("headline") or item.get("item", "")
+                body = item.get("summary") or item.get("reason", "")
+                source = item.get("source") or (
+                    ", ".join(item["sources"]) if isinstance(item.get("sources"), list) else item.get("sources", "Perplexity")
+                )
+                timestamp = item.get("timestamp", "Today")
+                st.markdown(f"**{title}**")
+                st.caption(f"Source: {source} | {timestamp}")
+                st.write(body)
             else:
                 st.write(f"• {item}")
             st.divider()
@@ -563,15 +570,51 @@ with tab_live_intel:
             with st.expander("🔍 Signal Verification Updates"):
                 for update in daily_intel["verification_updates"]:
                     if isinstance(update, dict):
-                        status_icon = "✅" if update.get("status") == "verified" else "⚠️"
-                        st.write(f"{status_icon} **{update.get('signal', '')}**: {update.get('result', '')}")
+                        # Support both schemas: status/result and update/new_sources
+                        status = update.get("status", "")
+                        detail = update.get("result") or update.get("update", "")
+                        if status == "verified":
+                            status_icon = "✅"
+                        elif status == "error":
+                            status_icon = "❌"
+                        elif status:
+                            status_icon = "⚠️"
+                        else:
+                            # No explicit status — infer from content
+                            lower_detail = detail.lower()
+                            has_negative = any(w in lower_detail for w in ["unverified", "not verified", "not confirmed", "remains unverified"])
+                            has_positive = any(w in lower_detail for w in ["confirmed", "verified", "filed"])
+                            status_icon = "✅" if has_positive and not has_negative else "⚠️"
+                        st.write(f"{status_icon} **{update.get('signal', '')}**: {detail}")
+                        if update.get("new_sources"):
+                            st.caption(f"Sources: {update['new_sources']}")
                     else:
                         st.write(f"• {update}")
+
+        if daily_intel.get("new_alerts"):
+            with st.expander("🚨 New Alerts", expanded=True):
+                for alert in daily_intel["new_alerts"]:
+                    if isinstance(alert, dict):
+                        priority = alert.get("priority", "")
+                        priority_icon = "🔴" if priority == "HIGH" else "🟡" if priority == "MEDIUM" else "🟢"
+                        st.markdown(f"{priority_icon} **{alert.get('headline', '')}**")
+                        if alert.get("alert_type"):
+                            st.caption(f"Type: {alert['alert_type']} | {alert.get('timestamp', 'Today')}")
+                        if alert.get("relevance"):
+                            st.write(alert["relevance"])
+                        st.divider()
+                    else:
+                        st.write(f"• {alert}")
 
         if daily_intel.get("priority_watchlist"):
             with st.expander("⏰ 24-Hour Watchlist"):
                 for item in daily_intel["priority_watchlist"]:
                     st.write(f"• {item}")
+
+        if daily_intel.get("entities_scanned"):
+            with st.expander("🔎 Entities Scanned"):
+                entities = daily_intel["entities_scanned"]
+                st.write(", ".join(entities) if isinstance(entities, list) else str(entities))
 
         st.divider()
 
