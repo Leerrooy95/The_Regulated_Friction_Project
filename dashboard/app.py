@@ -556,7 +556,8 @@ with tab_live_intel:
                 title = item.get("headline") or item.get("item", "")
                 body = item.get("summary") or item.get("reason", "")
                 source = item.get("source") or (
-                    ", ".join(item["sources"]) if isinstance(item.get("sources"), list) else item.get("sources", "Perplexity")
+                    ", ".join(item["sources"]) if isinstance(item.get("sources"), list)
+                    else str(item.get("sources", "Perplexity"))
                 )
                 timestamp = item.get("timestamp", "Today")
                 st.markdown(f"**{title}**")
@@ -581,10 +582,15 @@ with tab_live_intel:
                             status_icon = "⚠️"
                         else:
                             # No explicit status — infer from content
+                            # Check negatives first to avoid substring issues (e.g. "unverified" contains "verified")
                             lower_detail = detail.lower()
-                            has_negative = any(w in lower_detail for w in ["unverified", "not verified", "not confirmed", "remains unverified"])
-                            has_positive = any(w in lower_detail for w in ["confirmed", "verified", "filed"])
-                            status_icon = "✅" if has_positive and not has_negative else "⚠️"
+                            has_negative = any(w in lower_detail for w in ["unverified", "not verified", "not confirmed", "no ", "remains un"])
+                            if has_negative:
+                                status_icon = "⚠️"
+                            elif any(w in lower_detail for w in ["confirmed", "verified", "filed"]):
+                                status_icon = "✅"
+                            else:
+                                status_icon = "⚠️"
                         st.write(f"{status_icon} **{update.get('signal', '')}**: {detail}")
                         if update.get("new_sources"):
                             st.caption(f"Sources: {update['new_sources']}")
