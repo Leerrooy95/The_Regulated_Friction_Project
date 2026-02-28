@@ -584,8 +584,8 @@ with tab_live_intel:
 
                 # Check for kinetic/imminent escalation (with keyword fallback)
                 combined_text = title + " " + body
-                event_type = item.get("event_type", "").upper() or infer_event_type(combined_text)
-                imminence = item.get("imminence", "").upper() or infer_imminence(combined_text)
+                event_type = item.get("event_type", "").strip().upper() or infer_event_type(combined_text)
+                imminence = item.get("imminence", "").strip().upper() or infer_imminence(combined_text)
 
                 if event_type == "KINETIC" and imminence == "IMMINENT":
                     st.error("🚨 **CRITICAL: IMMINENT KINETIC EVENT**")
@@ -635,8 +635,8 @@ with tab_live_intel:
                     if isinstance(alert, dict):
                         headline = alert.get("headline", "")
                         combined_text = headline + " " + alert.get("relevance", "")
-                        event_type = alert.get("event_type", "").upper() or infer_event_type(combined_text)
-                        imminence = alert.get("imminence", "").upper() or infer_imminence(combined_text)
+                        event_type = alert.get("event_type", "").strip().upper() or infer_event_type(combined_text)
+                        imminence = alert.get("imminence", "").strip().upper() or infer_imminence(combined_text)
                         priority = alert.get("priority", "")
 
                         # Escalation hierarchy

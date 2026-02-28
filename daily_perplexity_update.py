@@ -90,7 +90,7 @@ Analyze all inputs and determine:
    - "summary": 2-3 sentence explanation
    - "source": Primary source or reference
    - "timestamp": Date string (e.g. "2026-02-28")
-   - "event_type": One of: "KINETIC" (military action, strikes, conflict), "REGULATORY" (filings, deadlines, court actions), "FINANCIAL" (deals, capital movements), "POLITICAL" (appointments, policy), "INTELLIGENCE" (signals, warnings)
+   - "event_type": One of: "KINETIC" (military action, strikes, conflict), "REGULATORY" (filings, deadlines, court actions), "FINANCIAL" (deals, capital movements), "POLITICAL" (appointments, policy), "INTELLIGENCE" (threat assessments, signals, warnings, intelligence reports)
    - "imminence": One of: "IMMINENT" (within 24 hours), "NEAR_TERM" (within 7 days), "MONITORING" (ongoing)
 
 2. **verification_updates**: Array of pending signals that are now resolved or have new information. Each object MUST have:
