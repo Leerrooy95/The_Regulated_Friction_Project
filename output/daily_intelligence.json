@@ -1,37 +1,79 @@
 {
-  "generated_at": "2026-02-27T21:52:47Z",
+  "generated_at": "2026-02-28T08:16:42Z",
   "generated_by": "Perplexity sonar-pro",
   "top_3_developments": [
-    "QXO 10-K annual report filing (verified filed on 2026-02-27, one day late, with $6.84B sales, $(0.63) GAAP EPS, $647.8M adj. EBITDA)",
-    "NTEU court-ordered position list disclosure (deadline today 2026-02-27; verified not disclosed, FOIA suit ongoing)",
-    "Schedule Policy/Career implementation (final rule published, effective ~March 8-9, 2026; agencies preparing conversions)"
+    {
+      "rank": 1,
+      "item": "Board of Peace developments",
+      "reason": "Multiple HIGH-priority breaking news items today (Feb 28) and yesterday (Feb 27) on White House announcement of Marc Rowan (Apollo) appointment to Executive Board, inaugural meeting with $5B+ Gulf pledges, congressional scrutiny on notifications/compliance, and ongoing EO 14375 legal challenges (verified signal). Maps directly to framework friction on unorthodox diplomatic-financial integration and statutory bypass.",
+      "sources": [
+        "BREAKING NEWS 1,2,3,4",
+        "VERIFIED SIGNALS 5 (EO 14375)"
+      ]
+    },
+    {
+      "rank": 2,
+      "item": "QXO 10-K filing",
+      "reason": "Deadline was Feb 26 (past 48 hours); verified filed on 02/27/2026 per multiple sources, confirmed by new search results [1][5][8]. Recent acquisition impacts (Beacon Roofing) highlighted, ties to ongoing QXO tracking.",
+      "sources": [
+        "VERIFIED SIGNALS 1",
+        "Search [1][5][6][8]"
+      ]
+    },
+    {
+      "rank": 3,
+      "item": "Iran military action signals",
+      "reason": "Verified active with elevated signals of potential US strikes 'possibly today' (Feb 28), Trump warnings, Iranian preparations. High geopolitical friction potential.",
+      "sources": [
+        "VERIFIED SIGNALS 8"
+      ]
+    }
   ],
   "verification_updates": [
-    "QXO 10-K: Newly filed today (2026-02-27), confirming financials and Beacon integration; Kodiak acquisition pending early Q2[1][2]",
-    "NTEU disclosure: No court order or disclosure as of today[signal 2]",
-    "Khanna investigation: No specific March 1 deadline; DOJ partial releases ongoing[signal 3]",
-    "QXO acquisitions: Kodiak pending, financing active[signal 6]",
-    "Israel-Hamas ultimatum: Active ~10-14 days in[signal 7]",
-    "Iran signals: Active US strike considerations, IRGC drills[signal 8]"
+    {
+      "signal": "QXO 10-K annual report filing",
+      "update": "Confirmed filed 02/27/2026 (one day late), with details on Beacon acquisition impacts and 2025 financials (GAAP loss $(0.63)/share). Additional confirmation from investor site and SEC direct link.",
+      "new_sources": "Search [1][2][5][6][8]"
+    },
+    {
+      "signal": "NTEU court-ordered position list disclosure",
+      "update": "Remains unverified; no court order or disclosure as of Feb 28. Lawsuit ongoing (1:25-cv-03948).",
+      "new_sources": "None"
+    }
   ],
-  "new_alerts": [],
+  "new_alerts": [
+    {
+      "headline": "White House announces formation of Board of Peace Executive Board with Marc Rowan appointed, advancing Trump's Gaza peace plan.",
+      "alert_type": "NEW friction event",
+      "relevance": "Introduces finance leader (Apollo's Rowan) into international governance, creating compliance friction via financial-diplomatic integration bypassing UN channels. Ties to EO 14375 but adds executive board formation.",
+      "timestamp": "2026-02-27",
+      "priority": "HIGH"
+    },
+    {
+      "headline": "Trump's Board of Peace meets in Washington with pledges totaling $5B+ from Gulf states, but major powers absent and congressional concerns raised.",
+      "alert_type": "Escalation in tracked event",
+      "relevance": "Advances Board of Peace with major funding commitments and explicit congressional compliance questions (Sen. Markey); not previously in signals.",
+      "timestamp": "2026-02-28",
+      "priority": "HIGH"
+    }
+  ],
   "priority_watchlist": [
-    "QXO 10-K market reaction and Kodiak financing updates (post-filing volatility)",
-    "NTEU FOIA suit developments (today's deadline)",
-    "Khanna/Epstein files next deadline (2026-03-01)",
-    "Iran military signals (Trump strike decision indicators)",
-    "Schedule Policy/Career agency position lists (pre-effective date)"
+    "Board of Peace: Monitor congressional responses, funding flows, and EO 14375 litigation updates (Supreme Court/S. Florida District).",
+    "Iran military signals: Check for US strike announcements or Iranian responses today (elevated forecasts).",
+    "QXO post-10-K: Any immediate reactions to financials or acquisition updates.",
+    "Khanna/Epstein files: Approaching Mar 1 document deadline (signal unverified).",
+    "Israel-Hamas 60-day ultimatum: Track start date confirmation and compliance signals."
   ],
   "entities_scanned": [
-    "Apollo Global Management",
     "Board of Peace",
-    "Palantir",
-    "Saudi PIF",
+    "Apollo Global Management",
+    "PIF",
     "Mubadala",
     "Silver Lake",
-    "Oracle",
+    "Saudi PIF",
     "Affinity Partners",
-    "MGX"
+    "Thiel Macro LLC",
+    "Palantir"
   ],
   "pending_signals_checked": 8,
   "api_calls_made": 10
