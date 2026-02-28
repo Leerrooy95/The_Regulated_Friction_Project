@@ -90,6 +90,8 @@ Analyze all inputs and determine:
    - "summary": 2-3 sentence explanation
    - "source": Primary source or reference
    - "timestamp": Date string (e.g. "2026-02-28")
+   - "event_type": One of: "KINETIC" (military action, strikes, conflict), "REGULATORY" (filings, deadlines, court actions), "FINANCIAL" (deals, capital movements), "POLITICAL" (appointments, policy), "INTELLIGENCE" (signals, warnings)
+   - "imminence": One of: "IMMINENT" (within 24 hours), "NEAR_TERM" (within 7 days), "MONITORING" (ongoing)
 
 2. **verification_updates**: Array of pending signals that are now resolved or have new information. Each object MUST have:
    - "signal": Name of the signal
@@ -100,6 +102,8 @@ Analyze all inputs and determine:
 3. **new_alerts**: Array of breaking news that introduces NEW friction or compliance events. Each object MUST have:
    - "headline": One-line title
    - "alert_type": Category of alert
+   - "event_type": One of: "KINETIC", "REGULATORY", "FINANCIAL", "POLITICAL", "INTELLIGENCE"
+   - "imminence": One of: "IMMINENT", "NEAR_TERM", "MONITORING"
    - "relevance": Framework relevance explanation
    - "timestamp": Date string
    - "priority": "HIGH", "MEDIUM", or "LOW"
