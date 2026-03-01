@@ -1128,4 +1128,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated March 1, 2026 (v10.2). Report restructured with accessible Executive Summary and Leverage Model explanation. Epstein 2018 prediction and Barak–Epstein back channel documented in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. Dashboard infrastructure validated. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated March 1, 2026 (v10.2). Report restructured with accessible Executive Summary and Leverage Model explanation. Barak–Epstein back channel and "Epstein war" framing documented with web-verified sources in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. Dashboard infrastructure validated. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

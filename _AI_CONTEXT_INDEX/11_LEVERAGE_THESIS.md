@@ -17,6 +17,12 @@
 | Clinton depositions before Congress (Feb 26-27, 2026) | ✅ VERIFIED | [ABC News](https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318), [NBC News](https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436), [CBS News](https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/), [PBS](https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein) |
 | Gulf SWFs personally controlled by royal family members | ✅ VERIFIED | `Node_Dossiers/tier2_entity_leadership_profiles.md` |
 | Same capital sources fund both Epstein-adjacent networks and AI infrastructure | 🔍 HYPOTHESIS | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_affinity_qxo.md` |
+| Barak–Epstein Russia/Israel back channel (2013-2016) via leaked emails | ⚠️ PARTIALLY VERIFIED | [Al Jazeera](https://www.aljazeera.com/news/2025/12/9/israels-ex-pm-ehud-barak-and-jeffrey-epstein-had-close-relationship-emails-reveal), [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Drop Site News](https://www.dropsitenews.com/s/epstein-and-israel) |
+| Epstein sought Putin meeting via Barak — meeting NOT confirmed to have occurred | ⚠️ PARTIALLY VERIFIED | [Times of Israel](https://www.timesofisrael.com/liveblog_entry/epstein-sought-meeting-with-putin-through-barak-report/), [Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance), [France24](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties) |
+| Raskin called Iran strikes "desperate" distraction from Epstein files | ✅ VERIFIED | [FOX 5 DC](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran) |
+| Raskin: Trump mentioned >1M times in unredacted Epstein files | ✅ VERIFIED | [Axios](https://www.axios.com/2026/02/10/trump-epstein-files-jamie-raskin-unredacted), [Truthout](https://truthout.org/articles/raskin-trump-mentioned-more-than-a-million-times-in-unredacted-epstein-files/), [Mediaite](https://www.mediaite.com/media/news/jamie-raskin-reveals-trumps-name-shows-up-in-unredacted-epstein-files-more-than-a-million-times/) |
+| Epstein Dec 20, 2018 texts predicting Trump would bomb Iran "cornered like a rat" | ❌ UNVERIFIED | No credible source found; 2018 texts are Bannon-Epstein re: 25th Amendment ([WION](https://www.wionews.com/world/epstein-files-bannon-trump-25th-amendment-texts-1772112782982)) |
+| Jacobin: Epstein promoted hawkish Iran/Syria stances | ✅ VERIFIED | [Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china) — "Jeffrey Epstein Wanted More War" (Nov 2025) |
 
 ---
 
@@ -225,46 +231,66 @@ The same capital sources that funded Epstein-adjacent networks (Kushner's Affini
 
 ---
 
-## Epstein's 2018 Prediction (December 20, 2018)
+## Epstein's Geopolitical Role & the "Epstein War" Framing
 
-### The Text Messages
+### ~~The December 2018 Text Messages~~ — ❌ NOT VERIFIED
 
-Released documents include text messages from Jeffrey Epstein dated December 20, 2018, in which he reportedly predicted that Trump would bomb Iran when "cornered like a rat." These messages surface in the context of the broader DOJ document releases and have been cited by commentators linking the Epstein files to subsequent US-Iran policy escalation.
-
-- **Date**: December 20, 2018
-- **Claim**: Epstein texted that Trump would resort to military action against Iran when politically cornered
-- **Verification**: ⚠️ PARTIALLY VERIFIED — Referenced in released document tranches and media commentary; exact text not independently authenticated by multiple outlets
+> **Correction (March 1, 2026):** The previous version of this section claimed that released documents included Epstein text messages dated December 20, 2018, predicting Trump would bomb Iran when "cornered like a rat." **This claim could not be verified.** Multiple searches of DOJ archives, CBS News, PBS, CNBC, Newsweek, and the searchable Epstein databases ([DOJ Epstein Library](https://www.justice.gov/epstein), [Jmail](https://jmail.world/), [Epstein Document Archive](https://www.epsteinarchive.org/)) found no such text. The 2018 texts that DO exist in the released files are Bannon-Epstein exchanges about removing Trump via the 25th Amendment — not about Iran. ([WION](https://www.wionews.com/world/epstein-files-bannon-trump-25th-amendment-texts-1772112782982), [Iran International](https://www.iranintl.com/en/202602033927))
+>
+> This claim should have been flagged ❌ UNVERIFIED by the previous agent. It has been downgraded accordingly.
 
 ### The Ehud Barak–Epstein Russia/Israel Back Channel
 
-Emails obtained by the Iranian hacking group Handala from former Israeli Prime Minister Ehud Barak — published by Drop Site News — reveal Epstein's role as an informal back-channel operator between Israel and Russia during the Syrian civil war (2013–2016):
+Emails obtained by the hacking group Handala (late 2024) from former Israeli Prime Minister Ehud Barak — published by Drop Site News — reveal Epstein's role as an informal back-channel operator between Israel and Russia during the Syrian civil war (2013–2016):
 
-- Epstein helped arrange meetings between Barak and Russian officials, including a reported private meeting with President Putin in 2013 to discuss Assad's removal
+- Epstein *sought to arrange* meetings between Barak and Russian officials; he proposed a private meeting with Putin in 2013 to discuss Assad's removal, but **no evidence confirms the Putin meeting actually occurred** ([Times of Israel](https://www.timesofisrael.com/liveblog_entry/epstein-sought-meeting-with-putin-through-barak-report/), [Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance), [France24](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties))
+- Epstein helped Barak gain access to the St. Petersburg International Economic Forum (SPIEF) in 2013 and 2015, where Barak held closed-door talks with Foreign Minister Sergey Lavrov and Central Bank Governor Elvira Nabiullina ([Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/))
 - Epstein relayed intelligence from Russian political circles to Barak and advised on diplomatic strategy
-- Epstein and Barak co-drafted op-eds to shape Western media narratives (e.g., "The Kremlin Holds the Keys," published in The Telegraph after rejection by The New York Times)
+- Epstein and Barak co-drafted op-eds to shape Western media narratives — Drop Site News reports one titled "The Kremlin Holds the Keys" was published in The Telegraph after rejection by The New York Times (⚠️ the specific op-ed could not be independently located in Telegraph archives)
 - Epstein facilitated Barak's business dealings with Russian oligarch Viktor Vekselberg (Renova Group) and arranged meetings with Kremlin aide Yuri Ushakov
 - The back-channel's primary objective was to broker a Russia-led political transition in Syria that would satisfy Israeli security concerns — specifically, the removal of Bashar al-Assad
 
-**Verification**: ⚠️ PARTIALLY VERIFIED — Based on 100,000+ leaked emails corroborated by forensic checks conducted by Drop Site News (cross-referenced with Congressional document dumps and public leaks). No formal government authentication.
+**Verification**: ⚠️ PARTIALLY VERIFIED — Based on 100,000+ leaked emails reported by Drop Site News and corroborated by cross-referencing with Congressional document dumps. Independently reported by Al Jazeera (Dec 9, 2025), Middle East Monitor (Nov 3, 2025), Democracy Now (Nov 12, 2025), Common Dreams, and Times of Israel. No formal government authentication of the emails themselves. The Barak-Lavrov SPIEF meeting is confirmed; the proposed Barak-Putin meeting is NOT confirmed to have occurred.
 
-**Sources**: [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Drop Site News via Democracy Now](https://www.democracynow.org/2025/11/12/epstein_israel), [Al Jazeera](https://www.aljazeera.com/news/2026/2/9/what-were-jeffrey-epsteins-links-to-israel), [Nation of Change](https://www.nationofchange.org/2025/11/15/epsteins-intelligence-ties-come-into-focus-as-congress-moves-toward-releasing-government-files/)
+**Sources**:
+- [Drop Site News (original series)](https://www.dropsitenews.com/s/epstein-and-israel) — original investigative reporting
+- [Middle East Monitor (Nov 3, 2025)](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/)
+- [Al Jazeera (Dec 9, 2025)](https://www.aljazeera.com/news/2025/12/9/israels-ex-pm-ehud-barak-and-jeffrey-epstein-had-close-relationship-emails-reveal) — "Israel's ex-PM Ehud Barak and Epstein had close relationship, emails reveal"
+- [Democracy Now (Nov 12, 2025)](https://www.democracynow.org/2025/11/12/epstein_israel)
+- [Nation of Change (Nov 15, 2025)](https://www.nationofchange.org/2025/11/15/epsteins-intelligence-ties-come-into-focus-as-congress-moves-toward-releasing-government-files/)
+- [Times of Israel](https://www.timesofisrael.com/liveblog_entry/epstein-sought-meeting-with-putin-through-barak-report/) — "Epstein sought meeting with Putin through Barak"
+- [Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance) — "Epstein waged years-long quest to meet Putin and talk finance"
+- [France24 (Feb 17, 2026)](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties) — "DOJ files reveal Jeffrey Epstein's efforts to build Russian ties"
 
 ### The "Epstein War" Framing
 
-Multiple actors have adopted the framing that US military action against Iran functions as an extension of — or distraction from — the Epstein document releases:
+Multiple actors have adopted the framing that US military action against Iran functions as a distraction from the Epstein document releases:
 
-- **Congressman Jamie Raskin** called the Iran strikes a "desperate" attempt to distract from Epstein file releases and domestic controversies; demanded War Powers Resolution vote; noted "Trump" appeared over one million times in censored Epstein files
-- **RT (Russian state media)** featured former Israeli intelligence officer Ari Ben-Menashe on "Going Underground" alleging Netanyahu holds "Epstein files" as leverage over Trump regarding Iran policy
-- **Online discourse** widely rebranded "Operation Epic Fury" as "Operation Epstein Fury" / "Operation Epstein Distraction"
-- **Jacobin** reported Epstein promoted hawkish stances against Iran and Syria in correspondence with powerful global figures, characterizing him as a political operator supporting US/Israeli interventionist agendas
+- **Congressman Jamie Raskin** called the Iran strikes a "desperate" attempt at distraction from "tariffs, the Epstein files, and more." Raskin stated: "The president who campaigned on keeping us out of regime-change 'forever wars' in the Middle East… just launched military strikes against Iran without any congressional declaration of war." ([FOX 5 DC, Feb 28, 2026](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran)) Separately, Raskin reported that "Trump" appeared over one million times in unredacted Epstein files after reviewing them at the DOJ. ([Axios](https://www.axios.com/2026/02/10/trump-epstein-files-jamie-raskin-unredacted), [Truthout](https://truthout.org/articles/raskin-trump-mentioned-more-than-a-million-times-in-unredacted-epstein-files/), [Mediaite](https://www.mediaite.com/media/news/jamie-raskin-reveals-trumps-name-shows-up-in-unredacted-epstein-files-more-than-a-million-times/))
+- **RT (Russian state media)** featured former Israeli intelligence officer Ari Ben-Menashe on "Going Underground" alleging Netanyahu holds "Epstein files" as leverage over Trump regarding Iran policy. ⚠️ Note: RT is Russian state-funded media; Ben-Menashe's claims are unsubstantiated by independent sources. ([RT](https://www.rt.com/shows/going-underground/632118-ben-menashe-epstein-trump-israel/))
+- **Online discourse** widely rebranded "Operation Epic Fury" as "Operation Epstein Fury" / "Operation Epstein Distraction" — the phrase trended on X and Bluesky. ([The Nightly (Australia)](https://thenightly.com.au/world/middle-east/operation-epic-fury-or-operation-epstein-distraction-internet-reacts-to-trumps-strike-on-iran-c-21794830), [NewsBreak/Inquisitr](https://www.newsbreak.com/inquisitr-news-522568/4517812443306-trump-mocked-over-operation-epic-fury-title-amid-us-israel-strike-on-iran))
+- **Al Jazeera** published an opinion piece titled "Epstein and the politics of distraction" ([Al Jazeera opinion, Feb 26, 2026](https://www.aljazeera.com/opinions/2026/2/26/epstein-and-the-politics-of-distraction))
+- **Jacobin** (Nov 2025) reported Epstein promoted hawkish stances against Iran and Syria — specifically, that Epstein urged Barak to pressure Obama for US military action against Syria in August 2013 during the chemical weapons crisis, and was against the Iran nuclear deal. Article: "Jeffrey Epstein Wanted More War" by Branko Marcetic. ([Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china))
 
-**Verification**: 🔍 HYPOTHESIS — The "Epstein war" framing represents an analytical interpretation widely discussed in media and Congress but not a proven causal link. Individual source claims (Raskin's statements, RT's framing) are verified; the causal connection between Epstein files and Iran strikes is interpretive.
+**Verification**: 🔍 HYPOTHESIS — The "Epstein war" framing represents an analytical interpretation widely discussed in media and Congress but not a proven causal link. Individual source claims are verified as follows:
+- Raskin's "desperate distraction" quote: ✅ VERIFIED ([FOX 5 DC](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran))
+- Raskin's "million times" statement: ✅ VERIFIED ([Axios](https://www.axios.com/2026/02/10/trump-epstein-files-jamie-raskin-unredacted))
+- RT/Ben-Menashe segment: ✅ EXISTS but is Russian state media with unsubstantiated claims
+- "Operation Epstein Fury" discourse: ✅ VERIFIED ([The Nightly](https://thenightly.com.au/world/middle-east/operation-epic-fury-or-operation-epstein-distraction-internet-reacts-to-trumps-strike-on-iran-c-21794830))
+- Jacobin article: ✅ VERIFIED ([Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china))
+- The causal connection between Epstein files and Iran strikes is interpretive, not established.
 
-**Sources**: [FOX 5 DC (Raskin)](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran), [RT (Ben-Menashe)](https://www.rt.com/shows/going-underground/632118-ben-menashe-epstein-trump-israel/), [The Nightly (Australia)](https://thenightly.com.au/world/middle-east/operation-epic-fury-or-operation-epstein-distraction-internet-reacts-to-trumps-strike-on-iran-c-21794830), [Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china), [The Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883)
+### Epstein's Russia Connections in DOJ Files
+
+DOJ-released documents show Epstein's extensive but largely *unsuccessful* efforts to build Russian connections:
+- "Russia" appears 5,553 times in DOJ files; Putin is mentioned 1,005 times ([Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883), [News18](https://www.news18.com/world/vladimir-putin-epstein-files-russia-connection-what-documents-say-kremlin-ws-l-9890417.html))
+- Most Putin mentions are in news clippings or Epstein's repeated attempts to arrange a meeting — **no evidence such a meeting took place** ([Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance), [France24](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties), [Meduza](https://meduza.io/en/feature/2026/02/03/who-are-the-russians-named-in-the-latest-epstein-files-vladimir-putin-for-one))
+- Kremlin has denied any meeting occurred; spokesman Peskov dismissed the claims ([Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883))
+- Russian state media used the file releases to attack Ukraine/Western elites while ignoring Russian connections ([Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883))
 
 ### [Inference] Interpretation
 
-The December 2018 text messages, the Barak–Epstein back channel, and the "Epstein war" framing collectively suggest that Epstein's leverage activities extended beyond domestic actors to geopolitical strategy. If Epstein was predicting (or influencing) US-Iran policy in 2018, this predates the framework's September 2025 Theory Origin Date and suggests the leverage architecture was operational years before the patterns documented in this project were identified.
+The Barak–Epstein back channel and the "Epstein war" framing suggest that Epstein's leverage activities extended beyond domestic actors to geopolitical strategy. The Jacobin reporting demonstrates Epstein was actively advocating for hawkish Iran/Syria policy in 2013 — predating the framework's September 2025 Theory Origin Date. However, the December 2018 "cornered like a rat" prediction ~~was fabricated or conflated~~ could not be verified and should not be cited. The verified evidence shows Epstein as a would-be geopolitical intermediary who *attempted* high-level Russian contacts but largely failed to secure them directly.
 
 ---
 

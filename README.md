@@ -113,9 +113,9 @@ The_Regulated_Friction_Project/
 
 ## What's New (v10.2) — March 1, 2026
 
-- **Leverage Thesis now fully documented**: The formal leverage framework — covering the Musk/Epstein/Netanyahu origin case, Iran geopolitical extension, Anthropic standoff, and capital architecture — is now synthesized in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. The Epstein 2018 prediction and Barak–Epstein Russia/Israel back channel have been added with sourced citations.
+- **Leverage Thesis now fully documented**: The formal leverage framework — covering the Musk/Epstein/Netanyahu origin case, Iran geopolitical extension, Anthropic standoff, and capital architecture — is now synthesized in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. The Barak–Epstein Russia/Israel back channel and "Epstein war" framing have been added with web-verified source citations.
 - **Report.md rewritten for accessibility**: Restructured with an Executive Summary, plain-language Leverage Model explanation, key events breakdown, and statistical evidence — designed so someone with no background can follow the findings
-- **Epstein 2018 prediction added**: December 20, 2018 text messages, Handala-leaked Barak emails, and "Epstein war" framing documented with verification levels
+- **Epstein geopolitical role documented**: Barak–Epstein back channel (Handala-leaked emails, verified by Al Jazeera, Middle East Monitor, Drop Site News), "Epstein war" framing (Raskin, RT, Jacobin), and DOJ Russia connection data — all web-verified with multiple sources. ~~December 2018 prediction~~ downgraded to ❌ UNVERIFIED after web search found no credible sourcing.
 
 ### Previous (v10.1) — February 2026
 
