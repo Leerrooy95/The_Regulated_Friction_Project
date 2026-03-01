@@ -1660,7 +1660,9 @@ with tab_predictions:
 # =====================================================================
 # TAB 7: ASK AI AGENT
 # =====================================================================
-AGENT_ENDPOINT = "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
+AGENT_ENDPOINT = os.environ.get(
+    "AGENT_ENDPOINT", "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
+)
 
 with tab_agent:
     st.header("🤖 I have the latest information, ask me anything!")
@@ -1709,6 +1711,8 @@ with tab_agent:
                         resp.raise_for_status()
                         data = resp.json()
 
+                        # Agent may return OpenAI-compatible format (choices[].message.content)
+                        # or a simpler {"response": "..."} payload.
                         answer = (
                             data.get("choices", [{}])[0]
                             .get("message", {})
@@ -1729,8 +1733,8 @@ with tab_agent:
                             "🔌 Could not reach the AI agent. "
                             "The service may be temporarily unavailable."
                         )
-                    except Exception as exc:  # noqa: BLE001
-                        st.error(f"Unexpected error: {exc}")
+                    except (ValueError, KeyError) as exc:
+                        st.error(f"Unexpected error parsing response: {exc}")
 
     st.divider()
     st.caption(
