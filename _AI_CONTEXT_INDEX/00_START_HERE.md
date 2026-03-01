@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: February 26, 2026 | **Repository Version**: v10.1
+**Last Updated**: March 1, 2026 | **Repository Version**: v10.1
 
 ---
 
@@ -55,6 +55,9 @@ The repository now documents a dual-track model for understanding friction-compl
 | Understand current developments | `09_CURRENT_THREADS.md` |
 | Understand Gulf capital flows | `04_CAPITAL_ARCHITECTURE.md` |
 | Understand media ecosystem structure | `02_MEDIA_FIREWALL.md` |
+| Route to the right file by topic | `CONTEXT_ROUTER.md` |
+| See what's in the repo (exhaustive) | `REPO_AUDIT_2026-03-01.md` |
+| See what's missing or outdated | `GAP_ANALYSIS.md` |
 
 ---
 
@@ -139,6 +142,30 @@ The repository now documents a dual-track model for understanding friction-compl
 
 ---
 
+## Topic → File Mapping (Quick Router)
+
+For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
+
+| Topic | Primary File(s) |
+|-------|-----------------|
+| Core theory / thermostat model | `01_CORE_THEORY.md`, `Report.md` |
+| Payment/capital flow opacity | `Project_Trident/Capital_Flow_Opacity_Framework.md` |
+| Ritual/calendar timing | `Project_Trident/Ritual_Timing_Signal_Analysis.md` |
+| Media firewall / 1789 Capital | `02_MEDIA_FIREWALL.md`, `12_The_Media_Firewall/` |
+| Board of Peace / private diplomacy | `03_BOARD_OF_PEACE.md`, `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md` |
+| Gulf SWF / Silicon Sovereignty | `04_CAPITAL_ARCHITECTURE.md`, `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md` |
+| CRINK framework | `05_CRINK_FRAMEWORK.md`, `05_Geopolitical_Vectors/CRINK_Analysis.md` |
+| Arkansas infrastructure | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
+| FaaS / protest dynamics | `11_Protest_Dynamics_and_Funding/README.md` |
+| Iran strikes / cyber-kinetic | `sources/2026-02-28_Iran_Strike_Target_Mapping.md`, `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
+| Statistical verification | `07_METHODOLOGY.md`, `Run_Correlations_Yourself/README.md` |
+| Datasets / CSV reference | `08_KEY_DATASETS.md`, `Project_Trident/DATASET_REFERENCE.md` |
+| Failed predictions / retractions | `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md`, `Archive/Retracted_Three_Layer_References.md` |
+| Dashboard / pipeline | `dashboard/app.py`, `daily_perplexity_update.py`, `QUICK_START.md` |
+| Author background | `00_Quick_Breakdowns/About_Me.md` |
+
+---
+
 ## Node Dossiers: Modular Context Loading
 
 **NEW (February 2026)**: The `Node_Dossiers/` directory provides isolated, entity-specific context files for targeted analysis. Instead of reading the entire repository, AI assistants can load only the dossiers relevant to the entities in a specific event.
@@ -161,8 +188,11 @@ The repository now documents a dual-track model for understanding friction-compl
 |---------|------------------|
 | `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, New Mexico, DOJ files |
 | `tier1_kushner_historical.md` | Charles Kushner, pardon, Kushner Companies |
+| `tier1_binsulayem_epstein.md` | bin Sulayem, DP World, Epstein, UAE |
 | `tier2_affinity_qxo.md` | Affinity Partners, QXO, Apollo, Jared Kushner |
 | `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi, UAE, 13F filings |
+| `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Suez |
+| `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge |
 | `tier3_thermostat_ruleset.md` | Any timing/convergence analysis |
 
 **Full documentation**: `Node_Dossiers/NODE_INDEX.md`
@@ -189,6 +219,45 @@ For full analysis, read these primary files:
 - `README.md` - Repository overview and statistics
 - `14_Files/Glossary.md` - Term definitions
 - `Run_Correlations_Yourself/README.md` - Verification instructions
+
+---
+
+## Automated Intelligence Pipeline
+
+The repository includes a live data pipeline:
+
+| Component | File | Function |
+|-----------|------|----------|
+| Daily intelligence | `daily_perplexity_update.py` | Queries Perplexity sonar-pro for tracked entities/signals |
+| Entity/signal config | `intelligence_config.json` | Defines 6 entity categories and 5 active signals |
+| LLM extraction | `test_api.py` | Llama-4-Scout clinical entity extraction |
+| Web scraping | `federal_register/spiders/` | Scrapy spiders for Executive Orders and DOJ press releases |
+| Dashboard | `dashboard/app.py` | Streamlit app (6 tabs + Ask AI) |
+| CI/CD | `.github/workflows/` | Daily pipeline, sync to DO Space, validation |
+| Output | `output/` | Pipeline outputs (`daily_intelligence.json`, `*_extracted.json`) |
+
+---
+
+## Retraction Notice
+
+⚠️ **Layers 2-3 of the original three-layer model have been retracted** due to reliance on Grok-fabricated statistics from external repositories (`DOGE_Global_Effects`, `BRICS-NDB-LocalCurrency-DiD`). Layer 1 (r=0.6196 core correlation) remains valid and independently reproducible.
+
+- Retraction details: `Archive/Retracted_Three_Layer_References.md`
+- Fabrication case study: `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md`
+
+---
+
+## Additional Repository Directories
+
+| Directory | Content | Index Coverage |
+|-----------|---------|----------------|
+| `00_Quick_Breakdowns/` | Author bio, executive synthesis | `About_Me.md` |
+| `08_How_It's_Possible/` | Mechanisms enabling the pattern (regulatory gaps, Maxwell leverage) | `08_How_Its_Possible.md` |
+| `11_Protest_Dynamics_and_Funding/` | FaaS framework, protest supply chain | `README.md` |
+| `13_State_and_County_Analysis/` | Arkansas infrastructure forensic audit | `arkansas_infrastructure_forensic_audit.md` |
+| `Archive/` | Retracted analysis, deprecated infrastructure docs | See retraction notice above |
+| `Project_Trident/Claude_Code_Analysis/` | Privatized integration networks synthesis | 9 files |
+| `Project_Trident/Copilot_Opus_4.6_Analysis/` | 80+ files: statistical tests, entity reports, verification | See `REPO_AUDIT_2026-03-01.md` |
 
 ---
 

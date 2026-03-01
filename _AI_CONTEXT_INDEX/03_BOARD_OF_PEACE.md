@@ -194,3 +194,16 @@ Board of Peace governance authority
 ---
 
 *This summary distills content from `05_Geopolitical_Vectors/` directory files.*
+
+---
+
+## Additional Board of Peace Analysis
+
+| File | Location | Content |
+|------|----------|---------|
+| Security Architecture | `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md` | Three-layer enforcement: private contractors, state proxies (Pakistan ISF), cyber infrastructure (G42 AI) |
+| Forensic Vetting | `Project_Trident/Copilot_Opus_4.6_Analysis/Forensic_Vetting_Board_of_Peace.md` | Board of Peace forensic audit |
+| Privatized Integration Networks | `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` | Master synthesis: finance, governance, defense, territory, tech integration through BoP |
+| Phoenix Settlement Portfolio | `Project_Trident/Claude_Code_Analysis/Phoenix_Settlement_Portfolio_and_New_Gaza.md` | Company-by-company holdings forensics |
+
+*Updated March 1, 2026.*

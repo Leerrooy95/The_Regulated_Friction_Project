@@ -246,3 +246,19 @@ Removing December 2025 drops Pearson r by 6% but Spearman ρ remains 0.60. The p
 ---
 
 *This summary distills content from `Run_Correlations_Yourself/`, `14_Files/VERIFICATION_REPORT_Jan2026.md`, `14_Files/TRANSPARENCY_NOTE_FOR_2026_ANALYSIS.md`, and `14_Files/Glossary.md`.*
+
+---
+
+## Additional Methodology Resources
+
+| Resource | Location | Content |
+|----------|----------|---------|
+| Scout methodology origin | `00_Quick_Breakdowns/About_Me.md` | Author's Army Cavalry Scout background → "Numbers Station" observational concept |
+| 16 statistical test scripts | `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` | Permutation, autocorrelation, Granger, rolling window, event-study, partial correlation, and more |
+| Dataset provenance | `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/dataset_provenance.md` | Data origin documentation |
+| AI fabrication case study | `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md` | How Grok-fabricated data was identified and retracted (Layers 2-3) |
+| Wrong correlations archive | `Run_Correlations_Yourself/Wrong_Correlations/` | Deprecated scripts that mixed datasets — preserved for transparency |
+| Independent verification | `09_Silicon_Sovereignty/CRUCIAL-Cross_Verification_Check.md` | Cross-AI verification of Silicon Sovereignty claims |
+| Validation report (Feb 24) | `docs/validation/VALIDATION_REPORT_2026-02-24.md` | External validation report |
+
+*Updated March 1, 2026.*

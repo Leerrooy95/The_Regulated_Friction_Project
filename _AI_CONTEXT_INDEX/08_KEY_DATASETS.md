@@ -235,4 +235,48 @@ Most datasets include a `verification_status` field:
 
 ---
 
-*This reference guide documents CSVs as of February 24, 2026.*
+## Pipeline Output Data
+
+### Daily Intelligence
+| Field | Value |
+|-------|-------|
+| **Path** | `output/daily_intelligence.json` |
+| **Type** | JSON |
+| **Source** | `daily_perplexity_update.py` (Perplexity sonar-pro) |
+| **Purpose** | Daily intelligence summaries for tracked entities/signals |
+| **Schema** | `signal_status`, `top_3_developments`, `new_alerts`, `summary` |
+
+### LLM Extraction Outputs
+| Field | Value |
+|-------|-------|
+| **Path** | `output/*_extracted.json` (latest), `output/archive/` (historical) |
+| **Type** | JSON |
+| **Source** | `test_api.py` (Llama-4-Scout) |
+| **Purpose** | Clinical entity extraction from intelligence briefs |
+| **Archives** | 13 historical runs (Feb 21-28, 2026) in `output/archive/` |
+
+### Federal Register Data
+| Field | Value |
+|-------|-------|
+| **Path** | `output/federal_register_data.json`, `output/latest_scrape.json` |
+| **Type** | JSON |
+| **Source** | `federal_register/spiders/` (Scrapy) |
+| **Purpose** | Executive Order and DOJ press release tracking |
+
+### Entity/Signal Configuration
+| Field | Value |
+|-------|-------|
+| **Path** | `intelligence_config.json` |
+| **Type** | JSON |
+| **Categories** | sovereign_wealth, private_equity, government, geopolitical, tech_infrastructure, legal_regulatory |
+| **Active Signals** | 5 (Iran-US military, Board of Peace, Epstein files, Russia-Ukraine, Gulf SWF capital) |
+
+---
+
+## Project Trident Aggregated Datasets
+
+The `Project_Trident/Copilot_Opus_4.6_Analysis/Datasets/` directory contains 22 CSV files aggregated from across the repository for statistical testing. These are copies of primary datasets located in other directories. See `REPO_AUDIT_2026-03-01.md` for the full listing.
+
+---
+
+*This reference guide documents CSVs as of March 1, 2026.*
