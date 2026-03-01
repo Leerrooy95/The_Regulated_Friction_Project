@@ -119,7 +119,7 @@ The system self-regulates based on institutional response
 - **Operation Epic Fury** (US) / **Operation Lion's Roar** (Israel)
 - Ayatollah Khamenei confirmed killed; 40-day mourning period declared in Iran
 - 201+ killed, 700+ injured across Iran (Iranian Red Crescent figures)
-- 85-148 schoolgirls killed at Shajareh Tayyebeh elementary school in Minab (⚠️ figures vary by source)
+- 85-148 schoolgirls killed at Shajareh Tayyebeh elementary school in Minab (⚠️ casualty range reflects conflicting reports: Iranian Red Crescent initially reported 85; Minab governor and Ministry of Education figures reached 148; independent verification limited due to access restrictions)
 - Iran retaliates under **Operation Fateh Khyber** against Saudi Arabia, Bahrain, Kuwait, Qatar, UAE
 - 3 US service members killed in Iranian retaliatory attacks
 
