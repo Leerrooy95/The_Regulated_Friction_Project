@@ -191,6 +191,80 @@ backfill_stats = None
 if backfill_df is not None:
     backfill_stats = compute_lag_stats(backfill_df["lag_parsed"])
 
+# ── Agent endpoint (used in Home tab and Ask AI tab) ─────────────────────
+AGENT_ENDPOINT = os.environ.get(
+    "AGENT_ENDPOINT", "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
+)
+
+
+def render_agent_chat(key_suffix: str = "") -> None:
+    """Render the AI agent chat interface. *key_suffix* keeps widget keys unique."""
+    user_question = st.text_input(
+        "Your question",
+        placeholder="e.g. What is the friction-compliance correlation?",
+        key=f"agent_question{key_suffix}",
+    )
+
+    if st.button("Ask Agent", key=f"agent_submit{key_suffix}"):
+        if not user_question.strip():
+            st.warning("Please enter a question.")
+        else:
+            agent_key = os.environ.get("AGENT_ACCESS_KEY") or st.secrets.get(
+                "AGENT_ACCESS_KEY", ""
+            )
+            if not agent_key:
+                st.error(
+                    "⚠️ AGENT_ACCESS_KEY is not configured. "
+                    "Set it as an environment variable or in Streamlit secrets."
+                )
+            else:
+                with st.spinner("Querying AI agent…"):
+                    try:
+                        resp = requests.post(
+                            f"{AGENT_ENDPOINT.rstrip('/')}/api/v1/chat/completions",
+                            headers={
+                                "Authorization": f"Bearer {agent_key}",
+                                "Content-Type": "application/json",
+                            },
+                            json={
+                                "messages": [
+                                    {"role": "user", "content": user_question}
+                                ]
+                            },
+                            timeout=60,
+                        )
+                        resp.raise_for_status()
+                        data = resp.json()
+
+                        answer = (
+                            data.get("choices", [{}])[0]
+                            .get("message", {})
+                            .get("content", "")
+                        ) or data.get("response", "") or json.dumps(data, indent=2)
+
+                        with st.expander("**Agent Response**", expanded=True):
+                            st.markdown(answer)
+                    except requests.exceptions.Timeout:
+                        st.error(
+                            "⏱️ The agent did not respond within 60 seconds. "
+                            "Please try again later."
+                        )
+                    except requests.exceptions.HTTPError as exc:
+                        st.error(f"🚫 Agent returned an error: {exc}")
+                    except requests.exceptions.ConnectionError:
+                        st.error(
+                            "🔌 Could not reach the AI agent. "
+                            "The service may be temporarily unavailable."
+                        )
+                    except (ValueError, KeyError) as exc:
+                        st.error(f"Unexpected error parsing response: {exc}")
+
+    st.caption(
+        "Responses are AI-generated based on project documentation. "
+        "Always verify critical claims against the primary data."
+    )
+
+
 # ── Tabs ─────────────────────────────────────────────────────────────────
 tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions, tab_agent = st.tabs([
     "Home",
@@ -517,6 +591,10 @@ with tab_home:
         "Statistical findings have been independently verified by a separate "
         "AI agent (Copilot Opus 4.6) using adversarial methodology checks."
     )
+
+    # ── Ask AI (compact) ──
+    with st.expander("🤖 Ask the Intelligence Agent", expanded=False):
+        render_agent_chat(key_suffix="_home")
 
     st.info("Navigate to the **Statistical Overview** tab to explore the correlation data.")
 
@@ -1660,9 +1738,6 @@ with tab_predictions:
 # =====================================================================
 # TAB 7: ASK AI AGENT
 # =====================================================================
-AGENT_ENDPOINT = os.environ.get(
-    "AGENT_ENDPOINT", "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
-)
 
 with tab_agent:
     st.header("🤖 I have the latest information, ask me anything!")
@@ -1673,74 +1748,8 @@ with tab_agent:
     )
 
     st.divider()
-
-    user_question = st.text_input(
-        "Your question",
-        placeholder="e.g. What is the friction-compliance correlation?",
-        key="agent_question",
-    )
-
-    if st.button("Ask Agent", key="agent_submit"):
-        if not user_question.strip():
-            st.warning("Please enter a question.")
-        else:
-            agent_key = os.environ.get("AGENT_ACCESS_KEY") or st.secrets.get(
-                "AGENT_ACCESS_KEY", ""
-            )
-            if not agent_key:
-                st.error(
-                    "⚠️ AGENT_ACCESS_KEY is not configured. "
-                    "Set it as an environment variable or in Streamlit secrets."
-                )
-            else:
-                with st.spinner("Querying AI agent…"):
-                    try:
-                        resp = requests.post(
-                            AGENT_ENDPOINT,
-                            headers={
-                                "Authorization": f"Bearer {agent_key}",
-                                "Content-Type": "application/json",
-                            },
-                            json={
-                                "messages": [
-                                    {"role": "user", "content": user_question}
-                                ]
-                            },
-                            timeout=60,
-                        )
-                        resp.raise_for_status()
-                        data = resp.json()
-
-                        # Agent may return OpenAI-compatible format (choices[].message.content)
-                        # or a simpler {"response": "..."} payload.
-                        answer = (
-                            data.get("choices", [{}])[0]
-                            .get("message", {})
-                            .get("content", "")
-                        ) or data.get("response", "") or json.dumps(data, indent=2)
-
-                        with st.expander("**Agent Response**", expanded=True):
-                            st.markdown(answer)
-                    except requests.exceptions.Timeout:
-                        st.error(
-                            "⏱️ The agent did not respond within 60 seconds. "
-                            "Please try again later."
-                        )
-                    except requests.exceptions.HTTPError as exc:
-                        st.error(f"🚫 Agent returned an error: {exc}")
-                    except requests.exceptions.ConnectionError:
-                        st.error(
-                            "🔌 Could not reach the AI agent. "
-                            "The service may be temporarily unavailable."
-                        )
-                    except (ValueError, KeyError) as exc:
-                        st.error(f"Unexpected error parsing response: {exc}")
-
+    render_agent_chat()
     st.divider()
-    st.caption(
-        "Responses are AI-generated based on project documentation. "
-        "Always verify critical claims against the primary data."
-    )
 
 # ── Footer ───────────────────────────────────────────────────────────────
 st.divider()
