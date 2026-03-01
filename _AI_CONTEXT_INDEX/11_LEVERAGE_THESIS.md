@@ -225,6 +225,49 @@ The same capital sources that funded Epstein-adjacent networks (Kushner's Affini
 
 ---
 
+## Epstein's 2018 Prediction (December 20, 2018)
+
+### The Text Messages
+
+Released documents include text messages from Jeffrey Epstein dated December 20, 2018, in which he reportedly predicted that Trump would bomb Iran when "cornered like a rat." These messages surface in the context of the broader DOJ document releases and have been cited by commentators linking the Epstein files to subsequent US-Iran policy escalation.
+
+- **Date**: December 20, 2018
+- **Claim**: Epstein texted that Trump would resort to military action against Iran when politically cornered
+- **Verification**: ⚠️ PARTIALLY VERIFIED — Referenced in released document tranches and media commentary; exact text not independently authenticated by multiple outlets
+
+### The Ehud Barak–Epstein Russia/Israel Back Channel
+
+Emails obtained by the Iranian hacking group Handala from former Israeli Prime Minister Ehud Barak — published by Drop Site News — reveal Epstein's role as an informal back-channel operator between Israel and Russia during the Syrian civil war (2013–2016):
+
+- Epstein helped arrange meetings between Barak and Russian officials, including a reported private meeting with President Putin in 2013 to discuss Assad's removal
+- Epstein relayed intelligence from Russian political circles to Barak and advised on diplomatic strategy
+- Epstein and Barak co-drafted op-eds to shape Western media narratives (e.g., "The Kremlin Holds the Keys," published in The Telegraph after rejection by The New York Times)
+- Epstein facilitated Barak's business dealings with Russian oligarch Viktor Vekselberg (Renova Group) and arranged meetings with Kremlin aide Yuri Ushakov
+- The back-channel's primary objective was to broker a Russia-led political transition in Syria that would satisfy Israeli security concerns — specifically, the removal of Bashar al-Assad
+
+**Verification**: ⚠️ PARTIALLY VERIFIED — Based on 100,000+ leaked emails corroborated by forensic checks and cross-referenced with Congressional document dumps (Drop Site News). No formal government authentication.
+
+**Sources**: [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Drop Site News via Democracy Now](https://www.democracynow.org/2025/11/12/epstein_israel), [Al Jazeera](https://www.aljazeera.com/news/2026/2/9/what-were-jeffrey-epsteins-links-to-israel), [Nation of Change](https://www.nationofchange.org/2025/11/15/epsteins-intelligence-ties-come-into-focus-as-congress-moves-toward-releasing-government-files/)
+
+### The "Epstein War" Framing
+
+Multiple actors have adopted the framing that US military action against Iran functions as an extension of — or distraction from — the Epstein document releases:
+
+- **Congressman Jamie Raskin** called the Iran strikes a "desperate" attempt to distract from Epstein file releases and domestic controversies; demanded War Powers Resolution vote; noted "Trump" appeared over one million times in censored Epstein files
+- **RT (Russian state media)** featured former Israeli intelligence officer Ari Ben-Menashe on "Going Underground" alleging Netanyahu holds "Epstein files" as leverage over Trump regarding Iran policy
+- **Online discourse** widely rebranded "Operation Epic Fury" as "Operation Epstein Fury" / "Operation Epstein Distraction"
+- **Jacobin** reported Epstein promoted hawkish stances against Iran and Syria in correspondence with powerful global figures, characterizing him as a political operator supporting US/Israeli interventionist agendas
+
+**Verification**: 🔍 HYPOTHESIS — The "Epstein war" framing represents an analytical interpretation widely discussed in media and Congress but not a proven causal link. Individual source claims (Raskin's statements, RT's framing) are verified; the causal connection between Epstein files and Iran strikes is interpretive.
+
+**Sources**: [FOX 5 DC (Raskin)](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran), [RT (Ben-Menashe)](https://www.rt.com/shows/going-underground/632118-ben-menashe-epstein-trump-israel/), [The Nightly (Australia)](https://thenightly.com.au/world/middle-east/operation-epic-fury-or-operation-epstein-distraction-internet-reacts-to-trumps-strike-on-iran-c-21794830), [Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china), [The Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883)
+
+### [Inference] Interpretation
+
+The December 2018 text messages, the Barak–Epstein back channel, and the "Epstein war" framing collectively suggest that Epstein's leverage activities extended beyond domestic actors to geopolitical strategy. If Epstein was predicting (or influencing) US-Iran policy in 2018, this predates the framework's September 2025 Theory Origin Date and suggests the leverage architecture was operational years before the patterns documented in this project were identified.
+
+---
+
 ## What Is NOT Claimed
 
 1. ❌ Central coordination by a single actor (the pattern is emergent from shared incentives)
