@@ -18,18 +18,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Sync AI Context to DO Space
+      - name: Sync AI Context Index to DO Space
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
           AWS_DEFAULT_REGION: sfo3
-     
-       run: |
-          # Sync the AI Context Index
-          aws s3 sync ./_AI_CONTEXT_INDEX s3://regulated-friction-space/_AI_CONTEXT_INDEX/ --endpoint-url https://sfo3.digitaloceanspaces.com
-          
-          # Sync the daily Scout output and intel files
-          aws s3 sync ./output s3://regulated-friction-space/output/ --endpoint-url https://sfo3.digitaloceanspaces.com
-          
-          # Sync the correlation data
-          aws s3 sync ./Control_Proof s3://regulated-friction-space/Control_Proof/ --endpoint-url https://sfo3.digitaloceanspaces.com
+        run: |
+          aws s3 sync ./_AI_CONTEXT_INDEX s3://regulated-friction-space/_AI_CONTEXT_INDEX/ \
+            --endpoint-url https://sfo3.digitaloceanspaces.com \
+            --delete
+
+      - name: Sync Output Intel to DO Space
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
+          AWS_DEFAULT_REGION: sfo3
+        run: |
+          aws s3 sync ./output s3://regulated-friction-space/output/ \
+            --endpoint-url https://sfo3.digitaloceanspaces.com \
+            --delete \
+            --exclude ".api_budget.json"
+
+      - name: Sync Correlation Data to DO Space
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
+          AWS_DEFAULT_REGION: sfo3
+        run: |
+          aws s3 sync ./Run_Correlations_Yourself s3://regulated-friction-space/Run_Correlations_Yourself/ \
+            --endpoint-url https://sfo3.digitaloceanspaces.com \
+            --delete
