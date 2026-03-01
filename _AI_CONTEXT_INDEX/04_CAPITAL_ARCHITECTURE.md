@@ -268,6 +268,7 @@ This explains positioning in both: (1) friction-adjacent investments (media, nar
 - **For Dual-Track System overview**: `01_CORE_THEORY.md`
 - **For active leverage tracking**: `09_CURRENT_THREADS.md`
 - **For Arkansas regulatory detail**: `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md`
+- **For entity leadership profiles**: `Node_Dossiers/tier2_entity_leadership_profiles.md`
 
 ---
 
@@ -287,6 +288,7 @@ This explains positioning in both: (1) friction-adjacent investments (media, nar
 - **For Board of Peace**: `03_BOARD_OF_PEACE.md`
 - **For media firewall**: `02_MEDIA_FIREWALL.md`
 - **For datasets**: `08_KEY_DATASETS.md`
+- **For entity leadership profiles**: `Node_Dossiers/tier2_entity_leadership_profiles.md`
 
 ---
 
