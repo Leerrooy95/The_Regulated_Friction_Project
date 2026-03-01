@@ -313,3 +313,17 @@ The DOJ released ~3.5 million pages under the **Epstein Files Transparency Act**
 ---
 
 *This summary distills content from `12_The_Media_Firewall/` directory files and web research conducted February 28, 2026.*
+
+---
+
+## Additional Source Files (Not Indexed Previously)
+
+| File | Location | Content |
+|------|----------|---------|
+| `1789_Symbolism_Analysis.md` | `12_The_Media_Firewall/` | Semiotic bridge: 1789 significance for US founding AND Saudi First State. 1789 Capital FII appearance (Riyadh, Oct 2025). |
+| `Super_Bowl_LX_Media_Firewall_Case_Study.md` | `12_The_Media_Firewall/` | Super Bowl LX messaging analyzed through Media Firewall framework |
+| `Analyzing Geopolitical and Media Control.pdf` | `12_The_Media_Firewall/` | PDF analysis of geopolitical media control |
+| `Omeed_Malik_Forensic_Node_Analysis.md` | `12_The_Media_Firewall/` | Detailed Malik multi-platform structural analysis (also duplicated in `Project_Trident/Copilot_Opus_4.6_Analysis/`) |
+| `2026-02-27_Carlson_Fitts_Control_Grid.md` | `sources/` | Feb 27 Tucker-Fitts interview: boundary shift analysis, CBDCs/programmable money expanded, but 1789 Capital/Silver Lake/PIF remain protected |
+
+*Updated March 1, 2026.*

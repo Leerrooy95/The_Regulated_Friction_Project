@@ -191,6 +191,44 @@ This is the densest single-day convergence documented in the repository. All fou
 
 ---
 
+## 6. February 27-28, 2026 — Defense-Infrastructure Convergence
+
+### Arsenal of Freedom Tour (Feb 27)
+
+**Source:** Pete Hegseth visit to L3Harris Camden, AR facility
+
+**Key Facts:**
+- L3Harris Camden produces 115K+ rocket motors/year
+- R2S (Raytheon-Rafael JV) manufactures Tamir interceptors (Iron Dome) at same facility
+- $500M AAPF expansion and $1.25B Tamir contract announced
+- Visit occurred <24 hours before Operation Epic Fury strikes on Iran
+
+**Framework Alignment:**
+- Defense industrial convergence in same Arkansas geography as AVAIO data center ($6-21B) and DATA Act infrastructure
+- Pre-strike signaling: defense tour preceding kinetic action by less than 24 hours
+- Infrastructure consolidation across defense + compute + regulatory in single state
+
+**Source analysis:** `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`
+
+### Operation Epic Fury / Iran Strikes (Feb 28)
+
+**Key Facts:**
+- US (Operation Epic Fury) and Israel (Operation Lion's Roar) struck Iran
+- Iran retaliated (Operation Fateh Khyber) targeting Gulf states hosting US assets
+- Strike targets overlap with Gulf SWF infrastructure ($4.9T AUM geographic footprint)
+- Targets include UAE (Al Dhafra), Saudi Arabia, Qatar (Al Udeid), Bahrain (5th Fleet HQ), Kuwait (Ali al-Salem)
+
+**Framework Alignment:**
+- Direct kinetic test of thermostat hypothesis: strikes hit geographic footprint of capital architecture documented in `04_CAPITAL_ARCHITECTURE.md`
+- Cyber-kinetic sequence: Clalit healthcare breach (Handala, Feb 25) preceded strikes by 72 hours
+- mBridge/BRICS infrastructure overlap: strike targets map to BRICS members and mBridge participants
+
+**Source analyses:**
+- `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
+- `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`
+
+---
+
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
@@ -201,4 +239,4 @@ This is the densest single-day convergence documented in the repository. All fou
 
 ---
 
-*Last Updated: February 27, 2026. Added February 19 four-event convergence note (BoP + UFO + Prince Andrew + Massie meta-validation). This document captures statements made February 15-21, 2026 with active prediction window through February 26, 2026.*
+*Last Updated: March 1, 2026. Added February 27-28 convergence events (Arsenal of Freedom + Iran strikes). This document captures statements made February 15-21, 2026, plus Feb 27-28 kinetic/infrastructure convergence events.*

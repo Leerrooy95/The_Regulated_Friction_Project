@@ -247,4 +247,17 @@ The CRINK framework would be **falsified** if:
 
 ---
 
-*Last Updated: February 27, 2026. Added Turkish Intelligence Validation (Feb 27) and Russia-Cuba CRINK Signal (Feb 25). This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+*Last Updated: March 1, 2026. This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+
+---
+
+## Additional Geopolitical Vector Files
+
+| File | Location | Content |
+|------|----------|---------|
+| Venezuela Analysis | `05_Geopolitical_Vectors/Graham_Venezuela_Analysis.md` | Sen. Graham's public statement timing aligned with Venezuela policy shifts |
+| Venezuela Privatization Stack | `05_Geopolitical_Vectors/Venezuela_Privatization_Amnesty_Stack_Feb2026.md` | Multi-layered Venezuela reset: economic, political, legal, structural |
+| Parallel Operations | `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md` | Venezuela (high attention) vs. Yemen (low attention) simultaneous events |
+| Global Election Analysis | `05_Geopolitical_Vectors/Global_Election_Analysis.md` | Election timing correlations with friction windows |
+
+*Updated March 1, 2026.*

@@ -307,3 +307,25 @@ This explains positioning in both: (1) friction-adjacent investments (media, nar
 ---
 
 *This summary distills content from `09_Silicon_Sovereignty/`, `Project_Trident/`, and `13_State_and_County_Analysis/`.*
+
+---
+
+## Feb 28, 2026 Update: Kinetic Impact on Capital Architecture
+
+Iran retaliation strikes (Operation Fateh Khyber, Feb 28, 2026) targeted Gulf states hosting US military assets. Strike geography directly overlaps with SWF infrastructure documented above:
+
+| Target | SWF Exposure |
+|--------|--------------|
+| UAE (Al Dhafra Air Base) | Mubadala ($300B), MGX, ADIA |
+| Saudi Arabia (Riyadh) | PIF ($930B) |
+| Qatar (Al Udeid Air Base) | QIA ($500B) |
+| Bahrain (5th Fleet HQ) | — |
+| Kuwait (Ali al-Salem Air Base) | KIA ($900B) |
+
+This represents a real-world test of the thermostat hypothesis: kinetic strikes applied directly to the geographic footprint of the $4.9T capital architecture.
+
+**Source analysis:** `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
+
+**Defense-infrastructure convergence:** L3Harris Camden, AR (115K+ rocket motors/year, R2S Tamir production) is in the same state as AVAIO data center and DATA Act infrastructure. See `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` and `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Federal_Energy_Bypass.md`.
+
+*Updated March 1, 2026.*

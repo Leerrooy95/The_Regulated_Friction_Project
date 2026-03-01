@@ -198,3 +198,13 @@
 ---
 
 *This summary distills content from `14_Files/Main_Characters.md`.*
+
+---
+
+## February 2026 Updates
+
+- **Dan Bongino**: Resigned as Deputy FBI Director Dec 17, 2025. No longer active in framework.
+- **Pete Hegseth**: Conducted "Arsenal of Freedom" defense industrial tour (L3Harris Camden, AR, Feb 27, 2026) <24 hours before Operation Epic Fury. See `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`.
+- **Kash Patel**: FBI Director; continues to control Epstein file release mechanics. House Oversight hearing Feb 9, 2026 (Maxwell invoked 5th Amendment).
+
+*Updated March 1, 2026.*
