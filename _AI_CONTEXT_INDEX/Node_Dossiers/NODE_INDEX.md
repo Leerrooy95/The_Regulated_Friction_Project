@@ -55,6 +55,7 @@ These dossiers document current financial positioning that the dashboard tracks 
 | **Sovereign Wealth Movers** | `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi Arabia, UAE, sovereign wealth fund, SWF, 13F, Bitcoin ETF, GlobalFoundries | Documents Q4 2025/Q1 2026 movements of Saudi PIF and Mubadala, including defense exits, Bitcoin accumulation, and gaming consolidation. |
 | **Egypt-Gulf Integration** | `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Cairo, Suez | Documents Egypt's financial integration with Gulf SWFs as geographic bridge between Gulf capital and Mediterranean. |
 | **UAE Coordination Node** | `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge, OPEC+, Kushner, Witkoff, Board of Peace | Documents UAE's function as multi-track coordination node: Russia-Ukraine negotiation venue + BRICS member + mBridge participant + OPEC+ coordination with Russia + US diplomatic operations via Kushner/Witkoff. |
+| **Entity Leadership Profiles** | `tier2_entity_leadership_profiles.md` | SoftBank, Masayoshi Son, Vision Fund, Saudi PIF, Yasir Al-Rumayyan, Mubadala, Khaldoon Al Mubarak, MGX, Sheikh Tahnoon, 1789 Capital, Omeed Malik, Stargate | Verified leadership structure of entities in capital architecture: SoftBank Group, Saudi PIF, UAE Mubadala, UAE MGX, and 1789 Capital. Board interlocking, capital flow authority, and royal family governance. |
 
 ---
 
@@ -78,8 +79,8 @@ This is the master logic file. Load this for any timing analysis.
 | France diplomatic crisis / ambassador summons | `tier1_kushner_historical.md` |
 | Apollo / Marc Rowan | `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
 | QXO / Beacon | `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
-| Saudi PIF | `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
-| Mubadala / UAE | `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
+| Saudi PIF | `tier2_sovereign_wealth_movers.md`, `tier2_entity_leadership_profiles.md`, `tier3_thermostat_ruleset.md` |
+| Mubadala / UAE | `tier2_sovereign_wealth_movers.md`, `tier2_entity_leadership_profiles.md`, `tier3_thermostat_ruleset.md` |
 | New Mexico / Zorro Ranch | `tier1_zorro_ranch_epstein.md` |
 | Board of Peace | `tier2_affinity_qxo.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
 | Bin Sulayem / DP World | `tier1_binsulayem_epstein.md`, `tier3_thermostat_ruleset.md` |
@@ -94,6 +95,12 @@ This is the master logic file. Load this for any timing analysis.
 | Cyber-kinetic sequencing / timeline analysis | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `tier3_thermostat_ruleset.md` |
 | Bennett phone hack / Operation Octopus | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
 | Nahal Soreq / nuclear data breach | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
+| SoftBank / Masayoshi Son / Vision Fund | `tier2_entity_leadership_profiles.md`, `tier2_sovereign_wealth_movers.md`, `tier3_thermostat_ruleset.md` |
+| MGX / Sheikh Tahnoon | `tier2_entity_leadership_profiles.md`, `tier2_uae_coordination_node.md`, `tier3_thermostat_ruleset.md` |
+| Stargate Project | `tier2_entity_leadership_profiles.md`, `tier2_uae_coordination_node.md` |
+| Yasir Al-Rumayyan | `tier2_entity_leadership_profiles.md`, `tier2_sovereign_wealth_movers.md` |
+| Khaldoon Al Mubarak | `tier2_entity_leadership_profiles.md`, `tier2_uae_coordination_node.md` |
+| 1789 Capital / Omeed Malik | `tier2_entity_leadership_profiles.md`, `02_MEDIA_FIREWALL.md` |
 
 ---
 

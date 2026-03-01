@@ -17,9 +17,12 @@
 | **Tucker Carlson / Fitts interview** | `sources/2026-02-27_Carlson_Fitts_Control_Grid.md` | `02_MEDIA_FIREWALL.md` |
 | **Board of Peace / private diplomacy** | `03_BOARD_OF_PEACE.md` | `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md`, `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` |
 | **Kushner / Affinity Partners** | `Node_Dossiers/tier1_kushner_historical.md` | `Node_Dossiers/tier2_affinity_qxo.md`, `03_BOARD_OF_PEACE.md` |
-| **Gulf SWF / Silicon Sovereignty** | `04_CAPITAL_ARCHITECTURE.md` | `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
-| **Saudi PIF / gaming** | `04_CAPITAL_ARCHITECTURE.md` | `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
-| **UAE / Abu Dhabi / MGX** | `Node_Dossiers/tier2_uae_coordination_node.md` | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
+| **Gulf SWF / Silicon Sovereignty** | `04_CAPITAL_ARCHITECTURE.md` | `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md` |
+| **Saudi PIF / gaming** | `04_CAPITAL_ARCHITECTURE.md` | `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md` |
+| **UAE / Abu Dhabi / MGX** | `Node_Dossiers/tier2_uae_coordination_node.md` | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md` |
+| **Entity leadership / board interlocking** | `Node_Dossiers/tier2_entity_leadership_profiles.md` | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
+| **SoftBank / Vision Fund / Stargate** | `Node_Dossiers/tier2_entity_leadership_profiles.md` | `04_CAPITAL_ARCHITECTURE.md` |
+| **1789 Capital / Omeed Malik** | `Node_Dossiers/tier2_entity_leadership_profiles.md` | `02_MEDIA_FIREWALL.md`, `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` |
 | **CRINK framework (China-Russia-Iran-NK)** | `05_CRINK_FRAMEWORK.md` | `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv` |
 | **Iran strikes / Operation Epic Fury** | `sources/2026-02-28_Iran_Strike_Target_Mapping.md` | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `09_CURRENT_THREADS.md` |
 | **Cyber-kinetic operations / Handala** | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` | `09_CURRENT_THREADS.md` |
