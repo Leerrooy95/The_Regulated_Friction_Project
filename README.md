@@ -76,6 +76,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
+| `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
 ---
 

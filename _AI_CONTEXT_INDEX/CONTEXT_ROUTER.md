@@ -10,6 +10,7 @@
 | Topic | Primary File | Supporting Files |
 |-------|-------------|------------------|
 | **Core theory / thermostat model** | `01_CORE_THEORY.md` | `Report.md`, `14_Files/Thermostat_Explained.md` |
+| **Leverage thesis / leverage architecture** | `11_LEVERAGE_THESIS.md` | `01_CORE_THEORY.md`, `09_CURRENT_THREADS.md`, `04_CAPITAL_ARCHITECTURE.md` |
 | **Statistical evidence / correlation** | `07_METHODOLOGY.md` | `Control_Proof/correlation_results.txt`, `Run_Correlations_Yourself/README.md` |
 | **Payment system opacity / capital flow** | `Project_Trident/Capital_Flow_Opacity_Framework.md` | `04_CAPITAL_ARCHITECTURE.md`, `14_Files/How_This_Happened-A_Policy_Brief.md` |
 | **Ritual / calendar timing** | `Project_Trident/Ritual_Timing_Signal_Analysis.md` | `Project_Trident/DATASET_REFERENCE.md`, `Project_Trident/temporal_correlations_analyzed.csv` |
@@ -33,6 +34,8 @@
 | **bin Sulayem / DP World** | `Node_Dossiers/tier1_binsulayem_epstein.md` | `09_CURRENT_THREADS.md` |
 | **Egypt / Gulf integration** | `Node_Dossiers/tier2_egypt_gulf_integration.md` | `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
 | **Maxwell / clemency** | `09_CURRENT_THREADS.md` (Node 1) | `08_How_It's_Possible/Phase_0_Maxwell_Pivot.csv` |
+| **Clinton depositions / Epstein testimony** | `09_CURRENT_THREADS.md` (Clinton Depositions section) | `11_LEVERAGE_THESIS.md` |
+| **Anthropic / Pentagon standoff / AI safeguards** | `09_CURRENT_THREADS.md` (Anthropic section) | `11_LEVERAGE_THESIS.md`, `04_CAPITAL_ARCHITECTURE.md` |
 | **Main characters / noise generators** | `06_MAIN_CHARACTERS.md` | `14_Files/Main_Characters.md` |
 | **DOGE / administrative state** | `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/DOGE_node_timeline.md` | `06_MAIN_CHARACTERS.md` |
 | **Protests / FaaS (Friction-as-a-Service)** | `11_Protest_Dynamics_and_Funding/README.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/` |
@@ -142,4 +145,4 @@ For entity-specific analysis, use the modular Node Dossier system instead of rea
 
 ---
 
-*Created March 1, 2026. This router reflects the full repository as audited in `REPO_AUDIT_2026-03-01.md`.*
+*Created March 1, 2026. Updated March 1, 2026 — added leverage thesis, Clinton depositions, Anthropic standoff routing. This router reflects the full repository as audited in `REPO_AUDIT_2026-03-01.md`.*
