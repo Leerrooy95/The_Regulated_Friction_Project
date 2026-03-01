@@ -1,21 +1,22 @@
 name: Sync AI Context to Drop Box
 
-permissions:
-  contents: read
-
 on:
   workflow_run:
-    workflows: ["Daily Intelligence Pipeline"] # Watches your main pipeline
+    workflows: ["Daily Intelligence Pipeline"]
     types:
       - completed
-  workflow_dispatch: # Keeps the manual "Run" button enabled for testing
+  workflow_dispatch:
 
 jobs:
   sync-to-space:
     runs-on: ubuntu-latest
     
-    # This ensures it ONLY runs if the main pipeline succeeded, or if you click the manual run button
+    # Only run if main pipeline succeeded, or if manually triggered
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    
+    # Scoped permissions for OPSEC
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
@@ -49,5 +50,15 @@ jobs:
           AWS_DEFAULT_REGION: sfo3
         run: |
           aws s3 sync ./Run_Correlations_Yourself s3://regulated-friction-space/Run_Correlations_Yourself/ \
+            --endpoint-url https://sfo3.digitaloceanspaces.com \
+            --delete
+
+      - name: Sync Control Proof Data to DO Space
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
+          AWS_DEFAULT_REGION: sfo3
+        run: |
+          aws s3 sync ./Control_Proof s3://regulated-friction-space/Control_Proof/ \
             --endpoint-url https://sfo3.digitaloceanspaces.com \
             --delete
