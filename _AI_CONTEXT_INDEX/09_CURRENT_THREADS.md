@@ -306,12 +306,17 @@
 | Detail | Information |
 |--------|-------------|
 | Event | First former president compelled to testify before Congress in 40+ years |
-| Dates | February 26-27, 2026 |
-| Outcome | Both Clintons denied knowledge of Epstein network activities |
+| Dates | Hillary Clinton: February 26; Bill Clinton: February 27, 2026 |
+| Format | Closed-door depositions before House Oversight Committee |
+| Bill Clinton location | Chappaqua, New York (6+ hours) |
+| Outcome | Both Clintons denied knowledge of Epstein network activities; Bill Clinton: "I saw nothing, and I did nothing wrong" |
+| Committee assessment | Republicans stated Clinton "answered every question"; no evidence of criminal involvement found |
 | Significance | Creates pressure on figures adjacent to the leverage architecture |
 | Timing | 24-48 hours before Operation Epic Fury / Lion's Roar (Feb 28) |
 | Maxwell status | Clemency still pending; potential compliance indicator |
 | Leverage thesis relevance | See `11_LEVERAGE_THESIS.md` (Iran section) |
+
+**Sources**: <a href="https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318">ABC News</a>, <a href="https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436">NBC News</a>, <a href="https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/">CBS News</a>, <a href="https://www.politico.com/live-updates/2026/02/27/congress/bill-clintons-opening-statement-00803977">Politico</a>, <a href="https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein">PBS</a>, <a href="https://www.cnbc.com/2026/02/27/bill-clinton-jeffrey-epstein-oversight-committee.html">CNBC</a>
 
 **Framework Relevance**: The depositions maintain domestic pressure within the leverage architecture concurrently with the Iran kinetic escalation — consistent with the dual-track system documented in `01_CORE_THEORY.md`.
 
@@ -322,10 +327,13 @@
 | Event | Anthropic refused Pentagon demands to remove AI safeguards |
 | Red line 1 | No fully autonomous weapons |
 | Red line 2 | No mass domestic surveillance |
-| Consequence | Lost ~$200M contract; designated "supply chain risk" |
-| Replacement | OpenAI immediately signed deal to replace Anthropic on classified networks |
+| Consequence | Lost ~$200M contract; designated "supply chain risk" by Trump administration |
+| Replacement | OpenAI signed deal to replace Anthropic on classified networks |
+| Anthropic response | CEO Dario Amodei refused in public letter; plans to legally challenge "supply chain risk" designation |
 | Capital positioning | MGX (UAE) co-led Anthropic's $30B Series G ($380B post-money valuation) same month |
 | Leverage thesis relevance | See `11_LEVERAGE_THESIS.md` (Anthropic section) |
+
+**Sources**: <a href="https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554">Politico</a>, <a href="https://reason.com/2026/02/27/anthropic-ceo-refuses-pentagon-demands-to-remove-safeguards-on-military-ai/">Reason</a>, <a href="https://www.military.com/daily-news/2026/02/27/anthropic-refuses-bend-pentagon-ai-safeguards-dispute-nears-deadline.html">Military.com</a>, <a href="https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html">CNBC</a>, <a href="https://www.aljazeera.com/news/2026/2/28/openai-strikes-deal-with-pentagon-to-use-tech-in-classified-network">Al Jazeera</a>, <a href="https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/">TechCrunch (Series G)</a>
 
 **Framework Relevance**: Anthropic demonstrates what *non-compliance* looks like within the leverage architecture — immediate exclusion from infrastructure, financial penalty, and institutional designation as "risk." The speed of OpenAI's replacement suggests the compliance pipeline was pre-positioned. MGX investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides.
 

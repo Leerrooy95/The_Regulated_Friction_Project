@@ -13,8 +13,8 @@
 | January 30, 2026 DOJ release of 3M+ Epstein documents including Musk correspondence | ✅ VERIFIED | `09_CURRENT_THREADS.md` (DOJ Epstein Files section) |
 | Ritual timing 3.5x above baseline (p = 0.002) | ✅ VERIFIED | `Project_Trident/Ritual_Timing_Signal_Analysis.md` |
 | xAI (Grok) deployed to Pentagon at $0.42/agency, 3M military personnel | ✅ VERIFIED | `04_CAPITAL_ARCHITECTURE.md` |
-| Anthropic refused Pentagon demands; lost contract (Feb 26-28, 2026) | ⚠️ PARTIALLY VERIFIED | News reporting (Feb 2026) |
-| Clinton depositions before Congress (Feb 26-27, 2026) | ⚠️ PARTIALLY VERIFIED | News reporting (Feb 2026) |
+| Anthropic refused Pentagon demands; lost contract; designated "supply chain risk" (Feb 26-28, 2026) | ✅ VERIFIED | [Politico](https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554), [Reason](https://reason.com/2026/02/27/anthropic-ceo-refuses-pentagon-demands-to-remove-safeguards-on-military-ai/), [Military.com](https://www.military.com/daily-news/2026/02/27/anthropic-refuses-bend-pentagon-ai-safeguards-dispute-nears-deadline.html) |
+| Clinton depositions before Congress (Feb 26-27, 2026) | ✅ VERIFIED | [ABC News](https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318), [NBC News](https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436), [CBS News](https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/), [PBS](https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein) |
 | Gulf SWFs personally controlled by royal family members | ✅ VERIFIED | `Node_Dossiers/tier2_entity_leadership_profiles.md` |
 | Same capital sources fund both Epstein-adjacent networks and AI infrastructure | 🔍 HYPOTHESIS | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_affinity_qxo.md` |
 
@@ -43,16 +43,21 @@ This is where the leverage mechanism was first identified operating in real-time
 ### The Escalation (January 30, 2026)
 
 - DOJ releases 3M+ Epstein documents
-- Includes emails where Musk asked Epstein "What day/night will be the wildest party on your island?"
+- Includes emails where Musk asked Epstein "What day/night will be the wildest party on your island?" (November 2012)
 - 16+ emails between Musk and Epstein (2012-2013) verified
 - Directly contradicts Musk's September denial
+- No confirmed evidence Musk actually visited the island
+
+**Sources**: [Time](https://time.com/7362868/elon-musk-epstein-emails/), [NBC News](https://www.nbcnews.com/tech/elon-musk/expressed-interest-visiting-jeffrey-epstein-island-emails-show-doj-rcna256784), [Independent](https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-epstein-files-island-party-b2911563.html)
 
 ### The Compliance Outcome
 
-- xAI (Grok) deployed to Pentagon at $0.42/agency, accessible to 3M military personnel
-- Impact Level 5 (Controlled Unclassified)
+- xAI (Grok) deployed to Pentagon at $0.42/agency, accessible to 3M military personnel via GenAI.mil
+- Impact Level 5 (Controlled Unclassified); 18-month contract through March 2027
 - When Anthropic refused Pentagon demands (Feb 26-28, 2026), OpenAI immediately filled the contract
 - Musk's companies now deeply integrated into defense/intelligence infrastructure
+
+**Sources**: [GSA](https://www.gsa.gov/about-us/newsroom/news-releases/gsa-xai-partner-to-accelerate-federal-ai-adoption-09252025), [The Hill](https://thehill.com/policy/technology/5521309-xai-offers-grok-to-federal-agencies-for-42-cents/), [CNBC](https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html)
 
 ### [Inference] Interpretation
 
@@ -103,16 +108,22 @@ The system self-regulates based on institutional response
 ### The Friction Sequence (Late February 2026)
 
 - **Feb 26-27**: Clinton depositions — first former president compelled to testify before Congress in 40+ years, both denied Epstein knowledge
+- Bill Clinton testified 6+ hours before House Oversight Committee in Chappaqua, NY (Feb 27); Hillary Clinton deposed Feb 26
 - These depositions create pressure on figures adjacent to the leverage architecture
 - Maxwell clemency still pending (documented in `09_CURRENT_THREADS.md` Node 1)
+
+**Sources**: [ABC News](https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318), [NBC News](https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436), [CBS News](https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/), [PBS](https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein)
 
 ### The Kinetic Escalation (Feb 28, 2026)
 
 - **Operation Epic Fury** (US) / **Operation Lion's Roar** (Israel)
-- Ayatollah Khamenei reported killed (⚠️ SINGLE SOURCE — unconfirmed)
-- 201+ killed across 24 Iranian provinces (⚠️ PARTIALLY VERIFIED)
-- 108 schoolgirls killed at Shajareh Tayyebeh elementary school (⚠️ PARTIALLY VERIFIED)
+- Ayatollah Khamenei confirmed killed; 40-day mourning period declared in Iran
+- 201+ killed, 700+ injured across Iran (Iranian Red Crescent figures)
+- 85-148 schoolgirls killed at Shajareh Tayyebeh elementary school in Minab (⚠️ figures vary by source)
 - Iran retaliates under **Operation Fateh Khyber** against Saudi Arabia, Bahrain, Kuwait, Qatar, UAE
+- 3 US service members killed in Iranian retaliatory attacks
+
+**Sources**: [USNI News](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region), [CNBC](https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html), [Axios](https://www.axios.com/2026/03/01/us-troops-killed-iran-operation-epic-fury), [Al Jazeera](https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people), [USA Today](https://www.usatoday.com/story/news/nation/2026/02/28/iranian-girls-school-decimated-us-israeli-strike/88919223007/), [Wikipedia](https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran)
 
 ### The Cyber-Kinetic Sequencing
 
@@ -151,9 +162,12 @@ Iran represents the leverage architecture operating at state level. The friction
 |--------|-------------|
 | Event | Anthropic refused Pentagon demands to remove AI safeguards |
 | Red lines | No fully autonomous weapons; no mass domestic surveillance |
-| Consequence | Lost ~$200M contract; designated "supply chain risk" |
-| Replacement | OpenAI immediately signed deal to replace Anthropic on classified networks |
-| Capital positioning | MGX (UAE) co-led Anthropic's $30B Series G same month — positioning on both sides |
+| Consequence | Lost ~$200M contract; designated "supply chain risk" by Trump administration |
+| Replacement | OpenAI signed deal to replace Anthropic on classified networks |
+| Capital positioning | MGX (UAE) co-led Anthropic's $30B Series G ($380B post-money) same month — positioning on both sides |
+| Anthropic response | Plans to legally challenge "supply chain risk" designation |
+
+**Sources**: [Politico](https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554), [Reason](https://reason.com/2026/02/27/anthropic-ceo-refuses-pentagon-demands-to-remove-safeguards-on-military-ai/), [CNBC](https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html), [Al Jazeera](https://www.aljazeera.com/news/2026/2/28/openai-strikes-deal-with-pentagon-to-use-tech-in-classified-network), [TechCrunch (Series G)](https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/)
 
 ### Why This Matters
 
@@ -202,7 +216,7 @@ These aren't anonymous institutional investors — they're personal networks.
 | OpenAI | SoftBank 40% Stargate, MGX equity, $110B round (Feb 2026) | Press releases |
 | xAI | Pentagon deployment, 1789 Capital investment | `04_CAPITAL_ARCHITECTURE.md` |
 | TikTok US | 15% MGX | TikTok announcement |
-| Anthropic | MGX co-led $30B Series G (after Pentagon refusal) | `Node_Dossiers/tier2_entity_leadership_profiles.md` |
+| Anthropic | MGX co-led $30B Series G ($380B post-money, after Pentagon refusal) | [TechCrunch](https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/), [Anthropic](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation) |
 | Affinity Partners | $2B from PIF (despite adviser objections) | `Node_Dossiers/tier1_kushner_historical.md` |
 
 ### [Inference] Interpretation
