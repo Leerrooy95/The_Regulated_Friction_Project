@@ -62,3 +62,12 @@ jobs:
           aws s3 sync ./Control_Proof s3://regulated-friction-space/Control_Proof/ \
             --endpoint-url https://sfo3.digitaloceanspaces.com \
             --delete
+            
+      - name: Sync Config to DO Space
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
+          AWS_DEFAULT_REGION: sfo3
+        run: |
+          aws s3 cp ./intelligence_config.json s3://regulated-friction-space/intelligence_config.json \
+            --endpoint-url https://sfo3.digitaloceanspaces.com
