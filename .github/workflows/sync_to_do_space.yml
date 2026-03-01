@@ -1,5 +1,8 @@
 name: Sync AI Context to Drop Box
 
+permissions:
+  contents: read
+
 on:
   workflow_run:
     workflows: ["Daily Intelligence Pipeline"] # Watches your main pipeline
