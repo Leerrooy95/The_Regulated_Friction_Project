@@ -245,7 +245,7 @@ Emails obtained by the Iranian hacking group Handala from former Israeli Prime M
 - Epstein facilitated Barak's business dealings with Russian oligarch Viktor Vekselberg (Renova Group) and arranged meetings with Kremlin aide Yuri Ushakov
 - The back-channel's primary objective was to broker a Russia-led political transition in Syria that would satisfy Israeli security concerns — specifically, the removal of Bashar al-Assad
 
-**Verification**: ⚠️ PARTIALLY VERIFIED — Based on 100,000+ leaked emails corroborated by forensic checks and cross-referenced with Congressional document dumps (Drop Site News). No formal government authentication.
+**Verification**: ⚠️ PARTIALLY VERIFIED — Based on 100,000+ leaked emails corroborated by forensic checks conducted by Drop Site News (cross-referenced with Congressional document dumps and public leaks). No formal government authentication.
 
 **Sources**: [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Drop Site News via Democracy Now](https://www.democracynow.org/2025/11/12/epstein_israel), [Al Jazeera](https://www.aljazeera.com/news/2026/2/9/what-were-jeffrey-epsteins-links-to-israel), [Nation of Change](https://www.nationofchange.org/2025/11/15/epsteins-intelligence-ties-come-into-focus-as-congress-moves-toward-releasing-government-files/)
 
