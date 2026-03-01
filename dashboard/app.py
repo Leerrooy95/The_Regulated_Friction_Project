@@ -4,6 +4,7 @@ Main Streamlit entry point.
 """
 
 import json
+import os
 import re
 from collections import Counter
 from pathlib import Path
@@ -11,6 +12,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
+import requests
 import streamlit as st
 from plotly.subplots import make_subplots
 
@@ -190,7 +192,7 @@ if backfill_df is not None:
     backfill_stats = compute_lag_stats(backfill_df["lag_parsed"])
 
 # ── Tabs ─────────────────────────────────────────────────────────────────
-tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions = st.tabs([
+tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions, tab_agent = st.tabs([
     "Home",
     "🔴 Live Intelligence",
     "Statistical Overview",
@@ -198,6 +200,7 @@ tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, 
     "Lag Distribution (Backfill)",
     "Raw Data Explorer",
     "Prediction Tracker",
+    "🤖 Ask AI",
 ])
 
 # =====================================================================
@@ -1652,6 +1655,91 @@ with tab_predictions:
     st.caption(
         f"Total: {len(pred_df)} predictions | "
         f"{n_confirmed} confirmed, {n_failed} failed, {n_pending} pending/tracking"
+    )
+
+# =====================================================================
+# TAB 7: ASK AI AGENT
+# =====================================================================
+AGENT_ENDPOINT = os.environ.get(
+    "AGENT_ENDPOINT", "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
+)
+
+with tab_agent:
+    st.header("🤖 I have the latest information, ask me anything!")
+    st.markdown(
+        "This AI agent has been trained on all project documentation, findings, "
+        "and data for The Regulated Friction Project. Ask it about correlations, "
+        "entities, timelines, or any aspect of the research."
+    )
+
+    st.divider()
+
+    user_question = st.text_input(
+        "Your question",
+        placeholder="e.g. What is the friction-compliance correlation?",
+        key="agent_question",
+    )
+
+    if st.button("Ask Agent", key="agent_submit"):
+        if not user_question.strip():
+            st.warning("Please enter a question.")
+        else:
+            agent_key = os.environ.get("AGENT_ACCESS_KEY") or st.secrets.get(
+                "AGENT_ACCESS_KEY", ""
+            )
+            if not agent_key:
+                st.error(
+                    "⚠️ AGENT_ACCESS_KEY is not configured. "
+                    "Set it as an environment variable or in Streamlit secrets."
+                )
+            else:
+                with st.spinner("Querying AI agent…"):
+                    try:
+                        resp = requests.post(
+                            AGENT_ENDPOINT,
+                            headers={
+                                "Authorization": f"Bearer {agent_key}",
+                                "Content-Type": "application/json",
+                            },
+                            json={
+                                "messages": [
+                                    {"role": "user", "content": user_question}
+                                ]
+                            },
+                            timeout=60,
+                        )
+                        resp.raise_for_status()
+                        data = resp.json()
+
+                        # Agent may return OpenAI-compatible format (choices[].message.content)
+                        # or a simpler {"response": "..."} payload.
+                        answer = (
+                            data.get("choices", [{}])[0]
+                            .get("message", {})
+                            .get("content", "")
+                        ) or data.get("response", "") or json.dumps(data, indent=2)
+
+                        with st.expander("**Agent Response**", expanded=True):
+                            st.markdown(answer)
+                    except requests.exceptions.Timeout:
+                        st.error(
+                            "⏱️ The agent did not respond within 60 seconds. "
+                            "Please try again later."
+                        )
+                    except requests.exceptions.HTTPError as exc:
+                        st.error(f"🚫 Agent returned an error: {exc}")
+                    except requests.exceptions.ConnectionError:
+                        st.error(
+                            "🔌 Could not reach the AI agent. "
+                            "The service may be temporarily unavailable."
+                        )
+                    except (ValueError, KeyError) as exc:
+                        st.error(f"Unexpected error parsing response: {exc}")
+
+    st.divider()
+    st.caption(
+        "Responses are AI-generated based on project documentation. "
+        "Always verify critical claims against the primary data."
     )
 
 # ── Footer ───────────────────────────────────────────────────────────────
