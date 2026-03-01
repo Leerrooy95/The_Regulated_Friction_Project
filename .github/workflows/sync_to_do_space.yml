@@ -23,7 +23,13 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
           AWS_DEFAULT_REGION: sfo3
-        run: |
-          # This command strictly syncs the folder ONE-WAY to the Drop Box.
-          # It will not alter your GitHub repo.
-          aws s3 sync ./_AI_CONTEXT_INDEX s3://regulated-friction-space/ --endpoint-url https://sfo3.digitaloceanspaces.com
+     
+       run: |
+          # Sync the AI Context Index
+          aws s3 sync ./_AI_CONTEXT_INDEX s3://regulated-friction-space/_AI_CONTEXT_INDEX/ --endpoint-url https://sfo3.digitaloceanspaces.com
+          
+          # Sync the daily Scout output and intel files
+          aws s3 sync ./output s3://regulated-friction-space/output/ --endpoint-url https://sfo3.digitaloceanspaces.com
+          
+          # Sync the correlation data
+          aws s3 sync ./Control_Proof s3://regulated-friction-space/Control_Proof/ --endpoint-url https://sfo3.digitaloceanspaces.com
