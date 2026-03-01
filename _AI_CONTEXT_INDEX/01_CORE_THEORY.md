@@ -145,6 +145,7 @@ High-visibility "scandals" and media friction are not merely smokescreens or noi
 - **For detailed capital infrastructure (Track B)**: `04_CAPITAL_ARCHITECTURE.md`
 - **For active leverage nodes**: `09_CURRENT_THREADS.md`
 - **For full validation documentation**: `10_FRAMEWORK_VALIDATION.md`
+- **For leverage thesis (Musk/Epstein origin, Iran, Anthropic)**: `11_LEVERAGE_THESIS.md`
 
 ---
 
@@ -186,6 +187,7 @@ The theory would be **falsified** if:
 - **For calendar/ritual timing**: `Project_Trident/temporal_correlations_analyzed.csv`
 - **For 2026 convergence data**: `New_Data_2026/2026_Analysis.md`
 - **For media firewall function**: `02_MEDIA_FIREWALL.md`
+- **For leverage thesis framework**: `11_LEVERAGE_THESIS.md`
 
 ---
 

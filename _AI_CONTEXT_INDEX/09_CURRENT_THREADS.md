@@ -301,6 +301,42 @@
 
 **Sources**: <a href="https://www.npr.org/2026/02/26/g-s1-111595/u-s-iran-to-third-round-nuclear-talks">NPR</a>, <a href="https://www.cbsnews.com/news/trump-us-iran-nuclear-deal-to-avert-war-prospects-for-geneva-talks/">CBS News</a>, <a href="https://www.axios.com/2026/02/26/iran-nuclear-talks-geneva">Axios</a>
 
+### Clinton Depositions (Feb 26-27, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Event | First former president compelled to testify before Congress in 40+ years |
+| Dates | Hillary Clinton: February 26; Bill Clinton: February 27, 2026 |
+| Format | Closed-door depositions before House Oversight Committee |
+| Bill Clinton location | Chappaqua, New York (6+ hours) |
+| Outcome | Both Clintons denied knowledge of Epstein network activities; Bill Clinton: "I saw nothing, and I did nothing wrong" |
+| Committee assessment | Republicans stated Clinton "answered every question"; no evidence of criminal involvement found |
+| Significance | Creates pressure on figures adjacent to the leverage architecture |
+| Timing | 24-48 hours before Operation Epic Fury / Lion's Roar (Feb 28) |
+| Maxwell status | Clemency still pending; potential compliance indicator |
+| Leverage thesis relevance | See `11_LEVERAGE_THESIS.md` (Iran section) |
+
+**Sources**: <a href="https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318">ABC News</a>, <a href="https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436">NBC News</a>, <a href="https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/">CBS News</a>, <a href="https://www.politico.com/live-updates/2026/02/27/congress/bill-clintons-opening-statement-00803977">Politico</a>, <a href="https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein">PBS</a>, <a href="https://www.cnbc.com/2026/02/27/bill-clinton-jeffrey-epstein-oversight-committee.html">CNBC</a>
+
+**Framework Relevance**: The depositions maintain domestic pressure within the leverage architecture concurrently with the Iran kinetic escalation — consistent with the dual-track system documented in `01_CORE_THEORY.md`.
+
+### Anthropic-Pentagon Standoff (Feb 26-28, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Event | Anthropic refused Pentagon demands to remove AI safeguards |
+| Red line 1 | No fully autonomous weapons |
+| Red line 2 | No mass domestic surveillance |
+| Consequence | Lost ~$200M contract; designated "supply chain risk" by Trump administration |
+| Replacement | OpenAI signed deal to replace Anthropic on classified networks |
+| Anthropic response | CEO Dario Amodei refused in public letter; plans to legally challenge "supply chain risk" designation |
+| Capital positioning | MGX (UAE) co-led Anthropic's $30B Series G ($380B post-money valuation) same month |
+| Leverage thesis relevance | See `11_LEVERAGE_THESIS.md` (Anthropic section) |
+
+**Sources**: <a href="https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554">Politico</a>, <a href="https://reason.com/2026/02/27/anthropic-ceo-refuses-pentagon-demands-to-remove-safeguards-on-military-ai/">Reason</a>, <a href="https://www.military.com/daily-news/2026/02/27/anthropic-refuses-bend-pentagon-ai-safeguards-dispute-nears-deadline.html">Military.com</a>, <a href="https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html">CNBC</a>, <a href="https://www.aljazeera.com/news/2026/2/28/openai-strikes-deal-with-pentagon-to-use-tech-in-classified-network">Al Jazeera</a>, <a href="https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/">TechCrunch (Series G)</a>
+
+**Framework Relevance**: Anthropic demonstrates what *non-compliance* looks like within the leverage architecture — immediate exclusion from infrastructure, financial penalty, and institutional designation as "risk." The speed of OpenAI's replacement suggests the compliance pipeline was pre-positioned. MGX investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides.
+
 ### Taiwan Strait Monitoring (Feb 25-27, 2026)
 
 | Date | PLA Aircraft | Median Crossings | PLAN Vessels |
@@ -572,6 +608,8 @@
 | Feb 23-24 | Kushner barred from French ministerial access (COMPLETED) |
 | Feb 24 | SOTU address (longest ever); USPS v. Konan ruling |
 | Feb 25 | FBI purge + whistleblower docs + Cuba shootout (SOTU window clustering) |
+| **Feb 26-27** | **Clinton depositions before Congress (first former president compelled in 40+ years)** |
+| **Feb 26-28** | **Anthropic refuses Pentagon demands; loses ~$200M contract; OpenAI replaces on classified networks** |
 | Feb 27 | Turkish intel validates "CRINK Axis" |
 | **Feb 27** | **Hegseth "Arsenal of Freedom" tour concludes at L3Harris Camden, AR (<24 hrs before Iran strikes)** |
 | **Feb 28** | **Operation Epic Fury / Lion's Roar: US-Israel strikes on Iran; Iran retaliates on 5 Gulf states (Fateh Khyber)** |
@@ -633,6 +671,8 @@ This clustering pattern is consistent with Thermostat model predictions.
 | Feb 25 | Cuba speedboat shootout (4 killed) | International friction |
 | Feb 25 | Uber/Joby Dubai air taxi announcement | UAE tech infrastructure |
 | Feb 27 | Turkish intel validates "CRINK Axis" | Framework validation |
+| Feb 26-27 | Clinton depositions before Congress | Epstein leverage; first former president compelled in 40+ years |
+| Feb 26-28 | Anthropic refuses Pentagon AI safeguard removal | Non-compliance example; lost ~$200M contract |
 | Feb 27 | Hegseth "Arsenal of Freedom" tour at L3Harris Camden, AR | Defense-capital convergence; <24 hrs before Iran strikes |
 
 ---
@@ -693,10 +733,11 @@ This clustering pattern is consistent with Thermostat model predictions.
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
+- **For leverage thesis**: `11_LEVERAGE_THESIS.md`
 - **For methodology**: `07_METHODOLOGY.md`
 - **For datasets**: `08_KEY_DATASETS.md`
 - **For capital architecture**: `04_CAPITAL_ARCHITECTURE.md`
 
 ---
 
-*Last Updated: February 28, 2026. Added: Cyber-kinetic timeline analysis — Node 2 updated with cyber-kinetic sequencing finding (Clalit breach Feb 25 preceded Epic Fury Feb 28 by 72 hours; pattern analysis across June 2025 and Feb 2026 cycles); see sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md. Previous: Hegseth "Arsenal of Freedom" tour at L3Harris Camden (Feb 27) — defense-capital convergence, Rafael JV, OPEC+ coordination data; Node 3 updated with mBridge/OPEC+ strike overlap; Research Question 9 (Arkansas Defense-Capital Infrastructure Convergence); cross-references to sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md. Previous: Operation Epic Fury / Lion's Roar (Feb 28) — US-Israel strikes on Iran, Iran Fateh Khyber retaliation on 5 Gulf states, SWF infrastructure overlap mapping (see sources/2026-02-28_Iran_Strike_Target_Mapping.md). Previous: 2026 Cuban Crisis, Prince Andrew arrest (Feb 19), El Mencho CJNG operation (Feb 22), DHS shutdown (Feb 14), Gaza stablecoin proposal (Feb 23), Iran nuclear talks update (Feb 25-27), convergence notes (Feb 19 four-event, Feb 24-25 SOTU window). Expanded: Mandelson section (arrest details Feb 23). Updated: Key Dates tables, additional February events summary. Previous: Epstein Network Documentation as Node 5, Board of Peace summit data, Kushner–France diplomatic crisis, FBI purge, Schedule P/C deadline tracking. This document should be updated as new developments occur.*
+*Last Updated: March 1, 2026. Added: Clinton depositions (Feb 26-27), Anthropic-Pentagon standoff (Feb 26-28), leverage thesis cross-references; see 11_LEVERAGE_THESIS.md. Previous: Cyber-kinetic timeline analysis — Node 2 updated with cyber-kinetic sequencing finding (Clalit breach Feb 25 preceded Epic Fury Feb 28 by 72 hours; pattern analysis across June 2025 and Feb 2026 cycles); see sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md. Previous: Hegseth "Arsenal of Freedom" tour at L3Harris Camden (Feb 27) — defense-capital convergence, Rafael JV, OPEC+ coordination data; Node 3 updated with mBridge/OPEC+ strike overlap; Research Question 9 (Arkansas Defense-Capital Infrastructure Convergence); cross-references to sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md. Previous: Operation Epic Fury / Lion's Roar (Feb 28) — US-Israel strikes on Iran, Iran Fateh Khyber retaliation on 5 Gulf states, SWF infrastructure overlap mapping (see sources/2026-02-28_Iran_Strike_Target_Mapping.md). This document should be updated as new developments occur.*
