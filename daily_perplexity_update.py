@@ -1,7 +1,7 @@
 """
 daily_perplexity_update.py (Standalone Version)
 ================================================
-Perplexity-only intelligence pipeline. No Llama Scout dependency.
+Perplexity-only intelligence pipeline (standalone).
 Loads tracked entities and signals from intelligence_config.json.
 
 Uses Perplexity (sonar-pro) to:

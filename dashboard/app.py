@@ -169,7 +169,7 @@ with st.sidebar:
     st.markdown("- `negative_windows.csv` (5 windows)")
     st.markdown("- Federal Register EO spider (JSON)")
     if intel_data:
-        st.markdown("- **Llama-4-Scout Extraction (JSON)**")
+        st.markdown("- **Perplexity Intelligence Extraction (JSON)**")
     st.divider()
     st.caption("v10.2 | Responsive Layout Active")
     st.caption(DISCLAIMER)
@@ -685,7 +685,7 @@ with tab_live_intel:
         st.warning("No automated intelligence data found. Run the GitHub Action pipeline first.")
     else:
         st.header("Live Intelligence Feed")
-        st.markdown("Automated extraction via **Llama-4-Scout-17B-16E-Instruct**")
+        st.markdown("Automated extraction via **Perplexity Sonar Pro**")
         
         # Build set of convergence node entity names for actor highlighting
         # Uses both full names and significant keywords for partial matching
