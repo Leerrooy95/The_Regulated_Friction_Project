@@ -148,9 +148,31 @@ Timeline analysis documents that Iranian cyber operations *preceded* US/Israel k
 
 **Source**: `sources/2026-02-28_Iran_Strike_Target_Mapping.md`, `04_CAPITAL_ARCHITECTURE.md`
 
+### The Barak-Epstein Backchannel (2013–2016)
+
+Emails obtained by the hacking group Handala from former Israeli PM Ehud Barak's inbox (100,000+ documents, published by Drop Site News and Distributed Denial of Secrets) reveal that Epstein functioned as an informal diplomatic broker between Israel and Russia during the Syrian civil war:
+
+| Detail | Information | Verification |
+|--------|-------------|-------------|
+| Epstein arranged Barak meetings with Russian officials (Lavrov, Ushakov) | ✅ VERIFIED | [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Democracy Now!](https://www.democracynow.org/2025/11/12/epstein_israel) |
+| Epstein recommended Barak propose direct meeting with Putin (2013 email) | ✅ VERIFIED | [Drop Site News](https://www.dropsiteenews.com), [Al Jazeera](https://www.aljazeera.com/news/2025/12/9/israels-ex-pm-ehud-barak-and-jeffrey-epstein-had-close-relationship-emails-reveal) |
+| Epstein facilitated Barak attendance at St. Petersburg Economic Forum | ✅ VERIFIED | [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/) |
+| Epstein and Barak co-invested in Reporty/Carbyne (surveillance tech) | ✅ VERIFIED | [Al Jazeera](https://www.aljazeera.com/news/2025/12/9/israels-ex-pm-ehud-barak-and-jeffrey-epstein-had-close-relationship-emails-reveal) |
+| Authentication by Drop Site News via forensic methods; no official state acknowledgment | ⚠️ PARTIALLY VERIFIED | [Factually.co](https://factually.co/fact-checks/media/drop-site-news-epstein-israel-uae-russia-backchannels-evidence-67b333) |
+
+**Structural significance**: These emails establish that Epstein operated as a geopolitical intermediary — not merely a socialite — brokering state-level diplomatic communications. This is consistent with the leverage thesis: individuals with compromising information access also occupy strategic intermediary positions.
+
+**Caveats**: Barak acknowledged his business relationship with Epstein but denied knowledge of criminal activity. The emails were obtained through hacking, not official release. No cryptographic signatures have been independently validated by government agencies.
+
+### DOJ Oversight Controversy (February 2026)
+
+Rep. Jamie Raskin (D-MD), ranking member of the House Judiciary Committee, accused the DOJ of surveilling congressional Epstein file searches after AG Pam Bondi was photographed with a document showing Rep. Jayapal's search history. Raskin called the DOJ's handling a "cover-up."
+
+**Sources**: [The Hill](https://thehill.com/homenews/house/5734915-raskin-bondi-doj-surveillance-epstein-files/), [CBS News](https://www.cbsnews.com/news/bondi-epstein-files-search-history-hearing-pramila-jayapal/), [PBS](https://www.pbs.org/newshour/politics/raskin-accuses-justice-department-of-spying-on-lawmakers-reviewing-epstein-files), [NBC News](https://www.nbcnews.com/politics/congress/lawmakers-demand-doj-stop-tracking-lawmakers-epstein-files-searches-rcna258721), [CNN](https://www.cnn.com/2026/02/01/politics/video/jamie-raskin-congress-doj-epstein-files-unredacted-fbi-search-georgia-election-office)
+
 ### [Inference] Interpretation
 
-Iran represents the leverage architecture operating at state level. The friction (cyber operations, regional instability) creates conditions for compliance (regional realignment, defense contracts, capital deployment). The timing correlates with Epstein-related document releases (Clinton depositions) that maintain pressure on domestic figures within the same architecture.
+Iran represents the leverage architecture operating at state level. The friction (cyber operations, regional instability) creates conditions for compliance (regional realignment, defense contracts, capital deployment). The timing correlates with Epstein-related document releases (Clinton depositions) that maintain pressure on domestic figures within the same architecture. The Barak-Epstein backchannel emails provide historical precedent for the same intermediary using compromising relationships to broker geopolitical outcomes.
 
 ---
 
