@@ -2,7 +2,7 @@
 
 **Purpose**: This index enables AI assistants to selectively load relevant historical context when analyzing new friction or compliance events. Instead of reading one massive file, the AI should identify matching entities and pull only the specific dossiers needed for that analysis.
 
-**Last Updated**: February 28, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
+**Last Updated**: March 1, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
 
 ---
 
