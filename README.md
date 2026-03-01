@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.1
+# The Regulated Friction Project v10.2
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -111,7 +111,13 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v10.1) — February 2026
+## What's New (v10.2) — March 1, 2026
+
+- **Leverage Thesis now fully documented**: The formal leverage framework — covering the Musk/Epstein/Netanyahu origin case, Iran geopolitical extension, Anthropic standoff, and capital architecture — is now synthesized in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. The Barak–Epstein Russia/Israel back channel and "Epstein war" framing have been added with web-verified source citations.
+- **Report.md rewritten for accessibility**: Restructured with an Executive Summary, plain-language Leverage Model explanation, key events breakdown, and statistical evidence — designed so someone with no background can follow the findings
+- **Epstein geopolitical role documented**: Barak–Epstein back channel (Handala-leaked emails, verified by Al Jazeera, Middle East Monitor, Drop Site News), "Epstein war" framing (Raskin, RT, Jacobin), and DOJ Russia connection data — all web-verified with multiple sources. ~~December 2018 prediction~~ downgraded to ❌ UNVERIFIED after web search found no credible sourcing.
+
+### Previous (v10.1) — February 2026
 
 - **Dashboard infrastructure validated**: Full end-to-end validation passed (spider→merge→push→dashboard pipeline). See `docs/validation/VALIDATION_REPORT_2026-02-24.md`
 - **Repository restructured**: Validation reports moved to `docs/validation/`, older LLM extractions archived to `output/archive/`
@@ -211,7 +217,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: February 24, 2026 (v10.1)
+**Last updated**: March 1, 2026 (v10.2)
 
 ---
 

@@ -1,106 +1,126 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** February 24, 2026
-**Version:** v10.1
+**Last Updated:** March 1, 2026
+**Version:** v10.2
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
 
-## What This Is
+## Executive Summary
 
-This report documents a statistically significant pattern: high-visibility "friction" events (document releases, scandals, media cycles) and institutional "compliance" events (policy shifts, financial moves, regulatory changes) cluster together on the same calendar windows.
+This research documents a simple but important finding: when big, attention-grabbing events happen — leaked documents, political scandals, viral media cycles — institutional policy changes tend to occur approximately two weeks later. This isn't speculation. It's a measured statistical relationship with a correlation of r = +0.6196, meaning the connection is strong, and a p-value of 0.0004, meaning there's less than a 0.05% chance the pattern is random noise.
 
-**The core finding:** r = +0.6196 correlation at 2-week lag, p = 0.0004 (n = 28 paired observations from a 30-week dataset)
+Think of it like ice cream sales and crime rates — both rise in summer, not because one causes the other, but because they share a common factor (hot weather). This project documents a similar phenomenon in politics and finance: friction events (document releases, investigations, scandals) and compliance events (policy shifts, deals, personnel changes) cluster around the same calendar windows — holidays, fiscal deadlines, congressional recesses — because multiple actors respond to the same low-attention periods without needing to coordinate.
 
-**What this means in plain language:** When friction events spike, institutional compliance events follow approximately two weeks later. This relationship has less than a 0.05% probability of occurring by coincidence.
-
-**Q1 2026 extension:** Research conducted in January-February 2026 reveals that the friction-compliance clustering pattern connects to a broader structural shift. While public attention concentrates on high-visibility events, functional integration between state and private actors proceeds through capital flows, private governance bodies, and technical military frameworks — a pattern this project terms "Privatized Integration." The same entities (Oracle, Silver Lake, Saudi PIF, UAE MGX) and individuals (Kushner, Gabay, Witkoff, Rowan) appear across multiple domains simultaneously: tech acquisitions, diplomatic governance, defense coordination, and territorial reconstruction. Automated scraping infrastructure deployed on DigitalOcean provides daily Federal Register and DOJ press release monitoring, feeding a publicly accessible Streamlit dashboard.
-
-**What this does NOT claim:** Central coordination, conspiracy, or intentional orchestration. The pattern is emergent—multiple actors exploiting the same environmental signals (holidays, fiscal deadlines, media saturation) without requiring communication between them. The Q1 2026 findings document actor overlap and temporal clustering as observable facts; interpretation is left to the reader.
+**What this does NOT claim:** This research makes no claims about central coordination, conspiracy, or intentional orchestration. The pattern is described as emergent — the result of many actors exploiting the same environmental conditions. Correlation ≠ causation. The claim is structural: the pattern exists, it is statistically significant, and it is reproducible. Anyone can verify it by running the scripts in `Run_Correlations_Yourself/`.
 
 ---
 
-## The Model in One Sentence
+## The Leverage Model Explained
 
-Multiple actors—domestic agencies, foreign adversaries, financial institutions—respond to the same low-attention calendar windows, creating simultaneous clustering of events that would otherwise draw scrutiny.
+### What Is a "Friction Event"?
 
----
+A friction event is anything that grabs public attention and consumes media bandwidth. Think of it as the political equivalent of a car crash on the highway — everyone slows down to look, and while they're looking, they're not watching other lanes.
 
-## Key Terminology
+**Examples:**
+- **Document releases**: The DOJ releasing 3 million+ Epstein documents (January 30, 2026)
+- **Investigations**: Congressional hearings, FBI investigations, special counsel reports
+- **Scandals**: Leaked emails, exposed contradictions, viral social media moments
+- **Protests**: Mass demonstrations, strikes, walkouts
 
-| Term | Definition |
-|------|------------|
-| **Friction** | Attention-consuming events: file releases, scandals, media crises |
-| **Compliance** | Institutional positioning: policy shifts, financial moves, regulatory changes |
-| **Calendar Anchor** | Predictable low-attention periods: holidays, fiscal deadlines, solstices |
-| **Convergence** | Multiple event types clustering on the same window |
-| **CRINK** | China-Russia-Iran-North Korea axis (term established 2023, Halifax Security Forum) |
+### What Is a "Compliance Event"?
 
----
+A compliance event is an institutional action — a policy shift, a financial deal, a regulatory change, a personnel appointment — that might attract scrutiny under normal circumstances but proceeds with less public attention because everyone is focused on the friction event.
 
-## How the Model Works
+**Examples:**
+- **Policy shifts**: Executive orders, regulatory changes, rule publications
+- **Deals**: Corporate acquisitions, sovereign wealth fund investments, defense contracts
+- **Personnel changes**: Agency appointments, workforce restructuring, board compositions
+- **Governance moves**: Treaty signings, international organization formations, military agreements
 
-### The Convergence Pattern
+### How Do They Correlate?
+
+This research measured friction and compliance events across 30 weeks of data (n = 28 paired observations after accounting for a 2-week lag). The strongest statistical relationship appears at a **14-day lag** — meaning compliance events tend to follow friction events by about two weeks.
+
+| What We Measured | Result |
+|------------------|--------|
+| Correlation strength | r = +0.6196 (strong positive) |
+| Statistical significance | p = 0.0004 (less than 0.05% chance of being random) |
+| Where it shows up | Friction events → compliance events follow ~14 days later |
+| How confident we are | Survives permutation testing, Granger causality, and binary analysis |
+
+To put r = 0.6196 in perspective: anything above 0.5 is considered a "strong" correlation in social science. This is well above that threshold.
+
+### Why Does This Matter? (The Thermostat Function)
+
+The pattern works like a thermostat: when institutional compliance is achieved, friction decreases; when compliance is resisted, friction increases (escalation). The system appears to self-regulate based on institutional response.
 
 ```
-         ┌──────────────────────────────────────┐
-         │        CALENDAR ANCHOR               │
-         │  (Solstice, Holiday, Fiscal Deadline) │
-         └──────────────────────────────────────┘
-                          │
-            ┌─────────────┼─────────────┐
-            ▼             ▼             ▼
-       ┌─────────┐  ┌──────────┐  ┌──────────┐
-       │Friction │  │  Policy  │  │Financial │
-       │ Events  │  │  Shifts  │  │  Moves   │
-       └─────────┘  └──────────┘  └──────────┘
-            │             │             │
-            └─────────────┼─────────────┘
-                          ▼
-              CONVERGENT CLUSTERING
-                   (r = 0.6196 at 2-week lag)
+If compliance is achieved → friction decreases
+If compliance is resisted → friction increases (escalation)
+The system self-regulates based on institutional response
 ```
 
-### The Lagged Pattern
-
-The original hypothesis assumed a cause-effect sequence: friction creates a distraction window, then compliance happens 14 days later. The data supports this — the 2-week lag produces the strongest correlation.
-
-| Lag | Correlation | Interpretation |
-|-----|-------------|----------------|
-| 0 weeks | r = −0.03 | No simultaneous relationship |
-| 2 weeks | r = +0.6196 | **Strongest** — friction predicts compliance at 14-day lag |
+This "thermostat" isn't controlled by any single actor. It's the emergent result of many actors — governments, financial institutions, media organizations, foreign adversaries — responding to the same calendar signals. Like a flock of birds that moves in unison without a leader, the pattern emerges from shared incentives, not central direction.
 
 ---
 
-## The Evidence
+## Key Events Breakdown
 
-### Statistical Verification
+### September 26, 2025: The Origin
 
-| Finding | Value | Verification |
-|---------|-------|--------------|
-| Friction → Compliance correlation | r = +0.6196 (2-week lag) | 1-10 scale indices, 30-week dataset (n = 28 after lag) |
-| Statistical significance | p = 0.0004 | Less than 0.05% chance of random |
-| Ritual → Policy proximity | 50.7% vs. 19.9% baseline | 2.5x expected rate |
-| Multi-dataset Spearman | ρ = 0.61 (0-lag) | Rank correlation across all datasets (p < 0.0001) |
+This is where the pattern was first identified. On a single day during the UN General Assembly:
 
-**Methodology note:** The r = 0.6196 uses 1-10 scoring from a 30-week dataset (n = 28 effective paired observations after 2-week lag alignment). The multi-dataset Spearman ρ = 0.61 uses raw event counts across all repository datasets and confirms the rank-order relationship. Both findings are independently significant.
+| Time | Event |
+|------|-------|
+| Sep 26 | House Oversight Democrats release Epstein calendars mentioning "Elon Musk to island" (8,544 records) |
+| Sep 26 | Netanyahu delivers UN speech to General Assembly |
+| Sep 26 | CSIS publishes CRINK diplomatic coordination analysis |
+| Sep 28 | Netanyahu meets American social media influencers at Israeli Consulate NYC, calls Musk a "friend," describes X and TikTok as "weapons" |
 
-**Note:** The previously reported r = 0.6685 (from New_Data_2026) has been deprecated since v8.3. That correlation was produced in early January 2026 when the user accidentally mixed New_Data_2026 datasets (uploaded January 4, 2026) into verification scripts intended for the original December 2025 data. This was a user dataset-mixing error, not an AI computation error — the AI tools correctly computed the correlations for the data they were given. See `Run_Correlations_Yourself/Wrong_Correlations/` for the archived scripts.
+The same-day convergence of a document release, a diplomatic speech, and a think-tank publication — with a related influencer meeting 48 hours later — is what first suggested these events might cluster on predictable calendar windows.
 
-**Robustness (Feb 2026 — corrected datasets):** The original robustness tests were inadvertently run against the wrong datasets (New_Data_2026 files instead of original pre-2026 datasets). After correction (see `Project_Trident/Copilot_Opus_4.6_Analysis/`):
+### January 30, 2026: The DOJ Release
 
-| Test | Result | Verdict |
-|------|--------|---------|
-| Permutation (1K shuffles) | r = 0.62 significant (p < 0.001) | ✅ Pass |
-| Autocorrelation adjustment | Pearson p = 0.008 (block-bootstrap), Spearman ρ = 0.61 (p = 0.0001) | ✅ Both survive |
-| Dec 2025 exclusion | Pearson r drops 6% (0.1099→0.1031), Spearman ρ = 0.60 (p < 0.0001) | ✅ Signal survives removal |
-| Normalized (binary) | r = 0.59 (p < 0.0001) | ✅ Presence/absence correlation holds |
-| Event-study | Friction dates attract 20–42x more compliance than random | ✅ Strong colocation |
-| Granger (30-row, hand-scored) | Friction → Compliance at lag 1 (p = 0.0008), lag 2 (p = 0.027) | ✅ Supports sequential hypothesis |
-| Granger (event counts) | Bidirectional at lags 1-3 | ℹ️ Refines model: suggests common driver, not simple cause-effect |
+The Department of Justice released 3 million+ Epstein documents, the largest single disclosure in the case's history:
 
-**Key correction:** The previous robustness analysis (using wrong datasets) showed December 2025 removal destroyed the correlation (90% drop). With the correct original datasets, Pearson r drops only 6% when December 2025 is excluded. However, excluding all of 2025 reduces Pearson r to 0.035 (not significant), while Spearman ρ remains robust at 0.57 (p < 0.0001). This indicates: (a) the rank-order pattern is broadly distributed, but (b) magnitude-based Pearson is sensitive to 2025 event concentration.
+- Emails where Musk asked Epstein "What day/night will be the wildest party on your island?" (November 2012)
+- 16+ emails between Musk and Epstein (2012-2013) verified
+- Directly contradicted Musk's September 2025 denial that he had declined invitations
+- No confirmed evidence Musk actually visited the island
+
+**Same window compliance events:** Warsh Fed Chair nomination (monetary policy restructuring), approaching government shutdown (institutional friction), TikTok deal closure.
+
+**Sources**: [Time](https://time.com/7362868/elon-musk-epstein-emails/), [NBC News](https://www.nbcnews.com/tech/elon-musk/expressed-interest-visiting-jeffrey-epstein-island-emails-show-doj-rcna256784), [Independent](https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-epstein-files-island-party-b2911563.html)
+
+### February 26-28, 2026: The Triple Convergence
+
+Three major events converged in a 72-hour window:
+
+**1. Clinton Depositions (Feb 26-27):**
+- First former president compelled to testify before Congress in 40+ years
+- Bill Clinton testified 6+ hours before House Oversight Committee (Feb 27)
+- Hillary Clinton deposed Feb 26
+- Both denied Epstein knowledge
+
+**Sources**: [ABC News](https://abcnews.com/Politics/bill-clinton-faces-questions-house-oversight-committee-epstein/story?id=130539318), [NBC News](https://www.nbcnews.com/politics/congress/bill-clinton-house-epstein-probe-rare-testimony-former-president-rcna260436), [CBS News](https://www.cbsnews.com/news/bill-clinton-epstein-house-oversight-committee-deposition/), [PBS](https://www.pbs.org/newshour/show/what-happened-during-hillary-clintons-closed-door-deposition-on-jeffrey-epstein)
+
+**2. Anthropic–Pentagon Standoff (Feb 26-28):**
+- Anthropic refused Pentagon demands to remove AI safeguards (no autonomous weapons, no mass surveillance)
+- Lost ~$200M contract; designated "supply chain risk" by Trump administration
+- OpenAI signed replacement deal within hours
+- MGX (UAE) co-led Anthropic's $30B Series G that same month — positioning capital on both sides
+
+**Sources**: [Politico](https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554), [CNBC](https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html)
+
+**3. Iran Strikes — Operation Epic Fury (Feb 28):**
+- US/Israel joint strikes on Iran; Ayatollah Khamenei confirmed killed
+- 201+ killed, 700+ injured across Iran (Iranian Red Crescent figures)
+- 85-148 schoolgirls killed at Shajareh Tayyebeh elementary school in Minab (⚠️ casualty range reflects conflicting reports)
+- Iran retaliates under Operation Fateh Khyber; 3 US service members killed
+
+**Sources**: [USNI News](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region), [CNBC](https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html), [Axios](https://www.axios.com/2026/03/01/us-troops-killed-iran-operation-epic-fury)
 
 ### December 2025: The Case Study
 
@@ -113,43 +133,77 @@ The December 19-23, 2025 window demonstrates the pattern in real-time:
 | Dec 23 | **8** | **9** | Redaction failures exposed |
 | Dec 24 | 2 | 3 | DOJ finds 1M more pages |
 
-**December 22 specifically saw five independent signal types converge:**
-
-1. **Friction:** Epstein redaction failures exposed (NYT: "easily recovered")
-2. **Geopolitics:** China EU dairy tariffs (42.7%) take effect
-3. **Financial:** BlackRock names Bitcoin ETF "top 2025 theme"
-4. **Policy:** Travel ban expansion, DOGE year-end analysis
-5. **Cyber/Intel:** CRINK nation-state threat analysis published (ITpro)
-
-These events did not cause each other. They clustered because December 22—between the solstice and Christmas—is a predictable low-attention anchor.
-
-### September 26, 2025: Theory Origin
-
-The date this research began showed triple convergence during the UN General Assembly:
-
-| Time | Event |
-|------|-------|
-| Sep 26 | Epstein estate documents (8,544 records) released by House Oversight |
-| Sep 26 | Netanyahu UN speech to General Assembly |
-| Sep 26 | CSIS publishes CRINK diplomatic coordination analysis |
-| Sep 28 | Netanyahu influencer roundtable at Israeli Consulate NYC |
-
-Three unrelated events—document release, UN speech, think tank publication—converging on a single day, with the related influencer roundtable following 48 hours later.
+Five independent signal types converged on December 22 alone — friction (Epstein redaction failures), geopolitics (China EU tariffs), financial (BlackRock Bitcoin ETF), policy (travel ban expansion), and cyber/intel (CRINK threat analysis). These events did not cause each other. They clustered because December 22 — between the solstice and Christmas — is a predictable low-attention anchor.
 
 ---
 
-## The Friction-Compliance Framework
+## Statistical Evidence
 
-This repository documents the core statistical relationship:
+### Core Correlation
 
 | Finding | Value | Verification |
 |---------|-------|--------------|
-| Friction → Compliance correlation | r = +0.6196 (2-week lag) | ✅ Verified (n = 28 after lag, hand-scored) |
-| Statistical significance | p = 0.0004 | ✅ Less than 0.05% chance of random |
+| Friction → Compliance correlation | r = +0.6196 (2-week lag) | 1-10 scale indices, 30-week dataset (n = 28 after lag) |
+| Statistical significance | p = 0.0004 | Less than 0.05% chance of random |
+| Ritual → Policy proximity | 50.7% vs. 19.9% baseline (2.5x) | ✅ Verified (p = 0.002) |
+| Multi-dataset Spearman | ρ = 0.61 (0-lag) | Rank correlation across all datasets (p < 0.0001) |
+| Calendar clustering | Non-random | Events cluster on holidays, fiscal deadlines, solstices |
 
-**Thesis:** Domestic friction saturates media bandwidth, creating calendar windows in which compliance events (policy shifts, financial moves) proceed with reduced scrutiny.
+### Robustness Tests
 
-> **Note (v8.6):** This section previously presented a "Three-Layer Framework" that included two external repositories (DOGE_Global_Effects, BRICS-NDB-LocalCurrency-DiD). Those repositories contained Grok-fabricated data and have been retracted. The retracted references are preserved in [`Archive/Retracted_Three_Layer_References.md`](Archive/Retracted_Three_Layer_References.md). See the [AI Fabrication Case Study](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md) for the full audit.
+The core correlation survives multiple validation methods:
+
+| Test | Result | Verdict |
+|------|--------|---------|
+| Permutation (1K shuffles) | r = 0.62 significant (p < 0.001) | ✅ Pass |
+| Autocorrelation adjustment | Pearson p = 0.008 (block-bootstrap), Spearman ρ = 0.61 (p = 0.0001) | ✅ Both survive |
+| Dec 2025 exclusion | Pearson r drops 6%, Spearman ρ = 0.60 (p < 0.0001) | ✅ Signal survives removal |
+| Normalized (binary) | r = 0.59 (p < 0.0001) | ✅ Presence/absence correlation holds |
+| Event-study | Friction dates attract 20–42x more compliance than random | ✅ Strong colocation |
+| Granger causality (hand-scored) | Friction → Compliance at lag 1 (p = 0.0008), lag 2 (p = 0.027) | ✅ Supports sequential hypothesis |
+| Granger (event counts) | Bidirectional at lags 1-3 | ℹ️ Suggests common driver, not simple cause-effect |
+
+### Historical Backfill (2017-2024)
+
+66 friction→compliance pairs identified across 30 friction windows in 8 years of historical data. Median lag +7 days, 89% positive lags, 5 confirmed negative windows. Backfill impact on existing correlations is negligible (Δr = +0.0012). All 10 verification claims confirmed ✅. The pattern holds across the full historical dataset.
+
+**Key correction:** Excluding all of 2025 reduces Pearson r to 0.035 (not significant), while Spearman ρ remains robust at 0.57 (p < 0.0001). This indicates the rank-order pattern is broadly distributed, but Pearson magnitude is sensitive to 2025 event concentration.
+
+### Verify It Yourself
+
+All data and code are public:
+
+```bash
+# Clone the repository
+git clone https://github.com/Leerrooy95/The_Regulated_Friction_Project.git
+
+# Reproduce original correlations (pre-2026 datasets)
+cd Run_Correlations_Yourself/
+python run_original_analysis.py              # r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002
+
+# Run robustness tests (from repo root)
+cd ../Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/
+python permutation_test.py                   # Shuffle-based significance
+python autocorrelation_adjusted_test.py      # Block bootstrap
+python cross_validation_dec2025.py           # Dec 2025 exclusion test
+python event_study_framework.py             # Compliance response analysis
+python granger_causality_test.py             # Predictive direction test
+```
+
+Key datasets:
+- `Control_Proof/master_reflexive_correlation_data.csv` — Original weekly friction/compliance indices
+- `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv` — CRINK discourse tracking
+- `Project_Trident/Best_Data_For_Project_Trident/ritual_events_parsed.csv` — Project Trident ritual timing
+- `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — Historical backfill (2017-2024)
+- `Run_Correlations_Yourself/negative_windows.csv` — Confirmed negative windows
+
+---
+
+## Detailed Analysis Archive
+
+> The following sections preserve the full analytical progression from v8.7 through v9.6. Each section documents specific findings from the Q1 2026 research period. For a summary of the core leverage framework, see `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`.
+
+> **Note (v8.6):** The original "Three-Layer Framework" included two external repositories (DOGE_Global_Effects, BRICS-NDB-LocalCurrency-DiD) that contained Grok-fabricated data and have been retracted. See [`Archive/Retracted_Three_Layer_References.md`](Archive/Retracted_Three_Layer_References.md) and the [AI Fabrication Case Study](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md).
 
 ---
 
@@ -893,13 +947,14 @@ CRINK (China-Russia-Iran-North Korea) actors appear as primary beneficiaries acr
 
 ---
 
-## What This Is NOT
+## What This Research Does NOT Claim
 
 This research makes **structural claims**, not accusations:
 
 - **NOT claiming** central coordination or conspiracy
 - **NOT claiming** any individual's intent or motivation
 - **NOT claiming** that observed patterns are deliberate
+- **NOT claiming** that friction events *cause* compliance events
 - **IS claiming** that statistically significant clustering exists
 - **IS claiming** the pattern is reproducible (run the code yourself)
 
@@ -918,38 +973,17 @@ The "thermostat" metaphor describes emergent behavior: multiple actors respondin
 
 ---
 
-## Verify It Yourself
+## Additional Datasets
 
-All data and code are public:
+Additional datasets for extended analysis:
 
-```bash
-# Clone the repository
-git clone https://github.com/Leerrooy95/The_Regulated_Friction_Project.git
-
-# Reproduce original correlations (pre-2026 datasets)
-cd Run_Correlations_Yourself/
-python run_original_analysis.py              # r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002
-
-# Run robustness tests (from repo root)
-cd ../Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/
-python permutation_test.py                   # Shuffle-based significance
-python autocorrelation_adjusted_test.py      # Block bootstrap
-python cross_validation_dec2025.py           # Dec 2025 exclusion test
-python event_study_framework.py             # Compliance response analysis
-python granger_causality_test.py             # Predictive direction test
-```
-
-**Methodology transparency:** The primary correlation (r = 0.6196) uses a 30-week dataset of hand-scored friction/compliance indices at a 2-week lag (n = 28 effective paired observations). The multi-dataset Spearman rank correlation (ρ = 0.61) confirms the rank-order pattern across 2,951 events from all repository datasets. The Pearson r on expanded event counts (r = 0.11) is weaker due to magnitude sensitivity but remains significant after autocorrelation adjustment (block-bootstrap p = 0.008).
-
-Key datasets:
-- `Control_Proof/master_reflexive_correlation_data.csv` — Original weekly friction/compliance indices
-- `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv` — CRINK discourse tracking
-- `Project_Trident/Best_Data_For_Project_Trident/ritual_events_parsed.csv` — Project Trident ritual timing
 - `New_Data_2026/` — Updated datasets for raw event count analysis (8 datasets)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Baseline_Q3_2025.csv` — Q3 2025 13F holdings (37 positions, 6 filers)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Holdings_Q4_2025.csv` — Q4 2025 13F holdings (68 rows, 12 filers)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Entity_13F_Cross_Reference.csv` — Entity-level Trident relevance tiers (18 entities)
 - `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Security_Level_Cross_Reference.csv` — Security-level cross-entity analysis (16 securities)
+
+**Methodology transparency:** The primary correlation (r = 0.6196) uses a 30-week dataset of hand-scored friction/compliance indices at a 2-week lag (n = 28 effective paired observations). The multi-dataset Spearman rank correlation (ρ = 0.61) confirms the rank-order pattern across 2,951 events from all repository datasets. The Pearson r on expanded event counts (r = 0.11) is weaker due to magnitude sensitivity but remains significant after autocorrelation adjustment (block-bootstrap p = 0.008).
 
 ---
 
@@ -1094,4 +1128,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated February 24, 2026 (v10.1). Dashboard infrastructure validated: spider→merge→push→dashboard pipeline confirmed operational. Repository restructured: validation reports to `docs/validation/`, LLM archive to `output/archive/`. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*
+*This report was last updated March 1, 2026 (v10.2). Report restructured with accessible Executive Summary and Leverage Model explanation. Barak–Epstein back channel and "Epstein war" framing documented with web-verified sources in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. Dashboard infrastructure validated. Automated scraping infrastructure (Federal Register + DOJ spiders) remains active on DigitalOcean.*

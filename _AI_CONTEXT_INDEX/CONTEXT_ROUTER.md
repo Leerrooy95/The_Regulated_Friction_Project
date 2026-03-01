@@ -29,6 +29,7 @@
 | **Cyber-kinetic operations / Handala** | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` | `09_CURRENT_THREADS.md` |
 | **Arsenal of Freedom / defense production** | `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
 | **Arkansas infrastructure / AVAIO / DATA Act** | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` | `04_CAPITAL_ARCHITECTURE.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Federal_Energy_Bypass.md` |
+| **Epstein geopolitical role / Barak back channel / Iran leverage** | `11_LEVERAGE_THESIS.md` | `09_CURRENT_THREADS.md` |
 | **Epstein files / DOJ releases** | `Node_Dossiers/tier1_zorro_ranch_epstein.md` | `01_Levers_and_Frictions/Epstein_Files_timeline_updated.csv`, `07_My_Previous_Epstein_Research/` |
 | **Epstein crypto connections** | `02_MEDIA_FIREWALL.md` (Epstein crypto section) | `14_Files/FINANCIAL_RECEIPT_VERIFICATION.md` |
 | **bin Sulayem / DP World** | `Node_Dossiers/tier1_binsulayem_epstein.md` | `09_CURRENT_THREADS.md` |
