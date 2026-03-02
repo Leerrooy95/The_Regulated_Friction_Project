@@ -111,11 +111,15 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v10.3) — March 2, 2026
+## What's New (v10.3) — The High-Resolution Build — March 2, 2026
 
-- **14-day lag terminology corrected**: The Robustness Audit (v10.2) revealed that the actual median lag in the 66-pair backfill dataset is **7 days** (mean: 6.5 days), not 14. The original "14-day" figure was an artifact of the 2-week index binning resolution. The correlation (r = 0.6196) at 2-week index resolution is still valid and significant, but all documentation now uses the corrected 7-day median terminology. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
-- **Robustness audit completed**: Placebo permutation test (10K shuffles, p = 0.0004), calendar-anchor clustering analysis, temporal engine adaptation, and node timeline reconciliation. Full results in `04_Testing_and_Counters/`.
-- **Version bump to v10.3**: Major terminology correction warrants version increment.
+- **14-day lag corrected to 7-day median**: The Robustness Audit revealed that the actual median lag in the 66-pair backfill dataset is **7 days** (mean: 6.5 days), not 14. The original "14-day" figure was an artifact of the 2-week index binning resolution. The correlation (r = 0.6196) at 2-week index resolution is still valid and significant. All documentation now carries audit trail labels: *v10.2 Legacy (2-week index resolution)* vs *v10.3 High-Resolution (backfill n=66)*. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
+- **Robustness audit completed**: Placebo permutation test (10K shuffles, p = 0.0004), calendar-anchor clustering analysis (71.2% shared anchors), temporal engine adaptation, and node timeline reconciliation.
+- **Business cycle audit**: Weekday frequency analysis shows 30.3% of event pairs share the same weekday (2.1× expected). The 7-day lag is partially a work-week artifact but not entirely.
+- **Financial anchor alignment**: February 2026 compliance events cluster 1.7 days from financial anchors (vs 6.5 for sequential lag) — financial calendar is 3.8× tighter. Apollo earnings/Maxwell testimony (both Feb 9) and Apollo dividend/Board of Peace summit (both Feb 19) confirmed.
+- **Lag=5 negative oscillation documented**: r = −0.6064 (p = 0.0013) explained as "thermostat cooling cycle" — a ~10-week oscillation in the friction→compliance system. See `07_METHODOLOGY.md`.
+- **Source decontamination**: oreateai.com (AI content mill, trust score 45.3/100) purged from CSVs → `New_Data_2026/DATA_QUARANTINE.csv`. 2,121 URLs scanned; 2,110 clean.
+- **Repository-wide semantic refactor**: 70+ files updated with context-aware edits (not blind find-and-replace). Preserved ±14-day search windows, specific measured gaps, and historical archive text.
 
 ### Previous (v10.2) — March 1, 2026
 
