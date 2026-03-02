@@ -22,7 +22,7 @@ python run_original_analysis.py
 
 | Script | What It Reproduces | Datasets Used |
 |--------|-------------------|---------------|
-| `run_original_analysis.py` | Part 1: r = 0.6196 (2-week lag, n = 28)<br>Part 2: Mann-Whitney U p = 0.002<br>Part 3: χ² = 330.62 (14-day periodicity) | Original pre-2026 CSVs from `Control_Proof/`, `Project_Trident/`, `09_Silicon_Sovereignty/` |
+| `run_original_analysis.py` | Part 1: r = 0.6196 (2-week index lag, actual median: 7 days, n = 28)<br>Part 2: Mann-Whitney U p = 0.002<br>Part 3: χ² = 330.62 (7-day median periodicity) | Original pre-2026 CSVs from `Control_Proof/`, `Project_Trident/`, `09_Silicon_Sovereignty/` |
 
 ---
 
@@ -30,9 +30,9 @@ python run_original_analysis.py
 
 | # | Correlation | Stat | Datasets | Script |
 |---|-------------|------|----------|--------|
-| 1 | Reflexive Control (2-week lag) | r = 0.6196 | 30-row master CSV | `run_original_analysis.py` Part 1 |
+| 1 | Reflexive Control (2-week index lag; actual median: 7 days) | r = 0.6196 | 30-row master CSV | `run_original_analysis.py` Part 1 |
 | 2 | Project Trident (ritual vs holiday proximity) | p = 0.002 | 533-row lag CSV | `run_original_analysis.py` Part 2 |
-| 3 | Multi-Dataset Cross-Validation (14-day periodicity) | χ² = 330.62 | 4 Silicon Sovereignty CSVs (2,102 records) | `run_original_analysis.py` Part 3 |
+| 3 | Multi-Dataset Cross-Validation (7-day median periodicity) | χ² = 330.62 | 4 Silicon Sovereignty CSVs (2,102 records) | `run_original_analysis.py` Part 3 |
 
 ---
 

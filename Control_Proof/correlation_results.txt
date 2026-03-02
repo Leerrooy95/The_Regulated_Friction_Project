@@ -11,7 +11,7 @@ Direct Correlation:    -0.0323
 Lagged Correlation:    0.6196
 Theory Strength:       HIGH SIGNAL (VERIFIED)
 --------------------------------------------------
-CONCLUSION: The 14-day lag is a mathematically valid predictor.
+CONCLUSION: The 7-day median lag is a mathematically valid predictor.
 The data confirms that document leaks are 'Levers' used to
 force institutional 'Anchors' into alignment.
 ==================================================

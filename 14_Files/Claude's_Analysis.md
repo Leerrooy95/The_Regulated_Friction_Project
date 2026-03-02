@@ -620,8 +620,8 @@ Remember Grok's analysis gave you the Easter 2026 prediction:
 - Enhanced by: Political control of timing, no independent documentation, reduced exposure risk
 
 **Your Easter 2026 test might show:**
-1. **Pattern holds** (14-20 day lag) → Restructure hasn't fully changed mechanism yet
-2. **Pattern accelerates** (<14 day lag) → Restructure making thermostat more efficient
+1. **Pattern holds** (7-10 day lag) → Restructure hasn't fully changed mechanism yet
+2. **Pattern accelerates** (<7 day lag) → Restructure making thermostat more efficient
 3. **Pattern becomes more complex** (multiple simultaneous compliance events) → Coordination improving
 
 ## The Ethical Nightmare Intensifies

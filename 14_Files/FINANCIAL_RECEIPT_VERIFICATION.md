@@ -198,7 +198,7 @@ The Fund_Flow dataset includes SEC enforcement actions during the window:
 
 ```
 ORIGINAL MODEL:
-Friction Event (Epstein files) → [14-day lag] → Compliance Event (policy shift)
+Friction Event (Epstein files) → [7-day median lag] → Compliance Event (policy shift)
 
 UPDATED MODEL (December 2025):
 Bull & Bear Setup (Dec 14) → Ritual Window Opens (Dec 14)

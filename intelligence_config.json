@@ -76,5 +76,5 @@
       "search_terms": ["Russia Ukraine talks", "Abu Dhabi negotiations", "Zelensky Putin"]
     }
   ],
-  "framework_context": "The Regulated Friction Project tracks correlations between high-visibility friction events and institutional compliance responses, with a documented 14-day lag pattern (r=0.62, p<0.001)."
+  "framework_context": "The Regulated Friction Project tracks correlations between high-visibility friction events and institutional compliance responses, with a documented 7-day median lag pattern (r=0.62, p<0.001)."
 }
