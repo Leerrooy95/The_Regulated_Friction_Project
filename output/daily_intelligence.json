@@ -1,130 +1,179 @@
 {
-  "generated_at": "2026-03-01T08:17:18Z",
+  "generated_at": "2026-03-02T08:30:27Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
   "config_version": "2026-02-28",
   "top_3_developments": [
     {
-      "headline": "US and Israel conducted additional strikes on Iranian targets while Iran launched further missile and drone attacks on US bases, Israel, and Gulf states.",
-      "summary": "Israel executed another wave of strikes against Iranian targets on March 1 as part of the ongoing campaign, with President Trump confirming US major combat operations continue with heavy bombing throughout the week. Iran retaliated with missiles targeting Israel, UAE, Qatar, Kuwait, Bahrain, Jordan, Saudi Arabia, and US Fifth Fleet headquarters in Bahrain. Operations remain active with mutual vows of continued action.[1][2]",
+      "headline": "US-Iran war entered Day 2 with Operation Epic Fury strikes ongoing and 3 US troops killed in Iranian retaliation",
+      "summary": "US and Israel conducted continuous airstrikes under Operation Epic Fury, hitting hundreds of targets including Revolutionary Guard facilities, ships, air defenses, and killing Supreme Leader Khamenei and much of Iran's military command since February 28. Iran retaliated with missile and drone attacks on US bases, killing 3 US service members and wounding 5 in Kuwait. President Trump stated operations proceed ahead of schedule and will continue up to four weeks.",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "Wikipedia: 2026 Israeli–United States strikes on Iran; CBS News live updates",
-      "timestamp": "2026-03-01"
+      "source": "CBS News live updates",
+      "timestamp": "2026-03-02"
     },
     {
-      "headline": "Russia-Ukraine peace talks advanced with announcement of early March Abu Dhabi round.",
-      "summary": "Ukrainian President Zelensky announced on February 27 that trilateral talks with Russia and the US are set for early March, likely March 4-5 in Abu Dhabi, following Geneva discussions on security guarantees. Russia demands Ukrainian territorial concessions in Donetsk for withdrawals elsewhere, with limited progress amid ongoing strikes. US-proposed security guarantees for Ukraine were accepted by Russia in prior rounds.",
+      "headline": "Board of Peace conducted Phase Two implementation focusing on Gaza governance and reconstruction",
+      "summary": "The Board of Peace executed Phase Two of the ceasefire agreement following its inaugural meeting on February 19, where Trump announced $10 billion US funding and secured $7 billion in pledges from other nations. Efforts currently center on transitional governance, International Stabilization Force mobilization, and a $30+ billion Gaza redevelopment plan. Operations include Hamas disarmament talks and Israeli withdrawal coordination.",
       "event_type": "POLITICAL",
-      "imminence": "NEAR_TERM",
-      "source": "The Moscow Times (Feb 27, 2026); ISW (Feb 26, 2026)",
-      "timestamp": "2026-03-01"
+      "imminence": "ONGOING",
+      "source": "Board of Peace updates",
+      "timestamp": "2026-03-02"
     },
     {
-      "headline": "Gulf SWFs sustained aggressive investments with recent backing of $108B Warner Bros. Discovery bid.",
-      "summary": "Saudi PIF, UAE Mubadala, and QIA backed a $108B bid for Warner Bros. Discovery amid $13.7B deals in January 2026. This follows $119B global deployments in 2025, including PIF's $29B Electronic Arts acquisition. Expectations remain high for continued M&A in 2026.[SIGNAL]",
+      "headline": "Gulf SWFs maintained elevated deployment pace amid Abu Dhabi sovereign ecosystem reorganization",
+      "summary": "Gulf sovereign wealth funds deployed $119 billion in 2025, up 40% from 2024, representing 43% of global sovereign activity, with ongoing strategic shifts to energy transition and infrastructure. Abu Dhabi restructured its ecosystem in January 2026 by creating the L'IMAD fund. GCC SWFs manage $5 trillion, projected to reach $7-7.3 trillion by 2030.",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "source": "Alhurra recent; Semafor Jan 6 2026",
-      "timestamp": "2026-03-01"
+      "source": "SWF reports",
+      "timestamp": "2026-03-02"
     }
   ],
   "new_alerts": [],
   "signal_updates": [
     {
-      "signal": "Iran-US military action",
-      "previous_status": "ACTIVE",
-      "current_status": "ACTIVE",
-      "change": "Escalated with March 1 strikes and retaliations"
+      "headline": "Epstein files signal resolved after DOJ final release on January 30",
+      "status_change": "ACTIVE to RESOLVED",
+      "details": "DOJ released 3 million pages, 180,000 images, and 2,000 videos; no further prosecutions planned per Deputy AG Blanche."
     }
   ],
   "priority_watchlist": [
-    "US-Israel-Iran strike campaign escalation and Iranian proxy responses",
-    "Russia-Ukraine peace talks confirmation for March 4-5 in Abu Dhabi",
-    "Gulf SWF announcements of new major deals or exits",
-    "Board of Peace progress on Gaza reconstruction funding and troop commitments",
-    "Epstein files-related lawsuits or additional DOJ releases"
+    "US-Iran Operation Epic Fury escalation and Iranian retaliation impacts",
+    "Russia-Ukraine peace talks scheduled for March 4-5 in Abu Dhabi",
+    "Board of Peace Phase Two governance and funding mobilization progress",
+    "Gulf SWF deal activity and L'IMAD fund deployments"
   ],
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "US and Israel conduct ongoing strike campaign against Iran; Iran retaliates with missile strikes on US bases and Israel.",
-      "summary": "The US and Israel launched coordinated strikes on February 28, 2026, targeting Iranian leadership (including unconfirmed reports of Supreme Leader Khamenei's death), military sites, missile launchers, and naval assets to topple the regime and dismantle nuclear/missile programs.[1][2][3] Iran has responded with missile and drone attacks on at least 14 US bases in Bahrain, UAE, Kuwait, Jordan, Saudi Arabia, and on Israel, vowing continued retaliation until US and Israel are defeated.[1][2][3] Operations remain active with potential for further escalation, including possible IRGC proxy involvement.[1][3]",
+      "headline": "US-Iran war enters Day 2 with ongoing Operation Epic Fury strikes; 3 US troops killed in Iranian retaliation.",
+      "summary": "The US and Israel are conducting continuous airstrikes under Operation Epic Fury, having hit hundreds of targets including Revolutionary Guard facilities, ships, and air defenses, killing Iran's Supreme Leader Khamenei and much of its military command on February 28[1][2]. Iran has retaliated with missile and drone attacks on US bases in the region, resulting in 3 US service members killed and 5 wounded in Kuwait, with combat operations proceeding ahead of schedule[1]. President Trump states the operation will continue for up to four weeks until objectives are met, warning of more casualties[1].",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "[1] ISW Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
-        "[2] Firstpost YouTube: US-Iran War: Tehran retaliates as Trump calls for regime change",
-        "[3] CFR: Gauging the Impact of Massive U.S.-Israeli Strikes on Iran",
-        "[4] Wikipedia: 2026 Iran–United States war"
+        "CBS News live updates",
+        "Wikipedia: 2026 Iran–United States crisis",
+        "YouTube: U.S. and Israel airstrikes",
+        "ISW Iran Update",
+        "Atlantic Council"
       ],
-      "timestamp": "2026-03-01",
+      "timestamp": "2026-03-02",
       "original_signal": "Iran-US military action",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace held inaugural meeting on February 19, 2026, and is mobilizing funds and commitments for Gaza reconstruction.",
-      "summary": "The Board of Peace, chaired by President Trump, convened its first meeting on February 19, 2026, at the Donald J. Trump United States Institute of Peace in Washington, where the US pledged $10 billion and other countries committed $7 billion for Gaza's rebuilding. It is now focused on securing reconstruction funds, troop commitments for an International Stabilization Force, and advancing Phase Two of the Comprehensive Gaza Plan, including governance and development initiatives. No new meetings or major actions reported since the inaugural session as of March 1, 2026.",
+      "headline": "Board of Peace conducting Phase Two implementation with governance and reconstruction focus following February 19, 2026 inaugural meeting",
+      "summary": "The Board of Peace held its first official meeting on February 19, 2026, in Washington, DC, where Trump announced $10 billion in U.S. funding commitments and secured $7 billion in collective pledges from other nations for Gaza reconstruction. The organization is currently executing Phase Two of the ceasefire agreement, which began in January 2026 after Hamas returned the final hostage remains, and is now focused on establishing transitional governance structures, mobilizing the International Stabilization Force, and implementing a $30+ billion master redevelopment plan for Gaza.",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
-        "1",
-        "2",
-        "4",
-        "5"
+        2,
+        3,
+        4,
+        6
       ],
-      "timestamp": "2026-03-01",
+      "key_developments": [
+        {
+          "event": "Board inaugural meeting",
+          "date": "February 19, 2026",
+          "status": "COMPLETED",
+          "details": "First official Board of Peace meeting held at renamed Donald J. Trump United States Institute of Peace in Washington, DC"
+        },
+        {
+          "event": "NCAG formation",
+          "date": "January 15, 2026",
+          "status": "COMPLETED",
+          "details": "National Committee for the Administration of Gaza held first meeting as technocratic governance body"
+        },
+        {
+          "event": "Phase Two activation",
+          "date": "January 2026",
+          "status": "ONGOING",
+          "details": "Ceasefire shifted to Phase Two following confirmation that Hamas returned final hostage remains on October 7, 2023 attack"
+        },
+        {
+          "event": "Funding mobilization",
+          "date": "February 19, 2026 onwards",
+          "status": "ONGOING",
+          "details": "U.S. commits $10 billion; other nations pledge $7 billion collective (Kuwait and UAE expected to contribute up to $1.2 billion); World Bank estimates total reconstruction cost at $70+ billion"
+        }
+      ],
+      "operational_focus": "Governance capacity-building, reconstruction financing, International Stabilization Force deployment, Hamas disarmament negotiations, and Israeli troop withdrawal coordination",
+      "mandate_scope": "Initially Gaza reconstruction until December 31, 2027 (pending renewal), though charter language may permit broader diplomatic expansion",
       "original_signal": "Board of Peace developments",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Gulf SWFs continue aggressive capital deployment in 2026 following $119B record in 2025, with ongoing US tech investments and regional restructurings.",
-      "summary": "Gulf sovereign wealth funds, led by Saudi PIF and UAE's Mubadala, deployed $119 billion globally in 2025, a 40% increase from 2024, with $70 billion into US assets like PIF's $29B Electronic Arts acquisition and Mubadala's $24B investments[1][2]. In early 2026, January saw $13.7B across 43 deals amid Abu Dhabi's creation of the restructured L’IMAD fund under new leadership, while PIF, Mubadala, and QIA back a $108B bid for Warner Bros. Discovery[1][2][4]. No major new deals announced as of March 1, 2026, but expectations remain high for continued M&A and exits in 2026[3].",
+      "headline": "Gulf SWFs maintaining elevated deployment pace with structural ecosystem reorganization underway",
+      "summary": "Gulf sovereign wealth funds are actively deploying capital at historically high levels, with 2025 showing $119 billion deployed (up 40% from 2024) and accounting for 43% of global sovereign investor activity. As of early 2026, Abu Dhabi authorities have restructured the sovereign ecosystem with new fund architecture (L'IMAD), while the broader regional SWF sector continues strategic pivot toward energy transition, infrastructure, and diplomatic capital deployment. Collectively, GCC SWFs manage approximately $5 trillion in assets with projections reaching $7-7.3 trillion by 2030.",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "sources": [
-        "CAIA Feb 2026[1]",
-        "Semafor Jan 6 2026[2]",
-        "A&O Shearman 2025 review[3]",
-        "Alhurra recent[4]",
-        "BNP Paribas Feb 28 2026[5]"
+      "key_developments": [
+        {
+          "development": "2025 deployment volume surge",
+          "detail": "Gulf SWFs deployed $119 billion across all deals in 2025, up 40% from 2024, establishing Gulf funds as 43% of global sovereign investor activity"
+        },
+        {
+          "development": "Abu Dhabi ecosystem restructuring",
+          "detail": "January 2026: New L'IMAD fund created with fresh leadership as part of broader sovereign capital reorganization; January 2026 deal activity slower at $13.7 billion across 43 deals"
+        },
+        {
+          "development": "Strategic focus shift",
+          "detail": "Gulf SWFs transitioning from passive wealth preservation to active global influence through energy transition, clean tech, hydrogen, critical minerals, and green industrial manufacturing investments"
+        },
+        {
+          "development": "Regional concentration",
+          "detail": "Nine of 20 largest global SWFs are Middle East-based; top three (PIF ~$1.15T, ADIA ~$1.11T, KIA ~$1T+) command firepower comparable to mid-sized G20 economy"
+        }
       ],
-      "timestamp": "2026-03-01",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timestamp": "2026-03-02",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
-      "status": "MONITORING",
-      "headline": "No new Epstein document releases since January 30, 2026 DOJ drop; ongoing scrutiny and victim privacy disputes",
-      "summary": "The DOJ released over 3 million pages, 180,000 images, and 2,000 videos on January 30, 2026, claiming compliance with the Epstein Files Transparency Act, with Deputy AG Todd Blanche stating it was the final major release and no further prosecutions anticipated.[1][2][4] Post-release issues include redaction errors exposing victim identities and nude images, prompting lawsuits from over 200 victims' attorneys on February 1 and minor additional releases like a February 27 memo with no new info.[1][2] As of March 1, 2026, no fresh developments or releases have occurred, with the House Oversight Committee having issued 20,000 pages from Epstein's estate earlier.[3]",
+      "status": "RESOLVED",
+      "headline": "DOJ completed final Epstein files release on January 30, 2026; no additional prosecutions planned",
+      "summary": "The Department of Justice released over 3 million pages of documents, 180,000 images, and 2,000 videos on January 30, 2026, fulfilling its legal obligations under the Epstein Files Transparency Act. Deputy Attorney General Todd Blanche stated this would be the final major release and that the department would pursue no additional prosecutions related to Epstein, citing insufficient evidence to prosecute despite extensive materials.",
       "event_type": "INTELLIGENCE",
-      "imminence": "MONITORING",
+      "imminence": "RESOLVED",
       "sources": [
-        "CBS News live updates on DOJ Epstein files release",
-        "Wikipedia on Epstein files",
-        "House Oversight Committee release",
-        "DOJ press release on 3.5M pages",
-        "DOJ video announcement"
+        1,
+        2,
+        3
       ],
-      "timestamp": "2026-03-01",
+      "timestamp": "2026-03-02",
+      "key_facts": {
+        "final_release_date": "2026-01-30",
+        "materials_released": "3 million pages, 180,000 images, 2,000 videos",
+        "legal_basis": "Epstein Files Transparency Act",
+        "prosecution_status": "No additional prosecutions planned",
+        "doj_statement": "Deputy AG Todd Blanche confirmed compliance with transparency act and stated this is the final release"
+      },
       "original_signal": "Epstein document releases",
       "category": "INTELLIGENCE"
     },
     {
       "status": "ACTIVE",
-      "headline": "Next round of Russia-Ukraine peace talks scheduled for early March in Abu Dhabi following Geneva discussions.",
-      "summary": "Ukrainian President Zelensky announced on February 27 that the next trilateral peace talks with Russia and the US are expected in early March, most likely in Abu Dhabi, after US-Ukrainian meetings in Geneva on February 26 involving envoys like Steve Witkoff and Rustem Umerov focused on security guarantees and reconstruction.[1][3][4] Reports indicate talks on March 4-5 could be decisive, with Russia demanding Ukrainian territorial concessions in Donetsk in exchange for withdrawals elsewhere, though no agreement has been reached and Russia continues strikes.[2][3] Russia has accepted US-proposed security guarantees for Ukraine in prior rounds, but progress remains limited amid ongoing military actions.[5]",
+      "headline": "Next round of Russia-Ukraine peace talks scheduled for March 4-5 in Abu Dhabi amid stalled territorial concessions.",
+      "summary": "Recent meetings in Geneva on February 26 involved US envoys Steve Witkoff and Jared Kushner with Ukrainian negotiator Rustem Umerov, focusing on post-war reconstruction and preparing for trilateral talks; Zelensky confirmed a new round most likely in Abu Dhabi in early March, potentially decisive if Ukraine concedes Donetsk region.[1][2][3][5] Russia threatens to end negotiations without Kyiv's territorial withdrawals, while a potential summit with Putin, Trump, and Zelensky is planned upon agreement, but Zelensky notes lack of substantial progress.[1][2] No talks have occurred today; military strikes continue alongside diplomacy.[3]",
       "event_type": "POLITICAL",
       "imminence": "NEAR_TERM",
       "sources": [
-        "The Moscow Times (Feb 27, 2026)",
-        "RBC Ukraine (recent)",
+        "RBC Ukraine (Mar 2026)",
+        "Moscow Times (Feb 27, 2026)",
         "ISW (Feb 26, 2026)",
-        "France24 (Feb 26, 2026)",
-        "Ukrinform"
+        "Wikipedia Geneva Meetings",
+        "France24 (Feb 26, 2026)"
       ],
-      "timestamp": "2026-03-01",
+      "timestamp": "2026-03-02",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     }
