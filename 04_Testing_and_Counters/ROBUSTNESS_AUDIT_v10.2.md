@@ -259,6 +259,106 @@ The following concerns were identified during this audit:
 
 ---
 
+## Task 5: Weekday Frequency Distribution (Business Cycle Audit)
+
+*Added in v10.3*
+
+### Question
+
+Is the 7-day median lag simply a "Friday News Dump → Friday Deal Close" artifact of the work week?
+
+### Method
+
+Computed weekday frequency distributions for all 66 friction and compliance events. Tested whether friction–compliance pairs share the same weekday at rates above chance (14.3% = 1/7).
+
+### Results
+
+**Friction Events (n=66):**
+| Day | Count | % |
+|-----|-------|---|
+| Monday | 10 | 15.2% |
+| Tuesday | 8 | 12.1% |
+| **Wednesday** | **17** | **25.8%** |
+| Thursday | 7 | 10.6% |
+| **Friday** | **14** | **21.2%** |
+| Saturday | 6 | 9.1% |
+| Sunday | 4 | 6.1% |
+
+**Compliance Events (n=66):**
+| Day | Count | % |
+|-----|-------|---|
+| Monday | 14 | 21.2% |
+| Tuesday | 14 | 21.2% |
+| Wednesday | 12 | 18.2% |
+| Thursday | 13 | 19.7% |
+| Friday | 11 | 16.7% |
+| Saturday | 0 | 0.0% |
+| Sunday | 2 | 3.0% |
+
+**Key Finding:** 30.3% of friction–compliance pairs share the same weekday (expected: 14.3%, ratio: 2.1×). Lags that are exact multiples of 7: 22.7% (expected: 14.3%).
+
+**Chi-square uniformity test:**
+- Friction weekday distribution: χ² = 13.55, p = 0.035 (non-uniform)
+- Compliance weekday distribution: χ² = 22.03, p = 0.001 (strongly non-uniform — compliance avoids weekends)
+
+### Verdict
+
+⚠️ **PARTIAL WORK-WEEK ARTIFACT DETECTED.** The 7-day median lag is inflated by the business cycle: compliance events cluster on weekdays (97% Mon–Fri) while friction events cluster on Wednesday and Friday. However, the lag is not purely a weekday artifact — mean lag varies by friction weekday (Monday: 5.0d, Saturday: 9.3d), showing genuine variation beyond a fixed weekly cycle.
+
+---
+
+## Task 6: Financial Anchor Alignment (February 2026)
+
+*Added in v10.3*
+
+### Question
+
+Do financial calendar anchors (earnings calls, SEC filing deadlines, dividend dates) provide a stronger explanatory cluster than the 7-day sequential lag?
+
+### Method
+
+Cross-referenced 11 February 2026 compliance events against verified financial anchors for Tier 1 entities:
+
+| Anchor | Date | Source |
+|--------|------|--------|
+| BlackRock Q4 2025 Earnings | Jan 15, 2026 | [BlackRock IR](https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2025/BlackRock-to-Report-Fourth-Quarter-2025-Earnings-on-January-15th/) |
+| Apollo Q4 2025 Earnings | Feb 9, 2026 | [Apollo IR](https://ir.apollo.com/news-events/press-releases/detail/604/) |
+| SEC 13F Filing Deadline | Feb 17, 2026 | [SEC.gov](https://www.sec.gov/rules-regulations/staff-guidance/division-investment-management-frequently-asked-questions/) |
+| Apollo Dividend Record Date | Feb 19, 2026 | [Apollo IR](https://ir.apollo.com/news-events/press-releases/detail/604/) |
+| Oracle Q3 FY2026 Earnings | Mar 9, 2026 | [MarketBeat](https://www.marketbeat.com/earnings/reports/2026-3-9-oracle-co-stock/) |
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Mean distance to nearest financial anchor | **1.7 days** |
+| Median distance | **2.0 days** |
+| Within 3 days of a financial anchor | **81.8%** |
+| Within 7 days | **100%** |
+| Exactly on a financial anchor date | **5 of 11 (45.5%)** |
+
+**Comparison of clustering methods:**
+
+| Method | Mean Distance to Nearest Anchor |
+|--------|-------------------------------|
+| **Financial anchors (Feb 2026)** | **1.7 days** |
+| Sequential lag (backfill median) | 6.5 days |
+| Calendar anchors (holidays/solstices) | 5.6–6.5 days |
+
+Financial anchors provide **3.8× tighter clustering** than the sequential lag model.
+
+### Key Simultaneous Events
+
+- **Feb 9:** Apollo Q4 earnings = Maxwell testimony (same day)
+- **Feb 17:** SEC 13F filing deadline
+- **Feb 19:** Apollo dividend record date = Board of Peace inaugural summit (same day)
+
+### Verdict
+
+✅ **FINANCIAL ANCHORS ARE THE STRONGER EXPLANATORY VARIABLE** for the February 2026 compliance window. The events are better explained by the earnings/filing calendar of Tier 1 entities than by a sequential friction→compliance reaction. This does not invalidate the 7-day sequential lag for the historical backfill, but it suggests that during dense financial calendar periods, the "financial calendar hypothesis" may be primary.
+
+---
+
 ## Reproducibility
 
 All analyses in this audit are fully reproducible:

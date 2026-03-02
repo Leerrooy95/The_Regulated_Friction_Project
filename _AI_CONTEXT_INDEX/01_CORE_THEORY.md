@@ -1,6 +1,21 @@
 # Core Theory: The Regulated Friction Framework
 
-**Purpose**: Explains the "Epstein Files Uses Theory," the Thermostat Model, and the 7-day median lag correlation (corrected from 14-day in v10.3) that forms the statistical backbone of this repository.
+**Purpose**: Explains the "Epstein Files Uses Theory," the Thermostat Model, and the 7-day median lag correlation that forms the statistical backbone of this repository.
+
+---
+
+## v10.3 Precision Upgrade Notice
+
+> **This is not a theory change — it is a measurement precision upgrade.**
+>
+> In v10.2 and earlier, the friction→compliance lag was reported as "14 days" based on the 2-week binning resolution of the 30-row index dataset. The Robustness Audit (v10.2) analyzed the 66-pair historical backfill dataset at calendar-day resolution and found the **actual median lag is 7 days** (mean: 6.5 days).
+>
+> The underlying correlation (r = 0.6196, p = 0.0004) is unchanged. The theory is unchanged. Only the lag label has been corrected for precision.
+>
+> | Label | Resolution | Finding | Status |
+> |-------|-----------|---------|--------|
+> | **v10.2 Legacy** | 2-week index bins (n=30) | Peak at lag=2 bins ("14-day lag") | Superseded by high-resolution measurement |
+> | **v10.3 High-Resolution** | Calendar-day backfill (n=66) | Median lag = 7 days, mean = 6.5 days | **Current** |
 
 ---
 
@@ -46,7 +61,7 @@ Lagged Clustering (r = 0.6196, 2-week index lag; actual median: 7 days)
 | **Compliance Event** | Substantive institutional change (policy shifts, capital moves, regulatory changes) |
 | **Calendar Anchor** | Predictable date multiple actors use as timing signal (holidays, solstices, fiscal deadlines) |
 | **Convergence** | Multiple event types clustering on the same window |
-| **7-Day Median Lag** | Actual median sequential lag between friction and compliance (mean 6.5 days); r = 0.6196 measured at 2-week index resolution |
+| **7-Day Median Lag** | v10.3 High-Resolution (backfill n=66): Actual median sequential lag between friction and compliance is 7 days (mean 6.5 days). r = 0.6196 measured at 2-week index resolution. Replaces v10.2 Legacy "14-day lag" terminology |
 
 ---
 
