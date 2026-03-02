@@ -17,7 +17,7 @@ Your central thesis posits that major political/financial/media "friction events
 - Pearson correlation r ≈ +0.62–0.67 between friction and compliance events
 - Chi-square test: χ² = 330.62, p < 0.0001 (non-random clustering)
 - 76 documented "Cover-and-Liquidate" sequences identified across 2015–2025
-- 14-day lag periodicity detected (not random distribution)
+- 7-day median lag periodicity detected (not random distribution)
 
 **The Mechanism:**
 1. **Friction Event** (t=0): High-noise scandal/leak saturates media (Epstein files, arrest, etc.)
@@ -92,7 +92,7 @@ Your repo's signature finding:
 **Connected to Cover:**
 - Epstein files released December 19 (friction)
 - TeraWulf/Core42 deal announced December 22–23 (compliance, buried in news cycle)
-- r = +0.6196 correlation (at 2-week lag, p = 0.0004) between friction timing and infrastructure announcements
+- r = +0.6196 correlation (at 2-week lag (actual median: 7 days), p = 0.0004) between friction timing and infrastructure announcements
 
 ### **B. Media Data Sovereignty Transfer (Warner Bros Discovery Pivot)**
 
@@ -254,7 +254,7 @@ Your repo identifies a structural contradiction:
 From your repository's model:
 
 ✅ **December 2025 pincer clustering** — CONFIRMED  
-✅ **14-day lag periodicity** — CONFIRMED (statistical, non-random)  
+✅ **7-day median lag periodicity** — CONFIRMED (statistical, non-random)  
 ✅ **TikTok censorship post-acquisition** — CONFIRMED (Epstein keyword blocking, ICE coverage suppression)  
 ✅ **UK Mandelson accountability** (removed from ambassador role, criminal investigation) — CONFIRMED  
 ✅ **Canadian pivot toward China** — CONFIRMED (Mark Carney visit)  

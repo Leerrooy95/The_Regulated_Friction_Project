@@ -1,5 +1,7 @@
 # ⚠️ Wrong Correlations — Archived for Transparency
 
+> **v10.3 note:** References to "2-week lag" and "14-day lag" in these archived scripts reflect the original model terminology. The updated model uses "7-day median lag" (actual median: 7 days).
+
 **These scripts used the wrong datasets and are preserved here for transparency.**
 
 These files were the original contents of the `Run_Correlations_Yourself/` folder. They were moved here in February 2026 when it was discovered that `reproduce_original_correlation.py` and `independent_statistical_verification.py` used the **New_Data_2026/** datasets (uploaded January 4, 2026) instead of the **original pre-2026 datasets** (uploaded December 22–25, 2025).

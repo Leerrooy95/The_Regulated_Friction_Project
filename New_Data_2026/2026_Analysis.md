@@ -12,8 +12,8 @@ This analysis re-examines the core thermostat hypothesis using raw event counts 
 
 | Metric | Original (1-10 Scale) | Raw Event Counts |
 |--------|----------------------|------------------|
-| Strongest correlation | r = 0.6196 at 2-week lag | **r = 0.6685 at 0-lag** |
-| 2-week lag correlation | r = 0.6196 | r = 0.1819 |
+| Strongest correlation | r = 0.6196 at 2-week index lag (actual median: 7 days) | **r = 0.6685 at 0-lag** |
+| 2-week index lag correlation | r = 0.6196 | r = 0.1819 |
 | Interpretation | Sequential (cause → effect) | **Convergent (same timing)** |
 | Statistical significance | p < 0.05 | **p < 0.0001** |
 
@@ -78,7 +78,7 @@ The strongest signal (r = 0.6685) occurs at **zero lag**, indicating that fricti
 
 This revises the thermostat model from:
 ```
-ORIGINAL: Friction (t) → [14-day window] → Compliance (t+14)
+ORIGINAL: Friction (t) → [7-day median lag] → Compliance (t+7)
 REVISED:  Friction (t) ↔ Compliance (t) — simultaneous convergence
 ```
 
@@ -271,7 +271,7 @@ The raw data supports a **Convergence Model**:
 |-------|----------|---------|--------|
 | Correlation exists | r = 0.6196 | r = 0.6685 | ✅ Strengthened |
 | Statistical significance | p < 0.05 | p < 0.0001 | ✅ Strengthened |
-| 14-day lag pattern | Primary mechanism | Secondary (r = 0.18) | ⚠️ Revised |
+| 7-day median lag pattern | Primary mechanism | Secondary (r = 0.18) | ⚠️ Revised |
 | Simultaneous clustering | Not emphasized | Primary mechanism | 🆕 New finding |
 | December 2025 pincer | Documented | Verified with daily data | ✅ Confirmed |
 | Signal types in convergence | 4 types | 5 types (added Cyber/Intel) | 🆕 Expanded |

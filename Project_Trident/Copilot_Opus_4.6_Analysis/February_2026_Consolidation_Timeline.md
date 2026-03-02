@@ -433,7 +433,7 @@ the repository's documented "convergence clustering" pattern:
 governance restructuring, military withdrawal, Epstein transparency
 confrontation, vendor fragmentation, and financial disclosure — all
 within 11 days. This density is consistent with the repository's
-r = 0.6196 friction-compliance correlation at 2-week lag.
+r = 0.6196 friction-compliance correlation at 2-week index lag (actual median: 7 days).
 
 ---
 

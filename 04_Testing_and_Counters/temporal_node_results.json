@@ -1,0 +1,73 @@
+{
+  "task3": {
+    "test": "Temporal Engine Adaptation",
+    "n_pairs": 66,
+    "n_unique_triggers": 29,
+    "sample_increase": "2.4x",
+    "trigger_median_lag": 6.0,
+    "weekday_adjusted_mean": 4.7,
+    "original_mean_lag": 6.5,
+    "lag_reduction_pct": 28.2,
+    "lag_collapses": false,
+    "verdict": "NO \u2014 The lag persists after controlling for trigger scheduling. The Regulated Friction lag appears to be a genuine sequential phenomenon, not a scheduling artifact."
+  },
+  "task4": {
+    "test": "Node Timeline Reconciliation",
+    "events": [
+      {
+        "name": "Board of Peace Charter Signing (Davos)",
+        "date": "2026-01-22",
+        "type": "Compliance (Public/Institutional)",
+        "verified": true,
+        "n_sources": 5
+      },
+      {
+        "name": "G. Maxwell House Oversight Testimony (5th Amendment)",
+        "date": "2026-02-09",
+        "type": "Friction (Private/Leverage)",
+        "verified": true,
+        "n_sources": 5
+      },
+      {
+        "name": "Apollo Global Q4 2025 Earnings Report",
+        "date": "2026-02-09",
+        "type": "Compliance (Financial/Institutional)",
+        "verified": true,
+        "n_sources": 3
+      },
+      {
+        "name": "SEC 13F Filing Deadline (Q4 2025)",
+        "date": "2026-02-17",
+        "type": "Compliance (Regulatory/Calendar)",
+        "verified": true,
+        "n_sources": 3
+      },
+      {
+        "name": "Board of Peace Inaugural Summit (US Institute of Peace, DC)",
+        "date": "2026-02-19",
+        "type": "Compliance (Public/Institutional)",
+        "verified": true,
+        "n_sources": 5
+      },
+      {
+        "name": "Apollo Dividend Record Date / Board of Peace Summit",
+        "date": "2026-02-19",
+        "type": "Compliance (Financial)",
+        "verified": true,
+        "n_sources": 1
+      }
+    ],
+    "lags": {
+      "Charter \u2192 Maxwell testimony": 18,
+      "Charter \u2192 Summit": 28,
+      "Maxwell \u2192 Summit": 10,
+      "Charter \u2192 13F deadline": 26,
+      "Maxwell \u2192 13F deadline": 8,
+      "Apollo earnings \u2192 Summit": 10,
+      "Apollo earnings \u2192 13F deadline": 8
+    },
+    "follows_14day_signature": false,
+    "charter_to_summit_days": 28,
+    "verdict": "Calendar clustering \u2014 NOT a clean 14-day sequential lag"
+  }
+}

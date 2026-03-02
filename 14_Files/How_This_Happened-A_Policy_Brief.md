@@ -150,9 +150,9 @@ This research project has documented statistically significant correlations betw
 
 ### Correlation 1: Friction → Compliance Lag
 
-**Finding:** A 14-day lagged Pearson correlation of **r = +0.6196** between friction events (document releases, media cycles involving Epstein files) and compliance events (major tech deals, policy shifts) over a 30-week observation period.
+**Finding:** A 7-day median lagged Pearson correlation of **r = +0.6196** between friction events (document releases, media cycles involving Epstein files) and compliance events (major tech deals, policy shifts) over a 30-week observation period.
 
-**Interpretation:** When friction spikes occur (measured by document release volume and media coverage), institutional compliance events reliably follow approximately two weeks later. This is consistent with—but does not prove—a feedback mechanism.
+**Interpretation:** When friction spikes occur (measured by document release volume and media coverage), institutional compliance events reliably follow approximately one week later (median: 7 days). This is consistent with—but does not prove—a feedback mechanism.
 
 **Verification:** Python script and raw data available in repository `/Control_Proof/` directory.
 

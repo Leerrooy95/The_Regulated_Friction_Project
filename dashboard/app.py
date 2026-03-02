@@ -291,7 +291,7 @@ with tab_home:
 
     # Metric cards
     h1, h2, h3, h4 = st.columns(4, gap="small")
-    h1.metric("Pearson r", "0.6196", help="2-week lag, core 30-week dataset")
+    h1.metric("Pearson r", "0.6196", help="2-week index lag (actual median: 7 days), core 30-week dataset")
     h2.metric("p-value", "0.0004", help="Two-tailed significance")
     h3.metric("Response rate", "93%",
               help="% of friction events with compliance response within lag window")
@@ -299,7 +299,8 @@ with tab_home:
 
     st.caption(
         "When high-visibility friction events spike, institutional compliance events "
-        "follow ~14 days later. This relationship has less than 0.05% probability of "
+        "follow ~7 days later (median; mean 6.5 · v10.3 High-Resolution, backfill n=66). "
+        "This relationship has less than 0.05% probability of "
         "occurring by chance."
     )
 
@@ -308,7 +309,7 @@ with tab_home:
     # Key Statistics table (sourced from README.md Key Statistics)
     with st.expander("**Key Findings (21 Verified)**", expanded=False):
         key_stats_data = [
-            {"Finding": "Friction → Compliance correlation", "Value": "r = +0.6196 (2-week lag)", "Status": "✅ Verified"},
+            {"Finding": "Friction → Compliance correlation", "Value": "r = +0.6196 (2-week index lag; actual median: 7 days)", "Status": "✅ Verified"},
             {"Finding": "Statistical significance", "Value": "p = 0.0004, n = 28", "Status": "✅ Verified"},
             {"Finding": "Ritual → Policy proximity", "Value": "50.7% vs. 19.9% baseline (2.5x)", "Status": "✅ Verified"},
             {"Finding": "Project Trident significance", "Value": "p = 0.002 (Mann-Whitney U)", "Status": "✅ Verified"},
@@ -528,13 +529,13 @@ with tab_home:
             └──────────────┼───────────────┘
                            ▼
                  <span class="result">CONVERGENT CLUSTERING</span>
-               (r = 0.6196, 2-week lag)</div>"""
+               (r = 0.6196, 2-week index lag · actual median: 7 days)</div>"""
     st.markdown(diagram_html, unsafe_allow_html=True)
 
     model_c1, model_c2 = st.columns(2)
     model_c1.markdown(
         "**Original hypothesis (sequential):**\n\n"
-        "Friction (t) → *creates window* → Compliance (t+14d)"
+        "Friction (t) → *creates window* → Compliance (t+7d median)"
     )
     model_c2.markdown(
         "**Revised finding (convergence):**\n\n"

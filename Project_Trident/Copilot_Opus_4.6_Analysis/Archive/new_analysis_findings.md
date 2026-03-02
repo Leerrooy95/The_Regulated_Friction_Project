@@ -250,7 +250,7 @@ temporal triggers.
    It survives permutation testing, autocorrelation adjustment, and — most
    importantly — December 2025 removal.  This is a real, distributed signal.
 
-2. **The hand-scored 30-row r = 0.62 at 2-week lag remains significant.**
+2. **The hand-scored 30-row r = 0.62 at 2-week index lag (actual median: 7 days) remains significant.**
    The permutation test confirms this (p = 0.001).  The difference between
    the hand-scored r = 0.62 and the event-count r = 0.30 suggests that
    manually curated intensity scores capture more of the signal than raw

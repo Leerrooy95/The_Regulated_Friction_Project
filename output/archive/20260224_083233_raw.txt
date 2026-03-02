@@ -1,4 +1,5 @@
 ```json
+// v10.3 note: "2-week lag" references below reflect original model terminology; updated model uses "7-day median lag".
 {
   "extraction_metadata": {
     "model": "Llama-4-Scout-17B-16E-Instruct",

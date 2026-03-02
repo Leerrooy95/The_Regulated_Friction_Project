@@ -96,7 +96,7 @@ scrapy crawl federal_register_eo -o "federal_register/Spider Output Files/items_
 - **Median lag:** +7 days
 - **Mean lag:** +6.5 days
 - **Lag range:** -3 to +15 days
-- **Status:** ✅ PASS - Consistent with 2-week lag in weekly data
+- **Status:** ✅ PASS - Consistent with 2-week lag (actual median: 7 days) in weekly data
 
 **Negative Windows:**
 - **Non-response events:** 5 of 71 (7.0%)

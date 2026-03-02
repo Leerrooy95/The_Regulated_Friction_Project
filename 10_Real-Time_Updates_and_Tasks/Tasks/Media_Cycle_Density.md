@@ -10,7 +10,7 @@ Detect "flashbang" media saturation patterns.
 
 Count Major unrelated news stories dominated headlines today. Flag if there are 3+ major stories competing for attention simultaneously.
 
-Cross-Reference with thermostat predictions: When an institutional compliance event should occur (based on 14-day lag from friction), check if that day has unusally HIGH media noise about unrelated topics.
+Cross-Reference with thermostat predictions: When an institutional compliance event should occur (based on 7-day median lag from friction), check if that day has unusally HIGH media noise about unrelated topics.
 
 Examples of flashbang stories:
 

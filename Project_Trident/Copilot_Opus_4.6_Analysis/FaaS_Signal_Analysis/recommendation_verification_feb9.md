@@ -139,7 +139,7 @@ Feb 14 ── Q4 2025 13F filings due ← Financial disclosure
 Feb 19 ── Board of Peace first summit ← Compliance
 ```
 
-This is a 19-day span containing **at minimum 6 major compliance events, 2 verified friction events, and 1 financial disclosure deadline.** For comparison, the December 2025 pincer window documented in the repo (Dec 19–22) had 5 events in 4 days. This February window has comparable density spread over a longer period, which is consistent with the project's 14-day lag model.
+This is a 19-day span containing **at minimum 6 major compliance events, 2 verified friction events, and 1 financial disclosure deadline.** For comparison, the December 2025 pincer window documented in the repo (Dec 19–22) had 5 events in 4 days. This February window has comparable density spread over a longer period, which is consistent with the project's 7-day median lag model (v10.3 High-Resolution, backfill n=66).
 
 ---
 
@@ -331,7 +331,7 @@ The "both/and" framework is the only one that captures this reality. Labeling th
 
 **Ratio: 9 compliance events to 6 friction events in 19 days.**
 
-This is consistent with the project's core finding (r = 0.6196 at 2-week lag) and demonstrates the pincer window pattern at a density comparable to the December 2025 cluster documented in `CRUCIAL_Synthesis_Dec19_Convergence.md`.
+This is consistent with the project's core finding (r = 0.6196 at 2-week index lag; actual median: 7 days) and demonstrates the pincer window pattern at a density comparable to the December 2025 cluster documented in `CRUCIAL_Synthesis_Dec19_Convergence.md`.
 
 ---
 

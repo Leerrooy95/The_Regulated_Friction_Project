@@ -33,9 +33,9 @@ COLOR_EXPECTED_VARIANCE = "rgba(42, 157, 143, 0.12)"    # Faint teal — expecte
 # =========================================================================
 # Reference values verified by Run_Correlations_Yourself/run_original_analysis.py
 
-CORE_R               = 0.6196     # Pearson r at 2-week lag (n_eff = 28)
+CORE_R               = 0.6196     # Pearson r at 2-week index lag (actual median: 7 days) (n_eff = 28)  # v10.2 Legacy (2-week index resolution)
 CORE_P               = 0.0004     # Two-tailed p-value
-CORE_N               = 28         # Effective paired observations after 2-week lag (dataset has 30 rows)
+CORE_N               = 28         # Effective paired observations after 2-week index lag (dataset has 30 rows)
 CORE_LAG_WEEKS       = 2          # Optimal lag in weeks
 BACKFILL_PAIRS       = 66         # Historical backfill event pairs (2017-2024)
 BACKFILL_MEDIAN_DAYS = 7          # Median lag in days across backfill

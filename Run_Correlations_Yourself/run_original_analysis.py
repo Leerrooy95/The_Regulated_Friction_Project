@@ -10,7 +10,7 @@ New_Data_2026/ is explicitly EXCLUDED — those files were uploaded January 4,
 2026 and were not part of the original correlations.
 
 Reproduces:
-  Part 1: r = 0.6196 at 2-week lag (30-row hand-scored indices)
+  Part 1: r = 0.6196 at 2-week lag (actual median: 7 days) (30-row hand-scored indices)
   Part 2: Mann-Whitney U p = 0.002 (ritual vs holiday proximity)
   Part 3: χ² = 330.62 cross-validation (14-day periodicity across ~2,100 events)
 """
@@ -34,7 +34,7 @@ SILICON_SOV = os.path.join(REPO_ROOT, "09_Silicon_Sovereignty")
 
 
 # ============================================================================
-# PART 1 — Reflexive Control Correlation (r = 0.6196 at 2-week lag)
+# PART 1 — Reflexive Control Correlation (r = 0.6196 at 2-week lag, actual median: 7 days)
 # Source: v3.1 release (December 22, 2025)
 # Dataset: Control_Proof/master_reflexive_correlation_data.csv
 # ============================================================================
@@ -72,11 +72,11 @@ def part1_reflexive_control():
     rho, p_spearman = spearmanr(friction, compliance)
     print(f"Spearman (0-lag):      ρ = {rho:.4f}, p = {p_spearman:.4f}")
 
-    # 2-week lagged correlation (the original finding)
+    # 2-week lagged correlation (the original finding; actual median: 7 days)
     friction_lagged = friction.shift(2)
     valid = ~friction_lagged.isna()
     r_lagged, p_lagged = pearsonr(friction_lagged[valid], compliance[valid])
-    print(f"\n2-week lag (Friction leads): r = {r_lagged:.4f}, p = {p_lagged:.4f}")
+    print(f"\n2-week lag (actual median: 7 days) (Friction leads): r = {r_lagged:.4f}, p = {p_lagged:.4f}")
 
     match = abs(r_lagged - 0.6196) < 0.01
     tag = "✅ VERIFIED" if match else "⚠ DISCREPANCY"

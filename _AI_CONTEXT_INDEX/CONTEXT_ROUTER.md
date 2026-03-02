@@ -67,7 +67,7 @@
 
 1. **Do not assume central coordination.** The core claim is that events cluster on calendar anchors due to shared incentives, not a single coordinating actor. The pattern is described as emergent.
 
-2. **Do not assume causation from correlation.** r = 0.6196 documents co-occurrence with a 14-day lag, not that friction events *cause* compliance events.
+2. **Do not assume causation from correlation.** r = 0.6196 documents co-occurrence with a 7-day median lag (measured at 2-week index resolution), not that friction events *cause* compliance events.
 
 3. **Do not assume all claims are verified.** Each claim has a verification level: ✅ VERIFIED, ⚠️ PARTIALLY VERIFIED, or 🔍 HYPOTHESIS. Treat them accordingly.
 

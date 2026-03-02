@@ -277,8 +277,8 @@ Election window midnight regulations fall at +15d (just outside ±14).
 1. **No friction window was truly empty when cross-referenced with the JSON** —
    only 5 windows had zero EOs, and these are genuine negatives (Syria strikes,
    Parkland, impeachment inquiry, Oct 7, Epstein docs)
-2. **The ~2-week lag from the existing hand-scored dataset is consistent** with
-   the backfill: 20% of compliance events fall in the +11 to +14 day range
+2. **The ~2-week index lag from the existing hand-scored dataset is consistent** with
+   the backfill (actual median: 7 days): 20% of compliance events fall in the +11 to +14 day range
 3. **Transition periods amplify the pattern:** Jan 6→Inauguration (22+ EOs) and
    the travel ban protests (7 EOs) are the densest windows, both occurring
    during administration transitions or early-administration EO blitzes

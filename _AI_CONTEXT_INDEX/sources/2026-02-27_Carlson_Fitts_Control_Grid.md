@@ -49,7 +49,7 @@ The timing analysis documents a consistent pattern of **structural silence** acr
 - Feb 19, 2026: Board of Peace inaugural summit (~50 countries, $7B pledged). Executive board includes Kushner, Rowan (Apollo), Banga (World Bank).
 - Feb 23–24, 2026: Charles Kushner barred from French ministerial access after ignoring diplomatic summons.
 
-The release of a financial-architecture-focused interview on Feb 27 — immediately after these compliance events — fits the documented 14-day lag pattern where narrative seeding follows policy/capital events.
+The release of a financial-architecture-focused interview on Feb 27 — immediately after these compliance events — fits the documented 7-day median lag pattern where narrative seeding follows policy/capital events.
 
 ### Against `1789_Symbolism_Analysis.md`
 
@@ -106,7 +106,7 @@ This interview represents a **narrative expansion** within the Media Firewall, n
 1. **No protected actors named**: Fitts does not mention 1789 Capital, Silver Lake, MGX, PIF, Omeed Malik, or any entity documented as protected by the firewall architecture.
 2. **Abstraction-level critique only**: All criticism targets systemic categories ("central banks," "programmable money," "the control grid") rather than the specific capital pipelines that connect Gulf sovereign wealth to U.S. media platforms.
 3. **Epstein redirection**: The Epstein–programmable-money connection (56:31–57:37) channels audience anger toward "crypto" broadly rather than toward documented intermediaries.
-4. **Timing alignment**: Release date (Feb 27) follows the DP World resignation (Feb 13), Board of Peace summit (Feb 19), and Kushner diplomatic incident (Feb 23–24), consistent with the documented 14-day narrative lag pattern.
+4. **Timing alignment**: Release date (Feb 27) follows the DP World resignation (Feb 13), Board of Peace summit (Feb 19), and Kushner diplomatic incident (Feb 23–24), consistent with the documented 7-day median narrative lag pattern.
 5. **Credibility maintenance**: By allowing Fitts to discuss previously taboo topics (CBDCs, black budget) at a systemic level, the firewall maintains audience trust while the specific financial architecture remains unexamined.
 
 **Conclusion**: The permissible boundary has expanded to include systemic financial critique (CBDCs, central bank operations) while the **specific actors and capital pipelines** documented in this repository remain structurally protected.

@@ -14,7 +14,7 @@ A ledger of 51 religious and ritual signals used as the primary "Triggers" for t
 ### 4. `temporal_correlations_analyzed.csv`
 The output of the correlation engine. Maps the `lag_days` between Ritual and Anchor events. 
 * **Average Lag:** 6.6 days.
-* **Peak Lag Accuracy:** 14 days (r = 0.6196).
+* **Median Lag:** 7 days (mean 6.5 · v10.3 High-Resolution, backfill n=66). Index-level peak at 2-week bin (r = 0.6196).
 
 ### 5. `Ritual_Timing_Signal_Analysis.md`
 The formal narrative report synthesized from the above data points.

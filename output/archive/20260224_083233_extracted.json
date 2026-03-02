@@ -1,4 +1,5 @@
 {
+  "_v10_3_note": "References to '2-week lag' in this archived file reflect original model terminology; updated model uses '7-day median lag' (actual median: 7 days).",
   "extraction_metadata": {
     "model": "Llama-4-Scout-17B-16E-Instruct",
     "timestamp": "2026-02-21T00:00:00",

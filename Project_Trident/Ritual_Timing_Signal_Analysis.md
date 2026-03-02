@@ -270,7 +270,7 @@ RITUAL WINDOW (obscure timing marker)
 FINANCIAL SIGNAL (Bull & Bear)
         ↓ [Positioning confirmation]
 COMPLIANCE EVENT (policy shift)
-        ↓ [14-day lag documented]
+        ↓ [7-day median lag · v10.3 High-Resolution (backfill n=66)]
 CAPITAL FLOW (Gulf SWF, dark pools)
         ↓ [Positioned actors benefit]
 ```
@@ -279,7 +279,7 @@ CAPITAL FLOW (Gulf SWF, dark pools)
 
 | Module | Finding | Project Trident Alignment |
 |--------|---------|---------------------------|
-| Control_Proof | r = +0.6196 (14-day lag) | December 19→22 = 3 days (compressed) |
+| Control_Proof | r = +0.6196 (7-day median lag; 2-week index resolution) | December 19→22 = 3 days (compressed) |
 | China_Signal_Null | MFA reactive only | Eliminates competing hypothesis |
 | 09_Silicon_Sovereignty | VOCA freeze Dec 22 | Aligns with ritual window close |
 | Financial_Receipt | Dark pool Dec 10-21 | Pre-positioning before flashbang |

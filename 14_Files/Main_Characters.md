@@ -22,7 +22,7 @@ The theory posits that high-visibility controversies ("flashbangs") consume medi
 - Document release schedules
 - Institutional compliance events
 - Capital movements and diplomatic shifts
-- The 14-day lagged response patterns documented in this repository
+- The 7-day median lagged response patterns documented in this repository
 
 ---
 
@@ -113,8 +113,8 @@ The theory posits that high-visibility controversies ("flashbangs") consume medi
 2. **Post-appointment**: Confirmed official narrative (suicide, no client list)
 3. **Resignation timing**: Exits precisely around December 19 disclosure deadline
 
-**The 14-day lag pattern potentially applies**:
-- December 19 release deadline → 14 days → ~January 2 (New Year transition noise)
+**The 7-day median lag pattern potentially applies**:
+- December 19 release deadline → ~7 days (median) → ~December 26 (holiday transition noise)
 - Bongino's January exit provides institutional cover for whatever does/doesn't emerge
 - If prior patterns hold, compliance events would cluster ~late January to mid-February 2026
 

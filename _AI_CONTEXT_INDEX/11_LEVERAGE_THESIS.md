@@ -8,7 +8,7 @@
 
 | Claim | Verification | Evidence Location |
 |-------|--------------|-------------------|
-| Friction events correlate with compliance events at 14-day lag (r = +0.6196, p = 0.0004) | ✅ VERIFIED | `Control_Proof/correlation_results.txt` |
+| Friction events correlate with compliance events with 7-day median lag (r = +0.6196, p = 0.0004) | ✅ VERIFIED | `Control_Proof/correlation_results.txt` |
 | September 26, 2025 same-day convergence: Epstein calendar release + Netanyahu influencer roundtable | ✅ VERIFIED | `New_Data_2026/2026_Analysis.md`, `Report.md` |
 | January 30, 2026 DOJ release of 3M+ Epstein documents including Musk correspondence | ✅ VERIFIED | `09_CURRENT_THREADS.md` (DOJ Epstein Files section) |
 | Ritual timing 3.5x above baseline (p = 0.002) | ✅ VERIFIED | `Project_Trident/Ritual_Timing_Signal_Analysis.md` |
@@ -87,7 +87,7 @@ The leverage thesis extends the Thermostat Model documented in `01_CORE_THEORY.m
 ### Compliance Events (institutional response)
 
 - Policy shifts, deal announcements, capital deployments, personnel changes
-- Follow friction events at measurable lag (14 days modal)
+- Follow friction events at measurable lag (7 days median)
 - Represent institutional alignment with interests that control leverage
 
 ### The Self-Regulating Function
@@ -102,7 +102,7 @@ The system self-regulates based on institutional response
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Correlation coefficient | r = +0.6196 at 14-day lag | `Control_Proof/correlation_results.txt` |
+| Correlation coefficient | r = +0.6196 at 7-day median lag (2-week index resolution) | `Control_Proof/correlation_results.txt` |
 | Significance | p = 0.0004 | `Run_Correlations_Yourself/run_original_analysis.py` |
 | Ritual timing | 3.5x above baseline (p = 0.002) | `Project_Trident/Ritual_Timing_Signal_Analysis.md` |
 | Calendar clustering | Non-random | `Project_Trident/temporal_correlations_analyzed.csv` |

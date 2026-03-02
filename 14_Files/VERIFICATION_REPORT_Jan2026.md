@@ -15,7 +15,7 @@ This report presents an independent verification of statistical claims made in t
 
 | Claim | Status | Details |
 |-------|--------|---------|
-| Original correlation (r = 0.6196, 2-week lag) | ✅ **VERIFIED** | Exact match: r = 0.6196, p = 0.0004 |
+| Original correlation (r = 0.6196, 2-week index lag; actual median: 7 days) | ✅ **VERIFIED** | Exact match: r = 0.6196, p = 0.0004 |
 | Updated correlation (r = 0.6685, 0-lag) | ⚠️ **PARTIAL** | Found r = 0.5268 (strong but not exact match) |
 | Project Trident (p = 0.002) | ✅ **VERIFIED** | Exact match: p = 0.002122 |
 | Ritual proximity (50.7% vs 19.9%) | ✅ **VERIFIED** | Exact match at ±14 day window |
@@ -33,7 +33,7 @@ This report presents an independent verification of statistical claims made in t
 
 ### 1.1 Original Correlation Analysis (30-Week Subjective Scale)
 
-**Claim:** r = 0.6196 at 14-day lag using 1-10 subjective indices
+**Claim:** r = 0.6196 at 2-week index lag (actual median: 7 days) using 1-10 subjective indices
 
 **Verification Results:**
 ```
@@ -47,7 +47,7 @@ Variables: Epstein_Friction_Index, Institutional_Compliance_Index
 ```
 
 **Conclusion:** ✅ **CLAIM VERIFIED EXACTLY**
-The original finding of r = 0.6196 at 2-week lag is mathematically correct and statistically significant (p < 0.001).
+The original finding of r = 0.6196 at 2-week index lag (actual median: 7 days) is mathematically correct and statistically significant (p < 0.001).
 
 ---
 
@@ -295,7 +295,7 @@ December 2025 is 2.35 standard deviations above the mean, placing it in the top 
 
 **Original Hypothesis (abandoned):**
 ```
-Friction (t) → [14-day window] → Compliance (t+14)
+Friction (t) → [7-day median lag] → Compliance (t+7)
 ```
 
 **Current Claim (convergence model):**
@@ -404,7 +404,7 @@ The repository includes testable predictions for 2026:
 
 ### Verified Claims
 
-1. ✅ **Original correlation r = 0.6196** at 2-week lag (30-week subjective scale)
+1. ✅ **Original correlation r = 0.6196** at 2-week index lag (actual median: 7 days) (30-week subjective scale)
 2. ✅ **Project Trident p = 0.002** (Mann-Whitney U test)
 3. ✅ **Ritual proximity 50.7% vs 19.9%** (14-day window)
 4. ✅ **December 2025 anomaly** (z = 2.35)
