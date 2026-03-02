@@ -96,9 +96,9 @@ Audited all 7 CSV files in `New_Data_2026/` (2,121 total records) for:
 | **Additional_Anchors_Jan2026_Final.csv** | 52 | Mixed | 🚨 `oreateai.com/blog/` citation (row 11) — this is an AI content mill with Scam Detector score 45.3/100 and Trustpilot rating 1.8/5 |
 | **Biopharma.csv** | 20 | ✅ Strong | All sources are Reuters, FDA.gov, Stat News, NYT |
 | **BlackRock_Timeline_Full_Decade.csv** | 20+ | ✅ Strong | Institutional sources: OECD, WSJ, SEC, CSIS |
-| **CRINK_Intelligence_Dataset_Final_Verified.csv** | 36 | ⚠️ Moderate | Heavy CSIS reliance (8+ entries from one think tank) |
-| **High_Growth_Companies_2015_2026.csv** | 1,049 | ⚠️ Moderate | 🚨 Perplexity.ai used as source for "Cellectis S.A. Stock Price" — AI aggregator, not original research |
-| **Infrastructure_Forensics.csv** | 109 | ⚠️ Weak | Social media (YouTube, Facebook, Instagram) used as primary sources; 3 rows with missing date fields |
+| **CRINK_Intelligence_Dataset_Final_Verified.csv** | 36 | ✅ Strong | 10/36 entries from CSIS (28%), remainder from Atlantic Council, Bush Center, CNN, NYT, JSTOR, RSIS — good diversity for a niche geopolitical topic |
+| **High_Growth_Companies_2015_2026.csv** | 1,049 | ✅ Strong | Hand-scraped dataset with diverse primary sources (Nature, PubMed, ClinicalTrials.gov, Yahoo Finance, SEC, LinkedIn). 1 of 1,049 rows (0.1%) uses a Perplexity.ai link for Cellectis stock data — negligible |
+| **Infrastructure_Forensics.csv** | 109 | ⚠️ Moderate | YouTube, Facebook used for specific news clips (Pope Francis death, DOGE announcement) — lower authority than direct sources but not AI-generated; 5 rows with missing date fields |
 | **Timeline_Update_Jan2026_Corrected.csv** | 99 | ✅ Strong | NPR, AP, Reuters, NYT |
 
 ### 🚨 AI-Generated Noise Identified
@@ -109,8 +109,8 @@ Audited all 7 CSV files in `New_Data_2026/` (2,121 total records) for:
    - Hidden domain ownership
    - **Recommendation:** REMOVE this entry or replace with a primary source
 
-2. **`Perplexity.ai`** (High_Growth_Companies): AI search aggregator used as a source URL for stock price data. While Perplexity aggregates real data, it is not an authoritative financial source.
-   - **Recommendation:** Replace with SEC EDGAR filing or Bloomberg/Reuters link
+2. **`Perplexity.ai`** (High_Growth_Companies row 503): A single Perplexity link out of 1,049 rows (0.1%) in a hand-scraped dataset. This is a negligible issue — the dataset overwhelmingly cites primary sources (Nature, PubMed, ClinicalTrials.gov, SEC filings, Yahoo Finance, LinkedIn).
+   - **Recommendation:** Replace this single row's source with SEC EDGAR or Bloomberg link when convenient — not urgent
 
 ### February 2026 Compliance Event Verification
 
@@ -239,15 +239,15 @@ The following concerns were identified during this audit:
 
 2. **AI-Generated Source (oreateai.com):** Entry in `Additional_Anchors_Jan2026_Final.csv` cites an AI content mill with trust score 45.3/100. This entry should be removed or re-sourced.
 
-3. **Perplexity.ai as Financial Source:** `High_Growth_Companies_2015_2026.csv` uses an AI aggregator for stock price data instead of SEC EDGAR or a Bloomberg/Reuters primary source.
+3. **Single Perplexity.ai Link (High_Growth_Companies row 503):** 1 of 1,049 rows (0.1%) in a hand-scraped dataset uses a Perplexity.ai link for Cellectis stock data. The dataset otherwise cites primary sources (Nature, PubMed, ClinicalTrials.gov, SEC filings). Low priority.
 
 ### ⚠️ Moderate
 
-4. **CSIS Single-Source Concentration:** The CRINK dataset has 8+ entries sourced exclusively from CSIS. While CSIS is credible, this concentration creates a think-tank bias risk. Cross-reference with Chatham House, RAND, or IISS where possible.
+4. **CSIS Concentration in CRINK Dataset:** 10 of 36 entries (28%) from CSIS. While CSIS is a reputable think tank and CRINK is a niche topic with limited coverage, the remaining entries are well-diversified (Atlantic Council, Bush Center, CNN, NYT, JSTOR, RSIS).
 
-5. **Social Media as Primary Source:** `Infrastructure_Forensics.csv` cites YouTube videos, Facebook posts, and Instagram as primary sources for substantive claims about government procurement and infrastructure legislation. These should be replaced with or supplemented by official government documents (USAspending.gov, SAM.gov, Federal Register).
+5. **Social Media News Clips (Infrastructure_Forensics):** 11 of 109 rows cite YouTube or Facebook links. These are for specific news clips (Pope Francis death announcement, DOGE statements) rather than random social posts, but direct government or news outlet links would be more authoritative.
 
-6. **Missing Date Fields:** 3 entries in `Infrastructure_Forensics.csv` have empty date fields, making them unusable for temporal analysis.
+6. **Missing Date Fields:** 5 entries in `Infrastructure_Forensics.csv` have empty date fields, making them unusable for temporal analysis.
 
 7. **Oscillating Pattern Not Documented:** The lag sweep shows strong negative correlation at lag=5 (r = -0.6064, p = 0.0013), suggesting a thermostat oscillation. This is as statistically significant as the positive lag=2 finding but is not discussed in the core theory documentation.
 
