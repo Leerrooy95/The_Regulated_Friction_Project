@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.2
+# The Regulated Friction Project v10.3
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -15,7 +15,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 ## Core Finding
 
-**Friction events predict compliance events at a 2-week lag.**
+**Friction events predict compliance events with a 7-day median sequential lag.**
 
 | Metric | Value |
 |--------|-------|
@@ -23,7 +23,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 | Significance | p = 0.0004 |
 | Sample | n = 28 paired observations (30-week dataset) |
 
-When high-visibility friction events spike (document releases, scandals, media cycles), institutional compliance events (policy shifts, financial moves, regulatory changes) follow ~14 days later. This relationship has less than 0.05% probability of occurring by chance.
+When high-visibility friction events spike (document releases, scandals, media cycles), institutional compliance events (policy shifts, financial moves, regulatory changes) follow within a 7-day median window (originally reported as ~14 days based on 2-week index binning; corrected in v10.3). This relationship has less than 0.05% probability of occurring by chance.
 
 **What this does NOT claim:** Central coordination, conspiracy, or intentional orchestration. The pattern is emergent — multiple actors exploiting the same environmental signals (holidays, fiscal deadlines, media saturation) without requiring communication between them. Correlation ≠ causation. The claim is structural: the pattern exists and is statistically significant.
 
@@ -46,7 +46,7 @@ The correlation is reproducible — run the scripts in `Run_Correlations_Yoursel
 
 | Category | Finding | Status |
 |----------|---------|--------|
-| **Core Correlation** | r = +0.6196 at 2-week lag (p = 0.0004) | ✅ Verified |
+| **Core Correlation** | r = +0.6196 at 2-week index lag (p = 0.0004); actual median: 7 days | ✅ Verified |
 | **Ritual Proximity** | 50.7% vs. 19.9% baseline (2.5x) | ✅ Verified |
 | **Cross-validation** | χ² = 330.62 (p < 0.0001, 2,102 events) | ✅ Verified |
 | **Historical Backfill** | 66 pairs across 2017-2024; Δr = +0.0012 (negligible impact) | ✅ Verified |
@@ -66,7 +66,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | File | Content |
 |------|---------|
 | `00_START_HERE.md` | Navigation guide, Dual-Track System, Cartel Statecraft Model |
-| `01_CORE_THEORY.md` | Thermostat model, 14-day lag, convergence pattern, framework validation |
+| `01_CORE_THEORY.md` | Thermostat model, 7-day median lag (corrected from 14-day), convergence pattern, framework validation |
 | `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff, capital pipeline |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, DATA Act, AVAIO Arkansas |
@@ -111,7 +111,13 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v10.2) — March 1, 2026
+## What's New (v10.3) — March 2, 2026
+
+- **14-day lag terminology corrected**: The Robustness Audit (v10.2) revealed that the actual median lag in the 66-pair backfill dataset is **7 days** (mean: 6.5 days), not 14. The original "14-day" figure was an artifact of the 2-week index binning resolution. The correlation (r = 0.6196) at 2-week index resolution is still valid and significant, but all documentation now uses the corrected 7-day median terminology. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
+- **Robustness audit completed**: Placebo permutation test (10K shuffles, p = 0.0004), calendar-anchor clustering analysis, temporal engine adaptation, and node timeline reconciliation. Full results in `04_Testing_and_Counters/`.
+- **Version bump to v10.3**: Major terminology correction warrants version increment.
+
+### Previous (v10.2) — March 1, 2026
 
 - **Leverage Thesis now fully documented**: The formal leverage framework — covering the Musk/Epstein/Netanyahu origin case, Iran geopolitical extension, Anthropic standoff, and capital architecture — is now synthesized in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. The Barak–Epstein Russia/Israel back channel and "Epstein war" framing have been added with web-verified source citations.
 - **Report.md rewritten for accessibility**: Restructured with an Executive Summary, plain-language Leverage Model explanation, key events breakdown, and statistical evidence — designed so someone with no background can follow the findings
@@ -217,7 +223,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 1, 2026 (v10.2)
+**Last updated**: March 2, 2026 (v10.3)
 
 ---
 
