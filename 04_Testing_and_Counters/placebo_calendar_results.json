@@ -1,0 +1,31 @@
+{
+  "placebo": {
+    "test": "Placebo (Permutation)",
+    "observed_r": 0.6196,
+    "parametric_p": 0.0004,
+    "empirical_p": 0.0004,
+    "n_permutations": 10000,
+    "exceed_count": 3,
+    "perm_mean": -0.0006,
+    "perm_std": 0.1915,
+    "verdict": "SIGNIFICANT (p < 0.01): 14-day lag is NOT a random artifact."
+  },
+  "calendar_anchor": {
+    "test": "Calendar-Anchor",
+    "n_pairs": 66,
+    "mean_friction_anchor_dist": 5.6,
+    "mean_compliance_anchor_dist": 6.5,
+    "pct_friction_within_7d": 81.8,
+    "pct_compliance_within_7d": 65.2,
+    "pct_same_anchor": 71.2,
+    "lag_anchor_correlation": 0.1562,
+    "lag_anchor_p": 0.2105,
+    "mean_observed_lag": 6.5,
+    "median_observed_lag": 7.0,
+    "verdict": "CALENDAR CLUSTERING DETECTED"
+  },
+  "lag_breakdown": {
+    "test": "Lag Breakdown",
+    "status": "complete"
+  }
+}
