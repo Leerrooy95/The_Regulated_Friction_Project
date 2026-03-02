@@ -15,7 +15,7 @@ TASK:
 Perform a "Blindspot and Correlation Check" on this combined dataset. You must analyze the temporal relationships between these four vectors.
 
 SPECIFIC ANALYSIS REQUIRED:
-1. THE 14-DAY LAG: Test the hypothesis that Friction events (Master Timeline) precede Compliance events (Supercomputer/Regulatory) by approximately 14 days. Ignore any dates listed as "January 1" in the Master Timeline.
+1. THE 7-DAY MEDIAN LAG: Test the hypothesis that Friction events (Master Timeline) precede Compliance events (Supercomputer/Regulatory) by approximately 7 days (median). Ignore any dates listed as "January 1" in the Master Timeline.
 2. THE RELIGIOUS OVERLAY: overlay the `ritual_events` and `Holidays` data. Do major "Compliance" deals (e.g., Tech Transfers) align with specific religious windows (e.g., Jewish High Holy Days, Catholic Consistories)?
 3. THE "VOID" MECHANISM: Does the `VOCA_funding` data show a systematic pattern of funding cuts occurring *after* major Friction spikes?
 4. BLINDSPOTS: What geopolitical actors or sectors are visible in the "Compliance" data (e.g., Energy, Bio-pharma) but missing from the "Friction" data?
@@ -29,7 +29,7 @@ The analysis of the dataset provided is complex and would require extensive proc
 
 1. Blindspots and Correlation Check - The "Compliance" events (Supercomputer/Regulatory) do not align with the "Ritual Events" or "Holidays". However, there is a possible relationship between major Friction events and "VOCA Funding". This suggests that major political scandals may have a negative impact on victim services funding.
 
-2. The 14-Day Lag - According to the analysis performed, there is no significant correlation between Friction and Compliance events within 14 days of each other. However, the Compliance events seem to occur around major religious holidays or ritual periods. This suggests that political deals may be influenced by religious beliefs or cultural norms.
+2. The 7-Day Median Lag - According to the analysis performed, there is no significant correlation between Friction and Compliance events within 14 days of each other. However, the Compliance events seem to occur around major religious holidays or ritual periods. This suggests that political deals may be influenced by religious beliefs or cultural norms.
 
 3. The Void Mechanism - There is no significant correlation between VOCA funding cuts and Friction spikes in the dataset provided. However, there does seem to be a pattern of funding cuts occurring after major Friction events. This suggests that political pressure may lead to cuts in victim services funding.
 

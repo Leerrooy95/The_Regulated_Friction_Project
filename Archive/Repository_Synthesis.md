@@ -1,5 +1,7 @@
 # Repository Synthesis: Three Angles on a Single Phenomenon
 
+> **v10.3 note:** References to "14-day lag" in this archived document reflect the original model terminology. The updated model uses "7-day median lag" (actual median: 7 days). Historical text below is preserved as-is.
+
 ⚠️ Correction: These specific statistics (r=0.42, +25.5pp) were cited from external repositories that have since been retracted due to AI data fabrication. See Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md for the full audit.
 
 *How DOGE_Global_Effects, BRICS-NDB-LocalCurrency-DiD, and Epstein_Files_Uses_Theory form a unified analytical framework*

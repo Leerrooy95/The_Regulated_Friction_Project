@@ -36,7 +36,7 @@ PROJECT_TRIDENT = os.path.join(REPO_ROOT, "Project_Trident")
 SILICON_SOV = os.path.join(REPO_ROOT, "09_Silicon_Sovereignty")
 
 # ============================================================================
-# PART 1 — Reflexive Control Correlation (r = 0.6196 at 2-week lag)
+# PART 1 — Reflexive Control Correlation (r = 0.6196 at 2-week lag, actual median: 7 days)
 # Source: v3.1 release (December 22, 2025)
 # Dataset: Control_Proof/master_reflexive_correlation_data.csv
 # ============================================================================
@@ -70,7 +70,7 @@ def part1_reflexive_control():
     r_direct, p_direct = pearsonr(friction, compliance)
     print(f"\n0-lag (simultaneous):  r = {r_direct:.4f}, p = {p_direct:.4f}")
 
-    # 2-week lagged correlation (the original finding)
+    # 2-week lagged correlation (the original finding; actual median: 7 days)
     friction_lagged = friction.shift(2)
     valid = ~friction_lagged.isna()
     r_lagged, p_lagged = pearsonr(friction_lagged[valid], compliance[valid])

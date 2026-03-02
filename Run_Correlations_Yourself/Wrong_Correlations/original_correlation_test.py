@@ -21,7 +21,7 @@ def run_big_correlation_test():
     else:
         print("⚠️ Warning: OSINT Scrape file missing. Proceeding with Master Data only.")
 
-    # Core lagged correlation (14-day / 2-week shift)
+    # Core lagged correlation (7-day median / 2-week index shift)
     direct_corr = master_df['Epstein_Friction_Index'].corr(master_df['Institutional_Compliance_Index'])
     lagged_friction = master_df['Epstein_Friction_Index'].shift(2)
     lagged_corr = lagged_friction.corr(master_df['Institutional_Compliance_Index'])

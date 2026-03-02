@@ -79,7 +79,7 @@ In summary, the v7.7 model holds up with remarkable robustness. The "simultaneou
 
 ### 2.1 Evolution of the Framework: From Sequential Causation to Simultaneous Convergence
 
-Early iterations of the "Epstein Files Uses Theory" operated on a sequential hypothesis: a "Friction Event" (such as a document leak or a scandal) would occur at time t, creating a window of distraction that allowed for a "Compliance Event" (such as a policy shift or bank transfer) at t+14 days. This lag was interpreted as the time required for the administrative machinery to react to the distraction.
+Early iterations of the "Epstein Files Uses Theory" operated on a sequential hypothesis: a "Friction Event" (such as a document leak or a scandal) would occur at time t, creating a window of distraction that allowed for a "Compliance Event" (such as a policy shift or bank transfer) at t+14 days (now updated to 7-day median). This lag was interpreted as the time required for the administrative machinery to react to the distraction.
 
 However, the v7.7 update, released in late 2025/early 2026, introduced a fundamental shift in this understanding. The statistical analysis presented in the "Control Proof" module revealed a Pearson correlation of r=0.6685 at a zero-lag interval. This indicates that friction and compliance events are not happening sequentially, but rather simultaneously.
 Implications of Simultaneous Convergence: This shift suggests that the actors involved—whether they are domestic political operatives, foreign adversaries, or financial institutions—are responding to the same environmental signals. They are not waiting for a distraction to occur; the distraction and the structural shift are coordinated components of a single operational maneuver.

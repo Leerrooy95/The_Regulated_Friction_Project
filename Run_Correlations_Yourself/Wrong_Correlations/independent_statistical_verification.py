@@ -19,7 +19,7 @@ print("Epstein Files Uses Theory v7.5")
 print("="*80)
 
 # =============================================================================
-# PART 1: VERIFY ORIGINAL CORRELATION (r = 0.6196 at 2-week lag)
+# PART 1: VERIFY ORIGINAL CORRELATION (r = 0.6196 at 2-week lag, actual median: 7 days)
 # =============================================================================
 
 print("\n" + "="*80)
@@ -43,7 +43,7 @@ r_direct, p_direct = pearsonr(friction, compliance)
 print(f"\n0-week lag (simultaneous):")
 print(f"  r = {r_direct:.4f}, p = {p_direct:.4f}")
 
-# 2-week lag (claimed finding)
+# 2-week lag (claimed finding; actual median: 7 days)
 friction_lagged = friction.shift(2)
 valid_idx = ~friction_lagged.isna()
 r_2week, p_2week = pearsonr(friction_lagged[valid_idx], compliance[valid_idx])

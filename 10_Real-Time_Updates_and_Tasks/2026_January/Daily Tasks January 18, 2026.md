@@ -125,7 +125,7 @@ Additional flashbang elements include celebrity scandals (e.g., Justin Bieber's 
 
 Cross-Reference with Thermostat Predictions
 
-The Epstein Files Uses Theory describes friction events (e.g., the December 19, 2025, Epstein Library release) creating attention-capture windows, with institutional compliance events (policy shifts, financial maneuvers) often clustering simultaneously or with a 1-4 week lag (revised from the original 14-day hypothesis). Today's date falls within the predicted January-February 2026 window for a 2-10% market correction, Gulf SWF positioning revelations, and policy actions tied to calendar anchors.
+The Epstein Files Uses Theory describes friction events (e.g., the December 19, 2025, Epstein Library release) creating attention-capture windows, with institutional compliance events (policy shifts, financial maneuvers) often clustering simultaneously or with a 1-4 week lag (revised from the original 14-day hypothesis; actual median: 7 days). Today's date falls within the predicted January-February 2026 window for a 2-10% market correction, Gulf SWF positioning revelations, and policy actions tied to calendar anchors.
 
 Correlation Observed: Media saturation peaks today amid reports of potential compliance-like events, including:
 Proposed cuts to IRS funding in a Financial Services bill (9% reduction, with poison pill riders), aligning with regulatory changes.272553

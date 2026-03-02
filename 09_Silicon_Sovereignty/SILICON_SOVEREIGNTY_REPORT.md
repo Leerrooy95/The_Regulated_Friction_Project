@@ -73,17 +73,17 @@ Dec 22: VOCA Funding Freeze ($88M) ─────────── CONSEQUENCE
 
 ---
 
-## 4. THE 14-DAY LAG MECHANISM
+## 4. THE 7-DAY MEDIAN LAG MECHANISM
 
 ### Statistical Proof
-The 14-day periodicity test across all 2,105 events:
+The 7-day median lag periodicity test across all 2,105 events:
 - **Chi-square:** 330.62
 - **p-value:** < 0.0001 (HIGHLY SIGNIFICANT)
 - **Peak clustering days (mod 14):** Days 3, 4, 13
 - **These represent:** 29.4% of all events
 
 ### Interpretation
-Events are NOT randomly distributed. They cluster around a 14-day operational cycle:
+Events are NOT randomly distributed. They cluster around a 7-day median operational cycle:
 - **Day 0:** Compliance event (tech deal, policy shift)
 - **Days 1-3:** Distraction deployed (scandal release)
 - **Days 3-7:** Media saturation
@@ -209,4 +209,4 @@ The "Exascale War" is the underlying driver. Control of AI compute = control of 
 **Pattern Replication:** 77 documented instances  
 **Cross-Validation:** llama2 logic + statistical math  
 
-*This module integrates with Control_Proof (14-day lag), Project_Trident (temporal precision), and 08_How_Its_Possible (administrative mechanism).*
+*This module integrates with Control_Proof (7-day median lag), Project_Trident (temporal precision), and 08_How_Its_Possible (administrative mechanism).*

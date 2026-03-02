@@ -1,5 +1,7 @@
 # Retracted Three-Layer Model References
 
+> **v10.3 note:** References to "2-week lag" in this archived document reflect the original model terminology. The updated model uses "7-day median lag" (actual median: 7 days). Historical text below is preserved as-is.
+
 **Archived:** February 10, 2026 (v8.6)
 **Reason:** Layers 2 and 3 of the original Three-Layer Model relied on statistics from external repositories that contained Grok-fabricated data. These references have been removed from the active README.md and Report.md.
 

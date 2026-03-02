@@ -3,7 +3,7 @@
 ## Prepared for: Llama-4-Scout-17B-16E-Instruct extraction pipeline
 ## Source: The_Regulated_Friction_Project repository + live OSINT (Feb 21, 2026)
 ## Classification: OPEN SOURCE — All data from public filings, news, government records
-## Statistical Baseline: r = 0.6196 (2-week lag), p = 0.0004, n = 28, 66 historical backfill pairs
+## Statistical Baseline: r = 0.6196 (2-week lag, actual median: 7 days), p = 0.0004, n = 28, 66 historical backfill pairs
 
 ---
 
@@ -79,7 +79,7 @@ ORIGINAL_HYPOTHESIS: Friction(t) → creates window → Compliance(t+14d)
 REVISED_FINDING: Calendar Anchor (solstice, holiday, fiscal deadline, political event) independently drives friction, policy, and financial events into the same window. No coordination required — shared exploitation of calendar-driven attention windows.
 
 STATISTICAL_VERIFICATION:
-- Pearson r = 0.6196 at 2-week lag (p = 0.0004, n = 28)
+- Pearson r = 0.6196 at 2-week lag (actual median: 7 days) (p = 0.0004, n = 28)
 - 95% CI for r: [0.32, 0.81]
 - Granger causality: Friction→Compliance at lag 1 (p = 0.0008)
 - Permutation test (1K shuffles): r = 0.62, p < 0.001
