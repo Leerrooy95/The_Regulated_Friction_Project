@@ -24,7 +24,7 @@
 - Document release schedules
 - Institutional compliance events
 - Capital movements and diplomatic shifts
-- The 14-day lagged response patterns
+- The 7-day median lagged response patterns
 
 ---
 

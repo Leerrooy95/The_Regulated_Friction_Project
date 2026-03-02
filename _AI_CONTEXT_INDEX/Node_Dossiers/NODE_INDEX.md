@@ -65,7 +65,7 @@ This is the master logic file. Load this for any timing analysis.
 
 | Dossier | File | Trigger Conditions | Summary |
 |---------|------|-------------------|---------|
-| **Thermostat Ruleset** | `tier3_thermostat_ruleset.md` | Any event timing analysis, calendar windows, convergence detection | Defines the 14-day lag pattern, calendar anchor signals, and convergence detection rules. Use this to assess whether an event falls within a statistically significant window. |
+| **Thermostat Ruleset** | `tier3_thermostat_ruleset.md` | Any event timing analysis, calendar windows, convergence detection | Defines the 7-day median lag pattern (r = 0.6196 at 2-week index resolution), calendar anchor signals, and convergence detection rules. Use this to assess whether an event falls within a statistically significant window. |
 
 ---
 

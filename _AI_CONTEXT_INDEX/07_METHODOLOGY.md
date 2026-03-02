@@ -44,7 +44,7 @@ python run_original_analysis.py
 | ±0.5-0.7 | **Strong** |
 | ±0.7-1.0 | Very strong |
 
-**Our finding (r = +0.6196)**: Strong positive correlation - when friction events spike, compliance events follow ~14 days later.
+**Our finding (r = +0.6196)**: Strong positive correlation - when friction events spike, compliance events follow ~7 days later (median; measured at 2-week index resolution).
 
 ### p-value Interpretation
 

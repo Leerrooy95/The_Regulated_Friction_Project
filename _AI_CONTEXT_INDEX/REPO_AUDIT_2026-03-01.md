@@ -195,7 +195,7 @@ Exhaustive inventory of every directory and file in The Regulated Friction Proje
 | `VOCA_funding_timeline_clean.csv` | CSV | Victim services funding cuts following friction events (667 records) |
 
 **Dependencies**: `04_Testing_and_Counters/`, `_AI_CONTEXT_INDEX/04_CAPITAL_ARCHITECTURE.md`  
-**Questions answered**: Is the 14-day lag driven by compute/AI infrastructure moves? What is Silicon Sovereignty? Are there cover-and-liquidate sequences?
+**Questions answered**: Is the 7-day median lag driven by compute/AI infrastructure moves? What is Silicon Sovereignty? Are there cover-and-liquidate sequences?
 
 ---
 
@@ -373,7 +373,7 @@ Exhaustive inventory of every directory and file in The Regulated Friction Proje
 | File | Type | Content |
 |------|------|---------|
 | `README.md` | Markdown | Project Trident overview |
-| `Capital_Flow_Opacity_Framework.md` | Markdown | Three mechanisms: NULL field vulnerabilities, codified regulatory exemptions (CFIUS, CHIPS, FARA), administrative timing (14-day lag) |
+| `Capital_Flow_Opacity_Framework.md` | Markdown | Three mechanisms: NULL field vulnerabilities, codified regulatory exemptions (CFIUS, CHIPS, FARA), administrative timing (7-day median lag) |
 | `DATASET_REFERENCE.md` | Markdown | Dataset schemas for 5 core CSVs |
 | `Ritual_Timing_Signal_Analysis.md` | Markdown | Ritual event proximity: 50.7% vs. 19.9% baseline (p=0.002 Mann-Whitney U) |
 | `Verify_Trident_Analysis.py` | Python | Verification script for Trident analysis |
@@ -684,7 +684,7 @@ Contains 13 sets of timestamped `_extracted.json`, `_raw.txt`, and `_summary.txt
 | File | Type | Content |
 |------|------|---------|
 | `00_START_HERE.md` | Markdown | Navigation guide for AI models |
-| `01_CORE_THEORY.md` | Markdown | Thermostat model, 14-day lag, convergence pattern |
+| `01_CORE_THEORY.md` | Markdown | Thermostat model, 7-day median lag, convergence pattern |
 | `02_MEDIA_FIREWALL.md` | Markdown | 1789 Capital, TCN, narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Markdown | Private diplomacy, Kushner, Witkoff |
 | `04_CAPITAL_ARCHITECTURE.md` | Markdown | Gulf SWF pipelines, Silicon Sovereignty |

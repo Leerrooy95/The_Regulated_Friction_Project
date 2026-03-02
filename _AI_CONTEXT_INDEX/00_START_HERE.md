@@ -64,7 +64,7 @@ The repository now documents a dual-track model for understanding friction-compl
 ## Reading Order Recommendation
 
 ### For General Understanding (30 min)
-1. `01_CORE_THEORY.md` - The thermostat model and 14-day lag
+1. `01_CORE_THEORY.md` - The thermostat model and 7-day median lag
 2. `07_METHODOLOGY.md` - How correlations were verified
 3. `06_MAIN_CHARACTERS.md` - Who generates the "noise"
 
@@ -129,7 +129,7 @@ The repository now documents a dual-track model for understanding friction-compl
 | File | Content Summary |
 |------|-----------------|
 | `00_START_HERE.md` | This navigation guide |
-| `01_CORE_THEORY.md` | Thermostat model, 14-day lag, convergence |
+| `01_CORE_THEORY.md` | Thermostat model, 7-day median lag, convergence |
 | `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, Silicon Sovereignty |
@@ -180,7 +180,7 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 |------|---------|--------------|
 | **Tier 1: Historical Friction Nodes** | Background precedent | When historical actors/locations appear |
 | **Tier 2: Active Capital Nodes** | Current financial positioning | When analyzing capital movements |
-| **Tier 3: Geopolitical Thermostat** | 14-day lag ruleset | Always (for timing analysis) |
+| **Tier 3: Geopolitical Thermostat** | 7-day median lag ruleset | Always (for timing analysis) |
 
 ### Available Node Dossiers
 

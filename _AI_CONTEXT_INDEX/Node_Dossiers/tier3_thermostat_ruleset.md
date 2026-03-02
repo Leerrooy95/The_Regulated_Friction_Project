@@ -8,18 +8,18 @@
 
 ## Purpose
 
-This is the master logic file for timing analysis. It defines the 14-day lag pattern, calendar anchor signals, and convergence detection rules documented in this repository. Load this dossier for any analysis involving event timing, calendar windows, or friction-compliance correlation.
+This is the master logic file for timing analysis. It defines the 7-day median lag pattern (r = 0.6196 at 2-week index resolution), calendar anchor signals, and convergence detection rules documented in this repository. Load this dossier for any analysis involving event timing, calendar windows, or friction-compliance correlation.
 
 ---
 
-## Core Rule: The 14-Day Lag
+## Core Rule: The 7-Day Median Lag
 
 ### The Statistical Finding
 
 | Metric | Value | Verification |
 |--------|-------|--------------|
 | Correlation coefficient | r = +0.6196 | ✅ VERIFIED |
-| Lag | 2 weeks (14 days) | ✅ VERIFIED |
+| Lag | 7 days median (mean 6.5); r = 0.6196 at 2-week index resolution | ✅ VERIFIED |
 | Significance | p = 0.0004 | ✅ VERIFIED |
 | Sample size | n = 28 paired observations (30-week dataset) | ✅ VERIFIED |
 | Interpretation | Strong correlation | Standard statistical interpretation |
@@ -202,7 +202,7 @@ The framework would be falsified if:
 
 | Metric | Value |
 |--------|-------|
-| Optimal lag | 14 days |
+| Optimal lag | 7 days (median) |
 | Correlation | r = 0.62 |
 | Significance | p = 0.0004 |
 | Convergence threshold | 3+ event types |
@@ -226,7 +226,7 @@ The framework would be falsified if:
 - Assessing whether an event falls within a significant window
 - Analyzing convergence between multiple event types
 - Checking calendar anchor proximity
-- Applying the 14-day lag framework
+- Applying the 7-day median lag framework
 
 ---
 

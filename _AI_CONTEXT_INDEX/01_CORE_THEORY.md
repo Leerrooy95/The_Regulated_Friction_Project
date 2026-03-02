@@ -1,6 +1,6 @@
 # Core Theory: The Regulated Friction Framework
 
-**Purpose**: Explains the "Epstein Files Uses Theory," the Thermostat Model, and the 14-day lag correlation that forms the statistical backbone of this repository.
+**Purpose**: Explains the "Epstein Files Uses Theory," the Thermostat Model, and the 7-day median lag correlation (corrected from 14-day in v10.3) that forms the statistical backbone of this repository.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Claim | Verification | Evidence Location |
 |-------|--------------|-------------------|
-| Friction events correlate with compliance events at 14-day lag | ✅ VERIFIED | `Control_Proof/correlation_results.txt` |
+| Friction events correlate with compliance events with 7-day median sequential lag | ✅ VERIFIED | `Control_Proof/correlation_results.txt` |
 | Correlation coefficient r = +0.6196, p = 0.0004 | ✅ VERIFIED | `Run_Correlations_Yourself/run_original_analysis.py` |
 | Events cluster on calendar anchors (solstices, holidays) | ✅ VERIFIED | `Project_Trident/temporal_correlations_analyzed.csv` |
 | December 2025 showed 5 signal types converging | ✅ VERIFIED | `New_Data_2026/2026_Analysis.md` |
@@ -20,7 +20,7 @@
 
 ### Original Hypothesis (Sequential)
 ```
-Friction (t) → [creates attention window] → Compliance (t+14 days)
+Friction (t) → [creates attention window] → Compliance (t+7 days median)
 ```
 
 ### Revised Finding (Convergence)
@@ -31,7 +31,7 @@ Calendar Anchor (solstice, holiday, fiscal deadline)
 ↓       ↓       ↓
 Friction  Policy  Financial
         ↓
-Lagged Clustering (r = 0.6196, 2-week lag)
+Lagged Clustering (r = 0.6196, 2-week index lag; actual median: 7 days)
 ```
 
 **Key Insight**: Events cluster *simultaneously* on shared calendar anchors, not in strict sequence. The thermostat metaphor describes how information releases regulate public attention—friction "turns on" attention to scandals while structural changes proceed with reduced scrutiny.
@@ -46,7 +46,7 @@ Lagged Clustering (r = 0.6196, 2-week lag)
 | **Compliance Event** | Substantive institutional change (policy shifts, capital moves, regulatory changes) |
 | **Calendar Anchor** | Predictable date multiple actors use as timing signal (holidays, solstices, fiscal deadlines) |
 | **Convergence** | Multiple event types clustering on the same window |
-| **14-Day Lag** | Optimal correlation window between friction and compliance |
+| **7-Day Median Lag** | Actual median sequential lag between friction and compliance (mean 6.5 days); r = 0.6196 measured at 2-week index resolution |
 
 ---
 
