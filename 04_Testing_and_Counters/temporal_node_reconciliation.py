@@ -385,6 +385,12 @@ if __name__ == "__main__":
     output_path = os.path.join(SCRIPT_DIR, "temporal_node_results.json")
     with open(output_path, "w") as f:
         json.dump(results, f, indent=2, default=str)
+    # Fix Python booleans serialized as strings by default=str
+    with open(output_path, "r") as f:
+        content = f.read()
+    content = content.replace('"False"', 'false').replace('"True"', 'true')
+    with open(output_path, "w") as f:
+        f.write(content)
     print(f"\n  Results saved to: {output_path}")
 
     print("\n" + "=" * 78)

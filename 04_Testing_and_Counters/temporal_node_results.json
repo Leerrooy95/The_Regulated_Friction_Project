@@ -8,7 +8,7 @@
     "weekday_adjusted_mean": 4.7,
     "original_mean_lag": 6.5,
     "lag_reduction_pct": 28.2,
-    "lag_collapses": "False",
+    "lag_collapses": false,
     "verdict": "NO \u2014 The lag persists after controlling for trigger scheduling. The Regulated Friction lag appears to be a genuine sequential phenomenon, not a scheduling artifact."
   },
   "task4": {
