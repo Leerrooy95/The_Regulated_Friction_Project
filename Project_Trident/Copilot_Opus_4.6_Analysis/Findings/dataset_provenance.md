@@ -53,7 +53,7 @@ methodologies.
 Script:  Control_Proof/correlation_test.py  (Dec 23, 2025)
 Data:    Control_Proof/master_reflexive_correlation_data.csv  (Dec 23, 2025)
 Method:  30 rows × subjective 1-10 scale (Epstein_Friction_Index, Institutional_Compliance_Index)
-Result:  r = 0.6196 at 2-week lag, p = 0.0004
+Result:  r = 0.6196 at 2-week index lag (actual median: 7 days), p = 0.0004
 ```
 
 ### Phase 2: New Data Collection (Jan 4, 2026)
@@ -109,7 +109,7 @@ Result:  r = 0.6685 at 0-lag, p < 0.0001
 | **Method** | Subjective 1-10 index scores | Raw event counts by category |
 | **Sample size** | 30 weekly observations | ~213 weekly bins (~1,010 events) |
 | **What's measured** | Hand-scored friction vs compliance intensity | Automated friction vs compliance event counts |
-| **Lag** | 2-week lag (strongest) | 0-lag / simultaneous (strongest) |
+| **Lag** | 2-week index lag (strongest) — actual median: 7 days | 0-lag / simultaneous (strongest) |
 | **New_Data_2026 used?** | ❌ No — didn't exist yet | ✅ Yes — this is what they were built for |
 
 ### Your instinct was correct:
@@ -139,7 +139,7 @@ index, not a count of scraped events.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ORIGINAL CORRELATION (r = 0.6196, 2-week lag)                  │
+│  ORIGINAL CORRELATION (r = 0.6196, 2-week index lag; actual median: 7 days) │
 │  Date: Dec 23, 2025                                             │
 │  Script: Control_Proof/correlation_test.py                      │
 │                                                                 │

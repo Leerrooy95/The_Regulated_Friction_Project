@@ -23,7 +23,7 @@ Does the DOGE → OPM → DOJ (+ FBI) administrative consolidation loop **fit** 
 ## Alignment Test 1: The Thermostat Model
 
 ### Repo Pattern
-Friction events (high-attention) cluster with compliance events (structural shifts) at statistically significant rates (r = 0.6196 at 2-week lag, p = 0.0004).
+Friction events (high-attention) cluster with compliance events (structural shifts) at statistically significant rates (r = 0.6196 at 2-week index lag, p = 0.0004; actual median: 7 days).
 
 ### Administrative Consolidation Fit
 
@@ -169,7 +169,7 @@ Major structural shifts cluster on calendar anchors (fiscal deadlines, ritual wi
 
 The DOGE → OPM → DOJ (+ FBI) administrative consolidation loop:
 
-1. ✅ **Fits the Thermostat model** — friction-compliance pairing with 2-week lag (with the addition of "recursive friction" where compliance events generate their own cover)
+1. ✅ **Fits the Thermostat model** — friction-compliance pairing with 7-day median lag (2-week index resolution; with the addition of "recursive friction" where compliance events generate their own cover)
 2. ✅ **Fits the Closed Regulatory Loop** — same "denial is procedurally temporary, approval functionally inevitable" structure as the Arkansas model, but at federal scale
 3. ✅ **Fits the Vendor-State model** — the internal prerequisite for external infrastructure consolidation (eliminates institutional capacity to resist)
 4. ✅ **Fits the Media Firewall** — cultural framing covers structural mechanics

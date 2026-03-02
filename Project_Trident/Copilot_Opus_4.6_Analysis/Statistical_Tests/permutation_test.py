@@ -90,7 +90,7 @@ r_lagged, p_lagged = pearsonr(lagged_friction[valid], compliance[valid])
 
 print(f"\n--- Observed correlations ---")
 print(f"  Direct (0-lag) : r = {r_direct:.4f}  (parametric p = {p_direct:.4f})")
-print(f"  2-week lag     : r = {r_lagged:.4f}  (parametric p = {p_lagged:.4f})")
+print(f"  2-week index lag: r = {r_lagged:.4f}  (parametric p = {p_lagged:.4f})  [actual median: 7 days]")
 
 perm_direct = np.empty(N_PERM_PART1)
 perm_lagged = np.empty(N_PERM_PART1)

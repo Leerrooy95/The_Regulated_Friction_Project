@@ -16,7 +16,7 @@ This document summarizes findings from an independent OSINT research project. Al
 
 ## The Core Finding (30 seconds)
 
-**Friction events predict compliance events at a 2-week lag.**
+**Friction events predict compliance events at a 7-day median lag** (v10.3 High-Resolution, backfill n=66; 2-week index resolution in original dataset).
 
 | Metric | Value |
 |--------|-------|
@@ -24,7 +24,7 @@ This document summarizes findings from an independent OSINT research project. Al
 | Significance | p = 0.0004 (< 0.05% chance of random) |
 | Sample | n = 28 paired observations |
 
-When high-visibility events spike (scandals, file releases, media cycles), institutional positioning events follow ~14 days later (policy shifts, financial moves, regulatory changes).
+When high-visibility events spike (scandals, file releases, media cycles), institutional positioning events follow ~7 days later (median; policy shifts, financial moves, regulatory changes).
 
 **This pattern survives:**
 - Permutation testing (p < 0.001)
@@ -45,7 +45,7 @@ Two parallel leverage mechanisms operate simultaneously:
 | **Track A: Information Leverage** | Unreleased material creates compliance pressure | Maxwell (Epstein files), Iran (cyber/hacks), Israel (Unit 8200/NSO) |
 | **Track B: Capital Leverage** | Sovereign wealth funds control infrastructure investment | Saudi PIF, UAE MGX/Mubadala, Qatar QIA |
 
-**Key insight:** Track A generates friction (attention capture). Track B executes compliance (structural positioning). The 14-day lag is the bridge between them.
+**Key insight:** Track A generates friction (attention capture). Track B executes compliance (structural positioning). The 7-day median lag is the bridge between them.
 
 ### The Cartel Statecraft Model
 
@@ -62,7 +62,7 @@ Four actors hold leverage over each other, creating forced equilibrium:
 (Cyber)   (Capital)   (Intel/Tech)
 ```
 
-**No single actor can move without affecting the others.** This produces the observable pattern: friction in one node triggers compliance positioning across all nodes within ~14 days.
+**No single actor can move without affecting the others.** This produces the observable pattern: friction in one node triggers compliance positioning across all nodes within ~7 days (median).
 
 ### The Thermostat Function
 
@@ -201,7 +201,7 @@ If the pattern is random, why do these questions have no satisfying answers?
 
 **The 30-second version:**
 
-Friction events (scandals, file releases) and compliance events (deals, policy shifts) cluster on the same calendar windows with a 14-day lag (r = +0.6196, p = 0.0004). The same small pool of entities — Oracle, Silver Lake, Saudi PIF, UAE MGX, Affinity Partners, Apollo — appears across tech acquisitions, diplomatic governance, defense integration, and territorial reconstruction simultaneously. State-level legislation creates the physical infrastructure these arrangements require. The architecture operates below standard visibility thresholds (13F, CFIUS, UN frameworks).
+Friction events (scandals, file releases) and compliance events (deals, policy shifts) cluster on the same calendar windows with a 7-day median lag (r = +0.6196 at 2-week index resolution, p = 0.0004). The same small pool of entities — Oracle, Silver Lake, Saudi PIF, UAE MGX, Affinity Partners, Apollo — appears across tech acquisitions, diplomatic governance, defense integration, and territorial reconstruction simultaneously. State-level legislation creates the physical infrastructure these arrangements require. The architecture operates below standard visibility thresholds (13F, CFIUS, UN frameworks).
 
 This doesn't require conspiracy. The convergence model — multiple actors independently optimizing around the same calendar signals, regulatory windows, and capital flows — is sufficient to produce the observed patterns.
 

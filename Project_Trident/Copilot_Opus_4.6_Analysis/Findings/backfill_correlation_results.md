@@ -56,7 +56,7 @@ dataset (original + backfill) yields Pearson r = 0.1111 vs. original r = 0.1099
 
 **Important context on the r = 0.6196 baseline:** The established r = 0.6196
 comes from the 30-week hand-scored intensity index dataset (n = 28 after
-2-week lag alignment, p = 0.0004), NOT from the expanded event-count dataset used here (n = 1,879
+2-week index lag alignment (actual median: 7 days), p = 0.0004), NOT from the expanded event-count dataset used here (n = 1,879
 weeks). The expanded event-count Pearson r was already 0.1099 before backfill —
 this is a known discrepancy explained by 84–87% zero inflation in event-count
 data and the difference between intensity scoring and frequency counting (see

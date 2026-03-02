@@ -4,7 +4,7 @@
 **Analyst:** GitHub Copilot (Claude, Opus 4.6)
 **Date:** February 9, 2026
 **Purpose:** Map when influencers documented in `12_The_Media_Firewall` push specific narratives (anti-NATO, anti-Israel, pro-sovereignty) against when the administration or officials push policies that would benefit from those narratives being accepted.
-**Methodology:** Web-search verified timeline cross-referencing; all events independently sourced. Pattern assessed against the thermostat model (r = 0.6196 at 2-week lag).
+**Methodology:** Web-search verified timeline cross-referencing; all events independently sourced. Pattern assessed against the thermostat model (r = 0.6196 at 2-week index lag; actual median: 7 days).
 
 ---
 
@@ -322,7 +322,7 @@ The Daily Wire's pro-Israel absolutism (to the point of being called "The Daily 
 | TikTok deal + Board of Peace on Jan 22 | HIGH | Multiple primary sources |
 | Structural silence on financial architecture | HIGH | Falsifiable — any TCN/Daily Wire coverage of MGX, Silver Lake, or Board of Peace capital structure would contradict |
 | Candace Owens departure as boundary marker | HIGH | Extensively documented |
-| 2-week lag between narrative seeding and compliance | MEDIUM | Consistent with model but sample size is small |
+| 7-day median lag between narrative seeding and compliance | MEDIUM | Consistent with model but sample size is small |
 | December → January escalation arc | MEDIUM | Pattern is clear but December data is less granular |
 
 ---
@@ -333,7 +333,7 @@ The Daily Wire's pro-Israel absolutism (to the point of being called "The Daily 
 
 2. **Monitor the Owens boundary.** If the firewall's tolerance shifts on Israel commentary (either more or less tolerant), that signals a structural change in the Vendor-State model's requirements.
 
-3. **Test the 2-week lag with February data.** If the pattern holds, influencer narrative pushes in late January (Epstein anger, shutdown friction) should predict compliance events in the Feb 13–19 window (DHS deadline, Board of Peace summit, 13F filings).
+3. **Test the lag pattern with February data.** If the pattern holds, influencer narrative pushes in late January (Epstein anger, shutdown friction) should predict compliance events in the Feb 13–19 window (DHS deadline, Board of Peace summit, 13F filings).
 
 4. **Track 1789 Capital's next FII/Gulf sovereign appearances.** The next public interaction between Malik/Trump Jr. and Gulf capital should coincide with a domestic friction event within ±14 days.
 

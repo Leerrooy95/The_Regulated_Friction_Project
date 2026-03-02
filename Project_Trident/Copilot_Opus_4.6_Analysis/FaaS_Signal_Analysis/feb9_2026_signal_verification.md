@@ -213,7 +213,7 @@ SuperGrok's most analytically valuable contribution is the **72-hour compliance 
 
 ### Does This Prove FaaS?
 
-**No.** The clustering proves temporal correlation between friction events and compliance events — which is the core finding of the Regulated Friction Project (r = 0.6196 at 2-week lag).
+**No.** The clustering proves temporal correlation between friction events and compliance events — which is the core finding of the Regulated Friction Project (r = 0.6196 at 2-week index lag; actual median: 7 days).
 
 What it does **not** prove is that these specific protests are FaaS-driven (i.e., paid/astroturfed). The evidence strongly suggests these protests are **grassroots responses to genuine policy grievances:**
 
@@ -312,7 +312,7 @@ Calendar Anchor (DHS deadline, fiscal deadline)
 Friction  Policy  Financial
 (protests) (shutdown) (sovereign positioning)
         ↓
-Lagged Clustering (r = 0.6196, 2-week lag)
+Lagged Clustering (r = 0.6196, 2-week index lag; actual median: 7 days)
 ```
 
 Whether the protests are paid or grassroots doesn't change the structural function. The friction is real. The compliance window is real. The question is what moves in the compliance layer while the friction layer consumes attention.
@@ -329,7 +329,7 @@ Whether the protests are paid or grassroots doesn't change the structural functi
 
 4. **Rate cards need sourcing:** If the task is detecting actual FaaS hiring, the output should include specific job posting URLs or screenshots. Generic Indeed/ZipRecruiter ranges for "brand ambassador" roles in metro areas are always present and don't necessarily indicate protest-specific recruitment.
 
-5. **Pincer window analysis is the strongest signal:** The Feb 1 – Feb 13 compliance window (sanctuary funding cuts → DHS deadline) bracketing multiple friction events (protests, walkouts) is the most analytically robust finding. This is consistent with the project's r = 0.6196 correlation at 2-week lag.
+5. **Pincer window analysis is the strongest signal:** The Feb 1 – Feb 13 compliance window (sanctuary funding cuts → DHS deadline) bracketing multiple friction events (protests, walkouts) is the most analytically robust finding. This is consistent with the project's r = 0.6196 correlation at 2-week index lag (actual median: 7 days).
 
 6. **Track what moves during the friction window, not just the friction itself.** The FaaS task focuses on protest supply chains. But the more analytically productive question — per the thermostat model — is: what compliance events are advancing while protest attention dominates? Key dates to watch: Feb 13 (DHS deadline), Feb 19 (Board of Peace first summit).
 

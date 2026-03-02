@@ -443,7 +443,7 @@ def compute_regression(
 #  Usage:  cd dashboard && python correlation_engine.py
 #
 #  Expected output:
-#      2-week lag: r = 0.6196, p = 0.0004, n = 28
+#      2-week index lag: r = 0.6196, p = 0.0004, n = 28  (actual median: 7 days)
 #      95% CI: [0.3212, 0.8111]
 #      Lag sweep with peak at lag=2
 #      VERIFIED: Original r=0.6196
@@ -467,7 +467,7 @@ if __name__ == "__main__":
 
     # Test 1: Lagged Pearson correlation
     r, p, n_eff = compute_lagged_correlation(friction, compliance, lag=2)
-    print(f"\n[1] 2-week lag Pearson:  r = {r:.4f},  p = {p:.4f},  n = {n_eff}")
+    print(f"\n[1] 2-week index lag Pearson:  r = {r:.4f},  p = {p:.4f},  n = {n_eff}  (actual median: 7 days)")
 
     # Test 2: Fisher z-transform CI
     ci_lo, ci_hi = fisher_ci(r, n_eff)
@@ -475,7 +475,7 @@ if __name__ == "__main__":
 
     # Test 3: Spearman rank correlation
     rho, p_sp = compute_spearman(friction, compliance, lag=2)
-    print(f"[3] 2-week lag Spearman: \u03c1 = {rho:.4f},  p = {p_sp:.4f}")
+    print(f"[3] 2-week index lag Spearman: \u03c1 = {rho:.4f},  p = {p_sp:.4f}")
 
     # Test 4: Lag sweep
     print(f"\n[4] Lag sweep (0-6 weeks):")

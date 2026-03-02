@@ -11,7 +11,7 @@ datasets behind it, and where to reproduce it.
 
 | # | Correlation | Stat | p-value | Datasets | Script |
 |---|-------------|------|---------|----------|--------|
-| 1 | Reflexive Control (2-week lag) | r = 0.6196 | 0.0004 | 30-row master CSV | `Run_Correlations_Yourself/run_original_analysis.py` Part 1 |
+| 1 | Reflexive Control (2-week index lag; actual median: 7 days) | r = 0.6196 | 0.0004 | 30-row master CSV | `Run_Correlations_Yourself/run_original_analysis.py` Part 1 |
 | 2 | Project Trident (ritual vs holiday proximity) | Mann-Whitney U, p = 0.002 | 0.002 | 533-row lag CSV | `Run_Correlations_Yourself/run_original_analysis.py` Part 2 |
 | 3 | Multi-Dataset Cross-Validation (14-day periodicity) | χ² = 330.62 | < 0.0001 | 4 Silicon Sovereignty CSVs (2,105 records) | `Run_Correlations_Yourself/run_original_analysis.py` Part 3 |
 | 4 | Updated event-count (core scope, 0-lag) | r = 0.6685 | < 0.0001 | 5 New_Data_2026 CSVs (~1,010 events) | `Run_Correlations_Yourself/reproduce_updated_correlation.py` |
@@ -21,7 +21,7 @@ datasets behind it, and where to reproduce it.
 
 ## Correlation 1 — Original Reflexive Control
 
-**Result:** Pearson r = 0.6196 at 2-week lag (p = 0.0004)
+**Result:** Pearson r = 0.6196 at 2-week index lag (actual median: 7 days, p = 0.0004)
 
 **Computed:** December 23, 2025 (v3.1 release)
 
@@ -35,7 +35,7 @@ datasets behind it, and where to reproduce it.
 **What it measures:** Whether friction spikes (document leaks, media cycles)
 at time t−2 predict institutional compliance (capital deals, policy shifts) at
 time t.  The near-zero direct correlation (r = −0.03) rules out coincidence;
-the strong 2-week lag is the signature of the "thermostat" feedback loop.
+the strong 2-week index lag is the signature of the "thermostat" feedback loop (actual median: 7 days).
 
 **Permutation test (Feb 8):** 0 of 1,000 shuffles produced |r| ≥ 0.62 →
 empirical p < 0.001.
@@ -150,7 +150,7 @@ genuine rank-order signal even though it dilutes the magnitude-based Pearson r.
                          ┌──────────────────────────────┐
                          │  ORIGINAL (pre-2026 data)     │
                          │                              │
-     Correlation 1       │  r = 0.6196  (2-week lag)    │
+     Correlation 1       │  r = 0.6196  (2-week index lag; actual median: 7 days)    │
      30-row master CSV   │  Hand-scored, small sample   │
                          └──────────────────────────────┘
 

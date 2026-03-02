@@ -25,7 +25,7 @@
 
 ## 1. Executive Summary
 
-The Regulated Friction Project, across its v10.0 state and ~110 markdown files spanning 15+ numbered folders and the Project_Trident analysis tree, documents a central finding: **high-visibility "friction" events and institutional "compliance" events cluster together on shared calendar windows at a statistically significant rate (r = +0.6196 at 2-week lag, p = 0.0004, n = 28)**.
+The Regulated Friction Project, across its v10.0 state and ~110 markdown files spanning 15+ numbered folders and the Project_Trident analysis tree, documents a central finding: **high-visibility "friction" events and institutional "compliance" events cluster together on shared calendar windows at a statistically significant rate (r = +0.6196 at 2-week index lag, p = 0.0004, n = 28; actual median lag: 7 days · v10.3 High-Resolution, backfill n=66)**.
 
 The repository's analytical progression can be summarized in four phases:
 
@@ -339,7 +339,7 @@ This section separates the repository's claims into two categories, maintaining 
 
 | Category | Claim | Verification |
 |----------|-------|-------------|
-| **Statistical** | r = +0.6196 at 2-week lag across 28 paired observations | ✅ Reproducible from Control_Proof/ datasets |
+| **Statistical** | r = +0.6196 at 2-week index lag across 28 paired observations (actual median: 7 days) | ✅ Reproducible from Control_Proof/ datasets |
 | **Statistical** | p = 0.0004 significance | ✅ Standard Pearson test |
 | **Statistical** | χ² = 330.62 (14-day periodicity, 2,102 events) | ✅ Reproducible script |
 | **Statistical** | Mann-Whitney U p = 0.002 (ritual proximity) | ✅ Reproducible |
@@ -445,7 +445,7 @@ This does not invalidate the documented capital overlap — it complicates the i
 
 | Statistic | Dataset | Status | Notes |
 |-----------|---------|--------|-------|
-| r = 0.6196 (2-week lag) | 30-row master (n_eff = 28) | ✅ VALID | Hand-scored, 12 unique values, natural distribution |
+| r = 0.6196 (2-week index lag; actual median: 7 days) | 30-row master (n_eff = 28) | ✅ VALID | Hand-scored, 12 unique values, natural distribution |
 | p = 0.0004 | Same | ✅ VALID | Standard Pearson |
 | χ² = 330.62 | 4 Silicon Sov CSVs (2,102 events) | ✅ VALID | Corrected binning (days_since_start % 14) |
 | Mann-Whitney U p = 0.002 | Project Trident 533-row | ✅ VALID | Ritual vs. holiday proximity |

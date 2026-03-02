@@ -293,7 +293,7 @@ The master CSV was explicitly checked for fabrication patterns:
 | Value distribution | 12 unique friction values, 10 unique compliance values | ✅ NOT the "6 unique values in 3,275 rows" pattern |
 | Uniform clustering | Values span full 1–10 range with natural variation | ✅ NOT the "−81% to −88%" uniform clustering pattern |
 | Precision | Integer scores only (no suspiciously precise decimals) | ✅ Consistent with hand-scoring |
-| Correlation produced | r = 0.6196 at 2-week lag (p = 0.0004) | ✅ Independently reproduced via `Run_Correlations_Yourself/` |
+| Correlation produced | r = 0.6196 at 2-week index lag (actual median: 7 days, p = 0.0004) | ✅ Independently reproduced via `Run_Correlations_Yourself/` |
 | Methodology | Hand-scored subjective indices, not AI-generated | ✅ Author's own work |
 
 **Conclusion:** `master_reflexive_correlation_data.csv` does **NOT** match the

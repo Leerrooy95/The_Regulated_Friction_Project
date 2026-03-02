@@ -151,7 +151,7 @@ def load_core_dataset() -> pd.DataFrame | None:
 
     This is the primary dataset for computing the core Pearson r = 0.6196.
     Each row represents one week with a friction index (1-10) and a
-    compliance index (1-10), pre-aligned with a 2-week lag.
+    compliance index (1-10), pre-aligned with a 2-week index lag (actual median: 7 days).
 
     Returns
     -------
