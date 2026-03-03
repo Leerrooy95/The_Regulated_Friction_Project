@@ -1,0 +1,4 @@
+agent_environment: main
+agent_name: friction-monitor
+description: 'Autonomous OSINT monitor for the Regulated Friction Project. Scrapes DOJ and Federal Register data to detect institutional masking events using the Smith Correlation (r = +0.6196).'
+entrypoint_file: main.py
