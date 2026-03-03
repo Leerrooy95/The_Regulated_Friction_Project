@@ -2,18 +2,18 @@ import asyncio
 import json
 import os
 from copilot import CopilotClient, PermissionHandler
-from gradient_adk import entrypoint
+from gradient_adk import entrypoint, RequestContext
 
 @entrypoint
-async def main(input_data: dict):
+async def main(input_data: dict, context: RequestContext):
     print("🚀 OSINT Immune System Awakening...")
 
     # 1. Load the Scraped Data (Provided by your 8 AM GitHub Action)
     print("📂 Loading data for analysis...")
     try:
-        with open("output/reg_data.json", "r") as f:
+        with open("data/reg_data.json", "r") as f:
             reg_data = json.load(f)
-        with open("output/friction_data.json", "r") as f:
+        with open("data/friction_data.json", "r") as f:
             friction_data = json.load(f)
     except FileNotFoundError:
         print("❌ Data not found. Waiting for GitHub Action to run Scrapy.")

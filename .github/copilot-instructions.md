@@ -23,9 +23,21 @@ The live dashboard at `regulatedfriction.streamlit.app` is a multi-tab Streamlit
 ### Data Pipeline
 
 1. **Scrapy spider** (`federal_register/`) runs daily on a DigitalOcean Droplet, scraping Federal Register EOs.
-2. **GitHub Actions** (`daily_pipeline.yaml`) runs at 8:00 AM UTC: scrapes EOs, runs `daily_perplexity_update.py` (Perplexity sonar-pro), commits to `output/`.
+2. **GitHub Actions** (`daily_pipeline.yaml`) runs at 8:00 AM UTC: scrapes EOs, runs `daily_perplexity_update.py` (Perplexity sonar-pro), runs `test_api.py` (Llama Scout extraction), commits to `output/`.
 3. **Sync workflow** (`sync_to_do_space.yml`) mirrors data to DigitalOcean Spaces after the daily pipeline succeeds.
 4. **Dashboard** pulls from GitHub with 1-hour cache TTL.
+
+### Gradient Agent (DigitalOcean)
+
+- **`main.py`** — Gradient ADK entrypoint. Loads scraped data from `data/` (committed reference datasets: `reg_data.json`, `friction_data.json`), creates a Copilot session (Claude Opus 4.6), performs Regulated Friction analysis, saves findings to `output/findings.json`.
+- **`.gradient/agent.yml`** — Agent configuration for DigitalOcean Gradient deployment. Agent name: `friction-monitor`.
+- Deployed via `gradient agent deploy`. Requires `DIGITALOCEAN_API_TOKEN` and `GRADIENT_MODEL_ACCESS_KEY`.
+
+### Llama Scout Extraction Pipeline
+
+- **`test_api.py`** — Sends `intel.txt` to Llama-4-Scout-17B-16E-Instruct (via GitHub Models API) for clinical entity extraction and friction/compliance scoring. Includes post-processing for domain arrays, convergence thresholds, lag calculation, and actor normalization.
+- **`intel.txt`** — Mission brief containing the current signal window data for extraction.
+- Outputs to `output/` with timestamped run IDs (`{run_id}_extracted.json`, `{run_id}_raw.txt`, `{run_id}_summary.txt`). Requires `GITHUB_TOKEN`.
 
 ### Intelligence Pipeline
 
@@ -45,6 +57,8 @@ python -m py_compile dashboard/app.py
 python -m py_compile dashboard/data_loader.py
 python -m py_compile dashboard/constants.py
 python -m py_compile daily_perplexity_update.py
+python -m py_compile main.py
+python -m py_compile test_api.py
 python dashboard/correlation_engine.py  # self-test when run directly
 ```
 
