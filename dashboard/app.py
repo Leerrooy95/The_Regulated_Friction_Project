@@ -4,7 +4,6 @@ Main Streamlit entry point.
 """
 
 import json
-import os
 import re
 from collections import Counter
 from pathlib import Path
@@ -12,7 +11,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-import requests
 import streamlit as st
 from plotly.subplots import make_subplots
 
@@ -201,203 +199,8 @@ backfill_stats = None
 if backfill_df is not None:
     backfill_stats = compute_lag_stats(backfill_df["lag_parsed"])
 
-# ── Agent endpoint (used in Home tab and Ask AI tab) ─────────────────────
-AGENT_ENDPOINT = os.environ.get(
-    "AGENT_ENDPOINT", "https://tmfan7htuidpqdqsi2wybcao.agents.do-ai.run"
-)
-
-
-def _build_agent_context() -> str:
-    """Assemble project data into a system prompt for the AI agent.
-
-    Pulls from already-loaded DataFrames, JSON intelligence files, and
-    constants so that every agent query carries the actual project data
-    rather than relying on the model's pre-training alone.
-    """
-    sections: list[str] = []
-
-    # ── 1. Project overview & core statistics ────────────────────────────
-    sections.append(
-        "You are the AI research assistant for The Regulated Friction Project, "
-        "an OSINT research project documenting statistically significant temporal "
-        "correlations between 'friction' events (scandals, document releases, "
-        "media crises) and 'compliance' events (policy shifts, financial moves, "
-        "regulatory changes) from 2015–2026.\n\n"
-        "CORE STATISTICAL FINDINGS:\n"
-        f"- Pearson r = {CORE_R} at optimal lag of {CORE_LAG_WEEKS} weeks "
-        f"(actual median: {BACKFILL_MEDIAN_DAYS} days)\n"
-        f"- Two-tailed p-value = {CORE_P}\n"
-        f"- Effective observations: n = {CORE_N} (from 30-row core dataset)\n"
-        f"- R² = {R_SQUARED} (38.4% of compliance variance explained)\n"
-        f"- Historical backfill: {BACKFILL_PAIRS} event pairs (2017-2024)\n"
-        f"- Negative windows: {NEGATIVE_EVENTS} of {TOTAL_FRICTION_EVENTS} "
-        f"friction events ({100 - RESPONSE_RATE_PCT:.1f}%) had no compliance "
-        f"response within 14 days\n"
-        f"- Response rate: {RESPONSE_RATE_PCT}%\n"
-        "- Placebo test: r = 0.6196 survives 10K permutations (p = 0.0004)\n"
-        "- The project claims CORRELATION, not causation.\n"
-        '- The "14-day lag" terminology is legacy (v10.2). The corrected '
-        "measurement is 7-day median lag (v10.3)."
-    )
-
-    # ── 2. Core 30-week dataset ──────────────────────────────────────────
-    if core_df is not None:
-        sections.append(
-            "CORE 30-WEEK FRICTION/COMPLIANCE INDEX DATA:\n"
-            + core_df.to_csv(index=False)
-        )
-
-    # ── 3. Historical backfill summary ───────────────────────────────────
-    if backfill_df is not None:
-        bf_summary = backfill_df[
-            ["Year", "Friction_Event", "Friction_Date", "Compliance_Event",
-             "Compliance_Date", "Lag_Days"]
-        ].copy()
-        bf_summary["Friction_Date"] = bf_summary["Friction_Date"].astype(str).str[:10]
-        bf_summary["Compliance_Date"] = bf_summary["Compliance_Date"].astype(str).str[:10]
-        sections.append(
-            f"HISTORICAL BACKFILL EVENT PAIRS ({len(bf_summary)} pairs, 2017-2024):\n"
-            + bf_summary.to_csv(index=False)
-        )
-
-    # ── 4. Negative (non-response) windows ───────────────────────────────
-    if negative_df is not None:
-        neg_summary = negative_df.copy()
-        for col in ["Friction_Date", "Window_Start", "Window_End"]:
-            if col in neg_summary.columns:
-                neg_summary[col] = neg_summary[col].astype(str).str[:10]
-        sections.append(
-            "NEGATIVE WINDOWS (friction events with NO compliance response):\n"
-            + neg_summary.to_csv(index=False)
-        )
-
-    # ── 5. Daily Perplexity intelligence ─────────────────────────────────
-    daily_intel = load_daily_intelligence()
-    if daily_intel:
-        sections.append(
-            "LATEST DAILY INTELLIGENCE (Perplexity sonar-pro):\n"
-            + json.dumps(daily_intel, indent=2, default=str)
-        )
-
-    # ── 6. Latest LLM extraction ─────────────────────────────────────────
-    if intel_data:
-        sections.append(
-            "LATEST LLM SIGNAL EXTRACTION (Llama-4-Scout):\n"
-            + json.dumps(intel_data, indent=2, default=str)
-        )
-
-    # ── 7. Federal Register EOs (regulatory data) ────────────────────────
-    reg_data_path = REPO_ROOT / "data" / "reg_data.json"
-    if reg_data_path.exists():
-        try:
-            with open(reg_data_path, "r", encoding="utf-8") as f:
-                reg_data = json.load(f)
-            sections.append(
-                f"FEDERAL REGISTER EXECUTIVE ORDERS ({len(reg_data)} entries):\n"
-                + json.dumps(reg_data, indent=2, default=str)
-            )
-        except (json.JSONDecodeError, IOError):
-            pass
-
-    # ── 8. Negative window context annotations ───────────────────────────
-    nw_lines = [f"- {evt}: {reason}" for evt, reason in NEGATIVE_WINDOW_CONTEXT.items()]
-    sections.append(
-        "NEGATIVE WINDOW EXPLANATIONS:\n" + "\n".join(nw_lines)
-    )
-
-    # ── 9. Instructions ──────────────────────────────────────────────────
-    sections.append(
-        "INSTRUCTIONS:\n"
-        "- Answer questions using ONLY the project data provided above.\n"
-        "- Cite specific data points, events, dates, and statistics from the "
-        "datasets when answering.\n"
-        "- If the data does not contain information to answer a question, say so "
-        "explicitly rather than relying on general knowledge.\n"
-        "- Never conflate correlation with causation.\n"
-        "- Use the corrected 7-day median lag, not the legacy 14-day terminology."
-    )
-
-    return "\n\n---\n\n".join(sections)
-
-
-@st.cache_data(ttl=3600)
-def _get_agent_system_prompt() -> str:
-    """Cached wrapper so the system prompt is only rebuilt once per hour."""
-    return _build_agent_context()
-
-
-def render_agent_chat(key_suffix: str = "") -> None:
-    """Render the AI agent chat interface. *key_suffix* keeps widget keys unique."""
-    user_question = st.text_input(
-        "Your question",
-        placeholder="e.g. What is the friction-compliance correlation?",
-        key=f"agent_question{key_suffix}",
-    )
-
-    if st.button("Ask Agent", key=f"agent_submit{key_suffix}"):
-        if not user_question.strip():
-            st.warning("Please enter a question.")
-        else:
-            agent_key = os.environ.get("AGENT_ACCESS_KEY") or st.secrets.get(
-                "AGENT_ACCESS_KEY", ""
-            )
-            if not agent_key:
-                st.error(
-                    "⚠️ AGENT_ACCESS_KEY is not configured. "
-                    "Set it as an environment variable or in Streamlit secrets."
-                )
-            else:
-                with st.spinner("Querying AI agent…"):
-                    try:
-                        system_prompt = _get_agent_system_prompt()
-                        resp = requests.post(
-                            f"{AGENT_ENDPOINT.rstrip('/')}/api/v1/chat/completions",
-                            headers={
-                                "Authorization": f"Bearer {agent_key}",
-                                "Content-Type": "application/json",
-                            },
-                            json={
-                                "messages": [
-                                    {"role": "system", "content": system_prompt},
-                                    {"role": "user", "content": user_question},
-                                ]
-                            },
-                            timeout=60,
-                        )
-                        resp.raise_for_status()
-                        data = resp.json()
-
-                        answer = (
-                            data.get("choices", [{}])[0]
-                            .get("message", {})
-                            .get("content", "")
-                        ) or data.get("response", "") or json.dumps(data, indent=2)
-
-                        with st.expander("**Agent Response**", expanded=True):
-                            st.markdown(answer)
-                    except requests.exceptions.Timeout:
-                        st.error(
-                            "⏱️ The agent did not respond within 60 seconds. "
-                            "Please try again later."
-                        )
-                    except requests.exceptions.HTTPError as exc:
-                        st.error(f"🚫 Agent returned an error: {exc}")
-                    except requests.exceptions.ConnectionError:
-                        st.error(
-                            "🔌 Could not reach the AI agent. "
-                            "The service may be temporarily unavailable."
-                        )
-                    except (ValueError, KeyError) as exc:
-                        st.error(f"Unexpected error parsing response: {exc}")
-
-    st.caption(
-        "Responses are AI-generated based on project documentation. "
-        "Always verify critical claims against the primary data."
-    )
-
-
 # ── Tabs ─────────────────────────────────────────────────────────────────
-tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions, tab_agent = st.tabs([
+tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, tab_predictions = st.tabs([
     "Home",
     "🔴 Live Intelligence",
     "Statistical Overview",
@@ -405,7 +208,6 @@ tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, 
     "Lag Distribution (Backfill)",
     "Raw Data Explorer",
     "Prediction Tracker",
-    "🤖 Ask AI",
 ])
 
 # =====================================================================
@@ -723,10 +525,6 @@ with tab_home:
         "Statistical findings have been independently verified by a separate "
         "AI agent (Copilot Opus 4.6) using adversarial methodology checks."
     )
-
-    # ── Ask AI (compact) ──
-    with st.expander("🤖 Ask the Intelligence Agent", expanded=False):
-        render_agent_chat(key_suffix="_home")
 
     st.info("Navigate to the **Statistical Overview** tab to explore the correlation data.")
 
@@ -1866,24 +1664,6 @@ with tab_predictions:
         f"Total: {len(pred_df)} predictions | "
         f"{n_confirmed} confirmed, {n_failed} failed, {n_pending} pending/tracking"
     )
-
-# =====================================================================
-# TAB 7: ASK AI AGENT
-# =====================================================================
-
-with tab_agent:
-    st.header("🤖 I have the latest information, ask me anything!")
-    st.markdown(
-        "This AI agent receives the full project dataset with every query, including: "
-        "the core 30-week friction/compliance index, 66 historical backfill event pairs, "
-        "5 negative window events, daily Perplexity intelligence, latest LLM signal "
-        "extractions, and Federal Register executive orders. Ask it about correlations, "
-        "entities, timelines, or any aspect of the research."
-    )
-
-    st.divider()
-    render_agent_chat()
-    st.divider()
 
 # ── Footer ───────────────────────────────────────────────────────────────
 st.divider()
