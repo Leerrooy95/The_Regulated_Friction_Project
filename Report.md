@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** March 2, 2026
-**Version:** v10.3
+**Last Updated:** March 3, 2026
+**Version:** v10.4
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -196,6 +196,50 @@ Key datasets:
 - `Project_Trident/Best_Data_For_Project_Trident/ritual_events_parsed.csv` — Project Trident ritual timing
 - `Run_Correlations_Yourself/historical_backfill_2017_2024.csv` — Historical backfill (2017-2024)
 - `Run_Correlations_Yourself/negative_windows.csv` — Confirmed negative windows
+
+---
+
+## Prime Brokerage Capital & Alternative Media Integration (v10.4)
+
+### The Structural Behavior
+
+Between January 2024 and March 2026, the data documents an emergent structural behavior: capital originating from prime brokerage executives — the same financial intermediary class whose mechanisms (rehypothecation, security entitlements) the Media Firewall thesis identifies as structurally protected topics — successfully merged with permanent state infrastructure through a four-stage process.
+
+### The Integration Sequence
+
+| Stage | Mechanism | Observable Metric | Window |
+|-------|-----------|-------------------|--------|
+| **1. Capital Formation** | Prime brokerage-backed venture fund accumulates AUM at exponential rate | ~$200M → ~$2B (~10× in one year) | 2024–2025 |
+| **2. Executive Integration** | Senior political family members onboarded as fund partners; pre-inauguration alliance meetings at private venues | Partner announcement + fundraising event | Nov 2024 – Jan 2025 |
+| **3. Institutional Capture** | Fund founder (former bank prime brokerage MD) appointed to federal housing agency board | Board of Directors seat at GSE | Apr 2025 |
+| **4. Defense Pivot** | Fund leads investment in defense aerospace startup (3D-printed rocket propulsion) | $60M Series C (~$15M lead) | Sep 2025 |
+
+**Parallel media expansion:** During the same period, the same capital network funded a $10M round for a decentralized creator-economy platform and filed a $260M SPAC IPO, expanding the media firewall into public capital markets.
+
+### Mathematical Assessment
+
+The integration follows a measurable consolidation function:
+
+```
+f(t) = Capital_Base(t) × Institutional_Access(t) × Media_Coverage_Suppression(t)
+```
+
+Where:
+- `Capital_Base(t)` grows from ~$200M to ~$2B (exponential)
+- `Institutional_Access(t)` transitions from zero federal positions to GSE board membership (step function at t = Apr 2025)
+- `Media_Coverage_Suppression(t)` remains constant: the platforms funded by this capital network continue to direct narrative energy toward culture war and foreign policy topics while maintaining silence on the capital architecture itself
+
+### Structural Observation
+
+The "anti-establishment" branding functions as a neutralization layer: the same prime brokerage mechanisms that built the capital funding the populist media ecosystem are the mechanisms whose critique is structurally prohibited by that ecosystem. The fund simultaneously:
+
+1. **Capitalizes** the media platforms (alternative news networks, creator-economy infrastructure, parallel-economy marketplaces)
+2. **Integrates** with federal governance (housing agency board, defense technology)
+3. **Wraps** both operations in founding-era symbolism, rendering the merger rhetorically immune to institutional capture framing
+
+This does **not** claim coordination or conspiracy. The pattern is documented as emergent behavior — capital flows following incentive gradients into positions where regulatory oversight is structurally minimized. The observation is mathematical: the capital circuit (prime brokerage → alternative media → federal infrastructure → defense tech) now forms a measurable closed loop.
+
+→ **Raw data**: [`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`](12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv)
 
 ---
 
