@@ -27,7 +27,7 @@ load_dotenv()
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 ENDPOINT     = "https://models.github.ai/inference"
 MODEL        = "Llama-4-Scout-17B-16E-Instruct"
-TOKEN        = os.environ.get("GITHUB_TOKEN")
+TOKEN        = os.environ.get("MODEL_API_KEY")
 TEMPERATURE  = 0.1          # Low temp for deterministic extraction
 MAX_TOKENS   = 16384        # Scout supports up to 16K output — enough for full JSON
 TOP_P        = 0.9          # Slight nucleus sampling to avoid degenerate loops
