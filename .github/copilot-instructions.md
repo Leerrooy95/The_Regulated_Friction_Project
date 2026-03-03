@@ -29,7 +29,7 @@ The live dashboard at `regulatedfriction.streamlit.app` is a multi-tab Streamlit
 
 ### Gradient Agent (DigitalOcean)
 
-- **`main.py`** — Gradient ADK entrypoint. Loads scraped data from `data/`, creates a Copilot session (Claude Opus 4.6), performs Regulated Friction analysis, saves findings to `output/findings.json`.
+- **`main.py`** — Gradient ADK entrypoint. Loads scraped data from `data/` (committed reference datasets: `reg_data.json`, `friction_data.json`), creates a Copilot session (Claude Opus 4.6), performs Regulated Friction analysis, saves findings to `output/findings.json`.
 - **`.gradient/agent.yml`** — Agent configuration for DigitalOcean Gradient deployment. Agent name: `friction-monitor`.
 - Deployed via `gradient agent deploy`. Requires `DIGITALOCEAN_API_TOKEN` and `GRADIENT_MODEL_ACCESS_KEY`.
 
