@@ -41,6 +41,13 @@ jobs:
           pip install openai
           python daily_perplexity_update.py
 
+      - name: Run Llama Scout Extraction
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install azure-ai-inference python-dotenv
+          python test_api.py
+
       - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
