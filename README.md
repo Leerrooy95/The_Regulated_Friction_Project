@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.3
+# The Regulated Friction Project v10.4
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
 
@@ -111,7 +111,36 @@ The_Regulated_Friction_Project/
 
 ---
 
-## What's New (v10.3) — The High-Resolution Build — March 2, 2026
+## The Media Firewall: Patriotic Capitalism Neutralization Layer
+
+The Media Firewall thesis (see `12_The_Media_Firewall/`) documents how alternative media platforms funded by prime brokerage capital function as narrative infrastructure — directing populist energy toward high-valence cultural and foreign policy topics while maintaining structural silence on the financial architecture that capitalizes these ventures.
+
+**The Neutralization Mechanism (2024–2026):**
+
+Between 2024 and early 2026, a specific pattern of capital consolidation emerged within the alternative media venture capital space:
+
+1. **Capital Acceleration:** A prime brokerage-backed venture fund grew from ~$200M to ~$2B AUM in a single year, crossing the $1B institutional threshold. This growth coincided with the onboarding of senior political family members as partners and pre-inauguration alliance-building at private venues.
+
+2. **Institutional Capture:** The fund's founder — a former Managing Director of Prime Brokerage at a major U.S. bank — was appointed to the Board of Directors of a federal housing agency (GSE), establishing a direct structural link between alternative media venture capital and government-sponsored enterprise governance.
+
+3. **Media Firewall Expansion:** The same capital network funded a $10M round for a decentralized creator-economy platform and filed a $260M SPAC IPO, expanding the "parallel economy" thesis into public capital markets with high-profile political and media figures on the board.
+
+4. **Defense Pivot:** The fund led a $60M Series C investment in a defense aerospace startup specializing in 3D-printed solid rocket propulsion, completing the capital circuit: prime brokerage → alternative media → federal housing governance → defense technology.
+
+**Structural Implication:** The "patriotic capitalism" branding functions as a semiotic neutralization layer — wrapping the merger of prime brokerage capital with federal infrastructure in founding-era American symbolism, rendering it rhetorically immune to "foreign capture" or "institutional capture" framing. The fund simultaneously capitalizes the media platforms that remain silent on these very financial architectures.
+
+→ **Full data**: [`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`](12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv)
+→ **Node analysis**: [`12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md`](12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md)
+
+---
+
+## What's New (v10.4) — Prime Brokerage Capital & Alternative Media Integration — March 3, 2026
+
+- **Patriotic Capitalism Neutralization Layer documented**: New subsection in README and Report documenting the structural mechanics of how prime brokerage-backed venture capital uses populist media funding to shield the rapid consolidation of government infrastructure (federal housing boards) and defense tech. See `12_The_Media_Firewall/`.
+- **Alternative Capital Expansion dataset**: New CSV (`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`) tracking 10 verified data points across AUM growth, executive integration, institutional capture, media firewall expansion, and defense pivot categories (Jan 2024 – March 2026).
+- **Report.md synthesis updated**: New section documenting the emergent structural behavior where "anti-establishment" capital merges with permanent state infrastructure — federal housing, defense technology, and public capital markets.
+
+### Previous (v10.3) — The High-Resolution Build — March 2, 2026
 
 - **14-day lag corrected to 7-day median**: The Robustness Audit revealed that the actual median lag in the 66-pair backfill dataset is **7 days** (mean: 6.5 days), not 14. The original "14-day" figure was an artifact of the 2-week index binning resolution. The correlation (r = 0.6196) at 2-week index resolution is still valid and significant. All documentation now carries audit trail labels: *v10.2 Legacy (2-week index resolution)* vs *v10.3 High-Resolution (backfill n=66)*. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
 - **Robustness audit completed**: Placebo permutation test (10K shuffles, p = 0.0004), calendar-anchor clustering analysis (71.2% shared anchors), temporal engine adaptation, and node timeline reconciliation.
@@ -227,7 +256,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 2, 2026 (v10.3)
+**Last updated**: March 3, 2026 (v10.4)
 
 ---
 
