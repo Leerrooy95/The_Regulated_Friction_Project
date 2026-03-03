@@ -43,7 +43,7 @@ jobs:
 
       - name: Run Llama Scout Extraction
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MODEL_API_KEY }}
         run: |
           pip install azure-ai-inference python-dotenv
           python test_api.py
