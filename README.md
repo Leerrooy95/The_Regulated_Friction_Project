@@ -119,7 +119,7 @@ The Media Firewall thesis (see `12_The_Media_Firewall/`) documents how alternati
 
 Between 2024 and early 2026, a specific pattern of capital consolidation emerged within the alternative media venture capital space:
 
-1. **Capital Acceleration:** A prime brokerage-backed venture fund grew from ~$200M to ~$2B AUM in a single year, crossing the $1B institutional threshold. This growth coincided with the onboarding of senior political family members as partners and pre-inauguration alliance-building at private venues.
+1. **Capital Acceleration:** A prime brokerage-backed venture fund grew from ~$200M to ~$2B AUM within approximately one year (2025), crossing the $1B institutional threshold. This growth coincided with the onboarding of senior political family members as partners and pre-inauguration alliance-building at private venues.
 
 2. **Institutional Capture:** The fund's founder — a former Managing Director of Prime Brokerage at a major U.S. bank — was appointed to the Board of Directors of a federal housing agency (GSE), establishing a direct structural link between alternative media venture capital and government-sponsored enterprise governance.
 
