@@ -18,4 +18,3 @@ Research_Documents/
 
 # API budget tracker (runtime artifact)
 output/.api_budget.json
-output/*.json
