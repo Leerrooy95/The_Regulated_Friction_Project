@@ -1,167 +1,147 @@
 {
-  "generated_at": "2026-03-03T12:45:37Z",
+  "generated_at": "2026-03-04T08:24:43Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
   "config_version": "2026-02-28",
   "top_3_developments": [
     {
-      "headline": "US-Iran war entered Day 3 with six American service members killed; large-scale combat operations continue under Operation Epic Fury",
-      "summary": "The US military confirmed six service members killed in the ongoing conflict with Iran, including two whose remains were recovered on March 2.[1][5] President Trump submitted a War Powers Resolution notice to Congress on March 2, stating the campaign could last 4-5 weeks with capability to extend longer, and outlined objectives including destroying Iran's missile capabilities, annihilating its navy, preventing nuclear weapons development, and preventing Iran from funding terrorist organizations.[1] Defense Secretary Hegseth characterized the operation as \"laser-focused,\" \"surgical, overwhelmingly and unapologetically\" hitting Iranian targets.[1]",
+      "headline": "US-Iran war entered Day 3 with 6 US service members killed in Operation Epic Fury",
+      "summary": "The US and Israel continued large-scale combat operations against Iran's missile sites, navy, air defenses, and nuclear capabilities, confirming 6 US deaths after recovering two more service members from Iranian strikes. Iran retaliated by launching hundreds of ballistic missiles and drones at US bases across multiple Gulf states and civilian targets, injuring 27 Kuwaiti troops and disrupting the Strait of Hormuz. Trump notified Congress under the War Powers Resolution and warned the campaign may last 5 weeks.",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "CBS News live updates on Iran-US war; CENTCOM announcements",
-      "timestamp": "2026-03-02"
+      "source": "CBS News live updates on Day 3; ISW Iran Update Special Report[1][4]",
+      "timestamp": "2026-03-04"
     },
     {
-      "headline": "Israel Defense Forces escalated strikes on Tehran with stand-in munitions and direct targeting; US mobilizing additional reinforcements to Middle East",
-      "summary": "Israeli Defense Minister Israel Katz announced on March 1 that the IDF Air Force is striking Tehran targets directly with stand-in munitions for the first time in the war, transitioning from previous stand-off weapons deployments.[2] US Joint Chiefs of Staff Chairman General Dan Caine stated on March 2 that \"this is not a one-night operation\" and additional US forces are arriving in the Middle East today, while the IDF has mobilized approximately 110,000 reservists.[2]",
-      "event_type": "KINETIC",
-      "imminence": "ONGOING",
-      "source": "Critical Threats Iran Update Morning Special Report, March 2, 2026",
-      "timestamp": "2026-03-02"
-    },
-    {
-      "headline": "Iran's Supreme National Security Council Secretary rejected US negotiations despite earlier reported diplomatic outreach",
-      "summary": "Iranian Supreme National Security Council Secretary Ali Larijani stated on March 2 that Iran will not negotiate with the United States, contradicting earlier reports from US and Arab officials that Larijani had attempted to resume talks with the US.[2] This signals continued Iranian resistance to diplomatic resolution despite ongoing military operations.",
+      "headline": "Board of Peace held inaugural meeting on February 19 with $19B pledged for Gaza reconstruction",
+      "summary": "The Board of Peace, chaired by President Trump, secured $10B from the US, $7B from countries, $2B from the UN, and $75M from FIFA for Gaza efforts, overseeing the NCAG and planning an ISF post-UNSCR 2803. Implementation faces challenges including Hamas disarmament, IDF withdrawal, and skepticism from Europe and the Vatican. No new developments reported as of March 4.",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
-      "source": "Critical Threats Iran Update Morning Special Report, March 2, 2026",
-      "timestamp": "2026-03-02"
-    }
-  ],
-  "new_alerts": [
+      "source": "White House Statement; Jerusalem Post[2]",
+      "timestamp": "2026-03-04"
+    },
     {
-      "headline": "Iran war casualty toll increased to six US service members; friendly fire incident downed three jets",
-      "alert_type": "Force Protection Alert",
-      "event_type": "KINETIC",
+      "headline": "Gulf SWFs deployed record $119B in 2025 with aggressive US and AI investments",
+      "summary": "Funds like PIF acquired Electronic Arts for $29B and Mubadala invested $24B in the US, doubling commitments to $70B amid AI focus. Structural reorganizations continue at Lam’ad, QIA, and others to enhance efficiency for mega-deals like Paramount Skydance. Appetite persists for AI, digital infrastructure, and climate assets despite oil pressures.",
+      "event_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "relevance": "Escalating US military losses may accelerate institutional pressure for negotiated settlement within the Regulated Friction framework's 7-day compliance lag pattern",
-      "priority": "HIGH",
-      "timestamp": "2026-03-02"
+      "source": "Semafor: Gulf sovereign funds ramp up US bets[3]",
+      "timestamp": "2026-03-04"
     }
   ],
+  "new_alerts": [],
   "signal_updates": [
     {
-      "signal": "Iran-US military action",
-      "previous_status": "ACTIVE",
-      "current_status": "ACTIVE",
-      "change": "Escalation confirmed - transition from initial strikes to sustained large-scale combat operations with confirmed allied casualties",
-      "timestamp": "2026-03-02"
+      "signal": "Epstein document releases",
+      "status_change": "ACTIVE to RESOLVED",
+      "details": "DOJ completed release of 3.5M pages under Transparency Act but removed 47K files for victim protection."
     },
     {
       "signal": "Russia-Ukraine negotiations",
-      "previous_status": "ACTIVE",
-      "current_status": "NEAR_TERM",
-      "change": "Trilateral talks scheduled for March 5-8 remain on track despite Middle East conflict disrupting original Abu Dhabi venue; alternatives proposed",
-      "timestamp": "2026-03-02"
+      "status_change": "No change",
+      "details": "Status MONITORING; next round expected early March per Zelensky, no confirmation as of March 4."
     }
   ],
   "priority_watchlist": [
-    {
-      "item": "Trump administration endgame decision point",
-      "reason": "Administration officials have publicly stated 4-5 week timeline with capability for extended operations; strategic objectives remain ambiguous per Senate testimony; monitor for goal clarification or diplomatic pivots",
-      "monitoring_period": "Next 7-14 days"
-    },
-    {
-      "item": "Iran retaliatory capability degradation vs. regime stability",
-      "reason": "Combined US-Israel operations degrading Iranian strike capabilities; assess whether rapid capability loss triggers different Iranian diplomatic posture than current rejection of talks",
-      "monitoring_period": "Daily"
-    },
-    {
-      "item": "US force deployment completion and casualties trajectory",
-      "reason": "Additional reinforcements arriving March 3; friendly fire incident on March 2 suggests operational friction; monitor casualty escalation patterns that may trigger compliance response threshold",
-      "monitoring_period": "Daily"
-    },
-    {
-      "item": "Russia-Ukraine peace talks venue confirmation and participation",
-      "reason": "March 5-8 Abu Dhabi talks at risk from Middle East operations; venue alternatives under discussion; confirmation of participation and location critical for Ukraine settlement trajectory",
-      "monitoring_period": "Next 48 hours"
-    },
-    {
-      "item": "Congressional response to War Powers notification",
-      "reason": "Trump submitted War Powers notice March 2 for February 28 strikes; monitor for congressional authorization votes, funding debates, or institutional friction responses within standard 7-day lag window",
-      "monitoring_period": "Next 7 days"
-    }
+    "US-Iran war escalation and Iranian retaliation impacts on Gulf states and energy markets.",
+    "Confirmation of Russia-Ukraine peace talks in early March.",
+    "Progress on Board of Peace Gaza pledges implementation amid war.",
+    "New Gulf SWF investment announcements in AI/tech.",
+    "Any Epstein file disputes or additional DOJ actions."
   ],
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "US-Iran war enters Day 3 with 6 American service members killed; major combat operations ongoing under Operation Epic Fury",
-      "summary": "The US military reports six service members killed in Iranian retaliatory strikes since the US-Israeli assault began on February 28, with remains of two more recovered on March 2. President Trump has notified Congress under the War Powers Resolution and stated the campaign could last 4-5 weeks to destroy Iran's missile capabilities, navy, and nuclear program, without ruling out ground troops. Iran has launched hundreds of ballistic missiles and drones at US interests in the Persian Gulf, while US forces continue large-scale surgical strikes on Iranian targets.[1][2][3][4]",
+      "headline": "US-Iran war enters Day 3 with 6 US service members killed in Operation Epic Fury; Trump warns campaign may last 5 weeks",
+      "summary": "The US and Israel continue large-scale combat operations against Iran, targeting missile sites, navy, air defenses, and nuclear capabilities, with 6 US deaths confirmed after recovery of two more service members from Iranian strikes. Iran has retaliated by launching hundreds of ballistic missiles and drones at US bases in Jordan, Kuwait, Bahrain, Qatar, Iraq, Saudi Arabia, UAE, and civilian targets, injuring 27 Kuwaiti troops and disrupting the Strait of Hormuz. Trump has notified Congress under War Powers Resolution and stated the operation aims to destroy Iran's military threats, not ruling out ground troops.",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "CBS News live updates on Day 3 of Iran-US war",
-        "Wikipedia: Prelude to the 2026 Iran conflict",
-        "Brookings: After the strike - danger of war in Iran",
-        "ISW Iran Update March 2, 2026"
+        "CBS News live updates on Day 3",
+        "Wikipedia: 2026 Iran conflict",
+        "ISW Iran Update Special Report",
+        "Global National YouTube",
+        "Fox News video",
+        "Euronews"
       ],
-      "timestamp": "2026-03-03",
+      "timestamp": "2026-03-04",
       "original_signal": "Iran-US military action",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace advances Phase Two of Gaza plan post-inaugural meeting, securing $17B pledges amid disarmament and reconstruction efforts.",
-      "summary": "The Board of Peace, chaired by President Trump, held its inaugural meeting on February 19, 2026, where the US pledged $10 billion and nine member countries committed $7 billion for Gaza reconstruction. Phase Two of the ceasefire plan is now underway, focusing on governance transition, Hamas disarmament, Israeli troop withdrawal, and standing up an International Stabilization Force with troop pledges from countries like Qatar. No new meetings or actions reported since late February, but the board continues mobilizing resources under UNSCR 2803 mandate through 2027.",
+      "headline": "Board of Peace inaugural meeting held on February 19, 2026, with $19B pledged for Gaza reconstruction; implementation ongoing amid challenges.",
+      "summary": "The Board of Peace, chaired by President Trump, convened its first meeting on February 19, 2026, at the Donald J. Trump United States Institute of Peace, securing $10B from the US, $7B from participating countries, $2B from the UN, and $75M from FIFA for Gaza reconstruction and stabilization.[1][3] It oversees the National Committee for the Administration of Gaza (NCAG) and plans for an International Stabilization Force (ISF), following UNSCR 2803 approval in November 2025, but faces hurdles like Hamas disarmament, IDF withdrawal, and skepticism from Europe and the Vatican.[2][3][4] No new developments reported since the meeting as of March 4, 2026; focus remains on translating pledges into on-ground execution.[3]",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
-        "1",
-        "2",
-        "3",
-        "4"
+        "Arab Center DC (web:1)",
+        "White House Statement (web:2)",
+        "Jerusalem Post (web:3)",
+        "Chatham House (web:4)",
+        "YouTube Transcript (web:5)",
+        "Baker Institute (web:6)"
       ],
-      "timestamp": "2026-03-03",
+      "timestamp": "2026-03-04",
       "original_signal": "Board of Peace developments",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Gulf SWFs continue aggressive capital deployment into US tech, AI, and regional infrastructure post-$119B 2025 surge.",
-      "summary": "Gulf sovereign wealth funds, led by Saudi PIF and UAE's Mubadala, deployed $119 billion in 2025, with $70 billion into US investments including PIF's $29B acquisition of Electronic Arts and Mubadala's $24B commitments; they are currently backing the $108B Paramount-Skydance bid for Warner Bros. Discovery. Regional M&A hit $72.7B in 2025, driven by energy and infrastructure deals, with expectations of strong 2026 activity from PIF exits and domestic AI/data center projects like Humain's $3B Blackstone deal. No major new deals announced in early 2026, but funds maintain high deployment pace amid diversification efforts.",
+      "headline": "Gulf SWFs, led by PIF and Mubadala, continue aggressive US and AI investments post-record 2025 deployments",
+      "summary": "Gulf sovereign wealth funds deployed a record $119 billion in 2025, with PIF's $29 billion Electronic Arts acquisition and Mubadala's $24 billion in US bets marking peak activity, doubling US investments to $70 billion amid AI and tech focus.[1][3][4] Funds like Abu Dhabi's Lam’ad and Qatar's QIA are undergoing structural reorganizations to boost efficiency and global reach, while appetite persists for mega-deals such as backing the $108 billion Paramount Skydance bid for Warner Bros. Discovery.[1][2] No specific new 2026 deals confirmed yet, but reports indicate ongoing strategic shifts from scale to targeted investments in AI, digital infrastructure, and climate assets despite oil price pressures.[2][4]",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
+      "sources": [
+        "Semafor: Gulf sovereign funds ramp up US bets (Jan 6, 2026)",
+        "Alhurra: Gulf SWF reorganizations",
+        "AGBI YouTube: 2025 Gulf SWF recap (Jan 6, 2026)",
+        "MUFG Research: Middle East Daily (Jan 5, 2026)",
+        "Arab News: GCC debt markets"
+      ],
+      "timestamp": "2026-03-04",
+      "original_signal": "Gulf SWF capital movements",
+      "category": "FINANCIAL"
+    },
+    {
+      "status": "RESOLVED",
+      "headline": "DOJ completed Epstein document release under Transparency Act; 3.5 million pages published with ongoing file removal due to victim protection concerns",
+      "summary": "The Department of Justice finished its compliance with the Epstein Files Transparency Act (signed November 19, 2025) by publishing 3.5 million pages of documents as of February 1, 2026. However, the DOJ has since removed over 47,000 files (approximately 65,500 pages) from public access due to concerns about unredacted survivor information and photos. Deputy Attorney General Todd Blanche stated the department reviewed 6 million total pages, with withholdings justified for victim protection and ongoing investigations.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "timestamp": "2026-03-04",
+      "additional_context": {
+        "key_facts": [
+          "Initial release comprised 3.5 million pages combined with prior releases[4]",
+          "Release included over 2,000 videos and 180,000 images[4]",
+          "Over 47,000 files removed as of late February due to victim protection concerns[3]",
+          "Current publicly available documents total approximately 2.7 million pages[3]",
+          "House Oversight Committee released 33,295 pages from DOJ on separate timeline[2]",
+          "Some removed files contained explicit images and unredacted survivor information[3]"
+        ],
+        "dispute_notes": "Lawmakers have criticized certain redactions as potentially protecting powerful individuals rather than solely protecting victims[3]"
+      },
+      "original_signal": "Epstein document releases",
+      "category": "INTELLIGENCE"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Russia-Ukraine peace talks as of March 4, 2026; next round expected in early March per Zelensky's February statement.",
+      "summary": "Zelensky stated on February 27, 2026, that a new round of trilateral peace talks with Russia, likely in Abu Dhabi, is expected in early March following U.S.-mediated discussions in Geneva. No confirmation of the talks having started or occurred by March 4, with prior trilateral meetings in January-February yielding limited results like a prisoner exchange but no major breakthroughs. Russia maintains maximalist demands including territorial recognition and Ukraine's neutrality, while public opinion in Ukraine remains polarized.",
+      "event_type": "POLITICAL",
+      "imminence": "NEAR_TERM",
       "sources": [
         "1",
         "2",
         "3"
       ],
-      "timestamp": "2026-03-03",
-      "original_signal": "Gulf SWF capital movements",
-      "category": "FINANCIAL"
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new Epstein document releases since January 30, 2026 DOJ drop; ongoing scrutiny over redactions and completeness.",
-      "summary": "The DOJ released over 3 million pages, 180,000 images, and 2,000 videos on January 30, 2026, claiming compliance with the Epstein Files Transparency Act, but faced backlash for redaction errors exposing victim identities, which were later addressed.[2][3] Deputy AG Todd Blanche stated on February 2, 2026, there would be no additional prosecutions from the materials, and this was the final major release.[3] As of March 3, 2026, no further DOJ releases have occurred, though claims persist that only 2% of total data has been made public.[6]",
-      "event_type": "INTELLIGENCE",
-      "imminence": "MONITORING",
-      "sources": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "timestamp": "2026-03-03",
-      "original_signal": "Epstein document releases",
-      "category": "INTELLIGENCE"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Trilateral US-Ukraine-Russia peace talks scheduled for March 5-8 in Abu Dhabi or alternatives like Turkey/Switzerland, amid Middle East tensions.",
-      "summary": "Ukrainian President Zelensky confirmed on March 2 that planned trilateral peace talks with Russia and the US, originally set for Abu Dhabi between March 5-8, remain on track despite Iranian strikes disrupting the venue, with alternatives like Turkey or Switzerland proposed.[1][2][5] Kremlin spokesman Peskov affirmed Russia's preference for diplomatic settlement, following tense Geneva talks in late February that made limited progress on ceasefire monitoring but stalled on political issues like Donbas control.[2][3] No meetings have occurred since Geneva on February 17-18, and current discussions focus on securing a venue and addressing prisoner exchanges and ceasefire drafts.[3]",
-      "event_type": "POLITICAL",
-      "imminence": "NEAR_TERM",
-      "sources": [
-        "Independent (March 3, 2026)[1]",
-        "The Defense Post (March 2, 2026)[2]",
-        "Wikipedia: Geneva meetings (Feb 2026)[3]",
-        "Atlantic Council[4]",
-        "Independent Bulletin[5]",
-        "NV.ua[6]"
-      ],
-      "timestamp": "2026-03-03",
+      "timestamp": "2026-03-04",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     }
