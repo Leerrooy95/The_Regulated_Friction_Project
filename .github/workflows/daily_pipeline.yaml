@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches all history so rebase works properly
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,26 +28,22 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install scrapy pandas
+          pip install scrapy pandas openai azure-ai-inference python-dotenv
 
       - name: Run Spider (Federal Register EOs)
         run: |
-          # We save to a temp file so we don't accidentally overwrite the main database
           scrapy crawl federal_register_eo -o output/latest_scrape.json
 
       - name: Run Perplexity Daily Intelligence Update
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
-        run: |
-          pip install openai
-          python daily_perplexity_update.py
+        run: python daily_perplexity_update.py
 
       - name: Run Llama Scout Extraction
+        continue-on-error: true
         env:
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
-        run: |
-          pip install azure-ai-inference python-dotenv
-          python test_api.py
+        run: python test_api.py
 
       - name: Commit and Push Updates
         run: |
@@ -58,9 +54,38 @@ jobs:
           # Check for changes
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Daily update: spider scrape + Perplexity intelligence"
-            # The Magic Fix: Pull any changes from Droplet/Codespace first, then stack new data on top
-            git pull origin main --rebase
-            git push origin main
+            
+            # Robust push: fetch + merge (not rebase) with conflict auto-resolution.
+            # In a merge, --strategy-option=ours keeps the CURRENT branch's version
+            # of conflicting hunks, i.e. the runner's freshly generated data always wins.
+            # Non-conflicting remote changes (e.g. docs edited on the Droplet) are
+            # still incorporated normally.
+            MAX_RETRIES=5
+            for i in $(seq 1 $MAX_RETRIES); do
+              echo "--- Push attempt $i of $MAX_RETRIES ---"
+              
+              git fetch origin main
+              
+              # Merge remote changes; auto-resolve conflicts keeping local data
+              if ! git merge origin/main --no-edit --strategy-option=ours; then
+                echo "::warning::Merge failed on attempt $i, aborting and retrying..."
+                git merge --abort 2>/dev/null || true
+                sleep $((i * 2))
+                continue
+              fi
+              
+              # Attempt push — may be rejected if remote moved again
+              if git push origin main; then
+                echo "✅ Push succeeded on attempt $i"
+                exit 0
+              fi
+              
+              echo "::warning::Push rejected on attempt $i (remote updated). Retrying..."
+              sleep $((i * 2))
+            done
+            
+            echo "::error::Failed to push after $MAX_RETRIES attempts"
+            exit 1
           else
             echo "No new data to commit."
           fi
