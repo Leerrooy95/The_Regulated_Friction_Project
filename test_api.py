@@ -552,7 +552,7 @@ def main():
 
     # Validate environment
     if not TOKEN:
-        print("ERROR: GITHUB_TOKEN not found in environment. Set it in .env or export it.")
+        print("ERROR: MODEL_API_KEY not found in environment. Set it in .env or export it.")
         sys.exit(1)
 
     if not Path(intel_file).exists():
@@ -711,7 +711,7 @@ def main():
         print(f"  Detail: {exc}")
         print()
         print("Common fixes:")
-        print("  - Check GITHUB_TOKEN is valid and has model access")
+        print("  - Check MODEL_API_KEY is valid and has model access")
         print("  - Verify endpoint: https://models.github.ai/inference")
         print("  - Check rate limits on your GitHub Models access tier")
         sys.exit(1)
