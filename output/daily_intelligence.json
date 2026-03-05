@@ -1,147 +1,145 @@
 {
-  "generated_at": "2026-03-04T08:24:43Z",
+  "generated_at": "2026-03-05T08:27:18Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
   "config_version": "2026-02-28",
   "top_3_developments": [
     {
-      "headline": "US-Iran war entered Day 3 with 6 US service members killed in Operation Epic Fury",
-      "summary": "The US and Israel continued large-scale combat operations against Iran's missile sites, navy, air defenses, and nuclear capabilities, confirming 6 US deaths after recovering two more service members from Iranian strikes. Iran retaliated by launching hundreds of ballistic missiles and drones at US bases across multiple Gulf states and civilian targets, injuring 27 Kuwaiti troops and disrupting the Strait of Hormuz. Trump notified Congress under the War Powers Resolution and warned the campaign may last 5 weeks.",
+      "headline": "US and Israel intensified air strikes on over 1,700 Iranian targets including nuclear and missile sites while Iran continued drone and missile attacks on US bases",
+      "summary": "Joint US-Israeli operations struck Iranian nuclear facilities, missile sites, and leadership complexes in Tehran since February 28, achieving air dominance with IDF F-35 downing an Iranian jet over Tehran on March 4. Iran persisted with drone and ballistic missile retaliation against US forces in Kuwait, Bahrain, and Iraq, causing at least 6 US fatalities and temporary embassy closures in Riyadh and Kuwait. US officials signaled increased strike intensity as of March 4.",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "CBS News live updates on Day 3; ISW Iran Update Special Report[1][4]",
-      "timestamp": "2026-03-04"
+      "source": "ISW: Iran Update March 3, 2026; N18G YouTube: US Iran War Update March 4",
+      "timestamp": "2026-03-05"
     },
     {
-      "headline": "Board of Peace held inaugural meeting on February 19 with $19B pledged for Gaza reconstruction",
-      "summary": "The Board of Peace, chaired by President Trump, secured $10B from the US, $7B from countries, $2B from the UN, and $75M from FIFA for Gaza efforts, overseeing the NCAG and planning an ISF post-UNSCR 2803. Implementation faces challenges including Hamas disarmament, IDF withdrawal, and skepticism from Europe and the Vatican. No new developments reported as of March 4.",
-      "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "source": "White House Statement; Jerusalem Post[2]",
-      "timestamp": "2026-03-04"
-    },
-    {
-      "headline": "Gulf SWFs deployed record $119B in 2025 with aggressive US and AI investments",
-      "summary": "Funds like PIF acquired Electronic Arts for $29B and Mubadala invested $24B in the US, doubling commitments to $70B amid AI focus. Structural reorganizations continue at Lam’ad, QIA, and others to enhance efficiency for mega-deals like Paramount Skydance. Appetite persists for AI, digital infrastructure, and climate assets despite oil pressures.",
+      "headline": "Gulf sovereign wealth funds continued elevated US investment pace with participation in major deals",
+      "summary": "Gulf funds including PIF ($29B) and Mubadala ($24B) deployed record 2025 capital into US AI and tech sectors, doubling prior year levels. In early 2026, they backed ongoing cross-border deals such as Paramount Skydance's $108B bid for Warner Bros. Discovery while restructuring internal architectures like Abu Dhabi's L'imad merger. Funds anticipate challenges from oil prices but potential gas and metals flows.",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "source": "Semafor: Gulf sovereign funds ramp up US bets[3]",
-      "timestamp": "2026-03-04"
+      "source": "2025 annual reports; January-February 2026 articles",
+      "timestamp": "2026-03-05"
+    },
+    {
+      "headline": "Board of Peace held inaugural meeting on February 19 advancing Gaza reconstruction and ISF commitments",
+      "summary": "The Board of Peace, chaired by President Trump, convened its first meeting at the Donald J. Trump United States Institute of Peace to secure funds and troop commitments for Gaza under UNSCR 2803. Ratified in Davos on January 22, it focuses on redevelopment until Palestinian Authority control with additional members expected. No new developments reported as of March 5.",
+      "event_type": "POLITICAL",
+      "imminence": "ONGOING",
+      "source": "Board of Peace reports",
+      "timestamp": "2026-03-05"
     }
   ],
   "new_alerts": [],
   "signal_updates": [
     {
+      "signal": "Iran-US military action",
+      "status": "ACTIVE",
+      "change": "Intensified US-Israeli strikes and Iranian retaliation ongoing with recent IDF jet downing"
+    },
+    {
       "signal": "Epstein document releases",
-      "status_change": "ACTIVE to RESOLVED",
-      "details": "DOJ completed release of 3.5M pages under Transparency Act but removed 47K files for victim protection."
+      "status": "RESOLVED",
+      "change": "DOJ completed major releases on Jan 30 with subsequent removals; no new activity"
     },
     {
       "signal": "Russia-Ukraine negotiations",
-      "status_change": "No change",
-      "details": "Status MONITORING; next round expected early March per Zelensky, no confirmation as of March 4."
+      "status": "MONITORING",
+      "change": "No confirmation of expected early March Abu Dhabi talks as of March 5"
     }
   ],
   "priority_watchlist": [
-    "US-Iran war escalation and Iranian retaliation impacts on Gulf states and energy markets.",
-    "Confirmation of Russia-Ukraine peace talks in early March.",
-    "Progress on Board of Peace Gaza pledges implementation amid war.",
-    "New Gulf SWF investment announcements in AI/tech.",
-    "Any Epstein file disputes or additional DOJ actions."
+    "Escalation of US-Israeli strikes on Iran and Iranian retaliation against US Gulf bases",
+    "Confirmation or cancellation of Russia-Ukraine peace talks in Abu Dhabi",
+    "Gulf SWF participation in Warner Bros. Discovery bid and internal restructuring outcomes",
+    "Board of Peace addition of new members and Gaza funding commitments",
+    "Potential Iranian actions in Strait of Hormuz or via proxies like Hezbollah"
   ],
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "US-Iran war enters Day 3 with 6 US service members killed in Operation Epic Fury; Trump warns campaign may last 5 weeks",
-      "summary": "The US and Israel continue large-scale combat operations against Iran, targeting missile sites, navy, air defenses, and nuclear capabilities, with 6 US deaths confirmed after recovery of two more service members from Iranian strikes. Iran has retaliated by launching hundreds of ballistic missiles and drones at US bases in Jordan, Kuwait, Bahrain, Qatar, Iraq, Saudi Arabia, UAE, and civilian targets, injuring 27 Kuwaiti troops and disrupting the Strait of Hormuz. Trump has notified Congress under War Powers Resolution and stated the operation aims to destroy Iran's military threats, not ruling out ground troops.",
+      "headline": "US and Israel intensify air strikes on Iranian military and nuclear sites as Iran continues drone and missile retaliation against US bases and Gulf allies.",
+      "summary": "Joint US-Israeli operations have struck over 1,700 Iranian targets since February 28, including nuclear facilities, missile sites, and leadership complexes in Tehran, achieving air dominance.[1][2] Iran persists with drone and ballistic missile attacks on US forces in Gulf states like Kuwait, Bahrain, and Iraq, causing US casualties (at least 6 killed) and temporary embassy closures in Riyadh and Kuwait.[1][2] On March 4, IDF F-35 downed an Iranian jet over Tehran, with US officials signaling increased strike intensity.[1]",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "CBS News live updates on Day 3",
-        "Wikipedia: 2026 Iran conflict",
-        "ISW Iran Update Special Report",
-        "Global National YouTube",
-        "Fox News video",
-        "Euronews"
+        "Wikipedia: 2026 Iran war",
+        "ISW: Iran Update March 3, 2026",
+        "N18G YouTube: US Iran War Update March 4"
       ],
-      "timestamp": "2026-03-04",
+      "timestamp": "2026-03-05",
       "original_signal": "Iran-US military action",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace inaugural meeting held on February 19, 2026, with $19B pledged for Gaza reconstruction; implementation ongoing amid challenges.",
-      "summary": "The Board of Peace, chaired by President Trump, convened its first meeting on February 19, 2026, at the Donald J. Trump United States Institute of Peace, securing $10B from the US, $7B from participating countries, $2B from the UN, and $75M from FIFA for Gaza reconstruction and stabilization.[1][3] It oversees the National Committee for the Administration of Gaza (NCAG) and plans for an International Stabilization Force (ISF), following UNSCR 2803 approval in November 2025, but faces hurdles like Hamas disarmament, IDF withdrawal, and skepticism from Europe and the Vatican.[2][3][4] No new developments reported since the meeting as of March 4, 2026; focus remains on translating pledges into on-ground execution.[3]",
+      "headline": "Board of Peace inaugural meeting held on February 19, 2026, advancing Gaza reconstruction funding and ISF commitments.",
+      "summary": "The Board of Peace, chaired by President Trump, convened its first meeting on February 19, 2026, at the Donald J. Trump United States Institute of Peace to secure reconstruction funds and troop commitments for an International Stabilization Force in Gaza. It was formally ratified in a January 22, 2026, ceremony in Davos and operates under UNSCR 2803 from November 2025, focusing on Gaza redevelopment until the Palestinian Authority assumes control. No new developments reported as of March 5, 2026; activities remain ongoing with additional board members expected.",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
-        "Arab Center DC (web:1)",
-        "White House Statement (web:2)",
-        "Jerusalem Post (web:3)",
-        "Chatham House (web:4)",
-        "YouTube Transcript (web:5)",
-        "Baker Institute (web:6)"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
-      "timestamp": "2026-03-04",
+      "timestamp": "2026-03-05",
       "original_signal": "Board of Peace developments",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Gulf SWFs, led by PIF and Mubadala, continue aggressive US and AI investments post-record 2025 deployments",
-      "summary": "Gulf sovereign wealth funds deployed a record $119 billion in 2025, with PIF's $29 billion Electronic Arts acquisition and Mubadala's $24 billion in US bets marking peak activity, doubling US investments to $70 billion amid AI and tech focus.[1][3][4] Funds like Abu Dhabi's Lam’ad and Qatar's QIA are undergoing structural reorganizations to boost efficiency and global reach, while appetite persists for mega-deals such as backing the $108 billion Paramount Skydance bid for Warner Bros. Discovery.[1][2] No specific new 2026 deals confirmed yet, but reports indicate ongoing strategic shifts from scale to targeted investments in AI, digital infrastructure, and climate assets despite oil price pressures.[2][4]",
+      "headline": "Gulf sovereign funds maintain elevated US investment pace with major deal participation ongoing",
+      "summary": "Gulf sovereign wealth funds deployed record capital into the United States in 2025, with PIF and Mubadala leading at $29 billion and $24 billion respectively, heavily focused on AI and tech acquisitions. As of early 2026, these funds continue backing major cross-border deals including Paramount Skydance's $108 billion hostile bid for Warner Bros. Discovery, while simultaneously restructuring internal fund architectures across the region to enhance operational efficiency and global competitiveness.",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "Semafor: Gulf sovereign funds ramp up US bets (Jan 6, 2026)",
-        "Alhurra: Gulf SWF reorganizations",
-        "AGBI YouTube: 2025 Gulf SWF recap (Jan 6, 2026)",
-        "MUFG Research: Middle East Daily (Jan 5, 2026)",
-        "Arab News: GCC debt markets"
+        1,
+        2,
+        3,
+        4
       ],
-      "timestamp": "2026-03-04",
+      "timeline": {
+        "2025_peak": "Gulf funds deployed $70 billion to US (doubled from prior year); seven largest Gulf funds deployed $119 billion globally",
+        "current_status_2026": "Ongoing major deal participation (Warner Bros. Discovery bid); internal restructuring of Abu Dhabi's L'imad, Qatar Investment Authority portfolio reviews underway; PIF and Mubadala remain primary deployment engines"
+      },
+      "key_developments": {
+        "deployment_intensity": "59% of seven largest Gulf funds' deals directed to US; AI sector represents 63% of global sovereign AI spending from Gulf sources (2020-2025)",
+        "structural_changes": "Abu Dhabi merged L'imad with ADQ under unified Lam'ad entity; Qatar Investment Authority reviewing domestic vs. foreign portfolio separation",
+        "forecast_2026": "Expected challenging year for oil-dependent funds due to price pressures, but gas and metals sectors may drive new capital flows"
+      },
+      "confidence": "HIGH",
+      "data_freshness": "Latest data from 2025 annual reports; article dates range January-February 2026",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "RESOLVED",
-      "headline": "DOJ completed Epstein document release under Transparency Act; 3.5 million pages published with ongoing file removal due to victim protection concerns",
-      "summary": "The Department of Justice finished its compliance with the Epstein Files Transparency Act (signed November 19, 2025) by publishing 3.5 million pages of documents as of February 1, 2026. However, the DOJ has since removed over 47,000 files (approximately 65,500 pages) from public access due to concerns about unredacted survivor information and photos. Deputy Attorney General Todd Blanche stated the department reviewed 6 million total pages, with withholdings justified for victim protection and ongoing investigations.",
-      "event_type": "POLITICAL",
+      "headline": "DOJ completed major Epstein files release on Jan 30, 2026; ongoing removals and reviews as of late Feb 2026.",
+      "summary": "The DOJ released over 3 million pages, 2,000 videos, and 180,000 images on January 30, 2026, declared as the final major batch fulfilling the Epstein Files Transparency Act.[1][2][3][6] Since then, the DOJ has removed tens of thousands of files (about 65,500 pages) due to privacy violations exposing victim information, with the public total now at ~2.7 million pages as of late February.[4] No new major releases have occurred by March 5, 2026; related developments include congressional testimonies and an arrest, but file releases are complete.[1][2]",
+      "event_type": "INTELLIGENCE",
       "imminence": "MONITORING",
       "sources": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "[1]",
+        "[2]",
+        "[3]",
+        "[4]",
+        "[5]",
+        "[6]"
       ],
-      "timestamp": "2026-03-04",
-      "additional_context": {
-        "key_facts": [
-          "Initial release comprised 3.5 million pages combined with prior releases[4]",
-          "Release included over 2,000 videos and 180,000 images[4]",
-          "Over 47,000 files removed as of late February due to victim protection concerns[3]",
-          "Current publicly available documents total approximately 2.7 million pages[3]",
-          "House Oversight Committee released 33,295 pages from DOJ on separate timeline[2]",
-          "Some removed files contained explicit images and unredacted survivor information[3]"
-        ],
-        "dispute_notes": "Lawmakers have criticized certain redactions as potentially protecting powerful individuals rather than solely protecting victims[3]"
-      },
+      "timestamp": "2026-03-05",
       "original_signal": "Epstein document releases",
       "category": "INTELLIGENCE"
     },
     {
       "status": "MONITORING",
-      "headline": "No new developments on Russia-Ukraine peace talks as of March 4, 2026; next round expected in early March per Zelensky's February statement.",
-      "summary": "Zelensky stated on February 27, 2026, that a new round of trilateral peace talks with Russia, likely in Abu Dhabi, is expected in early March following U.S.-mediated discussions in Geneva. No confirmation of the talks having started or occurred by March 4, with prior trilateral meetings in January-February yielding limited results like a prisoner exchange but no major breakthroughs. Russia maintains maximalist demands including territorial recognition and Ukraine's neutrality, while public opinion in Ukraine remains polarized.",
+      "headline": "No new Russia-Ukraine peace talks confirmed as of March 5, 2026; Zelensky expected early March meeting in Abu Dhabi but no updates.",
+      "summary": "Zelensky stated on February 27, 2026, that a new round of trilateral peace talks with Russia is expected 'most likely' in early March in Abu Dhabi following U.S.-brokered Geneva meetings, but no confirmation of occurrence by March 5. U.S. envoys met separately with Ukrainian negotiator Rustem Umerov and Russian envoy Kirill Dmitriev in Geneva on February 27, discussing security guarantees and reconstruction, but no direct Russia-Ukraine contact reported. Russian FM Lavrov denied deadlines and emphasized ongoing tasks, with no progress toward a deal.[1]",
       "event_type": "POLITICAL",
-      "imminence": "NEAR_TERM",
+      "imminence": "MONITORING",
       "sources": [
-        "1",
-        "2",
-        "3"
+        "The Moscow Times (Feb 27, 2026)",
+        "Wikipedia (historical context)"
       ],
-      "timestamp": "2026-03-04",
+      "timestamp": "2026-03-05",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     }
