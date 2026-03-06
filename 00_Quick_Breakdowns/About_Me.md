@@ -1,51 +1,34 @@
-# About Me (Austin Smith)
-
-*To understand how I ended up on GitHub, learning the basics of Python code, and using that to look into politics, it's important to understand the trajectory my life has taken so far.*
-
-**In short:** I'm a 29-year-old from Arkansas. I decided to use the reconnaissance and security skills I trained for in federal, state, and private security jobs (Army National Guard Cavalry Scout, Correctional Officer, and G4S Security) to determine why politics is so polarized—and to try to learn what's really going on behind the noise.
+**Austin Smith**
 
 ---
 
-## Section 1: Where I Started
+## In short:
+> I am a 29-year-old from Arkansas. I use the reconnaissance, threat assessment, and security skills I trained for in federal, state, and private security jobs (Army National Guard Cavalry Scout, Correctional Officer, and G4S Security) to analyze complex geopolitical data and track adversarial influence. Over the last year, I transitioned from physical security to digital intelligence by architecting automated, multi-agent AI pipelines to process unstructured data at scale.
 
-**At 15-16:** I went to the Arkansas National Guard Youth Challenge Program when my mom found out I smoked weed at 15. I turned 16 in there, and it set me on a different path.
+## Section 1:
+**The Reconnaissance Foundation:**
+> My background is in high-stress, observational security environments. I swore into the National Guard at 17, trained at Fort Benning as a Cavalry Scout (19D), and later worked in state corrections and private security. These roles required strict objectivity: observing environments, documenting facts, and separating actionable threats from background noise.
 
-**At 17:** I swore into the National Guard within weeks of turning 17 and was on the way to Harmony Church (Fort Benning) a few months later. When I got back, I settled into the unit slowly—I was the quiet guy who just talked to people who approached me. Eventually, I got comfortable. The unit was fantastic, and I made great friends before it was eventually shut down.
+## Section 2: The Pivot to Digital Intelligence (2025)
+> In late 2024 and early 2025, I noticed severe polarization and coordinated narratives dominating social media, peaking around the September 2025 Charlie Kirk assassination. The mainstream narratives from both sides felt like coordinated influence campaigns.
+> I approached this like a Russian "Numbers Station" (UVB-76). You might not be able to crack the exact code, but by tracking the signal bursts, you can prove the station is active. I realized politics and capital flows work the same way: the "Culture War" is the static, but legislation and sovereign wealth movements are the actionable signals.
+> In October 2025, I began teaching myself Python to automate this tracking.
 
-**At 19-22:** I was 19 when my stepdad passed away. That was a rough moment. Not long after, our Cav unit was disbanded; we had to pack up gear, ship it off, and reclass. I ended up being thrown into an Infantry unit that was not full of the best people to be around at that time in my life.
-
-**22 or 23 onward:** After the Infantry unit ordeal, my military career became less of a dream and more of a burden. I would have turned down a $50k re-enlistment bonus if they offered it—that's how done I was. The next 7 years consisted of getting jobs, burning out, and looking for something else. It is draining to feel like there's nothing satisfying that helps anyone in a way you know you're capable of.
-
----
-
-## Section 2: The Change in 2025
-
-**Late 2024/Early 2025:** My social media algorithm started force-feeding me political content instead of the stuff I actually interacted with (video games, movie clips, interviews). At first, I ignored it. Eventually, I noticed how polarized both sides were becoming. One side screaming ‘Nazi,’ the other gloating. I didn't think either side was right.
-
-**Mid-2025:** My brother recommended I start college to become an X-ray Technician (steady pay, good benefits), so in Fall 2025, I enrolled. College Algebra got my brain firing again. Then came September and the **Charlie Kirk assassination**. The narratives were a red flag. Influencers blamed Israel; the administration blamed the ‘radical left.’ Neither narrative made sense.
-
-**Then to now:** My immediate thought was: *“This seems like influence. But how would they do it with connections being scrutinized?”*
-
-My mind went to a video I'd seen years ago of a Russian "Numbers Station" (UVB-76)—a radio signal that just buzzes and occasionally reads out numbers. No one could crack the code, but you could prove the station was *active*.
-
-**That became my methodology.**
-I realized politics works the same way. The "Culture War" is the static. The legislation is the signal.
-* **Build the Map:** Scrape data (policies, bills, infrastructure projects).
-* **Plot Coordinates:** Build datasets of specific companies and investments.
-* **Run Correlations:** See if the "noise" aligns with the "money."
-
-**Now:** As of now, I've pivoted away from the X-ray course path. I am still in college, figuring out what is next. But through this research, I have identified that the core problems are **Lack of Transparency** (specifically in lobbying for water, electric, gas, and AI infrastructure) and **Government Secrecy**.
-
----
+## Section 3: 
+**Technical Capabilities & Recent Projects:**
+> I build self-propelling intelligence models that scrape, parse, and verify massive datasets. My core focus is on data transparency, adversarial threat tracking, and AI safety.
+1. The Regulated Friction Project (Live OSINT Dashboard)
+I built an automated intelligence pipeline to track the temporal correlations between geopolitical "friction" events and institutional capital flows.
+ * The Stack: Zyte (data scraping), Meta Llama 17B (parsing unstructured data), Perplexity Sonar Pro (live web verification), and Claude Opus 4.6 (adversarial statistical checks).
+ * The Findings: Processed 8 years of data to identify a statistically significant correlation (r=0.6196) between friction events and compliance responses.
+ * Evidence vs. Assessment: Maintained strict analytical objectivity by documenting that this correlation is an observational association, not a proven causal mechanism. The dashboard explicitly tracks falsifiable predictions, openly logging failures (for example, three missed Q4 2025 13F predictions) as verifiable data.
+2. The Bill Translator (Civic Tech & AI Safety)
+I developed a Flask-based web application to solve a specific legislative transparency problem: Arkansas Act 602, which requires ballot titles to be at an 8th-grade reading level.
+ * The Stack: Python, Flask, Anthropic API (Claude), Textstat.
+ * The Application: An automated tool that simplifies dense legal jargon while preserving the exact legal intent.
+ * Threat Mitigation (Meaning Drift Detection): I engineered a custom verification layer that extracts legal terms before translation and compares them against the output, automatically flagging potential intent shifts or "meaning drift" for the user.
 
 ## Conclusion
+> My objective is to apply my physical reconnaissance background and my newly developed AI engineering skills to track online harms, verify facts, and force systemic transparency.
 
-I'm not claiming to be a professional, but I also can't discount the work I put into getting to this specific project. I started with curiosity, and have built what is essentially a self-propelling model.
-
-A few key things I've noticed that cause these problems that I've been researching are lack of transparency in investments and lobbying for water, electric, gas, and AI related infrastructure projects/policies in states. Also government secrecy is a huge issue, but that's a whole other can of worms.
-
----
-
-**I appreciate your time and I'm open to any questions, concerns, or anything. I hope everyone is doing well!**
-
-**Last updated:** February 8, 2026
+**Last updated: March 6, 2026**
