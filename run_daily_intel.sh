@@ -41,15 +41,15 @@ GIT_BRANCH="main"
 REPO_DIR="${REPO_DIR:-/root/The_Regulated_Friction_Project}"
 
 # Polling tuning
-POLL_INTERVAL=60   # seconds between API checks (≈60 req over 60 min — well within 5,000/hr PAT limit)
+POLL_INTERVAL=60   # seconds between API checks (≈90 req over 90 min — well within 5,000/hr PAT limit)
 MAX_WAIT=5400      # 90-minute hard ceiling (seconds)
 
 # Derived
 TODAY=$(date -u +"%Y-%m-%d")
 API_BASE="https://api.github.com"
 # Endpoint: list workflow runs for a specific workflow, filtered to today's
-# successful runs on the main branch.  The `status` parameter accepts both
-# run statuses (completed, in_progress …) and conclusions (success, failure …).
+# completed runs on the main branch.  We filter by status=completed at the
+# API level, then verify conclusion=success in the JSON response body.
 # Docs: https://docs.github.com/en/rest/actions/workflow-runs#list-workflow-runs-for-a-workflow
 API_URL="${API_BASE}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/runs"
 
@@ -85,7 +85,7 @@ check_pipeline_status() {
         -H "Accept: application/vnd.github+json" \
         -H "Authorization: Bearer ${GITHUB_TOKEN}" \
         -H "X-GitHub-Api-Version: 2022-11-28" \
-        "${API_URL}?branch=${GIT_BRANCH}&status=success&per_page=1&created=%3E%3D${TODAY}")
+        "${API_URL}?branch=${GIT_BRANCH}&status=completed&per_page=1&created=%3E%3D${TODAY}T00:00:00Z")
 
     # Split body from HTTP code (last line)
     http_code=$(echo "$response" | tail -n1)
