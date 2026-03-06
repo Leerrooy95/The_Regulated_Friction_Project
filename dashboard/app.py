@@ -47,7 +47,6 @@ from correlation_engine import (
     fisher_ci,
 )
 from data_loader import load_backfill, load_core_dataset, load_eo_spider, load_negative_windows
-from perplexity_verify import verify_pending_signals
 
 # ── Repo root for path resolution (matches data_loader.py) ───────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -112,6 +111,19 @@ def load_daily_intelligence():
     if daily_file.exists():
         try:
             with open(daily_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            return None
+    return None
+
+
+@st.cache_data(ttl=900)
+def load_live_verification():
+    """Load the daily automated prediction verification results."""
+    verification_file = REPO_ROOT / "output" / "live_verification.json"
+    if verification_file.exists():
+        try:
+            with open(verification_file, "r", encoding="utf-8") as f:
                 return json.load(f)
         except (json.JSONDecodeError, IOError):
             return None
@@ -1555,35 +1567,54 @@ with tab_predictions:
     if pending_items:
         st.dataframe(pd.DataFrame(pending_items), use_container_width=True, hide_index=True)
 
-    # ── Perplexity Web Verification (search built-in) ──
-    _verify_queries = [
-        sig.get("verification_query", sig.get("event", ""))
-        for sig in (intel_data.get("pending_signals") or [])
-        if sig.get("web_verification_needed")
-    ] if intel_data else []
-
-    if _verify_queries:
-        st.subheader("🌐 Live Web Verification (Perplexity Sonar)")
+    # ── Perplexity Web Verification (auto-loaded from daily backend run) ──
+    live_verification = load_live_verification()
+    st.subheader("🌐 Live Web Verification (Perplexity Sonar)")
+    if live_verification:
+        run_ts = live_verification.get("generated_at", "")
+        total = live_verification.get("total_predictions", 0)
+        summary = live_verification.get("status_summary", {})
         st.caption(
-            "Uses Perplexity Sonar Pro with built-in web search to verify pending signals "
-            "against live web sources. Requires PERPLEXITY_API_KEY."
+            f"Last verified: {run_ts} · {total} predictions checked · "
+            f"Automated daily run via Perplexity Sonar Pro"
         )
-        if st.button("▶ Run Web Verification", key="btn_perplexity_verify"):
-            with st.spinner("Querying Perplexity Sonar Pro…"):
-                _vresults = verify_pending_signals(_verify_queries)
-            for vr in _vresults:
-                _icon = {"verified": "✅", "unverified": "⚠️", "error": "❌"}.get(vr["status"], "❓")
-                with st.expander(f'{_icon} {vr["query"]}', expanded=vr["status"] == "verified"):
-                    st.markdown(vr["description"])
-                    if vr["source"]:
-                        st.markdown(f"**Source:** {vr['source']}")
-                    st.caption(f"Checked: {vr['date']} · Status: {vr['status']}")
-            st.download_button(
-                "⬇ Download verification results (JSON)",
-                data=json.dumps(_vresults, indent=2),
-                file_name="perplexity_verification.json",
-                mime="application/json",
-            )
+        # Status summary metrics
+        _v_cols = st.columns(4)
+        _v_cols[0].metric("✅ Verified", summary.get("verified", 0))
+        _v_cols[1].metric("⚠️ Partial", summary.get("partial", 0))
+        _v_cols[2].metric("🔍 Monitoring", summary.get("monitoring", 0))
+        _v_cols[3].metric("❓ Unverified / Error",
+                          summary.get("unverified", 0) + summary.get("error", 0))
+        st.divider()
+        _status_icons = {
+            "verified": "✅",
+            "partial": "⚠️",
+            "monitoring": "🔍",
+            "unverified": "⚠️",
+            "error": "❌",
+        }
+        for vr in live_verification.get("results", []):
+            _icon = _status_icons.get(vr.get("status", ""), "❓")
+            _label = vr.get("prediction") or vr.get("query", "")
+            with st.expander(f'{_icon} {_label}', expanded=vr.get("status") == "verified"):
+                st.markdown(vr.get("description", ""))
+                if vr.get("source"):
+                    st.markdown(f"**Source:** {vr['source']}")
+                for cite in (vr.get("citations") or [])[:5]:
+                    st.caption(f"📎 {cite}")
+                _checked = vr.get("date_checked", vr.get("date", ""))
+                st.caption(f"Checked: {_checked} · Status: {vr.get('status', '')}")
+        st.download_button(
+            "⬇ Download verification results (JSON)",
+            data=json.dumps(live_verification, indent=2),
+            file_name="live_verification.json",
+            mime="application/json",
+        )
+    else:
+        st.caption(
+            "Verification results load automatically after the daily pipeline runs (8:00 AM UTC). "
+            "No manual action required."
+        )
     st.divider()
 
     st.markdown(
