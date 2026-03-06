@@ -9,6 +9,7 @@ Uses Perplexity (sonar-pro) to:
 2. Scan breaking news across all tracked entities
 3. Generate prioritized daily summary
 4. Save daily_intelligence.json for dashboard consumption
+5. Verify all pending predictions and save live_verification.json
 
 Requires PERPLEXITY_API_KEY environment variable.
 """
@@ -41,7 +42,7 @@ _MODEL_ID = "sonar-pro"
 _BASE_URL = "https://api.perplexity.ai"
 _MAX_RETRIES = 3
 _BASE_BACKOFF = 2  # seconds; doubles on each retry
-_DAILY_API_BUDGET = 50  # max API calls per 24-hour period
+_DAILY_API_BUDGET = 75  # max API calls per 24-hour period (increased to cover prediction verification)
 CONFIG_FILE = Path("intelligence_config.json")
 OUTPUT_DIR = Path("output")
 BUDGET_FILE = OUTPUT_DIR / ".api_budget.json"
@@ -85,6 +86,52 @@ For each significant finding, return a JSON object with:
 - "timestamp": When it occurred
 
 Return as JSON array. Focus on CONFIRMED events, not speculation. If something happened, say it happened."""
+
+# ---------------------------------------------------------------------------
+# Pending predictions — mirrors the ⏳ entries in app.py's predictions_data
+# table. Keep this list in sync when new predictions are added.
+# ---------------------------------------------------------------------------
+PENDING_PREDICTIONS = [
+    {"prediction": "DOGE-predicted instability", "timeframe": "Q1 2026",
+     "query": "DOGE Department of Government Efficiency instability fallout Q1 2026"},
+    {"prediction": "California TikTok investigation findings", "timeframe": "Q1 2026",
+     "query": "California TikTok investigation AG findings Q1 2026"},
+    {"prediction": "Khanna investigation findings", "timeframe": "Mar 2026",
+     "query": "Ro Khanna TikTok ByteDance investigation findings March 2026"},
+    {"prediction": "Arkansas PSC order text release", "timeframe": "Q1 2026",
+     "query": "Arkansas Public Service Commission PSC order text release Q1 2026"},
+    {"prediction": "QXO further acquisitions", "timeframe": "2026",
+     "query": "QXO Brad Jacobs acquisitions 2026"},
+    {"prediction": "EO 14375 legal challenge (IOIA authorization)", "timeframe": "2026",
+     "query": "Executive Order 14375 legal challenge International Organizations Immunities Act 2026"},
+    {"prediction": "NTEU court-ordered position list disclosure", "timeframe": "Feb 27, 2026",
+     "query": "NTEU National Treasury Employees Union court order DOGE position list disclosure 2026"},
+    {"prediction": "Schedule Policy/Career implementation", "timeframe": "Mar 9, 2026",
+     "query": "Schedule Policy Career federal employee reclassification implementation March 2026"},
+    {"prediction": "Feb 11 compliance density repeat at next major hearing", "timeframe": "Ongoing",
+     "query": "US Congress major hearing compliance executive order cluster 2026"},
+    {"prediction": "Khanna investigation document deadline", "timeframe": "Mar 1, 2026",
+     "query": "Ro Khanna ByteDance TikTok document deadline March 1 2026"},
+]
+
+PREDICTION_VERIFY_PROMPT = """You are a fact-checking assistant for a political analysis research project. Today is {today}.
+
+Search the web for the CURRENT STATUS of this pending prediction:
+Prediction: "{prediction}"
+Timeframe: {timeframe}
+Search query: {query}
+
+Return a JSON object with EXACTLY these fields:
+- "prediction": Copy the prediction text verbatim
+- "timeframe": Copy the timeframe verbatim
+- "query": Copy the search query verbatim
+- "status": ONE of — "verified" (confirmed happened), "partial" (partially confirmed / in progress), "monitoring" (situation ongoing, no resolution yet), "unverified" (no evidence found), or "error"
+- "description": 2-3 sentence factual summary of what you found. Use past tense for confirmed events.
+- "source": The primary source URL (string, or empty string if none)
+- "citations": Array of up to 5 source URLs
+- "date_checked": Today's date ({today})
+
+Be factual and concise. If the prediction has not resolved, use "monitoring". Do NOT speculate."""
 
 DAILY_SUMMARY_PROMPT = """You are the intelligence analyst for The Regulated Friction Project.
 
@@ -322,6 +369,77 @@ def generate_daily_summary(client, signal_updates: list, breaking_news: list, fr
     }
 
 
+def _load_llm_pending_signals() -> list[dict]:
+    """Load additional pending signals from the latest LLM extraction file.
+
+    Returns a list of dicts with ``prediction`` and ``query`` keys,
+    derived from signals that have ``web_verification_needed=True``.
+    Silently returns an empty list if no extraction file is found.
+    """
+    extraction_files = list(OUTPUT_DIR.glob("*_extracted.json"))
+    if not extraction_files:
+        return []
+    latest = sorted(extraction_files, key=lambda p: p.name, reverse=True)[0]
+    try:
+        with open(latest, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, IOError) as exc:
+        logger.warning("Could not load LLM extraction file: %s", exc)
+        return []
+
+    extras: list[dict] = []
+    for sig in data.get("pending_signals", []):
+        if not sig.get("web_verification_needed"):
+            continue
+        event = sig.get("event", "")
+        query = sig.get("verification_query") or event
+        deadline = sig.get("deadline", "")
+        if event:
+            extras.append({
+                "prediction": event,
+                "timeframe": deadline,
+                "query": query,
+            })
+    return extras
+
+
+def verify_pending_prediction(client, pred: dict, today: str) -> dict:
+    """Verify a single pending prediction via Perplexity."""
+    prompt = PREDICTION_VERIFY_PROMPT.format(
+        today=today,
+        prediction=pred["prediction"],
+        timeframe=pred.get("timeframe", ""),
+        query=pred.get("query", pred["prediction"]),
+    )
+    try:
+        raw = _call_perplexity(client, prompt)
+        parsed = _parse_json(raw)
+        if isinstance(parsed, dict):
+            # Ensure required keys exist with fallbacks
+            parsed.setdefault("prediction", pred["prediction"])
+            parsed.setdefault("timeframe", pred.get("timeframe", ""))
+            parsed.setdefault("query", pred.get("query", ""))
+            parsed.setdefault("status", "unverified")
+            parsed.setdefault("description", "")
+            parsed.setdefault("source", "")
+            parsed.setdefault("citations", [])
+            parsed.setdefault("date_checked", today)
+            return parsed
+    except Exception:  # noqa: BLE001
+        logger.warning("Prediction verification failed for: %s", pred["prediction"])
+    return {
+        "prediction": pred["prediction"],
+        "timeframe": pred.get("timeframe", ""),
+        "query": pred.get("query", ""),
+        "status": "error",
+        "description": "Verification call failed.",
+        "source": "",
+        "citations": [],
+        "date_checked": today,
+    }
+
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -390,7 +508,7 @@ def main():
             "priority_watchlist": []
         }
 
-    # Step 4: Assemble output
+    # Step 4: Assemble and save daily intelligence output
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "generated_by": "Perplexity sonar-pro (standalone)",
@@ -403,15 +521,63 @@ def main():
         "daily_budget_limit": _DAILY_API_BUDGET
     }
 
-    # Save
+    # Save daily intelligence
     OUTPUT_DIR.mkdir(exist_ok=True)
     output_path = OUTPUT_DIR / "daily_intelligence.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     logger.info("Daily intelligence saved to %s", output_path)
+
+    # Step 5: Verify pending predictions (budget-gated per call, with rate-limit delay)
+    budget, ok = _check_budget()
+    if ok:
+        # Build the deduplicated prediction list
+        _all_preds: list[dict] = list(PENDING_PREDICTIONS)
+        _seen_lower = {p["prediction"].lower() for p in _all_preds}
+        for _extra in _load_llm_pending_signals():
+            if _extra["prediction"].lower() not in _seen_lower:
+                _all_preds.append(_extra)
+                _seen_lower.add(_extra["prediction"].lower())
+
+        logger.info("Verifying %d pending predictions...", len(_all_preds))
+        _pred_results: list[dict] = []
+        for _pred in _all_preds:
+            budget, ok = _check_budget()
+            if not ok:
+                logger.warning("Budget limit reached during prediction verification")
+                break
+            _pred_results.append(verify_pending_prediction(client, _pred, today))
+            total_api_calls += 1
+            budget = _record_api_call(budget)
+            time.sleep(0.5)  # brief pause to avoid rate-limiting
+
+        # Assemble and save verification output
+        _status_counts: dict[str, int] = {}
+        for _r in _pred_results:
+            _s = _r.get("status", "error")
+            _status_counts[_s] = _status_counts.get(_s, 0) + 1
+
+        verification_output = {
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "generated_by": "Perplexity sonar-pro (prediction verifier)",
+            "total_predictions": len(_pred_results),
+            "status_summary": _status_counts,
+            "results": _pred_results,
+        }
+        verification_path = OUTPUT_DIR / "live_verification.json"
+        with open(verification_path, "w", encoding="utf-8") as f:
+            json.dump(verification_output, f, indent=2, ensure_ascii=False)
+        logger.info(
+            "Prediction verification saved to %s (%d predictions checked)",
+            verification_path,
+            len(_pred_results),
+        )
+    else:
+        logger.warning("Budget limit reached — skipping prediction verification")
+
     logger.info(
-        "Done. %d signals checked, %d breaking items, %d API calls. Budget: %d/%d.",
+        "Done. %d signals checked, %d breaking items, %d API calls total. Budget: %d/%d.",
         len(active_signals),
         len(breaking_news),
         total_api_calls,
