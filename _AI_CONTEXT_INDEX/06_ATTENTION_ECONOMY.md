@@ -69,7 +69,7 @@ Rather than suggesting coordination, the model posits that:
 | Feb 11, 2026 | Called Rep. Jamie Raskin a "washed-up, loser lawyer" | ✅ VERIFIED — NBC News |
 | Post-hearing | House Oversight subpoenaed Bondi for closed-door deposition | ✅ VERIFIED — South Florida Reporter |
 
-**Attention Economy Function**: The "burn book" created a secondary controversy (DOJ surveillance of congressional searches) that competed with the primary issue (Epstein file accountability). The hearing dominated 3–5 news cycles, during which 17 compliance events occurred (467% above baseline).
+**Attention Economy Function**: The "burn book" created a secondary controversy (DOJ surveillance of congressional searches) that competed with the primary issue (Epstein file accountability). The hearing dominated 3–5 news cycles, during which 17 compliance events occurred (467% above baseline — see `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Bondi_Hearing_Feb14_2026.md` for ±7 day window analysis).
 
 ### Kash Patel — FBI Director
 

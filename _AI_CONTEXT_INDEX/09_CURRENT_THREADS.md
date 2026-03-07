@@ -370,7 +370,7 @@
 
 **OpenAI Deal Mechanics** [From Speaker analysis]:
 - OpenAI had been pursuing FedRAMP High authorization since 2023 — compliance infrastructure for classified network integration was being built well before the Anthropic dispute
-- Pentagon "classified networks" language is deliberately vague — could mean SIPRNet (Secret) or JWICS (Top Secret/SCI). Grok/xAI deal operates at IL-5 (Controlled Unclassified); Pentagon classified requires IL-6
+- Pentagon "classified networks" language is deliberately vague — could mean SIPRNet (Secret) or JWICS (Top Secret/SCI). Grok/xAI deal operates at IL-5 (Impact Level 5: Controlled Unclassified Information); Pentagon classified networks require IL-6 (Impact Level 6: Secret/Classified)
 - OpenAI had been in discussions with In-Q-Tel (CIA's venture arm) since at least 2023; Defense Innovation Unit (DIU) piloting GPT-4 for unclassified use since 2023
 - Contract vehicle was likely a pre-existing IDIQ (Indefinite Delivery, Indefinite Quantity) that could be task-ordered without new procurement — explaining the hours-level turnaround
 - Altman acknowledged deal "looked opportunistic and sloppy" — suggests OpenAI internally recognized reputational risk but accepted it; speed priority overrode optics concern
