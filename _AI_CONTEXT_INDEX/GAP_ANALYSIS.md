@@ -55,7 +55,7 @@ The `_AI_CONTEXT_INDEX` mentions `Project_Trident/` in passing but does not docu
 - `Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/` (3 files)
 - `Copilot_Opus_4.6_Analysis/Findings/` (10 files including provenance, discrepancy investigations)
 - `Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/` (1 file)
-- `Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/` (1 file)
+- `Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/` (2 files: Bondi hearing analysis, Attention Economy cross-administration analysis)
 - `Copilot_Opus_4.6_Analysis/Verification_Reports/` (1 file)
 - `Copilot_Opus_4.6_Analysis/Consolidation_Analysis/` (1 file)
 - `Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md`

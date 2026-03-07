@@ -46,7 +46,9 @@
 | **Attention economy / noise generators / quotas** | `06_ATTENTION_ECONOMY.md` | `14_Files/Main_Characters.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` |
 | **DOGE / administrative state** | `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/DOGE_node_timeline.md` | `06_ATTENTION_ECONOMY.md` |
 | **Protests / FaaS (Friction-as-a-Service)** | `11_Protest_Dynamics_and_Funding/README.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/` |
-| **Venezuela** | `05_Geopolitical_Vectors/Venezuela_Privatization_Amnesty_Stack_Feb2026.md` | `05_Geopolitical_Vectors/Graham_Venezuela_Analysis.md`, `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md` |
+| **Venezuela** | `05_Geopolitical_Vectors/Venezuela_Privatization_Amnesty_Stack_Feb2026.md` | `05_Geopolitical_Vectors/Graham_Venezuela_Analysis.md`, `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md`, `09_CURRENT_THREADS.md` (Venezuela/critical minerals update) |
+| **Section 122 / tariff cliff** | `09_CURRENT_THREADS.md` (Section 122 Tariff Pivot) | `04_CAPITAL_ARCHITECTURE.md` |
+| **Attention economy / replacement quotas** | `06_ATTENTION_ECONOMY.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` |
 | **TikTok deal / algorithm** | `04_CAPITAL_ARCHITECTURE.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/TikTok_Algorithm_Anomaly_Investigation.md` |
 | **Palantir** | `Project_Trident/Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md` | `04_CAPITAL_ARCHITECTURE.md` |
 | **13F filings / prediction tracking** | `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/13F_Verification_Report_Feb14_2026.md` | `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/13F_Analysis/Q4_2025_Delta_Findings.md` |
