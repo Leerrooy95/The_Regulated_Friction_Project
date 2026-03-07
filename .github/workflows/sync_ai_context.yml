@@ -1,0 +1,52 @@
+name: Sync AI Context Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_AI_CONTEXT_INDEX/**' # Only triggers when files in this folder change
+  workflow_dispatch: # Adds a button in GitHub so you can run it manually if needed
+
+jobs:
+  sync-to-chatbot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+        with:
+          path: source_repo
+
+      - name: Checkout Destination Repository
+        uses: actions/checkout@v4
+        with:
+          repository: Leerrooy95/Personal_Chatbot
+          token: ${{ secrets.PERSONAL_CHATBOT }}
+          path: dest_repo
+
+      - name: Sync _AI_CONTEXT_INDEX
+        run: |
+          # Wipe the old folder in the destination to ensure deleted files don't stick around
+          rm -rf dest_repo/_AI_CONTEXT_INDEX/
+          
+          # Copy the fresh folder from your main repo into the chatbot repo
+          cp -r source_repo/_AI_CONTEXT_INDEX/ dest_repo/_AI_CONTEXT_INDEX/
+
+      - name: Commit and Push Changes
+        run: |
+          cd dest_repo
+          
+          # Set up the bot identity for the commit history
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add _AI_CONTEXT_INDEX/
+          
+          # Check if there are actually any changes before trying to commit
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected. Skipping commit."
+          else
+            git commit -m "Automated sync: Updated _AI_CONTEXT_INDEX"
+            git push
+          fi
+          
