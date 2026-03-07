@@ -197,6 +197,29 @@ Board of Peace governance authority
 
 ---
 
+## March 2026 Update: Board of Peace Under Kinetic Stress
+
+### Iran War Impact on Signatories (March 1-6, 2026)
+
+The US-Israeli military campaign in Iran (Day 7 as of March 6) directly threatens Board of Peace signatory states:
+
+| Signatory | Impact | Status |
+|-----------|--------|--------|
+| **Bahrain** | Iran fired 7 attack drones at residential neighborhoods (one near Israeli embassy); UK deploying RAF fighters | Under attack |
+| **Qatar** | Drone targeting Al-Udeid Air Base intercepted (March 6) | Under attack |
+| **Saudi Arabia** | Oil/gas infrastructure struck by Iranian missiles; Riyadh targeted | Under attack |
+| **UAE** | Intercepted 109 drones + 9 ballistic missiles (March 6 alone); Dubai Jebel Ali port struck | Under attack |
+| **Kuwait** | 6 US soldiers killed at Port Shuaiba (March 2); US embassy closed | US casualties |
+| **Jordan** | Iran launched missiles at Jordanian territory | Under attack |
+
+**Observation**: 6 of the 35+ Board of Peace signatory states are directly under Iranian military attack — including all Gulf founding signatories. The $7B in pledges occurred <10 days before the signatories' territory was struck. The Board's security architecture (ISF, private contractors, Pakistan proxy forces) has not yet been operationalized while the signatories face kinetic threat.
+
+**Source**: [NPR (March 6, 2026)](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war)
+
+*Updated March 6, 2026.*
+
+---
+
 ## Additional Board of Peace Analysis
 
 | File | Location | Content |

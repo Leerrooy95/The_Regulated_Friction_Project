@@ -201,10 +201,13 @@
 
 ---
 
-## February 2026 Updates
+## February–March 2026 Updates
 
 - **Dan Bongino**: Resigned as Deputy FBI Director Dec 17, 2025. No longer active in framework.
-- **Pete Hegseth**: Conducted "Arsenal of Freedom" defense industrial tour (L3Harris Camden, AR, Feb 27, 2026) <24 hours before Operation Epic Fury. See `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`.
-- **Kash Patel**: FBI Director; continues to control Epstein file release mechanics. House Oversight hearing Feb 9, 2026 (Maxwell invoked 5th Amendment).
+- **Pete Hegseth**: Conducted "Arsenal of Freedom" defense industrial tour (L3Harris Camden, AR, Feb 27, 2026) <24 hours before Operation Epic Fury. Confirmed US submarine torpedoed Iranian naval frigate Dena — first torpedo sinking since WWII (March 4, 2026). See `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`.
+- **Kash Patel**: FBI Director; continues to control Epstein file release mechanics. House Oversight hearing Feb 9, 2026 (Maxwell invoked 5th Amendment). DOJ admitted 15 documents "incorrectly coded as duplicative" after NPR investigation (March 5, 2026).
+- **Kristi Noem**: ✅ **FIRED as DHS Secretary** by Trump (March 5, 2026). Both Republicans and Democrats questioned her leadership in Congressional hearings. Minnesota ICE incident (2 US citizens killed) instrumental in removal. Moved to "Special Envoy for The Shield of the Americas." Sen. Markwayne Mullin (R-OK) nominated as replacement, effective end of March pending Senate confirmation. DHS remains in third week without funding. **Source**: [NPR (March 6, 2026)](https://www.npr.org/2026/03/06/g-s1-112721/up-first-newsletter-kristi-noem-iran-beirut-trump-epstein-venezuela)
 
-*Updated March 1, 2026.*
+**Framework Relevance**: Noem's firing represents the first removal of a "main character" from the framework during active service. The timing — during simultaneous DHS shutdown, Iran war escalation, and Epstein file releases — is consistent with the dual-track system: leadership change at the attention-generating agency occurs while substantive structural events proceed elsewhere.
+
+*Updated March 6, 2026.*

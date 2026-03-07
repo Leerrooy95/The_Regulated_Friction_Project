@@ -229,6 +229,55 @@ This is the densest single-day convergence documented in the repository. All fou
 
 ---
 
+## 7. March 1-6, 2026 — War Widening Convergence and Thermostat Stress Test
+
+### Khamenei Death + Strait of Hormuz Closure (March 1-4)
+
+**Key Facts (Verified via AP News, NPR):**
+- Khamenei death confirmed by Iranian state TV (March 1, 2026) — age 86, killed in Israeli strikes (Feb 28)
+- Strait of Hormuz effectively closed via insurance-driven shipping shutdown (not naval blockade)
+- Oil prices up ~20% to ~$80/barrel — "biggest energy crisis since the 1970s" (RBC Capital Markets)
+- US torpedoed Iranian frigate Dena — first torpedo sinking since WWII (confirmed by Hegseth)
+
+**Framework Alignment:**
+- The thermostat model predicts Gulf SWFs regulate friction intensity to protect infrastructure investments. Khamenei's death and Strait of Hormuz closure represent friction exceeding the thermostat's regulatory capacity — the first time documented kinetic action has overwhelmed the $4.9T capital architecture.
+- ~20M barrels/day blocked = direct economic lever on capital architecture participants
+
+### March 5 Multi-Track Convergence
+
+Five major events on a single day:
+
+| Event | Track | Framework Mechanism |
+|-------|-------|---------------------|
+| Trump fires Kristi Noem | Domestic/Institutional | Leadership change during shutdown |
+| Pentagon designates Anthropic as "supply chain risk" | Tech/AI | Non-compliance penalty (institutional) |
+| DOJ publishes additional Epstein files (NPR investigation) | Information | Leverage documentation exposed |
+| House votes 212-219 against war powers measure | Legislative/Constitutional | Congressional check fails |
+| TikTok deal lawsuit filed | Capital/Legal | Capital architecture legal challenge |
+
+**Framework Alignment:**
+- March 5 represents a 5-event convergence across all framework domains (institutional, tech, information, legislative, capital)
+- Pattern consistent with Thermostat model: war creates attention deficit enabling rapid domestic actions
+- Noem's firing occurs during simultaneous DHS shutdown + Iran war + Epstein release — consistent with dual-track system
+
+### Anthropic — Non-Compliance Case Study (Updated March 6)
+
+The Anthropic standoff provides the clearest demonstration of what non-compliance looks like within the leverage architecture:
+
+| Timeline | Event |
+|----------|-------|
+| Feb 26 | Anthropic refuses Pentagon demands (autonomous weapons + surveillance safeguards) |
+| Feb 27 | Pentagon threatens "supply chain risk" designation |
+| Feb 28 | OpenAI signed deal to replace Anthropic on classified networks (same day as Iran strikes) |
+| Mar 5-6 | Pentagon officially designates Anthropic as supply chain risk |
+| Mar 6 | Amodei announces legal challenge; Claude downloads surge (1M+/day) |
+
+**Framework Relevance:** Speed of replacement (OpenAI deal within hours) suggests pre-positioned compliance pipeline. Consumer surge suggests public resistance to institutional compliance pressure. Former CIA director Hayden + military leaders calling designation "profound departure" = institutional pushback from within security establishment.
+
+**Sources**: [NPR (March 6, 2026)](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk)
+
+---
+
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
@@ -236,7 +285,8 @@ This is the densest single-day convergence documented in the repository. All fou
 - **For Board of Peace architecture**: `03_BOARD_OF_PEACE.md`
 - **For current threads**: `09_CURRENT_THREADS.md`
 - **For Thermostat explanation**: `14_Files/Thermostat_Explained.md`
+- **For unable to verify items**: `Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md`
 
 ---
 
-*Last Updated: March 1, 2026. Added February 27-28 convergence events (Arsenal of Freedom + Iran strikes). This document captures statements made February 15-21, 2026, plus Feb 27-28 kinetic/infrastructure convergence events.*
+*Last Updated: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
