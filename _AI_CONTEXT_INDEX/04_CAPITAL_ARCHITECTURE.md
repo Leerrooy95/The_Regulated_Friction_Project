@@ -331,3 +331,48 @@ This represents a real-world test of the thermostat hypothesis: kinetic strikes 
 **Defense-infrastructure convergence:** L3Harris Camden, AR (115K+ rocket motors/year, R2S Tamir production) is in the same state as AVAIO data center and DATA Act infrastructure. See `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` and `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Federal_Energy_Bypass.md`.
 
 *Updated March 1, 2026.*
+
+---
+
+## March 1-6, 2026 Update: Energy Crisis Tests Capital Architecture
+
+The ongoing US-Israeli military campaign in Iran (Day 7 as of March 6) has created the most severe stress test of the capital architecture documented in this repository:
+
+### Strait of Hormuz Closure
+
+| Detail | Information |
+|--------|-------------|
+| Status | Effectively closed — Iran declared strait closed; insurance-driven shipping shutdown |
+| Mechanism | Iran used selective drone strikes near strait (not naval blockade); insurers refused to underwrite ships |
+| Oil impact | ~20M barrels/day typically pass through; oil prices up ~20% to ~$80/barrel |
+| Assessment | "Biggest energy crisis since the 1970s oil embargo" — Helima Croft, RBC Capital Markets |
+| US response | Naval escorts offered; DFC political risk insurance for shipping; 30-day waiver for India to buy Russian crude |
+| Iraq impact | Major oil fields shutting down — nowhere to store oil without export route |
+| Infrastructure strikes | Oil/gas infrastructure in Saudi Arabia, Qatar, UAE directly struck by Iran |
+
+**Source**: [NPR (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
+
+### Gulf SWF Infrastructure Under Attack (March 6, 2026)
+
+| Target | SWF Exposure | Iranian Attack (March 6) |
+|--------|--------------|--------------------------|
+| UAE (Al Dhafra + Dubai Jebel Ali) | Mubadala ($300B), MGX, ADIA | 109 drones + 9 ballistic missiles intercepted (single day) |
+| Saudi Arabia (Riyadh) | PIF ($930B) | Oil/gas infrastructure struck |
+| Qatar (Al Udeid Air Base) | QIA ($500B) | Drone targeting Al-Udeid intercepted |
+| Bahrain (5th Fleet HQ) | — | 7 attack drones at residential neighborhoods (one near Israeli embassy); UK RAF deploying |
+| Kuwait (Ali al-Salem Air Base) | KIA ($900B) | 6 US soldiers killed in drone attack at Port Shuaiba (March 2) |
+| Azerbaijan (Nakhchivan) | — | Iranian drones hit airport + near school; Azerbaijan threatens retaliation |
+
+### Thermostat Hypothesis Real-World Test
+
+[Inference] The Strait of Hormuz closure and direct kinetic strikes on Gulf SWF infrastructure represent the most consequential test of the thermostat hypothesis. The ~$4.9T capital architecture is experiencing simultaneous:
+1. **Physical infrastructure risk** — drone/missile strikes on facilities in 5+ countries
+2. **Trade route disruption** — ~20M barrels/day blocked; cascading effects on oil producers
+3. **Insurance market collapse** — insurers refusing to cover Gulf shipping
+4. **Energy price spike** — ~20% increase in 1 week
+
+This exceeds the "optimal friction" band predicted by the thermostat model — kinetic strikes have overwhelmed the capital architecture's ability to regulate.
+
+**Sources**: [NPR — Key updates (March 6, 2026)](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war), [NPR — Energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
+
+*Updated March 6, 2026.*

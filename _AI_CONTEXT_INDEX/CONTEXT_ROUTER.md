@@ -26,6 +26,12 @@
 | **1789 Capital / Omeed Malik** | `Node_Dossiers/tier2_entity_leadership_profiles.md` | `02_MEDIA_FIREWALL.md`, `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` |
 | **CRINK framework (China-Russia-Iran-NK)** | `05_CRINK_FRAMEWORK.md` | `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv` |
 | **Iran strikes / Operation Epic Fury** | `sources/2026-02-28_Iran_Strike_Target_Mapping.md` | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `09_CURRENT_THREADS.md` |
+| **Iran war (March 2026) / Khamenei death / Strait of Hormuz** | `09_CURRENT_THREADS.md` (Node 2) | `04_CAPITAL_ARCHITECTURE.md`, `11_LEVERAGE_THESIS.md`, `10_FRAMEWORK_VALIDATION.md` |
+| **DHS shutdown / Noem firing / Mullin nomination** | `09_CURRENT_THREADS.md` (DHS Shutdown section) | `06_MAIN_CHARACTERS.md` |
+| **Anthropic supply chain risk / Pentagon AI standoff** | `09_CURRENT_THREADS.md` (Anthropic section) | `11_LEVERAGE_THESIS.md`, `10_FRAMEWORK_VALIDATION.md` |
+| **Epstein files DOJ suppression / March releases** | `09_CURRENT_THREADS.md` (Node 5) | `11_LEVERAGE_THESIS.md`, [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
+| **Energy crisis / oil prices / Strait of Hormuz** | `04_CAPITAL_ARCHITECTURE.md` (March update) | `09_CURRENT_THREADS.md` (Node 2, Node 3) |
+| **Unable to verify / March 2026 gaps** | `Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md` | — |
 | **Cyber-kinetic operations / Handala** | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` | `09_CURRENT_THREADS.md` |
 | **Arsenal of Freedom / defense production** | `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
 | **Arkansas infrastructure / AVAIO / DATA Act** | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` | `04_CAPITAL_ARCHITECTURE.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Federal_Energy_Bypass.md` |
@@ -146,4 +152,4 @@ For entity-specific analysis, use the modular Node Dossier system instead of rea
 
 ---
 
-*Created March 1, 2026. Updated March 1, 2026 — added leverage thesis, Clinton depositions, Anthropic standoff routing. This router reflects the full repository as audited in `REPO_AUDIT_2026-03-01.md`.*
+*Created March 1, 2026. Updated March 6, 2026 — added routing for Iran war March developments, DHS Noem firing, Anthropic supply chain designation, Epstein DOJ file releases, energy crisis, and unable-to-verify file. This router reflects the repository as of March 6, 2026.*

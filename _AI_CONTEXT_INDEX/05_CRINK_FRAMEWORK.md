@@ -247,7 +247,37 @@ The CRINK framework would be **falsified** if:
 
 ---
 
-*Last Updated: March 1, 2026. This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+*Last Updated: March 6, 2026. This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+
+---
+
+## March 2026 Update: CRINK Response to Iran War
+
+### China Mediator Dispatch (March 5, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Action | China dispatched envoy Zhai Jun (serving in Middle East since 2019) to mediate Iran conflict |
+| China FM statement | Wang Yi told Saudi FM: "indiscriminate use of force is unacceptable"; nonmilitary targets should not be attacked |
+| Energy driver | China is world's largest oil/gas importer; crude prices up ~10%, natural gas up even more; Strait of Hormuz shipping halted |
+| Strategic interest | ~20% of world's crude/LNG passes through Hormuz; China vulnerable but has more oil in storage than India |
+
+### CRINK Pattern Analysis During Iran War
+
+| CRINK Member | Response/Action (March 1-6) | Pattern |
+|--------------|---------------------------|---------|
+| **China** | Dispatched mediator; urged return to negotiations; oil market concern | Diplomatic positioning / energy security |
+| **Russia** | [Monitoring — specific response not yet verified] | — |
+| **Iran** | Direct combatant; retaliatory strikes on 5+ countries; FM rejects ceasefire | Kinetic confrontation |
+| **North Korea** | [Monitoring — specific response not yet verified] | — |
+
+### Azerbaijan (Non-CRINK) Drawn In
+
+Azerbaijan (former Soviet republic, close relations with both Turkey and Israel) struck by Iranian drones on March 5 — airport and near-school impacts in Nakhchivan exclave. Azerbaijan President Aliyev threatened retaliation. This expands the conflict's geographic footprint beyond the traditional Middle East theater.
+
+**Framework Relevance**: China's envoy dispatch and diplomatic statements during the Iran war represent a CRINK-pattern response: the primary CRINK economic power (China) positions itself as mediator while its energy supply chains are threatened. This is consistent with the CRINK "flexible security ecosystem" characterization validated by Turkish intelligence (Feb 27, 2026).
+
+**Sources**: [NPR (March 5, 2026)](https://www.npr.org/2026/03/05/nx-s1-5736566/u-s-israeli-strikes-continue-across-iran-iranian-drones-hit-azerbaijan), [NPR — Energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
 
 ---
 

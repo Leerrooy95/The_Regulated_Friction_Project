@@ -318,3 +318,48 @@ The Barak–Epstein back channel and the "Epstein war" framing suggest that Epst
 ---
 
 *This document synthesizes the leverage mechanism across domestic (Musk/Epstein/Netanyahu), geopolitical (Iran), institutional (Anthropic), and capital (Gulf SWF) domains. All statistical claims are independently reproducible via `Run_Correlations_Yourself/`. Claims marked [Inference] represent analytical interpretations beyond the data.*
+
+---
+
+## March 2026 Addendum: Verified Escalations
+
+### Iran Leverage — Kinetic Phase (Verified March 1-6, 2026)
+
+| Development | Status | Source |
+|-------------|--------|--------|
+| Khamenei killed in Israeli strikes (Feb 28); death confirmed March 1 by state TV | ✅ VERIFIED | [NPR](https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed), [AP](https://apnews.com/hub/iran) |
+| 1,300+ killed in Iran (Iranian Red Crescent, as of March 6) | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war) |
+| Strait of Hormuz closed (insurance-driven shutdown); oil up ~20% | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis) |
+| Iran FM Araghchi rejects ceasefire; says prepared for ground invasion | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war) (citing NBC News interview) |
+| Trump demands "unconditional surrender"; wants role in selecting Iran's next leader | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war), [Reuters](https://www.reuters.com/world/middle-east/trump-tells-reuters-us-will-have-role-choosing-irans-next-leader-2026-03-05/), [Axios](https://www.axios.com/2026/03/05/iran-leader-trump-khamenei) |
+| 6 US soldiers killed at Port Shuaiba, Kuwait (March 2) | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5736566/u-s-israeli-strikes-continue-across-iran-iranian-drones-hit-azerbaijan) |
+| War widened to Lebanon (Beirut strikes; 123 killed; 95,000+ displaced) | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war) |
+
+### Epstein Leverage — Documentation Exposed (Verified March 5, 2026)
+
+| Development | Status | Source |
+|-------------|--------|--------|
+| DOJ published 16 additional Epstein pages related to Trump after NPR investigation | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
+| 15 documents "incorrectly coded as duplicative" — DOJ admission | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
+| 37 pages still missing from public database | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
+| House Oversight Committee voted bipartisan to subpoena AG Pam Bondi | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
+| Clinton deposition videos released by House Oversight | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/02/nx-s1-5732871/bill-clinton-hillary-clinton-depositions-epstein-files) |
+
+### Anthropic Leverage — Non-Compliance Penalty Formalized (Verified March 6, 2026)
+
+| Development | Status | Source |
+|-------------|--------|--------|
+| Pentagon officially designated Anthropic as "supply chain risk" | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
+| Amodei files legal challenge | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
+| Claude surged: 1M+ signups/day; top AI app in 20+ countries | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
+| Former CIA director Hayden + military leaders: "dangerous precedent" | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
+
+### Domestic — Institutional Reshuffling (Verified March 5, 2026)
+
+| Development | Status | Source |
+|-------------|--------|--------|
+| Trump fired DHS Secretary Kristi Noem | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112721/up-first-newsletter-kristi-noem-iran-beirut-trump-epstein-venezuela) |
+| Sen. Markwayne Mullin (R-OK) nominated as DHS replacement | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112721/up-first-newsletter-kristi-noem-iran-beirut-trump-epstein-venezuela) |
+| DHS in third week without funding | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737455/travel-industry-dhs-shutdown) |
+
+*Updated March 6, 2026. All additions verified via web search.*
