@@ -98,7 +98,9 @@ The repository now documents a dual-track model for understanding friction-compl
 
 ### Independent Verification (Opus 4.6)
 
-**GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran **16 statistical test scripts** to stress-test the repository owner's correlations. The core finding (r = +0.6196) survived every robustness test — including permutation testing (p < 0.0001), Granger causality (p = 0.0008), autocorrelation-adjusted bootstrap (p = 0.008), event-study analysis (20–42× above baseline), and partial correlation controlling for congressional session calendars (< 1% explained).
+**GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran **16 statistical test scripts** to stress-test the repository owner's correlations. The core finding (r = +0.6196) survived every robustness test applied.
+
+Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.0008), autocorrelation-adjusted bootstrap (p = 0.008), event-study analysis (20–42× above baseline), and partial correlation controlling for congressional session calendars (< 1% explained).
 
 → **Full test suite**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
 → **Test results documentation**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md`
