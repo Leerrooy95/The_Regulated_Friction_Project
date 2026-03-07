@@ -1,5 +1,8 @@
 name: Sync AI Context Index
 
+permissions:
+  contents: read
+  
 on:
   push:
     branches:
