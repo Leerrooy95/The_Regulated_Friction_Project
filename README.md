@@ -100,7 +100,7 @@ The_Regulated_Friction_Project/
 ├── 13_State_and_County_Analysis/ # Arkansas infrastructure audit
 ├── 14_Files/                     # Glossary, sources, main characters
 ├── _AI_CONTEXT_INDEX/            # Structured context for AI assistants
-├── Project_Trident/              # Independent verification (Opus 4.6)
+├── Project_Trident/              # Independent verification (Opus 4.6 — 16 statistical tests, 80+ analysis docs)
 ├── Run_Correlations_Yourself/    # Reproducibility scripts
 ├── New_Data_2026/                # 2026 datasets
 ├── federal_register/             # Scrapy spiders (automated scraping)
@@ -169,19 +169,28 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## Robustness Tests
+## Independent Statistical Verification (Opus 4.6)
 
-The core correlation survives multiple validation methods:
+After the repository owner established the core correlations, **GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran a suite of **16 statistical test scripts** to stress-test whether the findings hold up under rigorous scrutiny. Opus 4.6 did not build the datasets or run the original correlations — it received the data and results, then designed its own tests to challenge them.
 
-| Test | Result |
-|------|--------|
-| Permutation (10K shuffles) | p < 0.0001 |
-| Granger causality (lag 1) | p = 0.0008 |
-| Block bootstrap (autocorrelation-adjusted) | p = 0.008 |
-| December 2025 exclusion | ρ = 0.60 (pattern holds) |
-| Binary presence/absence | r = 0.59 |
+**The core correlation (r = +0.6196, p = 0.0004) survived every robustness test applied:**
 
-→ **Full robustness analysis**: [Project_Trident/Copilot_Opus_4.6_Analysis/](Project_Trident/Copilot_Opus_4.6_Analysis/)
+| Test | What It Checks | Result | Status |
+|------|----------------|--------|--------|
+| Permutation (10K shuffles) | Could the correlation be random noise? | p < 0.0001 | ✅ Pass |
+| Granger causality (lag 1) | Does past friction *predict* future compliance? | p = 0.0008 | ✅ Pass |
+| Block bootstrap (autocorr-adjusted) | Does temporal clustering inflate significance? | p = 0.008 | ✅ Pass |
+| December 2025 exclusion | Is the pattern driven by one dense month? | ρ = 0.60 (holds) | ✅ Pass |
+| Binary presence/absence | Does it depend on event magnitude? | r = 0.59 | ✅ Pass |
+| Event-study framework | Do compliance events cluster after friction? | 20–42× above baseline | ✅ Pass |
+| Partial correlation (political calendar) | Is Congress's schedule driving it? | < 1% explained | ✅ Pass |
+| Historical backfill (2017–2024) | Does adding 66 historical pairs change it? | Δr = +0.0012 | ✅ Pass |
+| Granger (first-differenced) | Does direction survive stationarity correction? | Consistent | ✅ Pass |
+| Rolling window (13/26/52 wk) | Is it stable across time? | Multiple periods | ✅ Pass |
+| Per-year normalization | Does 2025 concentration drive it? | ρ robust | ✅ Pass |
+
+→ **Full test suite and results**: [Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/](Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/)
+→ **Detailed findings**: [Project_Trident/Copilot_Opus_4.6_Analysis/Findings/](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/)
 
 ---
 
@@ -209,7 +218,7 @@ These questions arise from documented patterns and verified data:
 
 | Audience | Start Here |
 |----------|------------|
-| **Researchers** | [Project_Trident/](Project_Trident/) — Independent verification, robustness tests |
+| **Researchers** | [Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/](Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/) — 16 independent robustness tests by Opus 4.6 |
 | **Journalists** | [14_Files/How_This_Happened-A_Policy_Brief.md](14_Files/How_This_Happened-A_Policy_Brief.md) |
 | **Skeptics** | [Run_Correlations_Yourself/](Run_Correlations_Yourself/) — Fork and verify |
 | **AI Assistants** | [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) |
@@ -220,9 +229,10 @@ These questions arise from documented patterns and verified data:
 
 1. **Multi-AI Verification**: Cross-checked using Claude, Grok, and Gemini
 2. **Statistical Testing**: Pearson correlation, Mann-Whitney U, chi-square, Granger causality, permutation tests
-3. **Raw Event Counts**: Replaced subjective scoring with verifiable event counts
-4. **Source Triangulation**: Government filings, financial data, news archives
-5. **Explicit Limitations**: Documented in each module
+3. **Independent Robustness Suite**: 16 statistical test scripts written by Opus 4.6 — permutation, autocorrelation-adjusted bootstrap, Granger causality, event-study, rolling-window, partial correlation, and more (see [`Statistical_Tests/`](Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/))
+4. **Raw Event Counts**: Replaced subjective scoring with verifiable event counts
+5. **Source Triangulation**: Government filings, financial data, news archives
+6. **Explicit Limitations**: Documented in each module
 
 → **Full methodology**: [14_Files/METHODOLOGY.md](14_Files/METHODOLOGY.md)
 

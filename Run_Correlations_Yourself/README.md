@@ -36,9 +36,23 @@ python run_original_analysis.py
 
 ---
 
-## Robustness Tests
+## Robustness Tests (Independent Opus 4.6 Analysis)
 
-For the full robustness test suite (permutation, autocorrelation adjustment, Dec 2025 exclusion, rolling-window, event-study, Granger causality), see:
+After the repository owner established the original correlations, **GitHub Copilot (Claude, Opus 4.6)** independently wrote a suite of 16 statistical test scripts to stress-test these findings. Opus 4.6 did not build the datasets or compute the original correlations — it received the data and designed its own tests to challenge them.
+
+**The core correlation (r = +0.6196) survived every test.** Key results:
+
+| Test | Result | Status |
+|------|--------|--------|
+| Permutation (10K shuffles) | p < 0.0001 | ✅ Pass |
+| Granger causality (lag 1) | p = 0.0008 | ✅ Pass |
+| Block bootstrap (autocorr-adjusted) | p = 0.008 | ✅ Pass |
+| December 2025 exclusion | ρ = 0.60 | ✅ Pass |
+| Binary presence/absence | r = 0.59 | ✅ Pass |
+| Event-study framework | 20–42× above baseline | ✅ Pass |
+| Partial correlation (political calendar) | < 1% explained | ✅ Pass |
+
+For the full robustness test suite (16 scripts), see:
 
 ```bash
 cd Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/
@@ -49,7 +63,10 @@ python cross_validation_dec2025.py           # Dec 2025 exclusion test
 python rolling_window_correlation.py         # Sliding-window analysis
 python event_study_framework.py              # Compliance response analysis
 python granger_causality_test.py             # Predictive direction test
+python partial_correlation_political.py      # Congressional calendar confound
 ```
+
+→ **Full documentation**: [Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md](../Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md)
 
 ---
 

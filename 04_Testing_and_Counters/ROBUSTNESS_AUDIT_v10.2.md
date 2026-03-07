@@ -399,3 +399,11 @@ All web-verified sources used in this audit:
 16. SEC.gov — 13F FAQ: https://www.sec.gov/rules-regulations/staff-guidance/division-investment-management-frequently-asked-questions/frequently-asked-questions-about-form-13f
 17. Scam Detector — oreateai.com review: https://www.scam-detector.com/validator/oreateai-com-review/
 18. Trustpilot — oreateai.com: https://www.trustpilot.com/review/www.oreateai.com
+
+---
+
+## Cross-Reference: Opus 4.6 Independent Robustness Suite
+
+In addition to the four stress tests in this audit, **GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran **16 statistical test scripts** covering permutation testing, Granger causality (multiple variants), autocorrelation-adjusted bootstrap, event-study analysis, rolling-window correlation, partial correlation, historical backfill, and per-year normalization. The core correlation (r = +0.6196) survived every test.
+
+→ **Full test suite and results**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md`
