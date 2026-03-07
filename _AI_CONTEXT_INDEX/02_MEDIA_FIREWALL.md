@@ -159,7 +159,7 @@ Level 4: Consumer Platform (TCN, Daily Wire, PublicSq)
 
 - **For capital architecture**: `04_CAPITAL_ARCHITECTURE.md`
 - **For Board of Peace**: `03_BOARD_OF_PEACE.md`
-- **For noise generators**: `06_MAIN_CHARACTERS.md`
+- **For noise generators**: `06_ATTENTION_ECONOMY.md`
 
 ---
 

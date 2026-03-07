@@ -71,7 +71,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff, capital pipeline |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, DATA Act, AVAIO Arkansas |
 | `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |
-| `06_MAIN_CHARACTERS.md` | Performative actors as noise generators |
+| `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel) |

@@ -55,7 +55,7 @@ The `_AI_CONTEXT_INDEX` mentions `Project_Trident/` in passing but does not docu
 - `Copilot_Opus_4.6_Analysis/FaaS_Signal_Analysis/` (3 files)
 - `Copilot_Opus_4.6_Analysis/Findings/` (10 files including provenance, discrepancy investigations)
 - `Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/` (1 file)
-- `Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/` (1 file)
+- `Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/` (2 files: Bondi hearing analysis, Attention Economy cross-administration analysis)
 - `Copilot_Opus_4.6_Analysis/Verification_Reports/` (1 file)
 - `Copilot_Opus_4.6_Analysis/Consolidation_Analysis/` (1 file)
 - `Copilot_Opus_4.6_Analysis/Entity_Reports/Palantir_Technologies_Deep_Dive.md`
@@ -70,7 +70,7 @@ The `_AI_CONTEXT_INDEX` mentions `Project_Trident/` in passing but does not docu
 |------------|-----------|-------|
 | `00_START_HERE.md` | Node Dossiers table lists only 5 dossiers | Now 8 dossiers exist (missing: `tier1_binsulayem_epstein.md`, `tier2_egypt_gulf_integration.md`, `tier2_uae_coordination_node.md`) |
 | `00_START_HERE.md` | "Repository Version: v10.1" | May need update if version has incremented |
-| `06_MAIN_CHARACTERS.md` | References "Kash Patel" and "Dan Bongino" | Bongino resigned Dec 17, 2025; no post-resignation update documented. Patel role updates through Feb 2026 not reflected. |
+| `06_ATTENTION_ECONOMY.md` | References "Kash Patel" and "Dan Bongino" | Bongino resigned Dec 17, 2025; Noem fired March 5, 2026; Mullin nominated. Renamed from `06_MAIN_CHARACTERS.md` and reframed as Attention Economy & Quotas. |
 | `08_KEY_DATASETS.md` | Lists dataset locations | Does not include `New_Data_2026/Biopharma.csv`, `BlackRock_Timeline_Full_Decade.csv`, `Infrastructure_Forensics.csv`, or `output/` pipeline data |
 | `08_KEY_DATASETS.md` | References dashboard data pipeline | Dashboard now has 6+ tabs, Ask AI feature, correlation engine — none documented |
 | `10_FRAMEWORK_VALIDATION.md` | Last validation entry: Feb 21, 2026 (Sanders) | Feb 27-28, 2026 events (Arsenal of Freedom, Iran strikes) provide significant new validation/test data — not documented |
