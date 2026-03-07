@@ -1,179 +1,188 @@
 {
-  "generated_at": "2026-03-06T08:23:42Z",
+  "generated_at": "2026-03-07T08:16:45Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
   "config_version": "2026-02-28",
   "top_3_developments": [
     {
-      "headline": "Iran-US war continued with missile exchanges, US embassy closures, and strikes on Iranian nuclear sites.",
-      "summary": "The US and Israel conducted over 1,700 and 1,600 strikes respectively on Iranian installations, including nuclear facilities at Natanz and a covert Tehran site, achieving air dominance. Iran retaliated with drone and missile attacks on US bases and embassies in Gulf states like Dubai, Riyadh, and Kuwait, leading to closures; US fatalities reached six as of March 2. Iranian missile launch rates declined amid depleted stocks, with Strait of Hormuz closed and Hezbollah involved.",
+      "headline": "US–Israeli air campaign struck extensive Iranian military and nuclear‑linked infrastructure as Iran retaliated across the Gulf",
+      "summary": "Since 28 February, US and Israeli forces conducted thousands of air and missile strikes on Iranian air defenses, missile infrastructure, command nodes, and nuclear‑related facilities, achieving localized air dominance over Tehran and western Iran.[1][2][6] Iran has actively retaliated with drone and ballistic missile attacks on US forces and diplomatic sites in Gulf states, prompting temporary closures of at least two US embassies and expanded US regional deployments; the conflict remains highly kinetic with no ceasefire framework visible.[2][4]",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "ISW Iran Update March 3, 2026 [1]; Wikipedia: 2026 Iran war [2]; CNN10 YouTube March 6, 2026 [3]",
-      "timestamp": "2026-03-06"
+      "source": "[2]",
+      "timestamp": "2026-03-07"
     },
     {
-      "headline": "DOJ released additional Epstein files containing uncorroborated Trump allegations and removed 47,000 files for privacy.",
-      "summary": "The Justice Department published missing FBI interviews with allegations against Donald Trump on March 5, after omitting them from the January 30 release of over 3 million pages. Over 47,000 files (65,500 pages) were subsequently removed due to victim privacy and other issues, leaving 2.7 million pages public. House Oversight Committee scrutiny persists with subpoenas to AG Pam Bondi.",
-      "event_type": "INTELLIGENCE",
-      "imminence": "ONGOING",
-      "source": "Britannica timeline [1]; OPB March 5 release [2]; CBS News file removals [3]",
-      "timestamp": "2026-03-06"
-    },
-    {
-      "headline": "Russia-Ukraine POW exchange proceeded with 200 swapped on March 5 amid indefinite postponement of Abu Dhabi peace talks.",
-      "summary": "U.S.-brokered trilateral talks scheduled for March 5-6 in Abu Dhabi were postponed indefinitely due to UAE airspace closure from the Iran war. Russia and Ukraine executed a 500-POW exchange agreed in Geneva, completing 200 swaps on March 5 with 300 scheduled for March 6. Zelenskyy remains ready for talks in alternative venues like Turkey or Switzerland.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING",
-      "source": "Wikipedia: 2026 US-Ukraine-Russia meetings [1]; Chronline [2]; ISW March 5 [4]",
-      "timestamp": "2026-03-06"
-    }
-  ],
-  "new_alerts": [
-    {
-      "headline": "Saudi Arabia replaced Investment Minister Khalid Al-Falih with PIF executive Farad Al-Safe.",
-      "alert_type": "Cabinet Reshuffle",
+      "headline": "Board of Peace held its inaugural session and secured $17 billion in Gaza reconstruction pledges under Trump’s Phase Two peace framework",
+      "summary": "The Board of Peace convened its first formal meeting in Washington in late February, where member states pledged $7 billion in reconstruction funding to complement $10 billion in US commitments for Gaza, operationalizing Phase Two of the 20‑point Gaza plan under UNSCR 2803.[\"Board of Peace developments\"] Trump, serving as chairman of this permanent but time‑bounded body, is using the Board to shape governance and investment structures for Gaza while conditioning full implementation on Hamas disarmament within a still‑unspecified deadline measured in weeks from late January.[\"Board of Peace developments\"]",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
-      "relevance": "Cabinet reshuffle involving PIF represents institutional friction in Vision 2030 execution, likely triggering 7-day compliance responses in investment coordination and FDI reporting.",
-      "priority": "HIGH",
-      "timestamp": "2026-02-16"
+      "source": "[\"Board of Peace developments\"]",
+      "timestamp": "2026-03-07"
     },
     {
-      "headline": "Qatar's QIA expanded Fund of Funds program by $2 billion to $3 billion total.",
-      "alert_type": "Investment Expansion",
+      "headline": "Gulf sovereign wealth funds ramped up record-scale deployments into US tech, AI, and private markets through 2025–26",
+      "summary": "In 2025, the seven largest Gulf SWFs deployed roughly $119 billion globally—a more than 40% year‑on‑year increase—accounting for about 43% of all sovereign investment, with a marked tilt toward mega‑deals in AI, digital infrastructure, climate assets, and private credit.[1][2] US‑focused deployments more than doubled to around $70 billion, led by PIF’s ~$29 billion acquisition of Electronic Arts and parallel expansions by Mubadala and others, with banks and consultancies indicating this strategy‑driven surge into US and global private markets is continuing in 2026.[1][2][3][4]",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "relevance": "QIA's capital deployment and VC onboarding may introduce regulatory friction in fund compliance and cross-border investment approvals, aligning with observed 7-day lag patterns.",
-      "priority": "MEDIUM",
-      "timestamp": "2026-02-01"
+      "source": "[1]",
+      "timestamp": "2026-03-07"
     }
   ],
+  "new_alerts": [],
   "signal_updates": [
     {
-      "status": "ACTIVE",
-      "headline": "Iran-US war ongoing with missile exchanges, US casualties mounting, and potential ground involvement.",
-      "summary": "War continues into second week with US/Israel strikes on 1,700+ Iranian sites including nuclear facilities; Iran hit US bases/embassies in Gulf, causing closures and six US deaths.",
-      "event_type": "KINETIC",
-      "imminence": "ONGOING"
+      "headline": "US–Iran conflict remained in high‑intensity kinetic phase with expanding regional spillovers",
+      "previous_status": "ACTIVE",
+      "new_status": "ACTIVE",
+      "change_summary": "The joint US–Israeli campaign against Iran entered a declared second phase focused on deeply buried ballistic‑missile infrastructure, while Iranian drone and missile strikes on US and partner assets in the Gulf continued, keeping the theater in a highly kinetic, regionally distributed war footing.[2][4] No credible indications of ceasefire negotiations or de‑escalation mechanisms emerged, and US officials publicly signaled readiness for a prolonged confrontation.[4]",
+      "timestamp": "2026-03-07"
     },
     {
-      "status": "ACTIVE",
-      "headline": "Board of Peace held inaugural meeting on Feb 19, securing pledges for Gaza reconstruction and ISF; no new developments.",
-      "summary": "First meeting secured US $10B pledge; mandate active until 2027 with no updates.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING"
+      "headline": "Board of Peace advanced from setup to operational Phase Two implementation with funding pledges in place",
+      "previous_status": "ACTIVE",
+      "new_status": "ACTIVE",
+      "change_summary": "Following its inaugural February 19 meeting, the Board of Peace transitioned from design and authorization to early operationalization, with $17 billion in pledged reconstruction funds and an Executive Board structure overseeing governance, reconstruction, and investment tracks in Gaza.[\"Board of Peace developments\"] Hamas disarmament remained an unresolved precondition, and US funding still lacked a dedicated congressional appropriation, creating implementation and legitimacy constraints.[\"Board of Peace developments\"]",
+      "timestamp": "2026-03-07"
     },
     {
-      "status": "ACTIVE",
-      "headline": "Gulf SWFs continue aggressive US investments and restructurings.",
-      "summary": "PIF/Mubadala backed major deals; Abu Dhabi merged entities; ongoing AI/infra focus.",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING"
+      "headline": "Gulf sovereign wealth funds solidified role as systemic financiers of AI and private markets",
+      "previous_status": "ACTIVE",
+      "new_status": "ACTIVE",
+      "change_summary": "Data from 2025 and early‑2026 analysis confirmed that Gulf SWFs maintained and expanded an aggressive outward‑investment posture, with rising allocations to US tech, AI ecosystems, and private credit rather than retrenching amid regional conflict risk.[1][2][4][5][6] This entrenched their status as key marginal capital providers for high‑growth and illiquid asset classes globally, with implications for regulatory focus on foreign influence and capital‑market stability in Western jurisdictions.[2][3][4]",
+      "timestamp": "2026-03-07"
     },
     {
-      "status": "ACTIVE",
-      "headline": "DOJ released missing Epstein files amid scrutiny.",
-      "summary": "March 5 release included Trump allegations; 47k files removed for privacy.",
-      "event_type": "INTELLIGENCE",
-      "imminence": "ONGOING"
+      "headline": "DOJ Epstein files release faced renewed scrutiny over removed documents and ongoing congressional oversight",
+      "previous_status": "ACTIVE",
+      "new_status": "ACTIVE",
+      "change_summary": "After DOJ’s January 30 assertion that it had completed major Epstein disclosures under the Epstein Files Transparency Act, subsequent reporting showed more than 47,000 files—around 65,500 pages—were taken down from the public site, officially on privacy and related grounds.[\"Epstein document releases\"] Lawmakers, including members of the House Oversight Committee, continued to challenge the completeness and integrity of the release, highlighting withheld FBI 302s and a 2007 draft indictment and sustaining formal investigations and subpoenas.[\"Epstein document releases\"]",
+      "timestamp": "2026-03-07"
     },
     {
-      "status": "MONITORING",
-      "headline": "Russia-Ukraine talks postponed; POW exchange ongoing.",
-      "summary": "Abu Dhabi talks on hold due to Iran war; 500-POW swap in progress.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING"
+      "headline": "U.S.-brokered Russia–Ukraine negotiating channel remained open but leadership summit and territorial package stalled",
+      "previous_status": "ACTIVE",
+      "new_status": "ACTIVE",
+      "change_summary": "Following mid‑February Geneva talks, Russia and Ukraine carried out a large POW exchange on 5–6 March (about 500 prisoners each), demonstrating that the technical channel is functioning.[\"Russia-Ukraine negotiations\"] However, Moscow signaled it could halt further political talks absent Ukrainian agreement to territorial concessions in Donetsk, and no date was locked in for the mooted Zelensky–Putin–Trump summit in Abu Dhabi or elsewhere.[\"Russia-Ukraine negotiations\"]",
+      "timestamp": "2026-03-07"
     }
   ],
   "priority_watchlist": [
-    "Iran-US war escalation: Monitor US/Israel strikes, Iranian retaliation, and potential ground ops (next 24h kinetic risks high).",
-    "Russia-Ukraine POW exchange completion: Track March 6 swap of remaining 300 POWs and any talk rescheduling signals.",
-    "Saudi PIF minister change impacts: Watch Vision 2030 FDI announcements and compliance frictions post-reshuffle.",
-    "Epstein files scrutiny: Follow House Oversight actions on subpoenas and further DOJ releases.",
-    "Gulf SWF activities: Monitor QIA fund deployments and PIF coordination responses."
+    {
+      "item": "Escalation dynamics and target set evolution in the US–Iran regional conflict",
+      "rationale": "High‑visibility kinetic operations against Iranian missile and nuclear‑linked sites, plus Iranian strikes on US diplomatic facilities, create strong potential for follow‑on regulatory, sanctions, export‑control, and financial‑crime compliance responses with the Regulated Friction Project’s typical 7‑day median lag.",
+      "time_horizon": "NEXT_24_HOURS"
+    },
+    {
+      "item": "Board of Peace enforcement posture on Hamas disarmament and funding conditionality",
+      "rationale": "Trump’s threats of military action tied to Hamas disarmament, combined with a large but not yet appropriated US funding commitment, may trigger rapid changes in sanctions designations, terrorism‑financing rules, and oversight of reconstruction flows as the informal ‘weeks’ deadline approaches.",
+      "time_horizon": "NEXT_24_HOURS"
+    },
+    {
+      "item": "Gulf SWF capital deployment into US tech, AI, and private credit amid rising geopolitical risk",
+      "rationale": "Sustained record‑scale Gulf allocations into sensitive US sectors increase the probability of near‑term tightening or targeted use of CFIUS, outbound investment screening, and AI‑related export‑control regimes in response to both security and political‑risk concerns.",
+      "time_horizon": "NEXT_24_HOURS"
+    },
+    {
+      "item": "Congressional and DOJ positioning on remaining and removed Epstein materials",
+      "rationale": "Ongoing disputes over compliance with the Epstein Files Transparency Act, including file removals and alleged withholdings, raise the likelihood of rapid procedural or legislative moves on transparency, victim‑privacy standards, and law‑enforcement record‑disclosure rules.",
+      "time_horizon": "NEXT_24_HOURS"
+    },
+    {
+      "item": "Russia–Ukraine negotiation track and prospects for a U.S.-brokered leadership summit",
+      "rationale": "Any movement toward—or breakdown of—a territorial framework or Abu Dhabi‑style summit would be a high‑visibility friction event likely to drive subsequent sanctions recalibration, humanitarian‑access rules, and financial‑sector compliance adjustments on a short lag.",
+      "time_horizon": "NEXT_24_HOURS"
+    }
   ],
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "Iran-US war ongoing with missile exchanges, US casualties mounting, and potential ground involvement.",
-      "summary": "A major war between Iran, the US, and Israel that began on February 28, 2026, with coordinated strikes on Iranian sites including leadership targets, continues into its second week. Iran has retaliated with drone and missile attacks on US bases in Jordan, Kuwait, Bahrain, Qatar, Iraq, Saudi Arabia, UAE, and others, resulting in six confirmed US service member deaths as of March 2. The conflict features declining Iranian missile launches, Strait of Hormuz closure, Hezbollah involvement, and reports of possible US/Israel-backed Kurdish ground forces preparing to enter.",
+      "headline": "US–Iran kinetic conflict continues with intensive US‑Israeli air campaign and Iranian drone/missile retaliation across the Gulf region",
+      "summary": "US and Israeli forces are conducting sustained air and missile strikes on Iranian military, command, air defense, and nuclear-related infrastructure inside Iran as the war enters its second phase and nears the end of its first week.[3][4][5][6] Iran is actively retaliating with drone and ballistic missile attacks on US forces and diplomatic sites in Gulf states, prompting temporary closure of multiple US embassies and a major surge in US regional firepower.[3][6][7] Fighting remains highly kinetic and regionalized, with no indication of a ceasefire or de‑escalation agreement at this time.[3][4][6]",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "Wikipedia: 2026 Iran war [1]",
-        "Wikipedia: Prelude to the 2026 Iran conflict [2]",
-        "CNN10 YouTube March 6, 2026 [3]",
-        "ISW Iran Update March 2, 2026 [4]",
-        "YouTube Kurdish forces report March 5, 2026 [5]"
+        "[3] Institute for the Study of War, Iran Update Evening Special Report, March 3, 2026 – details on US–Israeli strikes in Iran, scope of targets, and Iranian retaliation against US sites in the Gulf.",
+        "[4] BBC News video report, March 6, 2026 – on-the-ground accounts from Tehran, ongoing US–Israeli strikes, and statements by President Trump on Iran’s ‘unconditional surrender’.",
+        "[5] Wikipedia, Prelude to the 2026 Iran conflict – background on February 28 onset of US–Israeli strikes on Iran and preceding military buildup.",
+        "[6] Jerusalem Dateline video report, March 6, 2026 – description of the conflict expanding into a regional war, naval engagements, and second-phase focus on Iranian missile infrastructure.",
+        "[7] Fox News segment – reporting on dramatic US surge of firepower in response to Iran’s drone attacks in the region."
       ],
-      "timestamp": "2026-03-06",
+      "timestamp": "2026-03-07",
       "original_signal": "Iran-US military action",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace held inaugural meeting on Feb 19, 2026, securing pledges for Gaza reconstruction and ISF; no new developments since.",
-      "summary": "The Board of Peace, authorized by UNSCR 2803 in November 2025, convened its first meeting on February 19, 2026, in Washington at the renamed Donald J. Trump United States Institute of Peace, where the US pledged $10 billion for Gaza reconstruction and commitments were made for peacekeeping troops via the International Stabilization Force (ISF).[1][3] Appointments include Trump as chair, Jared Kushner involvement, Aryeh Lightstone and Josh Gruenbaum as senior advisors, Nickolay Mladenov as High Representative for Gaza, and Major General Jasper Jeffers as ISF Commander.[2] As of March 6, 2026, the Board remains active with a mandate until December 2027, focused on Gaza redevelopment funding and governance, though some nations have declined participation and criticisms persist over its broad scope undermining the UN.[1]",
+      "headline": "Board of Peace continues implementation of Trump's Gaza reconstruction plan with $17 billion pledged and international stabilization framework operational",
+      "summary": "As of late February 2026, the Board of Peace held its inaugural meeting in Washington where member countries pledged $7 billion for Gaza reconstruction in addition to $10 billion from the United States. The organization, chaired by Trump and authorized through UN Security Council Resolution 2803, is advancing Phase Two of the 20-point Gaza peace plan with an Executive Board overseeing governance, reconstruction, and investment portfolios. Hamas disarmament remains a critical pending requirement, with Trump issuing threats of military action if disarmament does not occur within weeks.",
       "event_type": "POLITICAL",
-      "imminence": "MONITORING",
+      "imminence": "ONGOING",
       "sources": [
-        "Arab Center DC (Feb 2026)",
-        "White House Statement (Jan 2026)",
-        "Al Jazeera Video (Feb 19, 2026)",
-        "Baker Institute"
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ],
-      "timestamp": "2026-03-06",
+      "timestamp": "2026-03-07",
+      "key_developments": {
+        "most_recent": "Board of Peace inaugural meeting held February 19, 2026 with $17 billion reconstruction pledges secured",
+        "phase_status": "Phase Two implementation underway since mid-January 2026",
+        "critical_pending": "Hamas disarmament requirement with unspecified deadline measured in 'weeks' from late January 2026",
+        "organizational_status": "Permanent international body with Trump as Chairman; authorized through end of 2027 under UNSCR 2803; lacks congressional appropriation for U.S. funding"
+      },
       "original_signal": "Board of Peace developments",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Gulf SWFs, led by PIF and Mubadala, continue aggressive US investments and internal restructurings into 2026.",
-      "summary": "Saudi PIF completed a $29 billion acquisition of Electronic Arts in 2025, while Mubadala invested $24 billion in the US, with both funds backing the $108 billion Paramount Skydance bid for Warner Bros. Discovery.[1] Abu Dhabi merged Lam’ad Holding with ADQ under a new 'Lam’ad' entity in early 2026 to expand global investments, and Qatar's QIA is reviewing its portfolio structure.[2] Gulf funds remain central to AI, private markets, and infrastructure deals in 2026, with ongoing pivots to Asia and Africa.[3][4]",
+      "headline": "Gulf sovereign wealth funds are actively ramping up large-scale global deployments, led by PIF and Mubadala, with a 2025–26 surge into US tech, AI, and private markets still ongoing.",
+      "summary": "Global data for 2025 show the seven largest Gulf funds, led by Saudi Arabia’s Public Investment Fund (PIF) and Abu Dhabi’s Mubadala, deployed about USD 119 billion, a 40%+ year‑on‑year increase and 43% of all sovereign investment worldwide, with a pronounced shift toward strategic mega‑deals, AI, digital infrastructure, climate assets, and private credit.[1][2] Within that, US investments more than doubled to roughly USD 70 billion in 2025, including PIF’s USD 29 billion acquisition of Electronic Arts and significant additional deployments by Mubadala, reflecting an ongoing strategic reallocation of Gulf capital toward US and global private markets.[1][2] Forward‑looking commentary from banks and consultancies indicates this expansionary, strategy‑driven deployment pattern is continuing into 2026, with Gulf SWFs emerging as central financiers of AI and private market growth rather than scaling back.[2][3][4][5]",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "Semafor (2026-01-06)",
-        "Alhurra (2026-02-09)",
-        "Deloitte Middle East",
-        "GCC Business Watch",
-        "GFH Financial Group"
+        "[1] Semafor, 'Gulf sovereign funds ramp up US bets', Jan 2026 – details on 2025 US deployment, PIF’s EA acquisition, and club backing of large media/tech deals.",
+        "[2] MUFG Research, 'Middle East Daily', 5 Jan 2026 – cites Global SWF 2026 Annual Report on USD 119bn 2025 deployment by the 'Gulf 7', strategic shift to mega‑deals and AI/digital/climate/private credit.",
+        "[3] State Street Global Advisors, 'The Gulf's capital transformation', Mar 2025 – documents rapid growth of Middle East private equity, private debt, and IPO/bond markets, underpinned by sovereign capital.",
+        "[4] GCC Business Watch summary of a Standard Chartered 2026 report – characterizes Gulf SWFs as key drivers of AI and private market growth in 2026.",
+        "[5] PwC Middle East, 'Sovereign wealth funds' – notes Middle East SWF AUM hitting USD 4.9 trillion in 2024 with projections to USD 7.3 trillion and continued strategic, diversified global deployment led by PIF, ADIA, Mubadala, ADQ, and QIA.",
+        "[6] Reuters via StreetInsider, 'Gulf sovereign wealth funds were built for a rainy day' – discusses fiscal backdrops in Gulf states and continued availability of sovereign capital through 2025–26."
       ],
-      "timestamp": "2026-03-06",
+      "timestamp": "2026-03-07",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "DOJ released missing Epstein files on March 5, 2026, amid ongoing scrutiny and file removals.",
-      "summary": "The Justice Department published additional Epstein files on March 5, 2026, containing previously withheld FBI interviews with uncorroborated allegations against Donald Trump, which were mistakenly omitted from the January 30 release of over 3 million pages. The DOJ has since removed over 47,000 files (65,500 pages) due to victim privacy concerns and other issues, reducing the public total to about 2.7 million pages. House Oversight Committee scrutiny continues, with subpoenas issued to AG Pam Bondi and additional estate documents released.[1][2][3][4][5]",
-      "event_type": "INTELLIGENCE",
+      "headline": "DOJ ‘final’ Epstein files release is under fire as millions of pages are online, thousands quietly removed, and Congress continues oversight pressure.",
+      "summary": "On January 30, 2026, the U.S. Department of Justice released what it called the final major batch of Epstein files—over 3 million pages, 2,000 videos, and about 180,000 images—asserting it had complied with the Epstein Files Transparency Act.[1][2] Lawmakers including Rep. Ro Khanna dispute that claim, arguing key materials such as FBI 302 victim interviews and a 2007 draft indictment remain withheld, while a CBS analysis shows DOJ has since removed more than 47,000 files (about 65,500 pages) from the public site, citing victim-privacy and other unclear reasons.[2][3] The House Oversight Committee is still issuing subpoenas and conducting hearings on DOJ’s handling of the release, so the disclosure process and political fallout remain ongoing.[1][2]",
+      "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
-        "Britannica timeline [1]",
-        "OPB March 5 release [2]",
-        "CBS News file removals [3]",
-        "Politico Trump allegations [4]",
-        "House Oversight release [5]",
-        "DOJ Epstein Library [6]"
+        "[1]",
+        "[2]",
+        "[3]",
+        "[4]"
       ],
-      "timestamp": "2026-03-06",
+      "timestamp": "2026-03-07T08:16:20Z",
       "original_signal": "Epstein document releases",
       "category": "INTELLIGENCE"
     },
     {
-      "status": "MONITORING",
-      "headline": "Russia-Ukraine trilateral talks postponed indefinitely due to US-Iran war; POW exchange ongoing today.",
-      "summary": "U.S.-brokered peace talks planned for March 5-6 in Abu Dhabi are on hold because of the war in Iran, which has closed UAE airspace, with Zelenskyy stating they will resume when security allows. Russia and Ukraine are currently executing a 500-POW exchange agreed in Geneva, with 200 swapped on March 5 and 300 scheduled for March 6. No new negotiations are confirmed; Zelenskyy continues daily engagement with the US and is ready for talks in alternative venues like Turkey or Switzerland.",
+      "status": "ACTIVE",
+      "headline": "U.S.-brokered Russia–Ukraine negotiations remain active after Geneva talks and POW exchange, but Abu Dhabi leadership summit and territorial deal are stalled.",
+      "summary": "Following the mid‑February trilateral meetings in Geneva, negotiators reached and implemented a major prisoner‑of‑war exchange on 5–6 March, with 500 prisoners swapped on each side, confirming that the negotiation channel is functioning.[3][4] However, Russia is signaling it may halt further peace talks unless Ukraine agrees to withdraw from parts of Donetsk, and no final agreement has been reached on territory or on a Zelensky–Putin–Trump leadership summit that had been discussed for early March in Abu Dhabi or alternative locations.[1][2][3] U.S. envoy Steve Witkoff and other officials state that talks toward a broader peace deal are still ongoing, but political issues remain stuck while technical work on ceasefire monitoring and follow‑on exchanges continues.[3][4]",
       "event_type": "POLITICAL",
-      "imminence": "MONITORING",
+      "imminence": "ONGOING",
       "sources": [
-        "Wikipedia: 2026 US-Ukraine-Russia meetings in Geneva [1]",
-        "Chronline: Ukraine says peace talks on hold due to Iran war [2]",
-        "China Daily: Zelensky proposes postponing talks [3]",
-        "ISW: Russian Offensive Assessment March 5 [4]"
+        "[1] Japan Times – Russia weighs halt to peace talks unless Ukraine cedes territory",
+        "[2] The Moscow Times – Zelensky says next round of peace talks with Russia expected in March, likely Abu Dhabi",
+        "[3] Wikipedia – 2026 United States–Ukraine–Russia meetings in Geneva (talks outcomes, POW exchanges, planned Abu Dhabi round)",
+        "[4] Scripps News (YouTube) – U.S. officials say Russia‑Ukraine negotiations still ongoing; recent POW exchange confirmed"
       ],
-      "timestamp": "2026-03-06",
+      "timestamp": "2026-03-07T08:16:24Z",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     }
