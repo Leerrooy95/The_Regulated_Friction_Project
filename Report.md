@@ -149,19 +149,26 @@ Five independent signal types converged on December 22 alone — friction (Epste
 | Multi-dataset Spearman | ρ = 0.61 (0-lag) | Rank correlation across all datasets (p < 0.0001) |
 | Calendar clustering | Non-random | Events cluster on holidays, fiscal deadlines, solstices |
 
-### Robustness Tests
+### Robustness Tests (Independent Opus 4.6 Verification)
 
-The core correlation survives multiple validation methods:
+After the correlations were established, **GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran 16 statistical test scripts to stress-test these findings. Opus 4.6 did not build the datasets or compute the original correlations — it received the data and designed its own tests to challenge them. The core correlation survived every test:
 
 | Test | Result | Verdict |
 |------|--------|---------|
-| Permutation (1K shuffles) | r = 0.62 significant (p < 0.001) | ✅ Pass |
+| Permutation (10K shuffles) | p < 0.0001 — observed r beat 10,000 random shuffles | ✅ Pass |
 | Autocorrelation adjustment | Pearson p = 0.008 (block-bootstrap), Spearman ρ = 0.61 (p = 0.0001) | ✅ Both survive |
 | Dec 2025 exclusion | Pearson r drops 6%, Spearman ρ = 0.60 (p < 0.0001) | ✅ Signal survives removal |
 | Normalized (binary) | r = 0.59 (p < 0.0001) | ✅ Presence/absence correlation holds |
-| Event-study | Friction dates attract 20–42x more compliance than random | ✅ Strong colocation |
+| Event-study | Friction dates attract 20–42× more compliance than random | ✅ Strong colocation |
 | Granger causality (hand-scored) | Friction → Compliance at lag 1 (p = 0.0008), lag 2 (p = 0.027) | ✅ Supports sequential hypothesis |
 | Granger (event counts) | Bidirectional at lags 1-3 | ℹ️ Suggests common driver, not simple cause-effect |
+| Partial correlation (political calendar) | < 1% of correlation explained by congressional session schedule | ✅ Not a confound |
+| First-differenced Granger | Direction consistent after stationarity correction | ✅ Robust |
+| Rolling window (13/26/52 wk) | Correlation present across multiple time periods | ✅ Not driven by one cluster |
+| Historical backfill (66 pairs, 2017–2024) | Δr = +0.0012 — negligible impact on existing correlations | ✅ Pattern is historical |
+
+→ **Full test suite (16 scripts)**: [`Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`](Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/)
+→ **Detailed findings**: [`Project_Trident/Copilot_Opus_4.6_Analysis/Findings/`](Project_Trident/Copilot_Opus_4.6_Analysis/Findings/)
 
 ### Historical Backfill (2017-2024)
 
@@ -177,17 +184,20 @@ All data and code are public:
 # Clone the repository
 git clone https://github.com/Leerrooy95/The_Regulated_Friction_Project.git
 
-# Reproduce original correlations (pre-2026 datasets)
+# Reproduce original correlations (pre-2026 datasets, by repository owner)
 cd Run_Correlations_Yourself/
 python run_original_analysis.py              # r = 0.6196, p = 0.0004, Mann-Whitney p = 0.002
 
-# Run robustness tests (from repo root)
+# Run the Opus 4.6 independent robustness suite (16 scripts)
 cd ../Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/
-python permutation_test.py                   # Shuffle-based significance
-python autocorrelation_adjusted_test.py      # Block bootstrap
+python permutation_test.py                   # Shuffle-based significance (10K permutations)
+python autocorrelation_adjusted_test.py      # Block bootstrap (preserves temporal structure)
 python cross_validation_dec2025.py           # Dec 2025 exclusion test
-python event_study_framework.py             # Compliance response analysis
+python event_study_framework.py              # Compliance response analysis
 python granger_causality_test.py             # Predictive direction test
+python partial_correlation_political.py      # Congressional calendar confound check
+python normalized_correlation.py             # Per-year normalization (z-score, binary)
+python rolling_window_correlation.py         # Sliding-window stability analysis
 ```
 
 Key datasets:

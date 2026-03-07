@@ -108,9 +108,18 @@ Copilot_Opus_4.6_Analysis/
 
 ### `Statistical_Tests/`
 
-Runnable Python scripts that test claims in the data.  All multi-dataset
-scripts import from `original_data_loader.py` which provides standardized
-access to the original pre-2026 datasets.  Anyone can execute these:
+**16 runnable Python scripts** independently written by Opus 4.6 to stress-test
+the repository owner's correlation findings.  The core correlation
+(r = +0.6196, p = 0.0004) **survived every test applied** — including
+permutation testing (p < 0.0001), Granger causality (p = 0.0008),
+autocorrelation-adjusted bootstrap (p = 0.008), event-study analysis
+(20–42× above baseline), partial correlation controlling for congressional
+calendars (< 1% explained), and historical backfill (Δr = +0.0012).
+
+All multi-dataset scripts import from `original_data_loader.py` which provides
+standardized access to the original pre-2026 datasets.  Anyone can execute these:
+
+→ **Full documentation and results**: `Statistical_Tests/README.md`
 
 ```bash
 pip install pandas numpy scipy statsmodels

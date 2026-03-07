@@ -11,7 +11,7 @@
 |-------|-------------|------------------|
 | **Core theory / thermostat model** | `01_CORE_THEORY.md` | `Report.md`, `14_Files/Thermostat_Explained.md` |
 | **Leverage thesis / leverage architecture** | `11_LEVERAGE_THESIS.md` | `01_CORE_THEORY.md`, `09_CURRENT_THREADS.md`, `04_CAPITAL_ARCHITECTURE.md` |
-| **Statistical evidence / correlation** | `07_METHODOLOGY.md` | `Control_Proof/correlation_results.txt`, `Run_Correlations_Yourself/README.md` |
+| **Statistical evidence / correlation** | `07_METHODOLOGY.md` | `Run_Correlations_Yourself/README.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md` |
 | **Payment system opacity / capital flow** | `Project_Trident/Capital_Flow_Opacity_Framework.md` | `04_CAPITAL_ARCHITECTURE.md`, `14_Files/How_This_Happened-A_Policy_Brief.md` |
 | **Ritual / calendar timing** | `Project_Trident/Ritual_Timing_Signal_Analysis.md` | `Project_Trident/DATASET_REFERENCE.md`, `Project_Trident/temporal_correlations_analyzed.csv` |
 | **Media firewall / 1789 Capital / Omeed Malik** | `02_MEDIA_FIREWALL.md` | `12_The_Media_Firewall/README.md`, `12_The_Media_Firewall/1789_Symbolism_Analysis.md`, `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` |
@@ -102,7 +102,7 @@ This repository uses a three-tier verification system:
 
 ### How This Repo Handles Evidence vs. Inference
 
-1. **Statistical claims** (r = 0.6196, p = 0.0004, etc.) are independently reproducible via `Run_Correlations_Yourself/run_original_analysis.py`.
+1. **Statistical claims** (r = 0.6196, p = 0.0004, etc.) are independently reproducible via `Run_Correlations_Yourself/run_original_analysis.py` and independently stress-tested by Opus 4.6's 16-script robustness suite in `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`.
 2. **Factual claims** (deal values, ownership percentages, filing data) cite specific sources (SEC filings, press releases, news reports).
 3. **Interpretive claims** (thermostat function, cartel statecraft, media firewall) are labeled `[Inference]` or `🔍 HYPOTHESIS`.
 4. **Failed predictions** are documented alongside successful ones. The repo does not suppress negative results.

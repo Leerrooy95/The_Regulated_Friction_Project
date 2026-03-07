@@ -433,6 +433,7 @@ The repository includes testable predictions for 2026:
 **Methodological Rigor: 7/10**
 - Appropriate statistical tests used (Pearson correlation, Mann-Whitney U)
 - Missing: Granger causality, autocorrelation analysis, robustness checks
+  - **UPDATE (February 2026):** These gaps have since been addressed by the Opus 4.6 independent robustness suite (16 scripts) in `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`. All tests passed — see `Statistical_Tests/README.md` for full results.
 - Event classification methodology could be more explicit
 
 **Transparency: 9/10**

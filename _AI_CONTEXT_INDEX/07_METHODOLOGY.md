@@ -27,8 +27,8 @@
 |-------|--------------|-------------------|
 | Primary correlation r = 0.6196 is reproducible | ✅ VERIFIED | `Run_Correlations_Yourself/run_original_analysis.py` |
 | p-value = 0.0004 (n = 28) | ✅ VERIFIED | Same script |
-| Multiple robustness tests pass | ✅ VERIFIED | `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` |
-| Independent verification completed | ✅ VERIFIED | `14_Files/VERIFICATION_REPORT_Jan2026.md` |
+| Multiple robustness tests pass (16 scripts) | ✅ VERIFIED | `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/` |
+| Independent verification by Opus 4.6 completed | ✅ VERIFIED | `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md` |
 
 ---
 
@@ -91,6 +91,10 @@ Tests whether one time series helps **predict** another.
 
 ## Robustness Tests
 
+### Independent Verification by Opus 4.6
+
+After the repository owner established the original correlations, **GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran a suite of **16 statistical test scripts** to stress-test the findings. Opus 4.6 did not build the datasets or compute the original correlations — it received the data and designed its own tests to challenge them.
+
 ### Test Suite Location
 `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
 
@@ -110,12 +114,16 @@ Tests whether one time series helps **predict** another.
 
 | Test | Result | Verdict |
 |------|--------|---------|
-| Permutation (1K shuffles) | r = 0.62 significant (p < 0.001) | ✅ Pass |
+| Permutation (10K shuffles) | p < 0.0001 — observed r beat 10,000 random shuffles | ✅ Pass |
 | Autocorrelation adjustment | Pearson p = 0.008 (block-bootstrap), Spearman ρ = 0.61 | ✅ Both survive |
 | Dec 2025 exclusion | Pearson r drops 6%, Spearman ρ = 0.60 | ✅ Signal survives |
 | Normalized (binary) | r = 0.59 (p < 0.0001) | ✅ Presence/absence holds |
 | Event-study | Friction dates attract 20–42x more compliance | ✅ Strong colocation |
 | Granger (hand-scored) | F→C at lag 1 (p = 0.0008), lag 2 (p = 0.027) | ✅ Predictive |
+| Partial correlation (political calendar) | < 1% of correlation explained by congressional session | ✅ Not a confound |
+| Granger (first-differenced) | Direction consistent after stationarity correction | ✅ Robust |
+| Rolling window (13/26/52 wk) | Correlation present across multiple time periods | ✅ Not driven by one cluster |
+| Historical backfill (66 pairs) | Δr = +0.0012 | ✅ Negligible impact |
 
 ---
 

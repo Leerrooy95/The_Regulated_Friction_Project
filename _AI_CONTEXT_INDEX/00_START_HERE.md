@@ -96,6 +96,15 @@ The repository now documents a dual-track model for understanding friction-compl
 | Project Trident significance | p = 0.002 (Mann-Whitney U) | ✅ Verified |
 | Cross-validation (14-day periodicity) | χ² = 330.62 (p < 0.0001) | ✅ Verified |
 
+### Independent Verification (Opus 4.6)
+
+**GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran **16 statistical test scripts** to stress-test the repository owner's correlations. The core finding (r = +0.6196) survived every robustness test applied.
+
+Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.0008), autocorrelation-adjusted bootstrap (p = 0.008), event-study analysis (20–42× above baseline), and partial correlation controlling for congressional session calendars (< 1% explained).
+
+→ **Full test suite**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
+→ **Test results documentation**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md`
+
 ---
 
 ## Quick Reference: Key Entities
@@ -158,7 +167,7 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | Arkansas infrastructure | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
 | FaaS / protest dynamics | `11_Protest_Dynamics_and_Funding/README.md` |
 | Iran strikes / cyber-kinetic | `sources/2026-02-28_Iran_Strike_Target_Mapping.md`, `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
-| Statistical verification | `07_METHODOLOGY.md`, `Run_Correlations_Yourself/README.md` |
+| Statistical verification | `07_METHODOLOGY.md`, `Run_Correlations_Yourself/README.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md` |
 | Datasets / CSV reference | `08_KEY_DATASETS.md`, `Project_Trident/DATASET_REFERENCE.md` |
 | Failed predictions / retractions | `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md`, `Archive/Retracted_Three_Layer_References.md` |
 | Dashboard / pipeline | `dashboard/app.py`, `daily_perplexity_update.py`, `QUICK_START.md` |

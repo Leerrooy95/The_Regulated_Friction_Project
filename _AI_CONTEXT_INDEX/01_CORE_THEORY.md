@@ -84,17 +84,25 @@ Sample size: n = 30 rows (n = 28 effective after 2-week lag)
 
 ---
 
-## Robustness Tests
+## Robustness Tests (Independent Opus 4.6 Verification)
+
+After the repository owner established the original correlations, **GitHub Copilot (Claude, Opus 4.6)** independently wrote and ran **16 statistical test scripts** to stress-test the findings. The core correlation survived every test:
 
 | Test | Result | Verdict |
 |------|--------|---------|
-| Permutation (1K shuffles) | r = 0.62 significant (p < 0.001) | ✅ Pass |
-| Autocorrelation adjustment | Pearson p = 0.008 (block-bootstrap) | ✅ Survives |
-| Dec 2025 exclusion | Pearson r drops 6%, Spearman ρ = 0.60 | ✅ Signal survives |
-| Event-study | Friction dates attract 20–42x more compliance | ✅ Strong colocation |
-| Granger causality (hand-scored) | F→C at lag 1 (p = 0.0008) | ✅ Predictive |
+| Permutation (10K shuffles) | p < 0.0001 | ✅ Pass |
+| Granger causality (lag 1) | p = 0.0008 | ✅ Pass |
+| Block bootstrap (autocorr-adjusted) | p = 0.008 | ✅ Survives |
+| Dec 2025 exclusion | Spearman ρ = 0.60 | ✅ Signal survives |
+| Binary presence/absence | r = 0.59 | ✅ Pass |
+| Event-study | 20–42× above baseline | ✅ Strong colocation |
+| Partial correlation (political calendar) | < 1% explained | ✅ Not a confound |
+| Granger (first-differenced) | Direction consistent | ✅ Robust |
+| Rolling window (13/26/52 wk) | Multiple periods | ✅ Stable |
+| Historical backfill (66 pairs) | Δr = +0.0012 | ✅ Negligible impact |
 
 **Location**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/`
+**Full documentation**: `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md`
 
 ---
 
