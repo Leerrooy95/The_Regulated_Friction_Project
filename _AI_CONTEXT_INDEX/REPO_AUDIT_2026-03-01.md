@@ -689,7 +689,7 @@ Contains 13 sets of timestamped `_extracted.json`, `_raw.txt`, and `_summary.txt
 | `03_BOARD_OF_PEACE.md` | Markdown | Private diplomacy, Kushner, Witkoff |
 | `04_CAPITAL_ARCHITECTURE.md` | Markdown | Gulf SWF pipelines, Silicon Sovereignty |
 | `05_CRINK_FRAMEWORK.md` | Markdown | China-Russia-Iran-NK coordination |
-| `06_MAIN_CHARACTERS.md` | Markdown | Patel, Hegseth, Noem as noise generators |
+| `06_ATTENTION_ECONOMY.md` | Markdown | Attention economy & quotas: noise generators, cross-administration patterns |
 | `07_METHODOLOGY.md` | Markdown | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | Markdown | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Markdown | Active research questions (large file) |

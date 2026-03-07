@@ -66,7 +66,7 @@ The repository now documents a dual-track model for understanding friction-compl
 ### For General Understanding (30 min)
 1. `01_CORE_THEORY.md` - The thermostat model and 7-day median lag
 2. `07_METHODOLOGY.md` - How correlations were verified
-3. `06_MAIN_CHARACTERS.md` - Who generates the "noise"
+3. `06_ATTENTION_ECONOMY.md` - Attention economy & quotas: who generates the "noise" and replacement dynamics
 
 ### For Analysis Tasks (1 hour)
 1. All of the above, plus:
@@ -134,7 +134,7 @@ The repository now documents a dual-track model for understanding friction-compl
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, Silicon Sovereignty |
 | `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination |
-| `06_MAIN_CHARACTERS.md` | Patel, Hegseth, Noem as noise generators |
+| `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: noise generators, cross-administration patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Active research questions |

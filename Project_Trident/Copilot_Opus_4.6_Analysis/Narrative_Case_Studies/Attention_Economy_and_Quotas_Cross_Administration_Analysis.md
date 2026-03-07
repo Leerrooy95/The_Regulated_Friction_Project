@@ -24,7 +24,7 @@ they are noted. Where they do not, that is noted too.
 
 ## Executive Summary
 
-The repository's "Main Characters" framework (see `14_Files/Main_Characters.md` and `_AI_CONTEXT_INDEX/06_MAIN_CHARACTERS.md`) documents how high-visibility Cabinet figures generate predictable media attention cycles. This analysis reframes that framework through a more grounded lens: the **attention economy** and **quotas**.
+The repository's "Main Characters" framework (see `14_Files/Main_Characters.md` and `_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md`) documents how high-visibility Cabinet figures generate predictable media attention cycles. This analysis reframes that framework through a more grounded lens: the **attention economy** and **quotas**.
 
 Rather than suggesting coordination, the "attention economy" model posits that:
 1. **Attention is finite** — news cycles have limited bandwidth
@@ -312,7 +312,7 @@ The "attention economy" and "quotas" framing makes this model more grounded and 
 
 - **Bondi Hearing analysis (existing):** `Narrative_Case_Studies/Bondi_Hearing_Feb14_2026.md`
 - **Main Characters framework:** `14_Files/Main_Characters.md`
-- **AI Context Index summary:** `_AI_CONTEXT_INDEX/06_MAIN_CHARACTERS.md`
+- **AI Context Index summary:** `_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md`
 - **Core theory:** `_AI_CONTEXT_INDEX/01_CORE_THEORY.md`
 - **Media firewall:** `_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md`
 
