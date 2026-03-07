@@ -210,4 +210,24 @@
 
 **Framework Relevance**: Noem's firing represents the first removal of a "main character" from the framework during active service. The timing — during simultaneous DHS shutdown, Iran war escalation, and Epstein file releases — is consistent with the dual-track system: leadership change at the attention-generating agency occurs while substantive structural events proceed elsewhere.
 
-*Updated March 6, 2026.*
+### Markwayne Mullin — Nominated DHS Secretary (March 5, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Nominated | March 5, 2026 (pending Senate confirmation) |
+| Previous Role | U.S. Senator (R-OK) |
+| Structural Position | Replaces Noem as DHS Secretary — attention-generating role |
+| Notable | Attempted to physically fight union leader during Senate hearing (2023); described "smell" and "taste" of war on TV despite no military service; admitted blocking Epstein file release resolution to "give [Trump] cover" |
+| Verification | ✅ VERIFIED — NPR, CNBC, Politico, New Republic, The Hill, USA Today, Mediaite |
+
+**Attention Economy Relevance**: Mullin's selection follows the cross-administration "replacement escalation" pattern — when a noise generator underperforms, they are replaced by a louder one. Mullin was already generating controversy before his nomination. See `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` for full cross-administration comparison.
+
+---
+
+## Attention Economy & Quotas Framework (March 7, 2026)
+
+A cross-administration analysis documents the structural consistency of the "main characters" pattern across Trump 1.0 (2017–2021) and Trump 2.0 (2025–present). Key finding: the pattern of performative officials consuming media bandwidth, being replaced when underperforming, and replacements being calibrated for higher volume is consistent across both administrations.
+
+**Full analysis**: `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md`
+
+*Updated March 7, 2026.*
