@@ -224,7 +224,7 @@ DHS provides the clearest cross-administration comparison:
 | **Deflection** | Redirect substantive questioning to unrelated metrics | — | Bondi: "Dow is over 50,000" at Epstein hearing |
 | **Spectacle** | Generate visual/dramatic controversy | Scaramucci: expletive-laden interview (10 days) | Mullin: attempted to fight union leader in hearing |
 | **Premature Claims** | Release information too early, creating correction cycles | — | Patel: premature "subject in custody" post on Kirk case |
-| **Scripted Escalation** | Apply pre-prepared narrative regardless of facts | Nielsen: defended family separation policy | Noem: called Pretti "domestic terrorist" before investigation |
+| **Fact-Independent Framing** | Apply pre-prepared narrative regardless of on-the-ground evidence | Nielsen: defended family separation policy | Noem: called Pretti "domestic terrorist" before investigation |
 | **Ethics Spectacle** | Personal conduct scandals that consume cycles | Pruitt: $43K phone booth, lobbyist housing; Price: $1M jets | Patel: whistleblower re personal use of FBI jets |
 | **Replacement Escalation** | Outgoing official replaced by louder one | Sessions → Whitaker; Spicer → Scaramucci | Noem → Mullin; Bongino → (position eliminated) |
 
@@ -265,7 +265,7 @@ DHS provides the clearest cross-administration comparison:
 
 | Claim | Status | Notes |
 |-------|--------|-------|
-| "Renee Good" exact spelling of first name | ⚠️ PARTIALLY VERIFIED | NPR used "Renee Macklin Good" — full name confirmed via NPR article on Pretti (Jan 25, 2026) |
+| "Renee Good" exact spelling of first name | ⚠️ PARTIALLY VERIFIED | NPR used "Renee Macklin Good" — full name confirmed via [NPR article on Pretti (Jan 25, 2026)](https://www.npr.org/2026/01/25/nx-s1-5687361/minneapolis-shooting-latest-alex-pretti), which references Good's death as the earlier incident: "It is the second killing involving federal immigration officers in Minneapolis this month after ICE officers shot Renee Macklin Good on Jan. 7" |
 | Specific media cycle counts for Trump 1.0 officials | ⚠️ ESTIMATED | Based on reporting volume, not precise measurement |
 | Whether replacement decisions are driven by "quota" logic vs. other factors | 🔍 HYPOTHESIS | Observable pattern, but motivation is inferred |
 
