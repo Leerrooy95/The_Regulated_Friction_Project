@@ -343,7 +343,7 @@ This is real-time validation that the same consolidation pattern documented in t
 |-------|--------|
 | Google search interest in Epstein files declined sharply after Feb 28 strikes | ✅ VERIFIED — Google Trends data, Al Jazeera, ThePost.co.in, IBTimes |
 | ~95% decline figure | ⚠️ PARTIALLY VERIFIED — ThePost.co.in reported this figure; Google Trends directionally confirms steep drop |
-| Analyst Shaiel Ben-Ephraim quoted by Al Jazeera | ⚠️ PARTIALLY VERIFIED — Al Jazeera article confirmed via URL; specific analyst attribution consistent with article |
+| Analyst Shaiel Ben-Ephraim quoted by Al Jazeera | ⚠️ PARTIALLY VERIFIED — Al Jazeera article on Epstein interest decline confirmed via web search results referencing the article; specific analyst attribution inferred from article title and context but exact quote not independently confirmed |
 | Massie and other lawmakers noted attention shift | ✅ VERIFIED — multiple sources reference Congressional attention consumed by war |
 
 **Framework Alignment:**

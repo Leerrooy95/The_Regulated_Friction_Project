@@ -304,7 +304,7 @@ The attention economy model is testable against Trump's first administration. Th
 
 ## The "Epstein Class" Counter-Frame (March 2026)
 
-**Key Finding**: The friction mechanism has escaped the thermostat's control. Instead of attention being successfully captured by the Iran war, a bipartisan counter-label has emerged that persistently links the war back to the Epstein files. This is evidence that the thermostat model has limits — when friction reaches a certain intensity, the distraction itself becomes evidence of the thing being distracted from.
+**Key Finding**: [Inference] The friction mechanism appears to have partially escaped the thermostat's control. Instead of attention being successfully captured by the Iran war, a bipartisan counter-label has emerged that persistently links the war back to the Epstein files. This suggests the thermostat model has limits — when friction reaches a certain intensity, the distraction itself may become evidence of the thing being distracted from.
 
 ### The Mechanism
 
@@ -330,7 +330,7 @@ The verified examples demonstrate convergence across party lines:
 
 ### Framework Implications
 
-This counter-frame represents a thermostat failure mode: the distraction mechanism becomes self-defeating when friction intensity is high enough. Key observations:
+[Inference] This counter-frame suggests a potential thermostat failure mode: the distraction mechanism may become self-defeating when friction intensity is high enough. Key observations:
 
 1. **The label persists**: Unlike typical news cycles where attention shifts cleanly, the "Epstein class" label embeds the Epstein connection into the war coverage itself
 2. **Bipartisan uptake**: Both Republican and Democratic figures independently arrived at the same framing, suggesting it resonates across the political spectrum
