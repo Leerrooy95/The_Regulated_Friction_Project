@@ -31,6 +31,12 @@
 | **Anthropic supply chain risk / Pentagon AI standoff** | `09_CURRENT_THREADS.md` (Anthropic section) | `11_LEVERAGE_THESIS.md`, `10_FRAMEWORK_VALIDATION.md` |
 | **Epstein files DOJ suppression / March releases** | `09_CURRENT_THREADS.md` (Node 5) | `11_LEVERAGE_THESIS.md`, [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
 | **Energy crisis / oil prices / Strait of Hormuz** | `04_CAPITAL_ARCHITECTURE.md` (March update) | `09_CURRENT_THREADS.md` (Node 2, Node 3) |
+| **Oracle financial stress / Stargate contraction** | `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section) | `09_CURRENT_THREADS.md` (Node 8), `10_FRAMEWORK_VALIDATION.md` (Section 8) |
+| **Oracle stock decline / bondholder lawsuit / layoffs** | `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section) | `09_CURRENT_THREADS.md` (Node 8) |
+| **Stargate Abilene expansion scrapped / Meta replacement** | `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section) | `10_FRAMEWORK_VALIDATION.md` (Section 8) |
+| **Ellison dual exposure / Oracle × WBD** | `02_MEDIA_FIREWALL.md` (Ellison Dual Exposure section) | `04_CAPITAL_ARCHITECTURE.md`, `09_CURRENT_THREADS.md` (Node 8) |
+| **Warner Bros. Discovery acquisition / Paramount-Skydance** | `02_MEDIA_FIREWALL.md` (Ellison Dual Exposure section) | `04_CAPITAL_ARCHITECTURE.md` |
+| **Energy crisis capital impact / bond market stress** | `04_CAPITAL_ARCHITECTURE.md` (Energy Crisis Capital Breaker section) | `11_LEVERAGE_THESIS.md`, `09_CURRENT_THREADS.md` (Node 2, Node 3) |
 | **Unable to verify / March 2026 gaps** | `Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md` | — |
 | **Cyber-kinetic operations / Handala** | `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` | `09_CURRENT_THREADS.md` |
 | **Arsenal of Freedom / defense production** | `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md` | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
@@ -153,4 +159,4 @@ For entity-specific analysis, use the modular Node Dossier system instead of rea
 
 ---
 
-*Created March 1, 2026. Updated March 7, 2026 — renamed 06_MAIN_CHARACTERS.md to 06_ATTENTION_ECONOMY.md; added cross-administration analysis routing. Previous update March 6, 2026 — added routing for Iran war March developments, DHS Noem firing, Anthropic supply chain designation, Epstein DOJ file releases, energy crisis, and unable-to-verify file.*
+*Created March 1, 2026. Updated March 7, 2026 — added routing for Oracle financial stress/Stargate contraction, Ellison dual exposure (Oracle × WBD), energy crisis capital impact, Warner Bros. Discovery acquisition; renamed 06_MAIN_CHARACTERS.md to 06_ATTENTION_ECONOMY.md; added cross-administration analysis routing. Previous update March 6, 2026 — added routing for Iran war March developments, DHS Noem firing, Anthropic supply chain designation, Epstein DOJ file releases, energy crisis, and unable-to-verify file.*

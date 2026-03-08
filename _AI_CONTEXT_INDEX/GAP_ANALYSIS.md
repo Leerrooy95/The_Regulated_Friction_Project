@@ -150,3 +150,97 @@ The `_AI_CONTEXT_INDEX` mentions `Project_Trident/` in passing but does not docu
 ---
 
 *Gap analysis completed 2026-03-01.*
+
+---
+
+## Changes Since March 1, 2026
+
+**Last reviewed**: March 7, 2026
+
+The following files have been added or significantly changed since the original gap analysis:
+
+### New Files Added
+
+| File | Location | Content | Gap Impact |
+|------|----------|---------|------------|
+| `06_ATTENTION_ECONOMY.md` | `_AI_CONTEXT_INDEX/` | Renamed from `06_MAIN_CHARACTERS.md`; rewritten as Attention Economy & Quotas framework with cross-administration comparison | **Closes gap**: Section 2 outdated reference about `06_MAIN_CHARACTERS.md` now resolved |
+| `11_LEVERAGE_THESIS.md` | `_AI_CONTEXT_INDEX/` | New file formalizing the leverage mechanism: Musk/Epstein/Netanyahu origin case, Iran extension, Anthropic counter-example, capital architecture | **New content**: Not previously missing (didn't exist), but adds significant theoretical depth |
+| `Statistical_Tests/README.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/` | Documents 16-script robustness test suite (permutation, Granger, bootstrap, etc.) | **Partially closes gap**: Section 1 noted statistical test scripts unindexed; now have README documentation |
+| `Unable_to_Verify_March_2026.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/` | Tracks 9 items unable to verify as of March 6, 2026 (Schedule P/C, Section 122, BoP, Maxwell, etc.) | **New content**: Transparency mechanism for verification gaps |
+| `Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` | `Project_Trident/.../Narrative_Case_Studies/` | Cross-administration noise generator analysis (NCS-2026-002) | **Partially closes gap**: Section 1 noted Narrative_Case_Studies unindexed |
+| `speaker-conversation-2026-03-06-22-58-42.md` | `Project_Trident/The_Speaker/March_2026/` | Gap analysis and prioritization of 14 update areas | **New content**: Speaker conversation exports |
+| `speaker-conversation-2026-03-07-01-14-18.md` | `Project_Trident/The_Speaker/March_2026/` | 5 research gap findings (Mojtaba succession, Venezuela, Section 122, Mullin, OpenAI Pentagon) | **New content**: Speaker conversation exports |
+| `sync_ai_context.yml` | `.github/workflows/` | New workflow for syncing AI context index | **Partially closes gap**: Section 1 noted `.github/workflows/` unindexed |
+
+### Significant Changes to Existing Files
+
+| File | Changes | Gap Impact |
+|------|---------|------------|
+| `09_CURRENT_THREADS.md` | Major March addenda: Iran war Day 7, Khamenei death, Strait of Hormuz, DHS Noem firing, Anthropic designation, Clinton depositions, TikTok lawsuit, Venezuela normalization, Speaker analysis findings, **Node 8: Oracle Financial Stress** (March 7) | **Partially closes gap**: Section 2 noted current threads was out of date |
+| `10_FRAMEWORK_VALIDATION.md` | Added Sections 6 (Defense convergence), 7 (War widening), **8 (Oracle-Stargate contraction)** (March 7) | **Closes gap**: Section 2 noted validation entries stopped at Feb 21 |
+| `04_CAPITAL_ARCHITECTURE.md` | Added Feb 28 kinetic impact, March 1-6 energy crisis, **March 7: Oracle Financial Stress, Stargate contraction, Energy crisis capital breaker** | **Partially closes gap**: Section 2 noted Iran strike impact not documented |
+| `02_MEDIA_FIREWALL.md` | **Added March 7: Ellison Dual Exposure (Oracle × WBD)** — links capital architecture to media firewall through single individual | **New cross-reference**: Creates previously unmapped connection between `04_CAPITAL_ARCHITECTURE.md` and `02_MEDIA_FIREWALL.md` |
+| `CONTEXT_ROUTER.md` | Updated March 6-7: Added routing for Iran war, DHS/Noem, Anthropic, Epstein DOJ, energy crisis, unable-to-verify file | **Partially closes gap**: Router now covers more topics |
+| `00_START_HERE.md` | Updated to v10.4; renamed `06_ATTENTION_ECONOMY.md` in table | **Partially closes gap**: Version updated |
+
+### Gaps Partially or Fully Closed Since March 1
+
+| Original Gap | Status | How Addressed |
+|--------------|--------|---------------|
+| `10_FRAMEWORK_VALIDATION.md` stopped at Feb 21 (Section 2) | ✅ **CLOSED** | Sections 6, 7, 8 added covering Feb 27 through March 7 |
+| `06_MAIN_CHARACTERS.md` outdated (Section 2) | ✅ **CLOSED** | Renamed to `06_ATTENTION_ECONOMY.md` with full rewrite |
+| Iran strikes not in capital architecture (Section 3) | ✅ **CLOSED** | Feb 28 and March 1-6 updates added to `04_CAPITAL_ARCHITECTURE.md` |
+| Statistical test scripts unindexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | README.md created; individual scripts still not catalogued |
+| `.github/workflows/` not indexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | `sync_ai_context.yml` added; referenced in `00_START_HERE.md` pipeline table |
+| Venezuela not referenced in current threads (Section 3) | ⚠️ **PARTIALLY CLOSED** | Venezuela normalization added to `09_CURRENT_THREADS.md` March updates |
+| `00_START_HERE.md` version outdated (Section 2) | ✅ **CLOSED** | Updated to v10.4 |
+| Capital architecture ↔ Media firewall not linked (new) | ✅ **CLOSED** | Ellison Dual Exposure section creates cross-reference |
+
+### Gaps Still Open
+
+The following gaps from the original March 1 analysis remain unaddressed:
+
+| Gap | Severity | Section |
+|-----|----------|---------|
+| `00_Quick_Breakdowns/` not indexed | Medium | Section 1 |
+| `08_How_It's_Possible/` not indexed | Medium | Section 1 |
+| `11_Protest_Dynamics_and_Funding/` absent from index | Critical | Section 1 |
+| `Archive/` retraction history not in index | High | Section 1 |
+| `docs/` not indexed | Low | Section 1 |
+| `federal_register/` not indexed | Medium | Section 1 |
+| Dashboard application not indexed in detail | High | Section 1 |
+| Pipeline infrastructure invisible | High | Section 6 |
+| FaaS/Protest dynamics still absent from index | Critical | Section 5 |
+| `08_KEY_DATASETS.md` missing 2026 datasets | High | Section 2 |
+| Node Dossiers listing still missing 3 dossiers in `00_START_HERE.md` | Medium | Section 2 |
+| Project_Trident depth coverage still ~30% | High | Section 5 |
+| Orphaned content not cleaned up | Medium | Section 4 |
+| Duplicate content (Omeed Malik) not resolved | Low | Section 6 |
+
+### Updated Coverage Assessment
+
+**Estimated index coverage**: ~45-50% (up from ~35-40% on March 1)
+
+| Domain | March 1 Coverage | March 7 Coverage | Change |
+|--------|-----------------|-------------------|--------|
+| Core theory & statistics | ~90% | ~95% | ⬆ Leverage thesis + statistical test README |
+| Media firewall | ~75% | ~85% | ⬆ Ellison dual exposure + source files indexed |
+| Board of Peace | ~80% | ~80% | — No change |
+| Capital architecture | ~70% | ~90% | ⬆ Major March updates (Oracle, energy crisis, Iran) |
+| CRINK framework | ~85% | ~85% | — No change |
+| Methodology | ~70% | ~75% | ⬆ Statistical test README |
+| Datasets | ~60% | ~60% | — No change |
+| Current threads | ~65% | ~85% | ⬆ Major March updates (8 nodes, March events) |
+| Infrastructure/Pipeline | ~10% | ~15% | ⬆ sync_ai_context.yml added |
+| Node Dossiers | ~65% | ~65% | — No change |
+| Project_Trident depth | ~25% | ~30% | ⬆ Statistical tests, Unable to Verify, Narrative Case Studies |
+| Framework validation | ~60% | ~95% | ⬆ Sections 6, 7, 8 added |
+| Retraction/fabrication | ~5% | ~5% | — No change |
+| FaaS/Protest dynamics | ~0% | ~0% | — No change (CRITICAL) |
+| State-level analysis | ~10% | ~10% | — No change |
+| **Leverage thesis** | N/A | ~90% | 🆕 New file fully integrated |
+| **Attention Economy** | ~50% | ~90% | ⬆ Renamed/rewritten + NCS routing |
+
+---
+
+*Gap analysis updated 2026-03-07. Original analysis: 2026-03-01.*

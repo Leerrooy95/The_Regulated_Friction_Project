@@ -166,3 +166,36 @@
 ---
 
 *Analysis conducted March 6, 2026. All web searches used AP News, NPR, BBC, Reuters, Al Jazeera, and Axios as primary sources.*
+
+---
+
+## March 7, 2026 Additions
+
+### 10. FCC "Cleaner Than Previous Bids" — Paramount-WBD
+
+**What was claimed**: FCC considers the Paramount-WBD deal "cleaner than previous bids."
+
+**Search attempts**: 3 (Google, Bloomberg, Financial Times)
+
+**Result**: Unable to find any specific quote from FCC officials or Chairman Brendan Carr describing the Paramount-WBD deal as "cleaner than previous bids." Reporting confirms FCC is signaling a pro-business review under the current administration, but no specific "cleaner" language was found.
+
+**Note**: The FCC's general pro-business disposition under Brendan Carr is ⚠️ PARTIALLY VERIFIED, but the specific quote is ❌ UNVERIFIED.
+
+### Updated Summary (March 7)
+
+| Item | Searches | Status |
+|------|----------|--------|
+| Schedule P/C March 8 implementation | 5 | ❌ Unable to verify |
+| Section 122 tariff post-Feb developments | 5 | ❌ Unable to verify |
+| Board of Peace post-summit implementation | 5 | ❌ Unable to verify |
+| Maxwell clemency decision | 5 | ❌ Unable to verify |
+| UK Parliament Mandelson vote | 5 | ❌ Unable to verify |
+| Taiwan Strait PLA activity (March) | 5 | ❌ Unable to verify |
+| Arkansas defense post-strike updates | 5 | ❌ Unable to verify |
+| ADIA/QIA 13F analysis | 3 | ❌ Unable to verify |
+| Russia/NK Iran war responses | 3 | ❌ Unable to verify (China ✅) |
+| FCC "cleaner than previous bids" quote | 3 | ❌ Unable to verify |
+
+---
+
+*Updated March 7, 2026. Added FCC "cleaner than previous bids" unverified item from Ellison/WBD research.*
