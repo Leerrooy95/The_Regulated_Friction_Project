@@ -4,6 +4,9 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 **Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app)
 
+**Live Leverage Dashboard:**
+https://regulatedfriction.me/
+
 | Quick Links | |
 |-------------|---|
 | **New here?** | [Glossary](14_Files/Glossary.md) |
