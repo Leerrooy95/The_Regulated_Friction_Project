@@ -46,7 +46,9 @@
 | **Epstein crypto connections** | `02_MEDIA_FIREWALL.md` (Epstein crypto section) | `14_Files/FINANCIAL_RECEIPT_VERIFICATION.md` |
 | **bin Sulayem / DP World** | `Node_Dossiers/tier1_binsulayem_epstein.md` | `09_CURRENT_THREADS.md` |
 | **Egypt / Gulf integration** | `Node_Dossiers/tier2_egypt_gulf_integration.md` | `Node_Dossiers/tier2_sovereign_wealth_movers.md` |
-| **Maxwell / clemency** | `09_CURRENT_THREADS.md` (Node 1) | `08_How_It's_Possible/Phase_0_Maxwell_Pivot.csv` |
+| **Maxwell / clemency / leverage** | `Node_Dossiers/tier1_maxwell_leverage.md` | `09_CURRENT_THREADS.md` (Node 1), `08_How_It's_Possible/Phase_0_Maxwell_Pivot.csv` |
+| **VOCA / trafficking funds / administrative pincer** | `Node_Dossiers/tier1_maxwell_leverage.md` | `08_How_It's_Possible/08_How_Its_Possible.md` |
+| **How it's possible / institutional plumbing / impunity** | `08_How_It's_Possible/08_How_Its_Possible.md` | `Node_Dossiers/tier1_maxwell_leverage.md` |
 | **Clinton depositions / Epstein testimony** | `09_CURRENT_THREADS.md` (Clinton Depositions section) | `11_LEVERAGE_THESIS.md` |
 | **Anthropic / Pentagon standoff / AI safeguards** | `09_CURRENT_THREADS.md` (Anthropic section) | `11_LEVERAGE_THESIS.md`, `04_CAPITAL_ARCHITECTURE.md` |
 | **Attention economy / noise generators / quotas** | `06_ATTENTION_ECONOMY.md` | `14_Files/Main_Characters.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` |
@@ -159,4 +161,4 @@ For entity-specific analysis, use the modular Node Dossier system instead of rea
 
 ---
 
-*Created March 1, 2026. Updated March 7, 2026 — added routing for Oracle financial stress/Stargate contraction, Ellison dual exposure (Oracle × WBD), energy crisis capital impact, Warner Bros. Discovery acquisition; renamed 06_MAIN_CHARACTERS.md to 06_ATTENTION_ECONOMY.md; added cross-administration analysis routing. Previous update March 6, 2026 — added routing for Iran war March developments, DHS Noem firing, Anthropic supply chain designation, Epstein DOJ file releases, energy crisis, and unable-to-verify file.*
+*Created March 1, 2026. Updated March 8, 2026 — added routing for Maxwell leverage node (clemency, VOCA, administrative pincer, institutional plumbing); `08_How_It's_Possible/` directory now routed. Previous update March 7, 2026 — added routing for Oracle financial stress/Stargate contraction, Ellison dual exposure (Oracle × WBD), energy crisis capital impact, Warner Bros. Discovery acquisition; renamed 06_MAIN_CHARACTERS.md to 06_ATTENTION_ECONOMY.md; added cross-administration analysis routing. Previous update March 6, 2026 — added routing for Iran war March developments, DHS Noem firing, Anthropic supply chain designation, Epstein DOJ file releases, energy crisis, and unable-to-verify file.*
