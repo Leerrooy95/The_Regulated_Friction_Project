@@ -10,15 +10,24 @@
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
-| Detail | Status (Feb 2026) |
+| Detail | Status (March 2026) |
 |--------|-------------------|
 | Leverage type | Information leverage (Epstein network knowledge) |
+| Current facility | FPC Bryan, Texas (minimum-security); transferred from FCI Tallahassee Aug 2025 | ✅ VERIFIED — Court TV, Tallahassee Democrat, Star-Advertiser |
 | Current status | Incarcerated; invoked 5th Amendment before House Oversight (Feb 9, 2026) |
-| Negotiation | [Inference] Offered testimony in exchange for executive clemency |
-| Strategic value | Access to unreleased Epstein network documentation |
-| Last updated | Feb 9, 2026 (House Oversight testimony) |
+| Clemency negotiation | Attorney David Markus stated she would testify "fully and honestly" in exchange for clemency from Trump | ✅ VERIFIED — CBS News, NBC News, Time |
+| Formal OPA petition | Pending at DOJ Office of the Pardon Attorney; no public grant or denial | ⚠️ PARTIALLY VERIFIED — OPA database accessible but individual case details not disclosed |
+| Congressional opposition | H.Res.913 (119th Congress, Nov 2025) expressing opposition to any clemency for Maxwell | ✅ VERIFIED — Congress.gov |
+| Immunity testimony offer | Offered Jul 2025 via attorneys; rejected by House Oversight Committee (Chairman Comer: "non-starter") | ✅ VERIFIED — NBC News, The Hill, USA Today |
+| Motion to set aside conviction | Habeas corpus petition filed Jan 2026 (pro se); 9 grounds including juror misconduct, suppressed evidence | ✅ VERIFIED — The Hill, ABC News, NBC News, CBS News |
+| Prior appeals | Supreme Court declined to hear previous challenge | ✅ VERIFIED — NBC News |
+| Strategic value | Access to unreleased Epstein network documentation | 🔍 HYPOTHESIS |
+| Post-Feb 9 developments | No new public reporting on communications, visitors, or legal proceedings since Feb 9 deposition | ❌ UNABLE TO VERIFY |
+| Last updated | March 8, 2026 |
 
-**Source**: House Oversight Committee hearing transcript (Feb 9, 2026)
+**Sources**: House Oversight Committee (Feb 9, 2026) — [CBS News](https://www.cbsnews.com/news/ghislaine-maxwell-house-oversight-committee-deposition-fifth-amendment/), [NBC News](https://www.nbcnews.com/politics/justice-department/ghislaine-maxwell-pleads-fifth-says-speak-fully-honestly-trump-grants-rcna258227), [ABC News](https://abcnews.com/Politics/maxwell-expected-invoke-amendment-closed-virtual-house-oversight/story?id=129991066), [Politico](https://www.politico.com/live-updates/2026/02/09/congress/maxwell-pleads-the-fifth-00771258); Facility: [Court TV](https://www.courttv.com/news/ghislaine-maxwell-transferred-to-texas-prison/), [Tallahassee Democrat](https://www.tallahassee.com/story/news/local/state/2025/08/01/epstein-accomplice-ghislaine-maxwell-moved-from-florida-jail-to-texas/85475564007/); Clemency opposition: [Congress.gov H.Res.913](https://www.congress.gov/bill/119th-congress/house-resolution/913/text)
+
+**Full Dossier**: `Node_Dossiers/tier1_maxwell_leverage.md`
 
 ### Node 2: Iran (Cyber Leverage + Nuclear Threshold)
 

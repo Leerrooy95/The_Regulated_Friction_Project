@@ -155,7 +155,7 @@ The `_AI_CONTEXT_INDEX` mentions `Project_Trident/` in passing but does not docu
 
 ## Changes Since March 1, 2026
 
-**Last reviewed**: March 7, 2026
+**Last reviewed**: March 8, 2026
 
 The following files have been added or significantly changed since the original gap analysis:
 
@@ -171,17 +171,19 @@ The following files have been added or significantly changed since the original 
 | `speaker-conversation-2026-03-06-22-58-42.md` | `Project_Trident/The_Speaker/March_2026/` | Gap analysis and prioritization of 14 update areas | **New content**: Speaker conversation exports |
 | `speaker-conversation-2026-03-07-01-14-18.md` | `Project_Trident/The_Speaker/March_2026/` | 5 research gap findings (Mojtaba succession, Venezuela, Section 122, Mullin, OpenAI Pentagon) | **New content**: Speaker conversation exports |
 | `sync_ai_context.yml` | `.github/workflows/` | New workflow for syncing AI context index | **Partially closes gap**: Section 1 noted `.github/workflows/` unindexed |
+| `tier1_maxwell_leverage.md` | `_AI_CONTEXT_INDEX/Node_Dossiers/` | New Tier 1 dossier documenting Maxwell's Phase 0 infrastructure (1991–2003), current leverage position (clemency negotiation, habeas petition, 5th Amendment invocation at FPC Bryan), and the Administrative Pincer mechanism (VOCA funding freeze in Epstein infrastructure states NM/NV/NY). Integrates data from `08_How_It's_Possible/` directory files. | **Partially closes gap**: Section 1 noted `08_How_It's_Possible/` not indexed; now indexed via dossier cross-references and CONTEXT_ROUTER entries |
 
 ### Significant Changes to Existing Files
 
 | File | Changes | Gap Impact |
 |------|---------|------------|
-| `09_CURRENT_THREADS.md` | Major March addenda: Iran war Day 7, Khamenei death, Strait of Hormuz, DHS Noem firing, Anthropic designation, Clinton depositions, TikTok lawsuit, Venezuela normalization, Speaker analysis findings, **Node 8: Oracle Financial Stress** (March 7) | **Partially closes gap**: Section 2 noted current threads was out of date |
+| `09_CURRENT_THREADS.md` | Major March addenda: Iran war Day 7, Khamenei death, Strait of Hormuz, DHS Noem firing, Anthropic designation, Clinton depositions, TikTok lawsuit, Venezuela normalization, Speaker analysis findings, **Node 8: Oracle Financial Stress** (March 7). **March 8: Node 1 (Maxwell) upgraded with verified facility, clemency status, habeas petition, immunity rejection, cross-reference to new dossier** | **Partially closes gap**: Section 2 noted current threads was out of date |
 | `10_FRAMEWORK_VALIDATION.md` | Added Sections 6 (Defense convergence), 7 (War widening), **8 (Oracle-Stargate contraction)** (March 7) | **Closes gap**: Section 2 noted validation entries stopped at Feb 21 |
 | `04_CAPITAL_ARCHITECTURE.md` | Added Feb 28 kinetic impact, March 1-6 energy crisis, **March 7: Oracle Financial Stress, Stargate contraction, Energy crisis capital breaker** | **Partially closes gap**: Section 2 noted Iran strike impact not documented |
 | `02_MEDIA_FIREWALL.md` | **Added March 7: Ellison Dual Exposure (Oracle × WBD)** — links capital architecture to media firewall through single individual | **New cross-reference**: Creates previously unmapped connection between `04_CAPITAL_ARCHITECTURE.md` and `02_MEDIA_FIREWALL.md` |
-| `CONTEXT_ROUTER.md` | Updated March 6-7: Added routing for Iran war, DHS/Noem, Anthropic, Epstein DOJ, energy crisis, unable-to-verify file | **Partially closes gap**: Router now covers more topics |
+| `CONTEXT_ROUTER.md` | Updated March 6-7: Added routing for Iran war, DHS/Noem, Anthropic, Epstein DOJ, energy crisis, unable-to-verify file. **Updated March 8: Added routing for Maxwell leverage node (clemency, VOCA, administrative pincer, institutional plumbing); `08_How_It's_Possible/` directory now routed** | **Partially closes gap**: Router now covers more topics |
 | `00_START_HERE.md` | Updated to v10.4; renamed `06_ATTENTION_ECONOMY.md` in table | **Partially closes gap**: Version updated |
+| `NODE_INDEX.md` | **Updated March 8: Added `tier1_maxwell_leverage.md` to Tier 1 table; added entity mappings for Maxwell/Ghislaine/clemency, VOCA/trafficking funds, and administrative pincer** | **Partially closes gap**: Section 5 noted Node Dossiers coverage at ~65% |
 
 ### Gaps Partially or Fully Closed Since March 1
 
@@ -192,6 +194,8 @@ The following files have been added or significantly changed since the original 
 | Iran strikes not in capital architecture (Section 3) | ✅ **CLOSED** | Feb 28 and March 1-6 updates added to `04_CAPITAL_ARCHITECTURE.md` |
 | Statistical test scripts unindexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | README.md created; individual scripts still not catalogued |
 | `.github/workflows/` not indexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | `sync_ai_context.yml` added; referenced in `00_START_HERE.md` pipeline table |
+| `08_How_It's_Possible/` not indexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | `tier1_maxwell_leverage.md` integrates data from all 4 files in directory; CONTEXT_ROUTER entries added for Maxwell/VOCA/administrative pincer/institutional plumbing routing to directory files |
+| Node Dossiers listing missing Maxwell (Section 5) | ✅ **CLOSED** | `tier1_maxwell_leverage.md` created; NODE_INDEX.md updated with entity mappings |
 | Venezuela not referenced in current threads (Section 3) | ⚠️ **PARTIALLY CLOSED** | Venezuela normalization added to `09_CURRENT_THREADS.md` March updates |
 | `00_START_HERE.md` version outdated (Section 2) | ✅ **CLOSED** | Updated to v10.4 |
 | Capital architecture ↔ Media firewall not linked (new) | ✅ **CLOSED** | Ellison Dual Exposure section creates cross-reference |
@@ -203,7 +207,6 @@ The following gaps from the original March 1 analysis remain unaddressed:
 | Gap | Severity | Section |
 |-----|----------|---------|
 | `00_Quick_Breakdowns/` not indexed | Medium | Section 1 |
-| `08_How_It's_Possible/` not indexed | Medium | Section 1 |
 | `11_Protest_Dynamics_and_Funding/` absent from index | Critical | Section 1 |
 | `Archive/` retraction history not in index | High | Section 1 |
 | `docs/` not indexed | Low | Section 1 |
@@ -232,7 +235,7 @@ The following gaps from the original March 1 analysis remain unaddressed:
 | Datasets | ~60% | ~60% | — No change |
 | Current threads | ~65% | ~85% | ⬆ Major March updates (8 nodes, March events) |
 | Infrastructure/Pipeline | ~10% | ~15% | ⬆ sync_ai_context.yml added |
-| Node Dossiers | ~65% | ~65% | — No change |
+| Node Dossiers | ~65% | ~75% | ⬆ Maxwell dossier created; NODE_INDEX updated |
 | Project_Trident depth | ~25% | ~30% | ⬆ Statistical tests, Unable to Verify, Narrative Case Studies |
 | Framework validation | ~60% | ~95% | ⬆ Sections 6, 7, 8 added |
 | Retraction/fabrication | ~5% | ~5% | — No change |
@@ -243,4 +246,4 @@ The following gaps from the original March 1 analysis remain unaddressed:
 
 ---
 
-*Gap analysis updated 2026-03-07. Original analysis: 2026-03-01.*
+*Gap analysis updated 2026-03-08. Previous update: 2026-03-07. Original analysis: 2026-03-01.*
