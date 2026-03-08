@@ -53,7 +53,7 @@ This dossier documents Ghislaine Maxwell's role as an information leverage node 
 
 | Date | Event | Verification |
 |------|-------|--------------|
-| Dec 29, 2021 | Convicted on 5 of 6 counts (sex trafficking of a minor, conspiracy, transportation of a minor) | ✅ VERIFIED — DOJ, multiple outlets |
+| Dec 29, 2021 | Convicted on 5 of 6 counts (sex trafficking of a minor, conspiracy to entice a minor to travel to engage in illegal sex acts, conspiracy to transport a minor, transportation of a minor with intent to engage in criminal sexual activity, conspiracy to commit sex trafficking) | ✅ VERIFIED — DOJ, multiple outlets |
 | Jun 28, 2022 | Sentenced to 20 years in federal prison | ✅ VERIFIED — DOJ records |
 | 2023–2025 | Direct appeals exhausted; U.S. Supreme Court declined petition | ✅ VERIFIED — NBC News, CBS News |
 | Jan 17, 2026 | Filed habeas corpus petition (pro se) to set aside conviction | ✅ VERIFIED — [ABC News](https://abcnews.com/US/epstein-associate-ghislaine-maxwell-asks-court-set-aside/story?id=128086043), [The Hill](https://thehill.com/regulation/court-battles/5653793-maxwell-challenges-conviction-evidence/), [CBS News](https://www.cbsnews.com/news/ghislaine-maxwell-asks-court-to-toss-out-her-conviction/), [NBC News](https://www.nbcnews.com/news/us-news/ghislaine-maxwell-files-petition-challenging-sex-trafficking-convictio-rcna249807) |
@@ -154,10 +154,12 @@ The "Administrative Pincer" describes a simultaneous two-pronged action by the D
 
 | State | Epstein Infrastructure Link | VOCA Status (Dec 2025) | Legal Action |
 |-------|----------------------------|------------------------|--------------|
-| New Mexico | Zorro Ranch evidence | FROZEN ($88M) | Plaintiff in 21-State Suit |
-| Nevada | Corporate shells | FROZEN ($88M) | Plaintiff in 21-State Suit |
-| New York | SDNY case records | FROZEN ($88M) | Lead Plaintiff |
+| New Mexico | Zorro Ranch evidence | FROZEN | Plaintiff in 21-State Suit |
+| Nevada | Corporate shells | FROZEN | Plaintiff in 21-State Suit |
+| New York | SDNY case records | FROZEN | Lead Plaintiff |
 | Florida | 2005 prosecution | ACTIVE (Selective) | Non-Plaintiff |
+
+**Note**: The $88 million figure represents the **total** VOCA/VAWA freeze across all affected organizations nationwide, not a per-state amount. The "FROZEN" status indicates each state was affected by the same freeze. Source: `08_How_It's_Possible/pincer_data.csv`.
 
 **Key Finding**: The states with the most direct physical and legal connections to the Epstein network (NM, NV, NY) are the same states where VOCA anti-trafficking funding was frozen. Florida — where the controversial 2005 plea deal originated — retained selective active funding and is not a plaintiff. ✅ VERIFIED — data from `pincer_data.csv` cross-referenced with `DOJ_Probe_Results.csv` source links.
 
