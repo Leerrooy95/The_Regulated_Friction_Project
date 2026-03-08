@@ -172,16 +172,17 @@ The following files have been added or significantly changed since the original 
 | `speaker-conversation-2026-03-07-01-14-18.md` | `Project_Trident/The_Speaker/March_2026/` | 5 research gap findings (Mojtaba succession, Venezuela, Section 122, Mullin, OpenAI Pentagon) | **New content**: Speaker conversation exports |
 | `sync_ai_context.yml` | `.github/workflows/` | New workflow for syncing AI context index | **Partially closes gap**: Section 1 noted `.github/workflows/` unindexed |
 | `tier1_maxwell_leverage.md` | `_AI_CONTEXT_INDEX/Node_Dossiers/` | New Tier 1 dossier documenting Maxwell's Phase 0 infrastructure (1991–2003), current leverage position (clemency negotiation, habeas petition, 5th Amendment invocation at FPC Bryan), and the Administrative Pincer mechanism (VOCA funding freeze in Epstein infrastructure states NM/NV/NY). Integrates data from `08_How_It's_Possible/` directory files. | **Partially closes gap**: Section 1 noted `08_How_It's_Possible/` not indexed; now indexed via dossier cross-references and CONTEXT_ROUTER entries |
+| `Arkansas_Law_Forensic_Audit_Verification.md` | `Project_Trident/Copilot_Opus_4.6_Analysis/` | Independent verification of 28 claims from `13_State_and_County_Analysis/Arkansas_Law_Forensic_Audit.md`. 20/28 ✅ VERIFIED, 8/28 ⚠️ PARTIALLY VERIFIED, 0 contradicted. | **Partially closes gap**: Section 1 noted `13_State_and_County_Analysis/` unindexed; now verified and integrated via Node 9 in `09_CURRENT_THREADS.md` |
 
 ### Significant Changes to Existing Files
 
 | File | Changes | Gap Impact |
 |------|---------|------------|
-| `09_CURRENT_THREADS.md` | Major March addenda: Iran war Day 7, Khamenei death, Strait of Hormuz, DHS Noem firing, Anthropic designation, Clinton depositions, TikTok lawsuit, Venezuela normalization, Speaker analysis findings, **Node 8: Oracle Financial Stress** (March 7). **March 8: Node 1 (Maxwell) upgraded with verified facility, clemency status, habeas petition, immunity rejection, cross-reference to new dossier** | **Partially closes gap**: Section 2 noted current threads was out of date |
+| `09_CURRENT_THREADS.md` | Major March addenda: Iran war Day 7, Khamenei death, Strait of Hormuz, DHS Noem firing, Anthropic designation, Clinton depositions, TikTok lawsuit, Venezuela normalization, Speaker analysis findings, **Node 8: Oracle Financial Stress** (March 7). **March 8: Node 1 (Maxwell) upgraded with verified facility, clemency status, habeas petition, immunity rejection, cross-reference to new dossier. Node 9: Arkansas State-Level Preemption / Datacenter Capital Nexus — 11 verified data points covering Dec 2025 *Good Day Farm* ruling, $17B+ datacenter investment, Hugh McDonald conflict of interest, initiative restrictions, WV preemption template.** | **Partially closes gap**: Section 2 noted current threads was out of date; Section 1 noted `13_State_and_County_Analysis/` unindexed |
 | `10_FRAMEWORK_VALIDATION.md` | Added Sections 6 (Defense convergence), 7 (War widening), **8 (Oracle-Stargate contraction)** (March 7) | **Closes gap**: Section 2 noted validation entries stopped at Feb 21 |
 | `04_CAPITAL_ARCHITECTURE.md` | Added Feb 28 kinetic impact, March 1-6 energy crisis, **March 7: Oracle Financial Stress, Stargate contraction, Energy crisis capital breaker** | **Partially closes gap**: Section 2 noted Iran strike impact not documented |
 | `02_MEDIA_FIREWALL.md` | **Added March 7: Ellison Dual Exposure (Oracle × WBD)** — links capital architecture to media firewall through single individual | **New cross-reference**: Creates previously unmapped connection between `04_CAPITAL_ARCHITECTURE.md` and `02_MEDIA_FIREWALL.md` |
-| `CONTEXT_ROUTER.md` | Updated March 6-7: Added routing for Iran war, DHS/Noem, Anthropic, Epstein DOJ, energy crisis, unable-to-verify file. **Updated March 8: Added routing for Maxwell leverage node (clemency, VOCA, administrative pincer, institutional plumbing); `08_How_It's_Possible/` directory now routed** | **Partially closes gap**: Router now covers more topics |
+| `CONTEXT_ROUTER.md` | Updated March 6-7: Added routing for Iran war, DHS/Noem, Anthropic, Epstein DOJ, energy crisis, unable-to-verify file. **Updated March 8: Added routing for Maxwell leverage node (clemency, VOCA, administrative pincer, institutional plumbing); `08_How_It's_Possible/` directory now routed. Added routing for Arkansas law / state preemption / datacenter capital nexus (Node 9) and state-level democratic preemption / initiative restrictions.** | **Partially closes gap**: Router now covers more topics |
 | `00_START_HERE.md` | Updated to v10.4; renamed `06_ATTENTION_ECONOMY.md` in table | **Partially closes gap**: Version updated |
 | `NODE_INDEX.md` | **Updated March 8: Added `tier1_maxwell_leverage.md` to Tier 1 table; added entity mappings for Maxwell/Ghislaine/clemency, VOCA/trafficking funds, and administrative pincer** | **Partially closes gap**: Section 5 noted Node Dossiers coverage at ~65% |
 
@@ -199,6 +200,7 @@ The following files have been added or significantly changed since the original 
 | Venezuela not referenced in current threads (Section 3) | ⚠️ **PARTIALLY CLOSED** | Venezuela normalization added to `09_CURRENT_THREADS.md` March updates |
 | `00_START_HERE.md` version outdated (Section 2) | ✅ **CLOSED** | Updated to v10.4 |
 | Capital architecture ↔ Media firewall not linked (new) | ✅ **CLOSED** | Ellison Dual Exposure section creates cross-reference |
+| `13_State_and_County_Analysis/` unindexed (Section 1) | ⚠️ **PARTIALLY CLOSED** | Arkansas Law Forensic Audit verified (20/28 claims); integrated as Node 9 in `09_CURRENT_THREADS.md`; CONTEXT_ROUTER entries added; verification report created in Project_Trident |
 
 ### Gaps Still Open
 
@@ -233,14 +235,14 @@ The following gaps from the original March 1 analysis remain unaddressed:
 | CRINK framework | ~85% | ~85% | — No change |
 | Methodology | ~70% | ~75% | ⬆ Statistical test README |
 | Datasets | ~60% | ~60% | — No change |
-| Current threads | ~65% | ~85% | ⬆ Major March updates (8 nodes, March events) |
+| Current threads | ~65% | ~90% | ⬆ Major March updates (9 nodes, March events, Arkansas verification) |
 | Infrastructure/Pipeline | ~10% | ~15% | ⬆ sync_ai_context.yml added |
 | Node Dossiers | ~65% | ~75% | ⬆ Maxwell dossier created; NODE_INDEX updated |
 | Project_Trident depth | ~25% | ~30% | ⬆ Statistical tests, Unable to Verify, Narrative Case Studies |
 | Framework validation | ~60% | ~95% | ⬆ Sections 6, 7, 8 added |
 | Retraction/fabrication | ~5% | ~5% | — No change |
 | FaaS/Protest dynamics | ~0% | ~0% | — No change (CRITICAL) |
-| State-level analysis | ~10% | ~10% | — No change |
+| State-level analysis | ~10% | ~40% | ⬆ Arkansas Law Forensic Audit verified + Node 9 + CONTEXT_ROUTER routing |
 | **Leverage thesis** | N/A | ~90% | 🆕 New file fully integrated |
 | **Attention Economy** | ~50% | ~90% | ⬆ Renamed/rewritten + NCS routing |
 
