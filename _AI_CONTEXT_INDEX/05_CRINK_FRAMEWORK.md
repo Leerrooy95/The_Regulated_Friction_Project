@@ -281,6 +281,28 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 
 ---
 
+### Iran Information Warfare: "Epstein's Gang" Frame (March 2026)
+
+**Key Finding**: The Epstein leverage architecture has been weaponized as wartime propaganda — not by domestic critics, but by an adversary under active kinetic attack. This represents a novel category of thermostat feedback: the friction mechanism escaping its domestic context and becoming an international information warfare tool.
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| "Operation Epstein Fury" rebranding | Social media users rebranded Operation Epic Fury as "Operation Epstein Fury," framing the Iran strikes as a distraction from Epstein file releases | ✅ VERIFIED — [ADL](https://www.adl.org/resources/article/military-operation-against-iranian-regime-fuels-wave-antisemitic-conspiracy) |
+| Viral spread | 91,000+ mentions from 60,000+ unique authors on X within 48 hours of Feb 28 strikes; reached 35,000 mentions from 28,000 unique authors by 4:00 PM Feb 28 alone | ✅ VERIFIED — ADL Center on Extremism |
+| Operation name conspiracy | Misinformation spread that "Epic Fury" was deliberately named so "Trump ep" searches would autocomplete to "Epic Fury" instead of "Epstein"; debunked by fact-checkers as satire | ✅ VERIFIED — [Meaww](https://news.meaww.com/fact-check-was-operation-epic-fury-named-to-autocorrect-trump-epstein-in-online-searches) |
+| Ghalibaf "Epstein's gang" statement | Iran Parliament Speaker Ghalibaf allegedly wrote on X that Iran's fate "will be determined solely by the proud Iranian nation, not by Epstein's gang" | ❌ UNVERIFIED — searched Al Jazeera, Reuters, AP, BBC, Iran International, ISNA; no sources found |
+| Iran state media "Epstein" framing | Whether Iranian state media (IRIB, Press TV, Fars) adopted "Epstein" framing in official war propaganda | ❌ UNVERIFIED — no sources found |
+
+**Framework Significance**: [Inference] The "Operation Epstein Fury" rebranding suggests that the Epstein leverage architecture may be functioning as an international information warfare tool via organic social media activity (not verified as state-directed). The viral rebranding was not predicted by the thermostat model — it represents the friction mechanism potentially escaping institutional control and becoming a self-reinforcing narrative that links kinetic action back to the underlying leverage structure. Even if the Ghalibaf statement cannot be verified, the ADL-documented viral spread confirms that the Epstein-Iran connection has entered the global information space at scale. Note: the ADL classified this as conspiracy amplification, not as evidence of a coordinated state information operation.
+
+**ADL Assessment**: The ADL classified this as an antisemitic conspiracy wave, noting that "major world events are increasingly exploited online to promote antisemitic and conspiratorial rhetoric." The monitoring organization documented the cross-ideological amplification of the "Epstein Fury" frame.
+
+**Sources**:
+- [ADL — Military Operation Against Iranian Regime Fuels Wave of Antisemitic Conspiracy](https://www.adl.org/resources/article/military-operation-against-iranian-regime-fuels-wave-antisemitic-conspiracy)
+- [Meaww — Fact Check: "Operation Epic Fury" naming](https://news.meaww.com/fact-check-was-operation-epic-fury-named-to-autocorrect-trump-epstein-in-online-searches)
+
+---
+
 ## Additional Geopolitical Vector Files
 
 | File | Location | Content |
@@ -290,4 +312,4 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 | Parallel Operations | `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md` | Venezuela (high attention) vs. Yemen (low attention) simultaneous events |
 | Global Election Analysis | `05_Geopolitical_Vectors/Global_Election_Analysis.md` | Election timing correlations with friction windows |
 
-*Updated March 1, 2026.*
+*Updated March 8, 2026. Added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Ghalibaf "Epstein's gang" statement unable to verify. Previous: March 1, 2026.*

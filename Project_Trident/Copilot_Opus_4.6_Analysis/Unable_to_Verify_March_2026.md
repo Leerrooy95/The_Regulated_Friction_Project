@@ -195,7 +195,14 @@
 | ADIA/QIA 13F analysis | 3 | ❌ Unable to verify |
 | Russia/NK Iran war responses | 3 | ❌ Unable to verify (China ✅) |
 | FCC "cleaner than previous bids" quote | 3 | ❌ Unable to verify |
+| Ghalibaf "Epstein's gang" statement | 5+ | ❌ Unable to verify — searched Al Jazeera, Reuters, AP, BBC, Iran International, ISNA |
+| Iran state media "Epstein" framing | 3 | ❌ Unable to verify |
+| MTG Epstein/Iran war post (specific quote) | 3 | ❌ Unable to verify — specific post not found |
+| Adam Toothaker "Epstein class" rally quote | 3 | ❌ Unable to verify — no sources found |
+| Massie "bombing a country" / "Dow 50,000" March 1 tweet (specific quote) | 3 | ❌ Unable to verify — Massie's Feb 19 "weapon of mass distraction" tweet ✅ verified; March 1 specific wording not found |
+| FBI PowerPoint / Child Exploitation task force spreadsheet | 3 | ❌ Unable to verify |
+| Julie Brown "would not have interviewed her four times" quote | 3 | ❌ Unable to verify — specific quote not found |
 
 ---
 
-*Updated March 7, 2026. Added FCC "cleaner than previous bids" unverified item from Ellison/WBD research.*
+*Updated March 8, 2026. Added 7 items unable to verify from Iran information warfare, "Epstein Class" counter-frame, and FBI 302 research tasks. Previous: March 7, 2026. Added FCC "cleaner than previous bids" unverified item from Ellison/WBD research.*

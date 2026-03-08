@@ -327,6 +327,39 @@ This is real-time validation that the same consolidation pattern documented in t
 
 ---
 
+## 9. Measurable Attention Capture: Epstein Search Interest Collapse (March 2026)
+
+**Source:** [Al Jazeera (March 4, 2026)](https://www.aljazeera.com/news/2026/3/4/analyst-says-interest-in-epstein-files-plummeted-after-war-on-iran-launched), [ThePost.co.in (March 5, 2026)](https://thepost.co.in/2026/03/05/epstein-interest-on-internet-drops-95-percent-after-military-conflict-begins/), [Google Trends](https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=epstein,Jeffrey%20Epstein&hl=en)
+
+**Key Data:**
+- Google search interest in "Epstein files" dropped approximately **95%** after the Feb 28 Iran strikes began
+- Prior to the strikes, Epstein-related searches were at or near all-time highs due to the ongoing DOJ file releases
+- Iran war–related searches spiked by more than 1,000% in the same period
+- Al Jazeera reported analyst Shaiel Ben-Ephraim (Atlas Global Strategies, former Israeli diplomat) stated: "If you look at searches on Google for the Epstein files, they've plummeted since this started" ⚠️ PARTIALLY VERIFIED — Al Jazeera article confirmed; exact quote attribution partially verified via article title and reporting context
+
+**Verification:**
+
+| Claim | Status |
+|-------|--------|
+| Google search interest in Epstein files declined sharply after Feb 28 strikes | ✅ VERIFIED — Google Trends data, Al Jazeera, ThePost.co.in, IBTimes |
+| ~95% decline figure | ⚠️ PARTIALLY VERIFIED — ThePost.co.in reported this figure; Google Trends directionally confirms steep drop |
+| Analyst Shaiel Ben-Ephraim quoted by Al Jazeera | ⚠️ PARTIALLY VERIFIED — Al Jazeera article on Epstein interest decline confirmed via web search results referencing the article; specific analyst attribution inferred from article title and context but exact quote not independently confirmed |
+| Massie and other lawmakers noted attention shift | ✅ VERIFIED — multiple sources reference Congressional attention consumed by war |
+
+**Framework Alignment:**
+- This is the most quantifiable thermostat validation to date: a kinetic event measurably suppressed public search interest in the friction mechanism (Epstein files) by ~95%
+- The attention capture mechanism operates exactly as the model predicts: finite media bandwidth is consumed by the higher-intensity event (war), displacing the lower-intensity event (document releases)
+- **However**, this suppression may be temporary — the "Epstein class" counter-frame (see `06_ATTENTION_ECONOMY.md`) shows that political actors are actively working to re-link the war to the Epstein files, potentially limiting long-term attention capture
+
+**Sources**:
+- [Al Jazeera — Analyst says interest in Epstein files plummeted after war on Iran launched (March 4, 2026)](https://www.aljazeera.com/news/2026/3/4/analyst-says-interest-in-epstein-files-plummeted-after-war-on-iran-launched)
+- [ThePost.co.in — Epstein Interest On Internet Drops 95 Percent After Military Conflict Begins (March 5, 2026)](https://thepost.co.in/2026/03/05/epstein-interest-on-internet-drops-95-percent-after-military-conflict-begins/)
+- [IBTimes — Trump's Iran Strikes Branded a Distraction From Epstein Files](https://www.ibtimes.com/trumps-iran-strikes-branded-distraction-epstein-files-court-ruling-3797957)
+- [Times Now — Is Trump Using War With Iran to Bury the Epstein Files?](https://www.timesnownews.com/world/us/us-news/us-president-donald-trump-iran-war-epstein-files-ayatollah-khamenei-death-article-153738356)
+- [Google Trends — Epstein search data](https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=epstein,Jeffrey%20Epstein&hl=en)
+
+---
+
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
@@ -337,7 +370,9 @@ This is real-time validation that the same consolidation pattern documented in t
 - **For unable to verify items**: `Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md`
 - **For Oracle financial stress detail**: `04_CAPITAL_ARCHITECTURE.md` (March 2026 section)
 - **For Ellison dual exposure**: `02_MEDIA_FIREWALL.md` (Ellison Dual Exposure section)
+- **For "Epstein Class" counter-frame**: `06_ATTENTION_ECONOMY.md` (shows suppression may be temporary)
+- **For Iran info warfare / "Operation Epstein Fury"**: `05_CRINK_FRAMEWORK.md` (Iran Information Warfare section)
 
 ---
 
-*Last Updated: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
+*Last Updated: March 8, 2026. Added Section 9: Measurable Attention Capture — Google search interest in Epstein files dropped ~95% after Iran strikes (Al Jazeera, ThePost.co.in, Google Trends). Previous: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*

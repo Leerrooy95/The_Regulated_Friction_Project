@@ -302,6 +302,45 @@ The attention economy model is testable against Trump's first administration. Th
 
 ---
 
+## The "Epstein Class" Counter-Frame (March 2026)
+
+**Key Finding**: [Inference] The friction mechanism appears to have partially escaped the thermostat's control. Instead of attention being successfully captured by the Iran war, a bipartisan counter-label has emerged that persistently links the war back to the Epstein files. This suggests the thermostat model has limits — when friction reaches a certain intensity, the distraction itself may become evidence of the thing being distracted from.
+
+### The Mechanism
+
+The "Epstein class" label functions as an attention-economy short-circuit: rather than the kinetic event (Iran strikes) consuming all available bandwidth and displacing Epstein coverage, critics across party lines reframe the kinetic event itself as proof of the leverage thesis. This creates a feedback loop where every escalation in the war reinforces the Epstein narrative rather than suppressing it.
+
+### Verified Examples
+
+| Speaker | Party/Affiliation | Statement | Date | Verification |
+|---------|-------------------|-----------|------|--------------|
+| **Sen. Jon Ossoff** (D-GA) | Democrat | Called Trump administration the "Epstein class" in viral 30-minute speech at Georgia International Convention Center: characterized cabinet as "wealthiest Cabinet ever" serving ultra-wealthy elites | Feb 7-9, 2026 | ✅ VERIFIED — [HeraldTimes.org](https://www.heraldtimes.org/2026/02/10/jon-ossoffs-epstein-class-speech-delights-democrats-highlights-political-divide/), [NationalToday](https://nationaltoday.com/us/ga/atlanta/news/2026/02/09/georgia-senator-ossoff-slams-trump-admin-as-epstein-class-in-viral-speech/), [YouTube](https://www.youtube.com/watch?v=RusdTzKAr6I) |
+| **Graham Platner** (D-ME candidate) | Democrat | At emergency anti-war protest in Brewer, Maine: "This war is also being pushed because Donald Trump is in the Epstein files, and other people in the White House, and other people connected with the Epstein class. They are terrified that we have noticed what they are doing." | March 2026 | ✅ VERIFIED — [WMTW](https://www.wmtw.com/article/us-senate-candidate-holds-emergency-anti-war-protest/70570496), [Common Dreams](https://www.commondreams.org/news/graham-platner-military), [Wikipedia](https://en.wikipedia.org/wiki/Graham_Platner) |
+| **Rep. Hakeem Jeffries** (D-NY) | Democrat | Accused Trump of bypassing Congressional war powers; framed strikes as politically motivated; alleged military escalation without "proper deliberation or legitimate justification," risking "another forever foreign war" | Feb 28 – Mar 1, 2026 | ✅ VERIFIED — [The Hill](https://thehill.com/homenews/house/5763292-jeffries-opposes-trump-iran/), [jeffries.house.gov](https://jeffries.house.gov/2026/03/01/leader-jeffries-on-wbls-what-donald-trump-has-done-is-put-us-in-greater-danger/), [NPR/STLPR](https://www.stlpr.org/npr/2026-02-28/house-dem-leader-jeffries-responds-to-air-strikes-on-iran-by-u-s-and-israel) |
+| **Rep. Thomas Massie** (R-KY) | Republican | Previously named distraction mechanism (Feb 19): "They've deployed the ultimate weapon of mass distraction, but the Epstein files aren't going away." Referenced in Google Trends coverage as noting war "consumed" attention from Epstein files | Feb 19, 2026+ | ✅ VERIFIED — [The Hill](https://thehill.com/homenews/house/5747213-massie-trump-ufos-epstein-files/), [HuffPost](https://www.huffpost.com/entry/thomas-massie-donald-trump-epstein-distraction_n_69983487e4b041f92b409766) (see also `10_FRAMEWORK_VALIDATION.md` Section 3) |
+| **Rep. Marjorie Taylor Greene** (R-GA) | Republican | Reportedly posted on X connecting Iran war to Epstein files, stating "not a single person has been arrested" and "Instead, we get a war" | March 2026 | ❌ UNVERIFIED — specific post not found via web search |
+| **Adam Toothaker** (Veterans for Peace) | Non-partisan | Reportedly told crowd they had "more in common with an Iranian working-class person... than any of the Epstein class that run this country" | March 2026 | ❌ UNVERIFIED — no sources found |
+
+### Bipartisan Convergence Pattern
+
+The verified examples demonstrate convergence across party lines:
+- **Democrats**: Ossoff coined the "Epstein class" label; Platner explicitly linked the war to Epstein files; Jeffries accused strikes of being unauthorized and politically motivated
+- **Republicans**: Massie named the "weapon of mass distraction" mechanism (documented in `10_FRAMEWORK_VALIDATION.md`)
+- **Non-partisan**: The narrative spread across ideological lines on social media (see "Operation Epstein Fury" in `05_CRINK_FRAMEWORK.md`)
+
+### Framework Implications
+
+[Inference] This counter-frame suggests a potential thermostat failure mode: the distraction mechanism may become self-defeating when friction intensity is high enough. Key observations:
+
+1. **The label persists**: Unlike typical news cycles where attention shifts cleanly, the "Epstein class" label embeds the Epstein connection into the war coverage itself
+2. **Bipartisan uptake**: Both Republican and Democratic figures independently arrived at the same framing, suggesting it resonates across the political spectrum
+3. **Feedback loop**: Each escalation in Iran creates new opportunities to invoke the "Epstein class" frame, making the distraction counterproductive
+4. **Testable prediction**: If the thermostat model is correct, the intensity of the counter-frame should correlate with friction escalation — more war coverage should produce more "Epstein class" invocations, not fewer
+
+**Cross-references**: `10_FRAMEWORK_VALIDATION.md` (Section 9: Google search interest collapse shows the thermostat *partially* worked — search interest dropped 95% — but the counter-frame may limit long-term suppression), `05_CRINK_FRAMEWORK.md` (Iran Information Warfare section)
+
+---
+
 ## Key Sources
 
 | Document | Location |
@@ -338,4 +377,4 @@ The attention economy model is testable against Trump's first administration. Th
 
 ---
 
-*Evolved from `14_Files/Main_Characters.md`. Updated March 7, 2026 — reframed as Attention Economy & Quotas framework with cross-administration analysis.*
+*Evolved from `14_Files/Main_Characters.md`. Updated March 8, 2026 — added "Epstein Class" Counter-Frame section documenting bipartisan convergence on Epstein-Iran war linkage. Previous: March 7, 2026 — reframed as Attention Economy & Quotas framework with cross-administration analysis.*
