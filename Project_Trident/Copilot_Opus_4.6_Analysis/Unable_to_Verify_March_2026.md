@@ -195,14 +195,14 @@
 | ADIA/QIA 13F analysis | 3 | ❌ Unable to verify |
 | Russia/NK Iran war responses | 3 | ❌ Unable to verify (China ✅) |
 | FCC "cleaner than previous bids" quote | 3 | ❌ Unable to verify |
-| Ghalibaf "Epstein's gang" statement | 5+ | ❌ Unable to verify — searched Al Jazeera, Reuters, AP, BBC, Iran International, ISNA |
+| Ghalibaf "Epstein's gang" statement | 5+ | ✅ RESOLVED (March 8, 2026) — [Al Jazeera](https://www.aljazeera.com/news/2026/3/6/irans-future-will-be-determined-by-iranians-not-trump-officials-say), [Axios](https://www.axios.com/2026/03/06/trump-iran-war-unconditional-surrender) |
 | Iran state media "Epstein" framing | 3 | ❌ Unable to verify |
-| MTG Epstein/Iran war post (specific quote) | 3 | ❌ Unable to verify — specific post not found |
+| MTG Epstein/Iran war post (specific quote) | 3 | ✅ RESOLVED (March 8, 2026) — [Boston Globe](https://www.bostonglobe.com/2026/03/03/nation/trump-iran-strikes-epstein-files/) |
 | Adam Toothaker "Epstein class" rally quote | 3 | ❌ Unable to verify — no sources found |
-| Massie "bombing a country" / "Dow 50,000" March 1 tweet (specific quote) | 3 | ❌ Unable to verify — Massie's Feb 19 "weapon of mass distraction" tweet ✅ verified; March 1 specific wording not found |
-| FBI PowerPoint / Child Exploitation task force spreadsheet | 3 | ❌ Unable to verify |
-| Julie Brown "would not have interviewed her four times" quote | 3 | ❌ Unable to verify — specific quote not found |
+| Massie "bombing a country" / "Dow 50,000" March 1 tweet (specific quote) | 3 | ✅ RESOLVED (March 8, 2026) — [Boston Globe](https://www.bostonglobe.com/2026/03/03/nation/trump-iran-strikes-epstein-files/) (embeds tweet) |
+| FBI PowerPoint / Child Exploitation task force spreadsheet | 3 | ✅ RESOLVED (March 8, 2026) — [IBTimes](https://www.ibtimes.co.uk/doj-releases-explosive-fbi-files-trump-allegations-1783822) |
+| Julie Brown "would not have interviewed her four times" quote | 3 | ✅ RESOLVED (March 8, 2026) — [PBS](https://www.pbs.org/newshour/show/doj-releases-epstein-files-containing-sexual-assault-allegations-against-trump), [Chronline/Miami Herald](https://www.chronline.com/stories/doj-releases-epstein-files-with-accusations-against-trump,397735) |
 
 ---
 
-*Updated March 8, 2026. Added 7 items unable to verify from Iran information warfare, "Epstein Class" counter-frame, and FBI 302 research tasks. Previous: March 7, 2026. Added FCC "cleaner than previous bids" unverified item from Ellison/WBD research.*
+*Updated March 8, 2026. Resolved 5 items via targeted URL verification: Ghalibaf quote (Al Jazeera, Axios), MTG quote (Boston Globe), Massie March 1 tweet (Boston Globe), FBI PowerPoint/task force spreadsheet (IBTimes), Julie Brown credibility quote (PBS, Chronline/Miami Herald). Remaining unverified: Iran state media framing, Adam Toothaker quote. Previous: March 8, 2026 — added 7 items unable to verify from Iran information warfare, "Epstein Class" counter-frame, and FBI 302 research tasks. Previous: March 7, 2026. Added FCC "cleaner than previous bids" unverified item from Ellison/WBD research.*
