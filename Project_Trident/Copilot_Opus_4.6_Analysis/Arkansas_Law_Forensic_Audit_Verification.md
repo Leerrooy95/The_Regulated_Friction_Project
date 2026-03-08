@@ -33,18 +33,30 @@
 
 ---
 
-## Partially Verified Claims
+## Resolved Claims (Previously Partially Verified)
+
+### Upgraded to ✅ VERIFIED (4 of 8)
+
+| # | Claim | Status | Sources |
+|---|-------|--------|---------|
+| 21 | Justice Cody Hiland wrote the majority opinion | ✅ VERIFIED | [Justia](https://law.justia.com/cases/arkansas/supreme-court/2025/cv-24-704.html): "The decision was delivered by Associate Justice Cody Hiland"; [Arkansas Times (Dec 11, 2025)](https://arktimes.com/arkansas-blog/2025/12/11/the-arkansas-supreme-court-just-gutted-direct-democracy): "In an opinion written by Associate Justice Cody Hiland"; [Arkansas Advocate PDF](https://arkansasadvocate.com/wp-content/uploads/2025/12/STATE-V-GOOD-DAY-FARMS-121125.pdf) |
+| 22 | Unanimous 6-0 ruling | ✅ VERIFIED | Same sources as #21; confirmed "unanimously (6-0) reversed." Note: Justices Courtney Hudson and Nicholas Bronni recused; Gov. Sanders appointed special justices Barbara Halsey and Don Curdie, both of whom joined the majority. Justice Rhonda Wood concurred but wrote separately. |
+| 24 | Judge Timothy Brooks blocked provisions Nov 19, 2025 | ✅ VERIFIED | [Arkansas Advocate (Nov 19, 2025)](https://arkansasadvocate.com/2025/11/19/judge-issues-injunction-against-arkansas-direct-democracy-laws/); [Arkansas Times (Nov 19, 2025)](https://arktimes.com/arkansas-blog/2025/11/19/judge-issues-injunction-against-arkansas-direct-democracy-laws); [UALR Public Radio (Nov 20, 2025)](https://www.ualrpublicradio.org/local-regional-news/2025-11-20/judge-strikes-down-canvassing-laws); [KTLO (Nov 20, 2025)](https://www.ktlo.com/2025/11/20/federal-judge-blocks-enforcement-of-several-arkansas-ballot-measure-laws/); [KATV](https://katv.com/news/local/federal-judge-blocks-arkansas-from-enforcing-strict-new-ballot-initiative-laws-save-ar-democracy-protect-ar-rights-league-of-women-voters-lawsuit-david-couch-kim-hammer-timothy-brooks-canvasser-petition-signatures-requirement-photo-id-direct-democracy). Brooks enjoined: Act 453 (canvasser residency), Act 602 (8th-grade reading level), Act 241 (cure period bar), Acts 240/218/274 (photo ID, fraud warning, reading requirement). |
+| 28 | Bryan King voting against initiative bills / "no question" quote | ✅ VERIFIED | [Bolts Magazine](https://boltsmag.org/new-rules-from-gop-legislature-target-arkansas-ballot-initiatives/): King told Bolts, "I am pro-life, but I am first and foremost for the process. I just believe that citizens have a right to vote for things, and it may be even things I disagree with." He "voted against most of the new bills targeting direct democracy in this session." On the "no question" quote: "There is 'no question,' he said, that future attorneys general and secretaries of state will stretch their powers and toss out ballot initiatives they dislike based on their 'personal opinions.'" Also: [Conduit News](https://conduitnews.com/2025/11/05/sen-bryan-king-hero-of-the-platform/); [Democracy Docket / LWV](https://www.democracydocket.com/cases/arkansas-act-236-challenge/) (King co-plaintiff in Act 236 lawsuit); [Arkansas Advocate (March 2026)](https://arkansasadvocate.com/2026/03/04/two-incumbents-survive-challenges-majority-leader-ousted-in-arkansas-senate-primaries/) (survived primary challenge). |
+
+### Downgraded to ❌ UNABLE TO VERIFY (3 of 8)
 
 | # | Claim | Status | Notes |
 |---|-------|--------|-------|
-| 21 | Justice Cody Hiland wrote the majority opinion | ⚠️ PARTIALLY VERIFIED | Ruling confirmed; Hiland confirmed as Arkansas Supreme Court Justice; specific authorship attribution not independently confirmed via web search |
-| 22 | Unanimous 6-0 ruling | ⚠️ PARTIALLY VERIFIED | Ruling confirmed; vote count referenced in audit's cited sources (Arkansas Advocate, Arkansas Times) but not independently verified in web search results |
-| 23 | "Eight new laws" restricting initiative process in 2025 | ⚠️ PARTIALLY VERIFIED | Multiple laws confirmed (canvasser residency, reading requirements, signature rules). BISC/NCSL confirm Arkansas among most aggressive. Exact count of "eight" not independently verified; some sources cite "at least 13 laws" in 2025 which is higher |
-| 24 | Judge Timothy Brooks blocked provisions Nov 19, 2025 | ⚠️ PARTIALLY VERIFIED | Brooks confirmed as federal judge ruling on initiative restrictions; specific Nov 19, 2025 date not independently confirmed |
-| 25 | Les Eaves acknowledged Microsoft/Amazon/Meta/Google lobbyists on the ground | ⚠️ PARTIALLY VERIFIED | Eaves confirmed as Arkansas state representative; Big Tech lobbying in Arkansas confirmed (AR Secretary of State lobbyist registry); specific floor debate quote not independently found |
-| 26 | Joshua Silverstein quote ("massive increase in power of state Legislature") | ⚠️ PARTIALLY VERIFIED | Silverstein confirmed as AR law professor frequently cited on constitutional issues; exact quote not independently found in web search |
-| 27 | David Couch quote ("permanently dismantle the ballot initiative process") | ⚠️ PARTIALLY VERIFIED | Couch confirmed as attorney who drafted 2016 medical marijuana amendment; involved in Save AR Democracy/Protect AR Rights campaigns; exact quote not independently found |
-| 28 | Bryan King voting against initiative bills | ⚠️ PARTIALLY VERIFIED | King confirmed as Arkansas Republican senator; position on initiative restrictions referenced but exact quote not independently found |
+| 25 | Les Eaves acknowledged Microsoft/Amazon/Meta/Google lobbyists "on the ground" | ❌ UNABLE TO VERIFY | Eaves is confirmed as Arkansas state representative (R-District 58) who served on Revenue and Taxation, Insurance and Commerce committees. Big Tech lobbying in Arkansas during 2025 session is confirmed (lobbyists were "highly visible" per multiple sources). However, after 3 independent web searches, no public record of the specific "lobbyists on the ground" floor debate quote was found. This may have originated from a legislative video/audio recording not indexed online, or may be a paraphrase/misattribution from December 2025 memory. **Recommendation**: Remove from _AI_CONTEXT_INDEX or replace with verified fact that Big Tech lobbyists were active during 2025 session (confirmed by Arkansas State Chamber, AEDC, citizenportal.ai). |
+| 26 | Joshua Silverstein quote ("massive increase in power of state Legislature") | ❌ UNABLE TO VERIFY | Silverstein is confirmed as UALR Bowen School of Law professor with expertise in constitutional law. He has provided legal commentary on the Good Day Farm/Edgmon issues in earlier stages of the litigation (Arkansas Times, 2023). However, after 5 independent web searches covering Arkansas Times, Arkansas Advocate, and general web, the specific quote "massive increase in the power of the state Legislature" could not be found attributed to Silverstein in any published source. The December 11, 2025 Arkansas Times article about the ruling quotes Couch, Standerfer, Griffin, Kopsky — but NOT Silverstein. **Recommendation**: Remove from _AI_CONTEXT_INDEX. |
+| 27 | David Couch quote ("permanently dismantle the ballot initiative process") | ❌ UNABLE TO VERIFY | Couch is confirmed as the attorney behind the 2016 medical marijuana amendment and the Save AR Democracy campaign. His actual verified quotes from [KATV](https://katv.com/news/local/ar-supreme-court-ruling-gives-lawmakers-power-to-repeal-medical-marijuana-casinos-more-direct-democracy-edgmon-david-couch-citizen-initiated-constitutional-amendment-arkansas-constitution-rhonda-wood-save-ar-democracy-ballot-initiative-general-assembly) and [Arkansas Times (Dec 11, 2025)](https://arktimes.com/arkansas-blog/2025/12/11/the-arkansas-supreme-court-just-gutted-direct-democracy) are: "I don't think it ends the ballot measure process"; "The General Assembly could eliminate medical marijuana just that easily"; "I think an abortion measure would probably pass [at the ballot box] in Arkansas. But if it passed, the [Legislature] would change it in a heartbeat"; "Nobody will ever do a constitutional amendment again. Why would you?" The specific phrase "permanently dismantle the ballot initiative process" does NOT appear in any published source. **Recommendation**: Remove from _AI_CONTEXT_INDEX or replace with one of the verified quotes above. |
+
+### Corrected (1 of 8)
+
+| # | Claim | Status | Notes |
+|---|-------|--------|-------|
+| 23 | "Eight new laws" restricting initiative process in 2025 | ⚠️ CORRECTED — exact count varies by source | [Bolts Magazine (March 2025)](https://boltsmag.org/new-rules-from-gop-legislature-target-arkansas-ballot-initiatives/) tracked "at least six bills" (SB 207/208/209/210/211 + HB 1222). [UALR Public Radio](https://www.ualrpublicradio.org/local-regional-news/2025-04-21/lawsuit-challenges-new-arkansas-direct-democracy-laws) and [KATV](https://katv.com/news/local/lawsuit-claims-new-ballot-laws-violate-voting-rights-seeks-court-intervention) identify specific Acts: 218, 240, 241, 274, 453, 602. Protect AR Rights advocacy group cites "at least 13 laws." The audit's claim of "eight" falls between these ranges but cannot be independently confirmed as an exact count. The verified specific Acts are: Act 218 (fraud warning), Act 240 (photo ID), Act 241 (affidavit/cure period), Act 274 (read ballot title), Act 453 (canvasser residency), Act 602 (8th-grade reading level). **Recommendation**: Replace "eight new laws" in _AI_CONTEXT_INDEX with "multiple new laws (at least six specific Acts: 218, 240, 241, 274, 453, 602)" or reference the advocacy group figure of "at least 13." |
 
 ---
 
@@ -52,18 +64,25 @@
 
 ### Claims with Updated Information
 
-1. **Number of initiative restriction laws**: The audit states "eight new laws" but BISC and more recent reporting (KATV, 5News) cite "at least 13 laws" passed in the 2025 session. The original December 2025 count of eight may have been accurate at time of writing, with additional laws passed or counted differently in subsequent analysis.
+1. **Number of initiative restriction laws**: The audit states "eight new laws." Verified sources count differently: Bolts Magazine tracked "at least six bills" in the 2025 session; the lawsuit challenged specific Acts 218, 240, 241, 274, 453, 602 (six); Protect AR Rights cites "at least 13 laws." The "eight" count cannot be independently confirmed.
 
 2. **WV HB 2014 property tax revenue**: The audit states the law "diverts 70% of property tax revenue away from local governments." Verified breakdown is: 50% to state personal income tax fund, 30% to host county, 10% split among other counties, 5% to water/economic enhancement, 5% to grid stabilization. So the host county keeps 30% — meaning 70% is diverted, consistent with the audit's claim.
 
 3. **$17B total datacenter investment figure**: Independently confirmed as conservative. Google West Memphis alone is $10B. Conway ($1B) + Little Rock ($1B) + Serverfarm Clarksville (up to $8B) pushes the total well beyond $17B. The $17B figure was likely calculated at time of writing (December 2025) and is consistent with projections at that time.
 
-4. **PSC hearing confidentiality**: The claim that "the public was ordered to leave the PSC hearing room during discussions" of the Google-Entergy contract was referenced in the audit's cited sources but not independently confirmed in web search. This is flagged as ⚠️ PARTIALLY VERIFIED.
+4. **PSC hearing confidentiality**: The claim that "the public was ordered to leave the PSC hearing room during discussions" of the Google-Entergy contract was referenced in the audit's cited sources but not independently confirmed in web search. This is flagged as unable to verify.
+
+5. **David Couch quotes**: The audit attributes the quote "permanently dismantle the ballot initiative process" to Couch. His actual verified quotes from KATV and Arkansas Times (Dec 11, 2025) are significantly different in tone — he said "I don't think it ends the ballot measure process" while expressing grave concern about specific vulnerabilities. The "permanently dismantle" phrase appears to be either a paraphrase that overstates Couch's actual public position, or sourced from a publication not indexed online.
+
+6. **Bryan King details**: The audit's characterization that King "voted against most 2025 initiative bills" and used the "no question" phrasing is now fully verified via Bolts Magazine. Additionally confirmed: King co-filed a lawsuit with the League of Women Voters against Act 236 and survived a Governor-endorsed primary challenge in March 2026.
+
+7. **Joshua Silverstein**: While Silverstein is a real constitutional law professor at UALR who has commented on the Good Day Farm litigation at earlier stages, no published source contains the specific quote "massive increase in the power of the state Legislature" attributed to him. The December 2025 Arkansas Times article about the ruling does not quote Silverstein at all.
 
 ### Overall Assessment
 
-**20 of 28 claims (71%) are ✅ VERIFIED** with multiple independent sources.  
-**8 of 28 claims (29%) are ⚠️ PARTIALLY VERIFIED** — supporting evidence exists but exact quotes or specific details could not be independently confirmed.  
+**24 of 28 claims (86%) are ✅ VERIFIED** with multiple independent sources.  
+**1 of 28 claims (4%) is ⚠️ CORRECTED** — the "eight new laws" count varies by source (6 to 13); the verified specific Acts are: 218, 240, 241, 274, 453, 602.  
+**3 of 28 claims (11%) are ❌ UNABLE TO VERIFY** — the Les Eaves lobbyist quote (#25), the Joshua Silverstein quote (#26), and the David Couch "permanently dismantle" quote (#27) could not be independently confirmed despite extensive searching.  
 **0 claims are contradicted** by independent sources.
 
 The audit's core thesis — that Arkansas dismantled citizen initiative protections concurrent with billions in datacenter investment, creating a pattern consistent with state-level preemption of local control — is well-supported by verified evidence. The timing correlation, financial interests, and national patterns are all independently confirmed. The audit correctly identifies this as correlation rather than claiming proven causation.
@@ -90,4 +109,4 @@ All sources listed in the verification table above, plus:
 
 ---
 
-*This verification was conducted March 8, 2026 by Opus 4.6 using independent web search. No claims from the original audit were altered. All verifications represent the status of publicly available information as of the verification date.*
+*This verification was conducted March 8, 2026 by Opus 4.6 using independent web search. Initial verification pass: 20/28 ✅ VERIFIED, 8/28 ⚠️ PARTIALLY VERIFIED. Deep-dive follow-up resolved all 8 partially verified claims: 4 upgraded to ✅ VERIFIED (#21, #22, #24, #28), 3 downgraded to ❌ UNABLE TO VERIFY (#25, #26, #27), 1 corrected with nuance (#23). Final tally: 24/28 ✅ VERIFIED, 1/28 ⚠️ CORRECTED, 3/28 ❌ UNABLE TO VERIFY. No claims from the original audit were altered. All verifications represent the status of publicly available information as of the verification date.*
