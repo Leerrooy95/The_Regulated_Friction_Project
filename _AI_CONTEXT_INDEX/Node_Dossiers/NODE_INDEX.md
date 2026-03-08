@@ -40,6 +40,7 @@ These dossiers document historical context that may become relevant when matchin
 | Dossier | File | Trigger Entities | Summary |
 |---------|------|------------------|---------|
 | **Zorro Ranch / Epstein Architecture** | `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, San Rafael Ranch, New Mexico, Huffines, DOJ files, document releases | Documents the 1993 purchase, 2023 sale to Huffines family, renaming, and active Feb 2026 investigations. Provides context for ongoing file releases. |
+| **Maxwell Leverage Node** | `tier1_maxwell_leverage.md` | Maxwell, Ghislaine, clemency, VOCA, trafficking funds, administrative pincer, survivor infrastructure | Documents Maxwell's Phase 0 role (1991–2003), current leverage position (clemency negotiation, facility conditions, House Oversight testimony), and the Administrative Pincer mechanism (VOCA freeze × Epstein infrastructure states). |
 | **Kushner Historical Node** | `tier1_kushner_historical.md` | Charles Kushner, Jared Kushner, pardon, Kushner Companies, 666 Fifth Avenue, France diplomatic crisis, ambassador summons, Jean-Noël Barrot | Documents the Kushner family's business history, Charles Kushner's 2005 conviction and 2020 pardon, the foundation of the family's real estate and political capital, and the 2025-2026 France diplomatic crisis (2 ignored summons, barred from ministerial access). |
 | **Bin Sulayem / Epstein Connection** | `tier1_binsulayem_epstein.md` | bin Sulayem, DP World, Epstein, Great St. James, UAE | Documents 4,700+ mentions in Epstein files, Feb 2026 resignation, and network connections. |
 
@@ -73,7 +74,10 @@ This is the master logic file. Load this for any timing analysis.
 
 | Entity | Load These Dossiers |
 |--------|---------------------|
-| Epstein / DOJ files | `tier1_zorro_ranch_epstein.md`, `tier1_binsulayem_epstein.md`, `tier3_thermostat_ruleset.md` |
+| Epstein / DOJ files | `tier1_zorro_ranch_epstein.md`, `tier1_binsulayem_epstein.md`, `tier1_maxwell_leverage.md`, `tier3_thermostat_ruleset.md` |
+| Maxwell / Ghislaine / clemency | `tier1_maxwell_leverage.md`, `tier3_thermostat_ruleset.md` |
+| VOCA / trafficking funds / administrative pincer | `tier1_maxwell_leverage.md` |
+| Survivor infrastructure / anti-trafficking funding | `tier1_maxwell_leverage.md` |
 | Kushner (Jared) | `tier1_kushner_historical.md`, `tier2_affinity_qxo.md`, `tier3_thermostat_ruleset.md` |
 | Kushner (Charles) | `tier1_kushner_historical.md` |
 | France diplomatic crisis / ambassador summons | `tier1_kushner_historical.md` |

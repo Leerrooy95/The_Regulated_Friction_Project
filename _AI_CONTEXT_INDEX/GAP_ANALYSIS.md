@@ -203,7 +203,7 @@ The following gaps from the original March 1 analysis remain unaddressed:
 | Gap | Severity | Section |
 |-----|----------|---------|
 | `00_Quick_Breakdowns/` not indexed | Medium | Section 1 |
-| `08_How_It's_Possible/` not indexed | Medium | Section 1 |
+| ~~`08_How_It's_Possible/` not indexed~~ | ~~Medium~~ ✅ **CLOSED March 8** | ~~Section 1~~ |
 | `11_Protest_Dynamics_and_Funding/` absent from index | Critical | Section 1 |
 | `Archive/` retraction history not in index | High | Section 1 |
 | `docs/` not indexed | Low | Section 1 |
@@ -243,4 +243,40 @@ The following gaps from the original March 1 analysis remain unaddressed:
 
 ---
 
-*Gap analysis updated 2026-03-07. Original analysis: 2026-03-01.*
+*Gap analysis updated 2026-03-08. Previous update: 2026-03-07. Original analysis: 2026-03-01.*
+
+---
+
+## Changes Since March 7, 2026
+
+**Last reviewed**: March 8, 2026
+
+### New Files Added
+
+| File | Location | Content | Gap Impact |
+|------|----------|---------|------------|
+| `tier1_maxwell_leverage.md` | `_AI_CONTEXT_INDEX/Node_Dossiers/` | Maxwell Node Dossier: Phase 0 infrastructure (1991–2003), current leverage position (clemency, facility, House Oversight), Administrative Pincer mechanism (VOCA freeze × Epstein infrastructure states) | **Partially closes gap**: Section 1 flagged `08_How_It's_Possible/` as unindexed; now indexed via this dossier and CONTEXT_ROUTER entries |
+
+### Significant Changes to Existing Files
+
+| File | Changes | Gap Impact |
+|------|---------|------------|
+| `09_CURRENT_THREADS.md` | Node 1 (Maxwell) upgraded: added facility (FPC Bryan, TX), prison conditions (whistleblower allegations), clemency status (upgraded from [Inference] to ⚠️ PARTIALLY VERIFIED), immunity offer rejection, motion to set aside conviction, cross-reference to new Node Dossier | **Closes gap**: Maxwell data was minimal; now comprehensive with verification stamps |
+| `NODE_INDEX.md` | Added `tier1_maxwell_leverage.md` to Tier 1 table and Entity → Dossier Mapping (Maxwell, VOCA, trafficking, administrative pincer, survivor infrastructure) | **Closes gap**: Maxwell had no Node Dossier entry |
+| `CONTEXT_ROUTER.md` | Added routing: Maxwell/clemency → new dossier (primary); VOCA/trafficking/administrative pincer → new dossier; institutional plumbing/impunity → `08_How_Its_Possible.md` | **Closes gap**: `08_How_It's_Possible/` was not routed; Maxwell routing was only to `09_CURRENT_THREADS.md` |
+
+### Gaps Closed Since March 7
+
+| Original Gap | Status | How Addressed |
+|--------------|--------|---------------|
+| `08_How_It's_Possible/` not indexed (Section 1) | ✅ **CLOSED** | Indexed via `tier1_maxwell_leverage.md` (incorporates data from all 4 files) + CONTEXT_ROUTER routing entries |
+| Maxwell has no Node Dossier (NODE_INDEX.md) | ✅ **CLOSED** | `tier1_maxwell_leverage.md` created with full Phase 0, current leverage, and Administrative Pincer sections |
+| Maxwell CONTEXT_ROUTER only points to `09_CURRENT_THREADS.md` | ✅ **CLOSED** | Primary routing now to Node Dossier; supporting routes added for VOCA and institutional plumbing |
+
+### Updated Coverage Assessment (March 8 delta)
+
+| Domain | March 7 Coverage | March 8 Coverage | Change |
+|--------|-------------------|-------------------|--------|
+| Node Dossiers | ~65% | ~75% | ⬆ Maxwell dossier added (4th Tier 1) |
+| `08_How_It's_Possible/` | ~0% | ~90% | ⬆ Now indexed via dossier + router |
+| Current threads (Maxwell) | ~40% | ~90% | ⬆ Node 1 fully updated with web-verified data |

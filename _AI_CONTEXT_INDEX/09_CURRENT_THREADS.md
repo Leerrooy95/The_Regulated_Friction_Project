@@ -10,15 +10,23 @@
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
-| Detail | Status (Feb 2026) |
-|--------|-------------------|
+| Detail | Status (March 2026) |
+|--------|---------------------|
 | Leverage type | Information leverage (Epstein network knowledge) |
-| Current status | Incarcerated; invoked 5th Amendment before House Oversight (Feb 9, 2026) |
-| Negotiation | [Inference] Offered testimony in exchange for executive clemency |
+| Current facility | FPC Bryan, Texas (minimum-security); transferred from Florida (max-security) mid-2025 after Deputy AG Todd Blanche meetings | ✅ VERIFIED — [Politico](https://www.politico.com/news/2025/12/21/todd-blanche-defends-moving-ghislaine-maxwell-00702240), [CBS News](https://www.cbsnews.com/news/top-doj-official-todd-blanche-meeting-with-ghislaine-maxwell/) |
+| Prison conditions | Whistleblower allegations of "concierge-style" treatment: custom meals, bottled water, unsupervised staff-area access | ⚠️ PARTIALLY VERIFIED — [The Hill](https://thehill.com/homenews/5597856-maxwell-prison-perks-whistleblower/), [House Judiciary Democrats](https://democrats-judiciary.house.gov/media-center/press-releases/whistleblower-shares-evidence-that-federal-prison-camp-warden-is-pampering-ghislaine-maxwell-maxwell-also-filing-a-commutation-application-with-trump-administration) |
+| Clemency negotiation | Commutation application in preparation; attorney stated at Feb 9 deposition she would testify "fully and honestly if granted clemency" | ⚠️ PARTIALLY VERIFIED — [Time](https://time.com/7375277/ghislaine-maxwell-epstein-trump-clinton-innocent-congress-testimony-clemency-pardon/), [The Independent](https://www.independent.co.uk/news/world/americas/us-politics/ghislaine-maxwell-commutation-trump-pardon-b2862188.html) |
+| Congressional opposition | H.Res.913 (House) and S.Res.608 (Senate) both oppose clemency | ✅ VERIFIED — [Congress.gov](https://www.congress.gov/bill/119th-congress/house-resolution/913/text) |
+| Immunity offer | Rejected by House Oversight Committee (July 2025); Chairman Comer: "will not consider granting congressional immunity" | ✅ VERIFIED — [NBC News](https://www.nbcnews.com/politics/congress/house-oversight-committee-rejects-ghislaine-maxwells-request-immunity-rcna221773) |
+| 5th Amendment invocation | Feb 9, 2026 — invoked 5th to nearly all substantive questions via secure video from Texas prison | ✅ VERIFIED — [Politico](https://www.politico.com/live-updates/2026/02/09/congress/maxwell-pleads-the-fifth-00771258), [Newsweek](https://www.newsweek.com/ghislaine-maxwell-deposition-epstein-files-pleads-fifth-11494760) |
+| Motion to set aside conviction | Filed Jan 17, 2026 (habeas corpus, pro se); 9 grounds including juror misconduct, suppressed evidence | ✅ VERIFIED — [ABC News](https://abcnews.com/US/epstein-associate-ghislaine-maxwell-asks-court-set-aside/story?id=128086043), [NBC News](https://www.nbcnews.com/news/us-news/ghislaine-maxwell-files-petition-challenging-sex-trafficking-convictio-rcna249807) |
+| Trump position on clemency | Has not ruled it out; says he is "allowed" to consider it | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/donald-trump-ghislaine-maxwell-pardon-jeffrey-epstein-deposition-11491410) |
+| Post-Feb 9 developments | No new communications, visitors, or legal proceedings reported | ❌ UNVERIFIED — unable to find post-Feb 9 developments as of March 8, 2026 |
 | Strategic value | Access to unreleased Epstein network documentation |
-| Last updated | Feb 9, 2026 (House Oversight testimony) |
+| Last updated | March 8, 2026 |
 
-**Source**: House Oversight Committee hearing transcript (Feb 9, 2026)
+**Sources**: House Oversight Committee hearing transcript (Feb 9, 2026); whistleblower documents (House Judiciary Democrats); congressional resolutions (Congress.gov); multiple verified news outlets
+**Node Dossier**: See `Node_Dossiers/tier1_maxwell_leverage.md` for full historical and current analysis
 
 ### Node 2: Iran (Cyber Leverage + Nuclear Threshold)
 
