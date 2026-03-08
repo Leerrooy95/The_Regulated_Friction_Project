@@ -376,3 +376,101 @@ This exceeds the "optimal friction" band predicted by the thermostat model — k
 **Sources**: [NPR — Key updates (March 6, 2026)](https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war), [NPR — Energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
 
 *Updated March 6, 2026.*
+
+---
+
+## March 2026: Oracle Financial Stress and Stargate Contraction
+
+The entity appearing in TikTok (15% managing investor), Stargate (equity partner), and Pentagon cloud (Grok via xAI/Oracle infrastructure) is now buckling under the financial weight of that consolidation. This section documents the Oracle financial stress as of March 6-7, 2026.
+
+### Stargate Abilene Expansion Scrapped (March 6-7, 2026)
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| What happened | Oracle and OpenAI scrapped plans to expand the Stargate data center in Abilene, Texas | ✅ VERIFIED |
+| Expansion scope | 600 MW additional capacity (1.2 GW → 2 GW), eight buildings, tens of thousands of Nvidia GB200 GPUs | ✅ VERIFIED |
+| Core site status | Original Abilene campus continues toward completion (mid-2026) | ✅ VERIFIED |
+| Reasons | Financing difficulties, OpenAI's shifting compute demand forecasts, winter weather cooling infrastructure failures | ✅ VERIFIED |
+| Meta stepping in | Meta in talks to lease abandoned Abilene expansion capacity from Crusoe (site developer) | ✅ VERIFIED |
+| Nvidia role | Nvidia facilitated Meta-Crusoe discussions; paid $150M deposit to Crusoe to secure its chips (vs. AMD) at the site | ✅ VERIFIED |
+| Broader Stargate | Other Stargate campuses (Wisconsin, Ohio) still proceeding; program targeting ~10 GW nationally | ✅ VERIFIED |
+
+**Sources**:
+- [Bloomberg via US News (March 6, 2026)](https://money.usnews.com/investing/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-texas-data-center-site-bloomberg-news-reports)
+- [Data Center Dynamics (March 7, 2026)](https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/)
+- [The Register (March 7, 2026)](https://www.theregister.com/2026/03/07/openai_oracle_dc/)
+
+### Oracle Financial Stress Indicators
+
+| Indicator | Detail | Verification |
+|-----------|--------|--------------|
+| Stock decline | Oracle stock down ~50-55% from September 2025 high (~$345) to ~$160 | ✅ VERIFIED |
+| Debt levels | Total borrowings approaching $108B by end of 2025 — highest among major tech firms | ✅ VERIFIED |
+| Capital raise | Oracle announced plan to raise $45-50B in debt and equity in 2026 (Goldman Sachs bonds, Citigroup ATM equity) | ✅ VERIFIED |
+| Bondholder lawsuit | Ohio Carpenters' Pension Plan led suit (Jan 2026) alleging Oracle concealed $38B additional debt requirement in Sept 2025 bond offering ($18B in senior notes) | ✅ VERIFIED |
+| CDS spread | Credit default swap prices hit highest levels since 2009 | ✅ VERIFIED |
+| Potential layoffs | Oracle considering 20,000-30,000 layoffs to generate $8-10B in cash flow (TD Cowen report) | ✅ VERIFIED |
+| OpenAI dependency | ~58% of Oracle's contract backlog tied to OpenAI (single unprofitable customer) | ✅ VERIFIED |
+| Payment structure | OpenAI pays only upon infrastructure delivery and usage — Oracle carries all upfront risk | ✅ VERIFIED |
+| Cash flow | Negative free cash flow due to $50B+ planned 2026 capex | ✅ VERIFIED |
+| Additional measures | Considering sale of Cerner health-care division ($28.3B acquisition in 2022); requiring 40% upfront payments from new customers | ✅ VERIFIED |
+
+**Sources**:
+- [Bloomberg (Jan 29, 2026)](https://www.bloomberg.com/news/articles/2026-01-29/oracle-shares-tumble-50-from-record-as-ai-caution-intensifies) — Stock decline
+- [CNBC (Feb 2, 2026)](https://www.cnbc.com/2026/02/02/oracle-stock-price-funding-plans.html) — $50B raise
+- [CNBC (Jan 14, 2026)](https://www.cnbc.com/2026/01/14/oracle-sued-by-bondholders-over-losses-tied-to-ai-buildout.html) — Bondholder lawsuit
+- [Data Center Dynamics](https://www.datacenterdynamics.com/en/news/oracle-sued-by-bondholders-over-growing-debt-for-ai-buildout/) — Bondholder lawsuit
+- [CIO (Feb 2026)](https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-banks-retreat.html) — Layoffs
+- [Yahoo Finance](https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html) — OpenAI payment structure
+- [The Register](https://www.theregister.com/2025/09/29/oracle_ai_debt/) — $100B+ new debt projections
+- [Oracle press release (Feb 1, 2026)](https://www.oracle.com/news/announcement/oracle-announces-equity-and-debt-financing-plan-2026-02-01/) — Official financing plan
+
+### [Inference] Framework Significance
+
+Oracle is the recurring entity across three critical infrastructure layers documented in this repository:
+1. **TikTok** — 15% managing investor (algorithm + social media control)
+2. **Stargate** — Equity partner (AI compute infrastructure)
+3. **Pentagon cloud** — Infrastructure provider for Grok/xAI federal deployment
+
+The financial stress now visible — stock down 55%, $108B+ in debt, bondholder lawsuits, potential 20,000-30,000 layoffs — demonstrates that the same consolidation pattern that gave Oracle infrastructure dominance also creates financial fragility. The entity that touched every layer of the Silicon Sovereignty stack is now unable to fund its obligations without massive external borrowing, while its primary customer (OpenAI) cannot pay until the infrastructure is built.
+
+This is the capital architecture equivalent of the thermostat breaking: the consolidation that was supposed to deliver control is instead delivering fragility.
+
+Cross-reference: `11_LEVERAGE_THESIS.md` (capital leverage architecture), `10_FRAMEWORK_VALIDATION.md` (Section 8)
+
+---
+
+## March 7, 2026 Update: Energy Crisis as Capital-Side Thermostat Breaker
+
+The Strait of Hormuz crisis has escalated beyond the friction-side effects previously documented. As of March 7, 2026, the energy crisis is now directly preventing the capital raises that fund AI infrastructure.
+
+### Updated Energy Impact (March 7, 2026)
+
+| Indicator | Previous (March 4) | Current (March 7) | Verification |
+|-----------|--------------------|--------------------|--------------|
+| Oil price (Brent) | ~$80/barrel (+20%) | $90-93/barrel (+35-40%) | ✅ VERIFIED |
+| Tanker rates (VLCC) | Elevated | $400,000+/day (record, doubled in days) | ✅ VERIFIED |
+| Ships affected | Shipping shutdown | ~3,200 vessels idle in Gulf region | ✅ VERIFIED |
+| Insurance premiums | Insurers refusing coverage | Surged 1,000%+ | ✅ VERIFIED |
+| Strait status | Effectively closed | Confirmed closed — all major carriers (Maersk, MSC, CMA CGM) suspended transits | ✅ VERIFIED |
+
+### [Inference] The Capital-Side Thermostat Breaker
+
+Oracle needs stable capital markets to raise $45-50B in bonds and equity in 2026. The Iran war and Strait of Hormuz closure are destabilizing those markets:
+
+1. **Bond yields rising globally** — inflation fears from $90+ oil make debt issuance more expensive
+2. **Credit markets tightening** — Oracle's CDS already at 2009 highs before the energy crisis accelerated
+3. **Investor risk appetite declining** — war volatility reduces willingness to fund speculative AI infrastructure
+4. **Energy cost pass-through** — data centers are energy-intensive; $90+ oil increases operational costs for the infrastructure Oracle is trying to build
+
+The energy crisis isn't just an attention event — it's preventing the capital raises that fund the AI infrastructure documented in this file. The thermostat broke on the capital side, not just the friction side.
+
+**Sources**:
+- [CNBC (March 3, 2026)](https://www.cnbc.com/2026/03/03/middle-east-crisis-iran-us-shipping-oil-tankers-strait-of-hormuz.html) — Tanker rates, insurance
+- [Al Jazeera (March 3, 2026)](https://www.aljazeera.com/economy/2026/3/3/shutdown-of-hormuz-strait-raises-fears-of-soaring-oil-prices) — Oil prices
+- [World Economic Forum (March 2026)](https://www.weforum.org/stories/2026/03/us-trade-deficit-international-trade-stories-march-2026/) — Bond market impact
+- [Atlas Institute (March 2026)](https://atlasinstitute.org/the-strait-that-moves-the-market-the-2026-strait-of-hormuz-crisis-and-the-anatomy-of-a-global-energy-shock/) — Comprehensive analysis
+
+Cross-reference: `11_LEVERAGE_THESIS.md`, `09_CURRENT_THREADS.md` (Node 2, Node 3)
+
+*Updated March 7, 2026.*

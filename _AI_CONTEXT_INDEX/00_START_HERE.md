@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: March 6, 2026 | **Repository Version**: v10.4
+**Last Updated**: March 7, 2026 | **Repository Version**: v10.4
 
 ---
 
@@ -117,6 +117,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | **UAE MGX** | 15% TikTok, Stargate equity | `04_CAPITAL_ARCHITECTURE.md` |
 | **1789 Capital** | Media investment, Trump Jr. | `02_MEDIA_FIREWALL.md` |
 | **Omeed Malik** | TCN financier, 1789 founder | `02_MEDIA_FIREWALL.md` |
+| **Larry Ellison** | Oracle chairman, WBD guarantor — dual exposure node | `02_MEDIA_FIREWALL.md`, `04_CAPITAL_ARCHITECTURE.md` |
 
 ---
 
@@ -148,6 +149,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
 | `09_CURRENT_THREADS.md` | Active research questions |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
+| `11_LEVERAGE_THESIS.md` | Leverage architecture: Epstein/Musk origin, Iran extension, capital flows |
 
 ---
 
@@ -171,6 +173,10 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | Datasets / CSV reference | `08_KEY_DATASETS.md`, `Project_Trident/DATASET_REFERENCE.md` |
 | Failed predictions / retractions | `Project_Trident/Copilot_Opus_4.6_Analysis/Findings/AI_Fabrication_Case_Study.md`, `Archive/Retracted_Three_Layer_References.md` |
 | Dashboard / pipeline | `dashboard/app.py`, `daily_perplexity_update.py`, `QUICK_START.md` |
+| Oracle financial stress / Stargate contraction | `04_CAPITAL_ARCHITECTURE.md`, `09_CURRENT_THREADS.md` (Node 8) |
+| Ellison dual exposure / WBD acquisition | `02_MEDIA_FIREWALL.md`, `04_CAPITAL_ARCHITECTURE.md` |
+| Energy crisis capital impact | `04_CAPITAL_ARCHITECTURE.md`, `11_LEVERAGE_THESIS.md` |
+| Leverage thesis / leverage architecture | `11_LEVERAGE_THESIS.md`, `09_CURRENT_THREADS.md` |
 | Author background | `00_Quick_Breakdowns/About_Me.md` |
 
 ---

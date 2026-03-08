@@ -327,3 +327,57 @@ The DOJ released ~3.5 million pages under the **Epstein Files Transparency Act**
 | `2026-02-27_Carlson_Fitts_Control_Grid.md` | `sources/` | Feb 27 Tucker-Fitts interview: boundary shift analysis, CBDCs/programmable money expanded, but 1789 Capital/Silver Lake/PIF remain protected |
 
 *Updated March 1, 2026.*
+
+---
+
+## March 2026: Ellison Dual Exposure — Oracle × Warner Bros. Discovery
+
+**Added March 7, 2026**
+
+Larry Ellison is now personally leveraged across two of the largest capital architecture nodes documented in this repository: Oracle (AI infrastructure) and Warner Bros. Discovery (media consolidation). This creates a dual-exposure node not previously mapped, linking `04_CAPITAL_ARCHITECTURE.md` to `02_MEDIA_FIREWALL.md` through a single individual.
+
+### The Warner Bros. Discovery Acquisition
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| Acquirer | Paramount Skydance Corporation (chaired by David Ellison, Larry's son) | ✅ VERIFIED |
+| Target | Warner Bros. Discovery (HBO, CNN, DC, Discovery networks) | ✅ VERIFIED |
+| Enterprise value | ~$111B (including debt) | ✅ VERIFIED |
+| Per-share price | $31/share all-cash | ✅ VERIFIED |
+| Netflix withdrawal | Netflix withdrew from WBD bidding (~Feb 26-27, 2026); received $2.8B breakup fee | ✅ VERIFIED |
+| Combined debt | ~$79-80B (WBD legacy ~$29B + ~$50B new Paramount borrowing) | ✅ VERIFIED |
+| Rating | Fitch/Moody's downgraded combined entity to junk status (~6x EBITDA leverage) | ✅ VERIFIED |
+| Larry Ellison's role | Personal "irrevocable guarantee" of $40.4B equity commitment | ✅ VERIFIED |
+| Ellison share pledge | ~30% of Oracle stake (~$69B) already pledged as loan collateral; remaining ~$161B unpledged | ✅ VERIFIED |
+| Regulatory status | FCC approval required; current FCC signaling pro-business review under Chairman Brendan Carr | ⚠️ PARTIALLY VERIFIED |
+| FCC "cleaner than previous bids" | ❌ UNVERIFIED — no specific quote found from FCC officials |
+| Expected close | Q3-Q4 2026 | ✅ VERIFIED |
+| Combined subscribers | ~200M streaming subscribers (Paramount+ + HBO Max) | ✅ VERIFIED |
+| Saudi PIF involvement | PIF listed as equity investor in Paramount's financing | ✅ VERIFIED |
+
+**Sources**:
+- [Bloomberg (Dec 23, 2025)](https://www.bloomberg.com/news/articles/2025-12-23/larry-ellison-s-pledge-to-backstop-paramount-bid-would-reshape-fortune) — Ellison pledge details
+- [Variety (Dec 2025)](https://variety.com/2025/tv/news/paramount-skydance-larry-ellison-irrevocable-personal-guarantee-warner-bros-discovery-1236614728/) — Irrevocable guarantee
+- [NBC News (Feb 27, 2026)](https://www.nbcnews.com/business/media/warner-bros-discovery-signs-merger-agreement-paramount-skydance-rcna261035) — Merger agreement
+- [TechCrunch (Feb 26, 2026)](https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/) — Netflix withdrawal
+- [CBS News](https://www.cbsnews.com/news/netflix-warner-paramount-skydance-deal/) — Netflix drops $83B bid
+- [Yahoo Finance](https://finance.yahoo.com/news/oracles-larry-ellison-agrees-to-backstop-404-billion-in-financing-for-paramount-acquisition-of-warner-bros-145133265.html) — Backstop details
+- [Invezz (March 3, 2026)](https://invezz.com/news/2026/03/03/is-paramounts-79b-warner-gamble-fueling-a-debt-disaster/) — $79B debt analysis
+
+### [Inference] The Dual-Exposure Node
+
+Larry Ellison is simultaneously exposed to:
+
+1. **Oracle (AI infrastructure)** — Stock down ~55%; $108B debt; $45-50B capital raise needed; bondholder lawsuit; 20-30K potential layoffs; Stargate Abilene expansion scrapped. Ellison's ~$230B Oracle fortune is the collateral backing both Oracle's operations AND the WBD acquisition guarantee.
+
+2. **Warner Bros. Discovery (media consolidation)** — $111B acquisition with ~$79-80B combined debt; personal $40.4B guarantee; ~30% of Oracle shares already pledged as loan collateral.
+
+**The Risk Chain**: If Oracle stock continues falling (already down 55%), the WBD equity commitment becomes harder to cover without selling Oracle shares — which would further depress Oracle's stock price, creating a potential downward spiral. Oracle's financial stress (documented in `04_CAPITAL_ARCHITECTURE.md`) directly threatens the media consolidation (documented here).
+
+**Media Firewall Significance**: The WBD deal would give the Ellison family control over CNN, HBO, Discovery networks, Warner Bros. studios, and DC Entertainment — a massive narrative infrastructure acquisition. Combined with Oracle's positions in TikTok (15%) and Pentagon AI, this represents a single family straddling both the capital architecture and the media firewall simultaneously.
+
+**PIF Connection**: Saudi PIF is listed as an equity investor in Paramount's financing, linking this media consolidation to the same Gulf SWF capital architecture documented in `04_CAPITAL_ARCHITECTURE.md`. The same capital sources funding TikTok, EA ($55B), and Stargate are also funding the WBD acquisition.
+
+Cross-reference: `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section), `10_FRAMEWORK_VALIDATION.md` (Section 8), `09_CURRENT_THREADS.md` (Node 8)
+
+*Updated March 7, 2026.*

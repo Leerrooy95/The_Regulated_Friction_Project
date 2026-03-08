@@ -759,6 +759,32 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
+## Node 8: Oracle Financial Stress / Stargate Contraction (March 6-7, 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | Capital architecture stress / infrastructure fragility |
+| **Stargate Abilene** | Oracle and OpenAI scrapped 600 MW expansion (March 6-7). Core site continues; expansion abandoned due to financing difficulties and demand uncertainty. |
+| **Stock decline** | Oracle stock down ~50-55% from Sept 2025 high (~$345 → ~$160). Bonds trading like junk-rated; CDS at 2009 highs. |
+| **Capital raise** | Oracle needs $45-50B in debt and equity in 2026. Goldman Sachs leading bonds; Citigroup managing equity. |
+| **Bondholder lawsuit** | Ohio Carpenters' Pension Plan sued (Jan 2026) alleging Oracle concealed $38B debt in Sept 2025 offering. Defendants include Larry Ellison and Safra Catz. |
+| **Layoffs** | Oracle considering 20,000-30,000 job cuts to generate $8-10B cash flow (TD Cowen report). |
+| **OpenAI dependency** | ~58% of Oracle's backlog tied to OpenAI. OpenAI pays only on delivery and usage. OpenAI revenue (~$10-13B) cannot cover $60B/year obligation. |
+| **Meta replacement** | Meta in talks to lease abandoned Abilene capacity from Crusoe. Nvidia paid $150M deposit to facilitate. |
+| **Ellison dual exposure** | Larry Ellison personally guaranteed $40.4B for Paramount-WBD acquisition while Oracle stock falling — see `02_MEDIA_FIREWALL.md` (Ellison Dual Exposure section). |
+| **Energy crisis link** | Oracle needs stable bond markets to raise $45-50B. Strait of Hormuz closure (oil at $90+/barrel) destabilizing those markets — see `04_CAPITAL_ARCHITECTURE.md` (Energy Crisis section). |
+| Framework significance | [Inference] The entity touching every layer of the Silicon Sovereignty stack (TikTok + Stargate + Pentagon) is financially buckling under the weight of that consolidation. |
+| Last updated | March 7, 2026 |
+
+**Sources**:
+- [Bloomberg via US News (March 6, 2026)](https://money.usnews.com/investing/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-texas-data-center-site-bloomberg-news-reports)
+- [DCD (March 7, 2026)](https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/)
+- [The Register (March 7, 2026)](https://www.theregister.com/2026/03/07/openai_oracle_dc/)
+- [CNBC (Jan 14, 2026)](https://www.cnbc.com/2026/01/14/oracle-sued-by-bondholders-over-losses-tied-to-ai-buildout.html)
+- Full source list: `04_CAPITAL_ARCHITECTURE.md` (March 2026 section)
+
+---
+
 ## Research Gaps
 
 ### Needs More Data
@@ -822,4 +848,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 7, 2026. Added: Speaker analysis findings — Iran succession architecture (Mojtaba constitutional mechanics, Assembly of Experts, IRGC dynamics); Venezuela critical minerals details (coltan, Cabello sanctions history, Iran policy template); Section 122 alternative mechanisms (Section 232, Section 301, bilateral deals) and Gulf SWF positioning implications; OpenAI Pentagon deal mechanics (FedRAMP, IDIQ, In-Q-Tel, IL-5/IL-6). Previous: March 6, 2026 — March 1-6 verified developments — Iran war Day 7 (1,300+ killed, Strait of Hormuz closed, Khamenei succession crisis, war widens to Lebanon/Azerbaijan, 6 US soldiers killed); DHS Noem fired/Mullin nominated; Anthropic supply chain risk designation official; DOJ publishes additional Epstein files (NPR investigation); Clinton deposition videos released; TikTok deal lawsuit filed; US-Venezuela normalization (Burgum-Cabello meeting). All March updates verified via AP News, NPR, Reuters, Axios web search. Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md. This document should be updated as new developments occur.*
+*Last Updated: March 7, 2026. Added: Node 8 — Oracle Financial Stress / Stargate Contraction (stock down 55%, $45-50B capital raise, bondholder lawsuit, 20-30K layoffs considered, Abilene expansion scrapped, Meta/Nvidia stepping in); Speaker analysis findings — Iran succession architecture (Mojtaba constitutional mechanics, Assembly of Experts, IRGC dynamics); Venezuela critical minerals details (coltan, Cabello sanctions history, Iran policy template); Section 122 alternative mechanisms (Section 232, Section 301, bilateral deals) and Gulf SWF positioning implications; OpenAI Pentagon deal mechanics (FedRAMP, IDIQ, In-Q-Tel, IL-5/IL-6). Previous: March 6, 2026 — March 1-6 verified developments — Iran war Day 7 (1,300+ killed, Strait of Hormuz closed, Khamenei succession crisis, war widens to Lebanon/Azerbaijan, 6 US soldiers killed); DHS Noem fired/Mullin nominated; Anthropic supply chain risk designation official; DOJ publishes additional Epstein files (NPR investigation); Clinton deposition videos released; TikTok deal lawsuit filed; US-Venezuela normalization (Burgum-Cabello meeting). All March updates verified via AP News, NPR, Reuters, Axios, Bloomberg, DCD, CNBC web search. Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md. This document should be updated as new developments occur.*
