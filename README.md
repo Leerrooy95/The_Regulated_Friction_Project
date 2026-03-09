@@ -1,18 +1,15 @@
-# The Regulated Friction Project v10.4
+# The Regulated Friction Project v10.5
 
-A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015-2026).
+A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
-**Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app)
-
-**Your own secure BYOK OSINT ChatBot (uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference: [OSINT ChatBot](https://personal-chatbot-qej0.onrender.com/login)).**
-
-(For more information, see [OSINT_ChatBot repository](https://github.com/Leerrooy95/OSINT_ChatBot)
-
-**Live Leverage Dashboard:**
-https://regulatedfriction.me/
+| | |
+|---|---|
+| **Live Dashboard** | [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app) |
+| **Live Leverage Dashboard** | [regulatedfriction.me](https://regulatedfriction.me/) |
+| **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
-|-------------|---|
+|---|---|
 | **New here?** | [Glossary](14_Files/Glossary.md) |
 | **AI Assistant?** | [_AI_CONTEXT_INDEX/00_START_HERE.md](_AI_CONTEXT_INDEX/00_START_HERE.md) |
 | **In a rush?** | [Consolidation Pattern Significance](Project_Trident/Copilot_Opus_4.6_Analysis/Consolidation_Analysis/consolidation_pattern_significance.md) |
@@ -60,7 +57,7 @@ The correlation is reproducible — run the scripts in `Run_Correlations_Yoursel
 | **Q4 2025 13F Predictions** | 3 predictions tested | ❌ All 3 FAILED |
 | **Board of Peace Summit** | ~50 countries, $7B pledged, $10B US | ✅ Confirmed |
 
-→ **Full statistics table**: [14_Files/Key_Statistics.md](14_Files/Key_Statistics.md)
+→ **Full statistics**: [Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/](Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/)
 
 **Note on failed predictions:** The Q4 2025 13F predictions (Gulf SWF positioning) failed. This is documented transparently — negative findings are data.
 
@@ -81,7 +78,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas — 9 nodes) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -106,14 +103,17 @@ The_Regulated_Friction_Project/
 ├── 12_The_Media_Firewall/        # Media control, 1789 Capital analysis
 ├── 13_State_and_County_Analysis/ # Arkansas infrastructure audit
 ├── 14_Files/                     # Glossary, sources, main characters
-├── _AI_CONTEXT_INDEX/            # Structured context for AI assistants
-├── Project_Trident/              # Independent verification (Opus 4.6 — 16 statistical tests, 80+ analysis docs)
+├── _AI_CONTEXT_INDEX/            # Structured context for AI assistants (12 files + Node Dossiers)
+├── Project_Trident/              # Independent verification (Opus 4.6 — 16 statistical tests, 80+ docs)
 ├── Run_Correlations_Yourself/    # Reproducibility scripts
 ├── New_Data_2026/                # 2026 datasets
 ├── federal_register/             # Scrapy spiders (automated scraping)
 ├── dashboard/                    # Streamlit dashboard source
-├── docs/validation/              # Infrastructure validation reports
-└── output/                       # LLM extractions (archive/ for older)
+├── data/                         # Reference datasets for Gradient agent
+├── output/                       # Daily pipeline outputs (Perplexity + Llama Scout extractions)
+├── .github/workflows/            # CI/CD: daily pipeline, sync, validation
+├── .gradient/                    # DigitalOcean Gradient agent config
+└── docs/validation/              # Infrastructure validation reports
 ```
 
 ---
@@ -141,38 +141,31 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.4) — Prime Brokerage Capital & Alternative Media Integration — March 3, 2026
+## What's New (v10.5) — Node Expansion, Verification & Pipeline Automation — March 9, 2026
 
-- **Patriotic Capitalism Neutralization Layer documented**: New subsection in README and Report documenting the structural mechanics of how prime brokerage-backed venture capital uses populist media funding to shield the rapid consolidation of government infrastructure (federal housing boards) and defense tech. See `12_The_Media_Firewall/`.
-- **Alternative Capital Expansion dataset**: New CSV (`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`) tracking 10 verified data points across AUM growth, executive integration, institutional capture, media firewall expansion, and defense pivot categories (Jan 2024 – March 2026).
-- **Report.md synthesis updated**: New section documenting the emergent structural behavior where "anti-establishment" capital merges with permanent state infrastructure — federal housing, defense technology, and public capital markets.
+- **Two new Active Leverage Nodes**: Node 8 ([Oracle Financial Stress / Stargate Contraction](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md)) and Node 9 ([Arkansas State-Level Preemption / Datacenter Capital Nexus](13_State_and_County_Analysis/)) added to `09_CURRENT_THREADS.md`, expanding the tracked architecture to 7 active nodes.
+- **Maxwell Node Dossier**: New Tier 1 dossier ([`tier1_maxwell_leverage.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_maxwell_leverage.md)) documenting clemency-for-testimony offer, VOCA funding mechanism, and administrative pincer — all verified with multiple sources.
+- **FBI 302 release documented**: March 5–6 DOJ release of 16 additional Epstein pages, including three previously withheld FBI 302 interview summaries. Discrepancy discovered via Maxwell defense evidence index.
+- **Epstein Class counter-frame**: New section in [`06_ATTENTION_ECONOMY.md`](_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md) documenting verified congressional counter-framing (Ossoff, Jeffries, Massie, MTG) and "Operation Epstein Fury" social media dynamics.
+- **Arkansas forensic audit verified**: Independent verification ([24/28 ✅](Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Law_Forensic_Audit_Verification.md)) of the Arkansas infrastructure and law forensic audits in [`13_State_and_County_Analysis/`](13_State_and_County_Analysis/).
+- **Transparency**: New [`Unable_to_Verify_March_2026.md`](Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md) documenting items that could not be independently verified.
+- **Automated intelligence pipeline**: Daily CI/CD pipeline (`.github/workflows/daily_pipeline.yaml`) runs Federal Register spider, Perplexity intelligence updates, and Llama Scout LLM extraction at 8:00 AM UTC — outputs to `output/`.
+- **Gradient AI agent**: DigitalOcean Gradient agent ([`main.py`](main.py)) deployed as autonomous OSINT monitor using Claude Opus 4.6 for friction/compliance analysis.
+
+### Previous (v10.4) — Prime Brokerage Capital & Alternative Media Integration — March 3, 2026
+
+- **Patriotic Capitalism Neutralization Layer documented**: Structural mechanics of prime brokerage-backed venture capital using populist media funding to shield consolidation of government infrastructure and defense tech. See `12_The_Media_Firewall/`.
+- **Alternative Capital Expansion dataset**: New CSV (`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`) tracking 10 verified data points (Jan 2024 – March 2026).
 
 ### Previous (v10.3) — The High-Resolution Build — March 2, 2026
 
-- **14-day lag corrected to 7-day median**: The Robustness Audit revealed that the actual median lag in the 66-pair backfill dataset is **7 days** (mean: 6.5 days), not 14. The original "14-day" figure was an artifact of the 2-week index binning resolution. The correlation (r = 0.6196) at 2-week index resolution is still valid and significant. All documentation now carries audit trail labels: *v10.2 Legacy (2-week index resolution)* vs *v10.3 High-Resolution (backfill n=66)*. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
-- **Robustness audit completed**: Placebo permutation test (10K shuffles, p = 0.0004), calendar-anchor clustering analysis (71.2% shared anchors), temporal engine adaptation, and node timeline reconciliation.
-- **Business cycle audit**: Weekday frequency analysis shows 30.3% of event pairs share the same weekday (2.1× expected). The 7-day lag is partially a work-week artifact but not entirely.
-- **Financial anchor alignment**: February 2026 compliance events cluster 1.7 days from financial anchors (vs 6.5 for sequential lag) — financial calendar is 3.8× tighter. Apollo earnings/Maxwell testimony (both Feb 9) and Apollo dividend/Board of Peace summit (both Feb 19) confirmed.
-- **Lag=5 negative oscillation documented**: r = −0.6064 (p = 0.0013) explained as "thermostat cooling cycle" — a ~10-week oscillation in the friction→compliance system. See `07_METHODOLOGY.md`.
-- **Source decontamination**: oreateai.com (AI content mill, trust score 45.3/100) purged from CSVs → `New_Data_2026/DATA_QUARANTINE.csv`. 2,121 URLs scanned; 2,110 clean.
-- **Repository-wide semantic refactor**: 70+ files updated with context-aware edits (not blind find-and-replace). Preserved ±14-day search windows, specific measured gaps, and historical archive text.
+- **14-day lag corrected to 7-day median**: Actual median lag is **7 days** (mean: 6.5 days). The "14-day" figure was an artifact of 2-week index binning. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
+- **Robustness audit completed**: Permutation (10K shuffles, p = 0.0004), calendar-anchor clustering (71.2% shared anchors), temporal engine adaptation.
+- **Source decontamination**: oreateai.com purged → `New_Data_2026/DATA_QUARANTINE.csv`. 2,121 URLs scanned; 2,110 clean.
 
-### Previous (v10.2) — March 1, 2026
+### Previous (v10.1–v10.2) — February–March 1, 2026
 
-- **Leverage Thesis now fully documented**: The formal leverage framework — covering the Musk/Epstein/Netanyahu origin case, Iran geopolitical extension, Anthropic standoff, and capital architecture — is now synthesized in `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`. The Barak–Epstein Russia/Israel back channel and "Epstein war" framing have been added with web-verified source citations.
-- **Report.md rewritten for accessibility**: Restructured with an Executive Summary, plain-language Leverage Model explanation, key events breakdown, and statistical evidence — designed so someone with no background can follow the findings
-- **Epstein geopolitical role documented**: Barak–Epstein back channel (Handala-leaked emails, verified by Al Jazeera, Middle East Monitor, Drop Site News), "Epstein war" framing (Raskin, RT, Jacobin), and DOJ Russia connection data — all web-verified with multiple sources. ~~December 2018 prediction~~ downgraded to ❌ UNVERIFIED after web search found no credible sourcing.
-
-### Previous (v10.1) — February 2026
-
-- **Dashboard infrastructure validated**: Full end-to-end validation passed (spider→merge→push→dashboard pipeline). See `docs/validation/VALIDATION_REPORT_2026-02-24.md`
-- **Repository restructured**: Validation reports moved to `docs/validation/`, older LLM extractions archived to `output/archive/`
-- **Live data pipeline active**: Federal Register spider fetching and merging 1006+ EOs (2006-2026), automated via DigitalOcean cron
-- **Total Actor and Timeline Synthesis**: Repository-wide audit of 7 Tier 1 entities across Tech/AI, Diplomacy, Defense, Finance, Media domains
-- **Statistical alignment audit**: n-count synchronized to n = 28 effective; verified r = 0.6196 against master dataset
-- **Israel leverage node added**: Completes four-node architecture (Maxwell, Iran, Gulf SWFs, Israel) in `09_CURRENT_THREADS.md`
-
-→ **Full changelog**: [CHANGELOG.md](CHANGELOG.md)
+- **Leverage Thesis documented** (`11_LEVERAGE_THESIS.md`), **Report.md rewritten for accessibility**, **dashboard infrastructure validated**, **live data pipeline active** (1006+ EOs), **Israel leverage node added** (completes four-node architecture).
 
 ---
 
@@ -241,7 +234,7 @@ These questions arise from documented patterns and verified data:
 5. **Source Triangulation**: Government filings, financial data, news archives
 6. **Explicit Limitations**: Documented in each module
 
-→ **Full methodology**: [14_Files/METHODOLOGY.md](14_Files/METHODOLOGY.md)
+→ **Full methodology**: [_AI_CONTEXT_INDEX/07_METHODOLOGY.md](_AI_CONTEXT_INDEX/07_METHODOLOGY.md)
 
 ---
 
@@ -262,6 +255,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 | Repository | Focus |
 |------------|-------|
+| [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
 | [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
 | [Sovereign-Capital-Audit](https://github.com/Leerrooy95/Sovereign-Capital-Audit) | Gulf SWF positioning |
 
@@ -273,7 +267,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 3, 2026 (v10.4)
+**Last updated**: March 9, 2026 (v10.5)
 
 ---
 
