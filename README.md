@@ -4,7 +4,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 **Live Dashboard**: [regulatedfriction.streamlit.app](https://regulatedfriction.streamlit.app)
 
-**Your own secure BYOK OSINT ChatBot (uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference: [OSINT ChatBot](https://personal-chatbot-qej0.onrender.com/login).**
+**Your own secure BYOK OSINT ChatBot (uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference: [OSINT ChatBot](https://personal-chatbot-qej0.onrender.com/login)).**
 
 (For more information, see [OSINT_ChatBot repository](https://github.com/Leerrooy95/OSINT_ChatBot)
 
