@@ -143,7 +143,7 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ## What's New (v10.5) — Node Expansion, Verification & Pipeline Automation — March 9, 2026
 
-- **Two new Active Leverage Nodes**: Node 8 ([Oracle Financial Stress / Stargate Contraction](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md)) and Node 9 ([Arkansas State-Level Preemption / Datacenter Capital Nexus](13_State_and_County_Analysis/)) added to `09_CURRENT_THREADS.md`, expanding the tracked architecture to 7 active nodes.
+- **Two new Active Leverage Nodes**: Node 8 ([Oracle Financial Stress / Stargate Contraction](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md)) and Node 9 ([Arkansas State-Level Preemption / Datacenter Capital Nexus](13_State_and_County_Analysis/)) added to `09_CURRENT_THREADS.md`.
 - **Maxwell Node Dossier**: New Tier 1 dossier ([`tier1_maxwell_leverage.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_maxwell_leverage.md)) documenting clemency-for-testimony offer, VOCA funding mechanism, and administrative pincer — all verified with multiple sources.
 - **FBI 302 release documented**: March 5–6 DOJ release of 16 additional Epstein pages, including three previously withheld FBI 302 interview summaries. Discrepancy discovered via Maxwell defense evidence index.
 - **Epstein Class counter-frame**: New section in [`06_ATTENTION_ECONOMY.md`](_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md) documenting verified congressional counter-framing (Ossoff, Jeffries, Massie, MTG) and "Operation Epstein Fury" social media dynamics.
