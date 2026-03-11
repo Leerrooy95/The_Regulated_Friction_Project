@@ -264,11 +264,11 @@ The CRINK framework would be **falsified** if:
 
 ### CRINK Pattern Analysis During Iran War
 
-| CRINK Member | Response/Action (March 1-6) | Pattern |
+| CRINK Member | Response/Action (March 1-11) | Pattern |
 |--------------|---------------------------|---------|
 | **China** | Dispatched mediator; urged return to negotiations; oil market concern | Diplomatic positioning / energy security |
-| **Russia** | [Monitoring — specific response not yet verified] | — |
-| **Iran** | Direct combatant; retaliatory strikes on 5+ countries; FM rejects ceasefire | Kinetic confrontation |
+| **Russia** | Russia-Ukraine peace talks (Abu Dhabi) postponed indefinitely due to Iran war; Russia accused by Ukraine of trying to "manipulate" Iran conflict as second front; prisoner swaps continue despite postponement | Diplomatic delay benefits Russia's territorial position |
+| **Iran** | Direct combatant; retaliatory strikes on 5+ countries; FM rejects ceasefire; began mining Strait of Hormuz; 16 mine-laying boats destroyed by US (March 10) | Kinetic confrontation + asymmetric escalation |
 | **North Korea** | [Monitoring — specific response not yet verified] | — |
 
 ### Azerbaijan (Non-CRINK) Drawn In
@@ -277,7 +277,7 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 
 **Framework Relevance**: China's envoy dispatch and diplomatic statements during the Iran war represent a CRINK-pattern response: the primary CRINK economic power (China) positions itself as mediator while its energy supply chains are threatened. This is consistent with the CRINK "flexible security ecosystem" characterization validated by Turkish intelligence (Feb 27, 2026).
 
-**Sources**: [NPR (March 5, 2026)](https://www.npr.org/2026/03/05/nx-s1-5736566/u-s-israeli-strikes-continue-across-iran-iranian-drones-hit-azerbaijan), [NPR — Energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
+**Sources**: [NPR (March 5, 2026)](https://www.npr.org/2026/03/05/nx-s1-5736566/u-s-israeli-strikes-continue-across-iran-iranian-drones-hit-azerbaijan), [NPR — Energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis), [Kyiv Independent — Iran war stalls Ukraine-Russia talks](https://kyivindependent.com/ukraine-peace-talks-with-russia-face-uncertain-future/), [Sky News — Talks postponed "a while"](https://news.sky.com/story/ukraine-peace-talks-could-be-postponed-for-a-while-due-to-iran-war-13515533)
 
 ---
 
@@ -312,4 +312,4 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 | Parallel Operations | `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md` | Venezuela (high attention) vs. Yemen (low attention) simultaneous events |
 | Global Election Analysis | `05_Geopolitical_Vectors/Global_Election_Analysis.md` | Election timing correlations with friction windows |
 
-*Updated March 8, 2026. Ghalibaf "Epstein's gang" statement upgraded to ✅ VERIFIED via Al Jazeera and Axios (March 6, 2026). Previous: March 8, 2026 — added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Previous: March 1, 2026.*
+*Updated March 11, 2026. Added Russia response: Ukraine peace talks postponed indefinitely due to Iran war (Kyiv Independent, Bloomberg, Sky News). Updated Iran row: mine-laying boats destroyed (March 10, CENTCOM/Axios/Army Recognition). Previous: March 8, 2026 — Ghalibaf "Epstein's gang" statement upgraded to ✅ VERIFIED via Al Jazeera and Axios (March 6, 2026). Previous: March 8, 2026 — added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Previous: March 1, 2026.*
