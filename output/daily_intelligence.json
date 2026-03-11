@@ -1,208 +1,158 @@
 {
-  "generated_at": "2026-03-10T08:27:48Z",
+  "generated_at": "2026-03-11T08:26:49Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
   "config_version": "2026-02-28",
   "top_3_developments": [
     {
-      "headline": "US-Israeli Operation Epic Fury continued into its second week with President Trump indicating possible wind-down",
-      "summary": "US-Israeli forces maintained control over Iran's airspace, diminished its ballistic missiles, navy, and potentially nuclear program, while killing key leaders including Supreme Leader Ali Khamenei. Iran retaliated with missiles and drones, disrupting Strait of Hormuz shipping and damaging targets in over a dozen countries. On March 9, President Trump suggested US military actions may near an end, though no ceasefire is confirmed.",
+      "headline": "US forces destroyed 16 Iranian mine-laying boats near Strait of Hormuz",
+      "summary": "US Central Command reported that US forces eliminated 16 Iranian mine-laying vessels on March 10 near the Strait of Hormuz following intelligence of potential mine deployment. Iran continues missile and drone strikes on US interests, Gulf states, and shipping, halting oil transit through the strait while rejecting negotiations. US officials report approximately 140 service members wounded overall as the war intensifies on day 12.",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "KTLA Trump Statement (March 9); ISW Iran Update (March 2)",
+      "source": "CBS News live updates",
       "timestamp": "2026-03-10"
     },
     {
-      "headline": "DOJ released over 1,000 new Epstein files including documents on Trump allegations",
-      "summary": "The Justice Department published additional pages to the Epstein Library on March 9, 2026, addressing allegations of President Trump sexually abusing a minor. The release followed an NPR investigation on missing documents, with the library last updated March 7. Congressional subpoenas and survivor concerns over unredacted info persist.",
+      "headline": "House Oversight Committee subpoenaed Attorney General Pam Bondi over Epstein document handling",
+      "summary": "The House Oversight Committee issued a subpoena on March 4 to Attorney General Bondi to testify on the DOJ's handling of Epstein files after the final release of over 3 million pages, 2,000 videos, and 180,000 images on January 30. Lawmakers dispute DOJ claims of full compliance, alleging withholding of key materials including victim interviews and draft indictments. Prince Andrew's arrest on February 18 for sharing confidential documents adds to ongoing scrutiny.",
       "event_type": "INTELLIGENCE",
       "imminence": "ONGOING",
-      "source": "DOJ Epstein Library release (March 9)",
-      "timestamp": "2026-03-10"
+      "source": "House Oversight Committee reports",
+      "timestamp": "2026-03-04"
     },
     {
-      "headline": "Board of Peace formed executive board and made key appointments for Gaza reconstruction",
-      "summary": "President Trump's Board of Peace established its Executive Board with Marco Rubio, Jared Kushner, and others, appointing Major General Jasper Jeffers as ISF Commander and Nickolay Mladenov as Gaza High Representative. This advances Phase Two of the 20-point Comprehensive Plan under UNSCR 2803 via the National Committee for Gaza Administration. Efforts remain in early implementation stages.",
+      "headline": "Russia-Ukraine peace talks postponed indefinitely due to Iran war",
+      "summary": "US-brokered talks planned for early March in Abu Dhabi stalled amid Russia's demands for Ukrainian concessions on Donetsk and ongoing front-line fighting, including a Ukrainian strike on March 10. Zelenskyy noted no trilateral meeting signals, with Russia weighing halting negotiations without territorial cessions. The Iran conflict prompted the postponement, complicating political progress.",
       "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "source": "White House Statement",
-      "timestamp": "2026-03-10"
+      "imminence": "MONITORING",
+      "source": "Bloomberg",
+      "timestamp": "2026-03-11"
     }
   ],
-  "new_alerts": [
-    {
-      "headline": "Gulf SWFs projected $18 trillion in assets by 2030 with aggressive deployment pace",
-      "alert_type": "FINANCIAL",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "relevance": "Expansion of institutional capital deployment correlates with increased regulatory scrutiny pathways; large-scale cross-border allocations typically trigger CFIUS and foreign investment compliance reviews within 7-day assessment windows.",
-      "priority": "HIGH",
-      "timestamp": "2026-03-10"
-    },
-    {
-      "headline": "Saudi PIF subsidiary Jada Fund signed $200M private credit partnership with Stride Ventures",
-      "alert_type": "FINANCIAL",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "relevance": "Cross-border private credit expansion into emerging markets represents institutional friction point; foreign investment in credit infrastructure typically triggers secondary compliance assessments.",
-      "priority": "MEDIUM",
-      "timestamp": "2026-03-10"
-    },
-    {
-      "headline": "Mubadala concentrated $12.9B in digital and AI investments",
-      "alert_type": "FINANCIAL",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "relevance": "Large-scale AI/digital sector allocations by Gulf SWFs correlate with technology policy friction points; concentration holdings in strategic sectors may trigger CFIUS review mechanisms.",
-      "priority": "MEDIUM",
-      "timestamp": "2026-03-10"
-    }
-  ],
+  "new_alerts": [],
   "signal_updates": [
     {
+      "signal": "Iran-US military action",
       "status": "ACTIVE",
-      "headline": "US-Israeli Operation Epic Fury against Iran ongoing at one week, with US suggesting possible wind-down.",
-      "summary": "A US-Israeli joint military operation, Operation Epic Fury, initiated on February 28, 2026, has established control over Iran's airspace, diminished its ballistic missiles, navy, and potentially nuclear program, while killing key leaders including Supreme Leader Ali Khamenei. Iran has retaliated with missiles and drones, disrupting Strait of Hormuz shipping and damaging regional targets in over a dozen countries. As of March 9, President Trump indicated US military actions may be nearing an end, though no ceasefire is confirmed and the conflict remains active.",
-      "event_type": "KINETIC",
-      "imminence": "ONGOING",
-      "timestamp": "2026-03-10"
+      "update": "US destroyed 16 mine-laying boats on March 10; Iran vows continued strikes and rejects negotiations"
     },
     {
+      "signal": "Epstein document releases",
       "status": "ACTIVE",
-      "headline": "Board of Peace operational with executive board formed and key appointments made, advancing Trump's Gaza reconstruction plan.",
-      "summary": "The Board of Peace, chaired by President Trump, has established its founding Executive Board including Marco Rubio, Jared Kushner, and others, alongside appointments like Major General Jasper Jeffers as ISF Commander and Nickolay Mladenov as High Representative for Gaza. This follows the formation of the National Committee for the Administration of Gaza (NCAG), aligning with Phase Two of the 20-point Comprehensive Plan endorsed by UNSCR 2803. No new meetings or funding commitments reported since the inaugural session planned for February 19, 2026; reconstruction and stabilization efforts are in early implementation stages.",
-      "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "timestamp": "2026-03-10"
+      "update": "House Oversight subpoenaed AG Bondi on March 4 over alleged withholding"
     },
     {
-      "status": "ACTIVE",
-      "headline": "Gulf SWFs maintaining aggressive global investment pace with strategic focus shift toward tech, infrastructure, and regional priorities",
-      "summary": "Gulf sovereign wealth funds deployed $119 billion in 2025, a 43% increase year-over-year, with the US accounting for 59% of major deals. As of early 2026, the 'Gulf 7' funds are recalibrating investment strategies to balance continued international expansion (particularly in AI and mega-deals) with increased domestic capital allocation toward Vision 2030 projects, infrastructure, and logistics. Discussions among major Gulf economies about budget strain from regional tensions suggest potential modulation of investment velocity, though high oil price scenarios remain most likely (40% probability) to fuel continued strategic deployment.",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "timestamp": "2026-03-10T08:27:11Z"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "DOJ released additional Epstein files on March 9, 2026, including documents related to Trump allegations; Epstein Library last updated March 7.",
-      "summary": "The Justice Department published over 1,000 new pages to the Epstein Library public database on March 9, 2026, with more than a dozen files addressing allegations of President Trump sexually abusing a minor, following an NPR investigation noting missing documents. The Epstein Library site, housing materials under the Epstein Files Transparency Act, was last updated on March 7, 2026, and continues to be monitored for further releases as additional documents may be identified. Congressional actions persist, including a March 4 subpoena to Attorney General Pam Bondi over DOJ handling, amid survivor outrage over unredacted victim info in prior releases.",
-      "event_type": "INTELLIGENCE",
-      "imminence": "ONGOING",
-      "timestamp": "2026-03-10"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Russia-Ukraine peace negotiations ongoing with prisoner exchange completed; territorial disputes remain unresolved",
-      "summary": "As of March 6, 2026, trilateral negotiations between Russia, Ukraine, and the US continue with reported progress expected in coming weeks. A significant prisoner of war exchange occurred on March 5-6 (500 prisoners per side exchanged in two phases). However, deep divisions persist over territorial control, particularly Russia's demand that Ukraine cede the Donetsk region, with talks scheduled for March 5-6 in Abu Dhabi facing uncertainty due to US-Iran conflict.",
-      "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "timestamp": "2026-03-10"
+      "signal": "Russia-Ukraine negotiations",
+      "status": "MONITORING",
+      "update": "Talks postponed due to Iran war; front-line fighting continues"
     }
   ],
   "priority_watchlist": [
-    "US-Israeli Operation Epic Fury wind-down confirmation or escalation signals from Trump statements",
-    "Further Epstein Library document releases or congressional responses to March 9 batch",
-    "Gulf SWF investment announcements amid Hormuz disruptions and oil price volatility",
-    "Russia-Ukraine negotiations progress or breakdowns post-Abu Dhabi talks",
-    "Board of Peace inaugural session outcomes or funding commitments for Gaza plan"
+    "Iranian response to US mine-laying boat destruction and potential further Strait of Hormuz disruptions",
+    "House Oversight Committee developments on Epstein files subpoena and AG Bondi testimony",
+    "Russia-Ukraine talks collapse risk amid territorial demands and front-line advances",
+    "Gulf SWF contingency plans activation if Hormuz disruptions escalate",
+    "Board of Peace resource mobilization for Gaza plan implementation"
   ],
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "US-Israeli Operation Epic Fury against Iran ongoing at one week, with US suggesting possible wind-down.",
-      "summary": "A US-Israeli joint military operation, Operation Epic Fury, initiated on February 28, 2026, has established control over Iran's airspace, diminished its ballistic missiles, navy, and potentially nuclear program, while killing key leaders including Supreme Leader Ali Khamenei. Iran has retaliated with missiles and drones, disrupting Strait of Hormuz shipping and damaging regional targets in over a dozen countries. As of March 9, President Trump indicated US military actions may be nearing an end, though no ceasefire is confirmed and the conflict remains active.[1][2][3]",
+      "headline": "US forces destroy 16 Iranian mine-laying boats near Strait of Hormuz as Iran-US war intensifies on day 12.",
+      "summary": "On March 10, US Central Command reported destroying 16 Iranian mine-laying vessels near the Strait of Hormuz, following warnings of potential naval mine deployment.[1] Iran vows to continue missile and drone strikes on US interests, Gulf states, and shipping, halting oil transit through the strait, while rejecting negotiations and claiming battlefield initiative.[1] US officials report 140 service members wounded overall, with conflicting claims of momentum from both sides.[1]",
       "event_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "Richard Haass Substack (March 6)",
+        "CBS News live updates",
+        "Independent",
         "Britannica 2026 Iran Conflict",
-        "KTLA Trump Statement (March 9)",
-        "ISW Iran Update (March 2)"
+        "ISW Iran Update"
       ],
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-11",
       "original_signal": "Iran-US military action",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace operational with executive board formed and key appointments made, advancing Trump's Gaza reconstruction plan.",
-      "summary": "The Board of Peace, chaired by President Trump, has established its founding Executive Board including Marco Rubio, Jared Kushner, and others, alongside appointments like Major General Jasper Jeffers as ISF Commander and Nickolay Mladenov as High Representative for Gaza. This follows the formation of the National Committee for the Administration of Gaza (NCAG), aligning with Phase Two of the 20-point Comprehensive Plan endorsed by UNSCR 2803. No new meetings or funding commitments reported since the inaugural session planned for February 19, 2026; reconstruction and stabilization efforts are in early implementation stages.[1][2][3]",
+      "headline": "Board of Peace formally established and operationalizing oversight of Trump's Gaza peace plan with executive board and advisors appointed.",
+      "summary": "The Board of Peace, chaired by President Trump, was officially ratified on January 22, 2026, in Davos, with an executive board formed including Marco Rubio, Steve Witkoff, Jared Kushner, and others to oversee Gaza's governance, reconstruction, and development under the 20-point plan.[1][2][3] Senior advisors Aryeh Lightstone and Josh Gruenbaum lead day-to-day operations, while Nickolay Mladenov serves as High Representative linking to the National Committee for the Administration of Gaza (NCAG).[1] No new developments reported since late January; the board is mobilizing resources and ensuring accountability in the transition phase.[1][3][4]",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
-        "White House Statement [1]",
-        "Arab Center DC [2]",
-        "Chatham House [3]",
-        "Baker Institute [4]"
+        "White House Statement on Trump's Gaza Plan [1]",
+        "Wikipedia on Gaza Peace Plan [2]",
+        "White House on Board Ratification [3]",
+        "Baker Institute on Gaza and Board of Peace [4]"
       ],
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-11",
       "original_signal": "Board of Peace developments",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Gulf SWFs maintaining aggressive global investment pace with strategic focus shift toward tech, infrastructure, and regional priorities",
-      "summary": "Gulf sovereign wealth funds deployed $119 billion in 2025, a 43% increase year-over-year, with the US accounting for 59% of major deals. As of early 2026, the 'Gulf 7' funds are recalibrating investment strategies to balance continued international expansion (particularly in AI and mega-deals) with increased domestic capital allocation toward Vision 2030 projects, infrastructure, and logistics. Discussions among major Gulf economies about budget strain from regional tensions suggest potential modulation of investment velocity, though high oil price scenarios remain most likely (40% probability) to fuel continued strategic deployment.",
+      "headline": "Gulf SWFs, led by PIF and Mubadala, continue strategic US and global investments amid restructuring and geopolitical contingency planning.",
+      "summary": "Gulf sovereign wealth funds deployed $119 billion in 2025, with PIF completing a $29 billion acquisition of Electronic Arts and Mubadala investing $24 billion primarily in the US, marking record US bets at $70 billion.[1][2][5] In early 2026, funds are reorganizing—Abu Dhabi merged assets into L’imad, PIF refines its 2026-2030 strategy focusing on AI and mega-projects, while contingency plans consider redirecting capital to national priorities if Strait of Hormuz disruptions occur, though deemed low probability (15-25%).[3][4] No major new deals announced in March 2026, but appetite for US tech and global M&A persists.[1][8]",
       "event_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Semafor (Jan 6, 2026)",
+        "AGBI YouTube (Jan 6, 2026)",
+        "Alhurra (Feb 9, 2026)",
+        "EnterpriseAM (Mar 6, 2026)",
+        "MUFG Research (Jan 5, 2026)",
+        "Global Economics (Mar 3, 2026)",
+        "Bloomberg (Jan 5, 2026)"
       ],
-      "timestamp": "2026-03-10T08:27:11Z",
-      "key_developments": {
-        "confirmed_2025_activity": [
-          "PIF deployed $29B for EA acquisition; led Gulf SWF US investment",
-          "Mubadala deployed $24B globally, prioritizing tech and infrastructure",
-          "Abu Dhabi L'Imad, PIF, and QIA backing $108B Paramount-Skydance-Warner Bros deal"
-        ],
-        "2026_strategic_shifts": [
-          "PIF refining 2026-2030 strategy with 15% capital spending reduction on domestic projects, concentrating portfolio on fewer companies",
-          "Mubadala continuing tech/infrastructure/energy transition focus",
-          "Regional discussion of budget strain from geopolitical disruption; 25% probability of prolonged Hormuz disruption triggering investment retrenchment",
-          "GCC recalibrating investment allocation between Western markets and regional domestic priorities"
-        ],
-        "monitoring_factors": [
-          "Hormuz disruption scenarios (40% probability of temporary disruption with oil price windfalls)",
-          "PIF dependency on Aramco dividends and oil revenues for capital deployment velocity",
-          "Shift from rapid balance-sheet expansion toward strategic, mega-deal focused deployment"
-        ]
-      },
+      "timestamp": "2026-03-11",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "DOJ released additional Epstein files on March 9, 2026, including documents related to Trump allegations; Epstein Library last updated March 7.",
-      "summary": "The Justice Department published over 1,000 new pages to the Epstein Library public database on March 9, 2026, with more than a dozen files addressing allegations of President Trump sexually abusing a minor, following an NPR investigation noting missing documents.[2] The Epstein Library site, housing materials under the Epstein Files Transparency Act, was last updated on March 7, 2026, and continues to be monitored for further releases as additional documents may be identified.[3] Congressional actions persist, including a March 4 subpoena to Attorney General Pam Bondi over DOJ handling, amid survivor outrage over unredacted victim info in prior releases.[1]",
-      "event_type": "INTELLIGENCE",
-      "imminence": "ONGOING",
-      "sources": [
-        "1",
-        "2",
-        "3"
-      ],
-      "timestamp": "2026-03-10",
-      "original_signal": "Epstein document releases",
-      "category": "INTELLIGENCE"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Russia-Ukraine peace negotiations ongoing with prisoner exchange completed; territorial disputes remain unresolved",
-      "summary": "As of March 6, 2026, trilateral negotiations between Russia, Ukraine, and the US continue with reported progress expected in coming weeks. A significant prisoner of war exchange occurred on March 5-6 (500 prisoners per side exchanged in two phases). However, deep divisions persist over territorial control, particularly Russia's demand that Ukraine cede the Donetsk region, with talks scheduled for March 5-6 in Abu Dhabi facing uncertainty due to US-Iran conflict.",
+      "headline": "DOJ Epstein document releases complete; House Oversight Committee intensifies scrutiny of document handling",
+      "summary": "The Justice Department released its final batch of 3+ million pages, 2,000 videos, and 180,000 images on January 30, 2026, stating it has met legal obligations under the Epstein Files Transparency Act. However, as of March 4, 2026, the House Oversight Committee subpoenaed Attorney General Pam Bondi to testify about the DOJ's handling of the releases, with lawmakers disputing claims of full compliance and alleging withholding of key materials including victim interview statements and draft indictments.",
       "event_type": "POLITICAL",
       "imminence": "ONGOING",
       "sources": [
         1,
         2,
-        3,
-        4,
-        6
+        3
       ],
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-11",
+      "key_developments": [
+        {
+          "date": "2026-01-30",
+          "event": "DOJ releases 3+ million pages, 2,000 videos, 180,000 images",
+          "status": "COMPLETED"
+        },
+        {
+          "date": "2026-02-18",
+          "event": "Prince Andrew arrested on suspicion of sharing confidential documents with Epstein",
+          "status": "ONGOING"
+        },
+        {
+          "date": "2026-03-04",
+          "event": "House Oversight Committee subpoenas Attorney General Bondi to testify on document handling",
+          "status": "PENDING_TESTIMONY"
+        }
+      ],
+      "controversy": "Dispute over document completeness—DOJ claims compliance with 3M pages released, but lawmakers assert withholding of ~200,000 additional pages including FBI victim interviews and prosecution memoranda",
+      "original_signal": "Epstein document releases",
+      "category": "INTELLIGENCE"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "Russia-Ukraine peace talks stalled amid territorial demands, Iran war postponement, and ongoing front-line fighting.",
+      "summary": "US-brokered talks planned for early March in Abu Dhabi were postponed indefinitely due to the war in Iran, with Zelenskyy stating no trilateral meeting signals have emerged. Russia is weighing halting negotiations unless Ukraine cedes Donetsk, with decisive talks this week at risk of collapse without concessions; no agreement has been reached. Both sides report front-line advances amid a Ukrainian strike on March 10, complicating the political situation.[1][3][5][6]",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [
+        "Japan Times (Mar 1, 2026)",
+        "Moscow Times (Feb 27, 2026)",
+        "Bloomberg (Mar 5, 2026)",
+        "Wikipedia Geneva meetings",
+        "YouTube military summary (Mar 10, 2026)",
+        "Euronews (Mar 10, 2026)"
+      ],
+      "timestamp": "2026-03-11",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     }
