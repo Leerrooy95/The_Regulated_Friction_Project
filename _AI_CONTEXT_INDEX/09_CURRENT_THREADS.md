@@ -56,7 +56,16 @@
 | **Diplomatic response** | **House voted 212-219 against war powers measure (party-line). Senate also failed. China dispatched envoy Zhai Jun to mediate. US Treasury issued 30-day waiver for India to buy Russian crude (energy crisis mitigation). US closed embassy in Kuwait City; consulate in Karachi, Pakistan closed due to expected protests. Americans stranded in Gulf states.** |
 | **Iran protests (pre-war)** | **7,000+ Iranians killed by regime during Dec 2025 mass protests (HRANA). Israel's stated objective: create conditions for Iranians to topple regime.** |
 | **Information warfare update (March 2026)** | **"Operation Epstein Fury" rebranding went viral on X: 91,000+ mentions from 60,000+ unique authors within 48 hours (ADL-verified). Frame links Iran strikes to Epstein file suppression. ADL classified as antisemitic conspiracy wave but documented cross-ideological amplification. Misinformation that "Epic Fury" was named to suppress "Trump Epstein" autocomplete debunked as satire. Ghalibaf "Epstein's gang" statement ❌ UNVERIFIED. See `05_CRINK_FRAMEWORK.md` (Iran Information Warfare section).** |
-| Last updated | March 8, 2026 |
+| **Mar 9: Trump declares Iran military eliminated** | **At GOP retreat at Trump National Doral Miami, Trump told CBS News (Weijia Jiang): "I think the war is very complete, pretty much. They have no navy, no communications, they've got no Air Force." Told House GOP it would be "a short-term excursion." Pentagon simultaneously posted: "We have Only Just Begun to Fight" — contradicting Trump's "very complete" assessment. Trump also falsely claimed Iran has Tomahawk missiles when asked about Minab girls school strike (~165 killed). NYT reported internal US military investigation found a US Tomahawk responsible.** |
+| **Mar 9: Mojtaba Khamenei named Supreme Leader** | **Iranian state TV announced Mojtaba Khamenei (son, born 1969) officially named Supreme Leader on March 8. Trump expressed disappointment, calling it "more of the same." Assessed by Western analysts as more hardline than his father.** |
+| **Mar 9: Oil prices surge** | **Oil surged to ~$120/barrel (highest since 2022) before falling back to ~$90 after Trump signaled war could end soon. Egypt hiked fuel prices 14-17%. State Department ordered drawdown at 10 US embassies/consulates in Middle East — largest reduction since Iraq War 2003.** |
+| **Mar 10: US destroys 16 mine-laying boats** | **US CENTCOM destroyed 16 Iranian mine-laying vessels near Strait of Hormuz after intelligence indicated Iran was deploying naval mines. CENTCOM released strike footage. Pentagon confirmed vessels included both active and inactive mine-layers. Trump warned Iran of "military consequences at a level never seen before" if mines deployed. 7th US service member killed — Army SSG from Kentucky, wounded at Saudi base March 1.** |
+| **Mar 11: FBI California drone threat bulletin** | **ABC News reported FBI bulletin (issued to CA law enforcement late February) warning Iran "allegedly aspired" to launch surprise drone attack from "unidentified vessel off the coast" targeting California. FBI stated: "No additional information on timing, method, target, or perpetrators." Intelligence described as "uncorroborated" and "cautionary." Gov. Newsom confirmed awareness; state emergency operations center activated. Trump said he was "not concerned" about Iran retaliating on US soil.** |
+| **Mar 8-9: FBI sleeper cell alert** | **Federal alert warned law enforcement of intercepted encrypted transmission "likely of Iranian origin" relayed after Khamenei death — may serve as "operational trigger" for "sleeper assets." CFR fellow Bruce Hoffman warned of "sleeper agents, lone actors, cyberattacks on infrastructure." DHS assessed large-scale US attack unlikely but acknowledged persistent risk.** |
+| **Mar 9-11: Contradictory messaging** | **[Inference] Within 48 hours of Trump declaring Iran has "no navy" (March 9), the FBI publicly warned of drone attack from an "unidentified vessel" (March 11), and CENTCOM destroyed 16 active mine-laying boats (March 10) — Iran still had operational naval assets. The Pentagon's own "Only Just Begun to Fight" statement contradicted Trump's "very complete" claim on the same day.** |
+| **140+ US troops wounded** | **Pentagon reported approximately 140 US service members wounded in Iran war as of March 10, including 8 severely wounded.** |
+| **Iran IRGC response** | **IRGC spokesperson Ali Mohammad Naini stated "Iran will determine when the war ends" — direct response to Trump's "short-term" framing.** |
+| Last updated | March 11, 2026 |
 
 **Sources**: 
 - ODNI briefing on "Robert" operation (2024)
@@ -70,9 +79,17 @@
 - [NPR — US-Israeli strikes continue, Azerbaijan hit (March 5, 2026)](https://www.npr.org/2026/03/05/nx-s1-5736566/u-s-israeli-strikes-continue-across-iran-iranian-drones-hit-azerbaijan) — Azerbaijan struck; 6 US soldiers identified; China envoy Zhai Jun; House 212-219 war powers vote
 - [NPR — Strait of Hormuz energy crisis (March 4, 2026)](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis) — Insurance-driven shipping shutdown; oil up 20%; "biggest energy crisis since 1970s"
 - [NPR — Khamenei killed (Feb 28, 2026)](https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed) — Age 86; 36-year rule; 7,000+ killed in Dec 2025 protests (HRANA)
+- [Local10/AP — Trump says Iran had new nuclear site (March 9, 2026)](https://www.local10.com/news/world/2026/03/09/the-latest-trump-says-iran-had-a-new-site-for-developing-nuclear-weapons/) — Trump "no navy" statement; Mojtaba named Supreme Leader; oil surge; school strike
+- [Newsweek — FBI Issues Iran 'Surprise' Attack Warning for California (March 11, 2026)](https://www.newsweek.com/fbi-warns-iran-aspired-drone-attack-california-11662062) — FBI drone bulletin; CFR homeland threat assessment
+- [Fox LA — FBI warns California of Iranian drone threat (March 11, 2026)](https://www.foxla.com/news/fbi-warning-iran-drone-threat-california) — Full bulletin timeline; Newsom response; 140+ US wounded
+- [Newsweek — Iran War Alert: Sleeper Cells (March 8-9, 2026)](https://www.newsweek.com/iran-war-alert-sleeper-cells-activating-11646124) — Encrypted transmission; "operational trigger" for sleeper assets
+- [Military Times — US destroys 16 Iranian mine-laying boats (March 11, 2026)](https://www.militarytimes.com/news/pentagon-congress/2026/03/11/us-destroys-16-iranian-mine-laying-boats-centcom-claims/) — CENTCOM confirmed
+- [CNBC — US forces sink 16 Iranian minelayers (March 11, 2026)](https://www.cnbc.com/2026/03/11/us-strikes-iran-mine-ships-strait-of-hormuz-war-oil.html) — Strait of Hormuz mine threat
+- [Politifact — Trump blamed Iran for school strike (March 11, 2026)](https://www.politifact.com/article/2026/mar/11/trump-iran-school-strike/) — US Tomahawk responsible per NYT/internal investigation
 - Target mapping: `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
 - Arsenal of Freedom convergence: `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`
 - Timeline analysis: `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`
+- Verification report: `Project_Trident/Copilot_Opus_4.6_Analysis/Iran_Naval_Fleet_FBI_Drone_Bulletin_Verification.md`
 
 ### Node 3: Gulf SWFs (Capital Leverage)
 
@@ -145,7 +162,7 @@
 | Node | Leverage Type | Current Status | Strategic Function |
 |------|---------------|----------------|-------------------|
 | **G. Maxwell** | Information → Clemency | 5th Amendment invoked (Feb 9, 2026) | Potential testimony exchange |
-| **Iran** | Cyber + Nuclear + Kinetic | Operation Fateh Khyber retaliation (Feb 28); strikes on 5 Gulf states; BRICS/mBridge/OPEC+ overlap | Diplomatic compliance + kinetic deterrent; SWF infrastructure overlap |
+| **Iran** | Cyber + Nuclear + Kinetic | Trump declares "no navy" (Mar 9); FBI warns of CA drone threat (Mar 11); CENTCOM destroys 16 mine-laying boats (Mar 10); 140+ US wounded; 7 killed | Asymmetric threat persists despite declared victory; homeland threat warnings |
 | **Gulf SWFs** | Capital (~$4.9T AUM) | Active positioning; OPEC+ 8-nation group; mBridge participants targeted | Friction intensity regulation; defense-capital convergence in AR |
 | **Israel** | Cyber/Intel + Tech | Unit 8200 + Silicon Wadi | Iran counter-weight; Gulf-tech bridge |
 | **Epstein Network** | Information (documentation) | 4,700+ bin Sulayem mentions; Maxwell leverage | Network exposure driving resignations |

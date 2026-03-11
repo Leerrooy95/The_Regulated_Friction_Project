@@ -342,6 +342,38 @@ The verified examples demonstrate convergence across party lines:
 
 ---
 
+## Section 7: "No Navy" / Drone Threat Contradiction (March 9-11, 2026)
+
+### The Sequence
+
+On March 9, 2026, Trump told CBS News (Weijia Jiang) from Trump National Doral Miami: **"I think the war is very complete, pretty much. They have no navy, no communications, they've got no Air Force."** On the same day, the Pentagon posted: **"We have Only Just Begun to Fight."**
+
+Within 48 hours:
+- **March 10**: US CENTCOM destroyed 16 Iranian mine-laying boats near the Strait of Hormuz — Iran still had operational naval vessels actively deploying mines
+- **March 11**: ABC News reported an FBI bulletin (issued to California law enforcement in late February) warning that Iran "allegedly aspired" to launch a surprise drone attack from an **"unidentified vessel off the coast"** targeting California
+
+### The Contradiction
+
+| Claim | Source | Date |
+|-------|--------|------|
+| Iran has "no navy" | Trump via CBS News (Weijia Jiang) | March 9 |
+| US destroyed 16 Iranian mine-laying boats (active naval vessels) | CENTCOM, Military Times, CNBC, Naval News | March 10 |
+| FBI warns of drone attack from "unidentified vessel off the coast" | FBI bulletin via ABC News, Newsweek, Fox LA | March 11 |
+| Pentagon: "We have Only Just Begun to Fight" | Pentagon social media | March 9 |
+| Trump: "not concerned" about Iran retaliating on US soil | Newsweek | March 11 |
+
+### FBI Bulletin Details
+
+The FBI bulletin stated: *"We recently acquired information that as of early February 2026, Iran allegedly aspired to conduct a surprise attack using unmanned aerial vehicles from an unidentified vessel off the coast of the United States Homeland, specifically against unspecified targets in California."* The FBI described the intelligence as "uncorroborated" and "cautionary" — no evidence Iran has current capability or active plans to execute such an operation. Gov. Newsom confirmed awareness; California emergency operations center activated.
+
+### Framework Implications
+
+[Inference] The 48-hour sequence exhibits a dual-narrative structure consistent with the attention economy model documented above: the "victory" narrative (no navy, war complete, short-term) and the "ongoing threat" narrative (drone attacks, sleeper cells, mine-laying boats) serve different audiences simultaneously. The victory narrative reassures domestic supporters that the war is succeeding; the threat narrative justifies continued military operations and homeland security posture. This is a documented pattern in attention economy research — "mission accomplished" framing coexisting with escalating threat warnings.
+
+**Cross-references**: `09_CURRENT_THREADS.md` (Node 2: Iran — March 9-11 updates), `05_CRINK_FRAMEWORK.md` (Iran Homeland Threat section), `Project_Trident/Copilot_Opus_4.6_Analysis/Iran_Naval_Fleet_FBI_Drone_Bulletin_Verification.md`
+
+---
+
 ## Key Sources
 
 | Document | Location |
@@ -378,4 +410,4 @@ The verified examples demonstrate convergence across party lines:
 
 ---
 
-*Evolved from `14_Files/Main_Characters.md`. Updated March 8, 2026 — upgraded MTG from ❌ UNVERIFIED to ✅ VERIFIED (Boston Globe); added Massie March 1 "PSA: Bombing a country" tweet as separate verified entry (Boston Globe). Previous: March 8, 2026 — added "Epstein Class" Counter-Frame section. Previous: March 7, 2026 — reframed as Attention Economy & Quotas framework with cross-administration analysis.*
+*Evolved from `14_Files/Main_Characters.md`. Updated March 11, 2026 — added Section 7: "No Navy" / Drone Threat Contradiction (March 9-11 sequence). Previous: March 8, 2026 — upgraded MTG from ❌ UNVERIFIED to ✅ VERIFIED (Boston Globe); added Massie March 1 "PSA: Bombing a country" tweet as separate verified entry (Boston Globe). Previous: March 8, 2026 — added "Epstein Class" Counter-Frame section. Previous: March 7, 2026 — reframed as Attention Economy & Quotas framework with cross-administration analysis.*

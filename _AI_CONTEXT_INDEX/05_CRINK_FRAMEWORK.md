@@ -303,6 +303,28 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 
 ---
 
+### Iran Homeland Threat Warnings (March 8-11, 2026)
+
+**Key Finding**: Multiple federal intelligence bulletins emerged in the March 8-11 window warning of Iran's asymmetric homeland threat capabilities — directly contradicting Trump's March 9 claim that Iran's military had been eliminated.
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| FBI California drone threat bulletin | FBI warned (late Feb) that Iran "allegedly aspired" to launch surprise drone attack from "unidentified vessel off the coast" targeting California; publicly reported March 11 | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/fbi-warns-iran-aspired-drone-attack-california-11662062), [Fox LA](https://www.foxla.com/news/fbi-warning-iran-drone-threat-california), [Independent](https://www.independent.co.uk/news/world/americas/us-politics/iran-drone-attack-west-coast-warning-b2936690.html), ABC News |
+| FBI "sleeper cell" encrypted transmission | Federal alert warned of intercepted encrypted transmission "likely of Iranian origin" — potential "operational trigger" for "sleeper assets"; relayed after Khamenei death | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/iran-war-alert-sleeper-cells-activating-11646124), ABC News |
+| CFR homeland threat assessment | CFR fellow Bruce Hoffman warned of "sleeper agents, lone actors inspired and motivated by Iran, cyberattacks on U.S. infrastructure, and physical attacks on critical infrastructure" | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/fbi-warns-iran-aspired-drone-attack-california-11662062) (citing CFR March 5 report) |
+| CSIS asymmetric retaliation analysis | CSIS fellow Benjamin Jensen (Feb 26): Iran has "long history of using terrorism, proxies, and assassinations" and could "explore horizontal escalation options" via "covert operatives, proxy forces, and terrorist networks" | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/fbi-warns-iran-aspired-drone-attack-california-11662062) (citing CSIS Feb 26 report) |
+| DHS assessment | DHS considers large-scale attack in US unlikely but acknowledges persistent risk of targeted/retaliatory actions by Iranian state or proxy actors | ✅ VERIFIED — [Independent](https://www.independent.co.uk/news/world/americas/us-politics/iran-drone-attack-west-coast-warning-b2936690.html), [Newsmax](https://www.newsmax.com/politics/fbi-drones-california/2026/03/11/id/1249159/) |
+
+**CRINK Relevance**: The FBI/DHS homeland threat warnings represent the asymmetric dimension of the Iran conflict — while conventional forces are degraded (16 mine-laying boats destroyed, frigate Dena sunk), the intelligence community's own assessments warn of unconventional capabilities (drones from vessels, sleeper cells, cyberattacks) that operate outside the conventional military domain. This is consistent with the CRINK framework's characterization of Iran as maintaining multiple leverage channels (cyber, proxy, asymmetric) independent of conventional military capability.
+
+**Sources**:
+- [Newsweek — FBI Issues Iran 'Surprise' Attack Warning for California (March 11, 2026)](https://www.newsweek.com/fbi-warns-iran-aspired-drone-attack-california-11662062)
+- [Newsweek — Iran War Alert: Sleeper Cells Activating (March 8-9, 2026)](https://www.newsweek.com/iran-war-alert-sleeper-cells-activating-11646124)
+- [Fox LA — FBI warns California of Iranian drone threat (March 11, 2026)](https://www.foxla.com/news/fbi-warning-iran-drone-threat-california)
+- [Independent — FBI warned US West Coast police about Iran drone attack (March 11, 2026)](https://www.independent.co.uk/news/world/americas/us-politics/iran-drone-attack-west-coast-warning-b2936690.html)
+
+---
+
 ## Additional Geopolitical Vector Files
 
 | File | Location | Content |
@@ -312,4 +334,4 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 | Parallel Operations | `05_Geopolitical_Vectors/January_2026_Parallel_Operations_Timeline.md` | Venezuela (high attention) vs. Yemen (low attention) simultaneous events |
 | Global Election Analysis | `05_Geopolitical_Vectors/Global_Election_Analysis.md` | Election timing correlations with friction windows |
 
-*Updated March 8, 2026. Ghalibaf "Epstein's gang" statement upgraded to ✅ VERIFIED via Al Jazeera and Axios (March 6, 2026). Previous: March 8, 2026 — added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Previous: March 1, 2026.*
+*Updated March 11, 2026. Added Iran Homeland Threat Warnings section (FBI California drone bulletin, sleeper cell alert, CFR/CSIS assessments). Previous: March 8, 2026. Ghalibaf "Epstein's gang" statement upgraded to ✅ VERIFIED via Al Jazeera and Axios (March 6, 2026). Previous: March 8, 2026 — added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Previous: March 1, 2026.*
