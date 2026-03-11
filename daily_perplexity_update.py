@@ -51,7 +51,10 @@ BUDGET_FILE = OUTPUT_DIR / ".api_budget.json"
 # Prompt templates
 # ---------------------------------------------------------------------------
 
-SIGNAL_STATUS_PROMPT = """You are a real-time intelligence analyst. Today is {today}.
+SIGNAL_STATUS_PROMPT = """You are a real-time intelligence analyst for The Regulated Friction Project. Today is {today}.
+
+CRITICAL ENTITY DISAMBIGUATION:
+{entity_disambiguation}
 
 Check the CURRENT STATUS of this signal: {signal}
 
@@ -68,7 +71,10 @@ Return a JSON object with:
 
 Be specific about what HAS HAPPENED vs what MIGHT happen."""
 
-BREAKING_NEWS_PROMPT = """You are a real-time intelligence analyst. Today is {today}.
+BREAKING_NEWS_PROMPT = """You are a real-time intelligence analyst for The Regulated Friction Project. Today is {today}.
+
+CRITICAL ENTITY DISAMBIGUATION:
+{entity_disambiguation}
 
 Search for breaking news in the LAST 24 HOURS related to these entities:
 {entities}
@@ -93,28 +99,44 @@ Return as JSON array. Focus on CONFIRMED events, not speculation. If something h
 # ---------------------------------------------------------------------------
 PENDING_PREDICTIONS = [
     {"prediction": "DOGE-predicted instability", "timeframe": "Q1 2026",
-     "query": "DOGE Department of Government Efficiency instability fallout Q1 2026"},
+     "query": "Department of Government Efficiency DOGE instability federal workforce fallout Q1 2026"},
     {"prediction": "California TikTok investigation findings", "timeframe": "Q1 2026",
      "query": "California TikTok investigation AG findings Q1 2026"},
     {"prediction": "Khanna investigation findings", "timeframe": "Mar 2026",
-     "query": "Ro Khanna TikTok ByteDance investigation findings March 2026"},
+     "query": "Ro Khanna TikTok ByteDance World Liberty Financial investigation findings March 2026"},
     {"prediction": "Arkansas PSC order text release", "timeframe": "Q1 2026",
      "query": "Arkansas Public Service Commission PSC order text release Q1 2026"},
     {"prediction": "QXO further acquisitions", "timeframe": "2026",
-     "query": "QXO Brad Jacobs acquisitions 2026"},
+     "query": "QXO Brad Jacobs acquisitions Apollo credit pipeline 2026"},
     {"prediction": "EO 14375 legal challenge (IOIA authorization)", "timeframe": "2026",
-     "query": "Executive Order 14375 legal challenge International Organizations Immunities Act 2026"},
+     "query": "Executive Order 14375 legal challenge International Organizations Immunities Act Board of Peace 2026"},
     {"prediction": "NTEU court-ordered position list disclosure", "timeframe": "Feb 27, 2026",
-     "query": "NTEU National Treasury Employees Union court order DOGE position list disclosure 2026"},
+     "query": "NTEU National Treasury Employees Union court order Department of Government Efficiency position list disclosure 2026"},
     {"prediction": "Schedule Policy/Career implementation", "timeframe": "Mar 9, 2026",
-     "query": "Schedule Policy Career federal employee reclassification implementation March 2026"},
+     "query": "Schedule Policy Career federal employee reclassification at-will implementation March 2026"},
     {"prediction": "Feb 11 compliance density repeat at next major hearing", "timeframe": "Ongoing",
      "query": "US Congress major hearing compliance executive order cluster 2026"},
     {"prediction": "Khanna investigation document deadline", "timeframe": "Mar 1, 2026",
-     "query": "Ro Khanna ByteDance TikTok document deadline March 1 2026"},
+     "query": "Ro Khanna ByteDance TikTok World Liberty Financial document deadline March 1 2026"},
+    {"prediction": "Maxwell clemency decision", "timeframe": "2026",
+     "query": "Ghislaine Maxwell clemency petition pardon DOJ Pardon Attorney decision 2026"},
+    {"prediction": "Iran war ceasefire or escalation", "timeframe": "Ongoing",
+     "query": "Iran war ceasefire negotiations US Iran military operations Strait of Hormuz 2026"},
+    {"prediction": "Strait of Hormuz shipping restoration", "timeframe": "Ongoing",
+     "query": "Strait of Hormuz reopening oil shipping mine clearing US Navy 2026"},
+    {"prediction": "Anthropic Pentagon legal challenge", "timeframe": "2026",
+     "query": "Anthropic Dario Amodei Pentagon contract legal challenge AI safety court 2026"},
+    {"prediction": "Oracle Stargate financial restructuring", "timeframe": "2026",
+     "query": "Oracle stock debt Stargate Abilene expansion layoffs bondholder lawsuit 2026"},
 ]
 
-PREDICTION_VERIFY_PROMPT = """You are a fact-checking assistant for a political analysis research project. Today is {today}.
+PREDICTION_VERIFY_PROMPT = """You are a fact-checking assistant for The Regulated Friction Project, an OSINT political analysis research project. Today is {today}.
+
+CRITICAL ENTITY DISAMBIGUATION:
+- "DOGE" = Department of Government Efficiency (federal restructuring initiative led by Elon Musk), NOT Dogecoin cryptocurrency
+- "Board of Peace" = Trump-created international organization for Gaza reconstruction (EO 14375), NOT a generic peace group
+- "Schedule Policy/Career" = Federal employee reclassification to at-will, successor to "Schedule F"
+- "QXO" = Public holding company (Kushner/Affinity Partners connection, Apollo-funded)
 
 Search the web for the CURRENT STATUS of this pending prediction:
 Prediction: "{prediction}"
@@ -136,6 +158,9 @@ Be factual and concise. If the prediction has not resolved, use "monitoring". Do
 DAILY_SUMMARY_PROMPT = """You are the intelligence analyst for The Regulated Friction Project.
 
 Today: {today}
+
+CRITICAL ENTITY DISAMBIGUATION:
+{entity_disambiguation}
 
 ## SIGNAL STATUS UPDATES
 {signal_updates}
@@ -194,7 +219,13 @@ def _call_perplexity(client, prompt: str, *, _retries: int = 0) -> str:
         {
             "role": "system",
             "content": (
-                "You are a real-time intelligence analyst. "
+                "You are a real-time intelligence analyst for The Regulated Friction Project, "
+                "an OSINT research project tracking correlations between friction events "
+                "(scandals, document releases) and compliance events (policy shifts, financial moves). "
+                "CRITICAL: 'DOGE' means Department of Government Efficiency (federal restructuring), "
+                "NOT Dogecoin cryptocurrency. 'Board of Peace' is a specific Trump-created "
+                "organization for Gaza (EO 14375). Interpret all entities in their "
+                "geopolitical/institutional context. "
                 "Always return valid JSON. No markdown fences, no commentary."
             ),
         },
@@ -296,6 +327,21 @@ def load_config() -> dict:
         return json.load(f)
 
 
+def get_disambiguation_text(config: dict) -> str:
+    """Format entity disambiguation entries into a concise text block for prompts.
+
+    Returns an empty string when ``entity_disambiguation`` is absent or empty,
+    which causes the disambiguation placeholder in prompt templates to be blank.
+    """
+    disambig = config.get("entity_disambiguation", {})
+    if not disambig:
+        return ""
+    lines = []
+    for entity, description in disambig.items():
+        lines.append(f"- {entity}: {description}")
+    return "\n".join(lines)
+
+
 def get_all_entities(config: dict) -> list:
     """Flatten all tracked entities into a single list."""
     entities = []
@@ -304,12 +350,13 @@ def get_all_entities(config: dict) -> list:
     return entities
 
 
-def check_signal_status(client, signal: dict, today: str) -> dict:
+def check_signal_status(client, signal: dict, today: str, disambiguation: str = "") -> dict:
     """Check current status of a tracked signal via Perplexity."""
     prompt = SIGNAL_STATUS_PROMPT.format(
         today=today,
         signal=signal.get("signal", ""),
-        search_terms=", ".join(signal.get("search_terms", []))
+        search_terms=", ".join(signal.get("search_terms", [])),
+        entity_disambiguation=disambiguation,
     )
     try:
         raw = _call_perplexity(client, prompt)
@@ -329,12 +376,13 @@ def check_signal_status(client, signal: dict, today: str) -> dict:
     }
 
 
-def scan_breaking_news(client, entities: list, framework_context: str, today: str) -> list:
+def scan_breaking_news(client, entities: list, framework_context: str, today: str, disambiguation: str = "") -> list:
     """Scan for breaking news across all entities."""
     prompt = BREAKING_NEWS_PROMPT.format(
         today=today,
         entities="\n".join(f"- {e}" for e in entities),
-        framework_context=framework_context
+        framework_context=framework_context,
+        entity_disambiguation=disambiguation,
     )
     try:
         raw = _call_perplexity(client, prompt)
@@ -346,13 +394,14 @@ def scan_breaking_news(client, entities: list, framework_context: str, today: st
     return []
 
 
-def generate_daily_summary(client, signal_updates: list, breaking_news: list, framework_context: str, today: str) -> dict:
+def generate_daily_summary(client, signal_updates: list, breaking_news: list, framework_context: str, today: str, disambiguation: str = "") -> dict:
     """Generate prioritized daily summary."""
     prompt = DAILY_SUMMARY_PROMPT.format(
         today=today,
         signal_updates=json.dumps(signal_updates, indent=2) if signal_updates else "No updates",
         breaking_news=json.dumps(breaking_news, indent=2) if breaking_news else "No breaking news",
-        framework_context=framework_context
+        framework_context=framework_context,
+        entity_disambiguation=disambiguation,
     )
     try:
         raw = _call_perplexity(client, prompt)
@@ -454,6 +503,7 @@ def main():
     entities = get_all_entities(config)
     active_signals = config.get("active_signals", [])
     framework_context = config.get("framework_context", "")
+    disambiguation = get_disambiguation_text(config)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     # Budget gate — abort early if daily limit is reached
@@ -476,7 +526,7 @@ def main():
         if not ok:
             logger.warning("Budget limit reached during signal checks")
             break
-        result = check_signal_status(client, signal, today)
+        result = check_signal_status(client, signal, today, disambiguation)
         signal_updates.append(result)
         total_api_calls += 1
         budget = _record_api_call(budget)
@@ -485,7 +535,7 @@ def main():
     budget, ok = _check_budget()
     if ok:
         logger.info("Scanning breaking news for %d entities...", len(entities))
-        breaking_news = scan_breaking_news(client, entities, framework_context, today)
+        breaking_news = scan_breaking_news(client, entities, framework_context, today, disambiguation)
         total_api_calls += 1
         budget = _record_api_call(budget)
     else:
@@ -496,7 +546,7 @@ def main():
     budget, ok = _check_budget()
     if ok:
         logger.info("Generating daily summary...")
-        daily_summary = generate_daily_summary(client, signal_updates, breaking_news, framework_context, today)
+        daily_summary = generate_daily_summary(client, signal_updates, breaking_news, framework_context, today, disambiguation)
         total_api_calls += 1
         budget = _record_api_call(budget)
     else:

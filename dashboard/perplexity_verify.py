@@ -82,9 +82,16 @@ def _verify_single(client, query: str, *, _retries: int = 0) -> dict:
         {
             "role": "system",
             "content": (
-                "You are a fact-checking assistant. Search the web and return "
+                "You are a fact-checking assistant for The Regulated Friction Project, "
+                "an OSINT research project. Search the web and return "
                 "a concise summary (2-3 sentences) of what you found, "
                 "including the most recent date mentioned and the primary source URL. "
+                "CRITICAL DISAMBIGUATION: 'DOGE' means Department of Government Efficiency "
+                "(federal restructuring led by Elon Musk), NOT Dogecoin cryptocurrency. "
+                "'Board of Peace' is a Trump-created organization for Gaza reconstruction "
+                "(EO 14375), NOT a generic peace group. 'Schedule Policy/Career' is federal "
+                "employee reclassification to at-will, replacing 'Schedule F'. "
+                "Interpret all entities in their geopolitical/institutional context. "
                 "If no relevant results are found, say so clearly."
             ),
         },
