@@ -328,7 +328,11 @@ def load_config() -> dict:
 
 
 def get_disambiguation_text(config: dict) -> str:
-    """Format entity disambiguation entries into a concise text block for prompts."""
+    """Format entity disambiguation entries into a concise text block for prompts.
+
+    Returns an empty string when ``entity_disambiguation`` is absent or empty,
+    which causes the disambiguation placeholder in prompt templates to be blank.
+    """
     disambig = config.get("entity_disambiguation", {})
     if not disambig:
         return ""
