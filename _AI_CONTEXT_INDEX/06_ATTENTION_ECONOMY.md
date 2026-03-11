@@ -112,8 +112,9 @@ Rather than suggesting coordination, the model posits that:
 | Dec 12, 2025 | 40-min call with Japan re: China radar | 1-2 days |
 | Feb 27, 2026 | "Arsenal of Freedom" defense industrial tour (L3Harris Camden, AR) — <24 hrs before Operation Epic Fury | — |
 | Mar 4, 2026 | Confirmed US submarine torpedoed Iranian naval frigate Dena — first torpedo sinking since WWII | — |
+| Mar 9, 2026 | Trump told CBS News war is "very complete, pretty much" — but Hegseth and Pentagon officials cautioned operations may be "just beginning." Narrative contradiction between White House and Pentagon generated multi-day coverage cycle. | 3-5 days |
 
-**Pattern Relevance**: The $2B rebrand controversy consumed substantial media oxygen during Q4 2025—precisely when China-Japan tensions escalated and Epstein Files Transparency Act implementation approached.
+**Pattern Relevance**: The $2B rebrand controversy consumed substantial media oxygen during Q4 2025—precisely when China-Japan tensions escalated and Epstein Files Transparency Act implementation approached. The March 9 White House-Pentagon narrative split — Trump declaring victory while Hegseth warned of ongoing operations — created a bidirectional noise loop consistent with the attention economy model.
 
 ### Kristi Noem — Former DHS Secretary (FIRED March 5, 2026)
 

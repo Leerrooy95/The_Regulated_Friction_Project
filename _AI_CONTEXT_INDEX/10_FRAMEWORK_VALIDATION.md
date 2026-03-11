@@ -360,6 +360,31 @@ This is real-time validation that the same consolidation pattern documented in t
 
 ---
 
+## Section 10: Trump Victory Narrative vs. Pentagon Reality — Attention Economy Split (March 9-11, 2026)
+
+**Event Sequence (Verified)**:
+
+| Date | Event | Source |
+|------|-------|--------|
+| March 9 | Trump tells CBS News war is "very complete, pretty much"; claims Iran has "nothing left in a military sense" | CBS News, US News, Al-Monitor |
+| March 9 | Hegseth and Pentagon officials caution operations may be "just beginning" | Rolling Stone |
+| March 10 | US destroys 16 Iranian mine-laying boats near Hormuz — Iran beginning to mine strait | CENTCOM, Axios, Army Recognition, CNBC |
+| March 11 | Pentagon discloses ~140 US service members wounded, 8 severely | The Independent, News18 |
+| March 11 | FBI intelligence bulletin warns Iran aspired to drone attack from vessel off California coast | Newsweek, Rolling Stone, The Independent |
+
+**Framework Alignment**:
+
+| Test | Finding | Verified |
+|------|---------|----------|
+| **Attention Economy Split** | Trump's "war is complete" narrative consumed 3-5 news cycles while Pentagon contradicted. Classic bidirectional noise generation — attention oscillates between victory claim and reality rather than focusing on either. | ✅ YES |
+| **Thermostat Under Stress** | Trump declared victory (thermostat cooling signal) but Iran continued mining Hormuz and FBI warned of homeland drone threat — suggesting thermostat model strained when kinetic conflict continues regardless of rhetorical signaling. | ✅ YES |
+| **Friction-Compliance Sequence** | FBI West Coast drone threat bulletin (friction/fear event) emerged same day as Pentagon casualty disclosure — attention split between homeland threat and overseas casualties. House Oversight Bondi subpoena (friction) also active during this window. | ✅ YES |
+| **CRINK Benefit** | Russia-Ukraine talks postponed indefinitely due to Iran war — CRINK member Russia benefits from US attention/resource diversion without direct involvement. | ✅ YES |
+
+**Significance**: The March 9-11 window demonstrates multiple framework validations simultaneously: (1) attention economy split between conflicting narratives, (2) thermostat stress-test when rhetoric diverges from reality, (3) CRINK secondary beneficiaries, and (4) friction-compliance density during kinetic operations.
+
+---
+
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
@@ -372,7 +397,8 @@ This is real-time validation that the same consolidation pattern documented in t
 - **For Ellison dual exposure**: `02_MEDIA_FIREWALL.md` (Ellison Dual Exposure section)
 - **For "Epstein Class" counter-frame**: `06_ATTENTION_ECONOMY.md` (shows suppression may be temporary)
 - **For Iran info warfare / "Operation Epstein Fury"**: `05_CRINK_FRAMEWORK.md` (Iran Information Warfare section)
+- **For Trump victory narrative / Hegseth contradiction**: `06_ATTENTION_ECONOMY.md` (Hegseth media saturation events)
 
 ---
 
-*Last Updated: March 8, 2026. Added Section 9: Measurable Attention Capture — Google search interest in Epstein files dropped ~95% after Iran strikes (Al Jazeera, ThePost.co.in, Google Trends). Previous: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
+*Last Updated: March 11, 2026. Added Section 10: Trump Victory Narrative vs. Pentagon Reality — Trump-Hegseth attention split, mine-laying boats, FBI West Coast drone threat, Russia-Ukraine talks postponed. Sources: CBS News, Rolling Stone, CENTCOM/Axios/Army Recognition, The Independent/Newsweek, Kyiv Independent/Bloomberg. Previous: March 8, 2026. Added Section 9: Measurable Attention Capture — Google search interest in Epstein files dropped ~95% after Iran strikes (Al Jazeera, ThePost.co.in, Google Trends). Previous: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
