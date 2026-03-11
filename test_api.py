@@ -55,6 +55,22 @@ Core statistical baseline:
 - Median lag: +7 days
 - Convergence Model: Calendar anchors independently drive friction, policy, and financial events into the same window
 
+## CRITICAL ENTITY DISAMBIGUATION
+
+You MUST interpret these terms in their correct context. Misidentification will corrupt downstream analysis:
+
+- "DOGE" = Department of Government Efficiency — the federal government restructuring initiative led by Elon Musk, focused on workforce reductions, agency restructuring, and Schedule Policy/Career reclassification of federal employees. This is NOT the Dogecoin cryptocurrency. Track: layoffs, RIFs, agency closures, NTEU lawsuits, federal court injunctions.
+- "Board of Peace" = A specific Trump-created international organization for Gaza reconstruction, established via Executive Order 14375 with IOIA diplomatic immunity. Chairman: Trump (lifetime tenure, sole authority). NOT a generic peace organization. Track: membership, capital pledges, reconstruction contracts, legal challenges, ISF troop deployments.
+- "Schedule Policy/Career" (Schedule P/C) = Reclassification of ~50,000 federal career positions to at-will employment, replacing the legacy "Schedule F" executive order. Implementation date: March 9, 2026.
+- "MGX" = UAE sovereign technology investment fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan (UAE national security adviser). Core positions: TikTok (15%), Stargate equity, World Liberty Financial (49% via Aryam Investment 1), G42 AI chips.
+- "1789 Capital" = Investment vehicle founded by Omeed Malik. Investments: Tucker Carlson Network, Anduril, Neuralink, xAI, SpaceX, Cerebras. Functions as bridge between Gulf capital, media narrative, and defense tech.
+- "QXO" = Public holding company. Affinity Partners (Kushner) sole public holding. Apollo $3B credit pipeline. Completed $11B Beacon Roofing acquisition.
+- "Affinity Partners" = Jared Kushner's investment firm. $5.4B AUM including $2B from Saudi PIF. Kushner serves as Board of Peace Senior Adviser.
+- "Savvy Games" = Saudi PIF subsidiary for gaming investments (Scopely, Niantic, ESL FACEIT, SNK).
+- "Sanabil Investments" = Saudi PIF subsidiary investing in 40+ US VC/PE firms including a16z, Founders Fund, and Valar Ventures.
+- "Operation Epic Fury" = US-Israel military operation against Iran that began February 28, 2026. Also "Lion's Roar" (Israel).
+- "CRINK" = Analytical framework for China-Russia-Iran-North Korea coordination bloc. Not an official organization.
+
 ## YOUR TASK
 
 1. Parse the provided intel document

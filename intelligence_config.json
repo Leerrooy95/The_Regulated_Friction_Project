@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28",
+  "last_updated": "2026-03-11",
   "tracked_entities": {
     "sovereign_wealth": [
       "Saudi PIF",
@@ -7,19 +7,26 @@
       "ADIA",
       "QIA",
       "MGX",
-      "Affinity Partners"
+      "Affinity Partners",
+      "Savvy Games",
+      "Sanabil Investments"
     ],
     "private_equity": [
       "Apollo Global Management",
       "Silver Lake",
       "Thiel Macro LLC",
-      "Palantir"
+      "Palantir",
+      "QXO",
+      "SoftBank Vision Fund",
+      "1789 Capital"
     ],
     "government": [
       "Board of Peace",
-      "DOGE",
-      "Schedule F",
-      "CFIUS"
+      "DOGE Department of Government Efficiency",
+      "Schedule Policy Career",
+      "CFIUS",
+      "DATA Act of 2026",
+      "OPM federal workforce"
     ],
     "geopolitical": [
       "Iran",
@@ -27,54 +34,110 @@
       "UAE",
       "Saudi Arabia",
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "North Korea",
+      "China",
+      "Lebanon",
+      "Strait of Hormuz"
     ],
     "tech_infrastructure": [
       "Stargate",
       "TikTok",
       "Oracle",
       "GlobalFoundries",
-      "Starlink"
+      "Starlink",
+      "Anthropic",
+      "OpenAI",
+      "xAI Grok",
+      "Project Colossus"
     ],
     "legal_regulatory": [
       "Epstein files",
       "DOJ",
       "SEC 13F",
-      "QXO",
-      "Executive Orders"
+      "Executive Orders",
+      "Maxwell clemency petition",
+      "Ro Khanna investigation",
+      "VOCA lawsuit",
+      "H.Res.913"
+    ],
+    "key_actors": [
+      "Ghislaine Maxwell",
+      "Jared Kushner",
+      "Larry Ellison",
+      "Elon Musk",
+      "Marc Rowan",
+      "Omeed Malik",
+      "Peter Thiel",
+      "Sheikh Tahnoon bin Zayed",
+      "Mohammed bin Salman",
+      "Dario Amodei",
+      "Pam Bondi"
     ]
   },
   "active_signals": [
     {
-      "signal": "Iran-US military action",
+      "signal": "Iran war and Strait of Hormuz",
       "category": "KINETIC",
       "priority": "HIGH",
-      "search_terms": ["Iran strikes", "US Iran military", "Operation Epic Fury", "Iran retaliation"]
+      "search_terms": ["Iran war", "US Iran military", "Operation Epic Fury", "Strait of Hormuz", "Iran retaliation", "CENTCOM Iran", "Iran oil shipping"]
     },
     {
-      "signal": "Board of Peace developments",
+      "signal": "Board of Peace and Gaza reconstruction",
       "category": "POLITICAL",
       "priority": "HIGH",
-      "search_terms": ["Board of Peace", "Trump Gaza plan", "EO 14375"]
+      "search_terms": ["Board of Peace", "Trump Gaza plan", "EO 14375", "Gaza reconstruction", "International Stabilization Force", "Nikolay Mladenov"]
     },
     {
       "signal": "Gulf SWF capital movements",
       "category": "FINANCIAL",
-      "priority": "MEDIUM",
-      "search_terms": ["PIF investment", "Mubadala acquisition", "Gulf sovereign wealth"]
+      "priority": "HIGH",
+      "search_terms": ["PIF investment", "Mubadala acquisition", "Gulf sovereign wealth", "MGX investment", "Savvy Games", "Sanabil Investments"]
     },
     {
-      "signal": "Epstein document releases",
+      "signal": "Epstein document releases and Maxwell clemency",
       "category": "INTELLIGENCE",
       "priority": "HIGH",
-      "search_terms": ["Epstein files", "DOJ Epstein", "Epstein documents released"]
+      "search_terms": ["Epstein files", "DOJ Epstein", "Epstein documents released", "Maxwell clemency", "Maxwell testimony", "Maxwell pardon", "H.Res.913"]
     },
     {
       "signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL",
       "priority": "HIGH",
-      "search_terms": ["Russia Ukraine talks", "Abu Dhabi negotiations", "Zelensky Putin"]
+      "search_terms": ["Russia Ukraine talks", "Russia Ukraine peace", "Zelensky Putin", "Ukraine ceasefire"]
+    },
+    {
+      "signal": "DOGE federal restructuring",
+      "category": "POLITICAL",
+      "priority": "HIGH",
+      "search_terms": ["Department of Government Efficiency", "DOGE federal", "DOGE government cuts", "DOGE Elon Musk federal", "Schedule Policy Career federal"]
+    },
+    {
+      "signal": "AI Pentagon contracts and compliance",
+      "category": "FINANCIAL",
+      "priority": "MEDIUM",
+      "search_terms": ["Pentagon AI contract", "Anthropic Pentagon", "Grok Pentagon", "xAI military", "GenAI.mil", "OpenAI defense contract"]
+    },
+    {
+      "signal": "Oracle and Stargate infrastructure",
+      "category": "FINANCIAL",
+      "priority": "MEDIUM",
+      "search_terms": ["Oracle stock", "Oracle debt", "Stargate AI", "Stargate Abilene", "Oracle layoffs", "Oracle Ellison"]
     }
   ],
-  "framework_context": "The Regulated Friction Project tracks correlations between high-visibility friction events and institutional compliance responses, with a documented 7-day median lag pattern (r=0.62, p<0.001)."
+  "entity_disambiguation": {
+    "DOGE": "Department of Government Efficiency — the federal government restructuring initiative led by Elon Musk. NOT the Dogecoin cryptocurrency. Track workforce reductions, agency restructuring, Schedule Policy/Career reclassification of federal employees.",
+    "Board of Peace": "Trump-created international organization for Gaza reconstruction via EO 14375, granted IOIA diplomatic immunity. Chairman: Trump (lifetime tenure). NOT a generic peace organization. Track membership, capital pledges, reconstruction contracts, legal challenges.",
+    "Schedule Policy Career": "Reclassification of ~50,000 federal career positions to at-will employment, replacing the legacy 'Schedule F' executive order. Implementation date was March 9, 2026. Published in Federal Register despite 94% public comment opposition.",
+    "MGX": "UAE sovereign technology investment fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan (UAE national security adviser). NOT a generic fund. Core positions: TikTok (15%), Stargate equity, World Liberty Financial (49% via Aryam Investment 1), G42 AI chips.",
+    "1789 Capital": "Investment vehicle founded by Omeed Malik. Dual symbolism: 1789 = US Constitution year AND Saudi territorial expansion (Saud bin Abdulaziz). Investments: Tucker Carlson Network, Anduril, Neuralink, xAI, SpaceX, Cerebras. Functions as semiotic bridge between Gulf capital, media narrative, and defense tech.",
+    "QXO": "Public holding company. Affinity Partners (Kushner) sole public holding. Apollo $3B credit pipeline. Completed $11B Beacon Roofing acquisition. Targeting $50B annual revenue via acquisitions.",
+    "Affinity Partners": "Jared Kushner's investment firm. $5.4B AUM including $2B from Saudi PIF. Sole public holding: QXO. Kushner serves as Board of Peace Senior Adviser.",
+    "Savvy Games": "Saudi PIF subsidiary for gaming investments. Owns Scopely, Niantic, ESL FACEIT, SNK. Take-Two shares transferred from PIF to Savvy Games (Q4 2025).",
+    "Sanabil Investments": "Saudi PIF subsidiary investing in 40+ US VC/PE firms including Andreessen Horowitz (a16z), Founders Fund, and Valar Ventures. Pipeline for indirect Gulf capital deployment into US tech ecosystem.",
+    "Operation Epic Fury": "US-Israel military operation against Iran that began February 28, 2026. Also referred to as 'Lion's Roar' by Israel. Resulted in destruction of Iran nuclear and military infrastructure.",
+    "CRINK": "Analytical framework for China-Russia-Iran-North Korea coordination bloc. Not an official organization. Used to track emergent alignment patterns among these four nations.",
+    "Strait of Hormuz": "Critical oil shipping chokepoint between Iran and UAE/Oman. Closure during Iran war caused ~20% oil price increase. Track shipping disruptions, mine-laying operations, US Navy mine-clearing."
+  },
+  "framework_context": "The Regulated Friction Project tracks correlations between high-visibility friction events (document releases, scandals, media cycles) and institutional compliance events (policy shifts, financial moves, regulatory changes), with a documented 7-day median lag pattern (r=0.62, p<0.001, n=28). IMPORTANT: 'DOGE' refers to the Department of Government Efficiency (federal restructuring), NOT Dogecoin cryptocurrency. 'Board of Peace' is a specific Trump-created international organization for Gaza. All entities should be interpreted in their geopolitical/institutional context, not their consumer/retail context."
 }
