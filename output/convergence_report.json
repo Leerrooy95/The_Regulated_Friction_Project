@@ -1,0 +1,500 @@
+{
+  "analysis_timestamp": "2026-03-12T18:33:11.260522+00:00",
+  "total_runs_analyzed": 11,
+  "window_days": 7,
+  "convergence_events": [
+    {
+      "date": "2026-03-08",
+      "active_node_count": 3,
+      "nodes": [
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF announces plans for up to 8 subsidiary IPOs in 2026 and unveils shift to ecosystem integration at Private Sector Forum."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid existing $100B debt load."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "DOJ continues Epstein files releases with removals for victim protection and new publications totaling nearly 3.5 million pages as of early March 2026."
+        }
+      ],
+      "classification_mix": [
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": false
+    },
+    {
+      "date": "2026-03-08",
+      "active_node_count": 4,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell prepares commutation application to Trump in exchange for Epstein-related testimony amid Democratic opposition."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF soft-launches 2026-2030 strategy shifting focus to industry, minerals, AI, and tourism while scaling back mega-projects like The Line."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid concerns over OpenAI exposure and existing debt."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "DOJ published over 3 million additional pages of Epstein files on March 7, 2026, in compliance with the Epstein Files Transparency Act, totaling nearly 3.5 million pages including 2,000 videos and 180,000 images.[1][3]"
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-09",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell's attorney publicly appealed for presidential clemency in exchange for testimony, prompting White House denial of priority and Senate opposition resolution."
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "US and Israel continue massive airstrikes on Iran through March 7, 2026, killing Supreme Leader Ali Khamenei and targeting nuclear sites and leadership; Iran retaliates with drone and missile strikes on US embassies and Gulf targets."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF unveils revised 2026-2030 strategy focusing on industry, AI, mining, and tourism while scaling back mega-projects."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid debt scrutiny."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ continues removing and reviewing Epstein files amid criticism, with site last updated March 7, 2026."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "FRICTION"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-09",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell invoked Fifth Amendment in House Oversight deposition while her attorney publicly appealed for Trump clemency in exchange for testimony."
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "US and Israel conducted extensive airstrikes on Iranian nuclear, missile, and leadership targets through March 3, 2026, under joint campaign including Operation Epic Fury."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF soft-launches 2026-2030 strategy at Riyadh forum, shifting focus to AI, industry, minerals, and tourism while scaling back mega-projects."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid high debt scrutiny."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "DOJ released over 1,000 additional Epstein files on March 5, 2026, including more than a dozen related to Trump allegations, with the Epstein Library last updated March 7, 2026[3][4]."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-10",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell's attorney publicly appeals for presidential clemency in exchange for testimony on Epstein network, but White House states it is not a priority."
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "US and Israel conducted massive airstrikes on over 3,300 Iranian military, nuclear, and leadership targets since February 28, 2026, under joint operations including Operation Epic Fury."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF unveiled revised 2026-2030 strategy focusing on industry, minerals, AI, and tourism while scaling back mega-projects."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ released additional Epstein files including over 1,000 pages related to Trump allegations on March 5-9, 2026, updating the public database."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "FRICTION"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-10",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell invoked Fifth Amendment in House Oversight deposition but offered testimony exonerating Trump and Clinton in exchange for clemency from President Trump."
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Operation Epic Fury enters day 11 with US strikes intensifying on Iranian military, nuclear, and internal security targets amid ongoing Iranian retaliatory drone and missile attacks on Gulf states."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF announced its 2026-2030 strategy at the PIF Private Sector Forum in Riyadh, shifting from sector building to growth acceleration with SAR 70 billion in new opportunities."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle reports Q3 FY2026 earnings with $17.2B revenue and $553B RPO amid $100B+ debt and $30B financing raised."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "DOJ released previously withheld FBI 302 documents from Epstein files alleging sexual assault by Trump on March 10, 2026."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "COMPLIANCE",
+        "FRICTION"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-11",
+      "active_node_count": 4,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell refused to testify before House Oversight Committee unless granted clemency by President Trump, invoking Fifth Amendment in February 2026 hearing.[1][2]"
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF soft-launched its 2026-2030 strategy on March 9, 2026, shifting focus to industry, minerals, AI, and tourism while scaling back mega projects."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid debt scrutiny and bondholder lawsuit."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "DOJ released previously withheld FBI documents from Epstein files alleging sexual assault by Trump on March 10, 2026."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "COMPLIANCE",
+        "FRICTION",
+        "FRICTION"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-11",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell invoked Fifth Amendment in February 2026 House Oversight deposition, conditioning testimony on Trump clemency which lawmakers rejected.[1][2][5]"
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "US conducted its most intense day of airstrikes on Iran on March 10, 2026, targeting naval vessels and internal security forces amid ongoing Iranian retaliation."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF announced new 2026-2030 strategy at Riyadh forum, pivoting to industrial execution, AI, minerals, and private sector partnerships worth SAR 70 billion."
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Oracle announced $45-50B financing plan for 2026 debt needs, but stock dropped over 12% amid OpenAI exposure concerns after Nvidia-OpenAI deal tweet."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "DOJ published over 3 million additional pages of Epstein files on March 11, 2026, in compliance with the Epstein Files Transparency Act, including uncorroborated allegations against Trump."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-11",
+      "active_node_count": 5,
+      "nodes": [
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Strait of Hormuz shipping traffic remains near standstill for over a week, with only Iran-linked vessels transiting amid ongoing conflict."
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF unveils revised 2026-2030 strategy, pivoting to industry, minerals, AI, and tourism amid low oil prices, scaling back mega-projects like The Line."
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel conducts ongoing airstrikes on Iran and Hezbollah targets amid full-scale war started February 28, 2026, destroying hundreds of Iranian missile launchers and striking 60 Hezbollah sites in Lebanon on March 3."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "CRITICAL",
+          "classification": "FRICTION",
+          "headline": "DOJ released three previously withheld 2019 FBI 302 reports alleging Trump abused a minor, amid accusations of improper withholding."
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "AVAIO Digital announced $6B initial investment in AI-ready data center hub in Pulaski County, Arkansas, on January 12, 2026, with construction starting Q1 2026."
+        }
+      ],
+      "classification_mix": [
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true
+    },
+    {
+      "date": "2026-03-12",
+      "active_node_count": 6,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Ghislaine Maxwell invoked Fifth Amendment in February 2026 House Oversight deposition, with attorney offering testimony conditional on Trump clemency; habeas corpus petition denied January 2026."
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Strait of Hormuz commercial shipping near-total collapse with only Iran-linked vessels transiting; multiple merchant vessel strikes reported; Iranian mine deployment preparations underway"
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF soft-launches 2026-2030 strategy, shifting focus to AI, industry, minerals, and tourism while scaling back mega-projects like The Line amid fiscal pressures."
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel and US conducted over 1,600 IAF sorties into Iran by March 10, destroying 300+ missile launchers and striking Tehran command centers amid ongoing Hezbollah attacks from Lebanon."
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ released three previously withheld FBI 302 reports naming Trump in uncorroborated Epstein allegations on March 5, 2026, amid accusations of withholding."
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "AVAIO Digital announced $6B initial investment for AI-ready data center campus in Pulaski County, Arkansas, on January 12, 2026, with construction starting Q1 2026."
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true
+    }
+  ],
+  "node_activity_summary": {
+    "gulf_swf": {
+      "total_appearances": 11,
+      "active_count": 10,
+      "critical_count": 4,
+      "classifications": {
+        "COMPLIANCE": 10,
+        "NEUTRAL": 1
+      }
+    },
+    "oracle_ellison": {
+      "total_appearances": 11,
+      "active_count": 8,
+      "critical_count": 0,
+      "classifications": {
+        "COMPLIANCE": 6,
+        "FRICTION": 2,
+        "NEUTRAL": 3
+      }
+    },
+    "epstein_files": {
+      "total_appearances": 11,
+      "active_count": 10,
+      "critical_count": 5,
+      "classifications": {
+        "COMPLIANCE": 4,
+        "FRICTION": 6,
+        "NEUTRAL": 1
+      }
+    },
+    "maxwell": {
+      "total_appearances": 9,
+      "active_count": 8,
+      "critical_count": 3,
+      "classifications": {
+        "FRICTION": 8,
+        "NEUTRAL": 1
+      }
+    },
+    "iran": {
+      "total_appearances": 8,
+      "active_count": 7,
+      "critical_count": 7,
+      "classifications": {
+        "ESCALATION": 7,
+        "NEUTRAL": 1
+      }
+    },
+    "israel": {
+      "total_appearances": 3,
+      "active_count": 2,
+      "critical_count": 2,
+      "classifications": {
+        "ESCALATION": 2,
+        "NEUTRAL": 1
+      }
+    },
+    "arkansas_datacenter": {
+      "total_appearances": 3,
+      "active_count": 2,
+      "critical_count": 0,
+      "classifications": {
+        "COMPLIANCE": 2,
+        "NEUTRAL": 1
+      }
+    }
+  },
+  "daily_active_counts": {
+    "2026-03-08": 4,
+    "2026-03-09": 5,
+    "2026-03-10": 5,
+    "2026-03-11": 5,
+    "2026-03-12": 0
+  }
+}

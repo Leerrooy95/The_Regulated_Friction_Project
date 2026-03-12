@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-03-12T18:33:58Z",
+  "generated_by": "Live Trackers daily_intelligence.py (Perplexity sonar-pro)",
+  "config_version": "2026-03-11",
+  "top_3_developments": [
+    {
+      "headline": "DOGE continued federal restructuring with reduced leadership intensity following Musk's departure",
+      "summary": "The Department of Government Efficiency remained operational through its July 4, 2026 charter deadline, executing workforce reductions including 6,000+ IRS layoffs on February 20, 2026, and buyout offers to over 2 million federal workers. DOGE teams embedded in agencies accessed Treasury systems with read-only restrictions and claimed $175 billion in savings from asset sales and contract cancellations. Operations shifted to institutionalized implementation under USDS Administrator reporting to the White House Chief of Staff.",
+      "event_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "source": "[1][3][4][6]",
+      "timestamp": "2026-03-12"
+    },
+    {
+      "headline": "No confirmed Iran war or Strait of Hormuz disruptions occurred",
+      "summary": "Search results showed no reports of active Iran-US military conflict, Iranian retaliation, CENTCOM operations, or oil shipping disruptions in the Strait of Hormuz. All coverage focused exclusively on DOGE activities, indicating no kinetic developments in this critical chokepoint.",
+      "event_type": "KINETIC",
+      "imminence": "MONITORING",
+      "source": "[1][2][3][4][5][6]",
+      "timestamp": "2026-03-12"
+    },
+    {
+      "headline": "No evidence emerged of Board of Peace or EO 14375 for Gaza reconstruction",
+      "summary": "Zero mentions appeared of a Trump-created Board of Peace, EO 14375, or any international organization with IOIA diplomatic immunity for Gaza reconstruction. Gaza-related developments remained absent from reporting, which centered on DOGE's agency restructuring and Musk's May 2025 exit.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "source": "[1][2][3][4][5][6][7]",
+      "timestamp": "2026-03-12"
+    }
+  ],
+  "new_alerts": [],
+  "signal_updates": [
+    {
+      "status": "MONITORING",
+      "headline": "No confirmed reports of Iran war or Strait of Hormuz disruptions as of March 12, 2026.",
+      "summary": "Search results contain no information on active Iran-US military conflict, Iranian retaliation, CENTCOM operations against Iran, or disruptions to oil shipping in the Strait of Hormuz. All retrieved sources focus exclusively on the US Department of Government Efficiency (DOGE) initiative, including its establishment, leadership changes, and agency restructuring efforts.[1][2][3][4][5][6]",
+      "event_type": "INTELLIGENCE",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Iran war and Strait of Hormuz",
+      "category": "KINETIC"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No evidence of Board of Peace or EO 14375; Gaza reconstruction remains stalled amid ongoing conflict",
+      "summary": "Search results contain zero mentions of 'Board of Peace', EO 14375, or any Trump-created international organization for Gaza reconstruction with diplomatic immunity. All results focus exclusively on the Department of Government Efficiency (DOGE), its establishment via executive orders in January 2025, workforce reductions, and Elon Musk's departure in May 2025, with operations continuing until July 2026. Gaza-related developments are absent, indicating the signal has no confirmed basis in current reporting.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Board of Peace and Gaza reconstruction",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new Gulf SWF capital movements reported as of March 12, 2026",
+      "summary": "Search results contain no recent developments on PIF investments, Mubadala acquisitions, or MGX activities matching the specified terms. Coverage focuses exclusively on US Department of Government Efficiency (DOGE) operations, including agency restructuring and workforce reductions, with no intersections to Gulf sovereign wealth funds. Ongoing monitoring required for potential financial linkages to entities like 1789 Capital or Affinity Partners.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Gulf SWF capital movements",
+      "category": "FINANCIAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Epstein document releases or Maxwell clemency as of March 12, 2026",
+      "summary": "Prior Epstein court documents were unsealed in early 2024, revealing names from civil lawsuits, but no additional DOJ releases or new files have occurred recently. Ghislaine Maxwell remains imprisoned serving a 20-year sentence with no confirmed clemency or pardon actions. H.Res.913 and related testimony references show no updates in current reporting.",
+      "event_type": "INTELLIGENCE",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Epstein document releases and Maxwell clemency",
+      "category": "INTELLIGENCE"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments in Russia-Ukraine negotiations as of March 12, 2026",
+      "summary": "Search results contain no information on current Russia-Ukraine talks, peace efforts, Zelensky-Putin interactions, or ceasefire developments. The signal shows no confirmed events, ongoing discussions, or imminent breakthroughs. All available data pertains to unrelated US domestic policy topics like DOGE.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Russia-Ukraine negotiations",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "DOGE federal restructuring continues with reduced leadership intensity following Musk's departure from official role",
+      "summary": "The Department of Government Efficiency remains operational with a charter extending through July 4, 2026, despite Elon Musk stepping back from his formal Special Government Employee position. DOGE has executed significant workforce reductions (6,000+ IRS layoffs in February), agency restructuring, and claimed $175 billion in savings through asset sales, contract cancellations, and programmatic changes. The initiative's significance has decreased following Musk's departure, though DOGE teams embedded across federal agencies continue implementing the modernization agenda.",
+      "event_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "sources": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "key_developments": {
+        "leadership_status": "Musk transitioned from active leadership; DOGE continues under USDS Administrator reporting to White House Chief of Staff[4]",
+        "workforce_impact": "IRS laid off 6,000+ employees on February 20, 2026; buyout offers sent to 2+ million federal workers including CIA personnel[3]",
+        "claimed_savings": "$175 billion attributed to asset sales, contract renegotiations, fraud deletion, and workforce reduction (figures widely questioned)[4]",
+        "operational_scope": "DOGE teams of 4+ employees established in each federal agency; access to Treasury payment systems granted with read-only restrictions as of February 5[3][4]",
+        "charter_deadline": "July 4, 2026[1][4]"
+      },
+      "analytical_notes": "DOGE transitioned from high-profile Musk leadership to institutionalized government restructuring. The shift from 'special government employee' model to embedded agency teams suggests normalization of efficiency mandate across federal bureaucracy. Significance decline post-Musk does not indicate cessation—rather, integration into standard government operations through 2026 deadline.",
+      "original_signal": "DOGE federal restructuring",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No confirmed Pentagon AI contracts with Anthropic, xAI, or OpenAI; ongoing DoD AI adoption lacks specific compliance updates",
+      "summary": "Search results contain no evidence of active or recent Pentagon contracts specifically with Anthropic, xAI, or OpenAI for AI technologies as of March 2026. DoD continues broader AI integration efforts, but compliance details on these entities remain unreported. DOGE's software modernization initiatives focused on federal IT efficiency without mentioning AI Pentagon deals.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "AI Pentagon contracts and compliance",
+      "category": "FINANCIAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Oracle involvement in Stargate AI infrastructure as of March 12, 2026.",
+      "summary": "Search results contain no information on Oracle stock performance, debt levels, or direct involvement in Stargate AI project with Ellison mentioned in current context. All results focus exclusively on Department of Government Efficiency (DOGE) activities, including its establishment, workforce reforms, and Musk's departure in May 2025. Stargate AI infrastructure remains without confirmed updates or events in provided sources.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Oracle and Stargate infrastructure",
+      "category": "FINANCIAL"
+    }
+  ],
+  "priority_watchlist": [
+    "DOGE charter deadline approaching July 4, 2026, with ongoing workforce reclassifications and agency embedding[1][4][6]",
+    "Potential Gulf SWF intersections with US entities like 1789 Capital, Affinity Partners, QXO amid DOGE restructuring",
+    "Strait of Hormuz and CRINK kinetic signals for oil chokepoint disruptions",
+    "Epstein intelligence releases and Russia-Ukraine political negotiations"
+  ],
+  "signal_status": [
+    {
+      "status": "MONITORING",
+      "headline": "No confirmed reports of Iran war or Strait of Hormuz disruptions as of March 12, 2026.",
+      "summary": "Search results contain no information on active Iran-US military conflict, Iranian retaliation, CENTCOM operations against Iran, or disruptions to oil shipping in the Strait of Hormuz. All retrieved sources focus exclusively on the US Department of Government Efficiency (DOGE) initiative, including its establishment, leadership changes, and agency restructuring efforts.[1][2][3][4][5][6] No kinetic events, threats, or developments related to the signal have occurred or are reported.",
+      "event_type": "INTELLIGENCE",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Iran war and Strait of Hormuz",
+      "category": "KINETIC"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No evidence of Board of Peace or EO 14375; Gaza reconstruction remains stalled amid ongoing conflict",
+      "summary": "Search results contain zero mentions of 'Board of Peace', EO 14375, or any Trump-created international organization for Gaza reconstruction with diplomatic immunity. All results focus exclusively on the Department of Government Efficiency (DOGE), its establishment via executive orders in January 2025, workforce reductions, and Elon Musk's departure in May 2025, with operations continuing until July 2026. Gaza-related developments are absent, indicating the signal has no confirmed basis in current reporting.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Board of Peace and Gaza reconstruction",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new Gulf SWF capital movements reported as of March 12, 2026",
+      "summary": "Search results contain no recent developments on PIF investments, Mubadala acquisitions, or MGX activities matching the specified terms. Coverage focuses exclusively on US Department of Government Efficiency (DOGE) operations, including agency restructuring and workforce reductions, with no intersections to Gulf sovereign wealth funds. Ongoing monitoring required for potential financial linkages to entities like 1789 Capital or Affinity Partners.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Gulf SWF capital movements",
+      "category": "FINANCIAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Epstein document releases or Maxwell clemency as of March 12, 2026",
+      "summary": "Prior Epstein court documents were unsealed in early 2024, revealing names from civil lawsuits, but no additional DOJ releases or new files have occurred recently. Ghislaine Maxwell remains imprisoned serving a 20-year sentence with no confirmed clemency or pardon actions. H.Res.913 and related testimony references show no updates in current reporting.",
+      "event_type": "INTELLIGENCE",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Epstein document releases and Maxwell clemency",
+      "category": "INTELLIGENCE"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments in Russia-Ukraine negotiations as of March 12, 2026",
+      "summary": "Search results contain no information on current Russia-Ukraine talks, peace efforts, Zelensky-Putin interactions, or ceasefire developments. The signal shows no confirmed events, ongoing discussions, or imminent breakthroughs. All available data pertains to unrelated US domestic policy topics like DOGE.",
+      "event_type": "POLITICAL",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-12",
+      "original_signal": "Russia-Ukraine negotiations",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "DOGE federal restructuring continues with reduced leadership intensity following Musk's departure from official role",
+      "summary": "The Department of Government Efficiency remains operational with a charter extending through July 4, 2026, despite Elon Musk stepping back from his formal Special Government Employee position. DOGE has executed significant workforce reductions (6,000+ IRS layoffs in February), agency restructuring, and claimed $175 billion in savings through asset sales, contract cancellations, and programmatic changes. The initiative's significance has decreased following Musk's departure, though DOGE teams embedded across federal agencies continue implementing the modernization agenda.",
+      "event_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "sources": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "key_developments": {
+        "leadership_status": "Musk transitioned from active leadership; DOGE continues under USDS Administrator reporting to White House Chief of Staff[4]",
+        "workforce_impact": "IRS laid off 6,000+ employees on February 20, 2026; buyout offers sent to 2+ million federal workers including CIA personnel[3]",
+        "claimed_savings": "$175 billion attributed to asset sales, contract renegotiations, fraud deletion, and workforce reduction (figures widely questioned)[4]",
+        "operational_scope": "DOGE teams of 4+ employees established in each federal agency; access to Treasury payment systems granted with read-only restrictions as of February 5[3][4]",
+        "charter_deadline": "July 4, 2026[1][4]"
+      },
+      "analytical_notes": "DOGE transitioned from high-profile Musk leadership to institutionalized government restructuring. The shift from 'special government employee' model to embedded agency teams suggests normalization of efficiency mandate across federal bureaucracy. Significance decline post-Musk does not indicate cessation—rather, integration into standard government operations through 2026 deadline.",
+      "original_signal": "DOGE federal restructuring",
+      "category": "POLITICAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No confirmed Pentagon AI contracts with Anthropic, xAI, or OpenAI; ongoing DoD AI adoption lacks specific compliance updates",
+      "summary": "Search results contain no evidence of active or recent Pentagon contracts specifically with Anthropic, xAI, or OpenAI for AI technologies as of March 2026. DoD continues broader AI integration efforts, but compliance details on these entities remain unreported. DOGE's software modernization initiatives focused on federal IT efficiency without mentioning AI Pentagon deals.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "AI Pentagon contracts and compliance",
+      "category": "FINANCIAL"
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Oracle involvement in Stargate AI infrastructure as of March 12, 2026.",
+      "summary": "Search results contain no information on Oracle stock performance, debt levels, or direct involvement in Stargate AI project with Ellison mentioned in current context. All results focus exclusively on Department of Government Efficiency (DOGE) activities, including its establishment, workforce reforms, and Musk's departure in May 2025. Stargate AI infrastructure remains without confirmed updates or events in provided sources.",
+      "event_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "sources": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "timestamp": "2026-03-12",
+      "original_signal": "Oracle and Stargate infrastructure",
+      "category": "FINANCIAL"
+    }
+  ],
+  "breaking_news": [
+    {
+      "headline": "DOGE established by Executive Order on January 20, 2025, with Musk and Ramaswamy leading restructuring efforts.",
+      "summary": "President Trump issued an Executive Order creating the Department of Government Efficiency (DOGE) to modernize federal technology, cut regulations, and restructure agencies. Elon Musk and Vivek Ramaswamy were appointed to lead, reporting recommendations by July 4, 2026. DOGE teams were mandated in each agency, with actions including buyout offers to over 2 million federal workers and purging DEI programs.[1][3][5]",
+      "event_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "priority": "HIGH",
+      "framework_relevance": "Domestic structural restructuring via DOGE enables federal workforce reclassification and agency cuts, aligning with Track B capital leverage during geopolitical friction.",
+      "sources": "[1][2][3][4][5]",
+      "timestamp": "2025-01-20"
+    },
+    {
+      "headline": "Musk pivoted away from DOGE leadership in May 2025 amid clashes with Trump administration.",
+      "summary": "Elon Musk announced plans to step back from DOGE in May 2025, leaving Washington on May 30 with key staff. This followed tensions over the 'Big Beautiful Bill' in June 2025. DOGE objectives were institutionalized via OMB under Russell Vought, with hiring freeze lifted by November 2025.[3]",
+      "event_type": "POLITICAL",
+      "imminence": "NEAR_TERM",
+      "priority": "HIGH",
+      "framework_relevance": "Leadership shift in DOGE signals institutionalization of efficiency reforms, facilitating Schedule Policy/Career reclassifications amid political friction.",
+      "sources": "[3]",
+      "timestamp": "2025-05-30"
+    },
+    {
+      "headline": "DOGE initiated mass buyouts and DEI purges targeting federal workforce in early 2025.",
+      "summary": "On January 8, 2025, buyout offers were sent to over 2 million federal workers, including CIA staff. An internal DOGE report outlined a three-phase DEI purge, with Musk threatening terminations for non-response to surveys. DOGE accessed payment systems for Social Security and contractors to block or alter payments.[2][3][4]",
+      "event_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "priority": "HIGH",
+      "framework_relevance": "Workforce reductions and reclassifications under DOGE exemplify Track B compliance events, correlated with high-visibility friction (r=0.6196).",
+      "sources": "[2][3][4]",
+      "timestamp": "2025-01-08"
+    }
+  ],
+  "entities_scanned": 59,
+  "api_calls_made": 10,
+  "daily_budget_used": 10,
+  "daily_budget_limit": 75
+}
