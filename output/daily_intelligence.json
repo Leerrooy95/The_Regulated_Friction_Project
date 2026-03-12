@@ -1,160 +1,67 @@
 {
-  "generated_at": "2026-03-11T08:26:49Z",
+  "generated_at": "2026-03-12T08:30:02Z",
   "generated_by": "Perplexity sonar-pro (standalone)",
-  "config_version": "2026-02-28",
-  "top_3_developments": [
-    {
-      "headline": "US forces destroyed 16 Iranian mine-laying boats near Strait of Hormuz",
-      "summary": "US Central Command reported that US forces eliminated 16 Iranian mine-laying vessels on March 10 near the Strait of Hormuz following intelligence of potential mine deployment. Iran continues missile and drone strikes on US interests, Gulf states, and shipping, halting oil transit through the strait while rejecting negotiations. US officials report approximately 140 service members wounded overall as the war intensifies on day 12.",
-      "event_type": "KINETIC",
-      "imminence": "ONGOING",
-      "source": "CBS News live updates",
-      "timestamp": "2026-03-10"
-    },
-    {
-      "headline": "House Oversight Committee subpoenaed Attorney General Pam Bondi over Epstein document handling",
-      "summary": "The House Oversight Committee issued a subpoena on March 4 to Attorney General Bondi to testify on the DOJ's handling of Epstein files after the final release of over 3 million pages, 2,000 videos, and 180,000 images on January 30. Lawmakers dispute DOJ claims of full compliance, alleging withholding of key materials including victim interviews and draft indictments. Prince Andrew's arrest on February 18 for sharing confidential documents adds to ongoing scrutiny.",
-      "event_type": "INTELLIGENCE",
-      "imminence": "ONGOING",
-      "source": "House Oversight Committee reports",
-      "timestamp": "2026-03-04"
-    },
-    {
-      "headline": "Russia-Ukraine peace talks postponed indefinitely due to Iran war",
-      "summary": "US-brokered talks planned for early March in Abu Dhabi stalled amid Russia's demands for Ukrainian concessions on Donetsk and ongoing front-line fighting, including a Ukrainian strike on March 10. Zelenskyy noted no trilateral meeting signals, with Russia weighing halting negotiations without territorial cessions. The Iran conflict prompted the postponement, complicating political progress.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING",
-      "source": "Bloomberg",
-      "timestamp": "2026-03-11"
-    }
-  ],
+  "config_version": "2026-03-11",
+  "top_3_developments": [],
   "new_alerts": [],
-  "signal_updates": [
-    {
-      "signal": "Iran-US military action",
-      "status": "ACTIVE",
-      "update": "US destroyed 16 mine-laying boats on March 10; Iran vows continued strikes and rejects negotiations"
-    },
-    {
-      "signal": "Epstein document releases",
-      "status": "ACTIVE",
-      "update": "House Oversight subpoenaed AG Bondi on March 4 over alleged withholding"
-    },
-    {
-      "signal": "Russia-Ukraine negotiations",
-      "status": "MONITORING",
-      "update": "Talks postponed due to Iran war; front-line fighting continues"
-    }
-  ],
-  "priority_watchlist": [
-    "Iranian response to US mine-laying boat destruction and potential further Strait of Hormuz disruptions",
-    "House Oversight Committee developments on Epstein files subpoena and AG Bondi testimony",
-    "Russia-Ukraine talks collapse risk amid territorial demands and front-line advances",
-    "Gulf SWF contingency plans activation if Hormuz disruptions escalate",
-    "Board of Peace resource mobilization for Gaza plan implementation"
-  ],
+  "signal_updates": [],
+  "priority_watchlist": [],
   "signal_status": [
     {
-      "status": "ACTIVE",
-      "headline": "US forces destroy 16 Iranian mine-laying boats near Strait of Hormuz as Iran-US war intensifies on day 12.",
-      "summary": "On March 10, US Central Command reported destroying 16 Iranian mine-laying vessels near the Strait of Hormuz, following warnings of potential naval mine deployment.[1] Iran vows to continue missile and drone strikes on US interests, Gulf states, and shipping, halting oil transit through the strait, while rejecting negotiations and claiming battlefield initiative.[1] US officials report 140 service members wounded overall, with conflicting claims of momentum from both sides.[1]",
-      "event_type": "KINETIC",
-      "imminence": "ONGOING",
-      "sources": [
-        "CBS News live updates",
-        "Independent",
-        "Britannica 2026 Iran Conflict",
-        "ISW Iran Update"
-      ],
-      "timestamp": "2026-03-11",
-      "original_signal": "Iran-US military action",
-      "category": "KINETIC"
+      "original_signal": "Iran war and Strait of Hormuz",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     },
     {
-      "status": "ACTIVE",
-      "headline": "Board of Peace formally established and operationalizing oversight of Trump's Gaza peace plan with executive board and advisors appointed.",
-      "summary": "The Board of Peace, chaired by President Trump, was officially ratified on January 22, 2026, in Davos, with an executive board formed including Marco Rubio, Steve Witkoff, Jared Kushner, and others to oversee Gaza's governance, reconstruction, and development under the 20-point plan.[1][2][3] Senior advisors Aryeh Lightstone and Josh Gruenbaum lead day-to-day operations, while Nickolay Mladenov serves as High Representative linking to the National Committee for the Administration of Gaza (NCAG).[1] No new developments reported since late January; the board is mobilizing resources and ensuring accountability in the transition phase.[1][3][4]",
-      "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "White House Statement on Trump's Gaza Plan [1]",
-        "Wikipedia on Gaza Peace Plan [2]",
-        "White House on Board Ratification [3]",
-        "Baker Institute on Gaza and Board of Peace [4]"
-      ],
-      "timestamp": "2026-03-11",
-      "original_signal": "Board of Peace developments",
-      "category": "POLITICAL"
+      "original_signal": "Board of Peace and Gaza reconstruction",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     },
     {
-      "status": "ACTIVE",
-      "headline": "Gulf SWFs, led by PIF and Mubadala, continue strategic US and global investments amid restructuring and geopolitical contingency planning.",
-      "summary": "Gulf sovereign wealth funds deployed $119 billion in 2025, with PIF completing a $29 billion acquisition of Electronic Arts and Mubadala investing $24 billion primarily in the US, marking record US bets at $70 billion.[1][2][5] In early 2026, funds are reorganizing—Abu Dhabi merged assets into L’imad, PIF refines its 2026-2030 strategy focusing on AI and mega-projects, while contingency plans consider redirecting capital to national priorities if Strait of Hormuz disruptions occur, though deemed low probability (15-25%).[3][4] No major new deals announced in March 2026, but appetite for US tech and global M&A persists.[1][8]",
-      "event_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "Semafor (Jan 6, 2026)",
-        "AGBI YouTube (Jan 6, 2026)",
-        "Alhurra (Feb 9, 2026)",
-        "EnterpriseAM (Mar 6, 2026)",
-        "MUFG Research (Jan 5, 2026)",
-        "Global Economics (Mar 3, 2026)",
-        "Bloomberg (Jan 5, 2026)"
-      ],
-      "timestamp": "2026-03-11",
       "original_signal": "Gulf SWF capital movements",
-      "category": "FINANCIAL"
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     },
     {
-      "status": "ACTIVE",
-      "headline": "DOJ Epstein document releases complete; House Oversight Committee intensifies scrutiny of document handling",
-      "summary": "The Justice Department released its final batch of 3+ million pages, 2,000 videos, and 180,000 images on January 30, 2026, stating it has met legal obligations under the Epstein Files Transparency Act. However, as of March 4, 2026, the House Oversight Committee subpoenaed Attorney General Pam Bondi to testify about the DOJ's handling of the releases, with lawmakers disputing claims of full compliance and alleging withholding of key materials including victim interview statements and draft indictments.",
-      "event_type": "POLITICAL",
-      "imminence": "ONGOING",
-      "sources": [
-        1,
-        2,
-        3
-      ],
-      "timestamp": "2026-03-11",
-      "key_developments": [
-        {
-          "date": "2026-01-30",
-          "event": "DOJ releases 3+ million pages, 2,000 videos, 180,000 images",
-          "status": "COMPLETED"
-        },
-        {
-          "date": "2026-02-18",
-          "event": "Prince Andrew arrested on suspicion of sharing confidential documents with Epstein",
-          "status": "ONGOING"
-        },
-        {
-          "date": "2026-03-04",
-          "event": "House Oversight Committee subpoenas Attorney General Bondi to testify on document handling",
-          "status": "PENDING_TESTIMONY"
-        }
-      ],
-      "controversy": "Dispute over document completeness—DOJ claims compliance with 3M pages released, but lawmakers assert withholding of ~200,000 additional pages including FBI victim interviews and prosecution memoranda",
-      "original_signal": "Epstein document releases",
-      "category": "INTELLIGENCE"
+      "original_signal": "Epstein document releases and Maxwell clemency",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     },
     {
-      "status": "MONITORING",
-      "headline": "Russia-Ukraine peace talks stalled amid territorial demands, Iran war postponement, and ongoing front-line fighting.",
-      "summary": "US-brokered talks planned for early March in Abu Dhabi were postponed indefinitely due to the war in Iran, with Zelenskyy stating no trilateral meeting signals have emerged. Russia is weighing halting negotiations unless Ukraine cedes Donetsk, with decisive talks this week at risk of collapse without concessions; no agreement has been reached. Both sides report front-line advances amid a Ukrainian strike on March 10, complicating the political situation.[1][3][5][6]",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING",
-      "sources": [
-        "Japan Times (Mar 1, 2026)",
-        "Moscow Times (Feb 27, 2026)",
-        "Bloomberg (Mar 5, 2026)",
-        "Wikipedia Geneva meetings",
-        "YouTube military summary (Mar 10, 2026)",
-        "Euronews (Mar 10, 2026)"
-      ],
-      "timestamp": "2026-03-11",
       "original_signal": "Russia-Ukraine negotiations",
-      "category": "POLITICAL"
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
+    },
+    {
+      "original_signal": "DOGE federal restructuring",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
+    },
+    {
+      "original_signal": "AI Pentagon contracts and compliance",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
+    },
+    {
+      "original_signal": "Oracle and Stargate infrastructure",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     }
   ],
   "entities_scanned": [
@@ -164,32 +71,61 @@
     "QIA",
     "MGX",
     "Affinity Partners",
+    "Savvy Games",
+    "Sanabil Investments",
     "Apollo Global Management",
     "Silver Lake",
     "Thiel Macro LLC",
     "Palantir",
+    "QXO",
+    "SoftBank Vision Fund",
+    "1789 Capital",
     "Board of Peace",
-    "DOGE",
-    "Schedule F",
+    "DOGE Department of Government Efficiency",
+    "Schedule Policy Career",
     "CFIUS",
+    "DATA Act of 2026",
+    "OPM federal workforce",
     "Iran",
     "Israel",
     "UAE",
     "Saudi Arabia",
     "Russia",
     "Ukraine",
+    "North Korea",
+    "China",
+    "Lebanon",
+    "Strait of Hormuz",
     "Stargate",
     "TikTok",
     "Oracle",
     "GlobalFoundries",
     "Starlink",
+    "Anthropic",
+    "OpenAI",
+    "xAI Grok",
+    "Project Colossus",
     "Epstein files",
     "DOJ",
     "SEC 13F",
-    "QXO",
-    "Executive Orders"
+    "Executive Orders",
+    "Maxwell clemency petition",
+    "Ro Khanna investigation",
+    "VOCA lawsuit",
+    "H.Res.913",
+    "Ghislaine Maxwell",
+    "Jared Kushner",
+    "Larry Ellison",
+    "Elon Musk",
+    "Marc Rowan",
+    "Omeed Malik",
+    "Peter Thiel",
+    "Sheikh Tahnoon bin Zayed",
+    "Mohammed bin Salman",
+    "Dario Amodei",
+    "Pam Bondi"
   ],
-  "api_calls_made": 7,
-  "daily_budget_used": 7,
+  "api_calls_made": 10,
+  "daily_budget_used": 10,
   "daily_budget_limit": 75
 }
