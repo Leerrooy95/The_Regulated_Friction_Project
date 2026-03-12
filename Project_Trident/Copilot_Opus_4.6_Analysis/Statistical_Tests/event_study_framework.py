@@ -19,13 +19,12 @@ Datasets used: original pre-2026 datasets (Control_Proof, Project_Trident,
                Silicon_Sovereignty)
 """
 
-import os
 import warnings
 import pandas as pd
 import numpy as np
 from scipy.stats import mannwhitneyu, ttest_ind
 
-from original_data_loader import load_friction_events, load_compliance_events, build_weekly_counts, REPO_ROOT
+from original_data_loader import load_friction_events, load_compliance_events
 
 warnings.filterwarnings('ignore', category=FutureWarning)
 

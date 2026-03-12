@@ -15,6 +15,8 @@ exactly once per Streamlit session, regardless of reruns.
 IMPORTANT: See Section 1 below for file path configuration.
 """
 
+from __future__ import annotations
+
 import json
 from pathlib import Path
 

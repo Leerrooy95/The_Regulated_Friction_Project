@@ -15,7 +15,7 @@ last page so the most recent press releases are encountered first.
 import json
 import math
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import scrapy
 
@@ -61,7 +61,7 @@ class DOJPressReleaseSpider(scrapy.Spider):
     keyword_patterns = [re.compile(re.escape(kw), re.IGNORECASE) for kw in CAPITAL_LEVERAGE_KEYWORDS]
 
     def start_requests(self):
-        self.cutoff = datetime.utcnow() - timedelta(days=int(self.days))
+        self.cutoff = datetime.now(timezone.utc) - timedelta(days=int(self.days))
         # Fetch a single record to learn the total count
         url = f"{BASE_URL}?pagesize=1&page=0"
         yield scrapy.Request(url=url, callback=self.parse_count)
@@ -93,7 +93,7 @@ class DOJPressReleaseSpider(scrapy.Spider):
         found_in_window = False
 
         for doc in results:
-            doc_date = datetime.utcfromtimestamp(int(doc.get("date", "0")))
+            doc_date = datetime.fromtimestamp(int(doc.get("date", "0")), tz=timezone.utc)
             if doc_date < self.cutoff:
                 continue  # Skip items outside the window
 

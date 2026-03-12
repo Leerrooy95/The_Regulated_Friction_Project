@@ -7,5 +7,5 @@
 class FederalRegisterPipeline:
     """Default pipeline for processing Executive Order items."""
 
-    def process_item(self, item, spider):
+    def process_item(self, item, _spider):
         return item

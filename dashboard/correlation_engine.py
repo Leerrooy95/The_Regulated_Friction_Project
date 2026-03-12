@@ -245,7 +245,7 @@ def fisher_ci(r: float, n: int, alpha: float = 0.05) -> tuple[float, float]:
     """
     if n < 4:
         # SE = 1/sqrt(n-3) is undefined or unstable for n < 4
-        return (float("nan"), float("nan"))
+        return float("nan"), float("nan")
 
     # Step 1: Transform r to z-space (arctanh)
     z = np.arctanh(r)
