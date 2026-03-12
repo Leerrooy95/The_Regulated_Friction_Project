@@ -4,6 +4,7 @@ Main Streamlit entry point.
 """
 
 import json
+import math
 import re
 from collections import Counter
 from pathlib import Path
@@ -21,10 +22,15 @@ from constants import (
     COLOR_NEGATIVE_WINDOW,
     COLOR_NEUTRAL,
     COLOR_PREDICTION_BAND,
+    COLOR_SUCCESS,
     COLOR_VARIANCE,
+    COLOR_WARNING,
     DISCLAIMER,
+    GLOBAL_CSS,
+    METHODOLOGY_FOOTER,
     NEGATIVE_WINDOW_CONTEXT,
     NEGATIVE_WINDOW_FRAMING,
+    PLOTLY_TEMPLATE,
 )
 from correlation_engine import (
     compute_lag_bins,
@@ -48,6 +54,14 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# ── Inject global CSS (dark OSINT theme) ─────────────────────────────────
+st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
+
+# ── Register Plotly dark template ────────────────────────────────────────
+import plotly.io as pio
+pio.templates["osint_dark"] = go.layout.Template(PLOTLY_TEMPLATE)
+pio.templates.default = "osint_dark"
 
 # ── LLM Data Loader ──────────────────────────────────────────────────────
 @st.cache_data(ttl=3600) 
@@ -152,8 +166,8 @@ if core_df is None:
 
 # ── Sidebar ──────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.title("Friction-Compliance Explorer")
-    st.caption("Track A | Correlation Model")
+    st.title("📊 Friction-Compliance Explorer")
+    st.caption("Track A · Correlation Model · v10.5")
     st.divider()
 
     if intel_data:
@@ -167,7 +181,16 @@ with st.sidebar:
             display_timestamp = fallback[:10] if len(fallback) >= 10 else fallback
         # Use actual event array length — the model's metadata count can hallucinate
         events_processed = len(intel_data.get("events", []))
-        st.success(f"🤖 Live Intel Active\n\nLast updated: {display_timestamp}\n\nEvents processed: {events_processed}")
+        st.markdown(
+            f'<div style="background:rgba(230,57,70,0.1); border:1px solid rgba(230,57,70,0.3); '
+            f'border-radius:10px; padding:12px 16px;">'
+            f'<span class="status-dot status-dot-live"></span>'
+            f'<strong style="color:#E63946;">Live Intel Active</strong><br>'
+            f'<span style="color:#8B949E; font-size:0.85rem;">Updated: {display_timestamp}</span><br>'
+            f'<span style="color:#8B949E; font-size:0.85rem;">Events: {events_processed}</span>'
+            f'</div>',
+            unsafe_allow_html=True
+        )
         st.divider()
 
     selected_lag = st.slider("Lag (weeks)", min_value=0, max_value=6, value=2)
@@ -183,7 +206,6 @@ with st.sidebar:
     if intel_data:
         st.markdown("- **Perplexity Intelligence Extraction (JSON)**")
     st.divider()
-    st.caption("v10.2 | Responsive Layout Active")
     st.caption(DISCLAIMER)
 
 # ── Compute statistics ───────────────────────────────────────────────────
@@ -216,28 +238,91 @@ tab_home, tab_live_intel, tab_overview, tab_timeseries, tab_backfill, tab_data, 
 # TAB 0: HOME
 # =====================================================================
 with tab_home:
-    st.header("The Regulated Friction Project")
+    # ── Hero Banner ──
     st.markdown(
-        "A data-driven analysis of temporal correlations between friction events, "
-        "policy shifts, and capital flows (2015–2026)."
+        """
+        <div class="hero-banner">
+            <h1>The Regulated Friction Project</h1>
+            <div class="subtitle">
+                A data-driven OSINT analysis of temporal correlations between friction events,
+                policy shifts, and capital flows (2015–2026). Statistically significant at
+                p = 0.0004 with independent verification.
+            </div>
+            <span class="badge badge-live">
+                <span class="status-dot status-dot-live"></span> LIVE MONITORING
+            </span>
+            <span class="badge badge-verified">✅ INDEPENDENTLY VERIFIED</span>
+            <span class="badge badge-version">v10.5</span>
+        </div>
+        """,
+        unsafe_allow_html=True
     )
 
-    st.divider()
+    # ── Signal Health Gauge + Key Metrics ──
+    gauge_col, metrics_col = st.columns([1, 3])
 
-    # Metric cards
-    h1, h2, h3, h4 = st.columns(4, gap="small")
-    h1.metric("Pearson r", "0.6196", help="2-week index lag (actual median: 7 days), core 30-week dataset")
-    h2.metric("p-value", "0.0004", help="Two-tailed significance")
-    h3.metric("Response rate", "93%",
-              help="% of friction events with compliance response within lag window")
-    h4.metric("Backfill pairs", "66", help="2017–2024")
+    with gauge_col:
+        # Determine signal health color based on current r value
+        if r >= 0.5:
+            gauge_color = "#3FB950"  # Green — strong
+            gauge_status = "STRONG"
+        elif r >= 0.3:
+            gauge_color = "#D29922"  # Amber — moderate
+            gauge_status = "MODERATE"
+        else:
+            gauge_color = "#F85149"  # Red — weak
+            gauge_status = "WEAK"
 
-    st.caption(
-        "When high-visibility friction events spike, institutional compliance events "
-        "follow ~7 days later (median; mean 6.5 · v10.3 High-Resolution, backfill n=66). "
-        "This relationship has less than 0.05% probability of "
-        "occurring by chance."
-    )
+        fig_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=r,
+            number={"suffix": "", "font": {"size": 36, "color": "#C9D1D9"}},
+            gauge={
+                "axis": {"range": [0, 1], "tickcolor": "#8B949E",
+                         "tickfont": {"color": "#8B949E"}},
+                "bar": {"color": gauge_color},
+                "bgcolor": "rgba(28,35,51,0.8)",
+                "bordercolor": "rgba(48,54,61,0.6)",
+                "steps": [
+                    {"range": [0, 0.3], "color": "rgba(248,81,73,0.15)"},
+                    {"range": [0.3, 0.5], "color": "rgba(210,153,34,0.15)"},
+                    {"range": [0.5, 1], "color": "rgba(63,185,80,0.15)"},
+                ],
+                "threshold": {
+                    "line": {"color": "#E63946", "width": 3},
+                    "thickness": 0.8,
+                    "value": 0.6196,
+                },
+            },
+            title={"text": "Signal Strength", "font": {"size": 14, "color": "#8B949E"}},
+        ))
+        fig_gauge.update_layout(
+            height=220, margin=dict(t=40, b=10, l=30, r=30),
+        )
+        st.plotly_chart(fig_gauge, use_container_width=True)
+        st.markdown(
+            f'<div style="text-align:center; margin-top:-10px;">'
+            f'<span style="color:{gauge_color}; font-weight:600; font-size:0.9rem;">'
+            f'{gauge_status}</span>'
+            f'<br><span style="color:#8B949E; font-size:0.75rem;">'
+            f'Lag {selected_lag}w · n={n_eff}</span></div>',
+            unsafe_allow_html=True
+        )
+
+    with metrics_col:
+        h1, h2, h3, h4 = st.columns(4, gap="small")
+        h1.metric("Pearson r", "0.6196",
+                   help="2-week index lag (actual median: 7 days), core 30-week dataset")
+        h2.metric("p-value", "0.0004", help="Two-tailed significance")
+        h3.metric("Response Rate", "93%",
+                   help="% of friction events with compliance response within lag window")
+        h4.metric("Backfill Pairs", "66", help="2017–2024")
+
+        st.caption(
+            "When high-visibility friction events spike, institutional compliance events "
+            "follow ~7 days later (median; mean 6.5 · v10.3 High-Resolution, backfill n=66). "
+            "This relationship has less than 0.05% probability of occurring by chance."
+        )
 
     st.divider()
 
@@ -271,8 +356,8 @@ with tab_home:
 
         def _style_key_stats(row):
             if "❌" in row["Status"]:
-                return ["background-color: rgba(230, 57, 70, 0.15)"] * len(row)
-            return ["background-color: rgba(42, 157, 143, 0.10)"] * len(row)
+                return ["background-color: rgba(248, 81, 73, 0.12)"] * len(row)
+            return ["background-color: rgba(42, 157, 143, 0.08)"] * len(row)
 
         styled = key_stats_df.style.apply(_style_key_stats, axis=1)
         st.dataframe(styled, use_container_width=True, hide_index=True)
@@ -287,85 +372,7 @@ with tab_home:
     # ── 3-Audience Navigation Cards (Responsive CSS Grid) ──
     st.subheader("Navigate by Role")
 
-    # CSS for role cards
-    st.markdown(
-        """
-        <style>
-        .role-cards-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin: 1rem 0 2rem 0;
-        }
-        
-        .role-card {
-            border: 1px solid var(--secondary-background-color);
-            border-radius: 0.5rem;
-            padding: 1.5rem;
-            background-color: var(--background-color);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.2s ease;
-        }
-        
-        .role-card:hover {
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-        }
-        
-        .role-card h3 {
-            color: var(--text-color);
-            margin: 0 0 0.5rem 0;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-        
-        .role-card .subtitle {
-            color: var(--text-color);
-            opacity: 0.7;
-            font-style: italic;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-        }
-        
-        .role-card ul {
-            margin: 0;
-            padding-left: 1.2rem;
-            list-style-type: none;
-        }
-        
-        .role-card li {
-            color: var(--text-color);
-            margin-bottom: 0.5rem;
-            line-height: 1.5;
-            position: relative;
-            padding-left: 0.3rem;
-        }
-        
-        .role-card li::before {
-            content: "•";
-            position: absolute;
-            left: -1rem;
-            font-weight: bold;
-        }
-        
-        .role-card .code-text {
-            background-color: var(--secondary-background-color);
-            padding: 0.15rem 0.4rem;
-            border-radius: 0.25rem;
-            font-size: 0.85em;
-            font-family: monospace;
-            color: var(--text-color);
-        }
-        
-        .role-card strong {
-            color: var(--text-color);
-            font-weight: 600;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-    
-    # Role cards HTML content (separate call to avoid parsing issues)
+    # Role cards HTML content (styling in GLOBAL_CSS)
     st.markdown(
         """
         <div class="role-cards-container">
@@ -413,42 +420,7 @@ with tab_home:
         "required. This explains why the pattern is robust across 8 years of data."
     )
 
-    # Convergence Model CSS 
-    st.markdown(
-        """
-        <style>
-        .convergence-diagram {
-            background: linear-gradient(135deg, var(--secondary-background-color) 0%, var(--background-color) 100%);
-            border: 1px solid var(--secondary-background-color);
-            border-radius: 0.75rem;
-            padding: 1.5rem;
-            margin: 1rem 0;
-            font-family: 'Courier New', Consolas, monospace;
-            font-size: 0.85rem;
-            line-height: 1.4;
-            white-space: pre;
-            overflow-x: auto;
-            color: var(--text-color);
-            text-align: center;
-        }
-        .convergence-diagram .highlight {
-            color: #E63946;
-            font-weight: bold;
-        }
-        .convergence-diagram .anchor {
-            color: #457B9D;
-            font-weight: bold;
-        }
-        .convergence-diagram .result {
-            color: #2A9D8F;
-            font-weight: bold;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-    
-    # Convergence Model Diagram content (separate call)
+    # Convergence Model (styling in GLOBAL_CSS)
     diagram_html = """<div class="convergence-diagram">         ┌───────────────────────────────────────┐
          │        <span class="anchor">CALENDAR ANCHOR</span>                │
          │  (Solstice, Holiday, Fiscal Deadline) │
@@ -536,7 +508,7 @@ with tab_home:
 # =====================================================================
 
 # Color constant for financial indicators (green)
-_COLOR_FINANCIAL = "#2E8B57"
+_COLOR_FINANCIAL = "#3FB950"
 
 def _format_dollar_exposure(amount):
     """Format dollar amounts for readability (e.g., $908.0B, $5.15B, $500M).
@@ -561,15 +533,15 @@ def _get_category_badge(category):
     Colors chosen for WCAG AA contrast compliance on both light and dark backgrounds.
     """
     category_colors = {
-        "Document_Release": ("#1565C0", "#E3F2FD"),       # Blue (darker for contrast)
-        "Financial_Exposé": (_COLOR_FINANCIAL, "#E8F5E9"),  # Green
-        "Executive_Orders": ("#E65100", "#FFF3E0"),       # Orange (darker for contrast)
-        "International_Summit": ("#7B1FA2", "#F3E5F5"),   # Purple (darker for contrast)
-        "SEC_Filing": ("#00796B", "#E0F2F1"),             # Teal (darker for contrast)
-        "Credit_Pipeline": ("#F57C00", "#FFF8E1"),        # Amber
-        "Military_Authorization": ("#C62828", "#FFEBEE"), # Red (darker for contrast)
-        "Territorial_Annexation": ("#5D4037", "#EFEBE9"), # Brown
-        "Enforcement_Hollowing": ("#AD1457", "#FCE4EC"),  # Pink/crimson
+        "Document_Release": ("#58A6FF", "rgba(88,166,255,0.15)"),    # Blue
+        "Financial_Exposé": ("#3FB950", "rgba(63,185,80,0.15)"),     # Green
+        "Executive_Orders": ("#FF6B35", "rgba(255,107,53,0.15)"),    # Orange
+        "International_Summit": ("#A371F7", "rgba(163,113,247,0.15)"), # Purple
+        "SEC_Filing": ("#2A9D8F", "rgba(42,157,143,0.15)"),          # Teal
+        "Credit_Pipeline": ("#D29922", "rgba(210,153,34,0.15)"),     # Amber
+        "Military_Authorization": ("#F85149", "rgba(248,81,73,0.15)"), # Red
+        "Territorial_Annexation": ("#C9A96E", "rgba(201,169,110,0.15)"), # Bronze
+        "Enforcement_Hollowing": ("#F778BA", "rgba(247,120,186,0.15)"), # Pink
     }
     # Default colors for unknown categories
     text_color, bg_color = category_colors.get(category, ("#424242", "#EEEEEE"))
@@ -802,42 +774,7 @@ with tab_live_intel:
                     "Description": event.get("description", "")
                 })
             
-            # Render as HTML table for rich formatting
-            st.markdown(
-                """
-                <style>
-                .intel-table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    font-size: 0.9em;
-                }
-                .intel-table th {
-                    background-color: var(--secondary-background-color);
-                    color: var(--text-color);
-                    padding: 10px 12px;
-                    text-align: left;
-                    border-bottom: 2px solid rgba(128, 128, 128, 0.4);
-                }
-                .intel-table td {
-                    padding: 10px 12px;
-                    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
-                    vertical-align: top;
-                }
-                .intel-table tr:hover {
-                    background-color: rgba(128, 128, 128, 0.05);
-                }
-                @media (max-width: 768px) {
-                    .intel-table {
-                        font-size: 0.8em;
-                    }
-                    .intel-table th, .intel-table td {
-                        padding: 6px 8px;
-                    }
-                }
-                </style>
-                """,
-                unsafe_allow_html=True
-            )
+            # Render as HTML table (styling in GLOBAL_CSS)
             
             # Build HTML table
             html_table = '<table class="intel-table"><thead><tr>'
@@ -896,6 +833,99 @@ with tab_live_intel:
                                 st.markdown(f"• {person}")
         else:
             st.info("No convergence nodes detected in this extraction.")
+
+        # ── Entity Network Graph ──
+        if nodes and events:
+            st.divider()
+            st.subheader("🕸️ Entity Relationship Network")
+            st.caption(
+                "Interactive network showing connections between convergence nodes, "
+                "actors, and events. Node size reflects domain count. Hover for details."
+            )
+
+            # Build network graph data from convergence nodes and events
+            net_node_x, net_node_y, net_node_text, net_node_size = [], [], [], []
+            net_node_color, net_node_hover = [], []
+            edge_x, edge_y = [], []
+
+            # Center: convergence nodes in a circle
+            n_nodes = len(nodes)
+            for i, node in enumerate(nodes):
+                angle = 2 * math.pi * i / max(n_nodes, 1)
+                x = 2.0 * math.cos(angle)
+                y = 2.0 * math.sin(angle)
+                net_node_x.append(x)
+                net_node_y.append(y)
+                domain_count = node.get("domain_count", 1)
+                net_node_text.append(node.get("entity", "?"))
+                net_node_size.append(max(25, domain_count * 12))
+                net_node_color.append(COLOR_FRICTION)
+                exposure = _format_dollar_exposure(node.get("total_dollar_exposure"))
+                hover = (
+                    f"<b>{node.get('entity', '')}</b><br>"
+                    f"Domains: {domain_count}<br>"
+                    f"Exposure: {exposure or 'N/A'}<br>"
+                    f"Assessment: {(node.get('assessment', '')[:80])}"
+                )
+                net_node_hover.append(hover)
+
+                # Connect to related actors from events
+                entity_lower = node.get("entity", "").lower()
+                for j, evt in enumerate(events[:20]):  # Limit for performance
+                    actors = evt.get("actors", [])
+                    if isinstance(actors, list):
+                        for actor in actors:
+                            if entity_lower and entity_lower in actor.lower():
+                                evt_angle = 2 * math.pi * j / max(len(events[:20]), 1)
+                                evt_x = 4.0 * math.cos(evt_angle)
+                                evt_y = 4.0 * math.sin(evt_angle)
+                                edge_x.extend([x, evt_x, None])
+                                edge_y.extend([y, evt_y, None])
+
+            # Add event nodes in outer ring
+            for j, evt in enumerate(events[:20]):
+                evt_angle = 2 * math.pi * j / max(len(events[:20]), 1)
+                evt_x = 4.0 * math.cos(evt_angle)
+                evt_y = 4.0 * math.sin(evt_angle)
+                net_node_x.append(evt_x)
+                net_node_y.append(evt_y)
+                evt_type = evt.get("event_type", "")
+                net_node_text.append(evt.get("event_id", "")[-8:])
+                net_node_size.append(12)
+                net_node_color.append(
+                    COLOR_FRICTION if evt_type == "FRICTION" else COLOR_COMPLIANCE
+                )
+                net_node_hover.append(
+                    f"<b>{evt.get('event_id', '')}</b><br>"
+                    f"Type: {evt_type}<br>"
+                    f"Date: {evt.get('date', '')}<br>"
+                    f"{evt.get('description', '')[:60]}"
+                )
+
+            fig_network = go.Figure()
+            fig_network.add_trace(go.Scatter(
+                x=edge_x, y=edge_y, mode="lines",
+                line=dict(width=1, color="rgba(88,166,255,0.25)"),
+                hoverinfo="none", showlegend=False,
+            ))
+            fig_network.add_trace(go.Scatter(
+                x=net_node_x, y=net_node_y, mode="markers+text",
+                marker=dict(size=net_node_size, color=net_node_color,
+                            line=dict(width=1, color="rgba(48,54,61,0.8)")),
+                text=net_node_text, textposition="top center",
+                textfont=dict(size=9, color="#8B949E"),
+                hovertext=net_node_hover, hoverinfo="text",
+                showlegend=False,
+            ))
+            fig_network.update_layout(
+                height=420,
+                margin=dict(t=10, b=10, l=10, r=10),
+                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+            )
+            st.markdown('<div class="network-container">', unsafe_allow_html=True)
+            st.plotly_chart(fig_network, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
         st.divider()
 
@@ -1695,4 +1725,20 @@ with tab_predictions:
 
 # ── Footer ───────────────────────────────────────────────────────────────
 st.divider()
-st.caption(DISCLAIMER)
+st.markdown(
+    f"""
+    <div class="dashboard-footer">
+        <p class="footer-brand">The Regulated Friction Project · Historical Friction-Compliance Explorer</p>
+        <p>{METHODOLOGY_FOOTER}</p>
+        <p>{DISCLAIMER}</p>
+        <p style="margin-top:8px;">
+            <a href="https://github.com/Leerrooy95/The_Regulated_Friction_Project"
+               style="color:#58A6FF; text-decoration:none;" target="_blank">
+               GitHub Repository
+            </a>
+            &nbsp;·&nbsp; v10.5 &nbsp;·&nbsp; Track A Correlation Model
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
