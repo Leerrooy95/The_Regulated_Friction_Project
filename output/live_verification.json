@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-12T20:21:54Z",
+  "generated_at": "2026-03-12T20:26:56Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 8,
   "status_summary": {
-    "monitoring": 5,
-    "error": 1,
-    "verified": 2
+    "monitoring": 6,
+    "verified": 1,
+    "partial": 1
   },
   "results": [
     {
       "prediction": "Maxwell clemency decision",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "No search results contain information about a Ghislaine Maxwell clemency petition, pardon decision, or DOJ action regarding her case in 2026. The provided search results focus exclusively on DOGE operations, federal workforce restructuring, and NEH grant terminations. Without relevant information in the search results, the status of this prediction cannot be verified.",
+      "description": "No search results indicate any current status, petition, pardon request, or DOJ decision regarding Ghislaine Maxwell's clemency in 2026. All provided sources discuss unrelated topics such as DOGE, federal workforce reclassifications, and agency reforms. The prediction remains unresolved as of the check date.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"
@@ -20,8 +20,8 @@
     {
       "prediction": "Iran war ceasefire or escalation",
       "timeframe": "Ongoing",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No relevant information found in search results regarding Iran war ceasefire negotiations, US-Iran military operations, or any escalation/ceasefire in 2026. Search results exclusively cover US federal workforce reclassifications such as Schedule Policy Career and related OPM rules. Status remains monitoring as the prediction has not resolved.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"
@@ -30,7 +30,7 @@
       "prediction": "Strait of Hormuz shipping restoration",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No search results provide information on the current status of Strait of Hormuz shipping restoration, oil shipping reopening, or mine clearing operations as of 2026. All results focus on unrelated U.S. federal government topics such as DOGE, Schedule Policy reclassifications, and federal workforce changes. The prediction remains unresolved pending relevant developments.",
+      "description": "No relevant information found in search results regarding Strait of Hormuz shipping restoration, reopening, oil shipping, or mine clearing in 2026. Search results focus exclusively on U.S. federal government topics such as DOGE, Schedule Policy, and federal workforce changes. The prediction remains unresolved with no updates on disruptions or restoration efforts.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"
@@ -39,12 +39,13 @@
       "prediction": "DOGE-predicted instability",
       "timeframe": "Q1 2026",
       "status": "verified",
-      "description": "DOGE's aggressive federal workforce reductions caused a massive brain drain, loss of essential expertise, and new bottlenecks in government operations. Its tactics led to indiscriminate firings, rehiring scrambles for critical roles like nuclear security, and increased inefficiency. Reports confirm DOGE ended without meeting goals, leaving lasting instability in Q1 2026 amid ongoing reclassifications.",
-      "source": "https://www.rstreet.org/commentary/dont-let-the-war-on-fraud-become-another-doge/",
+      "description": "DOGE has experienced significant operational instability during Q1 2026. The Department of Government Efficiency ceased active operations by November 2025, falling approximately $800 billion short of its $1 trillion budget-cutting goal. In March 2026, new investigations emerged regarding DOGE's misuse of Social Security data, with whistleblower allegations that a former DOGE employee retained sensitive databases containing personal information on nearly all Americans. Additionally, DOGE's chaotic termination of $100 million in National Endowment for the Humanities grants—conducted using ChatGPT without proper oversight—has triggered multiple lawsuits and congressional investigations, demonstrating systemic dysfunction and lack of institutional control.",
+      "source": "https://www.nhpr.org/2026-03-11/the-government-is-investigating-new-claims-that-doge-misused-social-security-data",
       "citations": [
         "https://www.rstreet.org/commentary/dont-let-the-war-on-fraud-become-another-doge/",
         "https://www.insidehighered.com/news/faculty-issues/research/2026/03/11/how-doge-gutted-neh-22-days",
-        "https://www.collegerecruiter.com/blog/2026/03/10/schedule-f-vs-schedule-policy-what-the-new-federal-reclassifications-mean-for-your-job-security"
+        "https://www.nhpr.org/2026-03-11/the-government-is-investigating-new-claims-that-doge-misused-social-security-data",
+        "https://www.democracynow.org/2026/3/11/headlines/wapo_former_doge_employee_took_social_security_information_to_new_job"
       ],
       "date_checked": "2026-03-12"
     },
@@ -52,7 +53,7 @@
       "prediction": "Oracle Stargate financial restructuring",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "The provided search results contain no information about Oracle, Stargate financial restructuring, stock debt, Abilene bondholder lawsuits, or related financial developments in 2026. The search results focus exclusively on DOGE operations, federal workforce reclassifications, and Social Security data misuse allegations. No relevant data exists to verify or refute this prediction.",
+      "description": "No direct evidence found of a financial restructuring involving Oracle and Stargate as of March 12, 2026. Search results on Oracle stock, debt, Stargate, Abilene, and bondholder lawsuits yielded no relevant updates or announcements matching the prediction. Ongoing monitoring required for developments within the 2026 timeframe.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"
@@ -60,13 +61,13 @@
     {
       "prediction": "Schedule Policy/Career implementation",
       "timeframe": "Mar 9, 2026",
-      "status": "verified",
-      "description": "Schedule Policy/Career reclassifications are actively underway as of March 2026, with agencies reviewing and reclassifying GS-13 and GS-14 positions from Career to Policy status during the post-hiring freeze period. OPM estimates approximately 50,000 federal workers, mostly current employees, will be placed in this new at-will category lacking civil service protections. New job postings specify Schedule Policy for policy roles and Schedule Career for operational roles, confirming implementation.",
+      "status": "partial",
+      "description": "Schedule Policy/Career (the successor to Schedule F) is actively being implemented as of March 2026. Federal agencies are reclassifying positions and conducting hiring under this new framework, with the hiring freeze ending in March 2026. However, the full scope of implementation remains incomplete—OPM estimates 50,000 total positions will be affected, but agencies have not disclosed specific reclassification numbers, and the policy is still subject to legal challenges and public comment periods.",
       "source": "https://www.collegerecruiter.com/blog/2026/03/10/schedule-f-vs-schedule-policy-what-the-new-federal-reclassifications-mean-for-your-job-security",
       "citations": [
         "https://www.collegerecruiter.com/blog/2026/03/10/schedule-f-vs-schedule-policy-what-the-new-federal-reclassifications-mean-for-your-job-security",
         "https://www.insidehighered.com/news/government/science-research-policy/2026/03/12/federal-grant-makers-may-lose-job-protections-5",
-        "https://www.insidehighered.com/news/faculty-issues/research/2026/03/11/how-doge-gutted-neh-22-days"
+        "https://www.themindfulfederalemployee.com/blog/opm-s-new-performance-and-rif-rules-why-feds-should-pay-attention"
       ],
       "date_checked": "2026-03-12"
     },
@@ -74,7 +75,7 @@
       "prediction": "Epstein document releases",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No relevant information found in search results regarding DOJ or FBI releases of Epstein files or 302 documents in 2026. Search results focus on unrelated topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. Status remains monitoring as the prediction is ongoing.",
+      "description": "No relevant information found in search results regarding DOJ or FBI releases of Epstein files or 302 documents in 2026. Search results focus exclusively on unrelated topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. The prediction remains unresolved as of the check date.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"
@@ -83,7 +84,7 @@
       "prediction": "Gulf SWF repositioning under wartime stress",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No search results provide information on Gulf sovereign wealth funds such as PIF or Mubadala repositioning their investments or strategies under wartime stress related to Iran or any conflict in 2026. All results focus on US federal government topics including DOGE's status, Schedule Policy reclassifications, and federal workforce changes. The prediction remains unaddressed by available sources.",
+      "description": "No search results provide information on Gulf sovereign wealth funds such as PIF or Mubadala repositioning their investments or strategies under wartime stress related to Iran war in 2026. All results focus exclusively on U.S. federal workforce reclassifications under Schedule Policy Career and related OPM policies. The prediction remains unaddressed by available sources.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-12"

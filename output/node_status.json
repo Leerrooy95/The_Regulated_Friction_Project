@@ -1,82 +1,58 @@
 {
-  "run_timestamp": "2026-03-12T20:18:50.769003+00:00",
+  "run_timestamp": "2026-03-12T20:24:00.245809+00:00",
   "run_date": "2026-03-12",
-  "nodes_queried": 6,
+  "nodes_queried": 4,
   "nodes_active": 0,
   "nodes_critical": 0,
   "convergence_detected": false,
   "node_statuses": {
-    "maxwell": {
-      "node_id": "maxwell",
-      "status": "MONITORING",
-      "headline": "No new developments reported on Ghislaine Maxwell clemency, testimony, habeas corpus, or related leverage activities.",
-      "summary": "Search results for Ghislaine Maxwell clemency pardon Trump 2026, Maxwell testimony House Oversight deposition Fifth Amendment, Maxwell habeas corpus petition FPC Bryan legal filing, and Maxwell attorney David Markus clemency testimony offer yielded no relevant information. All results focused on unrelated topics such as DOGE operations, federal workforce reclassifications under Schedule Policy Career, and government efficiency initiatives. No mentions of Ghislaine Maxwell, House Oversight Committee testimony, Epstein files, DOJ actions involving Pam Bondi, or David Markus in connection to the Maxwell Leverage Node.",
-      "event_classification": "NEUTRAL",
-      "key_entities_mentioned": [],
-      "sources": [],
-      "confidence": "HIGH",
-      "timestamp": "2026-03-12",
-      "raw_response_length": 928
-    },
     "iran": {
       "node_id": "iran",
       "status": "MONITORING",
       "headline": "No new developments reported on Iran Kinetic/Cyber Node as of 2026-03-12.",
-      "summary": "Search results for mandatory queries on US-Iran war status, Khamenei succession, Strait of Hormuz disruptions, Iran retaliation on Gulf states, and ceasefire negotiations returned no relevant information. All results focused exclusively on US domestic topics including DOGE operations, federal workforce reclassifications like Schedule Policy Career, and government efficiency initiatives. No mentions of Iran, IRGC, Mojtaba Khamenei, Strait of Hormuz, Assembly of Experts, Ghalibaf, CENTCOM, or Hezbollah found in current reporting.",
+      "summary": "Search results for mandatory queries on US-Iran war status, Khamenei succession, Strait of Hormuz disruptions, Iran retaliation on Gulf states, and ceasefire negotiations returned no relevant information. All provided results focused exclusively on DOGE (Department of Government Efficiency) activities, federal budget reforms, and unrelated domestic US government issues. No mentions of Iran, IRGC, Mojtaba Khamenei, Strait of Hormuz, Assembly of Experts, Ghalibaf, CENTCOM, or Hezbollah found in current reporting.",
       "event_classification": "NEUTRAL",
       "key_entities_mentioned": [],
       "sources": [],
       "confidence": "HIGH",
       "timestamp": "2026-03-12",
-      "raw_response_length": 792
+      "raw_response_length": 775
     },
-    "israel": {
-      "node_id": "israel",
+    "gulf_swf": {
+      "node_id": "gulf_swf",
       "status": "MONITORING",
-      "headline": "No new developments reported on Israel Cyber/Intelligence + Tech Integration as of 2026-03-12.",
-      "summary": "Search results for the mandatory queries on Israel-Iran war strikes, Israel-Lebanon Hezbollah strikes, Israel tech defense industry Unit 8200 NSO, and Abraham Accords Gulf Israel investment in 2026 returned no relevant information. All provided results focused exclusively on DOGE-related federal government issues, with no mentions of Israel, IDF, Unit 8200, Hezbollah, NSO Group, Board of Peace, or Abraham Accords. The leverage node shows no verified kinetic, political, financial, intelligence, or regulatory signals specific to cyber/intelligence operations, tech integration, or related entities.",
+      "headline": "No verified developments reported on Gulf SWF capital architecture under wartime stress or Strait of Hormuz disruptions as of 2026-03-12.",
+      "summary": "Search results for Saudi PIF investment strategy 2026, UAE Mubadala MGX AI investment 2026, Gulf sovereign wealth fund Iran war impact infrastructure, and Strait of Hormuz oil energy crisis Gulf states economy yielded no relevant information. All results focused exclusively on unrelated US domestic topics such as DOGE failures and federal agency impacts. No mentions of tracked entities including Saudi PIF, Mubadala, MGX, ADIA, QIA, GlobalFoundries, Affinity Partners, or OPEC+ in the context of Iran strikes, SWF infrastructure, or energy crises.",
       "event_classification": "NEUTRAL",
       "key_entities_mentioned": [],
       "sources": [],
       "confidence": "HIGH",
       "timestamp": "2026-03-12",
-      "raw_response_length": 884
+      "raw_response_length": 877
     },
     "oracle_ellison": {
       "node_id": "oracle_ellison",
       "status": "MONITORING",
-      "headline": "No new developments reported on Oracle/Ellison Dual Exposure as of 2026-03-12.",
-      "summary": "Search results for Oracle stock price debt bond market 2026, Oracle OpenAI Stargate Abilene data center expansion cancelled, Larry Ellison Warner Bros Discovery acquisition guarantee, and Oracle bondholder lawsuit Ohio Carpenters Pension yielded no relevant information. All results focused on unrelated topics such as DOGE, federal workforce reclassifications under Schedule Policy Career, and government efficiency initiatives. No mentions of financial stress, capital raises, project cancellations, lawsuits, or personal guarantees involving Oracle, Larry Ellison, David Ellison, OpenAI, Stargate, Warner Bros Discovery, Paramount, or Goldman Sachs were found.",
+      "headline": "No verified developments reported on Oracle/Ellison Dual Exposure as of 2026-03-12.",
+      "summary": "Search results for mandatory queries on Oracle stock price debt bond market 2026, Oracle OpenAI Stargate Abilene data center expansion cancelled, Larry Ellison Warner Bros Discovery acquisition guarantee, and Oracle bondholder lawsuit Ohio Carpenters Pension returned no relevant information. All results focused exclusively on DOGE (Department of Government Efficiency) activities, federal workforce impacts, and unrelated government reforms. No mentions of Oracle, Larry Ellison, David Ellison, OpenAI, Stargate, Warner Bros Discovery, Paramount, or Goldman Sachs in connection to financial stress, capital raises, data center cancellations, lawsuits, or personal guarantees.",
       "event_classification": "NEUTRAL",
       "key_entities_mentioned": [],
       "sources": [],
       "confidence": "HIGH",
       "timestamp": "2026-03-12",
-      "raw_response_length": 937
-    },
-    "epstein_files": {
-      "node_id": "epstein_files",
-      "status": "MONITORING",
-      "headline": "No new developments reported on DOJ Epstein file releases, Pam Bondi subpoenas, Trump allegations, or Clinton depositions as of March 12, 2026.",
-      "summary": "Search results for DOJ Epstein files release FBI 302 latest 2026, Pam Bondi subpoena House Oversight Epstein bipartisan, Epstein files Trump allegations FBI interview documents, and Clinton Epstein deposition House Oversight 2026 yielded no relevant information. All provided search results focus exclusively on unrelated topics such as DOGE operations, federal workforce reclassifications under Schedule Policy Career, and government efficiency initiatives. No mentions of Epstein files documentation, FBI 302 summaries, congressional subpoenas of AG Bondi, Clinton depositions, or tracked entities like DOJ, Pam Bondi, Thomas Massie, Ro Khanna, House Oversight, or Bill Clinton in the context of this leverage node.",
-      "event_classification": "NEUTRAL",
-      "key_entities_mentioned": [],
-      "sources": [],
-      "confidence": "HIGH",
-      "timestamp": "2026-03-12",
-      "raw_response_length": 1055
+      "raw_response_length": 956
     },
     "arkansas_datacenter": {
       "node_id": "arkansas_datacenter",
       "status": "MONITORING",
-      "headline": "No new developments reported on Arkansas Preemption / Datacenter Capital Nexus as of March 12, 2026",
-      "summary": "Search results for Arkansas data center investments (Google, AVAIO), Good Day Farm Supreme Court ruling on ballot preemption, Act 373 utility rates for Entergy datacenters, and 2026 ballot initiative restrictions yielded no relevant information. Tracked entities including Arkansas Supreme Court, Governor Huckabee Sanders, Entergy, AVAIO, Google, Tom Cotton, and DATA Act of 2026 are not mentioned in available results. All results pertain to unrelated federal workforce reclassifications under Schedule Policy Career. Current status remains unchanged with no verified updates on state-level democratic preemption, datacenter capital deployment, or related legislation.",
+      "headline": "No new developments reported on Arkansas Preemption / Datacenter Capital Nexus as of March 12, 2026.",
+      "summary": "Search results for mandatory queries on Arkansas data center investments (Google AVAIO), ballot initiative restrictions, Act 373 utility rates for Entergy datacenters, and Good Day Farm Supreme Court ruling yielded no relevant information. No mentions of tracked entities including Arkansas Supreme Court, Governor Huckabee Sanders, Entergy, AVAIO, Google, Tom Cotton, or DATA Act of 2026 in current reporting. All results focused on unrelated federal topics such as DOGE activities.",
       "event_classification": "NEUTRAL",
       "key_entities_mentioned": [],
       "sources": [],
       "confidence": "HIGH",
       "timestamp": "2026-03-12",
-      "raw_response_length": 970
+      "raw_response_length": 784
     }
   }
 }
