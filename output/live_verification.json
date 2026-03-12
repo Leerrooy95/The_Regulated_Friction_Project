@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-03-12T08:31:02Z",
+  "generated_at": "2026-03-12T16:22:45Z",
   "generated_by": "Perplexity sonar-pro (prediction verifier)",
   "total_predictions": 20,
   "status_summary": {
     "partial": 7,
-    "unverified": 4,
+    "unverified": 2,
     "monitoring": 7,
-    "verified": 2
+    "verified": 3,
+    "error": 1
   },
   "results": [
     {
@@ -14,14 +15,14 @@
       "timeframe": "Q1 2026",
       "query": "Department of Government Efficiency DOGE instability federal workforce fallout Q1 2026",
       "status": "partial",
-      "description": "DOGE faced opposition, lawsuits, and warnings of constitutional crisis due to its access to sensitive data and power to reshape agencies without congressional input. Federal agencies announced budget cuts and workforce reduction plans coordinated with DOGE, including embedding DOGE teams. Critics highlighted workforce fallout risks, but DOGE claimed $199B in savings partly from workforce reductions as of early 2026.",
+      "description": "DOGE implemented workforce reductions across federal agencies as part of its efficiency agenda, leading to headcount cuts that hobbled some agencies and prompted former federal employees to form groups like We the Doers. Opposition included lawsuits, warnings of constitutional crisis, and criticisms likening actions to a coup, with agencies announcing budget cuts citing DOGE. Federal workforce size was targeted via coordination with the Office of Management and Budget, but DOGE's status remains unclear as it operates until July 4, 2026.",
       "source": "https://en.wikipedia.org/wiki/Department_of_Government_Efficiency",
       "citations": [
         "https://en.wikipedia.org/wiki/Department_of_Government_Efficiency",
+        "https://www.govexec.com/management/2026/01/pushed-out-doge-former-feds-now-feel-unleashed-improving-government-efficiency/410812/",
         "https://usafacts.org/articles/what-is-going-on-with-doge/",
-        "https://doge.gov/savings",
-        "https://www.whitehouse.gov/priorities/doge/",
-        "https://centralina.org/blog/capitol-corner-introducing-the-department-of-government-efficiency/"
+        "https://www.meritalk.com/articles/musk-signing-off-doge-remains-until-2026/",
+        "https://www.governing.com/management-and-administration/doge-done-right-look-to-the-states"
       ],
       "date_checked": "2026-03-12"
     },
@@ -29,13 +30,13 @@
       "prediction": "California TikTok investigation findings",
       "timeframe": "Q1 2026",
       "query": "California TikTok investigation AG findings Q1 2026",
-      "status": "unverified",
-      "description": "No evidence was found of California Attorney General investigation findings or reports on TikTok released in Q1 2026. A multi-state lawsuit by 14 attorneys general, including California, was filed against TikTok over youth mental health harms based on a prior two-and-a-half-year investigation, announced in 2024. Recent California AG actions focused on xAI/Grok deepfakes, not TikTok.",
-      "source": "",
+      "status": "partial",
+      "description": "California Attorney General Rob Bonta joined 14 attorneys general in filing lawsuits against TikTok over mental health harms and addiction targeting youth, based on a two-and-a-half-year investigation. The lawsuits highlight TikTok's practices exploiting young users' vulnerabilities for profit, but no specific findings release or resolution from the California AG investigation occurred in Q1 2026. Related social media addiction trials, including TikTok settlements, were ongoing as of early 2026.",
+      "source": "https://www.consumernotice.org/news/14-attorneys-general-sue-tiktok-over-mental-health-concerns-in-youth/",
       "citations": [
-        "https://oag.ca.gov/news/press-releases/attorney-general-bonta-launches-investigation-xai-grok-over-undressed-sexual-ai",
-        "https://calmatters.org/economy/technology/2026/01/california-investigates-deepfakes-elon-musk-company/",
-        "https://www.consumernotice.org/news/14-attorneys-general-sue-tiktok-over-mental-health-concerns-in-youth/"
+        "https://www.consumernotice.org/news/14-attorneys-general-sue-tiktok-over-mental-health-concerns-in-youth/",
+        "https://www.youtube.com/watch?v=l2P3QZmlgX0",
+        "https://www.spencer-law.com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047"
       ],
       "date_checked": "2026-03-12"
     },
@@ -44,14 +45,12 @@
       "timeframe": "Mar 2026",
       "query": "Ro Khanna TikTok ByteDance World Liberty Financial investigation findings March 2026",
       "status": "unverified",
-      "description": "No evidence was found of any investigation led by Ro Khanna into TikTok, ByteDance, or World Liberty Financial, nor any related findings released in March 2026. Search results discuss Khanna's opposition to a TikTok ban, calls for narrower data privacy laws, and statements on a TikTok divestiture deal, but no investigations or specific findings are mentioned. References to World Liberty Financial did not appear in the results.",
+      "description": "No evidence was found of any investigation led by Ro Khanna into TikTok, ByteDance, or World Liberty Financial, nor any findings released in March 2026. Khanna, as ranking member on the House select committee on China, commented on a recent TikTok joint venture deal, expressing concerns about uncertainty for creators but did not announce or reference an investigation. Congressional scrutiny of the deal was called for by others like Rep. Moolenaar and Sen. Markey, focusing on algorithm influence and data security.",
       "source": "",
       "citations": [
-        "https://abcnews.com/Politics/khanna-potential-tiktok-ban-solve-problem-calls-narrowly/story?id=108185896",
-        "https://www.americanprogress.org/article/congress-must-demand-the-full-details-of-the-tiktok-deal/",
-        "https://www.markey.senate.gov/news/press-releases/senator-markey-statement-on-tiktok-deal",
-        "https://hls.harvard.edu/today/is-the-new-us-tiktok-safer/",
-        "http://democrats-selectcommitteeontheccp.house.gov/media/press-releases/ranking-member-ro-khannas-statement-tiktok-deal"
+        "https://economictimes.com/tech/technology/update-2-us-lawmakers-say-tiktok-joint-venture-deal-needs-scrutiny-from-congress/articleshow/127351703.cms",
+        "http://democrats-selectcommitteeontheccp.house.gov/media/press-releases/ranking-member-ro-khannas-statement-tiktok-deal",
+        "https://www.markey.senate.gov/news/press-releases/senator-markey-statement-on-tiktok-deal"
       ],
       "date_checked": "2026-03-12"
     },
@@ -60,12 +59,12 @@
       "timeframe": "Q1 2026",
       "query": "Arkansas Public Service Commission PSC order text release Q1 2026",
       "status": "monitoring",
-      "description": "No evidence of an Arkansas PSC order text release in Q1 2026 was found in search results. Available documents discuss APSC rules on wind energy implementation, with a public hearing held on December 11, 2025, and pending legislative review as of February 19, 2026. Public comments and docket pages list ongoing cases but no specific order text release matching the prediction.",
+      "description": "A January 2025 update from the Arkansas Legislature stated that hearings for Act 945 (Wind Energy Development Act) and Act 373 (Generating Arkansas Jobs Act) were held on December 11, 2025, with orders expected within the month. No evidence of order text releases in Q1 2026 was found on the APSC docket search, public comments, or official site as of March 12, 2026. The situation remains ongoing with no resolution confirmed.",
       "source": "",
       "citations": [
-        "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F040%2F27776%2FA.+Summary+Agenda_February+19+2026.pdf",
-        "https://apsc.arkansas.gov/home/public-comments/",
-        "https://apsc.arkansas.gov/online-services/docket-search/"
+        "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F040%2F27751%2FF.3.+Arkansas+Public+Service+Commission_01.01.26.pdf",
+        "https://apsc.arkansas.gov/online-services/docket-search/",
+        "https://apsc.arkansas.gov/home/public-comments/"
       ],
       "date_checked": "2026-03-12"
     },
@@ -74,14 +73,14 @@
       "timeframe": "2026",
       "query": "QXO Brad Jacobs acquisitions Apollo credit pipeline 2026",
       "status": "partial",
-      "description": "QXO raised approximately $3.75 billion in early 2026, including a $750 million stock offering priced January 2026 and prior equity rounds led by Apollo Global Management, explicitly to fund future acquisitions. The company remains in active discussions with seven potential acquisition targets, primarily privately held distributors, as part of its strategy to reach $50 billion in annual revenue. No completed acquisitions were reported as of the latest updates in January 2026.",
-      "source": "https://www.roofingcontractor.com/articles/101784-qxo-prices-750m-stock-offering-as-m-and-a-focus-grows",
+      "description": "QXO has secured $3.75 billion in capital (including $3.0 billion Series C convertible preferred from Apollo and $749.4 million common stock offering in January 2026) to fund acquisitions. The company completed the Beacon Roofing Supply acquisition in April 2025 and entered a definitive agreement to acquire Kodiak Building Partners for $2.25 billion on February 10, 2026, with closing expected in early Q2 2026. QXO remains in active discussions with seven additional acquisition targets as of January 2026.",
+      "source": "https://www.stocktitan.net/sec-filings/QXO/10-k-qxo-inc-files-annual-report-8de402d7d9db.html",
       "citations": [
+        "https://www.stocktitan.net/sec-filings/QXO/10-k-qxo-inc-files-annual-report-8de402d7d9db.html",
         "https://www.roofingcontractor.com/articles/101784-qxo-prices-750m-stock-offering-as-m-and-a-focus-grows",
-        "https://marketchameleon.com/articles/b/2026/1/16/qxo-753m-stock-offering-fuels-growth-acquisition-strategy",
-        "https://investors.qxo.com/news/news-details/2026/QXO-Announces-1-2-Billion-Convertible-Preferred-Equity-Investment-Led-by-Apollo-to-Fund-Future-Acquisitions/default.aspx",
+        "https://investors.qxo.com/news/news-details/2026/QXO-Announces-Pricing-of-Common-Stock-Offering/default.aspx",
         "https://www.housingwire.com/articles/qxo-acqusition-funding/",
-        "https://investors.qxo.com/news/news-details/2026/QXO-Announces-Pricing-of-Common-Stock-Offering/default.aspx"
+        "https://www.freightwaves.com/news/kodiak-acquired-by-qxo-a-strategic-2-billion-plus-leap-in-building-products"
       ],
       "date_checked": "2026-03-12"
     },
@@ -89,13 +88,13 @@
       "prediction": "EO 14375 legal challenge (IOIA authorization)",
       "timeframe": "2026",
       "query": "Executive Order 14375 legal challenge International Organizations Immunities Act Board of Peace 2026",
-      "status": "partial",
-      "description": "Executive Order 14375, issued January 16, 2026, designated the Board of Peace as a public international organization entitled to certain privileges under the International Organizations Immunities Act (IOIA). A company challenged related actions, asserting violations of constitutional rights, lack of statutory authority under 10 U.S.C. §3252, and arbitrary/capricious conduct under the Administrative Procedure Act, with the suit filed in U.S. District Court. No resolution or specific IOIA-focused challenge was confirmed as of March 12, 2026.",
-      "source": "https://web.pdx.edu/~pcooper/publiclaw2-css.html",
+      "status": "monitoring",
+      "description": "Executive Order 14375 designated the Board of Peace as a public international organization entitled to privileges and immunities under the International Organizations Immunities Act (IOIA). Search results identify questions raised by Just Security regarding the President's authority to grant such privileges, but no completed legal challenge or court filing was documented in available sources as of March 2026. The status remains under monitoring pending actual litigation.",
+      "source": "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/",
       "citations": [
-        "https://web.pdx.edu/~pcooper/publiclaw2-css.html",
+        "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/",
         "https://www.federalregister.gov/documents/2026/01/22/2026-01271/designating-the-board-of-peace-as-a-public-international-organization-entitled-to-enjoy-certain",
-        "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/"
+        "https://www.whitehouse.gov/presidential-actions/2026/01/withdrawing-the-united-states-from-international-organizations-conventions-and-treaties-that-are-contrary-to-the-interests-of-the-united-states/"
       ],
       "date_checked": "2026-03-12"
     },
@@ -104,12 +103,12 @@
       "timeframe": "Feb 27, 2026",
       "query": "NTEU National Treasury Employees Union court order Department of Government Efficiency position list disclosure 2026",
       "status": "monitoring",
-      "description": "NTEU filed a FOIA lawsuit on November 14, 2025, in U.S. District Court for the District of Columbia seeking disclosure of agency petitions identifying federal positions proposed for reclassification under Schedule Policy/Career. As of March 12, 2026, no court order has been issued compelling disclosure. The case remains pending with no appellate merits decision yet rendered on related Schedule Policy/Career litigation.",
+      "description": "NTEU filed a FOIA lawsuit on November 14, 2025 (not February 27) to compel OPM to release records identifying federal positions proposed for reclassification under Schedule Policy/Career. As of March 2026, the lawsuit remains pending with no disclosed resolution; OPM has not released the agency petitions and position lists sought by the union. The case marks a tactical escalation in litigation over the executive order, with disclosure of targeted positions remaining a central pressure point.",
       "source": "https://www.fedweek.com/fedweek/nteu-sues-for-release-of-positions-recommended-for-schedule-policy-career/",
       "citations": [
         "https://www.fedweek.com/fedweek/nteu-sues-for-release-of-positions-recommended-for-schedule-policy-career/",
+        "https://www.govexec.com/workforce/2026/02/opm-clarifies-agencies-should-not-violate-court-orders-terminate-union-contracts/411585/",
         "https://www.nteu.org/~/media/Files/nteu/docs/public/letters/Alexander%20Kweskin%20re%20CBA%20Termination",
-        "https://www.govexec.com/workforce/2026/03/nteu-chief-stands-firm-agencies-seek-terminate-contracts/411851/",
         "https://www.nteu.org/blog/2025/08/13/Threat%20of%20Schedule%20Policy%20Career"
       ],
       "date_checked": "2026-03-12"
@@ -119,13 +118,13 @@
       "timeframe": "Mar 9, 2026",
       "query": "Schedule Policy Career federal employee reclassification at-will implementation March 2026",
       "status": "partial",
-      "description": "The OPM finalized the Schedule Policy/Career rule on February 6, 2026, which took effect on March 9, 2026, creating a new at-will category for approximately 50,000 policy-influencing career positions. No executive order has been issued to reclassify specific positions, and agencies are preparing internal lists amid ongoing litigation. The rule enables reclassification but implementation remains pending.",
+      "description": "The OPM finalized the Schedule Policy/Career rule on February 6, 2026, which took effect on March 9, 2026, enabling reclassification of policy-influencing career positions to at-will status via executive order. No executive order has been issued to reclassify specific positions as of March 10, 2026, though agencies are preparing lists and a lawsuit challenges the rule without injunction. Implementation requires further presidential action.",
       "source": "https://americansforprosperity.org/policy-corner/opms-final-schedule-policy-career-rule-is-published/",
       "citations": [
         "https://americansforprosperity.org/policy-corner/opms-final-schedule-policy-career-rule-is-published/",
         "https://www.opm.gov/news/news-releases/opm-finalizes-schedule-policycareer-rule-to-strengthen-accountability/",
         "https://www.themindfulfederalemployee.com/blog/the-schedule-policy-career-rule-just-cleared-the-runway",
-        "https://fas.org/publication/everything-opm-new-schedule-pc/",
+        "https://www.opm.gov/chcoc/latest-memos/opm-schedule-policycareer-implementation-guidance-memorandum.pdf",
         "https://ourpublicservice.org/blog/schedule-policy-career-webinar-recap-schedule-f-fedsupport-explainer-series/"
       ],
       "date_checked": "2026-03-12"
@@ -135,12 +134,12 @@
       "timeframe": "Ongoing",
       "query": "US Congress major hearing compliance executive order cluster 2026",
       "status": "monitoring",
-      "description": "Search results show multiple compliance-related hearings occurred in early March 2026, including a U.S. Sentencing Commission public hearing on March 9, 2026 addressing proposed amendments to federal sentencing guidelines, and various House committee hearings on March 4, 2026 addressing regulatory compliance and oversight matters. However, no specific evidence was found of a 'Feb 11 compliance density repeat' pattern or direct correlation between a February 11 event and subsequent hearing clusters.",
+      "description": "No evidence found of a US Congress major hearing repeating the February 11 compliance density pattern, with recent hearings on March 10-12, 2026, covering agriculture, fiscal outlook, aging, and defense posture but no mentions of executive order compliance clusters. A local code compliance hearing occurred on March 4, 2026, unrelated to federal Congress or the prediction. Situation remains ongoing with no resolution as of March 12, 2026.",
       "source": "",
       "citations": [
-        "https://www.ussc.gov/policymaking/meetings-hearings/public-hearing-march-9-2026",
-        "https://docs.house.gov/committee/Calendar/ByDay.aspx?DayID=03042026",
-        "https://www.govinfo.gov/content/pkg/CCAL-119hcal-2026-03-04/html/CCAL-119hcal-2026-03-04-pt12.htm"
+        "https://www.alston.com/en/insights/publications/2026/03/look-ahead-march-9-2026",
+        "https://www.youtube.com/watch?v=eHwHCb2xJP8",
+        "http://www.house.gov/legislative-activity/2026-03-04"
       ],
       "date_checked": "2026-03-12"
     },
@@ -149,7 +148,7 @@
       "timeframe": "Mar 1, 2026",
       "query": "Ro Khanna ByteDance TikTok World Liberty Financial document deadline March 1 2026",
       "status": "unverified",
-      "description": "No evidence was found of any investigation by Ro Khanna into ByteDance, TikTok, or World Liberty Financial, nor any document deadline on March 1, 2026. Search results detail Khanna's past opposition to the TikTok ban, including bipartisan efforts to extend deadlines and repeal legislation, and recent congressional scrutiny of a TikTok joint venture deal finalized in late 2025 with a target closing of January 22, 2026. World Liberty Financial is not mentioned in any results.",
+      "description": "No evidence was found of any investigation by Rep. Ro Khanna into ByteDance, TikTok, or World Liberty Financial, nor any document deadline on March 1, 2026. Search results detail Khanna's past opposition to the TikTok ban, including bipartisan efforts to extend deadlines and repeal legislation, and recent congressional scrutiny of a TikTok joint venture deal announced in September 2025 with a closing target of January 22, 2026. World Liberty Financial is not mentioned in any results.",
       "source": "",
       "citations": [
         "https://www.markey.senate.gov/news/press-releases/senator-markey-statement-on-tiktok-deal",
@@ -165,13 +164,14 @@
       "timeframe": "2026",
       "query": "Ghislaine Maxwell clemency petition pardon DOJ Pardon Attorney decision 2026",
       "status": "monitoring",
-      "description": "Ghislaine Maxwell is preparing a commutation application and has appealed for clemency from President Trump in exchange for testimony exonerating him and Bill Clinton regarding Epstein connections. She invoked her Fifth Amendment rights in a House deposition and was transferred to a low-security prison camp after interviews with Deputy Attorney General Todd Blanche. Lawmakers from both parties, including Sen. Jacky Rosen's resolution and Reps. Stansbury and Luna, have opposed clemency, but Trump has not ruled it out and no decision has been issued as of March 2026.",
-      "source": "https://www.politico.com/news/2025/11/10/ghislaine-maxwell-seek-commutation-document-00644139",
+      "description": "As of March 12, 2026, Maxwell has actively pursued clemency through a formal commutation application and a direct clemency appeal to President Trump made via her attorney during a February 2026 congressional deposition. No final decision on clemency has been announced by the White House or DOJ Pardon Attorney as of the current date. Congressional opposition has emerged, including a Senate resolution introduced by Sen. Jacky Rosen opposing any clemency grant.",
+      "source": "https://www.latimes.com/world-nation/story/2026-02-09/ghislaine-maxwell-declined-to-answer-questions-from-house-committee-citing-5th-amendment-rights",
       "citations": [
+        "https://epsteinislands.com/blog/ghislaine-maxwell-2026-updates",
         "https://www.politico.com/news/2025/11/10/ghislaine-maxwell-seek-commutation-document-00644139",
-        "https://www.fox5dc.com/news/clemency-vs-pardon-ghislaine-maxwell-appeals-clemency-trump",
+        "https://www.latimes.com/world-nation/story/2026-02-09/ghislaine-maxwell-declined-to-answer-questions-from-house-committee-citing-5th-amendment-rights",
         "https://www.rosen.senate.gov/2026/02/12/rosen-announces-resolution-opposing-any-clemency-from-donald-trump-for-ghislaine-maxwell/",
-        "https://www.predictit.org/markets/detail/8278/Will-Trump-pardon-Ghislaine-Maxwell-or-commute-her-sentence-before-July-2026"
+        "http://democrats-judiciary.house.gov/media-center/press-releases/whistleblower-shares-evidence-that-federal-prison-camp-warden-is-pampering-ghislaine-maxwell-maxwell-also-filing-a-commutation-application-with-trump-administration"
       ],
       "date_checked": "2026-03-12"
     },
@@ -180,13 +180,13 @@
       "timeframe": "Ongoing",
       "query": "Iran war ceasefire negotiations US Iran military operations Strait of Hormuz 2026",
       "status": "partial",
-      "description": "Negotiations between the US and Iran broke down after multiple rounds in February 2026, leading to US-Israeli strikes on Iran that ignited a war now in its second week as of March 10-11. Iran has ruled out ceasefire or further talks with the US and Israel, continuing retaliatory missile and drone strikes on Israel, Jordan, Iraq, and Gulf states hosting US assets. No ceasefire has been reached, and escalation persists with no resolution.",
+      "description": "Negotiations between the US and Iran occurred in February 2026 but collapsed after Iran rejected US proposals, leading to Israeli attacks on Iran and subsequent US military strikes that ignited an ongoing war. As of March 10-11, 2026, Iran rejected ceasefire talks and negotiations with the US, citing recent attacks, with fighting entering its second week without resolution. No ceasefire has been reached, and escalation continues through missile and drone exchanges.",
       "source": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
       "citations": [
         "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
-        "https://www.aa.com.tr/en/middle-east/iran-rules-out-ceasefire-with-us-israel/3858708",
         "https://www.youtube.com/watch?v=8RsHbUQ9Moc",
         "https://www.youtube.com/watch?v=I5qK3SwTz30",
+        "https://www.politico.com/news/2026/03/10/iran-war-threatens-board-of-peace-00821415",
         "https://www.britannica.com/event/2026-Iran-Conflict"
       ],
       "date_checked": "2026-03-12"
@@ -195,13 +195,15 @@
       "prediction": "Strait of Hormuz shipping restoration",
       "timeframe": "Ongoing",
       "query": "Strait of Hormuz reopening oil shipping mine clearing US Navy 2026",
-      "status": "partial",
-      "description": "The Strait of Hormuz remains effectively closed to commercial shipping due to Iranian attacks, mines, and strikes on vessels, with no full restoration reported as of March 12, 2026. US forces cleared Iranian mine ships and initiated operations including strikes on threats and plans for naval escorts to reopen the strait, similar to 1980s efforts. Analysts predicted partial reopening within 2-3 weeks and indicated military means are in early stages.[1][2]",
-      "source": "https://www.csis.org/analysis/no-one-not-even-beijing-getting-through-strait-hormuz",
+      "status": "monitoring",
+      "description": "The Strait of Hormuz remains closed to commercial shipping due to Iranian attacks, threats from drones, missiles, and speedboats, and potential naval mines, causing global energy crises and high insurance costs. Experts discussed limited US military escorts and plans for convoys or mine-clearing operations, but no reopening or full restoration occurred as of March 11, 2026. Predictions of partial reopening in 2-3 weeks were made, with ongoing de-escalation talks and naval surges proposed.",
+      "source": "",
       "citations": [
+        "https://www.youtube.com/watch?v=s6KGLpA50Lw",
         "https://www.youtube.com/watch?v=VrUh8GU47cs",
         "https://www.youtube.com/watch?v=RoBNIsA7pIU",
-        "https://www.csis.org/analysis/no-one-not-even-beijing-getting-through-strait-hormuz"
+        "https://www.cbsnews.com/video/it-is-quite-likely-us-will-use-military-means-reopen-strait-of-hormuz-analyst-says/",
+        "https://www.youtube.com/watch?v=3EqvcQrhDAw"
       ],
       "date_checked": "2026-03-12"
     },
@@ -209,14 +211,13 @@
       "prediction": "Anthropic Pentagon legal challenge",
       "timeframe": "2026",
       "query": "Anthropic Dario Amodei Pentagon contract legal challenge AI safety court 2026",
-      "status": "monitoring",
-      "description": "The Pentagon designated Anthropic a supply-chain risk to national security in late February 2026 after failed negotiations over AI safety standards, prompting Anthropic to vow a court challenge if the designation becomes official. Legal experts described the move as dubious and likely to fail judicial review on grounds including Administrative Procedure Act violations, due process, and First Amendment issues. As of March 2026, no lawsuit has been filed, and the situation remains unresolved with a six-month transition period ongoing.",
-      "source": "https://www.defenseone.com/business/2026/03/pentagons-war-anthropic-based-dubious-legal-thinking-and-ideologynot-real-risk-sources-say/411849/",
+      "status": "verified",
+      "description": "Anthropic sued the Pentagon and other federal agencies in the U.S. District Court for the Northern District of California on March 9, 2026, after the Trump administration designated the company a supply-chain risk to national security. The lawsuit challenges the designation as unprecedented and unlawful, stemming from Anthropic's refusal to remove AI safety restrictions from its military contract, which led to contract cancellations. Legal experts described the Pentagon's actions as dubious and ideologically driven, predicting the designation would not survive court scrutiny.",
+      "source": "https://fortune.com/2026/03/09/anthropic-sues-pentagon-ai-supply-chain-risk-trump-adminstration/",
       "citations": [
+        "https://fortune.com/2026/03/09/anthropic-sues-pentagon-ai-supply-chain-risk-trump-adminstration/",
         "https://www.defenseone.com/business/2026/03/pentagons-war-anthropic-based-dubious-legal-thinking-and-ideologynot-real-risk-sources-say/411849/",
-        "https://www.lawfaremedia.org/article/pentagon's-anthropic-designation-won't-survive-first-contact-with-legal-system",
-        "https://www.eff.org/deeplinks/2026/03/anthropic-dod-conflict-privacy-protections-shouldnt-depend-decisions-few-powerful",
-        "https://www.chathamhouse.org/2026/03/anthropics-feud-pentagon-reveals-limits-ai-governance"
+        "https://www.lawfaremedia.org/article/pentagon's-anthropic-designation-won't-survive-first-contact-with-legal-system"
       ],
       "date_checked": "2026-03-12"
     },
@@ -225,12 +226,11 @@
       "timeframe": "2026",
       "query": "Oracle stock debt Stargate Abilene expansion layoffs bondholder lawsuit 2026",
       "status": "partial",
-      "description": "Oracle disclosed a 2026 restructuring plan costing up to $1.6 billion, primarily for employee severance amid layoffs potentially reaching 30,000, driven by over $100 billion in debt and negative free cash flow from AI data center expansions including Stargate. The company faces financial pressures from its $300 billion OpenAI partnership and Stargate project, with Abilene expansion plans adjusted but the 4.5GW agreement with OpenAI remaining on track. No bondholder lawsuits were confirmed in the results.",
-      "source": "https://fortune.com/2026/03/09/oracle-earnings-layoffs-debt-cloud/",
+      "description": "Oracle faced significant financial pressures in early 2026 related to its Stargate project, with $131.7B in debt, plans to raise $45-50B in additional financing, a bondholder class action lawsuit, and 20-30K layoffs amid negative free cash flow. Expansion plans for the $500B Stargate project with OpenAI were shelved due to financing disputes, though the core agreement for data centers remained intact. No full financial restructuring was confirmed as completed.",
+      "source": "https://swotpal.com/blog/oracle-swot-analysis-2026",
       "citations": [
-        "https://fortune.com/2026/03/09/oracle-earnings-layoffs-debt-cloud/",
-        "https://www.tomshardware.com/tech-industry/oracle-rebuts-incorrect-reporting-on-stargate-expansion",
-        "https://timesofindia.indiatimes.com/technology/tech-news/oracle-to-start-layoffs-which-may-go-up-to-30000-as-company-faces-cash-crunch-to-meet-its-commitment-to-sam-altmans-openai-for-/articleshow/129132517.cms"
+        "https://swotpal.com/blog/oracle-swot-analysis-2026",
+        "https://intellectia.ai/news/stock/oracle-shelves-expansion-plans-with-openai-on-stargate-project"
       ],
       "date_checked": "2026-03-12"
     },
@@ -239,14 +239,14 @@
       "timeframe": "2026-02-26",
       "query": "QXO 10-K annual report filing",
       "status": "verified",
-      "description": "QXO filed its 10-K annual report for the fiscal year ended December 31, 2025, on February 27, 2026, one day after the predicted timeframe of February 26, 2026. The filing outlined the Beacon acquisition, ambitions for $50 billion in revenue, recent capital raises including $749.4 million from a January 2026 equity offering and a commitment for up to $3.0 billion in Series C preferred stock, and a planned $2.25 billion Kodiak acquisition expected to close in early Q2 2026. Preliminary financial results were released earlier, with full Q4 2025 results reported subsequently.",
-      "source": "https://www.stocktitan.net/sec-filings/QXO/10-k-qxo-inc-files-annual-report-8de402d7d9db.html",
+      "description": "QXO filed its 10-K annual report for the fiscal year ended December 31, 2025, on February 27, 2026, one day after the predicted timeframe. The filing outlined the Beacon acquisition, a $50B revenue ambition, January 2026 capital raises, and the planned $2.25B Kodiak acquisition closing in early Q2 2026. An earlier announcement on January 15, 2026, provided preliminary Q4 2025 results via 8-K.",
+      "source": "https://investors.qxo.com/financials/sec-filings/default.aspx",
       "citations": [
         "https://www.stocktitan.net/sec-filings/QXO/10-k-qxo-inc-files-annual-report-8de402d7d9db.html",
+        "https://investors.qxo.com/financials/sec-filings/default.aspx",
         "https://www.sec.gov/edgar/browse/?CIK=1236275",
-        "https://investors.qxo.com/news/news-details/2026/QXO-Announces-Fourth-Quarter-Summarized-Preliminary-Financial-Information/default.aspx",
         "https://www.otcmarkets.com/filing/html?id=19065400&guid=1at-kqciy4xmB3h",
-        "https://investors.qxo.com/news/news-details/2026/QXO-Reports-Fourth-Quarter-2025-Results/default.aspx"
+        "https://investors.qxo.com/news/news-details/2026/QXO-Announces-Fourth-Quarter-Summarized-Preliminary-Financial-Information/default.aspx"
       ],
       "date_checked": "2026-03-12"
     },
@@ -254,15 +254,15 @@
       "prediction": "DOGE-predicted instability tracking",
       "timeframe": "Q1 2026",
       "query": "DOGE-predicted instability tracking",
-      "status": "unverified",
-      "description": "No evidence was found in search results for any 'DOGE-predicted instability tracking' initiative, system, or activity during Q1 2026. DOGE remains operational with its temporary organization scheduled to end on July 4, 2026, amid ongoing cuts, lawsuits, and debates over its status and impacts. Sources describe DOGE's efficiency efforts, savings claims, and controversies but do not mention instability tracking.",
+      "status": "error",
+      "description": "The search results provided do not contain any prediction or analysis labeled 'DOGE-predicted instability tracking.' The results document DOGE's operational status, claimed savings figures, and organizational structure, but do not reference a specific instability prediction or tracking mechanism associated with DOGE for Q1 2026. The prediction text itself appears to be a placeholder or undefined reference rather than a substantive forecast.",
       "source": "",
       "citations": [
         "https://en.wikipedia.org/wiki/Department_of_Government_Efficiency",
         "https://doge.gov/savings",
         "https://usafacts.org/articles/what-is-going-on-with-doge/",
-        "https://www.whitehouse.gov/priorities/doge/",
-        "https://www.govexec.com/management/2026/01/pushed-out-doge-former-feds-now-feel-unleashed-improving-government-efficiency/410812/"
+        "https://www.govexec.com/management/2026/01/pushed-out-doge-former-feds-now-feel-unleashed-improving-government-efficiency/410812/",
+        "https://www.whitehouse.gov/priorities/doge/"
       ],
       "date_checked": "2026-03-12"
     },
@@ -270,12 +270,13 @@
       "prediction": "EO 14375 legal challenge",
       "timeframe": "2026",
       "query": "EO 14375 legal challenge",
-      "status": "monitoring",
-      "description": "Executive Order 14375 designates the Board of Peace as a public international organization entitled to privileges and immunities. No litigation challenging EO 14375 has been identified in available sources as of March 12, 2026. Legal questions regarding the authority and scope of the order have been raised by legal scholars, but no formal legal challenge with a filed case docket was found.",
+      "status": "partial",
+      "description": "Executive Order 14375, designating the Board of Peace as a public international organization entitled to certain privileges, exemptions, and immunities, faced legal scrutiny. Just Security raised questions about the order's legal basis under presidential authority. No specific court challenges or resolutions were identified in the search results as of March 12, 2026.",
       "source": "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/",
       "citations": [
+        "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/",
         "https://www.federalregister.gov/documents/2026/01/22/2026-01271/designating-the-board-of-peace-as-a-public-international-organization-entitled-to-enjoy-certain",
-        "https://www.justsecurity.org/131113/some-questions-about-trumps-executive-order-granting-privileges-and-immunities-to-the-board-of-peace/"
+        "https://www.alston.com/en/resources/executive-order-task-force/executive-order-tracker"
       ],
       "date_checked": "2026-03-12"
     },
@@ -284,7 +285,7 @@
       "timeframe": "None",
       "query": "Israel 60-day Hamas disarmament ultimatum",
       "status": "monitoring",
-      "description": "Israel issued a 60-day ultimatum for Hamas to completely disarm on February 16, 2026, as announced by Cabinet Secretary Yossi Fuchs, with the timeline possibly starting around the February 19 Board of Peace meeting. Hamas rejected the ultimatum, stating it received no formal notification from mediators and calling it baseless. As of March 12, 2026, no resolution or compliance has occurred, and the situation remains ongoing amid a US-backed ceasefire.",
+      "description": "Israel issued a 60-day ultimatum for Hamas to completely disarm on February 16, 2026, with Cabinet Secretary Yossi Fuchs stating it might start around the February 19 Board of Peace meeting and that the IDF would resume operations if unmet. Hamas officials rejected the ultimatum, stating they received no formal notification from mediators and calling it baseless. As of March 12, 2026, no resolution or compliance was reported, with the situation tied to ongoing ceasefire provisions.",
       "source": "https://en.yenisafak.com/world/israel-issues-60-day-ultimatum-for-hamas-disarmament-threatens-renewed-war-3714689",
       "citations": [
         "https://en.yenisafak.com/world/israel-issues-60-day-ultimatum-for-hamas-disarmament-threatens-renewed-war-3714689",
@@ -300,14 +301,12 @@
       "timeframe": "None",
       "query": "Iran military action signals",
       "status": "verified",
-      "description": "Iran launched multiple missile attack waves at Israel between March 6 and March 7, 2026, including ten waves in a 24-hour period, with two missiles landing in unpopulated areas. Iran also conducted drone and missile attacks on US bases, Gulf states like Saudi Arabia and the UAE, and other regional targets in retaliation for US-Israeli coalition strikes. These actions occurred amid ongoing escalation, with Iran's capabilities degraded by over 3,000 coalition strikes since February 28.",
-      "source": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-7-2026/",
+      "description": "A US-Israeli combined force launched air strikes on Iranian military assets, including IRGC headquarters, ballistic missile sites, air defenses, and defense industries, starting February 28, 2026, with significant actions on March 4-7. Iran retaliated with over 500 ballistic missiles, 2,000 drones, and attacks on regional targets, though its capabilities have been degraded. The conflict remains active as of early March 2026, with Trump signaling potential resolution.",
+      "source": "https://www.criticalthreats.org/analysis/iran-update-evening-special-edition-march-7-2026",
       "citations": [
-        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-7-2026/",
-        "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-6-2026",
-        "https://www.stimson.org/2026/experts-react-what-the-epic-fury-iran-strikes-signal-to-the-world/",
-        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-9-2026/",
-        "https://www.visiontimes.com/2026/03/10/iran-strikes-signal-new-phase-in-us-strategy-toward-china-indo-pacific-region.html"
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-edition-march-7-2026",
+        "https://en.wikipedia.org/wiki/2026_Iran_war",
+        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-6-2026/"
       ],
       "date_checked": "2026-03-12"
     }
