@@ -245,12 +245,9 @@ PLOTLY_TEMPLATE = {
 
 GLOBAL_CSS = """
 <style>
-/* ── Import Inter font for professional typography ── */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-/* ── Base typography ── */
+/* ── Base typography (system font stack — no external CDN dependency) ── */
 html, body, [class*="css"] {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
 }
 
 /* ── Metric cards: glassmorphism effect ── */

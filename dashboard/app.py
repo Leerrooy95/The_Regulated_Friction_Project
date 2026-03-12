@@ -4,6 +4,7 @@ Main Streamlit entry point.
 """
 
 import json
+import math
 import re
 from collections import Counter
 from pathlib import Path
@@ -848,7 +849,6 @@ with tab_live_intel:
             edge_x, edge_y = [], []
 
             # Center: convergence nodes in a circle
-            import math
             n_nodes = len(nodes)
             for i, node in enumerate(nodes):
                 angle = 2 * math.pi * i / max(n_nodes, 1)
@@ -1742,4 +1742,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.caption(DISCLAIMER)
