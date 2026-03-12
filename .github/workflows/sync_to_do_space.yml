@@ -1,20 +1,28 @@
-name: Sync AI Context to Drop Box
+name: Sync to DigitalOcean Space
 
 on:
   workflow_run:
-    workflows: ["Daily Intelligence Pipeline"]
+    workflows: ["Sync from Live Trackers"]
     types:
       - completed
+  push:
+    branches: [main]
+    paths:
+      - '_AI_CONTEXT_INDEX/**'
+      - 'Run_Correlations_Yourself/**'
+      - 'Control_Proof/**'
+      - 'Report.md'
+      - 'README.md'
   workflow_dispatch:
 
 jobs:
   sync-to-space:
+    name: Sync Data to DigitalOcean Space
     runs-on: ubuntu-latest
-    
-    # Only run if main pipeline succeeded, or if manually triggered
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
-    
-    # Scoped permissions for OPSEC
+
+    # Only run if triggering workflow succeeded, or if triggered by push/manual
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
+
     permissions:
       contents: read
 
@@ -32,7 +40,7 @@ jobs:
             --endpoint-url https://sfo3.digitaloceanspaces.com \
             --delete
 
-      - name: Sync Output Intel to DO Space
+      - name: Sync Tracker Output to DO Space
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
@@ -40,8 +48,7 @@ jobs:
         run: |
           aws s3 sync ./output s3://regulated-friction-space/output/ \
             --endpoint-url https://sfo3.digitaloceanspaces.com \
-            --delete \
-            --exclude ".api_budget.json"
+            --delete
 
       - name: Sync Correlation Data to DO Space
         env:
@@ -62,15 +69,6 @@ jobs:
           aws s3 sync ./Control_Proof s3://regulated-friction-space/Control_Proof/ \
             --endpoint-url https://sfo3.digitaloceanspaces.com \
             --delete
-            
-      - name: Sync Config to DO Space
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_KEY }}
-          AWS_DEFAULT_REGION: sfo3
-        run: |
-          aws s3 cp ./intelligence_config.json s3://regulated-friction-space/intelligence_config.json \
-            --endpoint-url https://sfo3.digitaloceanspaces.com
 
       - name: Sync Primary Reference Docs to DO Space
         env:
