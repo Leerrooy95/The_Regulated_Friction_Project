@@ -76,10 +76,18 @@ BREAKING_NEWS_PROMPT = """You are a real-time intelligence analyst for The Regul
 CRITICAL ENTITY DISAMBIGUATION:
 {entity_disambiguation}
 
-Search for breaking news in the LAST 24 HOURS related to these entities:
+## ACTIVE HIGH-PRIORITY SIGNALS — You MUST search for ALL of these:
+{active_signals}
+
+## TRACKED ENTITIES (grouped by category):
 {entities}
 
 Framework context: {framework_context}
+
+IMPORTANT: Your results MUST cover ALL high-priority signal categories listed above.
+Do NOT concentrate on a single signal (e.g. DOGE). Each HIGH-priority signal must be
+independently searched. If a signal has active developments (e.g. ongoing military
+operations, active negotiations, new document releases), report those developments.
 
 For each significant finding, return a JSON object with:
 - "headline": One-line summary of what HAPPENED (not predictions)
@@ -181,6 +189,12 @@ Generate a daily intelligence summary with:
    - "source": Primary source
    - "timestamp": Date
 
+   CRITICAL: The top 3 developments MUST span at least 2 different event_type categories.
+   Do NOT select all 3 from the same category. Prioritize KINETIC events (active military
+   operations, strikes, casualties) and INTELLIGENCE events (document releases, legal
+   developments) alongside POLITICAL and REGULATORY items. If there is an active war or
+   military operation, it MUST appear in the top 3.
+
 2. **new_alerts**: Breaking developments. Each MUST have:
    - "headline": What happened
    - "alert_type": Category
@@ -192,7 +206,8 @@ Generate a daily intelligence summary with:
 
 3. **signal_updates**: Status changes on tracked signals
 
-4. **priority_watchlist**: 3-5 items to monitor next 24 hours
+4. **priority_watchlist**: 3-5 items to monitor next 24 hours. These MUST span at least
+   3 different signal categories (KINETIC, POLITICAL, FINANCIAL, INTELLIGENCE, REGULATORY).
 
 Use PAST TENSE for confirmed events. "US struck Iran" not "US may strike Iran".
 Use PRESENT TENSE for ongoing situations. "Negotiations are underway" not "negotiations may occur".
@@ -222,10 +237,10 @@ def _call_perplexity(client, prompt: str, *, _retries: int = 0) -> str:
                 "You are a real-time intelligence analyst for The Regulated Friction Project, "
                 "an OSINT research project tracking correlations between friction events "
                 "(scandals, document releases) and compliance events (policy shifts, financial moves). "
-                "CRITICAL: 'DOGE' means Department of Government Efficiency (federal restructuring), "
-                "NOT Dogecoin cryptocurrency. 'Board of Peace' is a specific Trump-created "
-                "organization for Gaza (EO 14375). Interpret all entities in their "
-                "geopolitical/institutional context. "
+                "You monitor KINETIC (military/war), POLITICAL, FINANCIAL, INTELLIGENCE, and "
+                "REGULATORY signals with EQUAL attention. Interpret all entities in their "
+                "geopolitical/institutional context — see the entity disambiguation section "
+                "in each prompt for precise definitions. "
                 "Always return valid JSON. No markdown fences, no commentary."
             ),
         },
@@ -376,13 +391,30 @@ def check_signal_status(client, signal: dict, today: str, disambiguation: str = 
     }
 
 
-def scan_breaking_news(client, entities: list, framework_context: str, today: str, disambiguation: str = "") -> list:
+def scan_breaking_news(client, entities: list, framework_context: str, today: str,
+                       disambiguation: str = "", active_signals: list | None = None) -> list:
     """Scan for breaking news across all entities."""
+    # Format active signals with priorities for the prompt
+    signal_lines = []
+    for sig in (active_signals or []):
+        terms = sig.get("search_terms", [])
+        if not isinstance(terms, list):
+            terms = [str(terms)] if terms else []
+        signal_lines.append(
+            f"- [{sig.get('priority', 'MEDIUM')}] [{sig.get('category', '')}] "
+            f"{sig.get('signal', '')} — search: {', '.join(terms)}"
+        )
+    active_signals_text = "\n".join(signal_lines) if signal_lines else "No active signals configured"
+
+    # Group entities by category for clearer presentation
+    entity_text = "\n".join(f"- {e}" for e in entities)
+
     prompt = BREAKING_NEWS_PROMPT.format(
         today=today,
-        entities="\n".join(f"- {e}" for e in entities),
+        entities=entity_text,
         framework_context=framework_context,
         entity_disambiguation=disambiguation,
+        active_signals=active_signals_text,
     )
     try:
         raw = _call_perplexity(client, prompt)
@@ -535,7 +567,8 @@ def main():
     budget, ok = _check_budget()
     if ok:
         logger.info("Scanning breaking news for %d entities...", len(entities))
-        breaking_news = scan_breaking_news(client, entities, framework_context, today, disambiguation)
+        breaking_news = scan_breaking_news(client, entities, framework_context, today,
+                                         disambiguation, active_signals)
         total_api_calls += 1
         budget = _record_api_call(budget)
     else:
