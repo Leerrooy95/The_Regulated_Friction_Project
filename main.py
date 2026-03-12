@@ -1,11 +1,10 @@
-import asyncio
 import json
 import os
 from copilot import CopilotClient, PermissionHandler
 from gradient_adk import entrypoint, RequestContext
 
 @entrypoint
-async def main(input_data: dict, context: RequestContext):
+async def main(_input_data: dict, _context: RequestContext):
     print("🚀 OSINT Immune System Awakening...")
 
     # 1. Load the Scraped Data (Provided by your 8 AM GitHub Action)
@@ -20,10 +19,9 @@ async def main(input_data: dict, context: RequestContext):
         return {"status": "error", "message": "Missing output data"}
         
     # Fallback if .github folder is not deployed
+    osint_rules = "You are an OSINT analyst looking for Regulated Friction."
     rules_path = ".github/copilot-instructions.md"
-    if not os.path.exists(rules_path):
-        osint_rules = "You are an OSINT analyst looking for Regulated Friction."
-    else:
+    if os.path.exists(rules_path):
         with open(rules_path, "r") as f:
             osint_rules = f.read()
 

@@ -15,8 +15,6 @@ import streamlit as st
 from plotly.subplots import make_subplots
 
 from constants import (
-    BACKFILL_MEDIAN_DAYS,
-    BACKFILL_PAIRS,
     COLOR_COMPLIANCE,
     COLOR_FRICTION,
     COLOR_LAG_HIGHLIGHT,
@@ -24,17 +22,9 @@ from constants import (
     COLOR_NEUTRAL,
     COLOR_PREDICTION_BAND,
     COLOR_VARIANCE,
-    CORE_LAG_WEEKS,
-    CORE_N,
-    CORE_P,
-    CORE_R,
     DISCLAIMER,
-    NEGATIVE_EVENTS,
     NEGATIVE_WINDOW_CONTEXT,
     NEGATIVE_WINDOW_FRAMING,
-    R_SQUARED,
-    RESPONSE_RATE_PCT,
-    TOTAL_FRICTION_EVENTS,
 )
 from correlation_engine import (
     compute_lag_bins,
