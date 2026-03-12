@@ -7,24 +7,12 @@ on:
       - 'dashboard/**'
       - 'Control_Proof/**'
       - 'Run_Correlations_Yourself/**'
-      - 'federal_register/**'
-      - 'main.py'
-      - 'test_api.py'
-      - '.gradient/**'
-      - 'intel.txt'
-      - 'requirements.txt'
   pull_request:
     branches: [main]
     paths:
       - 'dashboard/**'
       - 'Control_Proof/**'
       - 'Run_Correlations_Yourself/**'
-      - 'federal_register/**'
-      - 'main.py'
-      - 'test_api.py'
-      - '.gradient/**'
-      - 'intel.txt'
-      - 'requirements.txt'
 
 permissions:
   contents: read
@@ -59,14 +47,4 @@ jobs:
           python -m py_compile dashboard/app.py
           python -m py_compile dashboard/data_loader.py
           python -m py_compile dashboard/constants.py
-          python -m py_compile daily_perplexity_update.py
-
-      - name: Syntax check agent modules
-        run: |
-          python -m py_compile main.py
-          python -m py_compile test_api.py
-
-      - name: Check agent config files exist
-        run: |
-          test -f .gradient/agent.yml
-          test -f intel.txt
+          python -m py_compile dashboard/perplexity_verify.py

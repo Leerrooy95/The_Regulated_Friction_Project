@@ -6,7 +6,6 @@ __pycache__/
 dist/
 build/
 .eggs/
-.scrapy/
 .env
 
 # Log files
@@ -16,5 +15,5 @@ build/
 # Private Local Research (Unregulated Friction)
 Research_Documents/
 
-# API budget tracker (runtime artifact)
-output/.api_budget.json
+# Temporary sync directory
+_live_trackers/
