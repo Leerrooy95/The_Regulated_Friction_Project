@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** March 3, 2026
-**Version:** v10.4
+**Last Updated:** March 12, 2026
+**Version:** v10.5
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
