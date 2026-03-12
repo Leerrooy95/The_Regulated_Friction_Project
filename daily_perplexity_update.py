@@ -397,9 +397,12 @@ def scan_breaking_news(client, entities: list, framework_context: str, today: st
     # Format active signals with priorities for the prompt
     signal_lines = []
     for sig in (active_signals or []):
+        terms = sig.get("search_terms", [])
+        if not isinstance(terms, list):
+            terms = [str(terms)] if terms else []
         signal_lines.append(
             f"- [{sig.get('priority', 'MEDIUM')}] [{sig.get('category', '')}] "
-            f"{sig.get('signal', '')} — search: {', '.join(sig.get('search_terms', []))}"
+            f"{sig.get('signal', '')} — search: {', '.join(terms)}"
         )
     active_signals_text = "\n".join(signal_lines) if signal_lines else "No active signals configured"
 
