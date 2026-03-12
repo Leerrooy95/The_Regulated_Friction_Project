@@ -1,10 +1,41 @@
 {
   "extraction_timestamp": "2026-03-12T00:00:00",
   "total_entities": 37,
-  "total_relationships": 15,
+  "total_relationships": 0,
   "nodes": {
     "maxwell": {
-      "entities": [],
+      "entities": [
+        {
+          "name": "Ghislaine Maxwell",
+          "type": "PERSON",
+          "context": "clemency, testimony, habeas corpus"
+        },
+        {
+          "name": "Donald Trump",
+          "type": "PERSON",
+          "context": "clemency pardon"
+        },
+        {
+          "name": "David Markus",
+          "type": "PERSON",
+          "context": "attorney"
+        },
+        {
+          "name": "House Oversight Committee",
+          "type": "ORG",
+          "context": "testimony"
+        },
+        {
+          "name": "DOGE",
+          "type": "ORG",
+          "context": "operations"
+        },
+        {
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
+        }
+      ],
       "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
@@ -15,42 +46,32 @@
         {
           "name": "Iran",
           "type": "LOCATION",
-          "context": ""
+          "context": "kinetic/cyber node"
         },
         {
-          "name": "IRGC",
-          "type": "ORG",
-          "context": ""
-        },
-        {
-          "name": "Khamenei",
+          "name": "Ali Khamenei",
           "type": "PERSON",
-          "context": ""
+          "context": "succession"
         },
         {
           "name": "Strait of Hormuz",
           "type": "LOCATION",
-          "context": ""
+          "context": "disruptions"
         },
         {
-          "name": "Assembly of Experts",
+          "name": "US",
+          "type": "LOCATION",
+          "context": "war status"
+        },
+        {
+          "name": "DOGE",
           "type": "ORG",
-          "context": ""
+          "context": "operations"
         },
         {
-          "name": "Ghalibaf",
-          "type": "PERSON",
-          "context": ""
-        },
-        {
-          "name": "CENTCOM",
-          "type": "ORG",
-          "context": ""
-        },
-        {
-          "name": "Hezbollah",
-          "type": "ORG",
-          "context": ""
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
         }
       ],
       "relationships": [],
@@ -58,53 +79,40 @@
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
     },
-    "gulf_swf": {
+    "israel": {
       "entities": [
         {
-          "name": "Saudi PIF",
-          "type": "ORG",
-          "context": ""
+          "name": "Israel",
+          "type": "LOCATION",
+          "context": "cyber/intelligence + tech integration"
         },
         {
-          "name": "Mubadala",
+          "name": "Hezbollah",
           "type": "ORG",
-          "context": ""
+          "context": "strikes"
         },
         {
-          "name": "MGX",
+          "name": "Unit 8200",
           "type": "ORG",
-          "context": ""
+          "context": "tech defense industry"
         },
         {
-          "name": "ADIA",
+          "name": "Board of Peace",
           "type": "ORG",
-          "context": ""
+          "context": "international organization"
         },
         {
-          "name": "QIA",
+          "name": "DOGE",
           "type": "ORG",
-          "context": ""
+          "context": "operations"
         },
         {
-          "name": "OPEC+",
-          "type": "ORG",
-          "context": ""
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
         }
       ],
-      "relationships": [
-        {
-          "from": "Mubadala",
-          "to": "G42",
-          "type": "PARTNERSHIP",
-          "detail": ""
-        },
-        {
-          "from": "MGX",
-          "to": "G42",
-          "type": "PARTNERSHIP",
-          "detail": ""
-        }
-      ],
+      "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
@@ -114,32 +122,27 @@
         {
           "name": "Oracle",
           "type": "ORG",
-          "context": ""
+          "context": "stock price debt bond market"
         },
         {
           "name": "Larry Ellison",
           "type": "PERSON",
-          "context": ""
+          "context": "Warner Bros Discovery acquisition guarantee"
         },
         {
           "name": "OpenAI",
           "type": "ORG",
-          "context": ""
+          "context": "Stargate Abilene data center expansion"
         },
         {
-          "name": "Stargate",
-          "type": "FINANCIAL",
-          "context": ""
-        },
-        {
-          "name": "Warner Bros Discovery",
+          "name": "DOGE",
           "type": "ORG",
-          "context": ""
+          "context": "operations"
         },
         {
-          "name": "Goldman Sachs",
-          "type": "ORG",
-          "context": ""
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
         }
       ],
       "relationships": [],
@@ -150,29 +153,34 @@
     "epstein_files": {
       "entities": [
         {
-          "name": "DOJ",
-          "type": "ORG",
-          "context": ""
+          "name": "Epstein files",
+          "type": "LEGAL",
+          "context": "DOJ releases"
         },
         {
           "name": "Pam Bondi",
           "type": "PERSON",
-          "context": ""
+          "context": "subpoenas"
         },
         {
-          "name": "FBI",
-          "type": "ORG",
-          "context": ""
+          "name": "Donald Trump",
+          "type": "PERSON",
+          "context": "allegations"
         },
         {
           "name": "Bill Clinton",
           "type": "PERSON",
-          "context": ""
+          "context": "depositions"
         },
         {
-          "name": "House Oversight",
+          "name": "DOGE",
           "type": "ORG",
-          "context": ""
+          "context": "operations"
+        },
+        {
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
         }
       ],
       "relationships": [],
@@ -183,34 +191,29 @@
     "arkansas_datacenter": {
       "entities": [
         {
-          "name": "Arkansas Supreme Court",
-          "type": "ORG",
-          "context": ""
-        },
-        {
-          "name": "Governor Huckabee Sanders",
-          "type": "PERSON",
-          "context": ""
-        },
-        {
-          "name": "Entergy",
-          "type": "ORG",
-          "context": ""
-        },
-        {
-          "name": "AVAIO",
-          "type": "ORG",
-          "context": ""
+          "name": "Arkansas",
+          "type": "LOCATION",
+          "context": "preemption / datacenter capital nexus"
         },
         {
           "name": "Google",
           "type": "ORG",
-          "context": ""
+          "context": "data center investments"
         },
         {
-          "name": "Tom Cotton",
-          "type": "PERSON",
-          "context": ""
+          "name": "AVAIO",
+          "type": "ORG",
+          "context": "data center investments"
+        },
+        {
+          "name": "Entergy",
+          "type": "ORG",
+          "context": "utility rates"
+        },
+        {
+          "name": "Schedule Policy Career",
+          "type": "LEGAL",
+          "context": "federal workforce reclassifications"
         }
       ],
       "relationships": [],
@@ -222,22 +225,27 @@
   "convergence_signals": [
     {
       "nodes_involved": [
-        "gulf_swf",
-        "iran"
+        "maxwell",
+        "epstein_files"
       ],
-      "mechanism": "Strait of Hormuz tensions",
+      "mechanism": "related topics",
       "confidence": "LOW"
     },
     {
       "nodes_involved": [
-        "DOGE",
-        "maxwell",
-        "epstein_files",
+        "iran",
+        "israel"
+      ],
+      "mechanism": "regional context",
+      "confidence": "LOW"
+    },
+    {
+      "nodes_involved": [
         "oracle_ellison",
         "arkansas_datacenter"
       ],
-      "mechanism": "federal agency impacts and government efficiency reforms",
-      "confidence": "MEDIUM"
+      "mechanism": "unrelated federal topics",
+      "confidence": "LOW"
     }
   ]
 }

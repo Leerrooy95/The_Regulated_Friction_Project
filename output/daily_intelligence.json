@@ -1,120 +1,142 @@
 {
-  "generated_at": "2026-03-12T19:12:40Z",
+  "generated_at": "2026-03-12T20:21:02Z",
   "generated_by": "Live Trackers daily_intelligence.py (Perplexity sonar-pro)",
   "config_version": "2026-03-11",
   "top_3_developments": [
     {
-      "headline": "DOGE officially wound down by November 2025 short of savings target",
-      "summary": "The Department of Government Efficiency ceased operations in November 2025, achieving ~$800B against a $1T goal, eight months before its July 4, 2026 deadline. Its legacy includes federal workforce disruptions like brain drain, data breaches at Social Security, and nuclear facility staffing issues. Restructuring effects persist through ongoing policy changes.",
-      "event_type": "POLITICAL",
+      "headline": "Government watchdog and Congress investigated allegations of DOGE staffer misusing Social Security data",
+      "summary": "The Social Security Administration's inspector general notified congressional leaders on March 6, 2026, of an anonymous complaint regarding potential misuse of SSA data by a former DOGE employee, including retention of NUMIDENT and Death Master File databases. House Oversight Democrats demanded answers and investigations into DOGE's data access practices. This follows prior disclosures of DOGE's improper data sharing in 2025 and ongoing court fights over data abuse.",
+      "event_type": "INTELLIGENCE",
       "imminence": "ONGOING",
-      "source": "[1]",
-      "timestamp": "November 2025"
+      "source": "[1][6][10][11]",
+      "timestamp": "2026-03-06"
     },
     {
       "headline": "Schedule Policy Career reclassified ~50,000 federal positions to at-will amid hiring freeze thaw",
-      "summary": "OPM implemented Schedule Policy (SP) and Schedule Career (SC) designations, converting ~50,000 GS-13+ policy roles to at-will employment while protecting operational roles. Agencies are auditing positions as the March 2026 hiring freeze ends, enabling budgetary flexibility. Estimates suggest up to 200,000 could be affected.",
+      "summary": "As the federal hiring freeze ended in March 2026, OPM implemented Schedule Policy (SP) for policy-influencing GS-13+ roles, making them at-will with reduced protections, evolving from Schedule F. Schedule Career (SC) protects operational roles, with agencies prioritizing SC for stability while using SP for flexibility. OPM estimates 50,000 positions affected, focusing on grant-makers and policy staff; existing employees have reclassification options.",
       "event_type": "REGULATORY",
       "imminence": "ONGOING",
-      "source": "[2][4]",
-      "timestamp": "March 2026"
+      "source": "[3][5]",
+      "timestamp": "2026-03"
     },
     {
-      "headline": "OPM proposed performance ratings over seniority in RIF retention rules",
-      "summary": "OPM's February 24, 2026 proposal introduced forced distribution for performance ratings, followed by a March 5 rule prioritizing three-year ratings in RIF retention over seniority as a tiebreaker. This supports workforce reshaping post-DOGE by favoring high performers. It ties to broader federal efficiency efforts.",
+      "headline": "OPM proposed performance ratings over seniority for RIF retention in federal layoffs",
+      "summary": "On March 5, 2026, OPM proposed rules shifting RIF retention priority to three-year performance ratings after tenure group, demoting seniority to tiebreaker. Earlier February 24 proposal allows forced distribution in performance ratings. Changes support 'lean government' post-DOGE attrition.",
       "event_type": "REGULATORY",
       "imminence": "IMMINENT",
-      "source": "[6]",
-      "timestamp": "February-March 2026"
+      "source": "[7]",
+      "timestamp": "2026-03-05"
     }
   ],
   "new_alerts": [
     {
-      "headline": "DOGE used ChatGPT to terminate 97% of NEH grants worth $100M, sparking lawsuit",
-      "summary": "DOGE overrode NEH leadership in March-April 2025, using ChatGPT to flag and cancel $100M in grants, terminating 65% of staff amid chaotic processes documented in lawsuit discovery. NEH now prioritizes conservative projects with acting chair renominated.",
+      "headline": "Government watchdog and Congress investigate allegations of DOGE staffer misusing Social Security data",
+      "summary": "The Social Security Administration's inspector general notified congressional leaders on March 6, 2026, of an anonymous complaint regarding potential misuse of SSA data by a former DOGE employee, including retention of NUMIDENT and Death Master File databases. House Oversight Democrats, led by Rep. Robert Garcia, demanded answers and investigations into DOGE's data access practices. This follows prior disclosures of DOGE's improper data sharing in 2025 and ongoing court fights over data abuse.",
+      "event_type": "INTELLIGENCE",
+      "imminence": "ONGOING",
+      "priority": "MEDIUM",
+      "framework_relevance": "Highlights compliance friction from DOGE's federal restructuring efforts, with investigations exposing data privacy violations that could trigger regulatory backlash and workforce instability post-DOGE."
+    },
+    {
+      "headline": "Schedule Policy Career reclassifies ~50,000 federal positions to at-will amid hiring freeze thaw",
+      "summary": "As the federal hiring freeze ends in March 2026, OPM implements Schedule Policy (SP) for policy-influencing GS-13+ roles, making them at-will with reduced protections, evolving from Schedule F. Schedule Career (SC) protects operational roles, with agencies prioritizing SC for stability while using SP for flexibility. OPM estimates 50,000 positions affected, focusing on grant-makers and policy staff; existing employees have reclassification options.",
       "event_type": "REGULATORY",
-      "imminence": "NEAR_TERM",
-      "source": "[3]"
+      "imminence": "ONGOING",
+      "priority": "MEDIUM",
+      "framework_relevance": "Directly enables domestic structural leverage via workforce reclassification, reducing civil service protections to facilitate efficiency reforms during post-DOGE compliance windows."
+    },
+    {
+      "headline": "OPM proposes performance ratings over seniority for RIF retention in federal layoffs",
+      "summary": "On March 5, 2026, OPM proposed rules shifting RIF retention priority to three-year performance ratings after tenure group, demoting seniority to tiebreaker. Earlier February 24 proposal allows forced distribution in performance ratings. Changes support 'lean government' post-DOGE attrition.",
+      "event_type": "REGULATORY",
+      "imminence": "IMMINENT",
+      "priority": "LOW",
+      "framework_relevance": "Advances Track B capital leverage by tying job security to performance, enabling further workforce optimization and compliance with efficiency mandates."
     }
   ],
   "signal_updates": [
     {
       "status": "MONITORING",
-      "headline": "No confirmed developments on Iran war or Strait of Hormuz disruptions",
-      "summary": "Search results for 'Iran war latest today 2026', 'US Iran military operations March 2026', 'Strait of Hormuz shipping disruption', 'Iran retaliation strikes', 'CENTCOM Iran operations today', and 'Iran oil shipping crisis' yielded no relevant information. All results focused on unrelated U.S. domestic topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. No evidence of kinetic events, shipping issues, or military operations involving Iran or the Strait of Hormuz as of March 12, 2026.",
-      "event_type": "KINETIC",
+      "headline": "No confirmed developments on Iran war or Strait of Hormuz disruptions as of March 12, 2026.",
+      "summary": "Search results for terms including 'Iran war latest today 2026', 'US Iran military operations March 2026', 'Strait of Hormuz shipping disruption', 'Iran retaliation strikes', 'CENTCOM Iran operations today', and 'Iran oil shipping crisis' yielded no relevant information. All results pertained to unrelated topics such as the Department of Government Efficiency (DOGE). No events have occurred related to this signal.",
+      "event_type": "MONITORING",
       "imminence": "MONITORING",
+      "original_signal": "Iran war and Strait of Hormuz",
       "category": "KINETIC"
     },
     {
       "status": "MONITORING",
       "headline": "No relevant developments on Board of Peace or Gaza reconstruction",
-      "summary": "Search results for 'Board of Peace', 'Trump Gaza plan', 'EO 14375', 'Gaza reconstruction', and 'International Stabilization Force' returned no relevant information. All results pertained to unrelated U.S. federal workforce reclassifications such as Schedule Policy Career and OPM rules. No confirmed existence or current status of the Board of Peace or associated Gaza reconstruction efforts found.",
-      "event_type": "MONITORING",
+      "summary": "Search results for 'Board of Peace', 'Trump Gaza plan', 'EO 14375', 'Gaza reconstruction', and 'International Stabilization Force' returned no relevant information. All results pertain to unrelated U.S. federal workforce reclassifications such as Schedule Policy and Schedule Career. No confirmed existence or current status of the Board of Peace or associated Gaza reconstruction efforts found.",
+      "event_type": "POLITICAL",
       "imminence": "MONITORING",
+      "original_signal": "Board of Peace and Gaza reconstruction",
       "category": "POLITICAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No new developments on Gulf SWF capital movements",
-      "summary": "Search results for PIF investment, Mubadala acquisition, Gulf sovereign wealth, and MGX investment yielded no relevant information on current Gulf sovereign wealth fund capital movements. All results focused on unrelated U.S. federal government topics such as DOGE and workforce reclassifications. No confirmed financial activities or transactions reported.",
+      "headline": "No relevant Gulf SWF capital movement developments found in current search results",
+      "summary": "Search results provided contain no information about PIF investments, Mubadala acquisitions, Gulf sovereign wealth fund activities, or MGX investment movements as of March 12, 2026. The available search results focus exclusively on DOGE operations, federal workforce restructuring (Schedule Policy/Career), NEH grant terminations, and disability benefits changes—none of which relate to the requested signal.",
       "event_type": "FINANCIAL",
       "imminence": "MONITORING",
+      "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No new developments on Epstein document releases or Maxwell clemency",
-      "summary": "Search results for 'Epstein files', 'DOJ Epstein', 'Epstein documents released', 'Maxwell clemency', 'Maxwell testimony', and 'H.Res.913' returned no relevant information. All results pertained to unrelated topics such as federal workforce reclassifications under Schedule Policy/Career. No confirmed events, ongoing releases, or clemency actions reported.",
+      "headline": "No current developments found regarding Epstein document releases or Maxwell clemency as of March 12, 2026",
+      "summary": "Search results provided do not contain information about Epstein files, DOJ Epstein proceedings, Epstein document releases, Maxwell clemency, Maxwell testimony, or H.Res.913. The search results focus exclusively on DOGE (Department of Government Efficiency) operations, federal workforce restructuring, and NEH grant terminations. No relevant intelligence on the requested signal was found in the available search results.",
       "event_type": "INTELLIGENCE",
       "imminence": "MONITORING",
+      "original_signal": "Epstein document releases and Maxwell clemency",
       "category": "INTELLIGENCE"
     },
     {
-      "status": "MONITORING",
-      "headline": "No new developments in Russia-Ukraine negotiations",
-      "summary": "No relevant search results were found for 'Russia Ukraine talks', 'Russia Ukraine peace', 'Zelensky Putin', or 'Ukraine ceasefire'. All provided search results pertain to unrelated U.S. federal government topics such as DOGE and Schedule Policy reclassifications. Status remains under monitoring with no confirmed activity.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING",
-      "category": "POLITICAL"
+      "original_signal": "Russia-Ukraine negotiations",
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": ""
     },
     {
       "status": "RESOLVED",
-      "headline": "DOGE officially wound down by November 2025, eight months short of $1 trillion savings target; restructuring effects now embedded in federal workforce policy",
-      "summary": "The Department of Government Efficiency ceased active operations by November 2025, having achieved approximately $800 billion in cuts against its revised $1 trillion goal, according to Reuters reporting[1]. DOGE's legacy persists through Schedule Policy/Career reclassifications affecting ~50,000 federal positions and ongoing federal workforce restructuring, but the organization itself is no longer operationally active. Current federal hiring thaw (March 2026) reflects post-DOGE workforce stabilization efforts rather than DOGE initiatives.",
+      "headline": "DOGE has shut down, with federal restructuring continuing via Schedule Policy Career reclassifications.",
+      "summary": "DOGE ceased operations by November 2025, eight months short of its July 4, 2026 charter deadline and failing to achieve promised budget cuts.[1] Its actions caused federal workforce reductions, brain drain, and agency disruptions like NEH grant terminations, but the initiative has ended.[1][3] Current restructuring persists through 'Schedule Policy Career' reclassifications of ~50,000 positions to at-will status, ending the hiring freeze with new job security distinctions.[2][4]",
       "event_type": "REGULATORY",
       "imminence": "ONGOING",
+      "original_signal": "DOGE federal restructuring",
       "category": "POLITICAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No relevant search results found for AI Pentagon contracts and compliance signal",
-      "summary": "The provided search results contain no information about Pentagon AI contracts, Anthropic Pentagon work, xAI military engagement, or OpenAI defense contracts. Search results focus exclusively on DOGE restructuring, federal workforce reclassification (Schedule Policy/Career), NEH grant terminations, and federal employee protections. No developments detected on the requested AI Pentagon contracts and compliance signal.",
-      "event_type": "REGULATORY",
+      "headline": "No new developments on AI Pentagon contracts and compliance",
+      "summary": "Search results for Pentagon AI contract, Anthropic Pentagon, xAI military, and OpenAI defense contract yielded no relevant information. All results focused on unrelated topics such as DOGE operations, federal workforce reclassifications, and grant terminations. No confirmed contracts, compliance issues, or ongoing AI-related Pentagon activities reported.",
+      "event_type": "MONITORING",
       "imminence": "MONITORING",
+      "original_signal": "AI Pentagon contracts and compliance",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
       "headline": "No new developments on Oracle and Stargate infrastructure",
-      "summary": "Search results for Oracle stock, Oracle debt, Stargate AI, and Oracle Ellison returned no relevant information directly related to the signal. All results focused on unrelated topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. No updates on Oracle's involvement or status with Stargate infrastructure were found.",
+      "summary": "No relevant search results were found for Oracle stock, Oracle debt, Stargate AI, or Oracle Ellison in relation to the signal. All results pertained to unrelated topics such as DOGE and federal workforce changes. Status remains under monitoring with no confirmed activity.",
       "event_type": "FINANCIAL",
       "imminence": "MONITORING",
+      "original_signal": "Oracle and Stargate infrastructure",
       "category": "FINANCIAL"
     }
   ],
   "priority_watchlist": [
-    "Federal workforce reclassification audits under Schedule Policy/Career (March 2026 hiring thaw)",
-    "OPM performance ratings and RIF retention rule finalization (post-March 2026 proposals)",
-    "NEH grant termination lawsuit developments and McDonald chair nomination",
-    "Post-DOGE federal agency stabilization and brain drain recovery",
-    "Ongoing monitoring of KINETIC signals (Iran, Strait of Hormuz) and INTELLIGENCE signals (Epstein, Maxwell)"
+    "DOGE SSA data misuse investigations and congressional probes",
+    "Schedule Policy Career reclassifications impacting 50,000 federal positions",
+    "OPM RIF retention rule changes prioritizing performance over seniority",
+    "Ongoing NEH grant termination lawsuits from DOGE actions",
+    "Post-DOGE federal workforce brain drain and agency disruptions"
   ],
   "signal_status": [
     {
       "status": "MONITORING",
-      "headline": "No confirmed developments on Iran war or Strait of Hormuz disruptions",
-      "summary": "Search results for 'Iran war latest today 2026', 'US Iran military operations March 2026', 'Strait of Hormuz shipping disruption', 'Iran retaliation strikes', 'CENTCOM Iran operations today', and 'Iran oil shipping crisis' yielded no relevant information. All results focused on unrelated U.S. domestic topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. No evidence of kinetic events, shipping issues, or military operations involving Iran or the Strait of Hormuz as of March 12, 2026.",
+      "headline": "No confirmed developments on Iran war or Strait of Hormuz disruptions as of March 12, 2026.",
+      "summary": "Search results for terms including 'Iran war latest today 2026', 'US Iran military operations March 2026', 'Strait of Hormuz shipping disruption', 'Iran retaliation strikes', 'CENTCOM Iran operations today', and 'Iran oil shipping crisis' yielded no relevant information. All results pertained to unrelated topics such as the Department of Government Efficiency (DOGE). No events have occurred related to this signal.",
       "event_type": "MONITORING",
       "imminence": "MONITORING",
       "sources": [],
@@ -125,8 +147,8 @@
     {
       "status": "MONITORING",
       "headline": "No relevant developments on Board of Peace or Gaza reconstruction",
-      "summary": "Search results for 'Board of Peace', 'Trump Gaza plan', 'EO 14375', 'Gaza reconstruction', and 'International Stabilization Force' returned no relevant information. All results pertained to unrelated U.S. federal workforce reclassifications such as Schedule Policy Career and OPM rules. No confirmed existence or current status of the Board of Peace or associated Gaza reconstruction efforts found.",
-      "event_type": "MONITORING",
+      "summary": "Search results for 'Board of Peace', 'Trump Gaza plan', 'EO 14375', 'Gaza reconstruction', and 'International Stabilization Force' returned no relevant information. All results pertain to unrelated U.S. federal workforce reclassifications such as Schedule Policy and Schedule Career. No confirmed existence or current status of the Board of Peace or associated Gaza reconstruction efforts found.",
+      "event_type": "POLITICAL",
       "imminence": "MONITORING",
       "sources": [],
       "timestamp": "2026-03-12",
@@ -135,19 +157,20 @@
     },
     {
       "status": "MONITORING",
-      "headline": "No new developments on Gulf SWF capital movements",
-      "summary": "Search results for PIF investment, Mubadala acquisition, Gulf sovereign wealth, and MGX investment yielded no relevant information on current Gulf sovereign wealth fund capital movements. All results focused on unrelated U.S. federal government topics such as DOGE and workforce reclassifications. No confirmed financial activities or transactions reported.",
+      "headline": "No relevant Gulf SWF capital movement developments found in current search results",
+      "summary": "Search results provided contain no information about PIF investments, Mubadala acquisitions, Gulf sovereign wealth fund activities, or MGX investment movements as of March 12, 2026. The available search results focus exclusively on DOGE operations, federal workforce restructuring (Schedule Policy/Career), NEH grant terminations, and disability benefits changes—none of which relate to the requested signal.",
       "event_type": "FINANCIAL",
       "imminence": "MONITORING",
       "sources": [],
       "timestamp": "2026-03-12",
+      "note": "The search results provided do not contain any articles or data addressing Gulf sovereign wealth fund capital movements, PIF activities, Mubadala transactions, MGX positions, or related Gulf financial signals. To properly assess this signal, independent searches specifically targeting these entities and their recent transactions would be required.",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No new developments on Epstein document releases or Maxwell clemency",
-      "summary": "Search results for 'Epstein files', 'DOJ Epstein', 'Epstein documents released', 'Maxwell clemency', 'Maxwell testimony', and 'H.Res.913' returned no relevant information. All results pertained to unrelated topics such as federal workforce reclassifications under Schedule Policy/Career. No confirmed events, ongoing releases, or clemency actions reported.",
+      "headline": "No current developments found regarding Epstein document releases or Maxwell clemency as of March 12, 2026",
+      "summary": "Search results provided do not contain information about Epstein files, DOJ Epstein proceedings, Epstein document releases, Maxwell clemency, Maxwell testimony, or H.Res.913. The search results focus exclusively on DOGE (Department of Government Efficiency) operations, federal workforce restructuring, and NEH grant terminations. No relevant intelligence on the requested signal was found in the available search results.",
       "event_type": "INTELLIGENCE",
       "imminence": "MONITORING",
       "sources": [],
@@ -156,44 +179,23 @@
       "category": "INTELLIGENCE"
     },
     {
-      "status": "MONITORING",
-      "headline": "No new developments in Russia-Ukraine negotiations",
-      "summary": "No relevant search results were found for 'Russia Ukraine talks', 'Russia Ukraine peace', 'Zelensky Putin', or 'Ukraine ceasefire'. All provided search results pertain to unrelated U.S. federal government topics such as DOGE and Schedule Policy reclassifications. Status remains under monitoring with no confirmed activity.",
-      "event_type": "POLITICAL",
-      "imminence": "MONITORING",
-      "sources": [],
-      "timestamp": "2026-03-12",
       "original_signal": "Russia-Ukraine negotiations",
-      "category": "POLITICAL"
+      "status": "ERROR",
+      "headline": "Check failed",
+      "summary": "",
+      "sources": []
     },
     {
       "status": "RESOLVED",
-      "headline": "DOGE officially wound down by November 2025, eight months short of $1 trillion savings target; restructuring effects now embedded in federal workforce policy",
-      "summary": "The Department of Government Efficiency ceased active operations by November 2025, having achieved approximately $800 billion in cuts against its revised $1 trillion goal, according to Reuters reporting[1]. DOGE's legacy persists through Schedule Policy/Career reclassifications affecting ~50,000 federal positions and ongoing federal workforce restructuring, but the organization itself is no longer operationally active. Current federal hiring thaw (March 2026) reflects post-DOGE workforce stabilization efforts rather than DOGE initiatives.",
+      "headline": "DOGE has shut down, with federal restructuring continuing via Schedule Policy Career reclassifications.",
+      "summary": "DOGE ceased operations by November 2025, eight months short of its July 4, 2026 charter deadline and failing to achieve promised budget cuts.[1] Its actions caused federal workforce reductions, brain drain, and agency disruptions like NEH grant terminations, but the initiative has ended.[1][3] Current restructuring persists through 'Schedule Policy Career' reclassifications of ~50,000 positions to at-will status, ending the hiring freeze with new job security distinctions.[2][4]",
       "event_type": "REGULATORY",
       "imminence": "ONGOING",
-      "details": {
-        "operational_status": "DEFUNCT",
-        "shutdown_date": "November 2025",
-        "final_performance": "Achieved ~$800B of $1T revised target (originally promised $2T by July 4, 2026)[1]",
-        "legacy_mechanisms": [
-          "Schedule Policy/Career reclassifications converting ~50,000 career positions to at-will employment[2][4]",
-          "Federal workforce reduction creating 'brain drain' of essential expertise[1]",
-          "Restructured grant termination processes (e.g., NEH $100M+ terminations via ChatGPT-assisted review)[3]"
-        ],
-        "documented_failures": [
-          "Social Security Administration data breaches affecting nearly all Americans[1]",
-          "Nuclear weapons facility staffing disruptions (fired then rehired workers)[1]",
-          "USAID abrupt shutdown disrupting global food aid and nutrition programs[1]",
-          "NEH grant terminations using unqualified DOGE staff and AI without proper review[3]"
-        ],
-        "current_federal_workforce_impact": "March 2026 hiring freeze thaw emphasizes Schedule Career (protected) roles for operational continuity while maintaining Schedule Policy (at-will) positions for policy-level flexibility[2]"
-      },
       "sources": [
-        1,
-        2,
-        3,
-        4
+        "[1]",
+        "[2]",
+        "[3]",
+        "[4]"
       ],
       "timestamp": "2026-03-12",
       "original_signal": "DOGE federal restructuring",
@@ -201,20 +203,19 @@
     },
     {
       "status": "MONITORING",
-      "headline": "No relevant search results found for AI Pentagon contracts and compliance signal",
-      "summary": "The provided search results contain no information about Pentagon AI contracts, Anthropic Pentagon work, xAI military engagement, or OpenAI defense contracts. Search results focus exclusively on DOGE restructuring, federal workforce reclassification (Schedule Policy/Career), NEH grant terminations, and federal employee protections. No developments detected on the requested AI Pentagon contracts and compliance signal.",
-      "event_type": "REGULATORY",
+      "headline": "No new developments on AI Pentagon contracts and compliance",
+      "summary": "Search results for Pentagon AI contract, Anthropic Pentagon, xAI military, and OpenAI defense contract yielded no relevant information. All results focused on unrelated topics such as DOGE operations, federal workforce reclassifications, and grant terminations. No confirmed contracts, compliance issues, or ongoing AI-related Pentagon activities reported.",
+      "event_type": "MONITORING",
       "imminence": "MONITORING",
       "sources": [],
       "timestamp": "2026-03-12",
-      "note": "The search results provided do not contain any information relevant to the 'AI Pentagon contracts and compliance' signal. To properly assess this signal, independent searches for 'Pentagon AI contract,' 'Anthropic Pentagon,' 'xAI military,' and 'OpenAI defense contract' would be required. Current dataset is insufficient for signal analysis.",
       "original_signal": "AI Pentagon contracts and compliance",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
       "headline": "No new developments on Oracle and Stargate infrastructure",
-      "summary": "Search results for Oracle stock, Oracle debt, Stargate AI, and Oracle Ellison returned no relevant information directly related to the signal. All results focused on unrelated topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. No updates on Oracle's involvement or status with Stargate infrastructure were found.",
+      "summary": "No relevant search results were found for Oracle stock, Oracle debt, Stargate AI, or Oracle Ellison in relation to the signal. All results pertained to unrelated topics such as DOGE and federal workforce changes. Status remains under monitoring with no confirmed activity.",
       "event_type": "FINANCIAL",
       "imminence": "MONITORING",
       "sources": [],
@@ -225,48 +226,58 @@
   ],
   "breaking_news": [
     {
-      "headline": "DOGE reported as defunct since November 2025, falling short of $1 trillion savings goal by July 4, 2026 deadline",
-      "summary": "Elon Musk's Department of Government Efficiency (DOGE) ceased operations around November 2025, eight months before its charter deadline, after achieving only partial savings far below its $1-2 trillion target. The initiative caused federal workforce disruptions, including firings and rehiring at critical agencies, data mishandling at Social Security, and abrupt USAID closure, leading to brain drain and inefficiencies. Critics highlight unfulfilled promises, privacy risks, and long-term costs outweighing benefits.",
-      "event_type": "POLITICAL",
+      "headline": "Government watchdog and Congress investigate allegations of DOGE staffer misusing Social Security data",
+      "summary": "The Social Security Administration's inspector general notified congressional leaders on March 6, 2026, of an anonymous complaint regarding potential misuse of SSA data by a former DOGE employee, including retention of NUMIDENT and Death Master File databases. House Oversight Democrats, led by Rep. Robert Garcia, demanded answers and investigations into DOGE's data access practices. This follows prior disclosures of DOGE's improper data sharing in 2025 and ongoing court fights over data abuse.",
+      "event_type": "INTELLIGENCE",
       "imminence": "ONGOING",
       "priority": "MEDIUM",
-      "framework_relevance": "DOGE's wind-down exemplifies domestic structural restructuring (Track B) via workforce attrition and agency upheavals, creating compliance windows amid fiscal reform debates post-failure.",
-      "sources": "[1]",
-      "timestamp": "November 2025"
+      "framework_relevance": "Highlights compliance friction from DOGE's federal restructuring efforts, with investigations exposing data privacy violations that could trigger regulatory backlash and workforce instability post-DOGE.",
+      "sources": "[1][6][10][11]",
+      "timestamp": "2026-03-06"
     },
     {
-      "headline": "Schedule Policy Career reclassifies ~50,000 federal positions to at-will employment as hiring freeze ends March 2026",
-      "summary": "OPM's new Schedule Policy (SP) and Schedule Career (SC) designations replace Schedule F, making ~50,000 GS-13+ policy roles at-will with reduced protections, while operational roles retain tenure. Agencies are auditing positions for reclassification amid thawing hiring freeze, prioritizing mission-critical SC hires for stability. This enables budgetary flexibility and right-sizing, contested estimates suggest up to 200,000 affected.",
+      "headline": "DOGE reported as defunct after failing to meet goals, causing federal workforce brain drain",
+      "summary": "Reuters reported in November 2025 that DOGE had ended operations eight months short of its July 4, 2026 charter deadline, having achieved only partial savings against its $1-2 trillion targets. The initiative led to indiscriminate federal workforce reductions, resulting in loss of expertise, new inefficiencies, and privacy issues. No updates to DOGE's 'Wall of Receipts' since October 2025 confirm its wind-down.",
+      "event_type": "POLITICAL",
+      "imminence": "NEAR_TERM",
+      "priority": "MEDIUM",
+      "framework_relevance": "DOGE aftermath effects include institutional upheaval and accountability probes, aligning with Track B structural restructuring amid friction from unfulfilled promises and operational fallout.",
+      "sources": "[2]",
+      "timestamp": "2025-11"
+    },
+    {
+      "headline": "Schedule Policy Career reclassifies ~50,000 federal positions to at-will amid hiring freeze thaw",
+      "summary": "As the federal hiring freeze ends in March 2026, OPM implements Schedule Policy (SP) for policy-influencing GS-13+ roles, making them at-will with reduced protections, evolving from Schedule F. Schedule Career (SC) protects operational roles, with agencies prioritizing SC for stability while using SP for flexibility. OPM estimates 50,000 positions affected, focusing on grant-makers and policy staff; existing employees have reclassification options.",
       "event_type": "REGULATORY",
       "imminence": "ONGOING",
       "priority": "MEDIUM",
-      "framework_relevance": "Advances Track B capital leverage through federal workforce restructuring, reducing civil service protections to align with lean government, correlating with DOGE aftermath effects.",
-      "sources": "[2][4]",
-      "timestamp": "March 2026"
+      "framework_relevance": "Directly enables domestic structural leverage via workforce reclassification, reducing civil service protections to facilitate efficiency reforms during post-DOGE compliance windows.",
+      "sources": "[3][5]",
+      "timestamp": "2026-03"
     },
     {
-      "headline": "DOGE used ChatGPT to terminate 97% of NEH grants worth $100M in 22 days, sparking lawsuit",
-      "summary": "In March-April 2025, DOGE's Small Agencies Team overrode NEH leadership, employing ChatGPT to flag DEI-related grants for cancellation under Trump EOs, terminating $100M and 65% of staff. Internal documents reveal chaotic process, unauthorized terminations, and pressure tactics; lawsuit by academic groups alleges separation of powers violation. NEH now funds conservative projects, with acting chair renominated.",
+      "headline": "DOGE used ChatGPT to terminate 97% of NEH grants, sparking lawsuit over unlawful actions",
+      "summary": "Internal documents reveal DOGE prompted ChatGPT to flag NEH grants for DEI-related termination per Trump EOs, leading to $100M cuts and 65% staff reductions in 22 days from March 12, 2025. Lawsuits by academic groups accuse violations of separation of powers, with DOGE staff sending erroneous termination letters. NEH now favors conservative projects amid understaffing.",
       "event_type": "REGULATORY",
       "imminence": "NEAR_TERM",
       "priority": "MEDIUM",
-      "framework_relevance": "Illustrates DOGE-driven institutional compliance (Track B) via rapid grant cuts and staff reductions, heightening friction in humanities funding amid political realignment.",
-      "sources": "[3]",
-      "timestamp": "March-April 2025"
+      "framework_relevance": "Exemplifies DOGE-driven institutional compliance through rapid grant and workforce cuts, creating friction via legal challenges that test executive overreach boundaries.",
+      "sources": "[4]",
+      "timestamp": "2025-03-12 to 2025-04-01"
     },
     {
-      "headline": "OPM proposes performance ratings over seniority in RIF retention and forced distribution systems",
-      "summary": "On February 24, 2026, OPM proposed forced distribution for performance ratings; March 5 rule shifts RIF retention priority to three-year ratings post-tenure, demoting seniority to tiebreaker. Aims to prioritize high performers amid workforce reshaping. Ties to broader federal efficiency efforts post-DOGE.",
+      "headline": "OPM proposes performance ratings over seniority for RIF retention in federal layoffs",
+      "summary": "On March 5, 2026, OPM proposed rules shifting RIF retention priority to three-year performance ratings after tenure group, demoting seniority to tiebreaker. Earlier February 24 proposal allows forced distribution in performance ratings. Changes support 'lean government' post-DOGE attrition.",
       "event_type": "REGULATORY",
       "imminence": "IMMINENT",
-      "priority": "MEDIUM",
-      "framework_relevance": "Supports Track B restructuring by enabling performance-based layoffs, facilitating compliance in federal workforce post-DOGE brain drain and hiring thaw.",
-      "sources": "[6]",
-      "timestamp": "February-March 2026"
+      "priority": "LOW",
+      "framework_relevance": "Advances Track B capital leverage by tying job security to performance, enabling further workforce optimization and compliance with efficiency mandates.",
+      "sources": "[7]",
+      "timestamp": "2026-03-05"
     }
   ],
   "entities_scanned": 59,
   "api_calls_made": 10,
-  "daily_budget_used": 28,
+  "daily_budget_used": 46,
   "daily_budget_limit": 75
 }
