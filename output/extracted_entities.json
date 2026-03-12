@@ -1,46 +1,10 @@
 {
   "extraction_timestamp": "2026-03-12T00:00:00",
   "total_entities": 37,
-  "total_relationships": 0,
+  "total_relationships": 15,
   "nodes": {
     "maxwell": {
-      "entities": [
-        {
-          "name": "Ghislaine Maxwell",
-          "type": "PERSON",
-          "context": "clemency negotiations"
-        },
-        {
-          "name": "Donald Trump",
-          "type": "PERSON",
-          "context": "clemency discussions"
-        },
-        {
-          "name": "House Oversight Committee",
-          "type": "ORG",
-          "context": "testimony"
-        },
-        {
-          "name": "Epstein files",
-          "type": "LEGAL",
-          "context": "network leverage"
-        },
-        {
-          "name": "DOGE",
-          "type": "ORG",
-          "context": "federal government restructuring initiative"
-        },
-        {
-          "name": "Elon Musk",
-          "type": "PERSON",
-          "context": "DOGE initiative"
-        },
-        {
-          "name": "Vivek Ramaswamy",
-          "type": "PERSON",
-          "context": "DOGE initiative"
-        }
-      ],
+      "entities": [],
       "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
@@ -51,32 +15,42 @@
         {
           "name": "Iran",
           "type": "LOCATION",
-          "context": "US war status"
+          "context": ""
         },
         {
-          "name": "Ali Khamenei",
+          "name": "IRGC",
+          "type": "ORG",
+          "context": ""
+        },
+        {
+          "name": "Khamenei",
           "type": "PERSON",
-          "context": "succession"
+          "context": ""
         },
         {
           "name": "Strait of Hormuz",
           "type": "LOCATION",
-          "context": "shipping disruptions"
+          "context": ""
         },
         {
-          "name": "CRINK",
-          "type": "FRAMEWORK",
-          "context": "China-Russia-Iran-North Korea coordination bloc"
-        },
-        {
-          "name": "DOGE",
+          "name": "Assembly of Experts",
           "type": "ORG",
-          "context": "federal government restructuring initiative"
+          "context": ""
         },
         {
-          "name": "Elon Musk",
+          "name": "Ghalibaf",
           "type": "PERSON",
-          "context": "DOGE initiative"
+          "context": ""
+        },
+        {
+          "name": "CENTCOM",
+          "type": "ORG",
+          "context": ""
+        },
+        {
+          "name": "Hezbollah",
+          "type": "ORG",
+          "context": ""
         }
       ],
       "relationships": [],
@@ -89,73 +63,48 @@
         {
           "name": "Saudi PIF",
           "type": "ORG",
-          "context": "investment strategy"
+          "context": ""
         },
         {
           "name": "Mubadala",
           "type": "ORG",
-          "context": "AI investments"
+          "context": ""
         },
         {
           "name": "MGX",
           "type": "ORG",
-          "context": "AI investments"
+          "context": ""
         },
         {
-          "name": "Strait of Hormuz",
-          "type": "LOCATION",
-          "context": "shipping disruptions"
-        },
-        {
-          "name": "DOGE",
+          "name": "ADIA",
           "type": "ORG",
-          "context": "federal government restructuring initiative"
+          "context": ""
         },
         {
-          "name": "Elon Musk",
-          "type": "PERSON",
-          "context": "DOGE initiative"
+          "name": "QIA",
+          "type": "ORG",
+          "context": ""
+        },
+        {
+          "name": "OPEC+",
+          "type": "ORG",
+          "context": ""
         }
       ],
-      "relationships": [],
-      "temporal_markers": [],
-      "event_classification": "NEUTRAL",
-      "cross_node_connections": []
-    },
-    "israel": {
-      "entities": [
+      "relationships": [
         {
-          "name": "Israel",
-          "type": "LOCATION",
-          "context": "cyber/intelligence tech integration"
+          "from": "Mubadala",
+          "to": "G42",
+          "type": "PARTNERSHIP",
+          "detail": ""
         },
         {
-          "name": "Unit 8200",
-          "type": "ORG",
-          "context": "intelligence operations"
-        },
-        {
-          "name": "NSO Group",
-          "type": "ORG",
-          "context": "intelligence operations"
-        },
-        {
-          "name": "Board of Peace",
-          "type": "ORG",
-          "context": "international organization"
-        },
-        {
-          "name": "DOGE",
-          "type": "ORG",
-          "context": "federal government restructuring initiative"
-        },
-        {
-          "name": "Elon Musk",
-          "type": "PERSON",
-          "context": "DOGE initiative"
+          "from": "MGX",
+          "to": "G42",
+          "type": "PARTNERSHIP",
+          "detail": ""
         }
       ],
-      "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
@@ -165,22 +114,32 @@
         {
           "name": "Oracle",
           "type": "ORG",
-          "context": "financial stress"
+          "context": ""
         },
         {
           "name": "Larry Ellison",
           "type": "PERSON",
-          "context": "Warner Bros Discovery acquisition guarantee"
+          "context": ""
         },
         {
-          "name": "Stargate Abilene",
-          "type": "PROJECT",
-          "context": "data center expansion"
+          "name": "OpenAI",
+          "type": "ORG",
+          "context": ""
+        },
+        {
+          "name": "Stargate",
+          "type": "FINANCIAL",
+          "context": ""
         },
         {
           "name": "Warner Bros Discovery",
           "type": "ORG",
-          "context": "acquisition guarantee"
+          "context": ""
+        },
+        {
+          "name": "Goldman Sachs",
+          "type": "ORG",
+          "context": ""
         }
       ],
       "relationships": [],
@@ -193,32 +152,27 @@
         {
           "name": "DOJ",
           "type": "ORG",
-          "context": "Epstein file releases"
-        },
-        {
-          "name": "Epstein files",
-          "type": "LEGAL",
-          "context": "file releases"
+          "context": ""
         },
         {
           "name": "Pam Bondi",
           "type": "PERSON",
-          "context": "subpoenas"
+          "context": ""
         },
         {
-          "name": "House Oversight Committee",
+          "name": "FBI",
           "type": "ORG",
-          "context": "congressional actions"
+          "context": ""
         },
         {
-          "name": "DOGE",
-          "type": "ORG",
-          "context": "federal government restructuring initiative"
-        },
-        {
-          "name": "Elon Musk",
+          "name": "Bill Clinton",
           "type": "PERSON",
-          "context": "DOGE initiative"
+          "context": ""
+        },
+        {
+          "name": "House Oversight",
+          "type": "ORG",
+          "context": ""
         }
       ],
       "relationships": [],
@@ -229,34 +183,34 @@
     "arkansas_datacenter": {
       "entities": [
         {
-          "name": "Arkansas",
-          "type": "LOCATION",
-          "context": "data center investments"
+          "name": "Arkansas Supreme Court",
+          "type": "ORG",
+          "context": ""
         },
         {
-          "name": "Google",
-          "type": "ORG",
-          "context": "data center investments"
-        },
-        {
-          "name": "AVAIO",
-          "type": "ORG",
-          "context": "data center investments"
+          "name": "Governor Huckabee Sanders",
+          "type": "PERSON",
+          "context": ""
         },
         {
           "name": "Entergy",
           "type": "ORG",
-          "context": "utility rates"
+          "context": ""
         },
         {
-          "name": "DOGE",
+          "name": "AVAIO",
           "type": "ORG",
-          "context": "federal government restructuring initiative"
+          "context": ""
         },
         {
-          "name": "Elon Musk",
+          "name": "Google",
+          "type": "ORG",
+          "context": ""
+        },
+        {
+          "name": "Tom Cotton",
           "type": "PERSON",
-          "context": "DOGE initiative"
+          "context": ""
         }
       ],
       "relationships": [],
@@ -265,5 +219,25 @@
       "cross_node_connections": []
     }
   },
-  "convergence_signals": []
+  "convergence_signals": [
+    {
+      "nodes_involved": [
+        "gulf_swf",
+        "iran"
+      ],
+      "mechanism": "Strait of Hormuz tensions",
+      "confidence": "LOW"
+    },
+    {
+      "nodes_involved": [
+        "DOGE",
+        "maxwell",
+        "epstein_files",
+        "oracle_ellison",
+        "arkansas_datacenter"
+      ],
+      "mechanism": "federal agency impacts and government efficiency reforms",
+      "confidence": "MEDIUM"
+    }
+  ]
 }
