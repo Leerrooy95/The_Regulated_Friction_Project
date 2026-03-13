@@ -1,36 +1,326 @@
 {
-  "extraction_timestamp": "2026-03-12T00:00:00Z",
-  "total_entities": 0,
-  "total_relationships": 0,
+  "extraction_timestamp": "2026-03-13T00:00:00Z",
+  "total_entities": 37,
+  "total_relationships": 15,
   "nodes": {
-    "iran": {
-      "entities": [],
+    "maxwell": {
+      "entities": [
+        {
+          "name": "Ghislaine Maxwell",
+          "type": "PERSON",
+          "context": "Subject of clemency petition and habeas corpus proceedings"
+        },
+        {
+          "name": "DOJ",
+          "type": "ORG",
+          "context": "Department of Justice involved in Maxwell's case"
+        }
+      ],
       "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
+    },
+    "iran": {
+      "entities": [
+        {
+          "name": "Iran",
+          "type": "LOCATION",
+          "context": "Location of kinetic and cyber operations"
+        },
+        {
+          "name": "IRGC",
+          "type": "ORG",
+          "context": "Islamic Revolutionary Guard Corps involved in operations"
+        },
+        {
+          "name": "Hezbollah",
+          "type": "ORG",
+          "context": "Hezbollah involved in operations against Israel"
+        },
+        {
+          "name": "Strait of Hormuz",
+          "type": "LOCATION",
+          "context": "Critical oil shipping chokepoint"
+        },
+        {
+          "name": "CENTCOM",
+          "type": "ORG",
+          "context": "US Central Command involved in operations"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "Iran",
+          "to": "IRGC",
+          "type": "affiliation",
+          "detail": ""
+        },
+        {
+          "from": "Hezbollah",
+          "to": "Iran",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
+      "temporal_markers": [],
+      "event_classification": "NEUTRAL",
+      "cross_node_connections": [
+        {
+          "target_node": "gulf_swf",
+          "connection_type": "related conflict",
+          "detail": "Iran war affecting Gaza peace plan"
+        }
+      ]
     },
     "gulf_swf": {
-      "entities": [],
-      "relationships": [],
+      "entities": [
+        {
+          "name": "Board of Peace",
+          "type": "ORG",
+          "context": "International organization for Gaza reconstruction"
+        },
+        {
+          "name": "Trump administration",
+          "type": "ORG",
+          "context": "Administration involved in Gaza peace plan"
+        },
+        {
+          "name": "Hamas",
+          "type": "ORG",
+          "context": "Organization involved in Gaza peace plan negotiations"
+        },
+        {
+          "name": "Israel",
+          "type": "LOCATION",
+          "context": "Location involved in Gaza peace plan"
+        },
+        {
+          "name": "Gaza Strip",
+          "type": "LOCATION",
+          "context": "Location of conflict and peace plan implementation"
+        },
+        {
+          "name": "National Committee for the Administration of Gaza (NCAG)",
+          "type": "ORG",
+          "context": "Organization involved in Gaza peace plan implementation"
+        },
+        {
+          "name": "International Stabilization Force (ISF)",
+          "type": "ORG",
+          "context": "Force involved in Gaza peace plan implementation"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "Board of Peace",
+          "to": "Trump administration",
+          "type": "affiliation",
+          "detail": ""
+        },
+        {
+          "from": "Hamas",
+          "to": "Gaza Strip",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
+      "temporal_markers": [
+        {
+          "date": "2026-01-14",
+          "event": "National Committee for the Administration of Gaza (NCAG) announced",
+          "significance": "Gaza peace plan implementation milestone"
+        }
+      ],
+      "event_classification": "ESCALATION",
+      "cross_node_connections": [
+        {
+          "target_node": "iran",
+          "connection_type": "related conflict",
+          "detail": "Iran war affecting Gaza peace plan implementation"
+        }
+      ]
+    },
+    "israel": {
+      "entities": [
+        {
+          "name": "Israel",
+          "type": "LOCATION",
+          "context": "Location involved in Operation Epic Fury"
+        },
+        {
+          "name": "Unit 8200",
+          "type": "ORG",
+          "context": "Israeli cyber operations unit"
+        },
+        {
+          "name": "Hezbollah",
+          "type": "ORG",
+          "context": "Organization involved in conflict with Israel"
+        },
+        {
+          "name": "Operation Epic Fury",
+          "type": "EVENT",
+          "context": "US-Israel joint military operation"
+        },
+        {
+          "name": "Abraham Accords",
+          "type": "ORG",
+          "context": "International agreement involving Israel"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "Unit 8200",
+          "to": "Israel",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
+      "temporal_markers": [],
+      "event_classification": "NEUTRAL",
+      "cross_node_connections": [
+        {
+          "target_node": "gulf_swf",
+          "connection_type": "related conflict",
+          "detail": "Israel involved in Gaza peace plan and conflict with Iran"
+        }
+      ]
+    },
+    "oracle_ellison": {
+      "entities": [
+        {
+          "name": "Oracle Corporation",
+          "type": "ORG",
+          "context": "Enterprise software and cloud infrastructure company"
+        },
+        {
+          "name": "Larry Ellison",
+          "type": "PERSON",
+          "context": "Oracle CEO and founder"
+        },
+        {
+          "name": "Stargate",
+          "type": "PROJECT",
+          "context": "Joint AI infrastructure venture"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "Oracle Corporation",
+          "to": "Larry Ellison",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
     },
-    "oracle_ellison": {
-      "entities": [],
-      "relationships": [],
-      "temporal_markers": [],
+    "epstein_files": {
+      "entities": [
+        {
+          "name": "DOJ",
+          "type": "ORG",
+          "context": "Department of Justice involved in Epstein case"
+        },
+        {
+          "name": "Pam Bondi",
+          "type": "PERSON",
+          "context": "US Attorney General"
+        },
+        {
+          "name": "Thomas Massie",
+          "type": "PERSON",
+          "context": "US Representative"
+        },
+        {
+          "name": "Ro Khanna",
+          "type": "PERSON",
+          "context": "US Representative"
+        },
+        {
+          "name": "House Oversight Committee",
+          "type": "ORG",
+          "context": "Congressional committee involved in Epstein case"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "DOJ",
+          "to": "Pam Bondi",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
+      "temporal_markers": [
+        {
+          "date": "2026-03-07",
+          "event": "DOJ Epstein library batch released",
+          "significance": "Epstein case document release"
+        }
+      ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
     },
     "arkansas_datacenter": {
-      "entities": [],
-      "relationships": [],
-      "temporal_markers": [],
+      "entities": [
+        {
+          "name": "AVAIO",
+          "type": "ORG",
+          "context": "Company involved in datacenter construction"
+        },
+        {
+          "name": "Entergy Arkansas",
+          "type": "ORG",
+          "context": "Utility company involved in datacenter project"
+        },
+        {
+          "name": "Tom Cotton",
+          "type": "PERSON",
+          "context": "US Senator"
+        },
+        {
+          "name": "Acts 373/548",
+          "type": "LEGISLATION",
+          "context": "State laws enabling utility rate capture and tax exemptions for datacenters"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "AVAIO",
+          "to": "Entergy Arkansas",
+          "type": "affiliation",
+          "detail": ""
+        }
+      ],
+      "temporal_markers": [
+        {
+          "date": "2026-01",
+          "event": "AVAIO announcement and PSC approvals",
+          "significance": "Datacenter project milestone"
+        }
+      ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
     }
   },
-  "convergence_signals": []
+  "convergence_signals": [
+    {
+      "nodes_involved": [
+        "gulf_swf",
+        "iran"
+      ],
+      "mechanism": "conflict impact",
+      "confidence": "HIGH"
+    },
+    {
+      "nodes_involved": [
+        "israel",
+        "gulf_swf"
+      ],
+      "mechanism": "conflict impact",
+      "confidence": "HIGH"
+    }
+  ]
 }

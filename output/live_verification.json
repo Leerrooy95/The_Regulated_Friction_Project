@@ -1,93 +1,112 @@
 {
-  "generated_at": "2026-03-12T20:26:56Z",
+  "generated_at": "2026-03-13T03:03:20Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
-  "total_predictions": 8,
+  "total_predictions": 10,
   "status_summary": {
-    "monitoring": 6,
-    "verified": 1,
-    "partial": 1
+    "monitoring": 10
   },
   "results": [
     {
-      "prediction": "Maxwell clemency decision",
+      "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "No search results indicate any current status, petition, pardon request, or DOJ decision regarding Ghislaine Maxwell's clemency in 2026. All provided sources discuss unrelated topics such as DOGE, federal workforce reclassifications, and agency reforms. The prediction remains unresolved as of the check date.",
+      "description": "No information found on any clemency petition, pardon request, or decision by the Trump DOJ regarding Ghislaine Maxwell as of March 13, 2026. Search results contain no relevant updates on this specific prediction. The status remains pending within the 2026 timeframe.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-12"
+      "date_checked": "2026-03-13"
     },
     {
-      "prediction": "Iran war ceasefire or escalation",
+      "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No relevant information found in search results regarding Iran war ceasefire negotiations, US-Iran military operations, or any escalation/ceasefire in 2026. Search results exclusively cover US federal workforce reclassifications such as Schedule Policy Career and related OPM rules. Status remains monitoring as the prediction has not resolved.",
-      "source": "",
-      "citations": [],
-      "date_checked": "2026-03-12"
-    },
-    {
-      "prediction": "Strait of Hormuz shipping restoration",
-      "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "No relevant information found in search results regarding Strait of Hormuz shipping restoration, reopening, oil shipping, or mine clearing in 2026. Search results focus exclusively on U.S. federal government topics such as DOGE, Schedule Policy, and federal workforce changes. The prediction remains unresolved with no updates on disruptions or restoration efforts.",
-      "source": "",
-      "citations": [],
-      "date_checked": "2026-03-12"
-    },
-    {
-      "prediction": "DOGE-predicted instability",
-      "timeframe": "Q1 2026",
-      "status": "verified",
-      "description": "DOGE has experienced significant operational instability during Q1 2026. The Department of Government Efficiency ceased active operations by November 2025, falling approximately $800 billion short of its $1 trillion budget-cutting goal. In March 2026, new investigations emerged regarding DOGE's misuse of Social Security data, with whistleblower allegations that a former DOGE employee retained sensitive databases containing personal information on nearly all Americans. Additionally, DOGE's chaotic termination of $100 million in National Endowment for the Humanities grants—conducted using ChatGPT without proper oversight—has triggered multiple lawsuits and congressional investigations, demonstrating systemic dysfunction and lack of institutional control.",
-      "source": "https://www.nhpr.org/2026-03-11/the-government-is-investigating-new-claims-that-doge-misused-social-security-data",
+      "description": "No reports of a ceasefire or active negotiations in the US-Israel war with Iran, which began with strikes around late February 2026 and remains ongoing as of March 2026. Gaza-related talks under the Board of Peace have been paused or put on hold due to the conflict, with some sources noting potential acceleration of Hamas disarmament post-war. Polymarket bets indicate speculation on further US/Israel strikes on Iranian nuclear sites by end of March.",
+      "source": "https://www.jpost.com/middle-east/article-889384",
       "citations": [
-        "https://www.rstreet.org/commentary/dont-let-the-war-on-fraud-become-another-doge/",
-        "https://www.insidehighered.com/news/faculty-issues/research/2026/03/11/how-doge-gutted-neh-22-days",
-        "https://www.nhpr.org/2026-03-11/the-government-is-investigating-new-claims-that-doge-misused-social-security-data",
-        "https://www.democracynow.org/2026/3/11/headlines/wapo_former_doge_employee_took_social_security_information_to_new_job"
+        "https://www.jpost.com/middle-east/article-889384",
+        "https://cybernews.com/tech/polymarket-pro-trump-investors/",
+        "https://www.politico.com/news/2026/03/10/iran-war-threatens-board-of-peace-00821415",
+        "https://www.thetimes.com/us/american-politics/article/the-board-of-peace-trump-iran-cc8fqqz5b"
       ],
-      "date_checked": "2026-03-12"
+      "date_checked": "2026-03-13"
     },
     {
-      "prediction": "Oracle Stargate financial restructuring",
-      "timeframe": "2026",
+      "prediction": "Strait of Hormuz full shipping restoration",
+      "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No direct evidence found of a financial restructuring involving Oracle and Stargate as of March 12, 2026. Search results on Oracle stock, debt, Stargate, Abilene, and bondholder lawsuits yielded no relevant updates or announcements matching the prediction. Ongoing monitoring required for developments within the 2026 timeframe.",
+      "description": "No search results provide information on the current status of Strait of Hormuz shipping, tanker disruptions, or US Navy mine-clearing operations as of March 2026. Amid the ongoing US-Israel war with Iran, including recent airstrikes, the prediction remains unresolved with no evidence of full restoration. Monitoring for developments related to this critical oil chokepoint.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-12"
+      "date_checked": "2026-03-13"
     },
     {
-      "prediction": "Schedule Policy/Career implementation",
-      "timeframe": "Mar 9, 2026",
-      "status": "partial",
-      "description": "Schedule Policy/Career (the successor to Schedule F) is actively being implemented as of March 2026. Federal agencies are reclassifying positions and conducting hiring under this new framework, with the hiring freeze ending in March 2026. However, the full scope of implementation remains incomplete—OPM estimates 50,000 total positions will be affected, but agencies have not disclosed specific reclassification numbers, and the policy is still subject to legal challenges and public comment periods.",
+      "prediction": "Oracle Stargate financial restructuring or default",
+      "timeframe": "2026",
+      "status": "monitoring",
+      "description": "No reports of Oracle undergoing financial restructuring, debt default, bond issues, or lawsuits related to Stargate as of March 13, 2026. Search results contain no relevant information on Oracle's debt, Stargate project, or any financial distress tied to the prediction. Current background includes Oracle's involvement in the Stargate AI infrastructure venture with planned $500B investment and recent $45-50B capital raise, but no developments on restructuring or default.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-13"
+    },
+    {
+      "prediction": "New batch of Epstein documents released",
+      "timeframe": "Ongoing",
+      "status": "monitoring",
+      "description": "No new batch of Epstein documents has been released by the DOJ as of March 13, 2026. The DOJ Epstein library remains a live repository with nearly 3.5 million pages already released, including FBI 302 interview summaries, and is monitored for updates. Search results contain no information on recent releases.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-13"
+    },
+    {
+      "prediction": "Epstein associate indicted or named in new documents",
+      "timeframe": "2026",
+      "status": "monitoring",
+      "description": "No new developments in 2026 indicate an Epstein associate has been indicted or named in fresh documents from the Epstein Files Transparency Act releases. The DOJ Epstein library continues as a live repository with nearly 3.5 million pages released by March 2026, including FBI 302 interview summaries, but search results yield no relevant updates on this prediction. Monitoring for any new batches or legal actions tied to associates.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-13"
+    },
+    {
+      "prediction": "Gulf SWF emergency capital reallocation from US markets",
+      "timeframe": "Ongoing",
+      "status": "monitoring",
+      "description": "No evidence found in current search results of Gulf sovereign wealth funds, such as Saudi PIF or UAE's MGX, engaging in emergency capital reallocation or withdrawal from US markets as of March 2026. Search results focus on unrelated topics including US federal workforce reclassifications under Schedule Policy and investments by firms like 1789 Capital. The prediction remains unconfirmed and is under monitoring for relevant developments.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-13"
+    },
+    {
+      "prediction": "TikTok US ownership deal finalized",
+      "timeframe": "2026",
+      "status": "monitoring",
+      "description": "No information found on a finalized TikTok US ownership deal involving MGX, Oracle, ByteDance divestiture, or any buyer as of March 13, 2026. The prediction remains unresolved within the 2026 timeframe. Search results contain no relevant updates on this topic.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-13"
+    },
+    {
+      "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
+      "timeframe": "2026",
+      "status": "monitoring",
+      "description": "Schedule Policy/Career reclassification of approximately 50,000 federal positions took effect in March 2026, replacing the prior Schedule F proposal amid ongoing union opposition and legal concerns[2][5]. Sources confirm implementation is proceeding with new hiring designations and reclassification audits, but no specific court injunctions or rulings on union lawsuits are reported as of March 13, 2026[2][5][9]. The policy is described as a 2026 compromise, with agencies actively filling roles under the new categories[2].",
       "source": "https://www.collegerecruiter.com/blog/2026/03/10/schedule-f-vs-schedule-policy-what-the-new-federal-reclassifications-mean-for-your-job-security",
       "citations": [
         "https://www.collegerecruiter.com/blog/2026/03/10/schedule-f-vs-schedule-policy-what-the-new-federal-reclassifications-mean-for-your-job-security",
         "https://www.insidehighered.com/news/government/science-research-policy/2026/03/12/federal-grant-makers-may-lose-job-protections-5",
-        "https://www.themindfulfederalemployee.com/blog/opm-s-new-performance-and-rif-rules-why-feds-should-pay-attention"
+        "https://www.tullylegal.com/our-firm/news/federal-workers-get-tougher-reviews-fewer-job-protections/"
       ],
-      "date_checked": "2026-03-12"
+      "date_checked": "2026-03-13"
     },
     {
-      "prediction": "Epstein document releases",
-      "timeframe": "Ongoing",
+      "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
+      "timeframe": "2026",
       "status": "monitoring",
-      "description": "No relevant information found in search results regarding DOJ or FBI releases of Epstein files or 302 documents in 2026. Search results focus exclusively on unrelated topics such as DOGE, federal workforce reclassifications, and government efficiency initiatives. The prediction remains unresolved as of the check date.",
+      "description": "Search results indicate that Supreme Leader Ali Khamenei was killed during Operation Epic Fury, a US-Israel joint military operation targeting Iran's nuclear sites and leadership[1]. However, the search results provided do not contain information about Mojtaba Khamenei's confirmation as Supreme Leader or the current succession process. The prediction remains unresolved as of March 13, 2026.",
       "source": "",
-      "citations": [],
-      "date_checked": "2026-03-12"
-    },
-    {
-      "prediction": "Gulf SWF repositioning under wartime stress",
-      "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "No search results provide information on Gulf sovereign wealth funds such as PIF or Mubadala repositioning their investments or strategies under wartime stress related to Iran war in 2026. All results focus exclusively on U.S. federal workforce reclassifications under Schedule Policy Career and related OPM policies. The prediction remains unaddressed by available sources.",
-      "source": "",
-      "citations": [],
-      "date_checked": "2026-03-12"
+      "citations": [
+        "https://cybernews.com/tech/polymarket-pro-trump-investors/",
+        "https://en.wikipedia.org/wiki/Gaza_peace_plan"
+      ],
+      "date_checked": "2026-03-13"
     }
   ]
 }
