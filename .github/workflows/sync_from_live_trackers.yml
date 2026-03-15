@@ -32,7 +32,7 @@ jobs:
           mkdir -p output
 
           # Copy latest pipeline outputs (current state files)
-          for file in node_status.json extracted_entities.json convergence_report.json daily_intelligence.json live_verification.json; do
+          for file in node_status.json extracted_entities.json convergence_report.json daily_intelligence.json live_verification.json fact_check.json rhetoric_reality.json chart_data.json; do
             if [ -f "_live_trackers/output/$file" ]; then
               cp "_live_trackers/output/$file" "output/$file"
               echo "✅ Synced $file"
