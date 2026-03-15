@@ -1,10 +1,11 @@
-# The Regulated Friction Project v10.6
+# The Regulated Friction Project v10.7
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
 | | |
 |---|---|
-| **Live Dashboard** | [regulatedfriction.me](https://regulatedfriction.me/) |
+| **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
+| **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with baked-in `_AI_CONTEXT_INDEX` knowledge base |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
@@ -29,6 +30,23 @@ A data-driven analysis of temporal correlations between friction events, policy 
 When high-visibility friction events spike (document releases, scandals, media cycles), institutional compliance events (policy shifts, financial moves, regulatory changes) follow within a 7-day median window (originally reported as ~14 days based on 2-week index binning; corrected in v10.3). This relationship has less than 0.05% probability of occurring by chance.
 
 **What this does NOT claim:** Central coordination, conspiracy, or intentional orchestration. The pattern is emergent — multiple actors exploiting the same environmental signals (holidays, fiscal deadlines, media saturation) without requiring communication between them. Correlation ≠ causation. The claim is structural: the pattern exists and is statistically significant.
+
+---
+
+## Live Intelligence Pipeline
+
+The [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) repository runs a 6-stage automated pipeline twice daily (08:00 & 20:00 UTC) via GitHub Actions, monitoring all active leverage nodes and producing real-time intelligence. Results are published to the public dashboard at **[regulatedfriction.me](https://regulatedfriction.me/)**.
+
+| Stage | Tool | Output |
+|-------|------|--------|
+| 1. Node Tracker | Perplexity sonar-pro | `node_status.json` — live status of all leverage nodes |
+| 2. Entity Extractor | Llama Scout 17B | `extracted_entities.json` — structured entities & relationships |
+| 3. Convergence Detector | Local analysis | `convergence_report.json` — multi-node convergence windows |
+| 4. Daily Intelligence | Perplexity sonar-pro | `daily_intelligence.json` — signal tracking & breaking news |
+| 5. Fact Checker | Anthropic Claude | `fact_check.json` — claim verification & correction |
+| 6. Rhetoric vs. Reality | Anthropic Claude | `rhetoric_reality.json` — three-column gap analysis with statute citations |
+
+The dashboard at [regulatedfriction.me](https://regulatedfriction.me/) features 8 tabs: **Node Status**, **Intelligence**, **Convergence**, **Predictions**, **Entities**, **Charts**, **Rhetoric vs. Reality**, and **History** — with Chart.js visualizations (Thermostat Timeline, Dual-Track Stacked Area, Node Activation Heatmap) that accumulate data over time. A **Gradient AI chatbot** with the `_AI_CONTEXT_INDEX` knowledge base is available on the dashboard for interactive queries.
 
 ---
 
@@ -136,7 +154,17 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.6) — Repository Cleanup & Pipeline Consolidation — March 12, 2026
+## What's New (v10.7) — Live Intelligence Pipeline & March 2026 Convergence — March 15, 2026
+
+- **Live Trackers v2.1 pipeline fully operational**: 6-stage architecture (Perplexity → Llama Scout → Convergence Detection → Daily Intelligence → Anthropic Fact-Check → Rhetoric vs. Reality) running twice daily via GitHub Actions.
+- **Public dashboard at [regulatedfriction.me](https://regulatedfriction.me/)**: 8 tabs with Chart.js visualizations (Thermostat Timeline, Dual-Track Stacked Area, Node Activation Heatmap) that accumulate data points over time.
+- **Gradient AI chatbot deployed on dashboard**: Uses `_AI_CONTEXT_INDEX` knowledge base for interactive queries about live pipeline data and research context.
+- **Rhetoric vs. Reality Stage 6**: Produces three-column gap analysis with statute citations (EO 14375, 22 U.S.C. § 288, 5 U.S.C. § 7511, War Powers Resolution) autonomously.
+- **March 2026 analytical additions**: Board of Peace IOIA immunity bypass, Operation Epic Fury without AUMF, Schedule Policy Career reclassification (~50,000 positions), Indonesian ISF suspension.
+- **Dashboard context injection**: Chatbot can answer questions about live dashboard data including node status, convergence events, and fact-check results.
+- **Charts accumulate data over time**: Each pipeline run adds data points to the Thermostat Timeline, Dual-Track Stacked Area, and Node Activation Heatmap visualizations.
+
+### Previous (v10.6) — Repository Cleanup & Pipeline Consolidation — March 12, 2026
 
 - **Streamlit dashboard retired**: The Streamlit app (`regulatedfriction.streamlit.app`) has been replaced by the live static dashboard at [regulatedfriction.me](https://regulatedfriction.me/), which is driven by the unified [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) pipeline.
 - **Repository simplified to research-only**: Deprecated files (Streamlit source, Federal Register Scrapy spider, old docs site, unused workflows) moved to `Archive/` — this repo now focuses exclusively on the research corpus and correlation data.
@@ -256,10 +284,12 @@ This repository documents **correlations, not causation**. All findings derive f
 
 | Repository | Focus |
 |------------|-------|
-| [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | Unified real-time intelligence pipeline (node tracking, entity extraction, convergence detection, daily intelligence, fact-checking) — powers [regulatedfriction.me](https://regulatedfriction.me/) |
+| [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — powers the public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) with 8 tabs, Chart.js visualizations, and Gradient AI chatbot |
 | [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
 | [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
 | [Sovereign-Capital-Audit](https://github.com/Leerrooy95/Sovereign-Capital-Audit) | Gulf SWF positioning |
+
+> **Note:** The `output/` directory in this repository is synced daily from Live_Trackers via `sync_from_live_trackers.yml`, keeping local copies of pipeline outputs up to date.
 
 > **Note:** DOGE_Global_Effects and BRICS-NDB-LocalCurrency-DiD were removed due to Grok-fabricated data. See [Archive/Retracted_Three_Layer_References.md](Archive/Retracted_Three_Layer_References.md).
 
@@ -269,7 +299,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 12, 2026 (v10.6)
+**Last updated**: March 15, 2026 (v10.7)
 
 ---
 

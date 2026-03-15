@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** March 12, 2026
-**Version:** v10.5
+**Last Updated:** March 15, 2026
+**Version:** v10.7
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -134,6 +134,75 @@ The December 19-23, 2025 window demonstrates the pattern in real-time:
 | Dec 24 | 2 | 3 | DOJ finds 1M more pages |
 
 Five independent signal types converged on December 22 alone — friction (Epstein redaction failures), geopolitics (China EU tariffs), financial (BlackRock Bitcoin ETF), policy (travel ban expansion), and cyber/intel (CRINK threat analysis). These events did not cause each other. They clustered because December 22 — between the solstice and Christmas — is a predictable low-attention anchor.
+
+---
+
+## March 2026: The Convergence Window
+
+The first two weeks of March 2026 produced the highest sustained convergence density observed since this research began. Four major developments ran simultaneously, each reinforcing the thermostat model's core prediction: Track A (kinetic overload) providing attention cover for Track B (institutional architecture lock-in).
+
+| Development | Track | Key Mechanism | Legal Citation |
+|-------------|-------|---------------|----------------|
+| Operation Epic Fury (Iran war) | A — Kinetic | No AUMF; Hormuz 40% transit reduction; US Navy mine-clearing under fire | War Powers Resolution (50 U.S.C. § 1541) |
+| Board of Peace IOIA immunity | B — Institutional | Lifetime chairmanship; $5B+ pledges without congressional authorization; no GAO/IG jurisdiction | EO 14375; 22 U.S.C. § 288 (IOIA) |
+| Schedule Policy Career | B — Institutional | ~50,000 GS-13+ positions lose MSPB appeal rights; at-will conversion effective Mar 9 | 5 U.S.C. § 7511 (Civil Service Reform Act) |
+| Indonesian ISF suspension | A→B causal link | Indonesia suspends Board of Peace participation citing Iran escalation | — |
+
+### Operation Epic Fury and the Iran War Escalation
+
+US-Israel joint strikes on Iran began February 28, 2026, killing Supreme Leader Ali Khamenei and targeting IRGC nuclear and missile sites. As of March 14, the campaign continued with no ceasefire and no publicly identified Authorization for Use of Military Force (AUMF). The War Powers Resolution clock status has not been publicly confirmed.
+
+The kinetic dimension extends beyond the strikes themselves. Iranian mine-laying operations in the Strait of Hormuz reduced oil tanker transits by approximately 40%, disrupting a chokepoint that carries roughly 20–21 million barrels per day of oil equivalent. US Navy mine countermeasure (MCM) vessels are conducting active clearing operations under simultaneous Houthi drone attack conditions — a combined threat environment that compounds personnel risk and operational cost. Estimated MCM operational costs run $500K–$1M per hull per day. No supplemental appropriation for Operation Epic Fury has been publicly identified, raising potential Antideficiency Act exposure.
+
+For the thermostat model, Operation Epic Fury functions as maximum Track A friction: a kinetic campaign that consumes congressional attention, media bandwidth, and public processing capacity — exactly the conditions under which Track B institutional architecture advances with reduced oversight.
+
+### Board of Peace: IOIA Immunity and Capital Architecture
+
+Executive Order 14375 established the Board of Peace and granted it International Organizations Immunities Act (IOIA) diplomatic immunity — a legal shield under 22 U.S.C. § 288 that insulates the organization from FOIA requests, civil litigation, standard congressional oversight, and FARA disclosure requirements. The order gives Trump lifetime chairmanship with no Senate confirmation required and no standard term or removal provisions.
+
+On March 14, 2026, the Board of Peace held its inaugural meeting at the US Institute of Peace (a congressionally chartered institution receiving ~$50M in annual appropriations). Over $5 billion in Gaza reconstruction pledges were announced. However, no binding appropriations or treaty commitments have been publicly documented. The Board's IOIA status means these financial flows are not subject to USAID Inspector General oversight, GAO audit authority, or the congressional appropriations conditionality that normally governs US-linked reconstruction funding.
+
+Five countries — Indonesia, Morocco, Kazakhstan, Kosovo, and Albania — indicated troop commitments for the International Stabilization Force (ISF), though the total force size remains unconfirmed, with figures ranging from 5,000 to 20,000 across sources. The pipeline's own fact-checker flagged this inconsistency (see below). No finalized status-of-forces agreements, rules of engagement, or UN funding mechanisms have been publicly established for the ISF.
+
+The Board of Peace represents a Track B compliance event of significant structural consequence: a diplomatically immune body chaired by the sitting president, channeling Gulf sovereign capital into reconstruction contracts, with no domestic US accountability mechanism currently intact.
+
+### Schedule Policy Career Reclassification
+
+The OPM Schedule Policy Career rule took effect March 9, 2026, reclassifying approximately 50,000 GS-13+ federal positions from career civil service protections to at-will employment. This eliminates Merit Systems Protection Board (MSPB) appeal rights and for-cause removal requirements — protections established by the Civil Service Reform Act of 1978 (5 U.S.C. § 7511 et seq.) specifically to insulate policy-relevant career positions from political interference.
+
+Federal unions (AFGE and affiliates) filed an amended complaint on March 5 challenging the rule as a violation of the Civil Service Reform Act and due process protections. No injunction had been granted by the March 9 effective date, allowing conversions to proceed during active litigation. The rule achieves what would normally require Congressional repeal — elimination of statutory protections — through administrative reclassification.
+
+In the thermostat framework, Schedule Policy Career is a Track B institutional lock-in event: it removes the career civil service expertise at the same agencies responsible for sanctions enforcement, foreign assistance oversight, and national security policy. These are precisely the positions that would normally flag gaps in Board of Peace oversight, IOIA immunity implications, or unappropriated military operations.
+
+### Indonesian ISF Suspension: The Track A→B Causal Link
+
+Indonesia — the largest announced ISF troop contributor — formally suspended Board of Peace discussions in early March, explicitly citing the need to monitor US-Iran escalation. This is not an incidental correlation: Indonesian officials directly linked Track A (Operation Epic Fury, Hormuz disruption) to their withdrawal from Track B (Board of Peace, ISF deployment). President Prabowo Subianto faces documented domestic political pressure from Indonesian Islamic civil society organizations over participation in a US-led framework perceived as aligned with Israeli military operations.
+
+The Indonesian suspension demonstrates the thermostat model's convergence mechanism in action: kinetic overload on Track A doesn't just provide attention cover for Track B — it can directly destabilize Track B's coalition architecture. The diplomatic capital invested in securing Indonesian participation, including reported trade incentives, is at risk of being stranded. The Board of Peace's institutional credibility, built on IOIA immunity and US Institute of Peace infrastructure, is degraded when its largest announced troop contributor suspends engagement.
+
+### The Convergence Pattern
+
+The March 2026 window shows both tracks of the thermostat model operating simultaneously:
+
+**Track A (Kinetic Overload):** Operation Epic Fury consumes military resources, generates energy market volatility through Hormuz disruption, and captures congressional and media bandwidth — the classic friction function of the thermostat model.
+
+**Track B (Institutional Lock-In):** The Board of Peace (IOIA-shielded, lifetime chairmanship, $5B+ in pledges with no public appropriations trail) and Schedule Policy Career (~50,000 career civil service positions losing appeal rights) both advance executive authority consolidation during maximum Track A media saturation.
+
+**The causal bridge:** Indonesia's Board of Peace suspension explicitly links Track A to Track B — the kinetic campaign is directly undermining the diplomatic architecture. Meanwhile, Palestinian polling shows 57% expect post-war corruption to persist, and the absence of GAO/IG jurisdiction over IOIA-shielded Board of Peace flows means reconstruction capital enters with no domestic US accountability mechanism intact.
+
+The convergence risk: institutional architecture is being structurally embedded during a period when every normal oversight mechanism — congressional attention, career civil service policy expertise, coalition diplomatic legitimacy — is simultaneously degraded. This is consistent with the thermostat model's core prediction, applied to real-time events.
+
+### Live Intelligence Pipeline
+
+The automated [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) pipeline now validates the framework in near-real-time. The 6-stage architecture (Perplexity sonar-pro → Llama Scout 17B → Convergence Detection → Daily Intelligence → Anthropic Claude Fact-Check → Rhetoric vs. Reality) has completed 21+ pipeline runs as of March 14, 2026.
+
+Key pipeline findings:
+- **10 convergence events detected** across 21 runs (48% convergence rate) — windows where 3+ nodes show simultaneous activity
+- **Fact-checker caught its own pipeline contradictions**: Indonesian ISF troop figures were reported as 5,000, 8,000, and 20,000 in different pipeline outputs; Anthropic Claude flagged and corrected the inconsistency in-place
+- **Rhetoric vs. Reality (Stage 6)** produces autonomous three-column gap analysis — what was said, what documents show, what Americans pay — with statute citations (EO 14375, 22 U.S.C. § 288, 5 U.S.C. § 7511, War Powers Resolution) for each development
+- **11 claims checked** in the latest fact-check cycle: 1 verified, 2 flagged for internal contradictions, 8 unverifiable (post-training-cutoff events)
+
+The public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) displays all pipeline outputs across 8 tabs (Node Status, Intelligence, Convergence, Predictions, Entities, Charts, Rhetoric vs. Reality, History) with Chart.js visualizations that accumulate data over time. A Gradient AI chatbot with the `_AI_CONTEXT_INDEX` knowledge base provides interactive queries on both live data and research context.
 
 ---
 
@@ -1132,7 +1201,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 
 ## Summary
 
-This research documents fifteen connected patterns:
+This research documents sixteen connected patterns:
 
 **The statistical foundation:** Friction events predict compliance events at a 2-week index lag (actual median: 7 days) (r = +0.6196, p = 0.0004, n = 28) in the 30-week hand-scored dataset. Confirmed by multi-dataset Spearman ρ = 0.61 (p < 0.0001) across 2,951 events. Survives permutation testing (p < 0.001), Granger causality at lag 1 (p = 0.0008), and binary presence/absence (r = 0.59). Robust to December 2025 exclusion (ρ = 0.60).
 
@@ -1162,6 +1231,8 @@ This research documents fifteen connected patterns:
 
 **The actor network synthesis (Feb 21, 2026):** Repository-wide audit mapped 7 Tier 1 entities (PIF, MGX, Oracle, Affinity Partners, Apollo Global, Silver Lake, 1789 Capital) across Tech/AI, Diplomacy, Defense, Finance, and Media domains. Three verified capital pipelines documented. 7 timeline discrepancies identified for correction.
 
+**The March 2026 convergence window (Mar 1–14, 2026):** Operation Epic Fury (no AUMF, Hormuz 40% transit reduction) provided maximum Track A kinetic friction while Board of Peace IOIA immunity (EO 14375, lifetime chairmanship, $5B+ pledges without congressional authorization, no GAO/IG jurisdiction) and Schedule Policy Career (~50,000 positions losing MSPB appeal rights under 5 U.S.C. § 7511) advanced Track B institutional lock-in. Indonesia's Board of Peace suspension explicitly linked Track A to Track B collapse. Automated pipeline (21 runs, 10 convergence events, 48% rate) validated the pattern in near-real-time.
+
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
 The data is public. The code is public. The claims are reproducible and sourced.
@@ -1182,4 +1253,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated March 2, 2026 (v10.3 — The High-Resolution Build). "14-day lag" corrected to 7-day median sequential lag across all documentation. Business cycle audit, financial anchor alignment, lag=5 oscillation, and source decontamination completed. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md` for full audit results.*
+*This report was last updated March 15, 2026 (v10.7). Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/) — 6-stage automated analysis with Rhetoric vs. Reality statute-cited gap analysis. "14-day lag" corrected to 7-day median sequential lag across all documentation. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md` for full audit results.*
