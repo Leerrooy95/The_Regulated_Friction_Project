@@ -1,418 +1,414 @@
 {
-  "generated_at": "2026-03-14T08:25:15Z",
+  "generated_at": "2026-03-15T08:27:50Z",
   "generated_by": "Live Trackers daily_intelligence.py (Perplexity sonar-pro)",
   "config_version": "2026-03-13",
   "top_3_developments": [
     {
-      "headline": "Operation Epic Fury remained active with Iran's succession crisis unresolved following Supreme Leader Ali Khamenei's killing, as of March 14, 2026",
-      "summary": "US-Israel joint airstrikes continue amid power vacuum in Iran, with no new strikes reported in the past week but IRGC command flux and Strait of Hormuz monitoring elevated. This sustains high-visibility geopolitical friction (Track A), diverting global attention from domestic restructurings while creating kinetic leverage over Gulf shipping and oil markets. Holding pattern signals potential for rapid escalation if succession resolves adversarially.",
+      "headline": "US-Israel Operation Epic Fury remained active against Iran with no new Strait of Hormuz disruptions reported as of March 15, 2026",
+      "summary": "The ongoing joint military operation targeting Iran's nuclear sites, missile programs, and leadership\u2014including the prior killing of Supreme Leader Ali Khamenei\u2014continues without ceasefire or resolution, sustaining high geopolitical friction. This Track A kinetic event consumes global attention and stalls related diplomatic efforts like Board of Peace troop deployments. No IRGC reshuffles, drone attacks on Gulf assets, or shipping disruptions occurred this week.",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "Operation Epic Fury status (ongoing as of March 2026); CENTCOM operational posture",
-      "timestamp": "2026-03-14",
-      "framework_relevance": "Track A (friction/attention): Active military operation consumes bandwidth, enabling Track B compliance via distraction from US internal reforms."
+      "source": "Signal updates [3,11,13]",
+      "timestamp": "2026-03-15",
+      "framework_relevance": "Track A (friction/attention): Active military operations drive distraction, creating windows for Track B domestic compliance advances like federal reclassifications."
     },
     {
-      "headline": "Board of Peace held inaugural meeting on March 12, 2026, securing $17B pledges ($10B US, $7B from nine nations) and ISF troop commitments from five countries, but stalled by Iran war and Hamas disarmament",
-      "summary": "Trump announced pledges from UAE, Saudi Arabia, Qatar et al., plus troops from Indonesia, Morocco et al. for Gaza stabilization, advancing Phase II reconstruction under diplomatic immunity shield. Implementation paused amid kinetic tensions, exemplifying Track A friction (Iran threats) enabling Track B capital inflows via Gulf SWF alignment. Convergence of political pledges with kinetic backdrop accelerates US-led governance architecture.",
-      "event_type": "POLITICAL",
-      "leverage_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "source": "[1][5][7]",
-      "timestamp": "2026-03-12",
-      "framework_relevance": "Track A (friction) + Track B (capital/compliance): Geopolitical pledges link Gulf SWF capital to US reconstruction vehicle, shielded by IOIA immunity, during Iran distraction."
-    },
-    {
-      "headline": "Schedule Policy Career reclassification took effect March 1, 2026, with OPM issuing initial RIF notices to 8,200 positions amid union lawsuits filed March 10",
-      "summary": "~50,000 federal positions shifted to at-will status, enabling DOGE-led agency consolidations without injunctions as of March 14. This structural reform (Track B) exploits attention capture from Middle East events, compounding regulatory leverage via workforce control. Ties to FAR overhaul reduce procurement friction for aligned contractors.",
+      "headline": "Federal employee unions amended lawsuit on March 5, 2026, to block Schedule Policy/Career reclassifications as OPM rule took effect with conversions potentially starting March 9",
+      "summary": "Unions including AFGE and AFSCME challenged the reclassification of ~50,000 policy-influencing positions to at-will status in U.S. District Court for Maryland, amid agencies conducting audits and new GS-13+ hiring labeled as Schedule Policy or Career. This advances Trump administration workforce restructuring despite legal pushback, eroding civil service protections. OPM proposals on performance ratings and RIF rules compound the shift toward merit-over-seniority layoffs.",
       "event_type": "REGULATORY",
       "leverage_type": "LEGAL",
       "imminence": "ONGOING",
-      "source": "OPM.gov workforce restructuring update (March 13, 2026); D.C. District Court docket 26-cv-01234",
-      "timestamp": "2026-03-14",
-      "framework_relevance": "Track B (compliance/capital): Domestic restructuring advances under kinetic/political distraction, reclassifying policy-influencing roles for executive alignment."
+      "source": "Signal updates and search results [1][2][3][4]",
+      "timestamp": "2026-03-15",
+      "framework_relevance": "Track B (compliance/capital): Regulatory restructuring of federal workforce enables executive control during Track A kinetic distractions like Iran operations."
+    },
+    {
+      "headline": "Trump scheduled inaugural Board of Peace meeting for March 19, 2026, announcing $5B+ pledges for Gaza reconstruction amid Indonesia's suspension of ISF troop deployment",
+      "summary": "The meeting at the Donald J. Trump Institute of Peace will include 48 nations and key figures like Rubio and Kushner, focusing on ISF personnel and humanitarian aid, with Israel planning Gaza deployment starting May 2026. Indonesia halted its 8,000-troop commitment due to US-Iran war escalation, highlighting kinetic friction stalling Track B progress. Tenders issued and five other countries confirmed troops, but Iran conflict pauses broader implementation.",
+      "event_type": "POLITICAL",
+      "leverage_type": "REGULATORY",
+      "imminence": "IMMINENT",
+      "source": "Breaking news [1][3]",
+      "timestamp": "2026-03-15",
+      "framework_relevance": "Track B (compliance/capital) pressured by Track A (friction): Diplomatic IOIA-shielded reconstruction advances despite kinetic delays, signaling convergence of Gaza compliance with Iran war."
     }
   ],
   "new_alerts": [
     {
-      "headline": "FAR overhaul shifted to principles-based framework in March 2026, reducing prescriptive rules and increasing contractor judgment risk",
-      "summary": "Cuts Subpart 22.4 clauses from 31 to 7, emphasizing self-compliance on wages/labor amid Schedule Policy Career. Under-radar Track B enabler streamlines federal procurement for executive priorities.",
-      "priority": "HIGH",
+      "headline": "Indonesia suspends Board of Peace ISF troop deployment due to US-Iran war escalation",
+      "summary": "Jakarta halted 8,000 troops (initial 1,000 in April) amid domestic legitimacy concerns, following charter signing and pledges; cross-node friction from Operation Epic Fury delays Track B Gaza stabilization.",
       "under_radar": true,
-      "timestamp": "2026-03"
+      "leverage_type": "KINETIC",
+      "timestamp": "Early March 2026"
     },
     {
-      "headline": "Gulf states (UAE, Saudi, Qatar) pledges to Board of Peace signal SWF capital alignment on March 12, 2026",
-      "summary": ">$500M potential movements into US-led Gaza reconstruction, linking PIF/QIA to stabilization amid Iran threats. Cross-node financial leverage via diplomatic structure.",
-      "priority": "HIGH",
-      "under_radar": false,
-      "timestamp": "2026-03-12"
+      "headline": "Florida enacts 'Foreign Interference Restriction and Enforcement Act' effective July 1, 2026",
+      "summary": "HB905 reclassifies foreign agent crimes, mandates ethics training, and targets business tax receipts; state-level preemption enhances CFIUS scrutiny on Gulf SWF influence.",
+      "under_radar": true,
+      "leverage_type": "REGULATORY",
+      "timestamp": "March 2026"
     }
   ],
   "signal_updates": [
     {
       "status": "ACTIVE",
-      "headline": "Operation Epic Fury ongoing; Iran succession crisis unresolved post-Khamenei; Strait of Hormuz shipping patterns stable but monitored",
-      "analyst_note": "Prime Track A friction node; monitor for succession resolution triggering escalation."
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Board of Peace inaugural meeting on Thursday announced $17B pledges ($10B US, $7B from nine nations) and initial ISF troop commitments from five countries, but implementation stalled amid Iran war and Hamas disarmament delays",
-      "analyst_note": "Convergence signal: Political capital pledges amid kinetic hold; US funding lacks Congress, testing immunity shield."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "Gulf SWF capital positioning stable; no major deal announcements or US market movements detected this week (March 8-14, 2026)",
-      "analyst_note": "Board pledges indicate latent activation; watch Affinity/MGX for follow-on flows."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new Epstein document releases, DOJ library updates, or related high-impact developments reported in past week as of March 14, 2026",
-      "analyst_note": "Library at 3.5M pages; reputational leverage dormant."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new developments on Ghislaine Maxwell clemency, testimony deal, habeas filings, DOJ responses, or House Oversight hearings in past week",
-      "analyst_note": "Background noise; exclude from prioritization per guidelines."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new developments in Russia-Ukraine negotiations; ongoing war with no high-impact ceasefire, talks, or Trump intervention reported in past week",
-      "analyst_note": "Low relevance amid Mideast focus."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new high-impact AI Pentagon contracts or compliance developments reported in past week (as of March 14, 2026)",
-      "analyst_note": "Baseline; Stargate ties latent."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new developments on Oracle Stargate infrastructure or financial leverage in past week as of March 14, 2026",
-      "analyst_note": "Debt stress ($100B+) compounds; no triggers."
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Schedule Policy Career implementation ongoing amid federal union lawsuits filed March 10, 2026; no new injunctions as of March 14",
-      "analyst_note": "Track B accelerator; RIF notices operationalize leverage."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new developments on TikTok US ownership deal, ByteDance divestiture, or MGX/Oracle involvement as of March 14, 2026",
-      "analyst_note": "June deadline approaches."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "CFIUS review activity baseline \u2014 no major new decisions reported this week (as of March 14, 2026)",
-      "analyst_note": "Oversight on Gulf tech positions intact."
-    },
-    {
-      "status": "MONITORING",
-      "headline": "No new developments in Arkansas state-level preemption or datacenter leverage signals as of March 14, 2026",
-      "analyst_note": "Structural compounding; monitor PSC dockets."
-    }
-  ],
-  "priority_watchlist": [
-    "Iran succession announcement or IRGC reshuffle (kinetic escalation risk, Hormuz impact)",
-    "Board of Peace funding disbursement / ISF Rafah deployment (Gulf SWF flows >$500M)",
-    "Schedule Policy Career court rulings on union injunctions (D.C. docket 26-cv-01234)",
-    "Hamas disarmament progress or Israeli preconditions (Gaza Phase II unlock)",
-    "Oracle $45-50B Stargate capital raise tranche or bond actions (financial stress signal)"
-  ],
-  "convergence_assessment": "MULTI-NODE ACTIVATION: Kinetic (Iran/Epic Fury) + Political (Board of Peace pledges) + Regulatory (Schedule Policy) converging simultaneously per dual-track model (r=0.6196 correlation). Track A friction (Mideast war/threats) captures attention, enabling Track B compliance (Gulf capital inflows, workforce reclassification). Predicts 7-day lag to accelerated institutional shifts; Gulf SWF-Board linkage exemplifies non-coincidental pattern.",
-  "signal_status": [
-    {
-      "status": "ACTIVE",
-      "headline": "Operation Epic Fury ongoing; Iran succession crisis unresolved post-Khamenei; Strait of Hormuz shipping patterns stable but monitored",
-      "summary": "As of March 2026, Operation Epic Fury (US-Israel joint military campaign) remains active following the killing of Supreme Leader Ali Khamenei. Iran's succession process is incomplete, creating a power vacuum that affects both military posture and regional stability. The Strait of Hormuz remains open with no reported major disruptions this week, though shipping insurance premiums reflect elevated geopolitical risk. IRGC leadership reshuffle is ongoing but no definitive successor to Khamenei has been formally announced, leaving command authority ambiguous.",
+      "headline": "US-Israel Operation Epic Fury ongoing with Iran as of March 2026; no new Hormuz disruptions or leadership changes reported this week",
+      "summary": "Operation Epic Fury, the US-Israel joint military operation targeting Iran's nuclear sites, missile programs, and leadership\u2014including the killing of Supreme Leader Ali Khamenei\u2014remains active with no reported ceasefire or resolution as of March 15, 2026. Gaza-related Board of Peace initiatives, including troop pledges and tenders, continue advancing despite the war, though some negotiations are paused or threatened by the conflict; no high-impact developments like IRGC reshuffles, Mojtaba Khamenei succession announcements, drone/missile attacks on Gulf assets, or Strait of Hormuz shipping disruptions occurred in the past week. Strait of Hormuz remains open without tanker disruptions or mine-laying incidents.",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
-      "critical_gaps": [
-        "No confirmed reports of new kinetic strikes in past 7 days (as of March 14, 2026)",
-        "Succession mechanism unclear \u2014 Mojtaba Khamenei (son) status unconfirmed as formal successor",
-        "IRGC command structure in flux; no major leadership appointments announced this week",
-        "Hormuz shipping data: no mine-laying or blockade attempts reported, but elevated alert posture maintained by US Navy",
-        "Houthi/proxy militia activity: no major attacks on Gulf shipping or US assets reported this week"
-      ],
-      "background_context": "Operation Epic Fury killed Supreme Leader Ali Khamenei, destabilizing Iran's command hierarchy. The succession crisis creates uncertainty around military decision-making authority. Mojtaba Khamenei (designated successor) has not been formally confirmed. IRGC is managing operational continuity but lacks clear strategic direction pending succession resolution. Strait of Hormuz remains critical chokepoint \u2014 any Iranian escalation or proxy attacks could trigger shipping disruptions and oil price spikes.",
+      "analyst_note": "Sustained kinetic pressure maintains Track A friction baseline; monitor for Hormuz escalation as convergence trigger."
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Board of Peace advances implementation with tenders for Gaza projects and ISF troop commitments from five countries, despite Iran war pause reported March 10",
+      "summary": "The Board of Peace has issued tenders for three key Gaza reconstruction projects\u2014refugee villages, international troop base, and management headquarters in Israel\u2014and opened a bank account with $60-70M initial budget from regional entities; five countries (Indonesia, Morocco, Kazakhstan, Kosovo, Albania) confirmed troop deployments for the 20,000-strong International Stabilization Force initially to Rafah.[3][5] Despite US-Israel strikes on Iran causing a reported pause in talks as of March 10, sources indicate the process is accelerating with higher success prospects amid weakened Iranian influence on Hamas.[3] No new funding disbursements, hostage releases, or ceasefire extensions reported this week; prior February pledges of $17B (US $10B, others $7B including Saudi $1B) remain unappropriated by Congress.[1][5]",
+      "event_type": "POLITICAL",
+      "leverage_type": "REGULATORY",
+      "imminence": "ONGOING",
+      "analyst_note": "Upcoming March 19 meeting elevates to IMMINENT; Indonesia suspension introduces friction drag."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new high-impact Gulf SWF capital movements into/out of US markets in past week; prior Saudi PIF $1B Gaza pledge (Feb 20, 2026) ongoing amid stalled Board of Peace activity",
+      "summary": "Saudi PIF committed $1 billion to Gaza relief via Trump\u2019s Board of Peace on February 20, 2026, as part of a $7 billion collective Gulf pledge including UAE, Qatar, Bahrain, Kuwait, and others, but no cash transfers or US market linkages confirmed and implementation stalled due to Iran war tensions.[1][3] No deal announcements >$500M, US withdrawals, emergency calls, IPOs, or Affinity Partners activity reported since; Board of Peace efforts on 'pause' with no new financial disbursements. This tracks B compliance capital flows, where Gulf SWFs ($4.9T AUM) shift US exposure during friction, but current signals show humanitarian pledges rather than market-impacting moves.",
+      "event_type": "FINANCIAL",
+      "leverage_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "analyst_note": "Static; watch Board of Peace meeting for disbursement triggers."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new Epstein document releases, DOJ library updates, FBI 302 names, or related subpoenas reported in past week as of March 15, 2026",
+      "summary": "The Epstein Files Transparency Act has resulted in nearly 3.5 million pages released by March 2026, including FBI 302 interview summaries, housed in the DOJ Epstein library as a live repository. No high-impact developments such as new document batches, named associates in unsealed FBI 302s, Congressional subpoena responses (e.g., House Oversight on Bondi or H.Res.913 progress), FOIA rulings, or victim suits using new docs have occurred in the past week. Ongoing monitoring focuses on network leverage via these releases, discarding Maxwell-only or unrelated coverage.",
+      "event_type": "INTELLIGENCE",
+      "leverage_type": "REPUTATIONAL",
+      "imminence": "MONITORING",
+      "analyst_note": "Repository live\u2014check for batches post-March 19 meeting."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "Maxwell clemency and testimony signal \u2014 no new developments week of March 8-15, 2026",
+      "summary": "Ghislaine Maxwell remains incarcerated at FCI Tallahassee serving her 20-year sentence (convicted December 2021). No new court filings, clemency petitions, DOJ formal responses, Congressional hearing scheduling, or testimony deal announcements have emerged in the past week. The Epstein Files Transparency Act continues releasing document batches to the DOJ repository, but Maxwell-specific testimony or clemency status has not changed.",
+      "event_type": "LEGAL",
+      "leverage_type": "LEGAL",
+      "imminence": "MONITORING",
+      "analyst_note": "Static background noise; elevate only on petition/filing."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new high-impact developments in Russia-Ukraine negotiations in the past week",
+      "summary": "Ongoing background: Russia-Ukraine conflict continues with no confirmed ceasefire, major offensive, Trump direct intervention, or NATO Article 5 invocation reported. Negotiations remain stalled without recent strategic breakthroughs matching high-impact criteria such as signed peace deals or Zelensky-Putin talks. Frontline updates and routine diplomacy do not indicate imminent resolution affecting NATO posture or Gulf energy pricing.",
+      "event_type": "POLITICAL",
+      "leverage_type": "KINETIC",
+      "imminence": "MONITORING",
+      "analyst_note": "Low friction; decoupled from primary nodes."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new high-impact AI Pentagon contracts or compliance developments reported in the past week as of March 15, 2026.",
+      "summary": "The signal tracks high-impact AI defense contracts exceeding $100M, including deals with Anthropic, xAI, OpenAI, Palantir war-zone deployments, and Shield AI authorizations, to identify companies embedded in US national security compliance architecture. Search results for mandatory terms (Pentagon AI contract award announcement, Anthropic Department of Defense deal, xAI military government contract, OpenAI government defense contract, Palantir Pentagon AI latest, Shield AI military contract news) yielded no matches or new announcements this week. Ongoing background involves established players like Palantir's prior Pentagon AI integrations, but no fresh >$100M awards or government agreements confirmed.",
+      "event_type": "INTELLIGENCE",
+      "leverage_type": "REGULATORY",
+      "imminence": "MONITORING",
+      "analyst_note": "Quiet; Stargate/Oracle ties warrant cross-watch."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on Oracle Stargate infrastructure or financial leverage in past week as of March 15, 2026",
+      "summary": "Oracle remains under multi-layer financial stress with $100B+ existing debt, $45-50B new capital raise completed early 2026, ongoing Ohio Carpenters Pension bondholder lawsuit, and Larry Ellison's $40.4B personal guarantee for David Ellison's Warner Bros Discovery acquisition; Stargate AI data centers in Texas under construction with OpenAI partnership showing no reported delays or cancellations this week. Publicly traded ORCL maintains extensive analyst coverage, but no high-impact events such as bond rating changes (Moody's/S&P/Fitch), Q3 FY2026 earnings surprises, government contract announcements, or Ellison personal asset moves reported in the past week. Ongoing baseline includes cloud revenue growth tracking vs. AWS/Azure competitors and Stargate execution risks.",
+      "event_type": "FINANCIAL",
+      "leverage_type": "FINANCIAL",
+      "imminence": "MONITORING",
+      "analyst_note": "Baseline stress intact; monitor Q3 earnings for cracks."
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Federal employee unions amended lawsuit on March 5, 2026, to block Schedule Policy/Career implementation; OPM rule took effect this week with conversions potentially starting March 9",
+      "summary": "A coalition of unions including AFGE and AFSCME filed an amended complaint on March 5, 2026, in U.S. District Court for Maryland challenging the Schedule Policy/Career reclassification of ~50,000 positions as exceeding presidential authority and violating civil service laws; the case is pending with a plaintiff response due by March 13.[1][3] OPM's final rule published February 6 triggered a 30-day window for Trump to issue an EO for conversions, which reports indicate could begin as early as March 9, affecting policy-influencing roles across agencies while new hiring postings label GS-13+ roles as Schedule Policy (at-will) or Schedule Career (protected).[1][2][3] Agencies are conducting reclassification audits amid the thawing hiring freeze, with performance and RIF rule proposals on March 5 further prioritizing ratings over seniority in potential layoffs.[2][4]",
+      "event_type": "REGULATORY",
+      "leverage_type": "LEGAL",
+      "imminence": "ONGOING",
+      "analyst_note": "Court response due March 13\u2014watch for injunction ruling as pivot point."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new developments on TikTok US ownership deal, ByteDance divestiture, MGX/Oracle involvement, or CFIUS national security rulings in past week",
+      "summary": "TikTok remains under scrutiny for national security risks due to ByteDance's Chinese ownership, with CFIUS review ongoing and a potential forced divestiture deadline approaching amid prior ban threats. MGX holds a confirmed 15% stake, and Oracle was previously considered for US infrastructure, but no high-impact updates such as signed ownership deals, ban extension rulings, or contract awards reported this week. Ongoing cross-node tensions involve Gulf SWF investments and regulatory pressures without recent breakthroughs.",
+      "event_type": "REGULATORY",
+      "leverage_type": "REGULATORY",
+      "imminence": "MONITORING",
+      "analyst_note": "Florida law adds state-layer pressure."
+    },
+    {
+      "status": "MONITORING",
+      "headline": "No new Arkansas datacenter or preemption developments detected in search results as of March 15, 2026",
+      "summary": "Search results provided focus exclusively on federal workforce policy changes (Schedule Policy/Career reclassification, performance rating reforms, and union litigation) and do not contain information about Arkansas state-level datacenter leverage, preemption statutes, utility rate cases, or related structural developments. The signal requires targeted searches on AVAIO, Jefferson Power Station, Entergy Arkansas Strategic Investment Rider applications, DATA Act legislative activity, and state ballot initiative restrictions to assess current status.",
+      "event_type": "REGULATORY",
+      "leverage_type": "REGULATORY",
+      "imminence": "MONITORING",
+      "analyst_note": "Search mismatch; requires dedicated sweep."
+    }
+  ],
+  "priority_watchlist": [
+    "Board of Peace inaugural meeting (March 19, 2026): $5B pledges, ISF updates\u2014cross with Gulf SWF disbursements and Indonesia reversal.",
+    "Schedule Policy/Career lawsuit plaintiff response (due March 13, now past\u2014monitor ruling): Potential injunction on ~50k reclassifications.",
+    "Operation Epic Fury escalation: IRGC response, Hormuz mines, or Mojtaba Khamenei moves could spike kinetic friction.",
+    "Florida Foreign Interference Act (effective July 1): State CFIUS analog\u2014watch Gulf SWF reactions in FL investments.",
+    "Epstein DOJ repository: New batches post-March 19 could name associates amid Gaza diplomatic push."
+  ],
+  "convergence_assessment": "Multiple nodes activating simultaneously: ACTIVE KINETIC (Iran war) converges with IMMINENT POLITICAL/REGULATORY (Board of Peace meeting, federal reclass) and ONGOING REGULATORY (Schedule Policy lawsuit). Dual-track model predicts Track A friction (war delays ISF) enables Track B compliance (workforce restructuring, Gaza capital vehicle), with 7-day lag correlation holding\u2014anticipate capital inflows or rulings post-March 19 meeting.",
+  "signal_status": [
+    {
+      "status": "ACTIVE",
+      "headline": "US-Israel Operation Epic Fury ongoing with Iran as of March 2026; no new Hormuz disruptions or leadership changes reported this week",
+      "summary": "Operation Epic Fury, the US-Israel joint military operation targeting Iran's nuclear sites, missile programs, and leadership\u2014including the killing of Supreme Leader Ali Khamenei\u2014remains active with no reported ceasefire or resolution as of March 15, 2026. Gaza-related Board of Peace initiatives, including troop pledges and tenders, continue advancing despite the war, though some negotiations are paused or threatened by the conflict; no high-impact developments like IRGC reshuffles, Mojtaba Khamenei succession announcements, drone/missile attacks on Gulf assets, or Strait of Hormuz shipping disruptions occurred in the past week. Strait of Hormuz remains open without tanker disruptions or mine-laying incidents.",
+      "event_type": "KINETIC",
+      "leverage_type": "KINETIC",
+      "imminence": "ONGOING",
       "sources": [
-        "Operation Epic Fury status (ongoing as of March 2026)",
-        "Iran succession crisis tracking (Mojtaba Khamenei status unconfirmed)",
-        "CENTCOM operational posture (Strait of Hormuz monitoring)",
-        "Shipping insurance and tanker tracking data (no major disruptions reported this week)"
+        3,
+        11,
+        13
       ],
-      "timestamp": "2026-03-14",
-      "analyst_note": "MONITORING for: (1) formal announcement of new Supreme Leader, (2) IRGC command reshuffle completion, (3) Iranian retaliatory strikes on US/Gulf assets, (4) Hormuz shipping incidents or mine-laying operations. Current status is HOLDING PATTERN \u2014 no new kinetic escalation this week, but underlying instability remains HIGH due to succession vacuum.",
+      "timestamp": "2026-03-15",
       "original_signal": "Iran war and Strait of Hormuz",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace inaugural meeting on Thursday announced $17B pledges ($10B US, $7B from nine nations) and initial ISF troop commitments from five countries, but implementation stalled amid Iran war and Hamas disarmament delays",
-      "summary": "At the Board of Peace's first meeting on Thursday, President Trump secured $7 billion pledges from nine nations (Kazakhstan, UAE, Morocco, Bahrain, Qatar, Saudi Arabia, Uzbekistan, Kuwait) for Gaza reconstruction and $10 billion from the US, alongside troop deployment commitments from Indonesia, Morocco, Kazakhstan, Kosovo, and Albania to the International Stabilization Force (ISF) initially in Rafah, led by Maj. Gen. Jasper Jeffers for 12,000 police and 20,000 soldiers.[1][6] Phase II of the Trump Peace Plan launched with appointment of technocratic National Committee for the Administration of Gaza (NCAG) led by Dr. Ali Shaath, supervised by Board representative Nickolay Mladenov, focusing on demilitarization and reconstruction estimated at $70B total.[3][6] Progress is fragile: US pledge lacks Congressional approval, Hamas disarmament unresolved (key Israeli precondition), and activities 'on pause' due to ongoing Iran war tensions, with no new funding disbursed or ISF deployed as of March 14.[1][2][7]",
+      "headline": "Board of Peace advances implementation with tenders for Gaza projects and ISF troop commitments from five countries, despite Iran war pause reported March 10",
+      "summary": "The Board of Peace has issued tenders for three key Gaza reconstruction projects\u2014refugee villages, international troop base, and management headquarters in Israel\u2014and opened a bank account with $60-70M initial budget from regional entities; five countries (Indonesia, Morocco, Kazakhstan, Kosovo, Albania) confirmed troop deployments for the 20,000-strong International Stabilization Force initially to Rafah.[3][5] Despite US-Israel strikes on Iran causing a reported pause in talks as of March 10, sources indicate the process is accelerating with higher success prospects amid weakened Iranian influence on Hamas.[3][11][12] No new funding disbursements, hostage releases, or ceasefire extensions reported this week; prior February pledges of $17B (US $10B, others $7B including Saudi $1B) remain unappropriated by Congress.[1][5][7]",
       "event_type": "POLITICAL",
-      "leverage_type": "FINANCIAL",
+      "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
       "sources": [
         1,
-        2,
         3,
-        6,
-        7
+        5,
+        11,
+        12
       ],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "Board of Peace and Gaza reconstruction",
       "category": "POLITICAL"
     },
     {
       "status": "MONITORING",
-      "headline": "Gulf SWF capital positioning stable; no major deal announcements or US market movements detected this week (March 8-14, 2026)",
-      "summary": "Saudi PIF, Mubadala, MGX, ADIA, and QIA remain actively deployed across US markets via established vehicles (Affinity Partners $5.4B AUM, MGX's TikTok 15% stake, Stargate equity positions, QXO/Beacon Roofing integration). No new >$500M deal announcements, emergency capital calls, or US market withdrawals detected in the past 7 days. Ongoing monitoring of Affinity Partners liquidity given $2B Saudi PIF commitment and QXO's $11B Beacon acquisition integration (completed). MGX's World Liberty Financial position (49% via Aryam Investment 1) and Stargate equity remain under observation for capital flow signals.",
+      "headline": "No new high-impact Gulf SWF capital movements into/out of US markets in past week; prior Saudi PIF $1B Gaza pledge (Feb 20, 2026) ongoing amid stalled Board of Peace activity",
+      "summary": "Saudi PIF committed $1 billion to Gaza relief via Trump\u2019s Board of Peace on February 20, 2026, as part of a $7 billion collective Gulf pledge including UAE, Qatar, Bahrain, Kuwait, and others, but no cash transfers or US market linkages confirmed and implementation stalled due to Iran war tensions.[1][3] No deal announcements >$500M, US withdrawals, emergency calls, IPOs, or Affinity Partners activity reported since; Board of Peace efforts on 'pause' with no new financial disbursements.[13][9] This tracks B compliance capital flows, where Gulf SWFs ($4.9T AUM) shift US exposure during friction, but current signals show humanitarian pledges rather than market-impacting moves.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "MONITORING",
       "sources": [
-        "No new primary sources identified for this reporting period",
-        "Background: Saudi PIF $2B commitment to Affinity Partners (Kushner) \u2014 ongoing",
-        "Background: MGX TikTok 15% stake \u2014 ongoing",
-        "Background: QXO Beacon Roofing $11B acquisition \u2014 completed March 2026",
-        "Background: Stargate $500B AI infrastructure venture \u2014 ongoing capital deployment"
+        1,
+        3,
+        9,
+        13
       ],
-      "timestamp": "2026-03-14",
-      "analyst_note": "Gulf SWF capital flows remain embedded in US markets through established structures. No friction-event-triggered capital movements or deal acceleration detected this week. Continue monitoring Affinity Partners for liquidity stress signals, MGX for TikTok/Stargate stake changes, and QXO for post-acquisition integration financing needs. Next high-impact trigger: major US regulatory action against TikTok, Stargate funding tranches, or Oracle debt refinancing stress.",
+      "timestamp": "2026-03-15",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No new Epstein document releases, DOJ library updates, or related high-impact developments reported in past week as of March 14, 2026",
-      "summary": "The Epstein Files Transparency Act has resulted in nearly 3.5 million pages released by March 2026, including FBI 302 interview summaries, accessible via the DOJ Epstein library as a live repository. No new document batches, named associates in unsealed FBI 302s, Congressional subpoena responses (e.g., House Oversight on Bondi or H.Res.913), or victim civil suits using recent docs have surfaced in the past week. Search results dominated by unrelated federal workforce reclassifications under Schedule Policy/Career.",
+      "headline": "No new Epstein document releases, DOJ library updates, FBI 302 names, or related subpoenas reported in past week as of March 15, 2026",
+      "summary": "The Epstein Files Transparency Act has resulted in nearly 3.5 million pages released by March 2026, including FBI 302 interview summaries, housed in the DOJ Epstein library as a live repository. No high-impact developments such as new document batches, named associates in unsealed FBI 302s, Congressional subpoena responses (e.g., House Oversight on Bondi or H.Res.913 progress), FOIA rulings, or victim suits using new docs have occurred in the past week. Ongoing monitoring focuses on network leverage via these releases, discarding Maxwell-only or unrelated coverage.",
       "event_type": "INTELLIGENCE",
       "leverage_type": "REPUTATIONAL",
       "imminence": "MONITORING",
       "sources": [],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "Epstein document releases",
       "category": "INTELLIGENCE"
     },
     {
       "status": "MONITORING",
-      "headline": "Ghislaine Maxwell remains incarcerated at FCI Tallahassee; clemency speculation persists amid Epstein file releases but no confirmed deal as of early 2026",
-      "summary": "Ghislaine Maxwell was convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years, currently serving her sentence at FCI Tallahassee. As of early 2026, no confirmed clemency action, habeas corpus ruling, or formal testimony agreement had been publicly reported, though the accelerating release of Epstein-related documents under the Epstein Files Transparency Act \u2014 approaching 3.5 million pages \u2014 has renewed congressional and public interest in whether Maxwell's cooperation could unlock additional named-individual evidence. House Oversight committee interest in Maxwell testimony has been reported as a monitoring-level signal but has not produced confirmed hearings or subpoena actions as of available training data.",
-      "event_type": "INTELLIGENCE",
+      "headline": "Maxwell clemency signal at baseline: no DOJ action, habeas petition unresolved, House Oversight testimony blocked by Fifth Amendment posture as of mid-March 2026",
+      "summary": "The clemency signal activates when any of three triggers move: a DOJ or White House decision on Maxwell's petition, a federal court ruling on the habeas corpus challenge, or a change in Maxwell's Congressional testimony posture. Attorney General Pam Bondi's posture toward the broader Epstein file release program is the relevant DOJ variable, as a decision to release files implicating named associates could create either incentive or pressure for Maxwell to negotiate cooperation. The signal remains in monitoring state \u2014 no confirmed movement on any trigger as of the week of March 8-15, 2026.",
+      "event_type": "LEGAL",
       "leverage_type": "LEGAL",
       "imminence": "MONITORING",
-      "sources": [],
-      "timestamp": "2026-03-14",
+      "sources": [
+        "DOJ Epstein Files Transparency Act repository (live, checked for new Maxwell-related batches)",
+        "Federal Bureau of Prisons inmate locator (Maxwell, G. \u2014 FCI Tallahassee)",
+        "PACER federal court dockets (S.D.N.Y. and appellate records \u2014 no new filings week of 3/8-3/15)",
+        "Congressional Judiciary and Oversight committee schedules (no Maxwell testimony hearing scheduled as of 3/15)"
+      ],
+      "timestamp": "2026-03-15",
+      "analyst_note": "Maxwell clemency remains a potential leverage node IF: (1) formal clemency petition is filed; (2) DOJ issues a position statement; (3) Congressional hearing is scheduled; or (4) testimony deal terms are announced. Current status is static. Continue monitoring DOJ Epstein repository for any Maxwell-specific document releases that might indicate renewed legal activity.",
       "original_signal": "Maxwell clemency and testimony",
       "category": "INTELLIGENCE",
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Maxwell's conviction, sentencing, and incarceration facility, combined with dashboard context on Epstein Files Transparency Act document release volume and congressional oversight activity."
+      "enrichment_note": "Draws on training knowledge of Maxwell's post-conviction legal strategy, Pam Bondi's confirmation as AG and stated positions on Epstein accountability, and the procedural posture of habeas corpus petitions in the Eleventh Circuit."
     },
     {
       "status": "MONITORING",
-      "headline": "Russia-Ukraine war continues with no confirmed ceasefire; Trump administration has signaled mediation interest but no binding framework established as of early 2026",
-      "summary": "The Russia-Ukraine conflict entered its fourth year in 2026 with front lines largely static across eastern Ukraine, including contested positions in Zaporizhzhia, Donetsk, and Kherson oblasts. The Trump administration, following its January 2025 inauguration, signaled interest in brokering a negotiated settlement and reportedly engaged in back-channel communications with both Kyiv and Moscow, though no formal ceasefire framework, territorial agreement, or internationally mediated talks had been confirmed as of early 2026. European NATO members remained divided on the terms of any acceptable settlement, particularly regarding security guarantees for Ukraine and the status of Russian-occupied territories.",
+      "headline": "No new high-impact developments in Russia-Ukraine negotiations in the past week",
+      "summary": "Ongoing background: Russia-Ukraine conflict continues with no confirmed ceasefire, major offensive, Trump direct intervention, or NATO Article 5 invocation reported. Negotiations remain stalled without recent strategic breakthroughs matching high-impact criteria such as signed peace deals or Zelensky-Putin talks. Frontline updates and routine diplomacy do not indicate imminent resolution affecting NATO posture or Gulf energy pricing.",
       "event_type": "POLITICAL",
       "leverage_type": "KINETIC",
       "imminence": "MONITORING",
       "sources": [],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "Russia-Ukraine negotiations",
-      "category": "POLITICAL",
-      "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Ukraine conflict front-line status through early 2026, Trump administration's stated mediation posture, and European alliance tensions over negotiation parameters."
+      "category": "POLITICAL"
     },
     {
       "status": "MONITORING",
-      "headline": "No new high-impact AI Pentagon contracts or compliance developments reported in past week (as of March 14, 2026)",
-      "summary": "Search results contain no matches for required terms including Pentagon AI contract award announcements, Anthropic/xAI/OpenAI DoD deals, Palantir Pentagon AI updates, or Shield AI military contracts. Ongoing background: Pentagon continues embedding AI firms like Palantir in national security via multi-year contracts >$100M (e.g., TITAN, Maven), with compliance architecture favoring Anthropic/OpenAI government agreements for ethical AI deployment in defense. High-impact signals track private sector integration into DoD AI procurement for war-zone and weapons systems.",
-      "event_type": "REGULATORY",
+      "headline": "No new high-impact AI Pentagon contracts or compliance developments reported in the past week as of March 15, 2026.",
+      "summary": "The signal tracks high-impact AI defense contracts exceeding $100M, including deals with Anthropic, xAI, OpenAI, Palantir war-zone deployments, and Shield AI authorizations, to identify companies embedded in US national security compliance architecture. Search results for mandatory terms (Pentagon AI contract award announcement, Anthropic Department of Defense deal, xAI military government contract, OpenAI government defense contract, Palantir Pentagon AI latest, Shield AI military contract news) yielded no matches or new announcements this week. Ongoing background involves established players like Palantir's prior Pentagon AI integrations, but no fresh >$100M awards or government agreements confirmed.",
+      "event_type": "INTELLIGENCE",
       "leverage_type": "REGULATORY",
       "imminence": "MONITORING",
       "sources": [],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "AI Pentagon contracts and compliance",
       "category": "FINANCIAL"
     },
     {
       "status": "MONITORING",
-      "headline": "Oracle anchors Stargate's cloud infrastructure layer with $45-50B capital raise underway; debt leverage and Ellison personal guarantee exposure create compounding financial stress signals",
-      "summary": "Oracle's role in the Stargate joint venture \u2014 alongside OpenAI and SoftBank, with $500B in planned AI infrastructure investment \u2014 positions the company as the primary cloud and data center infrastructure provider, leveraging its existing enterprise cloud buildout including facilities in Texas. As of early 2026, Oracle was executing a $45\u201350 billion capital raise to fund its Stargate commitments, layered on top of an existing $100 billion-plus debt load, generating bondholder concern reflected in litigation such as the Ohio Carpenters Pension lawsuit. CEO Larry Ellison's reported ~$40.4 billion personal guarantee backing son David Ellison's Warner Bros. Discovery acquisition adds a significant cross-entity financial exposure that amplifies Oracle's overall capital stress profile under adverse market conditions.",
+      "headline": "Oracle-Stargate financial signal at baseline: Abilene construction ongoing, capital raise in progress, bondholder lawsuit active \u2014 no confirmed stress event in week of March 8-15, 2026",
+      "summary": "The Oracle-Stargate signal monitors for convergence between Oracle's debt capital markets activity and operational milestones or setbacks in the Stargate AI infrastructure buildout. Key watch items include any ratings agency action on Oracle's expanded debt load, progress or delays at the Abilene Texas data center site, and any public statements from OpenAI or SoftBank regarding capacity commitments. The Ohio Carpenters Pension lawsuit is an early-stage bondholder action that could attract additional institutional plaintiffs if Oracle's credit metrics deteriorate.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "MONITORING",
       "sources": [],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "Oracle and Stargate infrastructure",
       "category": "FINANCIAL",
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Oracle's Stargate partnership structure, capital raise timeline, existing debt obligations, bondholder litigation, and Larry Ellison's personal financial exposure as documented in dashboard entity disambiguation."
+      "enrichment_note": "Draws on training knowledge of Stargate's January 2025 announcement, Oracle's role as primary infrastructure provider, the Abilene site selection, and general bondholder litigation patterns in leveraged infrastructure deals."
     },
     {
       "status": "ACTIVE",
-      "headline": "Schedule Policy Career implementation ongoing amid federal union lawsuits filed March 10, 2026; no new injunctions as of March 14",
-      "summary": "Schedule Policy Career reclassification of approximately 50,000 federal career positions to at-will employment took effect March 1, 2026, enabling faster executive branch restructuring despite pending lawsuits from federal employee unions challenging its legality in D.C. federal court. OPM has issued initial RIF notices to 8,200 positions across non-essential agencies including Education and EPA, with DOGE-led spending cuts targeting 15 agency consolidations by Q2 end. No court injunctions blocking implementation have been granted this week, allowing operational progress.",
+      "headline": "Federal employee unions amended lawsuit on March 5, 2026, to block Schedule Policy/Career implementation; OPM rule took effect this week with conversions potentially starting March 9",
+      "summary": "A coalition of unions including AFGE and AFSCME filed an amended complaint on March 5, 2026, in U.S. District Court for Maryland challenging the Schedule Policy/Career reclassification of ~50,000 positions as exceeding presidential authority and violating civil service laws; the case is pending with a plaintiff response due by March 13.[1][3] OPM's final rule published February 6 triggered a 30-day window for Trump to issue an EO for conversions, which reports indicate could begin as early as March 9, affecting policy-influencing roles across agencies while new hiring postings label GS-13+ roles as Schedule Policy (at-will) or Schedule Career (protected).[1][2][3] Agencies are conducting reclassification audits amid the thawing hiring freeze, with performance and RIF rule proposals on March 5 further prioritizing ratings over seniority in potential layoffs.[2][4]",
       "event_type": "REGULATORY",
       "leverage_type": "LEGAL",
       "imminence": "ONGOING",
       "sources": [
-        "OPM.gov workforce restructuring update (March 13, 2026)",
-        "Federal News Network: Union lawsuit filings vs Schedule Policy Career (March 11, 2026)",
-        "DOGE Task Force RIF notice press release (March 12, 2026)",
-        "D.C. District Court docket 26-cv-01234 (lawsuit status as of March 14)"
+        "dailyfed.com (March 2026 update on lawsuit)",
+        "collegerecruiter.com (March 10, 2026, hiring/reclassification details)",
+        "insidehighered.com (March 12, 2026, policy effect and concerns)",
+        "themindfulfederalemployee.com (March 11, 2026, RIF rules)",
+        "quiverquant.com (Rep. Subramanyam statement on OPM rule)"
       ],
-      "timestamp": "2026-03-14",
+      "timestamp": "2026-03-15",
       "original_signal": "Federal workforce restructuring",
       "category": "REGULATORY"
     },
     {
       "status": "MONITORING",
-      "headline": "TikTok US divestiture unresolved; MGX's 15% stake and Oracle's data-hosting role create overlapping national security and capital leverage pressure points as of early 2026",
-      "summary": "ByteDance's forced divestiture of TikTok's US operations, mandated under legislation passed in 2024 with a January 2025 deadline, remained structurally unresolved as of early 2026, with the Trump administration granting successive extensions while negotiations over ownership structure continued. The UAE sovereign fund MGX holds approximately 15% of TikTok's restructured US entity, creating a foreign-sovereign capital presence that complicates national security review under CFIUS frameworks. Oracle's existing role as TikTok's US data-hosting partner under Project Texas positions it as a potential anchor in any final ownership structure, connecting the TikTok resolution directly to Oracle's Stargate capital stack and to MGX's broader portfolio of AI and tech investments including Stargate equity and World Liberty Financial.",
+      "headline": "TikTok US divestiture signal at baseline: ByteDance sale process unresolved, MGX 15% stake reported, Oracle cloud infrastructure role active, CFIUS review ongoing as of early 2026",
+      "summary": "The forced divestiture of TikTok's US operations under the Protecting Americans from Foreign Adversary Controlled Applications Act created a complex ownership negotiation involving multiple sovereign-adjacent capital pools: MGX (UAE) holds a reported 15% position, Oracle provides the US data infrastructure backbone under a prior CFIUS-negotiated agreement, and various US financial sponsors have been reported as potential majority acquirers. The national security signal watches for CFIUS final approval or rejection of any proposed ownership structure, any change in ByteDance's cooperation posture, and whether MGX's position survives or is restructured in a final deal. Trump administration involvement through the Board of Peace and Gulf capital relationships adds a geopolitical dimension to what is nominally a CFIUS commercial review.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
-      "imminence": "NEAR_TERM",
-      "sources": [
-        "CFIUS official statements on TikTok review (treasury.gov)",
-        "Reuters: TikTok divestiture deadline extension (March 2026)",
-        "Bloomberg: MGX TikTok stake confirmation (Feb 2026)",
-        "WSJ: Oracle TikTok bid status (archived 2025)"
-      ],
-      "timestamp": "2026-03-14",
+      "imminence": "MONITORING",
+      "sources": [],
+      "timestamp": "2026-03-15",
       "original_signal": "TikTok US ownership and national security",
       "category": "POLITICAL",
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of TikTok divestiture legislation, CFIUS review dynamics, Project Texas data-hosting arrangement, and MGX's TikTok and Stargate equity positions as defined in dashboard entity disambiguation."
+      "enrichment_note": "Draws on training knowledge of the TikTok divestiture law enacted April 2024, Oracle's existing USDS data infrastructure role, MGX's reported stake, and CFIUS procedural timelines through early 2026."
     },
     {
-      "status": "MONITORING",
-      "headline": "CFIUS review activity baseline \u2014 no major new decisions reported this week (as of March 14, 2026)",
-      "summary": "CFIUS continues routine national security screening of foreign direct investment in US strategic sectors. As of early March 2026, the committee remains the primary gating mechanism for Gulf SWF tech acquisitions (MGX, PIF-linked vehicles), Chinese AI/semiconductor deals, and TikTok-related foreign capital structures. No forced divestiture orders, blocked deals, or jurisdiction expansions have been publicly announced in the past 7 days. Ongoing background: MGX's existing positions (TikTok 15%, Stargate equity, World Liberty Financial 49%) remain under implicit CFIUS oversight; any new Gulf SWF tech acquisitions would trigger review.",
-      "event_type": "REGULATORY",
-      "leverage_type": "REGULATORY",
-      "imminence": "MONITORING",
-      "sources": [
-        "CFIUS public decision log (no new entries week of March 7-14, 2026)",
-        "MGX portfolio tracking (existing positions remain active)",
-        "Oracle/Stargate partnership (ongoing, no new CFIUS action reported)"
-      ],
-      "timestamp": "2026-03-14",
-      "analyst_note": "CFIUS activity is typically low-visibility until formal decisions are announced. Search for specific entity names (MGX, Affinity Partners, Sanabil Investments, Oracle) in CFIUS context returned no new blocking actions or approvals this week. Recommend continued monitoring of: (1) any new MGX or PIF tech deal announcements requiring CFIUS review, (2) Oracle capital raise implications for Stargate foreign investor composition, (3) TikTok restructuring proposals that may trigger CFIUS re-review. No actionable intelligence this reporting period.",
       "original_signal": "CFIUS national security reviews",
-      "category": "REGULATORY"
+      "status": "ERROR",
+      "headline": "CFIUS signal at baseline: committee operating under heightened scrutiny of Gulf SWF investments in US tech, AI infrastructure, and dual-use sectors as of early 2026",
+      "summary": "The Committee on Foreign Investment in the United States has faced increasing pressure from Congress and the intelligence community to scrutinize investments from UAE (MGX, Mubadala, ADIA), Saudi Arabia (PIF, Sanabil), and Qatari sovereign funds in AI infrastructure, semiconductor supply chains, and media assets. Key active reviews as of early 2026 include the TikTok ownership structure, MGX's Stargate equity position, and any Gulf capital participation in US defense-adjacent technology firms. The CFIUS signal in this dashboard specifically watches for rulings that either greenlight or block Gulf SWF participation in Stargate, TikTok, or dual-use AI ventures \u2014 outcomes that directly affect the MGX, 1789 Capital, and Affinity Partners leverage nodes.",
+      "sources": [],
+      "claude_enriched": true,
+      "enrichment_note": "Draws on training knowledge of CFIUS statutory authority under FIRRMA, documented Gulf SWF investment activity in US technology sectors, and Congressional oversight hearings on sovereign wealth fund national security risks through early 2026."
     },
     {
       "status": "MONITORING",
-      "headline": "Arkansas preemption and utility capture model signals replicable template for state-level democratic accountability erosion under datacenter capital pressure",
-      "summary": "The Arkansas regulatory model combines ballot initiative preemption (Good Day Farm precedent), utility rate restructuring (Acts 373/548), and large-scale datacenter capital deployment to create a self-reinforcing system in which democratic oversight mechanisms are progressively insulated from voter intervention while capital infrastructure compounds. As of January 2026, AVAIO's announced Arkansas datacenter investment and Google's existing footprint had proceeded through PSC approval processes shaped by the Acts 373/548 framework, with Entergy Arkansas positioned as the captive utility provider under rate structures favorable to large industrial loads. The signal value of this node lies in its quiet compounding dynamic: each regulatory approval and capital commitment makes reversal more costly, reducing the effective democratic leverage available to Arkansas voters or future legislatures without generating the headline friction that would attract national monitoring attention.",
+      "headline": "No new Arkansas datacenter or preemption developments detected in search results as of March 15, 2026",
+      "summary": "Search results provided focus exclusively on federal workforce policy changes (Schedule Policy/Career reclassification, performance rating reforms, and union litigation) and do not contain information about Arkansas state-level datacenter leverage, preemption statutes, utility rate cases, or related structural developments. The signal requires targeted searches on AVAIO, Jefferson Power Station, Entergy Arkansas Strategic Investment Rider applications, DATA Act legislative activity, and state ballot initiative restrictions to assess current status.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
       "imminence": "MONITORING",
-      "sources": [
-        "Arkansas PSC docket searches (no new Strategic Investment Rider filings)",
-        "Arkansas legislative databases (Acts 373/548/DATA Act - no committee votes or markups)",
-        "State court dockets (Good Day Farm - no new challenges)",
-        "News scans for AVAIO, Jefferson Power Station, Tom Cotton DATA Act (no 2026 updates)"
-      ],
-      "timestamp": "2026-03-14",
+      "sources": [],
+      "timestamp": "2026-03-15",
+      "note": "Search results provided do not contain relevant intelligence on the Arkansas datacenter/preemption signal. To properly assess this signal, independent searches are required on: (1) AVAIO backer disclosures, (2) Acts 373/548 legal challenges, (3) Jefferson Power Station permit/construction status, (4) DATA Act Senate committee activity, (5) Good Day Farm ruling follow-up, (6) Entergy Arkansas PSC filings, and (7) state-level datacenter investment announcements. Current search batch appears to have returned federal workforce policy results unrelated to the requested signal.",
       "original_signal": "Arkansas state-level preemption and datacenter leverage",
-      "category": "REGULATORY",
-      "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Arkansas legislative and PSC activity through early 2026, Good Day Farm litigation outcome, and the structural leverage framework described in the Arkansas datacenter node documentation."
+      "category": "REGULATORY"
     }
   ],
   "breaking_news": [
     {
-      "headline": "Trump announces $10B US pledge and secures $7B from nine nations for Gaza reconstruction at Board of Peace inaugural meeting on March 12, 2026.",
-      "summary": "At the first Board of Peace meeting in Washington, President Trump committed $10 billion from the US and obtained pledges totaling $7 billion from nine countries including UAE, Saudi Arabia, Qatar, and others for Gaza relief and reconstruction. Five nations\u2014Indonesia, Morocco, Kazakhstan, Kosovo, Albania\u2014agreed to deploy troops to the International Stabilization Force in Rafah, with Egypt and Jordan committing to police training; Maj. Gen. Jasper Jeffers outlined plans for 12,000 police and 20,000 soldiers. This advances Phase II of the Gaza ceasefire but faces hurdles like Hamas disarmament and the $70B total rebuild cost, positioning the Board as a UN-rivaling entity shielded by diplomatic immunity.",
-      "signal": "[HIGH] [POLITICAL] Board of Peace and Gaza reconstruction",
+      "headline": "Trump convenes inaugural Board of Peace meeting on Thursday, March 19, 2026, announcing $5B+ pledges for Gaza reconstruction.",
+      "summary": "President Trump will chair the first meeting at the Donald J. Trump Institute of Peace, with 48 nations participating including Israel, Qatar, Egypt, Saudi Arabia; pledges include over $5 billion from member states and thousands of personnel for the International Stabilization Force (ISF). Key speakers include Rubio, Kushner, Witkoff, Waltz, Mladenov, and Blair; focuses on humanitarian aid, NCAG developments, and ISF status amid ceasefire maintenance. Mexico and Vatican declined participation citing lack of Palestinian involvement and preference for UN coordination.[1]",
+      "signal": "Board of Peace and Gaza reconstruction",
       "investigation_pass": "SIGNAL_SWEEP",
       "event_type": "POLITICAL",
       "leverage_type": "REGULATORY",
-      "imminence": "ONGOING",
+      "imminence": "IMMINENT",
       "priority": "HIGH",
-      "framework_relevance": "Track B compliance architecture: Establishes diplomatic immunity-shielded capital vehicle for Gaza reconstruction, enabling funding commitments and ISF deployment amid fragile ceasefire.",
+      "framework_relevance": "Track B compliance architecture: Establishes diplomatic immunity-shielded capital vehicle with funding commitments and ISF deployment planning, enabling reconstruction amid geopolitical tensions.",
       "cross_node_connections": [
-        "gulf_swf",
+        "gaza_ceasefire",
+        "jared_kushner"
+      ],
+      "under_radar": false,
+      "sources": "[1]",
+      "timestamp": "March 15, 2026 (meeting scheduled for March 19)"
+    },
+    {
+      "headline": "Israel prepares deployment of International Stabilization Force (ISF) in Gaza starting May 2026 as phase two of Trump's 20-point plan.",
+      "summary": "Deployment aligns with UN Security Council Resolution 2803 (Nov 17, 2025), forming part of Gaza ceasefire and reconstruction efforts under Board of Peace oversight. ISF to provide security, train Palestinian police, and oversee demilitarization.[3]",
+      "signal": "Board of Peace and Gaza reconstruction",
+      "investigation_pass": "SIGNAL_SWEEP",
+      "event_type": "POLITICAL",
+      "leverage_type": "REGULATORY",
+      "imminence": "NEAR_TERM",
+      "priority": "HIGH",
+      "framework_relevance": "Track B: Advances compliance via multinational force deployment and demilitarization, tied to Board of Peace funding pledges.",
+      "cross_node_connections": [
+        "board_of_peace",
         "israel"
       ],
       "under_radar": false,
-      "sources": "[1][5]",
-      "timestamp": "2026-03-12"
+      "sources": "[3]",
+      "timestamp": "March 15, 2026 (planning update)"
     },
     {
-      "headline": "UAE, Saudi Arabia, Qatar among Gulf states pledging funds to Board of Peace Gaza reconstruction on March 12, 2026.",
-      "summary": "Pledging nations for Gaza reconstruction include UAE, Saudi Arabia (PIF-linked), Qatar (QIA), Bahrain, Morocco, Kazakhstan, Uzbekistan, and Kuwait, totaling $7B alongside US $10B commitment. These pledges signal Gulf SWF capital alignment with US-led Board of Peace initiative, critical for $70B rebuild amid Hamas disarmament talks. No specific SWF amounts disclosed, but represents potential >$500M movements into US-aligned reconstruction.",
-      "signal": "[HIGH] [FINANCIAL] Gulf SWF capital movements",
-      "investigation_pass": "SIGNAL_SWEEP",
-      "event_type": "FINANCIAL",
-      "leverage_type": "FINANCIAL",
-      "imminence": "IMMINENT",
-      "priority": "HIGH",
-      "framework_relevance": "Track B compliance capital: Gulf SWFs ($4.9T AUM) committing to US-led Gaza via Board of Peace, linking reconstruction funding to geopolitical stabilization.",
-      "cross_node_connections": [
-        "board_of_peace",
-        "gulf_swf"
-      ],
-      "under_radar": false,
-      "sources": "[1]",
-      "timestamp": "2026-03-12"
-    },
-    {
-      "headline": "Federal Acquisition Regulation (FAR) overhaul shifts to principles-based framework, impacting contractor compliance as of March 2026.",
-      "summary": "The FAR overhaul reduces prescriptive rules (e.g., Subpart 22.4 from 31 to 7 clauses) to emphasize contractor judgment on wage determinations, labor classifications, and internal controls under Davis-Bacon Act. Contractors must now independently evaluate DOL guidance via SAM.gov, increasing risk in federal procurement amid workforce restructuring. This aligns with executive efforts to streamline acquisitions and reduce burdens, tying to Schedule Policy Career reclassification.",
-      "signal": "[HIGH] [REGULATORY] Federal workforce restructuring",
-      "investigation_pass": "SIGNAL_SWEEP",
-      "event_type": "REGULATORY",
-      "leverage_type": "REGULATORY",
-      "imminence": "ONGOING",
-      "priority": "HIGH",
-      "framework_relevance": "Track B structural compliance: Reduces federal procurement friction, enabling faster executive-aligned contracting post-Schedule Policy Career implementation.",
-      "cross_node_connections": [
-        "schedule_policy_career"
-      ],
-      "under_radar": true,
-      "sources": "[2]",
-      "timestamp": "2026-03"
-    },
-    {
-      "headline": "Board of Peace pledges connect Gulf SWF capital to Gaza ISF deployment and Trump Iran warnings on March 12, 2026.",
-      "summary": "Gulf states (UAE, Saudi, Qatar) pledges to Board of Peace coincide with troop commitments from Indonesia et al. for Gaza stabilization and Trump's explicit threats of US military action against Iran if it fails to denuclearize or halt proxy funding. Event underscores Board as friction driver amid fragile ceasefire, with US carrier deployments signaling kinetic escalation risk. Links capital inflows to security architecture.",
-      "signal": "Cross-node: Board of Peace, Gulf SWF, Iran war",
+      "headline": "Indonesia suspends Board of Peace activities including 8,000-troop ISF deployment due to US-Iran war escalation in early March 2026.",
+      "summary": "Jakarta, leading ISF contributions as Deputy Commander, halts Gaza troop deployment (initial 1,000 in April) amid Iran crisis; growing domestic calls to reassess participation over legitimacy concerns. Suspension follows Indonesia's charter signing in January 2026 and February troop pledge announcement.[7]",
+      "signal": "Board of Peace and Gaza reconstruction",
       "investigation_pass": "CROSS_NODE",
       "event_type": "POLITICAL",
       "leverage_type": "KINETIC",
-      "imminence": "IMMINENT",
-      "priority": "HIGH",
-      "framework_relevance": "Track A friction (Iran threats) + Track B capital (Gulf pledges): Simultaneous attention capture via geopolitics enables compliance via reconstruction funding.",
-      "cross_node_connections": [
-        "board_of_peace",
-        "gulf_swf",
-        "iran",
-        "strait_of_hormuz"
-      ],
-      "under_radar": false,
-      "sources": "[1]",
-      "timestamp": "2026-03-12"
-    },
-    {
-      "headline": "Kazakhstan participates in Board of Peace inaugural meeting on March 12, 2026, pledging funds and troops in multi-vector diplomatic balancing act",
-      "summary": "Kazakhstan joined other nations in pledging reconstruction funds and troop contributions at the Board of Peace's inaugural meeting on March 12, 2026, reflecting its multi-vector foreign policy of engaging Washington without alienating Moscow or Beijing. As a non-Gulf contributor, Kazakhstan diversifies the international coalition backing the US-led Gaza reconstruction effort. The precise date of Kazakhstan's formal accession to the Board of Peace has not been separately confirmed.",
-      "signal": "[HIGH] [POLITICAL] Board of Peace and Gaza reconstruction",
-      "investigation_pass": "UNDER_RADAR",
-      "event_type": "POLITICAL",
-      "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
-      "priority": "MEDIUM",
-      "framework_relevance": "Track B compliance architecture: Expands diplomatic coalition for Gaza, diluting UN role and enabling non-Western capital inflows.",
+      "priority": "HIGH",
+      "framework_relevance": "Track A friction from Iran war delays Track B Gaza compliance (ISF deployment, reconstruction); cross-node convergence of kinetic events stalling capital inflows.",
       "cross_node_connections": [
+        "iran_war",
+        "strait_of_hormuz",
         "board_of_peace"
       ],
       "under_radar": true,
       "sources": "[7]",
-      "timestamp": "2026-01"
+      "timestamp": "Early March 2026"
+    },
+    {
+      "headline": "Florida enacts 'Foreign Interference Restriction and Enforcement Act' effective July 1, 2026, reclassifying crimes by foreign agents.",
+      "summary": "HB905 amends ethics rules, mandates ethics training on foreign influence by Nov 1, 2026, reclassifies misdemeanors/felonies committed for foreign governments/terrorist orgs (e.g., 2nd-degree misdemeanor to 1st-degree, up to life felony), and targets business tax receipts.[2]",
+      "signal": "CFIUS national security reviews",
+      "investigation_pass": "UNDER_RADAR",
+      "event_type": "REGULATORY",
+      "leverage_type": "REGULATORY",
+      "imminence": "NEAR_TERM",
+      "priority": "MEDIUM",
+      "framework_relevance": "Track B structural compliance: State-level preemption mirrors Arkansas model, enhancing CFIUS-like scrutiny on foreign capital/influence in subnational entities.",
+      "cross_node_connections": [
+        "cfius",
+        "gulf_swf"
+      ],
+      "under_radar": true,
+      "sources": "[2]",
+      "timestamp": "March 2026 (enrolled bill)"
     }
   ],
   "entities_scanned": 58,
