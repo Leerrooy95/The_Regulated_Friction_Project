@@ -1,222 +1,189 @@
 {
-  "extraction_timestamp": "2026-03-15T00:00:00Z",
-  "total_entities": 37,
-  "total_relationships": 21,
+  "extraction_timestamp": "2026-03-16T00:00:00Z",
+  "total_entities": 23,
+  "total_relationships": 10,
   "nodes": {
     "maxwell": {
       "entities": [
         {
           "name": "Ghislaine Maxwell",
           "type": "PERSON",
-          "context": "individual"
+          "context": "Convicted December 2021, serving 20 years at FPC Bryan"
         },
         {
           "name": "David Markus",
           "type": "PERSON",
-          "context": "attorney"
+          "context": "Attorney offering clemency to Maxwell"
         },
         {
-          "name": "House Oversight Committee",
+          "name": "House Oversight",
           "type": "ORG",
-          "context": "committee"
-        }
-      ],
-      "relationships": [
-        {
-          "from": "Ghislaine Maxwell",
-          "to": "David Markus",
-          "type": "attorney-client",
-          "detail": ""
+          "context": "Conducted 5th Amendment invocation hearing with Maxwell"
         },
         {
-          "from": "Ghislaine Maxwell",
-          "to": "House Oversight Committee",
-          "type": "testimony",
-          "detail": ""
+          "name": "White House",
+          "type": "ORG",
+          "context": "Stated clemency for Maxwell 'not a priority'"
+        },
+        {
+          "name": "Senate",
+          "type": "ORG",
+          "context": "Passed clemency opposition resolution"
         }
       ],
+      "relationships": [],
       "temporal_markers": [
         {
-          "date": "2026-03-15",
-          "event": "no new developments",
-          "significance": "status quo"
+          "date": "2026-03-16",
+          "event": "No new developments detected",
+          "significance": "Baseline status unchanged"
         }
       ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": []
-    },
-    "iran": {
-      "entities": [
-        {
-          "name": "IRGC",
-          "type": "ORG",
-          "context": "Iranian military"
-        },
-        {
-          "name": "Mojtaba Khamenei",
-          "type": "PERSON",
-          "context": "succession candidate"
-        },
-        {
-          "name": "Strait of Hormuz",
-          "type": "LOCATION",
-          "context": "strategic waterway"
-        },
-        {
-          "name": "CENTCOM",
-          "type": "ORG",
-          "context": "US military command"
-        },
-        {
-          "name": "Houthis",
-          "type": "ORG",
-          "context": "Iranian proxy"
-        }
-      ],
-      "relationships": [
-        {
-          "from": "IRGC",
-          "to": "Mojtaba Khamenei",
-          "type": "leadership",
-          "detail": ""
-        },
-        {
-          "from": "IRGC",
-          "to": "Houthis",
-          "type": "proxy relationship",
-          "detail": ""
-        }
-      ],
-      "temporal_markers": [
-        {
-          "date": "2026-03-15",
-          "event": "no new developments",
-          "significance": "status quo"
-        }
-      ],
-      "event_classification": "NEUTRAL",
-      "cross_node_connections": [
-        {
-          "target_node": "gulf_swf",
-          "connection_type": "regional conflict",
-          "detail": "Iran war stress and Strait of Hormuz tensions"
-        }
-      ]
     },
     "gulf_swf": {
       "entities": [
         {
           "name": "Saudi PIF",
           "type": "ORG",
-          "context": "sovereign wealth fund"
+          "context": "Gulf SWF with $2B AUM in Affinity Partners"
         },
         {
-          "name": "Board of Peace",
+          "name": "MGX",
           "type": "ORG",
-          "context": "Trump-created organization"
+          "context": "UAE sovereign technology investment fund"
+        },
+        {
+          "name": "Affinity Partners",
+          "type": "ORG",
+          "context": "Investment firm with $2B AUM from Saudi PIF"
+        },
+        {
+          "name": "QIA",
+          "type": "ORG",
+          "context": "Qatar Investment Authority"
+        },
+        {
+          "name": "ADIA",
+          "type": "ORG",
+          "context": "Abu Dhabi Investment Authority"
+        },
+        {
+          "name": "Mubadala",
+          "type": "ORG",
+          "context": "UAE sovereign wealth fund"
         }
       ],
       "relationships": [
         {
           "from": "Saudi PIF",
+          "to": "Affinity Partners",
+          "type": "AUM",
+          "detail": "$2B"
+        },
+        {
+          "from": "MGX",
+          "to": "Stargate",
+          "type": "Investment",
+          "detail": ""
+        },
+        {
+          "from": "UAE",
           "to": "Board of Peace",
-          "type": "pledge",
-          "detail": "$1B Gaza pledge"
+          "type": "Pledge",
+          "detail": "Gaza reconstruction"
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-02-20",
-          "event": "Saudi PIF pledge",
-          "significance": "Gaza reconstruction"
+          "date": "2026-03-13",
+          "event": "Gulf states pledged $7B toward Gaza reconstruction",
+          "significance": "Via Board of Peace"
         }
       ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
         {
-          "target_node": "iran",
-          "connection_type": "regional conflict",
-          "detail": "Iran war stress and Strait of Hormuz tensions"
+          "target_node": "israel",
+          "connection_type": "Gaza reconstruction",
+          "detail": "Stalled due to Iran war"
         }
       ]
     },
     "israel": {
       "entities": [
         {
-          "name": "Israel",
-          "type": "LOCATION",
-          "context": "country"
-        },
-        {
-          "name": "Unit 8200",
-          "type": "ORG",
-          "context": "intelligence agency"
-        },
-        {
-          "name": "Abraham Accords",
-          "type": "ORG",
-          "context": "international agreement"
-        },
-        {
           "name": "Board of Peace",
           "type": "ORG",
-          "context": "Trump-created organization"
+          "context": "International organization for Gaza reconstruction"
+        },
+        {
+          "name": "Israel",
+          "type": "LOCATION",
+          "context": "Country"
+        },
+        {
+          "name": "IDF",
+          "type": "ORG",
+          "context": "Israeli Defense Forces"
+        },
+        {
+          "name": "Hezbollah",
+          "type": "ORG",
+          "context": "Lebanese militant group"
         }
       ],
       "relationships": [
         {
-          "from": "Unit 8200",
-          "to": "Abraham Accords",
-          "type": "intelligence sharing",
-          "detail": ""
+          "from": "Board of Peace",
+          "to": "Gaza",
+          "type": "Reconstruction efforts",
+          "detail": "Stalled due to Iran war"
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-15",
-          "event": "no new developments",
-          "significance": "status quo"
+          "date": "2026-02",
+          "event": "Pledges of $17B for Gaza reconstruction",
+          "significance": "Unfulfilled without Congressional approval"
         }
       ],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "gulf_swf",
+          "connection_type": "Gaza reconstruction",
+          "detail": "Stalled due to Iran war"
+        }
+      ]
     },
     "oracle_ellison": {
       "entities": [
         {
           "name": "Oracle",
           "type": "ORG",
-          "context": "technology company"
+          "context": "Enterprise software and cloud infrastructure company"
         },
         {
           "name": "Larry Ellison",
           "type": "PERSON",
-          "context": "CEO"
-        },
-        {
-          "name": "David Ellison",
-          "type": "PERSON",
-          "context": "son of Larry Ellison"
-        },
-        {
-          "name": "Stargate",
-          "type": "ORG",
-          "context": "AI infrastructure venture"
+          "context": "Oracle CEO"
         }
       ],
       "relationships": [
         {
-          "from": "Larry Ellison",
-          "to": "David Ellison",
-          "type": "personal guarantee",
-          "detail": "$40.4B"
+          "from": "Oracle",
+          "to": "Stargate",
+          "type": "Partnership",
+          "detail": "Joint AI infrastructure venture"
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-10",
-          "event": "Q3 FY2026 earnings",
-          "significance": "financial report"
+          "date": "2026",
+          "event": "Oracle fiscal Q3 earnings",
+          "significance": "No new information"
         }
       ],
       "event_classification": "NEUTRAL",
@@ -225,34 +192,27 @@
     "epstein_files": {
       "entities": [
         {
+          "name": "Jeffrey Epstein",
+          "type": "PERSON",
+          "context": "Late financier and convicted sex offender"
+        },
+        {
           "name": "DOJ",
           "type": "ORG",
           "context": "US Department of Justice"
         },
         {
-          "name": "Pam Bondi",
-          "type": "PERSON",
-          "context": "attorney general"
-        },
-        {
-          "name": "House Oversight Committee",
+          "name": "House Oversight",
           "type": "ORG",
-          "context": "committee"
+          "context": "Conducted hearings on Epstein case"
         }
       ],
-      "relationships": [
-        {
-          "from": "DOJ",
-          "to": "House Oversight Committee",
-          "type": "document production",
-          "detail": ""
-        }
-      ],
+      "relationships": [],
       "temporal_markers": [
         {
           "date": "2026-03-07",
-          "event": "DOJ library update",
-          "significance": "3.5M pages released"
+          "event": "DOJ Epstein library update",
+          "significance": "Nearly 3.5 million pages released"
         }
       ],
       "event_classification": "NEUTRAL",
@@ -263,32 +223,30 @@
         {
           "name": "AVAIO",
           "type": "ORG",
-          "context": "datacenter developer"
+          "context": "Datacenter company"
         },
         {
           "name": "Entergy Arkansas",
           "type": "ORG",
-          "context": "utility company"
+          "context": "Utility company"
         },
         {
           "name": "Tom Cotton",
           "type": "PERSON",
-          "context": "senator"
-        }
-      ],
-      "relationships": [
+          "context": "US Senator"
+        },
         {
-          "from": "AVAIO",
-          "to": "Entergy Arkansas",
-          "type": "partnership",
-          "detail": ""
+          "name": "Good Day Farm",
+          "type": "ORG",
+          "context": "Cannabis company"
         }
       ],
+      "relationships": [],
       "temporal_markers": [
         {
-          "date": "2026-01-12",
-          "event": "AVAIO announcement",
-          "significance": "datacenter project"
+          "date": "2025",
+          "event": "Arkansas Supreme Court Good Day Farm ruling",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
@@ -298,27 +256,19 @@
   "convergence_signals": [
     {
       "nodes_involved": [
-        "iran",
-        "gulf_swf"
+        "gulf_swf",
+        "israel"
       ],
-      "mechanism": "regional conflict",
-      "confidence": "HIGH"
-    },
-    {
-      "nodes_involved": [
-        "israel",
-        "iran"
-      ],
-      "mechanism": "conflict",
-      "confidence": "HIGH"
+      "mechanism": "Gaza reconstruction",
+      "confidence": "MEDIUM"
     },
     {
       "nodes_involved": [
         "oracle_ellison",
-        "Stargate"
+        "gulf_swf"
       ],
-      "mechanism": "financial leverage",
-      "confidence": "MEDIUM"
+      "mechanism": "Stargate partnership",
+      "confidence": "LOW"
     }
   ]
 }
