@@ -847,6 +847,32 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
+## Node 10: Religious Layer / Eschatological Infrastructure (March 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | Theological-policy pipeline — eschatological motivational infrastructure |
+| **Theological access architecture** | Four documented input channels into executive/military decision-making: (1) Paula White (human router / White House Faith Office), (2) Ralph Drollinger / Capitol Ministries (weekly curriculum), (3) Doug Wilson / CREC (denominational pipeline into Pentagon), (4) CUFI / John Hagee (mass political base, 10M+ members) | Source files: `15_The_Religious_Layer/The_Religious_Layer.md` |
+| **Paula White** | Trump's personal pastor since ~2002; Senior Advisor and leader of White House Faith Office (created Feb 6, 2025); hosted ~500 faith leaders through WH since Feb 2025; organized Oval Office prayer gathering during Iran war escalation (March 9, 2026); Boller describes White pressuring her about social media posts criticizing Israel | Source: Tucker Carlson Show (March 13, 2026), Christianity Today, Ynet News |
+| **Capitol Ministries** | Weekly Cabinet Bible Study reignited Feb 26, 2025; 14 attendees; co-sponsored by Brooke Rollins and Russell Vought (OMB Director); Hegseth and Huckabee attend; 8-12 page studies weekly covering Israel's prophetic role; operates in 43 state capitols, 24 foreign nations | Source: capmin.org, Activist Post, Forward |
+| **CREC / Doug Wilson** | Hegseth's denomination (Pilgrim Hill Reformed Fellowship, Nashville); Wilson invited to preach at Pentagon (Feb 18, 2026); monthly Christian prayer services at Pentagon, streamed on internal DOD network; Pastor Potteiger: "Jesus has the final say" over Tomahawk and Minuteman missiles | Source: CNN, Activist Post, Forward |
+| **CUFI / John Hagee** | 10M+ members; Ezekiel 38-39 = Iran war fulfills prophecy; advanced 21st Century Peace Through Strength Act ($14.3B military aid to Israel); CUFI Action Fund pushed Iran Sanctions Enforcement Act; March 2026: "What Iran started we will finish" | Source: cufi.org, CDAMM, InfluenceWatch |
+| **Convergence node: Hegseth** | Receives all four theological inputs AND controls DOD operational authority; called for Third Temple (2018); gutted civilian casualty offices ~90% before Iran war; Camden "Arsenal of Freedom" speech <24hrs before Iran strikes; troops briefed war fulfills "God's divine plan" (110 MRFF complaints, 40 units, 30 installations) | Source: Israel National News, Politico, Arkansas Advocate, Activist Post |
+| **Enforcement mechanism** | Documented escalation pattern — Corporate → Government → Intelligence: (1) Candace Owens departed Daily Wire after criticizing Israel (2024), (2) Carrie Prejean Boller fired from Religious Liberty Commission by Dan Patrick/Trump for raising Catholic theology against Zionist framing (Feb-March 2026), (3) Tucker Carlson — CIA criminal referral reportedly under consideration for FARA after talking to Iranians and platforming dissenters (March 2026) | Source: `15_The_Religious_Layer/The_Lever.md`, Tucker Carlson Show, JTA, Jewish Insider |
+| **Denominational fault line** | Christian Zionism (Hegseth, Huckabee, Drollinger, Hagee, White, Patrick) vs. Catholic/Replacement Theology (Boller, Rev. Fares Abraham) vs. Emerging Dissent (Carlson, Palin, Flynn) — administration enforcing one denominational interpretation through government apparatus | Source: `15_The_Religious_Layer/The_Religious_Layer.md` |
+| **Critical personnel overlap: Vought** | Russell Vought co-sponsors Cabinet Bible Study AND named to institutionalize DOGE — theological infrastructure and administrative restructuring share this personnel node | Source: capmin.org, public reporting |
+| **Dan Patrick** | Lt. Gov. Texas; Chair of White House Religious Liberty Commission; removed Boller; state connections: Stargate data center (Abilene), defense contractors | Source: JTA, Jewish Insider |
+| Framework significance | [Inference] The capital layer documents *what* is happening. The attention layer documents *how* it's concealed. This layer documents *why* — the belief system that makes otherwise irrational behavior (burning global oil markets, risking Strait of Hormuz closure, launching wars that destabilize the capital architecture) appear divinely mandated to the actors involved. |
+| Last updated | March 16, 2026 |
+
+**Sources**:
+- Main analysis: `15_The_Religious_Layer/The_Religious_Layer.md`
+- Enforcement mechanisms: `15_The_Religious_Layer/The_Lever.md`
+- Node Dossier: `Node_Dossiers/tier2_religious_infrastructure.md`
+- Evangelical network cross-reference: `Project_Trident/Copilot_Opus_4.6_Analysis/Evangelical_Network_Cross_Reference_Analysis.md`
+
+---
+
 ## Research Gaps
 
 ### Needs More Data
@@ -910,4 +936,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 8, 2026. Node 9 updated: deep-dive verification resolved all 8 partially verified claims — 4 upgraded to ✅ VERIFIED (Hiland authorship, 6-0 vote, Brooks Nov 19 injunction, Bryan King quotes via Bolts Magazine), 3 downgraded to ❌ UNABLE TO VERIFY (Les Eaves lobbyist quote, Joshua Silverstein quote, David Couch "permanently dismantle" quote — removed from _AI_CONTEXT_INDEX), 1 corrected ("eight new laws" → "at least six specific Acts"). Node 9 now contains only verified information. Final tally: 24/28 ✅ VERIFIED, 1/28 ⚠️ CORRECTED, 3/28 ❌ UNABLE TO VERIFY. Previous: March 8, 2026 — Node 9 added; Node 5 updated. Previous: March 7, 2026 — Node 8 added. Previous: March 6, 2026 — March 1-6 verified developments. Full verification: `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Law_Forensic_Audit_Verification.md`. Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md. This document should be updated as new developments occur.*
+*Last Updated: March 16, 2026. Node 10 added: Religious Layer / Eschatological Infrastructure — documents four theological input channels (Paula White, Capitol Ministries, CREC/Wilson, CUFI/Hagee), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. Source: `15_The_Religious_Layer/`. Previous: March 8, 2026. Node 9 updated: deep-dive verification resolved all 8 partially verified claims — 4 upgraded to ✅ VERIFIED (Hiland authorship, 6-0 vote, Brooks Nov 19 injunction, Bryan King quotes via Bolts Magazine), 3 downgraded to ❌ UNABLE TO VERIFY (Les Eaves lobbyist quote, Joshua Silverstein quote, David Couch "permanently dismantle" quote — removed from _AI_CONTEXT_INDEX), 1 corrected ("eight new laws" → "at least six specific Acts"). Node 9 now contains only verified information. Final tally: 24/28 ✅ VERIFIED, 1/28 ⚠️ CORRECTED, 3/28 ❌ UNABLE TO VERIFY. Previous: March 8, 2026 — Node 9 added; Node 5 updated. Previous: March 7, 2026 — Node 8 added. Previous: March 6, 2026 — March 1-6 verified developments. Full verification: `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Law_Forensic_Audit_Verification.md`. Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md. This document should be updated as new developments occur.*
