@@ -6,6 +6,8 @@ A data-driven analysis of temporal correlations between friction events, policy 
 |---|---|
 | **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
 | **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with embedded `_AI_CONTEXT_INDEX` knowledge base |
+| **⛪ Religion Connections Tracker** | [Religion Tracker](https://signalwebdevelopment.github.io/Religion_Tracker/) — automated live tracking of religious network connections |
+| **💰 Crypto Conflict of Interest Tracker** | [Crypto COI Tracker](https://signalwebdevelopment.github.io/) — automated live tracking of crypto conflicts of interest |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
@@ -95,7 +97,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas — 9 nodes) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer — 10 nodes) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -120,6 +122,7 @@ The_Regulated_Friction_Project/
 ├── 12_The_Media_Firewall/        # Media control, 1789 Capital analysis
 ├── 13_State_and_County_Analysis/ # Arkansas infrastructure audit
 ├── 14_Files/                     # Glossary, sources, main characters
+├── 15_The_Religious_Layer/       # Eschatological infrastructure, theological-policy pipeline
 ├── _AI_CONTEXT_INDEX/            # Structured context for AI assistants (12 files + Node Dossiers)
 ├── Project_Trident/              # Independent verification (Opus 4.6 — 16 statistical tests, 80+ docs)
 ├── Run_Correlations_Yourself/    # Reproducibility scripts
@@ -285,6 +288,8 @@ This repository documents **correlations, not causation**. All findings derive f
 | Repository | Focus |
 |------------|-------|
 | [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — powers the public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) with 8 tabs, Chart.js visualizations, and Gradient AI chatbot |
+| [Religion_Tracker](https://signalwebdevelopment.github.io/Religion_Tracker/) | Automated live tracking of religious network connections to policy infrastructure |
+| [Crypto COI Tracker](https://signalwebdevelopment.github.io/) | Automated live tracking of cryptocurrency conflicts of interest |
 | [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
 | [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
 | [Sovereign-Capital-Audit](https://github.com/Leerrooy95/Sovereign-Capital-Audit) | Gulf SWF positioning |

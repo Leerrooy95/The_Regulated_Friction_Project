@@ -2,7 +2,7 @@
 
 **Purpose**: This index enables AI assistants to selectively load relevant historical context when analyzing new friction or compliance events. Instead of reading one massive file, the AI should identify matching entities and pull only the specific dossiers needed for that analysis.
 
-**Last Updated**: March 1, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
+**Last Updated**: March 16, 2026 | **Parent**: `_AI_CONTEXT_INDEX/`
 
 ---
 
@@ -57,6 +57,7 @@ These dossiers document current financial positioning that the dashboard tracks 
 | **Egypt-Gulf Integration** | `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Cairo, Suez | Documents Egypt's financial integration with Gulf SWFs as geographic bridge between Gulf capital and Mediterranean. |
 | **UAE Coordination Node** | `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge, OPEC+, Kushner, Witkoff, Board of Peace | Documents UAE's function as multi-track coordination node: Russia-Ukraine negotiation venue + BRICS member + mBridge participant + OPEC+ coordination with Russia + US diplomatic operations via Kushner/Witkoff. |
 | **Entity Leadership Profiles** | `tier2_entity_leadership_profiles.md` | SoftBank, Masayoshi Son, Vision Fund, Saudi PIF, Yasir Al-Rumayyan, Mubadala, Khaldoon Al Mubarak, MGX, Sheikh Tahnoon, 1789 Capital, Omeed Malik, Stargate | Verified leadership structure of entities in capital architecture: SoftBank Group, Saudi PIF, UAE Mubadala, UAE MGX, and 1789 Capital. Board interlocking, capital flow authority, and royal family governance. |
+| **Religious Infrastructure** | `tier2_religious_infrastructure.md` | Paula White, Dan Patrick, Ralph Drollinger, Capitol Ministries, Doug Wilson, CREC, CUFI, John Hagee, Pete Hegseth (theological context), White House Faith Office, Religious Liberty Commission, Christian Zionism, eschatology, NAR, Carrie Prejean Boller, Candace Owens (enforcement boundary) | Documents the eschatological policy pipeline: four theological input channels (White House Faith Office, Capitol Ministries weekly Bible study, CREC/Pentagon worship, CUFI lobbying), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. |
 
 ---
 
@@ -105,6 +106,16 @@ This is the master logic file. Load this for any timing analysis.
 | Yasir Al-Rumayyan | `tier2_entity_leadership_profiles.md`, `tier2_sovereign_wealth_movers.md` |
 | Khaldoon Al Mubarak | `tier2_entity_leadership_profiles.md`, `tier2_uae_coordination_node.md` |
 | 1789 Capital / Omeed Malik | `tier2_entity_leadership_profiles.md`, `02_MEDIA_FIREWALL.md` |
+| Paula White / White House Faith Office | `tier2_religious_infrastructure.md`, `09_CURRENT_THREADS.md` (Node 10) |
+| Ralph Drollinger / Capitol Ministries | `tier2_religious_infrastructure.md` |
+| Doug Wilson / CREC / Pilgrim Hill | `tier2_religious_infrastructure.md` |
+| CUFI / John Hagee / Christian Zionism | `tier2_religious_infrastructure.md` |
+| Dan Patrick / Religious Liberty Commission | `tier2_religious_infrastructure.md` |
+| Pete Hegseth (theological context) | `tier2_religious_infrastructure.md`, `09_CURRENT_THREADS.md` (Node 10) |
+| Carrie Prejean Boller / enforcement boundary | `tier2_religious_infrastructure.md` |
+| Russell Vought (theological overlap) | `tier2_religious_infrastructure.md` |
+| New Apostolic Reformation (NAR) | `tier2_religious_infrastructure.md` |
+| Eschatological infrastructure / denominational fault line | `tier2_religious_infrastructure.md`, `15_The_Religious_Layer/The_Religious_Layer.md` |
 
 ---
 
@@ -115,6 +126,7 @@ This Node Dossier system is a **supplement** to the main `_AI_CONTEXT_INDEX/` fi
 - For **methodology and statistics**: Continue using `07_METHODOLOGY.md`
 - For **current research threads**: Continue using `09_CURRENT_THREADS.md`
 - For **full capital architecture**: Continue using `04_CAPITAL_ARCHITECTURE.md`
+- For **religious/eschatological infrastructure**: Use `tier2_religious_infrastructure.md` or `15_The_Religious_Layer/`
 - For **historical friction context**: Use Node Dossiers
 
 The Node Dossiers are designed for **targeted loading** when specific entities appear, rather than comprehensive background reading.

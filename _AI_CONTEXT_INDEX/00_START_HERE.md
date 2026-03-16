@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: March 8, 2026 | **Repository Version**: v10.4
+**Last Updated**: March 16, 2026 | **Repository Version**: v10.7
 
 ---
 
@@ -131,6 +131,9 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | SWF | Sovereign Wealth Fund |
 | CFIUS | Committee on Foreign Investment in US |
 | BoP | Board of Peace |
+| CUFI | Christians United for Israel |
+| CREC | Communion of Reformed Evangelical Churches |
+| NAR | New Apostolic Reformation |
 
 ---
 
@@ -147,7 +150,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: noise generators, cross-administration patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active research questions |
+| `09_CURRENT_THREADS.md` | Active research questions (10 nodes including Religious Layer) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage architecture: Epstein/Musk origin, Iran extension, capital flows |
 
@@ -167,6 +170,9 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | Gulf SWF / Silicon Sovereignty | `04_CAPITAL_ARCHITECTURE.md`, `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md` |
 | CRINK framework | `05_CRINK_FRAMEWORK.md`, `05_Geopolitical_Vectors/CRINK_Analysis.md` |
 | Arkansas infrastructure | `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md` |
+| Religious layer / eschatological infrastructure | `15_The_Religious_Layer/The_Religious_Layer.md`, `Node_Dossiers/tier2_religious_infrastructure.md` |
+| Paula White / CUFI / Capitol Ministries / CREC | `Node_Dossiers/tier2_religious_infrastructure.md`, `09_CURRENT_THREADS.md` (Node 10) |
+| Theological enforcement / Boller / denominational fault line | `15_The_Religious_Layer/The_Lever.md`, `Node_Dossiers/tier2_religious_infrastructure.md` |
 | FaaS / protest dynamics | `11_Protest_Dynamics_and_Funding/README.md` |
 | Iran strikes / cyber-kinetic | `sources/2026-02-28_Iran_Strike_Target_Mapping.md`, `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md` |
 | Statistical verification | `07_METHODOLOGY.md`, `Run_Correlations_Yourself/README.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Statistical_Tests/README.md` |
@@ -208,6 +214,7 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | `tier2_sovereign_wealth_movers.md` | PIF, Mubadala, Saudi, UAE, 13F filings |
 | `tier2_egypt_gulf_integration.md` | Egypt, Sisi, Ras El-Hekma, ADQ, Suez |
 | `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge |
+| `tier2_religious_infrastructure.md` | Paula White, Capitol Ministries, CUFI, CREC, Doug Wilson, Dan Patrick, Religious Liberty Commission, Hegseth (theological context), NAR |
 | `tier3_thermostat_ruleset.md` | Any timing/convergence analysis |
 
 **Full documentation**: `Node_Dossiers/NODE_INDEX.md`
@@ -270,6 +277,7 @@ The repository includes a live data pipeline:
 | `08_How_It's_Possible/` | Mechanisms enabling the pattern (regulatory gaps, Maxwell leverage) | `08_How_Its_Possible.md` |
 | `11_Protest_Dynamics_and_Funding/` | FaaS framework, protest supply chain | `README.md` |
 | `13_State_and_County_Analysis/` | Arkansas infrastructure forensic audit | `arkansas_infrastructure_forensic_audit.md` |
+| `15_The_Religious_Layer/` | Eschatological infrastructure: theological-policy pipeline, enforcement mechanisms, denominational fault line | `The_Religious_Layer.md`, `The_Lever.md` |
 | `Archive/` | Retracted analysis, deprecated infrastructure docs | See retraction notice above |
 | `Project_Trident/Claude_Code_Analysis/` | Privatized integration networks synthesis | 9 files |
 | `Project_Trident/Copilot_Opus_4.6_Analysis/` | 80+ files: statistical tests, entity reports, verification | See `REPO_AUDIT_2026-03-01.md` |
