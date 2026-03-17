@@ -1,107 +1,121 @@
 {
-  "checked_at": "2026-03-16T08:49:33.517622+00:00",
-  "status": "CORRECTED",
+  "checked_at": "2026-03-17T08:43:59.279626+00:00",
+  "status": "PASS",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 10,
+  "claims_checked": 7,
   "claims_verified": 0,
-  "claims_flagged": 1,
-  "claims_unverifiable": 9,
-  "corrections_applied": [
-    {
-      "claim_index": 2,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "Board of Peace inaugurated as UN stress test for Gaza post-conflict management and reconstruction.",
-      "corrected_headline": "Board of Peace, created by Trump via EO 14375, operational for Gaza reconstruction oversight amid diplomatic immunity framework",
-      "original_summary": "The Trump-created Board of Peace, established via UNSC Resolution 2803 (Nov 17, 2025), is now operational for Gaza reconstruction oversight, testing multilateral diplomacy limits with Trump's lifetime chairmanship. It supervises transition excluding Palestinian governance, aligning with Internationa",
-      "corrected_summary": "The Board of Peace was established by President Trump through Executive Order 14375 \u2014 not UNSC Resolution 2803 \u2014 and granted IOIA diplomatic immunity. It is now reported as operational for Gaza reconstruction oversight, with Trump holding lifetime chairmanship. UNSC Resolution 2803 may provide supplementary multilateral backing, but the body's founding authority derives from the executive order.",
-      "finding": "The claim misattributes the Board of Peace's establishment to UNSC Resolution 2803; per the entity disambiguation table, the Board of Peace was created by Trump via Executive Order 14375, not a UN Security Council resolution. UNSC 2803 may be a supporting resolution but is not the founding instrument."
-    }
-  ],
-  "enrichment_targets_found": 6,
+  "claims_flagged": 0,
+  "claims_unverifiable": 7,
+  "corrections_applied": [],
+  "enrichment_targets_found": 10,
   "enrichments_applied": [
+    {
+      "target": "maxwell",
+      "type": "node",
+      "headline": "Ghislaine Maxwell remains at FCI Tallahassee; clemency, habeas corpus, and House Oversight testimony status unchanged",
+      "summary": "Ghislaine Maxwell, convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years, has been the subject of ongoing clemency speculation and habeas corpus filings as of early 2026. Her attorney David Markus has publicly indicated willingness to negotiate testimony arrangements, while Maxwell herself has previously invoked the Fifth Amendment before House Oversight. No court ruling, DOJ decision, or confirmed hearing date has been reported that would change her status since mid-March 2026 reporting.",
+      "enrichment_note": "Draws on training knowledge of Maxwell's 2021 conviction, sentencing, FCI Tallahassee placement, and reported legal strategy discussions through early 2026."
+    },
+    {
+      "target": "iran",
+      "type": "node",
+      "headline": "Post-Khamenei succession crisis unresolved; Hormuz threat posture and IRGC command continuity remain active risk vectors",
+      "summary": "Following the reported killing of Supreme Leader Ali Khamenei in Operation Epic Fury, Iran's Assembly of Experts faces an unprecedented succession process with no clear consensus candidate as of early 2026 reporting. Mojtaba Khamenei (the Supreme Leader's son) and IRGC-aligned figures including parliamentary speaker Mohammad Bagher Ghalibaf represent competing power centers, while IRGC command continuity and retaliatory posture toward Gulf states and US assets remain the dominant near-term risk. The Strait of Hormuz, through which approximately 20% of global oil supply transits, remains a potential retaliation chokepoint with IRGC naval forces capable of mine-laying and harassment operations.",
+      "enrichment_note": "Draws on training knowledge of Iranian political structure, IRGC command hierarchy, Assembly of Experts succession mechanisms, and Strait of Hormuz strategic geography through early 2026."
+    },
     {
       "target": "israel",
       "type": "node",
-      "headline": "Israel-Iran war (Operation Epic Fury) dominates IDF posture; Board of Peace Gaza reconstruction role suspended pending kinetic resolution",
-      "summary": "As of early 2026, Israel's military and intelligence apparatus is heavily oriented toward the Iran campaign following Operation Epic Fury, which targeted Iranian nuclear sites, missile infrastructure, and senior leadership including Supreme Leader Khamenei. Unit 8200 and broader signals intelligence capabilities are understood to be playing a significant role in targeting and battle damage assessment for the Iran operation, while the Lebanon front \u2014 previously shaped by the 2024 Hezbollah conflict \u2014 remains a secondary but active concern. The Board of Peace, established by EO 14375 with Trump as lifetime chairman and designed to coordinate Gaza reconstruction, has had its operational runway effectively narrowed by the ongoing regional war, as physical reconstruction prerequisites cannot be met while major-power military operations continue across the theater.",
-      "enrichment_note": "Draws on training knowledge of IDF/Unit 8200 capabilities, the 2024 Lebanon conflict, Abraham Accords capital architecture, and the entity disambiguation context provided for Board of Peace and Operation Epic Fury."
+      "headline": "Israel's Unit 8200 and NSO Group remain central to regional intelligence architecture; Abraham Accords tech-capital bridge active",
+      "summary": "Israel's military intelligence Unit 8200 continues to function as a primary node for cyber operations and signals intelligence across the region, with alumni networks deeply embedded in global venture-backed defense tech. NSO Group's Pegasus spyware remains a documented tool of intelligence operations despite ongoing legal pressure in US courts. The Abraham Accords framework has created durable capital and technology bridges between Israel, UAE, and other Gulf states, with the Board of Peace construct layering a new diplomatic-financial superstructure atop existing normalization agreements.",
+      "enrichment_note": "Draws on training knowledge of Unit 8200's documented commercial and intelligence footprint, NSO Group litigation history, and Abraham Accords capital integration through early 2026."
     },
     {
       "target": "oracle_ellison",
       "type": "node",
-      "headline": "Oracle carries $100B+ debt load and fresh $45-50B capital raise amid Stargate partnership stress and Ellison's $40.4B WBD personal guarantee exposure",
-      "summary": "Oracle entered 2026 as one of the most leveraged large-cap technology companies in the US, with existing debt exceeding $100 billion compounded by a reported $45\u201350 billion new capital raise in early 2026 tied in part to Stargate AI infrastructure commitments. Separately, CEO Larry Ellison extended a personal guarantee of approximately $40.4 billion to support son David Ellison's acquisition of Warner Bros. Discovery, creating a dual-exposure stress scenario in which corporate bond market turbulence and personal liquidity constraints could interact. The Ohio Carpenters Pension bondholder lawsuit represents a downstream institutional signal: pension funds with Oracle bond exposure are beginning to formally contest terms, which the Regulated Friction framework would flag as a Track B compliance-pressure event worth monitoring for 7-day lag convergence with higher-visibility Oracle headlines.",
-      "enrichment_note": "Draws on training knowledge of Oracle's capital structure, Stargate joint venture architecture, David Ellison's WBD acquisition financing, and the entity disambiguation context provided for Oracle and Stargate."
+      "headline": "Oracle carries $100B+ debt load post-capital raise; Ellison personal guarantee on WBD acquisition adds compounding balance-sheet stress",
+      "summary": "Oracle reported Q3 FY2026 earnings on approximately February 28, 2026, following a $45\u201350 billion capital raise in early 2026 to fund Stargate AI infrastructure commitments, pushing total debt obligations above $100 billion. Separately, Larry Ellison's reported ~$40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros. Discovery via Paramount creates cross-collateral exposure that bond markets and rating agencies are tracking. An Ohio Carpenters Pension bondholder lawsuit adds litigation risk to what is already one of the most leveraged balance sheets in enterprise tech.",
+      "enrichment_note": "Draws on training knowledge of Oracle's debt trajectory, Stargate partnership structure, David Ellison's Skydance/Paramount/WBD deal financing, and bondholder litigation reporting through early 2026."
     },
     {
       "target": "arkansas_datacenter",
       "type": "node",
-      "headline": "Arkansas functions as a structural leverage template: ballot preemption, utility rate capture, $17B+ datacenter capital, and defense-industrial convergence advance quietly without headline coverage",
-      "summary": "Arkansas has emerged as a nationally significant test case for how state-level legal, regulatory, and capital infrastructure can be restructured beneath the threshold of national media attention. The Good Day Farm ballot initiative ruling by the Arkansas Supreme Court established a preemption precedent limiting direct democracy on commercially sensitive issues, while Acts 373 and 548 have restructured utility rate-setting in ways that benefit large industrial power consumers \u2014 a critical enabler for the $17 billion or more in datacenter capital being deployed in the state by entities including Google and AVAIO. The proposed DATA Act of 2026 and CREU designation framework represent a potential federal layer that would allow datacenter operators to bypass standard state energy regulatory processes entirely, and the L3Harris Camden defense manufacturing presence links the capital infrastructure buildout to the defense-industrial base in ways that further insulate the nexus from ordinary democratic accountability mechanisms.",
-      "enrichment_note": "Draws on training knowledge of Arkansas regulatory developments, datacenter investment trends, utility capture mechanisms, and the structural leverage framework described in the node description."
-    }
-  ],
-  "issues_found": [
+      "headline": "Arkansas ballot preemption ruling and utility rate capture acts establish replicable template for state-level democratic accountability erosion",
+      "summary": "The Arkansas Supreme Court's Good Day Farm ruling established precedent limiting citizen ballot initiative power, functioning as a structural preemption mechanism that compounds with Acts 373 and 548 \u2014 legislation enabling utility rate capture favorable to large industrial power consumers including hyperscale datacenter operators. Over $17 billion in datacenter capital has been directed toward Arkansas in part due to this regulatory environment, with Google and AVAIO among significant deployments, and L3Harris's Camden facility representing defense-industrial convergence. The proposed DATA Act of 2026 and CREU designation would allow federal energy bypass, further insulating these deployments from state and local democratic oversight.",
+      "enrichment_note": "Draws on training knowledge of Arkansas legislative and judicial actions affecting ballot initiatives, utility regulation, and datacenter investment patterns through early 2026."
+    },
     {
-      "claim": "Board of Peace inaugurated as UN stress test for Gaza post-conflict management and reconstruction.",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim misattributes the Board of Peace's establishment to UNSC Resolution 2803; per the entity disambiguation table, the Board of Peace was created by Trump via Executive Order 14375, not a UN Security Council resolution. UNSC 2803 may be a supporting resolution but is not the founding instrument.",
-      "corrected_headline": "Board of Peace, created by Trump via EO 14375, operational for Gaza reconstruction oversight amid diplomatic immunity framework",
-      "corrected_summary": "The Board of Peace was established by President Trump through Executive Order 14375 \u2014 not UNSC Resolution 2803 \u2014 and granted IOIA diplomatic immunity. It is now reported as operational for Gaza reconstruction oversight, with Trump holding lifetime chairmanship. UNSC Resolution 2803 may provide supplementary multilateral backing, but the body's founding authority derives from the executive order."
+      "target": "Board of Peace and Gaza reconstruction",
+      "type": "signal",
+      "headline": "Board of Peace established via EO 14375 with IOIA diplomatic immunity; Gaza reconstruction mandate and capital mobilization role remain structurally active",
+      "summary": "The Board of Peace was created by Executive Order 14375 as an international organization with International Organizations Immunities Act diplomatic protections, chaired by President Trump with lifetime tenure. Its stated mandate centers on Gaza reconstruction, positioning it as a capital-mobilization vehicle that intersects Gulf sovereign wealth \u2014 including MGX and Saudi PIF \u2014 with US foreign policy levers. The organization's immunity status and governance structure make it a durable instrument regardless of week-to-week headline activity.",
+      "enrichment_note": "Draws on training knowledge of EO 14375, IOIA immunity frameworks, and the Board of Peace's structural design as reported through early 2026."
+    },
+    {
+      "target": "Maxwell clemency and testimony",
+      "type": "signal",
+      "headline": "Maxwell testimony leverage remains latent; no confirmed deal, hearing, or clemency grant as of mid-March 2026",
+      "summary": "The intelligence value of Ghislaine Maxwell's potential testimony lies in her documented proximity to Jeffrey Epstein's network of high-profile associates, many of whom appear in the nearly 3.5 million pages of Epstein files released under the Epstein Files Transparency Act through early 2026. Attorney David Markus has signaled openness to negotiated arrangements, but DOJ under Pam Bondi has not publicly confirmed any active clemency or cooperation discussions. This signal should be treated as latent leverage \u2014 meaningful when movement occurs, not a weekly monitoring priority absent new filings or hearings.",
+      "enrichment_note": "Draws on training knowledge of Maxwell's legal team's public statements, Epstein file release volumes, and DOJ posture under the second Trump administration through early 2026."
+    },
+    {
+      "target": "Oracle and Stargate infrastructure",
+      "type": "signal",
+      "headline": "Oracle's Stargate commitment anchors $500B AI infrastructure plan; capital stress from debt load and personal guarantees warrants continued bond-market monitoring",
+      "summary": "Oracle is a foundational infrastructure partner in the Stargate joint venture alongside OpenAI and SoftBank, with Texas datacenter construction underway as part of a $500 billion planned AI infrastructure deployment. Oracle's own $45\u201350 billion capital raise in early 2026 to fund this commitment, layered on top of existing debt exceeding $100 billion, creates a capital structure that is sensitive to interest rate movements and energy cost escalation \u2014 both of which are live risk factors given the Iran kinetic situation's potential impact on energy markets. The Abilene, Texas expansion has been reported as scaled back or cancelled, which may indicate early capital allocation stress.",
+      "enrichment_note": "Draws on training knowledge of Stargate's announced structure, Oracle's financing activity, and the Abilene datacenter development timeline as reported through early 2026."
+    },
+    {
+      "target": "Federal workforce restructuring",
+      "type": "signal",
+      "headline": "Schedule Policy Career reclassification of ~50,000 federal positions to at-will employment took effect March 2026; union litigation ongoing",
+      "summary": "Schedule Policy Career \u2014 the successor to the legacy Schedule F executive order \u2014 reclassified approximately 50,000 career federal positions to at-will employment status, taking effect in March 2026 amid active legal challenges from federal employee unions. The structural impact is a shift in civil service insulation that enables faster personnel replacement across agencies including those managing financial regulation, energy oversight, and national security \u2014 compounding the Track B institutional restructuring dynamic documented in the Regulated Friction framework. Union lawsuits challenging the reclassification are proceeding in federal court but have not produced an injunction halting implementation as of available reporting.",
+      "enrichment_note": "Draws on training knowledge of Schedule F's history, the second Trump administration's workforce restructuring executive actions, and federal union litigation postures through early 2026."
+    },
+    {
+      "target": "TikTok US ownership and national security",
+      "type": "signal",
+      "headline": "TikTok divestiture deadline extended to June 2026; MGX holds 15% stake as CFIUS review continues amid ByteDance restructuring",
+      "summary": "The ByteDance divestiture deadline for TikTok's US operations has been extended to approximately June 2026, with CFIUS review ongoing and no finalized ownership structure publicly confirmed as of mid-March 2026. MGX, the UAE sovereign technology fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan, holds a reported 15% stake, embedding Gulf sovereign capital at the center of what is nominally a national security-driven divestiture. This creates a structural ambiguity \u2014 the deal resolves a stated US national security concern while simultaneously deepening UAE influence over a platform with 170 million US users.",
+      "enrichment_note": "Draws on training knowledge of TikTok divestiture legislation, deadline extension history, MGX's reported stake, and CFIUS review processes through early 2026."
     }
   ],
+  "issues_found": [],
   "full_results": [
     {
       "claim_index": 0,
       "status": "UNVERIFIABLE",
-      "finding": "This claim describes events in early-to-mid 2026 (Israeli broadcaster Kan reporting ISF deployment preparations with Indonesian troops near Rafah) that fall beyond the January 2026 knowledge cutoff and cannot be verified or refuted."
+      "finding": "Events described (Kharg Island strikes, civilian casualty figures, cultural site damage, Iranian retaliatory missiles) fall after my knowledge cutoff of January 2026 and cannot be independently verified or refuted."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "Multiple specific details \u2014 September 2025 Trump Plan, Board of Peace charter signing at Davos in January 2026, ceasefire collapse statistics, and West Bank displacement figures \u2014 all postdate the January 2026 knowledge cutoff and cannot be verified; the entity description for Board of Peace is consistent with the disambiguation table (Trump lifetime chairmanship, IOIA immunity via EO 14375), but the broader factual claims cannot be confirmed."
+      "finding": "The plane crash in Iraq, UAE port drone attacks, and associated casualty/evacuation details all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
     },
     {
       "claim_index": 2,
-      "status": "FLAGGED",
-      "finding": "The claim misattributes the Board of Peace's establishment to UNSC Resolution 2803; per the entity disambiguation table, the Board of Peace was created by Trump via Executive Order 14375, not a UN Security Council resolution. UNSC 2803 may be a supporting resolution but is not the founding instrument.",
-      "corrected_headline": "Board of Peace, created by Trump via EO 14375, operational for Gaza reconstruction oversight amid diplomatic immunity framework",
-      "corrected_summary": "The Board of Peace was established by President Trump through Executive Order 14375 \u2014 not UNSC Resolution 2803 \u2014 and granted IOIA diplomatic immunity. It is now reported as operational for Gaza reconstruction oversight, with Trump holding lifetime chairmanship. UNSC Resolution 2803 may provide supplementary multilateral backing, but the body's founding authority derives from the executive order."
+      "status": "UNVERIFIABLE",
+      "finding": "Trump's call for coalition warships, Japan and Australia's responses, and the specific oil price figures cited all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. The 20% global oil figure for the Strait of Hormuz is broadly consistent with widely cited estimates, but the surrounding claims remain unverifiable."
     },
     {
       "claim_index": 3,
       "status": "UNVERIFIABLE",
-      "finding": "The operational details linking ISF deployment, Emirati-backed Rafah city construction, and Board of Peace governance structures to specific May 2026 timelines all fall beyond the January 2026 knowledge cutoff and cannot be verified."
+      "finding": "Israeli ground operations in southern Lebanon on March 13, 2026, the associated casualty figures, and displacement numbers all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
     },
     {
       "claim_index": 4,
       "status": "UNVERIFIABLE",
-      "finding": "The March 15 report date and all associated operational details regarding ISF deployment, troop compositions, and Board of Peace phase two implementation fall beyond the January 2026 knowledge cutoff and cannot be verified."
+      "finding": "The specific killings on March 15, 2026, cumulative casualty count since an 'October ceasefire,' and ceasefire violation characterization all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
     },
     {
       "claim_index": 5,
       "status": "UNVERIFIABLE",
-      "finding": "The specific March 5, 2026 lawsuit amendment, OPM rule effective date, and March 9 conversion start date all fall beyond the January 2026 knowledge cutoff; the Schedule Policy/Career entity description is consistent with the disambiguation table but the specific litigation and implementation timeline details cannot be confirmed."
+      "finding": "FCC Chair Brendan Carr's specific threats regarding license revocations tied to Iran war coverage on March 16, 2026 fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. Brendan Carr as FCC Chair is consistent with pre-cutoff knowledge, but the specific actions described cannot be confirmed."
     },
     {
       "claim_index": 6,
       "status": "UNVERIFIABLE",
-      "finding": "Operation Epic Fury, its described targeting of Iranian nuclear sites and leadership, and the claimed pause of Board of Peace activities as of March 16, 2026 all postdate the January 2026 knowledge cutoff and cannot be verified."
-    },
-    {
-      "claim_index": 7,
-      "status": "UNVERIFIABLE",
-      "finding": "The claimed pause of Board of Peace activities due to Operation Epic Fury, and all associated Iran war and Strait of Hormuz status details as of March 2026, postdate the January 2026 knowledge cutoff and cannot be verified."
-    },
-    {
-      "claim_index": 8,
-      "status": "UNVERIFIABLE",
-      "finding": "The claim's operational details \u2014 including NCAG led by Ali Shaath, Phase 2 stall due to Iran war, and the specific weekly status as of March 2026 \u2014 postdate the January 2026 knowledge cutoff; the Board of Peace entity attributes (Trump lifetime chairmanship, EO 14375, IOIA immunity) are consistent with the disambiguation table but the broader situational claims cannot be verified."
-    },
-    {
-      "claim_index": 9,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific March 5, 2026 amended complaint, OPM final rule publication date of February 6, 2026, and March 9 conversion start date all postdate the January 2026 knowledge cutoff; the Schedule Policy/Career reclassification of approximately 50,000 positions is consistent with the disambiguation table but the specific litigation timeline cannot be confirmed."
+      "finding": "The specific operational status of Operation Epic Fury, Strait of Hormuz mine-laying and clearing activities, and Khamenei succession details as of March 16, 2026 all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. The claim is consistent with the provided entity disambiguation definitions regarding Operation Epic Fury and the Strait of Hormuz, but live operational status cannot be independently confirmed."
     }
   ]
 }
