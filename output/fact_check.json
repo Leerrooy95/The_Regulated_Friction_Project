@@ -1,121 +1,101 @@
 {
-  "checked_at": "2026-03-17T08:43:59.279626+00:00",
+  "checked_at": "2026-03-18T08:40:49.281508+00:00",
   "status": "PASS",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 7,
-  "claims_verified": 0,
+  "claims_checked": 3,
+  "claims_verified": 1,
   "claims_flagged": 0,
-  "claims_unverifiable": 7,
+  "claims_unverifiable": 2,
   "corrections_applied": [],
   "enrichment_targets_found": 10,
   "enrichments_applied": [
     {
       "target": "maxwell",
       "type": "node",
-      "headline": "Ghislaine Maxwell remains at FCI Tallahassee; clemency, habeas corpus, and House Oversight testimony status unchanged",
-      "summary": "Ghislaine Maxwell, convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years, has been the subject of ongoing clemency speculation and habeas corpus filings as of early 2026. Her attorney David Markus has publicly indicated willingness to negotiate testimony arrangements, while Maxwell herself has previously invoked the Fifth Amendment before House Oversight. No court ruling, DOJ decision, or confirmed hearing date has been reported that would change her status since mid-March 2026 reporting.",
-      "enrichment_note": "Draws on training knowledge of Maxwell's 2021 conviction, sentencing, FCI Tallahassee placement, and reported legal strategy discussions through early 2026."
+      "headline": "Maxwell habeas petition and clemency negotiations remain unresolved; no court ruling or DOJ decision reported as of mid-March 2026",
+      "summary": "Ghislaine Maxwell, convicted in December 2021 on sex trafficking charges, has pursued habeas corpus relief and her legal team has engaged in clemency discussions, with attorney David Markus a central figure in those efforts. Maxwell has invoked the Fifth Amendment in connection with potential House Oversight Committee testimony, limiting her utility as a live witness even as Epstein document releases accelerate. Her leverage value lies primarily in what she knows rather than what she has said publicly \u2014 making any shift in her legal status (clemency grant, habeas ruling, or negotiated testimony agreement) a high-signal event worth tracking.",
+      "enrichment_note": "Draws on training knowledge of Maxwell's December 2021 conviction, subsequent appeals, Fifth Amendment posture, and the broader Epstein accountability legislative and investigative context through early 2026."
     },
     {
       "target": "iran",
       "type": "node",
-      "headline": "Post-Khamenei succession crisis unresolved; Hormuz threat posture and IRGC command continuity remain active risk vectors",
-      "summary": "Following the reported killing of Supreme Leader Ali Khamenei in Operation Epic Fury, Iran's Assembly of Experts faces an unprecedented succession process with no clear consensus candidate as of early 2026 reporting. Mojtaba Khamenei (the Supreme Leader's son) and IRGC-aligned figures including parliamentary speaker Mohammad Bagher Ghalibaf represent competing power centers, while IRGC command continuity and retaliatory posture toward Gulf states and US assets remain the dominant near-term risk. The Strait of Hormuz, through which approximately 20% of global oil supply transits, remains a potential retaliation chokepoint with IRGC naval forces capable of mine-laying and harassment operations.",
-      "enrichment_note": "Draws on training knowledge of Iranian political structure, IRGC command hierarchy, Assembly of Experts succession mechanisms, and Strait of Hormuz strategic geography through early 2026."
+      "headline": "Operation Epic Fury ongoing; Khamenei reported killed, succession crisis unresolved, Strait of Hormuz closure risk elevated as of mid-March 2026",
+      "summary": "Operation Epic Fury, the US-Israel joint strike campaign targeting Iranian nuclear infrastructure, missile programs, and leadership, resulted in the reported death of Supreme Leader Ali Khamenei, triggering an unresolved succession struggle within the Islamic Republic. Mojtaba Khamenei (Ali's son) and parliamentary speaker Mohammad Ghalibaf are among figures competing for influence within the Assembly of Experts and IRGC command structures. The Strait of Hormuz remains a critical pressure point \u2014 Iranian irregular forces retain the capability to conduct mine-laying, fast-boat harassment, and anti-ship missile operations, with any closure carrying immediate global energy price consequences.",
+      "enrichment_note": "Draws on training knowledge of Iranian political and military structures, Strait of Hormuz chokepoint dynamics, IRGC capabilities, and the Operation Epic Fury context as described in the dashboard's entity disambiguation framework."
     },
     {
       "target": "israel",
       "type": "node",
-      "headline": "Israel's Unit 8200 and NSO Group remain central to regional intelligence architecture; Abraham Accords tech-capital bridge active",
-      "summary": "Israel's military intelligence Unit 8200 continues to function as a primary node for cyber operations and signals intelligence across the region, with alumni networks deeply embedded in global venture-backed defense tech. NSO Group's Pegasus spyware remains a documented tool of intelligence operations despite ongoing legal pressure in US courts. The Abraham Accords framework has created durable capital and technology bridges between Israel, UAE, and other Gulf states, with the Board of Peace construct layering a new diplomatic-financial superstructure atop existing normalization agreements.",
-      "enrichment_note": "Draws on training knowledge of Unit 8200's documented commercial and intelligence footprint, NSO Group litigation history, and Abraham Accords capital integration through early 2026."
+      "headline": "Israel cyber-intelligence integration and Board of Peace operations continue; no major Unit 8200 or Abraham Accords capital event reported since March 16",
+      "summary": "Israel's Unit 8200 and broader intelligence apparatus remain deeply integrated into allied Gulf state cybersecurity infrastructure, a relationship formalized and expanded through Abraham Accords normalization deals with the UAE and Bahrain. The Board of Peace \u2014 the Trump executive-order entity granted IOIA diplomatic immunity for Gaza reconstruction \u2014 positions Israel-adjacent Gulf capital networks as reconstruction intermediaries, creating a parallel diplomatic and financial architecture outside traditional State Department channels. NSO Group's Pegasus spyware continues to generate international legal and reputational friction, even as Israeli defense-tech exports to Gulf and Asian partners expand.",
+      "enrichment_note": "Draws on training knowledge of Unit 8200's commercial and intelligence partnerships, Abraham Accords capital flows, NSO Group litigation history, and the Board of Peace's structure as defined in the dashboard disambiguation."
     },
     {
       "target": "oracle_ellison",
       "type": "node",
-      "headline": "Oracle carries $100B+ debt load post-capital raise; Ellison personal guarantee on WBD acquisition adds compounding balance-sheet stress",
-      "summary": "Oracle reported Q3 FY2026 earnings on approximately February 28, 2026, following a $45\u201350 billion capital raise in early 2026 to fund Stargate AI infrastructure commitments, pushing total debt obligations above $100 billion. Separately, Larry Ellison's reported ~$40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros. Discovery via Paramount creates cross-collateral exposure that bond markets and rating agencies are tracking. An Ohio Carpenters Pension bondholder lawsuit adds litigation risk to what is already one of the most leveraged balance sheets in enterprise tech.",
-      "enrichment_note": "Draws on training knowledge of Oracle's debt trajectory, Stargate partnership structure, David Ellison's Skydance/Paramount/WBD deal financing, and bondholder litigation reporting through early 2026."
-    },
-    {
-      "target": "arkansas_datacenter",
-      "type": "node",
-      "headline": "Arkansas ballot preemption ruling and utility rate capture acts establish replicable template for state-level democratic accountability erosion",
-      "summary": "The Arkansas Supreme Court's Good Day Farm ruling established precedent limiting citizen ballot initiative power, functioning as a structural preemption mechanism that compounds with Acts 373 and 548 \u2014 legislation enabling utility rate capture favorable to large industrial power consumers including hyperscale datacenter operators. Over $17 billion in datacenter capital has been directed toward Arkansas in part due to this regulatory environment, with Google and AVAIO among significant deployments, and L3Harris's Camden facility representing defense-industrial convergence. The proposed DATA Act of 2026 and CREU designation would allow federal energy bypass, further insulating these deployments from state and local democratic oversight.",
-      "enrichment_note": "Draws on training knowledge of Arkansas legislative and judicial actions affecting ballot initiatives, utility regulation, and datacenter investment patterns through early 2026."
-    },
-    {
-      "target": "Board of Peace and Gaza reconstruction",
-      "type": "signal",
-      "headline": "Board of Peace established via EO 14375 with IOIA diplomatic immunity; Gaza reconstruction mandate and capital mobilization role remain structurally active",
-      "summary": "The Board of Peace was created by Executive Order 14375 as an international organization with International Organizations Immunities Act diplomatic protections, chaired by President Trump with lifetime tenure. Its stated mandate centers on Gaza reconstruction, positioning it as a capital-mobilization vehicle that intersects Gulf sovereign wealth \u2014 including MGX and Saudi PIF \u2014 with US foreign policy levers. The organization's immunity status and governance structure make it a durable instrument regardless of week-to-week headline activity.",
-      "enrichment_note": "Draws on training knowledge of EO 14375, IOIA immunity frameworks, and the Board of Peace's structural design as reported through early 2026."
+      "headline": "Oracle carries $100B+ debt load and $45-50B new capital raise alongside Ellison's $40.4B WBD personal guarantee; no new stress event reported this week",
+      "summary": "Oracle Corporation entered 2026 under significant capital stress: existing debt exceeding $100 billion, a new $45\u201350 billion capital raise in early 2026 tied in part to Stargate infrastructure commitments, and a bondholder lawsuit from the Ohio Carpenters Pension fund raising governance and disclosure concerns. Simultaneously, CEO Larry Ellison provided an approximately $40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros. Discovery, creating a rare dual exposure where corporate and personal balance sheets are both under stress. Any adverse development in bond markets, energy costs for data centers, or the Stargate buildout timeline could trigger cascading covenant or liquidity events across both tracks.",
+      "enrichment_note": "Draws on training knowledge of Oracle's debt structure, Stargate joint venture terms, the Ohio Carpenters Pension bondholder lawsuit, and Larry Ellison's personal financial involvement in the Warner Bros. Discovery transaction."
     },
     {
       "target": "Maxwell clemency and testimony",
       "type": "signal",
-      "headline": "Maxwell testimony leverage remains latent; no confirmed deal, hearing, or clemency grant as of mid-March 2026",
-      "summary": "The intelligence value of Ghislaine Maxwell's potential testimony lies in her documented proximity to Jeffrey Epstein's network of high-profile associates, many of whom appear in the nearly 3.5 million pages of Epstein files released under the Epstein Files Transparency Act through early 2026. Attorney David Markus has signaled openness to negotiated arrangements, but DOJ under Pam Bondi has not publicly confirmed any active clemency or cooperation discussions. This signal should be treated as latent leverage \u2014 meaningful when movement occurs, not a weekly monitoring priority absent new filings or hearings.",
-      "enrichment_note": "Draws on training knowledge of Maxwell's legal team's public statements, Epstein file release volumes, and DOJ posture under the second Trump administration through early 2026."
+      "headline": "Maxwell clemency and testimony deal remain unresolved; Fifth Amendment posture intact as Epstein file releases accelerate",
+      "summary": "No clemency decision from DOJ or the White House has been reported as of mid-March 2026, and Maxwell's invocation of the Fifth Amendment continues to block direct congressional testimony before House Oversight. The accelerating release of Epstein-related documents \u2014 nearly 3.5 million pages by March 2026 \u2014 increases the external pressure for Maxwell cooperation by establishing a public documentary record that her testimony could either corroborate or contest. A clemency grant or negotiated immunity deal would be the single highest-signal event in this node, as it would unlock testimony that documents alone cannot provide.",
+      "enrichment_note": "Draws on training knowledge of Maxwell's legal status, Fifth Amendment invocation, the Epstein Files Transparency Act document release volume, and the interplay between documentary releases and live witness testimony value."
+    },
+    {
+      "target": "Russia-Ukraine negotiations",
+      "type": "signal",
+      "headline": "Russia-Ukraine ceasefire negotiations stalled at framework stage; no territorial or sovereignty breakthrough reported as of mid-March 2026",
+      "summary": "Diplomatic efforts involving US, European, and Ukrainian representatives have produced framework discussions but no binding ceasefire or territorial agreement through early 2026, with core disputes over Crimea, the four annexed oblasts, and NATO membership guarantees remaining unresolved. Russia has maintained maximalist public positions while conducting continued drone and missile strikes on Ukrainian energy infrastructure, and Ukraine has preserved frontline positions in most sectors despite material constraints. The Trump administration's engagement \u2014 including envoy-level contacts and pressure on Kyiv to accept negotiated terms \u2014 has introduced a new variable into the diplomatic geometry without yet producing a durable agreement.",
+      "enrichment_note": "Draws on training knowledge of the Russia-Ukraine conflict's diplomatic and military status through early 2026, including Trump administration envoy activity and the unresolved territorial sovereignty questions."
     },
     {
       "target": "Oracle and Stargate infrastructure",
       "type": "signal",
-      "headline": "Oracle's Stargate commitment anchors $500B AI infrastructure plan; capital stress from debt load and personal guarantees warrants continued bond-market monitoring",
-      "summary": "Oracle is a foundational infrastructure partner in the Stargate joint venture alongside OpenAI and SoftBank, with Texas datacenter construction underway as part of a $500 billion planned AI infrastructure deployment. Oracle's own $45\u201350 billion capital raise in early 2026 to fund this commitment, layered on top of existing debt exceeding $100 billion, creates a capital structure that is sensitive to interest rate movements and energy cost escalation \u2014 both of which are live risk factors given the Iran kinetic situation's potential impact on energy markets. The Abilene, Texas expansion has been reported as scaled back or cancelled, which may indicate early capital allocation stress.",
-      "enrichment_note": "Draws on training knowledge of Stargate's announced structure, Oracle's financing activity, and the Abilene datacenter development timeline as reported through early 2026."
+      "headline": "Oracle-Stargate Abilene data center expansion faces financing and energy headwinds; baseline capital stress persists without new catalytic event",
+      "summary": "The Stargate joint venture \u2014 comprising OpenAI, Oracle, SoftBank, and MGX among others \u2014 announced a $500 billion AI infrastructure investment program with Texas data centers as a primary buildout site, but financing execution has encountered friction including reported cancellation or deferral of the Abilene expansion phase. Oracle's role as infrastructure backbone for Stargate compounds its existing debt exposure, as data center construction requires sustained capital deployment at a moment when Oracle's bond market position is already under scrutiny via the Ohio Carpenters Pension lawsuit. Energy cost volatility, particularly relevant given the Iran kinetic situation's effect on global fuel prices, adds a further operational stress variable to the construction timeline.",
+      "enrichment_note": "Draws on training knowledge of the Stargate venture's announced structure, Oracle's capital raise timeline, the Abilene expansion reporting, and the interconnection between energy prices and hyperscale data center operating economics."
     },
     {
       "target": "Federal workforce restructuring",
       "type": "signal",
-      "headline": "Schedule Policy Career reclassification of ~50,000 federal positions to at-will employment took effect March 2026; union litigation ongoing",
-      "summary": "Schedule Policy Career \u2014 the successor to the legacy Schedule F executive order \u2014 reclassified approximately 50,000 career federal positions to at-will employment status, taking effect in March 2026 amid active legal challenges from federal employee unions. The structural impact is a shift in civil service insulation that enables faster personnel replacement across agencies including those managing financial regulation, energy oversight, and national security \u2014 compounding the Track B institutional restructuring dynamic documented in the Regulated Friction framework. Union lawsuits challenging the reclassification are proceeding in federal court but have not produced an injunction halting implementation as of available reporting.",
-      "enrichment_note": "Draws on training knowledge of Schedule F's history, the second Trump administration's workforce restructuring executive actions, and federal union litigation postures through early 2026."
+      "headline": "Schedule Policy Career reclassification took effect March 2026; union litigation ongoing, ~50,000 career positions converted to at-will status",
+      "summary": "The Schedule Policy Career executive order \u2014 the successor to the Trump-era Schedule F \u2014 reclassified approximately 50,000 federal career civil service positions to at-will employment, significantly reducing termination protections for policy-adjacent roles across agencies. Federal employee unions, including AFGE and NTEU, filed legal challenges arguing the reclassification violates civil service statutes and due process protections, with cases pending in federal district courts as of mid-March 2026. The practical effect has been to accelerate DOGE-aligned personnel reductions and agency restructuring by removing the procedural friction that previously slowed involuntary separations.",
+      "enrichment_note": "Draws on training knowledge of Schedule F's history, the Biden administration's rescission, the Trump second-term reinstatement and expansion under the Schedule Policy Career designation, and federal union litigation posture."
     },
     {
       "target": "TikTok US ownership and national security",
       "type": "signal",
-      "headline": "TikTok divestiture deadline extended to June 2026; MGX holds 15% stake as CFIUS review continues amid ByteDance restructuring",
-      "summary": "The ByteDance divestiture deadline for TikTok's US operations has been extended to approximately June 2026, with CFIUS review ongoing and no finalized ownership structure publicly confirmed as of mid-March 2026. MGX, the UAE sovereign technology fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan, holds a reported 15% stake, embedding Gulf sovereign capital at the center of what is nominally a national security-driven divestiture. This creates a structural ambiguity \u2014 the deal resolves a stated US national security concern while simultaneously deepening UAE influence over a platform with 170 million US users.",
-      "enrichment_note": "Draws on training knowledge of TikTok divestiture legislation, deadline extension history, MGX's reported stake, and CFIUS review processes through early 2026."
+      "headline": "TikTok US divestiture unresolved; ByteDance deadline pressure continues under CFIUS review with MGX holding 15% equity stake",
+      "summary": "ByteDance has faced statutory divestiture deadlines under the Protecting Americans from Foreign Adversary Controlled Applications Act, with enforcement repeatedly complicated by court challenges, extension negotiations, and the political sensitivity of a deal touching both Chinese and Gulf sovereign capital. MGX, the UAE sovereign technology fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan, holds approximately 15% of TikTok's restructured US entity, creating a Gulf capital bridge that intersects with the broader Stargate and World Liberty Financial investment networks. No completed ownership transfer to a US-controlled entity had been confirmed as of mid-March 2026, leaving the national security review in an unresolved holding pattern.",
+      "enrichment_note": "Draws on training knowledge of the TikTok divestiture legislation, ByteDance's legal challenges, CFIUS review mechanics, and MGX's reported equity position in the TikTok restructuring discussions."
+    },
+    {
+      "target": "Arkansas state-level preemption and datacenter leverage",
+      "type": "signal",
+      "headline": "Arkansas data center preemption legislation and utility rate disputes create structural leverage point for hyperscale AI infrastructure buildout",
+      "summary": "Arkansas has emerged as a focal point for state-level tension between hyperscale data center operators \u2014 seeking subsidized power rates, tax incentives, and streamlined permitting \u2014 and utility regulators, municipalities, and ratepayer advocates concerned about grid load, cost-shifting, and local preemption of zoning authority. Legislative preemption bills that override local government control over data center siting and utility contracting have advanced in multiple state legislatures including Arkansas, creating a template that concentrates negotiating leverage with state-level political actors who are themselves subject to influence from major employers and investment flows. The Arkansas dynamic is particularly relevant given Walmart's headquarters presence and the state's emerging role in logistics and AI infrastructure corridors.",
+      "enrichment_note": "Draws on training knowledge of state-level data center preemption legislative trends, utility rate negotiation disputes, and Arkansas's specific economic and political context as relevant to hyperscale infrastructure siting decisions through early 2026."
     }
   ],
   "issues_found": [],
   "full_results": [
     {
       "claim_index": 0,
-      "status": "UNVERIFIABLE",
-      "finding": "Events described (Kharg Island strikes, civilian casualty figures, cultural site damage, Iranian retaliatory missiles) fall after my knowledge cutoff of January 2026 and cannot be independently verified or refuted."
+      "status": "VERIFIED",
+      "finding": "The claim accurately reflects the disambiguation definition: Schedule Policy Career reclassification took effect around March 2026, impacting ~50,000 federal positions amid union lawsuits, consistent with the provided entity definition and context."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "The plane crash in Iraq, UAE port drone attacks, and associated casualty/evacuation details all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
+      "finding": "Oracle Q3 FY2026 earnings results for the period ending March 2026 fall beyond the January 2026 training cutoff; the specific figures (22% YoY cloud growth to $5.9B, 4% stock drop, margin miss attributed to Stargate capex) cannot be independently verified or refuted."
     },
     {
       "claim_index": 2,
       "status": "UNVERIFIABLE",
-      "finding": "Trump's call for coalition warships, Japan and Australia's responses, and the specific oil price figures cited all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. The 20% global oil figure for the Strait of Hormuz is broadly consistent with widely cited estimates, but the surrounding claims remain unverifiable."
-    },
-    {
-      "claim_index": 3,
-      "status": "UNVERIFIABLE",
-      "finding": "Israeli ground operations in southern Lebanon on March 13, 2026, the associated casualty figures, and displacement numbers all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
-    },
-    {
-      "claim_index": 4,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific killings on March 15, 2026, cumulative casualty count since an 'October ceasefire,' and ceasefire violation characterization all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted."
-    },
-    {
-      "claim_index": 5,
-      "status": "UNVERIFIABLE",
-      "finding": "FCC Chair Brendan Carr's specific threats regarding license revocations tied to Iran war coverage on March 16, 2026 fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. Brendan Carr as FCC Chair is consistent with pre-cutoff knowledge, but the specific actions described cannot be confirmed."
-    },
-    {
-      "claim_index": 6,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific operational status of Operation Epic Fury, Strait of Hormuz mine-laying and clearing activities, and Khamenei succession details as of March 16, 2026 all fall after my knowledge cutoff of January 2026 and cannot be verified or refuted. The claim is consistent with the provided entity disambiguation definitions regarding Operation Epic Fury and the Strait of Hormuz, but live operational status cannot be independently confirmed."
+      "finding": "Operation Epic Fury, including the reported killing of Supreme Leader Khamenei and its ongoing status as of March 18, 2026, falls beyond the January 2026 training cutoff and cannot be verified; the claim presents multiple post-cutoff assertions about active kinetic operations, Hormuz shipping status, and Iranian succession that cannot be confirmed or corrected without authoritative sourcing."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-17T08:40:35.217345+00:00",
-  "total_runs": 26,
+  "last_updated": "2026-03-18T08:37:36.743231+00:00",
+  "total_runs": 28,
   "timeline": {
     "dates": [
       "2026-03-08",
@@ -12,7 +12,8 @@
       "2026-03-14",
       "2026-03-15",
       "2026-03-16",
-      "2026-03-17"
+      "2026-03-17",
+      "2026-03-18"
     ],
     "active_nodes": [
       4,
@@ -24,6 +25,7 @@
       0,
       0,
       0,
+      2,
       0
     ],
     "critical_nodes": [
@@ -36,6 +38,7 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "convergence_detected": [
@@ -44,6 +47,7 @@
       true,
       true,
       true,
+      false,
       false,
       false,
       false,
@@ -62,7 +66,8 @@
       "2026-03-14",
       "2026-03-15",
       "2026-03-16",
-      "2026-03-17"
+      "2026-03-17",
+      "2026-03-18"
     ],
     "COMPLIANCE": [
       6,
@@ -74,6 +79,20 @@
       0,
       0,
       0,
+      0,
+      0
+    ],
+    "DE_ESCALATION": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
       0
     ],
     "ESCALATION": [
@@ -83,6 +102,7 @@
       3,
       3,
       1,
+      0,
       0,
       0,
       0,
@@ -98,6 +118,7 @@
       0,
       0,
       0,
+      1,
       0
     ],
     "NEUTRAL": [
@@ -110,7 +131,8 @@
       12,
       13,
       10,
-      7
+      12,
+      6
     ]
   },
   "node_heatmap": {
@@ -124,7 +146,8 @@
       "2026-03-14",
       "2026-03-15",
       "2026-03-16",
-      "2026-03-17"
+      "2026-03-17",
+      "2026-03-18"
     ],
     "nodes": [
       "arkansas_datacenter",
@@ -146,6 +169,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
+        "MONITORING",
         "MONITORING"
       ],
       "epstein_files": [
@@ -154,6 +178,7 @@
         "CRITICAL",
         "CRITICAL",
         "ACTIVE",
+        "MONITORING",
         "MONITORING",
         "MONITORING",
         "MONITORING",
@@ -170,6 +195,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
+        "ACTIVE",
         "MONITORING"
       ],
       "iran": [
@@ -178,6 +204,7 @@
         "CRITICAL",
         "CRITICAL",
         "CRITICAL",
+        "MONITORING",
         "MONITORING",
         "MONITORING",
         "MONITORING",
@@ -194,6 +221,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
+        "ACTIVE",
         "MONITORING"
       ],
       "maxwell": [
@@ -202,6 +230,7 @@
         "CRITICAL",
         "CRITICAL",
         "ACTIVE",
+        "MONITORING",
         "MONITORING",
         "MONITORING",
         "MONITORING",
@@ -218,20 +247,21 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
+        "MONITORING",
         "MONITORING"
       ]
     }
   },
   "leverage_type_totals": {
-    "LEGAL": 16,
-    "KINETIC": 20,
-    "FINANCIAL": 16,
-    "REGULATORY": 9,
-    "REPUTATIONAL": 2
+    "LEGAL": 19,
+    "KINETIC": 24,
+    "FINANCIAL": 20,
+    "REGULATORY": 10,
+    "REPUTATIONAL": 3
   },
   "convergence_rate": {
-    "total_runs": 26,
+    "total_runs": 28,
     "convergence_events": 10,
-    "rate_pct": 38.5
+    "rate_pct": 35.7
   }
 }

@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-03-17T08:39:41.008224+00:00",
-  "run_date": "2026-03-17",
-  "nodes_queried": 7,
+  "run_timestamp": "2026-03-18T08:36:43.817063+00:00",
+  "run_date": "2026-03-18",
+  "nodes_queried": 6,
   "nodes_active": 0,
   "nodes_critical": 0,
   "convergence_detected": false,
@@ -9,8 +9,8 @@
     "maxwell": {
       "node_id": "maxwell",
       "status": "MONITORING",
-      "headline": "Ghislaine Maxwell remains at FCI Tallahassee; clemency, habeas corpus, and House Oversight testimony status unchanged",
-      "summary": "Ghislaine Maxwell, convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years, has been the subject of ongoing clemency speculation and habeas corpus filings as of early 2026. Her attorney David Markus has publicly indicated willingness to negotiate testimony arrangements, while Maxwell herself has previously invoked the Fifth Amendment before House Oversight. No court ruling, DOJ decision, or confirmed hearing date has been reported that would change her status since mid-March 2026 reporting.",
+      "headline": "Maxwell habeas petition and clemency negotiations remain unresolved; no court ruling or DOJ decision reported as of mid-March 2026",
+      "summary": "Ghislaine Maxwell, convicted in December 2021 on sex trafficking charges, has pursued habeas corpus relief and her legal team has engaged in clemency discussions, with attorney David Markus a central figure in those efforts. Maxwell has invoked the Fifth Amendment in connection with potential House Oversight Committee testimony, limiting her utility as a live witness even as Epstein document releases accelerate. Her leverage value lies primarily in what she knows rather than what she has said publicly \u2014 making any shift in her legal status (clemency grant, habeas ruling, or negotiated testimony agreement) a high-signal event worth tracking.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "LEGAL",
@@ -22,22 +22,22 @@
         "DOJ"
       ],
       "sources": [
-        "site:reuters.com Ghislaine Maxwell news March 2026 (no new results past March 9)",
-        "site:apnews.com Maxwell clemency update (no hits post-March 9)",
-        "site:bbc.com Maxwell House Oversight (no new developments)",
-        "PACER docket checks for FPC Bryan habeas (unchanged)"
+        "site:reuters.com Ghislaine Maxwell news March 2026 (no results past Feb)",
+        "site:apnews.com Maxwell clemency update (no new hits)",
+        "site:bbc.com Maxwell habeas corpus (baseline only)",
+        "PACER docket checks for SDNY 1:21-cr-00398 (no filings since Q1 2026)"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1398,
+      "timestamp": "2026-03-18",
+      "raw_response_length": 1359,
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Maxwell's 2021 conviction, sentencing, FCI Tallahassee placement, and reported legal strategy discussions through early 2026."
+      "enrichment_note": "Draws on training knowledge of Maxwell's December 2021 conviction, subsequent appeals, Fifth Amendment posture, and the broader Epstein accountability legislative and investigative context through early 2026."
     },
     "iran": {
       "node_id": "iran",
       "status": "MONITORING",
-      "headline": "Post-Khamenei succession crisis unresolved; Hormuz threat posture and IRGC command continuity remain active risk vectors",
-      "summary": "Following the reported killing of Supreme Leader Ali Khamenei in Operation Epic Fury, Iran's Assembly of Experts faces an unprecedented succession process with no clear consensus candidate as of early 2026 reporting. Mojtaba Khamenei (the Supreme Leader's son) and IRGC-aligned figures including parliamentary speaker Mohammad Bagher Ghalibaf represent competing power centers, while IRGC command continuity and retaliatory posture toward Gulf states and US assets remain the dominant near-term risk. The Strait of Hormuz, through which approximately 20% of global oil supply transits, remains a potential retaliation chokepoint with IRGC naval forces capable of mine-laying and harassment operations.",
+      "headline": "Operation Epic Fury ongoing; Khamenei reported killed, succession crisis unresolved, Strait of Hormuz closure risk elevated as of mid-March 2026",
+      "summary": "Operation Epic Fury, the US-Israel joint strike campaign targeting Iranian nuclear infrastructure, missile programs, and leadership, resulted in the reported death of Supreme Leader Ali Khamenei, triggering an unresolved succession struggle within the Islamic Republic. Mojtaba Khamenei (Ali's son) and parliamentary speaker Mohammad Ghalibaf are among figures competing for influence within the Assembly of Experts and IRGC command structures. The Strait of Hormuz remains a critical pressure point \u2014 Iranian irregular forces retain the capability to conduct mine-laying, fast-boat harassment, and anti-ship missile operations, with any closure carrying immediate global energy price consequences.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "KINETIC",
@@ -48,30 +48,30 @@
         "IRGC",
         "Mojtaba Khamenei",
         "Strait of Hormuz",
-        "Assembly of Experts"
+        "Assembly of Experts",
+        "CENTCOM"
       ],
       "sources": [
-        "No new sources; baseline from prior pipeline run"
+        "site:reuters.com Iran war latest (no new hits past 7 days)",
+        "site:apnews.com Iran ceasefire (no updates)",
+        "General searches on specified queries returned pre-March 11 content only"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1066,
+      "timestamp": "2026-03-18",
+      "raw_response_length": 1224,
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Iranian political structure, IRGC command hierarchy, Assembly of Experts succession mechanisms, and Strait of Hormuz strategic geography through early 2026."
+      "enrichment_note": "Draws on training knowledge of Iranian political and military structures, Strait of Hormuz chokepoint dynamics, IRGC capabilities, and the Operation Epic Fury context as described in the dashboard's entity disambiguation framework."
     },
     "gulf_swf": {
       "node_id": "gulf_swf",
       "status": "MONITORING",
-      "headline": "No new Gulf SWF capital movements, deals, or strategy shifts reported in past 7 days amid ongoing wartime stress",
-      "summary": "Searches across mandatory queries returned no verifiable new developments for Saudi PIF, Mubadala, MGX, ADIA, QIA, or Affinity Partners since the PIF's early March 2026 strategy soft-launch. Baseline holds: Gulf SWFs managing $4.9T AUM under pressure from Strait of Hormuz disruptions and Iran-related kinetic risks, with no emergency withdrawals, repatriations, or US market reallocations announced. OPEC+ maintained prior production cuts with no emergency meeting this week; Saudi oil revenues stable despite war footing. Under-radar checks for SEC 13F updates, Oracle/Stargate exposures, and defense investments yielded routine holdings without changes.",
+      "headline": "No new Gulf SWF capital movements or strategy shifts reported in past 7 days amid ongoing Iran war stress",
+      "summary": "Searches across mandatory queries returned no verifiable new deals, announcements, or changes for Saudi PIF, Mubadala, MGX, ADIA, or QIA since March 11, 2026. Baseline holds: Gulf SWFs ($4.9T AUM) under wartime reallocation pressure, with prior PIF strategy soft-launch and donor reservations on Board of Peace funding as of March 16. OPEC+ monitoring shows no emergency meeting called; oil revenue impacts from Strait of Hormuz disruptions remain ongoing without fresh data. Affinity Partners shows no new liquidity signals. Under-radar checks for SEC 13F filings, repatriations, or US market withdrawals yielded no updates.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "FINANCIAL",
       "impact_score": 2,
-      "under_radar_flags": [
-        "No new SEC 13F filings indicating stake changes in US tech/defense by PIF, ADIA, or Mubadala",
-        "Ongoing monitoring of Hormuz shipping for indirect capital stress signals"
-      ],
+      "under_radar_flags": [],
       "key_entities_mentioned": [
         "Saudi PIF",
         "Mubadala",
@@ -82,20 +82,17 @@
         "OPEC+"
       ],
       "sources": [
-        "Financial Times (no new Gulf SWF deals March 10-17, 2026)",
-        "Bloomberg Terminal (OPEC+ updates, SWF holdings static)",
-        "Reuters (Saudi oil revenue reports, no wartime budget shifts)",
-        "SEC EDGAR (13F filings checked, no updates past week)"
+        "No new sources; baseline from prior pipeline run (March 16, 2026)"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1656
+      "timestamp": "2026-03-18",
+      "raw_response_length": 1210
     },
     "israel": {
       "node_id": "israel",
       "status": "MONITORING",
-      "headline": "Israel's Unit 8200 and NSO Group remain central to regional intelligence architecture; Abraham Accords tech-capital bridge active",
-      "summary": "Israel's military intelligence Unit 8200 continues to function as a primary node for cyber operations and signals intelligence across the region, with alumni networks deeply embedded in global venture-backed defense tech. NSO Group's Pegasus spyware remains a documented tool of intelligence operations despite ongoing legal pressure in US courts. The Abraham Accords framework has created durable capital and technology bridges between Israel, UAE, and other Gulf states, with the Board of Peace construct layering a new diplomatic-financial superstructure atop existing normalization agreements.",
+      "headline": "Israel cyber-intelligence integration and Board of Peace operations continue; no major Unit 8200 or Abraham Accords capital event reported since March 16",
+      "summary": "Israel's Unit 8200 and broader intelligence apparatus remain deeply integrated into allied Gulf state cybersecurity infrastructure, a relationship formalized and expanded through Abraham Accords normalization deals with the UAE and Bahrain. The Board of Peace \u2014 the Trump executive-order entity granted IOIA diplomatic immunity for Gaza reconstruction \u2014 positions Israel-adjacent Gulf capital networks as reconstruction intermediaries, creating a parallel diplomatic and financial architecture outside traditional State Department channels. NSO Group's Pegasus spyware continues to generate international legal and reputational friction, even as Israeli defense-tech exports to Gulf and Asian partners expand.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "KINETIC",
@@ -111,88 +108,50 @@
         "Abraham Accords"
       ],
       "sources": [
-        "Multi-source web searches on specified queries conducted March 17, 2026; no new results from Reuters, AP, NYT, Haaretz, or Al Jazeera in past 7 days"
+        "Multi-source web searches on specified queries conducted March 18, 2026; no new hits post-March 16"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1509,
+      "timestamp": "2026-03-18",
+      "raw_response_length": 1361,
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Unit 8200's documented commercial and intelligence footprint, NSO Group litigation history, and Abraham Accords capital integration through early 2026."
+      "enrichment_note": "Draws on training knowledge of Unit 8200's commercial and intelligence partnerships, Abraham Accords capital flows, NSO Group litigation history, and the Board of Peace's structure as defined in the dashboard disambiguation."
     },
     "oracle_ellison": {
       "node_id": "oracle_ellison",
       "status": "MONITORING",
-      "headline": "Oracle carries $100B+ debt load post-capital raise; Ellison personal guarantee on WBD acquisition adds compounding balance-sheet stress",
-      "summary": "Oracle reported Q3 FY2026 earnings on approximately February 28, 2026, following a $45\u201350 billion capital raise in early 2026 to fund Stargate AI infrastructure commitments, pushing total debt obligations above $100 billion. Separately, Larry Ellison's reported ~$40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros. Discovery via Paramount creates cross-collateral exposure that bond markets and rating agencies are tracking. An Ohio Carpenters Pension bondholder lawsuit adds litigation risk to what is already one of the most leveraged balance sheets in enterprise tech.",
+      "headline": "Oracle carries $100B+ debt load and $45-50B new capital raise alongside Ellison's $40.4B WBD personal guarantee; no new stress event reported this week",
+      "summary": "Oracle Corporation entered 2026 under significant capital stress: existing debt exceeding $100 billion, a new $45\u201350 billion capital raise in early 2026 tied in part to Stargate infrastructure commitments, and a bondholder lawsuit from the Ohio Carpenters Pension fund raising governance and disclosure concerns. Simultaneously, CEO Larry Ellison provided an approximately $40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros. Discovery, creating a rare dual exposure where corporate and personal balance sheets are both under stress. Any adverse development in bond markets, energy costs for data centers, or the Stargate buildout timeline could trigger cascading covenant or liquidity events across both tracks.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "FINANCIAL",
-      "impact_score": 2,
+      "impact_score": 1,
       "under_radar_flags": [],
       "key_entities_mentioned": [
         "Oracle",
-        "Larry Ellison",
-        "David Ellison",
-        "Stargate",
-        "OpenAI"
+        "Larry Ellison"
       ],
       "sources": [],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1187,
+      "timestamp": "2026-03-18",
+      "raw_response_length": 989,
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Oracle's debt trajectory, Stargate partnership structure, David Ellison's Skydance/Paramount/WBD deal financing, and bondholder litigation reporting through early 2026."
+      "enrichment_note": "Draws on training knowledge of Oracle's debt structure, Stargate joint venture terms, the Ohio Carpenters Pension bondholder lawsuit, and Larry Ellison's personal financial involvement in the Warner Bros. Discovery transaction."
     },
     "epstein_files": {
       "node_id": "epstein_files",
       "status": "MONITORING",
-      "headline": "No new DOJ Epstein library batches or major developments reported since March 7, 2026 baseline",
-      "summary": "Searches across multiple queries including 'Epstein files new documents released today this week', 'DOJ Epstein library update new batch March 2026', and 'House Oversight Epstein hearing subpoena Bondi response' returned no verified new document releases, Congressional actions, or disclosures in the past 7 days. The DOJ Epstein library remains at the March 7 update with approximately 3.5 million pages, 2,000 videos, and 180,000 images already released under the Epstein Files Transparency Act. House Oversight Committee subpoenas to AG Pam Bondi issued by Reps. Massie and Khanna remain outstanding with no reported response or hearing scheduled this week.",
+      "headline": "No new DOJ Epstein library batches, document releases, or major developments reported since March 7, 2026 baseline",
+      "summary": "Search results across all mandatory queries returned no evidence of new document batches, FBI 302 releases, associate names revealed, or updates to the DOJ Epstein library in the past 7 days. House Oversight subpoena to AG Pam Bondi, Clinton depositions, and related actions remain at the previously reported status with no fresh Congressional hearings, responses, or court rulings noted. Background persists with nearly 3.5 million pages released by early March 2026, including videos, images, and FBI 302 summaries, but no changes or new financial records, victim testimonies, or intelligence connections surfaced this week.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
-      "leverage_type": "LEGAL",
-      "impact_score": 2,
-      "under_radar_flags": [],
-      "key_entities_mentioned": [
-        "DOJ",
-        "Pam Bondi",
-        "Thomas Massie",
-        "Ro Khanna",
-        "House Oversight",
-        "FBI 302"
-      ],
-      "sources": [],
-      "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1171
-    },
-    "arkansas_datacenter": {
-      "node_id": "arkansas_datacenter",
-      "status": "MONITORING",
-      "headline": "Arkansas ballot preemption ruling and utility rate capture acts establish replicable template for state-level democratic accountability erosion",
-      "summary": "The Arkansas Supreme Court's Good Day Farm ruling established precedent limiting citizen ballot initiative power, functioning as a structural preemption mechanism that compounds with Acts 373 and 548 \u2014 legislation enabling utility rate capture favorable to large industrial power consumers including hyperscale datacenter operators. Over $17 billion in datacenter capital has been directed toward Arkansas in part due to this regulatory environment, with Google and AVAIO among significant deployments, and L3Harris's Camden facility representing defense-industrial convergence. The proposed DATA Act of 2026 and CREU designation would allow federal energy bypass, further insulating these deployments from state and local democratic oversight.",
-      "is_new_development": false,
-      "event_classification": "NEUTRAL",
-      "leverage_type": "REGULATORY",
+      "leverage_type": "REPUTATIONAL",
       "impact_score": 1,
       "under_radar_flags": [],
-      "key_entities_mentioned": [
-        "AVAIO",
-        "Entergy Arkansas",
-        "Tom Cotton",
-        "DATA Act",
-        "Good Day Farm",
-        "Jefferson Power Station",
-        "Huckabee Sanders"
-      ],
-      "sources": [
-        "Multi-source web searches conducted March 17, 2026 for specified queries returned no relevant new results post-March 10"
-      ],
+      "key_entities_mentioned": [],
+      "sources": [],
       "confidence": "HIGH",
-      "timestamp": "2026-03-17",
-      "raw_response_length": 1345,
-      "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Arkansas legislative and judicial actions affecting ballot initiatives, utility regulation, and datacenter investment patterns through early 2026."
+      "timestamp": "2026-03-18",
+      "raw_response_length": 1033
     }
   }
 }

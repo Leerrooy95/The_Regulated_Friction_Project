@@ -1,6 +1,6 @@
 {
-  "extraction_timestamp": "2026-03-17T00:00:00Z",
-  "total_entities": 37,
+  "extraction_timestamp": "2026-03-18T00:00:00Z",
+  "total_entities": 24,
   "total_relationships": 15,
   "nodes": {
     "maxwell": {
@@ -8,98 +8,109 @@
         {
           "name": "Ghislaine Maxwell",
           "type": "PERSON",
-          "context": "Subject of habeas corpus petition and House Oversight deposition"
+          "context": "Subject of habeas corpus petition and clemency negotiations"
         },
         {
           "name": "House Oversight Committee",
           "type": "ORG",
-          "context": "Conducting deposition of Ghislaine Maxwell"
+          "context": "Conducted deposition of Ghislaine Maxwell"
         },
         {
           "name": "DOJ",
           "type": "ORG",
-          "context": "Handling Ghislaine Maxwell's habeas corpus petition"
+          "context": "Involved in clemency negotiations and habeas corpus petition"
         }
       ],
       "relationships": [
         {
           "from": "Ghislaine Maxwell",
           "to": "House Oversight Committee",
-          "type": "INVOLVED_IN",
-          "detail": "Deposition"
+          "type": "testified",
+          "detail": "Invoked 5th Amendment in February deposition"
         },
         {
           "from": "Ghislaine Maxwell",
           "to": "DOJ",
-          "type": "SUBJECT_OF",
-          "detail": "Habeas corpus petition"
+          "type": "clemency negotiations",
+          "detail": "Unconfirmed and opposed by Senate resolution"
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-09",
-          "event": "Last update on Ghislaine Maxwell's case",
-          "significance": "No new developments since this date"
+          "date": "2026-02",
+          "event": "House Oversight deposition",
+          "significance": "Ghislaine Maxwell invoked 5th Amendment"
         }
       ],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "epstein_files",
+          "connection_type": "related case",
+          "detail": "Epstein Files Transparency Act releases ongoing"
+        }
+      ]
     },
     "iran": {
       "entities": [
         {
           "name": "Iran",
           "type": "LOCATION",
-          "context": "Location of kinetic and cyber activities"
+          "context": "Subject of Operation Epic Fury and CRINK coordination"
         },
         {
           "name": "IRGC",
           "type": "ORG",
-          "context": "Iranian Revolutionary Guard Corps"
+          "context": "Involved in Iran's military and proxy operations"
         },
         {
           "name": "Mojtaba Khamenei",
           "type": "PERSON",
-          "context": "Son of Ali Khamenei and potential successor"
+          "context": "Succession crisis and Assembly of Experts resistance"
         },
         {
           "name": "Strait of Hormuz",
           "type": "LOCATION",
-          "context": "Critical oil shipping chokepoint"
+          "context": "Critical oil shipping chokepoint under threat"
         },
         {
           "name": "Assembly of Experts",
           "type": "ORG",
-          "context": "Iranian governing body"
+          "context": "Involved in succession crisis"
+        },
+        {
+          "name": "CENTCOM",
+          "type": "ORG",
+          "context": "Involved in operations against Iran"
         }
       ],
       "relationships": [
         {
           "from": "Iran",
           "to": "IRGC",
-          "type": "ASSOCIATED_WITH",
-          "detail": "IRGC is a branch of Iranian military"
+          "type": "controlled by",
+          "detail": ""
         },
         {
           "from": "Mojtaba Khamenei",
           "to": "Assembly of Experts",
-          "type": "MEMBER_OF",
-          "detail": "Potential successor to Ali Khamenei"
+          "type": "faced resistance",
+          "detail": ""
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-10",
-          "event": "Baseline for Iran kinetic and cyber activities",
-          "significance": "No new developments since this date"
+          "date": "2026-03-18",
+          "event": "No new developments in Iran kinetic/cyber situation",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
         {
           "target_node": "gulf_swf",
-          "connection_type": "REGIONAL_CONFLICT",
-          "detail": "Iran's activities affect Gulf SWFs"
+          "connection_type": "related conflict",
+          "detail": "Gulf SWFs under wartime reallocation pressure"
         }
       ]
     },
@@ -108,12 +119,12 @@
         {
           "name": "Saudi PIF",
           "type": "ORG",
-          "context": "Saudi Public Investment Fund"
+          "context": "Gulf SWF with $4.9T AUM"
         },
         {
           "name": "Mubadala",
           "type": "ORG",
-          "context": "UAE sovereign wealth fund"
+          "context": "Gulf SWF with investments in various sectors"
         },
         {
           "name": "MGX",
@@ -121,38 +132,53 @@
           "context": "UAE sovereign technology investment fund"
         },
         {
+          "name": "ADIA",
+          "type": "ORG",
+          "context": "Abu Dhabi Investment Authority"
+        },
+        {
+          "name": "QIA",
+          "type": "ORG",
+          "context": "Qatar Investment Authority"
+        },
+        {
+          "name": "Affinity Partners",
+          "type": "ORG",
+          "context": "Jared Kushner's investment firm"
+        },
+        {
           "name": "OPEC+",
           "type": "ORG",
-          "context": "Oil producers' organization"
+          "context": "Oil cartel"
         }
       ],
       "relationships": [
         {
           "from": "Saudi PIF",
           "to": "Mubadala",
-          "type": "SIMILAR_ENTITY",
-          "detail": "Both are sovereign wealth funds"
+          "type": "similar Gulf SWF",
+          "detail": ""
         },
         {
           "from": "MGX",
-          "to": "OPEC+",
-          "type": "AFFECTED_BY",
-          "detail": "MGX's investments affected by OPEC+ decisions"
+          "to": "UAE",
+          "type": "fund chaired by",
+          "detail": "Sheikh Tahnoon bin Zayed Al Nahyan"
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-10",
-          "event": "PIF strategy soft-launch",
-          "significance": "No new developments since this date"
+          "date": "2026-03-11",
+          "event": "No new Gulf SWF capital movements or strategy shifts",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
         {
           "target_node": "iran",
-          "connection_type": "REGIONAL_CONFLICT",
-          "detail": "Gulf SWFs affected by Iran's activities"
+          "connection_type": "related conflict",
+          "detail": "Gulf SWFs under wartime reallocation pressure"
         }
       ]
     },
@@ -161,17 +187,17 @@
         {
           "name": "Israel",
           "type": "LOCATION",
-          "context": "Location of cyber and intelligence activities"
+          "context": "Subject of Operation Epic Fury and tech integration"
         },
         {
           "name": "IDF",
           "type": "ORG",
-          "context": "Israeli Defense Forces"
+          "context": "Israel Defense Forces"
         },
         {
           "name": "Unit 8200",
           "type": "ORG",
-          "context": "Israeli intelligence unit"
+          "context": "Israel's cyber and intelligence unit"
         },
         {
           "name": "Hezbollah",
@@ -179,38 +205,48 @@
           "context": "Lebanese militant group"
         },
         {
+          "name": "NSO Group",
+          "type": "ORG",
+          "context": "Israeli tech firm"
+        },
+        {
           "name": "Board of Peace",
           "type": "ORG",
           "context": "Trump-created international organization"
+        },
+        {
+          "name": "Abraham Accords",
+          "type": "ORG",
+          "context": "Gulf-Israel intelligence sharing"
         }
       ],
       "relationships": [
         {
           "from": "Israel",
           "to": "IDF",
-          "type": "ASSOCIATED_WITH",
-          "detail": "IDF is Israel's military"
+          "type": "controlled by",
+          "detail": ""
         },
         {
           "from": "Unit 8200",
-          "to": "Hezbollah",
-          "type": "MONITORED_BY",
-          "detail": "Unit 8200 monitors Hezbollah activities"
+          "to": "Israel",
+          "type": "part of",
+          "detail": ""
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-03-10",
-          "event": "Baseline for Israel cyber and intelligence activities",
-          "significance": "No new developments since this date"
+          "date": "2026-03-16",
+          "event": "Board of Peace criticism",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
         {
-          "target_node": "iran",
-          "connection_type": "REGIONAL_CONFLICT",
-          "detail": "Israel and Iran are in conflict"
+          "target_node": "oracle_ellison",
+          "connection_type": "related tech",
+          "detail": "Stargate AI infrastructure venture"
         }
       ]
     },
@@ -224,155 +260,95 @@
         {
           "name": "Larry Ellison",
           "type": "PERSON",
-          "context": "Oracle CEO and founder"
-        },
-        {
-          "name": "Stargate",
-          "type": "ORG",
-          "context": "Joint AI infrastructure venture"
-        },
-        {
-          "name": "OpenAI",
-          "type": "ORG",
-          "context": "AI research organization"
+          "context": "Oracle CEO and $40.4B WBD guarantee provider"
         }
       ],
       "relationships": [
         {
           "from": "Oracle",
-          "to": "Stargate",
-          "type": "PARTNER_IN",
-          "detail": "Oracle is a partner in Stargate"
-        },
-        {
-          "from": "Larry Ellison",
-          "to": "Oracle",
-          "type": "CEO_OF",
-          "detail": "Larry Ellison is Oracle's CEO"
+          "to": "Larry Ellison",
+          "type": "led by",
+          "detail": ""
         }
       ],
       "temporal_markers": [
         {
-          "date": "2026-02-28",
-          "event": "Oracle's fiscal Q3 2026 earnings release",
-          "significance": "No new developments since this date"
+          "date": "2026-03-18",
+          "event": "No new developments for Oracle/Ellison Dual Exposure",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "israel",
+          "connection_type": "related tech",
+          "detail": "Stargate AI infrastructure venture"
+        }
+      ]
     },
     "epstein_files": {
       "entities": [
         {
           "name": "DOJ",
           "type": "ORG",
-          "context": "US Department of Justice"
+          "context": "Involved in Epstein document releases"
         },
         {
-          "name": "Pam Bondi",
-          "type": "PERSON",
-          "context": "US Attorney General"
-        },
-        {
-          "name": "Thomas Massie",
-          "type": "PERSON",
-          "context": "US Representative"
-        },
-        {
-          "name": "Ro Khanna",
-          "type": "PERSON",
-          "context": "US Representative"
+          "name": "Epstein Files Transparency Act",
+          "type": "LEGAL",
+          "context": "Congressional legislation mandating document releases"
         }
       ],
       "relationships": [
         {
           "from": "DOJ",
-          "to": "Pam Bondi",
-          "type": "ASSOCIATED_WITH",
-          "detail": "Pam Bondi is US Attorney General"
-        },
-        {
-          "from": "Thomas Massie",
-          "to": "Ro Khanna",
-          "type": "COLLEAGUE_OF",
-          "detail": "Both are US Representatives"
+          "to": "Epstein Files Transparency Act",
+          "type": "implemented",
+          "detail": ""
         }
       ],
       "temporal_markers": [
         {
           "date": "2026-03-07",
-          "event": "DOJ Epstein library update",
-          "significance": "No new developments since this date"
+          "event": "Baseline for new document releases",
+          "significance": ""
         }
       ],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
-    },
-    "arkansas_datacenter": {
-      "entities": [
+      "cross_node_connections": [
         {
-          "name": "AVAIO",
-          "type": "ORG",
-          "context": "Company involved in Arkansas datacenter project"
-        },
-        {
-          "name": "Entergy Arkansas",
-          "type": "ORG",
-          "context": "Utility company involved in datacenter project"
-        },
-        {
-          "name": "Tom Cotton",
-          "type": "PERSON",
-          "context": "US Senator"
-        },
-        {
-          "name": "DATA Act",
-          "type": "LEGAL",
-          "context": "Legislation related to datacenter project"
+          "target_node": "maxwell",
+          "connection_type": "related case",
+          "detail": "Epstein Files Transparency Act releases ongoing"
         }
-      ],
-      "relationships": [
-        {
-          "from": "AVAIO",
-          "to": "Entergy Arkansas",
-          "type": "PARTNER_WITH",
-          "detail": "AVAIO and Entergy Arkansas are working on datacenter project"
-        },
-        {
-          "from": "Tom Cotton",
-          "to": "DATA Act",
-          "type": "SUPPORTS",
-          "detail": "Tom Cotton supports the DATA Act"
-        }
-      ],
-      "temporal_markers": [
-        {
-          "date": "2026-03-10",
-          "event": "Baseline for Arkansas datacenter project",
-          "significance": "No new developments since this date"
-        }
-      ],
-      "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      ]
     }
   },
   "convergence_signals": [
     {
       "nodes_involved": [
         "iran",
-        "israel",
         "gulf_swf"
       ],
-      "mechanism": "REGIONAL_CONFLICT",
-      "confidence": "HIGH"
+      "mechanism": "related conflict",
+      "confidence": "MEDIUM"
     },
     {
       "nodes_involved": [
-        "oracle_ellison",
-        "stargate"
+        "israel",
+        "oracle_ellison"
       ],
-      "mechanism": "FINANCIAL_LEVERAGE",
-      "confidence": "MEDIUM"
+      "mechanism": "related tech",
+      "confidence": "LOW"
+    },
+    {
+      "nodes_involved": [
+        "maxwell",
+        "epstein_files"
+      ],
+      "mechanism": "related case",
+      "confidence": "HIGH"
     }
   ]
 }
