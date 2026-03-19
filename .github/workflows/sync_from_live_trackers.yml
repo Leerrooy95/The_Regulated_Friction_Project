@@ -16,12 +16,12 @@ jobs:
 
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
       - name: Checkout Live_Trackers repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: Leerrooy95/Live_Trackers
           path: _live_trackers
