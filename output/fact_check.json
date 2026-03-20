@@ -1,71 +1,14 @@
 {
-  "checked_at": "2026-03-19T08:35:18.708276+00:00",
+  "checked_at": "2026-03-20T08:38:46.498903+00:00",
   "status": "PASS",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 4,
-  "claims_verified": 1,
+  "claims_checked": 0,
+  "claims_verified": 0,
   "claims_flagged": 0,
-  "claims_unverifiable": 3,
+  "claims_unverifiable": 0,
   "corrections_applied": [],
-  "enrichment_targets_found": 9,
-  "enrichments_applied": [
-    {
-      "target": "maxwell",
-      "type": "node",
-      "headline": "Ghislaine Maxwell remains imprisoned at FCI Tallahassee; clemency petition, habeas corpus filing, and House Oversight testimony status unchanged",
-      "summary": "Ghislaine Maxwell, convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years, has been the subject of ongoing clemency speculation and a habeas corpus petition argued by attorney David Markus. She invoked the Fifth Amendment before House Oversight Committee proceedings related to the Epstein network, limiting her direct congressional testimony. As of early 2026, no DOJ decision on clemency, no court ruling on habeas, and no scheduled hearing represent a confirmed change in her legal posture.",
-      "enrichment_note": "Draws on training knowledge of Maxwell's 2021 conviction, sentencing, legal team (Markus), Fifth Amendment invocation context, and the broader Epstein accountability legislative backdrop including the Epstein Files Transparency Act."
-    },
-    {
-      "target": "iran",
-      "type": "node",
-      "headline": "Iran succession crisis and IRGC command structure in flux following Khamenei's death in Operation Epic Fury; Strait of Hormuz closure threat persists",
-      "summary": "Supreme Leader Ali Khamenei was killed during Operation Epic Fury, the ongoing US-Israel joint strike campaign targeting Iranian nuclear sites, missile programs, and leadership nodes, creating a significant succession vacuum. The Assembly of Experts holds constitutional authority to designate a new Supreme Leader, with figures including Mojtaba Khamenei (Ali's son) and Ghalibaf discussed as potential successors, though IRGC factional dynamics complicate any transition. The Strait of Hormuz remains a critical pressure point: Iran has historically threatened closure in response to military escalation, and IRGC naval forces retain mine-laying and fast-boat interdiction capabilities that could disrupt approximately 20% of global seaborne oil.",
-      "enrichment_note": "Draws on training knowledge of Iranian constitutional succession mechanisms, IRGC naval doctrine in the Strait of Hormuz, Khamenei family dynamics, and the Operation Epic Fury framework as defined in dashboard entity disambiguation."
-    },
-    {
-      "target": "israel",
-      "type": "node",
-      "headline": "Israel's Unit 8200 cyber operations and Abraham Accords capital infrastructure remain active amid ongoing US-Israel joint campaign against Iran",
-      "summary": "Israel's Unit 8200 intelligence and cyber directorate has historically served as a talent pipeline for commercial security firms including NSO Group and a broader dual-use tech ecosystem that intersects with Abraham Accords normalization capital flows. The Board of Peace, established by EO 14375, creates an additional institutional bridge between Israeli operational intelligence interests, Gulf sovereign wealth engagement (particularly UAE/MGX), and Gaza reconstruction financing. The Lebanon front involving residual Hezbollah capabilities continues to be monitored as a secondary pressure vector alongside the primary Iran kinetic campaign.",
-      "enrichment_note": "Draws on training knowledge of Unit 8200's commercial tech ecosystem, NSO Group's intelligence adjacency, Abraham Accords economic architecture, and Hezbollah's degraded but residual southern Lebanon capabilities as of early 2026."
-    },
-    {
-      "target": "oracle_ellison",
-      "type": "node",
-      "headline": "Oracle carrying $100B+ debt load with $45-50B new capital raise underway; Larry Ellison holds ~$40.4B personal guarantee on David Ellison's WBD acquisition",
-      "summary": "Oracle entered 2026 with over $100 billion in existing debt obligations while simultaneously pursuing a $45\u201350 billion new capital raise tied to its Stargate AI infrastructure partnership with OpenAI and SoftBank; the Abilene, Texas data center expansion has been reported as a central construction priority. Separately, Larry Ellison's reported ~$40.4 billion personal guarantee backing son David Ellison's acquisition of Warner Bros Discovery via Paramount creates a cross-entity financial exposure that bond market participants and analysts have flagged as a concentration risk. The Ohio Carpenters Pension bondholder lawsuit adds a litigation overhang to Oracle's capital structure at a moment of simultaneous multi-front leverage.",
-      "enrichment_note": "Draws on training knowledge of Oracle's debt profile, Stargate partnership capital commitments, David Ellison's Skydance/Paramount/WBD deal mechanics, and the Ohio Carpenters Pension litigation as reported through early 2026."
-    },
-    {
-      "target": "Oracle and Stargate infrastructure",
-      "type": "signal",
-      "headline": "Oracle-Stargate Abilene data center construction ongoing; $500B joint venture capital deployment and Oracle debt stack create compounding financial pressure",
-      "summary": "Stargate, the joint AI infrastructure venture between OpenAI, Oracle, SoftBank, and equity participants including MGX, committed to $500 billion in planned US AI infrastructure investment with Oracle serving as a primary data center construction and cloud infrastructure partner. Oracle's Abilene, Texas campus represents the flagship early-phase construction site, with additional facilities planned across multiple states. Oracle's simultaneous $45\u201350 billion new capital raise, existing $100B+ debt load, and Larry Ellison's personal WBD guarantee create a capital stress scenario where bond market conditions \u2014 themselves sensitive to Strait of Hormuz energy price shocks \u2014 could affect Oracle's refinancing capacity and Stargate delivery timelines.",
-      "enrichment_note": "Draws on training knowledge of Stargate's announced $500B commitment, Oracle's role as infrastructure partner, the Abilene campus as the initial flagship site, and the cross-entity financial stress linkage between Oracle's debt structure and Ellison's personal guarantee obligations."
-    }
-  ],
+  "enrichment_targets_found": 12,
+  "enrichments_applied": [],
   "issues_found": [],
-  "full_results": [
-    {
-      "claim_index": 0,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific dates of March 8, 2026 for rule taking effect and March 4, 2026 for the second amended complaint are granular post-cutoff procedural details that cannot be verified or refuted from training knowledge; the broader Schedule Policy Career framework is consistent with the disambiguation table but the precise dates require live source confirmation."
-    },
-    {
-      "claim_index": 1,
-      "status": "UNVERIFIABLE",
-      "finding": "The claim describes post-cutoff developments regarding Board of Peace donor skepticism and specific funding figures ($17B total, $10B US, $7B others including $1B Saudi) tied to EO 14375, which is beyond the January 2026 training cutoff and cannot be independently verified or refuted."
-    },
-    {
-      "claim_index": 2,
-      "status": "UNVERIFIABLE",
-      "finding": "Operation Epic Fury, the killing of Khamenei, and the February 20 nuclear ultimatum are all post-cutoff events per the disambiguation table (ongoing as of March 2026); the specific claim of 'no ceasefire or Hormuz disruptions in the past week' is a real-time status assertion that cannot be verified from training data."
-    },
-    {
-      "claim_index": 3,
-      "status": "VERIFIED",
-      "finding": "The claim accurately reflects the disambiguation table definition of Schedule Policy Career (reclassification of ~50,000 positions to at-will employment, took effect March 2026, replacing Schedule F framework, with union lawsuits ongoing and no confirmed injunctions blocking implementation) without asserting unverifiable specifics."
-    }
-  ]
+  "full_results": []
 }

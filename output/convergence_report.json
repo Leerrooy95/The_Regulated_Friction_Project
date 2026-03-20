@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-03-19T08:31:31.655695+00:00",
-  "total_runs_analyzed": 30,
+  "analysis_timestamp": "2026-03-20T08:31:51.688336+00:00",
+  "total_runs_analyzed": 32,
   "window_days": 7,
   "convergence_events": [
     {
@@ -482,72 +482,73 @@
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 27,
+      "total_appearances": 28,
       "active_count": 11,
       "critical_count": 4,
       "classifications": {
         "COMPLIANCE": 10,
         "NEUTRAL": 15,
         "ESCALATION": 1,
-        "DE_ESCALATION": 1
+        "DE_ESCALATION": 1,
+        "FRICTION": 1
       }
     },
     "oracle_ellison": {
-      "total_appearances": 26,
+      "total_appearances": 27,
       "active_count": 8,
       "critical_count": 0,
       "classifications": {
         "COMPLIANCE": 6,
         "FRICTION": 2,
-        "NEUTRAL": 18
+        "NEUTRAL": 19
       }
     },
     "epstein_files": {
-      "total_appearances": 26,
+      "total_appearances": 27,
       "active_count": 10,
       "critical_count": 5,
       "classifications": {
         "COMPLIANCE": 4,
         "FRICTION": 6,
-        "NEUTRAL": 16
+        "NEUTRAL": 17
       }
     },
     "maxwell": {
-      "total_appearances": 25,
+      "total_appearances": 26,
       "active_count": 8,
       "critical_count": 3,
       "classifications": {
         "FRICTION": 8,
-        "NEUTRAL": 17
+        "NEUTRAL": 18
       }
     },
     "iran": {
-      "total_appearances": 25,
+      "total_appearances": 26,
       "active_count": 8,
       "critical_count": 7,
       "classifications": {
         "ESCALATION": 8,
-        "NEUTRAL": 17
+        "NEUTRAL": 18
       }
     },
     "israel": {
-      "total_appearances": 19,
+      "total_appearances": 20,
       "active_count": 4,
       "critical_count": 2,
       "classifications": {
         "ESCALATION": 2,
         "NEUTRAL": 14,
         "COMPLIANCE": 1,
-        "FRICTION": 2
+        "FRICTION": 3
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 18,
+      "total_appearances": 19,
       "active_count": 2,
       "critical_count": 0,
       "classifications": {
         "COMPLIANCE": 2,
-        "NEUTRAL": 16
+        "NEUTRAL": 17
       }
     }
   },
@@ -563,6 +564,7 @@
     "2026-03-16": 0,
     "2026-03-17": 2,
     "2026-03-18": 0,
-    "2026-03-19": 0
+    "2026-03-19": 0,
+    "2026-03-20": 0
   }
 }
