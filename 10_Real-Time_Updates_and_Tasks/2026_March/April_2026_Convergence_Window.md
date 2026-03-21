@@ -139,7 +139,7 @@ Events documented during the week this prediction was filed, for context:
 | March 20 | CBS News Radio closure announced — 700 stations lose service; Bari Weiss (editor-in-chief under Paramount-Skydance/Ellison) directs cuts | Media Firewall — capital architecture acquires and restructures media | ✅ [CBS News](https://www.cbsnews.com/news/cbs-news-radio-to-shut-down/), [Politico](https://www.politico.com/news/2026/03/20/cbs-news-radio-division-layoffs-bari-weiss-00838082), [Billboard](https://www.billboard.com/pro/cbs-news-shuts-down-radio-service-bari-weiss/) |
 | March 20 | WLF announces OCC charter pursuit; AgentPay SDK launched; Binance WLFI airdrop begins (135M tokens, through April 17) | Capital escape architecture — expansion preceding oversight | ✅ [BusinessWire](https://www.businesswire.com/news/home/20260107876750/en/), [Lookonchain](https://lookonchain.com/feeds/50855), [Binance](https://www.binance.com/en/price/usd1) |
 | March 20 | Tucker Carlson / Professor Jiang Xueqin interview — geopolitical structural analysis on global broadcast | External validation — academic confirms structural analysis | ✅ [Tucker Carlson Show](https://tuckercarlson.com/tucker-show-jiang-xueqin), [YouTube](https://www.youtube.com/watch?v=hb8_j-TVRys) |
-| March 20 | General Mattis on MeidasTouch: "No" to winning without allies; "8-12 years" to rebuild trust | Military assessment — former SecDef confirms strategic failure | ⚠️ Not independently verified |
+| March 21 | General Mattis on MeidasTouch: "No" to winning without allies; "8-12 years" to rebuild trust | Military assessment — former SecDef confirms strategic failure | ✅ [Podtail](https://podtail.com/podcast/the-meidastouch-podcast/trump-gets-torched-by-four-star-general-over-war/), [Apple Podcasts](https://podcasts.apple.com/us/podcast/trump-gets-torched-by-four-star-general-over-war/id1510240831?i=1000755347412), [YouTube](https://www.youtube.com/watch?v=188FS6jdYBw) |
 | March 21 | Crypto pipeline outputs document USD1/WLF/Binance/MGX feedback loop | Automated verification — capital architecture self-documenting | Internal pipeline data |
 
 ---
@@ -211,6 +211,6 @@ Independent web verification of this document's claims was conducted before repo
 | Mullin DHS confirmation hearing (March 18, advanced 8-7 March 19) | ✅ VERIFIED | PBS, Politico, CNBC, ABC News |
 | Trump Pearl Harbor joke (March 19) | ✅ VERIFIED | CNBC, NBC News, CNN, Telegraph |
 | Tucker Carlson / Prof. Jiang Xueqin interview | ✅ VERIFIED | TuckerCarlson.com, YouTube |
-| General Mattis MeidasTouch interview | ⚠️ NOT INDEPENDENTLY VERIFIED | — |
+| General Mattis MeidasTouch interview | ✅ VERIFIED — Episode: "Trump Gets Torched by Four-Star General Over War!!" (March 21, 2026). Host Ben Meiselas reports on Mattis interview criticizing Trump's Iran war, lack of allies, unclear end state. | [Podtail](https://podtail.com/podcast/the-meidastouch-podcast/trump-gets-torched-by-four-star-general-over-war/), [Apple Podcasts](https://podcasts.apple.com/us/podcast/trump-gets-torched-by-four-star-general-over-war/id1510240831?i=1000755347412), [YouTube](https://www.youtube.com/watch?v=188FS6jdYBw), [Noice](https://open.noice.id/content/3bb9e3bf-a5b6-4644-9198-7f177813f743) |
 
-**Overall**: 18/20 claims ✅ VERIFIED, 2/20 ⚠️ PARTIALLY VERIFIED or unverified. No claims falsified.
+**Overall**: 19/20 claims ✅ VERIFIED, 1/20 ⚠️ PARTIALLY VERIFIED. No claims falsified.
