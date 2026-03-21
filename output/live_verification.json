@@ -1,100 +1,103 @@
 {
-  "generated_at": "2026-03-20T08:37:37Z",
+  "generated_at": "2026-03-21T08:23:28Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 10,
   "status_summary": {
-    "error": 10
+    "monitoring": 10
   },
   "results": [
     {
       "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No information found on any Ghislaine Maxwell clemency petition, pardon request, or decision by the Trump DOJ under Attorney General Bondi as of March 21, 2026. Search results contain no relevant updates on this specific prediction. The prediction remains unresolved within the 2026 timeframe.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No recent reports of Iran-US ceasefire negotiations or major escalation strikes in 2026 found in search results. All results focus exclusively on US federal workforce reclassifications under Schedule Policy/Career and related union lawsuits, with no mention of Iran, war, or military developments. Current state remains without public updates on this prediction.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Strait of Hormuz full shipping restoration",
       "timeframe": "Ongoing",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No relevant information found on the current status of Strait of Hormuz oil shipping, tanker disruptions, or mine clearing operations as of March 2026. Search results contain no mentions of the Strait of Hormuz or related shipping restoration efforts. The prediction remains unresolved pending relevant developments.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Oracle Stargate financial restructuring or default",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No reports of Oracle financial restructuring, debt default, or related lawsuits tied to Stargate as of March 21, 2026. Search results focus solely on federal workforce changes like Schedule Policy/Career reclassifications and union lawsuits, with no mention of Oracle or Stargate. Current background indicates Oracle's known financial leverage from $100B+ debt, $45-50B new capital raise, and Stargate commitments remains unresolved for this prediction.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "New batch of Epstein documents released",
       "timeframe": "Ongoing",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No new information on a recent batch of Epstein documents released by the DOJ as of March 21, 2026. The Epstein Files Transparency Act has previously led to nearly 3.5 million pages released, including FBI 302 interview summaries, with the DOJ Epstein library serving as a live repository. Search results contain no updates matching the query on new batches in 2026.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Epstein associate indicted or named in new documents",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No new developments in 2026 indicate an Epstein associate has been indicted or named in fresh documents or FBI 302 releases. The Epstein Files Transparency Act has led to nearly 3.5 million pages released by March 2026 via the DOJ Epstein library, but search results show no relevant updates matching the prediction. Ongoing monitoring of the live DOJ repository for new batches continues.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Gulf SWF emergency capital reallocation from US markets",
       "timeframe": "Ongoing",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No evidence found of Gulf sovereign wealth funds, such as Saudi PIF or UAE's MGX, engaging in emergency capital reallocation or withdrawal from US markets as of March 2026. Search results focus exclusively on US federal workforce changes under Schedule Policy/Career, with no relevant mentions of Gulf SWF activities. Current state shows no reported disruptions or shifts in their US investments.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
-      "prediction": "TikTok US ownership deal finalized",
+      "prediction": "TikTok USDS JV lawsuit outcome or Congressional review action",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "No information found on any lawsuit outcome, Congressional review, or action related to the TikTok USDS JV, Public Integrity Project oversight, ByteDance algorithm compliance, or similar matters as of March 21, 2026. Search results focus exclusively on federal employment reclassifications under Schedule Policy/Career and related union lawsuits, with no mention of TikTok or the specified JV. The prediction remains unresolved pending any developments.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
-      "source": "",
-      "citations": [],
-      "date_checked": "2026-03-20"
+      "status": "monitoring",
+      "description": "Schedule Policy/Career took effect March 8, 2026, following OPM's final rule published February 5-6, 2026, and Executive Order 14171. Unions including AFGE, AFSCME, AFL-CIO, PEER, and Democracy Forward filed a second amended complaint on March 4, 2026, in PEER v. Trump (D. Md.), challenging the executive order, OPM rule, and reclassification. No court injunction or ruling on the challenge has been issued as of March 21, 2026.",
+      "source": "https://www.afge.org/article/summary-of-afge-lawsuits-against-trump--how-litigation-works-2/",
+      "citations": [
+        "https://www.afge.org/article/summary-of-afge-lawsuits-against-trump--how-litigation-works-2/",
+        "https://wtop.com/government/2026/03/how-the-schedule-policy-career-plan-could-reshape-federal-agencies/"
+      ],
+      "date_checked": "2026-03-21"
     },
     {
       "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
       "timeframe": "2026",
-      "status": "error",
-      "description": "Verification call failed.",
+      "status": "monitoring",
+      "description": "Search results do not contain information about Mojtaba Khamenei's confirmation as Supreme Leader. However, one source references Operation Epic Fury, a US-Israel joint military operation that killed Supreme Leader Ali Khamenei, suggesting a significant leadership transition occurred. The current status of Iran's Supreme Leader succession process requires additional verification beyond available search results.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-20"
+      "date_checked": "2026-03-21"
     }
   ]
 }
