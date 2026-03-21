@@ -186,6 +186,9 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | Author background | `00_Quick_Breakdowns/About_Me.md` |
 | April 2026 convergence window / Bondi deposition | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`, `09_CURRENT_THREADS.md` (Node 11) |
 | CLARITY Act / USD1 / WLF capital architecture | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`, `04_CAPITAL_ARCHITECTURE.md` |
+| Zorro Ranch / NM investigation / 7-year gap | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
+| NM truth commission / AG Torrez / ranch search | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
+| Kahn / Indyke depositions / estate settlement | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 
 ---
 
@@ -209,7 +212,7 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 
 | Dossier | Trigger Entities |
 |---------|------------------|
-| `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, New Mexico, DOJ files |
+| `tier1_zorro_ranch_epstein.md` | Epstein, Zorro Ranch, San Rafael Ranch, New Mexico, DOJ files, NM truth commission, AG Torrez, Huffines, Kahn, Indyke |
 | `tier1_kushner_historical.md` | Charles Kushner, pardon, Kushner Companies |
 | `tier1_binsulayem_epstein.md` | bin Sulayem, DP World, Epstein, UAE |
 | `tier2_affinity_qxo.md` | Affinity Partners, QXO, Apollo, Jared Kushner |
