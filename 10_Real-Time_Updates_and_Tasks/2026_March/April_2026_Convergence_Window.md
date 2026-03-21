@@ -72,6 +72,21 @@ Based on documented patterns from the thermostat model, the following distractio
 | FISA reauthorization debate | ✅ Active — Lieu identified mass surveillance implications |
 | Deployment cost | Variable — depends on triggering event |
 
+### 5. U.S.-Russia Naval Confrontation Over Cuban Oil (Medium Probability)
+
+| Detail | Status |
+|--------|--------|
+| **Anatoly Kolodkin** | Sanctioned Russian tanker (U.S., EU, UK); ~730,000 barrels crude oil; departed Primorsk March 8; ETA Cuba ~March 23 (updated from initial ~April 4 estimate) |
+| Treasury March 20 amendment | ✅ Sanctions waiver amended to specifically exclude Cuba and North Korea from Russian oil general license. Waiver expires April 11. Deliveries to Cuba now explicitly prohibited. |
+| SOUTHCOM tracking | ✅ Gen. Francis Donovan (SOUTHCOM) testified March 20: tracking Russian destroyer + oil replenishment ship scheduled for Cuba port call. Command NOT rehearsing military intervention; focus on Embassy + Guantanamo Bay. |
+| Skipper seizure precedent | ✅ Dec 10, 2025 — USCG seized M/T Skipper near Venezuela. DOJ forfeiture complaint: 1.1M barrels destined for Cubametales (Cuba state oil importer). Same DOJ complaint connects all four CRINK nodes (Iran-Venezuela-Cuba-Russia) through single vessel. |
+| Sea Horse delivery | ⚠️ PARTIALLY VERIFIED — "likely" delivered ~190K barrels Russian diesel in early March per Windward/Kpler maritime intelligence. Bloomberg reported possible diversion to Trinidad and Tobago after March 20 Treasury amendment. Not officially confirmed. |
+| Escalation scenarios | U.S. interception (medium-high probability → direct U.S.-Russia confrontation); delivery under protest (medium → political embarrassment); Russian destroyer escort (low-medium → dramatic stakes increase); tanker diverts (low → Russia loses face) |
+| Timing significance | Earlier-than-expected ETA (~March 23) means confrontation/delivery decision occurs before the April window, but diplomatic and military fallout would extend into the April 12–20 convergence period |
+| Deployment cost | Variable — depends on interdiction decision. If confrontation occurs, dominates news cycle for days, potentially burying Bondi deposition and CLARITY Act markup |
+
+→ Full analysis: [`10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md`](../Cuba_Crisis_Escalation_March_2026.md)
+
 ---
 
 ## The Thermostat Model Prediction

@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.8
+# The Regulated Friction Project v10.9
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -97,7 +97,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window — 11 nodes) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window — 11 nodes; Cuba crisis escalation with Russian tanker confrontation) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -157,7 +157,16 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.8) — April 2026 Convergence Window Prediction — March 21, 2026
+## What's New (v10.9) — Cuba Crisis Escalation & Russian Tanker Confrontation — March 21, 2026
+
+- **Cuba crisis escalation documented**: [Cuba_Crisis_Escalation_March_2026.md](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md) tracks the rapid escalation from oil blockade through grid collapse to potential U.S.-Russia naval confrontation. 38/39 claims ✅ VERIFIED, 1/39 ⚠️ PARTIALLY VERIFIED (Sea Horse delivery).
+- **March 14–21 timeline**: Morón protests (Communist Party HQ attacked, ✅ [Reuters](https://www.usnews.com/news/world/articles/2026-03-14/protesters-in-cuba-attack-communist-party-office-in-rare-riot-over-blackouts)), third island-wide blackout (29 hrs, ✅ [NPR](https://www.npr.org/2026/03/16/nx-s1-5749457/cuba-blackout-sanctions-oil)), embassy diesel refused (✅ [AP](https://abcnews.com/US/wireStory/cuba-refuses-us-embassy-havana-import-diesel-generators-131273345)), Treasury sanctions amendment adds Cuba/NK exclusion (✅ [Moscow Times](https://www.themoscowtimes.com/2026/03/20/us-tightens-sanctions-waiver-on-russian-oil-after-tanker-reportedly-delivers-fuel-to-cuba-a92279)).
+- **Russian tanker Anatoly Kolodkin**: Sanctioned (U.S., EU, UK), ~730,000 barrels crude, ETA Cuba **~March 23** (updated from earlier ~April 4 estimate per [Euronews](https://www.euronews.com/2026/03/20/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens), [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-17/cuba-s-worst-fuel-crisis-in-decades-may-get-relief-from-russia), [CiberCuba](https://en.cibercuba.com/noticias/2026-03-19-u1-e199370-s27061-nid323535-dos-buques-petroleo-ruso-van-rumbo-cuba-moscu)). SOUTHCOM tracking confirmed (✅ [NPR](https://www.npr.org/2026/03/20/g-s1-114535/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens)).
+- **Skipper/Operation Southern Spear**: DOJ forfeiture complaint connects all four CRINK nodes (Iran-Venezuela-Cuba-Russia) through single vessel — 1.1M barrels destined for Cubametales (✅ [DOJ](https://www.justice.gov/opa/pr/united-states-seeks-forfeiture-oil-tanker-and-18m-barrels-crude-oil-supported-iran-and)).
+- **Fifth distraction mechanism added** to [April 2026 Convergence Window](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md): U.S.-Russia Naval Confrontation Over Cuban Oil (medium probability).
+- **Universal coercion template applied**: Cuba crisis follows the same 6-step coercion template documented at global, state, and domestic scales in the project — all steps verified.
+
+### Previous (v10.8) — April 2026 Convergence Window Prediction — March 21, 2026
 
 - **Pre-event prediction filed**: [April 2026 Convergence Window](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md) documents a predicted dual-track convergence (April 12–20) with explicit falsification criteria — filed *before* the window opens.
 - **Track A (Accountability)**: AG Pam Bondi subpoenaed for April 14 deposition before House Oversight Committee on Epstein file handling and DOJ redactions (✅ [CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html), [CBS News](https://www.cbsnews.com/news/epstein-files-pam-bondi-subpoena-house-oversight-committee/)).
@@ -313,7 +322,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 21, 2026 (v10.8)
+**Last updated**: March 21, 2026 (v10.9)
 
 ---
 

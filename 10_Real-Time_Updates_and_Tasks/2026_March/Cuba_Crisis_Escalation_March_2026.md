@@ -44,8 +44,8 @@ This document tracks the escalation timeline, verifies claims, documents the coe
 
 | Vessel | Flag | Cargo | Status | ETA Cuba | Sanctioned? |
 |--------|------|-------|--------|----------|-------------|
-| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | Likely already discharged cargo in early March via deceptive routing | Arrived (unconfirmed) | Under monitoring |
-| **Anatoly Kolodkin** | Russia | ~730,000 barrels crude oil | In transit — ~3,000 nautical miles from Cuba as of March 20 | **Early April 2026 (~April 4)** | ✅ Sanctioned by U.S., EU, and UK |
+| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | ⚠️ Likely discharged cargo in early March via deceptive routing (Windward/Kpler), but Bloomberg reported vessel may have diverted toward Trinidad and Tobago after March 20 Treasury amendment. Delivery status remains unconfirmed. | Arrived (unconfirmed/suspected) | Under monitoring |
+| **Anatoly Kolodkin** | Russia | ~730,000 barrels crude oil | In transit — departed Primorsk March 8; eastern Atlantic as of March 20 | **~March 23, 2026** (updated from earlier ~April 4 estimate) | ✅ Sanctioned by U.S., EU, and UK |
 | **Russian destroyer + oiler** | Russia | Oil replenishment ship | Tracked by SOUTHCOM; scheduled port call to Cuba | Unknown | Military vessel |
 
 ### Why This Is a Confrontation Node
@@ -56,7 +56,7 @@ The Anatoly Kolodkin's arrival creates a multi-layered escalation trigger:
 2. **The vessel is already sanctioned**: By the U.S., EU, and UK for its role in Russian oil trade post-Ukraine invasion.
 3. **Precedent set**: The Skipper seizure (December 10, 2025) established that the U.S. will physically interdict oil tankers. The DOJ forfeiture complaint revealed 1.1 million barrels of the Skipper's cargo were destined for Cubametales — Cuba's state oil importer. This was already Cuba's oil being seized.
 4. **Military assets in position**: SOUTHCOM is already tracking the vessel. The same naval infrastructure used for Operation Southern Spear (Venezuela blockade) is operational in the Caribbean.
-5. **Timing**: Early April arrival places this directly in the April 12–20 convergence window or its immediate lead-up.
+5. **Timing**: Updated tracking data places arrival ~March 23, 2026 (earlier than initial ~April 4 estimate). If delivered successfully, the confrontation itself and its aftermath may still resonate into the April 12–20 convergence window. If intercepted, the fallout would dominate news cycles for days.
 
 ### Interception Scenarios
 
@@ -161,12 +161,13 @@ The original `April_2026_Convergence_Window.md` documented four pre-loaded distr
 
 ### Timing Analysis
 
-- **Anatoly Kolodkin ETA**: ~April 4 (10 days from March 20 position, per University of Texas Energy Institute expert Jorge Piñón)
+- **Anatoly Kolodkin ETA**: ~March 23, 2026 (updated from earlier ~April 4 estimate based on maritime tracking; departed Primorsk March 8; per CiberCuba, Euronews, Bloomberg)
+- **Note**: Earlier ETA means the tanker arrival/confrontation decision may occur *before* the April window, but its fallout — whether delivery, interception, or diplomatic crisis — would likely extend into the April 12–20 convergence period
 - **Bondi deposition**: April 14
 - **CLARITY Act Banking Committee markup**: April 13–27
 - **WLFI airdrop deadline**: April 17
 
-If the U.S. intercepts the Anatoly Kolodkin in the first week of April, the resulting U.S.-Russia confrontation would dominate news coverage through the entire April 12–20 window. A sanctioned Russian tanker, escorted by a Russian destroyer, being intercepted by SOUTHCOM assets 90 miles from Florida while the U.S. is simultaneously fighting Iran in the Persian Gulf — that would consume every news cycle for a week.
+If the U.S. intercepts the Anatoly Kolodkin around March 23, or if the tanker successfully delivers and triggers a diplomatic/sanctions escalation, the resulting U.S.-Russia confrontation would dominate news coverage through the entire April 12–20 window. A sanctioned Russian tanker, escorted by a Russian destroyer, being intercepted by SOUTHCOM assets 90 miles from Florida while the U.S. is simultaneously fighting Iran in the Persian Gulf — that would consume every news cycle for a week.
 
 ### The Juggling Problem
 
@@ -210,7 +211,7 @@ This is the thermostat failure in action: the system was built for sequential op
 
 | Item | Date | Action |
 |------|------|--------|
-| Anatoly Kolodkin arrival | ~April 4 | Track whether vessel arrives, is intercepted, or diverts |
+| Anatoly Kolodkin arrival | ~March 23 (updated) | Track whether vessel arrives, is intercepted, or diverts |
 | Russian destroyer port call | Unknown | Track SOUTHCOM response |
 | Embassy staffing decision | By May | Track whether State Department reduces Havana staff |
 | Cuba-U.S. talks | Ongoing | Track whether negotiations produce any agreements |
