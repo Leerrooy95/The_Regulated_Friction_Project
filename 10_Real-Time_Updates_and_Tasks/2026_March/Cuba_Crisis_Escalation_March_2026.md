@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-The U.S. oil blockade of Cuba has escalated from economic pressure to humanitarian crisis to a potential U.S.-Russia naval confrontation — all within 11 weeks. Cuba's grid has collapsed three times since December 2025. Eleven million people face 16+ hour daily blackouts. Hospitals are canceling surgeries. The university system has reduced classes. Protesters torched a Communist Party headquarters. The U.S. Embassy in Havana is running out of diesel. And a sanctioned Russian oil tanker carrying 730,000 barrels of crude is currently crossing the Atlantic, expected to arrive in early April — directly into the convergence window.
+The U.S. oil blockade of Cuba has escalated from economic pressure to humanitarian crisis to a potential U.S.-Russia naval confrontation — all within 11 weeks. Cuba's grid has collapsed three times since December 2025. Eleven million people face 16+ hour daily blackouts. Hospitals are canceling surgeries. The university system has reduced classes. Protesters torched a Communist Party headquarters. The U.S. Embassy in Havana is running out of diesel. And a sanctioned Russian oil tanker carrying 730,000 barrels of crude is currently crossing the Atlantic, expected to arrive ~March 23 — just before the convergence window opens. A second tanker, Sea Horse, was turned back by the March 20 Treasury amendment and diverted first to Trinidad and Tobago, then to Puerto Cabello, Venezuela — a documented regulatory friction event.
 
 This document tracks the escalation timeline, verifies claims, documents the coercion template at work, and identifies the Russian tanker arrival as a potential distraction node for the April 12–20 prediction window.
 
@@ -44,8 +44,8 @@ This document tracks the escalation timeline, verifies claims, documents the coe
 
 | Vessel | Flag | Cargo | Status | ETA Cuba | Sanctioned? |
 |--------|------|-------|--------|----------|-------------|
-| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | ⚠️ Maritime intelligence (Windward/Kpler) assesses cargo was "likely" discharged in Cuba in early March via deceptive routing (AIS spoofing, ship-to-ship transfers). Separately, after the March 20 Treasury amendment, Bloomberg reported the vessel changed its declared destination toward Trinidad and Tobago — this refers to a subsequent tracking update, not the initial delivery. Official confirmation of the early March discharge remains unavailable. | Arrived (unconfirmed/suspected) | Under monitoring |
-| **Anatoly Kolodkin** | Russia | ~730,000 barrels crude oil | In transit — departed Primorsk March 8; eastern Atlantic as of March 20 | **~March 23, 2026** (updated from earlier ~April 4 estimate) | ✅ Sanctioned by U.S., EU, and UK |
+| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | ⚠️ Early March Cuba delivery: Maritime intelligence (Windward/Kpler) assesses cargo was "likely" discharged in Cuba in early March via deceptive routing (AIS spoofing, ship-to-ship transfers). Official confirmation remains unavailable. ✅ **T&T diversion verified (March 20)**: After the March 20 Treasury amendment added Cuba to sanctions exclusion list, vessel updated declared destination to Trinidad and Tobago — confirmed by Bloomberg, US News, Maritime Professional, and gCaptain. ✅ **Venezuela redirect (March 21)**: MarineTraffic and shipping intelligence subsequently showed vessel rerouted to Puerto Cabello, Venezuela (ETA ~March 23). **✅ Documented regulatory friction event**: The March 20 Treasury amendment directly caused one of two inbound vessels to stand down from Cuba delivery — Treasury action → vessel diversion, causal chain confirmed. | Diverted (T&T → Venezuela, ✅ confirmed) | Under monitoring |
+| **Anatoly Kolodkin** | Russia | ~730,000 barrels crude oil | In transit — departed Primorsk March 8; tracked by UK Royal Navy through English Channel; closing on Caribbean as of March 21. Publicly broadcast destination: "Atlantic for order"; confirmed destination: Matanzas oil terminal, Cuba. | **~March 23, 2026** ✅ confirmed (Euronews, Bloomberg, CiberCuba, VesselFinder, MarineTraffic) | ✅ Sanctioned by U.S., EU, and UK |
 | **Russian destroyer + oiler** | Russia | Oil replenishment ship | Tracked by SOUTHCOM; scheduled port call to Cuba | Unknown | Military vessel |
 
 ### Why This Is a Confrontation Node
@@ -211,7 +211,8 @@ This is the thermostat failure in action: the system was built for sequential op
 
 | Item | Date | Action |
 |------|------|--------|
-| Anatoly Kolodkin arrival | ~March 23 (updated) | Track whether vessel arrives, is intercepted, or diverts |
+| Anatoly Kolodkin arrival | ~March 23 ✅ confirmed | Track whether vessel arrives, is intercepted, or diverts |
+| Sea Horse diversion | ✅ VERIFIED — diverted T&T then Venezuela | T&T diversion caused by March 20 Treasury amendment; documented regulatory friction event |
 | Russian destroyer port call | Unknown | Track SOUTHCOM response |
 | Embassy staffing decision | By May | Track whether State Department reduces Havana staff |
 | Cuba-U.S. talks | Ongoing | Track whether negotiations produce any agreements |
@@ -234,7 +235,7 @@ When integrating this file into the repository:
 
 2. **Update `April_2026_Convergence_Window.md`**: Add Cuba/Russian tanker as fifth distraction mechanism in the "Predicted Distraction Arsenal" section:
    - New subsection: "5. U.S.-Russia Naval Confrontation Over Cuban Oil (Medium Probability)"
-   - Anatoly Kolodkin details: sanctioned, 730K barrels, ETA early April
+   - Anatoly Kolodkin details: sanctioned, 730K barrels, ETA ~March 23 (✅ confirmed)
    - Precedent: Skipper seizure (1.1M barrels of Cuba's oil already seized Dec 2025)
    - Treasury March 20 amendment explicitly prohibiting Russian oil to Cuba
    - SOUTHCOM tracking confirmed via Gen. Donovan Senate testimony
@@ -256,9 +257,9 @@ When integrating this file into the repository:
    - `Node_Dossiers/tier3_thermostat_ruleset.md` — timing analysis for tanker arrival vs. window events
 
 7. **Verify independently before integration**: All claims in this document should be verified via web search before committing. Sources are provided for each claim. Pay particular attention to:
-   - Anatoly Kolodkin current position and updated ETA (may have changed since March 20)
+   - Anatoly Kolodkin current position and updated ETA: ✅ **RESOLVED** — ~March 23, 2026 confirmed by Euronews, Bloomberg, CiberCuba, VesselFinder, MarineTraffic. No change from prior estimate.
    - Any new Treasury actions or SOUTHCOM statements
-   - Whether Sea Horse delivery to Cuba has been confirmed or denied
+   - Whether Sea Horse delivery to Cuba has been confirmed or denied: ✅ **RESOLVED** — T&T diversion confirmed by Bloomberg, US News, Maritime Professional, gCaptain (March 20). Vessel subsequently rerouted to Puerto Cabello, Venezuela (MarineTraffic, March 21). Early March Cuba delivery remains ⚠️ PARTIALLY VERIFIED.
    - Any developments in Cuba-U.S. talks
 
 ---
@@ -269,12 +270,12 @@ When integrating this file into the repository:
 |----------|----------|-------------------|------------|-------|
 | Escalation timeline | 13 | 0 | 0 | 13 |
 | Skipper precedent | 7 | 0 | 0 | 7 |
-| Russian tanker status | 4 | 1 (Sea Horse delivery) | 0 | 5 |
+| Russian tanker status | 5 | 1 (Sea Horse early Cuba delivery) | 0 | 6 |
 | Humanitarian impact | 9 | 0 | 0 | 9 |
 | Embassy standoff | 5 | 0 | 0 | 5 |
-| **Total** | **38** | **1** | **0** | **39** |
+| **Total** | **39** | **1** | **0** | **40** |
 
-**Overall**: 38/39 claims ✅ VERIFIED, 1/39 ⚠️ PARTIALLY VERIFIED (Sea Horse delivery — "likely" per Windward maritime intelligence but not officially confirmed). No claims falsified.
+**Overall**: 39/40 claims ✅ VERIFIED, 1/40 ⚠️ PARTIALLY VERIFIED (Sea Horse early March Cuba delivery — "likely" per Windward maritime intelligence but not officially confirmed). Sea Horse T&T diversion ✅ VERIFIED (Bloomberg, US News, Maritime Professional, gCaptain — March 20); subsequently rerouted to Venezuela (MarineTraffic — March 21). T&T diversion documented as regulatory friction event — March 20 Treasury amendment directly caused vessel to stand down. No claims falsified.
 
 ---
 
