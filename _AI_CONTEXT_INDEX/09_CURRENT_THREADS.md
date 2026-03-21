@@ -6,7 +6,7 @@
 
 ## Active Leverage Nodes (February 2026)
 
-**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 11 nodes tracked.
+**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 12 nodes tracked.
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
@@ -759,6 +759,9 @@
 | Mar 6 | China dispatches envoy Zhai Jun to mediate | CRINK response pattern |
 | Mar 6 | Oil prices up ~20% to ~$80/barrel; "biggest energy crisis since 1970s" | Capital architecture stress test |
 | Mar 6 | UK deploying RAF fighters over Bahrain | NATO ally drawn into conflict |
+| **Mar 11** | **Richard Kahn** (Epstein's accountant, estate co-executor) deposed — confirmed funds from Wexner, Dubin, Sinofsky, Black, Rothschilds; Ehud Barak financial ties to Epstein | **Epstein estate financial architecture; deposition (✅ [AP](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488))** |
+| **~Mar 17** | **NM state investigators begin physical search of Zorro Ranch** (San Rafael Ranch) — with cooperation of Huffines family; first documented physical search of the property | **✅ VERIFIED — [AP](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a)** |
+| **Mar 19** | **Darren Indyke** (Epstein's attorney ~20 years, estate co-executor) deposed — denied knowledge; Comer confirms committee reviewed 40,000+ documents from JPMorgan/Deutsche Bank; 64+ Epstein business entities | **Epstein estate accountability (✅ [AP](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2))** |
 
 ### March 2026
 | Date | Event |
@@ -771,6 +774,9 @@
 | **Mar 5** | **Trump fires Kristi Noem; names Sen. Markwayne Mullin (R-OK) as replacement. Pentagon officially designates Anthropic as "supply chain risk." DOJ publishes 16 additional Epstein pages (NPR investigation). House votes 212-219 against war powers measure. Azerbaijan struck by Iranian drones. TikTok deal lawsuit filed.** |
 | **Mar 6** | **Iran war Day 7: 1,300+ killed (Iranian Red Crescent). UAE intercepts 109 drones + 9 ballistic missiles. Iran strikes Bahrain, Qatar. Israel strikes Beirut. Trump: "unconditional surrender" or nothing. China dispatches envoy Zhai Jun. Oil up ~20%.** |
 | **Mar 8** | **Schedule P/C takes effect (~50,000 positions to at-will)** |
+| **Mar 11** | **Richard Kahn (Epstein accountant, estate co-executor) deposed by House Oversight Committee** |
+| **~Mar 17** | **NM state investigators begin physical search of Zorro Ranch / San Rafael Ranch with Huffines cooperation** |
+| **Mar 19** | **Darren Indyke (Epstein personal attorney, estate co-executor) deposed by House Oversight Committee; committee reviewed 40,000+ documents (JPMorgan + Deutsche Bank); 64+ Epstein business entities confirmed** |
 | Mar 14 | TSA workers miss first full paycheck if DHS shutdown continues |
 | Mar 17 | Maduro next court date |
 
@@ -809,7 +815,11 @@ This clustering pattern is consistent with Thermostat model predictions.
 | Date | Event | Relevance |
 |------|-------|-----------|
 | Feb 14 | DHS shutdown begins | Institutional friction |
+| Feb 17 | NM legislature votes unanimously to create truth commission (subpoena power, $2M+ budget) — 4-member bipartisan panel | Epstein/Zorro Ranch accountability; NM-level investigation begins |
+| Feb 18 | NM truth commission first meeting; chair Romero: "enablers must be held accountable, including the state itself" | Epstein/Zorro Ranch accountability |
 | Feb 19 | Prince Andrew arrested (first royal arrest in modern UK history) | Epstein leverage; convergence with BoP/UFO |
+| Feb 19 | **NM AG Torrez reopens criminal Zorro Ranch investigation** — same day as Andrew arrest + Wexner deposition video release | **Three Epstein-track events on single day; NM investigation reopened after 7-year closure** |
+| Feb 19 | Les Wexner deposition video released | Epstein leverage; Wexner denied knowledge |
 | Feb 22 | El Mencho (CJNG) killed — US intel support | US-Mexico cartel friction |
 | Feb 22 | Kurdish Coalition formed (Coalition of Political Forces in Iranian Kurdistan) | Iran destabilization signal |
 | Feb 22 | Global Entry suspended | DHS shutdown impact |
@@ -930,6 +940,35 @@ This clustering pattern is consistent with Thermostat model predictions.
 - Capital architecture context: `04_CAPITAL_ARCHITECTURE.md`
 - Distraction mechanics: `06_ATTENTION_ECONOMY.md`
 - Thermostat timing model: `Node_Dossiers/tier3_thermostat_ruleset.md`
+
+---
+
+## Node 12: Zorro Ranch / New Mexico Investigation — Active State-Level Accountability (March 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | State-level Epstein accountability / 7-year gap data point |
+| **7-year gap** | NM investigation opened 2019 → **closed at federal request (SDNY) 2019** → reopened 2026 = **7-year suppression window**. Closure was immediate after Epstein's death; no charges filed, no ranch searched, no formal victim testimony formalized. Gap ends only after DOJ releases 3M+ pages of sealed FBI files. | ✅ VERIFIED — [AP](https://apnews.com/article/new-mexico-epstein-investigation-reopen-12dffa70784c6f468627962da3cf51b7) |
+| **Framework significance** | The 7-year closure-to-reopening arc mirrors the core framework's r = +0.6196 pattern at state level: federal compliance action (closure) → sustained suppression window → external friction (DOJ file release) → compliance event (reopening). This is a documented structural instance of "regulated friction" outside the federal context. |
+| **Truth commission** | Bipartisan, 4-member commission: Rep. Andrea Romero (D-SF, chair), Rep. Marianna Anaya (D-ABQ), Rep. William Hall (R-Aztec, retired FBI), Rep. Andrea Reeb (R-Clovis, former DA). Subpoena power. $2M+ budget. Unanimous NM House vote (Feb 17). First meeting Feb 18. | ✅ VERIFIED — [AP](https://apnews.com/article/jeffrey-epstein-files-new-mexico-ranch-d1ab5064453fe3df154f779326b53345) |
+| **AG reopening** | AG Raúl Torrez reopened criminal investigation Feb 19, 2026, citing "revelations outlined in the previously sealed FBI files." Seeking complete, unredacted federal case file. Coordinating with truth commission. | ✅ VERIFIED — [AP](https://apnews.com/article/new-mexico-epstein-investigation-reopen-12dffa70784c6f468627962da3cf51b7) |
+| **Timing convergence** | Feb 19, 2026: NM AG reopening announced same day as Prince Andrew arrest (UK) + Wexner deposition video release — three major Epstein accountability events in a single day | ✅ VERIFIED — see Node 5 + Feb 19 timeline |
+| **Physical search** | NM state investigators began physical search of property (~Mar 17, 2026) with full cooperation of Huffines family. First documented law enforcement search of the ranch property. | ✅ VERIFIED — [AP](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a) |
+| **NM failure documented** | Epstein was **never required to register as a sex offender in New Mexico** after his 2008 Florida guilty plea — state law failure that truth commission is actively investigating | ✅ VERIFIED — AP |
+| **Ranch references in DOJ release** | Thousands of references to the ranch in the 3M+ page DOJ file release; named visitors from email/schedule records: Woody Allen, Robert Redford, Reid Hoffman, Joi Ito, Peter Thiel | ✅ VERIFIED — AP |
+| **Congressional depositions** | March 11: Richard Kahn (accountant, estate co-executor) — confirmed funds from Wexner, Dubin, Sinofsky, Black, Rothschilds; Ehud Barak financial ties. March 19: Darren Indyke (attorney, ~20 years, estate co-executor) — denied knowledge. Committee reviewed 40,000+ JPMorgan/Deutsche Bank documents; 64+ Epstein business entities confirmed. | ✅ VERIFIED — [AP/Kahn](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488), [AP/Indyke](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2) |
+| **Estate class action settlement** | Epstein estate agreed to pay $25M–$35M (pending judge approval). Prior payments: $121M (136 EVCP claimants) + $48M+ (59 other victims). | ✅ VERIFIED — AP |
+| **Religious layer intersection** | Huffines renamed property "San Rafael Ranch" (Saint Raphael = healing), plans a Christian retreat. Don Huffines (Texas Republican, won 2026 state comptroller primary) invoking faith-based framing at a site under active criminal investigation. See Node 10 + `15_The_Religious_Layer/` | ✅ VERIFIED — AP, Huffines X post |
+| **Next milestone** | April 14, 2026: AG Pam Bondi deposition before House Oversight on Epstein file handling and DOJ redactions | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html), [CBS News](https://www.cbsnews.com/news/epstein-files-pam-bondi-subpoena-house-oversight-committee/) |
+| Last updated | March 21, 2026 |
+
+**Sources**:
+- Full dossier: `_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md`
+- [AP — NM investigation reopened (Feb 19, 2026)](https://apnews.com/article/new-mexico-epstein-investigation-reopen-12dffa70784c6f468627962da3cf51b7)
+- [AP — Truth commission first meeting (Feb 18, 2026)](https://apnews.com/article/jeffrey-epstein-files-new-mexico-ranch-d1ab5064453fe3df154f779326b53345)
+- [AP — Ranch physical search (March 2026)](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a)
+- [AP — Richard Kahn deposition (March 11, 2026)](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488)
+- [AP — Darren Indyke deposition (March 19, 2026)](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2)
 
 ---
 

@@ -239,6 +239,26 @@ The pipeline should track this growing intra-Christian theological conflict:
 
 ---
 
+## The San Rafael Ranch Intersection: Faith-Based Rebranding at an Active Crime Scene
+
+The Huffines family's rebranding of the former Zorro Ranch is a documented data point where the Religious Layer intersects with the Epstein accountability track:
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| Property | Former Zorro Ranch (Epstein) → now "San Rafael Ranch" | ✅ VERIFIED — AP, Santa Fe Reporter |
+| Name origin | Saint Raphael — archangel associated with healing and divine restoration | ✅ VERIFIED — Huffines X post |
+| Stated purpose | Christian retreat | ✅ VERIFIED — AP (citing Huffines X post) |
+| Owner | Don Huffines — Texas Republican politician; won 2026 state comptroller primary; former TX state senator; prominent Texas Republican donor/developer | ✅ VERIFIED — AP |
+| Current status | Under active criminal investigation by NM AG; being physically searched by state investigators (March 2026) | ✅ VERIFIED — AP |
+
+**Analytical note**: A property under active state criminal investigation for alleged sex trafficking is simultaneously being marketed as a place of Christian healing and restoration. The theological reframing (sin/crime → healing/redemption) is a documented pattern in this religious infrastructure. The framework documents the intersection as a naming/framing data point — not as an accusation of impropriety against the Huffines family, which has cooperated fully with law enforcement.
+
+**Framework significance**: The San Rafael naming invokes a specific theological frame — Raphael heals wounds; the ranch is being reborn. This is the same redemptive eschatological vocabulary used across the Node 10 infrastructure. Whether intentional or coincidental, the framing applies the same theological signaling to a site with active accountability proceedings.
+
+**Cross-reference**: For full details on the NM investigation, truth commission, ranch search, and 7-year gap, see `_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md` and `_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md` (Node 12).
+
+---
+
 ## What This Analysis Does NOT Claim
 
 - ❌ No claim that religious belief is inherently dangerous or disqualifying

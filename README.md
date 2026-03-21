@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.9
+# The Regulated Friction Project v10.10
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -157,7 +157,19 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.9) — Cuba Crisis Escalation & Russian Tanker Confrontation — March 21, 2026
+## What's New (v10.10) — Zorro Ranch / New Mexico Investigation + 7-Year Gap — March 21, 2026
+
+- **New Node 12 added**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md) now tracks the New Mexico Zorro Ranch investigation as a distinct accountability node with documented state-level friction/compliance pattern.
+- **The 7-year gap documented**: NM investigation opened 2019 → **closed at explicit federal request (SDNY) 2019** → reopened 2026 after DOJ file release. This 7-year suppression window (2019–2026) is a documented structural instance of the regulated friction pattern at state level: federal compliance (closure) → suppression window → external friction (file release) → compliance event (reopening).
+- **NM Truth Commission**: Bipartisan 4-member commission created Feb 17–18, 2026 with subpoena power and $2M+ budget. Chair: Rep. Andrea Romero (D-Santa Fe). Members include retired FBI agent and former DA. (✅ [AP](https://apnews.com/article/jeffrey-epstein-files-new-mexico-ranch-d1ab5064453fe3df154f779326b53345))
+- **NM AG reopens criminal investigation**: AG Raúl Torrez announced Feb 19, 2026 (same day as Prince Andrew arrest + Wexner deposition video release — three Epstein accountability events in one day). Seeking complete unredacted federal file. (✅ [AP](https://apnews.com/article/new-mexico-epstein-investigation-reopen-12dffa70784c6f468627962da3cf51b7))
+- **Physical search of ranch**: NM state investigators began physical search of the property (~March 17, 2026) with full cooperation of Huffines family — first physical law enforcement access in history. (✅ [AP](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a))
+- **Congressional depositions March 2026**: Richard Kahn (estate accountant, March 11) confirmed 64+ Epstein business entities and funds from Wexner/Dubin/Black/Rothschilds/Barak. Darren Indyke (personal attorney ~20 years, March 19) deposed. Committee reviewed 40,000+ bank documents. (✅ [AP/Kahn](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488), [AP/Indyke](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2))
+- **Estate class action settlement**: Epstein's estate agreed to pay $25M–$35M pending court approval; prior payments totaled $169M+ across 195+ victims. (✅ AP)
+- **Religious layer intersection**: Huffines family renamed property "San Rafael Ranch" (Saint Raphael = healing) and plans a Christian retreat — documented intersection with the Religious Layer (Node 10). See [tier1_zorro_ranch_epstein.md](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md) and [The_Religious_Layer.md](15_The_Religious_Layer/The_Religious_Layer.md).
+- **Dossier updated**: [`tier1_zorro_ranch_epstein.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md) fully updated with full investigative timeline, truth commission details, AG reopening, ranch search, 7-year gap analysis, congressional depositions, estate settlement, and religious layer connection.
+
+### Previous (v10.9) — Cuba Crisis Escalation & Russian Tanker Confrontation — March 21, 2026
 
 - **Cuba crisis escalation documented**: [Cuba_Crisis_Escalation_March_2026.md](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md) tracks the rapid escalation from oil blockade through grid collapse to potential U.S.-Russia naval confrontation. 39/40 claims ✅ VERIFIED, 1/40 ⚠️ PARTIALLY VERIFIED (Sea Horse early March Cuba delivery).
 - **March 14–21 timeline**: Morón protests (Communist Party HQ attacked, ✅ [Reuters](https://www.usnews.com/news/world/articles/2026-03-14/protesters-in-cuba-attack-communist-party-office-in-rare-riot-over-blackouts)), third island-wide blackout (29 hrs, ✅ [NPR](https://www.npr.org/2026/03/16/nx-s1-5749457/cuba-blackout-sanctions-oil)), embassy diesel refused (✅ [AP](https://abcnews.com/US/wireStory/cuba-refuses-us-embassy-havana-import-diesel-generators-131273345)), Treasury sanctions amendment adds Cuba/NK exclusion (✅ [Moscow Times](https://www.themoscowtimes.com/2026/03/20/us-tightens-sanctions-waiver-on-russian-oil-after-tanker-reportedly-delivers-fuel-to-cuba-a92279)).
