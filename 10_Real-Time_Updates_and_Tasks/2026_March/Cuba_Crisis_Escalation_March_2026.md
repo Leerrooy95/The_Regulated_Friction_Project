@@ -44,7 +44,7 @@ This document tracks the escalation timeline, verifies claims, documents the coe
 
 | Vessel | Flag | Cargo | Status | ETA Cuba | Sanctioned? |
 |--------|------|-------|--------|----------|-------------|
-| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | ⚠️ Likely discharged cargo in early March via deceptive routing (Windward/Kpler), but Bloomberg reported vessel may have diverted toward Trinidad and Tobago after March 20 Treasury amendment. Delivery status remains unconfirmed. | Arrived (unconfirmed/suspected) | Under monitoring |
+| **Sea Horse** | Hong Kong | ~27,000 tons gas (~200,000 barrels diesel) | ⚠️ Maritime intelligence (Windward/Kpler) assesses cargo was "likely" discharged in Cuba in early March via deceptive routing (AIS spoofing, ship-to-ship transfers). Separately, after the March 20 Treasury amendment, Bloomberg reported the vessel changed its declared destination toward Trinidad and Tobago — this refers to a subsequent tracking update, not the initial delivery. Official confirmation of the early March discharge remains unavailable. | Arrived (unconfirmed/suspected) | Under monitoring |
 | **Anatoly Kolodkin** | Russia | ~730,000 barrels crude oil | In transit — departed Primorsk March 8; eastern Atlantic as of March 20 | **~March 23, 2026** (updated from earlier ~April 4 estimate) | ✅ Sanctioned by U.S., EU, and UK |
 | **Russian destroyer + oiler** | Russia | Oil replenishment ship | Tracked by SOUTHCOM; scheduled port call to Cuba | Unknown | Military vessel |
 
