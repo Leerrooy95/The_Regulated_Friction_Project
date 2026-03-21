@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.7
+# The Regulated Friction Project v10.8
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -97,7 +97,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer — 10 nodes) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window — 11 nodes) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -157,7 +157,16 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.7) — Live Intelligence Pipeline & March 2026 Convergence — March 15, 2026
+## What's New (v10.8) — April 2026 Convergence Window Prediction — March 21, 2026
+
+- **Pre-event prediction filed**: [April 2026 Convergence Window](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md) documents a predicted dual-track convergence (April 12–20) with explicit falsification criteria — filed *before* the window opens.
+- **Track A (Accountability)**: AG Pam Bondi subpoenaed for April 14 deposition before House Oversight Committee on Epstein file handling and DOJ redactions (✅ [CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html), [CBS News](https://www.cbsnews.com/news/epstein-files-pam-bondi-subpoena-house-oversight-committee/)).
+- **Track B (Capital Architecture)**: CLARITY Act Senate vote (crypto market structure, SEC/CFTC jurisdiction) targeting passage by May 2026. USD1/WLF/MGX capital architecture documented: ~$4.59B market cap, $2B MGX-Binance settlement in USD1, 135M WLFI airdrop active through April 17 (✅ verified via CoinGecko, CNBC, Binance).
+- **Emoluments question**: Warren and Merkley raised constitutional concerns over MGX/USD1/WLF structure; no Congressional consent resolution or OLC opinion filed (✅ [Senate Banking Committee](https://www.banking.senate.gov/newsroom/minority/forwarding-merkley-warren-trump-linked-crypto-deal-is-a-staggering-conflict-of-interest)).
+- **March 17–21 context events verified**: Ras Laffan LNG strike (✅), Brent crude ~$112/bbl (✅), Goldman unredacted Epstein document (✅), Bondi briefing walkout (✅), CBS News Radio closure (✅), Mullin DHS hearing (✅), Trump Pearl Harbor joke (✅), Tucker Carlson/Prof. Jiang interview (✅). Full verification: 18/20 claims verified.
+- **Node 11 added** to [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): April 2026 Convergence Window with thermostat prediction and falsification criteria.
+
+### Previous (v10.7) — Live Intelligence Pipeline & March 2026 Convergence — March 15, 2026
 
 - **Live Trackers v2.1 pipeline fully operational**: 6-stage architecture (Perplexity → Llama Scout → Convergence Detection → Daily Intelligence → Anthropic Fact-Check → Rhetoric vs. Reality) running twice daily via GitHub Actions.
 - **Public dashboard at [regulatedfriction.me](https://regulatedfriction.me/)**: 8 tabs with Chart.js visualizations (Thermostat Timeline, Dual-Track Stacked Area, Node Activation Heatmap) that accumulate data points over time.
@@ -304,7 +313,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 15, 2026 (v10.7)
+**Last updated**: March 21, 2026 (v10.8)
 
 ---
 

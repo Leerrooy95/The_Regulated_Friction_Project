@@ -204,6 +204,24 @@ Key pipeline findings:
 
 The public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) displays all pipeline outputs across 8 tabs (Node Status, Intelligence, Convergence, Predictions, Entities, Charts, Rhetoric vs. Reality, History) with Chart.js visualizations that accumulate data over time. A Gradient AI chatbot with the `_AI_CONTEXT_INDEX` knowledge base provides interactive queries on both live data and research context.
 
+### Upcoming: April 2026 Convergence Window (Pre-Event Prediction)
+
+**Filed March 21, 2026** — before the window opens. This is a prospective test of the thermostat model's predictive power.
+
+| Track | Event | Date | Status |
+|-------|-------|------|--------|
+| **A (Accountability)** | AG Bondi subpoenaed deposition — House Oversight Committee | April 14, 2026 | ✅ Subpoena confirmed ([CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html)) |
+| **B (Capital Architecture)** | CLARITY Act Senate vote — crypto SEC/CFTC jurisdiction | By May 2026 | ⚠️ No specific date confirmed |
+| **B (Capital Architecture)** | USD1/WLF/MGX capital feedback loop active | March 20 – April 17 | ✅ WLFI airdrop active; ~$4.59B USD1 market cap |
+
+**Thermostat prediction (🔍 HYPOTHESIS):** At least one major distraction event will materialize in the 48 hours preceding the Bondi deposition (April 12–13) or within the April 14–20 window, sufficient to fragment media coverage and reduce public attention on the accountability track.
+
+**Falsification criteria:** If April 12–20 passes with NO major competing news events AND the Bondi deposition AND the CLARITY Act vote receive sustained, prominent media coverage, the distraction prediction is falsified for this window.
+
+Four pre-loaded distraction mechanisms documented with deployment readiness assessments: UAP disclosure (zero cost — announcement already made), Cuba kinetic action (low cost — justification pre-built), Iran war escalation (zero cost — already active), and domestic crisis events (variable cost).
+
+→ **Full prediction document**: [`10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md)
+
 ---
 
 ## Statistical Evidence
@@ -1138,6 +1156,9 @@ Additional datasets for extended analysis:
 | QXO further acquisitions | 2026 | Tracking — $10B M&A war chest, "very active" pipeline | QXO IR, SEC filings |
 | EO 14375 legal challenge (IOIA authorization) | 2026 | Pending — Just Security questions Congressional authorization | Court filings, Congress.gov |
 | Feb 11 compliance density repeat at next hearing | Ongoing | Pending — Bondi case study predicts pattern recurrence | Transcript review, Federal Register |
+| **April 2026 convergence window distraction prediction** | **April 12–20, 2026** | **🔍 HYPOTHESIS — Pre-filed March 21, 2026** | **Track competing events against Bondi deposition (April 14) and CLARITY Act timeline; see `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`** |
+| **Bondi deposition compliance** | **April 14, 2026** | **✅ Subpoena confirmed** | **Whether AG appears, invokes privilege, or defies subpoena** |
+| **CLARITY Act Senate passage** | **By May 2026** | **⚠️ Senate targeting May; no date confirmed** | **Senate vote tracking, Congress.gov** |
 
 These predictions derive from the model's logic: if calendar anchors drive clustering, future anchors should show similar patterns. The Q1 2026 predictions extend to include institutional outcomes from the Privatized Integration pattern.
 
@@ -1233,6 +1254,8 @@ This research documents sixteen connected patterns:
 
 **The March 2026 convergence window (Mar 1–14, 2026):** Operation Epic Fury (no AUMF, Hormuz 40% transit reduction) provided maximum Track A kinetic friction while Board of Peace IOIA immunity (EO 14375, lifetime chairmanship, $5B+ pledges without congressional authorization, no GAO/IG jurisdiction) and Schedule Policy Career (~50,000 positions losing MSPB appeal rights under 5 U.S.C. § 7511) advanced Track B institutional lock-in. Indonesia's Board of Peace suspension explicitly linked Track A to Track B collapse. Automated pipeline (21 runs, 10 convergence events, 48% rate) validated the pattern in near-real-time.
 
+**The April 2026 convergence window prediction (filed Mar 21, 2026):** A dual-track convergence is predicted for April 12–20, 2026 — filed *before* the window opens to enable real-time validation or falsification. **Track A (Accountability):** AG Pam Bondi subpoenaed for April 14 deposition before House Oversight Committee on Epstein file handling and DOJ redactions (✅ verified: CNBC, CBS News, UPI). **Track B (Capital Architecture):** CLARITY Act Senate vote (crypto SEC/CFTC jurisdiction) targeting passage by May 2026 (⚠️ no specific date confirmed), with USD1/WLF/MGX capital architecture as the structural substrate — ~$4.59B USD1 market cap, $2B MGX-Binance settlement in USD1, 135M WLFI airdrop through April 17, OCC charter pending (all ✅ verified). Emoluments Clause concerns raised by Warren and Merkley (✅ verified). **Thermostat prediction:** At least one major distraction event will materialize in the 48 hours preceding the Bondi deposition (April 12–13) or within the vote window. **Falsification criteria:** If April 12–20 passes with no major competing events AND both the Bondi deposition and CLARITY Act vote receive sustained prominent coverage, the distraction prediction is falsified. Four pre-loaded distraction mechanisms documented: UAP disclosure (zero deployment cost), Cuba kinetic (low cost), Iran war escalation (zero cost — already active), domestic crisis event (variable cost). Full pre-event analysis: `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`.
+
 The phenomenon doesn't require conspiracy — it is observable through public filings, official press releases, charter texts, and congressional records. The same entities appear across multiple domains simultaneously. Whether this overlap represents coordination or independent positioning is an interpretive question this research does not answer.
 
 The data is public. The code is public. The claims are reproducible and sourced.
@@ -1253,4 +1276,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated March 15, 2026 (v10.7). Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/) — 6-stage automated analysis with Rhetoric vs. Reality statute-cited gap analysis. "14-day lag" corrected to 7-day median sequential lag across all documentation. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md` for full audit results.*
+*This report was last updated March 21, 2026 (v10.8). April 2026 convergence window prediction filed — dual-track (Bondi deposition + CLARITY Act / USD1 capital architecture) with pre-filed falsification criteria. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/) — 6-stage automated analysis with Rhetoric vs. Reality statute-cited gap analysis. "14-day lag" corrected to 7-day median sequential lag across all documentation. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md` for full audit results.*

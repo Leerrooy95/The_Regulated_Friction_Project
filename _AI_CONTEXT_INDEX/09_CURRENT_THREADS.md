@@ -6,7 +6,7 @@
 
 ## Active Leverage Nodes (February 2026)
 
-**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics.
+**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 11 nodes tracked.
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
@@ -873,6 +873,30 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
+## Node 11: April 2026 Convergence Window — Pre-Event Prediction (Filed March 21, 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | Predicted convergence window — pre-filed for real-time validation or falsification |
+| **Window** | April 12–20, 2026 |
+| **Track A event: Bondi deposition** | AG Pam Bondi subpoenaed for April 14, 2026 deposition before House Oversight Committee — sworn testimony on Epstein file handling, DOJ redactions, and obstruction allegations | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html), [CBS News](https://www.cbsnews.com/news/epstein-files-pam-bondi-subpoena-house-oversight-committee/), [UPI](https://www.upi.com/Top_News/US/2026/03/17/House-Oversight-Bondi-Epstein/1751773778691/) |
+| **Track B event: CLARITY Act** | Crypto market structure bill defining SEC vs. CFTC jurisdiction; Senate pushing for passage by May 2026. Passed House 294-134 (July 2025). Companion to GENIUS Act (signed July 18, 2025). | ⚠️ PARTIALLY VERIFIED — no specific Senate vote date confirmed; "by May" target. [CoinalertNews](https://coinalertnews.com/news/2026/03/18/clarity-act-senate-vote-may-hurdles), [The Market Periodical](https://themarketperiodical.com/2026/03/20/clarity-act-edges-closer-as-senate-pushes-toward-stablecoin-deal/) |
+| **Capital architecture context** | USD1 stablecoin (~$4.59B market cap), MGX $2B Binance investment settled in USD1, Binance 135M WLFI airdrop (March 20 – April 17), WLF OCC charter application pending | ✅ VERIFIED — [CoinGecko](https://www.coingecko.com/en/coins/usd1-wlfi), [CNBC](https://www.cnbc.com/2025/03/13/abu-dhabis-mgx-to-invest-2-billion-in-crypto-exchange-binance.html), [Lookonchain](https://lookonchain.com/feeds/50855), [OCC](https://www.occ.gov/topics/charters-and-licensing/digital-assets-licensing-applications/world-liberty-trust-company.pdf) |
+| **Emoluments question** | Warren and Merkley raised Emoluments Clause concerns over MGX/USD1/WLF structure. No Congressional consent resolution filed. No OLC opinion released. | ✅ VERIFIED — [Senate Banking Committee](https://www.banking.senate.gov/newsroom/minority/forwarding-merkley-warren-trump-linked-crypto-deal-is-a-staggering-conflict-of-interest), [CBS News](https://www.cbsnews.com/news/senate-democrats-trump-world-liberty-crypto-deal-genius-act-vote/) |
+| **Pre-loaded distraction arsenal** | UAP disclosure (announced Feb 2026), Cuba kinetic (speedboat Feb 2026), Iran war escalation (active since Feb 28), domestic crisis trajectory | See `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md` for full assessment |
+| **Thermostat prediction** | 🔍 HYPOTHESIS — At least one major distraction event will materialize April 12–13 or within April 14–20, fragmenting media coverage of accountability track |
+| **Falsification criteria** | If April 12–20 passes with NO major competing events AND Bondi deposition AND CLARITY Act vote receive sustained prominent coverage, the distraction prediction is falsified |
+| Framework significance | [Inference] Tests the thermostat model's predictive power: dual-track convergence (accountability + capital architecture) within a defined, pre-filed window. Outcome documents whether the pattern of friction events preceding compliance events holds prospectively. |
+| Last updated | March 21, 2026 |
+
+**Sources**:
+- Full prediction document: `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`
+- Capital architecture context: `04_CAPITAL_ARCHITECTURE.md`
+- Distraction mechanics: `06_ATTENTION_ECONOMY.md`
+- Thermostat timing model: `Node_Dossiers/tier3_thermostat_ruleset.md`
+
+---
+
 ## Research Gaps
 
 ### Needs More Data
@@ -899,6 +923,7 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 | Source | Location |
 |--------|----------|
+| April 2026 Convergence Window | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md` |
 | February 26, 2026 Update | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
 | February 2026 Update | `10_Real-Time_Updates_and_Tasks/2026_February/February-05-2026.md` |
 | 2026 Analysis | `New_Data_2026/2026_Analysis.md` |
@@ -936,4 +961,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 16, 2026. Node 10 added: Religious Layer / Eschatological Infrastructure — documents four theological input channels (Paula White, Capitol Ministries, CREC/Wilson, CUFI/Hagee), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. Source: `15_The_Religious_Layer/`. Previous: March 8, 2026. Node 9 updated: deep-dive verification resolved all 8 partially verified claims — 4 upgraded to ✅ VERIFIED (Hiland authorship, 6-0 vote, Brooks Nov 19 injunction, Bryan King quotes via Bolts Magazine), 3 downgraded to ❌ UNABLE TO VERIFY (Les Eaves lobbyist quote, Joshua Silverstein quote, David Couch "permanently dismantle" quote — removed from _AI_CONTEXT_INDEX), 1 corrected ("eight new laws" → "at least six specific Acts"). Node 9 now contains only verified information. Final tally: 24/28 ✅ VERIFIED, 1/28 ⚠️ CORRECTED, 3/28 ❌ UNABLE TO VERIFY. Previous: March 8, 2026 — Node 9 added; Node 5 updated. Previous: March 7, 2026 — Node 8 added. Previous: March 6, 2026 — March 1-6 verified developments. Full verification: `Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Law_Forensic_Audit_Verification.md`. Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md. This document should be updated as new developments occur.*
+*Last Updated: March 21, 2026. Node 11 added: April 2026 Convergence Window — pre-event prediction filed before the April 12–20 window opens. Documents predicted convergence of Bondi deposition (April 14, ✅ verified) and CLARITY Act vote (by May, ⚠️ partially verified), USD1/WLF/MGX capital architecture context (✅ verified), pre-loaded distraction arsenal, thermostat model prediction with explicit falsification criteria. Source: `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`. Previous: March 16, 2026. Node 10 added: Religious Layer / Eschatological Infrastructure — documents four theological input channels (Paula White, Capitol Ministries, CREC/Wilson, CUFI/Hagee), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. Source: `15_The_Religious_Layer/`. Previous: March 8, 2026. Node 9 updated: deep-dive verification resolved all 8 partially verified claims — 4 upgraded to ✅ VERIFIED, 3 downgraded to ❌ UNABLE TO VERIFY, 1 corrected. Node 9 now contains only verified information. Previous: March 8, 2026 — Node 9 added; Node 5 updated. Previous: March 7, 2026 — Node 8 added. Previous: March 6, 2026 — March 1-6 verified developments. This document should be updated as new developments occur.*
