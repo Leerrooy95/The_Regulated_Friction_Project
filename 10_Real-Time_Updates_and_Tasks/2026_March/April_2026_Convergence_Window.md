@@ -124,9 +124,9 @@ A $2B foreign sovereign-linked transaction (MGX/Abu Dhabi) settled in a stableco
 
 ---
 
-## CLARITY Act Legislative Status (As of March 21, 2026)
+## CLARITY Act Legislative Status (Verified March 21, 2026)
 
-*This section added to fully document the CLARITY Act's legislative trajectory, which had been partially verified at repository creation. Multiple independent sources consulted.*
+*This section added to fully document the CLARITY Act's legislative trajectory, which had been partially verified at repository creation. Multiple independent sources consulted. Legislative status reflects publicly reported developments through March 21, 2026; future developments will update this section.*
 
 ### Legislative Timeline
 
@@ -237,7 +237,7 @@ Independent web verification of this document's claims was conducted before repo
 | Claim | Status | Source |
 |-------|--------|--------|
 | Bondi subpoena for April 14 deposition | ✅ VERIFIED | CNBC, CBS News, UPI, ABC News |
-| CLARITY Act Senate legislative status | ✅ VERIFIED (multiple sub-claims) — Senate Ag Committee 12-11 party-line vote (Jan 29, 2026) ✅; stablecoin yield "agreement in principle" Tillis-Alsobrooks + White House (March 20, 2026) ✅; Senate Banking Committee markup targeted April 13–27 ⚠️ (targeted, not confirmed); full Senate floor vote by May ⚠️ (target only, contingent on markup success) | CNBC, Politico, The Block, CoinDesk, AMBCrypto, Cryptonomist, CryptoNewBytes |
+| CLARITY Act Senate legislative status | ✅/⚠️ SUBSTANTIALLY VERIFIED — Senate Ag Committee 12-11 party-line vote (Jan 29, 2026) ✅; stablecoin yield "agreement in principle" Tillis-Alsobrooks + White House (March 20, 2026) ✅; Senate Banking Committee markup targeted April 13–27 ⚠️ (targeted, not confirmed); full Senate floor vote by May ⚠️ (target only, contingent on markup success) | CNBC, Politico, The Block, CoinDesk, AMBCrypto, Cryptonomist, CryptoNewBytes |
 | USD1 market cap ~$4.59B | ✅ VERIFIED | CoinGecko, KuCoin, DefiLlama, Binance |
 | MGX $2B Binance investment via USD1 | ✅ VERIFIED | CNBC, Binance, MGX official, Economy Middle East |
 | Binance 135M WLFI airdrop (Mar 20 – Apr 17) | ✅ VERIFIED | Lookonchain, Binance, AInvest, StablecoinInsider |
