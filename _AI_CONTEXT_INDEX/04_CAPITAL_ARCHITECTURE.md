@@ -477,7 +477,7 @@ Cross-reference: `11_LEVERAGE_THESIS.md`, `09_CURRENT_THREADS.md` (Node 2, Node 
 
 ## March 2026: SpaceX-xAI Consolidated Entity — Single-Owner Multi-Domain Architecture
 
-The SpaceX-xAI merger (February 2–3, 2026) created a consolidated private entity spanning five infrastructure domains under a single owner — structurally analogous to the Oracle/Silver Lake/MGX consortium pattern documented above, but with a critical difference: concentration under one individual rather than a consortium.
+The SpaceX-xAI merger (announced February 2, confirmed February 3, 2026) created a consolidated private entity spanning five infrastructure domains under a single owner — structurally analogous to the Oracle/Silver Lake/MGX consortium pattern documented above, but with a critical difference: concentration under one individual rather than a consortium.
 
 ### Consolidated Entity Architecture
 
