@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** March 22, 2026
-**Version:** v11.2
+**Version:** v11.3
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -141,8 +141,9 @@ Three major events converged in a 72-hour window:
 - 201+ killed, 700+ injured across Iran (Iranian Red Crescent figures)
 - 85-148 schoolgirls killed at Shajareh Tayyebeh elementary school in Minab (⚠️ casualty range reflects conflicting reports)
 - Iran retaliates under Operation Fateh Khyber; 3 US service members killed
+- Maven Smart System with Claude AI operational for targeting at ~86-second decision cycles; 1,000 strikes in first 24 hours
 
-**Sources**: [USNI News](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region), [CNBC](https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html), [Axios](https://www.axios.com/2026/03/01/us-troops-killed-iran-operation-epic-fury)
+**Sources**: [USNI News](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region), [CNBC](https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html), [Axios](https://www.axios.com/2026/03/01/us-troops-killed-iran-operation-epic-fury), [Republic World](https://www.republicworld.com/world-news/maven-smart-system-explained-the-us-ai-technology-behind-1000-strikes-in-iran-during-operation-epic-furys-first-day)
 
 ### March 21, 2026: Mueller Death and the Leverage Architecture
 
@@ -157,6 +158,22 @@ In the same week, Peter Thiel called the Giving Pledge an "Epstein-adjacent, fak
 **Sources**: Mueller death: [NBC](https://www.nbcnews.com/politics/politics-news/robert-mueller-former-special-counsel-dies-rcna264561), [Politico](https://www.politico.com/news/2026/03/21/robert-mueller-trump-special-counsel-fbi-obituary-00039059). Comer subpoena: [CBS](https://www.cbsnews.com/news/robert-mueller-subpoena-withdrawn-jeffrey-epstein-house-overnight/), [The Hill](https://thehill.com/homenews/house/5478443-mueller-epstein-probe-oversight-testimony/). Greene: [NYT Magazine](https://www.ms.now/news/greene-says-trump-told-her-his-friends-would-get-hurt-by-epstein-files), [The Hill](https://thehill.com/homenews/house/5665887-trump-greene-epstein-coverup-claims/). Thiel: [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/).
 
 → **Full analysis**: [`10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md`](10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md)
+
+### The AI Kill Chain: Anthropic Ban → Minab School Strike (February 27–March 22, 2026)
+
+On February 27, Hegseth designated Anthropic — developer of Claude, the **only** frontier AI model cleared for classified Pentagon networks — a "supply chain risk to national security." Within hours, OpenAI signed a $200M replacement deal (Altman: "definitely rushed"). The next day, Operation Epic Fury launched with 1,000 strikes in 24 hours using Palantir's Maven Smart System with Claude still embedded, operating at ~86-second targeting decision cycles.
+
+On that same day, a Tomahawk cruise missile triple-tapped the Shajareh Tayyebeh girls' school in Minab, Iran — 175 killed (majority children ages 7–12), 95 injured. DIA attributed the strike to "outdated targeting data." Al Jazeera satellite investigation found the strike pattern **bypassed** a clinic between the school and an adjacent IRGC compound, then hit the clinic after it began treating victims — inconsistent with "outdated maps."
+
+**The structural question**: Claude's documented role in Maven was specifically to read intelligence reports, synthesize multi-source data, flag discrepancies, and rank targets. The political decision to designate the AI reasoning layer's developer a "national security threat" — 24 hours before the largest AI-assisted military operation in history — created structural conditions where the guardrail provider had zero enforcement leverage, the replacement was rushed, and accountability was diffused across multiple entities.
+
+**Legal proceedings**: Anthropic filed two federal lawsuits (March 9), 150 retired judges filed a bipartisan amicus brief (March 17), and Judge Rita Lin hears oral arguments March 24 in San Francisco. 120+ Congress members asked whether Maven/AI was used to identify the school as a target — Pentagon response as of March 22: "The incident is under investigation."
+
+**Framework connection**: The Anthropic ban follows the coercion template documented across the leverage architecture: demand → deadline → threat → punishment → replacement → narrative escalation. The kill chain integrity failure illustrates a second-order consequence: structural decisions designed to enforce compliance can degrade operational systems in ways that produce civilian casualties, regardless of intent.
+
+**Sources**: [NBC News (Congressional letter)](https://www.nbcnews.com/politics/national-security/democrats-ask-pentagon-iran-school-strike-role-ai-rcna263083), [Washington Post (school on target list)](https://www.washingtonpost.com/national-security/2026/03/11/us-strike-iran-elementary-school-ai-target-list/), [HRW](https://www.hrw.org/news/2026/03/12/iran-us-school-attack-findings-show-need-for-reform-accountability), [TechCrunch (lawsuits)](https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/), [Benzinga (judges amicus)](https://www.benzinga.com/news/politics/26/03/51318344/no-one-is-trying-to-force-the-department-to-contract-with-anthropic-say-149-retired-judges-in-pentagon-ai-fight)
+
+→ **Full analysis**: [`10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md)
 
 ### December 2025: The Case Study
 

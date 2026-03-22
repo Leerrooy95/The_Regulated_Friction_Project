@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: March 22, 2026 | **Repository Version**: v11.1
+**Last Updated**: March 22, 2026 | **Repository Version**: v11.3
 
 ---
 
@@ -150,7 +150,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: noise generators, cross-administration patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active research questions (13 nodes including Religious Layer, April 2026 Window, Zorro Ranch, Musk/SpaceX-xAI Realignment) |
+| `09_CURRENT_THREADS.md` | Active research questions (14 nodes including Religious Layer, April 2026 Window, Zorro Ranch, Musk/SpaceX-xAI Realignment, AI Kill Chain/Minab) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage architecture: Epstein/Musk origin, Iran extension, capital flows |
 
@@ -187,6 +187,8 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | April 2026 convergence window / Bondi deposition | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`, `09_CURRENT_THREADS.md` (Node 11) |
 | CLARITY Act / USD1 / WLF capital architecture | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`, `04_CAPITAL_ARCHITECTURE.md` |
 | Zorro Ranch / NM investigation / 7-year gap | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
+| AI Kill Chain / Maven targeting / Minab school strike | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`, `09_CURRENT_THREADS.md` (Node 14) |
+| Anthropic v. DoD lawsuit / supply chain risk legal challenge | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`, `09_CURRENT_THREADS.md` (Node 14) |
 | NM truth commission / AG Torrez / ranch search | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 | Kahn / Indyke depositions / estate settlement | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 
