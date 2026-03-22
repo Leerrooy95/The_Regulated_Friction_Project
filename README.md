@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.3
+# The Regulated Friction Project v11.4
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -157,7 +157,18 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.3) — AI Kill Chain / Minab School Strike Integration — March 22, 2026
+## What's New (v11.4) — SAVE America Act / Election Infrastructure Integration — March 22, 2026
+
+Integrates the new SAVE America Act analysis (`10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`) — 29/30 claims verified with sourced tables throughout — into the repository's active tracking infrastructure. Adds a third convergence track (Track C — election infrastructure) to the April 2026 prediction window.
+
+- **Node 11 expanded** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): April 2026 Convergence Window upgraded from dual-track to **triple-track** — Track C (SAVE America Act / FISA Section 702 coupling) added alongside Track A (Bondi deposition, April 14) and Track B (CLARITY Act, April 13–27). SAVE America Act (H.R. 7296) passed House 218-213 (Feb 11, 2026), Senate opened debate 51-48 (March 17), requires all 50 states to hand unredacted voter rolls to DHS with zero data use restrictions. House conservatives (Luna, Fine) threatening to attach SAVE to FISA Section 702 reauthorization (expires April 20). DHS SAVE database documented >50% error rate in Boone County, MO flagging citizens as noncitizens. Mullin DHS nomination advanced 8-7 (March 19, Fetterman crossover, Rand Paul opposed). Polymarket ~11–16% passage probability.
+- **Report updated**: [`Report.md`](Report.md) — new "SAVE America Act" section documenting voter data centralization, DHS SAVE database errors, FISA-SAVE coupling risk, and April convergence Track C. April convergence table updated with Track C row.
+- **Context routing updated**: [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md) — six new routing entries for SAVE America Act, FISA coupling, DHS SAVE database errors, Johnson-Thune legislative paralysis, and Mullin DHS confirmation topics.
+- **Web-verified March 22**: H.R. 7296 confirmed (Congress.gov, NBC News, CNBC, NACo), Senate 51-48 confirmed (Yahoo, CNBC, Roll Call), FISA Section 702 April 20 expiration confirmed (Congress.gov CRS, Brennan Center, Brookings), FISA-SAVE coupling confirmed (Axios, Politico, The Hill), SAVE database errors confirmed (ProPublica, Votebeat, Brennan Center, Houston Public Media), Mullin 8-7 confirmed (NBC News, Politico, ABC News, CNBC), Trump "I will not sign other Bills" confirmed (NBC News), Polymarket odds confirmed (Yahoo, USA Today).
+- **Verification corrections applied to source document**: Mullin ICE-at-polls claim nuanced per CNBC/Politico (declined to categorically rule out, not a flat refusal); "Confirmed" → "Advanced from committee" (not yet full Senate confirmation); Rand Paul opposition noted; Polymarket odds updated to ~11–16% range with fluctuation note.
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`Report.md`](Report.md).
+
+### Previous (v11.3) — AI Kill Chain / Minab School Strike Integration — March 22, 2026
 
 Integrates the new AI Kill Chain analysis (`10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`) — 51/53 claims verified with sourced tables throughout — into the repository's active tracking infrastructure.
 
@@ -320,7 +331,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 22, 2026 (v11.2)
+**Last updated**: March 22, 2026 (v11.4)
 
 ---
 

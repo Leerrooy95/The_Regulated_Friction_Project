@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: March 22, 2026 | **Repository Version**: v11.3
+**Last Updated**: March 22, 2026 | **Repository Version**: v11.4
 
 ---
 
@@ -189,6 +189,9 @@ For full routing details see `CONTEXT_ROUTER.md`. Quick reference:
 | Zorro Ranch / NM investigation / 7-year gap | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 | AI Kill Chain / Maven targeting / Minab school strike | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`, `09_CURRENT_THREADS.md` (Node 14) |
 | Anthropic v. DoD lawsuit / supply chain risk legal challenge | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`, `09_CURRENT_THREADS.md` (Node 14) |
+| SAVE America Act / voter data centralization / DHS SAVE database | `10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`, `09_CURRENT_THREADS.md` (Node 11) |
+| FISA Section 702 / SAVE Act coupling / election infrastructure | `10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`, `09_CURRENT_THREADS.md` (Node 11) |
+| Johnson-Thune legislative paralysis / DHS Mullin confirmation | `10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`, `09_CURRENT_THREADS.md` (Node 4, Node 11) |
 | NM truth commission / AG Torrez / ranch search | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 | Kahn / Indyke depositions / estate settlement | `Node_Dossiers/tier1_zorro_ranch_epstein.md`, `09_CURRENT_THREADS.md` (Node 12) |
 
