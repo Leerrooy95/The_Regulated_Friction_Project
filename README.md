@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.0
+# The Regulated Friction Project v11.1
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -157,7 +157,17 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.0) — Mueller Death, Leverage Architecture Continuation, March 21 Consolidation — March 21, 2026
+## What's New (v11.1) — Pre-September 2025 Musk–Administration Timeline — March 22, 2026
+
+Adds the previously undocumented timeline of the Musk–Trump falling out (May–September 2025) that preceded and contextualized the September 26 Epstein calendar release.
+
+- **DOGE → Big Beautiful Bill → Epstein weaponization arc documented**: Musk led DOGE from January 2025; broke with Trump over the "One Big Beautiful Bill" (House passed May 22, 215–214); resigned DOGE May 28; called bill "disgusting abomination" (Jun 3); posted Epstein accusation against Trump on X (Jun 5, deleted). DOJ reversed transparency stance (Jul). Trump–Musk reconciled at Charlie Kirk memorial (Sep 21). Epstein calendars naming Musk released 5 days later (Sep 26).
+- **Bondi briefing documented**: AG Bondi and Deputy AG briefed Trump in May 2025 that his name appeared in Epstein files; administration language on full disclosure shifted afterward. Phase 1 binders (Feb 27) had been criticized as containing nothing new.
+- **Bidirectional leverage pattern extended**: The pre-September timeline shows Musk used Epstein files offensively against Trump (Jun 5), then had files deployed against him (Sep 26) — consistent with the project's broader observation that Epstein association operates bidirectionally.
+- All events ✅ VERIFIED with multiple mainstream sources (TIME, Politico, CNBC, ABC News, PBS, USA Today, WSJ, Al Jazeera).
+- **Files updated**: [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md) (new timeline section), [`Report.md`](Report.md) (expanded September origin context), [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md) (Node 5 pre-September entry).
+
+### Previous (v11.0) — Mueller Death, Leverage Architecture Continuation, March 21 Consolidation — March 21, 2026
 
 Today's update consolidates three same-day additions (Cuba crisis, Zorro Ranch, Mueller death) and bumps to v11.0 given the volume.
 
@@ -289,7 +299,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 21, 2026 (v11.0)
+**Last updated**: March 22, 2026 (v11.1)
 
 ---
 

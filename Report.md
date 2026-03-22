@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** March 21, 2026
-**Version:** v11.0
+**Last Updated:** March 22, 2026
+**Version:** v11.1
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -80,6 +80,28 @@ This is where the pattern was first identified. On a single day during the UN Ge
 | Sep 28 | Netanyahu meets American social media influencers at Israeli Consulate NYC, calls Musk a "friend," describes X and TikTok as "weapons" |
 
 The same-day convergence of a document release, a diplomatic speech, and a think-tank publication — with a related influencer meeting 48 hours later — is what first suggested these events might cluster on predictable calendar windows.
+
+### What Happened Before September 26: The Musk–Administration Break (May–September 2025)
+
+The September 26 Epstein release did not happen in isolation. In the months before it, Musk publicly broke with the Trump administration over the "One Big Beautiful Bill," then weaponized the Epstein files against Trump during the feud, and was reconciled just five days before the files named him.
+
+| Date | Event |
+|------|-------|
+| **Jan 20** | Trump inaugurated; Musk appointed Special Government Employee leading DOGE |
+| **Feb 27** | AG Bondi releases "Epstein Files: Phase 1" binders to conservative influencers at White House. Content largely already public; criticized as inadequate |
+| **May 2025** | Bondi and Deputy AG brief Trump that his name appears multiple times in Epstein files. Administration language on full disclosure shifts |
+| **May 8** | House Task Force demands Bondi release full Epstein files; no response before May 16 deadline |
+| **May 22** | House passes "One Big Beautiful Bill" (215–214) — extends Trump tax cuts, increases defense/border spending, projected to add ~$2.5T+ to deficit |
+| **May 27–28** | Musk publicly attacks the bill as undermining DOGE's work; announces resignation from DOGE |
+| **Jun 3** | Musk calls the bill a "disgusting abomination" on X |
+| **Jun 5** | Musk posts on X accusing Trump of being in unreleased Epstein logs; post deleted; stocks drop |
+| **Jul 2025** | DOJ announces no actionable "client list" exists; reverses Bondi's earlier transparency promises |
+| **Sep 21** | Trump and Musk reconcile publicly at Charlie Kirk memorial in Glendale, Arizona |
+| **Sep 26** | House Oversight Democrats release Epstein calendars naming Musk — 5 days after reconciliation |
+
+The sequence is notable: Musk demonstrated willingness to deploy Epstein files against Trump (June 5 deleted post), and within four months, Epstein files were deployed naming Musk. The reconciliation-to-release gap of five days is consistent with this project's documented 7-day median lag.
+
+**Sources**: [USA Today feud timeline](https://www.usatoday.com/story/graphics/2025/07/01/elon-musk-donald-trump-feud-timeline/84430939007/), [ABC News Epstein timeline](https://abcnews.com/Politics/timeline-trump-administration-responses-epstein-files-release-saga/story?id=127529275), [Politico](https://www.politico.com/news/2025/05/28/musk-doge-depart-government-00373963), [CNBC](https://www.cnbc.com/2025/06/03/musk-trump-budget-bill.html), [TIME](https://time.com/7291744/epstein-files-elon-musk-donald-trump-allegation/), [Wikipedia](https://en.wikipedia.org/wiki/Trump%E2%80%93Musk_feud)
 
 ### January 30, 2026: The DOJ Release
 
