@@ -4,9 +4,9 @@
 
 ---
 
-## Active Leverage Nodes (February 2026)
+## Active Leverage Nodes (March 2026)
 
-**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 12 nodes tracked.
+**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 13 nodes tracked.
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
@@ -980,6 +980,42 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
+## Node 13: Elon Musk / SpaceX-xAI Empire Realignment (March 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | Capital architecture consolidation — single-owner multi-domain empire |
+| **SpaceX-xAI merger** | All-stock transaction announced February 2–3, 2026. SpaceX ($1T) + xAI ($250B) = $1.25T combined — largest merger in history. Stated rationale: orbital data centers. Tesla's $2B xAI investment (Series E, January 2026) converted to indirect SpaceX stake via FTC filings (March 11). | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html), [Fortune](https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion/), [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-12/tesla-converts-xai-investment-into-spacex-stake-ahead-of-ipo) |
+| **SpaceX IPO** | Targeting mid-to-late 2026; valuation target $1.5–1.75T; expected to raise $30B+ (would be largest IPO in history). Confidential paperwork may be filed as early as March 2026. Exact date not officially confirmed. | ✅ VERIFIED (valuation/target) — [Fortune](https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion/), [Motley Fool](https://www.fool.com/investing/2025/12/20/spacex-will-ipo-in-2026-how-much-is-spacex-stock-w/); ⚠️ PARTIALLY VERIFIED (exact date: "mid-June" per FT, not officially confirmed) |
+| **Grok Pentagon classified access** | Hegseth announced (January 2026) Grok will operate inside Pentagon network with access to unclassified AND classified information. Intelligence databases feed into Grok. xAI added as late entry to ~$200M Pentagon AI initiative alongside Anthropic, Google, OpenAI. | ✅ VERIFIED — [Built In](https://builtin.com/articles/elon-musk-government-contracts), [NBC News](https://www.nbcnews.com/tech/security/musk-xai-was-added-late-pentagon-grok-defense-department-rcna219488) |
+| **Tesla commercial decline** | Q1 2025 deliveries: 336,681 (-13% YoY). Stock down 45–50% from mid-December 2024 peak. ~15% YTD decline through mid-March 2026. NBER: "Musk partisan effect" = 1–1.26M additional US sales lost (Oct 2022–Apr 2025). JP Morgan: "We struggle to think of anything analogous in automotive history where a brand has lost so much value so quickly." Q1 2026 delivery data expected late April (not yet released). | ✅ VERIFIED — [PBS](https://www.pbs.org/newshour/economy/tesla-sales-tumble-as-musk-backlash-competition-and-aging-lineup-turn-off-buyers), [NBC News](https://www.nbcnews.com/business/business-news/tesla-falling-stock-resale-value-elon-musk-trump-what-to-know-rcna196497), [Inc.](https://www.inc.com/ava-levinson/new-research-says-elon-musks-politics-cost-tesla-billions-in-sales/91257649) |
+| **TeslaTakedown movement** | 250+ cities worldwide; ongoing protests at showrooms; Sen. Mark Kelly sold Tesla publicly (March 14); criminal incidents documented; Trump held South Lawn Tesla event and threatened to label vandals as domestic terrorists | ✅ VERIFIED — [Wikipedia/TeslaTakedown](https://en.wikipedia.org/wiki/Tesla_Takedown), [ActionNetwork](https://actionnetwork.org/event_campaigns/teslatakedown) |
+| **Grok CSAM class action** | Filed March 16, 2026 by three Tennessee high school students (Jane Doe 1, 2, 3). Class action seeking to represent "at least thousands" of minors. Venue: U.S. District Court, Northern District of California, San Jose Division. **Docket: Doe 1 v. X.AI Corp., Case No. 5:26-cv-02246.** Charges: distributing, possessing, producing CSAM with intent to distribute. Prior: CA AG cease and desist (January 2026). | ✅ VERIFIED — [Washington Post](https://www.washingtonpost.com/technology/2026/03/16/teens-sue-musk-xai-grok/), [Fortune](https://fortune.com/2026/03/20/three-tennessee-teenagers-suing-elon-musks-xai-creating-sexually-explicit-images/), [Engadget](https://www.engadget.com/social-media/xai-is-being-sued-by-teens-who-say-grok-created-csam-using-their-photos-200102733.html) |
+| **X Money** | April 2026 early public access (not yet launched as of March 22). P2P transfers, Visa debit card, 6% yield on balances, 40+ US states. Musk confirmed timeline March 10, 2026. Regulatory risk: timing collides with CLARITY Act debate. | ✅ VERIFIED — [CoinDesk](https://www.coindesk.com/markets/2026/03/11/dogecoin-zooms-as-elon-musk-announces-x-money-launch-date-for-april), [CBS News](https://www.cbsnews.com/news/xmoney-elon-musk-online-payments/), [Teslarati](https://www.teslarati.com/elon-musk-x-money-early-public-access-launch/) |
+| **DOGE failure documented** | January 2026 deposition: staffer Nate Cavanaugh admits DOGE failed to lower federal deficit. Government spending INCREASED 6% to $7.558T (Brookings, Dec 2025). Musk departed DOGE May 2025 after Wisconsin electoral loss. DOGE executive order expires July 4, 2026. 4th Circuit (2-1) blocked Musk's deposition (March 4). NEH depositions revealed ChatGPT used to classify grants. | ✅ VERIFIED — [Fortune](https://fortune.com/2026/03/16/doge-employee-deposition-lawsuit-federal-deficit-elon-musk-spending/), [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-04/elon-musk-deposition-blocked-by-appeals-court-in-doge-fight), [New Republic](https://newrepublic.com/post/207872/ex-doge-staffer-admits-failure) |
+| **Macrohard / Digital Optimus** | Joint Tesla-xAI agentic AI project announced March 11, 2026. Grok as "master navigator"; Tesla AI4 chip ($650) + xAI Nvidia cloud. Contradicts Musk's Sep 2024 claim of "no need to license anything from xAI." | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html), [Electrek](https://electrek.co/2026/03/11/musk-confirms-xai-tesla-joint-digital-optimus-project-shareholder-lawsuit/) |
+| **xAI talent exodus** | Only 2 of 12 co-founders remain. Jimmy Ba, Zihang Dai, Guodong Zhang departed (Feb–Mar 2026). Musk admitted (~March 13): xAI "was not built right first time around, so is being rebuilt from the foundations up." | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html), [Electrek](https://electrek.co/2026/03/13/elon-musk-admits-xai-built-wrong-rebuild-tesla-spacex-investment/) |
+| **SpaceX government contracts** | ~$22B government contracts (CEO Shotwell); NSSL: ~$5.92B SpaceX + $5.37B ULS + $2.39B Blue Origin; $38B+ cumulative government support (2003–present). DOGE terminated 10,000+ contracts — none awarded to Musk's companies. | ✅ VERIFIED — [Newsweek](https://www.newsweek.com/elon-musk-inking-multibillion-dollar-pentagon-deal-amid-doge-cutsreport-2055663), [Washington Post](https://www.washingtonpost.com/technology/interactive/2025/elon-musk-business-government-contracts-funding/) |
+| **Consolidated empire span** | [Inference] SpaceX (launch + Starlink + Starshield spy satellites) + xAI (Grok + Pentagon classified) + X (social media + X Money) = single private entity spanning space, intelligence, AI, communications, and finance. Structurally analogous to Oracle/Silver Lake/MGX consortium pattern but concentrated under single owner. |
+| **Cross-references** | `04_CAPITAL_ARCHITECTURE.md` (compute layer — Oracle/Stargate parallel), `06_ATTENTION_ECONOMY.md` (DOGE chainsaw spectacle = Heat Sink), `09_Silicon_Sovereignty/` (orbital data centers above terrestrial regulation), `11_LEVERAGE_THESIS.md` (Musk information leverage hypothesis), `v11.4_Total_Actor_Timeline_Synthesis.md` (Tier 2 → Tier 1 evaluation) |
+| Last updated | March 22, 2026 |
+
+**Tracking Items**:
+| Item | Date to Check |
+|------|--------------|
+| X Money launch | April 2026 |
+| SpaceX IPO | Mid-to-late 2026 |
+| xAI CSAM class action (5:26-cv-02246) | May–June 2026 (class certification) |
+| Tesla Q1 2026 deliveries | Late April 2026 |
+| DOGE EO expiration | July 4, 2026 |
+| 4th Circuit USAID deposition ruling | TBD |
+
+**Sources**:
+- Full analysis: `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md`
+- Web verification performed March 22, 2026: SpaceX IPO ($1.5–1.75T target confirmed, exact date not officially set), Tesla Q1 2026 deliveries (not yet released — expected first week of April), X Money (not yet launched — April early access confirmed), xAI CSAM docket (5:26-cv-02246, N.D. Cal. San Jose Division, filed March 16, 2026).
+
+---
+
 ## Research Gaps
 
 ### Needs More Data
@@ -1006,6 +1042,7 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 | Source | Location |
 |--------|----------|
+| Elon Musk Empire Realignment | `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md` |
 | Cuba Crisis Escalation | `10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md` |
 | April 2026 Convergence Window | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md` |
 | February 26, 2026 Update | `10_Real-Time_Updates_and_Tasks/2026_February/February-26-2026.md` |
@@ -1045,4 +1082,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 21, 2026. Cuban Crisis section expanded: March 14–21 escalation (Morón protests, grid collapse, embassy diesel refusal, Russian tanker confrontation, Skipper/Operation Southern Spear seizure chain connecting all four CRINK nodes). Anatoly Kolodkin ETA updated to ~March 23 based on maritime tracking (previously ~April 4) — ✅ confirmed by Euronews, Bloomberg, CiberCuba, VesselFinder, MarineTraffic. Sea Horse T&T diversion ✅ VERIFIED (Bloomberg, US News, Maritime Professional, gCaptain — March 20); vessel subsequently rerouted to Puerto Cabello, Venezuela (MarineTraffic, March 21); documented as regulatory friction event — March 20 Treasury amendment directly caused one of two inbound vessels to stand down. Sea Horse early March Cuba delivery remains ⚠️ PARTIALLY VERIFIED. Fifth distraction mechanism (U.S.-Russia naval confrontation) added to Node 11 arsenal. Node 11 updated: CLARITY Act legislative status fully documented — Senate Agriculture Committee 12-11 party-line vote (Jan 29, 2026, ✅ verified), Tillis-Alsobrooks stablecoin yield "agreement in principle" + White House (March 20, 2026, ✅ verified), Senate Banking Committee markup targeted April 13–27 (⚠️ targeted), full Senate vote by May (⚠️ target). Node 11 added: April 2026 Convergence Window — pre-event prediction filed before the April 12–20 window opens. Documents predicted convergence of Bondi deposition (April 14, ✅ verified) and CLARITY Act vote (now substantially verified), USD1/WLF/MGX capital architecture context (✅ verified), pre-loaded distraction arsenal, thermostat model prediction with explicit falsification criteria. Source: `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`. Previous: March 16, 2026. Node 10 added: Religious Layer / Eschatological Infrastructure — documents four theological input channels (Paula White, Capitol Ministries, CREC/Wilson, CUFI/Hagee), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. Source: `15_The_Religious_Layer/`. Previous: March 8, 2026. Node 9 updated: deep-dive verification resolved all 8 partially verified claims — 4 upgraded to ✅ VERIFIED, 3 downgraded to ❌ UNABLE TO VERIFY, 1 corrected. Node 9 now contains only verified information. Previous: March 8, 2026 — Node 9 added; Node 5 updated. Previous: March 7, 2026 — Node 8 added. Previous: March 6, 2026 — March 1-6 verified developments. This document should be updated as new developments occur.*
+*Last Updated: March 22, 2026. Node 13 added: Elon Musk / SpaceX-xAI Empire Realignment — tracks SpaceX-xAI $1.25T merger (Feb 3, 2026), SpaceX IPO (mid-to-late 2026, $1.5–1.75T target), Grok Pentagon classified access (Jan 2026), Tesla commercial decline (-13% Q1 2025 YoY; Q1 2026 data expected late April), TeslaTakedown (250+ cities), Grok CSAM class action (Case No. 5:26-cv-02246, N.D. Cal., filed March 16, 2026), X Money (April 2026 early public access, not yet launched), DOGE documented failure (Cavanaugh deposition: deficit not reduced, spending increased 6% to $7.558T), Macrohard/Digital Optimus (March 11, 2026), xAI talent exodus (2/12 co-founders remain). Web verification performed: SpaceX IPO date/valuation confirmed (⚠️ exact date not official), Tesla Q1 2026 deliveries not yet released, X Money confirmed not launched, xAI CSAM docket number retrieved. Source: `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md`. Previous: March 21, 2026.*

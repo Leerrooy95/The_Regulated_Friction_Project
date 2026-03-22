@@ -473,4 +473,53 @@ The energy crisis isn't just an attention event — it's preventing the capital 
 
 Cross-reference: `11_LEVERAGE_THESIS.md`, `09_CURRENT_THREADS.md` (Node 2, Node 3)
 
-*Updated March 7, 2026.*
+---
+
+## March 2026: SpaceX-xAI Consolidated Entity — Single-Owner Multi-Domain Architecture
+
+The SpaceX-xAI merger (announced February 2, confirmed February 3, 2026) created a consolidated private entity spanning five infrastructure domains under a single owner — structurally analogous to the Oracle/Silver Lake/MGX consortium pattern documented above, but with a critical difference: concentration under one individual rather than a consortium.
+
+### Consolidated Entity Architecture
+
+| Domain | Asset | Function | Verification |
+|--------|-------|----------|-------------|
+| **Space infrastructure** | SpaceX (launch), Starlink (internet), Starshield (classified spy satellites) | Physical infrastructure above terrestrial regulatory jurisdiction; NRO contracts | ✅ VERIFIED |
+| **AI / Compute** | xAI (Grok), Project Colossus (Memphis supercomputer cluster) | AI compute; Pentagon classified access announced by Hegseth January 2026 alongside Oracle, Google, OpenAI | ✅ VERIFIED — [Built In](https://builtin.com/articles/elon-musk-government-contracts), [NBC News](https://www.nbcnews.com/tech/security/musk-xai-was-added-late-pentagon-grok-defense-department-rcna219488) |
+| **Social media** | X (formerly Twitter) | ~hundreds of millions of users; primary real-time political information platform | ✅ VERIFIED |
+| **Finance (pending)** | X Money (April 2026 early public access) | P2P transfers, Visa debit card, 6% yield, 40+ US states; not yet launched as of March 22, 2026 | ✅ VERIFIED — [CoinDesk](https://www.coindesk.com/markets/2026/03/11/dogecoin-zooms-as-elon-musk-announces-x-money-launch-date-for-april) |
+| **Agentic AI** | Macrohard / Digital Optimus (joint Tesla-xAI, announced March 11) | Grok as "master navigator" + Tesla AI4 chip; Musk: "capable of emulating entire companies" | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html) |
+
+### Deal Metrics
+
+| Metric | Value | Verification |
+|--------|-------|-------------|
+| Combined merger valuation | $1.25T (largest merger in history) | ✅ VERIFIED — [CNBC](https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html) |
+| IPO target valuation | $1.5–1.75T | ✅ VERIFIED — [Fortune](https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion/) |
+| Cumulative government contracts | $38B+ (2003–present) | ✅ VERIFIED — [Washington Post](https://www.washingtonpost.com/technology/interactive/2025/elon-musk-business-government-contracts-funding/) |
+| DOGE contract exemption | 10,000+ contracts terminated; none awarded to Musk companies | ✅ VERIFIED — [Built In](https://builtin.com/articles/elon-musk-government-contracts) |
+
+### Cross-Reference: Oracle/Stargate Consortium vs. SpaceX-xAI
+
+| Dimension | Oracle/Stargate Consortium | SpaceX-xAI |
+|-----------|---------------------------|------------|
+| Structure | Multi-entity consortium (Oracle, SoftBank, OpenAI, MGX) | Single owner (Musk) |
+| AI compute | Stargate ($500B commitment) | Project Colossus + Grok |
+| Pentagon AI access | Oracle infrastructure for Grok/xAI federal deployment | Grok classified access (Jan 2026) |
+| Data infrastructure | TikTok 15% (200M+ US users) | X (social media) + Starshield (spy satellites) |
+| Finance | — | X Money (pending April 2026) |
+| Space | — | SpaceX launch + Starlink + orbital data centers |
+| Financial stress | Oracle stock -55%, $108B debt, bondholder lawsuit | Tesla stock -45-50%, shareholder lawsuits, brand collapse |
+
+Both patterns represent multi-domain consolidation of data, compute, and algorithm infrastructure — the same Silicon Sovereignty thesis tracked throughout this document. Grok's Pentagon classified integration places it in the same AI infrastructure layer as Oracle, Google, and OpenAI, announced simultaneously by SecDef Hegseth in January 2026.
+
+### [Inference] Orbital Data Centers — Above Terrestrial Regulation
+
+The stated rationale for the SpaceX-xAI merger — orbital data centers — represents a new sovereignty dimension beyond the CHIPS Act domestic focus tracked in `09_Silicon_Sovereignty/`. Moving compute infrastructure into orbit would place it above the regulatory jurisdiction of any single nation. This warrants tracking as an extension of the Silicon Sovereignty thesis: not just domestic supply chain control, but physical regulatory jurisdiction avoidance via space infrastructure.
+
+### [Inference] DOGE Heat Sink Pattern
+
+DOGE's documented failure — Cavanaugh deposition confirming no deficit reduction while spending increased 6% — is consistent with the Heat Sink mechanism documented in `06_ATTENTION_ECONOMY.md`: high-visibility disruption consuming activist energy while core spending (Pentagon, entitlements, debt service) and Musk's own government contracts remained untouched and expanded. SpaceX contracts were explicitly exempted from all DOGE cuts throughout Musk's tenure.
+
+Cross-reference: `09_CURRENT_THREADS.md` (Node 13), `11_LEVERAGE_THESIS.md`, `09_Silicon_Sovereignty/`
+
+*Updated March 22, 2026.*
