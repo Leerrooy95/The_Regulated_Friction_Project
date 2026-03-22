@@ -32,7 +32,7 @@ jobs:
           mkdir -p output
 
           # Copy latest pipeline outputs (current state files)
-          for file in node_status.json extracted_entities.json convergence_report.json daily_intelligence.json live_verification.json fact_check.json rhetoric_reality.json chart_data.json; do
+          for file in node_status.json extracted_entities.json entity_kb_context.json convergence_report.json daily_intelligence.json live_verification.json fact_check.json rhetoric_reality.json chart_data.json; do
             if [ -f "_live_trackers/output/$file" ]; then
               cp "_live_trackers/output/$file" "output/$file"
               echo "✅ Synced $file"
@@ -41,6 +41,15 @@ jobs:
             fi
           done
 
+          # Copy entity graph HTML (Stage 2.5 output)
+          if [ -f "_live_trackers/docs/data/entity_graph.html" ]; then
+            mkdir -p docs/data
+            cp "_live_trackers/docs/data/entity_graph.html" "docs/data/entity_graph.html"
+            echo "✅ Synced entity_graph.html"
+          else
+            echo "⚠️  entity_graph.html not found in Live_Trackers docs/data"
+          fi
+
       - name: Clean up Live_Trackers checkout
         run: rm -rf _live_trackers
 
@@ -48,7 +57,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add output/ docs/data/
 
           if ! git diff --cached --quiet; then
             git commit -m "📡 Sync: Latest tracker data from Live_Trackers ($(date -u '+%Y-%m-%d'))"
