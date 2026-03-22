@@ -284,7 +284,9 @@ The coercion template applied to Anthropic follows the same structure documented
 
 ### [Inference] Interpretation
 
-The Anthropic case shows the cost structure of resistance within the leverage architecture. Entities that refuse compliance face rapid exclusion and replacement. MGX's investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides of the compliance divide. The kill chain integrity failure — political undermining of the AI reasoning layer 24 hours before the largest AI-assisted military operation in history — illustrates a second-order consequence: structural decisions designed to enforce compliance can degrade operational systems in ways that produce civilian casualties, regardless of intent.
+The Anthropic case shows the cost structure of resistance within the leverage architecture. Entities that refuse compliance face rapid exclusion and replacement. MGX's investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides of the compliance divide.
+
+The kill chain integrity failure — political undermining of the AI reasoning layer 24 hours before the largest AI-assisted military operation in history — illustrates a second-order consequence: structural decisions designed to enforce compliance can degrade operational systems in ways that produce civilian casualties, regardless of intent.
 
 ---
 
