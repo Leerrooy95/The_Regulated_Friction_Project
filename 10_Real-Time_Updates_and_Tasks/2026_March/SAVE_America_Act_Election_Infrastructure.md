@@ -105,7 +105,7 @@ The bill contains:
 
 The DHS Secretary position — which would oversee this entire voter data infrastructure — is currently being filled by Markwayne Mullin, who advanced from committee 8-7 on March 19, 2026. During his confirmation hearing, Mullin refused to rule out deploying ICE to polling locations.
 
-27 states have already agreed to use SAVE voluntarily. The SAVE America Act would make it mandatory for all 50.
+26 states have already agreed to use SAVE voluntarily ([Highland County Press](https://highlandcountypress.com/26-states-participate-federal-save-program-ensure-only-us-citizens-are-voting), [Headline USA](https://headlineusa.com/26-states-participate-in-federal-save-program-to-ensure-only-us-citizens-are-voting/)). The SAVE America Act would make it mandatory for all 50.
 
 **Sources**: [Campaign Legal Center](https://campaignlegal.org/update/what-you-need-know-about-save-act), [Issue One](https://issueone.org/articles/explainer-save-save-america-and-mega-acts/), [PBS](https://www.pbs.org/newshour/politics/watch-live-sen-markwayne-mullin-testifies-in-confirmation-hearing-for-dhs-secretary)
 
