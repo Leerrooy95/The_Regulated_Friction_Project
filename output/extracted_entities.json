@@ -1,19 +1,19 @@
 {
   "extraction_timestamp": "2026-03-22T00:00:00Z",
-  "total_entities": 94,
-  "total_relationships": 6,
+  "total_entities": 78,
+  "total_relationships": 0,
   "nodes": {
     "maxwell": {
       "entities": [
         {
           "name": "Ghislaine Maxwell",
           "type": "PERSON",
-          "context": "Individual, incarcerated"
+          "context": "incarcerated serving 20-year sentence"
         },
         {
-          "name": "House Oversight Committee",
-          "type": "ORG",
-          "context": "US Congressional committee"
+          "name": "David Markus",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from maxwell"
         },
         {
           "name": "Maxwell",
@@ -21,7 +21,12 @@
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "DOJ",
+          "name": "Board of Peace",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from maxwell"
+        },
+        {
+          "name": "White House",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
@@ -36,23 +41,38 @@
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "AP",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from maxwell"
-        },
-        {
           "name": "House Oversight",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "FCI Tallahassee",
-          "type": "LOCATION",
+          "name": "AP",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "FPC Bryan",
-          "type": "LOCATION",
+          "name": "DOJ",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from maxwell"
+        },
+        {
+          "name": "Epstein network",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from maxwell"
+        },
+        {
+          "name": "Senate",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from maxwell"
+        },
+        {
+          "name": "Gaza reconstruction",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from maxwell"
+        },
+        {
+          "name": "FPC Bryan/FCI Tallahassee",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
@@ -66,12 +86,7 @@
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "early 2026",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from maxwell"
-        },
-        {
-          "name": "habeas petition",
+          "name": "habeas corpus",
           "type": "LEGAL",
           "context": "Extracted by GLiNER2 from maxwell"
         },
@@ -84,40 +99,44 @@
       "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": [
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: march 22, 2026"
-        }
-      ]
+      "cross_node_connections": []
     },
     "iran": {
       "entities": [
         {
           "name": "Iran",
           "type": "LOCATION",
-          "context": "Country"
+          "context": "ongoing power struggle between IRGC hardliners and pragmatists"
         },
         {
           "name": "IRGC",
           "type": "ORG",
-          "context": "Islamic Revolutionary Guard Corps"
+          "context": "involved in Iran's kinetic and cyber operations"
         },
         {
           "name": "Mojtaba Khamenei",
           "type": "PERSON",
-          "context": "Iranian leader"
+          "context": "contested succession via Assembly of Experts"
         },
         {
           "name": "Strait of Hormuz",
           "type": "LOCATION",
-          "context": "Critical oil shipping chokepoint"
+          "context": "shipping threats persist"
+        },
+        {
+          "name": "Assembly of Experts",
+          "type": "ORG",
+          "context": "involved in Iran's leadership succession"
         },
         {
           "name": "CENTCOM",
           "type": "ORG",
-          "context": "US military command"
+          "context": "involved in operations related to Iran"
+        },
+        {
+          "name": "Khamenei",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from iran"
         },
         {
           "name": "Reuters",
@@ -130,37 +149,25 @@
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "CRINK",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from iran"
-        },
-        {
-          "name": "Iranian",
+          "name": "Hormuz",
           "type": "LOCATION",
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "March 22, 2026",
+          "name": "March 2026",
           "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from iran"
+        },
+        {
+          "name": "Khamenei succession",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from iran"
         }
       ],
-      "relationships": [
-        {
-          "from": "Iran",
-          "to": "IRGC",
-          "type": "administrative",
-          "detail": ""
-        }
-      ],
+      "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
-        {
-          "target_node": "gulf_swf",
-          "connection_type": "regional conflict",
-          "detail": "Operation Epic Fury and Strait of Hormuz risks"
-        },
         {
           "target_node": "maxwell",
           "connection_type": "shared_entity",
@@ -170,21 +177,6 @@
           "target_node": "maxwell",
           "connection_type": "shared_entity",
           "detail": "Shared entity: ap"
-        },
-        {
-          "target_node": "maxwell",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: march 22, 2026"
-        },
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: march 22, 2026"
-        },
-        {
-          "target_node": "israel",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: iran"
         }
       ]
     },
@@ -193,32 +185,32 @@
         {
           "name": "Saudi PIF",
           "type": "ORG",
-          "context": "Saudi Public Investment Fund"
+          "context": "involved in AI/minerals/tourism investments"
         },
         {
           "name": "MGX",
           "type": "ORG",
-          "context": "UAE sovereign technology investment fund"
+          "context": "involved in TikTok JV"
         },
         {
           "name": "Mubadala",
           "type": "ORG",
-          "context": "UAE sovereign wealth fund"
+          "context": "involved in various investments"
         },
         {
           "name": "ADIA",
           "type": "ORG",
-          "context": "Abu Dhabi Investment Authority"
+          "context": "involved in various investments"
         },
         {
           "name": "QIA",
           "type": "ORG",
-          "context": "Qatar Investment Authority"
+          "context": "involved in various investments"
         },
         {
           "name": "Affinity Partners",
           "type": "ORG",
-          "context": "Jared Kushner's investment firm"
+          "context": "involved in $2B PIF drawdown"
         },
         {
           "name": "PIF",
@@ -236,7 +228,7 @@
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "SEC 13F",
+          "name": "SEC 13Fs",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
@@ -246,22 +238,22 @@
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "Iran",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Strait of Hormuz",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
           "name": "Gulf SWF",
           "type": "LOCATION",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "capital repatriation",
+          "name": "Iran",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "Strait",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "$2B PIF drawdown",
           "type": "FINANCIAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
@@ -276,251 +268,68 @@
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "TikTok JV",
-          "type": "FINANCIAL",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Stargate equity",
-          "type": "FINANCIAL",
+          "name": "wartime economic measures",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
           "name": "IPOs",
           "type": "FINANCIAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Operation Epic Fury",
-          "type": "LEGAL",
-          "context": "Extracted by GLiNER2 from gulf_swf"
         }
       ],
-      "relationships": [
-        {
-          "from": "Saudi PIF",
-          "to": "Affinity Partners",
-          "type": "funding",
-          "detail": "$2B funding"
-        }
-      ],
+      "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
       "cross_node_connections": [
         {
           "target_node": "iran",
-          "connection_type": "regional conflict",
-          "detail": "Operation Epic Fury and Strait of Hormuz risks"
-        },
-        {
-          "target_node": "israel",
           "connection_type": "shared_entity",
           "detail": "Shared entity: iran"
-        },
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: oracle"
-        },
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: stargate"
         }
       ]
-    },
-    "israel": {
-      "entities": [
-        {
-          "name": "Israel",
-          "type": "LOCATION",
-          "context": "Country"
-        },
-        {
-          "name": "IDF",
-          "type": "ORG",
-          "context": "Israeli Defense Forces"
-        },
-        {
-          "name": "Unit 8200",
-          "type": "ORG",
-          "context": "Israeli military intelligence unit"
-        },
-        {
-          "name": "Hezbollah",
-          "type": "ORG",
-          "context": "Lebanese militant group"
-        },
-        {
-          "name": "NSO Group",
-          "type": "ORG",
-          "context": "Israeli cybersecurity firm"
-        },
-        {
-          "name": "Board of Peace",
-          "type": "ORG",
-          "context": "Trump-created international organization"
-        },
-        {
-          "name": "Hezbollah-Lebanon front",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "US",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "Iran",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "Cairo",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "Gulf",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "March 13-19, 2026",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "last week",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "disarmament proposal",
-          "type": "LEGAL",
-          "context": "Extracted by GLiNER2 from israel"
-        }
-      ],
-      "relationships": [
-        {
-          "from": "Israel",
-          "to": "Unit 8200",
-          "type": "administrative",
-          "detail": ""
-        }
-      ],
-      "temporal_markers": [],
-      "event_classification": "NEUTRAL",
-      "cross_node_connections": [
-        {
-          "target_node": "iran",
-          "connection_type": "regional conflict",
-          "detail": "Operation Epic Fury airstrikes"
-        },
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: board of peace"
-        }
-      ]
-    },
-    "oracle_ellison": {
-      "entities": [
-        {
-          "name": "Oracle",
-          "type": "ORG",
-          "context": "Enterprise software and cloud infrastructure company"
-        },
-        {
-          "name": "Larry Ellison",
-          "type": "PERSON",
-          "context": "Oracle CEO"
-        },
-        {
-          "name": "Ellison",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Stargate",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Board of Peace",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Abilene data center construction",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Gaza",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Abilene",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "March 22, 2026",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "debt",
-          "type": "FINANCIAL",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "WBD guarantee",
-          "type": "FINANCIAL",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        },
-        {
-          "name": "Ohio Carpenters Pension lawsuit",
-          "type": "LEGAL",
-          "context": "Extracted by GLiNER2 from oracle_ellison"
-        }
-      ],
-      "relationships": [
-        {
-          "from": "Oracle",
-          "to": "Stargate",
-          "type": "partnership",
-          "detail": ""
-        }
-      ],
-      "temporal_markers": [],
-      "event_classification": "NEUTRAL",
-      "cross_node_connections": []
     },
     "epstein_files": {
       "entities": [
         {
           "name": "DOJ",
           "type": "ORG",
-          "context": "US Department of Justice"
+          "context": "involved in Epstein file releases"
         },
         {
           "name": "Pam Bondi",
           "type": "PERSON",
-          "context": "US Attorney General"
+          "context": "involved in document production status"
         },
         {
-          "name": "House Oversight",
+          "name": "Thomas Massie",
+          "type": "PERSON",
+          "context": "involved in House Oversight Committee"
+        },
+        {
+          "name": "Ro Khanna",
+          "type": "PERSON",
+          "context": "involved in House Oversight Committee"
+        },
+        {
+          "name": "House Oversight Committee",
           "type": "ORG",
-          "context": "US Congressional committee"
+          "context": "involved in Epstein file releases"
         },
         {
-          "name": "FBI 302",
+          "name": "FBI 302 summaries",
           "type": "LEGAL",
-          "context": "FBI interview summary"
+          "context": "part of released Epstein files"
+        },
+        {
+          "name": "Bill Clinton",
+          "type": "PERSON",
+          "context": "deposition materials part of released Epstein files"
+        },
+        {
+          "name": "Clinton",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
           "name": "AG Pam Bondi",
@@ -528,17 +337,7 @@
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "DOJ library",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from epstein_files"
-        },
-        {
-          "name": "House Oversight Committee",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from epstein_files"
-        },
-        {
-          "name": "DOJ Epstein library",
+          "name": "FBI",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
@@ -548,69 +347,62 @@
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "Epstein",
-          "type": "FINANCIAL",
+          "name": "March 22, 2026",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from epstein_files"
+        },
+        {
+          "name": "Transparency Act",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from epstein_files"
         }
       ],
-      "relationships": [
-        {
-          "from": "DOJ",
-          "to": "House Oversight",
-          "type": "interaction",
-          "detail": "subpoena response"
-        }
-      ],
-      "temporal_markers": [
-        {
-          "date": "2026-03-07",
-          "event": "DOJ Epstein library update",
-          "significance": ""
-        }
-      ],
+      "relationships": [],
+      "temporal_markers": [],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "maxwell",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: doj"
+        },
+        {
+          "target_node": "maxwell",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: march 22, 2026"
+        }
+      ]
     },
     "arkansas_datacenter": {
       "entities": [
         {
-          "name": "Arkansas Supreme Court",
-          "type": "ORG",
-          "context": "State court"
-        },
-        {
-          "name": "Governor Huckabee Sanders",
+          "name": "Tom Cotton",
           "type": "PERSON",
-          "context": "State governor"
-        },
-        {
-          "name": "Entergy",
-          "type": "ORG",
-          "context": "Energy company"
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
           "name": "AVAIO",
           "type": "ORG",
-          "context": "Datacenter company"
-        },
-        {
-          "name": "Arkansas",
-          "type": "LOCATION",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "compounding phase",
-          "type": "FINANCIAL",
+          "name": "PSC",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "7 days",
-          "type": "TEMPORAL",
+          "name": "Entergy",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "Acts 373/548",
-          "type": "LEGAL",
+          "name": "Jefferson Power",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Good Day Farm",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
@@ -619,32 +411,66 @@
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "datacenter commitments",
+          "name": "Arkansas",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "capital deployment",
           "type": "FINANCIAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "January 2026",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "March 22, 2026",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Preemption",
+          "type": "LEGAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "tax exemptions",
+          "type": "LEGAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "DATA Act",
+          "type": "LEGAL",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Acts 373/548",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
           "name": "Good Day Farm appeals",
           "type": "LEGAL",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
-          "name": "Good Day Farm ruling",
-          "type": "LEGAL",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
         }
       ],
-      "relationships": [
-        {
-          "from": "Arkansas",
-          "to": "Entergy",
-          "type": "regulatory",
-          "detail": ""
-        }
-      ],
+      "relationships": [],
       "temporal_markers": [],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "epstein_files",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: march 22, 2026"
+        },
+        {
+          "target_node": "maxwell",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: march 22, 2026"
+        }
+      ]
     }
   },
   "convergence_signals": [
@@ -666,9 +492,17 @@
     },
     {
       "nodes_involved": [
-        "iran",
-        "maxwell",
-        "oracle_ellison"
+        "epstein_files",
+        "maxwell"
+      ],
+      "mechanism": "shared entity: doj",
+      "confidence": "MEDIUM"
+    },
+    {
+      "nodes_involved": [
+        "arkansas_datacenter",
+        "epstein_files",
+        "maxwell"
       ],
       "mechanism": "shared entity: march 22, 2026",
       "confidence": "MEDIUM"
@@ -676,42 +510,9 @@
     {
       "nodes_involved": [
         "gulf_swf",
-        "iran",
-        "israel"
-      ],
-      "mechanism": "shared entity: iran",
-      "confidence": "MEDIUM"
-    },
-    {
-      "nodes_involved": [
-        "gulf_swf",
         "iran"
       ],
-      "mechanism": "shared entity: strait of hormuz",
-      "confidence": "MEDIUM"
-    },
-    {
-      "nodes_involved": [
-        "gulf_swf",
-        "oracle_ellison"
-      ],
-      "mechanism": "shared entity: oracle",
-      "confidence": "MEDIUM"
-    },
-    {
-      "nodes_involved": [
-        "gulf_swf",
-        "oracle_ellison"
-      ],
-      "mechanism": "shared entity: stargate",
-      "confidence": "MEDIUM"
-    },
-    {
-      "nodes_involved": [
-        "israel",
-        "oracle_ellison"
-      ],
-      "mechanism": "shared entity: board of peace",
+      "mechanism": "shared entity: iran",
       "confidence": "MEDIUM"
     }
   ],

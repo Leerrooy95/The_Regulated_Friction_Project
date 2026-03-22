@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T08:28:35Z",
+  "generated_at": "2026-03-22T12:59:42Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 10,
   "status_summary": {
@@ -10,7 +10,7 @@
       "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "As of March 22, 2026, no public decision on a Ghislaine Maxwell clemency petition or pardon has been announced by the Trump DOJ or Attorney General Pam Bondi. The search results provided do not contain information about Maxwell clemency proceedings, DOJ decisions, or related petitions in 2026. Monitoring required for any future developments.",
+      "description": "No information found on any clemency petition, pardon request, or decision by the Trump DOJ regarding Ghislaine Maxwell as of March 22, 2026. Search results contain no relevant updates on this specific prediction. The status remains under monitoring for developments.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -19,7 +19,7 @@
       "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "Operation Epic Fury remains ongoing as of March 2026, with US-Israel airstrikes continuing against Iranian nuclear sites, missile programs, and leadership following the death of Supreme Leader Ali Khamenei. No confirmed ceasefire negotiations between the US and Iran have been reported, nor have there been indications of a major new escalation beyond the current operation. The situation in the Strait of Hormuz shows no recent shipping disruptions or mine-laying tied to escalation.",
+      "description": "No recent reports of ceasefire negotiations or major escalations involving Iran, the US, or related conflicts as of March 22, 2026. Search results focus on unrelated domestic US topics such as federal workforce reclassifications under Schedule Policy/Career. The situation remains unresolved with no new developments on this prediction.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -28,7 +28,7 @@
       "prediction": "Strait of Hormuz full shipping restoration",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No relevant information found on the current status of Strait of Hormuz oil shipping, tanker disruptions, or mine clearing operations as of March 22, 2026. Search results contain no updates related to this prediction. Monitoring for developments.",
+      "description": "No search results provide any information on the current status of Strait of Hormuz oil shipping, tanker disruptions, or mine-clearing operations as of March 2026. The prediction remains unresolved with no evidence of full shipping restoration or ongoing disruptions reported. Monitoring continues for relevant developments.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -37,7 +37,7 @@
       "prediction": "Oracle Stargate financial restructuring or default",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "No reports of Oracle financial restructuring, default, debt issues, bond problems, or lawsuits related to Stargate as of March 22, 2026. Search results focus solely on unrelated federal employment reclassifications under Schedule Policy/Career and union lawsuits. The prediction remains unresolved with no relevant developments.",
+      "description": "No reports of Oracle financial restructuring, debt default, bond issues, or lawsuits related to Stargate have emerged as of March 22, 2026. Search results focus exclusively on federal workforce reclassifications under Schedule Policy/Career, with no relevant Oracle or Stargate content. The prediction remains unresolved and is under monitoring.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -46,7 +46,7 @@
       "prediction": "New batch of Epstein documents released",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No new batch of Epstein documents has been released by the DOJ as of March 22, 2026. The DOJ Epstein library remains a live repository with nearly 3.5 million pages already released, including FBI 302 interview summaries, per the Epstein Files Transparency Act. Search results contain no updates on recent releases.",
+      "description": "No new batch of Epstein documents has been released by the DOJ as of March 22, 2026. The DOJ Epstein library remains a live repository with nearly 3.5 million pages already released under the Epstein Files Transparency Act, including FBI 302 interview summaries. Search results contain no updates on recent or pending document batches.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -55,7 +55,7 @@
       "prediction": "Epstein associate indicted or named in new documents",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "No new developments in 2026 indicate an Epstein associate has been indicted or named in fresh documents or FBI 302 releases. The Epstein Files Transparency Act has led to nearly 3.5 million pages released by March 2026 via the DOJ Epstein library, but search results yield no relevant updates on this prediction. Ongoing monitoring of the live repository for new batches continues.",
+      "description": "As of March 2026, the Epstein Files Transparency Act has resulted in the release of nearly 3.5 million pages of documents, including FBI 302 interview summaries, through a live DOJ repository. While the search results confirm ongoing document releases and reference the legislative mandate for transparency, no specific indictments or new naming of Epstein associates in 2026 documents are documented in the available search results. The prediction remains under active monitoring as the document release process continues.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -64,16 +64,18 @@
       "prediction": "Gulf SWF emergency capital reallocation from US markets",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "No evidence found of Gulf sovereign wealth funds, such as Saudi PIF or UAE's MGX, engaging in emergency capital reallocation or withdrawal from US markets as of March 2026. Search results focus exclusively on US federal workforce changes under Schedule Policy/Career, with no relevant mentions of Gulf SWF activities. Current state shows ongoing investments by these funds in US tech, AI, and VC firms without reported disruptions.",
+      "description": "No evidence found of Gulf sovereign wealth funds, such as Saudi PIF or UAE's MGX, engaging in emergency capital reallocation or withdrawal from US markets as of March 2026. Search results discuss Gulf donor states questioning Trump's Board of Peace and Gaza reconstruction funding pledges, but do not indicate any shifts away from US investments.[1]",
       "source": "",
-      "citations": [],
+      "citations": [
+        "https://carnegieendowment.org/russia-eurasia/research/2026/03/the-board-of-peace-and-funding-for-gaza-reconstruction-on-whose-account"
+      ],
       "date_checked": "2026-03-22"
     },
     {
       "prediction": "TikTok USDS JV lawsuit outcome or Congressional review action",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "No search results report any outcome, resolution, or Congressional review action on the TikTok USDS JV lawsuit as of March 22, 2026. The deal was finalized on January 22, 2026, with MGX holding ~15% stake, but no updates on litigation or oversight from Public Integrity Project or ByteDance algorithm compliance appear in current sources. Status remains pending with ongoing monitoring required.",
+      "description": "No information found on any lawsuit outcome, Congressional review, or action related to the TikTok USDS JV, Public Integrity Project oversight, or ByteDance algorithm compliance as of March 22, 2026. Search results focus exclusively on federal workforce reclassifications under Schedule Policy/Career and unrelated union lawsuits. The prediction remains unresolved pending any developments.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"
@@ -82,12 +84,12 @@
       "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "Multiple lawsuits challenging Schedule Policy/Career were filed as of early March 2026. On March 4, 2026, AFGE, AFSCME, AFL-CIO, PEER, and Democracy Forward filed a Second Amended Complaint in the PEER v. Trump case (D. Md.) expanding the challenge to target the entire Schedule Policy/Career framework, including the underlying executive order, OPM's final rule, and the broader reclassification effort. The rule took effect March 8, 2026. No court rulings on the merits have been reported as of March 22, 2026.",
+      "description": "Schedule Policy/Career took effect March 8, 2026, following OPM's final rule publication on February 5-6, 2026, with unions including AFGE, AFSCME, AFL-CIO, PEER, and Democracy Forward filing a second amended complaint on March 4, 2026, in PEER v. Trump (D. Md.). No court injunction or final ruling on the challenge has been reported as of March 22, 2026. Reclassifications are expected to begin imminently amid ongoing litigation.",
       "source": "https://www.afge.org/article/summary-of-afge-lawsuits-against-trump--how-litigation-works-2/",
       "citations": [
         "https://www.afge.org/article/summary-of-afge-lawsuits-against-trump--how-litigation-works-2/",
         "https://wtop.com/government/2026/03/how-the-schedule-policy-career-plan-could-reshape-federal-agencies/",
-        "https://stevenrothberg806399.substack.com/p/pros-and-cons-of-working-for-the-federal-government-under-the-trump-administration"
+        "https://workerslegaldefense.org/news"
       ],
       "date_checked": "2026-03-22"
     },
@@ -95,7 +97,7 @@
       "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "As of March 22, 2026, no search results confirm Mojtaba Khamenei's appointment as Supreme Leader. However, the search results reference Operation Epic Fury, a US-Israel joint military operation that killed Supreme Leader Ali Khamenei, creating a succession vacancy. The Iranian succession process through the Assembly of Experts would determine the next Supreme Leader, but current confirmation status remains unverified in available sources.",
+      "description": "No search results indicate that Mojtaba Khamenei has been confirmed as Supreme Leader of Iran by the Assembly of Experts or any other body as of March 22, 2026. The prediction remains unresolved within the 2026 timeframe. Current status is monitoring for relevant developments.",
       "source": "",
       "citations": [],
       "date_checked": "2026-03-22"

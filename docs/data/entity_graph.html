@@ -1,0 +1,339 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #0E1117;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+    <div style="position:fixed;top:10px;left:10px;background:rgba(14,17,23,0.9);
+         border:1px solid #2D3139;border-radius:8px;padding:12px 16px;z-index:1000;
+         font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+         color:#FAFAFA;font-size:12px;max-width:220px;">
+      <div style="font-weight:700;font-size:14px;margin-bottom:8px;color:#FF4B4B;">
+        🔗 Entity Graph
+      </div>
+      <div style="margin-bottom:4px"><span style="color:#FF4B4B;">●</span> Leverage Node</div>
+      <div style="margin-bottom:4px"><span style="color:#3B82F6;">●</span> Person</div>
+      <div style="margin-bottom:4px"><span style="color:#10B981;">●</span> Organization</div>
+      <div style="margin-bottom:4px"><span style="color:#F59E0B;">●</span> Location</div>
+      <div style="margin-bottom:4px"><span style="color:#8B5CF6;">●</span> Financial</div>
+      <div style="margin-bottom:4px"><span style="color:#F97316;">●</span> Legal</div>
+      <div style="margin-top:8px;color:#6B7280;font-size:10px;">
+        Drag nodes · Scroll to zoom · Hover for details
+      </div>
+    </div>
+    
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "#FAFAFA"}, "group": "leverage_node", "id": "maxwell", "label": "Maxwell", "node_type": "leverage_node", "shape": "dot", "size": 75, "title": "Leverage Node: Maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "PERSON", "id": "Ghislaine Maxwell", "label": "Ghislaine Maxwell", "node_type": "PERSON", "shape": "dot", "size": 15, "title": "Ghislaine Maxwell\nType: PERSON\nincarcerated serving 20-year sentence"}, {"font": {"color": "#FAFAFA"}, "group": "PERSON", "id": "David Markus", "label": "David Markus", "node_type": "PERSON", "shape": "dot", "size": 15, "title": "David Markus\nType: PERSON\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "PERSON", "id": "Maxwell", "label": "Maxwell", "node_type": "PERSON", "shape": "dot", "size": 15, "title": "Maxwell\nType: PERSON\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Board of Peace", "label": "Board of Peace", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Board of Peace\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "White House", "label": "White House", "node_type": "ORG", "shape": "dot", "size": 15, "title": "White House\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Reuters", "label": "Reuters", "node_type": "ORG", "shape": "dot", "size": 20, "title": "Reuters\nType: ORG\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "BBC", "label": "BBC", "node_type": "ORG", "shape": "dot", "size": 15, "title": "BBC\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "House Oversight", "label": "House Oversight", "node_type": "ORG", "shape": "dot", "size": 15, "title": "House Oversight\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "AP", "label": "AP", "node_type": "ORG", "shape": "dot", "size": 20, "title": "AP\nType: ORG\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "DOJ", "label": "DOJ", "node_type": "ORG", "shape": "dot", "size": 20, "title": "DOJ\nType: ORG\ninvolved in Epstein file releases"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Epstein network", "label": "Epstein network", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Epstein network\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Senate", "label": "Senate", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Senate\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Gaza reconstruction", "label": "Gaza reconstruction", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Gaza reconstruction\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "FPC Bryan/FCI Tallahassee", "label": "FPC Bryan/FCI Tallahassee", "node_type": "ORG", "shape": "dot", "size": 15, "title": "FPC Bryan/FCI Tallahassee\nType: ORG\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "TEMPORAL", "id": "March 22, 2026", "label": "March 22, 2026", "node_type": "TEMPORAL", "shape": "dot", "size": 25, "title": "March 22, 2026\nType: TEMPORAL\nExtracted by GLiNER2 from arkansas_datacenter"}, {"font": {"color": "#FAFAFA"}, "group": "TEMPORAL", "id": "February 2026", "label": "February 2026", "node_type": "TEMPORAL", "shape": "dot", "size": 15, "title": "February 2026\nType: TEMPORAL\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "LEGAL", "id": "habeas corpus", "label": "habeas corpus", "node_type": "LEGAL", "shape": "dot", "size": 15, "title": "habeas corpus\nType: LEGAL\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "LEGAL", "id": "5th Amendment", "label": "5th Amendment", "node_type": "LEGAL", "shape": "dot", "size": 15, "title": "5th Amendment\nType: LEGAL\nExtracted by GLiNER2 from maxwell"}, {"font": {"color": "#FAFAFA"}, "group": "leverage_node", "id": "iran", "label": "Iran", "node_type": "leverage_node", "shape": "dot", "size": 54, "title": "Leverage Node: Iran"}, {"font": {"color": "#FAFAFA"}, "group": "leverage_node", "id": "epstein_files", "label": "Epstein Files", "node_type": "leverage_node", "shape": "dot", "size": 57, "title": "Leverage Node: Epstein Files"}, {"font": {"color": "#FAFAFA"}, "group": "leverage_node", "id": "arkansas_datacenter", "label": "Arkansas Datacenter", "node_type": "leverage_node", "shape": "dot", "size": 66, "title": "Leverage Node: Arkansas Datacenter"}, {"font": {"color": "#FAFAFA"}, "group": "LOCATION", "id": "Iran", "label": "Iran", "node_type": "LOCATION", "shape": "dot", "size": 20, "title": "Iran\nType: LOCATION\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "IRGC", "label": "IRGC", "node_type": "ORG", "shape": "dot", "size": 15, "title": "IRGC\nType: ORG\ninvolved in Iran\u0027s kinetic and cyber operations"}, {"font": {"color": "#FAFAFA"}, "group": "PERSON", "id": "Mojtaba Khamenei", "label": "Mojtaba Khamenei", "node_type": "PERSON", "shape": "dot", "size": 15, "title": "Mojtaba Khamenei\nType: PERSON\ncontested succession via Assembly of Experts"}, {"font": {"color": "#FAFAFA"}, "group": "LOCATION", "id": "Strait of Hormuz", "label": "Strait of Hormuz", "node_type": "LOCATION", "shape": "dot", "size": 15, "title": "Strait of Hormuz\nType: LOCATION\nshipping threats persist"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Assembly of Experts", "label": "Assembly of Experts", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Assembly of Experts\nType: ORG\ninvolved in Iran\u0027s leadership succession"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "CENTCOM", "label": "CENTCOM", "node_type": "ORG", "shape": "dot", "size": 15, "title": "CENTCOM\nType: ORG\ninvolved in operations related to Iran"}, {"font": {"color": "#FAFAFA"}, "group": "PERSON", "id": "Khamenei", "label": "Khamenei", "node_type": "PERSON", "shape": "dot", "size": 15, "title": "Khamenei\nType: PERSON\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "LOCATION", "id": "Hormuz", "label": "Hormuz", "node_type": "LOCATION", "shape": "dot", "size": 15, "title": "Hormuz\nType: LOCATION\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "TEMPORAL", "id": "March 2026", "label": "March 2026", "node_type": "TEMPORAL", "shape": "dot", "size": 15, "title": "March 2026\nType: TEMPORAL\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "LEGAL", "id": "Khamenei succession", "label": "Khamenei succession", "node_type": "LEGAL", "shape": "dot", "size": 15, "title": "Khamenei succession\nType: LEGAL\nExtracted by GLiNER2 from iran"}, {"font": {"color": "#FAFAFA"}, "group": "leverage_node", "id": "gulf_swf", "label": "Gulf Swf", "node_type": "leverage_node", "shape": "dot", "size": 72, "title": "Leverage Node: Gulf Swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Saudi PIF", "label": "Saudi PIF", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Saudi PIF\nType: ORG\ninvolved in AI/minerals/tourism investments"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "MGX", "label": "MGX", "node_type": "ORG", "shape": "dot", "size": 15, "title": "MGX\nType: ORG\ninvolved in TikTok JV"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Mubadala", "label": "Mubadala", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Mubadala\nType: ORG\ninvolved in various investments"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "ADIA", "label": "ADIA", "node_type": "ORG", "shape": "dot", "size": 15, "title": "ADIA\nType: ORG\ninvolved in various investments"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "QIA", "label": "QIA", "node_type": "ORG", "shape": "dot", "size": 15, "title": "QIA\nType: ORG\ninvolved in various investments"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Affinity Partners", "label": "Affinity Partners", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Affinity Partners\nType: ORG\ninvolved in $2B PIF drawdown"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "PIF", "label": "PIF", "node_type": "ORG", "shape": "dot", "size": 15, "title": "PIF\nType: ORG\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "OPEC", "label": "OPEC", "node_type": "ORG", "shape": "dot", "size": 15, "title": "OPEC\nType: ORG\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Oracle", "label": "Oracle", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Oracle\nType: ORG\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "SEC 13Fs", "label": "SEC 13Fs", "node_type": "ORG", "shape": "dot", "size": 15, "title": "SEC 13Fs\nType: ORG\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "ORG", "id": "Stargate", "label": "Stargate", "node_type": "ORG", "shape": "dot", "size": 15, "title": "Stargate\nType: ORG\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "LOCATION", "id": "Gulf SWF", "label": "Gulf SWF", "node_type": "LOCATION", "shape": "dot", "size": 15, "title": "Gulf SWF\nType: LOCATION\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "LOCATION", "id": "Strait", "label": "Strait", "node_type": "LOCATION", "shape": "dot", "size": 15, "title": "Strait\nType: LOCATION\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "FINANCIAL", "id": "$2B PIF drawdown", "label": "$2B PIF drawdown", "node_type": "FINANCIAL", "shape": "dot", "size": 15, "title": "$2B PIF drawdown\nType: FINANCIAL\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "TEMPORAL", "id": "2026-2030", "label": "2026-2030", "node_type": "TEMPORAL", "shape": "dot", "size": 15, "title": "2026-2030\nType: TEMPORAL\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "TEMPORAL", "id": "March 15", "label": "March 15", "node_type": "TEMPORAL", "shape": "dot", "size": 15, "title": "March 15\nType: TEMPORAL\nExtracted by GLiNER2 from gulf_swf"}, {"font": {"color": "#FAFAFA"}, "group": "LEGAL", "id": "wartime economic measures", "label": "wartime economic measures", "node_type": "LEGAL", "shape": "dot", "size": 15, "title": "wartime economic measures\nType: LEGAL\nExtracted by GLiNER2 from gulf_swf"}]);
+                  edges = new vis.DataSet([{"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Ghislaine Maxwell", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "David Markus", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Maxwell", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Board of Peace", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "White House", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Reuters", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "BBC", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "House Oversight", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "AP", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "DOJ", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Epstein network", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Senate", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "Gaza reconstruction", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "FPC Bryan/FCI Tallahassee", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "March 22, 2026", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "February 2026", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "habeas corpus", "width": 1}, {"color": "#2D3139", "from": "maxwell", "title": "extracted_from", "to": "5th Amendment", "width": 1}, {"color": "#F59E0B", "dashes": true, "from": "maxwell", "label": "shared_entity", "title": "Convergence: shared entity: ap (MEDIUM)", "to": "iran", "width": 1}, {"color": "#F59E0B", "dashes": true, "from": "maxwell", "label": "shared_entity", "title": "Convergence: shared entity: march 22, 2026 (MEDIUM)", "to": "epstein_files", "width": 1}, {"color": "#F59E0B", "dashes": true, "from": "maxwell", "label": "shared_entity", "title": "Convergence: shared entity: march 22, 2026 (MEDIUM)", "to": "arkansas_datacenter", "width": 1}, {"color": "#2D3139", "from": "Reuters", "title": "extracted_from", "to": "iran", "width": 1}, {"color": "#2D3139", "from": "AP", "title": "extracted_from", "to": "iran", "width": 1}, {"color": "#2D3139", "from": "DOJ", "title": "extracted_from", "to": "epstein_files", "width": 1}, {"color": "#2D3139", "from": "March 22, 2026", "title": "extracted_from", "to": "epstein_files", "width": 1}, {"color": "#2D3139", "from": "March 22, 2026", "title": "extracted_from", "to": "arkansas_datacenter", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Iran", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "IRGC", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Mojtaba Khamenei", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Strait of Hormuz", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Assembly of Experts", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "CENTCOM", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Khamenei", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Hormuz", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "March 2026", "width": 1}, {"color": "#2D3139", "from": "iran", "title": "extracted_from", "to": "Khamenei succession", "width": 1}, {"color": "#F59E0B", "dashes": true, "from": "iran", "label": "shared_entity", "title": "Convergence: shared entity: iran (MEDIUM)", "to": "gulf_swf", "width": 1}, {"color": "#2D3139", "from": "Iran", "title": "extracted_from", "to": "gulf_swf", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Saudi PIF", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "MGX", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Mubadala", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "ADIA", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "QIA", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Affinity Partners", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "PIF", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "OPEC", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Oracle", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "SEC 13Fs", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Stargate", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Gulf SWF", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "Strait", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "$2B PIF drawdown", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "2026-2030", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "March 15", "width": 1}, {"color": "#2D3139", "from": "gulf_swf", "title": "extracted_from", "to": "wartime economic measures", "width": 1}, {"color": "#F59E0B", "dashes": true, "from": "epstein_files", "label": "shared_entity", "title": "Convergence: shared entity: march 22, 2026 (MEDIUM)", "to": "arkansas_datacenter", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -80, "centralGravity": 0.01, "springLength": 150, "springConstant": 0.03, "damping": 0.5, "avoidOverlap": 0.5}, "minVelocity": 0.75, "solver": "forceAtlas2Based", "stabilization": {"enabled": true, "iterations": 200}}, "edges": {"smooth": {"type": "continuous", "forceDirection": "none"}, "font": {"size": 10, "color": "#6B7280", "strokeWidth": 0, "align": "middle"}}, "interaction": {"hover": true, "tooltipDelay": 200, "navigationButtons": true, "keyboard": true, "zoomView": true, "dragView": true}, "nodes": {"borderWidth": 1, "borderWidthSelected": 3, "font": {"size": 12, "color": "#FAFAFA"}, "shadow": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

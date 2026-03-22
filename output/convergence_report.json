@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-03-22T08:26:09.830523+00:00",
-  "total_runs_analyzed": 39,
+  "analysis_timestamp": "2026-03-22T12:57:34.810237+00:00",
+  "total_runs_analyzed": 40,
   "window_days": 7,
   "convergence_events": [
     {
@@ -482,12 +482,12 @@
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 34,
+      "total_appearances": 35,
       "active_count": 11,
       "critical_count": 4,
       "classifications": {
         "COMPLIANCE": 10,
-        "NEUTRAL": 21,
+        "NEUTRAL": 22,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
         "FRICTION": 1
@@ -504,31 +504,31 @@
       }
     },
     "epstein_files": {
-      "total_appearances": 33,
+      "total_appearances": 34,
       "active_count": 10,
       "critical_count": 5,
       "classifications": {
         "COMPLIANCE": 4,
         "FRICTION": 6,
-        "NEUTRAL": 23
+        "NEUTRAL": 24
       }
     },
     "maxwell": {
-      "total_appearances": 32,
+      "total_appearances": 33,
       "active_count": 8,
       "critical_count": 3,
       "classifications": {
         "FRICTION": 8,
-        "NEUTRAL": 24
+        "NEUTRAL": 25
       }
     },
     "iran": {
-      "total_appearances": 32,
+      "total_appearances": 33,
       "active_count": 8,
       "critical_count": 7,
       "classifications": {
         "ESCALATION": 8,
-        "NEUTRAL": 24
+        "NEUTRAL": 25
       }
     },
     "israel": {
@@ -544,12 +544,12 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 24,
+      "total_appearances": 25,
       "active_count": 2,
       "critical_count": 0,
       "classifications": {
         "COMPLIANCE": 2,
-        "NEUTRAL": 22
+        "NEUTRAL": 23
       }
     }
   },

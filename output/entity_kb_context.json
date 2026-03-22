@@ -1,0 +1,906 @@
+{
+  "generated_at": "2026-03-22T12:57:34.737581+00:00",
+  "source_files": {
+    "entities": "output/extracted_entities.json",
+    "convergence": "output/convergence_report.json"
+  },
+  "entity_summary": {
+    "extraction_timestamp": "2026-03-22T00:00:00Z",
+    "total_entities": 78,
+    "total_relationships": 0,
+    "nodes": {
+      "maxwell": {
+        "entity_count": 18,
+        "relationship_count": 0,
+        "cross_node_count": 0,
+        "event_classification": "NEUTRAL",
+        "entities": [
+          {
+            "name": "Ghislaine Maxwell",
+            "type": "PERSON",
+            "context": "incarcerated serving 20-year sentence"
+          },
+          {
+            "name": "David Markus",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Maxwell",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Board of Peace",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "White House",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Reuters",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "BBC",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "House Oversight",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "AP",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "DOJ",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Epstein network",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Senate",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Gaza reconstruction",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "FPC Bryan/FCI Tallahassee",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "March 22, 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "February 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "habeas corpus",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "5th Amendment",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          }
+        ],
+        "relationships": [],
+        "cross_node_connections": []
+      },
+      "iran": {
+        "entity_count": 12,
+        "relationship_count": 0,
+        "cross_node_count": 2,
+        "event_classification": "NEUTRAL",
+        "entities": [
+          {
+            "name": "Iran",
+            "type": "LOCATION",
+            "context": "ongoing power struggle between IRGC hardliners and pragmatists"
+          },
+          {
+            "name": "IRGC",
+            "type": "ORG",
+            "context": "involved in Iran's kinetic and cyber operations"
+          },
+          {
+            "name": "Mojtaba Khamenei",
+            "type": "PERSON",
+            "context": "contested succession via Assembly of Experts"
+          },
+          {
+            "name": "Strait of Hormuz",
+            "type": "LOCATION",
+            "context": "shipping threats persist"
+          },
+          {
+            "name": "Assembly of Experts",
+            "type": "ORG",
+            "context": "involved in Iran's leadership succession"
+          },
+          {
+            "name": "CENTCOM",
+            "type": "ORG",
+            "context": "involved in operations related to Iran"
+          },
+          {
+            "name": "Khamenei",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Reuters",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "AP",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Hormuz",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "March 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Khamenei succession",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from iran"
+          }
+        ],
+        "relationships": [],
+        "cross_node_connections": [
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: reuters"
+          },
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: ap"
+          }
+        ]
+      },
+      "gulf_swf": {
+        "entity_count": 19,
+        "relationship_count": 0,
+        "cross_node_count": 1,
+        "event_classification": "NEUTRAL",
+        "entities": [
+          {
+            "name": "Saudi PIF",
+            "type": "ORG",
+            "context": "involved in AI/minerals/tourism investments"
+          },
+          {
+            "name": "MGX",
+            "type": "ORG",
+            "context": "involved in TikTok JV"
+          },
+          {
+            "name": "Mubadala",
+            "type": "ORG",
+            "context": "involved in various investments"
+          },
+          {
+            "name": "ADIA",
+            "type": "ORG",
+            "context": "involved in various investments"
+          },
+          {
+            "name": "QIA",
+            "type": "ORG",
+            "context": "involved in various investments"
+          },
+          {
+            "name": "Affinity Partners",
+            "type": "ORG",
+            "context": "involved in $2B PIF drawdown"
+          },
+          {
+            "name": "PIF",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "OPEC",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Oracle",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "SEC 13Fs",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Stargate",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Gulf SWF",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Iran",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Strait",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "$2B PIF drawdown",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "2026-2030",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "March 15",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "wartime economic measures",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "IPOs",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          }
+        ],
+        "relationships": [],
+        "cross_node_connections": [
+          {
+            "target_node": "iran",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: iran"
+          }
+        ]
+      },
+      "epstein_files": {
+        "entity_count": 13,
+        "relationship_count": 0,
+        "cross_node_count": 2,
+        "event_classification": "NEUTRAL",
+        "entities": [
+          {
+            "name": "DOJ",
+            "type": "ORG",
+            "context": "involved in Epstein file releases"
+          },
+          {
+            "name": "Pam Bondi",
+            "type": "PERSON",
+            "context": "involved in document production status"
+          },
+          {
+            "name": "Thomas Massie",
+            "type": "PERSON",
+            "context": "involved in House Oversight Committee"
+          },
+          {
+            "name": "Ro Khanna",
+            "type": "PERSON",
+            "context": "involved in House Oversight Committee"
+          },
+          {
+            "name": "House Oversight Committee",
+            "type": "ORG",
+            "context": "involved in Epstein file releases"
+          },
+          {
+            "name": "FBI 302 summaries",
+            "type": "LEGAL",
+            "context": "part of released Epstein files"
+          },
+          {
+            "name": "Bill Clinton",
+            "type": "PERSON",
+            "context": "deposition materials part of released Epstein files"
+          },
+          {
+            "name": "Clinton",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "AG Pam Bondi",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "FBI",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "March 7, 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "March 22, 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "Transparency Act",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          }
+        ],
+        "relationships": [],
+        "cross_node_connections": [
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: doj"
+          },
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 22, 2026"
+          }
+        ]
+      },
+      "arkansas_datacenter": {
+        "entity_count": 16,
+        "relationship_count": 0,
+        "cross_node_count": 2,
+        "event_classification": "NEUTRAL",
+        "entities": [
+          {
+            "name": "Tom Cotton",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "AVAIO",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "PSC",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Entergy",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Jefferson Power",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Good Day Farm",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Jefferson Power Station",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Arkansas",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "capital deployment",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "January 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "March 22, 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Preemption",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "tax exemptions",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "DATA Act",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Acts 373/548",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "Good Day Farm appeals",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          }
+        ],
+        "relationships": [],
+        "cross_node_connections": [
+          {
+            "target_node": "epstein_files",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 22, 2026"
+          },
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 22, 2026"
+          }
+        ]
+      }
+    },
+    "all_cross_node_connections": [
+      {
+        "source_node": "iran",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: reuters"
+      },
+      {
+        "source_node": "iran",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: ap"
+      },
+      {
+        "source_node": "gulf_swf",
+        "target_node": "iran",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: iran"
+      },
+      {
+        "source_node": "epstein_files",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: doj"
+      },
+      {
+        "source_node": "epstein_files",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 22, 2026"
+      },
+      {
+        "source_node": "arkansas_datacenter",
+        "target_node": "epstein_files",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 22, 2026"
+      },
+      {
+        "source_node": "arkansas_datacenter",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 22, 2026"
+      }
+    ],
+    "entity_type_counts": {
+      "PERSON": 12,
+      "ORG": 36,
+      "TEMPORAL": 9,
+      "LEGAL": 11,
+      "LOCATION": 7,
+      "FINANCIAL": 3
+    }
+  },
+  "convergence_summary": {
+    "analysis_timestamp": "2026-03-22T08:26:09.830523+00:00",
+    "total_runs_analyzed": 39,
+    "window_days": 7,
+    "total_convergence_events": 10,
+    "friction_compliance_pairs": 9,
+    "recent_events": [
+      {
+        "date": "2026-03-12",
+        "active_node_count": 6,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell invoked Fifth Amendment in February 2026 House Oversight deposition, with attorney offering testimony conditional on Trump clemency; habeas corpus petition denied January 2026."
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Strait of Hormuz commercial shipping near-total collapse with only Iran-linked vessels transiting; multiple merchant vessel strikes reported; Iranian mine deployment preparations underway"
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF soft-launches 2026-2030 strategy, shifting focus to AI, industry, minerals, and tourism while scaling back mega-projects like The Line amid fiscal pressures."
+          },
+          {
+            "node_id": "israel",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Israel and US conducted over 1,600 IAF sorties into Iran by March 10, destroying 300+ missile launchers and striking Tehran command centers amid ongoing Hezbollah attacks from Lebanon."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ released three previously withheld FBI 302 reports naming Trump in uncorroborated Epstein allegations on March 5, 2026, amid accusations of withholding."
+          },
+          {
+            "node_id": "arkansas_datacenter",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "AVAIO Digital announced $6B initial investment for AI-ready data center campus in Pulaski County, Arkansas, on January 12, 2026, with construction starting Q1 2026."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-11",
+        "active_node_count": 4,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell refused to testify before House Oversight Committee unless granted clemency by President Trump, invoking Fifth Amendment in February 2026 hearing.[1][2]"
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF soft-launched its 2026-2030 strategy on March 9, 2026, shifting focus to industry, minerals, AI, and tourism while scaling back mega projects."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid debt scrutiny and bondholder lawsuit."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "DOJ released previously withheld FBI documents from Epstein files alleging sexual assault by Trump on March 10, 2026."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-11",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell invoked Fifth Amendment in February 2026 House Oversight deposition, conditioning testimony on Trump clemency which lawmakers rejected.[1][2][5]"
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "US conducted its most intense day of airstrikes on Iran on March 10, 2026, targeting naval vessels and internal security forces amid ongoing Iranian retaliation."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF announced new 2026-2030 strategy at Riyadh forum, pivoting to industrial execution, AI, minerals, and private sector partnerships worth SAR 70 billion."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Oracle announced $45-50B financing plan for 2026 debt needs, but stock dropped over 12% amid OpenAI exposure concerns after Nvidia-OpenAI deal tweet."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "DOJ published over 3 million additional pages of Epstein files on March 11, 2026, in compliance with the Epstein Files Transparency Act, including uncorroborated allegations against Trump."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-11",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Strait of Hormuz shipping traffic remains near standstill for over a week, with only Iran-linked vessels transiting amid ongoing conflict."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF unveils revised 2026-2030 strategy, pivoting to industry, minerals, AI, and tourism amid low oil prices, scaling back mega-projects like The Line."
+          },
+          {
+            "node_id": "israel",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Israel conducts ongoing airstrikes on Iran and Hezbollah targets amid full-scale war started February 28, 2026, destroying hundreds of Iranian missile launchers and striking 60 Hezbollah sites in Lebanon on March 3."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "DOJ released three previously withheld 2019 FBI 302 reports alleging Trump abused a minor, amid accusations of improper withholding."
+          },
+          {
+            "node_id": "arkansas_datacenter",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "AVAIO Digital announced $6B initial investment in AI-ready data center hub in Pulaski County, Arkansas, on January 12, 2026, with construction starting Q1 2026."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-10",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell's attorney publicly appeals for presidential clemency in exchange for testimony on Epstein network, but White House states it is not a priority."
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "US and Israel conducted massive airstrikes on over 3,300 Iranian military, nuclear, and leadership targets since February 28, 2026, under joint operations including Operation Epic Fury."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF unveiled revised 2026-2030 strategy focusing on industry, minerals, AI, and tourism while scaling back mega-projects."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ released additional Epstein files including over 1,000 pages related to Trump allegations on March 5-9, 2026, updating the public database."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-10",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell invoked Fifth Amendment in House Oversight deposition but offered testimony exonerating Trump and Clinton in exchange for clemency from President Trump."
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Operation Epic Fury enters day 11 with US strikes intensifying on Iranian military, nuclear, and internal security targets amid ongoing Iranian retaliatory drone and missile attacks on Gulf states."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF announced its 2026-2030 strategy at the PIF Private Sector Forum in Riyadh, shifting from sector building to growth acceleration with SAR 70 billion in new opportunities."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle reports Q3 FY2026 earnings with $17.2B revenue and $553B RPO amid $100B+ debt and $30B financing raised."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "CRITICAL",
+            "classification": "FRICTION",
+            "headline": "DOJ released previously withheld FBI 302 documents from Epstein files alleging sexual assault by Trump on March 10, 2026."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-09",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell's attorney publicly appealed for presidential clemency in exchange for testimony, prompting White House denial of priority and Senate opposition resolution."
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "US and Israel continue massive airstrikes on Iran through March 7, 2026, killing Supreme Leader Ali Khamenei and targeting nuclear sites and leadership; Iran retaliates with drone and missile strikes on US embassies and Gulf targets."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF unveils revised 2026-2030 strategy focusing on industry, AI, mining, and tourism while scaling back mega-projects."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid debt scrutiny."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ continues removing and reviewing Epstein files amid criticism, with site last updated March 7, 2026."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-09",
+        "active_node_count": 5,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell invoked Fifth Amendment in House Oversight deposition while her attorney publicly appealed for Trump clemency in exchange for testimony."
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "US and Israel conducted extensive airstrikes on Iranian nuclear, missile, and leadership targets through March 3, 2026, under joint campaign including Operation Epic Fury."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF soft-launches 2026-2030 strategy at Riyadh forum, shifting focus to AI, industry, minerals, and tourism while scaling back mega-projects."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid high debt scrutiny."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "DOJ released over 1,000 additional Epstein files on March 5, 2026, including more than a dozen related to Trump allegations, with the Epstein Library last updated March 7, 2026[3][4]."
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-08",
+        "active_node_count": 3,
+        "nodes": [
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF announces plans for up to 8 subsidiary IPOs in 2026 and unveils shift to ecosystem integration at Private Sector Forum."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid existing $100B debt load."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "DOJ continues Epstein files releases with removals for victim protection and new publications totaling nearly 3.5 million pages as of early March 2026."
+          }
+        ],
+        "has_friction_compliance_pair": false
+      },
+      {
+        "date": "2026-03-08",
+        "active_node_count": 4,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "Ghislaine Maxwell prepares commutation application to Trump in exchange for Epstein-related testimony amid Democratic opposition."
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF soft-launches 2026-2030 strategy shifting focus to industry, minerals, AI, and tourism while scaling back mega-projects like The Line."
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid concerns over OpenAI exposure and existing debt."
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "DOJ published over 3 million additional pages of Epstein files on March 7, 2026, in compliance with the Epstein Files Transparency Act, totaling nearly 3.5 million pages including 2,000 videos and 180,000 images.[1][3]"
+          }
+        ],
+        "has_friction_compliance_pair": true
+      }
+    ]
+  }
+}

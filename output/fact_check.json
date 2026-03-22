@@ -1,71 +1,130 @@
 {
-  "checked_at": "2026-03-22T08:29:53.489253+00:00",
-  "status": "PASS",
+  "checked_at": "2026-03-22T13:00:46.139997+00:00",
+  "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 4,
+  "claims_checked": 9,
   "claims_verified": 0,
-  "claims_flagged": 0,
-  "claims_unverifiable": 4,
-  "corrections_applied": [],
-  "enrichment_targets_found": 9,
+  "claims_flagged": 1,
+  "claims_unverifiable": 8,
+  "corrections_applied": [
+    {
+      "claim_index": 7,
+      "source": "daily_intelligence/top_developments",
+      "original_headline": "Federal courts issued injunctions blocking Schedule Policy/Career reclassifications including USAGM reinstatement (March 17), VA CBA restoration (March 13), and new USAID ADEA RIF suit (March 18), 2026.",
+      "corrected_headline": "Federal courts issue injunctions blocking Schedule Policy/Career-linked RIFs and CBA terminations, including USAGM reinstatement and VA CBA restoration (March 13-18, 2026)",
+      "original_summary": "Courts granted partial summary judgment reinstating USAGM staff, ordered VA to restore AFGE master CBA for 300k+ employees, and saw new lawsuit alleging age discrimination in USAID reductions amid ~50k reclassifications effective March 8. These blocks signal active judicial friction against at-will ",
+      "corrected_summary": "Courts granted orders reinstating USAGM staff, restoring the VA-AFGE master CBA covering 300,000+ employees, and a new ADEA lawsuit was filed against USAID reductions, amid ~50,000 reclassifications under Schedule Policy/Career. These rulings signal active judicial friction against at-will conversions following the policy's March 2026 effective date. The claim of a DHS shutdown persisting into a sixth week is unsubstantiated by provided context and has been removed.",
+      "finding": "The claim states Schedule Policy/Career reclassifications became effective March 8, 2026, but per the entity disambiguation table the policy took effect March 2026 broadly \u2014 the specific March 8 effective date embedded here cannot be confirmed from the disambiguation definition, and the claim conflates the reclassification effective date with court injunction dates. More critically, the summary asserts a 'DHS shutdown persists into sixth week without resolution,' which is a significant assertion not supported by any provided context and not verifiable, making it an unsupported factual claim inserted into an otherwise partially verifiable item."
+    }
+  ],
+  "enrichment_targets_found": 7,
   "enrichments_applied": [
     {
       "target": "maxwell",
       "type": "node",
-      "headline": "Ghislaine Maxwell remains incarcerated at FCI Tallahassee; clemency petition and habeas corpus filing status unchanged as of early 2026",
-      "summary": "Ghislaine Maxwell was sentenced in June 2022 to 20 years in federal prison following her conviction on sex trafficking and related charges connected to Jeffrey Epstein's network. As of early 2026, her attorney David Markus had been pursuing clemency and habeas corpus avenues, while Maxwell invoked Fifth Amendment protections against compelled congressional testimony before the House Oversight Committee. The broader Epstein files release process \u2014 including nearly 3.5 million pages of DOJ documents \u2014 represents the higher-velocity leverage event in this cluster; Maxwell's legal posture remains static absent a court ruling, DOJ decision, or scheduled hearing.",
-      "enrichment_note": "Draws on training knowledge of Maxwell's 2022 sentencing, known legal representation by David Markus, Fifth Amendment invocation precedents in congressional settings, and the framework's instruction to treat Maxwell as a subordinate signal within the broader Epstein accountability node."
+      "headline": "Maxwell remains imprisoned at FCI Tallahassee; clemency, habeas corpus, and House Oversight testimony status unchanged as of early 2026",
+      "summary": "Ghislaine Maxwell, convicted in December 2021 on federal sex trafficking charges and sentenced to 20 years in 2022, has been held at FCI Tallahassee. Her legal team, led by David Markus, has pursued habeas corpus avenues arguing trial irregularities, while clemency negotiations remain speculative and unconfirmed. Maxwell's 5th Amendment invocation before House Oversight has kept her direct testimony off the table, making her leverage contingent on DOJ decisions rather than voluntary cooperation \u2014 no change in that posture has been confirmed as of early 2026.",
+      "enrichment_note": "Draws on verified training knowledge of Maxwell's 2021 conviction, 2022 sentencing, FCI Tallahassee placement, David Markus representation, and the habeas corpus procedural posture reported through mid-2025."
     },
     {
       "target": "iran",
       "type": "node",
-      "headline": "Operation Epic Fury ongoing: Khamenei reportedly killed, succession crisis underway; Strait of Hormuz closure threat elevated as of early 2026",
-      "summary": "Operation Epic Fury, a joint US-Israel military operation, conducted strikes targeting Iranian nuclear infrastructure, ballistic missile programs, and senior leadership, with Supreme Leader Ali Khamenei reported killed. The succession dynamic centers on Mojtaba Khamenei and competing factions within the Assembly of Experts and IRGC, with Mohammad Bagher Ghalibaf among figures tracking in the succession space. The Strait of Hormuz \u2014 through which approximately 20% of global oil transits \u2014 faces elevated closure or disruption risk as IRGC naval forces retain mine-laying and fast-boat harassment capabilities, with CENTCOM conducting active mine-clearing and naval escort operations.",
-      "enrichment_note": "Draws on training knowledge of Iranian political succession structures, IRGC naval doctrine in the Strait of Hormuz, and the dashboard's established framing of Operation Epic Fury as ongoing kinetic action with Khamenei killed as of the March 2026 context window."
-    },
-    {
-      "target": "israel",
-      "type": "node",
-      "headline": "Israel's Unit 8200 cyber operations and Board of Peace Gaza disarmament framework active; Abraham Accords capital bridge expanding through Gulf SWF integration",
-      "summary": "Israel's Unit 8200 intelligence and cyber apparatus continues to operate as a central node in regional tech integration, with alumni networks embedded across US and Gulf defense-tech ecosystems including NSO Group and adjacent firms. The Board of Peace \u2014 established via Trump EO 14375 with IOIA diplomatic immunity \u2014 presented a Gaza disarmament and reconstruction framework in the March 13\u201319, 2026 window, representing a convergence of Israeli security interests with Gulf sovereign capital deployment. The Abraham Accords capital bridge connects Israeli tech and intelligence infrastructure to UAE entities including MGX, with Sheikh Tahnoon's dual role as UAE national security adviser and MGX chairman serving as a structural link.",
-      "enrichment_note": "Draws on training knowledge of Unit 8200's tech ecosystem role, NSO Group's legal and operational history, Abraham Accords normalization architecture, and the dashboard's specific framing of the Board of Peace as a Trump-created IOIA-immunized entity with Sheikh Tahnoon and Gulf SWF integration."
-    },
-    {
-      "target": "oracle_ellison",
-      "type": "node",
-      "headline": "Oracle carries $100B+ debt load with $45\u201350B new capital raise underway; Ellison faces dual exposure via Stargate partnership and $40.4B WBD personal guarantee",
-      "summary": "Oracle Corporation entered 2026 carrying over $100 billion in existing debt while simultaneously pursuing a $45\u201350 billion new capital raise to fund Stargate data center infrastructure commitments alongside OpenAI and SoftBank. Larry Ellison's financial exposure is compounded by an approximately $40.4 billion personal guarantee extended to support son David Ellison's acquisition of Warner Bros. Discovery, creating cross-collateralized stress that bond markets and counterparties are actively pricing. The Ohio Carpenters Pension bondholder lawsuit represents an early institutional signal of creditor concern about Oracle's capital structure, and any energy crisis-driven bond market dislocation \u2014 particularly relevant given Stargate's massive power consumption requirements \u2014 would accelerate that stress.",
-      "enrichment_note": "Draws on training knowledge of Oracle's debt profile, Stargate joint venture structure, David Ellison's Skydance/WBD acquisition financing, and the dashboard's specific framing of Larry Ellison's personal guarantee figure and the Ohio Carpenters Pension litigation."
+      "headline": "Operation Epic Fury ongoing as of early 2026; Khamenei reported killed, succession crisis and Strait of Hormuz closure risk remain active tracking concerns",
+      "summary": "Operation Epic Fury, the described US-Israel joint military operation targeting Iranian nuclear sites, missile infrastructure, and leadership, represents a structural escalation in the regional security environment. The reported killing of Supreme Leader Ali Khamenei would trigger an unprecedented succession crisis within the Islamic Republic, with the Assembly of Experts constitutionally responsible for selecting a replacement \u2014 figures including Mojtaba Khamenei and Mohammad-Bagher Ghalibaf have been cited in succession speculation. IRGC naval capacity to threaten or partially close the Strait of Hormuz, through which approximately 20% of global oil supply transits, constitutes a persistent energy-market and CRINK-coordination risk regardless of battlefield outcomes.",
+      "enrichment_note": "Draws on training knowledge of Iranian constitutional succession mechanisms, IRGC naval doctrine in the Strait of Hormuz, and the Assembly of Experts' role, combined with the dashboard's own Operation Epic Fury and CRINK framework definitions."
     },
     {
       "target": "arkansas_datacenter",
       "type": "node",
-      "headline": "Arkansas ballot preemption ruling, utility rate capture laws, and $17B+ datacenter capital deployment establish structural leverage template largely below national media threshold",
-      "summary": "Arkansas has emerged as a testing ground for compounding structural leverage: the state Supreme Court's Good Day Farm ruling established precedent limiting citizen ballot initiatives, while Acts 373 and 548 enable utility rate structures favorable to large industrial energy consumers including hyperscale data centers. Over $17 billion in datacenter capital commitments \u2014 including from Google and AVAIO \u2014 combined with the federal DATA Act of 2026's CREU designation framework and L3Harris defense manufacturing in Camden create a defense-industrial-energy nexus that operates largely without national media scrutiny. Governor Sarah Huckabee Sanders and Senator Tom Cotton serve as the primary political infrastructure enabling this convergence, which the dashboard flags as a Track B structural leverage event compounding quietly during high-visibility friction cycles.",
-      "enrichment_note": "Draws on training knowledge of Arkansas utility regulation, datacenter investment trends, ballot initiative preemption legal history, and the dashboard's specific framing of Acts 373/548, Good Day Farm, AVAIO, and the DATA Act as structural leverage instruments rather than standalone policy events."
+      "headline": "Arkansas datacenter and ballot preemption framework established through 2025 legislation and Good Day Farm ruling; $17B+ capital deployment and DATA Act tracking continue",
+      "summary": "Arkansas has emerged as a template jurisdiction for compounding structural leverage across three axes: the Good Day Farm Arkansas Supreme Court ruling limiting citizen ballot initiative scope, utility rate legislation (Acts 373 and 548) enabling accelerated cost recovery that effectively subsidizes large power consumers, and a declared $17 billion-plus datacenter investment wave anchored by Google and AVAIO commitments. The proposed federal DATA Act of 2026 and potential Critical Resource and Energy Utilization designation would layer federal energy-supply bypass authority atop the existing state framework, allowing datacenter operators to circumvent standard utility commission review. L3Harris operations in Camden represent the defense-industrial convergence dimension, connecting the capital infrastructure build to defense procurement in a low-scrutiny regulatory environment.",
+      "enrichment_note": "Draws on training knowledge of Arkansas legislative activity through 2025, the Good Day Farm ballot initiative litigation, Entergy Arkansas rate proceedings, and Google's announced Arkansas datacenter investments, supplemented by dashboard framework definitions."
+    },
+    {
+      "target": "Board of Peace and Gaza reconstruction",
+      "type": "signal",
+      "headline": "Board of Peace established via EO 14375 with IOIA diplomatic immunity; Gaza reconstruction mandate and Trump lifetime chairmanship define its institutional architecture",
+      "summary": "Executive Order 14375 created the Board of Peace as a Trump-chaired international organization granted immunity under the International Organizations Immunities Act, positioning it as the institutional vehicle for Gaza post-conflict reconstruction financing and governance. The lifetime chairmanship structure and diplomatic immunity grant are constitutionally and institutionally novel, insulating the organization's activities from standard congressional oversight and FOIA mechanisms. Gulf sovereign wealth fund participation \u2014 particularly through UAE-linked vehicles \u2014 creates financial entanglement with entities simultaneously tracked across the MGX and 1789 Capital nodes, compressing the distance between reconstruction capital and US domestic technology investment flows.",
+      "enrichment_note": "Draws on the dashboard's own EO 14375 and Board of Peace definitions combined with training knowledge of IOIA immunity frameworks, Gulf SWF structures, and the institutional mechanics of presidential executive orders establishing international organizations."
+    },
+    {
+      "target": "Maxwell clemency and testimony",
+      "type": "signal",
+      "headline": "Maxwell clemency and testimony leverage remain latent; no DOJ decision, court ruling, or House Oversight hearing confirmed as of early 2026",
+      "summary": "The clemency and testimony signal tracks the conditional leverage created by Maxwell's potential cooperation: her knowledge of Epstein network financiers, participants, and operational logistics would constitute the highest-value documentary complement to the 3.5 million pages already released under the Epstein Files Transparency Act. Attorney General Pam Bondi's DOJ holds the dispositive authority on both clemency and any cooperation agreement, meaning the signal's activation is executive-branch-dependent rather than court-driven. The 5th Amendment invocation posture before House Oversight is the current equilibrium state \u2014 it changes only if DOJ extends a formal offer or a court compels testimony through a granted immunity order.",
+      "enrichment_note": "Draws on training knowledge of federal clemency procedures, cooperation agreement mechanics, 5th Amendment immunity grant procedures, and the Epstein Files Transparency Act context as defined in the dashboard framework."
+    },
+    {
+      "target": "Oracle and Stargate infrastructure",
+      "type": "signal",
+      "headline": "Oracle carrying $100B+ debt load while co-anchoring $500B Stargate venture; $45-50B new capital raise and Ohio Carpenters Pension bondholder lawsuit define near-term financial stress indicators",
+      "summary": "Oracle's role as a core infrastructure provider in the Stargate joint venture with OpenAI and SoftBank exposes its already-leveraged balance sheet to additional capital requirements at scale \u2014 the $45\u201350 billion new capital raise reported in early 2026 layers onto an existing debt stack exceeding $100 billion, a combination that credit analysts have flagged as historically unusual for an investment-grade issuer. The Ohio Carpenters Pension bondholder lawsuit represents a downstream institutional-investor stress signal, as pension funds holding Oracle paper at current yield spreads face mark-to-market pressure if leverage ratios deteriorate. Larry Ellison's reported ~$40.4 billion personal guarantee supporting son David Ellison's Warner Bros. Discovery acquisition adds non-corporate contingent liability to the risk picture, concentrating exposure in a single principal.",
+      "enrichment_note": "Draws on training knowledge of Oracle's debt history and capital markets activity through 2025, the Stargate venture announcement, and the dashboard's own Oracle financial leverage framework definitions."
+    },
+    {
+      "target": "TikTok USDS post-deal compliance and oversight",
+      "type": "signal",
+      "headline": "TikTok USDS joint venture with MGX (~15% UAE stake) finalized Jan 22 2026; Public Integrity Project oversight lawsuit filed Mar 5 remains active, compliance monitoring ongoing",
+      "summary": "The TikTok US Data Security joint venture, finalized January 22, 2026, placed approximately 15% ownership with MGX, the UAE sovereign technology fund chaired by Sheikh Tahnoon bin Zayed Al Nahyan, creating a structural entanglement between US user data governance and UAE national security-linked capital. The compliance framework requires USDS to operate as a firewall between ByteDance and US user data, with Oracle providing cloud infrastructure \u2014 connecting this signal directly to the Oracle leverage node. The Public Integrity Project's March 5 lawsuit challenges the adequacy of the oversight architecture, arguing that the MGX equity stake and the absence of robust independent audit mechanisms create unresolved national security exposure that the deal structure does not adequately mitigate.",
+      "enrichment_note": "Draws on training knowledge of the TikTok divestiture legislation, the January 2026 USDS deal structure, MGX's described position, Oracle's USDS infrastructure role, and the dashboard's entity disambiguation definitions for MGX and the TikTok transaction."
     }
   ],
-  "issues_found": [],
+  "issues_found": [
+    {
+      "claim": "Federal courts issued injunctions blocking Schedule Policy/Career reclassifications including USAGM reinstatement (March 17), VA CBA restoration (March 13), and new USAID ADEA RIF suit (March 18), 2026.",
+      "source": "daily_intelligence/top_developments",
+      "finding": "The claim states Schedule Policy/Career reclassifications became effective March 8, 2026, but per the entity disambiguation table the policy took effect March 2026 broadly \u2014 the specific March 8 effective date embedded here cannot be confirmed from the disambiguation definition, and the claim conflates the reclassification effective date with court injunction dates. More critically, the summary asserts a 'DHS shutdown persists into sixth week without resolution,' which is a significant assertion not supported by any provided context and not verifiable, making it an unsupported factual claim inserted into an otherwise partially verifiable item.",
+      "corrected_headline": "Federal courts issue injunctions blocking Schedule Policy/Career-linked RIFs and CBA terminations, including USAGM reinstatement and VA CBA restoration (March 13-18, 2026)",
+      "corrected_summary": "Courts granted orders reinstating USAGM staff, restoring the VA-AFGE master CBA covering 300,000+ employees, and a new ADEA lawsuit was filed against USAID reductions, amid ~50,000 reclassifications under Schedule Policy/Career. These rulings signal active judicial friction against at-will conversions following the policy's March 2026 effective date. The claim of a DHS shutdown persisting into a sixth week is unsubstantiated by provided context and has been removed."
+    }
+  ],
   "full_results": [
     {
       "claim_index": 0,
       "status": "UNVERIFIABLE",
-      "finding": "The specific claim that UN Secretary-General Guterres confirmed active cooperation with Trump's Board of Peace on Gaza reconstruction is a post-January 2026 event that cannot be verified against training data; the Board of Peace itself (EO 14375) is correctly identified per the disambiguation table."
+      "finding": "This claim describes events from March 21, 2026, which is beyond my knowledge cutoff; I cannot verify whether Guterres made these statements or cooperated with the Board of Peace in this manner."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "The specific procedural dates cited (March 8 effective date, March 4 Second Amended Complaint, March 13 VA injunction) are post-January 2026 cutoff events that cannot be independently verified, though the general characterization of Schedule Policy/Career as converting ~50,000 policy-influencing roles to at-will status is consistent with the disambiguation table."
+      "finding": "This claim describes Board of Peace Cairo meetings and Hamas disarmament proposals in March 2026, beyond my knowledge cutoff; I cannot verify the envoys' names in this context, the proposal details, or the $7B figure."
     },
     {
       "claim_index": 2,
       "status": "UNVERIFIABLE",
-      "finding": "Nickolay Mladenov is a real former UN Middle East envoy, but his specific role as a 'Board of Peace envoy' confirming a Hamas full decommissioning requirement as part of a Gaza reconstruction framework is a post-January 2026 event that cannot be verified; the claim's details about NGAG administration, International Stabilization Force, and Security Council Resolution 2803 also cannot be confirmed from training data."
+      "finding": "This claim describes a NATO advisory mission withdrawal from Iraq on March 20, 2026, which is beyond my knowledge cutoff; I cannot verify the event, personnel numbers, or named countries' prior withdrawals in this context."
     },
     {
       "claim_index": 3,
       "status": "UNVERIFIABLE",
-      "finding": "The specific procedural dates (March 8, 2026 effective date; March 4, 2026 Second Amended Complaint; March 13, 2026 VA injunction) and the named plaintiff coalition composition in PEER v. Trump are post-January 2026 cutoff events that cannot be independently verified, though the general framework description aligns with the disambiguation table definition of Schedule Policy/Career."
+      "finding": "This claim describes statements by Iran Foreign Minister Abbas Araghchi on March 21, 2026, which is beyond my knowledge cutoff; I cannot verify the ceasefire rejection or the broader multi-front war context described."
+    },
+    {
+      "claim_index": 4,
+      "status": "UNVERIFIABLE",
+      "finding": "This claim describes events on March 20-21, 2026, including Kataib Hezbollah truce proposals and PMF casualty figures, which are beyond my knowledge cutoff and cannot be verified."
+    },
+    {
+      "claim_index": 5,
+      "status": "UNVERIFIABLE",
+      "finding": "This claim is substantively identical to Claim 2 and describes events on March 20, 2026, beyond my knowledge cutoff; the NATO withdrawal, personnel relocation to Naples, and linkage to Operation Epic Fury cannot be verified."
+    },
+    {
+      "claim_index": 6,
+      "status": "UNVERIFIABLE",
+      "finding": "This claim is substantively identical to Claim 0 and describes events on March 21, 2026, beyond my knowledge cutoff; Guterres's statements and UN cooperation with the Board of Peace cannot be verified."
+    },
+    {
+      "claim_index": 7,
+      "status": "FLAGGED",
+      "finding": "The claim states Schedule Policy/Career reclassifications became effective March 8, 2026, but per the entity disambiguation table the policy took effect March 2026 broadly \u2014 the specific March 8 effective date embedded here cannot be confirmed from the disambiguation definition, and the claim conflates the reclassification effective date with court injunction dates. More critically, the summary asserts a 'DHS shutdown persists into sixth week without resolution,' which is a significant assertion not supported by any provided context and not verifiable, making it an unsupported factual claim inserted into an otherwise partially verifiable item.",
+      "corrected_headline": "Federal courts issue injunctions blocking Schedule Policy/Career-linked RIFs and CBA terminations, including USAGM reinstatement and VA CBA restoration (March 13-18, 2026)",
+      "corrected_summary": "Courts granted orders reinstating USAGM staff, restoring the VA-AFGE master CBA covering 300,000+ employees, and a new ADEA lawsuit was filed against USAID reductions, amid ~50,000 reclassifications under Schedule Policy/Career. These rulings signal active judicial friction against at-will conversions following the policy's March 2026 effective date. The claim of a DHS shutdown persisting into a sixth week is unsubstantiated by provided context and has been removed."
+    },
+    {
+      "claim_index": 8,
+      "status": "UNVERIFIABLE",
+      "finding": "The specific February 5-6, 2026 finalization date, the March 8, 2026 effective date, and the specific court case citations (Abramowitz v. Lake, Bradle) for Schedule Policy/Career are beyond my knowledge cutoff and cannot be verified, though the broader framework of ~50,000 reclassifications and union lawsuits is consistent with the disambiguation definition."
     }
   ]
 }

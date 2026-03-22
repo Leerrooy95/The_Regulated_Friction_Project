@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-22T08:26:09.900132+00:00",
-  "total_runs": 39,
+  "last_updated": "2026-03-22T12:57:34.887019+00:00",
+  "total_runs": 40,
   "timeline": {
     "dates": [
       "2026-03-08",
@@ -172,7 +172,7 @@
       11,
       14,
       10,
-      13
+      18
     ]
   },
   "node_heatmap": {
@@ -325,15 +325,15 @@
     }
   },
   "leverage_type_totals": {
-    "LEGAL": 35,
-    "KINETIC": 44,
-    "FINANCIAL": 34,
-    "REGULATORY": 17,
+    "LEGAL": 37,
+    "KINETIC": 45,
+    "FINANCIAL": 35,
+    "REGULATORY": 18,
     "REPUTATIONAL": 5
   },
   "convergence_rate": {
-    "total_runs": 39,
+    "total_runs": 40,
     "convergence_events": 10,
-    "rate_pct": 25.6
+    "rate_pct": 25.0
   }
 }
