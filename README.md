@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.1
+# The Regulated Friction Project v11.2
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -157,7 +157,17 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.1) — Pre-September 2025 Musk–Administration Timeline — March 22, 2026
+## What's New (v11.2) — Elon Musk Empire Realignment Integration — March 22, 2026
+
+Integrates the new Elon Musk Empire Realignment tracker (`10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md`) — 46/51 claims verified with sourced tables throughout — into the repository's active tracking infrastructure.
+
+- **Node 13 added** to [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): Elon Musk / SpaceX-xAI Empire Realignment — tracks SpaceX-xAI merger ($1.25T, Feb 3, 2026), Tesla commercial decline (-13% YoY Q1 2025), Grok CSAM class action (Case No. 5:26-cv-02246, N.D. Cal., filed March 16, 2026), X Money (April 2026, not yet launched), SpaceX IPO ($1.5–1.75T target, mid-to-late 2026), DOGE failure documentation (Cavanaugh deposition), Macrohard/Digital Optimus, xAI talent exodus (2/12 co-founders remain).
+- **Capital Architecture updated**: [`04_CAPITAL_ARCHITECTURE.md`](_AI_CONTEXT_INDEX/04_CAPITAL_ARCHITECTURE.md) — new SpaceX-xAI section documenting consolidated private entity spanning space, AI, social media, and pending finance. Cross-referenced against Oracle/Stargate consortium (same multi-domain pattern, different structure). Grok's Pentagon classified access noted alongside Oracle/Google/OpenAI.
+- **Cross-references made**: `06_ATTENTION_ECONOMY.md` (DOGE chainsaw spectacle = Heat Sink pattern), `11_LEVERAGE_THESIS.md` (Musk information leverage hypothesis), `09_Silicon_Sovereignty/` (orbital data centers above terrestrial regulation), `v11.4_Total_Actor_Timeline_Synthesis.md` (xAI/Musk Tier 2 → Tier 1 evaluation).
+- **Web-verified March 22**: SpaceX IPO ($1.5–1.75T confirmed, exact date not official), Tesla Q1 2026 deliveries not yet released (expected late April), X Money not yet launched (April early access confirmed), xAI CSAM docket retrieved (5:26-cv-02246).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`04_CAPITAL_ARCHITECTURE.md`](_AI_CONTEXT_INDEX/04_CAPITAL_ARCHITECTURE.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`Report.md`](Report.md), [`06_ATTENTION_ECONOMY.md`](_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md), [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md), [`v11.4_Total_Actor_Timeline_Synthesis.md`](Project_Trident/Copilot_Opus_4.6_Analysis/Changelogs/v11.4_Total_Actor_Timeline_Synthesis.md).
+
+### Previous (v11.1) — Pre-September 2025 Musk–Administration Timeline — March 22, 2026
 
 Adds the previously undocumented timeline of the Musk–Trump falling out (May–September 2025) that preceded and contextualized the September 26 Epstein calendar release.
 
@@ -299,7 +309,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 22, 2026 (v11.1)
+**Last updated**: March 22, 2026 (v11.2)
 
 ---
 
