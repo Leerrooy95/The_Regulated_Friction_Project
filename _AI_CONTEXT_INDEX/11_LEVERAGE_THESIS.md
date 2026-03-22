@@ -257,9 +257,36 @@ Anthropic demonstrated what *non-compliance* looks like within this architecture
 - Institutional designation as "risk"
 - Speed of OpenAI's replacement suggests the compliance pipeline was already prepared
 
+### The Kill Chain Consequence (February 28, 2026)
+
+Within 24 hours of the Anthropic ban, Operation Epic Fury launched with 1,000 strikes in the first day using Palantir's Maven Smart System with Claude still embedded as its reasoning layer — operating at ~86-second targeting decision cycles. On that same day, a Tomahawk cruise missile triple-tapped the Shajareh Tayyebeh girls' school in Minab, Iran, killing 175 people (majority children). DIA attributed the strike to "outdated targeting data."
+
+The coercion template applied to Anthropic follows the same structure documented across the leverage architecture:
+1. **Demand**: Allow "all lawful purposes" including autonomous weapons and mass surveillance
+2. **Deadline**: 5:01 PM ET, February 27
+3. **Threat**: Supply chain risk designation + DPA invocation
+4. **Punishment**: Blacklisting, contract termination, revenue destruction
+5. **Replacement**: OpenAI accepts same terms with weaker enforcement; Grok cleared for classified
+6. **Narrative escalation**: "Woke AI" → "supply chain risk" → "foreign worker security threat"
+
+### Legal Proceedings (March 2026)
+
+| Date | Event | Status |
+|------|-------|--------|
+| March 9 | Anthropic filed two federal lawsuits (N.D. California + D.C. Circuit) | ✅ VERIFIED — [TechCrunch](https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/), [CBS News](https://www.cbsnews.com/news/anthropic-pentagon-supply-chain-risk-lawsuit/) |
+| March 12 | Emergency stay sought; "hundreds of millions, or even multiple billions" in lost revenue | ✅ VERIFIED — [SFGate](https://www.sfgate.com/news/bayarea/article/sf-hearing-expedited-on-anthropics-request-for-22071049.php) |
+| March 13 | Tech industry groups filed amicus brief | ✅ VERIFIED — [Axios](https://www.axios.com/2026/03/16/tech-industry-rallies-anthropic-pentagon-fight) |
+| March 17 | 150 retired judges (bipartisan) filed amicus brief | ✅ VERIFIED — [Benzinga](https://www.benzinga.com/news/politics/26/03/51318344/no-one-is-trying-to-force-the-department-to-contract-with-anthropic-say-149-retired-judges-in-pentagon-ai-fight) |
+| March 17 | Pentagon raised foreign workers/Chinese nationals security argument | ✅ VERIFIED — [Axios](https://www.axios.com/2026/03/19/pentagon-anthropic-foreign-workforce-security-risks) |
+| **March 24** | **Judge Rita Lin hears oral arguments (N.D. Cal.)** | ⏳ UPCOMING — [Lawfare](https://www.lawfaremedia.org/article/the-right-remedy-in-the-anthropic-case) |
+
+→ **Full analysis**: `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`
+
 ### [Inference] Interpretation
 
 The Anthropic case shows the cost structure of resistance within the leverage architecture. Entities that refuse compliance face rapid exclusion and replacement. MGX's investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides of the compliance divide.
+
+The kill chain integrity failure — political undermining of the AI reasoning layer 24 hours before the largest AI-assisted military operation in history — illustrates a second-order consequence: structural decisions designed to enforce compliance can degrade operational systems in ways that produce civilian casualties, regardless of intent.
 
 ---
 
@@ -420,7 +447,7 @@ The Barak–Epstein back channel and the "Epstein war" framing suggest that Epst
 | House Oversight Committee voted bipartisan to subpoena AG Pam Bondi | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) |
 | Clinton deposition videos released by House Oversight | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/02/nx-s1-5732871/bill-clinton-hillary-clinton-depositions-epstein-files) |
 
-### Anthropic Leverage — Non-Compliance Penalty Formalized (Verified March 6, 2026)
+### Anthropic Leverage — Non-Compliance Penalty Formalized and Kill Chain Consequence (Verified March 6-22, 2026)
 
 | Development | Status | Source |
 |-------------|--------|--------|
@@ -428,6 +455,10 @@ The Barak–Epstein back channel and the "Epstein war" framing suggest that Epst
 | Amodei files legal challenge | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
 | Claude surged: 1M+ signups/day; top AI app in 20+ countries | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
 | Former CIA director Hayden + military leaders: "dangerous precedent" | ✅ VERIFIED | [NPR](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk) |
+| Anthropic filed two federal lawsuits (Mar 9) | ✅ VERIFIED | [TechCrunch](https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/), [CBS News](https://www.cbsnews.com/news/anthropic-pentagon-supply-chain-risk-lawsuit/) |
+| 150 retired judges amicus brief (Mar 17) | ✅ VERIFIED | [Benzinga](https://www.benzinga.com/news/politics/26/03/51318344/no-one-is-trying-to-force-the-department-to-contract-with-anthropic-say-149-retired-judges-in-pentagon-ai-fight) |
+| 120+ Congress members asked whether Maven/AI used to identify school target | ✅ VERIFIED | [NBC News](https://www.nbcnews.com/politics/national-security/democrats-ask-pentagon-iran-school-strike-role-ai-rcna263083) |
+| Judge Rita Lin hearing March 24 (N.D. Cal.) | ⏳ UPCOMING | [Lawfare](https://www.lawfaremedia.org/article/the-right-remedy-in-the-anthropic-case) |
 
 ### Domestic — Institutional Reshuffling (Verified March 5, 2026)
 

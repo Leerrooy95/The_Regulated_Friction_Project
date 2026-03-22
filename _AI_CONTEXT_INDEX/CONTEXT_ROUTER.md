@@ -72,6 +72,10 @@
 | **"My friends will get hurt" / Greene-Trump break / Epstein enforcement** | `10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md` | `11_LEVERAGE_THESIS.md` |
 | **Thiel "Epstein-adjacent" / Giving Pledge deployment** | `10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md` | `09_CURRENT_THREADS.md` (Node 5), `11_LEVERAGE_THESIS.md` |
 | **Anthropic / Pentagon standoff / AI safeguards** | `09_CURRENT_THREADS.md` (Anthropic section) | `11_LEVERAGE_THESIS.md`, `04_CAPITAL_ARCHITECTURE.md` |
+| **AI Kill Chain / Minab school strike / Maven targeting** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14, Anthropic section, Node 2), `11_LEVERAGE_THESIS.md` |
+| **Anthropic v. DoD lawsuit / supply chain risk legal challenge** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14), `11_LEVERAGE_THESIS.md` |
+| **Maven Smart System / Claude military targeting / kill chain** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14, Node 2) |
+| **Judge Rita Lin / Anthropic preliminary injunction** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14) |
 | **Attention economy / noise generators / quotas** | `06_ATTENTION_ECONOMY.md` | `14_Files/Main_Characters.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` |
 | **DOGE / administrative state** | `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/DOGE_node_timeline.md` | `06_ATTENTION_ECONOMY.md` |
 | **DOGE failure documentation / Cavanaugh deposition** | `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md` | `09_CURRENT_THREADS.md` (Node 13), `06_ATTENTION_ECONOMY.md` (Heat Sink) |

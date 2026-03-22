@@ -6,7 +6,7 @@
 
 ## Active Leverage Nodes (March 2026)
 
-**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 13 nodes tracked.
+**Purpose**: Tracking primary entities exercising or subject to information/capital leverage in current geopolitical dynamics. 14 nodes tracked.
 
 ### Node 1: G. Maxwell (Information → Clemency)
 
@@ -440,7 +440,7 @@
 
 **Sources**: <a href="https://www.politico.com/news/2026/02/26/anthropic-rejects-pentagons-ai-demands-00802554">Politico</a>, <a href="https://reason.com/2026/02/27/anthropic-ceo-refuses-pentagon-demands-to-remove-safeguards-on-military-ai/">Reason</a>, <a href="https://www.military.com/daily-news/2026/02/27/anthropic-refuses-bend-pentagon-ai-safeguards-dispute-nears-deadline.html">Military.com</a>, <a href="https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html">CNBC</a>, <a href="https://www.aljazeera.com/news/2026/2/28/openai-strikes-deal-with-pentagon-to-use-tech-in-classified-network">Al Jazeera</a>, <a href="https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/">TechCrunch (Series G)</a>, [NPR — Pentagon labels Anthropic supply chain risk (March 6, 2026)](https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk)
 
-**Framework Relevance**: Anthropic demonstrates what *non-compliance* looks like within the leverage architecture — immediate exclusion from infrastructure, financial penalty, and institutional designation as "risk." The speed of OpenAI's replacement suggests the compliance pipeline was pre-positioned. MGX investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides.
+**Framework Relevance**: Anthropic demonstrates what *non-compliance* looks like within the leverage architecture — immediate exclusion from infrastructure, financial penalty, and institutional designation as "risk." The speed of OpenAI's replacement suggests the compliance pipeline was pre-positioned. MGX investment in Anthropic *after* the Pentagon refusal represents capital positioning on both sides. The kill chain integrity consequences are tracked in **Node 14** — see `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`.
 
 **OpenAI Deal Mechanics** [From Speaker analysis]:
 - OpenAI had been pursuing FedRAMP High authorization since 2023 — compliance infrastructure for classified network integration was being built well before the Anthropic dispute
@@ -1016,6 +1016,44 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
+## Node 14: AI Kill Chain Integrity / Minab School Strike (March 2026)
+
+| Detail | Status (March 2026) |
+|--------|---------------------|
+| Tracking type | AI targeting pipeline integrity failure — political decision → structural degradation → civilian casualty |
+| **Anthropic ban (Feb 27)** | Hegseth designated Anthropic "supply chain risk to national security." Trump ordered all federal agencies to cease using Anthropic products. Claude was the **only** frontier AI model cleared for classified Pentagon networks. 6-month phase-out granted (expires Aug 27). | ✅ VERIFIED — [NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban), [ABC News](https://abcnews.com/Politics/anthropic-latest-pentagon-contract-bar-ai-autonomous-weapons/story?id=130558898) |
+| **OpenAI replacement (Feb 27)** | OpenAI announced $200M Pentagon deal for classified network deployment within hours. Altman admitted deal was "definitely rushed." | ✅ VERIFIED — [NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban), [MIT Technology Review](https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/) |
+| **Operation Epic Fury (Feb 28)** | 1,000 strikes in first 24 hours. Maven Smart System operational with Claude still embedded as "operational core." Average targeting decision: ~86 seconds. | ✅ VERIFIED — [CENTCOM](https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/4418396/us-forces-launch-operation-epic-fury/), [Republic World](https://www.republicworld.com/world-news/maven-smart-system-explained-the-us-ai-technology-behind-1000-strikes-in-iran-during-operation-epic-furys-first-day) |
+| **Minab school strike (Feb 28)** | Shajareh Tayyebeh girls' primary school in Minab, Iran struck by Tomahawk cruise missile — triple-tapped (3 strikes). 175 killed (majority children ages 7–12), 95 injured. Adjacent to IRGC naval compound; school formerly part of compound before being walled off years earlier. DIA attributed to "outdated targeting data." | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/2026_Minab_school_airstrike), [Washington Post](https://www.washingtonpost.com/national-security/2026/03/11/us-strike-iran-elementary-school-ai-target-list/), [HRW](https://www.hrw.org/news/2026/03/12/iran-us-school-attack-findings-show-need-for-reform-accountability) |
+| **Al Jazeera satellite finding** | Strike pattern reportedly **bypassed** the Shahid Absalan Specialist Clinic between school and IRGC base, then hit clinic separately after it began treating school victims. If confirmed, inconsistent with "outdated maps" — precision targeting excluded clinic but hit school. | ⚠️ PARTIALLY VERIFIED — Multiple sources reference clinic strike; specific "bypassed" characterization needs re-verification against primary Al Jazeera investigation |
+| **Congressional response** | 120+ Democratic members sent letter to Hegseth asking whether Maven/AI was used to identify the school as a target. Pentagon response (as of March 22): "The incident is under investigation." | ✅ VERIFIED — [NBC News](https://www.nbcnews.com/politics/national-security/democrats-ask-pentagon-iran-school-strike-role-ai-rcna263083) |
+| **Semafor sources** | Former military officials say humans — not AI — are to blame. Target list was pre-built using pre-war intelligence. AI role was more significant for unknown/moving targets, not static pre-planned ones. | ✅ VERIFIED — [Semafor](https://www.semafor.com/article/03/18/2026/humans-not-ai-are-to-blame-for-deadly-iran-school-strike-sources-say) |
+| **Anthropic v. DoD lawsuits (Mar 9)** | Anthropic filed two federal lawsuits (N.D. California + D.C. Circuit) challenging designation as illegal retaliation. Alleges violation of APA, First Amendment, and due process. | ✅ VERIFIED — [TechCrunch](https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/), [CBS News](https://www.cbsnews.com/news/anthropic-pentagon-supply-chain-risk-lawsuit/), [Politico](https://www.politico.com/news/2026/03/09/anthropic-sues-trump-admin-over-supply-chain-risk-label-00818716) |
+| **Emergency stay (Mar 12)** | Anthropic seeks emergency stay in D.C. Circuit; estimates "hundreds of millions, or even multiple billions" in 2026 lost revenue. Judge expedited proceedings directly to preliminary injunction. | ✅ VERIFIED — [SFGate](https://www.sfgate.com/news/bayarea/article/sf-hearing-expedited-on-anthropics-request-for-22071049.php), [Piedmont Exedra](https://piedmontexedra.com/2026/03/judge-fast-tracks-hearing-on-anthropics-injunction-request-against-war-department) |
+| **Tech industry amicus (Mar 13)** | Tech industry groups filed amicus brief supporting Anthropic. | ✅ VERIFIED — [Axios](https://www.axios.com/2026/03/16/tech-industry-rallies-anthropic-pentagon-fight) |
+| **150 retired judges amicus (Mar 17)** | 150 retired federal/state judges (bipartisan) filed amicus brief supporting Anthropic. Called designation "misinterpretation of statute" with "dangerous precedent." | ✅ VERIFIED — [AOL/CNN](https://www.aol.com/news/nearly-150-retired-judges-anthropics-061550403.html), [Benzinga](https://www.benzinga.com/news/politics/26/03/51318344/no-one-is-trying-to-force-the-department-to-contract-with-anthropic-say-149-retired-judges-in-pentagon-ai-fight), [WION](https://www.wionews.com/world/nearly-150-former-us-judges-rally-behind-anthropic-in-clash-with-pentagon-over-supply-chain-risk-label-1773830981416) |
+| **Pentagon foreign workers argument (Mar 17)** | Pentagon raised new argument: Anthropic's foreign workers (including Chinese nationals) pose security risk under China's National Intelligence Law. | ✅ VERIFIED — [Axios](https://www.axios.com/2026/03/19/pentagon-anthropic-foreign-workforce-security-risks), [Forbes](https://www.forbes.com/sites/anishasircar/2026/03/20/pentagon-says-anthropics-ai-safety-limits-make-it-an-unacceptable-wartime-risk/) |
+| **Court hearing (Mar 24)** | Judge Rita Lin hears oral arguments on preliminary injunction in San Francisco. Government calls designation "lawful and reasonable." | ⏳ UPCOMING — [N.D. Cal. docket](https://cand.uscourts.gov/judges/rfl/lin-rita-f), [Lawfare](https://www.lawfaremedia.org/article/the-right-remedy-in-the-anthropic-case) |
+| **Model transition (ongoing)** | Claude being phased out (6-month deadline). GPT-5.4 (OpenAI) actively deployed as primary replacement — "decision compression." Grok (xAI) cleared for classified settings. Palantir AIP/Gotham and Anduril Lattice continue as foundational platforms. | ✅ VERIFIED (Claude/GPT-5.4) — [NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban), [Fortune](https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/); ⚠️ PARTIALLY VERIFIED (GPT-5.4 specific military functions not publicly detailed by OpenAI) |
+| **Framework connection** | Follows thermostat pattern: structural intervention produces desired outcome regardless of intent. Non-compliance penalty (Anthropic) + rushed replacement (OpenAI) + degraded guardrails = kill chain integrity failure. Connects to Node 2 (Iran War), Node 13 (Musk/xAI — Grok cleared for classified), and Leverage Thesis coercion template. |
+| **Cross-references** | `11_LEVERAGE_THESIS.md` (Anthropic section, coercion template), `04_CAPITAL_ARCHITECTURE.md` (OpenAI/Grok Pentagon contracts), `09_CURRENT_THREADS.md` (Anthropic-Pentagon Standoff, Node 2, Node 13) |
+| Last updated | March 22, 2026 |
+
+**Tracking Items**:
+| Item | Date to Check |
+|------|--------------|
+| Judge Lin preliminary injunction ruling | March 24, 2026 (hearing) |
+| Pentagon investigation findings on AI/Maven role in school strike | TBD |
+| Congressional deadline response (120+ members asked by March 20) | Overdue — Pentagon response pending |
+| OpenAI GPT-5.4 classified deployment milestones | Q2 2026 |
+| Claude phase-out deadline | August 27, 2026 |
+
+**Sources**:
+- Full analysis: `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`
+- Web verification performed March 22, 2026: Anthropic lawsuits confirmed (TechCrunch, CBS News, Politico), 150 judges amicus confirmed (Benzinga, AOL, WION), Pentagon foreign workers argument confirmed (Axios, Forbes), Judge Rita Lin March 24 hearing confirmed (N.D. Cal. docket, SFGate, Lawfare), Maven/Claude targeting confirmed (Republic World, TheDefenseNews, NBC News).
+
+---
+
 ## Research Gaps
 
 ### Needs More Data
@@ -1042,6 +1080,7 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 | Source | Location |
 |--------|----------|
+| AI Kill Chain / Minab School Strike | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` |
 | Elon Musk Empire Realignment | `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md` |
 | Cuba Crisis Escalation | `10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md` |
 | April 2026 Convergence Window | `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md` |
@@ -1082,4 +1121,4 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 22, 2026. Node 13 added: Elon Musk / SpaceX-xAI Empire Realignment — tracks SpaceX-xAI $1.25T merger (Feb 3, 2026), SpaceX IPO (mid-to-late 2026, $1.5–1.75T target), Grok Pentagon classified access (Jan 2026), Tesla commercial decline (-13% Q1 2025 YoY; Q1 2026 data expected late April), TeslaTakedown (250+ cities), Grok CSAM class action (Case No. 5:26-cv-02246, N.D. Cal., filed March 16, 2026), X Money (April 2026 early public access, not yet launched), DOGE documented failure (Cavanaugh deposition: deficit not reduced, spending increased 6% to $7.558T), Macrohard/Digital Optimus (March 11, 2026), xAI talent exodus (2/12 co-founders remain). Web verification performed: SpaceX IPO date/valuation confirmed (⚠️ exact date not official), Tesla Q1 2026 deliveries not yet released, X Money confirmed not launched, xAI CSAM docket number retrieved. Source: `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md`. Previous: March 21, 2026.*
+*Last Updated: March 22, 2026. Node 14 added: AI Kill Chain Integrity / Minab School Strike — tracks the structural connection between the Anthropic ban (Feb 27), Operation Epic Fury launch (Feb 28, 1,000 strikes, Maven/Claude at 86-second targeting cycles), the Minab school triple-tap strike (175 killed, majority children), Anthropic v. DoD lawsuits (Mar 9, N.D. Cal. + D.C. Circuit), 150 retired judges amicus (Mar 17), and upcoming Judge Rita Lin hearing (Mar 24). Web verification performed: lawsuits confirmed (TechCrunch, CBS News, Politico), judges amicus confirmed (Benzinga, AOL, WION), foreign workers argument confirmed (Axios, Forbes), hearing confirmed (N.D. Cal. docket, SFGate, Lawfare). Source: `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`. Previous: March 22, 2026 (Node 13).*

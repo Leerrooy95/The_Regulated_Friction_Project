@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.2
+# The Regulated Friction Project v11.3
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -157,7 +157,18 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.2) — Elon Musk Empire Realignment Integration — March 22, 2026
+## What's New (v11.3) — AI Kill Chain / Minab School Strike Integration — March 22, 2026
+
+Integrates the new AI Kill Chain analysis (`10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`) — 51/53 claims verified with sourced tables throughout — into the repository's active tracking infrastructure.
+
+- **Node 14 added** to [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): AI Kill Chain Integrity / Minab School Strike — tracks the Anthropic ban (Feb 27), Operation Epic Fury launch (Feb 28, 1,000 strikes, Maven/Claude at 86-second targeting cycles), the Minab school triple-tap (175 killed, majority children), Anthropic v. DoD lawsuits (Mar 9, N.D. Cal. + D.C. Circuit), 150 retired judges amicus (Mar 17), Pentagon foreign workers argument (Mar 17), and upcoming Judge Rita Lin hearing (Mar 24).
+- **Leverage Thesis expanded**: [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md) — Anthropic section now includes kill chain consequence analysis (Feb 28 school strike within 24 hours of ban), coercion template documentation (demand → deadline → threat → punishment → replacement → narrative escalation), full legal proceedings timeline (March 9–24), and updated inference connecting structural compliance enforcement to operational system degradation.
+- **Report updated**: [`Report.md`](Report.md) — new "AI Kill Chain" section documenting the Anthropic ban → Maven targeting → school strike structural sequence, legal proceedings, and framework connections.
+- **Context routing updated**: [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md) — five new routing entries for AI Kill Chain, Maven targeting, Anthropic v. DoD lawsuit, and Judge Rita Lin hearing topics.
+- **Web-verified March 22**: Anthropic lawsuits confirmed (TechCrunch, CBS News, Politico), 150 judges amicus confirmed (Benzinga, AOL, WION), Pentagon foreign workers argument confirmed (Axios, Forbes), Judge Rita Lin March 24 hearing confirmed (N.D. Cal. docket, SFGate, Lawfare), Maven/Claude targeting confirmed (Republic World, TheDefenseNews, NBC News).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`Report.md`](Report.md).
+
+### Previous (v11.2) — Elon Musk Empire Realignment Integration — March 22, 2026
 
 Integrates the new Elon Musk Empire Realignment tracker (`10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md`) — 46/51 claims verified with sourced tables throughout — into the repository's active tracking infrastructure.
 
