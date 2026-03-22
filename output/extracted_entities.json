@@ -16,9 +16,9 @@
           "context": "Maxwell's attorney"
         },
         {
-          "name": "House Oversight Committee",
-          "type": "ORG",
-          "context": "US Congressional committee"
+          "name": "David Markus",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from maxwell"
         },
         {
           "name": "DOJ",
@@ -61,8 +61,8 @@
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "FCI Tallahassee",
-          "type": "LOCATION",
+          "name": "AP",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
@@ -131,12 +131,17 @@
         {
           "name": "Iran",
           "type": "LOCATION",
-          "context": "Country"
+          "context": "ongoing power struggle between IRGC hardliners and pragmatists"
         },
         {
           "name": "Strait of Hormuz",
           "type": "LOCATION",
-          "context": "Critical oil shipping chokepoint"
+          "context": "shipping threats persist"
+        },
+        {
+          "name": "Assembly of Experts",
+          "type": "ORG",
+          "context": "involved in Iran's leadership succession"
         },
         {
           "name": "Operation Epic Fury",
@@ -189,7 +194,7 @@
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "March 22, 2026",
+          "name": "March 2026",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from iran"
         },
@@ -233,12 +238,12 @@
         {
           "name": "Saudi PIF",
           "type": "ORG",
-          "context": "Saudi Public Investment Fund"
+          "context": "involved in AI/minerals/tourism investments"
         },
         {
           "name": "Mubadala",
           "type": "ORG",
-          "context": "UAE sovereign wealth fund"
+          "context": "involved in various investments"
         },
         {
           "name": "MGX",
@@ -248,7 +253,7 @@
         {
           "name": "Affinity Partners",
           "type": "ORG",
-          "context": "Jared Kushner's investment firm"
+          "context": "involved in $2B PIF drawdown"
         },
         {
           "name": "Stargate",
@@ -261,7 +266,7 @@
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "SEC 13F",
+          "name": "SEC 13Fs",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
@@ -585,17 +590,17 @@
         {
           "name": "DOJ",
           "type": "ORG",
-          "context": "US Department of Justice"
+          "context": "involved in Epstein file releases"
         },
         {
           "name": "Pam Bondi",
           "type": "PERSON",
-          "context": "US Attorney General"
+          "context": "involved in document production status"
         },
         {
           "name": "House Oversight Committee",
           "type": "ORG",
-          "context": "US Congressional committee"
+          "context": "involved in Epstein file releases"
         },
         {
           "name": "AG Pam Bondi",
@@ -695,8 +700,13 @@
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "Acts 373/548",
-          "type": "LEGAL",
+          "name": "Jefferson Power",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Good Day Farm",
+          "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
@@ -721,7 +731,18 @@
         }
       ],
       "event_classification": "NEUTRAL",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "epstein_files",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: march 22, 2026"
+        },
+        {
+          "target_node": "maxwell",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: march 22, 2026"
+        }
+      ]
     }
   },
   "convergence_signals": [

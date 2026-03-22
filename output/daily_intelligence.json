@@ -29,7 +29,9 @@
       "sources": [],
       "timestamp": "2026-03-22",
       "original_signal": "Board of Peace and Gaza reconstruction",
-      "category": "POLITICAL"
+      "category": "POLITICAL",
+      "claude_enriched": true,
+      "enrichment_note": "Draws on the dashboard's own EO 14375 and Board of Peace definitions combined with training knowledge of IOIA immunity frameworks, Gulf SWF structures, and the institutional mechanics of presidential executive orders establishing international organizations."
     },
     {
       "status": "MONITORING",

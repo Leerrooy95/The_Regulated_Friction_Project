@@ -1,7 +1,7 @@
 {
   "run_timestamp": "2026-03-22T14:24:25.809602+00:00",
   "run_date": "2026-03-22",
-  "nodes_queried": 7,
+  "nodes_queried": 5,
   "nodes_active": 0,
   "nodes_critical": 0,
   "convergence_detected": false,
@@ -70,7 +70,7 @@
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "FINANCIAL",
-      "impact_score": 1,
+      "impact_score": 2,
       "under_radar_flags": [],
       "key_entities_mentioned": [
         "Saudi PIF",
