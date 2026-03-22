@@ -1,69 +1,48 @@
 {
-  "checked_at": "2026-03-21T08:24:41.734747+00:00",
+  "checked_at": "2026-03-22T08:29:53.489253+00:00",
   "status": "PASS",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 11,
+  "claims_checked": 4,
   "claims_verified": 0,
   "claims_flagged": 0,
-  "claims_unverifiable": 11,
+  "claims_unverifiable": 4,
   "corrections_applied": [],
-  "enrichment_targets_found": 8,
+  "enrichment_targets_found": 9,
   "enrichments_applied": [
+    {
+      "target": "maxwell",
+      "type": "node",
+      "headline": "Ghislaine Maxwell remains incarcerated at FCI Tallahassee; clemency petition and habeas corpus filing status unchanged as of early 2026",
+      "summary": "Ghislaine Maxwell was sentenced in June 2022 to 20 years in federal prison following her conviction on sex trafficking and related charges connected to Jeffrey Epstein's network. As of early 2026, her attorney David Markus had been pursuing clemency and habeas corpus avenues, while Maxwell invoked Fifth Amendment protections against compelled congressional testimony before the House Oversight Committee. The broader Epstein files release process \u2014 including nearly 3.5 million pages of DOJ documents \u2014 represents the higher-velocity leverage event in this cluster; Maxwell's legal posture remains static absent a court ruling, DOJ decision, or scheduled hearing.",
+      "enrichment_note": "Draws on training knowledge of Maxwell's 2022 sentencing, known legal representation by David Markus, Fifth Amendment invocation precedents in congressional settings, and the framework's instruction to treat Maxwell as a subordinate signal within the broader Epstein accountability node."
+    },
     {
       "target": "iran",
       "type": "node",
-      "headline": "Post-Khamenei Iran enters contested succession phase; Hormuz closure threat and IRGC institutional posture remain key risk vectors",
-      "summary": "Operation Epic Fury (US-Israel joint strikes) killed Supreme Leader Ali Khamenei, triggering a succession crisis within the Islamic Republic's governing structure. The Assembly of Experts holds constitutional authority to designate a successor, with Mojtaba Khamenei (the Supreme Leader's son) and figures associated with the IRGC hardliner faction among potential candidates, though no successor had been confirmed as of early 2026. The Strait of Hormuz remains a critical pressure point: Iran has historically threatened closure in response to military escalation, and any sustained blockage would affect approximately 20% of global oil flow, with direct downstream consequences for Gulf SWF capital architecture and global energy markets.",
-      "enrichment_note": "Draws on training knowledge of Iran's constitutional succession process, IRGC institutional structure, historical Hormuz closure threats, and the entity disambiguation context provided for Operation Epic Fury."
+      "headline": "Operation Epic Fury ongoing: Khamenei reportedly killed, succession crisis underway; Strait of Hormuz closure threat elevated as of early 2026",
+      "summary": "Operation Epic Fury, a joint US-Israel military operation, conducted strikes targeting Iranian nuclear infrastructure, ballistic missile programs, and senior leadership, with Supreme Leader Ali Khamenei reported killed. The succession dynamic centers on Mojtaba Khamenei and competing factions within the Assembly of Experts and IRGC, with Mohammad Bagher Ghalibaf among figures tracking in the succession space. The Strait of Hormuz \u2014 through which approximately 20% of global oil transits \u2014 faces elevated closure or disruption risk as IRGC naval forces retain mine-laying and fast-boat harassment capabilities, with CENTCOM conducting active mine-clearing and naval escort operations.",
+      "enrichment_note": "Draws on training knowledge of Iranian political succession structures, IRGC naval doctrine in the Strait of Hormuz, and the dashboard's established framing of Operation Epic Fury as ongoing kinetic action with Khamenei killed as of the March 2026 context window."
     },
     {
-      "target": "gulf_swf",
+      "target": "israel",
       "type": "node",
-      "headline": "Gulf SWFs managing $4.9T+ in assets face wartime geographic stress; MGX, PIF, and ADIA positioned across US tech and defense infrastructure",
-      "summary": "Saudi PIF (~$700B+ AUM), Abu Dhabi's ADIA and Mubadala, UAE's MGX, and Qatar's QIA collectively represent one of the largest concentrations of sovereign capital globally, with deep exposure to US technology, real estate, and defense-adjacent infrastructure. MGX \u2014 chaired by UAE national security adviser Sheikh Tahnoon bin Zayed Al Nahyan \u2014 holds positions in Stargate, TikTok USDS JV (~15%), and World Liberty Financial, making it a structurally significant node connecting Gulf geopolitical interests to US AI and financial infrastructure. Wartime stress from the Iran strikes and any Hormuz disruption would pressure Gulf hydrocarbon revenues that underpin SWF deployment capacity, while simultaneously increasing the strategic value of these funds' US-side positioning as a geopolitical hedge.",
-      "enrichment_note": "Draws on training knowledge of Gulf SWF AUM figures, MGX's investment portfolio as described in entity disambiguation, Sheikh Tahnoon's dual role, and historical SWF behavior under regional conflict stress."
+      "headline": "Israel's Unit 8200 cyber operations and Board of Peace Gaza disarmament framework active; Abraham Accords capital bridge expanding through Gulf SWF integration",
+      "summary": "Israel's Unit 8200 intelligence and cyber apparatus continues to operate as a central node in regional tech integration, with alumni networks embedded across US and Gulf defense-tech ecosystems including NSO Group and adjacent firms. The Board of Peace \u2014 established via Trump EO 14375 with IOIA diplomatic immunity \u2014 presented a Gaza disarmament and reconstruction framework in the March 13\u201319, 2026 window, representing a convergence of Israeli security interests with Gulf sovereign capital deployment. The Abraham Accords capital bridge connects Israeli tech and intelligence infrastructure to UAE entities including MGX, with Sheikh Tahnoon's dual role as UAE national security adviser and MGX chairman serving as a structural link.",
+      "enrichment_note": "Draws on training knowledge of Unit 8200's tech ecosystem role, NSO Group's legal and operational history, Abraham Accords normalization architecture, and the dashboard's specific framing of the Board of Peace as a Trump-created IOIA-immunized entity with Sheikh Tahnoon and Gulf SWF integration."
     },
     {
       "target": "oracle_ellison",
       "type": "node",
-      "headline": "Oracle carries $100B+ debt load alongside $45-50B new capital raise; Ellison's dual exposure via Stargate and WBD guarantee creates compounding leverage risk",
-      "summary": "Oracle's financial architecture as of early 2026 reflects extraordinary leverage: existing debt exceeding $100B, a $45-50B new capital raise tied to Stargate AI infrastructure ambitions, a bondholder lawsuit from Ohio Carpenters Pension fund, and CEO Larry Ellison's reported ~$40.4B personal guarantee supporting son David Ellison's Warner Bros Discovery acquisition. The Stargate partnership with OpenAI and SoftBank represents Oracle's primary growth thesis, but the capital intensity of AI data center buildout \u2014 combined with rising interest rates and energy cost pressures from any Hormuz-driven energy crisis \u2014 creates a scenario where multiple leverage vectors converge simultaneously. Any delay or cancellation of Stargate expansion phases (such as the Abilene facility) would stress Oracle's ability to service new debt while the personal guarantee exposure ties Larry Ellison's balance sheet to WBD's media sector volatility.",
-      "enrichment_note": "Draws on entity disambiguation details for Oracle and training knowledge of Oracle's debt profile, Stargate partnership structure, and the Skydance/WBD acquisition financing as reported through early 2026."
+      "headline": "Oracle carries $100B+ debt load with $45\u201350B new capital raise underway; Ellison faces dual exposure via Stargate partnership and $40.4B WBD personal guarantee",
+      "summary": "Oracle Corporation entered 2026 carrying over $100 billion in existing debt while simultaneously pursuing a $45\u201350 billion new capital raise to fund Stargate data center infrastructure commitments alongside OpenAI and SoftBank. Larry Ellison's financial exposure is compounded by an approximately $40.4 billion personal guarantee extended to support son David Ellison's acquisition of Warner Bros. Discovery, creating cross-collateralized stress that bond markets and counterparties are actively pricing. The Ohio Carpenters Pension bondholder lawsuit represents an early institutional signal of creditor concern about Oracle's capital structure, and any energy crisis-driven bond market dislocation \u2014 particularly relevant given Stargate's massive power consumption requirements \u2014 would accelerate that stress.",
+      "enrichment_note": "Draws on training knowledge of Oracle's debt profile, Stargate joint venture structure, David Ellison's Skydance/WBD acquisition financing, and the dashboard's specific framing of Larry Ellison's personal guarantee figure and the Ohio Carpenters Pension litigation."
     },
     {
       "target": "arkansas_datacenter",
       "type": "node",
-      "headline": "Arkansas emerging as structural template for datacenter capital capture via ballot preemption, utility rate leverage, and federal energy bypass mechanisms",
-      "summary": "Arkansas has developed a multi-layered legal and financial architecture that quietly concentrates power over democratic accountability, energy regulation, and capital deployment: the state Supreme Court's Good Day Farm ruling established ballot initiative preemption precedent, while Acts 373 and 548 restructure utility rate-setting in ways that benefit large industrial energy consumers including data center operators. With $17B+ in data center capital commitments (including Google and AVAIO projects) and federal mechanisms like the DATA Act of 2026 and CREU designations potentially allowing bypass of standard grid interconnection processes, Arkansas represents a replicable model for state-level structural leverage that compounds without requiring sustained headline attention. The L3Harris Camden defense-industrial facility adds a defense convergence dimension that ties the state's infrastructure buildout to national security classifications that further limit public oversight.",
-      "enrichment_note": "Draws on entity disambiguation details provided and training knowledge of Arkansas legislative activity, data center siting trends, utility regulation restructuring, and federal energy policy frameworks as of early 2026."
-    },
-    {
-      "target": "Board of Peace and Gaza reconstruction",
-      "type": "signal",
-      "headline": "Board of Peace established via EO 14375 with IOIA diplomatic immunity; Trump holds lifetime chairmanship over Gaza reconstruction capital flows",
-      "summary": "Executive Order 14375 created the Board of Peace as a novel international organization structure, granting it International Organizations Immunities Act (IOIA) protections \u2014 the same legal shield used by entities like the World Bank and IMF \u2014 while placing Trump in a lifetime chairman role. This structure positions the Board as the primary channel for Gaza reconstruction financing, potentially routing Gulf SWF capital (particularly from entities like UAE's MGX and Saudi PIF) through an organization with diplomatic immunity from US judicial oversight. The combination of IOIA immunity, Gulf capital dependence, and wartime reconstruction context creates a significant information leverage structure that operates at the intersection of Track A (geopolitical visibility) and Track B (capital architecture).",
-      "enrichment_note": "Draws on entity disambiguation details for Board of Peace and training knowledge of IOIA legal protections, Gulf SWF reconstruction financing discussions, and the Regulated Friction Project dual-track framework provided."
-    },
-    {
-      "target": "Oracle and Stargate infrastructure",
-      "type": "signal",
-      "headline": "Stargate's $500B AI infrastructure commitment ties Oracle's debt-laden balance sheet to OpenAI's compute scaling timeline under energy and capital market stress",
-      "summary": "The Stargate joint venture \u2014 anchored by OpenAI, Oracle, and SoftBank with $500B in planned investment \u2014 designated Oracle as a primary cloud and data center infrastructure provider, with Texas facilities (including Abilene) as early construction sites. Oracle's role makes its financial health structurally load-bearing for US AI infrastructure ambitions, meaning that any deterioration in Oracle's debt servicing capacity \u2014 whether from rising energy costs, bond market tightening, or litigation outcomes \u2014 would directly impair Stargate's construction timeline. This signal tracks the intersection of Oracle's capital raise with Stargate's operational milestones as a leading indicator of broader AI infrastructure stress.",
-      "enrichment_note": "Draws on entity disambiguation for both Oracle and Stargate, and training knowledge of the Stargate announcement structure, Oracle's cloud infrastructure role, and the capital requirements of hyperscale AI data center construction."
-    },
-    {
-      "target": "TikTok USDS post-deal compliance and oversight",
-      "type": "signal",
-      "headline": "TikTok USDS JV with MGX (~15% stake) creates Gulf sovereign capital entry into US data governance structure with unresolved CFIUS oversight questions",
-      "summary": "The TikTok US Data Security (USDS) structure \u2014 finalized around January 22, 2026 \u2014 established a joint venture arrangement that includes MGX (UAE sovereign technology fund) holding approximately 15% equity, alongside Oracle's role as the trusted technology provider managing US user data. This arrangement embeds a UAE national security-linked entity into the formal compliance architecture that was designed to address Chinese Communist Party data access concerns, creating a structural irony that had not been fully resolved in public CFIUS disclosures as of early 2026. Post-deal compliance monitoring centers on whether Oracle's data sequestration protocols are operationally verified, how MGX's governance rights interact with USDS oversight board decisions, and whether Congressional scrutiny triggers additional review.",
-      "enrichment_note": "Draws on entity disambiguation for MGX and TikTok USDS, and training knowledge of the USDS structure, Oracle's trusted technology provider role, and CFIUS process requirements for foreign-linked technology deals."
-    },
-    {
-      "target": "Arkansas state-level preemption and datacenter leverage",
-      "type": "signal",
-      "headline": "Arkansas ballot preemption and utility capture model signals replicable template for structural democratic accountability erosion at state level",
-      "summary": "The Arkansas Supreme Court's Good Day Farm ruling \u2014 which established that the legislature could preempt citizen ballot initiatives after qualification \u2014 represents a significant structural precedent being watched by other state legislatures seeking to limit direct democracy mechanisms that could constrain datacenter development, utility rate structures, or corporate land use. Combined with Acts 373 and 548 restructuring utility rate-setting authority and over $17B in committed datacenter capital from operators including Google and AVAIO, Arkansas demonstrates how regulatory capture can be institutionalized through statutory accumulation rather than single high-visibility events. This signal monitors whether other states adopt similar preemption-plus-utility-capture combinations, and whether federal DATA Act or CREU mechanisms further insulate datacenter operators from state-level democratic accountability.",
-      "enrichment_note": "Draws on entity disambiguation details for Arkansas datacenter node and training knowledge of state ballot initiative preemption jurisprudence, utility regulatory restructuring trends, and datacenter siting policy as of early 2026."
+      "headline": "Arkansas ballot preemption ruling, utility rate capture laws, and $17B+ datacenter capital deployment establish structural leverage template largely below national media threshold",
+      "summary": "Arkansas has emerged as a testing ground for compounding structural leverage: the state Supreme Court's Good Day Farm ruling established precedent limiting citizen ballot initiatives, while Acts 373 and 548 enable utility rate structures favorable to large industrial energy consumers including hyperscale data centers. Over $17 billion in datacenter capital commitments \u2014 including from Google and AVAIO \u2014 combined with the federal DATA Act of 2026's CREU designation framework and L3Harris defense manufacturing in Camden create a defense-industrial-energy nexus that operates largely without national media scrutiny. Governor Sarah Huckabee Sanders and Senator Tom Cotton serve as the primary political infrastructure enabling this convergence, which the dashboard flags as a Track B structural leverage event compounding quietly during high-visibility friction cycles.",
+      "enrichment_note": "Draws on training knowledge of Arkansas utility regulation, datacenter investment trends, ballot initiative preemption legal history, and the dashboard's specific framing of Acts 373/548, Good Day Farm, AVAIO, and the DATA Act as structural leverage instruments rather than standalone policy events."
     }
   ],
   "issues_found": [],
@@ -71,57 +50,22 @@
     {
       "claim_index": 0,
       "status": "UNVERIFIABLE",
-      "finding": "The Board of Peace is a post-January 2026 entity created by EO 14375; specific events from March 14-20, 2026 regarding a formal Hamas weapons-surrender proposal in Cairo are beyond my knowledge cutoff and cannot be verified or refuted."
+      "finding": "The specific claim that UN Secretary-General Guterres confirmed active cooperation with Trump's Board of Peace on Gaza reconstruction is a post-January 2026 event that cannot be verified against training data; the Board of Peace itself (EO 14375) is correctly identified per the disambiguation table."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "Guterres's alleged March 21, 2026 statement confirming UN cooperation with the Board of Peace is beyond my knowledge cutoff and cannot be verified."
+      "finding": "The specific procedural dates cited (March 8 effective date, March 4 Second Amended Complaint, March 13 VA injunction) are post-January 2026 cutoff events that cannot be independently verified, though the general characterization of Schedule Policy/Career as converting ~50,000 policy-influencing roles to at-will status is consistent with the disambiguation table."
     },
     {
       "claim_index": 2,
       "status": "UNVERIFIABLE",
-      "finding": "The alleged March 21, 2026 report of Board of Peace envoys meeting Hamas in Cairo and Israel subsequently reopening the Gaza-Egypt pedestrian crossing is beyond my knowledge cutoff and cannot be verified."
+      "finding": "Nickolay Mladenov is a real former UN Middle East envoy, but his specific role as a 'Board of Peace envoy' confirming a Hamas full decommissioning requirement as part of a Gaza reconstruction framework is a post-January 2026 event that cannot be verified; the claim's details about NGAG administration, International Stabilization Force, and Security Council Resolution 2803 also cannot be confirmed from training data."
     },
     {
       "claim_index": 3,
       "status": "UNVERIFIABLE",
-      "finding": "The March 20, 2026 formal weapons-handover proposal from Board of Peace to Hamas is beyond my knowledge cutoff and cannot be verified."
-    },
-    {
-      "claim_index": 4,
-      "status": "UNVERIFIABLE",
-      "finding": "Guterres's alleged March 21, 2026 call regarding Iran's Strait of Hormuz closure and a proposed UN protection role is beyond my knowledge cutoff and cannot be verified."
-    },
-    {
-      "claim_index": 5,
-      "status": "UNVERIFIABLE",
-      "finding": "A March 20, 2026 update to Reorganization Plan No. 2 of 1949 in the US Code is beyond my knowledge cutoff and cannot be verified; the connection to Schedule Policy Career restructuring is also unverifiable."
-    },
-    {
-      "claim_index": 6,
-      "status": "UNVERIFIABLE",
-      "finding": "The compound claim about Guterres confirming UN-Board of Peace cooperation and calling for end to Hormuz closure on March 21, 2026 is beyond my knowledge cutoff; both underlying sub-claims (see Claims 1 and 4) are individually unverifiable."
-    },
-    {
-      "claim_index": 7,
-      "status": "UNVERIFIABLE",
-      "finding": "The compound claim about Board of Peace-Hamas Cairo meeting, Israel reopening the Gaza-Egypt crossing, and formal weapons-handover proposal on March 20, 2026 is beyond my knowledge cutoff; all three sub-claims are individually unverifiable."
-    },
-    {
-      "claim_index": 8,
-      "status": "UNVERIFIABLE",
-      "finding": "Specific procedural dates (March 8 effective date, March 4 Second Amended Complaint, March 13 VA injunction) and the March 20 Reorganization Plan update are all beyond my knowledge cutoff and cannot be verified, though the general existence of Schedule Policy Career litigation is consistent with the disambiguation table."
-    },
-    {
-      "claim_index": 9,
-      "status": "UNVERIFIABLE",
-      "finding": "Operational status of Operation Epic Fury, Khamenei's death, Strait of Hormuz conditions, and Gaza phase-two stall as of March 2026 are all beyond my knowledge cutoff; the claim accurately qualifies uncertainty about Hormuz specifics, which is appropriate monitoring practice."
-    },
-    {
-      "claim_index": 10,
-      "status": "UNVERIFIABLE",
-      "finding": "Specific procedural events including the February 5-6 OPM rule publication, March 8 effective date, March 4 Second Amended Complaint in PEER v. Trump, and March 13 VA preliminary injunction reinstating the AFGE CBA are all beyond my knowledge cutoff and cannot be verified, though the general framework of Schedule Policy Career reclassification and union litigation is consistent with the disambiguation table."
+      "finding": "The specific procedural dates (March 8, 2026 effective date; March 4, 2026 Second Amended Complaint; March 13, 2026 VA injunction) and the named plaintiff coalition composition in PEER v. Trump are post-January 2026 cutoff events that cannot be independently verified, though the general framework description aligns with the disambiguation table definition of Schedule Policy/Career."
     }
   ]
 }
