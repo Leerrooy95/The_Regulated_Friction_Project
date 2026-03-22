@@ -2,7 +2,7 @@
 
 **Purpose**: Quick reference guide for AI models to understand The Regulated Friction Project without reading every document.
 
-**Last Updated**: March 21, 2026 | **Repository Version**: v10.8
+**Last Updated**: March 21, 2026 | **Repository Version**: v11.0
 
 ---
 
@@ -150,7 +150,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: noise generators, cross-administration patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active research questions (11 nodes including Religious Layer, April 2026 Window) |
+| `09_CURRENT_THREADS.md` | Active research questions (12 nodes including Religious Layer, April 2026 Window, Zorro Ranch) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage architecture: Epstein/Musk origin, Iran extension, capital flows |
 

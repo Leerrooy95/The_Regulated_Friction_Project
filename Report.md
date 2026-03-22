@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** March 21, 2026
-**Version:** v10.9
+**Version:** v11.0
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -121,6 +121,20 @@ Three major events converged in a 72-hour window:
 - Iran retaliates under Operation Fateh Khyber; 3 US service members killed
 
 **Sources**: [USNI News](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region), [CNBC](https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html), [Axios](https://www.axios.com/2026/03/01/us-troops-killed-iran-operation-epic-fury)
+
+### March 21, 2026: Mueller Death and the Leverage Architecture
+
+Former FBI Director Robert Mueller III died March 21, 2026 (age 81, Parkinson's disease). Mueller had been subpoenaed by House Oversight Chairman Comer for the committee's Epstein investigation — the subpoena was withdrawn after health issues were confirmed. Mueller was FBI Director during Epstein's entire operating period (2001–2013). The FBI received tips about Zorro Ranch during his tenure; no search was conducted. His potential testimony about what the FBI knew is now permanently inaccessible.
+
+Within hours, Trump posted on Truth Social: *"Robert Mueller just died. Good, I'm glad he's dead. He can no longer hurt innocent people!"*
+
+The "innocent people" language maps directly to Trump's September 2025 call with Rep. Greene — "My friends will get hurt" — regarding the Epstein files. Both statements refer to people whose names appear in the files. Greene's break with Trump over the Epstein files is itself an enforcement outcome: MAGA's most loyal congresswoman resigned from Congress after Trump called her a "traitor" for supporting survivor transparency. Greene on the break: "Epstein was everything."
+
+In the same week, Peter Thiel called the Giving Pledge an "Epstein-adjacent, fake boomer club" (NYT interview) — deploying Epstein association offensively against Gates while his own Epstein exposure sits in the public record. The pattern extends the September 26, 2025 origin: files deployed offensively against rivals, suppressed defensively for allies.
+
+**Sources**: Mueller death: [NBC](https://www.nbcnews.com/politics/politics-news/robert-mueller-former-special-counsel-dies-rcna264561), [Politico](https://www.politico.com/news/2026/03/21/robert-mueller-trump-special-counsel-fbi-obituary-00039059). Comer subpoena: [CBS](https://www.cbsnews.com/news/robert-mueller-subpoena-withdrawn-jeffrey-epstein-house-overnight/), [The Hill](https://thehill.com/homenews/house/5478443-mueller-epstein-probe-oversight-testimony/). Greene: [NYT Magazine](https://www.ms.now/news/greene-says-trump-told-her-his-friends-would-get-hurt-by-epstein-files), [The Hill](https://thehill.com/homenews/house/5665887-trump-greene-epstein-coverup-claims/). Thiel: [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/).
+
+→ **Full analysis**: [`10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md`](10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md)
 
 ### December 2025: The Case Study
 

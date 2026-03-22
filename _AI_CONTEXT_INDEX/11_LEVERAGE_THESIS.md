@@ -18,6 +18,9 @@
 | Gulf SWFs personally controlled by royal family members | ✅ VERIFIED | `Node_Dossiers/tier2_entity_leadership_profiles.md` |
 | Same capital sources fund both Epstein-adjacent networks and AI infrastructure | 🔍 HYPOTHESIS | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_affinity_qxo.md` |
 | Barak–Epstein Russia/Israel back channel (2013-2016) via leaked emails | ⚠️ PARTIALLY VERIFIED | [Al Jazeera](https://www.aljazeera.com/news/2025/12/9/israels-ex-pm-ehud-barak-and-jeffrey-epstein-had-close-relationship-emails-reveal), [Middle East Monitor](https://www.middleeastmonitor.com/20251103-leaked-emails-reveal-jeffrey-epstein-helped-israel-build-backchannel-to-russia/), [Drop Site News](https://www.dropsitenews.com/s/epstein-and-israel) |
+| Mueller subpoenaed by Comer for Epstein investigation; subpoena withdrawn (health); died March 21, 2026 | ✅ VERIFIED | [CBS News](https://www.cbsnews.com/news/robert-mueller-subpoena-withdrawn-jeffrey-epstein-house-overnight/), [The Hill](https://thehill.com/homenews/house/5478443-mueller-epstein-probe-oversight-testimony/), [NBC](https://www.nbcnews.com/politics/politics-news/robert-mueller-former-special-counsel-dies-rcna264561) |
+| Trump "innocent people" / Greene "my friends will get hurt" linguistic parallel re: Epstein files | ✅ VERIFIED | [NYT Magazine](https://www.ms.now/news/greene-says-trump-told-her-his-friends-would-get-hurt-by-epstein-files), [The Hill](https://thehill.com/homenews/house/5665887-trump-greene-epstein-coverup-claims/), multiple outlets |
+| Thiel called Giving Pledge "Epstein-adjacent, fake boomer club" (March 2026 NYT interview) | ✅ VERIFIED | [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/), [Yahoo Finance](https://finance.yahoo.com/news/peter-thiel-actively-convincing-billionaires-174212328.html) |
 | Epstein sought Putin meeting via Barak — meeting NOT confirmed to have occurred | ⚠️ PARTIALLY VERIFIED | [Times of Israel](https://www.timesofisrael.com/liveblog_entry/epstein-sought-meeting-with-putin-through-barak-report/), [Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance), [France24](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties) |
 | Raskin called Iran strikes "desperate" distraction from Epstein files | ✅ VERIFIED | [FOX 5 DC](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran) |
 | Raskin: Trump mentioned >1M times in unredacted Epstein files | ✅ VERIFIED | [Axios](https://www.axios.com/2026/02/10/trump-epstein-files-jamie-raskin-unredacted), [Truthout](https://truthout.org/articles/raskin-trump-mentioned-more-than-a-million-times-in-unredacted-epstein-files/), [Mediaite](https://www.mediaite.com/media/news/jamie-raskin-reveals-trumps-name-shows-up-in-unredacted-epstein-files-more-than-a-million-times/) |
@@ -70,6 +73,52 @@ This is where the leverage mechanism was first identified operating in real-time
 The September release functions as a demonstration of leverage. Netanyahu's same-day framing of Musk as someone to "talk to" about platform control was signaling within a leverage architecture. The January escalation (actual emails vs. calendar entries) shows the leverage can be *tightened* if needed. The compliance outcome (defense integration) follows.
 
 **Sources**: `New_Data_2026/2026_Analysis.md`, `Report.md`, `09_CURRENT_THREADS.md` (DOJ Epstein Files section)
+
+### March 21, 2026: The Same Architecture in Reverse
+
+The Mueller death response demonstrates the leverage architecture operating defensively — celebrating the loss of a potential witness rather than deploying files against a target.
+
+#### The Event
+
+Robert Mueller III — FBI Director (2001–2013), Special Counsel (2017–2019) — died March 21, 2026 (age 81, Parkinson's disease). Trump posted on Truth Social: "Robert Mueller just died. Good, I'm glad he's dead. He can no longer hurt innocent people!"
+
+Mueller had been subpoenaed by House Oversight Chairman James Comer for the committee's Epstein investigation — the subpoena was withdrawn after the committee learned of Mueller's health issues. Mueller was FBI Director during Epstein's entire operating period at Zorro Ranch, NYC, and Palm Beach. The FBI received tips about the ranch during Mueller's tenure. No search was conducted. His potential testimony is now permanently inaccessible.
+
+**Sources**: Mueller death: [NBC News](https://www.nbcnews.com/politics/politics-news/robert-mueller-former-special-counsel-dies-rcna264561), [Politico](https://www.politico.com/news/2026/03/21/robert-mueller-trump-special-counsel-fbi-obituary-00039059), [CNN](https://www.cnn.com/2026/03/21/politics/robert-mueller-former-fbi-director-dies). Comer subpoena: [CBS News](https://www.cbsnews.com/news/robert-mueller-subpoena-withdrawn-jeffrey-epstein-house-overnight/), [The Hill](https://thehill.com/homenews/house/5478443-mueller-epstein-probe-oversight-testimony/), [ABC News](https://abcnews.com/Politics/house-oversight-withdrawn-subpoena-robert-mueller-new-report/story?id=125148414).
+
+#### The Linguistic Parallel: "Innocent People" = "My Friends"
+
+Trump's "He can no longer hurt innocent people" maps directly to his September 2025 call with Rep. Marjorie Taylor Greene: "My friends will get hurt" — regarding Epstein files. Both statements refer to the people whose names appear in the files. Greene's account — published in NYT Magazine (December 29, 2025) and confirmed on the "Keeping It Real" podcast (February 2026) — documents Trump yelling at her for appearing at a news conference with Epstein survivors and threatening to name abusers. Trump told Greene survivors "had not earned the honor" of an Oval Office meeting. Greene called this "the last conversation" she had with Trump and identified the Epstein files as the reason for their permanent break: "Epstein was everything."
+
+**Sources**: [NYT Magazine](https://www.ms.now/news/greene-says-trump-told-her-his-friends-would-get-hurt-by-epstein-files), [The Hill](https://thehill.com/homenews/house/5665887-trump-greene-epstein-coverup-claims/), [New Republic](https://newrepublic.com/post/204786/marjorie-taylor-greene-last-conversation-trump-epstein), [HuffPost/Yahoo](https://www.yahoo.com/news/articles/marjorie-taylor-greene-says-trump-002940019.html), [TIME](https://time.com/7339247/marjorie-taylor-greene-trump-feud-epstein-files-new-claims/)
+
+#### The Greene Arc — Enforcement Outcome
+
+Greene's trajectory documents the leverage architecture's enforcement mechanism in action:
+
+| Date | Event |
+|------|-------|
+| **Sep 2025** | Greene holds news conference with Epstein survivors; threatens to name abusers |
+| **Sep 2025** | Trump calls Greene: "My friends will get hurt." Tells her survivors don't deserve Oval Office meeting |
+| **Nov 2025** | Greene signs discharge petition to force Epstein Files Transparency Act vote |
+| **Nov 2025** | Trump calls Greene "traitor" and "Lunatic"; withdraws endorsement |
+| **Nov 18, 2025** | House passes Epstein Files Transparency Act 427-1 |
+| **Nov 21, 2025** | Greene announces resignation from Congress |
+| **Dec 2025** | Greene tells NYT: "Epstein was everything." Calls MAGA "all a lie… serving their big donors" |
+
+MAGA's most loyal congresswoman had her career destroyed for supporting survivor transparency against the protected network. The framework documents this as an observable enforcement outcome.
+
+#### The Thiel Deployment (Same Week)
+
+In the same week, Peter Thiel called the Gates/Buffett Giving Pledge an "Epstein-adjacent, fake boomer club" in a New York Times interview — deploying Epstein association offensively against Gates while Thiel's own Epstein exposure (Valar Ventures limited partnership, personal introductions, listed as Zorro Ranch visitor) sits in the public record.
+
+**Sources**: [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/), [Yahoo Finance](https://finance.yahoo.com/news/peter-thiel-actively-convincing-billionaires-174212328.html), [Bloomberg (Epstein-Thiel connections)](https://www.bloomberg.com/news/articles/2026-03-12/epstein-courted-peter-thiel-for-years-with-banker-political-connections)
+
+#### [Inference] Interpretation
+
+The September 26, 2025 origin pattern demonstrated files deployed *offensively* — Epstein calendars naming Musk released on the same day Netanyahu calls him a "friend." March 21, 2026 demonstrates the *defensive* side — Trump celebrating the death of a potential witness because it removes a threat to the protected network. Thiel simultaneously deploys "Epstein-adjacent" offensively against Gates. The person who says "Epstein-adjacent" first controls who the label sticks to. The architecture operates bidirectionally: offensive against rivals, defensive for allies.
+
+**Full analysis**: `10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md`
 
 ---
 
@@ -314,10 +363,11 @@ The Barak–Epstein back channel and the "Epstein war" framing suggest that Epst
 - **For Iran strike mapping**: `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
 - **For framework validation**: `10_FRAMEWORK_VALIDATION.md`
 - **For methodology and statistics**: `07_METHODOLOGY.md`
+- **For Mueller death / "innocent people" / Greene arc**: `10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md`
 
 ---
 
-*This document synthesizes the leverage mechanism across domestic (Musk/Epstein/Netanyahu), geopolitical (Iran), institutional (Anthropic), and capital (Gulf SWF) domains. All statistical claims are independently reproducible via `Run_Correlations_Yourself/`. Claims marked [Inference] represent analytical interpretations beyond the data.*
+*This document synthesizes the leverage mechanism across domestic (Musk/Epstein/Netanyahu), geopolitical (Iran), institutional (Anthropic), capital (Gulf SWF), and enforcement (Mueller death/Greene arc/Thiel deployment) domains. All statistical claims are independently reproducible via `Run_Correlations_Yourself/`. Claims marked [Inference] represent analytical interpretations beyond the data.*
 
 ---
 
