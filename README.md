@@ -1,4 +1,4 @@
-# The Regulated Friction Project v10.10
+# The Regulated Friction Project v11.0
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -97,7 +97,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window — 11 nodes; Cuba crisis escalation with Russian tanker confrontation) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window, Zorro Ranch — 12 nodes; Mueller death / lost testimony; Cuba crisis escalation) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -157,78 +157,32 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v10.10) — Zorro Ranch / New Mexico Investigation + 7-Year Gap — March 21, 2026
+## What's New (v11.0) — Mueller Death, Leverage Architecture Continuation, March 21 Consolidation — March 21, 2026
 
-- **New Node 12 added**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md) now tracks the New Mexico Zorro Ranch investigation as a distinct accountability node with documented state-level friction/compliance pattern.
-- **The 7-year gap documented**: NM investigation opened 2019 → **closed at explicit federal request (SDNY) 2019** → reopened 2026 after DOJ file release. This 7-year suppression window (2019–2026) is a documented structural instance of the regulated friction pattern at state level: federal compliance (closure) → suppression window → external friction (file release) → compliance event (reopening).
-- **NM Truth Commission**: Bipartisan 4-member commission created Feb 17–18, 2026 with subpoena power and $2M+ budget. Chair: Rep. Andrea Romero (D-Santa Fe). Members include retired FBI agent and former DA. (✅ [AP](https://apnews.com/article/jeffrey-epstein-files-new-mexico-ranch-d1ab5064453fe3df154f779326b53345))
-- **NM AG reopens criminal investigation**: AG Raúl Torrez announced Feb 19, 2026 (same day as Prince Andrew arrest + Wexner deposition video release — three Epstein accountability events in one day). Seeking complete unredacted federal file. (✅ [AP](https://apnews.com/article/new-mexico-epstein-investigation-reopen-12dffa70784c6f468627962da3cf51b7))
-- **Physical search of ranch**: NM state investigators began physical search of the property (~March 17, 2026) with full cooperation of Huffines family — first physical law enforcement access in history. (✅ [AP](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a))
-- **Congressional depositions March 2026**: Richard Kahn (estate accountant, March 11) confirmed 64+ Epstein business entities and funds from Wexner/Dubin/Black/Rothschilds/Barak. Darren Indyke (personal attorney ~20 years, March 19) deposed. Committee reviewed 40,000+ bank documents. (✅ [AP/Kahn](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488), [AP/Indyke](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2))
-- **Estate class action settlement**: Epstein's estate agreed to pay $25M–$35M pending court approval; prior payments totaled $169M+ across 195+ victims. (✅ AP)
-- **Religious layer intersection**: Huffines family renamed property "San Rafael Ranch" (Saint Raphael = healing) and plans a Christian retreat — documented intersection with the Religious Layer (Node 10). See [tier1_zorro_ranch_epstein.md](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md) and [The_Religious_Layer.md](15_The_Religious_Layer/The_Religious_Layer.md).
-- **Dossier updated**: [`tier1_zorro_ranch_epstein.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_zorro_ranch_epstein.md) fully updated with full investigative timeline, truth commission details, AG reopening, ranch search, 7-year gap analysis, congressional depositions, estate settlement, and religious layer connection.
+Today's update consolidates three same-day additions (Cuba crisis, Zorro Ranch, Mueller death) and bumps to v11.0 given the volume.
 
-### Previous (v10.9) — Cuba Crisis Escalation & Russian Tanker Confrontation — March 21, 2026
+- **Mueller death — permanently lost Epstein testimony**: Former FBI Director Robert Mueller III died March 21, 2026 (age 81, Parkinson's). Mueller was FBI Director 2001–2013 — the entire period Epstein operated at Zorro Ranch, NYC, and Palm Beach. Subpoenaed by Chairman Comer for Epstein investigation testimony; withdrawn due to health. Trump posted: "Good, I'm glad he's dead. He can no longer hurt innocent people!" The "innocent people" language maps directly to his September 2025 call with Rep. Greene: "My friends will get hurt" (re: Epstein files). Both refer to people in the files. Full analysis: [`Mueller_Death_Epstein_Leverage_Signal.md`](10_Real-Time_Updates_and_Tasks/2026_March/Mueller_Death_Epstein_Leverage_Signal.md).
+- **Leverage thesis extended**: [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md) now documents the September 26, 2025 → March 21, 2026 arc: files deployed offensively (Thiel's "Epstein-adjacent" against Gates, same week) and defensively (Trump celebrating loss of a witness). Greene's trajectory — from MAGA's most loyal congresswoman to resigned whistleblower — documented as enforcement outcome.
+- **Thiel "Epstein-adjacent" deployment**: Peter Thiel called the Giving Pledge an "Epstein-adjacent, fake boomer club" (NYT interview, March 15) while his own Epstein exposure sits in the public record. Pattern: control who the label sticks to. (✅ [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/))
+- **Node 5 updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md) Node 5 (Epstein Files) now includes Comer subpoena withdrawal, lost Mueller testimony, and linguistic parallel documentation.
 
-- **Cuba crisis escalation documented**: [Cuba_Crisis_Escalation_March_2026.md](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md) tracks the rapid escalation from oil blockade through grid collapse to potential U.S.-Russia naval confrontation. 39/40 claims ✅ VERIFIED, 1/40 ⚠️ PARTIALLY VERIFIED (Sea Horse early March Cuba delivery).
-- **March 14–21 timeline**: Morón protests (Communist Party HQ attacked, ✅ [Reuters](https://www.usnews.com/news/world/articles/2026-03-14/protesters-in-cuba-attack-communist-party-office-in-rare-riot-over-blackouts)), third island-wide blackout (29 hrs, ✅ [NPR](https://www.npr.org/2026/03/16/nx-s1-5749457/cuba-blackout-sanctions-oil)), embassy diesel refused (✅ [AP](https://abcnews.com/US/wireStory/cuba-refuses-us-embassy-havana-import-diesel-generators-131273345)), Treasury sanctions amendment adds Cuba/NK exclusion (✅ [Moscow Times](https://www.themoscowtimes.com/2026/03/20/us-tightens-sanctions-waiver-on-russian-oil-after-tanker-reportedly-delivers-fuel-to-cuba-a92279)).
-- **Russian tanker Anatoly Kolodkin**: Sanctioned (U.S., EU, UK), ~730,000 barrels crude, ETA Cuba **~March 23** ✅ confirmed (updated from earlier ~April 4 estimate per [Euronews](https://www.euronews.com/2026/03/20/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens), [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-17/cuba-s-worst-fuel-crisis-in-decades-may-get-relief-from-russia), [CiberCuba](https://en.cibercuba.com/noticias/2026-03-19-u1-e199370-s27061-nid323535-dos-buques-petroleo-ruso-van-rumbo-cuba-moscu), [VesselFinder](https://www.vesselfinder.com/vessels/details/9610808), [MarineTraffic](https://www.marinetraffic.com/en/ais/details/ships/shipid:5090590/mmsi:273253130/imo:9610808/vessel:ANATOLY_KOLODKIN)). SOUTHCOM tracking confirmed (✅ [NPR](https://www.npr.org/2026/03/20/g-s1-114535/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens)). UK Royal Navy tracked vessel through English Channel with Russian naval escort.
-- **Sea Horse T&T diversion — documented regulatory friction event**: After March 20 Treasury amendment added Cuba to sanctions exclusion list, Sea Horse updated declared destination to Trinidad and Tobago (✅ [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-20/tanker-of-russian-fuel-veers-away-from-cuba-as-us-tweaks-rules), [US News](https://www.usnews.com/news/top-news/articles/2026-03-20/tanker-carrying-fuel-originally-bound-for-cuba-diverts-to-trinidad-shipping-data-shows), [gCaptain](https://gcaptain.com/tanker-carrying-fuel-originally-bound-for-cuba-diverts-to-trinidad/)). Vessel subsequently rerouted to Puerto Cabello, Venezuela (MarineTraffic, March 21). Treasury action directly caused one of two inbound vessels to stand down — causal chain confirmed.
-- **Skipper/Operation Southern Spear**: DOJ forfeiture complaint connects all four CRINK nodes (Iran-Venezuela-Cuba-Russia) through single vessel — 1.1M barrels destined for Cubametales (✅ [DOJ](https://www.justice.gov/opa/pr/united-states-seeks-forfeiture-oil-tanker-and-18m-barrels-crude-oil-supported-iran-and)).
-- **Fifth distraction mechanism added** to [April 2026 Convergence Window](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md): U.S.-Russia Naval Confrontation Over Cuban Oil (medium probability).
-- **Universal coercion template applied**: Cuba crisis follows the same 6-step coercion template documented at global, state, and domestic scales in the project — all steps verified.
+### Previous (v10.8–v10.10) — Cuba Crisis, Zorro Ranch, April Convergence — March 21, 2026
 
-### Previous (v10.8) — April 2026 Convergence Window Prediction — March 21, 2026
+- **Node 12 (Zorro Ranch)**: NM investigation (7-year gap: opened 2019 → closed at SDNY request → reopened 2026), NM truth commission, AG Torrez, physical ranch search (~Mar 17), Kahn/Indyke depositions, estate settlement, religious layer intersection (San Rafael Ranch).
+- **Cuba crisis escalation**: Morón protests, third grid collapse, embassy diesel refused, Treasury sanctions amendment, Anatoly Kolodkin tanker (ETA ~Mar 23), Sea Horse diversion, Skipper/Operation Southern Spear CRINK nexus.
+- **April 2026 convergence window (Node 11)**: Pre-event prediction filed — Bondi deposition (Apr 14), CLARITY Act, USD1/WLF/MGX capital architecture, five distraction mechanisms documented with falsification criteria.
 
-- **Pre-event prediction filed**: [April 2026 Convergence Window](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md) documents a predicted dual-track convergence (April 12–20) with explicit falsification criteria — filed *before* the window opens.
-- **Track A (Accountability)**: AG Pam Bondi subpoenaed for April 14 deposition before House Oversight Committee on Epstein file handling and DOJ redactions (✅ [CNBC](https://www.cnbc.com/2026/03/17/epstein-pam-bondi-trump-doj-subpoena.html), [CBS News](https://www.cbsnews.com/news/epstein-files-pam-bondi-subpoena-house-oversight-committee/)).
-- **Track B (Capital Architecture)**: CLARITY Act Senate legislative status now substantially verified — Senate Agriculture Committee advanced 12-11 party-line vote (January 29, 2026, ✅ [CNBC](https://www.cnbc.com/2026/01/29/senate-ag-committee-advances-crypto-bill-to-establish-cftc-regulatory-authority.html)); stablecoin yield "agreement in principle" reached by Senators Tillis (R-NC) + Alsobrooks (D-MD) + White House (March 20, 2026, ✅ [Politico](https://www.politico.com/live-updates/2026/03/20/congress/senators-strike-deal-with-white-house-to-resolve-bank-crypto-clash-00837464), [The Block](https://www.theblock.co/post/394554/lawmakers-breakthrough-agreement-in-principle-stablecoin-yield-sweeping-crypto-bill)); Senate Banking Committee markup targeted April 13–27 (⚠️ targeted). USD1/WLF/MGX capital architecture documented: ~$4.59B market cap, $2B MGX-Binance settlement in USD1, 135M WLFI airdrop active through April 17 (✅ verified via CoinGecko, CNBC, Binance).
-- **Emoluments question**: Warren and Merkley raised constitutional concerns over MGX/USD1/WLF structure; no Congressional consent resolution or OLC opinion filed (✅ [Senate Banking Committee](https://www.banking.senate.gov/newsroom/minority/forwarding-merkley-warren-trump-linked-crypto-deal-is-a-staggering-conflict-of-interest)).
-- **March 17–21 context events verified**: Ras Laffan LNG strike (✅), Brent crude ~$112/bbl (✅), Goldman unredacted Epstein document (✅), Bondi briefing walkout (✅), CBS News Radio closure (✅), Mullin DHS hearing (✅), Trump Pearl Harbor joke (✅), Tucker Carlson/Prof. Jiang interview (✅). Full verification: 18/20 claims verified.
-- **Node 11 added** to [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): April 2026 Convergence Window with thermostat prediction and falsification criteria.
+### Previous (v10.5–v10.7) — Pipeline, Nodes, Verification — March 9–15, 2026
 
-### Previous (v10.7) — Live Intelligence Pipeline & March 2026 Convergence — March 15, 2026
+- **Live Trackers v2.1 pipeline**: 6-stage automated architecture running twice daily. 8-tab public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) with Chart.js visualizations and Gradient AI chatbot.
+- **Nodes 8–9 added**: Oracle Financial Stress / Stargate Contraction (Node 8) and Arkansas State-Level Preemption / Datacenter Capital Nexus (Node 9).
+- **Maxwell dossier, FBI 302 release, Epstein Class counter-frame** documented.
+- **Arkansas forensic audit verified**: 24/28 claims ✅.
+- **Repository cleaned**: Streamlit dashboard retired; single workflow (`sync_from_live_trackers.yml`).
 
-- **Live Trackers v2.1 pipeline fully operational**: 6-stage architecture (Perplexity → Llama Scout → Convergence Detection → Daily Intelligence → Anthropic Fact-Check → Rhetoric vs. Reality) running twice daily via GitHub Actions.
-- **Public dashboard at [regulatedfriction.me](https://regulatedfriction.me/)**: 8 tabs with Chart.js visualizations (Thermostat Timeline, Dual-Track Stacked Area, Node Activation Heatmap) that accumulate data points over time.
-- **Gradient AI chatbot deployed on dashboard**: Uses `_AI_CONTEXT_INDEX` knowledge base for interactive queries about live pipeline data and research context.
-- **Rhetoric vs. Reality Stage 6**: Produces three-column gap analysis with statute citations (EO 14375, 22 U.S.C. § 288, 5 U.S.C. § 7511, War Powers Resolution) autonomously.
-- **March 2026 analytical additions**: Board of Peace IOIA immunity bypass, Operation Epic Fury without AUMF, Schedule Policy Career reclassification (~50,000 positions), Indonesian ISF suspension.
-- **Dashboard context injection**: Chatbot can answer questions about live dashboard data including node status, convergence events, and fact-check results.
-- **Charts accumulate data over time**: Each pipeline run adds data points to the Thermostat Timeline, Dual-Track Stacked Area, and Node Activation Heatmap visualizations.
+### Previous (v10.1–v10.4) — February–March 3, 2026
 
-### Previous (v10.6) — Repository Cleanup & Pipeline Consolidation — March 12, 2026
-
-- **Streamlit dashboard retired**: The Streamlit app (`regulatedfriction.streamlit.app`) has been replaced by the live static dashboard at [regulatedfriction.me](https://regulatedfriction.me/), which is driven by the unified [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) pipeline.
-- **Repository simplified to research-only**: Deprecated files (Streamlit source, Federal Register Scrapy spider, old docs site, unused workflows) moved to `Archive/` — this repo now focuses exclusively on the research corpus and correlation data.
-- **Single workflow**: Only `sync_from_live_trackers.yml` remains active, pulling the latest pipeline output (`node_status.json`, `daily_intelligence.json`, `convergence_report.json`, etc.) from Live_Trackers into `output/` daily at 10:00 UTC.
-
-### Previous (v10.5) — Node Expansion, Verification & Pipeline Automation — March 9, 2026
-
-- **Two new Active Leverage Nodes**: Node 8 ([Oracle Financial Stress / Stargate Contraction](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md)) and Node 9 ([Arkansas State-Level Preemption / Datacenter Capital Nexus](13_State_and_County_Analysis/)) added to `09_CURRENT_THREADS.md`.
-- **Maxwell Node Dossier**: New Tier 1 dossier ([`tier1_maxwell_leverage.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier1_maxwell_leverage.md)) documenting clemency-for-testimony offer, VOCA funding mechanism, and administrative pincer — all verified with multiple sources.
-- **FBI 302 release documented**: March 5–6 DOJ release of 16 additional Epstein pages, including three previously withheld FBI 302 interview summaries. Discrepancy discovered via Maxwell defense evidence index.
-- **Epstein Class counter-frame**: New section in [`06_ATTENTION_ECONOMY.md`](_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md) documenting verified congressional counter-framing (Ossoff, Jeffries, Massie, MTG) and "Operation Epstein Fury" social media dynamics.
-- **Arkansas forensic audit verified**: Independent verification ([24/28 ✅](Project_Trident/Copilot_Opus_4.6_Analysis/Arkansas_Law_Forensic_Audit_Verification.md)) of the Arkansas infrastructure and law forensic audits in [`13_State_and_County_Analysis/`](13_State_and_County_Analysis/).
-- **Transparency**: New [`Unable_to_Verify_March_2026.md`](Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md) documenting items that could not be independently verified.
-- **Automated intelligence pipeline**: Daily pipeline in [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) runs Perplexity node tracking, Llama Scout entity extraction, convergence detection, daily intelligence, and Anthropic fact-checking — outputs synced to `output/` in this repo.
-- **Gradient AI agent**: DigitalOcean Gradient agent deployed as autonomous OSINT monitor using Claude Opus 4.6 for friction/compliance analysis.
-
-### Previous (v10.4) — Prime Brokerage Capital & Alternative Media Integration — March 3, 2026
-
-- **Patriotic Capitalism Neutralization Layer documented**: Structural mechanics of prime brokerage-backed venture capital using populist media funding to shield consolidation of government infrastructure and defense tech. See `12_The_Media_Firewall/`.
-- **Alternative Capital Expansion dataset**: New CSV (`12_The_Media_Firewall/Alternative_Capital_Expansion_24-26.csv`) tracking 10 verified data points (Jan 2024 – March 2026).
-
-### Previous (v10.3) — The High-Resolution Build — March 2, 2026
-
-- **14-day lag corrected to 7-day median**: Actual median lag is **7 days** (mean: 6.5 days). The "14-day" figure was an artifact of 2-week index binning. See `04_Testing_and_Counters/ROBUSTNESS_AUDIT_v10.2.md`.
-- **Robustness audit completed**: Permutation (10K shuffles, p = 0.0004), calendar-anchor clustering (71.2% shared anchors), temporal engine adaptation.
-- **Source decontamination**: oreateai.com purged → `New_Data_2026/DATA_QUARANTINE.csv`. 2,121 URLs scanned; 2,110 clean.
-
-### Previous (v10.1–v10.2) — February–March 1, 2026
-
-- **Leverage Thesis documented** (`11_LEVERAGE_THESIS.md`), **Report.md rewritten for accessibility**, **live data pipeline active** (1006+ EOs), **Israel leverage node added** (completes four-node architecture).
+- **Leverage Thesis** (`11_LEVERAGE_THESIS.md`), **Report.md rewritten**, **Israel node added**, **7-day median lag corrected** (was 14-day artifact), **robustness audit** (permutation p = 0.0004), **source decontamination**, **Prime Brokerage Capital / Media Firewall integration** documented.
 
 ---
 
@@ -335,7 +289,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 21, 2026 (v10.9)
+**Last updated**: March 21, 2026 (v11.0)
 
 ---
 
