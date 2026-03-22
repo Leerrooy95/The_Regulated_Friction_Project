@@ -105,7 +105,7 @@ The bill contains:
 
 The DHS Secretary position — which would oversee this entire voter data infrastructure — is currently being filled by Markwayne Mullin, who advanced from committee 8-7 on March 19, 2026. During his confirmation hearing, Mullin refused to rule out deploying ICE to polling locations.
 
-27 states have already agreed to use SAVE voluntarily. The SAVE America Act would make it mandatory for all 50.
+26 states have already agreed to use SAVE voluntarily ([Highland County Press](https://highlandcountypress.com/26-states-participate-federal-save-program-ensure-only-us-citizens-are-voting), [Headline USA](https://headlineusa.com/26-states-participate-in-federal-save-program-to-ensure-only-us-citizens-are-voting/)). The SAVE America Act would make it mandatory for all 50.
 
 **Sources**: [Campaign Legal Center](https://campaignlegal.org/update/what-you-need-know-about-save-act), [Issue One](https://issueone.org/articles/explainer-save-save-america-and-mega-acts/), [PBS](https://www.pbs.org/newshour/politics/watch-live-sen-markwayne-mullin-testifies-in-confirmation-hearing-for-dhs-secretary)
 
@@ -120,7 +120,7 @@ The DHS Secretary position — which would oversee this entire voter data infras
 - Tillis (R-NC) didn't vote on opening debate and publicly called filibuster gutting a "foolish and lazy idea"
 - Thune: "The votes aren't there, one, to nuke the filibuster and the votes aren't there for a talking filibuster. It's just a reality."
 - Senate opened debate 51-48 on March 17; expected to fail on cloture vote
-- Polymarket: 11% chance of becoming law
+- Polymarket: ~11–16% chance of becoming law (fluctuates; 11% at time of initial filing, 13–16% in subsequent reporting — [Yahoo](https://www.yahoo.com/news/articles/save-act-pass-senate-vote-140347415.html), [USA Today](https://www.usatoday.com/story/news/2026/03/16/did-save-america-act-pass-when-is-senate-vote-what-is-2026-save-act-id-requirements-documents-status/89178765007/))
 
 ### Johnson's Squeeze
 
@@ -199,8 +199,8 @@ The structure mirrors the documented coercion template:
 
 Markwayne Mullin's DHS confirmation (advanced 8-7, March 19) means the person overseeing SAVE database operations and the potential voter roll collection is:
 - A former MMA fighter and businessman with no intelligence or election administration background
-- Someone who refused to rule out ICE at polling locations during confirmation
-- Confirmed with a single Democratic crossover vote (Fetterman)
+- Someone who declined to categorically rule out DHS presence at polling locations during confirmation, stating he would not deploy ICE "for intimidation" but leaving open the possibility under "specific threat" scenarios ([CNBC](https://www.cnbc.com/2026/03/18/markwayne-mullin-dhs-confirmation-senate-immigration.html), [Politico](https://www.politico.com/news/2026/03/18/markwayne-mullin-confirmation-hearing-dhs-00834481))
+- Advanced from committee with a single Democratic crossover vote (Fetterman); Republican Rand Paul (R-KY) voted against, citing temperament concerns ([NBC News](https://www.nbcnews.com/politics/congress/trumps-dhs-pick-mullin-advances-one-vote-sen-fetterman-votes-yes-rcna264207))
 
 ---
 
