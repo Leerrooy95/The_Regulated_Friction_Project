@@ -7,7 +7,6 @@ A data-driven analysis of temporal correlations between friction events, policy 
 | **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
 | **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with embedded `_AI_CONTEXT_INDEX` knowledge base |
 | **⛪ Religion Connections Tracker** | [Religion Tracker](https://signalwebdevelopment.github.io/Religion_Tracker/) — automated live tracking of religious network connections |
-| **💰 Crypto Conflict of Interest Tracker** | [Crypto COI Tracker](https://signalwebdevelopment.github.io/) — automated live tracking of crypto conflicts of interest |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
