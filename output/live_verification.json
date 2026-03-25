@@ -1,115 +1,100 @@
 {
-  "generated_at": "2026-03-24T08:47:31Z",
+  "generated_at": "2026-03-25T08:48:33Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 10,
   "status_summary": {
-    "monitoring": 10
+    "error": 10
   },
   "results": [
     {
       "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No information found on any clemency petition, pardon request, or decision by the Trump DOJ regarding Ghislaine Maxwell as of March 24, 2026. Search results contain no relevant updates on this specific prediction. The prediction remains unresolved within the 2026 timeframe.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "No reports of ceasefire negotiations or a major escalation in the US-Iran war as of March 24, 2026; the ongoing conflict, linked to Operation Epic Fury, has stalled Gaza peace efforts by closing aid routes and preventing technocratic governance transition. Mediators focus on Gaza reconstruction contingent on Hamas disarmament amid the war, with no direct Iran-US talks mentioned. The situation remains tense with Israel controlling much of Gaza and UN warnings on humanitarian crisis.",
-      "source": "https://www.lemonde.fr/en/international/article/2026/03/20/gaza-phase-two-of-trump-s-peace-plan-stalls-amid-war-with-iran_6751623_4.html",
-      "citations": [
-        "https://www.lemonde.fr/en/international/article/2026/03/20/gaza-phase-two-of-trump-s-peace-plan-stalls-amid-war-with-iran_6751623_4.html",
-        "https://www.timesofisrael.com/board-of-peace-envoy-gaza-mediators-have-framework-to-rebuild-but-hamas-must-disarm/",
-        "https://ourpublicservice.org/publications/the-politicization-of-federal-leadership-record-non-senate-confirmed-presidential-appointments-and-the-hollowing-out-of-career-leadership/"
-      ],
-      "date_checked": "2026-03-24"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Strait of Hormuz full shipping restoration",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "No search results provide information on the current status of Strait of Hormuz oil shipping, tanker disruptions, or mine-clearing operations as of March 2026. The prediction remains unresolved with no evidence of full restoration or ongoing disruptions reported. Monitoring continues for relevant developments.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Oracle Stargate financial restructuring or default",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No reports of Oracle Stargate financial restructuring, debt default, bond issues, or related lawsuits have emerged as of March 24, 2026. Oracle remains involved in the Stargate AI infrastructure venture with planned $500B investments and recent $45-50B capital raise, alongside existing $100B+ debt and ongoing Ohio Carpenters Pension bondholder lawsuit. The prediction remains unresolved pending further developments.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "New batch of Epstein documents released",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "No new batch of Epstein documents has been released by the DOJ as of March 24, 2026. The DOJ Epstein library remains a live repository with nearly 3.5 million pages already released under the Epstein Files Transparency Act, including FBI 302 interview summaries. Search results contain no updates on recent or pending releases.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Epstein associate indicted or named in new documents",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No search results indicate any Epstein associate indicted or named in new documents or FBI 302 releases in 2026. The Epstein Files Transparency Act has released nearly 3.5 million pages by March 2026, including FBI 302 interview summaries, via the DOJ Epstein library, but no new developments matching the prediction appear. Status remains monitoring for any updates in ongoing releases.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Gulf SWF emergency capital reallocation from US markets",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "Search results contain references to Gulf sovereign wealth fund participation in US investments (Saudi PIF $2B to Affinity Partners, UAE's MGX in TikTok USDS JV and Stargate), but no evidence of emergency capital reallocation or withdrawal from US markets as of March 2026. Current data shows continued Gulf capital deployment into US tech, defense, and infrastructure sectors rather than reallocation away from them.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
-      "citations": [
-        "https://www.prio.org/comments/1871",
-        "https://febabenefits.org/blog/vera-vsip-2026-which-agencies-are-offering-early-outs/"
-      ],
-      "date_checked": "2026-03-24"
+      "citations": [],
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "TikTok USDS JV lawsuit outcome or Congressional review action",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No search results report any lawsuit outcome, Congressional review action, or developments related to the TikTok USDS JV as of March 24, 2026. The TikTok USDS JV LLC was formed on January 22, 2026, with Oracle, Silver Lake, MGX, and ByteDance as stakeholders, subject to ongoing CFIUS compliance monitoring. The prediction remains unresolved pending any legal or oversight actions.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
       "citations": [],
-      "date_checked": "2026-03-24"
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "Schedule Policy/Career reclassifications took effect in March 2026 amid ongoing union lawsuits, with no reported final federal court ruling or injunction on the core policy as of March 24, 2026. A related preliminary injunction was granted on March 13 in AFGE v. U.S. Department of Veterans Affairs, ordering reinstatement of a specific VA collective bargaining agreement, but this does not address the broader Schedule Policy/Career reclassifications. Multiple sources confirm lawsuits and trainings are active, but the prediction remains unresolved.",
-      "source": "https://workerslegaldefense.org/news",
-      "citations": [
-        "https://workerslegaldefense.org/news",
-        "https://www.pogo.org/analyses/congress-can-shield-whistleblowers-from-schedule-policy-career",
-        "https://ourpublicservice.org/publications/the-politicization-of-federal-leadership-record-non-senate-confirmed-presidential-appointments-and-the-hollowing-out-of-career-leadership/",
-        "https://febabenefits.org/blog/vera-vsip-2026-which-agencies-are-offering-early-outs/",
-        "https://www.fedsmith.com/2026/03/17/federal-to-private-sector-resume-translation-crisis/"
-      ],
-      "date_checked": "2026-03-24"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-03-25"
     },
     {
       "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No confirmation of Mojtaba Khamenei as Supreme Leader by the Assembly of Experts as of March 24, 2026. Supreme Leader Ali Khamenei was assassinated on February 28, 2026, during Operation Epic Fury, leaving Iran in a succession crisis with the Assembly of Experts responsible for selection. Search results confirm Khamenei's death but provide no updates on a successor.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
-      "citations": [
-        "https://www.lemonde.fr/en/international/article/2026/03/20/gaza-phase-two-of-trump-s-peace-plan-stalls-amid-war-with-iran_6751623_4.html"
-      ],
-      "date_checked": "2026-03-24"
+      "citations": [],
+      "date_checked": "2026-03-25"
     }
   ]
 }

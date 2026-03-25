@@ -1,33 +1,48 @@
 {
-  "generated_at": "2026-03-24T08:51:41.757454+00:00",
+  "generated_at": "2026-03-25T08:53:40.101897+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-03-24T00:00:00Z",
-    "total_entities": 117,
-    "total_relationships": 8,
+    "extraction_timestamp": "2026-03-25T00:00:00",
+    "total_entities": 109,
+    "total_relationships": 5,
     "nodes": {
       "maxwell": {
-        "entity_count": 26,
+        "entity_count": 19,
         "relationship_count": 0,
-        "cross_node_count": 1,
+        "cross_node_count": 0,
         "event_classification": "NEUTRAL",
         "entities": [
           {
             "name": "Ghislaine Maxwell",
             "type": "PERSON",
-            "context": "Individual"
+            "context": "Individual serving a 20-year sentence"
           },
           {
             "name": "House Oversight Committee",
             "type": "ORG",
-            "context": "Government agency"
+            "context": "Oversight body"
           },
           {
-            "name": "Reuters",
+            "name": "DOJ",
+            "type": "ORG",
+            "context": "Department of Justice"
+          },
+          {
+            "name": "David Markus",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "Maxwell",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "House Oversight",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -42,47 +57,17 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "BBC",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "1789 Capital",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell (normalized from 'AP')"
-          },
-          {
-            "name": "PACER",
+            "name": "DOJ Epstein",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
             "name": "FPC Bryan",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "DOJ",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "House Oversight",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Gaza",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
             "name": "March 24, 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "2021",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -92,23 +77,8 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "federal workforce changes",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Gaza peace plans",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Schedule Policy/Career reclassifications",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Maxwell Leverage Node",
-            "type": "ORG",
+            "name": "late March 2026",
+            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
@@ -117,17 +87,7 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "5th Amendment invocation",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "House Oversight deposition",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "clemency negotiations",
+            "name": "5th Amendment",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -137,60 +97,64 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "House Oversight testimony",
+            "name": "Senate opposition resolution",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "Maxwell clemency",
+            "name": "White House non-priority statement",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "House Oversight testimony",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from maxwell"
           }
         ],
         "relationships": [],
-        "cross_node_connections": [
-          {
-            "target_node": "oracle_ellison",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: march 24, 2026"
-          }
-        ]
+        "cross_node_connections": []
       },
       "iran": {
-        "entity_count": 11,
-        "relationship_count": 2,
-        "cross_node_count": 6,
-        "event_classification": "NEUTRAL",
+        "entity_count": 16,
+        "relationship_count": 1,
+        "cross_node_count": 2,
+        "event_classification": "DE_ESCALATION",
         "entities": [
           {
             "name": "Iran",
             "type": "LOCATION",
-            "context": "Country"
-          },
-          {
-            "name": "Assembly of Experts",
-            "type": "ORG",
-            "context": "Government body"
-          },
-          {
-            "name": "Strait of Hormuz",
-            "type": "LOCATION",
-            "context": "Geographic location"
+            "context": "Country involved in negotiations"
           },
           {
             "name": "IRGC",
             "type": "ORG",
-            "context": "Militant group"
+            "context": "Iranian Revolutionary Guard Corps"
           },
           {
             "name": "CENTCOM",
             "type": "ORG",
-            "context": "Military command"
+            "context": "US Central Command"
           },
           {
-            "name": "CRINK",
-            "type": "CONCEPT",
-            "context": "Analytical framework"
+            "name": "Strait of Hormuz",
+            "type": "LOCATION",
+            "context": "Critical oil shipping chokepoint"
+          },
+          {
+            "name": "Hezbollah",
+            "type": "ORG",
+            "context": "Lebanese Shia militant group"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Netanyahu",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from iran"
           },
           {
             "name": "Khamenei",
@@ -198,113 +162,102 @@
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "Board of Peace",
+            "name": "Assembly of Experts",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from iran (disambiguated)"
           },
           {
-            "name": "Gaza",
+            "name": "Israel",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "March 2026",
+            "name": "TikTok USDS JV LLC",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran (normalized from 'US')"
+          },
+          {
+            "name": "Israeli",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Tehran",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Iraq",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "March 24, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "kinetic/cyber",
-            "type": "ORG",
+            "name": "de-escalation",
+            "type": "LEGAL",
             "context": "Extracted by GLiNER2 from iran"
           }
         ],
         "relationships": [
           {
             "from": "Iran",
-            "to": "Assembly of Experts",
-            "type": "has",
-            "detail": "Government body"
-          },
-          {
-            "from": "Iran",
-            "to": "IRGC",
-            "type": "has",
-            "detail": "Militant group"
+            "to": "US",
+            "type": "NEGOTIATION",
+            "detail": "Productive talks on March 24, 2026"
           }
         ],
         "cross_node_connections": [
           {
-            "target_node": "gulf_swf",
-            "connection_type": "related_conflict",
-            "detail": "Shared regional conflict"
-          },
-          {
             "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
+            "connection_type": "REGIONAL_CONFLICT",
+            "detail": "Ongoing tensions in the region"
           },
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
-          },
-          {
-            "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: board of peace"
-          },
-          {
-            "target_node": "oracle_ellison",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: board of peace"
-          },
-          {
-            "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: iran"
+            "detail": "Shared entity: march 24, 2026"
           }
         ]
       },
       "gulf_swf": {
-        "entity_count": 13,
-        "relationship_count": 2,
-        "cross_node_count": 2,
+        "entity_count": 15,
+        "relationship_count": 0,
+        "cross_node_count": 3,
         "event_classification": "NEUTRAL",
         "entities": [
           {
             "name": "Saudi PIF",
             "type": "ORG",
-            "context": "Investment fund"
+            "context": "Saudi Public Investment Fund"
           },
           {
             "name": "Mubadala",
             "type": "ORG",
-            "context": "Investment fund"
+            "context": "UAE sovereign wealth fund"
           },
           {
             "name": "MGX",
             "type": "ORG",
-            "context": "Investment fund"
-          },
-          {
-            "name": "ADIA",
-            "type": "ORG",
-            "context": "Investment fund"
+            "context": "UAE sovereign technology investment fund"
           },
           {
             "name": "QIA",
             "type": "ORG",
-            "context": "Investment fund"
+            "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Affinity Partners",
+            "name": "ADIA",
             "type": "ORG",
-            "context": "Investment firm"
+            "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Strait of Hormuz",
-            "type": "LOCATION",
-            "context": "Geographic location"
+            "name": "OPEC+",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
             "name": "Gulf SWF capital architecture",
@@ -312,14 +265,9 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Gulf SWFs",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from gulf_swf"
-          },
-          {
-            "name": "TikTok USDS JV LLC",
+            "name": "U.S.",
             "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from gulf_swf (normalized from 'US')"
+            "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
             "name": "Iran",
@@ -327,81 +275,78 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "March 17, 2026",
+            "name": "capital movements",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "March 24, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Gaza peace plan",
+            "name": "Jan 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Schedule Policy/Career",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "AI/minerals",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "litigation",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from gulf_swf"
           }
         ],
-        "relationships": [
-          {
-            "from": "Saudi PIF",
-            "to": "Mubadala",
-            "type": "similar",
-            "detail": "Investment funds"
-          },
-          {
-            "from": "Gulf SWFs",
-            "to": "Strait of Hormuz",
-            "type": "exposed_to",
-            "detail": "Regional conflict"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": [
           {
             "target_node": "iran",
-            "connection_type": "related_conflict",
-            "detail": "Shared regional conflict"
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
           },
           {
             "target_node": "israel",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: iran"
+            "detail": "Shared entity: march 24, 2026"
+          },
+          {
+            "target_node": "maxwell",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
           }
         ]
       },
       "israel": {
-        "entity_count": 14,
-        "relationship_count": 1,
-        "cross_node_count": 2,
-        "event_classification": "NEUTRAL",
+        "entity_count": 12,
+        "relationship_count": 3,
+        "cross_node_count": 4,
+        "event_classification": "COMPLIANCE",
         "entities": [
           {
             "name": "Board of Peace",
             "type": "ORG",
-            "context": "International organization"
+            "context": "Trump-created international organization"
           },
           {
             "name": "Israel",
             "type": "LOCATION",
-            "context": "Country"
+            "context": "Country involved in Gaza reconstruction"
           },
           {
-            "name": "IDF",
-            "type": "ORG",
-            "context": "Military"
-          },
-          {
-            "name": "Hezbollah",
-            "type": "ORG",
-            "context": "Militant group"
-          },
-          {
-            "name": "Gaza",
-            "type": "LOCATION",
-            "context": "Geographic location"
-          },
-          {
-            "name": "World Bank",
+            "name": "NSO Group",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "NSO Group Pegasus",
+            "name": "Abraham Accords",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from israel"
           },
@@ -411,32 +356,37 @@
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Rafah/Kerem Shalom",
+            "name": "Indonesia",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Iran",
+            "name": "TikTok USDS JV LLC",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from israel (normalized from 'US')"
+          },
+          {
+            "name": "Greece",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "$17B",
-            "type": "FINANCIAL",
+            "name": "Cyprus",
+            "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "March 2-19",
+            "name": "Gaza",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "March 24, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Abraham Accords",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from israel"
-          },
-          {
-            "name": "ceasefire",
+            "name": "EO 14375",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from israel"
           }
@@ -444,49 +394,86 @@
         "relationships": [
           {
             "from": "Board of Peace",
-            "to": "Gaza",
-            "type": "involved_in",
-            "detail": "Reconstruction efforts"
+            "to": "Greece",
+            "type": "INVITATION",
+            "detail": "$1B permanent seat offer"
+          },
+          {
+            "from": "Board of Peace",
+            "to": "Cyprus",
+            "type": "INVITATION",
+            "detail": "$1B permanent seat offer"
+          },
+          {
+            "from": "Board of Peace",
+            "to": "Indonesia",
+            "type": "INVITATION",
+            "detail": "Rejected $1B permanent seat offer"
           }
         ],
         "cross_node_connections": [
           {
+            "target_node": "iran",
+            "connection_type": "REGIONAL_CONFLICT",
+            "detail": "Ongoing tensions in the region"
+          },
+          {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
+            "detail": "Shared entity: march 24, 2026"
           },
           {
             "target_node": "oracle_ellison",
             "connection_type": "shared_entity",
             "detail": "Shared entity: board of peace"
+          },
+          {
+            "target_node": "oracle_ellison",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: gaza"
           }
         ]
       },
       "oracle_ellison": {
-        "entity_count": 16,
+        "entity_count": 18,
         "relationship_count": 1,
         "cross_node_count": 0,
         "event_classification": "NEUTRAL",
         "entities": [
           {
-            "name": "Oracle",
+            "name": "Oracle Corporation",
             "type": "ORG",
-            "context": "Company"
+            "context": "Enterprise software and cloud infrastructure company"
           },
           {
             "name": "Larry Ellison",
             "type": "PERSON",
-            "context": "Individual"
+            "context": "Oracle CEO"
           },
           {
             "name": "David Ellison",
             "type": "PERSON",
-            "context": "Individual"
+            "context": "Larry Ellison's son"
+          },
+          {
+            "name": "Warner Bros Discovery",
+            "type": "ORG",
+            "context": "Media conglomerate"
+          },
+          {
+            "name": "Skydance",
+            "type": "ORG",
+            "context": "Production company"
+          },
+          {
+            "name": "OpenAI",
+            "type": "ORG",
+            "context": "AI research organization"
           },
           {
             "name": "Stargate",
-            "type": "PROJECT",
-            "context": "AI infrastructure venture"
+            "type": "ORG",
+            "context": "Joint AI infrastructure venture"
           },
           {
             "name": "Ellison",
@@ -494,14 +481,9 @@
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "Oracle Corporation",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from oracle_ellison (normalized from 'Oracle')"
-          },
-          {
             "name": "Board of Peace",
             "type": "ORG",
-            "context": "Extracted by GLiNER2 from oracle_ellison (normalized from 'Board of Peace Gaza')"
+            "context": "Extracted by GLiNER2 from oracle_ellison (disambiguated)"
           },
           {
             "name": "Warner Bros",
@@ -509,23 +491,33 @@
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "Ohio",
+            "name": "Gaza",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "March 24, 2026",
+            "name": "February 28, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "March 23",
+            "name": "March 17-24, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "Schedule Policy/Career federal reclassifications",
+            "name": "fiscal Q3 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from oracle_ellison"
+          },
+          {
+            "name": "Schedule P/C",
             "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from oracle_ellison"
+          },
+          {
+            "name": "debt",
+            "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
@@ -534,91 +526,66 @@
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "personal guarantee",
+            "name": "$40.4B personal guarantee",
             "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "Ohio Carpenters Pension bondholder lawsuit",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "bondholder lawsuits",
-            "type": "LEGAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           }
         ],
         "relationships": [
           {
             "from": "Larry Ellison",
-            "to": "Oracle",
-            "type": "associated_with",
-            "detail": "Company founder"
+            "to": "David Ellison",
+            "type": "PERSONAL_GUARANTEE",
+            "detail": "$40.4B personal guarantee"
           }
         ],
         "cross_node_connections": []
       },
       "epstein_files": {
-        "entity_count": 16,
-        "relationship_count": 1,
-        "cross_node_count": 10,
+        "entity_count": 12,
+        "relationship_count": 0,
+        "cross_node_count": 1,
         "event_classification": "NEUTRAL",
         "entities": [
           {
             "name": "DOJ",
             "type": "ORG",
-            "context": "Government agency"
+            "context": "Department of Justice"
           },
           {
-            "name": "Pam Bondi",
-            "type": "PERSON",
-            "context": "Individual"
-          },
-          {
-            "name": "Thomas Massie",
-            "type": "PERSON",
-            "context": "Individual"
+            "name": "Epstein Files Transparency Act",
+            "type": "LEGAL",
+            "context": "Congressional legislation"
           },
           {
             "name": "Ro Khanna",
             "type": "PERSON",
-            "context": "Individual"
-          },
-          {
-            "name": "House Oversight",
-            "type": "ORG",
-            "context": "Government agency"
-          },
-          {
-            "name": "FBI 302",
-            "type": "DOCUMENT",
-            "context": "Interview summaries"
+            "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
             "name": "Bill Clinton",
             "type": "PERSON",
-            "context": "Individual"
+            "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "AG Pam Bondi",
+            "name": "Thomas Massie",
             "type": "PERSON",
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "Massie",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "Khanna",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "Board of Peace",
+            "name": "House Oversight",
             "type": "ORG",
-            "context": "Extracted by GLiNER2 from epstein_files (normalized from 'Board of Peace Gaza')"
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "DOJ library",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from epstein_files"
+          },
+          {
+            "name": "DOJ Epstein library",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
             "name": "FBI",
@@ -626,8 +593,8 @@
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "Gaza",
-            "type": "LOCATION",
+            "name": "March 7, 2026",
+            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
@@ -636,136 +603,69 @@
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "Schedule Policy/Career reclassifications",
-            "type": "LEGAL",
+            "name": "AG Pam Bondi",
+            "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "Epstein Files Transparency Act",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from epstein_files (disambiguated)"
           }
         ],
-        "relationships": [
-          {
-            "from": "DOJ",
-            "to": "House Oversight",
-            "type": "interacted_with",
-            "detail": "Subpoenaed"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": [
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: doj"
-          },
-          {
-            "target_node": "maxwell",
-            "connection_type": "shared_entity",
             "detail": "Shared entity: house oversight"
-          },
-          {
-            "target_node": "iran",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
-          },
-          {
-            "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
-          },
-          {
-            "target_node": "maxwell",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: gaza"
-          },
-          {
-            "target_node": "maxwell",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: schedule policy/career reclassifications"
-          },
-          {
-            "target_node": "iran",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: board of peace"
-          },
-          {
-            "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: board of peace"
-          },
-          {
-            "target_node": "oracle_ellison",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: board of peace"
-          },
-          {
-            "target_node": "iran",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: march 2026"
           }
         ]
       },
       "arkansas_datacenter": {
-        "entity_count": 21,
-        "relationship_count": 1,
-        "cross_node_count": 3,
+        "entity_count": 17,
+        "relationship_count": 0,
+        "cross_node_count": 5,
         "event_classification": "NEUTRAL",
         "entities": [
-          {
-            "name": "AVAIO Digital",
-            "type": "ORG",
-            "context": "Company"
-          },
           {
             "name": "Entergy Arkansas",
             "type": "ORG",
             "context": "Utility company"
           },
           {
+            "name": "AVAIO",
+            "type": "ORG",
+            "context": "Datacenter company"
+          },
+          {
             "name": "Tom Cotton",
             "type": "PERSON",
-            "context": "Individual"
+            "context": "US Senator"
           },
           {
-            "name": "Arkansas PSC",
-            "type": "ORG",
-            "context": "Regulatory body"
-          },
-          {
-            "name": "Governor Huckabee Sanders",
-            "type": "PERSON",
-            "context": "Individual"
-          },
-          {
-            "name": "Jefferson Power Station",
-            "type": "ORG",
-            "context": "Power station"
-          },
-          {
-            "name": "DATA Act of 2026",
-            "type": "LEGISLATION",
-            "context": "Bill"
-          },
-          {
-            "name": "Acts 373/548",
-            "type": "LEGISLATION",
-            "context": "State laws"
-          },
-          {
-            "name": "PSC",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+            "name": "DATA Act",
+            "type": "LEGAL",
+            "context": "Legislation"
           },
           {
             "name": "Good Day Farm",
             "type": "ORG",
+            "context": "Company involved in ballot preemption"
+          },
+          {
+            "name": "Acts 373/548",
+            "type": "LEGAL",
+            "context": "Utility rate capture legislation"
+          },
+          {
+            "name": "AVAIO construction",
+            "type": "ORG",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "FERC",
-            "type": "LOCATION",
+            "name": "Jefferson Power Station",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "PSC",
+            "type": "ORG",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
@@ -774,13 +674,8 @@
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "$6-21B",
+            "name": "datacenter investments",
             "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "2025",
-            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
@@ -789,123 +684,103 @@
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "January 12, 2026",
+            "name": "Jan 28, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "January 28, 2026",
+            "name": "Jan 12, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "January 8",
+            "name": "Jan 8, 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "March 17, 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "Tom Cotton's DATA Act of 2026",
+            "name": "Schedule Policy/Career",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "Good Day Farm ballot preemption ruling",
+            "name": "DATA Act progress",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           }
         ],
-        "relationships": [
-          {
-            "from": "Tom Cotton",
-            "to": "DATA Act of 2026",
-            "type": "introduced",
-            "detail": "Legislation"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": [
+          {
+            "target_node": "gulf_swf",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
+          },
+          {
+            "target_node": "iran",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
+          },
+          {
+            "target_node": "israel",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
+          },
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
             "detail": "Shared entity: march 24, 2026"
           },
           {
-            "target_node": "oracle_ellison",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: march 24, 2026"
-          },
-          {
             "target_node": "gulf_swf",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: march 17, 2026"
+            "detail": "Shared entity: schedule policy/career"
           }
         ]
       }
     },
     "all_cross_node_connections": [
       {
-        "source_node": "maxwell",
-        "target_node": "oracle_ellison",
+        "source_node": "iran",
+        "target_node": "israel",
+        "connection_type": "REGIONAL_CONFLICT",
+        "detail": "Ongoing tensions in the region"
+      },
+      {
+        "source_node": "iran",
+        "target_node": "maxwell",
         "connection_type": "shared_entity",
         "detail": "Shared entity: march 24, 2026"
       },
       {
-        "source_node": "iran",
-        "target_node": "gulf_swf",
-        "connection_type": "related_conflict",
-        "detail": "Shared regional conflict"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "maxwell",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: board of peace"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "oracle_ellison",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: board of peace"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: iran"
-      },
-      {
         "source_node": "gulf_swf",
         "target_node": "iran",
-        "connection_type": "related_conflict",
-        "detail": "Shared regional conflict"
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 24, 2026"
       },
       {
         "source_node": "gulf_swf",
         "target_node": "israel",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: iran"
+        "detail": "Shared entity: march 24, 2026"
+      },
+      {
+        "source_node": "gulf_swf",
+        "target_node": "maxwell",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 24, 2026"
+      },
+      {
+        "source_node": "israel",
+        "target_node": "iran",
+        "connection_type": "REGIONAL_CONFLICT",
+        "detail": "Ongoing tensions in the region"
       },
       {
         "source_node": "israel",
         "target_node": "maxwell",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
+        "detail": "Shared entity: march 24, 2026"
       },
       {
         "source_node": "israel",
@@ -914,10 +789,10 @@
         "detail": "Shared entity: board of peace"
       },
       {
-        "source_node": "epstein_files",
-        "target_node": "maxwell",
+        "source_node": "israel",
+        "target_node": "oracle_ellison",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: doj"
+        "detail": "Shared entity: gaza"
       },
       {
         "source_node": "epstein_files",
@@ -926,62 +801,26 @@
         "detail": "Shared entity: house oversight"
       },
       {
-        "source_node": "epstein_files",
-        "target_node": "iran",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "maxwell",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: gaza"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "maxwell",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: schedule policy/career reclassifications"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "iran",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: board of peace"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: board of peace"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "oracle_ellison",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: board of peace"
-      },
-      {
-        "source_node": "epstein_files",
-        "target_node": "iran",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: march 2026"
-      },
-      {
         "source_node": "arkansas_datacenter",
-        "target_node": "maxwell",
+        "target_node": "gulf_swf",
         "connection_type": "shared_entity",
         "detail": "Shared entity: march 24, 2026"
       },
       {
         "source_node": "arkansas_datacenter",
-        "target_node": "oracle_ellison",
+        "target_node": "iran",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 24, 2026"
+      },
+      {
+        "source_node": "arkansas_datacenter",
+        "target_node": "israel",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 24, 2026"
+      },
+      {
+        "source_node": "arkansas_datacenter",
+        "target_node": "maxwell",
         "connection_type": "shared_entity",
         "detail": "Shared entity: march 24, 2026"
       },
@@ -989,25 +828,21 @@
         "source_node": "arkansas_datacenter",
         "target_node": "gulf_swf",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: march 17, 2026"
+        "detail": "Shared entity: schedule policy/career"
       }
     ],
     "entity_type_counts": {
-      "PERSON": 14,
-      "ORG": 44,
-      "LOCATION": 15,
-      "TEMPORAL": 15,
-      "LEGAL": 20,
-      "CONCEPT": 1,
-      "FINANCIAL": 4,
-      "PROJECT": 1,
-      "DOCUMENT": 1,
-      "LEGISLATION": 2
+      "PERSON": 13,
+      "ORG": 39,
+      "LOCATION": 18,
+      "TEMPORAL": 16,
+      "LEGAL": 16,
+      "FINANCIAL": 7
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-03-24T08:42:36.857106+00:00",
-    "total_runs_analyzed": 46,
+    "analysis_timestamp": "2026-03-25T08:42:15.346959+00:00",
+    "total_runs_analyzed": 48,
     "window_days": 7,
     "total_convergence_events": 10,
     "friction_compliance_pairs": 9,
@@ -1363,197 +1198,6 @@
           }
         ],
         "has_friction_compliance_pair": true
-      }
-    ]
-  },
-  "rhetoric_reality_summary": {
-    "analysis_date": "2026-03-24",
-    "model": "claude-sonnet-4-6",
-    "developments_analyzed": 9,
-    "convergence_note": "These nine developments form two intersecting stress architectures. The first is a governance hollowing loop: the 28% career SES reduction (Development 2), Schedule Policy/Career reclassification of ~50,000 positions (Development 9), and record Schedule C political appointments exceeding statutory caps (Development 2) are systematically replacing the institutional capacity required to administer complex international financial commitments \u2014 precisely as the US commits $10B to the Board of Peace (Development 0) and activates a multi-party reconstruction framework requiring sustained bureaucratic execution. The agencies that would normally manage humanitarian aid disbursement, CFIUS compliance for Board of Peace fund flows, and diplomatic coordination with nine partner nations are operating with degraded career leadership at the exact moment maximum institutional competence is required. The second architecture is a kinetic-diplomatic deadlock: Operation Epic Fury (Development 7) has killed Khamenei and triggered an unresolved Assembly of Experts succession crisis, simultaneously providing Hamas with documented strategic cover to delay the formal disarmament response (Development 8) that is the legal precondition for releasing $17B in reconstruction pledges. The Board of Peace's $10B US commitment (Development 0), its FIFA for-profit funding mechanism (Development 4), Indonesia's rejection of the membership fee structure (Development 1), and the crossing bottlenecks (Development 3) all compound into a single documented outcome: $10B in US taxpayer funds pledged to a framework that is structurally incapable of disbursement under current conditions, governed by an IOIA-immune organization beyond standard congressional or judicial oversight, administered by a hollowed career civil service, and held hostage to a Hamas compliance trigger that the US military campaign has itself made strategically rational for Hamas to withhold. The DuBose injunction (Development 9) adds a domestic legal fault line: the workforce transformation enabling the political appointee architecture managing these international commitments is now under active judicial restraint, creating a documented accountability gap between the political layer directing policy and the legal framework governing the career workforce executing it.",
-    "developments": [
-      {
-        "node_id": "cross_node",
-        "headline": "Board of Peace secures $17B in pledges at inaugural meeting against $70B reconstruction estimate",
-        "the_rhetoric": "Trump administration officials and White House press releases framed the February 19 inaugural Board of Peace meeting as a historic diplomatic achievement, announcing $10B in US contributions and $7B from nine partner nations (Azerbaijan, Bahrain, Kazakhstan, Kuwait, Morocco, Qatar, Saudi Arabia, UAE, Uzbekistan). Officials described the pledges as a foundation for Gaza's comprehensive reconstruction under UNSC Resolution 2803 and a demonstration of broad international coalition-building under US leadership. The Board of Peace was presented as an innovative governance structure transitioning Gaza toward a reformed Palestinian Authority.",
-        "the_reality": "The $17B in total pledges represents approximately 24% of the UN-estimated $70B required for Gaza reconstruction. UNSC Resolution 2803 authorized the Board of Peace framework, and EO 14375 granted the Board IOIA diplomatic immunity with Trump as lifetime Chairman. Financial analysts and international development institutions flagged the $53B gap between pledges and estimated need. Fund management accountability mechanisms have not been publicly filed or codified in any available regulatory instrument. The Board's structure places a US President with lifetime tenure as chairman of an internationally immune organization, a governance arrangement without modern precedent in US foreign policy. The nine partner nations' $7B breakdown by country has not been itemized in public filings as of late March 2026.",
-        "domestic_cost": {
-          "description": "The US $10B pledge represents a direct appropriation commitment from federal funds. Congressional authorization for this specific outlay has not been publicly confirmed through standard appropriations process documentation. IOIA immunity granted to Board of Peace limits domestic judicial and regulatory oversight of fund deployment.",
-          "quantifiable": "$10B US pledge. $53B reconstruction gap unaccounted for in current pledge architecture. IOIA immunity removes standard federal oversight mechanisms applicable to US-funded international organizations.",
-          "who_pays": "US taxpayers via federal appropriations. Congress faces a fait accompli pledge structure negotiated outside standard appropriations channels. American legal oversight infrastructure is bypassed via IOIA immunity extension."
-        },
-        "institutional_bypass": "IOIA diplomatic immunity granted via EO 14375 removes standard congressional oversight, GAO audit authority, and domestic judicial review applicable to US-funded reconstruction programs. Standard USAID or State Department disbursement frameworks are bypassed.",
-        "ideological_driver": "Stated goal: US-led post-conflict reconstruction as alternative to UN-administered aid architecture. Documented in EO 14375 framing of Board of Peace as vehicle for 'comprehensive peace' superseding existing multilateral frameworks.",
-        "confidence": "MEDIUM",
-        "sources": [
-          "EO 14375 (Board of Peace establishment)",
-          "UNSC Resolution 2803",
-          "UN OCHA Gaza reconstruction cost estimates",
-          "White House press releases February 19, 2026"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Indonesia rejects $1B Board of Peace permanent membership fee, exposing pay-to-play governance structure",
-        "the_rhetoric": "Indonesian Foreign Minister publicly framed the country's engagement with the Board of Peace as a humanitarian contribution to Gaza reconstruction. Initial statements from diplomatic channels suggested Indonesia was actively considering participation. Board of Peace officials characterized membership fees as voluntary contributions to a cooperative reconstruction effort, not a price of admission.",
-        "the_reality": "President Prabowo Subianto's March 23, 2026 statement explicitly rejected the $1B permanent membership fee, characterizing it as a 'pay-to-play' mechanism that functionally creates a tiered alternative to UNSC permanent membership. Indonesia limited its role to peacekeeping and humanitarian aid contributions, declining the governance seat. This public rejection by the world's largest Muslim-majority democracy and a non-permanent UNSC member represents a documented credibility challenge to the Board's claim of broad international legitimacy. The fee structure \u2014 where permanent seats require $1B payments \u2014 is documented in the Board's governance framework but was not prominently disclosed in inaugural meeting press materials.",
-        "domestic_cost": {
-          "description": "Indonesia's rejection narrows the coalition of nations with governance standing in the Board of Peace, increasing the proportional US influence and financial exposure within the Board's decision-making structure. Reduced multilateral participation increases the likelihood of US bearing a larger share of the $53B reconstruction gap.",
-          "quantifiable": "null \u2014 no direct US dollar cost from Indonesia's rejection, but the $10B US pledge is now less offset by broad coalition participation than publicly framed.",
-          "who_pays": "US taxpayers bear greater relative financial exposure as the coalition narrows. Diplomatic credibility of the Board of Peace framework as a multilateral institution is reduced."
-        },
-        "institutional_bypass": "The $1B permanent seat fee structure creates a governance mechanism outside UN charter processes. Indonesia's rejection implicitly documents that the Board functions as a parallel international institution with financial barriers to entry, not a complementary UN mechanism.",
-        "ideological_driver": "Board of Peace governance architecture reflects a documented shift away from UN-administered multilateralism toward US-chaired, fee-based international governance where financial contribution determines decision-making authority.",
-        "confidence": "MEDIUM",
-        "sources": [
-          "President Prabowo Subianto public statement March 23, 2026",
-          "Indonesian Foreign Ministry statements",
-          "Board of Peace governance framework documents",
-          "EO 14375"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Career SES shrinks 28% to 5,837 as political appointees hit record 1,835, exceeding statutory caps",
-        "the_rhetoric": "OPM and OMB officials, echoing Russell Vought's public statements, have characterized the reduction in career Senior Executive Service as necessary 'rightsizing' of the federal bureaucracy, eliminating entrenched administrative resistance and improving government efficiency. The Schedule Policy/Career reclassification (~50,000 positions) is presented as restoring presidential accountability over executive branch personnel consistent with Article II authority.",
-        "the_reality": "OPM workforce data shows career SES declined from 8,127 to 5,837 \u2014 a 28.2% reduction \u2014 between January 2025 and January 2026, driven by a combination of terminations, forced retirements, and resignations. Simultaneously, Schedule C political appointees reached a record 1,835, representing 11.7% of filled SES positions, exceeding statutory caps governing the ratio of political to career appointments in the SES. The Schedule Policy/Career reclassification, which took effect March 2026 amid active union litigation, reclassifies approximately 50,000 GS-13 through GS-15 positions to at-will employment, stripping civil service protections from positions that had held them continuously since the Civil Service Reform Act of 1978. The 317,000 federal employee separations documented in 2025 provide the broader workforce displacement context.",
-        "domestic_cost": {
-          "description": "Civil service protections established under the Civil Service Reform Act of 1978 are being eliminated for approximately 50,000 career positions. Institutional policy memory, regulatory expertise, and nonpartisan continuity functions historically performed by career SES are degraded. The record Schedule C appointment level exceeds legal caps, exposing agency decisions to legal challenge.",
-          "quantifiable": "~50,000 positions reclassified to at-will status. Career SES reduced by 2,290 positions (28.2%). 1,835 Schedule C appointees \u2014 documented excess over statutory caps. 317,000 federal separations in 2025.",
-          "who_pays": "Federal career employees lose statutory employment protections. American public loses institutional expertise in agency operations. Taxpayers face costs of rehiring, retraining, and potential litigation from unlawful terminations documented in ongoing union lawsuits."
-        },
-        "institutional_bypass": "Civil Service Reform Act of 1978 protections for career federal employees. Statutory caps on Schedule C political appointments. Merit System Principles under 5 U.S.C. \u00a7 2301. First Amendment associational protections for federal employees (signaled by First Amendment training release noted this week).",
-        "ideological_driver": "Documented in OMB/Russell Vought public statements and Schedule Policy/Career executive order: restoration of direct presidential control over career civil servants, framed as constitutional Article II authority superseding statutory civil service protections.",
-        "confidence": "HIGH",
-        "sources": [
-          "OPM SES workforce data reports",
-          "Schedule Policy/Career executive order (effective March 2026)",
-          "Civil Service Reform Act of 1978, 5 U.S.C. \u00a7 3131 et seq.",
-          "OMB Director Russell Vought public statements",
-          "Congressional Research Service SES cap analysis"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Gaza aid crossings bottlenecked post-ceasefire; Kerem Shalom sole operational crossing through March 2, Rafah partially reopened March 19",
-        "the_rhetoric": "US and Israeli officials characterized the ceasefire framework as establishing conditions for humanitarian access restoration. Board of Peace representatives and State Department spokespersons described the crossing reopenings as progress under the UNSC Resolution 2803 Comprehensive Plan. Statements emphasized coordination with Egypt and Qatar as mediators ensuring compliance.",
-        "the_reality": "OCHA and UNRWA field reports document that Kerem Shalom operated as the sole aid and commercial crossing from the ceasefire through March 2, 2026, creating a single-point bottleneck that resulted in documented warehouse stock declines across northern Gaza. Rafah crossing's partial reopening on March 19 was linked specifically to evacuation operations, not general humanitarian flow, and followed prior closures tied to Operation Epic Fury dynamics. UNSC open briefing records from March 22, 2026 document 673 Palestinian deaths since the October 2025 ceasefire \u2014 a figure inconsistent with the public narrative of a stable post-ceasefire environment. West Bank displacement figures exceeded 36,000, and settlement construction acceleration was formally documented in Security Council records.",
-        "domestic_cost": {
-          "description": "US taxpayer funding flows through USAID and State Department humanitarian accounts designated for Gaza. Operational bottlenecking at crossings means US-funded aid materials are not reaching intended recipients at the rate implied by pledge announcements. Congressional appropriations for Gaza humanitarian assistance are being disbursed against a documented delivery gap.",
-          "quantifiable": "null \u2014 specific USAID disbursement figures for this period not confirmed in available public filings. 673 Palestinian deaths since October 2025 ceasefire documented in UNSC records.",
-          "who_pays": "US taxpayers funding humanitarian assistance programs that face documented delivery constraints. American diplomatic credibility invested in the Board of Peace framework bears reputational cost from documented ceasefire violations."
-        },
-        "institutional_bypass": "UNSC Resolution 2803 Comprehensive Plan compliance mechanisms are effectively non-operational given documented ceasefire violations and crossing bottlenecks without documented accountability actions by Board of Peace governance structures.",
-        "ideological_driver": "null",
-        "confidence": "MEDIUM",
-        "sources": [
-          "UNSC open briefing records March 22, 2026",
-          "OCHA Gaza humanitarian update reports",
-          "UNRWA field situation reports",
-          "Board of Peace High Representative Nickolay Mladenov briefing March 22, 2026"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "FIFA $75M Gaza football infrastructure pledge introduces for-profit actors into Board of Peace reconstruction architecture",
-        "the_rhetoric": "Board of Peace officials and FIFA representatives characterized the $75M sports infrastructure commitment as an innovative public-private partnership demonstrating that reconstruction can mobilize private sector resources beyond traditional state and IGO funding. The pledge was framed as a model for engaging non-state actors in post-conflict reconstruction, consistent with the Board's mandate to coordinate diverse funding sources.",
-        "the_reality": "FIFA is a nonprofit under Swiss law but operates commercial enterprises generating billions in revenue annually from broadcasting rights and sponsorships. Its $75M commitment to Gaza sports infrastructure through the Board of Peace represents the incorporation of a commercially structured international sports body into a reconstruction governance framework that holds IOIA diplomatic immunity. No public accountability framework governing how FIFA's contribution is audited, disbursed, or reported within the Board of Peace structure has been filed in any available regulatory instrument. The Board of Peace's IOIA immunity, established under EO 14375, means that standard domestic oversight mechanisms \u2014 including GAO review and federal court jurisdiction \u2014 do not apply to fund management decisions within the Board's structure, including the FIFA contribution.",
-        "domestic_cost": {
-          "description": "The absence of publicly codified accountability mechanisms for private contributions to an IOIA-immune organization means US oversight infrastructure cannot trace or audit how FIFA's $75M interacts with the $10B US government pledge within the Board of Peace. This creates an accountability gap in US-funded reconstruction architecture.",
-          "quantifiable": "$75M FIFA commitment flowing into an IOIA-immune governance structure without publicly available audit framework. US $10B pledge in same structure.",
-          "who_pays": "US taxpayers whose $10B pledge is co-mingled in a governance structure with for-profit and commercially structured actors not subject to standard federal accountability requirements."
-        },
-        "institutional_bypass": "GAO audit authority. Federal appropriations oversight mechanisms. Standard USG grant and contract accountability requirements under 2 CFR Part 200 (Uniform Guidance). IOIA immunity under EO 14375 removes the entire domestic oversight architecture.",
-        "ideological_driver": "Documented in Board of Peace governance design: replacement of traditional UN/NGO/state reconstruction architecture with a hybrid public-private model under US executive authority and diplomatic immunity.",
-        "confidence": "MEDIUM",
-        "sources": [
-          "EO 14375",
-          "UNSC Resolution 2803",
-          "FIFA public announcement of $75M Gaza commitment",
-          "Board of Peace inaugural meeting documentation January 2026"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "UNSC March 22 briefing documents 36,000+ West Bank displacements and settlement acceleration alongside Board of Peace Comprehensive Plan review",
-        "the_rhetoric": "US diplomatic representatives at the March 22 UNSC briefing emphasized progress under UNSC Resolution 2803 and the Board of Peace Comprehensive Plan, framing High Representative Nickolay Mladenov's briefing as evidence of active implementation toward Palestinian Authority transition. State Department public statements described the Board of Peace as the primary vehicle for durable governance in Gaza.",
-        "the_reality": "UNSC open briefing records from March 22, 2026 document: 36,000+ West Bank civilian displacements since the October 2025 ceasefire; acceleration of Israeli settlement construction in the West Bank concurrent with the ceasefire period; and ongoing impediments to humanitarian access in Gaza. These documented conditions are structurally inconsistent with Phase Two requirements under the Comprehensive Plan, which require security stabilization and governance preconditions before Palestinian Authority transition. Mladenov's own briefing acknowledged implementation challenges. The simultaneous operation of Operation Epic Fury against Iran was not formally addressed in the UNSC session as a variable affecting Board of Peace implementation timelines.",
-        "domestic_cost": {
-          "description": "US diplomatic and financial resources invested in the Board of Peace framework are being deployed in parallel with documented conditions \u2014 West Bank displacements, settlement acceleration, ceasefire violations \u2014 that functionally preclude the governance transition the framework is designed to achieve.",
-          "quantifiable": "36,000+ West Bank displacements documented. 673 Palestinian deaths since October 2025 ceasefire. $10B US pledge committed against a stalled implementation environment.",
-          "who_pays": "US taxpayers whose $10B pledge is committed to a reconstruction framework whose Phase Two implementation is formally stalled. US diplomatic capital invested in Board of Peace legitimacy faces documented erosion at the Security Council."
-        },
-        "institutional_bypass": "null \u2014 UNSC processes functioned as designed in this instance; the gap is between documented conditions and the public narrative of progress, not a bypass of institutional mechanisms.",
-        "ideological_driver": "null",
-        "confidence": "HIGH",
-        "sources": [
-          "UNSC open briefing records March 22, 2026",
-          "Nickolay Mladenov UNSC briefing March 22, 2026",
-          "UNSC Resolution 2803 Comprehensive Plan text",
-          "OCHA West Bank situation reports"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Operation Epic Fury against Iran stalls Gaza reconstruction and Hamas disarmament under Board of Peace framework",
-        "the_rhetoric": "US and Israeli officials have characterized Operation Epic Fury as a necessary action to eliminate Iran's nuclear capability and regional proxy threat infrastructure, framing it as a precondition for durable regional stability including Gaza peace. Administration officials have argued that degrading Iran's military capacity ultimately strengthens the conditions for Gaza reconstruction and Hamas disarmament.",
-        "the_reality": "CENTCOM and IDF statements confirm ongoing US-Israel airstrikes targeting Iranian nuclear sites, missile programs, and leadership. The death of Supreme Leader Ali Khamenei has triggered an unresolved succession crisis within Iran's Assembly of Experts \u2014 the 88-member clerical body responsible for selecting Iran's next Supreme Leader. Board of Peace mediators presented a formal written disarmament proposal to Hamas in Cairo during the week of March 14-15, 2026; Hamas explicitly delayed its response, citing the ongoing Iran war as a basis for withholding commitment. NCAG (the non-Hamas civilian governance body) remains barred from entering Gaza. The $17B in Board of Peace pledges is formally conditioned on Hamas disarmament compliance, meaning the kinetic operation against Iran has created a documented causal chain blocking reconstruction funding disbursement.",
-        "domestic_cost": {
-          "description": "US military operational costs for Operation Epic Fury are being incurred simultaneously with $10B in US reconstruction pledges that cannot be disbursed due to Hamas non-compliance enabled by the same operation's strategic distraction effect. US military assets, personnel, and munitions are consumed in the kinetic campaign while diplomatic and financial investments in the Board of Peace framework are held in suspended animation.",
-          "quantifiable": "null \u2014 specific Operation Epic Fury cost figures not confirmed in public DOD filings available as of March 2026. $10B US Board of Peace pledge is effectively undisbursable under current conditions.",
-          "who_pays": "US military personnel and their families bear kinetic operational risk. US taxpayers fund both the military campaign and the stalled reconstruction pledge simultaneously. American diplomatic credibility in the region is exposed to the contradiction between active warfare and reconstruction framework promotion."
-        },
-        "institutional_bypass": "War Powers Resolution compliance: no formal notification to Congress of Operation Epic Fury initiation has been confirmed in public congressional records as of late March 2026. If 60-day clock has not been formally triggered, this represents a documented potential bypass of War Powers constraints.",
-        "ideological_driver": "Stated: elimination of Iranian nuclear capability and dismantling of CRINK proxy architecture as precondition for regional stability. Documented in administration public statements and CENTCOM operational framing.",
-        "confidence": "MEDIUM",
-        "sources": [
-          "CENTCOM operational statements on Operation Epic Fury",
-          "Board of Peace mediator reports March 14-15 Cairo session",
-          "UNSC Resolution 2803",
-          "Assembly of Experts public records on succession proceedings",
-          "War Powers Resolution, 50 U.S.C. \u00a7 1541 et seq."
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Hamas delays response to formal Board of Peace disarmament proposal, citing Iran war as strategic cover while consolidating Gaza territorial control",
-        "the_rhetoric": "US-Qatar-Egypt mediator statements after the March 14-15 Cairo session characterized the delivery of the formal disarmament proposal as meaningful progress in Phase Two implementation. Board of Peace officials and State Department spokespersons described the proposal as a comprehensive framework offering Hamas a pathway to reconstruction funding through the NCAG governance transition.",
-        "the_reality": "Hamas has not formally responded to the written disarmament proposal as of late March 2026. Documented Hamas communications cite the ongoing Operation Epic Fury against Iran as the stated basis for delay. NCAG remains barred from entering Gaza, meaning the civilian governance transition mechanism built into the Comprehensive Plan has no operational footprint inside the territory. While the disarmament negotiation is publicly framed as at an advanced stage, the on-the-ground documented reality is that Hamas retains full territorial control, NCAG has no physical presence, and the $17B in reconstruction pledges \u2014 formally conditioned on compliance \u2014 cannot be disbursed. The Iran war provides Hamas a documented strategic rationale to delay without formally rejecting the proposal, preserving negotiating flexibility while consolidating control.",
-        "domestic_cost": {
-          "description": "US diplomatic resources invested in the Qatar-Egypt-US mediator channel are being consumed without documented progress toward Hamas compliance. The $10B US pledge remains legally and practically uncommitted. US strategic credibility in the mediator role is exposed to documented Hamas non-compliance.",
-          "quantifiable": "$10B US pledge conditioned on compliance that has not been achieved. Mediator channel operational costs not publicly quantified in available filings.",
-          "who_pays": "US taxpayers whose $10B pledge is held hostage to Hamas compliance. US diplomatic personnel and resources in the mediator channel. American strategic credibility in the Arab world invested in the Board of Peace as an effective governance instrument."
-        },
-        "institutional_bypass": "null \u2014 the Comprehensive Plan conditionality mechanism is functioning as designed; the issue is that Hamas is exploiting the gap between formal framework and operational reality.",
-        "ideological_driver": "Hamas documented position: delay response pending Iran war resolution, using kinetic distraction to preserve territorial control and negotiating leverage. Board of Peace documented goal: Hamas disarmament as precondition for NCAG governance transition and reconstruction funding release.",
-        "confidence": "MEDIUM",
-        "sources": [
-          "Board of Peace mediator reports March 14-15, 2026 Cairo session",
-          "Hamas public communications March 2026",
-          "UNSC Resolution 2803 Comprehensive Plan Phase Two conditionality provisions",
-          "OCHA Gaza access reports"
-        ]
-      },
-      {
-        "node_id": "cross_node",
-        "headline": "Federal judge orders VA to reinstate AFGE master CBA, blocking Schedule Policy/Career reclassification at VA amid broader ~50,000 position shift",
-        "the_rhetoric": "OPM and OMB officials, including Russell Vought, have characterized the Schedule Policy/Career reclassification and CBA terminations as lawful exercises of executive authority to restore presidential accountability over the federal workforce, eliminate inefficient union contract provisions that impede management flexibility, and align federal employment with private sector at-will norms. Administration officials have framed union contracts as barriers to necessary workforce reform.",
-        "the_reality": "U.S. District Judge Melissa DuBose issued a preliminary injunction on March 13, 2026, finding that the VA's selective termination of the AFGE/NVAC Master CBA was both procedurally unreasonable and motivated by anti-union animus \u2014 a documented First Amendment associational rights concern. The injunction specifically orders reinstatement of the CBA. A parallel nursing union motion remains pending. The court's finding of anti-union motivation, if upheld, would constitute a documented violation of First Amendment associational protections applicable to federal employees under existing Supreme Court precedent. This injunction operates simultaneously with the broader Schedule Policy/Career reclassification of ~50,000 GS-13 through GS-15 positions \u2014 a reclassification that strips civil service protections established under the Civil Service Reform Act of 1978. The administration's release of First Amendment training materials this week signals awareness of due process friction points in the reclassification rollout.",
-        "domestic_cost": {
-          "description": "First Amendment associational rights of federal employees are directly at issue in the injunction's findings. Civil service protections for ~50,000 career positions are being eliminated through reclassification. Veterans served by the VA face service continuity risks from workforce destabilization during litigation. Litigation costs are borne by the federal government \u2014 i.e., taxpayers \u2014 on both sides of these proceedings.",
-          "quantifiable": "~50,000 positions subject to Schedule Policy/Career reclassification. 317,000 federal separations in 2025 provide broader context. Specific litigation cost figures not available in public filings. VA workforce: approximately 400,000 employees, of whom a significant portion are covered by AFGE/NVAC CBA.",
-          "who_pays": "Federal career employees lose statutory civil service protections. Veterans lose continuity of VA services during workforce and litigation disruption. Taxpayers fund both the legal defense of reclassification and the injunction compliance costs. AFGE member employees bear the professional risk of operating in a contested employment status during litigation."
-        },
-        "institutional_bypass": "Civil Service Reform Act of 1978 (5 U.S.C. \u00a7 7101 et seq.) collective bargaining protections. First Amendment associational rights as applied to federal employee union membership (documented in court's anti-union animus finding). Federal Labor Relations Authority oversight mechanisms. Merit System Principles under 5 U.S.C. \u00a7 2301.",
-        "ideological_driver": "Documented in Schedule Policy/Career executive order and OMB Russell Vought public statements: elimination of collective bargaining as a structural constraint on presidential personnel authority, framed as restoration of Article II executive power over the administrative state.",
-        "confidence": "HIGH",
-        "sources": [
-          "DuBose J., preliminary injunction order, [case name/docket], U.S. District Court, March 13, 2026",
-          "Schedule Policy/Career executive order (effective March 2026)",
-          "Civil Service Reform Act of 1978, 5 U.S.C. \u00a7 7101 et seq.",
-          "OPM workforce data",
-          "First Amendment training materials released by OPM, March 2026"
-        ]
       }
     ]
   }
