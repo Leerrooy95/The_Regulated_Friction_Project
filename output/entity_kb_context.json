@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-25T08:53:40.101897+00:00",
+  "generated_at": "2026-03-26T08:58:15.438826+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-03-25T00:00:00",
+    "extraction_timestamp": "2026-03-26T00:00:00",
     "total_entities": 109,
     "total_relationships": 5,
     "nodes": {
@@ -129,7 +129,7 @@
           {
             "name": "IRGC",
             "type": "ORG",
-            "context": "Iranian Revolutionary Guard Corps"
+            "context": "Islamic Revolutionary Guard Corps"
           },
           {
             "name": "CENTCOM",
@@ -841,8 +841,8 @@
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-03-25T08:42:15.346959+00:00",
-    "total_runs_analyzed": 48,
+    "analysis_timestamp": "2026-03-26T08:47:05.241410+00:00",
+    "total_runs_analyzed": 50,
     "window_days": 7,
     "total_convergence_events": 10,
     "friction_compliance_pairs": 9,
