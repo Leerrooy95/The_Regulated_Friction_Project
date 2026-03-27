@@ -1,5 +1,5 @@
 {
-  "extraction_timestamp": "2026-03-26T00:00:00",
+  "extraction_timestamp": "2026-03-27T00:00:00",
   "total_entities": 109,
   "total_relationships": 5,
   "nodes": {
@@ -116,7 +116,7 @@
         {
           "name": "IRGC",
           "type": "ORG",
-          "context": "Islamic Revolutionary Guard Corps"
+          "context": "Iranian Revolutionary Guard Corps"
         },
         {
           "name": "CENTCOM",
@@ -404,7 +404,7 @@
         {
           "date": "2026-03-24",
           "event": "Board of Peace expansions",
-          "significance": "Compliance with Gaza mandate"
+          "significance": "Compliance with Gaza reconstruction mandate"
         }
       ],
       "event_classification": "COMPLIANCE",
