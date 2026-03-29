@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-28T08:43:00.682781+00:00",
+  "generated_at": "2026-03-29T08:44:46.595024+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-03-28T00:00:00",
-    "total_entities": 109,
-    "total_relationships": 5,
+    "extraction_timestamp": "2026-03-29T00:00:00Z",
+    "total_entities": 106,
+    "total_relationships": 4,
     "nodes": {
       "maxwell": {
         "entity_count": 19,
@@ -124,12 +124,12 @@
           {
             "name": "Iran",
             "type": "LOCATION",
-            "context": "Country involved in negotiations"
+            "context": "Country involved in US-Iran negotiations"
           },
           {
             "name": "IRGC",
             "type": "ORG",
-            "context": "Iranian Revolutionary Guard Corps"
+            "context": "Islamic Revolutionary Guard Corps"
           },
           {
             "name": "CENTCOM",
@@ -326,7 +326,7 @@
       },
       "israel": {
         "entity_count": 12,
-        "relationship_count": 3,
+        "relationship_count": 2,
         "cross_node_count": 4,
         "event_classification": "COMPLIANCE",
         "entities": [
@@ -403,12 +403,6 @@
             "to": "Cyprus",
             "type": "INVITATION",
             "detail": "$1B permanent seat offer"
-          },
-          {
-            "from": "Board of Peace",
-            "to": "Indonesia",
-            "type": "INVITATION",
-            "detail": "Rejected $1B permanent seat offer"
           }
         ],
         "cross_node_connections": [
@@ -435,7 +429,7 @@
         ]
       },
       "oracle_ellison": {
-        "entity_count": 18,
+        "entity_count": 17,
         "relationship_count": 1,
         "cross_node_count": 0,
         "event_classification": "NEUTRAL",
@@ -466,16 +460,6 @@
             "context": "Production company"
           },
           {
-            "name": "OpenAI",
-            "type": "ORG",
-            "context": "AI research organization"
-          },
-          {
-            "name": "Stargate",
-            "type": "ORG",
-            "context": "Joint AI infrastructure venture"
-          },
-          {
             "name": "Ellison",
             "type": "PERSON",
             "context": "Extracted by GLiNER2 from oracle_ellison"
@@ -489,6 +473,11 @@
             "name": "Warner Bros",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from oracle_ellison"
+          },
+          {
+            "name": "Stargate",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from oracle_ellison (disambiguated)"
           },
           {
             "name": "Gaza",
@@ -618,7 +607,7 @@
         ]
       },
       "arkansas_datacenter": {
-        "entity_count": 17,
+        "entity_count": 15,
         "relationship_count": 0,
         "cross_node_count": 5,
         "event_classification": "NEUTRAL",
@@ -642,16 +631,6 @@
             "name": "DATA Act",
             "type": "LEGAL",
             "context": "Legislation"
-          },
-          {
-            "name": "Good Day Farm",
-            "type": "ORG",
-            "context": "Company involved in ballot preemption"
-          },
-          {
-            "name": "Acts 373/548",
-            "type": "LEGAL",
-            "context": "Utility rate capture legislation"
           },
           {
             "name": "AVAIO construction",
@@ -833,16 +812,16 @@
     ],
     "entity_type_counts": {
       "PERSON": 13,
-      "ORG": 39,
+      "ORG": 37,
       "LOCATION": 18,
       "TEMPORAL": 16,
-      "LEGAL": 16,
+      "LEGAL": 15,
       "FINANCIAL": 7
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-03-28T08:31:54.778766+00:00",
-    "total_runs_analyzed": 54,
+    "analysis_timestamp": "2026-03-29T08:33:24.191264+00:00",
+    "total_runs_analyzed": 56,
     "window_days": 7,
     "total_convergence_events": 10,
     "friction_compliance_pairs": 9,

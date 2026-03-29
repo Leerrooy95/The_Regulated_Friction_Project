@@ -1,6 +1,6 @@
 {
-  "run_timestamp": "2026-03-28T08:29:28.654643+00:00",
-  "run_date": "2026-03-28",
+  "run_timestamp": "2026-03-29T08:30:54.037579+00:00",
+  "run_date": "2026-03-29",
   "nodes_queried": 7,
   "nodes_active": 0,
   "nodes_critical": 0,
@@ -9,8 +9,8 @@
     "maxwell": {
       "node_id": "maxwell",
       "status": "MONITORING",
-      "headline": "Maxwell habeas petition and clemency discussions remain unresolved; no new court rulings or DOJ decisions as of late March 2026",
-      "summary": "Ghislaine Maxwell is serving a 20-year sentence at FCI Tallahassee following her 2021 conviction on sex trafficking and related charges. Her legal team has pursued a habeas corpus petition arguing trial irregularities, while reported clemency discussions involving attorney David Markus and DOJ under Pam Bondi have not produced a public decision. Maxwell's potential House Oversight Committee appearance remains contingent on DOJ and White House decisions about her cooperation value versus the political exposure of granting relief.",
+      "headline": "Maxwell habeas petition and clemency discussions remain unresolved; no scheduled hearings or DOJ decisions as of late March 2026",
+      "summary": "Ghislaine Maxwell, serving a 20-year sentence at FCI Tallahassee, has pursued a habeas corpus petition challenging her conviction on grounds related to juror conduct. Clemency negotiations reportedly involve attorney David Markus and hinge on Maxwell's willingness to provide substantive cooperation regarding the broader Epstein network \u2014 cooperation she has historically resisted invoking Fifth Amendment protections. Her leverage as a node is contingent on DOJ and House Oversight scheduling decisions, neither of which has publicly advanced as of the monitoring date.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "LEGAL",
@@ -26,7 +26,7 @@
       "timestamp": "2026-03-24",
       "raw_response_length": 977,
       "claude_enriched": true,
-      "enrichment_note": "Draws on Maxwell's sentencing record, post-conviction legal filings through early 2026, and reported clemency discussions documented in investigative journalism prior to January 2026."
+      "enrichment_note": "Draws on Maxwell's 2021 conviction record, subsequent habeas filings, reported clemency discussions under AG Pam Bondi, and the framework distinguishing Maxwell's individual case from the broader Epstein network documentation effort."
     },
     "iran": {
       "node_id": "iran",
@@ -60,8 +60,8 @@
     "gulf_swf": {
       "node_id": "gulf_swf",
       "status": "MONITORING",
-      "headline": "Gulf SWF capital architecture under dual stress: Operation Epic Fury regional risk and Hormuz shipping uncertainty reshaping $4.9T deployment posture",
-      "summary": "Saudi PIF ($925B+ AUM), Mubadala, MGX, ADIA, and QIA collectively represent the largest non-Western sovereign capital bloc with deep US technology and infrastructure exposure \u2014 including Stargate equity, TikTok USDS JV (MGX ~15%), Affinity Partners ($2B Saudi PIF), and Sanabil's 40+ US VC/PE positions. Operation Epic Fury and Iranian threats to Strait of Hormuz shipping create simultaneous pressure on Gulf energy revenues (the funding base) and regional infrastructure security (Abu Dhabi, Riyadh facilities). MGX's positioning is particularly complex given UAE's role as both a US technology partner and a geography directly exposed to Iranian missile and drone retaliation scenarios.",
+      "headline": "Gulf SWF capital architecture faces compounding stress from Hormuz risk, Iran strikes, and wartime energy price volatility as of Q1 2026",
+      "summary": "The combined Gulf sovereign wealth fund universe \u2014 Saudi PIF (~$925B), ADIA (~$1T), Mubadala (~$300B), MGX, and QIA (~$475B) \u2014 represents approximately $4.9T in managed assets with deep exposure to US technology, real estate, and defense-adjacent infrastructure. Operation Epic Fury's targeting of Iranian assets introduces Strait of Hormuz closure risk that would simultaneously spike Gulf hydrocarbon revenues while threatening the physical security of UAE and Qatari financial infrastructure. MGX's concurrent positions in TikTok USDS JV, Stargate, and World Liberty Financial create layered CFIUS and geopolitical compliance exposure during an active wartime period.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "FINANCIAL",
@@ -75,7 +75,7 @@
       "timestamp": "2026-03-24",
       "raw_response_length": 1139,
       "claude_enriched": true,
-      "enrichment_note": "Draws on verified AUM figures, deal structures (TikTok USDS JV finalized Jan 22 2026, Affinity Partners capital raise), and geographic risk analysis of Strait of Hormuz shipping lanes relative to Gulf SWF headquarters as of early 2026."
+      "enrichment_note": "Draws on documented AUM figures for major Gulf SWFs, MGX's confirmed investment positions through January 2026, and the Strait of Hormuz's established role as a global energy chokepoint under Iranian threat."
     },
     "israel": {
       "node_id": "israel",
@@ -151,8 +151,8 @@
     "arkansas_datacenter": {
       "node_id": "arkansas_datacenter",
       "status": "MONITORING",
-      "headline": "Arkansas datacenter capital nexus compounds structurally: ballot preemption, utility rate capture, and $17B+ deployment proceed without sustained national coverage",
-      "summary": "The Arkansas Supreme Court's Good Day Farm ruling established a precedent enabling legislative override of citizen ballot initiatives, creating a legal architecture that insulates datacenter tax incentives and utility rate structures from popular challenge. Acts 373 and 548 allow Entergy Arkansas to recover datacenter infrastructure costs through ratepayer mechanisms, effectively socializing the capital costs of private AI infrastructure deployment. The DATA Act of 2026 and CREU designation framework, backed by Senator Tom Cotton, creates a federal energy bypass that allows hyperscale datacenter campuses \u2014 including Google and AVAIO projects \u2014 to access grid infrastructure outside normal state utility commission review, while L3Harris operations in Camden anchor a defense-industrial corridor that compounds the strategic value of the state's capital capture model.",
+      "headline": "Arkansas datacenter capital nexus exceeds $17B in committed investment; state preemption and utility capture framework advances without federal scrutiny",
+      "summary": "Arkansas has emerged as a structural template for state-level capital leverage through three compounding mechanisms: the Arkansas Supreme Court's Good Day Farm ruling enabling ballot initiative preemption that insulates legislative decisions from direct democracy; Acts 373 and 548 allowing utility rate structures favorable to large industrial consumers including hyperscale datacenters; and the proposed DATA Act of 2026 / CREU designation enabling federal energy bypass for qualifying datacenter projects. Google, AVAIO, and other hyperscale operators have committed capital to Arkansas facilities, with L3Harris's Camden facility adding defense-industrial convergence. Governor Huckabee Sanders and Senator Tom Cotton have been central to the federal lobbying dimension.",
       "is_new_development": false,
       "event_classification": "NEUTRAL",
       "leverage_type": "REGULATORY",
@@ -171,8 +171,8 @@
       "timestamp": "2026-03-24",
       "raw_response_length": 1246,
       "claude_enriched": true,
-      "enrichment_note": "Draws on Arkansas Supreme Court Good Day Farm ruling documentation, Acts 373/548 legislative text analysis, and federal DATA Act framework reporting as tracked through early 2026."
+      "enrichment_note": "Draws on Arkansas Supreme Court preemption jurisprudence, Entergy Arkansas rate proceedings, documented hyperscale datacenter commitments in the state, and the DATA Act legislative framework as reported through early 2026."
     }
   },
-  "_fallback_source": "2026-03-27"
+  "_fallback_source": "2026-03-28"
 }
