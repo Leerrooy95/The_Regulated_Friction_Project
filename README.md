@@ -6,7 +6,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 |---|---|
 | **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
 | **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with embedded `_AI_CONTEXT_INDEX` knowledge base |
-| **⛪ Religion Connections Tracker** | [Religion Tracker](https://signalwebdevelopment.github.io/Religion_Tracker/) — automated live tracking of religious network connections |
+| **🏛️ Arkansas Tracker** | [Arkansas Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) — live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
@@ -314,7 +314,7 @@ This repository documents **correlations, not causation**. All findings derive f
 | Repository | Focus |
 |------------|-------|
 | [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — powers the public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) with 8 tabs, Chart.js visualizations, and Gradient AI chatbot |
-| [Religion_Tracker](https://signalwebdevelopment.github.io/Religion_Tracker/) | Automated live tracking of religious network connections to policy infrastructure |
+| [Arkansas_Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) | Live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | [Crypto COI Tracker](https://signalwebdevelopment.github.io/) | Automated live tracking of cryptocurrency conflicts of interest |
 | [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
 | [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
