@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T19:13:48.886096+00:00",
-  "total_runs": 59,
+  "last_updated": "2026-03-30T19:43:38.227099+00:00",
+  "total_runs": 60,
   "timeline": {
     "dates": [
       "2026-03-08",
@@ -50,7 +50,7 @@
       0,
       0,
       0,
-      0
+      7
     ],
     "critical_nodes": [
       2,
@@ -75,7 +75,7 @@
       0,
       0,
       0,
-      0
+      3
     ],
     "convergence_detected": [
       true,
@@ -100,7 +100,7 @@
       false,
       false,
       false,
-      false
+      true
     ]
   },
   "classification_over_time": {
@@ -152,7 +152,7 @@
       2,
       2,
       2,
-      2
+      5
     ],
     "DE_ESCALATION": [
       0,
@@ -202,7 +202,7 @@
       0,
       0,
       0,
-      0
+      2
     ],
     "FRICTION": [
       1,
@@ -227,7 +227,7 @@
       0,
       0,
       0,
-      0
+      2
     ],
     "NEUTRAL": [
       0,
@@ -314,7 +314,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
-        "MONITORING"
+        "ACTIVE"
       ],
       "epstein_files": [
         "CRITICAL",
@@ -339,7 +339,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
-        "MONITORING"
+        "CRITICAL"
       ],
       "gulf_swf": [
         "CRITICAL",
@@ -364,7 +364,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
-        "MONITORING"
+        "ACTIVE"
       ],
       "iran": [
         "MONITORING",
@@ -389,7 +389,7 @@
         "ACTIVE",
         "ACTIVE",
         "ACTIVE",
-        "ACTIVE"
+        "CRITICAL"
       ],
       "israel": [
         "MONITORING",
@@ -414,7 +414,7 @@
         "ACTIVE",
         "ACTIVE",
         "ACTIVE",
-        "ACTIVE"
+        "CRITICAL"
       ],
       "maxwell": [
         "ACTIVE",
@@ -439,7 +439,7 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
-        "MONITORING"
+        "ACTIVE"
       ],
       "oracle_ellison": [
         "ACTIVE",
@@ -464,20 +464,20 @@
         "MONITORING",
         "MONITORING",
         "MONITORING",
-        "MONITORING"
+        "ACTIVE"
       ]
     }
   },
   "leverage_type_totals": {
-    "LEGAL": 57,
-    "KINETIC": 68,
-    "FINANCIAL": 86,
+    "LEGAL": 59,
+    "KINETIC": 70,
+    "FINANCIAL": 89,
     "REGULATORY": 39,
     "REPUTATIONAL": 22
   },
   "convergence_rate": {
-    "total_runs": 59,
-    "convergence_events": 10,
-    "rate_pct": 16.9
+    "total_runs": 60,
+    "convergence_events": 11,
+    "rate_pct": 18.3
   }
 }
