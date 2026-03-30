@@ -1,0 +1,6 @@
+# requirements.txt (root)
+pyasn1>=0.6.1
+pyOpenSSL>=24.3.0
+cryptography>=44.0.1
+langchain-core>=0.3.41
+requests>=2.32.4
