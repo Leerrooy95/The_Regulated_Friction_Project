@@ -1,36 +1,21 @@
 {
-  "generated_at": "2026-03-30T09:18:31.270419+00:00",
+  "generated_at": "2026-03-30T19:20:07.011942+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-03-30T00:00:00",
-    "total_entities": 106,
-    "total_relationships": 4,
+    "extraction_timestamp": "2026-03-30T19:13:46.357468+00:00",
+    "total_entities": 94,
+    "total_relationships": 0,
     "nodes": {
       "maxwell": {
-        "entity_count": 19,
+        "entity_count": 16,
         "relationship_count": 0,
         "cross_node_count": 0,
         "event_classification": "NEUTRAL",
         "entities": [
-          {
-            "name": "Ghislaine Maxwell",
-            "type": "PERSON",
-            "context": "Individual serving a 20-year sentence"
-          },
-          {
-            "name": "House Oversight Committee",
-            "type": "ORG",
-            "context": "Oversight body"
-          },
-          {
-            "name": "DOJ",
-            "type": "ORG",
-            "context": "Department of Justice"
-          },
           {
             "name": "David Markus",
             "type": "PERSON",
@@ -116,36 +101,11 @@
         "cross_node_connections": []
       },
       "iran": {
-        "entity_count": 16,
-        "relationship_count": 1,
-        "cross_node_count": 2,
+        "entity_count": 12,
+        "relationship_count": 0,
+        "cross_node_count": 4,
         "event_classification": "DE_ESCALATION",
         "entities": [
-          {
-            "name": "Iran",
-            "type": "LOCATION",
-            "context": "Country involved in US-Iran negotiations"
-          },
-          {
-            "name": "IRGC",
-            "type": "ORG",
-            "context": "Iranian Revolutionary Guard Corps"
-          },
-          {
-            "name": "CENTCOM",
-            "type": "ORG",
-            "context": "US Central Command"
-          },
-          {
-            "name": "Strait of Hormuz",
-            "type": "LOCATION",
-            "context": "Critical oil shipping chokepoint"
-          },
-          {
-            "name": "Hezbollah",
-            "type": "ORG",
-            "context": "Lebanese Shia militant group"
-          },
           {
             "name": "Trump",
             "type": "PERSON",
@@ -182,6 +142,11 @@
             "context": "Extracted by GLiNER2 from iran"
           },
           {
+            "name": "Strait of Hormuz",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran (disambiguated)"
+          },
+          {
             "name": "Tehran",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from iran"
@@ -202,24 +167,27 @@
             "context": "Extracted by GLiNER2 from iran"
           }
         ],
-        "relationships": [
-          {
-            "from": "Iran",
-            "to": "US",
-            "type": "NEGOTIATION",
-            "detail": "Productive talks on March 24, 2026"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": [
           {
             "target_node": "israel",
-            "connection_type": "REGIONAL_CONFLICT",
-            "detail": "Ongoing tensions in the region"
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: march 24, 2026"
           },
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
             "detail": "Shared entity: march 24, 2026"
+          },
+          {
+            "target_node": "israel",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: israel"
+          },
+          {
+            "target_node": "israel",
+            "connection_type": "shared_entity",
+            "detail": "Shared entity: tiktok usds jv llc"
           }
         ]
       },
@@ -230,19 +198,9 @@
         "event_classification": "NEUTRAL",
         "entities": [
           {
-            "name": "Saudi PIF",
-            "type": "ORG",
-            "context": "Saudi Public Investment Fund"
-          },
-          {
-            "name": "Mubadala",
-            "type": "ORG",
-            "context": "UAE sovereign wealth fund"
-          },
-          {
             "name": "MGX",
             "type": "ORG",
-            "context": "UAE sovereign technology investment fund"
+            "context": "Extracted by GLiNER2 from gulf_swf (disambiguated)"
           },
           {
             "name": "QIA",
@@ -251,6 +209,16 @@
           },
           {
             "name": "ADIA",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Mubadala",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "Saudi PIF",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
@@ -326,19 +294,14 @@
       },
       "israel": {
         "entity_count": 12,
-        "relationship_count": 2,
-        "cross_node_count": 4,
+        "relationship_count": 0,
+        "cross_node_count": 3,
         "event_classification": "COMPLIANCE",
         "entities": [
           {
             "name": "Board of Peace",
             "type": "ORG",
-            "context": "Trump-created international organization"
-          },
-          {
-            "name": "Israel",
-            "type": "LOCATION",
-            "context": "Country involved in Gaza reconstruction"
+            "context": "Extracted by GLiNER2 from israel (disambiguated)"
           },
           {
             "name": "NSO Group",
@@ -353,6 +316,11 @@
           {
             "name": "Unit 8200",
             "type": "ORG",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "Israel",
+            "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
@@ -391,26 +359,8 @@
             "context": "Extracted by GLiNER2 from israel"
           }
         ],
-        "relationships": [
-          {
-            "from": "Board of Peace",
-            "to": "Greece",
-            "type": "INVITATION",
-            "detail": "$1B permanent seat offer"
-          },
-          {
-            "from": "Board of Peace",
-            "to": "Cyprus",
-            "type": "INVITATION",
-            "detail": "$1B permanent seat offer"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": [
-          {
-            "target_node": "iran",
-            "connection_type": "REGIONAL_CONFLICT",
-            "detail": "Ongoing tensions in the region"
-          },
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
@@ -429,35 +379,20 @@
         ]
       },
       "oracle_ellison": {
-        "entity_count": 17,
-        "relationship_count": 1,
+        "entity_count": 16,
+        "relationship_count": 0,
         "cross_node_count": 0,
         "event_classification": "NEUTRAL",
         "entities": [
           {
-            "name": "Oracle Corporation",
-            "type": "ORG",
-            "context": "Enterprise software and cloud infrastructure company"
-          },
-          {
             "name": "Larry Ellison",
             "type": "PERSON",
-            "context": "Oracle CEO"
+            "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
             "name": "David Ellison",
             "type": "PERSON",
-            "context": "Larry Ellison's son"
-          },
-          {
-            "name": "Warner Bros Discovery",
-            "type": "ORG",
-            "context": "Media conglomerate"
-          },
-          {
-            "name": "Skydance",
-            "type": "ORG",
-            "context": "Production company"
+            "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
             "name": "Ellison",
@@ -465,9 +400,19 @@
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
+            "name": "Oracle Corporation",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from oracle_ellison (normalized from 'Oracle')"
+          },
+          {
             "name": "Board of Peace",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from oracle_ellison (disambiguated)"
+          },
+          {
+            "name": "Skydance",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
             "name": "Warner Bros",
@@ -520,32 +465,15 @@
             "context": "Extracted by GLiNER2 from oracle_ellison"
           }
         ],
-        "relationships": [
-          {
-            "from": "Larry Ellison",
-            "to": "David Ellison",
-            "type": "PERSONAL_GUARANTEE",
-            "detail": "$40.4B personal guarantee"
-          }
-        ],
+        "relationships": [],
         "cross_node_connections": []
       },
       "epstein_files": {
-        "entity_count": 12,
+        "entity_count": 11,
         "relationship_count": 0,
         "cross_node_count": 1,
         "event_classification": "NEUTRAL",
         "entities": [
-          {
-            "name": "DOJ",
-            "type": "ORG",
-            "context": "Department of Justice"
-          },
-          {
-            "name": "Epstein Files Transparency Act",
-            "type": "LEGAL",
-            "context": "Congressional legislation"
-          },
           {
             "name": "Ro Khanna",
             "type": "PERSON",
@@ -592,6 +520,11 @@
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
+            "name": "Epstein Files Transparency Act",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from epstein_files (disambiguated)"
+          },
+          {
             "name": "AG Pam Bondi",
             "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from epstein_files"
@@ -607,31 +540,11 @@
         ]
       },
       "arkansas_datacenter": {
-        "entity_count": 15,
+        "entity_count": 12,
         "relationship_count": 0,
         "cross_node_count": 5,
         "event_classification": "NEUTRAL",
         "entities": [
-          {
-            "name": "Entergy Arkansas",
-            "type": "ORG",
-            "context": "Utility company"
-          },
-          {
-            "name": "AVAIO",
-            "type": "ORG",
-            "context": "Datacenter company"
-          },
-          {
-            "name": "Tom Cotton",
-            "type": "PERSON",
-            "context": "US Senator"
-          },
-          {
-            "name": "DATA Act",
-            "type": "LEGAL",
-            "context": "Legislation"
-          },
           {
             "name": "AVAIO construction",
             "type": "ORG",
@@ -644,6 +557,11 @@
           },
           {
             "name": "PSC",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from arkansas_datacenter"
+          },
+          {
+            "name": "AVAIO",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
@@ -722,14 +640,26 @@
       {
         "source_node": "iran",
         "target_node": "israel",
-        "connection_type": "REGIONAL_CONFLICT",
-        "detail": "Ongoing tensions in the region"
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: march 24, 2026"
       },
       {
         "source_node": "iran",
         "target_node": "maxwell",
         "connection_type": "shared_entity",
         "detail": "Shared entity: march 24, 2026"
+      },
+      {
+        "source_node": "iran",
+        "target_node": "israel",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: israel"
+      },
+      {
+        "source_node": "iran",
+        "target_node": "israel",
+        "connection_type": "shared_entity",
+        "detail": "Shared entity: tiktok usds jv llc"
       },
       {
         "source_node": "gulf_swf",
@@ -748,12 +678,6 @@
         "target_node": "maxwell",
         "connection_type": "shared_entity",
         "detail": "Shared entity: march 24, 2026"
-      },
-      {
-        "source_node": "israel",
-        "target_node": "iran",
-        "connection_type": "REGIONAL_CONFLICT",
-        "detail": "Ongoing tensions in the region"
       },
       {
         "source_node": "israel",
@@ -811,17 +735,17 @@
       }
     ],
     "entity_type_counts": {
-      "PERSON": 13,
-      "ORG": 37,
-      "LOCATION": 18,
+      "PERSON": 11,
+      "ORG": 29,
+      "LOCATION": 17,
       "TEMPORAL": 16,
-      "LEGAL": 15,
+      "LEGAL": 14,
       "FINANCIAL": 7
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-03-30T09:07:10.472785+00:00",
-    "total_runs_analyzed": 58,
+    "analysis_timestamp": "2026-03-30T19:13:48.821745+00:00",
+    "total_runs_analyzed": 59,
     "window_days": 7,
     "total_convergence_events": 10,
     "friction_compliance_pairs": 9,

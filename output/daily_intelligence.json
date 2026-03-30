@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-30T09:11:16Z",
-  "generated_by": "Live Trackers daily_intelligence.py (Perplexity sonar-pro)",
+  "generated_at": "2026-03-30T19:14:59Z",
+  "generated_by": "Live Trackers daily_intelligence.py (Brave Search + Claude)",
   "config_version": "2026-03-23",
   "top_3_developments": [],
   "new_alerts": [],
@@ -10,110 +10,110 @@
     {
       "original_signal": "Iran war and Strait of Hormuz",
       "status": "ERROR",
-      "headline": "Operation Epic Fury ongoing: US-Israel strikes on Iran nuclear and leadership targets; Strait of Hormuz shipping status under active monitoring",
-      "summary": "Operation Epic Fury, the joint US-Israel military campaign targeting Iranian nuclear infrastructure, missile programs, and senior leadership, killed Supreme Leader Ali Khamenei and triggered a succession crisis within Iran's Assembly of Experts. The Strait of Hormuz \u2014 through which approximately 20% of global oil supply transits \u2014 faces elevated disruption risk from Iranian naval and mine-laying capabilities as a retaliatory pressure tool. The Islamic Revolutionary Guard Corps Navy has historically used asymmetric Hormuz operations during periods of maximum leadership stress, making current conditions a heightened chokepoint risk environment.",
+      "headline": "Operation Epic Fury ongoing: US-Israel strikes on Iran nuclear and leadership targets; Hormuz shipping disruption risk elevated as of March 2026",
+      "summary": "Operation Epic Fury, the US-Israel joint military campaign targeting Iranian nuclear infrastructure, missile programs, and leadership, resulted in the death of Supreme Leader Ali Khamenei, triggering an Iranian succession crisis centered on the Assembly of Experts. Strait of Hormuz transit risk has materially increased, with reported Iranian mine-laying operations and US Navy mine-clearing assets deployed in response; approximately 20% of global oil supply transits the strait. The combination of Iranian leadership vacuum, proxy network activation risk (Hezbollah, Houthis), and physical chokepoint pressure represents the highest-intensity geopolitical signal currently active in the dashboard.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Operation Epic Fury, Khamenei's death, Hormuz transit volumes, and IRGC asymmetric naval doctrine through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context provided for Operation Epic Fury, Strait of Hormuz, Assembly of Experts, and Hezbollah, cross-referenced with training knowledge of Iranian nuclear infrastructure geography and Hormuz shipping volumes."
     },
     {
       "original_signal": "Board of Peace and Gaza reconstruction",
       "status": "ERROR",
-      "headline": "Board of Peace (EO 14375) holds IOIA diplomatic immunity and Gaza reconstruction mandate under Trump's lifetime chairmanship",
-      "summary": "Executive Order 14375 created the Board of Peace as an international organization with full International Organizations Immunities Act diplomatic protections, with President Trump designated as lifetime chairman. The Board is positioned as the primary vehicle for coordinating Gaza reconstruction capital, potentially channeling Gulf SWF contributions \u2014 particularly from Saudi PIF and UAE funds \u2014 through a structure that bypasses conventional multilateral oversight mechanisms. The intersection of IOIA immunity, Gulf sovereign capital, and Gaza reconstruction creates a novel institutional architecture with significant opacity regarding accountability and fund flows.",
+      "headline": "Board of Peace established via EO 14375 with IOIA diplomatic immunity; Gaza reconstruction mandate and Trump lifetime chairmanship create novel institutional leverage structure",
+      "summary": "Executive Order 14375 created the Board of Peace as a Trump-chaired international organization with International Organizations Immunities Act protection, insulating its operations and finances from standard congressional oversight and FOIA exposure. The Gaza reconstruction mandate positions the Board as a capital allocation vehicle for Gulf SWF participation \u2014 particularly relevant given Saudi PIF and UAE sovereign fund interest in post-conflict infrastructure \u2014 under a structure with limited institutional accountability. As of early 2026, the Board's operational status, staffing, and capital commitments remain minimally documented in public record, making it a high-opacity node in the Gulf capital architecture.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of EO 14375, IOIA legal framework, Gulf SWF Gaza reconstruction discussions, and Board of Peace structure through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for Board of Peace and training knowledge of IOIA immunity frameworks, EO mechanisms, and Gulf SWF infrastructure investment patterns."
     },
     {
       "original_signal": "Gulf SWF capital movements",
       "status": "ERROR",
-      "headline": "Gulf SWF deployment activity spans TikTok JV, Stargate equity, Affinity Partners, and 1789 Capital defense-media vehicles under wartime conditions",
-      "summary": "MGX's simultaneous equity positions in TikTok USDS JV (~15%), Stargate, and World Liberty Financial (49% via Aryam Investment 1) represent an unusually concentrated footprint across AI infrastructure, social media governance, and DeFi simultaneously. Saudi PIF's $2B commitment to Affinity Partners and Sanabil's positions in 40+ US VC/PE firms including a16z and Founders Fund extend Gulf capital reach into early-stage technology pipelines. Operation Epic Fury introduces a novel stress variable: Gulf SWF deployment capacity is revenue-linked to hydrocarbon flows that Hormuz disruption would directly constrain.",
+      "headline": "Gulf SWF capital movements: MGX TikTok JV finalized Jan 2026; Saudi PIF-Affinity-QXO pipeline active; wartime stress testing $4.9T architecture",
+      "summary": "MGX's January 22, 2026 finalization of its ~15% stake in TikTok USDS JV LLC marks the most recently confirmed capital movement in the Gulf SWF architecture, alongside its Stargate equity position and 49% World Liberty Financial stake via Aryam Investment 1. Saudi PIF's $2B Affinity Partners allocation and Sanabil's positions in 40+ US VC/PE firms including a16z and Founders Fund represent slower-moving but structurally significant capital flows into US technology and defense-adjacent sectors. Wartime conditions created by Operation Epic Fury and Hormuz disruption risk create asymmetric pressure on energy-revenue-dependent funds like Saudi PIF while potentially accelerating deployment of already-committed US tech positions.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of MGX portfolio positions, Sanabil investment roster, Affinity Partners AUM, and Gulf fiscal hydrocarbon dependency through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for MGX, Affinity Partners, Sanabil, and QXO, cross-referenced with training knowledge of Gulf SWF capital deployment timelines and oil revenue dependencies."
     },
     {
       "original_signal": "Epstein document releases",
       "status": "ERROR",
-      "headline": "DOJ Epstein library at ~3.5M pages as of March 2026; FBI 302 interview summaries and institutional financial connections remain primary analytical targets",
-      "summary": "The Epstein Files Transparency Act mandated DOJ release of Jeffrey Epstein-related documents, with the live repository reaching approximately 3.5 million pages by March 2026 including FBI 302 interview summaries that name associates and describe institutional relationships. JPMorgan and Deutsche Bank have previously faced civil liability for their banking relationships with Epstein, and the 302 summaries are expected to surface additional institutional and individual exposure. The document release is a live, rolling repository \u2014 new batches continue to appear and each release cycle generates discrete friction events consistent with the Regulated Friction Project's Track A pattern.",
+      "headline": "DOJ Epstein library at ~3.5M pages as of March 2026; FBI 302 interview summaries and financial institution documents driving associate exposure risk",
+      "summary": "The Epstein Files Transparency Act mandate has produced a live DOJ repository of nearly 3.5 million pages, with FBI 302 interview summaries representing the highest-leverage disclosure category given their documentation of named and unnamed associates' direct interactions with Epstein. Financial institution exposure \u2014 particularly JPMorgan and Deutsche Bank, which faced prior civil liability for facilitating Epstein's accounts \u2014 is amplified by the 302 summaries potentially naming relationship managers and executives. New batch releases remain the primary monitoring trigger; each release resets the 7-day friction-to-compliance lag window identified in the Regulated Friction Project framework.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of the Epstein Files Transparency Act, DOJ document release timeline, JPMorgan/Deutsche Bank civil proceedings, and FBI 302 scope through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for Epstein Network and Epstein Files Transparency Act, cross-referenced with training knowledge of JPMorgan and Deutsche Bank Epstein litigation and FBI 302 document structure."
     },
     {
       "original_signal": "Maxwell clemency and testimony",
       "status": "ERROR",
-      "headline": "Maxwell clemency discussions and habeas petition unresolved; Fifth Amendment invocation blocks House Oversight testimony pipeline",
-      "summary": "Ghislaine Maxwell's potential cooperation value lies in her direct knowledge of Epstein network operations, client logistics, and associate identities \u2014 information that partially overlaps with but is not fully captured by the DOJ document library. Attorney David Markus has publicly floated clemency discussions without confirmation of active DOJ negotiations, while Maxwell's habeas petition challenges her conviction on grounds that have not yet received dispositive rulings. Her Fifth Amendment invocation before House Oversight means the Congressional testimony track remains blocked absent a formal immunity agreement or DOJ-directed cooperation arrangement.",
+      "headline": "Maxwell clemency and testimony signals dormant: 5th Amendment invocation holds, habeas pending, no DOJ cooperation framework publicly confirmed",
+      "summary": "Maxwell's continued 5th Amendment invocation before House Oversight means her testimony value remains theoretical leverage rather than realized disclosure, while her habeas petition preserves legal uncertainty about the finality of her conviction. The clemency signal is structurally dependent on a DOJ calculation about whether Maxwell's network knowledge \u2014 particularly regarding unnamed associates in FBI 302s \u2014 exceeds the political cost of a clemency grant under current Epstein file release pressure. No change in this calculus has been publicly signaled by Pam Bondi's DOJ as of late March 2026.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Maxwell's conviction, sentencing, habeas filing, Fifth Amendment invocation, and Markus clemency statements through early 2026."
+      "enrichment_note": "Draws on training knowledge of Maxwell's conviction, 5th Amendment posture before Congress, habeas corpus procedural status, and DOJ cooperation agreement frameworks in high-profile cases."
     },
     {
       "original_signal": "Russia-Ukraine negotiations",
       "status": "ERROR",
-      "headline": "Russia-Ukraine ceasefire negotiations ongoing under US mediation pressure; territorial and security guarantee frameworks remain primary sticking points",
-      "summary": "The Trump administration applied significant pressure through early 2026 to advance a negotiated settlement framework, with discussions centered on territorial lines approximating current front positions and NATO/security guarantee questions for Ukraine. Russia has maintained maximalist positions on Ukrainian neutrality while Ukraine has resisted formal territorial concessions without ironclad security commitments from Western guarantors. The CRINK framework is relevant here: North Korean troop deployments to Russian forces and Iranian drone supply chains represent external coordination variables that complicate bilateral negotiating dynamics.",
+      "headline": "Russia-Ukraine ceasefire negotiations active in early 2026; US mediating role under Trump administration with territorial concession pressure on Kyiv",
+      "summary": "As of early 2026, Trump administration diplomacy had repositioned US leverage toward a negotiated settlement framework that acknowledged Russian territorial gains in eastern Ukraine, generating significant friction with European NATO allies over security guarantees. The negotiating track intersects with the CRINK framework insofar as any Ukraine settlement affects Russian resource availability for Iran and North Korea coordination \u2014 a structural concern the dashboard's dual-track model flags as a Track A attention-capture event with Track B implications for European defense capital flows. No finalized ceasefire agreement had been confirmed as of the knowledge boundary; the signal remains active and contested.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Trump administration Ukraine mediation efforts, Russian negotiating positions, DPRK troop deployments, and Iranian drone supply through early 2026."
+      "enrichment_note": "Draws on training knowledge of Trump administration Ukraine policy posture through early 2026, territorial control maps, and NATO alliance friction over security guarantee negotiations."
     },
     {
       "original_signal": "AI Pentagon contracts and compliance",
       "status": "ERROR",
-      "headline": "Pentagon AI contract pipeline accelerates through Anduril, Palantir, and Stargate-adjacent vendors amid DOGE-successor OPM workforce restructuring",
-      "summary": "The Department of Defense's AI and autonomous systems procurement has concentrated around a cluster of vendors including Anduril (1789 Capital portfolio), Palantir, and Microsoft/OpenAI partnerships, with the Replicator initiative and subsequent programs pushing autonomous drone and battlefield AI integration. Former DOGE staff embedded in OPM and individual agency procurement offices have influenced contracting compliance requirements, particularly around Schedule Policy Career reclassifications that affect acquisition workforce oversight. The Stargate infrastructure buildout has a dual-use dimension: civilian AI capacity developed for commercial deployment is structurally adjacent to defense inference workloads.",
+      "headline": "Pentagon AI contract pipeline active: Anduril, Palantir, and Stargate-adjacent vendors competing for defense AI integration under accelerated procurement timelines",
+      "summary": "The Department of Defense's accelerated AI procurement posture in 2025-2026 has benefited Anduril (1789 Capital portfolio), Palantir, and Microsoft, with Stargate's compute infrastructure positioning Oracle and OpenAI as potential backbone providers for classified and unclassified defense AI workloads. DOGE-era workforce reductions at DoD's acquisition offices have created compliance monitoring gaps that defense contractors and OMB-directed procurement reform advocates are navigating simultaneously. Schedule Policy Career reclassifications affecting DoD acquisition personnel represent a structural compliance risk that intersects directly with contract award integrity and inspector general oversight capacity.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Pentagon AI procurement, Anduril/Palantir contract positions, Replicator initiative, and OPM workforce restructuring impact on acquisition compliance through early 2026."
+      "enrichment_note": "Draws on training knowledge of DoD AI procurement priorities, Anduril and Palantir contract history, and the operational implications of acquisition workforce reductions on contract oversight."
     },
     {
       "original_signal": "Oracle and Stargate infrastructure",
       "status": "ERROR",
-      "headline": "Oracle carries $100B+ debt load plus $45-50B new 2026 capital raise alongside Stargate partnership and Larry Ellison's ~$40.4B WBD guarantee exposure",
-      "summary": "Oracle's capital stress profile is unusually concentrated: existing debt exceeding $100B, a new $45-50B capital raise in early 2026 to fund Stargate data center infrastructure alongside OpenAI and SoftBank, and CEO Larry Ellison's approximately $40.4B personal guarantee supporting son David Ellison's Warner Bros Discovery acquisition. The Ohio Carpenters Pension bondholder lawsuit signals that institutional creditors are beginning to probe Oracle's leverage architecture. As TikTok USDS JV's ~15% equity holder and Stargate's infrastructure backbone provider, Oracle's financial stress has systemic implications for both the AI infrastructure buildout and the post-deal TikTok compliance structure.",
+      "headline": "Oracle anchors Stargate compute infrastructure with $100B+ debt load and $45-50B new capital raise; Ohio pension bondholder lawsuit adds legal stress to leverage stack",
+      "summary": "Oracle's role as primary cloud infrastructure provider for the Stargate joint venture \u2014 alongside OpenAI and SoftBank \u2014 has been accompanied by a $45-50B new capital raise in early 2026 layered onto an existing $100B+ debt position, creating one of the most leveraged infrastructure buildouts in US technology history. Larry Ellison's reported ~$40.4B personal guarantee for son David Ellison's Warner Bros Discovery acquisition adds a second capital stress vector that could interact adversely with Oracle's corporate liquidity if both positions face simultaneous pressure. The Ohio Carpenters Pension bondholder lawsuit represents an early institutional creditor signal that Oracle's capital structure is attracting adversarial legal scrutiny.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Oracle debt levels, Stargate partnership terms, Ellison WBD guarantee, Ohio Carpenters lawsuit, and TikTok USDS equity structure through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for Oracle Corporation and Stargate, cross-referenced with training knowledge of Oracle's debt history, Stargate partnership structure, and the Warner Bros Discovery acquisition financing."
     },
     {
       "original_signal": "Federal workforce restructuring",
       "status": "ERROR",
-      "headline": "Schedule Policy Career reclassification of ~50,000 federal positions to at-will employment took effect March 2026 amid active union litigation",
-      "summary": "Schedule Policy Career, the successor to the Trump-era Schedule F executive order, reclassified approximately 50,000 federal career positions to at-will employment status, removing civil service protections from policy-adjacent roles across agencies. OPM, now housing former DOGE staff following that entity's November 2025 disbandment as a centralized organization, is the primary implementation vehicle alongside OMB directives from Russell Vought. Federal employee unions including AFGE filed immediate legal challenges, and the litigation remains active with injunctive relief motions pending in multiple circuits as of early 2026.",
+      "headline": "Schedule Policy Career reclassification of ~50,000 positions took effect March 2026; OPM and OMB executing DOGE-successor workforce restructuring amid union litigation",
+      "summary": "The Schedule Policy Career executive order, which reclassified approximately 50,000 federal career positions to at-will employment, took effect in March 2026 and is being administered through OPM and OMB directives from Russell Vought, following the November 2025 disbanding of DOGE as a centralized entity. Federal employee unions have filed multiple legal challenges, with circuit court splits on preliminary injunction standards creating jurisdictional uncertainty about which agencies' reclassifications are currently enjoined. The practical effect on institutional capacity \u2014 particularly at regulatory agencies, DoD acquisition offices, and inspector general functions \u2014 represents the most consequential Track B structural lever currently active in the dashboard.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Schedule Policy Career implementation, DOGE disbandment and OPM succession, Vought OMB directives, and union litigation filings through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for Schedule Policy Career and DOGE successor structure, cross-referenced with training knowledge of federal civil service law, Schedule F precedent, and OPM rulemaking authority."
     },
     {
       "original_signal": "TikTok USDS post-deal compliance and oversight",
       "status": "ERROR",
-      "headline": "TikTok USDS JV LLC (est. Jan 22, 2026) under CFIUS ongoing compliance monitoring with Oracle, Silver Lake, and MGX as co-equity holders",
-      "summary": "The post-deal entity TikTok USDS JV LLC, formed January 22, 2026, restructured TikTok's US operations under a joint venture with Oracle (~15%), Silver Lake (~15%), and MGX (~15%), with ByteDance retaining a 19.9% minority stake subject to CFIUS-mandated operational firewalls. Oracle serves as the infrastructure and compliance backbone, hosting US user data on Oracle Cloud and providing audit access under the CFIUS national security agreement. MGX's equity position creates a direct UAE sovereign fund stake in US social media data infrastructure, a novel national security architecture that CFIUS continues to monitor under ongoing compliance obligations distinct from the initial deal approval.",
+      "headline": "TikTok USDS JV LLC under ongoing CFIUS compliance monitoring post-January 22, 2026 deal close; Oracle data security role and MGX stake create overlapping oversight vectors",
+      "summary": "The January 22, 2026 formation of TikTok USDS JV LLC established a CFIUS-monitored structure in which Oracle (~15%) serves as the data security trustee responsible for US user data isolation, while MGX (~15%), Silver Lake (~15%), and ByteDance (19.9% minority) hold equity positions that create overlapping national security review obligations. CFIUS's ongoing compliance mandate means the deal close was not a clean exit from regulatory scrutiny \u2014 algorithmic transparency, data localization audits, and ByteDance's residual minority influence remain live compliance questions. The MGX stake is the highest-sensitivity element given Sheikh Tahnoon bin Zayed's concurrent role as UAE national security adviser, creating a foreign government nexus that CFIUS agreements typically restrict most tightly.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of TikTok USDS JV formation date, equity structure, Oracle infrastructure role, and CFIUS ongoing compliance framework through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for TikTok USDS JV LLC and MGX, cross-referenced with training knowledge of CFIUS national security agreement structures, data localization requirements, and Oracle's prior US government data security roles."
     },
     {
       "original_signal": "CFIUS national security reviews",
       "status": "ERROR",
-      "headline": "CFIUS monitoring pipeline spans TikTok USDS JV compliance, Gulf SWF technology investments, and AI infrastructure foreign equity exposure",
-      "summary": "The Committee on Foreign Investment in the United States faces an unusually concentrated monitoring load as of early 2026: the TikTok USDS JV requires ongoing compliance verification rather than a clean post-approval exit, MGX's simultaneous positions across Stargate, TikTok USDS, and World Liberty Financial represent a novel sovereign fund AI infrastructure footprint, and Sanabil's stakes in 40+ US VC/PE firms create a broad-spectrum visibility challenge for national security reviewers. The intersection of Gulf SWF capital with AI infrastructure \u2014 particularly Oracle/Stargate \u2014 means that CFIUS's monitoring obligations are structurally linked to the financial stress variables in Oracle's capital architecture.",
+      "headline": "CFIUS activity elevated in early 2026: TikTok JV compliance, Gulf SWF tech positions, and AI infrastructure foreign equity under simultaneous review pressure",
+      "summary": "CFIUS faces an unusually concentrated review burden in early 2026, with the TikTok USDS JV ongoing compliance obligation, MGX's Stargate and World Liberty Financial positions, and Sanabil's 40+ US VC/PE fund stakes all representing active or recent foreign government investment in sensitive technology sectors. The committee's capacity to conduct rigorous mitigation agreement monitoring has been complicated by DOGE-era staffing reductions at Treasury and the national security agencies that staff CFIUS working groups, creating a structural gap between the volume of covered transactions and available review personnel. This capacity gap is the most underreported compliance risk in the current foreign investment review environment.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of CFIUS monitoring frameworks, TikTok USDS JV compliance structure, MGX investment positions, and Sanabil VC/PE exposure through early 2026."
+      "enrichment_note": "Draws on training knowledge of CFIUS committee structure, interagency staffing models, and the regulatory coverage of Gulf sovereign fund investments in US technology companies."
     },
     {
       "original_signal": "Arkansas state-level preemption and datacenter leverage",
       "status": "ERROR",
-      "headline": "Arkansas preemption-utility-datacenter nexus advances structurally without headline coverage, compounding democratic accountability erosion",
-      "summary": "The Arkansas model combines three reinforcing mechanisms: judicial preemption of ballot initiatives (Good Day Farm ruling), legislative utility rate capture favoring large industrial consumers (Acts 373/548), and federal energy bypass proposals (DATA Act/CREU designation) that would remove state regulatory authority over AI datacenter power consumption. With $17B+ in committed datacenter capital from Google, AVAIO, and others, and L3Harris's Camden facility anchoring defense-industrial convergence, Arkansas represents a fully integrated template for state-level structural leverage that operates below the visibility threshold of national media cycles. Governor Huckabee Sanders and Senator Tom Cotton provide the political durability that makes this model exportable to other states.",
+      "headline": "Arkansas preemption-datacenter nexus compounds structurally: Good Day Farm precedent, utility rate capture, and DATA Act create self-reinforcing governance bypass template",
+      "summary": "The Arkansas Supreme Court's Good Day Farm ruling has established a durable legal precedent allowing the legislature to preempt citizen ballot initiatives that conflict with economic development priorities, effectively removing the primary democratic check on utility rate restructuring and large-scale industrial land use decisions. Acts 373 and 548 have already operationalized this by restructuring Entergy Arkansas rate-setting in ways favorable to AVAIO and Google's $17B+ datacenter footprint, while the DATA Act of 2026 and potential CREU designation would layer federal energy bypass authority on top of state-level regulatory capture. Tom Cotton's Senate role in advancing the DATA Act creates a direct federal-state coordination channel that makes Arkansas a replicable template rather than an isolated state-level anomaly.",
       "sources": [],
       "claude_enriched": true,
-      "enrichment_note": "Draws on training knowledge of Arkansas Supreme Court preemption jurisprudence, Acts 373/548, datacenter capital commitments, DATA Act proposals, and L3Harris Camden facility through early 2026."
+      "enrichment_note": "Draws on entity disambiguation context for the Arkansas Datacenter Capital Nexus node and training knowledge of Arkansas Supreme Court preemption doctrine, Entergy Arkansas rate case history, and federal CREU designation frameworks."
     }
   ],
   "breaking_news": [],
@@ -126,6 +126,6 @@
   },
   "entities_scanned": 58,
   "api_calls_made": 16,
-  "daily_budget_used": 16,
+  "daily_budget_used": 42,
   "daily_budget_limit": 75
 }
