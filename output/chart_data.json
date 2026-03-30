@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T19:43:38.227099+00:00",
-  "total_runs": 60,
+  "last_updated": "2026-03-30T20:39:47.922659+00:00",
+  "total_runs": 61,
   "timeline": {
     "dates": [
       "2026-03-08",
@@ -152,7 +152,7 @@
       2,
       2,
       2,
-      5
+      9
     ],
     "DE_ESCALATION": [
       0,
@@ -202,7 +202,7 @@
       0,
       0,
       0,
-      2
+      4
     ],
     "FRICTION": [
       1,
@@ -227,7 +227,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "NEUTRAL": [
       0,
@@ -469,15 +469,15 @@
     }
   },
   "leverage_type_totals": {
-    "LEGAL": 59,
-    "KINETIC": 70,
-    "FINANCIAL": 89,
+    "LEGAL": 61,
+    "KINETIC": 72,
+    "FINANCIAL": 92,
     "REGULATORY": 39,
     "REPUTATIONAL": 22
   },
   "convergence_rate": {
-    "total_runs": 60,
-    "convergence_events": 11,
-    "rate_pct": 18.3
+    "total_runs": 61,
+    "convergence_events": 12,
+    "rate_pct": 19.7
   }
 }

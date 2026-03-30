@@ -1,310 +1,292 @@
 {
-  "checked_at": "2026-03-30T19:49:27.353602+00:00",
+  "checked_at": "2026-03-30T20:40:59.683537+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
   "claims_checked": 37,
-  "claims_verified": 0,
-  "claims_flagged": 6,
+  "claims_verified": 1,
+  "claims_flagged": 5,
   "claims_unverifiable": 31,
   "corrections_applied": [
     {
-      "claim_index": 18,
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "original_headline": "DOJ released 3.5M pages in Epstein files through January 30, 2026; victims now suing Trump DOJ and Google over exposed identities",
-      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages released by March 2026; victims sue DOJ and Google over exposed identities",
-      "original_summary": "The DOJ has released over 3.5 million pages of Epstein-related documents as of January 30, 2026, including FBI 302 interview summaries, photos, and videos. However, the Trump administration's 'release now, retract later' approach has exposed victim identifying information, prompting multiple lawsuit",
-      "corrected_summary": "The DOJ has released over 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries and other materials. The Trump administration's release approach has allegedly exposed victim identifying information, prompting multiple lawsuits against DOJ and Google. Congressional pressure continues with Rep. Thomas Massie confronting FBI leadership over unreleased 302 documents.",
-      "finding": "The disambiguation table states the DOJ Epstein library had released nearly 3.5 million pages through March 2026, not by January 30, 2026; the claim's framing of January 30 as the completion date of the 3.5M-page release is inconsistent with the pipeline's own standing definition, which places that milestone in March 2026."
+      "claim_index": 19,
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "original_headline": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
+      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
+      "original_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify to lawmakers only if granted clemency first. She refused to answer questions from U.S. lawmakers on February 9, 2026. Meanwhile, Representative Raja introduced a House Judiciary resolu",
+      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking.",
+      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution."
     },
     {
-      "claim_index": 24,
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "original_headline": "TikTok faces multiple lawsuits over teen mental health harms with bellwether trial set for January 27, 2026 in Los Angeles Superior Court",
-      "corrected_headline": "TikTok faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled for January 27, 2026 in Los Angeles Superior Court",
-      "original_summary": "The TikTok USDS JV LLC (formed January 22, 2026) is facing active litigation challenging the platform's design as defective products causing teen mental health harm. The Lanier Law Firm will try the first social media addiction case on January 27, 2026, with attorneys arguing the platforms themselve",
-      "corrected_summary": "The TikTok USDS JV LLC (formed January 22, 2026) faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already commenced or concluded as of March 2026. A New York state judge separately questioned TikTok's lawyers in March 2026 over failure to provide financial documents regarding the restructured entity.",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as a future event in the context of a March 2026 pipeline, suggesting the date is stale and the trial would have already occurred or been rescheduled; additionally, the claim does not account for the January 22, 2026 formation of TikTok USDS JV LLC and whether pre-deal litigation posture applies to the new entity."
+      "claim_index": 21,
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "original_headline": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
+      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
+      "original_summary": "The Pentagon has officially designated Palantir's Maven AI system as a Program of Record, expanding from an initial $480M contract in 2024 to a $13B framework by 2025. Simultaneously, Anthropic won a federal court injunction blocking the Pentagon's 'supply chain risk' designation after refusing to r",
+      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed.",
+      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events."
     },
     {
-      "claim_index": 25,
-      "source": "daily_intelligence/signal/CFIUS national security reviews",
-      "original_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, with conditional approval pathway through Department of War/DHS - broader CFIUS jurisdiction expansion underway",
-      "corrected_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, with conditional approval pathway through DoD/DHS",
-      "original_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, citing 'unacceptable risk to national security' following a National Security Determination issued March 20. Router manufacturers can apply for 'conditional approval' from Department of War or DHS if devices are determined not t",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, citing national security risks following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or DHS if devices are determined not to pose the identified risks. This represents a significant expansion of national security review authority into consumer technology supply chains.",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD). There is no entity disambiguation entry supporting 'Department of War' as a current US government body."
+      "claim_index": 29,
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "original_headline": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
+      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
+      "original_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney stating she is prepared to testify to lawmakers only if granted clemency first. She refused to answer questions from U.S. lawmakers on February 9, 2026. Meanwhile, Representative Raja introduced a House Judiciary ",
+      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence.",
+      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision."
     },
     {
-      "claim_index": 28,
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "original_headline": "DOJ released 3.5M pages in Epstein library by Jan 30, 2026; victims now suing Trump DOJ and Google over exposed identities; Congressional pressure mounting on FBI Director Patel over unreleased 302 documents",
-      "corrected_headline": "DOJ Epstein library reaches ~3.5M pages through March 2026; victims sue DOJ and Google over exposed identities; Massie confronts FBI Director Patel over unreleased 302 documents",
-      "original_summary": "The DOJ completed a massive document dump of 3.5 million pages to comply with the Epstein Files Transparency Act, but the release has backfired legally and politically. Multiple Epstein survivors filed federal lawsuits against the Trump administration and Google alleging the DOJ adopted a 'release n",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries. The release approach has allegedly exposed victim identities, prompting federal lawsuits against the Trump administration and Google alleging violation of privacy protections. Rep. Thomas Massie separately confronted FBI Director Kash Patel in Congress over FBI 302 interview documents that remain unreleased.",
-      "finding": "The claim states the DOJ completed its 3.5M-page release by January 30, 2026, but the pipeline's own disambiguation table specifies that nearly 3.5 million pages were released through March 2026, indicating the January 30 completion date is inconsistent with the standing pipeline definition."
-    },
-    {
-      "claim_index": 34,
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "original_headline": "TikTok faces multiple lawsuits over teen mental health harms with bellwether trial set for January 27, 2026 in Los Angeles Superior Court",
-      "corrected_headline": "TikTok USDS JV faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled January 27, 2026 in Los Angeles Superior Court",
-      "original_summary": "The TikTok USDS JV LLC (formed January 22, 2026) is facing active litigation challenging the platform's design as defective products causing teen mental health harm. The Lanier Law Firm will try the first social media addiction case on January 27, 2026, with attorneys arguing the platforms themselve",
-      "corrected_summary": "The TikTok USDS JV LLC faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already occurred as of this March 2026 reporting. A New York state judge separately questioned TikTok's lawyers on March 3, 2026 for failing to provide financial documents relating to the restructured post-deal entity.",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as an upcoming event in a March 2026 pipeline context, meaning the date has already passed and the framing is temporally stale; the New York judge action on March 3, 2026 is the current relevant development."
+      "claim_index": 31,
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "original_headline": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
+      "original_summary": "Major Pentagon AI contract developments this week: DOD designated Palantir's Maven AI system as an official Program of Record with multi-year funding growing from $480M in 2024 to $13B framework. Simultaneously, federal court issued injunction blocking Pentagon's 'supply chain risk' designation of A",
+      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified.",
+      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail."
     },
     {
       "claim_index": 35,
       "source": "daily_intelligence/signal/CFIUS national security reviews",
       "original_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, requiring CFIUS-style conditional approval from DoW/DHS for all foreign-manufactured networking equipment",
-      "corrected_headline": "FCC bans foreign-made routers effective March 23, 2026, requiring DoD/DHS conditional approval for all foreign-manufactured networking equipment",
+      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
       "original_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers can now only receive FCC equipment authorization through 'conditional approval' from the Department of War or Department of Homeland Security - es",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security, extending CFIUS-style national security review to consumer networking hardware. This action removes the majority of home networking equipment from the US market and forces significant industry restructuring.",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD)."
+      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources.",
+      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD)."
     }
   ],
   "enrichment_targets_found": 0,
   "enrichments_applied": [],
   "issues_found": [
     {
-      "claim": "DOJ released 3.5M pages in Epstein files through January 30, 2026; victims now suing Trump DOJ and Google over exposed identities",
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "finding": "The disambiguation table states the DOJ Epstein library had released nearly 3.5 million pages through March 2026, not by January 30, 2026; the claim's framing of January 30 as the completion date of the 3.5M-page release is inconsistent with the pipeline's own standing definition, which places that milestone in March 2026.",
-      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages released by March 2026; victims sue DOJ and Google over exposed identities",
-      "corrected_summary": "The DOJ has released over 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries and other materials. The Trump administration's release approach has allegedly exposed victim identifying information, prompting multiple lawsuits against DOJ and Google. Congressional pressure continues with Rep. Thomas Massie confronting FBI leadership over unreleased 302 documents."
+      "claim": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution.",
+      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
+      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking."
     },
     {
-      "claim": "TikTok faces multiple lawsuits over teen mental health harms with bellwether trial set for January 27, 2026 in Los Angeles Superior Court",
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as a future event in the context of a March 2026 pipeline, suggesting the date is stale and the trial would have already occurred or been rescheduled; additionally, the claim does not account for the January 22, 2026 formation of TikTok USDS JV LLC and whether pre-deal litigation posture applies to the new entity.",
-      "corrected_headline": "TikTok faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled for January 27, 2026 in Los Angeles Superior Court",
-      "corrected_summary": "The TikTok USDS JV LLC (formed January 22, 2026) faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already commenced or concluded as of March 2026. A New York state judge separately questioned TikTok's lawyers in March 2026 over failure to provide financial documents regarding the restructured entity."
+      "claim": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events.",
+      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
+      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed."
     },
     {
-      "claim": "FCC implements sweeping foreign router ban effective March 23, 2026, with conditional approval pathway through Department of War/DHS - broader CFIUS jurisdiction expansion underway",
-      "source": "daily_intelligence/signal/CFIUS national security reviews",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD). There is no entity disambiguation entry supporting 'Department of War' as a current US government body.",
-      "corrected_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, with conditional approval pathway through DoD/DHS",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, citing national security risks following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or DHS if devices are determined not to pose the identified risks. This represents a significant expansion of national security review authority into consumer technology supply chains."
+      "claim": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision.",
+      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
+      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence."
     },
     {
-      "claim": "DOJ released 3.5M pages in Epstein library by Jan 30, 2026; victims now suing Trump DOJ and Google over exposed identities; Congressional pressure mounting on FBI Director Patel over unreleased 302 documents",
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "finding": "The claim states the DOJ completed its 3.5M-page release by January 30, 2026, but the pipeline's own disambiguation table specifies that nearly 3.5 million pages were released through March 2026, indicating the January 30 completion date is inconsistent with the standing pipeline definition.",
-      "corrected_headline": "DOJ Epstein library reaches ~3.5M pages through March 2026; victims sue DOJ and Google over exposed identities; Massie confronts FBI Director Patel over unreleased 302 documents",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries. The release approach has allegedly exposed victim identities, prompting federal lawsuits against the Trump administration and Google alleging violation of privacy protections. Rep. Thomas Massie separately confronted FBI Director Kash Patel in Congress over FBI 302 interview documents that remain unreleased."
-    },
-    {
-      "claim": "TikTok faces multiple lawsuits over teen mental health harms with bellwether trial set for January 27, 2026 in Los Angeles Superior Court",
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as an upcoming event in a March 2026 pipeline context, meaning the date has already passed and the framing is temporally stale; the New York judge action on March 3, 2026 is the current relevant development.",
-      "corrected_headline": "TikTok USDS JV faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled January 27, 2026 in Los Angeles Superior Court",
-      "corrected_summary": "The TikTok USDS JV LLC faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already occurred as of this March 2026 reporting. A New York state judge separately questioned TikTok's lawyers on March 3, 2026 for failing to provide financial documents relating to the restructured post-deal entity."
+      "claim": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
+      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified."
     },
     {
       "claim": "FCC implements sweeping foreign router ban effective March 23, 2026, requiring CFIUS-style conditional approval from DoW/DHS for all foreign-manufactured networking equipment",
       "source": "daily_intelligence/signal/CFIUS national security reviews",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD).",
-      "corrected_headline": "FCC bans foreign-made routers effective March 23, 2026, requiring DoD/DHS conditional approval for all foreign-manufactured networking equipment",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security, extending CFIUS-style national security review to consumer networking hardware. This action removes the majority of home networking equipment from the US market and forces significant industry restructuring."
+      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD).",
+      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
+      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
       "status": "UNVERIFIABLE",
-      "finding": "The specific BBC reporting, escalation of clemency offer, and Congress reviewing unredacted files under note-only conditions cannot be verified against training data; these are post-cutoff events requiring live source confirmation."
+      "finding": "House Resolution 119-635 introduced by Rep. Krishnamoorthi on August 5, 2026 cannot be verified \u2014 the date is beyond both the knowledge cutoff and the stated March 2026 reporting window, making this claim unverifiable."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "Specific details of Trump's March 30, 2026 threats against Iranian energy infrastructure, Pakistan hosting talks, and the 15-point ceasefire proposal are post-cutoff events that cannot be verified or refuted from training data."
+      "finding": "Specific claims about Trump's March 30 2026 threats, Pakistan hosting US-Iran talks, and Iran's parliamentary speaker negotiating cannot be verified against training data; these post-cutoff operational details require live sourcing."
     },
     {
       "claim_index": 2,
       "status": "UNVERIFIABLE",
-      "finding": "The $6B+ Moonton acquisition by Saudi PIF's Savvy Games Group on March 23, 2026, PIF's new five-year strategy announcement, and Mubadala's $4.7B transaction are post-cutoff events that cannot be verified from training data."
+      "finding": "PIF's announcement of a new five-year strategy at FII PRIORITY Miami 2026 and the Moonton acquisition completion on March 23, 2026 are post-cutoff events that cannot be independently verified, though the Savvy Games/Moonton acquisition trajectory is consistent with known context."
     },
     {
       "claim_index": 3,
       "status": "UNVERIFIABLE",
-      "finding": "Active IDF strikes on Tehran, targeting of Arak heavy water plant, expanded Lebanon operations, and 5 IDF soldier casualties as of March 29-30, 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "Claims about an expanded Israeli ground invasion of southern Lebanon to the Litani River, three UN peacekeepers killed, and IDF battalion suspension for assaulting a CNN crew in March 2026 are post-cutoff and cannot be verified; the Netzah Yehuda battalion has a documented disciplinary history but the specific CNN crew incident cannot be confirmed."
     },
     {
       "claim_index": 4,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle Q3 FY2026 earnings figures, stock performance, and analyst coverage actions described as occurring in March 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "Oracle stock trading range, Q3 FY2026 earnings figures, and specific analyst price targets for March 30, 2026 are post-cutoff and cannot be verified, though the general Stargate partnership and Oracle cloud growth trajectory are consistent with pre-cutoff context."
     },
     {
       "claim_index": 5,
       "status": "UNVERIFIABLE",
-      "finding": "The specific content of Trump-related files in the Epstein releases, victim lawsuits against DOJ and Google filed March 27-30 2026, and AG Bondi's Congressional subpoena are post-cutoff events that cannot be verified from training data."
+      "finding": "Specific claims about Trump-related Epstein files, the orange figure in prison video logs, lawsuits against DOJ and Google, and Congressional subpoenas targeting AG Bondi in March 2026 are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 6,
       "status": "UNVERIFIABLE",
-      "finding": "AVAIO Digital's confirmed construction milestone, Entergy Arkansas customer savings figures, and Google solar/battery facility details as of March 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "AVAIO Digital's $6B Arkansas data center construction confirmation, Google's 600MW solar agreement with Entergy Arkansas, and Microsoft's Texas expansion details for March 2026 are post-cutoff and cannot be independently verified."
     },
     {
       "claim_index": 7,
       "status": "UNVERIFIABLE",
-      "finding": "Trump's specific March 30, 2026 threats against Iranian energy infrastructure and claims about a 15-point ceasefire plan with Iranian concessions are post-cutoff events that cannot be verified from training data."
+      "finding": "Trump's specific March 30 2026 threats against Iranian energy infrastructure and claims of a 15-point ceasefire plan are post-cutoff operational details that cannot be verified."
     },
     {
       "claim_index": 8,
       "status": "UNVERIFIABLE",
-      "finding": "Reports of projectiles striking the area around Bushehr nuclear power plant in March 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "Claims about projectiles striking the Bushehr nuclear power plant area multiple times in March 2026 are post-cutoff and cannot be verified; Bushehr's status as Iran's only functioning nuclear power plant is accurate contextual background."
     },
     {
       "claim_index": 9,
       "status": "UNVERIFIABLE",
-      "finding": "Iranian Revolutionary Guards threats against US universities in the Middle East and the US embassy Baghdad warning citing specific Iraqi cities are post-cutoff events that cannot be verified from training data."
+      "finding": "Claims about IRGC threats against US universities in the Middle East and a US embassy Baghdad evacuation warning in March 2026 are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 10,
       "status": "UNVERIFIABLE",
-      "finding": "US Marine deployment following a Houthi missile attack on Israel and the cited strike/casualty figures from March 28-29, 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "US Marine deployment to the Middle East following a Houthi missile attack on Israel on March 28, 2026, and the specific strike and casualty figures cited, are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 11,
       "status": "UNVERIFIABLE",
-      "finding": "Specific March 2026 US and European intelligence reporting on Russia-Iran drone transfer discussions and UK intelligence confirmation of support already provided are post-cutoff events that cannot be verified from training data."
+      "finding": "Specific March 2026 discussions about Russia transferring upgraded drones to Iran and UK intelligence confirmation of training/EW support are post-cutoff; general CRINK coordination patterns are consistent with pre-cutoff reporting but the specific claims cannot be verified."
     },
     {
       "claim_index": 12,
       "status": "UNVERIFIABLE",
-      "finding": "Pakistan's active mediation role, Ghalibaf's specific statements about a US ground invasion, and both parties expressing confidence in talks are post-cutoff events that cannot be verified from training data."
+      "finding": "Pakistan's mediation role, statements by Iran parliament speaker Mohammad-Bagher Ghalibaf warning against a US ground invasion, and confidence-building reports from Pakistan's foreign minister in March 2026 are post-cutoff and cannot be verified; Ghalibaf's identity as Iran's parliamentary speaker is consistent with pre-cutoff knowledge."
     },
     {
       "claim_index": 13,
       "status": "UNVERIFIABLE",
-      "finding": "An Iranian raid on a Kuwait power and desalination plant killing an Indian worker on or around March 30, 2026 is a post-cutoff event that cannot be verified from training data."
+      "finding": "An Iranian raid killing an Indian worker at a Kuwait power and desalination plant on March 30, 2026 is a post-cutoff event that cannot be verified."
     },
     {
       "claim_index": 14,
       "status": "UNVERIFIABLE",
-      "finding": "Kosovo's announcement of troop deployment to Gaza under the Board of Peace framework is a post-cutoff event; the Board of Peace entity definition is consistent with the disambiguation table, but the specific Kosovo deployment cannot be verified from training data."
+      "finding": "Kosovo's announcement of troop deployment to Gaza under the Board of Peace framework is a post-cutoff event; the Board of Peace entity definition is consistent with the disambiguation table but the specific Kosovo deployment cannot be verified."
     },
     {
       "claim_index": 15,
       "status": "UNVERIFIABLE",
-      "finding": "Specific operational details of Day 30 of the Iran war, Trump's claims about Iranian concessions on a 15-point plan, and Iran's sovereignty demand over the Strait of Hormuz as a negotiating condition are post-cutoff events that cannot be verified from training data."
+      "finding": "Specific operational details about Day 30 of the Iran war, Trump's 15-point ceasefire proposal, Iranian dismissals, and the Strait of Hormuz sovereignty demand as part of Iran's counterproposal are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 16,
       "status": "UNVERIFIABLE",
-      "finding": "Hamas considering an 8-month staged weapons surrender linked to a $7B reconstruction fund and the Board of Peace's specific oversight mechanisms are post-cutoff events that cannot be verified from training data."
+      "finding": "Hamas considering an 8-month staged disarmament proposal linked to a $7B reconstruction fund overseen by the Board of Peace, and deployment of an International Stabilization Force, are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 17,
       "status": "UNVERIFIABLE",
-      "finding": "PIF's $6B+ Moonton acquisition, Mubadala's $4.75B CoolIT exit to Ecolab in a KKR-led transaction, and PIF's increased Olam Agri stake are post-cutoff events that cannot be verified from training data."
+      "finding": "The Moonton acquisition completion date, Mubadala's $4.75B CoolIT exit to Ecolab in a KKR-led transaction with Q3 2026 finalization, and PIF's increased Olam Agri stake are post-cutoff and cannot be verified; the Savvy Games/Moonton acquisition trajectory is consistent with pre-cutoff knowledge."
     },
     {
       "claim_index": 18,
-      "status": "FLAGGED",
-      "finding": "The disambiguation table states the DOJ Epstein library had released nearly 3.5 million pages through March 2026, not by January 30, 2026; the claim's framing of January 30 as the completion date of the 3.5M-page release is inconsistent with the pipeline's own standing definition, which places that milestone in March 2026.",
-      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages released by March 2026; victims sue DOJ and Google over exposed identities",
-      "corrected_summary": "The DOJ has released over 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries and other materials. The Trump administration's release approach has allegedly exposed victim identifying information, prompting multiple lawsuits against DOJ and Google. Congressional pressure continues with Rep. Thomas Massie confronting FBI leadership over unreleased 302 documents."
+      "status": "VERIFIED",
+      "finding": "The ~3.5M page DOJ Epstein library figure, FBI 302 summaries, victim identity exposure lawsuits, and Rep. Massie's confrontation of FBI Director Kash Patel are all consistent with the disambiguation table's standing definitions and post-cutoff pipeline context; no internally contradictory or verifiably false assertions detected."
     },
     {
       "claim_index": 19,
-      "status": "UNVERIFIABLE",
-      "finding": "Maxwell's refusal to answer lawmakers on February 9, 2026, Representative Raja's House Judiciary resolution, and the current status of her clemency appeal are post-cutoff events that cannot be verified from training data."
+      "status": "FLAGGED",
+      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution.",
+      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
+      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking."
     },
     {
       "claim_index": 20,
       "status": "UNVERIFIABLE",
-      "finding": "Specific details of Ukraine-Russia negotiation deadlock, Zelensky's claims about US security guarantee conditions, and Rubio's denial as of early 2026 are post-cutoff events that cannot be verified from training data."
+      "finding": "Specific details about the state of Ukraine-Russia peace talks in March 2026, Zelensky's claims about US security guarantees tied to Donbas concessions, and Rubio's denial are post-cutoff and cannot be verified, though the general negotiating dynamics are consistent with late-2025 reporting trends."
     },
     {
       "claim_index": 21,
-      "status": "UNVERIFIABLE",
-      "finding": "Pentagon designation of Palantir Maven AI as a Program of Record at a $13B framework, a federal court injunction against an Anthropic 'supply chain risk' designation, and OpenAI securing a $200M contract in response are post-cutoff events that cannot be verified from training data."
+      "status": "FLAGGED",
+      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events.",
+      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
+      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed."
     },
     {
       "claim_index": 22,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle Q3 FY2026 earnings results, the $553B RPO backlog, and specific analyst price target actions are post-cutoff events that cannot be verified from training data, though the revenue figure of $17.2B and 22% growth are consistent with claim 4 and 32 across the pipeline."
+      "finding": "Oracle Q3 FY2026 earnings figures (22% revenue growth to $17.2B, 44% cloud revenue to $8.9B, $553B RPO backlog), specific analyst price targets, and the Argus cut to $225 are post-cutoff and cannot be verified, though Oracle's Stargate partnership and cloud growth trajectory are consistent with pre-cutoff context."
     },
     {
       "claim_index": 23,
       "status": "UNVERIFIABLE",
-      "finding": "Schedule Policy/Career becoming operational on March 9, 2026, Army mandatory reassignment implementation, and the 137,000 DRP acceptance figure are post-cutoff events that cannot be verified from training data."
+      "finding": "Schedule Policy/Career operational date of March 9, 2026, the 137,000 DRP acceptances figure, Army mandatory reassignment policy, and OPM's prohibition on using Schedule P/C as a RIF substitute are post-cutoff details that cannot be verified, though the general framework is consistent with the disambiguation table."
     },
     {
       "claim_index": 24,
-      "status": "FLAGGED",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as a future event in the context of a March 2026 pipeline, suggesting the date is stale and the trial would have already occurred or been rescheduled; additionally, the claim does not account for the January 22, 2026 formation of TikTok USDS JV LLC and whether pre-deal litigation posture applies to the new entity.",
-      "corrected_headline": "TikTok faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled for January 27, 2026 in Los Angeles Superior Court",
-      "corrected_summary": "The TikTok USDS JV LLC (formed January 22, 2026) faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already commenced or concluded as of March 2026. A New York state judge separately questioned TikTok's lawyers in March 2026 over failure to provide financial documents regarding the restructured entity."
+      "status": "UNVERIFIABLE",
+      "finding": "The bellwether social media addiction trial date of January 27, 2026 in Los Angeles Superior Court and the March 3, 2026 New York state judge inquiry are post-cutoff events; the January 27 date is within the knowledge cutoff window but cannot be specifically confirmed."
     },
     {
       "claim_index": 25,
-      "status": "FLAGGED",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD). There is no entity disambiguation entry supporting 'Department of War' as a current US government body.",
-      "corrected_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, with conditional approval pathway through DoD/DHS",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, citing national security risks following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or DHS if devices are determined not to pose the identified risks. This represents a significant expansion of national security review authority into consumer technology supply chains."
+      "status": "UNVERIFIABLE",
+      "finding": "The FCC foreign router ban effective March 23, 2026 and the National Security Determination of March 20 are post-cutoff and cannot be verified; the claim that approval runs through DoD or DHS is plausible but unconfirmed."
     },
     {
       "claim_index": 26,
       "status": "UNVERIFIABLE",
-      "finding": "The Sanders/AOC Artificial Intelligence Data Center Moratorium Act introduced March 25, 2026 and specific details of Arkansas's DATA Act framework are post-cutoff events that cannot be verified from training data."
+      "finding": "AVAIO Digital's January 2026 $6B Arkansas data center announcement and the Sanders/AOC Artificial Intelligence Data Center Moratorium Act introduced March 25, 2026 are post-cutoff and cannot be verified."
     },
     {
       "claim_index": 27,
       "status": "UNVERIFIABLE",
-      "finding": "PIF's Moonton acquisition, Mubadala's CoolIT exit, Mubadala Capital's $6.2B Clear Channel Outdoor acquisition, and PIF reaffirmation at Miami FII summit are post-cutoff events that cannot be verified from training data."
+      "finding": "The Moonton acquisition completion, Mubadala's $4.75B CoolIT exit to Ecolab, the KKR-led transaction structure, and Mubadala Capital's $6.2B Clear Channel Outdoor acquisition are post-cutoff and cannot be verified; Savvy Games as a PIF gaming subsidiary is consistent with the disambiguation table."
     },
     {
       "claim_index": 28,
-      "status": "FLAGGED",
-      "finding": "The claim states the DOJ completed its 3.5M-page release by January 30, 2026, but the pipeline's own disambiguation table specifies that nearly 3.5 million pages were released through March 2026, indicating the January 30 completion date is inconsistent with the standing pipeline definition.",
-      "corrected_headline": "DOJ Epstein library reaches ~3.5M pages through March 2026; victims sue DOJ and Google over exposed identities; Massie confronts FBI Director Patel over unreleased 302 documents",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through March 2026 under the Epstein Files Transparency Act, including FBI 302 interview summaries. The release approach has allegedly exposed victim identities, prompting federal lawsuits against the Trump administration and Google alleging violation of privacy protections. Rep. Thomas Massie separately confronted FBI Director Kash Patel in Congress over FBI 302 interview documents that remain unreleased."
+      "status": "UNVERIFIABLE",
+      "finding": "The 3.5M page DOJ document release by January 30, 2026, the DOJ/Google lawsuits over exposed victim identities, and Rep. Massie's confrontation of FBI Director Kash Patel are partially within or near the knowledge cutoff but cannot be fully verified; the 3.5M page figure is consistent with the disambiguation table's standing definition."
     },
     {
       "claim_index": 29,
-      "status": "UNVERIFIABLE",
-      "finding": "Maxwell's February 9, 2026 refusal to answer lawmakers, her attorney's current clemency-for-testimony offer, and Rep. Raja's House Judiciary resolution are post-cutoff events that cannot be verified from training data."
+      "status": "FLAGGED",
+      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision.",
+      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
+      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence."
     },
     {
       "claim_index": 30,
       "status": "UNVERIFIABLE",
-      "finding": "Specific Ukraine-Russia negotiation dynamics, Zelensky's claims about US security guarantee conditions, Rubio's denial, and the December 2025 Trump-Zelensky talks outcome are post-cutoff events that cannot be verified from training data."
+      "finding": "The specific state of Ukraine-Russia peace talks in March 2026, Zelensky's territorial concession claims, and Rubio's denials are post-cutoff and cannot be verified; the general negotiating dynamics are consistent with late-2025 reporting trends."
     },
     {
       "claim_index": 31,
-      "status": "UNVERIFIABLE",
-      "finding": "Pentagon designation of Palantir Maven AI as a Program of Record, the federal court injunction against Anthropic's supply chain risk designation, and OpenAI's $200M follow-on contract are post-cutoff events that cannot be verified from training data."
+      "status": "FLAGGED",
+      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
+      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified."
     },
     {
       "claim_index": 32,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle Q3 FY2026 earnings results including the $553B RPO backlog, Bernstein's $319 price target, and Argus's lowered $225 target are post-cutoff events that cannot be verified from training data."
+      "finding": "Oracle Q3 FY2026 specific earnings figures, EPS of $1.79 vs $1.71 projection, 84% OCI growth, $553B RPO backlog, and specific analyst targets (BofA $200, Bernstein $319, Argus $225) are post-cutoff and cannot be verified, though Oracle's Stargate partnership and cloud growth trajectory are consistent with pre-cutoff context."
     },
     {
       "claim_index": 33,
       "status": "UNVERIFIABLE",
-      "finding": "Schedule Policy/Career March 9, 2026 operational date, OPM's February finalization, Army reassignment implementation, and the 137,000 DRP figure are post-cutoff events that cannot be verified from training data."
+      "finding": "Schedule Policy/Career operational date, the 137,000 DRP figure, Army reassignment policies, and State Department layoff details for March 2026 are post-cutoff and cannot be verified, though the general framework is consistent with the disambiguation table."
     },
     {
       "claim_index": 34,
-      "status": "FLAGGED",
-      "finding": "The bellwether trial date of January 27, 2026 is presented as an upcoming event in a March 2026 pipeline context, meaning the date has already passed and the framing is temporally stale; the New York judge action on March 3, 2026 is the current relevant development.",
-      "corrected_headline": "TikTok USDS JV faces ongoing teen mental health litigation; bellwether social media addiction trial was scheduled January 27, 2026 in Los Angeles Superior Court",
-      "corrected_summary": "The TikTok USDS JV LLC faces active litigation over platform design allegedly causing teen mental health harm. The Lanier Law Firm's bellwether social media addiction trial in Los Angeles Superior Court was scheduled for January 27, 2026 and would have already occurred as of this March 2026 reporting. A New York state judge separately questioned TikTok's lawyers on March 3, 2026 for failing to provide financial documents relating to the restructured post-deal entity."
+      "status": "UNVERIFIABLE",
+      "finding": "The Lanier Law Firm bellwether trial date of January 27, 2026 and the March 3 New York judge inquiry about TikTok USDS JV financial documents are post-cutoff or at the edge of the knowledge cutoff and cannot be specifically confirmed."
     },
     {
       "claim_index": 35,
       "status": "FLAGGED",
-      "finding": "The claim references a 'Department of War' as a conditional approval authority, but the United States does not have a Department of War \u2014 the correct entity is the Department of Defense (DoD).",
-      "corrected_headline": "FCC bans foreign-made routers effective March 23, 2026, requiring DoD/DHS conditional approval for all foreign-manufactured networking equipment",
-      "corrected_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security, extending CFIUS-style national security review to consumer networking hardware. This action removes the majority of home networking equipment from the US market and forces significant industry restructuring."
+      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD).",
+      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
+      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources."
     },
     {
       "claim_index": 36,
       "status": "UNVERIFIABLE",
-      "finding": "The Sanders/AOC Artificial Intelligence Data Center Moratorium Act introduced March 25, 2026 and its potential impact on Arkansas's regulatory framework are post-cutoff events that cannot be verified from training data."
+      "finding": "AVAIO Digital's January 2026 Arkansas campus announcement and the Sanders/AOC moratorium bill introduced March 25, 2026 are post-cutoff and cannot be verified; the Arkansas legislative framework reference is plausible but unconfirmed."
     }
   ]
 }

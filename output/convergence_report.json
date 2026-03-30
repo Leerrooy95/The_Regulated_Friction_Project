@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-03-30T19:43:38.161606+00:00",
-  "total_runs_analyzed": 60,
+  "analysis_timestamp": "2026-03-30T20:39:47.830358+00:00",
+  "total_runs_analyzed": 61,
   "window_days": 7,
   "adaptive_windows": {
     "maxwell": 7,
@@ -553,15 +553,81 @@
       ],
       "has_friction_compliance_pair": true,
       "has_new_developments": true
+    },
+    {
+      "date": "2026-03-30",
+      "active_node_count": 7,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "House Resolution 119-635 formally opposing Maxwell clemency proposed by Rep. Krishnamoorthi on August 5, 2026, while Maxwell's lawyers continue seeking clemency deal and Congress reviews unredacted Epstein files",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Trump threatens Iran energy infrastructure destruction while claiming US-Iran negotiations ongoing 'directly and indirectly' as Pakistan prepares to host peace talks, March 29-30, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF announces new five-year strategy launch 'within weeks' at FII Miami March 27, 2026, while completing $6B+ Moonton acquisition and pivoting to private partnerships amid Iran war costs",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel conducting expanded ground invasion of southern Lebanon targeting Litani River while striking Iranian weapons facilities in Tehran, with 3 UN peacekeepers killed and IDF battalion suspended for assaulting CNN crew on March 29-30, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle stock trades $138-141 range on March 30, 2026, with analysts setting mixed price targets from $200 (BofA) to $262 (consensus) following strong Q3 earnings amid 24.6% three-month decline",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ releases additional Epstein documents March 2026 including Trump files and prison death details, while victims sue DOJ/Google over privacy violations and Congressional subpoenas target AG Bondi",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "AVAIO Digital confirms $6B Arkansas data center construction underway with 150MW initial power demand, March 2026",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": true
     }
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 55,
-      "active_count": 12,
+      "total_appearances": 56,
+      "active_count": 13,
       "critical_count": 4,
       "classifications": {
-        "COMPLIANCE": 11,
+        "COMPLIANCE": 12,
         "NEUTRAL": 41,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
@@ -569,50 +635,51 @@
       }
     },
     "oracle_ellison": {
-      "total_appearances": 52,
-      "active_count": 9,
+      "total_appearances": 53,
+      "active_count": 10,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 7,
+        "COMPLIANCE": 8,
         "FRICTION": 2,
         "NEUTRAL": 43
       }
     },
     "epstein_files": {
-      "total_appearances": 54,
-      "active_count": 11,
+      "total_appearances": 55,
+      "active_count": 12,
       "critical_count": 6,
       "classifications": {
         "COMPLIANCE": 4,
-        "FRICTION": 7,
+        "FRICTION": 8,
         "NEUTRAL": 43
       }
     },
     "maxwell": {
-      "total_appearances": 52,
-      "active_count": 9,
+      "total_appearances": 53,
+      "active_count": 10,
       "critical_count": 3,
       "classifications": {
         "FRICTION": 9,
-        "NEUTRAL": 43
+        "NEUTRAL": 43,
+        "COMPLIANCE": 1
       }
     },
     "iran": {
-      "total_appearances": 53,
-      "active_count": 23,
-      "critical_count": 8,
+      "total_appearances": 54,
+      "active_count": 24,
+      "critical_count": 9,
       "classifications": {
-        "ESCALATION": 10,
+        "ESCALATION": 11,
         "NEUTRAL": 30,
         "DE_ESCALATION": 13
       }
     },
     "israel": {
-      "total_appearances": 46,
-      "active_count": 21,
-      "critical_count": 3,
+      "total_appearances": 47,
+      "active_count": 22,
+      "critical_count": 4,
       "classifications": {
-        "ESCALATION": 3,
+        "ESCALATION": 4,
         "NEUTRAL": 21,
         "COMPLIANCE": 15,
         "FRICTION": 3,
@@ -620,11 +687,11 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 45,
-      "active_count": 3,
+      "total_appearances": 46,
+      "active_count": 4,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 3,
+        "COMPLIANCE": 4,
         "NEUTRAL": 42
       }
     }

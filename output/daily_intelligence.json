@@ -79,8 +79,8 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
-      "summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify to lawmakers only if granted clemency first. She refused to answer questions from U.S. lawmakers on February 9, 2026. Meanwhile, Representative Raja introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any presidential pardon or clemency. Maxwell remains imprisoned serving her 20-year sentence for child sex trafficking.",
+      "headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
+      "summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence.",
       "event_type": "POLITICAL",
       "leverage_type": "LEGAL",
       "imminence": "ONGOING",
@@ -113,8 +113,8 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
-      "summary": "The Pentagon has officially designated Palantir's Maven AI system as a Program of Record, expanding from an initial $480M contract in 2024 to a $13B framework by 2025. Simultaneously, Anthropic won a federal court injunction blocking the Pentagon's 'supply chain risk' designation after refusing to remove contractual guardrails preventing mass surveillance and autonomous weapons use. OpenAI quickly secured a $200M Pentagon contract hours after Anthropic's blacklisting, but immediately added similar surveillance restrictions.",
+      "headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
+      "summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
@@ -183,8 +183,8 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "FCC bans foreign-made routers effective March 23, 2026, requiring DoD/DHS conditional approval for all foreign-manufactured networking equipment",
-      "summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security, extending CFIUS-style national security review to consumer networking hardware. This action removes the majority of home networking equipment from the US market and forces significant industry restructuring.",
+      "headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
+      "summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
