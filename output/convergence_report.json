@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-03-31T20:38:18.059877+00:00",
-  "total_runs_analyzed": 66,
+  "analysis_timestamp": "2026-03-31T23:17:34.102847+00:00",
+  "total_runs_analyzed": 67,
   "window_days": 7,
   "adaptive_windows": {
     "maxwell": 7,
@@ -933,15 +933,81 @@
       ],
       "has_friction_compliance_pair": true,
       "has_new_developments": true
+    },
+    {
+      "date": "2026-03-31",
+      "active_node_count": 7,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "House Resolution 119-635 opposing Maxwell clemency proposed August 5, 2026 by Rep. Krishnamoorthi while new Epstein evidence details emerge about missing diamonds and hard drives, March 26-31, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "DE_ESCALATION",
+          "headline": "Trump says US will finish attacking Iran in 2-3 weeks while China-Pakistan present 5-point ceasefire plan including Hormuz reopening, March 31, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF cuts capital spending 15% and pivots to AI partnerships while Mubadala exits CoolIT Systems for $4.75B on March 26, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel strikes IRGC university in Tehran and conducts targeted assassinations in Beirut while expanding Lebanon ground invasion to 11km depth on day 32 of Operation Epic Fury, March 31, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle Q3 2026 earnings show 22% revenue growth to $17.2B with cloud up 44% and record $553B backlog, while stock trades $139-147 range amid mixed analyst ratings March 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ releases additional Epstein documents March 30, 2026 including new Trump-related files and prison guard details, as victims sue DOJ over privacy violations",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Entergy announces $5B customer savings from data center agreements, March 2026",
+          "is_new_headline": true
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "DE_ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": true
     }
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 61,
-      "active_count": 18,
+      "total_appearances": 62,
+      "active_count": 19,
       "critical_count": 4,
       "classifications": {
-        "COMPLIANCE": 17,
+        "COMPLIANCE": 18,
         "NEUTRAL": 41,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
@@ -949,51 +1015,51 @@
       }
     },
     "oracle_ellison": {
-      "total_appearances": 58,
-      "active_count": 15,
+      "total_appearances": 59,
+      "active_count": 16,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 13,
+        "COMPLIANCE": 14,
         "FRICTION": 2,
         "NEUTRAL": 43
       }
     },
     "epstein_files": {
-      "total_appearances": 60,
-      "active_count": 17,
+      "total_appearances": 61,
+      "active_count": 18,
       "critical_count": 6,
       "classifications": {
         "COMPLIANCE": 4,
-        "FRICTION": 13,
+        "FRICTION": 14,
         "NEUTRAL": 43
       }
     },
     "maxwell": {
-      "total_appearances": 58,
-      "active_count": 13,
+      "total_appearances": 59,
+      "active_count": 14,
       "critical_count": 3,
       "classifications": {
-        "FRICTION": 13,
+        "FRICTION": 14,
         "NEUTRAL": 44,
         "COMPLIANCE": 1
       }
     },
     "iran": {
-      "total_appearances": 59,
-      "active_count": 29,
-      "critical_count": 14,
+      "total_appearances": 60,
+      "active_count": 30,
+      "critical_count": 15,
       "classifications": {
         "ESCALATION": 16,
         "NEUTRAL": 30,
-        "DE_ESCALATION": 13
+        "DE_ESCALATION": 14
       }
     },
     "israel": {
-      "total_appearances": 52,
-      "active_count": 27,
-      "critical_count": 8,
+      "total_appearances": 53,
+      "active_count": 28,
+      "critical_count": 9,
       "classifications": {
-        "ESCALATION": 9,
+        "ESCALATION": 10,
         "NEUTRAL": 21,
         "COMPLIANCE": 15,
         "FRICTION": 3,
@@ -1001,11 +1067,11 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 51,
-      "active_count": 9,
+      "total_appearances": 52,
+      "active_count": 10,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 9,
+        "COMPLIANCE": 10,
         "NEUTRAL": 42
       }
     }
