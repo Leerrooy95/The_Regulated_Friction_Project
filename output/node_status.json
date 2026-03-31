@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-03-31T08:47:18.506122+00:00",
+  "run_timestamp": "2026-03-31T20:35:25.885234+00:00",
   "run_date": "2026-03-31",
   "nodes_queried": 7,
   "nodes_active": 7,
@@ -9,255 +9,244 @@
     "maxwell": {
       "node_id": "maxwell",
       "status": "ACTIVE",
-      "headline": "House Resolution 119-635 formally opposes Maxwell clemency as BBC releases new survivor interviews and missing Epstein evidence details emerge, March 26-31, 2026",
-      "summary": "Representative Raja Krishnamoorthi introduced House Resolution 119-635 on August 5th to the House Judiciary Committee, formally opposing any clemency for Ghislaine Maxwell and affirming her conviction was warranted. This week, BBC Newsnight aired new interviews with Epstein survivors discussing their abuse experiences, while Business Insider reported that diamonds, passports, and hard drives from Epstein's safe went missing for 5 days after the 2019 FBI raid before being recovered. House Oversight Committee depositions with Epstein's accountant Richard Kahn and lawyer Darren Indyke revealed they were never interviewed by government investigators and received $75 million in bequests from Epstein's estate. The survivors' testimonies and evidence handling questions add pressure against any potential Maxwell clemency consideration.",
+      "headline": "House Resolution 119-635 formally opposes Maxwell clemency while new Epstein evidence details emerge about missing diamonds and hard drives, March 26-31, 2026",
+      "summary": "Representative Raja Krishnamoorthi introduced House Resolution 119-635 on August 5th affirming Maxwell's conviction was warranted and formally opposing any clemency, as reported in recent coverage. New testimony revealed Jeffrey Epstein's diamonds, passports, and hard drives from his safe went missing for 5 days after the 2019 FBI raid, passing through three people before returning to investigators. Additionally, Epstein's accountant and lawyer told the House Oversight Committee that government investigators never interviewed them about their work for the sex offender. BBC released new survivor interviews discussing years of abuse, with some survivors calling for release of all Epstein files.",
       "is_new_development": true,
       "event_classification": "FRICTION",
       "leverage_type": "LEGAL",
       "impact_score": 6,
       "under_radar_flags": [
-        "Epstein's professional advisors received substantial financial benefits ($75M) while never being interviewed by investigators",
-        "Evidence custody chain issues with missing items for 5 days could impact prosecutorial credibility",
-        "Congressional resolution creates formal legislative record opposing clemency"
+        "Missing evidence chain of custody issues may complicate prosecutions",
+        "Key financial associates never interviewed suggests investigation gaps",
+        "Congressional resolution creates formal legislative opposition to clemency"
       ],
       "key_entities_mentioned": [
         "Ghislaine Maxwell",
+        "House Resolution 119-635",
+        "Representative Raja Krishnamoorthi",
         "House Oversight Committee",
-        "Raja Krishnamoorthi",
-        "Richard Kahn",
-        "Darren Indyke",
-        "BBC Newsnight",
-        "Jeffrey Epstein"
+        "Jeffrey Epstein",
+        "FBI",
+        "BBC"
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://www.bbc.com/news/videos/c87wd0z99dyo",
-        "https://www.bbc.com/news/videos/c86ew50jn06o",
         "https://www.businessinsider.com/jeffrey-epstein-safe-diamonds-hard-drives-evidence-what-happened-2026-3",
-        "https://www.nbcnews.com/politics/congress/epstein-accountant-kahn-lawyer-indyke-never-interviewed-government-inv-rcna265024"
+        "https://www.nbcnews.com/politics/congress/epstein-accountant-kahn-lawyer-indyke-never-interviewed-government-inv-rcna265024",
+        "https://www.bbc.com/news/videos/c86ew50jn06o"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2230
+      "raw_response_length": 1956
     },
     "iran": {
       "node_id": "iran",
       "status": "CRITICAL",
-      "headline": "Iran rejects US ceasefire proposal as Trump threatens to obliterate energy plants, oil wells and water infrastructure; Kuwaiti tanker struck off Dubai",
-      "summary": "Iran's Foreign Ministry rejected Washington's ceasefire proposal as 'excessive, unrealistic and irrational' as Trump threatened to obliterate Iran's energy plants, oil wells, and fresh water infrastructure if the Strait of Hormuz remains closed. An Iranian drone strike set ablaze a fully loaded Kuwaiti crude oil tanker anchored at Dubai port on March 31, 2026. Mediation efforts have involved Turkey, Qatar, and Egypt rather than a Pakistan-led grouping.",
+      "headline": "Iran threatens US companies including Microsoft, Google, Apple starting March 31 as Hegseth declares next few days decisive for war outcome",
+      "summary": "Iran's Revolutionary Guards issued new threats on March 31, 2026, targeting 18 US companies including Microsoft, Google, Apple, Intel, IBM, Tesla and Boeing in retaliation for ongoing US-Israel strikes. Defense Secretary Pete Hegseth declared the next few days would be decisive for the war outcome, warning conflict would intensify without a deal. Iran set ablaze a fully loaded oil tanker off Dubai, continuing attacks on Gulf shipping since February 28. China and Pakistan presented a new 5-point peace initiative including immediate ceasefire and Strait of Hormuz reopening, while Trump alternated between threatening to obliterate Iran's energy infrastructure and claiming negotiations were progressing through backchannel talks.",
       "is_new_development": true,
       "event_classification": "ESCALATION",
       "leverage_type": "KINETIC",
-      "impact_score": 9,
+      "impact_score": 8,
       "under_radar_flags": [
-        "Pezeshkian-IRGC leadership rift over war costs and strategy",
-        "Iran deploying children at security checkpoints amid domestic unrest fears",
-        "Australia PM demanding clarity on US war objectives",
-        "Trump considering Arab states funding for war costs"
+        "Iran targeting specific US tech companies suggests shift to economic warfare tactics",
+        "Backchannel negotiations reportedly active despite public denials from Tehran",
+        "Gulf allies urging Trump to continue pressure, saying month of strikes insufficient",
+        "Pakistan-China mediation effort indicates CRINK coordination on diplomatic track"
       ],
       "key_entities_mentioned": [
         "Iran",
         "IRGC",
+        "Pete Hegseth",
         "Strait of Hormuz",
-        "Trump",
-        "Pezeshkian",
-        "Ahmad Vahidi",
-        "Pakistan mediation",
-        "Dubai oil tanker"
+        "Microsoft",
+        "Google",
+        "Apple",
+        "Tesla",
+        "Boeing",
+        "China",
+        "Pakistan"
       ],
       "sources": [
-        "https://www.reuters.com/world/us/trump-tells-aides-he-is-willing-end-iran-war-without-reopening-hormuz-wsj-2026-03-31/",
-        "https://apnews.com/live/iran-war-israel-trump-03-30-2026",
-        "https://www.theguardian.com/us-news/2026/mar/30/trump-threatens-to-obliterate-irans-energy-grid-if-ceasefire-not-reached-shortly",
-        "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
-        "https://www.reuters.com/business/energy/us-pump-prices-hit-4-gallon-iran-war-wreaks-havoc-global-energy-supply-2026-03-31/"
+        "https://www.reuters.com/business/energy/giant-oil-tanker-off-dubai-hit-by-iranian-strike-trump-threatens-obliterate-iran-2026-03-31/",
+        "https://www.reuters.com/world/iran-war-updates-hegseth-give-briefing-war-after-iran-attack-sets-oil-tanker-2026-03-31/",
+        "https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire",
+        "https://www.apnews.com/live/iran-war-israel-trump-03-30-2026"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2129,
-      "fact_check_notes": [
-        "The claim states Trump threatened to obliterate Iran's 'energy infrastructure' but web evidence specifies the threats covered energy plants, oil wells, AND fresh water plants \u2014 the summary omits the water infrastructure threat. Additionally, the claim describes a '15-point ceasefire proposal' but Iran submitted a 5-point counter-proposal; Iran's foreign ministry called the US plan 'excessive, unrealistic and irrational' which is accurate, but the framing of Pakistan-led mediation involving Saudi Arabia, Turkey and Egypt requires qualification \u2014 web evidence shows Turkey, Qatar and Egypt as mediators, not Pakistan."
-      ]
+      "raw_response_length": 2157
     },
     "gulf_swf": {
       "node_id": "gulf_swf",
       "status": "ACTIVE",
-      "headline": "Saudi PIF unveils new five-year strategy with capital spending reduction; Mubadala exits CoolIT stake in $4.75B deal \u2014 March 2026",
-      "summary": "Saudi PIF unveiled its new five-year strategy featuring a 15% reduction in capital spending and plans for eight IPOs in 2026, shifting emphasis toward private sector partnerships over self-funded mega-projects. UAE's Mubadala completed a $4.75B exit from its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction, delivering approximately 15x returns. A reported $6.2B Clear Channel Outdoor acquisition by Mubadala could not be verified and has been removed pending confirmation.",
+      "headline": "Saudi PIF unveils new five-year strategy cutting capital spending 15% while pivoting to AI partnerships, with 8 IPOs planned for 2026 as announced at FII Miami March 26-27",
+      "summary": "Saudi Arabia's Public Investment Fund officially announced its new 2026-2030 strategy at the FII PRIORITY Miami conference on March 26-27, 2026, featuring a 15% reduction in capital spending and a strategic pivot toward AI investments through its subsidiary Humain, which secured its first US customer partnership with Turing. PIF Governor Al-Rumayyan confirmed the fund is shifting from predominantly self-funded mega-projects toward a broader model inviting domestic and international partners, with 8 subsidiary IPOs planned for 2026. Meanwhile, UAE's Mubadala completed multiple major transactions including the $4.75 billion exit from CoolIT Systems to Ecolab in a KKR-led deal and secured the Southwest Andaman exploration block in Indonesia with 100% participating interest. The strategic repositioning comes as Gulf SWFs navigate wartime economic pressures while maintaining global investment commitments despite Iran conflict escalation.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
       "impact_score": 7,
       "under_radar_flags": [
-        "PIF's 15% capital spending cut suggests wartime budget constraints despite public statements of resilience",
-        "Mubadala's rapid $10.95B exit timing coincides with regional war escalation",
-        "Eight planned PIF IPOs in 2026 indicates accelerated monetization of portfolio companies",
-        "Shift from self-funded to partnership model suggests capital preservation strategy"
+        "PIF capital spending reduction of 15% signals resource reallocation under war stress",
+        "Shift to third-party investment partnerships reduces direct sovereign exposure",
+        "Mubadala's aggressive deal-making pace (multiple billion-dollar transactions in one week) suggests accelerated portfolio optimization",
+        "AI sector pivot by both PIF (Humain) and Mubadala (data center cooling) indicates coordinated Gulf strategy"
       ],
       "key_entities_mentioned": [
         "Saudi PIF",
-        "Mubadala",
+        "Mubadala Investment Company",
         "Humain",
         "CoolIT Systems",
-        "Clear Channel Outdoor",
         "Ecolab",
         "KKR",
         "Turing",
-        "Al-Rumayyan"
+        "Al-Rumayyan",
+        "Southwest Andaman",
+        "FII PRIORITY Miami"
       ],
       "sources": [
         "https://houseofsaud.com/pif-five-year-strategy-humain-ai-fii-miami/",
-        "https://www.arabnews.com/node/2637870/business-economy",
         "https://saudigazette.com.sa/article/660028",
-        "https://usaherald.com/mubadala-capital-to-acquire-clear-channel-in-6-2b-deal/",
-        "https://www.zawya.com/en/economy/gcc/mubadala-to-sell-coolit-stake-in-kkr-led-475bln-transaction-befi3lac"
+        "https://www.cnbc.com/video/2026/03/27/saudi-arabia-pifs-new-strategy-will-hinge-on-third-party-investments.html",
+        "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+        "https://www.oilandgasadvancement.com/news/mubadala-energy-wins-southwest-andaman-exploration-block/"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2114,
-      "fact_check_notes": [
-        "The claim states Mubadala completed a '$6.2B all-cash acquisition of Clear Channel Outdoor' \u2014 web evidence confirms the CoolIT $4.75B exit but provides no corroboration for a $6.2B Clear Channel Outdoor acquisition by Mubadala, making that element unverifiable and likely fabricated or confused with another transaction."
-      ]
+      "raw_response_length": 2576
     },
     "israel": {
       "node_id": "israel",
       "status": "CRITICAL",
-      "headline": "Israel strikes 170+ Iranian targets in 24 hours while expanding Lebanon operations on day 31 of war, March 30, 2026, as Netanyahu claims military aims 'beyond halfway' complete",
-      "summary": "Israel intensified operations on multiple fronts March 30, 2026, with the IDF striking 170 targets belonging to the Iranian regime in 24 hours, including weapons research and production facilities. Israeli forces are conducting active strikes on Iranian government infrastructure throughout Tehran while expanding ground operations in southern Lebanon against Hezbollah. Netanyahu announced the war has killed 'thousands' of Revolutionary Guards members and claimed Israel-US forces are 'close to finishing the arms industry' and nuclear program. The conflict has entered its fifth week with over 400 Hezbollah fighters killed since March 2, while Israeli casualties include 6 troops killed in Lebanon operations.",
+      "headline": "Israel strikes IRGC university in Tehran and destroys 100+ Beirut buildings on day 32 of war while expanding Lebanon invasion, March 31, 2026",
+      "summary": "Israel's military struck the Imam Hossein University in Tehran run by the IRGC, claiming it was used for advanced weapons research, marking day 32 of Operation Epic Fury. The IDF destroyed over 100 high-rise buildings in Beirut area as command structures while expanding its Lebanon invasion beyond southern regions. Israeli Defense Minister announced plans to destroy all homes in Lebanese border villages and prevent 600,000 displaced residents from returning until northern Israel is secure, indicating a prolonged occupation similar to Gaza operations. IDF Chief of Staff Lt. Gen. Eyal Zamir coordinated next operational steps with US Central Command, stating 'the Iranian regime's axis of terror is beginning to collapse.'",
       "is_new_development": true,
       "event_classification": "ESCALATION",
       "leverage_type": "KINETIC",
       "impact_score": 9,
       "under_radar_flags": [
-        "IDF suspended entire reserve battalion after CNN crew assault in West Bank - potential intelligence/operational security breach",
-        "Three Lebanese journalists killed in targeted Israeli strike including Hezbollah-affiliated Al Manar TV reporter",
-        "Israeli military destroying 100+ high-rise buildings in Beirut area claimed as Hezbollah command structures",
-        "Iran launching successive missile salvos at central Israel with no reported casualties"
+        "IDF-US Central Command coordination of 'next steps' suggests escalation planning",
+        "Targeting of IRGC university indicates intelligence-driven precision strikes on research facilities",
+        "Gaza-like destruction promised for Lebanon indicates long-term occupation strategy",
+        "600,000 displaced Lebanese creates regional refugee crisis"
       ],
       "key_entities_mentioned": [
         "IDF",
-        "Iranian Revolutionary Guard Corps",
+        "IRGC",
         "Hezbollah",
-        "Netanyahu",
-        "Unit 8200",
-        "Al Manar TV"
+        "US Central Command",
+        "Imam Hossein University",
+        "Lt. Gen. Eyal Zamir",
+        "Adm. Brad Cooper"
       ],
       "sources": [
-        "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
-        "https://www.aljazeera.com/economy/2026/3/30/us-israel-war-on-iran-whats-happening-on-day-31-of-attacks",
-        "https://www.bbc.com/news/live/c8jke9v9xv9t",
-        "https://www.reuters.com/world/middle-east/netanyahu-orders-expansion-security-buffer-zone-southern-lebanon-2026-03-29/",
-        "https://www.bbc.com/news/articles/cgme1j70294o"
+        "https://www.aljazeera.com/news/2026/3/31/iran-war-what-is-happening-on-day-32-of-us-israel-attacks",
+        "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
+        "https://www.reuters.com/world/iran/",
+        "https://www.timesofisrael.com/liveblog-march-31-2026/"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2234
+      "raw_response_length": 1994
     },
     "oracle_ellison": {
       "node_id": "oracle_ellison",
       "status": "ACTIVE",
-      "headline": "Oracle Q3 2026 earnings show 22% revenue growth to $17.2B with cloud infrastructure up 84%, driving analyst price targets from $200-$400 as stock trades in $138-$141 range",
-      "summary": "Oracle reported strong Q3 FY2026 results (ended February 2026) with total revenue surging 22% to $17.2 billion and adjusted EPS up 21% to $1.79, beating consensus estimates. Cloud infrastructure (OCI) revenue exploded 84% year-over-year, with total cloud revenue up 44%. The company's Remaining Performance Obligations (RPO) reached a record $553 billion backlog. Despite strong fundamentals, Oracle stock has declined 24.6% over the past 3 months and currently trades in the $138-$141 range. Analyst reactions are mixed with Bank of America reinstating coverage with a Buy rating and $200 price target (29% upside), while other analysts set targets as high as $400, creating significant price target dispersion amid the company's ongoing $45-50B capital raise and Stargate AI infrastructure investments.",
+      "headline": "Oracle stock trades $139-145 range with mixed analyst ratings following Q3 2026 earnings, while AI infrastructure expansion continues amid $553B record backlog",
+      "summary": "Oracle stock moved within $139.70-$145.42 range on March 31, 2026, following strong Q3 2026 earnings that showed 22% revenue growth to $17.2 billion with cloud infrastructure surging 84%. Analyst sentiment remains mixed with Bank of America issuing a Buy rating with $200 price target (29% upside) while other targets range up to $262.91. Oracle's Remaining Performance Obligations hit a record $553 billion backlog, driven by AI infrastructure demand. The company secured new Defense Information Systems Agency Impact Level 5 authorizations for government cloud services and expanded its Nashville office operations. Stock has declined 24.6% over the past three months despite strong fundamentals.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
       "impact_score": 6,
       "under_radar_flags": [
-        "Stock trading near 52-week lows despite strong earnings suggests market concern over debt levels",
-        "Wide analyst price target range ($200-$400) indicates uncertainty about AI infrastructure ROI",
-        "Record $553B backlog may strain working capital amid existing $100B+ debt load",
-        "OCI revenue growth of 84% creates pressure to maintain capex spending for Stargate partnership"
+        "Oracle Federal Financials joins Treasury marketplace for government modernization",
+        "DISA Impact Level 5 authorization enables advanced AI deployment for government customers",
+        "Record $553B backlog suggests strong forward revenue visibility despite stock decline",
+        "Nashville office expansion indicates continued operational scaling"
       ],
       "key_entities_mentioned": [
         "Oracle Corporation",
         "Larry Ellison",
         "Bank of America",
-        "Jefferies",
-        "OpenAI",
-        "Stargate"
+        "Defense Information Systems Agency",
+        "Oracle Cloud Infrastructure",
+        "Jefferies"
       ],
       "sources": [
-        "https://www.barchart.com/story/news/752518/this-one-number-has-investors-excited-about-oracle-stock-can-orcl-reach-400",
-        "https://markets.financialcontent.com/stocks/article/finterra-2026-3-26-oracle-orcl-deep-dive-ai-transformation-meets-legal-and-financial-headwinds",
+        "https://robinhood.com/us/en/stocks/ORCL/",
         "https://247wallst.com/investing/2026/03/24/oracle-stock-could-see-29-upside-according-to-bank-of-america/",
-        "https://robinhood.com/us/en/stocks/ORCL/"
+        "https://www.marketbeat.com/stocks/NYSE/ORCL/forecast/",
+        "https://www.executivebiz.com/articles/oracle-nashville-expansion-cloud-ai-growth",
+        "https://www.stocktitan.net/news/ORCL/oracle-s-ai-powered-financials-help-federal-agencies-modernize-lk1opfqwbu39.html"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2274
+      "raw_response_length": 2157
     },
     "epstein_files": {
       "node_id": "epstein_files",
       "status": "ACTIVE",
-      "headline": "DOJ releases approximately 3.5 million Epstein pages by March 2026; victims sue DOJ and Google over privacy violations in document release",
-      "summary": "The Department of Justice has released approximately 3.5 million pages of Epstein-related documents in compliance with the Epstein Files Transparency Act, including a March 5, 2026 batch of roughly 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office following revelations in the released files. Multiple victims have filed suit against DOJ and Google alleging the rapid, high-volume release exposed survivors' private identifying information without adequate redaction.",
+      "headline": "DOJ releases additional Epstein documents March 30, 2026 including new Trump-related files and prison guard details, as victims sue DOJ over privacy violations",
+      "summary": "The DOJ released a new tranche of Epstein documents on March 30, 2026, including never-before-seen files pertaining to President Trump and detailed records of prison guard activities the night Epstein died. The release reveals that prison guard Tova Noel was supposed to check on Epstein every 30 minutes but failed to do so, and includes new victim testimony from a woman alleging rape by 'Jeff' in South Carolina in the 1980s when she was 13. Multiple Epstein victims have filed lawsuits against both DOJ and Google over the release of identifying victim information, alleging the department prioritized 'volume and speed over safety and privacy.' House Oversight Chair James Comer admitted Trump's DOJ 'botched' the file release process, while AG Pam Bondi faces ongoing Congressional subpoenas over the handling.",
       "is_new_development": true,
       "event_classification": "FRICTION",
       "leverage_type": "REPUTATIONAL",
-      "impact_score": 8,
+      "impact_score": 7,
       "under_radar_flags": [
-        "Hacker threat to release unredacted documents could bypass DOJ redaction process entirely",
-        "Victim lawsuits allege DOJ release was 'retaliatory' against survivors who demanded transparency",
-        "FBI counterintelligence specialists dropped other work to process Epstein documents under pressure",
-        "Orange figure captured on prison video analysis logs near Epstein's cell remains unexplained",
-        "Prince Andrew emails showed potential forwarding of confidential trade documents to Epstein"
+        "FBI tracked 4chan users who posted about Epstein's death, obtained IP addresses via grand jury subpoena",
+        "Bank of America agreed to $72.5M settlement in Epstein case on March 28, 2026",
+        "Documents reveal previously undisclosed DEA investigation of Epstein for drug trafficking",
+        "Apollo Global Management and Leon Black face new shareholder class action lawsuit filed March 2026"
       ],
       "key_entities_mentioned": [
         "DOJ",
         "Pam Bondi",
         "Donald Trump",
-        "Prince Andrew",
-        "American Oversight",
-        "House Oversight Committee",
+        "Tova Noel",
+        "James Comer",
         "Thomas Massie",
-        "Kash Patel",
-        "Jeffrey Epstein"
+        "Bank of America",
+        "Apollo Global Management",
+        "Leon Black"
       ],
       "sources": [
         "https://www.justice.gov/epstein/doj-disclosures",
         "https://www.cbsnews.com/tag/jeffrey-epstein/",
-        "https://americanoversight.org/american-oversight-heading-to-federal-court-for-high-stakes-hearing-on-records-integral-to-bondis-congressional-epstein-deposition/",
+        "https://www.cnn.com/2026/03/26/politics/epstein-files-prison-officials-night-he-died",
         "https://www.politico.com/news/2026/03/27/jeffrey-epstein-victim-doj-google-lawsuit-00848030",
-        "https://radaronline.com/p/epstein-files-hackers-threat-unredacted-records/",
-        "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files"
+        "https://www.rawstory.com/james-comer-2676640354/"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2523,
-      "fact_check_notes": [
-        "The claim states the DOJ release included 'never-before-seen files pertaining to President Trump and allegations against Prince Andrew that led to his arrest' \u2014 web evidence confirms Prince Andrew's arrest was on suspicion of misconduct in public office (not specifically framed as driven by Trump-related files), and the characterization that the release included files 'pertaining to President Trump' as a featured new disclosure is not supported by web evidence. Additionally, the hacker threat of an 'unredacted document dump' is not corroborated by the web evidence provided."
-      ]
+      "raw_response_length": 2255
     },
     "arkansas_datacenter": {
       "node_id": "arkansas_datacenter",
       "status": "ACTIVE",
-      "headline": "Meta announces new Louisiana data center agreement delivering $2B customer savings with construction jobs 2026-2031, while Microsoft expands Texas facilities to 10 buildings with 2.1 gigawatts capacity",
-      "summary": "Entergy Louisiana announced a new agreement with Meta on March 27, 2026 that will create thousands of construction jobs from 2026 to 2031, expanding the regional data center construction pipeline beyond Arkansas. Microsoft took over OpenAI's Texas data center project and announced two additional Abilene facilities on March 28, bringing total capacity to 2.1 gigawatts across 10 buildings. The Army reached conditional agreements for hyperscale data centers on military installations on March 28, representing federal adoption of private data center partnerships. These developments indicate accelerating regional data center deployment using similar utility partnership models pioneered in Arkansas, though no new Arkansas-specific legislative or regulatory developments were found this week.",
+      "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings, while Entergy announces $5B customer savings from data center agreements March 2026",
+      "summary": "Google's $1 billion data center project at the Port of Little Rock has been detailed with specific construction plans showing five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation, according to documents submitted to the U.S. Army Corps of Engineers. Separately, Entergy announced $5 billion in customer savings delivered by data center agreements and issued a 'Fair Share Plus' pledge, with Google specifically agreeing to support construction of a new 600-megawatt solar and 350-megawatt battery facility that will serve all Entergy Arkansas customers. This represents concrete progress on the Arkansas datacenter capital deployment following the established Strategic Investment Rider framework under Act 373.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
-      "impact_score": 6,
+      "impact_score": 7,
       "under_radar_flags": [
-        "Army hyperscale data center partnerships on military installations suggest defense-industrial convergence similar to L3Harris Camden model",
-        "Regional utility-data center partnership model spreading beyond Arkansas to Louisiana and Texas",
-        "Construction job creation timeline 2026-2031 aligns with broader infrastructure deployment phase"
+        "Google data center construction documents filed with Army Corps of Engineers suggest federal permitting coordination",
+        "Entergy's 'Fair Share Plus' pledge language indicates potential response to rate structure criticism",
+        "600MW solar + 350MW battery facility represents significant grid infrastructure expansion beyond datacenter load"
       ],
       "key_entities_mentioned": [
-        "Meta",
-        "Microsoft",
-        "Entergy Louisiana",
-        "OpenAI",
-        "US Army",
-        "Google"
+        "Google",
+        "Entergy Arkansas",
+        "Port of Little Rock",
+        "U.S. Army Corps of Engineers"
       ],
       "sources": [
-        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings",
-        "https://www.arkansasonline.com/news/2026/mar/28/microsoft-to-take-over-data-center-construction/",
-        "https://www.army.mil/article/291360/army_reaches_conditional_agreement_with_private_industry_for_hyperscaled_data_centers"
+        "https://www.arkansasonline.com/news/2026/mar/31/googles-1b-port-of-little-rock-data-center/",
+        "https://www.entergy.com/news/5b-in-customer-savings-delivered-by-data-center-agreements-issues-fair-share-plus-pledge"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "timestamp": "2026-03-31",
-      "raw_response_length": 2179
+      "raw_response_length": 1964
     }
   },
   "convergence_note": "9 nodes active simultaneously \u2014 within the 7-day convergence window defined by the thermostat model."
