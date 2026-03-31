@@ -1,292 +1,358 @@
 {
-  "checked_at": "2026-03-30T20:40:59.683537+00:00",
+  "checked_at": "2026-03-31T00:32:07.974220+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 37,
-  "claims_verified": 1,
-  "claims_flagged": 5,
-  "claims_unverifiable": 31,
+  "claims_checked": 43,
+  "claims_verified": 0,
+  "claims_flagged": 7,
+  "claims_unverifiable": 36,
   "corrections_applied": [
     {
-      "claim_index": 19,
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "original_headline": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
-      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
-      "original_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify to lawmakers only if granted clemency first. She refused to answer questions from U.S. lawmakers on February 9, 2026. Meanwhile, Representative Raja introduced a House Judiciary resolu",
-      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking.",
-      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution."
+      "claim_index": 10,
+      "source": "daily_intelligence/breaking_news",
+      "original_headline": "Board of Peace formation accelerated as Trump declares Gaza war 'over' with interim administration planned - March 2026",
+      "corrected_headline": "Trump-led Board of Peace, established under EO 14375, accelerates Gaza interim administration plan as Trump declares war 'over' \u2014 March 2026",
+      "original_summary": "Trump announced the Board of Peace and interim administration would be formed quickly following Gaza ceasefire. Kosovo announced intention to send troops to Gaza under US-backed peace plan to maintain stability and support transitional administration.",
+      "corrected_summary": "The Board of Peace, created by Executive Order 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity, is reportedly accelerating plans for a Gaza interim administration following a Trump declaration that the Gaza war is 'over.' Kosovo has announced intentions to contribute troops under the US-backed plan. These post-cutoff developments cannot be independently verified but the Board of Peace is an existing institution, not a newly forming one.",
+      "finding": "The Board of Peace is described generically as being 'formed' in March 2026, but per the entity disambiguation table it was created via EO 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity \u2014 it is not a newly forming body in March 2026. The claim also omits that Kosovo's troop contribution and Gaza 'over' declaration are unverifiable post-cutoff events, but the core entity mischaracterization is correctable."
     },
     {
-      "claim_index": 21,
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "original_headline": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
-      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
-      "original_summary": "The Pentagon has officially designated Palantir's Maven AI system as a Program of Record, expanding from an initial $480M contract in 2024 to a $13B framework by 2025. Simultaneously, Anthropic won a federal court injunction blocking the Pentagon's 'supply chain risk' designation after refusing to r",
-      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed.",
-      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events."
+      "claim_index": 14,
+      "source": "daily_intelligence/breaking_news",
+      "original_headline": "Gulf SWF capital movements accelerate during Iran war disruption period",
+      "corrected_headline": "Gulf SWFs reposition capital during Iran war: Saudi PIF completes $1.78B Olam Agri deal, mulls ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "original_summary": "Saudi PIF completes $1.78B Olam Agri acquisition to 80% stake and prepares \u20ac200M Salah offer while Mubadala exits CoolIT for $4.75B, all during the 30-day Iran war period that has disrupted global shipping and energy markets. Gulf sovereign funds appear to be repositioning capital amid regional conf",
+      "corrected_summary": "Saudi PIF completed a $1.78B acquisition increasing its Olam Agri stake to 80% and is reportedly preparing an offer of approximately \u20ac100M per year for Mohamed Salah, not a lump-sum \u20ac200M. UAE's Mubadala separately exited its CoolIT Systems stake in a $4.75B transaction. These moves occurred during the ongoing Iran conflict period that has disrupted regional energy and shipping markets. Post-cutoff details remain unverifiable.",
+      "finding": "The claim states Mubadala exited CoolIT Systems for $4.75B, consistent with Claim 1 context, but the headline and context also reference the Saudi PIF Salah offer as '\u20ac200M' total while the supporting context in Claims 23 and 33 clarifies it is \u20ac100M per year \u2014 the headline figure of '\u20ac200M' misrepresents the reported annual offer figure."
+    },
+    {
+      "claim_index": 23,
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "original_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, offers \u20ac200M/year for Salah; Mubadala exits CoolIT for $4.75B",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "original_summary": "Saudi PIF completed its largest recent acquisition with a $1.78B deal to increase its stake in Singapore-based Olam Agri from 35.4% to 80%, with an option for the remaining 19.99% within three years. Separately, PIF is reportedly preparing a \u20ac100M per year offer for Liverpool's Mohamed Salah. Meanwh",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option on the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala separately sold its CoolIT Systems minority stake in a KKR-led $4.75B transaction expected to close Q3 2026, and also acquired Clear Channel in a $6.2B all-cash deal.",
+      "finding": "The headline states '\u20ac200M/year for Salah' but both this claim's own context and Claim 33's context state the reported offer is '\u20ac100M per year' \u2014 the headline doubles the figure, creating a factual error."
     },
     {
       "claim_index": 29,
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "original_headline": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
-      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
-      "original_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney stating she is prepared to testify to lawmakers only if granted clemency first. She refused to answer questions from U.S. lawmakers on February 9, 2026. Meanwhile, Representative Raja introduced a House Judiciary ",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence.",
-      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision."
+      "source": "daily_intelligence/signal/Federal workforce restructuring",
+      "original_headline": "Federal workforce restructuring accelerates with 137,000 DRP departures confirmed, Army forcing civilian reassignments to avoid RIFs, and Schedule Policy/Career facing renewed union lawsuits",
+      "corrected_headline": "OPM confirms 137,000 DRP departures; Army forces civilian reassignments; Schedule Policy/Career reclassification faces union lawsuits after March 2026 effective date",
+      "original_summary": "OPM confirmed 137,000 federal employees accepted Deferred Resignation Program offers, creating massive workforce gaps. The Army is now forcing civilian employees into mandatory reassignments to avoid formal RIF procedures, with separation threatened for those who decline. Schedule Policy/Career recl",
+      "corrected_summary": "OPM confirmed approximately 137,000 federal employees accepted Deferred Resignation Program offers, creating significant workforce gaps across agencies. The Army is implementing mandatory reassignments of civilian employees to avoid formal RIF procedures. Schedule Policy/Career reclassification, which took effect in March 2026 per executive action, remains under legal challenge from federal employee unions, with OPM prohibiting agencies from using it as a backdoor RIF substitute.",
+      "finding": "The claim correctly uses OPM rather than DOGE and references Schedule Policy/Career, but states Schedule Policy/Career took effect 'March 9, 2026' \u2014 the entity disambiguation table states it took effect 'March 2026' generally, while the specific date of March 9 is an additional precision claim that cannot be verified from available sources and may be fabricated."
     },
     {
       "claim_index": 31,
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "original_headline": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
-      "original_summary": "Major Pentagon AI contract developments this week: DOD designated Palantir's Maven AI system as an official Program of Record with multi-year funding growing from $480M in 2024 to $13B framework. Simultaneously, federal court issued injunction blocking Pentagon's 'supply chain risk' designation of A",
-      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified.",
-      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail."
+      "source": "daily_intelligence/signal/CFIUS national security reviews",
+      "original_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of War/DHS",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "original_summary": "The Federal Communications Commission implemented a sweeping ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers can apply for 'conditional approval' from the Department of War or Department of Home",
+      "corrected_summary": "The FCC reportedly implemented a ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or Department of Homeland Security if the agencies determine the devices do not pose identified national security risks. This measure would effectively remove the majority of current home networking equipment from the US market, though post-cutoff details remain unverifiable.",
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority alongside DHS \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is an entity error, not an unverifiable post-cutoff event."
     },
     {
-      "claim_index": 35,
+      "claim_index": 33,
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "original_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, prepares \u20ac200M Salah offer; Mubadala exits CoolIT for $4.75B amid Iran war tensions",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B amid Iran war tensions",
+      "original_summary": "Saudi PIF completed its largest recent acquisition with a $1.78B deal to increase its Olam Agri stake from 35.4% to 80%, with an option for the remaining 19.99% within three years. The fund is also preparing a blockbuster \u20ac100M per year offer for Liverpool's Mohamed Salah. Meanwhile, UAE's Mubadala ",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option for the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not a lump-sum \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala sold its CoolIT Systems minority stake in a KKR-led $4.75B deal expected to close Q3 2026, while also securing new Indonesian gas concessions, all during the ongoing Iran conflict period.",
+      "finding": "The headline states Saudi PIF 'prepares \u20ac200M Salah offer' but the claim's own context states the offer is '\u20ac100M per year' \u2014 the headline misrepresents the reported annual figure as a total, doubling it."
+    },
+    {
+      "claim_index": 41,
       "source": "daily_intelligence/signal/CFIUS national security reviews",
-      "original_headline": "FCC implements sweeping foreign router ban effective March 23, 2026, requiring CFIUS-style conditional approval from DoW/DHS for all foreign-manufactured networking equipment",
-      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
-      "original_summary": "The FCC banned all new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers can now only receive FCC equipment authorization through 'conditional approval' from the Department of War or Department of Homeland Security - es",
-      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources.",
-      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD)."
+      "original_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of War/DHS",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "original_summary": "The Federal Communications Commission implemented a sweeping ban on all new foreign-manufactured consumer routers on March 23, 2026, citing 'unacceptable risk to national security' following a National Security Determination issued March 20. Router manufacturers can apply for 'conditional approval' ",
+      "corrected_summary": "The FCC reportedly implemented a sweeping ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20 citing 'unacceptable risk to national security.' Router manufacturers may seek conditional approval from the Department of Defense or the Department of Homeland Security. The measure would effectively remove the majority of home networking equipment from the US market, forcing significant industry restructuring, though post-cutoff details cannot be independently verified.",
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is a factual entity error duplicated from Claim 31."
     }
   ],
   "enrichment_targets_found": 0,
   "enrichments_applied": [],
   "issues_found": [
     {
-      "claim": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution.",
-      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
-      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking."
+      "claim": "Board of Peace formation accelerated as Trump declares Gaza war 'over' with interim administration planned - March 2026",
+      "source": "daily_intelligence/breaking_news",
+      "finding": "The Board of Peace is described generically as being 'formed' in March 2026, but per the entity disambiguation table it was created via EO 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity \u2014 it is not a newly forming body in March 2026. The claim also omits that Kosovo's troop contribution and Gaza 'over' declaration are unverifiable post-cutoff events, but the core entity mischaracterization is correctable.",
+      "corrected_headline": "Trump-led Board of Peace, established under EO 14375, accelerates Gaza interim administration plan as Trump declares war 'over' \u2014 March 2026",
+      "corrected_summary": "The Board of Peace, created by Executive Order 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity, is reportedly accelerating plans for a Gaza interim administration following a Trump declaration that the Gaza war is 'over.' Kosovo has announced intentions to contribute troops under the US-backed plan. These post-cutoff developments cannot be independently verified but the Board of Peace is an existing institution, not a newly forming one."
     },
     {
-      "claim": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events.",
-      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
-      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed."
+      "claim": "Gulf SWF capital movements accelerate during Iran war disruption period",
+      "source": "daily_intelligence/breaking_news",
+      "finding": "The claim states Mubadala exited CoolIT Systems for $4.75B, consistent with Claim 1 context, but the headline and context also reference the Saudi PIF Salah offer as '\u20ac200M' total while the supporting context in Claims 23 and 33 clarifies it is \u20ac100M per year \u2014 the headline figure of '\u20ac200M' misrepresents the reported annual offer figure.",
+      "corrected_headline": "Gulf SWFs reposition capital during Iran war: Saudi PIF completes $1.78B Olam Agri deal, mulls ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "corrected_summary": "Saudi PIF completed a $1.78B acquisition increasing its Olam Agri stake to 80% and is reportedly preparing an offer of approximately \u20ac100M per year for Mohamed Salah, not a lump-sum \u20ac200M. UAE's Mubadala separately exited its CoolIT Systems stake in a $4.75B transaction. These moves occurred during the ongoing Iran conflict period that has disrupted regional energy and shipping markets. Post-cutoff details remain unverifiable."
     },
     {
-      "claim": "Maxwell appeals for clemency while refusing Congressional testimony; House resolution opposes any Trump pardon",
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision.",
-      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence."
+      "claim": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, offers \u20ac200M/year for Salah; Mubadala exits CoolIT for $4.75B",
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "finding": "The headline states '\u20ac200M/year for Salah' but both this claim's own context and Claim 33's context state the reported offer is '\u20ac100M per year' \u2014 the headline doubles the figure, creating a factual error.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option on the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala separately sold its CoolIT Systems minority stake in a KKR-led $4.75B transaction expected to close Q3 2026, and also acquired Clear Channel in a $6.2B all-cash deal."
     },
     {
-      "claim": "Pentagon formalizes Palantir Maven AI as Program of Record while Anthropic-DOD dispute reaches federal court injunction",
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
-      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified."
+      "claim": "Federal workforce restructuring accelerates with 137,000 DRP departures confirmed, Army forcing civilian reassignments to avoid RIFs, and Schedule Policy/Career facing renewed union lawsuits",
+      "source": "daily_intelligence/signal/Federal workforce restructuring",
+      "finding": "The claim correctly uses OPM rather than DOGE and references Schedule Policy/Career, but states Schedule Policy/Career took effect 'March 9, 2026' \u2014 the entity disambiguation table states it took effect 'March 2026' generally, while the specific date of March 9 is an additional precision claim that cannot be verified from available sources and may be fabricated.",
+      "corrected_headline": "OPM confirms 137,000 DRP departures; Army forces civilian reassignments; Schedule Policy/Career reclassification faces union lawsuits after March 2026 effective date",
+      "corrected_summary": "OPM confirmed approximately 137,000 federal employees accepted Deferred Resignation Program offers, creating significant workforce gaps across agencies. The Army is implementing mandatory reassignments of civilian employees to avoid formal RIF procedures. Schedule Policy/Career reclassification, which took effect in March 2026 per executive action, remains under legal challenge from federal employee unions, with OPM prohibiting agencies from using it as a backdoor RIF substitute."
     },
     {
-      "claim": "FCC implements sweeping foreign router ban effective March 23, 2026, requiring CFIUS-style conditional approval from DoW/DHS for all foreign-manufactured networking equipment",
+      "claim": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of War/DHS",
       "source": "daily_intelligence/signal/CFIUS national security reviews",
-      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD).",
-      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
-      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources."
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority alongside DHS \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is an entity error, not an unverifiable post-cutoff event.",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "corrected_summary": "The FCC reportedly implemented a ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or Department of Homeland Security if the agencies determine the devices do not pose identified national security risks. This measure would effectively remove the majority of current home networking equipment from the US market, though post-cutoff details remain unverifiable."
+    },
+    {
+      "claim": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, prepares \u20ac200M Salah offer; Mubadala exits CoolIT for $4.75B amid Iran war tensions",
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "finding": "The headline states Saudi PIF 'prepares \u20ac200M Salah offer' but the claim's own context states the offer is '\u20ac100M per year' \u2014 the headline misrepresents the reported annual figure as a total, doubling it.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B amid Iran war tensions",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option for the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not a lump-sum \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala sold its CoolIT Systems minority stake in a KKR-led $4.75B deal expected to close Q3 2026, while also securing new Indonesian gas concessions, all during the ongoing Iran conflict period."
+    },
+    {
+      "claim": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of War/DHS",
+      "source": "daily_intelligence/signal/CFIUS national security reviews",
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is a factual entity error duplicated from Claim 31.",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "corrected_summary": "The FCC reportedly implemented a sweeping ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20 citing 'unacceptable risk to national security.' Router manufacturers may seek conditional approval from the Department of Defense or the Department of Homeland Security. The measure would effectively remove the majority of home networking equipment from the US market, forcing significant industry restructuring, though post-cutoff details cannot be independently verified."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
       "status": "UNVERIFIABLE",
-      "finding": "House Resolution 119-635 introduced by Rep. Krishnamoorthi on August 5, 2026 cannot be verified \u2014 the date is beyond both the knowledge cutoff and the stated March 2026 reporting window, making this claim unverifiable."
+      "finding": "Claim describes events from March 30-31, 2026, including IDF strikes on Tehran, Trump threats, Iranian denial of negotiations, and damage to a US E-3 Sentry aircraft \u2014 all beyond the January 2026 knowledge cutoff and cannot be independently verified or refuted."
     },
     {
       "claim_index": 1,
       "status": "UNVERIFIABLE",
-      "finding": "Specific claims about Trump's March 30 2026 threats, Pakistan hosting US-Iran talks, and Iran's parliamentary speaker negotiating cannot be verified against training data; these post-cutoff operational details require live sourcing."
+      "finding": "Claim describes events from March 26-27, 2026 including Saudi PIF strategy announcement, Mubadala's CoolIT Systems exit for $4.75B, and Clear Channel acquisition for $6.2B \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 2,
       "status": "UNVERIFIABLE",
-      "finding": "PIF's announcement of a new five-year strategy at FII PRIORITY Miami 2026 and the Moonton acquisition completion on March 23, 2026 are post-cutoff events that cannot be independently verified, though the Savvy Games/Moonton acquisition trajectory is consistent with known context."
+      "finding": "Claim describes events from March 29-30, 2026 including Israeli expansion into Lebanon, 170+ Iran strikes, and IDF suspension of Netzah Yehuda battalion \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 3,
       "status": "UNVERIFIABLE",
-      "finding": "Claims about an expanded Israeli ground invasion of southern Lebanon to the Litani River, three UN peacekeepers killed, and IDF battalion suspension for assaulting a CNN crew in March 2026 are post-cutoff and cannot be verified; the Netzah Yehuda battalion has a documented disciplinary history but the specific CNN crew incident cannot be confirmed."
+      "finding": "Claim describes Oracle Q3 FY2026 earnings results for the quarter ended February 2026, including specific revenue figures, OCI growth rates, RPO backlog, and stock performance \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 4,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle stock trading range, Q3 FY2026 earnings figures, and specific analyst price targets for March 30, 2026 are post-cutoff and cannot be verified, though the general Stargate partnership and Oracle cloud growth trajectory are consistent with pre-cutoff context."
+      "finding": "Claim describes DOJ Epstein document release on January 30, 2026, subsequent House subpoenas to AG Bondi, and victim lawsuits in March 2026 \u2014 the January 30 release date is near the knowledge cutoff and the March 2026 developments are beyond it; cannot be fully verified."
     },
     {
       "claim_index": 5,
       "status": "UNVERIFIABLE",
-      "finding": "Specific claims about Trump-related Epstein files, the orange figure in prison video logs, lawsuits against DOJ and Google, and Congressional subpoenas targeting AG Bondi in March 2026 are post-cutoff and cannot be verified."
+      "finding": "Claim describes Entergy announcements from March 25 and March 28, 2026, and a Microsoft Texas data center acquisition \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 6,
       "status": "UNVERIFIABLE",
-      "finding": "AVAIO Digital's $6B Arkansas data center construction confirmation, Google's 600MW solar agreement with Entergy Arkansas, and Microsoft's Texas expansion details for March 2026 are post-cutoff and cannot be independently verified."
+      "finding": "Claim describes Trump's announcement of Iranian agreement to a 15-point ceasefire plan and Iran's parliamentary approval of Strait of Hormuz tolls on March 30, 2026 \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 7,
       "status": "UNVERIFIABLE",
-      "finding": "Trump's specific March 30 2026 threats against Iranian energy infrastructure and claims of a 15-point ceasefire plan are post-cutoff operational details that cannot be verified."
+      "finding": "Claim describes US-Israeli strikes on Iranian ballistic missile facilities and strikes near Bushehr nuclear plant on March 29-30, 2026, described as Day 30 of conflict \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 8,
       "status": "UNVERIFIABLE",
-      "finding": "Claims about projectiles striking the Bushehr nuclear power plant area multiple times in March 2026 are post-cutoff and cannot be verified; Bushehr's status as Iran's only functioning nuclear power plant is accurate contextual background."
+      "finding": "Claim describes an Iranian attack on a Kuwaiti oil tanker at Dubai port on March 30, 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 9,
       "status": "UNVERIFIABLE",
-      "finding": "Claims about IRGC threats against US universities in the Middle East and a US embassy Baghdad evacuation warning in March 2026 are post-cutoff and cannot be verified."
+      "finding": "Claim describes Trump announcing Iran agreed to allow 20 oil cargo ships through the Strait of Hormuz on March 30, 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 10,
-      "status": "UNVERIFIABLE",
-      "finding": "US Marine deployment to the Middle East following a Houthi missile attack on Israel on March 28, 2026, and the specific strike and casualty figures cited, are post-cutoff and cannot be verified."
+      "status": "FLAGGED",
+      "finding": "The Board of Peace is described generically as being 'formed' in March 2026, but per the entity disambiguation table it was created via EO 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity \u2014 it is not a newly forming body in March 2026. The claim also omits that Kosovo's troop contribution and Gaza 'over' declaration are unverifiable post-cutoff events, but the core entity mischaracterization is correctable.",
+      "corrected_headline": "Trump-led Board of Peace, established under EO 14375, accelerates Gaza interim administration plan as Trump declares war 'over' \u2014 March 2026",
+      "corrected_summary": "The Board of Peace, created by Executive Order 14375 with Trump as lifetime chairman and granted IOIA diplomatic immunity, is reportedly accelerating plans for a Gaza interim administration following a Trump declaration that the Gaza war is 'over.' Kosovo has announced intentions to contribute troops under the US-backed plan. These post-cutoff developments cannot be independently verified but the Board of Peace is an existing institution, not a newly forming one."
     },
     {
       "claim_index": 11,
       "status": "UNVERIFIABLE",
-      "finding": "Specific March 2026 discussions about Russia transferring upgraded drones to Iran and UK intelligence confirmation of training/EW support are post-cutoff; general CRINK coordination patterns are consistent with pre-cutoff reporting but the specific claims cannot be verified."
+      "finding": "Claim describes Iran's ceasefire conditions linking Lebanon and Gaza negotiations in March 2026, including Israel's expansion of the Lebanon ground invasion \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 12,
       "status": "UNVERIFIABLE",
-      "finding": "Pakistan's mediation role, statements by Iran parliament speaker Mohammad-Bagher Ghalibaf warning against a US ground invasion, and confidence-building reports from Pakistan's foreign minister in March 2026 are post-cutoff and cannot be verified; Ghalibaf's identity as Iran's parliamentary speaker is consistent with pre-cutoff knowledge."
+      "finding": "Claim describes IRGC threats against US universities in the Middle East and a US embassy Baghdad warning in March 2026 \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 13,
       "status": "UNVERIFIABLE",
-      "finding": "An Iranian raid killing an Indian worker at a Kuwait power and desalination plant on March 30, 2026 is a post-cutoff event that cannot be verified."
+      "finding": "Claim describes simultaneous Iran war ceasefire negotiations and Board of Peace releasing an 8-month Hamas disarmament plan in March 2026 \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 14,
-      "status": "UNVERIFIABLE",
-      "finding": "Kosovo's announcement of troop deployment to Gaza under the Board of Peace framework is a post-cutoff event; the Board of Peace entity definition is consistent with the disambiguation table but the specific Kosovo deployment cannot be verified."
+      "status": "FLAGGED",
+      "finding": "The claim states Mubadala exited CoolIT Systems for $4.75B, consistent with Claim 1 context, but the headline and context also reference the Saudi PIF Salah offer as '\u20ac200M' total while the supporting context in Claims 23 and 33 clarifies it is \u20ac100M per year \u2014 the headline figure of '\u20ac200M' misrepresents the reported annual offer figure.",
+      "corrected_headline": "Gulf SWFs reposition capital during Iran war: Saudi PIF completes $1.78B Olam Agri deal, mulls ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "corrected_summary": "Saudi PIF completed a $1.78B acquisition increasing its Olam Agri stake to 80% and is reportedly preparing an offer of approximately \u20ac100M per year for Mohamed Salah, not a lump-sum \u20ac200M. UAE's Mubadala separately exited its CoolIT Systems stake in a $4.75B transaction. These moves occurred during the ongoing Iran conflict period that has disrupted regional energy and shipping markets. Post-cutoff details remain unverifiable."
     },
     {
       "claim_index": 15,
       "status": "UNVERIFIABLE",
-      "finding": "Specific operational details about Day 30 of the Iran war, Trump's 15-point ceasefire proposal, Iranian dismissals, and the Strait of Hormuz sovereignty demand as part of Iran's counterproposal are post-cutoff and cannot be verified."
+      "finding": "Claim describes iyO amending a lawsuit against OpenAI's io subsidiary and implicating former Apple designer Tang Tan in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 16,
       "status": "UNVERIFIABLE",
-      "finding": "Hamas considering an 8-month staged disarmament proposal linked to a $7B reconstruction fund overseen by the Board of Peace, and deployment of an International Stabilization Force, are post-cutoff and cannot be verified."
+      "finding": "Claim describes Wall Street analysis in 2026 regarding a SpaceX IPO structure and its potential influence on OpenAI and Anthropic public offerings \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 17,
       "status": "UNVERIFIABLE",
-      "finding": "The Moonton acquisition completion date, Mubadala's $4.75B CoolIT exit to Ecolab in a KKR-led transaction with Q3 2026 finalization, and PIF's increased Olam Agri stake are post-cutoff and cannot be verified; the Savvy Games/Moonton acquisition trajectory is consistent with pre-cutoff knowledge."
+      "finding": "Claim describes OMB returning a DOL proposed rule on 401(k) alternative investments in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 18,
-      "status": "VERIFIED",
-      "finding": "The ~3.5M page DOJ Epstein library figure, FBI 302 summaries, victim identity exposure lawsuits, and Rep. Massie's confrontation of FBI Director Kash Patel are all consistent with the disambiguation table's standing definitions and post-cutoff pipeline context; no internally contradictory or verifiably false assertions detected."
+      "status": "UNVERIFIABLE",
+      "finding": "Claim describes active US-Israeli airstrikes on Tehran, Iran's parliamentary Strait of Hormuz toll approval, and competing US-Iranian claims about a 15-point ceasefire plan on March 30, 2026 \u2014 all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 19,
-      "status": "FLAGGED",
-      "finding": "The representative is identified only as 'Representative Raja' without the full name Krishnamoorthi, and the resolution number/date match claim 0 which is flagged as unverifiable; however, Maxwell's refusal to testify on February 9 2026 and her clemency pursuit are consistent with context, while 'Representative Raja' is an incomplete and potentially ambiguous attribution.",
-      "corrected_headline": "Maxwell seeks clemency while refusing Congressional testimony; House Judiciary resolution opposes any presidential pardon",
-      "corrected_summary": "Ghislaine Maxwell is actively seeking clemency from President Trump, with her attorney indicating she would testify only after clemency is granted. She refused to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and opposing any pardon or clemency, stating it would deny justice to survivors. Maxwell continues serving her 20-year sentence for child sex trafficking."
+      "status": "UNVERIFIABLE",
+      "finding": "The 3.5M page DOJ release figure is consistent with the entity disambiguation table, but victim lawsuits against Trump administration and Google filed in March 2026 are beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 20,
       "status": "UNVERIFIABLE",
-      "finding": "Specific details about the state of Ukraine-Russia peace talks in March 2026, Zelensky's claims about US security guarantees tied to Donbas concessions, and Rubio's denial are post-cutoff and cannot be verified, though the general negotiating dynamics are consistent with late-2025 reporting trends."
+      "finding": "Claim describes Oracle Q3 FY2026 earnings results for the quarter ended February 2026, with specific revenue, OCI growth, and RPO figures \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 21,
-      "status": "FLAGGED",
-      "finding": "The claim that Anthropic won a federal court injunction blocking a Pentagon 'supply chain risk' designation, and that OpenAI added similar contractual guardrails hours after securing a $200M contract, are highly specific post-cutoff assertions presented as confirmed fact with no verifiable basis; these read as speculative or fabricated events.",
-      "corrected_headline": "Pentagon designates Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute status unconfirmed",
-      "corrected_summary": "The Pentagon has moved to formalize Palantir's Maven AI system as a Program of Record, expanding its AI contract framework. Reported disputes between Anthropic and the DOD over contractual guardrails against autonomous weapons use and mass surveillance, and a claimed federal court injunction, cannot be independently confirmed and should be treated as unverified. OpenAI's reported $200M Pentagon contract and subsequent guardrail adoption also remain unconfirmed."
+      "status": "UNVERIFIABLE",
+      "finding": "Duplicate of Claim 18 \u2014 describes Iran war ceasefire negotiations and Strait of Hormuz toll approval on March 30, 2026, all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 22,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle Q3 FY2026 earnings figures (22% revenue growth to $17.2B, 44% cloud revenue to $8.9B, $553B RPO backlog), specific analyst price targets, and the Argus cut to $225 are post-cutoff and cannot be verified, though Oracle's Stargate partnership and cloud growth trajectory are consistent with pre-cutoff context."
+      "finding": "Claim describes Board of Peace presenting an 8-month Hamas disarmament plan with specific phase details and $7B reconstruction funding in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 23,
-      "status": "UNVERIFIABLE",
-      "finding": "Schedule Policy/Career operational date of March 9, 2026, the 137,000 DRP acceptances figure, Army mandatory reassignment policy, and OPM's prohibition on using Schedule P/C as a RIF substitute are post-cutoff details that cannot be verified, though the general framework is consistent with the disambiguation table."
+      "status": "FLAGGED",
+      "finding": "The headline states '\u20ac200M/year for Salah' but both this claim's own context and Claim 33's context state the reported offer is '\u20ac100M per year' \u2014 the headline doubles the figure, creating a factual error.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option on the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala separately sold its CoolIT Systems minority stake in a KKR-led $4.75B transaction expected to close Q3 2026, and also acquired Clear Channel in a $6.2B all-cash deal."
     },
     {
       "claim_index": 24,
       "status": "UNVERIFIABLE",
-      "finding": "The bellwether social media addiction trial date of January 27, 2026 in Los Angeles Superior Court and the March 3, 2026 New York state judge inquiry are post-cutoff events; the January 27 date is within the knowledge cutoff window but cannot be specifically confirmed."
+      "finding": "The 3.5M page DOJ Epstein release figure is consistent with the entity disambiguation table, but victim lawsuits against Trump DOJ and Google filed in March 2026 are beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 25,
       "status": "UNVERIFIABLE",
-      "finding": "The FCC foreign router ban effective March 23, 2026 and the National Security Determination of March 20 are post-cutoff and cannot be verified; the claim that approval runs through DoD or DHS is plausible but unconfirmed."
+      "finding": "Claim describes Ghislaine Maxwell seeking clemency, refusing Congressional testimony, and a House resolution introduced by Rep. Krishnamoorthi in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 26,
       "status": "UNVERIFIABLE",
-      "finding": "AVAIO Digital's January 2026 $6B Arkansas data center announcement and the Sanders/AOC Artificial Intelligence Data Center Moratorium Act introduced March 25, 2026 are post-cutoff and cannot be verified."
+      "finding": "Claim describes Ukraine-Russia peace negotiation dynamics in March 2026 including Zelensky's Easter ceasefire proposal and specific territorial dispute details \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 27,
       "status": "UNVERIFIABLE",
-      "finding": "The Moonton acquisition completion, Mubadala's $4.75B CoolIT exit to Ecolab, the KKR-led transaction structure, and Mubadala Capital's $6.2B Clear Channel Outdoor acquisition are post-cutoff and cannot be verified; Savvy Games as a PIF gaming subsidiary is consistent with the disambiguation table."
+      "finding": "Claim describes Palantir Maven AI contract expansion to $13B, OpenAI's $200M classified networks deal, and Anthropic contract termination in 2025-2026 \u2014 these events are at or beyond the January 2026 knowledge cutoff and cannot be fully verified."
     },
     {
       "claim_index": 28,
       "status": "UNVERIFIABLE",
-      "finding": "The 3.5M page DOJ document release by January 30, 2026, the DOJ/Google lawsuits over exposed victim identities, and Rep. Massie's confrontation of FBI Director Kash Patel are partially within or near the knowledge cutoff but cannot be fully verified; the 3.5M page figure is consistent with the disambiguation table's standing definition."
+      "finding": "Duplicate of Claims 20 and 38 \u2014 describes Oracle Q3 FY2026 earnings for the quarter ended February 2026, all beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 29,
       "status": "FLAGGED",
-      "finding": "The representative is again identified only as 'Representative Raja' \u2014 an incomplete attribution that could cause entity confusion; full name Raja Krishnamoorthi should be used for precision.",
-      "corrected_headline": "Maxwell pursues clemency while refusing testimony; Rep. Krishnamoorthi introduces House Judiciary resolution opposing any pardon",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump, with her attorney stating she will testify to lawmakers only after clemency is granted. She declined to answer questions from US lawmakers on February 9, 2026. Representative Raja Krishnamoorthi introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and that any pardon would deny justice to survivors. Maxwell remains imprisoned serving her 20-year sentence."
+      "finding": "The claim correctly uses OPM rather than DOGE and references Schedule Policy/Career, but states Schedule Policy/Career took effect 'March 9, 2026' \u2014 the entity disambiguation table states it took effect 'March 2026' generally, while the specific date of March 9 is an additional precision claim that cannot be verified from available sources and may be fabricated.",
+      "corrected_headline": "OPM confirms 137,000 DRP departures; Army forces civilian reassignments; Schedule Policy/Career reclassification faces union lawsuits after March 2026 effective date",
+      "corrected_summary": "OPM confirmed approximately 137,000 federal employees accepted Deferred Resignation Program offers, creating significant workforce gaps across agencies. The Army is implementing mandatory reassignments of civilian employees to avoid formal RIF procedures. Schedule Policy/Career reclassification, which took effect in March 2026 per executive action, remains under legal challenge from federal employee unions, with OPM prohibiting agencies from using it as a backdoor RIF substitute."
     },
     {
       "claim_index": 30,
       "status": "UNVERIFIABLE",
-      "finding": "The specific state of Ukraine-Russia peace talks in March 2026, Zelensky's territorial concession claims, and Rubio's denials are post-cutoff and cannot be verified; the general negotiating dynamics are consistent with late-2025 reporting trends."
+      "finding": "Claim describes an Illinois TikTok privacy lawsuit filed 'four days ago' from March 2026, a New York judge action on March 3, and Minnesota mental health warning legislation starting July 2026 \u2014 all at or beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 31,
       "status": "FLAGGED",
-      "finding": "Same core problem as claim 21: the Anthropic federal court injunction, OpenAI's $200M contract secured 'hours after Anthropic blacklisting,' and identical subsequent guardrail adoption are highly specific post-cutoff claims presented as confirmed fact with no verifiable basis and bear hallmarks of fabricated detail.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as Program of Record; Anthropic-DOD AI ethics dispute details unconfirmed",
-      "corrected_summary": "The Pentagon has moved to designate Palantir's Maven AI system as an official Program of Record with multi-year funding. Separately reported disputes between Anthropic and DOD over contractual AI safety guardrails, including a claimed federal court injunction blocking a 'supply chain risk' designation, cannot be independently confirmed and should not be treated as established fact. OpenAI's reported $200M contract and its alleged timing relative to Anthropic's situation also remain unverified."
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority alongside DHS \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is an entity error, not an unverifiable post-cutoff event.",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "corrected_summary": "The FCC reportedly implemented a ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers may apply for conditional approval from the Department of Defense or Department of Homeland Security if the agencies determine the devices do not pose identified national security risks. This measure would effectively remove the majority of current home networking equipment from the US market, though post-cutoff details remain unverifiable."
     },
     {
       "claim_index": 32,
       "status": "UNVERIFIABLE",
-      "finding": "Oracle Q3 FY2026 specific earnings figures, EPS of $1.79 vs $1.71 projection, 84% OCI growth, $553B RPO backlog, and specific analyst targets (BofA $200, Bernstein $319, Argus $225) are post-cutoff and cannot be verified, though Oracle's Stargate partnership and cloud growth trajectory are consistent with pre-cutoff context."
+      "finding": "Claim describes AVAIO Digital's $3B Appomattox County data center announcement and Arkansas campus timeline in March 2026, and Entergy's 240-mile 500kV transmission investment \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 33,
-      "status": "UNVERIFIABLE",
-      "finding": "Schedule Policy/Career operational date, the 137,000 DRP figure, Army reassignment policies, and State Department layoff details for March 2026 are post-cutoff and cannot be verified, though the general framework is consistent with the disambiguation table."
+      "status": "FLAGGED",
+      "finding": "The headline states Saudi PIF 'prepares \u20ac200M Salah offer' but the claim's own context states the offer is '\u20ac100M per year' \u2014 the headline misrepresents the reported annual figure as a total, doubling it.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, reportedly prepares ~\u20ac100M/year Salah offer; Mubadala exits CoolIT for $4.75B amid Iran war tensions",
+      "corrected_summary": "Saudi PIF completed a $1.78B deal to raise its Olam Agri stake from 35.4% to 80%, with an option for the remaining 19.99% within three years. The fund is reportedly preparing an offer of approximately \u20ac100M per year \u2014 not a lump-sum \u20ac200M \u2014 for Liverpool's Mohamed Salah. UAE's Mubadala sold its CoolIT Systems minority stake in a KKR-led $4.75B deal expected to close Q3 2026, while also securing new Indonesian gas concessions, all during the ongoing Iran conflict period."
     },
     {
       "claim_index": 34,
       "status": "UNVERIFIABLE",
-      "finding": "The Lanier Law Firm bellwether trial date of January 27, 2026 and the March 3 New York judge inquiry about TikTok USDS JV financial documents are post-cutoff or at the edge of the knowledge cutoff and cannot be specifically confirmed."
+      "finding": "The 3.5M page Epstein DOJ release figure aligns with the disambiguation table, but victim lawsuits against the Trump DOJ and Google, and specific content of recent document batches, are at or beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 35,
-      "status": "FLAGGED",
-      "finding": "The claim states conditional approval runs through 'the Department of War or Department of Homeland Security' \u2014 the Department of War does not exist; the correct agency is the Department of Defense (DoD).",
-      "corrected_headline": "FCC implements foreign router ban effective March 23, 2026, requiring DoD/DHS conditional approval for foreign-manufactured networking equipment",
-      "corrected_summary": "The FCC reportedly banned new foreign-made consumer routers on March 23, 2026, following a National Security Determination issued March 20. Router manufacturers would receive FCC equipment authorization only through conditional approval from the Department of Defense or Department of Homeland Security \u2014 not the non-existent 'Department of War.' This action, if confirmed, would remove a large portion of home networking equipment from the US market and force significant industry restructuring. Details remain unverifiable against post-cutoff sources."
+      "status": "UNVERIFIABLE",
+      "finding": "Duplicate of Claim 25 \u2014 describes Maxwell clemency bid, Congressional testimony refusal, and House resolution by Rep. Krishnamoorthi in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
     },
     {
       "claim_index": 36,
       "status": "UNVERIFIABLE",
-      "finding": "AVAIO Digital's January 2026 Arkansas campus announcement and the Sanders/AOC moratorium bill introduced March 25, 2026 are post-cutoff and cannot be verified; the Arkansas legislative framework reference is plausible but unconfirmed."
+      "finding": "Claim describes Ukraine-Russia peace negotiation dynamics in March 2026 including Zelensky's Easter ceasefire proposal, Rubio's denial, and specific territorial dispute framing \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
+    },
+    {
+      "claim_index": 37,
+      "status": "UNVERIFIABLE",
+      "finding": "Claim describes Palantir Maven AI contract expansion, OpenAI's $200M classified military network deal, and Anthropic contract termination with a federal judge blocking Pentagon's supply-chain risk designation \u2014 these events span late 2025 to early 2026 and are at or beyond the knowledge cutoff and cannot be fully verified."
+    },
+    {
+      "claim_index": 38,
+      "status": "UNVERIFIABLE",
+      "finding": "Duplicate of Claims 20 and 28 \u2014 describes Oracle Q3 FY2026 earnings for quarter ended February 2026, all beyond the January 2026 knowledge cutoff and cannot be verified."
+    },
+    {
+      "claim_index": 39,
+      "status": "UNVERIFIABLE",
+      "finding": "Claim describes OPM confirming 137,000 DRP acceptances, Army mandatory reassignment policy, and ongoing Schedule Policy/Career litigation in March 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified, though the use of OPM rather than DOGE is correctly applied."
+    },
+    {
+      "claim_index": 40,
+      "status": "UNVERIFIABLE",
+      "finding": "Claim describes Illinois TikTok privacy lawsuit filed March 27, 2026, and a New York judge action on March 3, 2026 \u2014 beyond the January 2026 knowledge cutoff and cannot be verified."
+    },
+    {
+      "claim_index": 41,
+      "status": "FLAGGED",
+      "finding": "The claim refers to a 'Department of War' as a conditional approval authority \u2014 there is no US 'Department of War'; the correct agency is the Department of Defense (DoD). This is a factual entity error duplicated from Claim 31.",
+      "corrected_headline": "FCC bans all new foreign-made consumer routers effective March 23, 2026, with conditional approval pathway through Department of Defense or DHS",
+      "corrected_summary": "The FCC reportedly implemented a sweeping ban on all new foreign-manufactured consumer routers on March 23, 2026, following a National Security Determination issued March 20 citing 'unacceptable risk to national security.' Router manufacturers may seek conditional approval from the Department of Defense or the Department of Homeland Security. The measure would effectively remove the majority of home networking equipment from the US market, forcing significant industry restructuring, though post-cutoff details cannot be independently verified."
+    },
+    {
+      "claim_index": 42,
+      "status": "UNVERIFIABLE",
+      "finding": "Claim describes AVAIO Digital's Appomattox County campus announcement, Arkansas Little Rock campus timeline for January 2026, and Entergy's 500kV transmission investment \u2014 the Arkansas campus date is near the knowledge cutoff but unverifiable, and the Virginia and Entergy details are beyond or at the cutoff and cannot be confirmed."
     }
   ]
 }
