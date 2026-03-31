@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-31T00:23:43.296077+00:00",
-  "total_runs": 62,
+  "last_updated": "2026-03-31T03:23:26.915716+00:00",
+  "total_runs": 63,
   "timeline": {
     "dates": [
       "2026-03-08",
@@ -52,7 +52,7 @@
       0,
       0,
       7,
-      6
+      7
     ],
     "critical_nodes": [
       2,
@@ -78,7 +78,7 @@
       0,
       0,
       3,
-      1
+      2
     ],
     "convergence_detected": [
       true,
@@ -158,7 +158,7 @@
       2,
       2,
       9,
-      3
+      6
     ],
     "DE_ESCALATION": [
       0,
@@ -210,7 +210,7 @@
       0,
       0,
       4,
-      2
+      4
     ],
     "FRICTION": [
       1,
@@ -236,7 +236,7 @@
       0,
       0,
       3,
-      2
+      4
     ],
     "NEUTRAL": [
       0,
@@ -430,7 +430,7 @@
         "ACTIVE",
         "ACTIVE",
         "CRITICAL",
-        "ACTIVE"
+        "CRITICAL"
       ],
       "maxwell": [
         "ACTIVE",
@@ -456,7 +456,7 @@
         "MONITORING",
         "MONITORING",
         "ACTIVE",
-        "MONITORING"
+        "ACTIVE"
       ],
       "oracle_ellison": [
         "ACTIVE",
@@ -487,15 +487,15 @@
     }
   },
   "leverage_type_totals": {
-    "LEGAL": 62,
-    "KINETIC": 74,
-    "FINANCIAL": 95,
+    "LEGAL": 64,
+    "KINETIC": 76,
+    "FINANCIAL": 98,
     "REGULATORY": 39,
     "REPUTATIONAL": 23
   },
   "convergence_rate": {
-    "total_runs": 62,
-    "convergence_events": 13,
-    "rate_pct": 21.0
+    "total_runs": 63,
+    "convergence_events": 14,
+    "rate_pct": 22.2
   }
 }

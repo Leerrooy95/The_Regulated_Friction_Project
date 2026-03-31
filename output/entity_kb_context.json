@@ -1,21 +1,26 @@
 {
-  "generated_at": "2026-03-31T00:36:07.739619+00:00",
+  "generated_at": "2026-03-31T03:38:44.318309+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-03-31T00:23:41.082617+00:00",
-    "total_entities": 110,
+    "extraction_timestamp": "2026-03-31T03:23:24.676132+00:00",
+    "total_entities": 85,
     "total_relationships": 0,
     "nodes": {
       "maxwell": {
-        "entity_count": 20,
+        "entity_count": 15,
         "relationship_count": 0,
         "cross_node_count": 0,
         "event_classification": "FRICTION",
         "entities": [
+          {
+            "name": "Epstein Files Transparency Act",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell (normalized from 'Epstein')"
+          },
           {
             "name": "Darren Indyke",
             "type": "PERSON",
@@ -27,17 +32,12 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
+            "name": "Raja Krishnamoorthi",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
             "name": "Ghislaine Maxwell",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Jeffrey Epstein",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "Rep. Krishnamoorthi",
             "type": "PERSON",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -47,17 +47,12 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "survivor",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "FBI",
+            "name": "BBC",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "BBC",
+            "name": "FBI",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -67,32 +62,22 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "Epstein Network",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from maxwell (disambiguated)"
-          },
-          {
-            "name": "March 26-31, 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
             "name": "2019",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "presidential pardon",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "diamonds",
-            "type": "FINANCIAL",
+            "name": "March 26-31",
+            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
             "name": "passports",
+            "type": "FINANCIAL",
+            "context": "Extracted by GLiNER2 from maxwell"
+          },
+          {
+            "name": "diamonds",
             "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from maxwell"
           },
@@ -102,17 +87,7 @@
             "context": "Extracted by GLiNER2 from maxwell"
           },
           {
-            "name": "bequests",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
             "name": "House Resolution 119-635",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from maxwell"
-          },
-          {
-            "name": "20-year sentence",
             "type": "LEGAL",
             "context": "Extracted by GLiNER2 from maxwell"
           }
@@ -121,18 +96,13 @@
         "cross_node_connections": []
       },
       "iran": {
-        "entity_count": 16,
+        "entity_count": 17,
         "relationship_count": 0,
-        "cross_node_count": 3,
+        "cross_node_count": 1,
         "event_classification": "ESCALATION",
         "entities": [
           {
             "name": "Trump",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
-            "name": "Esmaeil Baghaei",
             "type": "PERSON",
             "context": "Extracted by GLiNER2 from iran"
           },
@@ -142,17 +112,22 @@
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "IDF",
+            "name": "Esmail Baghaei",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "IRGC Commander Ahmad Vahidi",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "Trump administration",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "IRGC",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
-            "name": "foreign ministry",
+            "name": "Iran's foreign ministry",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from iran"
           },
@@ -162,22 +137,17 @@
             "context": "Extracted by GLiNER2 from iran (normalized from 'US')"
           },
           {
+            "name": "Strait of Hormuz",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran (disambiguated)"
+          },
+          {
+            "name": "Dubai",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
             "name": "Iran",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
-            "name": "Tehran",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
-            "name": "Haifa",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
-            "name": "Prince Sultan Air Base",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from iran"
           },
@@ -192,18 +162,28 @@
             "context": "Extracted by GLiNER2 from iran"
           },
           {
-            "name": "Turkey",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from iran"
-          },
-          {
             "name": "Pakistan",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from iran"
           },
           {
+            "name": "Turkey",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "March 30-31, 2026",
+            "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
             "name": "March 30",
             "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from iran"
+          },
+          {
+            "name": "ceasefire",
+            "type": "LEGAL",
             "context": "Extracted by GLiNER2 from iran"
           }
         ],
@@ -212,17 +192,7 @@
           {
             "target_node": "israel",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: idf"
-          },
-          {
-            "target_node": "israel",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: tehran"
-          },
-          {
-            "target_node": "oracle_ellison",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: march 30"
+            "detail": "Shared entity: trump"
           }
         ]
       },
@@ -243,17 +213,27 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
+            "name": "Mubadala",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
             "name": "Ecolab",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "CoolIT Systems",
+            "name": "Turing",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Mubadala",
+            "name": "Humain",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "CoolIT",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
@@ -263,7 +243,12 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "FII Miami",
+            "name": "KKR",
+            "type": "ORG",
+            "context": "Extracted by GLiNER2 from gulf_swf"
+          },
+          {
+            "name": "FII PRIORITY Miami 2026",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
@@ -273,14 +258,9 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "Iran",
+            "name": "TikTok USDS JV LLC",
             "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from gulf_swf"
-          },
-          {
-            "name": "overseas deal flow",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from gulf_swf"
+            "context": "Extracted by GLiNER2 from gulf_swf (normalized from 'US')"
           },
           {
             "name": "March 26-27, 2026",
@@ -288,18 +268,8 @@
             "context": "Extracted by GLiNER2 from gulf_swf"
           },
           {
-            "name": "March 27, 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from gulf_swf"
-          },
-          {
             "name": "five-year strategy",
             "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from gulf_swf"
-          },
-          {
-            "name": "all-cash deal",
-            "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from gulf_swf"
           }
         ],
@@ -308,16 +278,21 @@
           {
             "target_node": "iran",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: iran"
+            "detail": "Shared entity: tiktok usds jv llc"
           }
         ]
       },
       "israel": {
-        "entity_count": 13,
+        "entity_count": 17,
         "relationship_count": 0,
         "cross_node_count": 0,
         "event_classification": "ESCALATION",
         "entities": [
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "context": "Extracted by GLiNER2 from israel"
+          },
           {
             "name": "Netanyahu",
             "type": "PERSON",
@@ -344,12 +319,17 @@
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Israel",
-            "type": "LOCATION",
+            "name": "Netzah Yehuda reserve battalion",
+            "type": "ORG",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
             "name": "Lebanon",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "Israel",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
@@ -359,7 +339,12 @@
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Lebanese",
+            "name": "Tehran",
+            "type": "LOCATION",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "Jerusalem",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
@@ -369,18 +354,23 @@
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "Tehran",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from israel"
-          },
-          {
             "name": "southern Lebanon",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from israel"
           },
           {
-            "name": "March 2",
+            "name": "March 29-30, 2026",
             "type": "TEMPORAL",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "wider buffer zones",
+            "type": "LEGAL",
+            "context": "Extracted by GLiNER2 from israel"
+          },
+          {
+            "name": "missile",
+            "type": "FINANCIAL",
             "context": "Extracted by GLiNER2 from israel"
           }
         ],
@@ -388,16 +378,11 @@
         "cross_node_connections": []
       },
       "oracle_ellison": {
-        "entity_count": 12,
+        "entity_count": 5,
         "relationship_count": 0,
         "cross_node_count": 0,
         "event_classification": "COMPLIANCE",
         "entities": [
-          {
-            "name": "analyst",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
           {
             "name": "Oracle Corporation",
             "type": "ORG",
@@ -414,43 +399,13 @@
             "context": "Extracted by GLiNER2 from oracle_ellison (disambiguated)"
           },
           {
-            "name": "Q3 FY2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "March 30",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "February 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
             "name": "Q3 2026",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           },
           {
-            "name": "revenue",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "stock",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "Remaining Performance Obligations",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from oracle_ellison"
-          },
-          {
-            "name": "Cloud",
-            "type": "FINANCIAL",
+            "name": "March 26-31, 2026",
+            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from oracle_ellison"
           }
         ],
@@ -458,7 +413,7 @@
         "cross_node_connections": []
       },
       "epstein_files": {
-        "entity_count": 17,
+        "entity_count": 8,
         "relationship_count": 0,
         "cross_node_count": 2,
         "event_classification": "FRICTION",
@@ -469,22 +424,7 @@
             "context": "Extracted by GLiNER2 from epstein_files (normalized from 'Epstein')"
           },
           {
-            "name": "President Trump",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "Jeff",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
             "name": "Attorney General Pam Bondi",
-            "type": "PERSON",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "AG Bondi",
             "type": "PERSON",
             "context": "Extracted by GLiNER2 from epstein_files"
           },
@@ -499,38 +439,13 @@
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "House Oversight",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "Justice Department",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "FBI",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "American Oversight",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
             "name": "federal court",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "South Carolina",
+            "name": "American",
             "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "January 30, 2026",
-            "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
@@ -539,13 +454,8 @@
             "context": "Extracted by GLiNER2 from epstein_files"
           },
           {
-            "name": "March 2026",
+            "name": "March 30",
             "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from epstein_files"
-          },
-          {
-            "name": "lawsuits",
-            "type": "LEGAL",
             "context": "Extracted by GLiNER2 from epstein_files"
           }
         ],
@@ -554,23 +464,23 @@
           {
             "target_node": "maxwell",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: fbi"
+            "detail": "Shared entity: epstein files transparency act"
           },
           {
-            "target_node": "maxwell",
+            "target_node": "iran",
             "connection_type": "shared_entity",
-            "detail": "Shared entity: house oversight"
+            "detail": "Shared entity: march 30"
           }
         ]
       },
       "arkansas_datacenter": {
-        "entity_count": 18,
+        "entity_count": 9,
         "relationship_count": 0,
-        "cross_node_count": 2,
+        "cross_node_count": 0,
         "event_classification": "COMPLIANCE",
         "entities": [
           {
-            "name": "Entergy",
+            "name": "Microsoft",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
@@ -585,17 +495,12 @@
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "Google",
+            "name": "Entergy",
             "type": "ORG",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "Microsoft",
-            "type": "ORG",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "Arkansas",
+            "name": "North American",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
@@ -605,74 +510,23 @@
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "Texas",
-            "type": "LOCATION",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
             "name": "Louisiana",
             "type": "LOCATION",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
-            "name": "utility cost recovery",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "accelerating data center capital deployment",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "March 28",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "March 25, 2026",
-            "type": "TEMPORAL",
+            "name": "Texas",
+            "type": "LOCATION",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
           },
           {
             "name": "2026-2031",
             "type": "TEMPORAL",
             "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "March 2026",
-            "type": "TEMPORAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "Strategic Investment Rider framework",
-            "type": "LEGAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "customer savings from data center agreements",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
-          },
-          {
-            "name": "customer savings agreement",
-            "type": "FINANCIAL",
-            "context": "Extracted by GLiNER2 from arkansas_datacenter"
           }
         ],
         "relationships": [],
-        "cross_node_connections": [
-          {
-            "target_node": "epstein_files",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: google"
-          },
-          {
-            "target_node": "epstein_files",
-            "connection_type": "shared_entity",
-            "detail": "Shared entity: march 2026"
-          }
-        ]
+        "cross_node_connections": []
       }
     },
     "all_cross_node_connections": [
@@ -680,66 +534,42 @@
         "source_node": "iran",
         "target_node": "israel",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: idf"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "israel",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: tehran"
-      },
-      {
-        "source_node": "iran",
-        "target_node": "oracle_ellison",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: march 30"
+        "detail": "Shared entity: trump"
       },
       {
         "source_node": "gulf_swf",
         "target_node": "iran",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: iran"
+        "detail": "Shared entity: tiktok usds jv llc"
       },
       {
         "source_node": "epstein_files",
         "target_node": "maxwell",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: fbi"
+        "detail": "Shared entity: epstein files transparency act"
       },
       {
         "source_node": "epstein_files",
-        "target_node": "maxwell",
+        "target_node": "iran",
         "connection_type": "shared_entity",
-        "detail": "Shared entity: house oversight"
-      },
-      {
-        "source_node": "arkansas_datacenter",
-        "target_node": "epstein_files",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: google"
-      },
-      {
-        "source_node": "arkansas_datacenter",
-        "target_node": "epstein_files",
-        "connection_type": "shared_entity",
-        "detail": "Shared entity: march 2026"
+        "detail": "Shared entity: march 30"
       }
     ],
     "entity_type_counts": {
-      "PERSON": 18,
-      "ORG": 32,
-      "TEMPORAL": 17,
-      "LEGAL": 6,
-      "FINANCIAL": 14,
-      "LOCATION": 23
+      "PERSON": 15,
+      "ORG": 29,
+      "TEMPORAL": 11,
+      "FINANCIAL": 4,
+      "LEGAL": 4,
+      "LOCATION": 22
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-03-31T00:23:43.225908+00:00",
-    "total_runs_analyzed": 62,
+    "analysis_timestamp": "2026-03-31T03:23:26.813675+00:00",
+    "total_runs_analyzed": 63,
     "window_days": 7,
-    "total_convergence_events": 13,
-    "friction_compliance_pairs": 12,
+    "total_convergence_events": 14,
+    "friction_compliance_pairs": 13,
     "recent_events": [
       {
         "date": "2026-03-31",
@@ -780,6 +610,55 @@
             "status": "ACTIVE",
             "classification": "COMPLIANCE",
             "headline": "Entergy announces $7B total customer savings from data center agreements including new Meta Louisiana deal, March 2026"
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-03-31",
+        "active_node_count": 7,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "House Resolution 119-635 formally opposes Maxwell clemency while BBC releases new survivor interviews and Epstein accountant/lawyer depositions reveal government never interviewed key associates, March 26-31, 2026"
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Iran receives 15-point US ceasefire proposal through Pakistan-led mediation while Trump threatens energy grid obliteration and oil tanker struck in Dubai, March 30-31, 2026"
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Saudi PIF announces new five-year strategy launch within weeks while pivoting to private partnerships, as Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition March 26-27, 2026"
+          },
+          {
+            "node_id": "israel",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Israel expands Lebanon ground operations while conducting 170+ strikes on Iranian targets in Tehran on March 29-30, 2026, as IDF suspends Netzah Yehuda battalion for CNN crew assault"
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$262 while stock trades $138-$141 range, March 26-31, 2026"
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ releases additional Epstein documents March 30 while Bondi faces April 14 Congressional deposition amid victim lawsuit over privacy violations"
+          },
+          {
+            "node_id": "arkansas_datacenter",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Microsoft takes over Texas data center construction from OpenAI while Entergy announces additional $2B customer savings from Meta Louisiana agreement, March 27-28, 2026"
           }
         ],
         "has_friction_compliance_pair": true
@@ -1103,264 +982,407 @@
           }
         ],
         "has_friction_compliance_pair": true
-      },
-      {
-        "date": "2026-03-09",
-        "active_node_count": 5,
-        "nodes": [
-          {
-            "node_id": "maxwell",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "Ghislaine Maxwell's attorney publicly appealed for presidential clemency in exchange for testimony, prompting White House denial of priority and Senate opposition resolution."
-          },
-          {
-            "node_id": "iran",
-            "status": "CRITICAL",
-            "classification": "ESCALATION",
-            "headline": "US and Israel continue massive airstrikes on Iran through March 7, 2026, killing Supreme Leader Ali Khamenei and targeting nuclear sites and leadership; Iran retaliates with drone and missile strikes on US embassies and Gulf targets."
-          },
-          {
-            "node_id": "gulf_swf",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Saudi PIF unveils revised 2026-2030 strategy focusing on industry, AI, mining, and tourism while scaling back mega-projects."
-          },
-          {
-            "node_id": "oracle_ellison",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Oracle announced $45-50B equity and debt financing plan for 2026 to fund cloud infrastructure expansion amid debt scrutiny."
-          },
-          {
-            "node_id": "epstein_files",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "DOJ continues removing and reviewing Epstein files amid criticism, with site last updated March 7, 2026."
-          }
-        ],
-        "has_friction_compliance_pair": true
       }
     ]
   },
   "rhetoric_reality_summary": {
     "analysis_date": "2026-03-31",
     "model": "claude-sonnet-4-6",
-    "developments_analyzed": 10,
-    "convergence_note": "The developments across all nodes converge on three interlocking stress points in late March 2026. First, the Iran kinetic node is generating cascading financial and diplomatic dissonance: Trump's rhetorical de-escalation claims (15-point ceasefire, 20-ship Hormuz passage) are directly contradicted by simultaneous Iranian actions (tanker attack at Dubai port, parliamentary toll plan, denial of negotiations) and IDF escalation (170+ strikes, Lebanon buffer expansion). This creates a compounding credibility deficit in US executive communications that affects diplomatic leverage with Pakistan, Egypt, and Gulf states simultaneously. Second, the Gulf SWF capital architecture (gulf_swf node) is being tested under wartime stress: Mubadala's $6.2B Clear Channel acquisition and PIF's Olam Agri deal demonstrate continued capital deployment, but the new PIF five-year strategy \u2014 announced but not yet released \u2014 represents a strategic recalibration whose details are deliberately withheld during the conflict period, creating opacity in the $4.9T+ capital architecture at precisely the moment when UAE ports (Dubai) are being kinetically targeted by Iranian forces. Third, the domestic institutional stress is multi-layered: Oracle's $145-150B+ debt load, Stargate IP litigation (iyO vs. io), the DOL 401(k) rule change opening US pension capital to Gulf-linked PE vehicles, Epstein victim privacy violations, and the Board of Peace's IOIA immunity from judicial oversight collectively represent a pattern in which core US legal protections \u2014 ERISA fiduciary duty, DTSA IP rights, Privacy Act victim protections, congressional appropriations oversight \u2014 are being simultaneously weakened, bypassed, or subordinated to executive-driven financial and geopolitical objectives. The Iran war's energy market disruption (Strait of Hormuz) creates a feedback loop: elevated oil revenues benefit Gulf SWFs (PIF, Mubadala) even as their regional infrastructure faces kinetic risk, incentivizing continued Gulf capital deployment into US assets (Clear Channel, Stargate, QXO/Affinity) as geopolitical insurance \u2014 a pattern that deepens US-Gulf financial entanglement precisely as US military assets (E-3 Sentry) are being struck in Gulf-proximate theaters.",
+    "developments_analyzed": 19,
+    "convergence_note": "The March 2026 developments across all nodes are converging around three structural stress points operating simultaneously: (1) KINETIC-FINANCIAL COUPLING \u2014 Operation Epic Fury's Day 31+ status with unresolved Strait of Hormuz disruption is directly stressing Oracle/Stargate's bond-financed capital structure through energy market volatility, while Gulf SWF capital (MGX, Mubadala, PIF) continues deploying into US strategic assets (Stargate equity, TikTok USDS JV, Clear Channel) under the military protection umbrella the US is providing \u2014 creating a documented entanglement between US wartime expenditure and Gulf sovereign capital access to US infrastructure that is not publicly acknowledged in any US government document. (2) ACCOUNTABILITY BYPASS CONVERGENCE \u2014 The simultaneous operation of five distinct institutional bypass mechanisms creates a compound oversight deficit: no AUMF for Operation Epic Fury (Iran node), Leahy Law vetting suspension for Netzah Yehuda (Israel node), Board of Peace IOIA immunity (cross_node/Board of Peace), Crime Victims' Rights Act bypass allegations in Epstein releases (epstein_files node), and CFIUS review adequacy questions for Gulf SWF wartime acquisitions (gulf_swf node). Each mechanism is individually documented; their simultaneous operation has not been assessed in any public congressional record. (3) INFORMATION ENVIRONMENT SATURATION \u2014 The concurrent release of 3.5M+ Epstein pages, Day 31 Iran war kinetic updates, Oracle earnings, Gulf SWF transaction announcements, and Board of Peace Gaza developments creates a documented high-volume information environment in which sustained analytical attention to any single accountability gap is structurally impeded. The Epstein file releases' timing concurrent with Operation Epic Fury's peak escalation phase \u2014 while not documented as deliberately coordinated \u2014 is an observable pattern in the public record. The Maxwell clemency debate (H.Res.635, Kahn/Indyke deposition findings about uninvestigated witnesses) intersects with the broader Epstein Network documentation accumulating in the DOJ library without corresponding prosecutorial action at the network level, while American resources fund the document processing, privacy litigation defense, and congressional oversight proceedings simultaneously.",
     "developments": [
       {
-        "node_id": "iran",
-        "headline": "Iran denies US negotiations while IDF launches widespread Tehran strikes and Trump threatens energy infrastructure destruction \u2014 March 30-31, 2026",
-        "the_rhetoric": "President Trump publicly claimed Iran has been engaged in 'direct and indirect' negotiations with the United States since the war began, framing the conflict as progressing toward a diplomatic resolution. Trump simultaneously threatened to 'obliterate' Iran's energy resources \u2014 including Kharg Island oil terminal \u2014 if a ceasefire was not reached 'shortly,' presenting this as leverage in an active negotiating process. The White House and allied media framed Pakistan as an intermediary conveying a 15-point US ceasefire proposal, with Trump claiming Iran had agreed to 'most of' those points.",
-        "the_reality": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei explicitly and publicly denied on March 30, 2026 that Iran had participated in any negotiations with the United States since the war began, directly contradicting Trump's characterization. The IDF separately confirmed launching strikes against 170+ Iranian targets in a 24-hour window including weapons research and production facilities in Tehran. Iranian forces damaged a US Boeing E-3 Sentry aircraft at Prince Sultan Air Base in Saudi Arabia, a direct kinetic strike on a US military asset. Iran's Parliament approved an initial plan to institute tolls in the Strait of Hormuz on March 30 \u2014 an escalatory sovereignty assertion over a critical international waterway. The ISW/USAW March 29, 2026 special report documented continued Iranian ballistic missile and drone activity. Pakistan's role as intermediary has not been confirmed by Pakistani government statements in open-source reporting as of the period covered.",
+        "node_id": "maxwell",
+        "headline": "H.Res.635 opposes Maxwell clemency as BBC survivor interviews and Kahn/Indyke depositions expose investigative gaps",
+        "the_rhetoric": "Representative Raja Krishnamoorthi and House colleagues frame H.Res.635 as a bipartisan accountability measure, stating Maxwell's conviction was 'more than warranted by the facts' and that clemency would be an affront to survivors. BBC Newsnight coverage presents new survivor testimony as evidence of ongoing public interest in accountability. Officials publicly characterize the Epstein investigation as substantially complete.",
+        "the_reality": "H.Res.635 is a non-binding House resolution with no enforcement mechanism. Depositions of Epstein's accountant Richard Kahn and lawyer Darren Indyke \u2014 both of whom had direct knowledge of Epstein's financial structure \u2014 reportedly confirm that government investigators never interviewed these key associates during the original criminal investigation, per NBC News reporting. Business Insider documented that Epstein's safe, which contained diamonds and hard drives, had its evidentiary chain questioned. The DOJ Epstein library, which by March 2026 had exceeded 3.5 million pages, is the primary documentary repository; FBI 302 interview summaries within that library name previously unidentified associates who were never charged. Maxwell's habeas corpus petition remains active in federal court. Her 5th Amendment invocations before House Oversight are on record. No clemency action has been formally filed with DOJ as of the development date.",
         "domestic_cost": {
-          "description": "US military assets directly struck: one Boeing E-3 Sentry Airborne Warning and Control System aircraft damaged at Prince Sultan Air Base, Saudi Arabia. AWACS aircraft carry replacement costs exceeding $270M per unit. Operational deployment costs for carrier strike groups, B-2 bombers, and supporting assets in the theater accumulate at an estimated $40-60M per day for a sustained air campaign of this scale. Strait of Hormuz disruption affects US refiners dependent on Persian Gulf crude imports and LNG exports transiting the chokepoint.",
-          "quantifiable": "Boeing E-3 Sentry replacement/repair cost: $270M+ per airframe. Daily theater operations cost estimate: $40-60M. US defense supplemental appropriations for Operation Epic Fury not publicly itemized as of March 2026. Strait of Hormuz carries approximately 17-20% of global oil trade; partial disruption has contributed to elevated fuel prices affecting US consumer inflation.",
-          "who_pays": "US taxpayers via DoD appropriations and supplemental war funding. US consumers via elevated gasoline and energy prices. US military personnel deployed in theater bear personal risk cost."
+          "description": "Federal investigative resources expended on an inquiry that, per Kahn and Indyke depositions, failed to interview central financial witnesses. Congressional committee time and staff resources allocated to Maxwell-related oversight hearings. DOJ document processing costs for 3.5M+ page Epstein library releases. Victim privacy litigation costs borne by DOJ and the federal court system.",
+          "quantifiable": "No specific dollar figure publicly attributed to the Maxwell-related oversight costs. DOJ Epstein document processing and release operations are ongoing; no public budget line has been disclosed. American Oversight's federal court filing for records on the review process represents additional federal legal defense costs, amount undisclosed.",
+          "who_pays": "Federal taxpayers fund the ongoing DOJ document review, congressional oversight staff, and federal court proceedings. Epstein victims bear reputational and privacy costs from document releases; at least one victim has filed suit against DOJ and Google alleging privacy violations."
         },
-        "institutional_bypass": "Trump's public assertion of ongoing negotiations \u2014 directly contradicted by Iran's Foreign Ministry \u2014 represents a gap between executive branch public communications and documented foreign government statements, bypassing the State Department's traditional role in verifying and communicating negotiating status. No State Department press briefing has confirmed the existence of a formal 15-point document.",
-        "ideological_driver": "Operation Epic Fury is documented as a US-Israel joint military operation with the stated goal of eliminating Iran's nuclear weapons capability and ballistic missile program, following the killing of Supreme Leader Ali Khamenei. The Trump administration has framed this as completing the goal of a 'nuclear-free Iran.'",
+        "institutional_bypass": "The documented failure of federal investigators to interview Kahn and Indyke \u2014 key financial witnesses \u2014 during the original Epstein prosecution represents a gap in standard investigative procedure. H.Res.635 has no legal force to compel clemency denial; the pardon power is constitutionally unreviewable by Congress.",
+        "ideological_driver": "Stated driver is victim justice and prosecutorial accountability. The resolution also functions as a political check on executive clemency discretion during a period when the Epstein network documentation is generating significant political exposure across party lines.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "H.Res.635, 119th Congress (text and sponsor: Rep. Raja Krishnamoorthi)",
+          "NBC News: Epstein accountant Kahn and lawyer Indyke never interviewed by government investigators (rcna265024)",
+          "BBC Newsnight survivor interview series (w3ct7152)",
+          "Business Insider: Epstein safe, diamonds, hard drives evidence chain (March 2026)",
+          "Wikipedia: Ghislaine Maxwell \u2014 habeas corpus petition and 5th Amendment invocation entries",
+          "DOJ Epstein library \u2014 FBI 302 interview summaries, March 2026 batch"
+        ]
+      },
+      {
+        "node_id": "iran",
+        "headline": "Iran formally rejected US 15-point ceasefire proposal March 25; Trump simultaneously threatens energy grid obliteration while Kuwaiti tanker struck off Dubai",
+        "the_rhetoric": "Trump told reporters Iran had agreed to 'most of' the 15 points in the US ceasefire proposal, framing negotiations as progressing and a deal as imminent. Administration officials describe the proposal as a serious diplomatic initiative transmitted through Pakistan, Egypt, Saudi Arabia, and Turkey. Trump's simultaneous threat to 'obliterate' Iran's energy grid is presented publicly as leverage to accelerate agreement, not as contradiction of the diplomatic track.",
+        "the_reality": "Iran's Foreign Ministry spokesperson Esmail Baghaei publicly confirmed receipt of the 15-point proposal but stated Iran had formally rejected it on March 25 \u2014 five days before Trump's 'most of the points' statement \u2014 and had submitted a five-point counter-proposal. Reuters reporting as of March 30 documents Iran cracking down on internal dissent amid fears of economic collapse, indicating domestic instability that complicates negotiating posture. A Kuwaiti oil tanker was struck by a suspected Iranian drone off Dubai port following Trump's energy grid threat, demonstrating Iran's continued capability to conduct maritime interdiction operations. The Strait of Hormuz remains disrupted with ongoing tanker strikes per ISW/ISGA reporting. The Institute for the Study of War's March 29 special report documents the operational status of Iranian retaliatory capacity. CENTCOM has not issued a statement confirming ceasefire progress as of the development date.",
+        "domestic_cost": {
+          "description": "Strait of Hormuz disruption affects approximately 20% of global oil trade. US energy markets exposed to oil price volatility from tanker strikes and Hormuz shipping restrictions. US Navy mine-clearing operations and force protection in the Gulf represent active operational costs. War Powers Act compliance and congressional authorization questions remain unresolved.",
+          "quantifiable": "Global oil price impact from Hormuz disruption: not independently quantified here, but Brent crude volatility is directly attributable to tanker strike events. US operational costs for 20+ weapons systems deployed across 31+ days of Operation Epic Fury are not publicly itemized by DOD as of this date. No formal supplemental appropriations request has been publicly filed with Congress.",
+          "who_pays": "American consumers through elevated fuel prices. US military personnel deployed in the Gulf theater. Federal taxpayers funding ongoing munitions expenditure and force deployment without a publicly disclosed cost accounting. Global oil-importing US industries."
+        },
+        "institutional_bypass": "No formal congressional Authorization for Use of Military Force (AUMF) specific to Operation Epic Fury has been passed. The administration's legal basis for the ongoing Iran campaign under existing AUMF authorities or Article II powers has not been publicly documented in a War Powers Resolution 48-hour notification that has been publicly released. The simultaneous diplomatic and escalatory messaging creates a factual contradiction unresolved in public record.",
+        "ideological_driver": "Stated US goal: elimination of Iranian nuclear weapons capability and end to Iranian proxy network operations. Israeli stated goal: strategic degradation of IRGC and elimination of Supreme Leader-era clerical governance. The ceasefire proposal's 15 points have not been publicly released; content is known only through Iranian Foreign Ministry characterizations.",
         "confidence": "HIGH",
         "sources": [
-          "The Guardian Iran War Live Updates, March 30, 2026",
-          "ABC News Iran Live Updates, March 30, 2026",
-          "Institute for the Study of War / USAW Special Report: Iran Update, March 29, 2026 \u2014 understandingwar.org",
-          "Reuters Middle East desk, March 30-31, 2026",
-          "AP News Iran hub, March 30-31, 2026"
+          "The Guardian: Trump threatens to obliterate Iran's energy grid (March 30, 2026)",
+          "Reuters: Iran cracks down on dissent amid economic collapse fears (March 30, 2026)",
+          "Al Jazeera: Pakistan-led ceasefire efforts and Iran's formal rejection (March 30, 2026)",
+          "Moneycontrol: Iran war live updates including tanker strike off Dubai (March 30, 2026)",
+          "ISW/ISGA: Iran Update Special Report March 29, 2026",
+          "Iran Foreign Ministry: Esmail Baghaei public statement on ceasefire rejection"
         ]
       },
       {
         "node_id": "gulf_swf",
-        "headline": "Saudi PIF announces new five-year strategy pivot toward partnerships as Mubadala executes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war \u2014 March 26-27, 2026",
-        "the_rhetoric": "Saudi PIF Governor Yasir Al-Rumayyan, speaking at the FII Miami conference on March 27, 2026, announced that PIF would release a new five-year strategy 'in the coming few weeks' emphasizing a shift from self-funded investments to broader domestic and international partnerships. This was framed as a proactive, forward-looking strategic evolution \u2014 not a response to war-related stress. UAE's Mubadala presented its CoolIT Systems exit and Clear Channel acquisition as disciplined portfolio management delivering exceptional returns (15x on CoolIT) and strategic media infrastructure positioning.",
-        "the_reality": "Bloomberg reporting from March 26, 2026 documented that PIF is committing to global investments 'despite the Iran war,' indicating the conflict is a recognized material factor in the fund's strategic recalibration. The new five-year strategy has not yet been released as of March 30, 2026 \u2014 the announced timeline is 'coming few weeks,' meaning the actual strategic document is unavailable for analysis. Mubadala's CoolIT Systems stake was sold in a KKR-led $4.75B transaction to Ecolab, generating a reported 15x return. The $6.2B Clear Channel Outdoor acquisition by Mubadala Capital involves a 71% premium, suggesting aggressive pricing. PIF separately completed a $1.78B acquisition increasing its Olam Agri stake to 80% during the same period. These capital deployment patterns \u2014 large exits and new acquisitions occurring simultaneously during active regional conflict \u2014 are consistent with portfolio rebalancing under geopolitical stress, not purely opportunity-driven allocation.",
+        "headline": "Saudi PIF announces new five-year strategy pivot to private partnerships; Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war",
+        "the_rhetoric": "PIF Governor Yasir Al-Rumayyan at FII PRIORITY Miami 2026 presents the forthcoming five-year strategy as a confident, forward-looking recalibration \u2014 emphasizing AI, events, and housing investments, and inviting domestic and international private sector partners. The framing positions PIF as stable and globally committed despite the Iran war. Mubadala transactions are presented as routine portfolio management demonstrating UAE capital sophistication.",
+        "the_reality": "PIF's announcement of a strategy shift 'in the coming few weeks' \u2014 rather than releasing the strategy at FII PRIORITY \u2014 indicates the document is not finalized. Bloomberg reporting confirms PIF is maintaining global investment commitments 'despite Iran war costs,' implicitly acknowledging war-related financial pressure on Saudi state finances. Mubadala's $4.75B exit from CoolIT Systems (AI cooling infrastructure) was completed March 26, realizing gains from the data center build-out cycle. Mubadala's $6.2B acquisition of Clear Channel Outdoor (US outdoor advertising infrastructure) was completed March 27. These transactions involve US media and AI infrastructure assets. Sanabil Investments (PIF subsidiary) holds positions in 40+ US VC/PE firms including a16z and Founders Fund \u2014 no new CFIUS filings publicly documented for these transactions. MGX (UAE sovereign technology fund, chaired by Sheikh Tahnoon bin Zayed Al Nahyan, UAE national security adviser) holds equity in Stargate, TikTok USDS JV LLC (~15%), World Liberty Financial (49% via Aryam Investment 1), and G42 AI chips \u2014 none of these positions are being publicly characterized as Gulf SWF capital deployment in US strategic infrastructure.",
         "domestic_cost": {
-          "description": "Mubadala's $6.2B all-cash acquisition of Clear Channel Outdoor transfers ownership of a major US outdoor advertising infrastructure company \u2014 including thousands of billboards and digital displays across American cities \u2014 to a UAE sovereign wealth fund. Clear Channel operates approximately 450,000 advertising displays in the US. This represents a foreign sovereign entity acquiring significant US public-facing media and advertising infrastructure.",
-          "quantifiable": "$6.2B acquisition price for Clear Channel Outdoor by Mubadala. Clear Channel had approximately $5.6B in debt as of its most recent 10-K filing (SEC EDGAR: CCO). CFIUS review status of the transaction not publicly confirmed as of March 30, 2026.",
-          "who_pays": "US municipalities and advertisers dependent on Clear Channel infrastructure. US bondholders of Clear Channel's existing debt obligations whose recovery position shifts under new sovereign ownership. American communities whose public advertising infrastructure passes to foreign sovereign control."
+          "description": "Mubadala's $6.2B Clear Channel acquisition transfers ownership of significant US outdoor advertising infrastructure (billboards, transit advertising) to a UAE sovereign wealth fund. Mubadala's CoolIT exit monetizes AI cooling infrastructure stakes. MGX's Stargate equity and TikTok USDS JV positions represent UAE sovereign fund ownership of US AI compute infrastructure and a major US social media platform's operational entity. CFIUS review scope and outcomes for these transactions are not publicly disclosed.",
+          "quantifiable": "Clear Channel acquisition: $6.2B. CoolIT exit: $4.75B. MGX Stargate equity: undisclosed stake in $500B planned infrastructure. MGX TikTok USDS JV: ~15% of post-deal entity formed January 22, 2026. Total Gulf SWF capital architecture: approximately $4.9T in assets under management across PIF, Mubadala, ADIA, QIA, and associated entities.",
+          "who_pays": "US outdoor advertising consumers and municipalities with Clear Channel contracts now operate under UAE sovereign fund ownership. US Stargate data center infrastructure carries UAE sovereign equity. American pension funds and retail investors holding Oracle (Stargate partner) equity bear indirect exposure to MGX co-investor dynamics."
         },
-        "institutional_bypass": "CFIUS review of the Mubadala-Clear Channel transaction has not been publicly confirmed. Given Mubadala is a UAE sovereign wealth fund acquiring US media infrastructure, CFIUS jurisdiction is plausible but not documented as triggered in available sources.",
-        "ideological_driver": "PIF's strategic shift toward 'broader domestic and international partnerships' reflects Saudi Vision 2030 diversification doctrine \u2014 reducing petrodollar dependency by deploying capital into global infrastructure, technology, and media assets. The Iran war creates both risk (regional instability) and opportunity (energy price elevation increasing PIF's base revenues).",
+        "institutional_bypass": "CFIUS review processes for Gulf SWF acquisitions of US media and infrastructure assets are not publicly documented for these specific transactions. The TikTok USDS JV LLC structure \u2014 with MGX at ~15% alongside Oracle and Silver Lake \u2014 was subject to CFIUS ongoing compliance monitoring per the January 22, 2026 deal structure, but the adequacy of that monitoring for a UAE national security adviser-chaired fund is not publicly assessed.",
+        "ideological_driver": "Gulf SWF capital deployment into US AI infrastructure, media, and technology during the Iran war period serves dual functions: economic diversification away from hydrocarbon dependence (stated) and securing strategic equity positions in US technology infrastructure during a period of US-Gulf military alliance (documented by transaction timing).",
         "confidence": "MEDIUM",
         "sources": [
-          "Saudi Gazette, March 27, 2026 \u2014 Al-Rumayyan FII Miami remarks",
-          "AGBI, March 2026 \u2014 PIF five-year strategy announcement",
-          "Bloomberg, March 26, 2026 \u2014 Saudi Wealth Fund commits to global investments despite Iran war",
-          "Zawya, March 2026 \u2014 Mubadala CoolIT stake sale in KKR-led $4.75B transaction",
-          "USA Herald, March 2026 \u2014 Mubadala Capital Clear Channel $6.2B deal",
-          "SEC EDGAR: Clear Channel Outdoor Holdings 10-K (most recent available)"
+          "Bloomberg: Saudi PIF commits to global investments despite Iran war (March 26, 2026)",
+          "AGBI: PIF to release new strategy focused on private sector in weeks (March 2026)",
+          "Saudi Gazette: PIF FII PRIORITY Miami coverage (article 660028)",
+          "USA Herald: Mubadala Capital to acquire Clear Channel in $6.2B deal",
+          "Gulf News: Mubadala exits AI cooling firm in $4.75B deal (March 2026)",
+          "CFIUS Annual Report (most recent available): Gulf SWF transaction review methodology"
         ]
       },
       {
         "node_id": "israel",
-        "headline": "Israel expands Lebanon ground invasion to wider buffer zone, strikes 170+ Iranian targets in 24 hours, and suspends Netzah Yehuda battalion for CNN crew assault \u2014 March 29-30, 2026",
-        "the_rhetoric": "Israeli government officials and the IDF framed the expanded Lebanon operations as a necessary defensive measure to counter ongoing Hezbollah rocket attacks on northern Israel, describing the wider buffer zone as essential for civilian protection. The 170+ strikes on Iranian targets were presented as precision operations against weapons research, production facilities, and ballistic missile infrastructure \u2014 framed as degrading Iran's offensive capability in support of Operation Epic Fury objectives. The Netzah Yehuda battalion suspension was presented by IDF as evidence of institutional accountability and rule-of-law enforcement within the military.",
-        "the_reality": "Reuters confirmed on March 29, 2026 that Netanyahu personally ordered the expansion of the southern Lebanon security buffer zone beyond previously established boundaries. The IDF confirmed striking 170+ Iranian regime targets in a 24-hour period including weapons research and production facilities in Tehran. CNN reporting from March 29, 2026 confirmed the IDF suspended the entire Netzah Yehuda battalion \u2014 a unit with a documented history of disciplinary incidents in the West Bank \u2014 following a physical assault on a CNN camera crew. The suspension is a unit-level administrative action, not a criminal prosecution. Al Jazeera documented Day 31 of the conflict on March 30, including civilian casualty reporting from Iranian and Lebanese sources that has not been independently verified by Western outlets. The Lebanon expansion occurs simultaneously with active US-funded and US-armed Israeli operations against Iran, meaning US-origin weapons systems are being deployed in an expanding multi-front conflict.",
+        "headline": "Israel expands Lebanon ground operations and strikes Iranian infrastructure March 29-30; IDF suspends Netzah Yehuda battalion after CNN crew assault",
+        "the_rhetoric": "Netanyahu publicly orders expansion of security buffer zones in southern Lebanon as a necessary defensive measure against Hezbollah rocket capability. Israeli government and US officials frame the multi-front campaign \u2014 Lebanon ground operations plus Iran airstrikes \u2014 as a unified strategic operation under Operation Epic Fury. The IDF's suspension of the Netzah Yehuda reserve battalion following the CNN crew assault is characterized as prompt accountability and adherence to IDF conduct standards.",
+        "the_reality": "CENTCOM confirmed 20+ distinct weapons systems deployed across the Iran campaign, with US forces using long-range strike weapons targeting central and southern Iran and Israel focusing on northern Iran using US-made advanced aircraft. Reuters confirmed Netanyahu ordered wider buffer zones in southern Lebanon on March 29. The specific claim of 170+ strikes concentrated solely on Tehran is not confirmed by CENTCOM statements or verified military reporting; Al Jazeera's Day 31 coverage describes a broader campaign geography. The IDF's suspension of the Netzah Yehuda reserve battalion \u2014 a unit with a prior documented history of West Bank conduct violations \u2014 occurred after the unit assaulted a CNN crew in the West Bank, not in the Iran theater. The suspension is a reserve battalion administrative action, not a criminal prosecution. Netzah Yehuda had previously been the subject of a Biden-era Leahy Law review by the State Department, which was suspended before completion by the incoming administration.",
         "domestic_cost": {
-          "description": "US Foreign Military Sales (FMS) and military assistance to Israel \u2014 including precision-guided munitions, aircraft, and intelligence sharing \u2014 are being consumed in a multi-front conflict encompassing Iran strikes, Lebanon ground operations, and West Bank activities. US diplomatic resources are being expended defending Israeli actions in UN Security Council proceedings. The Netzah Yehuda battalion had previously been subject to potential US Leahy Law vetting actions; the assault on a US-based news organization's crew creates direct legal exposure for continued US assistance to that unit.",
-          "quantifiable": "The Biden administration approved approximately $14.5B in emergency military assistance to Israel in FY2024; Trump administration assistance levels for FY2025-2026 have not been fully itemized in public DSCA notifications as of March 2026. Leahy Law vetting obligations for units like Netzah Yehuda represent a legal constraint on US assistance that has not been publicly enforced. DSCA notifications for specific munitions transfers to Israel during Operation Epic Fury are not fully itemized in open sources.",
-          "who_pays": "US taxpayers via FMS financing and direct military assistance appropriations. US diplomatic credibility is expended at international institutions defending expanded Israeli operations. American journalists (CNN crew) sustained direct physical harm from a US-funded military unit."
+          "description": "US long-range strike munitions expenditure across 31+ days of Operation Epic Fury represents drawdown of pre-positioned US weapons stockpiles in the region. DSCA notifications for Israel arms transfers are the documentary record of weapons flows. The Leahy Law review suspension for Netzah Yehuda means US security assistance to IDF units with documented human rights violation records proceeds without the statutory vetting mechanism Congress established.",
+          "quantifiable": "Specific munitions cost per sortie not publicly disclosed by DOD. Prior DSCA notifications to Israel in FY2025-2026 for precision munitions, air-to-ground weapons, and missile defense interceptors total billions in approved transfer value \u2014 specific figures require current DSCA notification registry review. The Leahy Law vetting process suspension: zero additional cost, but eliminates a statutory oversight requirement.",
+          "who_pays": "US taxpayers fund the munitions stockpile drawdown and operational logistics. US military personnel in CENTCOM AOR bear operational risk. Leahy Law vetting suspension means US taxpayers fund security assistance to IDF units without the human rights compliance review Congress mandated."
         },
-        "institutional_bypass": "The Leahy Law (22 U.S.C. \u00a7 2378d) prohibits US military assistance to foreign security force units credibly implicated in gross violations of human rights. The Netzah Yehuda battalion's assault on a CNN crew \u2014 and its documented history \u2014 creates a legal trigger for Leahy vetting. No public State Department or DoD statement confirming Leahy review initiation for this unit has been identified in open sources as of March 30, 2026.",
-        "ideological_driver": "Israeli government doctrine frames the Lebanon buffer zone expansion and Iran strikes as existential security imperatives following decades of Hezbollah rocket threat. Netanyahu's government coalition partners have explicitly stated maximalist land-retention goals in Lebanon and West Bank that go beyond stated security objectives.",
-        "confidence": "HIGH",
+        "institutional_bypass": "The Biden-era Leahy Law (22 U.S.C. \u00a7 2378d) State Department review of Netzah Yehuda was suspended before completion by the current administration. Leahy Law requires the Secretary of State to vet foreign military units receiving US assistance for credible evidence of gross human rights violations. The suspension of that review prior to completion, combined with continued US security assistance to IDF, bypasses the statutory vetting requirement.",
+        "ideological_driver": "Stated Israeli strategic goal: permanent degradation of Iranian military and nuclear infrastructure, elimination of Hezbollah threat depth in Lebanon, and establishment of permanent security buffer zones. Netanyahu government's domestic political coalition includes parties that have publicly supported expanded West Bank operations, which provides context for Netzah Yehuda's continued operational status.",
+        "confidence": "MEDIUM",
         "sources": [
-          "Reuters, March 29, 2026 \u2014 Netanyahu orders expansion of Lebanon security buffer zone",
-          "CNN, March 29, 2026 \u2014 IDF suspends battalion for assaulting CNN crew in West Bank",
-          "CNN, March 30, 2026 \u2014 Iran war live updates",
-          "Al Jazeera, March 30, 2026 \u2014 US-Israel war on Iran Day 31",
-          "22 U.S.C. \u00a7 2378d (Leahy Law) \u2014 statutory text"
+          "CNN: Iran war live coverage March 30, 2026",
+          "New York Times: Iran war live updates March 29, 2026",
+          "Al Jazeera: US-Israel war on Iran, Day 31 recap (March 30, 2026)",
+          "Reuters: Netanyahu orders expansion of security buffer zone in southern Lebanon (March 29, 2026)",
+          "CNN: IDF suspends battalion for assaulting CNN crew in West Bank (March 29, 2026)",
+          "CENTCOM public statements on weapons systems deployment",
+          "State Department: Leahy Law vetting records (most recent public disclosure)"
         ]
       },
       {
         "node_id": "oracle_ellison",
-        "headline": "Oracle Q3 FY2026 reports 22% revenue growth to $17.2B with 84% OCI surge and $553B RPO backlog, but stock down 24.6% over three months amid revenue conversion concerns and capital structure stress",
-        "the_rhetoric": "Oracle executives and sell-side analysts highlighted Q3 FY2026 results as validation of Oracle's AI infrastructure transformation thesis: 22% total revenue growth, 84% Oracle Cloud Infrastructure growth, and a record $553 billion Remaining Performance Obligations backlog. Bank of America issued price targets in the $200-262 range, suggesting 29%+ upside from the $138-141 trading range as of March 30, 2026. The Stargate partnership and data center construction pipeline were cited as long-term demand drivers justifying optimism despite near-term stock weakness.",
-        "the_reality": "Oracle's 10-Q for Q3 FY2026 (filed with SEC EDGAR, ticker: ORCL) confirms the $17.2B revenue figure and 84% OCI growth. The $553B RPO figure represents contracted future revenue, not recognized revenue \u2014 the gap between backlog and actual revenue conversion is the documented source of analyst concern causing price target cuts. Oracle's balance sheet carries $100B+ in existing long-term debt as of prior filings, with an additional $45-50B capital raise executed in early 2026 to fund Stargate and data center expansion. The Ohio Carpenters Pension bondholder lawsuit against Oracle remains active in court dockets, representing a legal challenge to Oracle's capital deployment decisions by institutional bondholders. Larry Ellison's approximately $40.4B personal guarantee for son David Ellison's Warner Bros. Discovery acquisition creates dual personal financial exposure alongside Oracle's corporate leverage. The 24.6% stock decline over three months \u2014 occurring simultaneously with strong reported earnings \u2014 reflects market skepticism about capital structure sustainability and revenue conversion timeline, not just near-term operational performance.",
+        "headline": "Oracle Q3 FY2026 revenue rises 22% to $17.2B with record $553B backlog; stock down ~25% YTD as analysts cite revenue conversion concerns",
+        "the_rhetoric": "Oracle and its investor relations materials highlight record Q3 FY2026 revenue of $17.2 billion (first 20%+ growth in 15+ years), 84% OCI cloud growth, 200% AI infrastructure expansion, and $553 billion in Remaining Performance Obligations as evidence of transformational momentum. Stargate partnership with OpenAI is cited as validation of Oracle's AI infrastructure position. Analyst commentary at the high end of price target ranges (up to $262-$400 in some forecasts) is amplified in financial media.",
+        "the_reality": "Per SEC EDGAR filings (Oracle 10-Q for Q3 FY2026), Oracle's $553B RPO represents contracted but not yet recognized revenue \u2014 its conversion to reported revenue depends on customer drawdown timing, which analysts have flagged as a concern. Oracle's balance sheet carries $100B+ in existing long-term debt. The $45-50B new capital raise in early 2026 for Stargate infrastructure financing adds to this debt load. The stock traded in the $138-$141 range as of late March 2026, representing approximately 25% YTD decline despite earnings beats. Bank of America's price target, while above the trading price, does not represent the 30%+ upside figure cited in some financial media coverage given the trading range. The Ohio Carpenters Pension bondholder lawsuit documents creditor concern about Oracle's capital structure under Stargate commitments. Larry Ellison's approximately $40.4B personal guarantee for son David Ellison's Warner Bros. Discovery acquisition represents a contingent personal liability that is not reflected in Oracle's corporate balance sheet but creates concentration risk for the Ellison family's net worth, which is the primary collateral for major personal financial commitments.",
         "domestic_cost": {
-          "description": "Oracle's $45-50B new capital raise in early 2026 was absorbed by US credit markets, increasing systemic leverage in the enterprise tech sector. The Ohio Carpenters Pension bondholder lawsuit represents US pension fund exposure to Oracle's capital deployment decisions \u2014 pensioners' retirement security is directly tied to Oracle's ability to service its debt obligations. Stargate Texas data center construction, funded in part by this debt, consumes substantial US electrical grid capacity, water resources, and construction labor.",
-          "quantifiable": "Oracle long-term debt: $100B+ pre-2026 raise, plus $45-50B new raise = approximately $145-150B total debt exposure. Ohio Carpenters Pension lawsuit: active on PACER, specific dollar claim not confirmed in available sources. Stargate Abilene, Texas facility: initial planned investment of $10B+ for first phase. Larry Ellison personal WBD guarantee: ~$40.4B.",
-          "who_pays": "Ohio Carpenters Pension beneficiaries bear bondholder risk. US retail and institutional investors holding ORCL equity bear stock price decline. Texas utility ratepayers and grid operators bear infrastructure stress from data center power demand. US credit markets absorb Oracle's debt issuance, crowding out competing borrowers."
+          "description": "Oracle's $100B+ existing debt plus $45-50B new 2026 capital raise is funded through US bond markets, crowding capital from other issuers. The Ohio Carpenters Pension Fund bondholder lawsuit represents direct exposure of US pension beneficiaries to Oracle's capital structure decisions. Stargate's Texas data center construction (Abilene) deploys capital in US infrastructure but is primarily financed through debt, not equity, shifting financial risk to bondholders. Energy demand from Oracle's data center buildout stresses regional power grids.",
+          "quantifiable": "Oracle total debt: $100B+ (pre-2026 raise). New 2026 capital raise: $45-50B. Ohio Carpenters Pension bondholder lawsuit: damages amount not publicly specified. Larry Ellison WBD personal guarantee: approximately $40.4B. Stock YTD decline: approximately 25%, representing significant market cap erosion for US retail and institutional investors holding ORCL.",
+          "who_pays": "US pension funds holding Oracle bonds (including Ohio Carpenters Pension). Retail investors in ORCL equity experiencing 25% YTD losses. US bond market participants absorbing Oracle's debt issuance. Texas utility ratepayers and grid operators managing data center energy demand."
         },
-        "institutional_bypass": "The SEC EDGAR filing system provides the primary documentary record. The Ohio Carpenters Pension bondholder lawsuit raises questions about whether Oracle's capital raise and deployment decisions adequately disclosed material risks to existing bondholders under SEC Rule 10b-5 and bond indenture obligations. No SEC enforcement action has been publicly initiated as of March 2026.",
-        "ideological_driver": "Oracle and Larry Ellison have publicly embraced the AI infrastructure buildout as a national security and economic competitiveness imperative, aligning Oracle's commercial interests with the Stargate initiative's stated goal of maintaining US AI leadership against Chinese competition.",
+        "institutional_bypass": "null",
+        "ideological_driver": "Stargate is framed as a US national AI sovereignty initiative \u2014 the argument that US AI infrastructure must be domestically owned and operated, with Oracle, OpenAI, and SoftBank as the designated instruments, is the stated rationale for the scale of capital deployment. This framing has been used to justify expedited permitting and federal land access for data center construction.",
         "confidence": "HIGH",
         "sources": [
-          "SEC EDGAR: Oracle Corporation (ORCL) 10-Q, Q3 FY2026",
-          "Barchart, March 2026 \u2014 Oracle RPO analysis",
-          "247WallSt, March 24, 2026 \u2014 Bank of America price target analysis",
-          "TIKR, March 2026 \u2014 Oracle stock three-month decline analysis",
-          "Markets Financial Content / Finterra, March 26, 2026 \u2014 Oracle legal and financial headwinds",
-          "PACER: Ohio Carpenters Pension bondholder lawsuit vs. Oracle"
+          "Oracle 10-Q Q3 FY2026 (SEC EDGAR: ORCL)",
+          "Insider Monkey: Oracle price target lowered on revenue conversion concerns",
+          "Barchart: Oracle $553B backlog analysis",
+          "Invezz: Oracle stock down 25% in 2026, BofA sees upside (March 25, 2026)",
+          "MarketBeat: ORCL analyst forecast aggregation",
+          "Ohio Carpenters Pension Fund v. Oracle Corporation \u2014 bondholder lawsuit (PACER docket)",
+          "Oracle Q3 FY2026 earnings call transcript"
         ]
       },
       {
         "node_id": "epstein_files",
-        "headline": "DOJ releases 3.5M Epstein pages on January 30, 2026; House Oversight subpoenas AG Bondi; Epstein victims sue DOJ and Google over privacy violations \u2014 March 2026",
-        "the_rhetoric": "The DOJ publicly claimed full compliance with the Epstein Files Transparency Act, characterizing the January 30, 2026 release of approximately 3.5 million pages as a complete fulfillment of its legal disclosure obligations. AG Pam Bondi and the Trump administration framed the release as an unprecedented act of transparency \u2014 making the Epstein investigation's documentation available to the public for the first time at scale. The DOJ Epstein Library was presented as a comprehensive public resource.",
-        "the_reality": "House Oversight Committee members including Thomas Massie and Ro Khanna have disputed the completeness of the DOJ release, noting that the department's own internal review identified approximately 6 million potentially responsive pages \u2014 meaning up to 2.5 million pages may remain unreleased. American Oversight filed for a federal court hearing on records integral to Bondi's congressional Epstein deposition, indicating active litigation over document completeness. Epstein victims filed lawsuits against both the Trump administration (DOJ) and Google in March 2026, alleging that the mass document release exposed victims' personal identifying information in violation of privacy protections \u2014 characterizing the DOJ's approach as 'release now, retract later.' The releases include never-before-seen files pertaining to President Trump, new details about prison officials' conduct on the night of Epstein's death, and FBI 302 interview summaries naming previously undisclosed associates. Prince Andrew is documented in released materials. Kash Patel's role in the document release process, as FBI Director, has not been fully publicly documented in terms of what review occurred prior to release.",
+        "headline": "DOJ releases additional Epstein documents March 30 including prison guard activity and 'orange figure' video analysis; Bondi faces April 14 deposition; victim sues DOJ and Google over privacy violations",
+        "the_rhetoric": "AG Pam Bondi and DOJ public affairs characterize the Epstein document releases as an unprecedented transparency effort fulfilling the administration's commitment to full disclosure. Trump administration officials frame the releases as evidence of accountability for a prior-era cover-up. The April 14 Congressional deposition of Bondi is characterized by some officials as a routine oversight process.",
+        "the_reality": "The March 30, 2026 document release included previously undisclosed prison surveillance details: guard activity logs and video analysis identifying an 'orange figure' moving toward Epstein's housing tier at 10:39 PM the night of his death at Metropolitan Correctional Center. These records were not previously part of the public evidentiary record. American Oversight has filed in federal court seeking records on the DOJ's internal review process governing the releases \u2014 the subject of the American Oversight litigation is whether the release process itself complied with statutory requirements, including victim notification under the Crime Victims' Rights Act (18 U.S.C. \u00a7 3771). At least one Epstein victim has sued the Trump DOJ and Google, alleging that the 'release now, retract later' methodology exposed victim-identifying information in violation of privacy protections. The DOJ Epstein library has now exceeded 3.5 million pages across multiple 2026 release batches. Kash Patel (FBI Director) and Thomas Massie (House Oversight) are among the principal congressional and executive actors driving the release timeline. No specific named resignations or arrests have been confirmed as directly resulting from the releases as of the development date.",
         "domestic_cost": {
-          "description": "Epstein victims \u2014 US citizens and non-citizens who were subjected to sexual trafficking \u2014 have had their personal identifying information exposed in the mass document release without adequate redaction review, according to their filed lawsuits. This constitutes a direct government-caused privacy harm to crime victims. Congressional resources are being consumed in subpoena enforcement litigation against AG Bondi. DOJ attorney time and resources are being diverted to respond to American Oversight FOIA litigation and victim privacy lawsuits simultaneously.",
-          "quantifiable": "3.5 million pages released as of January 30, 2026, against an estimated 6 million responsive pages \u2014 gap of approximately 2.5 million pages. Victim lawsuit damages not yet quantified in available filings. American Oversight federal court hearing costs ongoing. Congressional subpoena enforcement costs ongoing.",
-          "who_pays": "Epstein victims bear the cost of re-exposure and privacy violation. US taxpayers fund DOJ litigation defense against victim privacy lawsuits. Congressional oversight resources are consumed in subpoena enforcement rather than other legislative functions."
+          "description": "Federal court resources consumed by American Oversight litigation over the DOJ review process. DOJ staff resources allocated to document processing, redaction review, and release logistics for 3.5M+ pages. Crime Victims' Rights Act violation exposure creates federal liability from victims' privacy lawsuits. Google faces litigation costs from victim suits over search indexing of improperly released identifying information.",
+          "quantifiable": "DOJ document processing costs for 3.5M+ pages: not publicly disclosed. American Oversight federal court filing: no disclosed monetary demand against DOJ, but requires federal legal defense resources. Victim privacy lawsuit damages: not yet adjudicated. No specific dollar figure for the aggregate federal cost of Epstein file administration is publicly available.",
+          "who_pays": "Federal taxpayers fund DOJ document processing and federal legal defense against American Oversight and victim privacy lawsuits. Epstein victims bear reputational and safety costs from exposure of identifying information. Google shareholders bear litigation cost exposure."
         },
-        "institutional_bypass": "The Privacy Act of 1974 and Crime Victims' Rights Act (18 U.S.C. \u00a7 3771) provide statutory privacy protections for crime victims in federal proceedings. Victims' lawsuits against DOJ allege these protections were bypassed in the mass document release. The 'release now, retract later' characterization in victim filings, if sustained, would indicate DOJ failed to conduct mandatory pre-release privacy review required under the Privacy Act.",
-        "ideological_driver": "The Epstein Files Transparency Act and the Trump administration's framing of the releases as 'draining the swamp' serve a dual purpose: genuine transparency advocacy coexists with political utility \u2014 released documents naming figures associated with Democratic administrations, foreign governments, and media institutions simultaneously function as political leverage. The simultaneous Iran war provides a competing news cycle that limits sustained media focus on specific named individuals in the releases.",
-        "confidence": "HIGH",
+        "institutional_bypass": "The 'release now, retract later' methodology alleged in the victim privacy lawsuit, if documented, would represent a bypass of the Crime Victims' Rights Act (18 U.S.C. \u00a7 3771) requirement for reasonable notice to and consideration of victims before public disclosure of case-related documents. American Oversight's federal court filing seeks records on whether the internal DOJ review process was followed.",
+        "ideological_driver": "Stated driver: transparency and accountability for the Epstein network and prior investigative failures. The release timeline \u2014 concurrent with Operation Epic Fury and the Iran war \u2014 has generated significant public attention displacement; whether the timing is coincidental or deliberate is not documented in available public records.",
+        "confidence": "MEDIUM",
         "sources": [
-          "DOJ Epstein Library \u2014 justice.gov/epstein/doj-disclosures",
-          "American Oversight federal court filing, March 2026 \u2014 americanoversight.org",
-          "Politico, March 27, 2026 \u2014 Epstein victim DOJ/Google lawsuit",
-          "CNN Politics \u2014 Epstein Files coverage",
-          "CBS News \u2014 Epstein Files tag",
-          "18 U.S.C. \u00a7 3771 (Crime Victims' Rights Act)",
-          "Privacy Act of 1974, 5 U.S.C. \u00a7 552a"
+          "CNN: Epstein files \u2014 prison officials the night he died (March 26, 2026)",
+          "Vanity Fair: Jeffrey Epstein death documentation (March 2026)",
+          "American Oversight: Federal court filing for records on Bondi's Congressional Epstein deposition",
+          "Politico: Epstein victim sues DOJ and Google (March 27, 2026)",
+          "Radar Online: Epstein files hacker threat \u2014 unredacted records",
+          "DOJ Epstein library: March 30, 2026 release batch",
+          "18 U.S.C. \u00a7 3771 (Crime Victims' Rights Act) \u2014 statutory text"
         ]
       },
       {
         "node_id": "arkansas_datacenter",
-        "headline": "Entergy announces $7B total customer savings from data center agreements including Google Arkansas solar build and Meta Louisiana deal \u2014 March 25-28, 2026",
-        "the_rhetoric": "Entergy announced $5B in customer savings from data center agreements on March 25, 2026, specifically highlighting Google's support for construction of a new 600-megawatt solar and 350-megawatt battery storage facility serving Arkansas customers. Three days later, Entergy Louisiana announced an additional $2B in customer savings from a new Meta agreement creating thousands of construction jobs from 2026-2031. The combined $7B 'customer savings' framing positioned the data center buildout as a direct financial benefit to ratepayers. Microsoft's takeover of an OpenAI Texas data center project (10 buildings, 2.1 gigawatts capacity) was presented as further evidence of broad-based AI infrastructure investment.",
-        "the_reality": "Entergy's 'customer savings' claims are derived from data center load agreements that allow Entergy to spread fixed infrastructure costs across a larger customer base \u2014 the savings calculation methodology is set by Entergy's own modeling, not independent rate-setting analysis. The Arkansas regulatory context (Acts 373 and 548, which restructured utility rate-setting authority) means that the Arkansas Public Service Commission's ability to independently verify or challenge Entergy's savings claims has been legislatively constrained. The Google 600MW solar / 350MW battery project serves both data center demand and grid supply \u2014 the allocation of costs and benefits between data center customers (large commercial) and residential ratepayers is governed by rate design decisions that have not been publicly resolved in PSC filings as of March 2026. Microsoft's 2.1-gigawatt Texas data center expansion and the broader 10-building project represent a demand load that will require substantial new Texas ERCOT grid generation capacity, the costs of which are borne by Texas ratepayers through transmission and distribution charges. The 'customer savings' framing does not address water consumption (data center cooling), land use, or long-term grid reliability implications.",
+        "headline": "Microsoft takes over OpenAI's Texas data center construction bringing Abilene to 2.1GW; Entergy Louisiana announces $2B Meta customer savings deal March 27-28",
+        "the_rhetoric": "Microsoft and Entergy Louisiana present these developments as win-win infrastructure investments: job creation, AI advancement, and customer savings. Entergy's announcement specifically quantifies '$2B in customer savings' from the Meta Louisiana agreement, framing the deal as a public benefit. Microsoft's Abilene expansion is characterized as national AI infrastructure investment creating American jobs and computing capacity.",
+        "the_reality": "Microsoft's takeover of the Texas data center construction project that OpenAI declined to pursue brings Microsoft's Abilene, Texas facilities to 10 buildings and 2.1 gigawatts of computing capacity. This represents a significant consolidation of AI compute infrastructure under a single corporate entity in one geographic location. Entergy Louisiana's '$2B customer savings' figure from the Meta agreement requires examination: Louisiana Public Service Commission filings would document whether this figure represents avoided rate increases, direct rate reductions, or amortized infrastructure cost sharing \u2014 the mechanism by which savings are delivered to customers versus shareholders is not specified in the press release. The broader data center construction market shows record activity per ConstructConnect's March 2026 report. The US Army's conditional agreement with private industry for hyperscaled data centers (army.mil/article/291360) represents federal real property being made available for private AI infrastructure, with terms not fully disclosed. New York Times reporting from March 26 documents local community opposition to data center construction projects nationally, citing concerns about water consumption, noise, and utility rate impacts that are not captured in industry press releases.",
         "domestic_cost": {
-          "description": "Arkansas and Louisiana residential and small commercial ratepayers bear infrastructure investment costs that are allocated through utility rate structures shaped by Acts 373 and 548. The 'customer savings' claims are net of what Entergy projects data center load contributions will offset \u2014 but if data center companies renegotiate or exit agreements, stranded cost risk falls on existing ratepayers. Texas ERCOT grid ratepayers face increased transmission costs from 2.1GW Microsoft data center expansion. Water utilities near data center sites face consumption pressure from cooling requirements.",
-          "quantifiable": "$7B in claimed customer savings (Entergy's own calculation). Google facility: 600MW solar generation + 350MW battery storage. Microsoft Texas expansion: 2.1 gigawatts across 10 buildings. Acts 373 and 548 (Arkansas) restructured rate authority \u2014 specific dollar impact on residential rates not publicly quantified in available PSC filings. Prior analysis of the Arkansas datacenter node documented $17B+ in total datacenter capital deployment in the state.",
-          "who_pays": "Arkansas and Louisiana residential ratepayers bear stranded cost risk and rate structure changes. Texas ERCOT ratepayers bear transmission expansion costs. Local water utilities and municipalities bear water consumption impacts. Arkansas voters whose ballot initiative authority was preempted (Good Day Farm ruling precedent) lack direct democratic recourse on utility rate decisions."
+          "description": "Concentration of 2.1GW of AI compute in Abilene, Texas under Microsoft ownership creates single-point infrastructure dependency. Entergy Louisiana ratepayers' 'savings' are contingent on regulatory approval and deal structure terms not fully disclosed in the press release. US Army hyperscaled data center agreements involve federal real property disposition. Water and power demand from record data center construction is borne by local utility systems and municipal water infrastructure.",
+          "quantifiable": "Microsoft Abilene: 2.1 gigawatts capacity across 10 buildings \u2014 power demand at this scale represents a material fraction of ERCOT's total grid capacity. Entergy Louisiana Meta deal: $2B claimed customer savings over 2026-2031 (approximately $333M/year average) \u2014 mechanism and verification not publicly specified in press release. US Army data center agreement: land and infrastructure value undisclosed.",
+          "who_pays": "Louisiana electricity ratepayers (net savings claimed but mechanism unverified by independent regulator). Texas ERCOT grid users who bear reliability risk from concentrated 2.1GW demand. Local Texas and Louisiana communities bearing water, noise, and infrastructure externalities. Federal taxpayers whose Army base real property is being deployed for private AI infrastructure."
         },
-        "institutional_bypass": "Arkansas Acts 373 and 548 restructured the Arkansas Public Service Commission's rate-setting authority in ways that limit independent ratepayer advocacy. The Good Day Farm ballot initiative preemption ruling established a precedent for limiting direct democracy on utility and land-use questions in Arkansas. These state-level legal changes create a regulatory environment where data center operators can negotiate infrastructure terms with reduced independent oversight.",
-        "ideological_driver": "The data center buildout is driven by the AI infrastructure investment thesis \u2014 the national security and economic competitiveness framing of Stargate and related initiatives. Utility companies benefit from large industrial load customers that improve their rate base. State governments compete for data center investment through regulatory and tax incentives, creating a race-to-the-bottom dynamic on ratepayer and environmental protections.",
+        "institutional_bypass": "The Arkansas datacenter node's documented template of utility rate capture (Acts 373/548) and ballot initiative preemption (Good Day Farm ruling) provides relevant context for how state-level legal frameworks are being structured to facilitate data center capital deployment with reduced public oversight. The Louisiana and Texas developments follow a similar pattern: large tech companies negotiating directly with utilities for favorable rate structures that are then presented to regulators as fait accompli, bypassing standard rate-setting proceedings.",
+        "ideological_driver": "National AI infrastructure sovereignty \u2014 the argument that US AI compute must be domestically scaled rapidly to compete with China \u2014 is the stated justification for expedited regulatory approvals, Army land access, and utility rate structures that prioritize data center deployment over traditional ratepayer protection frameworks.",
         "confidence": "MEDIUM",
         "sources": [
-          "Entergy press release, March 25, 2026 \u2014 $5B customer savings announcement (entergy.com)",
-          "Entergy Louisiana press release, March 28, 2026 \u2014 Meta $2B customer savings agreement (entergy.com)",
-          "NWA Online, March 28, 2026 \u2014 Microsoft Texas data center takeover from OpenAI",
-          "Arkansas Acts 373 and 548 \u2014 Arkansas legislative session records",
-          "Good Day Farm v. Arkansas \u2014 state court ruling on ballot initiative preemption",
-          "Arkansas Public Service Commission docket records (state PSC filing system)"
+          "NWA Online: Microsoft to take over data center construction (March 28, 2026)",
+          "Entergy Louisiana: Press release \u2014 Meta agreement delivering $2B customer savings (March 27, 2026)",
+          "ConstructConnect: March 2026 data center report",
+          "New York Times: AI data centers \u2014 construction and local opposition (March 26, 2026)",
+          "US Army: Conditional agreement with private industry for hyperscaled data centers (army.mil/article/291360)",
+          "Louisiana Public Service Commission: Entergy Louisiana rate filings (most recent docket relevant to Meta agreement)"
         ]
       },
       {
         "node_id": "cross_node",
-        "headline": "Iran agrees to 'most of' 15-point US ceasefire demands while simultaneously approving Strait of Hormuz toll plan and attacking Kuwaiti tanker at Dubai port \u2014 March 30, 2026",
-        "the_rhetoric": "President Trump announced on March 30, 2026 that Iran had agreed to 'most of' a 15-point ceasefire plan conveyed via Pakistan as intermediary, framing this as diplomatic progress toward ending the conflict. Trump simultaneously stated Iran had agreed to allow 20 cargo ships to transport oil through the Strait of Hormuz, presenting this as a de-escalation signal. Fox News coverage of the 20-ship announcement reinforced the de-escalation narrative.",
-        "the_reality": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei denied any negotiation participation since the war began (documented above, Development 0). Iran's Parliament approved an initial plan to institute tolls in the Strait of Hormuz on March 30 \u2014 an escalatory sovereignty assertion, not a de-escalation measure. Kuwait Petroleum Corporation reported on March 30 that Iranian forces directly targeted the Al Salmi crude oil tanker while anchored at Dubai port in the UAE, causing fire and potential oil spill \u2014 a direct kinetic attack on commercial maritime infrastructure in UAE territorial waters. These three simultaneous actions \u2014 claimed ceasefire progress, toll imposition, and tanker attack \u2014 are internally contradictory as a coherent de-escalation posture. The 20-ship passage announcement, sourced primarily from Fox News citing Trump, lacks corroboration from Iranian or third-party maritime sources in available documentation.",
+        "headline": "Iran war Day 31: 2,000+ killed; Trump claims Iran agreed to 'most of' ceasefire proposal Iran had formally rejected March 25",
+        "the_rhetoric": "Trump told reporters Iran had agreed to 'most of' the 15 points in the US ceasefire proposal, projecting diplomatic progress and imminent resolution. Administration officials describe the proposal as actively under negotiation through Gulf state intermediaries. The framing suggests a deal is close.",
+        "the_reality": "Iran's Foreign Ministry formally rejected the 15-point proposal on March 25 \u2014 five days before Trump's statement \u2014 and characterized Trump as 'deceitful.' Iran submitted a five-point counter-proposal and is seeking Russian and Chinese involvement in any new framework as a multilateral guarantee. Per ISW's March 29 special report, over 2,000 people have been killed since hostilities began February 28, 2026. The Strait of Hormuz remains disrupted. The gap between Trump's 'most of the points' characterization and Iran's formal rejection on the record is a direct factual contradiction documented in primary sources.",
         "domestic_cost": {
-          "description": "Strait of Hormuz toll imposition, if enforced, would add direct costs to US energy imports and LNG exports transiting the chokepoint. The Al Salmi tanker attack at Dubai port demonstrates Iranian willingness to strike commercial infrastructure in UAE \u2014 a major hub for US military logistics and Gulf SWF capital. US naval assets conducting mine-clearing and freedom-of-navigation operations in the Strait incur direct operational costs.",
-          "quantifiable": "Approximately 17-20% of global oil trade transits the Strait of Hormuz. Toll imposition cost not yet quantified \u2014 no toll rate has been published in available sources. Al Salmi tanker attack: fire damage and potential oil spill costs to Kuwait Petroleum Corporation (Kuwaiti state entity); US re-insurance market exposure to Gulf maritime risk elevated. US Navy mine-clearing operations cost estimate not publicly itemized.",
-          "who_pays": "US energy consumers via elevated oil prices if Strait disruption persists. US military personnel conducting Strait of Hormuz operations. US re-insurance and maritime insurance markets absorbing Gulf risk premium increases. Gulf SWF-linked infrastructure (UAE ports) bears direct physical risk."
+          "description": "Continued military operations past Day 31 without a documented legal authorization specific to Operation Epic Fury. Strait of Hormuz disruption elevating US domestic fuel prices. No publicly disclosed supplemental appropriations for war costs.",
+          "quantifiable": "2,000+ killed (combined US, Israeli, Iranian, and regional casualties \u2014 breakdown by nationality not fully documented in public sources). Strait of Hormuz: approximately 20% of global oil trade transits the strait; disruption-related oil price premium not independently quantified here but tracked in energy markets.",
+          "who_pays": "US military personnel. American consumers via fuel price impacts. Federal taxpayers via undisclosed operational costs."
         },
-        "institutional_bypass": "UN Convention on the Law of the Sea (UNCLOS) Article 38 guarantees transit passage rights through international straits. Iran's parliamentary toll plan, if implemented, would constitute a direct challenge to UNCLOS transit passage rights. The US has not ratified UNCLOS but maintains operational adherence to its transit passage provisions. No formal US legal challenge to Iran's toll plan has been filed in available sources.",
-        "ideological_driver": "Iran's Strait of Hormuz toll plan reflects a longstanding IRGC doctrine of using the chokepoint as strategic leverage \u2014 converting a military threat into an economic extraction mechanism during ceasefire negotiations. The simultaneous tanker attack and toll approval suggest coordinated escalation strategy rather than genuine de-escalation.",
+        "institutional_bypass": "No AUMF specific to Operation Epic Fury publicly passed by Congress as of development date. War Powers Resolution 48-hour notification compliance not publicly confirmed.",
+        "ideological_driver": "Elimination of Iranian nuclear weapons capability and IRGC proxy network as stated US-Israeli strategic objective.",
         "confidence": "HIGH",
         "sources": [
-          "CNN, March 30, 2026 \u2014 Iran war live updates",
-          "AP News Iran hub, March 30, 2026",
-          "Al Jazeera, March 30, 2026 \u2014 Strait of Hormuz toll plan",
-          "The Guardian, March 30, 2026 \u2014 Al Salmi tanker attack at Dubai port",
-          "Reuters, March 30, 2026 \u2014 Kuwait Petroleum Corporation statement",
-          "Fox News, March 30, 2026 \u2014 20-ship Strait passage announcement",
-          "UNCLOS Article 38 \u2014 transit passage rights"
+          "CNN, Al Jazeera, New York Times, AP News \u2014 Iran war Day 31 coverage",
+          "ISW/ISGA: Iran Update Special Report March 29, 2026",
+          "Iran Foreign Ministry: Esmail Baghaei statement on ceasefire rejection"
         ]
       },
       {
         "node_id": "cross_node",
-        "headline": "Board of Peace accelerates Gaza interim administration plan as Trump declares Gaza war 'over' \u2014 March 2026",
-        "the_rhetoric": "The Trump administration and Board of Peace communications framed Trump's declaration that the Gaza war is 'over' as a predicate for moving to a reconstruction and governance phase. The Board of Peace \u2014 established under EO 14375 with Trump as lifetime chairman \u2014 was presented as the legitimate institutional vehicle for Gaza's post-conflict administration. Kosovo's announced intention to contribute troops was cited as evidence of international coalition support for the US-backed plan.",
-        "the_reality": "The Board of Peace is a real institutional entity established by Executive Order 14375, granted IOIA (International Organizations Immunities Act) diplomatic immunity, with Trump holding lifetime chairmanship. Its 8-month Hamas disarmament plan details have been reported but the full plan text has not been confirmed in publicly available primary documents as of March 30, 2026. The Board of Peace operates with diplomatic immunity from US court jurisdiction under IOIA, meaning its decisions and financial operations cannot be challenged in US federal courts by private parties or US citizens. Kosovo's contribution announcement is a political commitment without a binding legal framework confirmed in available sources. Trump's declaration that the Gaza war is 'over' is not corroborated by IDF operational statements, which continue to describe active Hamas military presence in Gaza.",
+        "headline": "US-Israeli strikes hit Bushehr nuclear power plant grounds multiple times in March 2026; IAEA reports no damage to plant or staff injuries",
+        "the_rhetoric": "US and Israeli officials frame strikes on Bushehr grounds as targeting Iranian nuclear program infrastructure and military assets co-located near the facility. The strikes are presented as precision operations with safeguards against nuclear contamination. The IAEA's 'no damage' finding is cited as validation of operational precision.",
+        "the_reality": "Iran's Atomic Energy Organization confirmed projectiles struck the Bushehr plant grounds multiple times in March 2026. The IAEA reported no damage to the reactor facility itself and no staff injuries following at least one confirmed strike \u2014 but IAEA reporting covers the physical plant, not the broader security perimeter. Russia's nuclear chief (Rosatom) independently confirmed one of the strikes, raising international law concerns about attacks in proximity to an operating civilian nuclear power facility. Bushehr is Russia-built and partially Russia-operated; strikes near it implicate Russian national interests and potential NPT and IAEA safeguards agreement obligations. No formal IAEA Board of Governors emergency session has been publicly convened as of the development date.",
         "domestic_cost": {
-          "description": "IOIA diplomatic immunity granted to the Board of Peace removes it from US judicial oversight. American taxpayers may fund Board of Peace operations through executive branch appropriations without standard congressional appropriations oversight, as IOIA-protected organizations are not subject to normal domestic legal accountability mechanisms. The lifetime chairmanship structure means no future administration can remove Trump from the organization's leadership through normal governmental transition.",
-          "quantifiable": "Board of Peace budget and US government funding contribution not publicly itemized in available sources. IOIA immunity scope: 22 U.S.C. \u00a7 288 et seq. \u2014 full exemption from US judicial process. Reconstruction costs for Gaza estimated in the tens of billions of dollars; Board of Peace role in allocating these funds is not fully defined in available public documents.",
-          "who_pays": "US taxpayers if Board of Peace operations are funded through executive branch appropriations. Gaza reconstruction donors \u2014 including Gulf SWFs (Saudi PIF, UAE Mubadala, Qatari Investment Authority) \u2014 whose contributions flow through a US-controlled organization with diplomatic immunity from accountability."
+          "description": "Strikes on or near an operating nuclear power plant create precedent with implications for US nuclear infrastructure security norms. IAEA safeguards agreement obligations and international nuclear law compliance create potential US diplomatic and legal exposure. If Russian-operated personnel at Bushehr were endangered, escalation risk with Russia (CRINK coordination) is a direct national security cost.",
+          "quantifiable": "No US domestic dollar cost directly attributable to this specific strike. The escalation risk premium \u2014 including CRINK coordination response \u2014 is not quantifiable from available documents.",
+          "who_pays": "US diplomatic capital and international law standing. US military personnel in the Gulf theater bear escalation risk from potential Russian response."
         },
-        "institutional_bypass": "IOIA diplomatic immunity (22 U.S.C. \u00a7 288) removes the Board of Peace from US judicial oversight. The lifetime chairmanship structure bypasses normal executive branch turnover mechanisms. Congressional appropriations oversight of Board of Peace funding is unclear given its international organization status under EO 14375.",
-        "ideological_driver": "The Board of Peace reflects the Trump administration's goal of establishing a US-controlled institutional framework for Gaza's post-conflict governance, displacing UN and Arab League mechanisms. The Abraham Accords capital architecture (Gulf SWF investment in reconstruction) is the stated economic foundation.",
+        "institutional_bypass": "International Atomic Energy Agency safeguards agreements (INFCIRC/214 for Iran) and customary international humanitarian law regarding attacks near civilian nuclear facilities create legal constraints on military targeting. The strikes' compliance with these frameworks has not been publicly assessed by any US government legal authority.",
+        "ideological_driver": "Elimination of Iranian nuclear program capability is the stated justification for targeting Bushehr grounds, despite Bushehr being a civilian power reactor under IAEA safeguards rather than a weapons-program facility.",
         "confidence": "MEDIUM",
         "sources": [
-          "Executive Order 14375 \u2014 Board of Peace establishment (Federal Register)",
-          "22 U.S.C. \u00a7 288 et seq. \u2014 International Organizations Immunities Act",
-          "The Independent, March 2026 \u2014 Board of Peace Gaza plan reporting",
-          "Wikipedia \u2014 Board of Peace (as cross-reference for EO 14375 details)"
+          "CNN: Bushehr nuclear power plant strikes coverage (March 2026)",
+          "IAEA: Public statements on Bushehr facility status following strikes",
+          "Rosatom: Russian nuclear chief confirmation of strike",
+          "Iran Atomic Energy Organization: Public statement on projectile strikes at Bushehr"
         ]
       },
       {
         "node_id": "cross_node",
-        "headline": "DOL 401(k) alternative investment proposed rule returns from OMB White House review, potentially opening pension funds to private equity and Gulf SWF-linked assets \u2014 March 2026",
-        "the_rhetoric": "The proposed rule was framed as expanding investment options and returns potential for American retirement savers by allowing 401(k) plan administrators to include alternative investments \u2014 private equity, hedge funds, infrastructure, and real assets \u2014 that were previously restricted under DOL fiduciary guidance. OMB return of the rule to DOL was characterized as regulatory streamlining.",
-        "the_reality": "OMB's return of the rule to DOL advances a regulatory change that would alter the fiduciary standard governing 401(k) plan investment options under ERISA (Employee Retirement Income Security Act). Under current DOL guidance (most recently updated in 2022), plan fiduciaries face heightened scrutiny when adding alternative investments due to fee opacity, liquidity constraints, and valuation complexity. If finalized, the rule would lower that barrier. The primary beneficiaries of expanded 401(k) access to alternative investments are private equity fund managers (including firms like Apollo \u2014 which has a $3B credit pipeline with QXO/Affinity Partners) and alternative asset managers who gain access to the approximately $7.4 trillion 401(k) market. Gulf SWF-linked investment vehicles \u2014 including Sanabil Investments' portfolio of 40+ US VC/PE firms (a16z, Founders Fund, Valar Ventures) \u2014 would gain indirect access to US pension capital flows through this channel. No final rule text has been confirmed as published in the Federal Register as of March 30, 2026.",
+        "headline": "Kuwaiti oil tanker struck off Dubai port day after Trump's Iran energy grid obliteration threat",
+        "the_rhetoric": "Trump administration frames the tanker strike as further evidence of Iranian aggression justifying the military campaign. Kuwait's oil spill warnings are presented as humanitarian concern. The strike is characterized as a provocative Iranian act against a neutral party.",
+        "the_reality": "The Kuwaiti tanker strike occurred off Dubai port \u2014 within UAE territorial waters proximity \u2014 demonstrating Iranian ability to conduct maritime interdiction operations against Gulf state shipping despite 31+ days of US-Israeli air campaign. Kuwait issued formal oil spill warnings. The temporal sequence \u2014 Trump threatened Iran's energy infrastructure, Iran struck a Kuwaiti tanker within 24 hours \u2014 is documented in the public record without a confirmed causal link to the specific threat, but the operational response timeline is consistent with Iranian escalation-matching doctrine. The strike raises direct questions about the effectiveness of 31+ days of air campaign in degrading Iran's maritime strike capability.",
         "domestic_cost": {
-          "description": "American retirement savers' 401(k) assets \u2014 approximately $7.4 trillion \u2014 would be exposed to higher-fee, lower-liquidity alternative investment products under the proposed rule change. ERISA fiduciary protections that currently limit plan administrator liability for alternative investment losses would be relaxed. The rule change structurally benefits investment managers (including those connected to Gulf SWF capital networks) at the potential expense of individual retirement account holders who cannot easily exit illiquid alternative investments.",
-          "quantifiable": "US 401(k) market: approximately $7.4 trillion (Investment Company Institute). Typical private equity management fees: 2% management + 20% carried interest, vs. ~0.03-0.10% for index funds. Fee differential on a $7.4T market: potentially tens of billions annually in additional fee extraction if significant allocation shift occurs. Specific rule text and effective date not confirmed in available sources.",
-          "who_pays": "American 401(k) participants \u2014 disproportionately middle-income wage earners without access to independent financial advice \u2014 bear the fee and liquidity risk of alternative investment exposure. Small business employers who sponsor 401(k) plans bear increased fiduciary liability complexity."
+          "description": "Iranian maritime interdiction capability against Gulf shipping remains operational despite 31+ days of US-Israeli air campaign, suggesting the campaign has not achieved its stated goal of neutralizing Iranian power projection. US Navy assets protecting Gulf shipping lanes bear ongoing operational burden. US companies with tanker insurance exposure in the Gulf bear elevated risk premiums.",
+          "quantifiable": "Oil spill cleanup and tanker damage: not publicly quantified. Gulf maritime insurance premium increases: Lloyd's of London war risk premium adjustments for Gulf shipping not independently quantified here but are a documented market response to tanker strikes.",
+          "who_pays": "US consumers via oil price and shipping insurance pass-through costs. US Navy personnel conducting Gulf force protection operations. American companies with Gulf supply chain exposure."
         },
-        "institutional_bypass": "ERISA Section 404 fiduciary duty (29 U.S.C. \u00a7 1104) requires plan fiduciaries to act solely in the interest of participants and with the care of a prudent expert. The proposed rule modification effectively lowers the evidentiary burden for including alternative investments, which represents a regulatory reinterpretation of the prudent expert standard without statutory amendment.",
-        "ideological_driver": "The rule change aligns with the Trump administration's deregulatory agenda and the financial industry's longstanding goal of accessing 401(k) capital for alternative investment products. It also intersects with the Gulf SWF capital architecture: Sanabil Investments' positions in US VC/PE firms (a16z, Founders Fund) mean that expanded 401(k) flows into private equity indirectly increase capital available to Gulf sovereign-linked investment vehicles.",
-        "confidence": "MEDIUM",
+        "institutional_bypass": "null",
+        "ideological_driver": "Iranian deterrence doctrine: demonstrated ability to strike Gulf state shipping targets even under sustained US-Israeli military campaign serves as negotiating leverage and signals to Gulf states the cost of hosting the US military campaign.",
+        "confidence": "HIGH",
         "sources": [
-          "PSCA regulatory update, March 2026 \u2014 OMB return of DOL 401(k) alternative investment rule",
-          "29 U.S.C. \u00a7 1104 \u2014 ERISA Section 404 fiduciary duty",
-          "Investment Company Institute \u2014 401(k) market size data",
-          "Federal Register \u2014 DOL rulemaking docket (specific docket number not confirmed in available sources)",
-          "Entity disambiguation: Sanabil Investments (Saudi PIF subsidiary, 40+ US VC/PE firm positions)"
+          "New York Times: Iran war live updates March 29, 2026 \u2014 Kuwaiti tanker strike",
+          "The Guardian: Trump threatens Iran energy grid; tanker struck (March 30, 2026)",
+          "Kuwait government: Oil spill warning statement"
         ]
       },
       {
         "node_id": "cross_node",
-        "headline": "iyO amends lawsuit against OpenAI io subsidiary alleging trade secret theft via Tang Tan access \u2014 creating IP vulnerability in Stargate/OpenAI capital architecture",
-        "the_rhetoric": "OpenAI's public communications have framed its io hardware subsidiary (led by former Apple designer Jony Ive and Tang Tan) as a legitimate design and engineering venture developing next-generation AI hardware interfaces. The Stargate partnership is presented as a national-interest AI infrastructure buildout with robust IP protection.",
-        "the_reality": "iyO's amended lawsuit against OpenAI's io subsidiary, reported by 9to5Mac citing court filings, specifically alleges that Tang Tan \u2014 a former Apple designer who joined io \u2014 was given access to iyO's confidential proprietary designs. This constitutes a trade secret misappropriation claim under the Defend Trade Secrets Act (18 U.S.C. \u00a7 1836). The existence of active IP litigation against io creates a legal cloud over OpenAI's hardware strategy at a moment when the Stargate venture \u2014 which involves Oracle's $45-50B capital raise and $553B RPO backlog \u2014 is premised on OpenAI's technology leadership. If iyO's claims are sustained, it could affect OpenAI's ability to commercialize io-developed hardware as part of the Stargate data center buildout. The lawsuit is in amended complaint stage; no judicial determination on the merits has been issued.",
+        "headline": "Markets recover on reports Trump willing to end Iran campaign even if Strait of Hormuz remains largely closed",
+        "the_rhetoric": "Financial media presents the market recovery as evidence that investors are pricing in de-escalation. Trump administration allies characterize the reported statement as a pragmatic signal of strategic flexibility. The 0.34% Nasdaq and 0.4% S&P 500 futures gains are presented as market confidence in diplomatic progress.",
+        "the_reality": "The market movement was driven by a report \u2014 not a confirmed public statement \u2014 that Trump told aides privately he would end the military campaign even if the Strait of Hormuz remained largely closed. This report contradicts Trump's simultaneous public threat to obliterate Iran's energy infrastructure. The Strait of Hormuz closure's impact on global oil trade (approximately 20% of global oil supply) would persist as an economic reality regardless of military campaign termination. The reported private statement has not been confirmed by any named official or documented in a public record. Nasdaq futures +0.34% and S&P 500 futures +0.4% represent modest recoveries from intraday losses, not a sustained market rerating.",
         "domestic_cost": {
-          "description": "US intellectual property protections \u2014 specifically trade secret law under DTSA \u2014 are the legal mechanism through which iyO is seeking redress. If the trade secret theft allegations are sustained, it would represent a failure of IP governance within the Stargate ecosystem, potentially degrading the legal foundations of a $500B national AI infrastructure program. Oracle bondholders and Stargate equity investors (SoftBank, MGX) bear downstream risk from OpenAI IP litigation uncertainty.",
-          "quantifiable": "Stargate planned investment: $500B. Oracle's Stargate-linked capital raise: $45-50B. iyO lawsuit damages: not yet quantified in available sources. MGX equity stake in Stargate: percentage not publicly confirmed. 18 U.S.C. \u00a7 1836 (DTSA) provides for actual damages plus exemplary damages up to 2x actual damages for willful misappropriation.",
-          "who_pays": "Stargate equity investors (SoftBank, OpenAI, Oracle, MGX) bear litigation risk and potential remediation costs. Oracle bondholders bear downstream risk if Stargate revenue projections are impaired by OpenAI IP disputes. US government, which has implicitly endorsed Stargate as a national AI infrastructure priority, bears reputational cost if the program's IP governance is found deficient."
+          "description": "Market volatility driven by unconfirmed reports of presidential private statements represents a structural vulnerability: US financial markets are pricing geopolitical risk based on leaks rather than documented policy. This creates arbitrage opportunities for actors with advance knowledge of such statements. The underlying Strait of Hormuz disruption \u2014 which would persist even under the reported scenario \u2014 continues to impose real energy cost on the US economy.",
+          "quantifiable": "Nasdaq futures +0.34%, S&P 500 futures +0.4% on the report. These are intraday futures movements, not close-to-close market returns. Hormuz disruption energy cost: not independently quantified here.",
+          "who_pays": "Retail investors who cannot access or act on leaked private presidential statements bear the information asymmetry cost. US energy consumers continue to bear Hormuz-driven fuel cost increases regardless of campaign end."
         },
         "institutional_bypass": "null",
         "ideological_driver": "null",
         "confidence": "LOW",
         "sources": [
-          "9to5Mac, March 2026 \u2014 iyO amended lawsuit against OpenAI io subsidiary (Tang Tan allegations)",
-          "18 U.S.C. \u00a7 1836 \u2014 Defend Trade Secrets Act",
-          "Entity disambiguation: Oracle Corporation (Stargate partnership), MGX (UAE sovereign technology investment fund, Stargate equity)"
+          "The Guardian: Trump signals willingness to end Iran campaign despite Hormuz closure (March 30, 2026)"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Iran seeks Russian and Chinese involvement in ceasefire framework to create multilateral guarantees against US deception",
+        "the_rhetoric": "US and Gulf state intermediaries present the Pakistan-Egypt-Saudi Arabia-Turkey transmission channel as a credible diplomatic framework. Administration officials frame the delay in Iran's formal response as tactical hesitation rather than structural rejection. The multilateral ceasefire process is characterized as making progress.",
+        "the_reality": "Iran's demand to include Russia and China in the ceasefire guarantee framework is documented in Times of Israel reporting and consistent with Iranian CRINK coordination doctrine. This demand represents a fundamental structural incompatibility with the US-proposed framework: including Russia and China as guarantors would give CRINK bloc members a formal veto over ceasefire compliance determinations. Iran's foreign ministry has publicly characterized the demand as protection against 'deception tactics,' directly referencing the credibility deficit created by the gap between Trump's 'agreed to most points' statement and Iran's documented March 25 rejection. Russia's nuclear chief's confirmation of the Bushehr strike and Russia's Bushehr construction/operational role give Russia a documented material interest in the ceasefire terms.",
+        "domestic_cost": {
+          "description": "Iran's CRINK-inclusion demand, if accepted, would give Russia and China formal roles in a US military campaign resolution framework \u2014 a significant shift in US diplomatic precedent. If rejected, it prolongs the conflict and associated US operational costs. The underlying dynamic \u2014 US credibility gap created by Trump's contradictory public and private statements \u2014 is directly driving Iran's demand for third-party guarantors.",
+          "quantifiable": "No direct dollar cost attributable to this specific diplomatic dynamic. Continued conflict duration cost: each additional day of Operation Epic Fury adds to undisclosed operational expenditure.",
+          "who_pays": "US military personnel in extended deployment. Federal taxpayers funding continued operations. US allies in the Gulf whose infrastructure remains at risk from Iranian retaliation."
+        },
+        "institutional_bypass": "null",
+        "ideological_driver": "CRINK coordination doctrine: Iran's alignment with Russia and China as a strategic hedge against unilateral US leverage is a documented foreign policy posture. Including them as ceasefire guarantors would formalize CRINK as a recognized counterweight to US-led security frameworks.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "Times of Israel: Iran seeks Russia and China involvement in ceasefire framework",
+          "Iran Foreign Ministry: Esmail Baghaei public statements on framework conditions"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Board of Peace Gaza disarmament plan stalled by Iran war escalation; Hamas denounces reconstruction-for-disarmament framework as 'catastrophic'",
+        "the_rhetoric": "Board of Peace communications and Trump administration officials present the $7B reconstruction fund and 8-month Hamas disarmament timeline as an active, advancing framework. The Board of Peace's IOIA diplomatic immunity and Trump's lifetime chairmanship under EO 14375 are not prominently featured in public communications about the initiative. The October 2025 Gaza ceasefire and Trump's 'The war is over' declaration are presented as the foundation for a credible reconstruction pathway.",
+        "the_reality": "Reuters sources cited in CNN Day 30 coverage report that foreign diplomats have noted a loss of momentum in the Gaza disarmament plan coinciding with the Iran war escalation. Hamas has publicly denounced the reconstruction-for-disarmament framework as 'catastrophic.' The Board of Peace's $7B reconstruction fund is contingent on Hamas weapons compliance over 8 months \u2014 a conditionality Hamas has rejected. The Board of Peace was established under EO 14375 with IOIA diplomatic immunity, meaning its operations are shielded from standard congressional oversight and FOIA requests. Trump's lifetime chairmanship is not subject to Senate confirmation. The Gaza and Iran fronts are not demonstrating the strategic coordination that was implied in initial Board of Peace rollout communications.",
+        "domestic_cost": {
+          "description": "The Board of Peace's IOIA diplomatic immunity exempts its financial operations and communications from standard US government transparency requirements (FOIA, congressional oversight). Trump's lifetime chairmanship of a diplomatic-immunity organization conducting multi-billion dollar reconstruction operations creates a governance structure outside standard federal accountability frameworks. The $7B reconstruction fund's sourcing \u2014 whether from US appropriations, Gulf SWF contributions, or other sources \u2014 is not publicly documented.",
+          "quantifiable": "Board of Peace $7B reconstruction fund: funding source and US taxpayer contribution not publicly itemized. IOIA immunity scope: established under 22 U.S.C. \u00a7 288 et seq., exempting the organization from US court jurisdiction for official acts.",
+          "who_pays": "US taxpayers if any portion of the $7B reconstruction fund is drawn from federal appropriations. Palestinian civilians if the disarmament conditionality prevents reconstruction funding from flowing. US democratic accountability norms \u2014 the IOIA immunity structure removes a presidential-chaired organization from standard congressional and judicial oversight."
+        },
+        "institutional_bypass": "EO 14375 grants the Board of Peace IOIA diplomatic immunity under the International Organizations Immunities Act (22 U.S.C. \u00a7 288), exempting it from FOIA, congressional subpoena, and US court jurisdiction for official acts. Trump's lifetime chairmanship is not subject to Senate confirmation or standard federal ethics disclosure requirements applicable to executive branch officials.",
+        "ideological_driver": "Gaza reconstruction-for-disarmament is the stated framework. The Board of Peace's IOIA structure and Trump's lifetime chairmanship suggest an institutional design prioritizing executive control and diplomatic immunity over congressional accountability in administering what is effectively a US foreign policy instrument.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "EO 14375 (text \u2014 Federal Register)",
+          "CNN Day 30 Iran war coverage \u2014 Board of Peace momentum loss",
+          "Reuters: Foreign diplomats on Gaza disarmament plan stall",
+          "Wikipedia: Gaza peace plan \u2014 Board of Peace structure and October 2025 ceasefire",
+          "22 U.S.C. \u00a7 288 et seq. (International Organizations Immunities Act)"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Gulf SWF capital movements \u2014 PIF Olam Agri acquisition and Mubadala CoolIT exit \u2014 maintain pace despite Iran war Hormuz disruption",
+        "the_rhetoric": "Gulf sovereign wealth funds present continued investment activity as evidence of strategic confidence and long-term orientation. PIF Governor Al-Rumayyan at FII PRIORITY Miami explicitly characterized PIF's global commitments as unaffected by the Iran war. Mubadala's CoolIT and Clear Channel transactions are presented as routine portfolio management.",
+        "the_reality": "Saudi PIF's $1.78B Olam Agri acquisition and Mubadala's $4.75B CoolIT exit and $6.2B Clear Channel acquisition proceeded on schedule despite the Strait of Hormuz disruption affecting Gulf oil export revenues. Bloomberg's coverage explicitly notes PIF is maintaining investments 'despite Iran war costs,' implicitly acknowledging that war costs exist and are being managed rather than absent. The Strait of Hormuz disruption \u2014 affecting approximately 20% of global oil trade, including Saudi and UAE hydrocarbon export revenue \u2014 represents a direct revenue headwind for the sovereign wealth funds whose assets are partially funded by hydrocarbon receipts. The gap between the stated narrative (no impact) and the Bloomberg acknowledgment (despite costs) is a documented rhetorical tension. MGX's continued US technology investments (Stargate equity, TikTok USDS JV) during the Iran war period represent UAE sovereign capital deployment in US strategic infrastructure while UAE is simultaneously a geographic neighbor to Iran's retaliatory maritime operations.",
+        "domestic_cost": {
+          "description": "Gulf SWF continued acquisition of US infrastructure assets (Clear Channel outdoor advertising, Stargate AI compute equity, TikTok USDS JV stake) during a period of active US-Gulf military alliance against Iran creates a structural entanglement: US military operations in the Gulf are partially enabling the stable operating environment in which Gulf SWFs continue to deploy capital into US strategic assets. CFIUS review adequacy for these transactions during wartime is not publicly assessed.",
+          "quantifiable": "PIF Olam Agri: $1.78B. Mubadala CoolIT exit: $4.75B. Mubadala Clear Channel acquisition: $6.2B. MGX Stargate equity: undisclosed. MGX TikTok USDS JV: ~15% of post-deal entity. Total disclosed Gulf SWF transaction value in this development period: approximately $12.73B+.",
+          "who_pays": "US communities with Clear Channel advertising contracts now under UAE sovereign ownership. US data center infrastructure users with MGX co-investment in Stargate. American democratic institutions whose public communications infrastructure (billboards, transit advertising) is increasingly owned by foreign sovereign entities."
+        },
+        "institutional_bypass": "CFIUS transaction review for Gulf SWF acquisitions of US media and infrastructure during an active military alliance period raises questions about whether the national security review adequately weights the entanglement between US military protection of Gulf states and Gulf SWF capital access to US strategic assets. No public CFIUS determination for Clear Channel or Stargate Gulf SWF equity has been released.",
+        "ideological_driver": "Gulf SWF capital deployment into US AI, media, and infrastructure serves the stated goal of economic diversification (Vision 2030 for Saudi Arabia, Abu Dhabi Economic Vision for UAE) while simultaneously deepening the US-Gulf strategic interdependency that underlies the Iran military campaign alliance.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "Bloomberg: Saudi PIF commits to global investments despite Iran war (March 26, 2026)",
+          "Gulf News: Mubadala CoolIT exit (March 2026)",
+          "USA Herald: Mubadala Clear Channel acquisition",
+          "AGBI: PIF five-year strategy announcement",
+          "MGX portfolio disclosures: Stargate, TikTok USDS JV, World Liberty Financial"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Inovio Pharmaceuticals securities law class action filed by DJS Law Group for Exchange Act violations",
+        "the_rhetoric": "DJS Law Group press release frames the class action as investor protection litigation for securities fraud. Financial media coverage characterizes it as part of broader biotech regulatory scrutiny.",
+        "the_reality": "The DJS Law Group class action alleges violations of Securities Exchange Act sections 10(b) and 20(a) against Inovio Pharmaceuticals (NASDAQ: INO). Section 10(b) and Rule 10b-5 claims require pleading material misrepresentation or omission in connection with the purchase or sale of a security. The specific alleged misrepresentations have not been independently verified in the available source (PRNewswire announcement only). Inovio has government contract history (DOD-funded DNA vaccine research). The connection to broader 'regulatory enforcement patterns affecting biotech companies with government contracts' is an analytical characterization in the pipeline summary, not a documented regulatory finding. No SEC enforcement action against Inovio has been publicly announced as of this development.",
+        "domestic_cost": {
+          "description": "If the class action proceeds, Inovio shareholders \u2014 including any institutional investors and retirement accounts holding INO \u2014 bear litigation risk and potential settlement costs. Federal court resources are consumed. If Inovio has active DOD or HHS contracts, any material misrepresentation findings could affect those contracts.",
+          "quantifiable": "Class action damages not yet quantified in the public record. Inovio market cap (NASDAQ: INO) as of March 2026: approximately $200-400M range (subject to current trading \u2014 verify against EDGAR). DOD contract exposure: requires review of USASpending.gov for active Inovio contracts.",
+          "who_pays": "INO shareholders including retail investors and any pension funds with biotech sector exposure. Federal courts processing the litigation. Potentially federal contracting agencies if Inovio's contract performance is affected."
+        },
+        "institutional_bypass": "null",
+        "ideological_driver": "null",
+        "confidence": "LOW",
+        "sources": [
+          "PRNewswire: DJS Law Group class action against Inovio Pharmaceuticals",
+          "SEC EDGAR: Inovio Pharmaceuticals 10-K and 10-Q filings (most recent) for financial condition context",
+          "USASpending.gov: Inovio federal contract history"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "OMB returns DOL proposed rule on 401(k) alternative investments, potentially affecting Gulf SWF pension exposure",
+        "the_rhetoric": "OMB's return of the rule to DOL is characterized in plan sponsor media as a routine regulatory procedural step. The PSCA frames the development as affecting pension fund investment flexibility.",
+        "the_reality": "OMB's return of a proposed rule to the originating agency (DOL) under OIRA review (Executive Order 12866) is a standard regulatory process step indicating that OIRA has questions or requests changes before the rule proceeds to the Federal Register. The specific rule on 401(k) alternative investments \u2014 if finalized \u2014 would affect whether ERISA-governed retirement plans can access alternative investment vehicles, which may include private equity, hedge funds, and structures through which Gulf SWF-backed funds (Sanabil-backed VC firms like a16z and Founders Fund) manage capital. The causal chain between this procedural OMB action and 'Gulf SWF pension exposure' is speculative at this stage \u2014 no documented direct link between the specific rule text and Gulf SWF vehicles has been established in available sources. The OIRA return does not indicate direction of change (more or less access to alternatives).",
+        "domestic_cost": {
+          "description": "If the rule ultimately expands 401(k) access to alternative investments, American retirement savers would bear the fee structures and illiquidity risks of alternative vehicles. If the rule restricts such access, Gulf SWF-adjacent alternative managers lose a retail capital channel. The OIRA delay creates regulatory uncertainty affecting plan sponsor investment decisions.",
+          "quantifiable": "US 401(k) assets: approximately $7.7 trillion (ICI 2025 estimate). The fraction accessible to alternative investments under any revised rule is not quantifiable without the rule text. Sanabil Investments' positions in a16z, Founders Fund, and Valar Ventures are not publicly sized.",
+          "who_pays": "American retirement savers if alternative investment access increases fee drag on retirement accounts. Alternative investment managers (potentially including Gulf SWF-adjacent vehicles) if access is restricted."
+        },
+        "institutional_bypass": "null",
+        "ideological_driver": "The Trump administration's OMB/OIRA has generally favored deregulation and expanded investment flexibility. If the returned rule is being modified to expand 401(k) alternative investment access, this would be consistent with executive branch efforts to open retail capital channels to private markets \u2014 including those managed by firms with Gulf SWF limited partner relationships.",
+        "confidence": "LOW",
+        "sources": [
+          "PSCA: Plan Sponsor Council of America \u2014 OMB return of DOL 401(k) alternative investment rule",
+          "OIRA: Executive Order 12866 review process (regulatory.gov for rule docket)",
+          "ERISA Section 404 (29 U.S.C. \u00a7 1104) \u2014 fiduciary duty standard applicable to 401(k) plan investments"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Iran war Day 31 synthesis: Trump signals campaign end willingness despite Hormuz closure as ceasefire framework remains structurally unresolved",
+        "the_rhetoric": "Administration messaging presents simultaneous tracks: military pressure ('obliterate energy grid'), diplomatic progress ('agreed to most points'), and de-escalation flexibility ('willing to end even with Hormuz closed'). The three messages are presented as a coherent strategic posture combining maximum pressure with diplomatic openness.",
+        "the_reality": "The three simultaneous Trump statements are factually contradictory when placed against the documented record: (1) Iran formally rejected the 15-point proposal on March 25; (2) Iran's five-point counter-proposal requires Russian and Chinese guarantors the US framework does not accommodate; (3) Strait of Hormuz disruption continues with tanker strikes demonstrating Iran's retained maritime capability; (4) Bushehr nuclear plant grounds were struck despite IAEA civilian facility protections; (5) Hamas has denounced the Board of Peace Gaza framework, removing the leverage linkage between Gaza reconstruction and Iran ceasefire. Energy markets, bond markets (Oracle/Stargate debt load), and Gulf SWF capital deployment are all functioning under wartime stress conditions that the administration's public narrative characterizes as near-resolved.",
+        "domestic_cost": {
+          "description": "The aggregate domestic cost of the ongoing Iran campaign without a documented AUMF, without public cost accounting, and with simultaneous contradictory diplomatic messaging includes: undisclosed munitions drawdown costs, Hormuz-driven fuel price increases for US consumers, Gulf SWF capital entanglement in US strategic infrastructure during an active military alliance, Oracle/Stargate debt load stress from energy market volatility, and Epstein file releases creating parallel privacy litigation costs \u2014 all occurring simultaneously without a public integrated cost accounting.",
+          "quantifiable": "Operation Epic Fury operational costs: not publicly disclosed. Hormuz disruption oil price premium: not independently quantified. Oracle/Stargate capital stress: $100B+ existing debt plus $45-50B new raise under energy market volatility. Gulf SWF US asset acquisitions in this period: $12.73B+ in disclosed transactions. DOJ Epstein file processing and privacy litigation: undisclosed.",
+          "who_pays": "American consumers (fuel costs). Federal taxpayers (undisclosed war costs). US military personnel (operational risk). US pension and retail investors (Oracle stock decline, bond market stress). Epstein victims (privacy violations). Local communities near data centers (infrastructure externalities)."
+        },
+        "institutional_bypass": "Aggregate bypass: no AUMF for Operation Epic Fury; Leahy Law vetting suspension for Netzah Yehuda; Board of Peace IOIA immunity from congressional oversight; Schedule Policy Career reducing career federal workforce oversight capacity; CFIUS review adequacy questions for Gulf SWF wartime acquisitions of US strategic assets.",
+        "ideological_driver": "The convergence of Operation Epic Fury, Gulf SWF capital deployment, Stargate AI infrastructure build-out, and Epstein file releases as simultaneous March 2026 developments reflects an administration governing across multiple high-intensity tracks without a publicly articulated integrated strategy document.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "CNN, Al Jazeera, Reuters, New York Times, ISW \u2014 Iran war Day 31 coverage",
+          "The Guardian: Trump contradictory statements on ceasefire and obliteration threat",
+          "Times of Israel: Iran CRINK framework demand",
+          "Oracle 10-Q Q3 FY2026 (SEC EDGAR)",
+          "Board of Peace: EO 14375 (Federal Register)"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "DOJ Epstein file releases and victim privacy lawsuits converge with Maxwell clemency debate and 3.5M+ page documentation archive",
+        "the_rhetoric": "DOJ and administration officials characterize the 3.5M+ page Epstein file release program as the most transparent government document disclosure in modern history, delivering accountability long denied to victims. Congressional advocates frame the releases as exposing a prior-era cover-up. The April 14 Bondi deposition is presented as routine oversight.",
+        "the_reality": "The DOJ Epstein library's March 30 release added surveillance documentation of prison guard activity the night of Epstein's death, including video analysis of an 'orange figure' approaching Epstein's tier at 10:39 PM \u2014 evidence not previously in the public record that directly bears on the cause-of-death question. American Oversight's federal court litigation seeks records on whether the internal DOJ review process governing releases complied with statutory requirements. At least one victim's lawsuit against DOJ and Google alleges the 'release now, retract later' methodology violated the Crime Victims' Rights Act. The Maxwell habeas corpus petition, H.Res.635, and the Kahn/Indyke deposition findings about uninvestigated witnesses are all simultaneously active. The Epstein Network documentation \u2014 financial flows through JPMorgan and Deutsche Bank, intelligence connections, unnamed associates in FBI 302s \u2014 is accumulating in the public record without a corresponding documented prosecutorial action against network-level actors.",
+        "domestic_cost": {
+          "description": "Federal resources consumed: DOJ document processing for 3.5M+ pages, federal court proceedings (American Oversight, victim privacy suit, Maxwell habeas), FBI 302 review and redaction processes. Victim costs: at least one victim has incurred litigation costs suing DOJ and Google. Congressional resources: House Oversight depositions, H.Res.635 floor time. The aggregate accountability gap \u2014 3.5M+ pages released without corresponding prosecutorial action on network-level actors \u2014 represents a documented institutional failure cost.",
+          "quantifiable": "3.5M+ pages released. One victim privacy lawsuit: damages unspecified. American Oversight federal court filing: costs borne by nonprofit but generates federal legal defense costs. Congressional deposition (Bondi, April 14): staff and legal costs undisclosed.",
+          "who_pays": "Federal taxpayers funding DOJ processing, FBI review, and federal legal defense. Epstein victims bearing privacy exposure costs. American Oversight donors funding public interest litigation."
+        },
+        "institutional_bypass": "Crime Victims' Rights Act (18 U.S.C. \u00a7 3771) notification and consideration requirements are the subject of the victim privacy lawsuit \u2014 the allegation that the 'release now, retract later' approach bypassed this statutory protection is documented but not yet adjudicated. The gap between 3.5M+ pages released and zero documented network-level prosecutions represents a de facto bypass of the accountability purpose the releases are publicly framed as serving.",
+        "ideological_driver": "The Epstein file releases serve a dual documented purpose: stated accountability for prior-era failures, and political leverage through the distribution of information about Epstein network associates across party lines. The concurrent Iran war and Board of Peace Gaza operations create a high-volume information environment in which the Epstein releases receive reduced sustained analytical attention.",
+        "confidence": "MEDIUM",
+        "sources": [
+          "CNN: Epstein files \u2014 prison officials the night he died (March 26, 2026)",
+          "American Oversight: Federal court filing on Bondi Congressional deposition records",
+          "Politico: Epstein victim sues DOJ and Google (March 27, 2026)",
+          "DOJ Epstein library: March 30, 2026 release",
+          "NBC News: Kahn and Indyke never interviewed by investigators",
+          "18 U.S.C. \u00a7 3771 (Crime Victims' Rights Act)"
+        ]
+      },
+      {
+        "node_id": "cross_node",
+        "headline": "Oracle Q3 FY2026 record backlog and Stargate execution capacity assessed against $100B+ debt load and analyst revenue conversion concerns",
+        "the_rhetoric": "Oracle earnings communications and Stargate partnership announcements present the $553B RPO and 84% OCI growth as evidence of transformational AI infrastructure dominance. The Stargate partnership with OpenAI is presented as a national AI sovereignty initiative validating Oracle's strategic positioning. Analyst bullish targets up to $262-$400 receive prominent financial media coverage.",
+        "the_reality": "Oracle's $553B RPO is contracted future revenue, not recognized revenue. The conversion timing concern flagged by analysts (including those who lowered price targets despite the earnings beat) reflects uncertainty about when customers will actually draw down contracted capacity \u2014 a structural risk in hyperscale infrastructure contracts where build timelines and activation schedules affect revenue recognition. Oracle's $100B+ existing debt plus $45-50B new 2026 capital raise creates a balance sheet under stress from rising rates and energy market volatility caused by the Iran war/Hormuz disruption. The Ohio Carpenters Pension bondholder lawsuit is an active legal proceeding (PACER docket) documenting creditor concern. Larry Ellison's ~$40.4B personal guarantee for David Ellison's Warner Bros. Discovery acquisition is a contingent personal liability creating concentration risk. The stock's 25% YTD decline despite earnings beats is a market-based assessment that the growth narrative is not fully translating to shareholder value at current capital structure levels.",
+        "domestic_cost": {
+          "description": "Oracle's Stargate debt financing draws from US credit markets. Ohio Carpenters Pension beneficiaries have direct balance sheet exposure through the bondholder lawsuit. Oracle's Abilene, Texas data center's 2.1GW energy demand (shared with Microsoft per the Microsoft takeover development) stresses ERCOT grid infrastructure. The 25% YTD stock decline affects US pension funds, 401(k) accounts, and retail investors holding ORCL.",
+          "quantifiable": "Oracle existing debt: $100B+. New 2026 capital raise: $45-50B. Stock YTD decline: approximately 25% (from ~$184 to ~$138-$141 range). Ohio Carpenters Pension lawsuit: damages unspecified. Ellison WBD personal guarantee: $40.4B contingent liability.",
+          "who_pays": "US pension funds and retail investors in ORCL equity. Ohio Carpenters Pension beneficiaries in bondholder proceedings. US credit market participants absorbing Oracle's $45-50B capital raise. Texas grid users bearing energy demand externalities."
+        },
+        "institutional_bypass": "null",
+        "ideological_driver": "Stargate is framed as a US national AI sovereignty instrument \u2014 the ideological argument that US AI compute infrastructure must be domestically owned at scale, with Oracle as a designated anchor, justifies the capital structure decisions and federal facilitation (land access, permitting) that enable the build-out.",
+        "confidence": "HIGH",
+        "sources": [
+          "Oracle 10-Q Q3 FY2026 (SEC EDGAR: ORCL)",
+          "Oracle Q3 FY2026 earnings call transcript",
+          "Insider Monkey: Oracle price target lowered on revenue conversion concerns",
+          "Ohio Carpenters Pension Fund v. Oracle Corporation (PACER)",
+          "Invezz: Oracle stock down 25% in 2026 (March 25, 2026)"
         ]
       }
     ]
