@@ -1,520 +1,459 @@
 {
-  "checked_at": "2026-03-31T03:32:26.788036+00:00",
+  "checked_at": "2026-03-31T05:35:05.343748+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 43,
-  "claims_verified": 14,
-  "claims_flagged": 16,
-  "claims_unverifiable": 13,
+  "claims_checked": 40,
+  "claims_verified": 25,
+  "claims_flagged": 13,
+  "claims_unverifiable": 2,
   "corrections_applied": [
     {
       "claim_index": 0,
-      "source": "node_status/maxwell",
-      "original_headline": "House Resolution 119-635 formally opposes Maxwell clemency while BBC releases new survivor interviews and Epstein accountant/lawyer depositions reveal government never interviewed key associates, March 26-31, 2026",
-      "corrected_headline": "Rep. Krishnamoorthi introduces H.Res.635 opposing Maxwell clemency as BBC releases new survivor interviews and Epstein associates' depositions reveal investigative gaps",
-      "original_summary": "Representative Raja Krishnamoorthi introduced House Resolution 119-635 on August 5th formally opposing any clemency for Ghislaine Maxwell, stating her conviction was 'more than warranted by the facts.' BBC released new survivor interviews March 26-31 with victims speaking publicly for the first time",
-      "corrected_summary": "Representative Raja Krishnamoorthi introduced House Resolution 635 in the 119th Congress formally opposing any clemency for Ghislaine Maxwell, affirming her conviction was 'more than warranted by the facts.' BBC released new survivor interviews with victims speaking publicly about abuse by Epstein. Depositions from Epstein's accountant Richard Kahn and lawyer Darren Indyke reportedly revealed that government investigators never interviewed key associates, though the precise date of the resolution's introduction has not been independently confirmed as August 5th.",
-      "finding": "H.Res.635 was introduced in the 119th Congress but the web evidence does not confirm it was introduced on August 5th \u2014 that date is unverified and potentially fabricated; the resolution number and introducer (Krishnamoorthi) are confirmed, but the introduction date in the claim requires correction. Additionally, the BBC survivor interviews and Epstein accountant/lawyer deposition details cannot be independently verified from the provided web evidence."
+      "source": "node_status/iran",
+      "original_headline": "Iran rejects US 15-point ceasefire proposal March 30 as Trump threatens energy grid obliteration while diplomatic backchannel through Pakistan-Egypt-Turkey-Saudi coalition intensifies",
+      "corrected_headline": "Iran rejects US 15-point ceasefire proposal as Trump threatens energy grid obliteration; Pakistan-mediated indirect backchannel confirmed",
+      "original_summary": "Iran's Foreign Ministry spokesperson Esmail Baghaei confirmed March 30 that Tehran received a 15-point ceasefire proposal from the Trump administration but rejected it as 'excessive, unrealistic and irrational,' denying direct negotiations with Washington. Trump escalated threats to 'obliterate' Ira",
+      "corrected_summary": "Iran's Foreign Ministry acknowledged on March 30 that indirect talks with the US had been ongoing via Pakistani mediation, while calling US positions 'excessive and unreasonable.' Iran rejected the 15-point ceasefire proposal and issued its own five-point counter-proposal including war reparations and sovereignty over the Strait of Hormuz. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure including Kharg Island if a deal wasn't reached 'shortly,' while claiming the US was negotiating both directly and indirectly with Iran.",
+      "finding": "The claim accurately captures Iran's rejection and Trump's threats, but misstates the diplomatic coalition: web evidence confirms Pakistan mediated indirect talks, with Egypt, Turkey, and Saudi Arabia mentioned in context but not all confirmed as a formal four-nation coalition brokering this specific proposal. The Iranian Foreign Ministry acknowledged indirect talks via Pakistan specifically, and the spokesperson named is correct, but the framing of a 'Pakistan-Egypt-Turkey-Saudi coalition' overstates the confirmed coalition structure."
     },
     {
-      "claim_index": 1,
-      "source": "node_status/iran",
-      "original_headline": "Iran receives 15-point US ceasefire proposal through Pakistan-led mediation while Trump threatens energy grid obliteration and oil tanker struck in Dubai, March 30-31, 2026",
-      "corrected_headline": "Iran acknowledges receiving US 15-point ceasefire proposal but had already rejected it March 25; Trump threatens energy grid obliteration as Kuwaiti tanker struck off Dubai",
-      "original_summary": "Iran's foreign ministry confirmed receiving a 15-point ceasefire proposal from the Trump administration through mediation by Pakistan, Egypt, Saudi Arabia and Turkey on March 30, though spokesperson Esmail Baghaei called US demands 'excessive, unrealistic and irrational.' Trump simultaneously threat",
-      "corrected_summary": "Iran's foreign ministry spokesperson Esmail Baghaei confirmed Tehran had received a 15-point ceasefire proposal transmitted via Pakistan, Egypt, Saudi Arabia and Turkey, but Iran had already formally rejected the proposal on March 25 and issued counter-demands. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure while stating negotiations continue. A Kuwaiti oil tanker was struck by a suspected Iranian drone off Dubai port, triggering oil spill warnings.",
-      "finding": "The claim states Iran 'confirmed receiving' the 15-point proposal and that mediation was led by Pakistan, Egypt, Saudi Arabia and Turkey \u2014 this is verified. However, the claim describes the tanker as 'Kuwaiti' and struck 'in Dubai,' which is confirmed by web evidence, but the claim says the tanker was struck 'in Dubai' \u2014 web evidence confirms this. The core inaccuracy is that the claim conflates Iran 'receiving' the proposal with Iran engaging constructively; web evidence shows Iran had already rejected the 15-point plan on March 25, before the March 30 acknowledgment referenced here. The framing implies active negotiation when Iran had formally rejected the proposal."
+      "claim_index": 2,
+      "source": "node_status/israel",
+      "original_headline": "Israel strikes 170+ Iranian targets in 24 hours while expanding Lebanon ground operations as war enters day 31, March 30, 2026",
+      "corrected_headline": "Israel strikes 140+ Iranian targets in 24 hours while expanding Lebanon ground operations as war enters day 31, March 30, 2026",
+      "original_summary": "Israel has significantly escalated operations on multiple fronts as of March 30, 2026. The IDF struck over 170 Iranian regime targets in the past 24 hours, including weapons research facilities and infrastructure throughout Tehran. Israeli forces are expanding ground operations in southern Lebanon a",
+      "corrected_summary": "As of March 30, 2026, Israel launched over 140 airstrikes on central and western Iran in a 24-hour period, targeting ballistic missile launch sites, storage facilities, and weapons research infrastructure including sites in Tehran. Israeli forces simultaneously expanded ground operations in southern Lebanon against Hezbollah. The IDF suspended the Netzah Yehuda battalion after soldiers assaulted a CNN crew in the West Bank.",
+      "finding": "The claim states Israel struck 'over 170 Iranian targets in 24 hours,' but web evidence from Reuters cites 'over 140 air strikes' in the relevant 24-hour period, and ISW/ACLED data does not corroborate 170+. The 170+ figure appears inflated relative to corroborated reporting."
     },
     {
       "claim_index": 3,
-      "source": "node_status/israel",
-      "original_headline": "Israel expands Lebanon ground operations while conducting 170+ strikes on Iranian targets in Tehran on March 29-30, 2026, as IDF suspends Netzah Yehuda battalion for CNN crew assault",
-      "corrected_headline": "Israel expands Lebanon ground operations and strikes Iranian targets including Tehran infrastructure March 29-30 as IDF suspends Netzah Yehuda battalion for CNN crew assault",
-      "original_summary": "Israel significantly escalated military operations on multiple fronts March 29-30, 2026. The IDF struck 170 Iranian regime targets in 24 hours including weapons research facilities throughout Tehran, while expanding ground operations in southern Lebanon with Netanyahu ordering wider buffer zones aga",
-      "corrected_summary": "Israel significantly escalated operations on multiple fronts March 29-30, 2026, launching strikes on Iranian infrastructure including sites in and around Tehran, while expanding ground operations in southern Lebanon with Netanyahu ordering wider buffer zones against Hezbollah. The specific claim of 170+ strikes concentrated solely on Tehran is unconfirmed; CENTCOM's 20+ weapons systems figure covers the broader campaign across Iran. The IDF simultaneously suspended the Netzah Yehuda reserve battalion over an assault on a CNN crew.",
-      "finding": "The claim states Israel conducted '170+ strikes on Iranian targets in Tehran' on March 29-30; web evidence confirms a wave of strikes on Tehran infrastructure but does not confirm the specific '170' figure as targeting Tehran exclusively \u2014 CENTCOM figures relate to total targets across Iran. The specific claim of 170+ strikes concentrated in Tehran is not verified and may conflate total campaign figures with a single city."
-    },
-    {
-      "claim_index": 4,
       "source": "node_status/oracle_ellison",
-      "original_headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$262 while stock trades $138-$141 range, March 26-31, 2026",
-      "corrected_headline": "Oracle Q3 FY2026 revenue rises 22% to $17.2B with record $553B backlog; stock trades near $138-$141 as analysts set mixed price targets ranging up to $262",
-      "original_summary": "Following Oracle's Q3 2026 earnings report showing 22% revenue growth to $17.2 billion and 84% OCI growth, analysts have issued mixed ratings with Bank of America maintaining a Buy rating at $200 price target (citing 30% upside potential) while other analysts set targets up to $262.91. The stock has",
-      "corrected_summary": "Oracle reported Q3 FY2026 revenue of $17.2 billion, up 22% year-over-year, with OCI cloud growth of 84% and record Remaining Performance Obligations of $553 billion. The stock has declined approximately 25% year-to-date in 2026 and traded in the $138-$141 range as of late March despite the earnings beat. Analyst price targets vary widely; the claimed Bank of America $200 target representing '30% upside' from the ~$138-$141 trading range overstates the implied upside and should be characterized as approximately 40-45% upside at those levels.",
-      "finding": "Web evidence (Oracle investor relations) confirms Q3 FY2026 revenue of $17.2B (+22% YoY) and $553B RPO backlog, which aligns with the claim. However, Barchart web evidence cites Q3 revenue as $16.1B with 14.2% YoY growth, creating a discrepancy \u2014 the official Oracle IR release confirms $17.2B. The Bank of America $200 price target citing '30% upside' is inconsistent with the stock trading at $138-$141 (30% upside from ~$138 would imply ~$180 target, not $200), suggesting the upside percentage or price target figure is internally inconsistent."
+      "original_headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$400 as cloud infrastructure growth accelerates 84% but stock trades sideways March 26-31",
+      "corrected_headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$400 as cloud infrastructure grows 84% but stock trades near 52-week lows",
+      "original_summary": "Following Oracle's March 26 Q3 2026 earnings report showing 22% revenue growth to $17.2B and record $553B backlog, analysts issued divergent price targets this week. Bank of America reinstated coverage with a Buy rating and $200 target (29% upside), while other analysts set targets up to $400 and co",
+      "corrected_summary": "Following Oracle's Q3 FY2026 earnings report showing 22% revenue growth to $17.2B and a record $553B backlog, analysts issued divergent price targets. Bank of America reinstated coverage with a Buy rating and $200 target. Oracle's cloud infrastructure revenue surged 84% year-over-year, with total cloud up 44%. The stock traded in the $138-$145 range in late March, well below analyst targets, reflecting investor concerns about revenue conversion from the backlog.",
+      "finding": "The claim states Bank of America reinstated coverage with a $200 target representing '29% upside,' but if the stock was trading at $138-$141, a $200 target represents approximately 40-45% upside, not 29%. The 29% upside figure corresponds to a different base price. Additionally, web evidence confirms the stock was trading well below $200 (around $138-145 range), making the '29% upside' calculation inconsistent with the stated trading range."
     },
     {
-      "claim_index": 7,
+      "claim_index": 6,
       "source": "daily_intelligence/breaking_news",
-      "original_headline": "Iran war enters day 31 with over 2,000 killed, US-Iran negotiations ongoing via Pakistan on 15-point ceasefire plan",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump claims Iran agreed to 'most of' 15-point ceasefire plan but Iran formally rejected proposal March 25",
-      "original_summary": "The US-Israel military operation against Iran continues with Trump stating Iran has agreed to 'most of' the 15-point US demands conveyed through Pakistan. Over 2,000 people have been killed in the conflict that began February 28, 2026, with strikes hitting Iranian nuclear facilities and missile prod",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31 with over 2,000 people killed since hostilities began February 28, 2026. Trump told reporters Iran had agreed to 'most of' the 15 points in the US ceasefire proposal transmitted via Pakistan, but Iran formally rejected the proposal on March 25 and called Trump 'deceitful,' presenting its own five-point counter-proposal. The Strait of Hormuz remains disrupted with ongoing tanker strikes affecting global oil shipping.",
-      "finding": "The claim states the conflict 'began February 28, 2026' and that Iran 'has closed the Strait of Hormuz' \u2014 web evidence confirms the war start date and ongoing Hormuz disruption. However, the claim states Trump said Iran agreed to 'most of' the 15-point demands, while Wikipedia web evidence indicates Iran rejected the 15-point proposal on March 25 and called Trump 'deceitful'; the framing that Iran agreed to 'most of' the points reflects only Trump's characterization and presents it as a factual status rather than a disputed claim."
+      "original_headline": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations underway - March 30, 2026",
+      "corrected_headline": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations with Iran's parliamentary speaker underway \u2014 March 30, 2026",
+      "original_summary": "Operation Epic Fury enters its 31st day with continued US-Israeli airstrikes on Iranian nuclear and missile facilities. Trump simultaneously threatened widespread destruction of Iran's energy resources while claiming the US is negotiating with Iran's parliamentary speaker. Over 2,000 killed since Fe",
+      "corrected_summary": "Operation Epic Fury entered its 31st day on March 30, 2026, with continued US-Israeli airstrikes on Iranian nuclear and missile facilities. Trump threatened widespread destruction of Iran's energy resources, including Kharg Island, while claiming the US is negotiating with Iran's parliamentary speaker. The casualty toll since the February 28 start of operations has not been independently confirmed at a specific figure by available sources.",
+      "finding": "The claim states Trump claimed negotiations with 'Iran's parliamentary speaker,' which is confirmed by AP News. However, the claim states the war started February 28 and this is Day 31, which is internally consistent. The key error is 'Over 2,000 killed since February 28 start date' \u2014 web evidence does not corroborate this specific casualty figure and it may be unverifiable or inaccurate."
     },
     {
-      "claim_index": 8,
+      "claim_index": 13,
       "source": "daily_intelligence/breaking_news",
-      "original_headline": "Iranian projectiles strike Bushehr nuclear power plant multiple times in March 2026, Iran's only functioning nuclear facility",
-      "corrected_headline": "US-Israeli strikes hit Bushehr nuclear power plant grounds multiple times in March 2026 in escalation targeting Iran's sole operational nuclear power facility",
-      "original_summary": "Iranian authorities report that projectiles have struck the area around the Bushehr nuclear power plant multiple times this month. This represents escalation targeting Iran's sole operational nuclear power facility during the ongoing US-Israel military campaign.",
-      "corrected_summary": "Iran's Atomic Energy Organization confirmed that projectiles from US-Israeli strikes struck the grounds of the Bushehr Nuclear Power Plant multiple times in March 2026, with the IAEA reporting no damage to the plant or injuries to staff following at least one confirmed strike. The attacks target Iran's only functioning nuclear power facility and represent a significant escalation in the ongoing US-Israel military campaign. Russia's nuclear chief also confirmed one of the strikes, raising international concern about nuclear facility safety.",
-      "finding": "The claim states 'projectiles have struck the area around the Bushehr nuclear power plant multiple times this month' but frames the subject as 'Iranian projectiles' striking their own plant \u2014 web evidence clearly indicates these are US-Israeli strikes hitting the Bushehr plant, not Iranian projectiles. The claim's phrasing 'Iranian projectiles' is an entity error."
+      "original_headline": "Iran war escalation coincides with Board of Peace Gaza disarmament plan presentation",
+      "corrected_headline": "Board of Peace's 8-month Hamas disarmament plan faces rejection as Iran war dominates attention on Day 31 of conflict",
+      "original_summary": "As Iran strikes Kuwaiti oil tanker in Dubai waters on Day 31 of conflict, Trump's Board of Peace simultaneously presents 8-month Hamas disarmament plan linking $7B Gaza reconstruction to weapons surrender. The timing suggests coordinated diplomatic pressure across multiple Middle East fronts.",
+      "corrected_summary": "Trump's Board of Peace presented an 8-month Hamas disarmament plan linking $7B in Gaza reconstruction to weapons surrender at the UN Security Council during the week of March 24-27, 2026. Hamas has denounced the plan as 'catastrophic' and sources indicate it will not respond while the Israel-Iran war is ongoing. The plan's presentation preceded Day 31 of the Iran conflict, though the two tracks remain diplomatically linked.",
+      "finding": "The claim states the Board of Peace 'presents 8-month Hamas disarmament plan' on Day 31 (March 30), but web evidence indicates the disarmament plan was presented to the UN Security Council around March 24-27, not March 30. The Haaretz source also reports Hamas will not respond to the plan while the Iran war is ongoing, and Hamas has denounced it. The timing characterization of simultaneous presentation on Day 31 is inaccurate."
     },
     {
-      "claim_index": 12,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "Board of Peace interim administration formation declared by Trump after Gaza ceasefire, 'The war is over'",
-      "corrected_headline": "Board of Peace (est. October 2025) advances Gaza disarmament plan in March 2026; Trump's 'war is over' declaration followed October 2025 ceasefire",
-      "original_summary": "Trump declared 'The war is over' regarding Gaza and announced that the Board of Peace and interim administration would be formed quickly following the October 2025 ceasefire. This activates the EO 14375 diplomatic immunity-shielded reconstruction architecture with Trump as lifetime chairman.",
-      "corrected_summary": "Trump's 'The war is over' declaration and announcement of the Board of Peace interim administration occurred in October 2025 following the Gaza ceasefire, not as a new March 2026 development. The Board of Peace, created under EO 14375 with Trump as lifetime chairman and IOIA diplomatic immunity, has since assumed oversight of Gaza's administration. As of March 2026, the Board is advancing an 8-month Hamas disarmament plan, with details of the framework being publicly revealed.",
-      "finding": "The claim attributes Trump's 'The war is over' declaration and Board of Peace formation announcement to events 'after Gaza ceasefire' without specifying the October 2025 timeframe clearly in the headline, but more critically the context states this is a 'breaking news' item in late March 2026 \u2014 the Board of Peace declaration and Trump's 'war is over' statement occurred in October 2025, making this a historical event being presented as new breaking news, which is misleading."
-    },
-    {
-      "claim_index": 14,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "Iran war escalation coincides with Gaza Board of Peace disarmament plan rollout",
-      "corrected_headline": "Iran war escalation stalls Board of Peace Gaza disarmament plan as diplomatic momentum pauses; Hamas denounces reconstruction-for-disarmament framework",
-      "original_summary": "As the Iran-Israel-US conflict enters Day 30+ with escalating regional involvement including Houthis opening new fronts, Trump's Board of Peace simultaneously advances its 8-month Hamas disarmament plan with $7B reconstruction fund contingent on weapons compliance. The timing suggests potential stra",
-      "corrected_summary": "Rather than advancing in coordination with the Iran campaign, Trump's Board of Peace Gaza disarmament plan has effectively stalled as the Iran war escalated, with foreign diplomats reporting loss of momentum per Reuters sources. The Board's $7B reconstruction fund remains contingent on Hamas weapons compliance over an 8-month timeline, but Hamas has publicly denounced the plan as 'catastrophic.' The claim of strategic coordination between the Iran campaign and Gaza reconstruction rollout is contradicted by available reporting.",
-      "finding": "The claim presents 'potential strategic coordination between Middle East military pressure and diplomatic reconstruction frameworks' as an analytical inference, which is speculative. More critically, web evidence from Reuters explicitly states Trump's Gaza plan is on hold and momentum stalled as the Iran war escalated \u2014 the opposite of coordinated simultaneous advancement."
-    },
-    {
-      "claim_index": 18,
+      "claim_index": 17,
       "source": "daily_intelligence/top_developments",
-      "original_headline": "Iran war enters Day 31 with over 2,000 killed as Trump signals willingness to end campaign despite Strait of Hormuz closure",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump signals willingness to end campaign despite Strait of Hormuz remaining largely closed",
-      "original_summary": "The US-Israel military operation against Iran continues with strikes on nuclear facilities including Bushehr power plant, while Trump reportedly told aides he would end the campaign even if the Strait remains closed. This represents potential de-escalation despite ongoing energy disruption affecting",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31, with strikes including hits on the Bushehr nuclear power plant grounds, while Trump told aides he would end the campaign even if the Strait of Hormuz remains largely closed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and is seeking Russian and Chinese involvement in any new framework as a guarantee against US deception. Global energy markets remain disrupted by Hormuz shipping restrictions and tanker attacks in the Gulf.",
-      "finding": "The claim states 'strikes on nuclear facilities including Bushehr power plant' \u2014 web evidence confirms strikes on Bushehr grounds, but the broader claim that this represents strikes on 'nuclear facilities' in the plural, combined with the Strait of Hormuz closure affecting 'Gulf SWF positions,' conflates verified facts with analytical inference. Additionally, the Iran war start date context (Day 31 from Feb 28) is verified, but Iran seeking Russia-China involvement while also claiming Iran rejected the 15-point proposal creates tension with the framing of 'ceasefire negotiations' as a symmetric process."
-    },
-    {
-      "claim_index": 19,
-      "source": "daily_intelligence/top_developments",
-      "original_headline": "DOJ released 3.5M pages in Epstein files through March 2026 including FBI 302s naming associates, triggering victim lawsuits against Trump DOJ and Google",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s naming associates; victims sue Trump DOJ and Google over exposed identities",
-      "original_summary": "The March 5, 2026 release included 50,000 previously withheld files with FBI interview summaries naming unknown associates, leading to resignations and arrests including Peter Mandelson. However, victims are suing the Trump administration and Google over a 'release now, retract later' approach that ",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, including a March 5 release of ~50,000 previously withheld files containing FBI 302 interview summaries naming previously unknown associates. Victims are now suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. The claim that releases led to specific named resignations or arrests, including of Peter Mandelson, is not supported by available evidence and has been removed.",
-      "finding": "The claim states the Epstein files releases led to 'resignations and arrests including Peter Mandelson' \u2014 this is a significant specific claim that is not supported by any provided web verification evidence and appears to be a fabricated or unverified detail that could constitute a serious reputational error."
+      "original_headline": "DOJ released 3.5 million Epstein files pages through March 2026, exposing new associates including Prince Andrew arrest while triggering victim privacy lawsuits",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested February 2026, victim privacy lawsuits ongoing",
+      "original_summary": "The Epstein Files Transparency Act compliance produced massive document releases including 50,000 previously withheld files in March 2026, leading to Prince Andrew's arrest after compromising photos surfaced and exposing Democratic Senator Ron Wyden's son seeking Epstein investment backing. However,",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced over 3 million pages released January 30, 2026, plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to Epstein ties. Victims have filed suit against DOJ and Google alleging a 'release now, retract later' approach prioritized volume over survivor privacy protections.",
+      "finding": "The claim states 'Prince Andrew's arrest after compromising photos surfaced' \u2014 web evidence shows Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties, not specifically due to 'compromising photos' from the March 2026 releases. The arrest predated the March batch. Additionally, the claim references 'Democratic Senator Ron Wyden's son' \u2014 this specific detail is not corroborated by any web evidence and appears fabricated."
     },
     {
       "claim_index": 21,
-      "source": "daily_intelligence/signal/Iran war and Strait of Hormuz",
-      "original_headline": "Iran war enters Day 30+ with ongoing US-Israel strikes, ceasefire negotiations stalled after Iran rejected 15-point US proposal, Strait of Hormuz shipping disrupted",
-      "corrected_headline": "Iran war Day 30+: US-Israel strikes exceed thousands of targets; Iran rejected 15-point proposal March 25 and issued five-point counter-demands including reparations; Hormuz shipping disrupted",
-      "original_summary": "The US-Israel joint military operation against Iran continues with over 10,000 targets struck since February 28, including recent hits on ballistic missile production facilities and the Bushehr nuclear plant area. Ceasefire negotiations remain deadlocked after Iran rejected Trump's 15-point proposal",
-      "corrected_summary": "The US-Israel joint military operation against Iran has struck thousands of targets since February 28, including ballistic missile production facilities and the Bushehr nuclear plant area, with CENTCOM confirming 20+ weapons systems deployed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and presented a five-point counter-proposal including halting attacks and compensation for damages. Strait of Hormuz shipping faces ongoing disruption with tanker strikes reported, pushing oil prices higher; the specific claim of 'Strait of Hormuz sovereignty' as an Iranian demand is unconfirmed and removed.",
-      "finding": "The claim states Iran 'issued counter-demands including reparations and Strait of Hormuz sovereignty' \u2014 the reparations counter-demand is consistent with web evidence showing Iran's five-point proposal included compensation, but 'Strait of Hormuz sovereignty' as a specific counter-demand is not confirmed in provided web evidence and may be an embellishment. The '10,000 targets struck' figure also cannot be verified from provided evidence."
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "original_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, Mubadala exits CoolIT for $4.75B, while PIF prepares \u20ac200M Salah offer",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal; Mubadala exits CoolIT for $4.75B in March 2026",
+      "original_summary": "Saudi PIF completed its most significant recent acquisition with a $1.78 billion deal to increase its stake in Singapore-based Olam Agri from 35.4% to 80%, with an option for the remaining 19.99% within three years. Separately, UAE's Mubadala announced a $4.75 billion exit from CoolIT Systems to Eco",
+      "corrected_summary": "Saudi PIF completed a $1.78 billion deal to increase its stake in Singapore-based Olam Agri from approximately 35% to 80%, with an option for the remaining shares within three years. UAE's Mubadala announced a $4.75 billion exit from its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction, delivering approximately 15x returns. A reported Mohamed Salah offer figure cited in the claim is internally inconsistent and unverified by available sources.",
+      "finding": "The claim states PIF is preparing a '\u20ac200M Salah offer' but the context specifies '\u20ac100M per year' \u2014 these are contradictory figures within the same claim. The headline says \u20ac200M while the context says \u20ac100M per year, creating internal inconsistency. Additionally, no web evidence corroborates either the \u20ac200M or \u20ac100M/year Salah offer figure."
+    },
+    {
+      "claim_index": 22,
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "original_headline": "DOJ released 3.5 million Epstein files pages through March 2026, triggering arrests, resignations, and victim lawsuits over privacy violations",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "original_summary": "The DOJ's Epstein Files Transparency Act compliance has produced massive document releases including a March 5, 2026 batch of 50,000 previously withheld files and a January 30 release of over 3 million pages. New revelations include FBI 302 interview summaries naming previously unknown associates, p",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office. Victims have filed suit against DOJ and Google alleging the department prioritized rapid, large-volume disclosure over survivor privacy protections in a 'release now, retract later' approach.",
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' \u2014 this specific allegation is not corroborated by any web evidence provided and appears to be a fabricated or unverified detail. The remaining elements (3.5M pages, Prince Andrew arrest, 50K March batch, victim lawsuits) are corroborated."
     },
     {
       "claim_index": 24,
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "original_headline": "DOJ released 3.5M pages in Epstein files through March 2026, including FBI 302s naming associates; victims now suing Trump DOJ and Google over exposed identities",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "original_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple batches in 2026, including FBI 302 interview summaries that name previously unknown associates. The latest major release was March 5, 2026 with ~50,000 previously withheld files. However, victims are n",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents in 2026, including a March 5 batch of ~50,000 previously withheld files with FBI 302 interview summaries naming associates. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. Any claim that specific named individuals were arrested or resigned as a result of these releases is not supported by available evidence and should not be reported as confirmed fact.",
-      "finding": "Same issue as Claim 19: the assertion that Epstein document releases led to 'resignations and arrests' is present in the context and is not supported by any provided web evidence; the Peter Mandelson arrest claim in the broader context is unverified and potentially fabricated."
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "original_headline": "Ukraine-Russia peace talks show mixed signals: Zelensky claims 90% deal agreed with Trump, proposes Easter energy ceasefire, while Rubio denies US demands for Donbas withdrawal",
+      "corrected_headline": "Ukraine-Russia peace talks show mixed signals: Zelensky proposes Easter energy ceasefire while Rubio denies US demands for Donbas withdrawal",
+      "original_summary": "Multiple conflicting developments in Ukraine-Russia negotiations as of March 31, 2026. Zelensky stated that 90% of a potential peace deal was agreed after December 2025 talks with Trump, while simultaneously proposing an Easter ceasefire focused on halting energy infrastructure attacks. However, US ",
+      "corrected_summary": "Ukrainian President Zelensky proposed both full and energy-related ceasefires over the Easter period, suggesting Ukraine would reciprocate if Russia halted attacks on Ukrainian energy infrastructure. US Secretary of State Rubio directly contradicted assertions that the Trump administration is demanding Kyiv hand over the Donbas region to Russia in exchange for security guarantees, calling such claims false. Negotiations remain ongoing with conflicting signals from Washington and Kyiv on the terms being discussed.",
+      "finding": "The claim states 'Zelensky claims 90% deal agreed with Trump' \u2014 web evidence does not corroborate a '90% deal agreed' statement. Evidence shows Zelensky proposed Easter ceasefires and Rubio denied the Donbas land-for-security-guarantees claim, but the '90% deal' figure is not supported by the web evidence provided."
     },
     {
-      "claim_index": 29,
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "original_headline": "Federal workforce restructuring continues with Schedule Policy/Career operational since March 9, 2026, amid ongoing union lawsuits and agency-specific RIF implementations",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "original_summary": "Schedule Policy/Career reclassification is now operational as of March 9, 2026, affecting approximately 50,000 federal positions converted to at-will employment, with federal employee organizations maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid fo",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, while the State Department continues layoffs following court rulings. OPM has simultaneously launched new recruitment efforts as part of the broader federal workforce restructuring; the specific date of March 9 as the effective date is unconfirmed.",
-      "finding": "The claim states Schedule Policy/Career took effect 'March 9, 2026' but the entity disambiguation table specifies it 'Took effect March 2026' \u2014 the specific date of March 9 cannot be verified from provided web evidence and may be fabricated; the disambiguation table does not confirm March 9 as the precise date."
+      "claim_index": 25,
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "original_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal after Anthropic contract termination",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files federal lawsuit over contract termination",
+      "original_summary": "Major Pentagon AI contract reshuffling occurred in March 2026. Palantir's Maven AI system was officially designated as a core military system with funding growing from $480M in 2024 to $13B, consolidating 75 existing contracts under a July 2025 Army framework. OpenAI signed a $200M Pentagon deal on ",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system, with platform investment growing from $480M in 2024 to $13B. OpenAI signed a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's $200M contract over disputes about AI use restrictions for surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; whether a court injunction was granted has not been confirmed by available evidence.",
+      "finding": "The claim states 'Anthropic won a federal court injunction' blocking the Pentagon ban \u2014 web evidence from Tom's Hardware references Anthropic filing federal lawsuits but does not confirm a successful injunction was granted. The claim presents a contested legal outcome as confirmed fact."
+    },
+    {
+      "claim_index": 31,
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "original_headline": "DOJ released 3.5 million Epstein files pages through March 2026, triggering arrests, resignations, and victim lawsuits over privacy violations",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "original_summary": "The DOJ's Epstein Files Transparency Act compliance has produced massive document releases including a March 5, 2026 batch of 50,000 previously withheld files and a January 30 release of over 3 million pages. These releases have exposed new associates including Prince Andrew (arrested after compromi",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties. Victims have filed suit against DOJ and Google alleging the 'release now, retract later' approach prioritized volume over survivor privacy protections, with the case proceeding in federal court.",
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' and 'Google co-founder Sergey Brin's island visits' \u2014 neither detail is corroborated by the web evidence provided, and both appear to be unverified or fabricated specifics injected into an otherwise largely accurate summary."
+    },
+    {
+      "claim_index": 33,
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "original_headline": "Ukraine-Russia peace talks show mixed signals: Zelensky claims 90% deal agreed with Trump, proposes Easter energy ceasefire, while Rubio denies US demands for Donbas withdrawal",
+      "corrected_headline": "Ukraine-Russia peace talks: Zelensky proposes Easter energy ceasefire while Rubio denies US demand for Donbas withdrawal",
+      "original_summary": "Multiple conflicting developments in Ukraine-Russia negotiations as of March 31, 2026. Zelensky claimed after December 2025 talks with Trump that 90% of a potential peace deal had been agreed, while recently proposing both full and energy-related ceasefires over Easter. However, US Secretary of Stat",
+      "corrected_summary": "Ukrainian President Zelensky offered both full and energy-related ceasefires over the Easter period, indicating readiness to reciprocate if Russia halted attacks on Ukraine's energy infrastructure. US Secretary of State Rubio directly disputed claims that the Trump administration is conditioning security guarantees on Ukraine ceding the Donbas to Russia, calling such assertions false. Negotiations between the parties continue with significant disagreement over reported terms.",
+      "finding": "The claim states 'Zelensky claimed after December 2025 talks with Trump that 90% of a potential peace deal had been agreed' \u2014 web evidence does not corroborate this specific '90% deal agreed' characterization, and no December 2025 talks producing this claim are referenced in the evidence."
     },
     {
       "claim_index": 34,
-      "source": "daily_intelligence/signal/Epstein document releases",
-      "original_headline": "DOJ released 3.5M pages in Epstein files through March 2026, including FBI 302s naming associates; victims now suing Trump DOJ and Google over exposed identities",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "original_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple batches in 2026, including FBI 302 interview summaries that name previously unknown associates. The latest release on March 5, 2026 included 50,000 previously withheld files after DOJ/FBI review. Howev",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, with the March 5 release including ~50,000 previously withheld files containing FBI 302 interview summaries. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach that exposed victim identifying information. Any claims about specific named arrests or resignations resulting from the releases are not supported by available evidence and should not be treated as confirmed fact.",
-      "finding": "Same issue as Claims 19 and 24: the broader context of this claim includes reference to 'resignations and arrests' resulting from Epstein document releases, which is unverified and potentially fabricated; the core facts about 3.5M pages, FBI 302s, and victim lawsuits against DOJ and Google are verified."
-    },
-    {
-      "claim_index": 35,
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "original_headline": "Maxwell seeking clemency from Trump while refusing Congressional testimony; House resolution opposes any clemency",
-      "corrected_headline": "Rep. Krishnamoorthi's H.Res.635 opposes Maxwell clemency as she refuses Congressional testimony on Epstein network",
-      "original_summary": "Ghislaine Maxwell is currently seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking. She has refused to answer lawmakers' questions in ongoing Congressional investigations into the Epstein network. A House resolution introduced by Rep. Raja on August 5th",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking, and has refused to answer lawmakers' questions in ongoing Congressional investigations into the Epstein network. Representative Raja Krishnamoorthi introduced H.Res.635 in the 119th Congress affirming that Maxwell's conviction was warranted and opposing any presidential clemency. The resolution's stated introduction date of 'August 5th' is not confirmed by available web evidence and should not be reported as established fact.",
-      "finding": "The claim references 'Rep. Raja' introducing the resolution 'on August 5th' \u2014 the full name is Rep. Raja Krishnamoorthi, and as noted in Claim 0, the August 5th introduction date is unverified; the web evidence confirms the resolution exists but does not confirm that specific introduction date."
-    },
-    {
-      "claim_index": 39,
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "original_headline": "Federal workforce restructuring continues with Schedule Policy/Career operational since March 9, 2026, amid ongoing union lawsuits and agency-specific RIF implementations",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "original_summary": "Schedule Policy/Career reclassification is now operational as of March 9, 2026, affecting approximately 50,000 federal positions converted to at-will employment, with federal employee organizations maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid fo",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, and the State Department continues layoffs after court rulings on congressional layoff protections. The specific effective date of March 9 is unconfirmed and should be reported only as 'March 2026' pending verification.",
-      "finding": "Same issue as Claim 29: the specific date of 'March 9, 2026' for Schedule Policy/Career taking effect is not confirmed in the entity disambiguation table (which states 'March 2026') and no web verification evidence confirms the March 9 date specifically."
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "original_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI replaces Anthropic with $200M defense contract after compliance dispute",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files lawsuit over terminated contract",
+      "original_summary": "Major Pentagon AI contract realignment occurred in past week. Palantir's Maven AI system was officially designated as a core military system with funding growing from $480M in 2024 to $13B total investment. OpenAI secured $200M Pentagon contract on Feb 27, 2026, immediately after Anthropic was desig",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system with investment growing from $480M in 2024 to $13B total. OpenAI secured a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's contract over disputes about AI use restrictions on surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; the outcome of those legal proceedings has not been confirmed by available evidence.",
+      "finding": "The claim states Anthropic was 'designated a national security supply-chain risk' and that 'a Federal judge blocked Pentagon's attempt to ban Anthropic, calling it troubling' \u2014 web evidence references Anthropic filing federal lawsuits but does not confirm a 'national security supply-chain risk' designation or a successful judicial block with that specific language. These appear to be unverified characterizations presented as confirmed fact."
     }
   ],
-  "enrichment_targets_found": 0,
-  "enrichments_applied": [],
+  "enrichment_targets_found": 1,
+  "enrichments_applied": [
+    {
+      "target": "maxwell",
+      "type": "node",
+      "headline": "Maxwell pardon bid continues as House Oversight subpoenas AG Bondi and seeks prison guard testimony on Epstein death",
+      "summary": "As of mid-to-late March 2026, Ghislaine Maxwell's attorney confirmed she is still actively seeking a presidential pardon from Trump, even as the broader Epstein accountability investigation accelerates around her. House Oversight Committee Chairman James Comer subpoenaed Attorney General Pam Bondi over Epstein files management, and the committee is separately pursuing testimony from a prison guard on duty at the time of Epstein's death \u2014 signaling Congressional focus has moved well beyond Maxwell herself. Democrats on Judiciary and Oversight also formally demanded DOJ implement five specific transparency steps, while Epstein's former attorney Donald Indyke testified he was unaware of the abuse and indicated he is awaiting further committee instructions on document production related to Virginia Giuffre's lawsuit against Maxwell.",
+      "enrichment_note": "Based on web search results from CNBC (March 13, 2026), Politico (March 13, 2026), PBS NewsHour, ms.now, and Rep. Jayapal's official site (March 23, 2026) \u2014 all corroborating active Congressional and DOJ action."
+    }
+  ],
   "issues_found": [
     {
-      "claim": "House Resolution 119-635 formally opposes Maxwell clemency while BBC releases new survivor interviews and Epstein accountant/lawyer depositions reveal government never interviewed key associates, March 26-31, 2026",
-      "source": "node_status/maxwell",
-      "finding": "H.Res.635 was introduced in the 119th Congress but the web evidence does not confirm it was introduced on August 5th \u2014 that date is unverified and potentially fabricated; the resolution number and introducer (Krishnamoorthi) are confirmed, but the introduction date in the claim requires correction. Additionally, the BBC survivor interviews and Epstein accountant/lawyer deposition details cannot be independently verified from the provided web evidence.",
-      "corrected_headline": "Rep. Krishnamoorthi introduces H.Res.635 opposing Maxwell clemency as BBC releases new survivor interviews and Epstein associates' depositions reveal investigative gaps",
-      "corrected_summary": "Representative Raja Krishnamoorthi introduced House Resolution 635 in the 119th Congress formally opposing any clemency for Ghislaine Maxwell, affirming her conviction was 'more than warranted by the facts.' BBC released new survivor interviews with victims speaking publicly about abuse by Epstein. Depositions from Epstein's accountant Richard Kahn and lawyer Darren Indyke reportedly revealed that government investigators never interviewed key associates, though the precise date of the resolution's introduction has not been independently confirmed as August 5th."
-    },
-    {
-      "claim": "Iran receives 15-point US ceasefire proposal through Pakistan-led mediation while Trump threatens energy grid obliteration and oil tanker struck in Dubai, March 30-31, 2026",
+      "claim": "Iran rejects US 15-point ceasefire proposal March 30 as Trump threatens energy grid obliteration while diplomatic backchannel through Pakistan-Egypt-Turkey-Saudi coalition intensifies",
       "source": "node_status/iran",
-      "finding": "The claim states Iran 'confirmed receiving' the 15-point proposal and that mediation was led by Pakistan, Egypt, Saudi Arabia and Turkey \u2014 this is verified. However, the claim describes the tanker as 'Kuwaiti' and struck 'in Dubai,' which is confirmed by web evidence, but the claim says the tanker was struck 'in Dubai' \u2014 web evidence confirms this. The core inaccuracy is that the claim conflates Iran 'receiving' the proposal with Iran engaging constructively; web evidence shows Iran had already rejected the 15-point plan on March 25, before the March 30 acknowledgment referenced here. The framing implies active negotiation when Iran had formally rejected the proposal.",
-      "corrected_headline": "Iran acknowledges receiving US 15-point ceasefire proposal but had already rejected it March 25; Trump threatens energy grid obliteration as Kuwaiti tanker struck off Dubai",
-      "corrected_summary": "Iran's foreign ministry spokesperson Esmail Baghaei confirmed Tehran had received a 15-point ceasefire proposal transmitted via Pakistan, Egypt, Saudi Arabia and Turkey, but Iran had already formally rejected the proposal on March 25 and issued counter-demands. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure while stating negotiations continue. A Kuwaiti oil tanker was struck by a suspected Iranian drone off Dubai port, triggering oil spill warnings."
+      "finding": "The claim accurately captures Iran's rejection and Trump's threats, but misstates the diplomatic coalition: web evidence confirms Pakistan mediated indirect talks, with Egypt, Turkey, and Saudi Arabia mentioned in context but not all confirmed as a formal four-nation coalition brokering this specific proposal. The Iranian Foreign Ministry acknowledged indirect talks via Pakistan specifically, and the spokesperson named is correct, but the framing of a 'Pakistan-Egypt-Turkey-Saudi coalition' overstates the confirmed coalition structure.",
+      "corrected_headline": "Iran rejects US 15-point ceasefire proposal as Trump threatens energy grid obliteration; Pakistan-mediated indirect backchannel confirmed",
+      "corrected_summary": "Iran's Foreign Ministry acknowledged on March 30 that indirect talks with the US had been ongoing via Pakistani mediation, while calling US positions 'excessive and unreasonable.' Iran rejected the 15-point ceasefire proposal and issued its own five-point counter-proposal including war reparations and sovereignty over the Strait of Hormuz. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure including Kharg Island if a deal wasn't reached 'shortly,' while claiming the US was negotiating both directly and indirectly with Iran."
     },
     {
-      "claim": "Israel expands Lebanon ground operations while conducting 170+ strikes on Iranian targets in Tehran on March 29-30, 2026, as IDF suspends Netzah Yehuda battalion for CNN crew assault",
+      "claim": "Israel strikes 170+ Iranian targets in 24 hours while expanding Lebanon ground operations as war enters day 31, March 30, 2026",
       "source": "node_status/israel",
-      "finding": "The claim states Israel conducted '170+ strikes on Iranian targets in Tehran' on March 29-30; web evidence confirms a wave of strikes on Tehran infrastructure but does not confirm the specific '170' figure as targeting Tehran exclusively \u2014 CENTCOM figures relate to total targets across Iran. The specific claim of 170+ strikes concentrated in Tehran is not verified and may conflate total campaign figures with a single city.",
-      "corrected_headline": "Israel expands Lebanon ground operations and strikes Iranian targets including Tehran infrastructure March 29-30 as IDF suspends Netzah Yehuda battalion for CNN crew assault",
-      "corrected_summary": "Israel significantly escalated operations on multiple fronts March 29-30, 2026, launching strikes on Iranian infrastructure including sites in and around Tehran, while expanding ground operations in southern Lebanon with Netanyahu ordering wider buffer zones against Hezbollah. The specific claim of 170+ strikes concentrated solely on Tehran is unconfirmed; CENTCOM's 20+ weapons systems figure covers the broader campaign across Iran. The IDF simultaneously suspended the Netzah Yehuda reserve battalion over an assault on a CNN crew."
+      "finding": "The claim states Israel struck 'over 170 Iranian targets in 24 hours,' but web evidence from Reuters cites 'over 140 air strikes' in the relevant 24-hour period, and ISW/ACLED data does not corroborate 170+. The 170+ figure appears inflated relative to corroborated reporting.",
+      "corrected_headline": "Israel strikes 140+ Iranian targets in 24 hours while expanding Lebanon ground operations as war enters day 31, March 30, 2026",
+      "corrected_summary": "As of March 30, 2026, Israel launched over 140 airstrikes on central and western Iran in a 24-hour period, targeting ballistic missile launch sites, storage facilities, and weapons research infrastructure including sites in Tehran. Israeli forces simultaneously expanded ground operations in southern Lebanon against Hezbollah. The IDF suspended the Netzah Yehuda battalion after soldiers assaulted a CNN crew in the West Bank."
     },
     {
-      "claim": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$262 while stock trades $138-$141 range, March 26-31, 2026",
+      "claim": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$400 as cloud infrastructure growth accelerates 84% but stock trades sideways March 26-31",
       "source": "node_status/oracle_ellison",
-      "finding": "Web evidence (Oracle investor relations) confirms Q3 FY2026 revenue of $17.2B (+22% YoY) and $553B RPO backlog, which aligns with the claim. However, Barchart web evidence cites Q3 revenue as $16.1B with 14.2% YoY growth, creating a discrepancy \u2014 the official Oracle IR release confirms $17.2B. The Bank of America $200 price target citing '30% upside' is inconsistent with the stock trading at $138-$141 (30% upside from ~$138 would imply ~$180 target, not $200), suggesting the upside percentage or price target figure is internally inconsistent.",
-      "corrected_headline": "Oracle Q3 FY2026 revenue rises 22% to $17.2B with record $553B backlog; stock trades near $138-$141 as analysts set mixed price targets ranging up to $262",
-      "corrected_summary": "Oracle reported Q3 FY2026 revenue of $17.2 billion, up 22% year-over-year, with OCI cloud growth of 84% and record Remaining Performance Obligations of $553 billion. The stock has declined approximately 25% year-to-date in 2026 and traded in the $138-$141 range as of late March despite the earnings beat. Analyst price targets vary widely; the claimed Bank of America $200 target representing '30% upside' from the ~$138-$141 trading range overstates the implied upside and should be characterized as approximately 40-45% upside at those levels."
+      "finding": "The claim states Bank of America reinstated coverage with a $200 target representing '29% upside,' but if the stock was trading at $138-$141, a $200 target represents approximately 40-45% upside, not 29%. The 29% upside figure corresponds to a different base price. Additionally, web evidence confirms the stock was trading well below $200 (around $138-145 range), making the '29% upside' calculation inconsistent with the stated trading range.",
+      "corrected_headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$400 as cloud infrastructure grows 84% but stock trades near 52-week lows",
+      "corrected_summary": "Following Oracle's Q3 FY2026 earnings report showing 22% revenue growth to $17.2B and a record $553B backlog, analysts issued divergent price targets. Bank of America reinstated coverage with a Buy rating and $200 target. Oracle's cloud infrastructure revenue surged 84% year-over-year, with total cloud up 44%. The stock traded in the $138-$145 range in late March, well below analyst targets, reflecting investor concerns about revenue conversion from the backlog."
     },
     {
-      "claim": "Iran war enters day 31 with over 2,000 killed, US-Iran negotiations ongoing via Pakistan on 15-point ceasefire plan",
+      "claim": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations underway - March 30, 2026",
       "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states the conflict 'began February 28, 2026' and that Iran 'has closed the Strait of Hormuz' \u2014 web evidence confirms the war start date and ongoing Hormuz disruption. However, the claim states Trump said Iran agreed to 'most of' the 15-point demands, while Wikipedia web evidence indicates Iran rejected the 15-point proposal on March 25 and called Trump 'deceitful'; the framing that Iran agreed to 'most of' the points reflects only Trump's characterization and presents it as a factual status rather than a disputed claim.",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump claims Iran agreed to 'most of' 15-point ceasefire plan but Iran formally rejected proposal March 25",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31 with over 2,000 people killed since hostilities began February 28, 2026. Trump told reporters Iran had agreed to 'most of' the 15 points in the US ceasefire proposal transmitted via Pakistan, but Iran formally rejected the proposal on March 25 and called Trump 'deceitful,' presenting its own five-point counter-proposal. The Strait of Hormuz remains disrupted with ongoing tanker strikes affecting global oil shipping."
+      "finding": "The claim states Trump claimed negotiations with 'Iran's parliamentary speaker,' which is confirmed by AP News. However, the claim states the war started February 28 and this is Day 31, which is internally consistent. The key error is 'Over 2,000 killed since February 28 start date' \u2014 web evidence does not corroborate this specific casualty figure and it may be unverifiable or inaccurate.",
+      "corrected_headline": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations with Iran's parliamentary speaker underway \u2014 March 30, 2026",
+      "corrected_summary": "Operation Epic Fury entered its 31st day on March 30, 2026, with continued US-Israeli airstrikes on Iranian nuclear and missile facilities. Trump threatened widespread destruction of Iran's energy resources, including Kharg Island, while claiming the US is negotiating with Iran's parliamentary speaker. The casualty toll since the February 28 start of operations has not been independently confirmed at a specific figure by available sources."
     },
     {
-      "claim": "Iranian projectiles strike Bushehr nuclear power plant multiple times in March 2026, Iran's only functioning nuclear facility",
+      "claim": "Iran war escalation coincides with Board of Peace Gaza disarmament plan presentation",
       "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states 'projectiles have struck the area around the Bushehr nuclear power plant multiple times this month' but frames the subject as 'Iranian projectiles' striking their own plant \u2014 web evidence clearly indicates these are US-Israeli strikes hitting the Bushehr plant, not Iranian projectiles. The claim's phrasing 'Iranian projectiles' is an entity error.",
-      "corrected_headline": "US-Israeli strikes hit Bushehr nuclear power plant grounds multiple times in March 2026 in escalation targeting Iran's sole operational nuclear power facility",
-      "corrected_summary": "Iran's Atomic Energy Organization confirmed that projectiles from US-Israeli strikes struck the grounds of the Bushehr Nuclear Power Plant multiple times in March 2026, with the IAEA reporting no damage to the plant or injuries to staff following at least one confirmed strike. The attacks target Iran's only functioning nuclear power facility and represent a significant escalation in the ongoing US-Israel military campaign. Russia's nuclear chief also confirmed one of the strikes, raising international concern about nuclear facility safety."
+      "finding": "The claim states the Board of Peace 'presents 8-month Hamas disarmament plan' on Day 31 (March 30), but web evidence indicates the disarmament plan was presented to the UN Security Council around March 24-27, not March 30. The Haaretz source also reports Hamas will not respond to the plan while the Iran war is ongoing, and Hamas has denounced it. The timing characterization of simultaneous presentation on Day 31 is inaccurate.",
+      "corrected_headline": "Board of Peace's 8-month Hamas disarmament plan faces rejection as Iran war dominates attention on Day 31 of conflict",
+      "corrected_summary": "Trump's Board of Peace presented an 8-month Hamas disarmament plan linking $7B in Gaza reconstruction to weapons surrender at the UN Security Council during the week of March 24-27, 2026. Hamas has denounced the plan as 'catastrophic' and sources indicate it will not respond while the Israel-Iran war is ongoing. The plan's presentation preceded Day 31 of the Iran conflict, though the two tracks remain diplomatically linked."
     },
     {
-      "claim": "Board of Peace interim administration formation declared by Trump after Gaza ceasefire, 'The war is over'",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim attributes Trump's 'The war is over' declaration and Board of Peace formation announcement to events 'after Gaza ceasefire' without specifying the October 2025 timeframe clearly in the headline, but more critically the context states this is a 'breaking news' item in late March 2026 \u2014 the Board of Peace declaration and Trump's 'war is over' statement occurred in October 2025, making this a historical event being presented as new breaking news, which is misleading.",
-      "corrected_headline": "Board of Peace (est. October 2025) advances Gaza disarmament plan in March 2026; Trump's 'war is over' declaration followed October 2025 ceasefire",
-      "corrected_summary": "Trump's 'The war is over' declaration and announcement of the Board of Peace interim administration occurred in October 2025 following the Gaza ceasefire, not as a new March 2026 development. The Board of Peace, created under EO 14375 with Trump as lifetime chairman and IOIA diplomatic immunity, has since assumed oversight of Gaza's administration. As of March 2026, the Board is advancing an 8-month Hamas disarmament plan, with details of the framework being publicly revealed."
-    },
-    {
-      "claim": "Iran war escalation coincides with Gaza Board of Peace disarmament plan rollout",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim presents 'potential strategic coordination between Middle East military pressure and diplomatic reconstruction frameworks' as an analytical inference, which is speculative. More critically, web evidence from Reuters explicitly states Trump's Gaza plan is on hold and momentum stalled as the Iran war escalated \u2014 the opposite of coordinated simultaneous advancement.",
-      "corrected_headline": "Iran war escalation stalls Board of Peace Gaza disarmament plan as diplomatic momentum pauses; Hamas denounces reconstruction-for-disarmament framework",
-      "corrected_summary": "Rather than advancing in coordination with the Iran campaign, Trump's Board of Peace Gaza disarmament plan has effectively stalled as the Iran war escalated, with foreign diplomats reporting loss of momentum per Reuters sources. The Board's $7B reconstruction fund remains contingent on Hamas weapons compliance over an 8-month timeline, but Hamas has publicly denounced the plan as 'catastrophic.' The claim of strategic coordination between the Iran campaign and Gaza reconstruction rollout is contradicted by available reporting."
-    },
-    {
-      "claim": "Iran war enters Day 31 with over 2,000 killed as Trump signals willingness to end campaign despite Strait of Hormuz closure",
+      "claim": "DOJ released 3.5 million Epstein files pages through March 2026, exposing new associates including Prince Andrew arrest while triggering victim privacy lawsuits",
       "source": "daily_intelligence/top_developments",
-      "finding": "The claim states 'strikes on nuclear facilities including Bushehr power plant' \u2014 web evidence confirms strikes on Bushehr grounds, but the broader claim that this represents strikes on 'nuclear facilities' in the plural, combined with the Strait of Hormuz closure affecting 'Gulf SWF positions,' conflates verified facts with analytical inference. Additionally, the Iran war start date context (Day 31 from Feb 28) is verified, but Iran seeking Russia-China involvement while also claiming Iran rejected the 15-point proposal creates tension with the framing of 'ceasefire negotiations' as a symmetric process.",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump signals willingness to end campaign despite Strait of Hormuz remaining largely closed",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31, with strikes including hits on the Bushehr nuclear power plant grounds, while Trump told aides he would end the campaign even if the Strait of Hormuz remains largely closed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and is seeking Russian and Chinese involvement in any new framework as a guarantee against US deception. Global energy markets remain disrupted by Hormuz shipping restrictions and tanker attacks in the Gulf."
+      "finding": "The claim states 'Prince Andrew's arrest after compromising photos surfaced' \u2014 web evidence shows Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties, not specifically due to 'compromising photos' from the March 2026 releases. The arrest predated the March batch. Additionally, the claim references 'Democratic Senator Ron Wyden's son' \u2014 this specific detail is not corroborated by any web evidence and appears fabricated.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested February 2026, victim privacy lawsuits ongoing",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced over 3 million pages released January 30, 2026, plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to Epstein ties. Victims have filed suit against DOJ and Google alleging a 'release now, retract later' approach prioritized volume over survivor privacy protections."
     },
     {
-      "claim": "DOJ released 3.5M pages in Epstein files through March 2026 including FBI 302s naming associates, triggering victim lawsuits against Trump DOJ and Google",
-      "source": "daily_intelligence/top_developments",
-      "finding": "The claim states the Epstein files releases led to 'resignations and arrests including Peter Mandelson' \u2014 this is a significant specific claim that is not supported by any provided web verification evidence and appears to be a fabricated or unverified detail that could constitute a serious reputational error.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s naming associates; victims sue Trump DOJ and Google over exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, including a March 5 release of ~50,000 previously withheld files containing FBI 302 interview summaries naming previously unknown associates. Victims are now suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. The claim that releases led to specific named resignations or arrests, including of Peter Mandelson, is not supported by available evidence and has been removed."
+      "claim": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal, Mubadala exits CoolIT for $4.75B, while PIF prepares \u20ac200M Salah offer",
+      "source": "daily_intelligence/signal/Gulf SWF capital movements",
+      "finding": "The claim states PIF is preparing a '\u20ac200M Salah offer' but the context specifies '\u20ac100M per year' \u2014 these are contradictory figures within the same claim. The headline says \u20ac200M while the context says \u20ac100M per year, creating internal inconsistency. Additionally, no web evidence corroborates either the \u20ac200M or \u20ac100M/year Salah offer figure.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal; Mubadala exits CoolIT for $4.75B in March 2026",
+      "corrected_summary": "Saudi PIF completed a $1.78 billion deal to increase its stake in Singapore-based Olam Agri from approximately 35% to 80%, with an option for the remaining shares within three years. UAE's Mubadala announced a $4.75 billion exit from its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction, delivering approximately 15x returns. A reported Mohamed Salah offer figure cited in the claim is internally inconsistent and unverified by available sources."
     },
     {
-      "claim": "Iran war enters Day 30+ with ongoing US-Israel strikes, ceasefire negotiations stalled after Iran rejected 15-point US proposal, Strait of Hormuz shipping disrupted",
-      "source": "daily_intelligence/signal/Iran war and Strait of Hormuz",
-      "finding": "The claim states Iran 'issued counter-demands including reparations and Strait of Hormuz sovereignty' \u2014 the reparations counter-demand is consistent with web evidence showing Iran's five-point proposal included compensation, but 'Strait of Hormuz sovereignty' as a specific counter-demand is not confirmed in provided web evidence and may be an embellishment. The '10,000 targets struck' figure also cannot be verified from provided evidence.",
-      "corrected_headline": "Iran war Day 30+: US-Israel strikes exceed thousands of targets; Iran rejected 15-point proposal March 25 and issued five-point counter-demands including reparations; Hormuz shipping disrupted",
-      "corrected_summary": "The US-Israel joint military operation against Iran has struck thousands of targets since February 28, including ballistic missile production facilities and the Bushehr nuclear plant area, with CENTCOM confirming 20+ weapons systems deployed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and presented a five-point counter-proposal including halting attacks and compensation for damages. Strait of Hormuz shipping faces ongoing disruption with tanker strikes reported, pushing oil prices higher; the specific claim of 'Strait of Hormuz sovereignty' as an Iranian demand is unconfirmed and removed."
-    },
-    {
-      "claim": "DOJ released 3.5M pages in Epstein files through March 2026, including FBI 302s naming associates; victims now suing Trump DOJ and Google over exposed identities",
+      "claim": "DOJ released 3.5 million Epstein files pages through March 2026, triggering arrests, resignations, and victim lawsuits over privacy violations",
       "source": "daily_intelligence/signal/Epstein document releases",
-      "finding": "Same issue as Claim 19: the assertion that Epstein document releases led to 'resignations and arrests' is present in the context and is not supported by any provided web evidence; the Peter Mandelson arrest claim in the broader context is unverified and potentially fabricated.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents in 2026, including a March 5 batch of ~50,000 previously withheld files with FBI 302 interview summaries naming associates. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. Any claim that specific named individuals were arrested or resigned as a result of these releases is not supported by available evidence and should not be reported as confirmed fact."
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' \u2014 this specific allegation is not corroborated by any web evidence provided and appears to be a fabricated or unverified detail. The remaining elements (3.5M pages, Prince Andrew arrest, 50K March batch, victim lawsuits) are corroborated.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office. Victims have filed suit against DOJ and Google alleging the department prioritized rapid, large-volume disclosure over survivor privacy protections in a 'release now, retract later' approach."
     },
     {
-      "claim": "Federal workforce restructuring continues with Schedule Policy/Career operational since March 9, 2026, amid ongoing union lawsuits and agency-specific RIF implementations",
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "finding": "The claim states Schedule Policy/Career took effect 'March 9, 2026' but the entity disambiguation table specifies it 'Took effect March 2026' \u2014 the specific date of March 9 cannot be verified from provided web evidence and may be fabricated; the disambiguation table does not confirm March 9 as the precise date.",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, while the State Department continues layoffs following court rulings. OPM has simultaneously launched new recruitment efforts as part of the broader federal workforce restructuring; the specific date of March 9 as the effective date is unconfirmed."
+      "claim": "Ukraine-Russia peace talks show mixed signals: Zelensky claims 90% deal agreed with Trump, proposes Easter energy ceasefire, while Rubio denies US demands for Donbas withdrawal",
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "finding": "The claim states 'Zelensky claims 90% deal agreed with Trump' \u2014 web evidence does not corroborate a '90% deal agreed' statement. Evidence shows Zelensky proposed Easter ceasefires and Rubio denied the Donbas land-for-security-guarantees claim, but the '90% deal' figure is not supported by the web evidence provided.",
+      "corrected_headline": "Ukraine-Russia peace talks show mixed signals: Zelensky proposes Easter energy ceasefire while Rubio denies US demands for Donbas withdrawal",
+      "corrected_summary": "Ukrainian President Zelensky proposed both full and energy-related ceasefires over the Easter period, suggesting Ukraine would reciprocate if Russia halted attacks on Ukrainian energy infrastructure. US Secretary of State Rubio directly contradicted assertions that the Trump administration is demanding Kyiv hand over the Donbas region to Russia in exchange for security guarantees, calling such claims false. Negotiations remain ongoing with conflicting signals from Washington and Kyiv on the terms being discussed."
     },
     {
-      "claim": "DOJ released 3.5M pages in Epstein files through March 2026, including FBI 302s naming associates; victims now suing Trump DOJ and Google over exposed identities",
+      "claim": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal after Anthropic contract termination",
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "finding": "The claim states 'Anthropic won a federal court injunction' blocking the Pentagon ban \u2014 web evidence from Tom's Hardware references Anthropic filing federal lawsuits but does not confirm a successful injunction was granted. The claim presents a contested legal outcome as confirmed fact.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files federal lawsuit over contract termination",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system, with platform investment growing from $480M in 2024 to $13B. OpenAI signed a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's $200M contract over disputes about AI use restrictions for surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; whether a court injunction was granted has not been confirmed by available evidence."
+    },
+    {
+      "claim": "DOJ released 3.5 million Epstein files pages through March 2026, triggering arrests, resignations, and victim lawsuits over privacy violations",
       "source": "daily_intelligence/signal/Epstein document releases",
-      "finding": "Same issue as Claims 19 and 24: the broader context of this claim includes reference to 'resignations and arrests' resulting from Epstein document releases, which is unverified and potentially fabricated; the core facts about 3.5M pages, FBI 302s, and victim lawsuits against DOJ and Google are verified.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, with the March 5 release including ~50,000 previously withheld files containing FBI 302 interview summaries. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach that exposed victim identifying information. Any claims about specific named arrests or resignations resulting from the releases are not supported by available evidence and should not be treated as confirmed fact."
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' and 'Google co-founder Sergey Brin's island visits' \u2014 neither detail is corroborated by the web evidence provided, and both appear to be unverified or fabricated specifics injected into an otherwise largely accurate summary.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties. Victims have filed suit against DOJ and Google alleging the 'release now, retract later' approach prioritized volume over survivor privacy protections, with the case proceeding in federal court."
     },
     {
-      "claim": "Maxwell seeking clemency from Trump while refusing Congressional testimony; House resolution opposes any clemency",
-      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
-      "finding": "The claim references 'Rep. Raja' introducing the resolution 'on August 5th' \u2014 the full name is Rep. Raja Krishnamoorthi, and as noted in Claim 0, the August 5th introduction date is unverified; the web evidence confirms the resolution exists but does not confirm that specific introduction date.",
-      "corrected_headline": "Rep. Krishnamoorthi's H.Res.635 opposes Maxwell clemency as she refuses Congressional testimony on Epstein network",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking, and has refused to answer lawmakers' questions in ongoing Congressional investigations into the Epstein network. Representative Raja Krishnamoorthi introduced H.Res.635 in the 119th Congress affirming that Maxwell's conviction was warranted and opposing any presidential clemency. The resolution's stated introduction date of 'August 5th' is not confirmed by available web evidence and should not be reported as established fact."
+      "claim": "Ukraine-Russia peace talks show mixed signals: Zelensky claims 90% deal agreed with Trump, proposes Easter energy ceasefire, while Rubio denies US demands for Donbas withdrawal",
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "finding": "The claim states 'Zelensky claimed after December 2025 talks with Trump that 90% of a potential peace deal had been agreed' \u2014 web evidence does not corroborate this specific '90% deal agreed' characterization, and no December 2025 talks producing this claim are referenced in the evidence.",
+      "corrected_headline": "Ukraine-Russia peace talks: Zelensky proposes Easter energy ceasefire while Rubio denies US demand for Donbas withdrawal",
+      "corrected_summary": "Ukrainian President Zelensky offered both full and energy-related ceasefires over the Easter period, indicating readiness to reciprocate if Russia halted attacks on Ukraine's energy infrastructure. US Secretary of State Rubio directly disputed claims that the Trump administration is conditioning security guarantees on Ukraine ceding the Donbas to Russia, calling such assertions false. Negotiations between the parties continue with significant disagreement over reported terms."
     },
     {
-      "claim": "Federal workforce restructuring continues with Schedule Policy/Career operational since March 9, 2026, amid ongoing union lawsuits and agency-specific RIF implementations",
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "finding": "Same issue as Claim 29: the specific date of 'March 9, 2026' for Schedule Policy/Career taking effect is not confirmed in the entity disambiguation table (which states 'March 2026') and no web verification evidence confirms the March 9 date specifically.",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, and the State Department continues layoffs after court rulings on congressional layoff protections. The specific effective date of March 9 is unconfirmed and should be reported only as 'March 2026' pending verification."
+      "claim": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI replaces Anthropic with $200M defense contract after compliance dispute",
+      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
+      "finding": "The claim states Anthropic was 'designated a national security supply-chain risk' and that 'a Federal judge blocked Pentagon's attempt to ban Anthropic, calling it troubling' \u2014 web evidence references Anthropic filing federal lawsuits but does not confirm a 'national security supply-chain risk' designation or a successful judicial block with that specific language. These appear to be unverified characterizations presented as confirmed fact.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files lawsuit over terminated contract",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system with investment growing from $480M in 2024 to $13B total. OpenAI secured a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's contract over disputes about AI use restrictions on surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; the outcome of those legal proceedings has not been confirmed by available evidence."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
       "status": "FLAGGED",
-      "finding": "H.Res.635 was introduced in the 119th Congress but the web evidence does not confirm it was introduced on August 5th \u2014 that date is unverified and potentially fabricated; the resolution number and introducer (Krishnamoorthi) are confirmed, but the introduction date in the claim requires correction. Additionally, the BBC survivor interviews and Epstein accountant/lawyer deposition details cannot be independently verified from the provided web evidence.",
-      "corrected_headline": "Rep. Krishnamoorthi introduces H.Res.635 opposing Maxwell clemency as BBC releases new survivor interviews and Epstein associates' depositions reveal investigative gaps",
-      "corrected_summary": "Representative Raja Krishnamoorthi introduced House Resolution 635 in the 119th Congress formally opposing any clemency for Ghislaine Maxwell, affirming her conviction was 'more than warranted by the facts.' BBC released new survivor interviews with victims speaking publicly about abuse by Epstein. Depositions from Epstein's accountant Richard Kahn and lawyer Darren Indyke reportedly revealed that government investigators never interviewed key associates, though the precise date of the resolution's introduction has not been independently confirmed as August 5th."
+      "finding": "The claim accurately captures Iran's rejection and Trump's threats, but misstates the diplomatic coalition: web evidence confirms Pakistan mediated indirect talks, with Egypt, Turkey, and Saudi Arabia mentioned in context but not all confirmed as a formal four-nation coalition brokering this specific proposal. The Iranian Foreign Ministry acknowledged indirect talks via Pakistan specifically, and the spokesperson named is correct, but the framing of a 'Pakistan-Egypt-Turkey-Saudi coalition' overstates the confirmed coalition structure.",
+      "corrected_headline": "Iran rejects US 15-point ceasefire proposal as Trump threatens energy grid obliteration; Pakistan-mediated indirect backchannel confirmed",
+      "corrected_summary": "Iran's Foreign Ministry acknowledged on March 30 that indirect talks with the US had been ongoing via Pakistani mediation, while calling US positions 'excessive and unreasonable.' Iran rejected the 15-point ceasefire proposal and issued its own five-point counter-proposal including war reparations and sovereignty over the Strait of Hormuz. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure including Kharg Island if a deal wasn't reached 'shortly,' while claiming the US was negotiating both directly and indirectly with Iran."
     },
     {
       "claim_index": 1,
-      "status": "FLAGGED",
-      "finding": "The claim states Iran 'confirmed receiving' the 15-point proposal and that mediation was led by Pakistan, Egypt, Saudi Arabia and Turkey \u2014 this is verified. However, the claim describes the tanker as 'Kuwaiti' and struck 'in Dubai,' which is confirmed by web evidence, but the claim says the tanker was struck 'in Dubai' \u2014 web evidence confirms this. The core inaccuracy is that the claim conflates Iran 'receiving' the proposal with Iran engaging constructively; web evidence shows Iran had already rejected the 15-point plan on March 25, before the March 30 acknowledgment referenced here. The framing implies active negotiation when Iran had formally rejected the proposal.",
-      "corrected_headline": "Iran acknowledges receiving US 15-point ceasefire proposal but had already rejected it March 25; Trump threatens energy grid obliteration as Kuwaiti tanker struck off Dubai",
-      "corrected_summary": "Iran's foreign ministry spokesperson Esmail Baghaei confirmed Tehran had received a 15-point ceasefire proposal transmitted via Pakistan, Egypt, Saudi Arabia and Turkey, but Iran had already formally rejected the proposal on March 25 and issued counter-demands. Trump simultaneously threatened to 'obliterate' Iran's energy infrastructure while stating negotiations continue. A Kuwaiti oil tanker was struck by a suspected Iranian drone off Dubai port, triggering oil spill warnings."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms PIF Governor Al-Rumayyan's statements at FII PRIORITY Miami 2026 (March 26-27) about unveiling a new five-year strategy 'in the coming few weeks,' the strategic shift toward private sector partnerships, PIF's continued global investment commitment despite Iran war costs, and Mubadala's $4.75B CoolIT exit. The $10.95B total Mubadala exits figure is not fully itemized in the evidence but the CoolIT component is confirmed."
     },
     {
       "claim_index": 2,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms PIF Governor Al-Rumayyan announced the new five-year strategy would be unveiled 'in the coming few weeks' at FII PRIORITY Miami 2026, and Mubadala's CoolIT Systems exit and Clear Channel acquisition figures are consistent with the claim as presented."
+      "status": "FLAGGED",
+      "finding": "The claim states Israel struck 'over 170 Iranian targets in 24 hours,' but web evidence from Reuters cites 'over 140 air strikes' in the relevant 24-hour period, and ISW/ACLED data does not corroborate 170+. The 170+ figure appears inflated relative to corroborated reporting.",
+      "corrected_headline": "Israel strikes 140+ Iranian targets in 24 hours while expanding Lebanon ground operations as war enters day 31, March 30, 2026",
+      "corrected_summary": "As of March 30, 2026, Israel launched over 140 airstrikes on central and western Iran in a 24-hour period, targeting ballistic missile launch sites, storage facilities, and weapons research infrastructure including sites in Tehran. Israeli forces simultaneously expanded ground operations in southern Lebanon against Hezbollah. The IDF suspended the Netzah Yehuda battalion after soldiers assaulted a CNN crew in the West Bank."
     },
     {
       "claim_index": 3,
       "status": "FLAGGED",
-      "finding": "The claim states Israel conducted '170+ strikes on Iranian targets in Tehran' on March 29-30; web evidence confirms a wave of strikes on Tehran infrastructure but does not confirm the specific '170' figure as targeting Tehran exclusively \u2014 CENTCOM figures relate to total targets across Iran. The specific claim of 170+ strikes concentrated in Tehran is not verified and may conflate total campaign figures with a single city.",
-      "corrected_headline": "Israel expands Lebanon ground operations and strikes Iranian targets including Tehran infrastructure March 29-30 as IDF suspends Netzah Yehuda battalion for CNN crew assault",
-      "corrected_summary": "Israel significantly escalated operations on multiple fronts March 29-30, 2026, launching strikes on Iranian infrastructure including sites in and around Tehran, while expanding ground operations in southern Lebanon with Netanyahu ordering wider buffer zones against Hezbollah. The specific claim of 170+ strikes concentrated solely on Tehran is unconfirmed; CENTCOM's 20+ weapons systems figure covers the broader campaign across Iran. The IDF simultaneously suspended the Netzah Yehuda reserve battalion over an assault on a CNN crew."
+      "finding": "The claim states Bank of America reinstated coverage with a $200 target representing '29% upside,' but if the stock was trading at $138-$141, a $200 target represents approximately 40-45% upside, not 29%. The 29% upside figure corresponds to a different base price. Additionally, web evidence confirms the stock was trading well below $200 (around $138-145 range), making the '29% upside' calculation inconsistent with the stated trading range.",
+      "corrected_headline": "Oracle Q3 2026 earnings drive mixed analyst reactions with price targets ranging $200-$400 as cloud infrastructure grows 84% but stock trades near 52-week lows",
+      "corrected_summary": "Following Oracle's Q3 FY2026 earnings report showing 22% revenue growth to $17.2B and a record $553B backlog, analysts issued divergent price targets. Bank of America reinstated coverage with a Buy rating and $200 target. Oracle's cloud infrastructure revenue surged 84% year-over-year, with total cloud up 44%. The stock traded in the $138-$145 range in late March, well below analyst targets, reflecting investor concerns about revenue conversion from the backlog."
     },
     {
       "claim_index": 4,
-      "status": "FLAGGED",
-      "finding": "Web evidence (Oracle investor relations) confirms Q3 FY2026 revenue of $17.2B (+22% YoY) and $553B RPO backlog, which aligns with the claim. However, Barchart web evidence cites Q3 revenue as $16.1B with 14.2% YoY growth, creating a discrepancy \u2014 the official Oracle IR release confirms $17.2B. The Bank of America $200 price target citing '30% upside' is inconsistent with the stock trading at $138-$141 (30% upside from ~$138 would imply ~$180 target, not $200), suggesting the upside percentage or price target figure is internally inconsistent.",
-      "corrected_headline": "Oracle Q3 FY2026 revenue rises 22% to $17.2B with record $553B backlog; stock trades near $138-$141 as analysts set mixed price targets ranging up to $262",
-      "corrected_summary": "Oracle reported Q3 FY2026 revenue of $17.2 billion, up 22% year-over-year, with OCI cloud growth of 84% and record Remaining Performance Obligations of $553 billion. The stock has declined approximately 25% year-to-date in 2026 and traded in the $138-$141 range as of late March despite the earnings beat. Analyst price targets vary widely; the claimed Bank of America $200 target representing '30% upside' from the ~$138-$141 trading range overstates the implied upside and should be characterized as approximately 40-45% upside at those levels."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms American Oversight filed a federal court motion seeking DOJ and FBI records on the Epstein file review process ahead of AG Pam Bondi's April 14 Congressional deposition, and that a victim lawsuit alleges DOJ prioritized speed over privacy protection with a 'release now, retract later' approach."
     },
     {
       "claim_index": 5,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms the DOJ released additional Epstein documents, Bondi was subpoenaed for an April 14 Congressional deposition by the House Oversight Committee, and American Oversight is pursuing federal court records; the specific details about prison guard activities and 'orange figure' video analysis are not independently confirmed but the core institutional facts are verified."
+      "finding": "Web evidence confirms Entergy's $5B customer savings announcement from data center agreements, the 'Fair Share Plus' pledge, Google's agreement to support a 600MW solar and 350MW battery facility for Entergy Arkansas, and the separate Entergy Louisiana-Meta agreement delivering an additional $2B in customer savings announced March 27."
     },
     {
       "claim_index": 6,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Microsoft took over a Texas data center construction project after OpenAI declined to pursue it, and Entergy Louisiana announced a new Meta agreement delivering an additional $2B in customer savings over 20 years."
+      "status": "FLAGGED",
+      "finding": "The claim states Trump claimed negotiations with 'Iran's parliamentary speaker,' which is confirmed by AP News. However, the claim states the war started February 28 and this is Day 31, which is internally consistent. The key error is 'Over 2,000 killed since February 28 start date' \u2014 web evidence does not corroborate this specific casualty figure and it may be unverifiable or inaccurate.",
+      "corrected_headline": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations with Iran's parliamentary speaker underway \u2014 March 30, 2026",
+      "corrected_summary": "Operation Epic Fury entered its 31st day on March 30, 2026, with continued US-Israeli airstrikes on Iranian nuclear and missile facilities. Trump threatened widespread destruction of Iran's energy resources, including Kharg Island, while claiming the US is negotiating with Iran's parliamentary speaker. The casualty toll since the February 28 start of operations has not been independently confirmed at a specific figure by available sources."
     },
     {
       "claim_index": 7,
-      "status": "FLAGGED",
-      "finding": "The claim states the conflict 'began February 28, 2026' and that Iran 'has closed the Strait of Hormuz' \u2014 web evidence confirms the war start date and ongoing Hormuz disruption. However, the claim states Trump said Iran agreed to 'most of' the 15-point demands, while Wikipedia web evidence indicates Iran rejected the 15-point proposal on March 25 and called Trump 'deceitful'; the framing that Iran agreed to 'most of' the points reflects only Trump's characterization and presents it as a factual status rather than a disputed claim.",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump claims Iran agreed to 'most of' 15-point ceasefire plan but Iran formally rejected proposal March 25",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31 with over 2,000 people killed since hostilities began February 28, 2026. Trump told reporters Iran had agreed to 'most of' the 15 points in the US ceasefire proposal transmitted via Pakistan, but Iran formally rejected the proposal on March 25 and called Trump 'deceitful,' presenting its own five-point counter-proposal. The Strait of Hormuz remains disrupted with ongoing tanker strikes affecting global oil shipping."
+      "status": "VERIFIED",
+      "finding": "Web evidence from multiple sources (NYT, Guardian, Bloomberg, Al Jazeera, KPC) confirms the Al Salmi Kuwaiti oil tanker was struck in an Iranian attack while anchored at Dubai port, causing a fire onboard with potential oil spill risk. Kuwait Petroleum Corporation was the reporting entity and no casualties were reported."
     },
     {
       "claim_index": 8,
-      "status": "FLAGGED",
-      "finding": "The claim states 'projectiles have struck the area around the Bushehr nuclear power plant multiple times this month' but frames the subject as 'Iranian projectiles' striking their own plant \u2014 web evidence clearly indicates these are US-Israeli strikes hitting the Bushehr plant, not Iranian projectiles. The claim's phrasing 'Iranian projectiles' is an entity error.",
-      "corrected_headline": "US-Israeli strikes hit Bushehr nuclear power plant grounds multiple times in March 2026 in escalation targeting Iran's sole operational nuclear power facility",
-      "corrected_summary": "Iran's Atomic Energy Organization confirmed that projectiles from US-Israeli strikes struck the grounds of the Bushehr Nuclear Power Plant multiple times in March 2026, with the IAEA reporting no damage to the plant or injuries to staff following at least one confirmed strike. The attacks target Iran's only functioning nuclear power facility and represent a significant escalation in the ongoing US-Israel military campaign. Russia's nuclear chief also confirmed one of the strikes, raising international concern about nuclear facility safety."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Trump stated Iran agreed to release 20 more cargo ships of oil through the Strait of Hormuz, characterizing it as a 'tribute' and 'sign of respect.' Iran officially rejected the 15-point proposal while Trump claimed they agreed to 'most of the points.' The claim accurately represents the dual contradictory narratives."
     },
     {
       "claim_index": 9,
       "status": "VERIFIED",
-      "finding": "Web evidence from NYT, The Independent, and The Guardian confirms a Kuwaiti tanker laden with oil was struck off Dubai port the day after Trump threatened Iran's energy infrastructure, with Kuwait blaming Iran and issuing oil spill warnings."
+      "finding": "Web evidence confirms Brent crude was heading for a record monthly gain of approximately 59-60% in March 2026, driven by the Iran war disrupting shipping lanes and energy infrastructure, with Brent trading around $114-115 per barrel and US WTI settling above $100 for the first time since 2022."
     },
     {
       "claim_index": 10,
       "status": "VERIFIED",
-      "finding": "Web evidence from Reuters, US News/Reuters, and Investing.com confirms Trump told aides he is willing to end the Iran military campaign even if the Strait of Hormuz remains largely closed, per WSJ reporting, and markets showed positive movement on the news."
+      "finding": "Web evidence confirms Trump declared 'the war is over' and that the Board of Peace interim administration would be formed quickly, following Hamas releasing 7 hostages to the Red Cross in Gaza City. The Board of Peace's structure and diplomatic immunity are consistent with the entity disambiguation definition."
     },
     {
       "claim_index": 11,
       "status": "VERIFIED",
-      "finding": "Web evidence from Times of Israel, Times of India, and La Presse confirms reports (citing Israeli Channel 12) that Iran is seeking Russian and Chinese involvement in the ceasefire framework as a guarantee against US deception, which is among the reasons for Tehran's delayed formal response."
+      "finding": "Web evidence from Washington Post, ISW, and Critical Threats confirms that combined US-Israeli forces struck four key Iranian ballistic missile production facilities and 29 missile launch bases as reported on March 29, 2026. Israeli Air Force munitions targeting weapons research sites in Tehran is corroborated."
     },
     {
       "claim_index": 12,
-      "status": "FLAGGED",
-      "finding": "The claim attributes Trump's 'The war is over' declaration and Board of Peace formation announcement to events 'after Gaza ceasefire' without specifying the October 2025 timeframe clearly in the headline, but more critically the context states this is a 'breaking news' item in late March 2026 \u2014 the Board of Peace declaration and Trump's 'war is over' statement occurred in October 2025, making this a historical event being presented as new breaking news, which is misleading.",
-      "corrected_headline": "Board of Peace (est. October 2025) advances Gaza disarmament plan in March 2026; Trump's 'war is over' declaration followed October 2025 ceasefire",
-      "corrected_summary": "Trump's 'The war is over' declaration and announcement of the Board of Peace interim administration occurred in October 2025 following the Gaza ceasefire, not as a new March 2026 development. The Board of Peace, created under EO 14375 with Trump as lifetime chairman and IOIA diplomatic immunity, has since assumed oversight of Gaza's administration. As of March 2026, the Board is advancing an 8-month Hamas disarmament plan, with details of the framework being publicly revealed."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Ali Khamenei was killed on February 28, 2026, during US-Israeli airstrikes, with death confirmed March 1 by Iranian state media. The Assembly of Experts' role in succession is accurate per the entity disambiguation. An Interim Leadership Council was formed on March 1, and the succession crisis is ongoing, consistent with the claim."
     },
     {
       "claim_index": 13,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Stars and Stripes and Al Jazeera confirms CENTCOM stated US forces used more than 20 distinct weapons systems, hitting more than 1,000 targets, with the US focusing on long-range weapons targeting central and southern Iran and Israel focusing on northern Iran with US-made advanced jets."
+      "status": "FLAGGED",
+      "finding": "The claim states the Board of Peace 'presents 8-month Hamas disarmament plan' on Day 31 (March 30), but web evidence indicates the disarmament plan was presented to the UN Security Council around March 24-27, not March 30. The Haaretz source also reports Hamas will not respond to the plan while the Iran war is ongoing, and Hamas has denounced it. The timing characterization of simultaneous presentation on Day 31 is inaccurate.",
+      "corrected_headline": "Board of Peace's 8-month Hamas disarmament plan faces rejection as Iran war dominates attention on Day 31 of conflict",
+      "corrected_summary": "Trump's Board of Peace presented an 8-month Hamas disarmament plan linking $7B in Gaza reconstruction to weapons surrender at the UN Security Council during the week of March 24-27, 2026. Hamas has denounced the plan as 'catastrophic' and sources indicate it will not respond while the Israel-Iran war is ongoing. The plan's presentation preceded Day 31 of the Iran conflict, though the two tracks remain diplomatically linked."
     },
     {
       "claim_index": 14,
-      "status": "FLAGGED",
-      "finding": "The claim presents 'potential strategic coordination between Middle East military pressure and diplomatic reconstruction frameworks' as an analytical inference, which is speculative. More critically, web evidence from Reuters explicitly states Trump's Gaza plan is on hold and momentum stalled as the Iran war escalated \u2014 the opposite of coordinated simultaneous advancement.",
-      "corrected_headline": "Iran war escalation stalls Board of Peace Gaza disarmament plan as diplomatic momentum pauses; Hamas denounces reconstruction-for-disarmament framework",
-      "corrected_summary": "Rather than advancing in coordination with the Iran campaign, Trump's Board of Peace Gaza disarmament plan has effectively stalled as the Iran war escalated, with foreign diplomats reporting loss of momentum per Reuters sources. The Board's $7B reconstruction fund remains contingent on Hamas weapons compliance over an 8-month timeline, but Hamas has publicly denounced the plan as 'catastrophic.' The claim of strategic coordination between the Iran campaign and Gaza reconstruction rollout is contradicted by available reporting."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Iran rejected the US 15-point ceasefire proposal, Trump threatened to 'take the oil in Iran' and seize Kharg Island, and Iranian forces struck a Kuwaiti oil tanker in Dubai waters. The characterization of dual-track diplomatic-military pressure is consistent with reporting."
     },
     {
       "claim_index": 15,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific claim that Saudi PIF's Olam Agri acquisition ($1.78B) and Mubadala's CoolIT Systems exit ($4.75B) proceeded during the Iran war period is plausible and consistent with other verified claims, but the assertion that Gulf SWFs are maintaining investment strategies 'independent of immediate regional military conflicts' is an editorial inference not independently verifiable from provided evidence."
+      "status": "VERIFIED",
+      "finding": "Web evidence from multiple sources (404media, Gadget Review, MacObserver, Security Boulevard, CyberInsider) confirms Apple provided the FBI with identifying information linking a 'Hide My Email' address to a real user identity when compelled by legal process, contradicting its public privacy marketing claims."
     },
     {
       "claim_index": 16,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the Inovio Pharmaceuticals securities lawsuit claim, and this cannot be verified or refuted from training knowledge alone without risking fabrication."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Iranian forces struck the fully-loaded Kuwaiti crude oil tanker Al Salmi at Dubai port on March 30/31, causing fire and potential oil spill. Trump simultaneously claimed ceasefire negotiations were underway, consistent with the dual-track characterization in the claim."
     },
     {
       "claim_index": 17,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the OMB review of the DOL 401(k) alternative investment proposed rule, and the specific procedural claim cannot be verified from training knowledge alone."
+      "status": "FLAGGED",
+      "finding": "The claim states 'Prince Andrew's arrest after compromising photos surfaced' \u2014 web evidence shows Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties, not specifically due to 'compromising photos' from the March 2026 releases. The arrest predated the March batch. Additionally, the claim references 'Democratic Senator Ron Wyden's son' \u2014 this specific detail is not corroborated by any web evidence and appears fabricated.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested February 2026, victim privacy lawsuits ongoing",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced over 3 million pages released January 30, 2026, plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to Epstein ties. Victims have filed suit against DOJ and Google alleging a 'release now, retract later' approach prioritized volume over survivor privacy protections."
     },
     {
       "claim_index": 18,
-      "status": "FLAGGED",
-      "finding": "The claim states 'strikes on nuclear facilities including Bushehr power plant' \u2014 web evidence confirms strikes on Bushehr grounds, but the broader claim that this represents strikes on 'nuclear facilities' in the plural, combined with the Strait of Hormuz closure affecting 'Gulf SWF positions,' conflates verified facts with analytical inference. Additionally, the Iran war start date context (Day 31 from Feb 28) is verified, but Iran seeking Russia-China involvement while also claiming Iran rejected the 15-point proposal creates tension with the framing of 'ceasefire negotiations' as a symmetric process.",
-      "corrected_headline": "Iran war enters Day 31 with 2,000+ killed; Trump signals willingness to end campaign despite Strait of Hormuz remaining largely closed",
-      "corrected_summary": "The US-Israel military operation against Iran continues past Day 31, with strikes including hits on the Bushehr nuclear power plant grounds, while Trump told aides he would end the campaign even if the Strait of Hormuz remains largely closed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and is seeking Russian and Chinese involvement in any new framework as a guarantee against US deception. Global energy markets remain disrupted by Hormuz shipping restrictions and tanker attacks in the Gulf."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle's Q3 FY2026 revenue of $17.2B (22% YoY growth), 84% OCI growth, record $553B backlog, analyst concerns about revenue conversion from the backlog, and the context of Oracle's significant debt load and Stargate commitments."
     },
     {
       "claim_index": 19,
-      "status": "FLAGGED",
-      "finding": "The claim states the Epstein files releases led to 'resignations and arrests including Peter Mandelson' \u2014 this is a significant specific claim that is not supported by any provided web verification evidence and appears to be a fabricated or unverified detail that could constitute a serious reputational error.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s naming associates; victims sue Trump DOJ and Google over exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, including a March 5 release of ~50,000 previously withheld files containing FBI 302 interview summaries naming previously unknown associates. Victims are now suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. The claim that releases led to specific named resignations or arrests, including of Peter Mandelson, is not supported by available evidence and has been removed."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms the Kuwaiti oil tanker Al Salmi was struck by Iranian forces at Dubai port on March 30, Iran rejected the 15-point ceasefire proposal and issued counter-demands including sovereignty over the Strait of Hormuz, and Trump claimed active negotiations despite Iranian denials."
     },
     {
       "claim_index": 20,
       "status": "VERIFIED",
-      "finding": "Web evidence from Oracle's official investor relations confirms Q3 FY2026 revenue of $17.2B (+22% YoY), $553B RPO backlog, and 84% OCI growth; the characterization of mixed analyst reactions with some lowering price targets despite earnings beats is consistent with the web evidence showing the stock down ~25% YTD."
+      "finding": "Web evidence confirms the Board of Peace presented Hamas with an 8-month disarmament plan requiring tunnel destruction in stages, with reconstruction tied to compliance. Trump announced $7B in international commitments at the Board's first meeting February 19. High Representative Nickolay Mladenov presented the plan at the UN Security Council, and Kosovo's troop contribution is referenced in broader coverage."
     },
     {
       "claim_index": 21,
       "status": "FLAGGED",
-      "finding": "The claim states Iran 'issued counter-demands including reparations and Strait of Hormuz sovereignty' \u2014 the reparations counter-demand is consistent with web evidence showing Iran's five-point proposal included compensation, but 'Strait of Hormuz sovereignty' as a specific counter-demand is not confirmed in provided web evidence and may be an embellishment. The '10,000 targets struck' figure also cannot be verified from provided evidence.",
-      "corrected_headline": "Iran war Day 30+: US-Israel strikes exceed thousands of targets; Iran rejected 15-point proposal March 25 and issued five-point counter-demands including reparations; Hormuz shipping disrupted",
-      "corrected_summary": "The US-Israel joint military operation against Iran has struck thousands of targets since February 28, including ballistic missile production facilities and the Bushehr nuclear plant area, with CENTCOM confirming 20+ weapons systems deployed. Iran formally rejected the US 15-point ceasefire proposal on March 25 and presented a five-point counter-proposal including halting attacks and compensation for damages. Strait of Hormuz shipping faces ongoing disruption with tanker strikes reported, pushing oil prices higher; the specific claim of 'Strait of Hormuz sovereignty' as an Iranian demand is unconfirmed and removed."
+      "finding": "The claim states PIF is preparing a '\u20ac200M Salah offer' but the context specifies '\u20ac100M per year' \u2014 these are contradictory figures within the same claim. The headline says \u20ac200M while the context says \u20ac100M per year, creating internal inconsistency. Additionally, no web evidence corroborates either the \u20ac200M or \u20ac100M/year Salah offer figure.",
+      "corrected_headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal; Mubadala exits CoolIT for $4.75B in March 2026",
+      "corrected_summary": "Saudi PIF completed a $1.78 billion deal to increase its stake in Singapore-based Olam Agri from approximately 35% to 80%, with an option for the remaining shares within three years. UAE's Mubadala announced a $4.75 billion exit from its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction, delivering approximately 15x returns. A reported Mohamed Salah offer figure cited in the claim is internally inconsistent and unverified by available sources."
     },
     {
       "claim_index": 22,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms the Board of Peace is managing Gaza reconstruction with a disarmament framework, High Representative Nickolay Mladenov is overseeing the process, and Phase 2 with the National Committee for the Administration of Gaza formation is consistent with the October 2025 ceasefire timeline; the $7B fund and 8-month Hamas disarmament timeline are consistent with reporting from Al Jazeera and Drop Site News."
+      "status": "FLAGGED",
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' \u2014 this specific allegation is not corroborated by any web evidence provided and appears to be a fabricated or unverified detail. The remaining elements (3.5M pages, Prince Andrew arrest, 50K March batch, victim lawsuits) are corroborated.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office. Victims have filed suit against DOJ and Google alleging the department prioritized rapid, large-volume disclosure over survivor privacy protections in a 'release now, retract later' approach."
     },
     {
       "claim_index": 23,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Saudi PIF's Olam Agri stake increase to 80% for $1.78B and Mubadala's CoolIT Systems exit to Ecolab in a KKR-led $4.75B transaction; PIF officials' stated commitment to global investments despite regional tensions is confirmed by AGBI and Saudi Gazette reporting."
+      "finding": "Web evidence confirms Maxwell is seeking clemency from Trump while refusing to answer lawmakers' questions, and that Representative Raja Krishnamoorthi introduced House Resolution 119-635 affirming Maxwell's conviction was warranted and opposing clemency. Maxwell remains imprisoned on her 20-year sentence."
     },
     {
       "claim_index": 24,
       "status": "FLAGGED",
-      "finding": "Same issue as Claim 19: the assertion that Epstein document releases led to 'resignations and arrests' is present in the context and is not supported by any provided web evidence; the Peter Mandelson arrest claim in the broader context is unverified and potentially fabricated.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents in 2026, including a March 5 batch of ~50,000 previously withheld files with FBI 302 interview summaries naming associates. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach exposed victim identifying information in violation of privacy laws. Any claim that specific named individuals were arrested or resigned as a result of these releases is not supported by available evidence and should not be reported as confirmed fact."
+      "finding": "The claim states 'Zelensky claims 90% deal agreed with Trump' \u2014 web evidence does not corroborate a '90% deal agreed' statement. Evidence shows Zelensky proposed Easter ceasefires and Rubio denied the Donbas land-for-security-guarantees claim, but the '90% deal' figure is not supported by the web evidence provided.",
+      "corrected_headline": "Ukraine-Russia peace talks show mixed signals: Zelensky proposes Easter energy ceasefire while Rubio denies US demands for Donbas withdrawal",
+      "corrected_summary": "Ukrainian President Zelensky proposed both full and energy-related ceasefires over the Easter period, suggesting Ukraine would reciprocate if Russia halted attacks on Ukrainian energy infrastructure. US Secretary of State Rubio directly contradicted assertions that the Trump administration is demanding Kyiv hand over the Donbas region to Russia in exchange for security guarantees, calling such claims false. Negotiations remain ongoing with conflicting signals from Washington and Kyiv on the terms being discussed."
     },
     {
       "claim_index": 25,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Maxwell is seeking clemency from Trump while serving her sentence and refusing Congressional testimony, and that Rep. Krishnamoorthi introduced H.Res.635 affirming her conviction was warranted and opposing any clemency; the BBC reporting on her Congressional refusals is also confirmed."
+      "status": "FLAGGED",
+      "finding": "The claim states 'Anthropic won a federal court injunction' blocking the Pentagon ban \u2014 web evidence from Tom's Hardware references Anthropic filing federal lawsuits but does not confirm a successful injunction was granted. The claim presents a contested legal outcome as confirmed fact.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files federal lawsuit over contract termination",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system, with platform investment growing from $480M in 2024 to $13B. OpenAI signed a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's $200M contract over disputes about AI use restrictions for surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; whether a court injunction was granted has not been confirmed by available evidence."
     },
     {
       "claim_index": 26,
-      "status": "UNVERIFIABLE",
-      "finding": "The specific claims about Zelensky stating '90% agreement' after December 2025 Trump talks, US linking security guarantees to Donbas cessions, Rubio's denial, and the Qatar defense agreement are recent events that cannot be verified or refuted without web evidence, and no verification evidence was provided for this claim."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle's Q3 FY2026 revenue of $17.2B (22% YoY growth), 84% OCI revenue growth to $4.89B, record $553B remaining performance obligations (up 325% YoY), Bank of America's Buy rating and $200 target, and analyst concerns about revenue conversion from the backlog."
     },
     {
       "claim_index": 27,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific Pentagon AI contract figures (Palantir Maven expansion to $13B, OpenAI $200M deal replacing Anthropic, xAI $200M contract), and these specific figures cannot be confirmed or denied from training knowledge alone without risking fabrication."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Schedule Policy/Career became operative as of March 9, 2026 following OPM's February 6 final rule, federal employee unions renewed their lawsuit, and the claim's description of approximately 50,000 career positions being reclassified to at-will employment is consistent with the entity disambiguation definition."
     },
     {
       "claim_index": 28,
       "status": "VERIFIED",
-      "finding": "Oracle investor relations web evidence confirms Q3 FY2026 revenue of $17.2B (+22% YoY), $553B RPO backlog, and 84% OCI growth; CNBC confirms $8.9B total cloud revenue up 44%; the characterization of strong results with mixed analyst reactions is consistent with available evidence."
+      "finding": "Web evidence confirms the New York judge's questioning of TikTok lawyers on financial disclosure for damage calculations, Minnesota's July 2026 mental health pop-up warning requirement, and the Illinois privacy lawsuit. The broader legal strategy shift to 'defective products' arguments is corroborated by Politico reporting on ongoing social media trials."
     },
     {
       "claim_index": 29,
-      "status": "FLAGGED",
-      "finding": "The claim states Schedule Policy/Career took effect 'March 9, 2026' but the entity disambiguation table specifies it 'Took effect March 2026' \u2014 the specific date of March 9 cannot be verified from provided web evidence and may be fabricated; the disambiguation table does not confirm March 9 as the precise date.",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, while the State Department continues layoffs following court rulings. OPM has simultaneously launched new recruitment efforts as part of the broader federal workforce restructuring; the specific date of March 9 as the effective date is unconfirmed."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms the FCC banned authorization of all new foreign-made consumer routers on March 23, 2026, citing National Security Determination, and that the Covered List was updated accordingly. The CFIUS fast-track RFI and the four drone systems removed from the Covered List on March 18 are referenced in supporting context but not directly contradicted by evidence."
     },
     {
       "claim_index": 30,
       "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific Illinois privacy lawsuit filed March 2026 or the New York judge's March 3 questioning of TikTok's lawyers on financial disclosure; these recent post-deal compliance events cannot be confirmed from training knowledge alone."
+      "finding": "No web verification evidence was provided for this claim, and specific details such as AVAIO Digital's 'January 2026' campus schedule and Google's 'largest economic investment in Arkansas history' designation for a West Memphis facility cannot be independently verified or refuted from available sources."
     },
     {
       "claim_index": 31,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the CFIUS fast-track program proposal, the FCC's March 23, 2026 ban on all new foreign-made consumer routers, or the CFIUS drone system clearances; these specific regulatory actions cannot be confirmed from training knowledge alone."
+      "status": "FLAGGED",
+      "finding": "The claim references 'Democratic Senator Ron Wyden's son seeking Epstein investment backing' and 'Google co-founder Sergey Brin's island visits' \u2014 neither detail is corroborated by the web evidence provided, and both appear to be unverified or fabricated specifics injected into an otherwise largely accurate summary.",
+      "corrected_headline": "DOJ releases 3.5 million Epstein files pages through March 2026; Prince Andrew arrested in February, victim privacy lawsuits filed against DOJ and Google",
+      "corrected_summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages plus a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office related to his Epstein ties. Victims have filed suit against DOJ and Google alleging the 'release now, retract later' approach prioritized volume over survivor privacy protections, with the case proceeding in federal court."
     },
     {
       "claim_index": 32,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the AVAIO Digital Little Rock campus announcement or the Google West Memphis Arkansas data center investment claim; these specific claims cannot be confirmed from training knowledge alone."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Maxwell is seeking clemency from Trump while refusing to answer lawmakers' questions, and that Representative Raja Krishnamoorthi introduced the House resolution affirming Maxwell's conviction was warranted and opposing clemency. The 20-year sentence detail is accurate."
     },
     {
       "claim_index": 33,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Saudi PIF's $1.78B Olam Agri stake increase to 80% and reaffirmed global investment commitment, and Mubadala's $4.75B CoolIT Systems exit to Ecolab in a KKR-led transaction; both fund activities continuing despite Iran war tensions is consistent with PIF governor statements."
+      "status": "FLAGGED",
+      "finding": "The claim states 'Zelensky claimed after December 2025 talks with Trump that 90% of a potential peace deal had been agreed' \u2014 web evidence does not corroborate this specific '90% deal agreed' characterization, and no December 2025 talks producing this claim are referenced in the evidence.",
+      "corrected_headline": "Ukraine-Russia peace talks: Zelensky proposes Easter energy ceasefire while Rubio denies US demand for Donbas withdrawal",
+      "corrected_summary": "Ukrainian President Zelensky offered both full and energy-related ceasefires over the Easter period, indicating readiness to reciprocate if Russia halted attacks on Ukraine's energy infrastructure. US Secretary of State Rubio directly disputed claims that the Trump administration is conditioning security guarantees on Ukraine ceding the Donbas to Russia, calling such assertions false. Negotiations between the parties continue with significant disagreement over reported terms."
     },
     {
       "claim_index": 34,
       "status": "FLAGGED",
-      "finding": "Same issue as Claims 19 and 24: the broader context of this claim includes reference to 'resignations and arrests' resulting from Epstein document releases, which is unverified and potentially fabricated; the core facts about 3.5M pages, FBI 302s, and victim lawsuits against DOJ and Google are verified.",
-      "corrected_headline": "DOJ releases 3.5M+ Epstein pages through March 2026 including FBI 302s; victims sue Trump DOJ and Google over privacy violations from exposed identities",
-      "corrected_summary": "The DOJ has released approximately 3.5 million pages of Epstein-related documents through multiple 2026 batches, with the March 5 release including ~50,000 previously withheld files containing FBI 302 interview summaries. Victims are suing the Trump administration and Google alleging a 'release now, retract later' approach that exposed victim identifying information. Any claims about specific named arrests or resignations resulting from the releases are not supported by available evidence and should not be treated as confirmed fact."
+      "finding": "The claim states Anthropic was 'designated a national security supply-chain risk' and that 'a Federal judge blocked Pentagon's attempt to ban Anthropic, calling it troubling' \u2014 web evidence references Anthropic filing federal lawsuits but does not confirm a 'national security supply-chain risk' designation or a successful judicial block with that specific language. These appear to be unverified characterizations presented as confirmed fact.",
+      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI signs $200M defense deal as Anthropic files lawsuit over terminated contract",
+      "corrected_summary": "Palantir's Maven AI system was officially designated as a core Pentagon military system with investment growing from $480M in 2024 to $13B total. OpenAI secured a $200M Pentagon contract on February 27, 2026, after the DoD terminated Anthropic's contract over disputes about AI use restrictions on surveillance and autonomous weapons. Anthropic filed federal lawsuits challenging the termination; the outcome of those legal proceedings has not been confirmed by available evidence."
     },
     {
       "claim_index": 35,
-      "status": "FLAGGED",
-      "finding": "The claim references 'Rep. Raja' introducing the resolution 'on August 5th' \u2014 the full name is Rep. Raja Krishnamoorthi, and as noted in Claim 0, the August 5th introduction date is unverified; the web evidence confirms the resolution exists but does not confirm that specific introduction date.",
-      "corrected_headline": "Rep. Krishnamoorthi's H.Res.635 opposes Maxwell clemency as she refuses Congressional testimony on Epstein network",
-      "corrected_summary": "Ghislaine Maxwell is seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking, and has refused to answer lawmakers' questions in ongoing Congressional investigations into the Epstein network. Representative Raja Krishnamoorthi introduced H.Res.635 in the 119th Congress affirming that Maxwell's conviction was warranted and opposing any presidential clemency. The resolution's stated introduction date of 'August 5th' is not confirmed by available web evidence and should not be reported as established fact."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle's Q3 FY2026 revenue of $17.2B (22% YoY, beating $16.9B consensus), OCI growth of 84% to $4.89B, $553B remaining performance obligations (up 325% YoY), Bank of America Buy rating with $200 target, analyst concerns about revenue conversion, and the broader context of capital leverage concerns."
     },
     {
       "claim_index": 36,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific claims about Zelensky's '90% agreement' statement, the US-Ukraine Donbas security guarantee dispute, Rubio's denial, or the Qatar defense agreement; these cannot be confirmed from training knowledge alone without risking fabrication."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Schedule Policy/Career became operative as of March 9, 2026, federal employee unions renewed their lawsuit, OPM issued the February 6 final rule, and OMB Director Vought and OPM Acting Director Ezell ordered workforce reduction plans. The ~50,000 positions figure is consistent with the entity disambiguation."
     },
     {
       "claim_index": 37,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific Pentagon AI contract figures; the xAI $200M contract dated 'July 2025' is a notable specific claim that cannot be confirmed from training knowledge, and the Palantir Maven expansion to $13B and OpenAI $200M replacement of Anthropic require independent verification not available here."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms the New York state judge questioned TikTok lawyers on March 3, 2026 regarding financial disclosure for damage calculations in social media addiction cases, and that Illinois users filed a privacy rights lawsuit. The 'defective products' legal argument framing is corroborated by Politico reporting on the broader social media litigation landscape."
     },
     {
       "claim_index": 38,
       "status": "VERIFIED",
-      "finding": "Oracle investor relations confirms Q3 FY2026 revenue of $17.2B (+22% YoY), $553B RPO, 84% OCI growth, and the consensus estimate of $16.9B being beaten; mixed analyst reactions with some lowering price targets while others maintain Buy ratings is consistent with available evidence."
+      "finding": "Web evidence confirms the FCC banned authorization of all new foreign-made consumer routers on March 23, 2026, citing National Security Determination, updating the Covered List. The CFIUS fast-track RFI detail and the four drone systems removed from the Covered List are referenced in the broader context without contradiction."
     },
     {
       "claim_index": 39,
-      "status": "FLAGGED",
-      "finding": "Same issue as Claim 29: the specific date of 'March 9, 2026' for Schedule Policy/Career taking effect is not confirmed in the entity disambiguation table (which states 'March 2026') and no web verification evidence confirms the March 9 date specifically.",
-      "corrected_headline": "Schedule Policy/Career reclassification operational as of March 2026, converting ~50,000 federal positions to at-will employment amid active union litigation",
-      "corrected_summary": "The Schedule Policy/Career reclassification of approximately 50,000 federal career positions to at-will employment became operational in March 2026, with federal employee unions maintaining active litigation challenges. The Army is implementing mandatory reassignments to avoid formal RIF procedures, and the State Department continues layoffs after court rulings on congressional layoff protections. The specific effective date of March 9 is unconfirmed and should be reported only as 'March 2026' pending verification."
-    },
-    {
-      "claim_index": 40,
       "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the Illinois TikTok privacy lawsuit or the New York judge's March 3 financial disclosure questioning; these post-USDS deal compliance events cannot be confirmed from training knowledge alone."
-    },
-    {
-      "claim_index": 41,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific CFIUS 'excepted foreign states' framework proposal or the FCC's March 23, 2026 ban on all new foreign-made consumer routers; these specific regulatory actions cannot be confirmed from training knowledge alone."
-    },
-    {
-      "claim_index": 42,
-      "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the AVAIO Digital Little Rock campus or Google West Memphis Arkansas data center claims; these cannot be confirmed from training knowledge alone, and the Entergy '$5B in customer savings' figure differs from the verified $2B figure in Claim 6 for the Meta Louisiana agreement specifically, suggesting potential conflation of multiple agreements."
+      "finding": "No web verification evidence was provided for this claim. Specific details including AVAIO Digital's 'January 2026' campus schedule, the '500 kV transmission lines connecting South Louisiana to North Louisiana and Arkansas,' and Google's designation as 'largest economic investment in Arkansas history' for a West Memphis facility cannot be verified or refuted from available sources."
     }
   ]
 }
