@@ -284,7 +284,9 @@ The public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) di
 
 **Falsification criteria:** If April 12–20 passes with NO major competing news events AND the Bondi deposition AND the CLARITY Act vote receive sustained, prominent media coverage, the distraction prediction is falsified for this window.
 
-Five pre-loaded distraction mechanisms documented with deployment readiness assessments: UAP disclosure (zero cost — announcement already made), Cuba kinetic action (low cost — justification pre-built), Iran war escalation (zero cost — already active), domestic crisis events (variable cost), and U.S.-Russia naval confrontation over Cuban oil (variable cost — Anatoly Kolodkin tanker, sanctioned, 730K barrels; **UPDATE: arrived Matanzas Cuba March 30 — Trump allowed on "humanitarian grounds"; no interception; prediction partially falsified for this vessel but Treasury April 11 waiver expiration may trigger next enforcement action**; see [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md)).
+Five pre-loaded distraction mechanisms were documented with deployment readiness assessments: UAP disclosure (zero cost — announcement already made), Cuba kinetic action (low cost — justification pre-built), Iran war escalation (zero cost — already active), domestic crisis events (variable cost), and U.S.-Russia naval confrontation over Cuban oil.
+
+**UPDATE — Cuba mechanism resolved**: The Anatoly Kolodkin (sanctioned tanker, 730K barrels) arrived Matanzas, Cuba on March 30. Trump allowed the delivery on "humanitarian grounds" with no interception. The confrontation prediction is **partially falsified** for this vessel specifically. The Treasury April 11 waiver expiration (which explicitly excludes Cuba and North Korea) may trigger the next enforcement action. See [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md).
 
 ### CRINK Late-March 2026: Rift Analysis, North Korea Missile Salvo, and Cuba Dual-Track Aid
 

@@ -1162,4 +1162,14 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: April 1, 2026. CRINK + Cuba late-March 2026 update: (1) Node 2 Iran updated — Trump delays strikes ~March 23, Witkoff 15-point peace framework via Pakistani mediators, Oman attacked complicating mediator role, JINSA "Axis Behind Iran" validates CRINK as sustaining supply network not mutual defense pact; (2) Cuba crisis updated — Anatoly Kolodkin arrives Matanzas March 30 (Trump allowed "humanitarian grounds"), China 60,000 tons rice commitment (15,600 tons first batch ~March 20–27), Treasury April 11 waiver expiration is key convergence window trigger; (3) North Korea March 14 missile salvo (10 ballistic missiles, Freedom Shield timing) fills prior unverified gap; (4) China Taiwan surge March 15 (26 aircraft, 7 vessels) documented; (5) CRINK rift confirmed by JINSA, Carnegie, CNA, Chosun — transactional not treaty-based; (6) CRINK coordination patterns updated (Research Question 5). Previous: March 22, 2026 (Node 11, SAVE America Act / FISA Section 702 coupling).*
+*Last Updated: April 1, 2026 (v11.5 — CRINK + Cuba late-March 2026 update)*
+
+*Changes in this update:*
+- *Node 2 Iran: Trump delays strikes ~March 23, Witkoff 15-point framework via Pakistani mediators, Oman attacked complicating mediator role, JINSA "Axis Behind Iran" validates CRINK as sustaining supply network not mutual defense pact*
+- *Cuba crisis: Anatoly Kolodkin arrives Matanzas March 30 (Trump allowed "humanitarian grounds"), China 60,000 tons rice (15,600 tons first batch ~March 20–27), Treasury April 11 waiver expiration is key April convergence window trigger*
+- *North Korea: March 14 missile salvo (10 ballistic missiles, Freedom Shield timing) fills prior unverified gap in CRINK response table*
+- *China: Taiwan surge March 15 (26 aircraft, 7 vessels); BRI infrastructure stress; defense budget +7%; language changed to "crack down on Taiwan independence"*
+- *CRINK rift: confirmed by JINSA, Carnegie, CNA, Chosun — transactional not treaty-based; Cuba dual-track documented (Russia oil + China rice simultaneously)*
+- *CRINK Research Question 5 updated with March 2026 data*
+
+*Previous: March 22, 2026 (Node 11, SAVE America Act / FISA Section 702 coupling).*
