@@ -385,31 +385,6 @@ This is real-time validation that the same consolidation pattern documented in t
 
 ---
 
-## Section 10: Trump Victory Narrative vs. Pentagon Reality — Attention Economy Split (March 9-11, 2026)
-
-**Event Sequence (Verified)**:
-
-| Date | Event | Source |
-|------|-------|--------|
-| March 9 | Trump tells CBS News war is "very complete, pretty much"; claims Iran has "nothing left in a military sense" | CBS News, US News, Al-Monitor |
-| March 9 | Hegseth and Pentagon officials caution operations may be "just beginning" | Rolling Stone |
-| March 10 | US destroys 16 Iranian mine-laying boats near Hormuz — Iran beginning to mine strait | CENTCOM, Axios, Army Recognition, CNBC |
-| March 11 | Pentagon discloses ~140 US service members wounded, 8 severely | The Independent, News18 |
-| March 11 | FBI intelligence bulletin warns Iran aspired to drone attack from vessel off California coast | Newsweek, Rolling Stone, The Independent |
-
-**Framework Alignment**:
-
-| Test | Finding | Verified |
-|------|---------|----------|
-| **Attention Economy Split** | Trump's "war is complete" narrative consumed 3-5 news cycles while Pentagon contradicted. Classic bidirectional noise generation — attention oscillates between victory claim and reality rather than focusing on either. | ✅ YES |
-| **Thermostat Under Stress** | Trump declared victory (thermostat cooling signal) but Iran continued mining Hormuz and FBI warned of homeland drone threat — suggesting thermostat model strained when kinetic conflict continues regardless of rhetorical signaling. | ✅ YES |
-| **Friction-Compliance Sequence** | FBI West Coast drone threat bulletin (friction/fear event) emerged same day as Pentagon casualty disclosure — attention split between homeland threat and overseas casualties. House Oversight Bondi subpoena (friction) also active during this window. | ✅ YES |
-| **CRINK Benefit** | Russia-Ukraine talks postponed indefinitely due to Iran war — CRINK member Russia benefits from US attention/resource diversion without direct involvement. | ✅ YES |
-
-**Significance**: The March 9-11 window demonstrates multiple framework validations simultaneously: (1) attention economy split between conflicting narratives, (2) thermostat stress-test when rhetoric diverges from reality, (3) CRINK secondary beneficiaries, and (4) friction-compliance density during kinetic operations.
-
----
-
 ## Section 11: White House Ballroom Injunction — Institutional Guardrail Engagement (March 31, 2026)
 
 ### The Event
@@ -439,7 +414,7 @@ The project claimed private donor funding to argue it did not require Congressio
 
 **2. Captured Regulatory Body Pattern (NCPC + Commission of Fine Arts)**
 
-The Commission of Fine Arts — stacked with Trump-appointed members — approved the ballroom proposal despite preservation objections. The NCPC vote on the project remained scheduled for early April 2026 despite the March 31 injunction. The security carve-out Leon wrote into the injunction creates a potential pathway for the administration to continue construction by recharacterizing above-grade work as security-related.
+The Commission of Fine Arts approved the ballroom proposal despite preservation objections. ⚠️ PARTIALLY VERIFIED — Commission approval confirmed in earlier litigation context (see first search of [factually.co](https://factually.co/fact-checks/justice/judge-richard-leon-white-house-ballroom-ruling-construction-timeline-impact-bdbd8c)); the description of the Commission as "stacked with Trump-appointed members" is reported in press but has not been independently verified at the member level by this project. The NCPC vote on the project remained scheduled for early April 2026 despite the March 31 injunction. The security carve-out Leon wrote into the injunction creates a potential pathway for the administration to continue construction by recharacterizing above-grade work as security-related.
 
 ### Framework Alignment
 
