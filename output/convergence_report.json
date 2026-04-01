@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-04-01T00:02:58.429382+00:00",
-  "total_runs_analyzed": 68,
+  "analysis_timestamp": "2026-04-01T01:42:24.608785+00:00",
+  "total_runs_analyzed": 69,
   "window_days": 7,
   "adaptive_windows": {
     "maxwell": 7,
@@ -1065,15 +1065,73 @@
       ],
       "has_friction_compliance_pair": true,
       "has_new_developments": true
+    },
+    {
+      "date": "2026-04-01",
+      "active_node_count": 6,
+      "nodes": [
+        {
+          "node_id": "iran",
+          "status": "ACTIVE",
+          "classification": "ESCALATION",
+          "headline": "Trump scheduled prime-time address on Iran war for April 1 evening while Iran attacks oil tanker off Dubai and denies US negotiations despite active backchannels",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF unveils new five-year strategy with 15% spending cuts and AI pivot while Mubadala completes multiple major exits totaling $11B in March 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "israel",
+          "status": "ACTIVE",
+          "classification": "ESCALATION",
+          "headline": "Israel strikes senior Hezbollah commanders in Beirut and IRGC university in Tehran on March 31, 2026, while expanding ground operations in southern Lebanon",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle Q3 FY2026 revenue surged 22% to $17.2B with cloud up 44% and OCI up 84%, but stock remains down 27% YTD on AI competition concerns as of March 31, 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ releases 3.5 million Epstein documents in March 2026 amid Congressional pressure, revealing Prince Andrew arrest and new Trump files while victims sue over privacy violations",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Entergy announces $5B customer savings from data center agreements, March 2026",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": true
     }
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 63,
-      "active_count": 20,
+      "total_appearances": 64,
+      "active_count": 21,
       "critical_count": 4,
       "classifications": {
-        "COMPLIANCE": 19,
+        "COMPLIANCE": 20,
         "NEUTRAL": 41,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
@@ -1081,51 +1139,51 @@
       }
     },
     "oracle_ellison": {
-      "total_appearances": 60,
-      "active_count": 17,
+      "total_appearances": 61,
+      "active_count": 18,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 15,
+        "COMPLIANCE": 16,
         "FRICTION": 2,
         "NEUTRAL": 43
       }
     },
     "epstein_files": {
-      "total_appearances": 62,
-      "active_count": 19,
+      "total_appearances": 63,
+      "active_count": 20,
       "critical_count": 6,
       "classifications": {
         "COMPLIANCE": 4,
-        "FRICTION": 15,
+        "FRICTION": 16,
         "NEUTRAL": 43
       }
     },
     "maxwell": {
-      "total_appearances": 60,
+      "total_appearances": 61,
       "active_count": 15,
       "critical_count": 3,
       "classifications": {
         "FRICTION": 15,
-        "NEUTRAL": 44,
+        "NEUTRAL": 45,
         "COMPLIANCE": 1
       }
     },
     "iran": {
-      "total_appearances": 61,
-      "active_count": 31,
+      "total_appearances": 62,
+      "active_count": 32,
       "critical_count": 16,
       "classifications": {
-        "ESCALATION": 17,
+        "ESCALATION": 18,
         "NEUTRAL": 30,
         "DE_ESCALATION": 14
       }
     },
     "israel": {
-      "total_appearances": 54,
-      "active_count": 29,
+      "total_appearances": 55,
+      "active_count": 30,
       "critical_count": 9,
       "classifications": {
-        "ESCALATION": 11,
+        "ESCALATION": 12,
         "NEUTRAL": 21,
         "COMPLIANCE": 15,
         "FRICTION": 3,
@@ -1133,11 +1191,11 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 53,
-      "active_count": 11,
+      "total_appearances": 54,
+      "active_count": 12,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 11,
+        "COMPLIANCE": 12,
         "NEUTRAL": 42
       }
     }
@@ -1167,6 +1225,6 @@
     "2026-03-29": 2,
     "2026-03-30": 7,
     "2026-03-31": 7,
-    "2026-04-01": 7
+    "2026-04-01": 6
   }
 }

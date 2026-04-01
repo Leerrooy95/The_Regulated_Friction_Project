@@ -1,403 +1,415 @@
 {
-  "checked_at": "2026-04-01T00:10:45.095919+00:00",
+  "checked_at": "2026-04-01T01:51:41.891487+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 34,
-  "claims_verified": 19,
-  "claims_flagged": 12,
-  "claims_unverifiable": 3,
+  "claims_checked": 42,
+  "claims_verified": 26,
+  "claims_flagged": 10,
+  "claims_unverifiable": 6,
   "corrections_applied": [
     {
-      "claim_index": 2,
+      "claim_index": 1,
       "source": "node_status/gulf_swf",
-      "original_headline": "Saudi PIF unveils new five-year strategy cutting capital spending 15% while planning 8 IPOs for 2026, announced March 27-28, 2026",
-      "corrected_headline": "Saudi PIF unveils five-year strategy cutting capital spending 15% and planning 8 IPOs; Mubadala agrees to sell minority CoolIT stake in $4.75B KKR-led deal",
-      "original_summary": "Saudi Arabia's Public Investment Fund officially released its new five-year strategy in late March 2026, confirming a 15% reduction in capital spending while pivoting toward AI investments and private sector partnerships. PIF Governor Al-Rumayyan announced plans for eight subsidiary IPOs in 2026 as ",
-      "corrected_summary": "Saudi Arabia's PIF announced a new five-year strategy at FII PRIORITY Miami around March 26-27, 2026, confirming a ~15% reduction in capital spending and a pipeline of eight IPOs for 2026. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction has not yet been completed and the specific return figure has not been publicly confirmed.",
-      "finding": "The PIF five-year strategy announcement date is cited as 'March 27-28' but web evidence shows it was announced at FII PRIORITY Miami around March 26-27. More critically, the claim states Mubadala completed a '$4.75B exit from CoolIT Systems generating a 15x return' \u2014 but web evidence shows Mubadala agreed to sell only a minority stake in CoolIT in a KKR-led $4.75B total transaction (not a full exit), with deal closure expected Q3 2026, not completed in March 2026. The '15x return' figure is unverified in any web source."
+      "original_headline": "Saudi PIF unveils new five-year strategy with 15% spending cuts and AI pivot while Mubadala completes multiple major exits totaling $11B in March 2026",
+      "corrected_headline": "Saudi PIF outlines new five-year strategy at FII Miami with 15% spending cuts and AI pivot; official release still weeks away",
+      "original_summary": "Saudi PIF officially released its new five-year strategy in late March 2026, cutting capital spending by 15% while pivoting toward AI investments, with HUMAIN securing its first US customer partnership with Turing for enterprise AI marketplace development. Mubadala executed significant portfolio exi",
+      "corrected_summary": "Saudi PIF Governor Yasir Al-Rumayyan outlined a forthcoming five-year strategy at the FII Priority Miami summit in late March 2026, detailing approximately 15% capital spending cuts and a pivot toward AI, pharmaceuticals, and renewables. The official strategy document had not yet been released as of the summit, with Al-Rumayyan stating it would be unveiled 'in the coming few weeks.' HUMAIN's Turing partnership and Mubadala exit details require separate verification.",
+      "finding": "Web evidence shows PIF's governor stated the five-year strategy would be unveiled 'in the coming few weeks' as of late March 2026 \u2014 it had NOT yet been officially released. The claim that PIF 'officially released its new five-year strategy in late March 2026' is premature; only the FII Miami summit outline was presented."
+    },
+    {
+      "claim_index": 3,
+      "source": "node_status/oracle_ellison",
+      "original_headline": "Oracle Q3 FY2026 revenue surged 22% to $17.2B with cloud up 44% and OCI up 84%, but stock remains down 27% YTD on AI competition concerns as of March 31, 2026",
+      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with OCI up 84%, but stock down ~29% YTD on AI competition and capital concerns",
+      "original_summary": "Oracle reported strong Q3 FY2026 results (ended February 2026) with total revenue jumping 22% to $17.2 billion, driven by cloud infrastructure (OCI) revenue exploding 84% year-over-year. Cloud services overall grew 44% while adjusted EPS increased 21% to $1.79, beating consensus estimates. Despite t",
+      "corrected_summary": "Oracle reported strong Q3 FY2026 results with total revenue jumping 22% to $17.2 billion and OCI revenue growing 84% year-over-year, with adjusted EPS up 21% to $1.79. Despite these results, Oracle stock is down approximately 29% year-to-date as of late March 2026, and trades roughly 44% below analyst consensus price targets, reflecting investor concern about competitive AI risks and the capital burden of Stargate infrastructure commitments.",
+      "finding": "The claim that Oracle stock is down 27% YTD is contradicted by web evidence showing the stock is down approximately 29% YTD per Bernstein/TipRanks and approximately 54% from its September 2025 peak per Simply Wall St; the 27% figure appears to be an understatement of the YTD decline."
     },
     {
       "claim_index": 4,
-      "source": "node_status/oracle_ellison",
-      "original_headline": "Oracle stock down 27% YTD amid AI competition concerns while analysts maintain mixed ratings with $200-262 price targets, March 31 2026",
-      "corrected_headline": "Oracle stock down 27% YTD amid AI competition concerns; shares rose 2.5% March 31 as analysts maintain $200-262 price targets",
-      "original_summary": "Oracle shares have declined 27% year-to-date as of March 31, 2026, despite strong Q3 2026 earnings showing 22% revenue growth to $17.2B. The stock traded in a $139.70-$147.43 range on March 31st while facing investor concerns about competitive risks from generative AI models and infrastructure inves",
-      "corrected_summary": "Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, and are down roughly 60% from their September 2025 peak, despite strong Q3 FY2026 results showing 22% revenue growth to $17.2B. On March 31, shares rose about 2.5% following news of layoffs, trading positively after recent weakness. Bank of America reinstated coverage with a Buy rating and $200 price target, while other analysts maintain targets ranging from $200 to $262.",
-      "finding": "The claim states Oracle stock is 'down 27% YTD' which is supported by web evidence, and the trading range and analyst targets are plausible. However, web evidence from Rolling Out/other sources indicates Oracle is down ~60% from its September 2025 peak, and on March 31 shares were reported rising 2.5%, not trading in a flat range \u2014 the YTD figure of 27% is confirmed but the framing omits the sharper decline from peak. More significantly, the $45-50B new capital raise figure cited in the Oracle disambiguation entry conflicts with a web source citing only $30B raised in February 2026. The claim itself is largely consistent with web evidence and the 27% YTD decline and analyst target range are confirmed."
-    },
-    {
-      "claim_index": 5,
       "source": "node_status/epstein_files",
-      "original_headline": "DOJ releases additional Epstein documents March 30, 2026 while victims file class action lawsuit against DOJ and Google over privacy violations in document releases",
-      "corrected_headline": "Epstein victims file class action against DOJ and Google over privacy violations in document releases; 3.5M pages released in January 2026",
-      "original_summary": "The DOJ released another batch of Epstein-related documents on March 30, 2026, bringing the total to over 3.5 million pages as part of compliance with the Epstein Files Transparency Act. However, the release has sparked a new class action lawsuit by approximately 100 Epstein victims against both the",
-      "corrected_summary": "The DOJ released approximately 3.5 million pages of Epstein-related documents on January 30, 2026, under the Epstein Files Transparency Act. On March 27, 2026, a group of approximately 100 Epstein survivors filed a class action lawsuit against the DOJ and Google, alleging that the releases 'outed approximately 100 survivors' through inadequate redactions and that Google continued to republish the exposed personal information, constituting a 'release now, retract later' approach.",
-      "finding": "The lawsuit was filed on March 27, 2026, not March 30 as implied by the DOJ document release date framing. Additionally, the claim describes the release as happening 'March 30' bringing the total to 'over 3.5 million pages' but web evidence shows the 3.5 million page release occurred on January 30, 2026, not March 30. The lawsuit details are accurate but the document release date and framing are incorrect."
+      "original_headline": "DOJ releases 3.5 million Epstein documents in March 2026 amid Congressional pressure, revealing Prince Andrew arrest and new Trump files while victims sue over privacy violations",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through multiple 2026 releases; Prince Andrew arrested February 18 following email evidence",
+      "original_summary": "The DOJ completed a massive document release of 3.5 million pages of Epstein-related files in March 2026, including previously unseen files pertaining to President Trump and evidence that led to Prince Andrew's arrest for allegedly forwarding confidential trade documents to Epstein. House Oversight ",
+      "corrected_summary": "The DOJ's Epstein document library surpassed 3.5 million pages through a series of releases: the primary batch of over 3 million pages was released January 30, 2026, with a sixth batch of approximately 50,000 files released March 5, 2026. Prince Andrew was arrested on February 18, 2026 on suspicion of misconduct in public office after emails showed he may have forwarded confidential trade documents to Epstein. Victims have filed lawsuits alleging inadequate redactions exposed private information.",
+      "finding": "The claim that the DOJ 'completed a massive document release of 3.5 million pages in March 2026' is inaccurate: the primary 3M+ page release occurred on January 30, 2026, with a smaller sixth batch of ~50,000 files released March 5, 2026. Prince Andrew was arrested February 18, 2026 \u2014 not in March. The claim conflates the timing of the bulk release."
     },
     {
-      "claim_index": 8,
+      "claim_index": 12,
       "source": "daily_intelligence/breaking_news",
-      "original_headline": "Kuwaiti oil tanker struck and caught fire at Dubai port day after Trump's infrastructure threats to Iran",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck by Iranian drone at Dubai port on March 31; UAE authorities report no oil leakage",
-      "original_summary": "Kuwait Petroleum Corporation reported that the Al Salmi tanker, fully loaded with crude oil, was directly targeted in what it described as an Iranian attack while anchored at Dubai port in the UAE on March 30, 2026. The vessel caught fire and sustained damage, with warnings of possible oil spill in ",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the Al Salmi, a fully loaded Kuwaiti VLCC, was directly attacked by Iranian forces at approximately 12:10 am on Tuesday, March 31, 2026, while anchored at Dubai Port. The vessel caught fire and sustained damage; however, UAE authorities stated that no one was injured and there was no oil leakage. The attack prompted dozens of nearby tankers to leave the area amid fears of further Iranian strikes on Gulf vessels.",
-      "finding": "The claim states the tanker was struck 'on March 30' but web evidence (Gulf News, NYT) confirms KPC announced the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31. Additionally, one source (UAE authorities) states there was no oil leakage, contradicting the claim's assertion of an ongoing oil spill threat."
+      "original_headline": "Iran war escalation coincides with Board of Peace Gaza disarmament plan rollout",
+      "corrected_headline": "Iran war disrupts Board of Peace Gaza disarmament plan rollout as Hamas delays response to 8-month proposal",
+      "original_summary": "As the US-Israel war on Iran enters day 31-32 with Trump claiming ceasefire progress, the Board of Peace simultaneously advances its 8-month Hamas disarmament plan linking $7B Gaza reconstruction to weapons compliance. The timing suggests coordinated Middle East policy execution across multiple thea",
+      "corrected_summary": "As Operation Epic Fury enters day 32, the Board of Peace's 8-month Hamas disarmament plan \u2014 which links $7B in Gaza reconstruction to weapons compliance \u2014 faces delays because the ongoing Iran war has caused Hamas to withhold its formal response. Sources told Haaretz the disarmament proposal was 'unrealistic' and Hamas will not respond while the Israel-Iran war continues. The two tracks are running in parallel but the Iran conflict is impeding rather than coordinating with the Gaza diplomatic process.",
+      "finding": "The claim that the Iran war 'coincides' with the Board of Peace Gaza disarmament plan 'rollout' is misleading: web evidence from Haaretz explicitly states the Iran war is DELAYING Hamas's response to the disarmament plan, not enabling coordinated execution. The framing of 'coordinated Middle East policy execution' misrepresents the actual dynamic."
     },
     {
-      "claim_index": 10,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "Board of Peace established for post-conflict Gaza oversight with Trump as lifetime chairman",
-      "corrected_headline": "Board of Peace formally established with Trump as lifetime chairman; over 20 nations participating with ~60 invited",
-      "original_summary": "The Board of Peace, intended to oversee post-conflict Gaza reconstruction, has been formally established with President Trump as chairman. Up to 35 states have agreed to join the organization, though notably no other G7 states have participated in the Trump-led initiative.",
-      "corrected_summary": "The Board of Peace was formally established via EO 14375 with President Trump as lifetime chairman, tasked with overseeing post-conflict Gaza reconstruction and broader international conflict resolution. Approximately 60 countries were invited to join, with over 20 participating nations represented at the organization's debut meeting. No other G7 states have taken leadership roles in the Trump-led initiative.",
-      "finding": "The claim states 'up to 35 states have agreed to join' but web evidence indicates approximately 20+ nations participated at the debut meeting (Davos/February 2026), with about 60 invited. The '35 states' figure is not confirmed by any web source provided and may overstate participation."
-    },
-    {
-      "claim_index": 15,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "State Department diverts $1.25B from disaster funds to Trump's Board of Peace amid Iran war costs",
-      "corrected_headline": "State Department transfers $1.25B from international disaster and peacekeeping programs to Board of Peace",
-      "original_summary": "The State Department redirected $1.25 billion from disaster relief and peacekeeping budgets to fund Trump's Board of Peace operations, occurring simultaneously with escalating Iran war expenses and the need to fund Gaza reconstruction commitments.",
-      "corrected_summary": "The State Department transferred $1.25 billion drawn from international disaster relief and peacekeeping budgets to fund President Trump's Board of Peace, according to a person familiar with the funding. Senator Catherine Cortez Masto (D-NV) announced plans to introduce legislation redirecting $1 billion of those funds to the Low-Income Home Energy Assistance Program amid rising energy costs from the Iran war. The transfer has drawn Congressional scrutiny over the reallocation of humanitarian funds.",
-      "finding": "The claim states funds were diverted 'from disaster funds' specifically, but web evidence specifies the $1.25B was transferred from 'international disasters and peacekeeping' programs \u2014 the claim oversimplifies by saying only 'disaster funds.' More importantly, the claim asserts this occurred 'simultaneously with escalating Iran war expenses and the need to fund Gaza reconstruction commitments' as causal framing that is editorializing beyond the sourced facts, though the core $1.25B transfer figure is confirmed."
-    },
-    {
-      "claim_index": 16,
-      "source": "daily_intelligence/breaking_news",
-      "original_headline": "Congressional Democrats cave on Iran war powers while opposing Board of Peace Gaza plan",
-      "corrected_headline": "House Democratic leaders delay Iran war powers vote until mid-April while Hamas denounces Board of Peace disarmament plan as 'catastrophic'",
-      "original_summary": "Senate Democrats are reportedly yielding on Iran war authorization while Hamas denounces the Board of Peace disarmament plan as 'catastrophic.' This represents split Congressional positioning on Trump's dual Middle East military operations.",
-      "corrected_summary": "House Democratic leaders chose not to force a vote on an Iran war powers resolution, delaying any potential action until Congress returns from recess in mid-April 2026, drawing criticism from the anti-war left. Simultaneously, Hamas officials denounced the Board of Peace's disarmament plan \u2014 which ties Gaza reconstruction funding to weapons handover \u2014 as 'catastrophic' and serving Israel's agenda. Senator Lisa Murkowski (R-AK) is separately drafting authorization for the Iran war.",
-      "finding": "The claim states 'Senate Democrats are reportedly yielding on Iran war authorization' but web evidence specifies it is House Democratic leaders who delayed the war powers vote until mid-April \u2014 not Senate Democrats. Senator Lisa Murkowski (Republican) is separately drafting war authorization. The claim conflates House and Senate dynamics."
+      "claim_index": 18,
+      "source": "daily_intelligence/top_developments",
+      "original_headline": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming Trump Tower recruitment and political figure connections",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through March 2026 releases including FBI 302 summaries; victims sue over privacy violations",
+      "original_summary": "The DOJ Epstein library now contains over 3.5 million pages including FBI 302 interview summaries documenting Trump Tower recruitment operations and connections to Prince Andrew and Senator Wyden's son. Multiple victims are suing over inadequate redactions, creating ongoing legal pressure. This repr",
+      "corrected_summary": "The DOJ's Epstein document library exceeded 3.5 million pages through multiple releases, including a major January 30, 2026 drop of over 3 million pages and a sixth batch of ~50,000 files on March 5, 2026. The library includes FBI 302 interview summaries naming associates and high-profile figures, though specific contents remain subject to ongoing redaction disputes. Multiple Epstein victims have filed lawsuits against the Trump administration and Google alleging inadequate redactions exposed private identifying information.",
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' and 'Senator Wyden's son' as documented contents of the released files is not corroborated by the web evidence provided; the Epstein Files Wikipedia and Britannica sources do not mention these specific contents, and the Daily Beast source references a redacted FBI report about a Trump accuser \u2014 not Trump Tower recruitment. These specific assertions appear to conflate speculative or unverified details with confirmed document contents."
     },
     {
       "claim_index": 19,
       "source": "daily_intelligence/top_developments",
-      "original_headline": "Iran war enters day 32 with continued US-Israeli airstrikes and Kuwaiti tanker attack at Dubai port on March 30",
-      "corrected_headline": "Iran war enters day 32 with continued US-Israeli airstrikes; Kuwaiti tanker Al Salmi struck at Dubai port on March 31",
-      "original_summary": "Operation Epic Fury continues with ongoing strikes on Tehran and Isfahan while Iran retaliated by attacking the Al Salmi oil tanker at Dubai port, causing fire and potential oil spill. Trump announced US withdrawal in 2-3 weeks regardless of ceasefire outcome, claiming regime change achieved. This r",
-      "corrected_summary": "Operation Epic Fury continues into its 32nd day with ongoing US-Israeli strikes on Tehran and Isfahan as of March 31, 2026. Iran retaliated by attacking the fully loaded Kuwaiti VLCC Al Salmi at Dubai port in the early hours of March 31, causing a fire that was later contained, with UAE authorities reporting no oil leakage. Trump announced US withdrawal in 2-3 weeks regardless of ceasefire outcome, claiming regime change has been achieved.",
-      "finding": "The claim states the tanker attack occurred 'on March 30' in both the headline and context, but web evidence (Gulf News, KPC announcement) confirms the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31, 2026 \u2014 not March 30."
+      "original_headline": "Oracle reports record Q3 revenue surge to $17.2B (+22% YoY) but stock remains 44% below analyst targets amid Stargate execution concerns",
+      "corrected_headline": "Oracle Q3 FY2026 revenue hits $17.2B (+22% YoY) with $553B backlog, but stock down ~29% YTD and 44% below consensus analyst price targets",
+      "original_summary": "Despite Oracle's strongest quarterly performance in 15+ years with 84% OCI growth and $553B backlog, the stock declined 10.1% weekly and trades 44% below consensus targets. This disconnect reveals market skepticism about revenue conversion and Stargate infrastructure execution risk given Oracle's ma",
+      "corrected_summary": "Oracle delivered record Q3 FY2026 results with $17.2 billion in revenue (up 22%), OCI growth of 84%, and a $553 billion remaining performance obligations backlog. Despite the strong earnings beat, Oracle stock is down approximately 29% year-to-date and trades roughly 44% below consensus analyst price targets as of late March 2026, reflecting market concern about capital execution risk tied to Stargate commitments and Oracle's existing $100B+ debt load.",
+      "finding": "The claim that Oracle stock 'remains 44% below analyst targets' is presented as equivalent to a stock price decline, but 'below analyst price targets' is a different metric from YTD price decline. Additionally, Claim 3 notes 27% YTD decline while Claim 19 contextually implies deeper decline; Simply Wall St evidence shows ~54% decline from September 2025 peak but only ~29% YTD. The '$553B backlog' is verified. The '10.1% weekly decline' is asserted without strong corroboration in the evidence."
     },
     {
-      "claim_index": 20,
-      "source": "daily_intelligence/top_developments",
-      "original_headline": "DOJ released 3.5M pages in Epstein files through January 2026 while victims sue over privacy violations and Congress pressures for remaining FBI 302s",
-      "corrected_headline": "DOJ released over 3 million Epstein pages by January 30, 2026; victims sue over privacy violations, Congress presses for remaining withheld materials",
-      "original_summary": "Massive document release under Epstein Files Transparency Act now faces legal backlash from victims claiming DOJ exposed identifying information in 'release now, retract later' approach. Rep. Massie continues confronting FBI leadership over unreleased 302 documents while nearly 100,000 pages remain ",
-      "corrected_summary": "The DOJ released approximately 3 million to 3.5 million pages of Epstein-related documents by January 30, 2026, under the Epstein Files Transparency Act, with Deputy AG Todd Blanche claiming these were the last remaining documents. Epstein survivors subsequently filed a class action suit against DOJ and Google on March 27, 2026, alleging the releases exposed approximately 100 victims' personal information. Congressional oversight continues with Rep. Massie pressing FBI leadership over unreleased FBI 302 documents, while the DOJ disputes that significant materials remain withheld.",
-      "finding": "The claim states DOJ released '3.5M pages through January 2026' and 'nearly 100,000 pages remain withheld' \u2014 the January 30 release date is confirmed, but the Epstein Files Wikipedia article states federal prosecutors identified 6 million pages as potentially responsive and DOJ released only half (~3 million pages), with the deputy AG claiming those were the last remaining. The '100,000 pages remain withheld' figure appears inconsistent with DOJ's claim that the January 30 release was the last batch, and the total is more accurately described as 'over 3 million' not '3.5 million' per some sources."
+      "claim_index": 23,
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "original_headline": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming associates; victims suing over inadequate redactions",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries; victims sue DOJ and Google over privacy violations",
+      "original_summary": "The DOJ has published over 3.5 million pages in its online Epstein library as of March 2026, including FBI 302 interview summaries that name previously undisclosed associates and contain allegations against high-profile figures including Trump and Prince Andrew. Multiple document releases occurred t",
+      "corrected_summary": "The DOJ's online Epstein library has surpassed 3.5 million pages as of March 2026, including FBI 302 interview summaries naming associates and high-profile figures. The most recent release of approximately 50,000 files occurred March 5, 2026. Multiple Epstein survivors have filed lawsuits against the DOJ and Google, alleging that document releases inadequately redacted private identifying information, outing approximately 100 survivors.",
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' as confirmed released document contents is not directly corroborated by the web evidence; the Epstein files Wikipedia, Britannica, and DOJ sources confirm the volume and existence of 302s and victims' lawsuits, but the specific 'Trump Tower recruitment' framing is not verified and may conflate speculative reporting with confirmed document contents."
     },
     {
       "claim_index": 24,
-      "source": "daily_intelligence/signal/Gulf SWF capital movements",
-      "original_headline": "Saudi PIF continues major acquisitions with $1.78B Olam Agri deal while cutting NEOM; Mubadala exits CoolIT for $4.75B amid regional tensions",
-      "corrected_headline": "Saudi PIF completes $1.78B Olam Agri deal and cuts NEOM by 60% as Mubadala agrees to sell CoolIT minority stake in $4.75B deal pending Q3 2026 close",
-      "original_summary": "Saudi PIF completed a $1.78 billion acquisition increasing its stake in Singapore-based Olam Agri from 35.4% to 80%, while simultaneously cutting funding to NEOM megaproject. Separately, UAE's Mubadala sold its minority stake in CoolIT Systems to Ecolab in a KKR-led $4.75 billion transaction, with d",
-      "corrected_summary": "Saudi PIF completed a $1.78 billion acquisition increasing its stake in Singapore-based Olam Agri from 35.4% to 80%, while cutting NEOM's budget by approximately 60% and transferring assets to Aramco and the Ministry of Sport. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction is not yet completed. Both sovereign funds stated their overseas investment strategies remain unaffected by regional tensions.",
-      "finding": "The claim states Mubadala 'sold its minority stake in CoolIT Systems to Ecolab' with 'deal closure expected Q3 2026' and a '$4.75B exit' but the official Mubadala press release confirms it agreed to sell only a minority stake and the transaction has not closed. More importantly, the claim in the context describes this as 'Mubadala completed its $4.75 billion exit' in Claim 2, whereas here it correctly says 'expected Q3 2026' \u2014 the headline claim is accurate but a '15x return' figure appeared in Claim 2 and is not sourced here. Also, the claim says PIF is 'cutting NEOM' which is confirmed (60% budget cut), but 'cutting funding to NEOM megaproject' understates that NEOM assets are being transferred to Aramco and Ministry of Sport per web evidence."
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "original_headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposes any pardon",
+      "corrected_headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposing pardon was introduced in August 2025",
+      "original_summary": "Ghislaine Maxwell has repeatedly requested clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and stating any clemency would deny survivors justice. No fo",
+      "corrected_summary": "Ghislaine Maxwell continues to seek clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi introduced House Resolution 119-635 in August 2025, affirming Maxwell's conviction was warranted and opposing any clemency. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026.",
+      "finding": "The priority verification flag is valid: web evidence from Wikipedia indicates Representative Raja Krishnamoorthi proposed House Resolution 119-635 on August 5, 2025 \u2014 which falls outside the \u00b17-day window from the April 1, 2026 run date and is a historical fact, not a recent development. The claim presents this as current news without noting it is a months-old resolution."
     },
     {
-      "claim_index": 28,
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "original_headline": "Pentagon designates Palantir AI as core military infrastructure with $10B contracts while OpenAI replaces Anthropic after DOD contract termination",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military infrastructure with $10B in contracts; Anthropic reportedly resisted DOD pressure over autonomous weapons use",
-      "original_summary": "Major reshuffling in Pentagon AI contracts occurred this week. The Pentagon officially designated Palantir's Maven AI system as protected military infrastructure, securing $10B in contracts and providing 1,000 hourly targeting recommendations for ongoing operations. OpenAI announced a new classified",
-      "corrected_summary": "The Pentagon officially designated Palantir's Maven AI system as protected long-term military infrastructure, securing approximately $10 billion in contracts and providing targeting recommendations for ongoing operations. According to The Guardian, Anthropic attempted to resist Pentagon pressure to allow its Claude model to be used in autonomous weapons and mass surveillance applications, though its technology is embedded in Palantir's systems. Web evidence does not confirm a formal DOD contract termination with Anthropic or a replacement classified deal with OpenAI.",
-      "finding": "The claim that 'OpenAI replaces Anthropic after DOD contract termination' and that 'a federal judge blocked the Pentagon's' action is not confirmed by any of the provided web evidence. The Guardian source mentions Anthropic's Claude being used in Palantir systems and Anthropic attempting to resist Pentagon pressure, but does not confirm a formal DOD contract termination or that OpenAI was awarded a replacement contract. These specific claims appear to go beyond what the evidence supports."
+      "claim_index": 33,
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "original_headline": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming associates; victims suing over inadequate redactions",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries naming associates; victims sue over inadequate redactions",
+      "original_summary": "The DOJ has published over 3.5 million pages in its online Epstein library as of March 2026, including FBI 302 interview summaries that name previously unknown associates and detail recruitment operations. Recent releases include evidence of Trump Tower recruitment activities and emails showing conn",
+      "corrected_summary": "The DOJ's Epstein document library has surpassed 3.5 million pages as of March 2026 through multiple releases, including FBI 302 interview summaries naming previously undisclosed associates. The March 5, 2026 sixth release added approximately 50,000 previously withheld files. Multiple Epstein survivors have filed lawsuits against the DOJ and Google alleging the releases inadequately redacted private identifying information, outing approximately 100 survivors.",
+      "finding": "The claim that released FBI 302s specifically document 'Trump Tower recruitment activities' and 'connections to political figures including Prince Andrew and Senator Wyden's son' as confirmed released document contents is not directly corroborated by web evidence; these specific assertions go beyond what verified sources confirm about released file contents."
     },
     {
-      "claim_index": 29,
-      "source": "daily_intelligence/signal/Oracle and Stargate infrastructure",
-      "original_headline": "Oracle reports Q3 FY2026 revenue surge to $17.2B (+22% YoY) driven by 84% OCI growth, stock up 25.23% but remains 44% below analyst targets",
-      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with 84% OCI growth; stock down ~27% YTD despite strong results",
-      "original_summary": "Oracle delivered standout Q3 FY2026 results with revenue jumping 22% to $17.2 billion (vs $16.9B consensus), marking the first time in 15+ years both revenue and EPS grew 20%+. The surge was driven by 84% explosion in Oracle Cloud Infrastructure (OCI) revenue and AI infrastructure growth of 200%. De",
-      "corrected_summary": "Oracle delivered standout Q3 FY2026 results with revenue jumping 22% to $17.2 billion and 84% Oracle Cloud Infrastructure growth, marking the first time in over 15 years both revenue and EPS grew more than 20%. Despite these results and a record $553 billion remaining performance obligations backlog, Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, remaining roughly 44% below analyst price targets. On March 31, shares rose approximately 2.5% following news of workforce reductions.",
-      "finding": "The claim states Oracle stock is 'up 25.23%' in the context, which directly contradicts web evidence showing Oracle stock is down 27% YTD and down ~24.6% over the past 3 months. The Forbes article from March 31 reports shares rose 2.5% on that single day after layoff news, not 25.23% overall. The 'up 25.23%' figure appears to be a significant factual error."
+      "claim_index": 34,
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "original_headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposes any pardon",
+      "corrected_headline": "Maxwell continues clemency appeals while serving 20-year sentence; House resolution opposing pardon dates to August 2025",
+      "original_summary": "Ghislaine Maxwell has repeatedly requested clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and stating any clemency would deny survivors justice. No fo",
+      "corrected_summary": "Ghislaine Maxwell continues seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi's House Resolution 119-635 affirming Maxwell's conviction and opposing clemency was introduced in August 2025, not as a recent development. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026.",
+      "finding": "Same issue as Claim 24: the Congressional resolution was introduced August 5, 2025, not recently; presenting it as current news without this temporal context is misleading."
     }
   ],
-  "enrichment_targets_found": 0,
-  "enrichments_applied": [],
+  "enrichment_targets_found": 1,
+  "enrichments_applied": [
+    {
+      "target": "maxwell",
+      "type": "node",
+      "headline": "Maxwell pardon bid continues as House Oversight escalates Epstein probe; AG Bondi subpoenaed, Epstein attorney testifies",
+      "summary": "As of mid-to-late March 2026, Ghislaine Maxwell's attorney confirmed she is still actively seeking a presidential pardon from Trump, even as the broader Epstein accountability process accelerates around her. House Oversight Committee Chairman James Comer has subpoenaed Attorney General Pam Bondi, and Congress is separately seeking to depose the prison guard on duty at the time of Epstein's death \u2014 signaling the committee is pushing into institutional and custodial failures, not just associate networks. Epstein's former attorney Darren Indyke testified before the committee, denying knowledge of abuse, and indicated he is awaiting further instructions on producing a tranche of documents related to Virginia Giuffre's lawsuit against Maxwell \u2014 keeping Maxwell-linked documentary exposure live even without a direct clemency ruling.",
+      "enrichment_note": "Sourced primarily from web search results: Politico (March 13 2026) on Maxwell pardon bid, CNBC (March 13 2026) on prison guard deposition and Bondi subpoena, PBS NewsHour on Indyke testimony, and Rep. Jayapal press release (March 23 2026) on Democratic DOJ transparency demands."
+    }
+  ],
   "issues_found": [
     {
-      "claim": "Saudi PIF unveils new five-year strategy cutting capital spending 15% while planning 8 IPOs for 2026, announced March 27-28, 2026",
+      "claim": "Saudi PIF unveils new five-year strategy with 15% spending cuts and AI pivot while Mubadala completes multiple major exits totaling $11B in March 2026",
       "source": "node_status/gulf_swf",
-      "finding": "The PIF five-year strategy announcement date is cited as 'March 27-28' but web evidence shows it was announced at FII PRIORITY Miami around March 26-27. More critically, the claim states Mubadala completed a '$4.75B exit from CoolIT Systems generating a 15x return' \u2014 but web evidence shows Mubadala agreed to sell only a minority stake in CoolIT in a KKR-led $4.75B total transaction (not a full exit), with deal closure expected Q3 2026, not completed in March 2026. The '15x return' figure is unverified in any web source.",
-      "corrected_headline": "Saudi PIF unveils five-year strategy cutting capital spending 15% and planning 8 IPOs; Mubadala agrees to sell minority CoolIT stake in $4.75B KKR-led deal",
-      "corrected_summary": "Saudi Arabia's PIF announced a new five-year strategy at FII PRIORITY Miami around March 26-27, 2026, confirming a ~15% reduction in capital spending and a pipeline of eight IPOs for 2026. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction has not yet been completed and the specific return figure has not been publicly confirmed."
+      "finding": "Web evidence shows PIF's governor stated the five-year strategy would be unveiled 'in the coming few weeks' as of late March 2026 \u2014 it had NOT yet been officially released. The claim that PIF 'officially released its new five-year strategy in late March 2026' is premature; only the FII Miami summit outline was presented.",
+      "corrected_headline": "Saudi PIF outlines new five-year strategy at FII Miami with 15% spending cuts and AI pivot; official release still weeks away",
+      "corrected_summary": "Saudi PIF Governor Yasir Al-Rumayyan outlined a forthcoming five-year strategy at the FII Priority Miami summit in late March 2026, detailing approximately 15% capital spending cuts and a pivot toward AI, pharmaceuticals, and renewables. The official strategy document had not yet been released as of the summit, with Al-Rumayyan stating it would be unveiled 'in the coming few weeks.' HUMAIN's Turing partnership and Mubadala exit details require separate verification."
     },
     {
-      "claim": "Oracle stock down 27% YTD amid AI competition concerns while analysts maintain mixed ratings with $200-262 price targets, March 31 2026",
+      "claim": "Oracle Q3 FY2026 revenue surged 22% to $17.2B with cloud up 44% and OCI up 84%, but stock remains down 27% YTD on AI competition concerns as of March 31, 2026",
       "source": "node_status/oracle_ellison",
-      "finding": "The claim states Oracle stock is 'down 27% YTD' which is supported by web evidence, and the trading range and analyst targets are plausible. However, web evidence from Rolling Out/other sources indicates Oracle is down ~60% from its September 2025 peak, and on March 31 shares were reported rising 2.5%, not trading in a flat range \u2014 the YTD figure of 27% is confirmed but the framing omits the sharper decline from peak. More significantly, the $45-50B new capital raise figure cited in the Oracle disambiguation entry conflicts with a web source citing only $30B raised in February 2026. The claim itself is largely consistent with web evidence and the 27% YTD decline and analyst target range are confirmed.",
-      "corrected_headline": "Oracle stock down 27% YTD amid AI competition concerns; shares rose 2.5% March 31 as analysts maintain $200-262 price targets",
-      "corrected_summary": "Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, and are down roughly 60% from their September 2025 peak, despite strong Q3 FY2026 results showing 22% revenue growth to $17.2B. On March 31, shares rose about 2.5% following news of layoffs, trading positively after recent weakness. Bank of America reinstated coverage with a Buy rating and $200 price target, while other analysts maintain targets ranging from $200 to $262."
+      "finding": "The claim that Oracle stock is down 27% YTD is contradicted by web evidence showing the stock is down approximately 29% YTD per Bernstein/TipRanks and approximately 54% from its September 2025 peak per Simply Wall St; the 27% figure appears to be an understatement of the YTD decline.",
+      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with OCI up 84%, but stock down ~29% YTD on AI competition and capital concerns",
+      "corrected_summary": "Oracle reported strong Q3 FY2026 results with total revenue jumping 22% to $17.2 billion and OCI revenue growing 84% year-over-year, with adjusted EPS up 21% to $1.79. Despite these results, Oracle stock is down approximately 29% year-to-date as of late March 2026, and trades roughly 44% below analyst consensus price targets, reflecting investor concern about competitive AI risks and the capital burden of Stargate infrastructure commitments."
     },
     {
-      "claim": "DOJ releases additional Epstein documents March 30, 2026 while victims file class action lawsuit against DOJ and Google over privacy violations in document releases",
+      "claim": "DOJ releases 3.5 million Epstein documents in March 2026 amid Congressional pressure, revealing Prince Andrew arrest and new Trump files while victims sue over privacy violations",
       "source": "node_status/epstein_files",
-      "finding": "The lawsuit was filed on March 27, 2026, not March 30 as implied by the DOJ document release date framing. Additionally, the claim describes the release as happening 'March 30' bringing the total to 'over 3.5 million pages' but web evidence shows the 3.5 million page release occurred on January 30, 2026, not March 30. The lawsuit details are accurate but the document release date and framing are incorrect.",
-      "corrected_headline": "Epstein victims file class action against DOJ and Google over privacy violations in document releases; 3.5M pages released in January 2026",
-      "corrected_summary": "The DOJ released approximately 3.5 million pages of Epstein-related documents on January 30, 2026, under the Epstein Files Transparency Act. On March 27, 2026, a group of approximately 100 Epstein survivors filed a class action lawsuit against the DOJ and Google, alleging that the releases 'outed approximately 100 survivors' through inadequate redactions and that Google continued to republish the exposed personal information, constituting a 'release now, retract later' approach."
+      "finding": "The claim that the DOJ 'completed a massive document release of 3.5 million pages in March 2026' is inaccurate: the primary 3M+ page release occurred on January 30, 2026, with a smaller sixth batch of ~50,000 files released March 5, 2026. Prince Andrew was arrested February 18, 2026 \u2014 not in March. The claim conflates the timing of the bulk release.",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through multiple 2026 releases; Prince Andrew arrested February 18 following email evidence",
+      "corrected_summary": "The DOJ's Epstein document library surpassed 3.5 million pages through a series of releases: the primary batch of over 3 million pages was released January 30, 2026, with a sixth batch of approximately 50,000 files released March 5, 2026. Prince Andrew was arrested on February 18, 2026 on suspicion of misconduct in public office after emails showed he may have forwarded confidential trade documents to Epstein. Victims have filed lawsuits alleging inadequate redactions exposed private information."
     },
     {
-      "claim": "Kuwaiti oil tanker struck and caught fire at Dubai port day after Trump's infrastructure threats to Iran",
+      "claim": "Iran war escalation coincides with Board of Peace Gaza disarmament plan rollout",
       "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states the tanker was struck 'on March 30' but web evidence (Gulf News, NYT) confirms KPC announced the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31. Additionally, one source (UAE authorities) states there was no oil leakage, contradicting the claim's assertion of an ongoing oil spill threat.",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck by Iranian drone at Dubai port on March 31; UAE authorities report no oil leakage",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the Al Salmi, a fully loaded Kuwaiti VLCC, was directly attacked by Iranian forces at approximately 12:10 am on Tuesday, March 31, 2026, while anchored at Dubai Port. The vessel caught fire and sustained damage; however, UAE authorities stated that no one was injured and there was no oil leakage. The attack prompted dozens of nearby tankers to leave the area amid fears of further Iranian strikes on Gulf vessels."
+      "finding": "The claim that the Iran war 'coincides' with the Board of Peace Gaza disarmament plan 'rollout' is misleading: web evidence from Haaretz explicitly states the Iran war is DELAYING Hamas's response to the disarmament plan, not enabling coordinated execution. The framing of 'coordinated Middle East policy execution' misrepresents the actual dynamic.",
+      "corrected_headline": "Iran war disrupts Board of Peace Gaza disarmament plan rollout as Hamas delays response to 8-month proposal",
+      "corrected_summary": "As Operation Epic Fury enters day 32, the Board of Peace's 8-month Hamas disarmament plan \u2014 which links $7B in Gaza reconstruction to weapons compliance \u2014 faces delays because the ongoing Iran war has caused Hamas to withhold its formal response. Sources told Haaretz the disarmament proposal was 'unrealistic' and Hamas will not respond while the Israel-Iran war continues. The two tracks are running in parallel but the Iran conflict is impeding rather than coordinating with the Gaza diplomatic process."
     },
     {
-      "claim": "Board of Peace established for post-conflict Gaza oversight with Trump as lifetime chairman",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states 'up to 35 states have agreed to join' but web evidence indicates approximately 20+ nations participated at the debut meeting (Davos/February 2026), with about 60 invited. The '35 states' figure is not confirmed by any web source provided and may overstate participation.",
-      "corrected_headline": "Board of Peace formally established with Trump as lifetime chairman; over 20 nations participating with ~60 invited",
-      "corrected_summary": "The Board of Peace was formally established via EO 14375 with President Trump as lifetime chairman, tasked with overseeing post-conflict Gaza reconstruction and broader international conflict resolution. Approximately 60 countries were invited to join, with over 20 participating nations represented at the organization's debut meeting. No other G7 states have taken leadership roles in the Trump-led initiative."
-    },
-    {
-      "claim": "State Department diverts $1.25B from disaster funds to Trump's Board of Peace amid Iran war costs",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states funds were diverted 'from disaster funds' specifically, but web evidence specifies the $1.25B was transferred from 'international disasters and peacekeeping' programs \u2014 the claim oversimplifies by saying only 'disaster funds.' More importantly, the claim asserts this occurred 'simultaneously with escalating Iran war expenses and the need to fund Gaza reconstruction commitments' as causal framing that is editorializing beyond the sourced facts, though the core $1.25B transfer figure is confirmed.",
-      "corrected_headline": "State Department transfers $1.25B from international disaster and peacekeeping programs to Board of Peace",
-      "corrected_summary": "The State Department transferred $1.25 billion drawn from international disaster relief and peacekeeping budgets to fund President Trump's Board of Peace, according to a person familiar with the funding. Senator Catherine Cortez Masto (D-NV) announced plans to introduce legislation redirecting $1 billion of those funds to the Low-Income Home Energy Assistance Program amid rising energy costs from the Iran war. The transfer has drawn Congressional scrutiny over the reallocation of humanitarian funds."
-    },
-    {
-      "claim": "Congressional Democrats cave on Iran war powers while opposing Board of Peace Gaza plan",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states 'Senate Democrats are reportedly yielding on Iran war authorization' but web evidence specifies it is House Democratic leaders who delayed the war powers vote until mid-April \u2014 not Senate Democrats. Senator Lisa Murkowski (Republican) is separately drafting war authorization. The claim conflates House and Senate dynamics.",
-      "corrected_headline": "House Democratic leaders delay Iran war powers vote until mid-April while Hamas denounces Board of Peace disarmament plan as 'catastrophic'",
-      "corrected_summary": "House Democratic leaders chose not to force a vote on an Iran war powers resolution, delaying any potential action until Congress returns from recess in mid-April 2026, drawing criticism from the anti-war left. Simultaneously, Hamas officials denounced the Board of Peace's disarmament plan \u2014 which ties Gaza reconstruction funding to weapons handover \u2014 as 'catastrophic' and serving Israel's agenda. Senator Lisa Murkowski (R-AK) is separately drafting authorization for the Iran war."
-    },
-    {
-      "claim": "Iran war enters day 32 with continued US-Israeli airstrikes and Kuwaiti tanker attack at Dubai port on March 30",
+      "claim": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming Trump Tower recruitment and political figure connections",
       "source": "daily_intelligence/top_developments",
-      "finding": "The claim states the tanker attack occurred 'on March 30' in both the headline and context, but web evidence (Gulf News, KPC announcement) confirms the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31, 2026 \u2014 not March 30.",
-      "corrected_headline": "Iran war enters day 32 with continued US-Israeli airstrikes; Kuwaiti tanker Al Salmi struck at Dubai port on March 31",
-      "corrected_summary": "Operation Epic Fury continues into its 32nd day with ongoing US-Israeli strikes on Tehran and Isfahan as of March 31, 2026. Iran retaliated by attacking the fully loaded Kuwaiti VLCC Al Salmi at Dubai port in the early hours of March 31, causing a fire that was later contained, with UAE authorities reporting no oil leakage. Trump announced US withdrawal in 2-3 weeks regardless of ceasefire outcome, claiming regime change has been achieved."
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' and 'Senator Wyden's son' as documented contents of the released files is not corroborated by the web evidence provided; the Epstein Files Wikipedia and Britannica sources do not mention these specific contents, and the Daily Beast source references a redacted FBI report about a Trump accuser \u2014 not Trump Tower recruitment. These specific assertions appear to conflate speculative or unverified details with confirmed document contents.",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through March 2026 releases including FBI 302 summaries; victims sue over privacy violations",
+      "corrected_summary": "The DOJ's Epstein document library exceeded 3.5 million pages through multiple releases, including a major January 30, 2026 drop of over 3 million pages and a sixth batch of ~50,000 files on March 5, 2026. The library includes FBI 302 interview summaries naming associates and high-profile figures, though specific contents remain subject to ongoing redaction disputes. Multiple Epstein victims have filed lawsuits against the Trump administration and Google alleging inadequate redactions exposed private identifying information."
     },
     {
-      "claim": "DOJ released 3.5M pages in Epstein files through January 2026 while victims sue over privacy violations and Congress pressures for remaining FBI 302s",
+      "claim": "Oracle reports record Q3 revenue surge to $17.2B (+22% YoY) but stock remains 44% below analyst targets amid Stargate execution concerns",
       "source": "daily_intelligence/top_developments",
-      "finding": "The claim states DOJ released '3.5M pages through January 2026' and 'nearly 100,000 pages remain withheld' \u2014 the January 30 release date is confirmed, but the Epstein Files Wikipedia article states federal prosecutors identified 6 million pages as potentially responsive and DOJ released only half (~3 million pages), with the deputy AG claiming those were the last remaining. The '100,000 pages remain withheld' figure appears inconsistent with DOJ's claim that the January 30 release was the last batch, and the total is more accurately described as 'over 3 million' not '3.5 million' per some sources.",
-      "corrected_headline": "DOJ released over 3 million Epstein pages by January 30, 2026; victims sue over privacy violations, Congress presses for remaining withheld materials",
-      "corrected_summary": "The DOJ released approximately 3 million to 3.5 million pages of Epstein-related documents by January 30, 2026, under the Epstein Files Transparency Act, with Deputy AG Todd Blanche claiming these were the last remaining documents. Epstein survivors subsequently filed a class action suit against DOJ and Google on March 27, 2026, alleging the releases exposed approximately 100 victims' personal information. Congressional oversight continues with Rep. Massie pressing FBI leadership over unreleased FBI 302 documents, while the DOJ disputes that significant materials remain withheld."
+      "finding": "The claim that Oracle stock 'remains 44% below analyst targets' is presented as equivalent to a stock price decline, but 'below analyst price targets' is a different metric from YTD price decline. Additionally, Claim 3 notes 27% YTD decline while Claim 19 contextually implies deeper decline; Simply Wall St evidence shows ~54% decline from September 2025 peak but only ~29% YTD. The '$553B backlog' is verified. The '10.1% weekly decline' is asserted without strong corroboration in the evidence.",
+      "corrected_headline": "Oracle Q3 FY2026 revenue hits $17.2B (+22% YoY) with $553B backlog, but stock down ~29% YTD and 44% below consensus analyst price targets",
+      "corrected_summary": "Oracle delivered record Q3 FY2026 results with $17.2 billion in revenue (up 22%), OCI growth of 84%, and a $553 billion remaining performance obligations backlog. Despite the strong earnings beat, Oracle stock is down approximately 29% year-to-date and trades roughly 44% below consensus analyst price targets as of late March 2026, reflecting market concern about capital execution risk tied to Stargate commitments and Oracle's existing $100B+ debt load."
     },
     {
-      "claim": "Saudi PIF continues major acquisitions with $1.78B Olam Agri deal while cutting NEOM; Mubadala exits CoolIT for $4.75B amid regional tensions",
-      "source": "daily_intelligence/signal/Gulf SWF capital movements",
-      "finding": "The claim states Mubadala 'sold its minority stake in CoolIT Systems to Ecolab' with 'deal closure expected Q3 2026' and a '$4.75B exit' but the official Mubadala press release confirms it agreed to sell only a minority stake and the transaction has not closed. More importantly, the claim in the context describes this as 'Mubadala completed its $4.75 billion exit' in Claim 2, whereas here it correctly says 'expected Q3 2026' \u2014 the headline claim is accurate but a '15x return' figure appeared in Claim 2 and is not sourced here. Also, the claim says PIF is 'cutting NEOM' which is confirmed (60% budget cut), but 'cutting funding to NEOM megaproject' understates that NEOM assets are being transferred to Aramco and Ministry of Sport per web evidence.",
-      "corrected_headline": "Saudi PIF completes $1.78B Olam Agri deal and cuts NEOM by 60% as Mubadala agrees to sell CoolIT minority stake in $4.75B deal pending Q3 2026 close",
-      "corrected_summary": "Saudi PIF completed a $1.78 billion acquisition increasing its stake in Singapore-based Olam Agri from 35.4% to 80%, while cutting NEOM's budget by approximately 60% and transferring assets to Aramco and the Ministry of Sport. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction is not yet completed. Both sovereign funds stated their overseas investment strategies remain unaffected by regional tensions."
+      "claim": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming associates; victims suing over inadequate redactions",
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' as confirmed released document contents is not directly corroborated by the web evidence; the Epstein files Wikipedia, Britannica, and DOJ sources confirm the volume and existence of 302s and victims' lawsuits, but the specific 'Trump Tower recruitment' framing is not verified and may conflate speculative reporting with confirmed document contents.",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries; victims sue DOJ and Google over privacy violations",
+      "corrected_summary": "The DOJ's online Epstein library has surpassed 3.5 million pages as of March 2026, including FBI 302 interview summaries naming associates and high-profile figures. The most recent release of approximately 50,000 files occurred March 5, 2026. Multiple Epstein survivors have filed lawsuits against the DOJ and Google, alleging that document releases inadequately redacted private identifying information, outing approximately 100 survivors."
     },
     {
-      "claim": "Pentagon designates Palantir AI as core military infrastructure with $10B contracts while OpenAI replaces Anthropic after DOD contract termination",
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "finding": "The claim that 'OpenAI replaces Anthropic after DOD contract termination' and that 'a federal judge blocked the Pentagon's' action is not confirmed by any of the provided web evidence. The Guardian source mentions Anthropic's Claude being used in Palantir systems and Anthropic attempting to resist Pentagon pressure, but does not confirm a formal DOD contract termination or that OpenAI was awarded a replacement contract. These specific claims appear to go beyond what the evidence supports.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military infrastructure with $10B in contracts; Anthropic reportedly resisted DOD pressure over autonomous weapons use",
-      "corrected_summary": "The Pentagon officially designated Palantir's Maven AI system as protected long-term military infrastructure, securing approximately $10 billion in contracts and providing targeting recommendations for ongoing operations. According to The Guardian, Anthropic attempted to resist Pentagon pressure to allow its Claude model to be used in autonomous weapons and mass surveillance applications, though its technology is embedded in Palantir's systems. Web evidence does not confirm a formal DOD contract termination with Anthropic or a replacement classified deal with OpenAI."
+      "claim": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposes any pardon",
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "finding": "The priority verification flag is valid: web evidence from Wikipedia indicates Representative Raja Krishnamoorthi proposed House Resolution 119-635 on August 5, 2025 \u2014 which falls outside the \u00b17-day window from the April 1, 2026 run date and is a historical fact, not a recent development. The claim presents this as current news without noting it is a months-old resolution.",
+      "corrected_headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposing pardon was introduced in August 2025",
+      "corrected_summary": "Ghislaine Maxwell continues to seek clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi introduced House Resolution 119-635 in August 2025, affirming Maxwell's conviction was warranted and opposing any clemency. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026."
     },
     {
-      "claim": "Oracle reports Q3 FY2026 revenue surge to $17.2B (+22% YoY) driven by 84% OCI growth, stock up 25.23% but remains 44% below analyst targets",
-      "source": "daily_intelligence/signal/Oracle and Stargate infrastructure",
-      "finding": "The claim states Oracle stock is 'up 25.23%' in the context, which directly contradicts web evidence showing Oracle stock is down 27% YTD and down ~24.6% over the past 3 months. The Forbes article from March 31 reports shares rose 2.5% on that single day after layoff news, not 25.23% overall. The 'up 25.23%' figure appears to be a significant factual error.",
-      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with 84% OCI growth; stock down ~27% YTD despite strong results",
-      "corrected_summary": "Oracle delivered standout Q3 FY2026 results with revenue jumping 22% to $17.2 billion and 84% Oracle Cloud Infrastructure growth, marking the first time in over 15 years both revenue and EPS grew more than 20%. Despite these results and a record $553 billion remaining performance obligations backlog, Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, remaining roughly 44% below analyst price targets. On March 31, shares rose approximately 2.5% following news of workforce reductions."
+      "claim": "DOJ released 3.5M pages in Epstein library through March 2026, including FBI 302s naming associates; victims suing over inadequate redactions",
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "finding": "The claim that released FBI 302s specifically document 'Trump Tower recruitment activities' and 'connections to political figures including Prince Andrew and Senator Wyden's son' as confirmed released document contents is not directly corroborated by web evidence; these specific assertions go beyond what verified sources confirm about released file contents.",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries naming associates; victims sue over inadequate redactions",
+      "corrected_summary": "The DOJ's Epstein document library has surpassed 3.5 million pages as of March 2026 through multiple releases, including FBI 302 interview summaries naming previously undisclosed associates. The March 5, 2026 sixth release added approximately 50,000 previously withheld files. Multiple Epstein survivors have filed lawsuits against the DOJ and Google alleging the releases inadequately redacted private identifying information, outing approximately 100 survivors."
+    },
+    {
+      "claim": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposes any pardon",
+      "source": "daily_intelligence/signal/Maxwell clemency and testimony",
+      "finding": "Same issue as Claim 24: the Congressional resolution was introduced August 5, 2025, not recently; presenting it as current news without this temporal context is misleading.",
+      "corrected_headline": "Maxwell continues clemency appeals while serving 20-year sentence; House resolution opposing pardon dates to August 2025",
+      "corrected_summary": "Ghislaine Maxwell continues seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi's House Resolution 119-635 affirming Maxwell's conviction and opposing clemency was introduced in August 2025, not as a recent development. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Rep. Krishnamoorthi proposed House Resolution 119-635 on August 5 opposing Maxwell clemency, and confirms the diamonds/hard drives story about missing items from Epstein's safe for 5 days after the 2019 FBI raid."
+      "finding": "Web evidence confirms Trump scheduled a prime-time address for Wednesday April 1, a Kuwaiti tanker was struck off Dubai, Iran denied formal negotiations despite active backchannels, and Defense Secretary Hegseth described the coming days as decisive."
     },
     {
       "claim_index": 1,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Trump's 2-3 week withdrawal claim, Hegseth's March 31 briefing, Iran's denial of direct negotiations, and the China-Pakistan 5-point ceasefire plan presented on March 31, 2026."
+      "status": "FLAGGED",
+      "finding": "Web evidence shows PIF's governor stated the five-year strategy would be unveiled 'in the coming few weeks' as of late March 2026 \u2014 it had NOT yet been officially released. The claim that PIF 'officially released its new five-year strategy in late March 2026' is premature; only the FII Miami summit outline was presented.",
+      "corrected_headline": "Saudi PIF outlines new five-year strategy at FII Miami with 15% spending cuts and AI pivot; official release still weeks away",
+      "corrected_summary": "Saudi PIF Governor Yasir Al-Rumayyan outlined a forthcoming five-year strategy at the FII Priority Miami summit in late March 2026, detailing approximately 15% capital spending cuts and a pivot toward AI, pharmaceuticals, and renewables. The official strategy document had not yet been released as of the summit, with Al-Rumayyan stating it would be unveiled 'in the coming few weeks.' HUMAIN's Turing partnership and Mubadala exit details require separate verification."
     },
     {
       "claim_index": 2,
-      "status": "FLAGGED",
-      "finding": "The PIF five-year strategy announcement date is cited as 'March 27-28' but web evidence shows it was announced at FII PRIORITY Miami around March 26-27. More critically, the claim states Mubadala completed a '$4.75B exit from CoolIT Systems generating a 15x return' \u2014 but web evidence shows Mubadala agreed to sell only a minority stake in CoolIT in a KKR-led $4.75B total transaction (not a full exit), with deal closure expected Q3 2026, not completed in March 2026. The '15x return' figure is unverified in any web source.",
-      "corrected_headline": "Saudi PIF unveils five-year strategy cutting capital spending 15% and planning 8 IPOs; Mubadala agrees to sell minority CoolIT stake in $4.75B KKR-led deal",
-      "corrected_summary": "Saudi Arabia's PIF announced a new five-year strategy at FII PRIORITY Miami around March 26-27, 2026, confirming a ~15% reduction in capital spending and a pipeline of eight IPOs for 2026. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction has not yet been completed and the specific return figure has not been publicly confirmed."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Israeli strikes on Beirut targeting senior Hezbollah commanders on March 31, ongoing ground operations in southern Lebanon, and strikes on Iranian military-affiliated sites in Tehran; the IDF statement about two separate Beirut attacks targeting senior terrorists is corroborated."
     },
     {
       "claim_index": 3,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Israeli Defense Minister Katz declared permanent occupation of a southern Lebanon buffer zone extending to the Litani River on March 31, and IDF strikes on Hezbollah commanders in Beirut are consistent with the broader operational context."
+      "status": "FLAGGED",
+      "finding": "The claim that Oracle stock is down 27% YTD is contradicted by web evidence showing the stock is down approximately 29% YTD per Bernstein/TipRanks and approximately 54% from its September 2025 peak per Simply Wall St; the 27% figure appears to be an understatement of the YTD decline.",
+      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with OCI up 84%, but stock down ~29% YTD on AI competition and capital concerns",
+      "corrected_summary": "Oracle reported strong Q3 FY2026 results with total revenue jumping 22% to $17.2 billion and OCI revenue growing 84% year-over-year, with adjusted EPS up 21% to $1.79. Despite these results, Oracle stock is down approximately 29% year-to-date as of late March 2026, and trades roughly 44% below analyst consensus price targets, reflecting investor concern about competitive AI risks and the capital burden of Stargate infrastructure commitments."
     },
     {
       "claim_index": 4,
       "status": "FLAGGED",
-      "finding": "The claim states Oracle stock is 'down 27% YTD' which is supported by web evidence, and the trading range and analyst targets are plausible. However, web evidence from Rolling Out/other sources indicates Oracle is down ~60% from its September 2025 peak, and on March 31 shares were reported rising 2.5%, not trading in a flat range \u2014 the YTD figure of 27% is confirmed but the framing omits the sharper decline from peak. More significantly, the $45-50B new capital raise figure cited in the Oracle disambiguation entry conflicts with a web source citing only $30B raised in February 2026. The claim itself is largely consistent with web evidence and the 27% YTD decline and analyst target range are confirmed.",
-      "corrected_headline": "Oracle stock down 27% YTD amid AI competition concerns; shares rose 2.5% March 31 as analysts maintain $200-262 price targets",
-      "corrected_summary": "Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, and are down roughly 60% from their September 2025 peak, despite strong Q3 FY2026 results showing 22% revenue growth to $17.2B. On March 31, shares rose about 2.5% following news of layoffs, trading positively after recent weakness. Bank of America reinstated coverage with a Buy rating and $200 price target, while other analysts maintain targets ranging from $200 to $262."
+      "finding": "The claim that the DOJ 'completed a massive document release of 3.5 million pages in March 2026' is inaccurate: the primary 3M+ page release occurred on January 30, 2026, with a smaller sixth batch of ~50,000 files released March 5, 2026. Prince Andrew was arrested February 18, 2026 \u2014 not in March. The claim conflates the timing of the bulk release.",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through multiple 2026 releases; Prince Andrew arrested February 18 following email evidence",
+      "corrected_summary": "The DOJ's Epstein document library surpassed 3.5 million pages through a series of releases: the primary batch of over 3 million pages was released January 30, 2026, with a sixth batch of approximately 50,000 files released March 5, 2026. Prince Andrew was arrested on February 18, 2026 on suspicion of misconduct in public office after emails showed he may have forwarded confidential trade documents to Epstein. Victims have filed lawsuits alleging inadequate redactions exposed private information."
     },
     {
       "claim_index": 5,
-      "status": "FLAGGED",
-      "finding": "The lawsuit was filed on March 27, 2026, not March 30 as implied by the DOJ document release date framing. Additionally, the claim describes the release as happening 'March 30' bringing the total to 'over 3.5 million pages' but web evidence shows the 3.5 million page release occurred on January 30, 2026, not March 30. The lawsuit details are accurate but the document release date and framing are incorrect.",
-      "corrected_headline": "Epstein victims file class action against DOJ and Google over privacy violations in document releases; 3.5M pages released in January 2026",
-      "corrected_summary": "The DOJ released approximately 3.5 million pages of Epstein-related documents on January 30, 2026, under the Epstein Files Transparency Act. On March 27, 2026, a group of approximately 100 Epstein survivors filed a class action lawsuit against the DOJ and Google, alleging that the releases 'outed approximately 100 survivors' through inadequate redactions and that Google continued to republish the exposed personal information, constituting a 'release now, retract later' approach."
+      "status": "VERIFIED",
+      "finding": "Web evidence from Arkansas Democrat-Gazette and Entergy press releases confirms Google's $1B Port of Little Rock data center details (1.43M sq ft, 5 industrial buildings, 2 office buildings, substation) and Entergy's $5B customer savings announcement from data center agreements."
     },
     {
       "claim_index": 6,
       "status": "VERIFIED",
-      "finding": "Web evidence directly confirms both the Google $1B Little Rock data center details (1.43M sq ft, five industrial buildings, Army Corps of Engineers documents) and Entergy's $5B customer savings announcement from data center agreements."
+      "finding": "Web evidence from CNN, Al Jazeera, and Indian Express confirms the war was on day 32 as of March 31, 2026, with strikes on Tehran and Isfahan, Trump threatening energy infrastructure, and Iran rejecting the US 15-point ceasefire proposal on March 25 while issuing a counterproposal."
     },
     {
       "claim_index": 7,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Day 32 of the Iran war on March 31, ongoing strikes on Tehran and Isfahan, Trump's infrastructure threats, the 15-point ceasefire proposal, and Iran's formal rejection on March 25."
+      "finding": "Web evidence confirms a Kuwaiti tanker was struck off Dubai on March 30-31, US gas prices crossed $4 per gallon, and Trump told European allies to 'go get your own oil' \u2014 all details corroborated by NYT, NBC, CNN, and Washington Post sources."
     },
     {
       "claim_index": 8,
-      "status": "FLAGGED",
-      "finding": "The claim states the tanker was struck 'on March 30' but web evidence (Gulf News, NYT) confirms KPC announced the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31. Additionally, one source (UAE authorities) states there was no oil leakage, contradicting the claim's assertion of an ongoing oil spill threat.",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck by Iranian drone at Dubai port on March 31; UAE authorities report no oil leakage",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the Al Salmi, a fully loaded Kuwaiti VLCC, was directly attacked by Iranian forces at approximately 12:10 am on Tuesday, March 31, 2026, while anchored at Dubai Port. The vessel caught fire and sustained damage; however, UAE authorities stated that no one was injured and there was no oil leakage. The attack prompted dozens of nearby tankers to leave the area amid fears of further Iranian strikes on Gulf vessels."
+      "status": "VERIFIED",
+      "finding": "Web evidence from Reuters, Wikipedia, and House of Commons Library confirms the Board of Peace was formally established under EO 14375, Trump serves as chairman, up to 35 states agreed to participate, and no other G7 states have joined."
     },
     {
       "claim_index": 9,
       "status": "VERIFIED",
-      "finding": "Web evidence from Sky News, BBC, The Hill, Guardian, and CNBC all confirm Trump's statements about withdrawing in 2-3 weeks, claiming regime change achieved, and stating Iran gave the US 'most of the points' in ceasefire negotiations."
+      "finding": "Web evidence from i24News, The Defense News, and Iran International confirms the rift between Pezeshkian and IRGC leadership, with Pezeshkian warning of economic collapse within 3-4 weeks without a ceasefire."
     },
     {
       "claim_index": 10,
-      "status": "FLAGGED",
-      "finding": "The claim states 'up to 35 states have agreed to join' but web evidence indicates approximately 20+ nations participated at the debut meeting (Davos/February 2026), with about 60 invited. The '35 states' figure is not confirmed by any web source provided and may overstate participation.",
-      "corrected_headline": "Board of Peace formally established with Trump as lifetime chairman; over 20 nations participating with ~60 invited",
-      "corrected_summary": "The Board of Peace was formally established via EO 14375 with President Trump as lifetime chairman, tasked with overseeing post-conflict Gaza reconstruction and broader international conflict resolution. Approximately 60 countries were invited to join, with over 20 participating nations represented at the organization's debut meeting. No other G7 states have taken leadership roles in the Trump-led initiative."
+      "status": "VERIFIED",
+      "finding": "Web evidence from WSJ (via Jerusalem Post, Times of Israel, Yahoo News, Independent) confirms Trump told aides he was willing to end the Iran military campaign even if the Strait of Hormuz remains largely closed, leaving reopening for a later date."
     },
     {
       "claim_index": 11,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms oil is on track for record monthly gain amid the Iran war, US gas prices hit $4/gallon for the first time since 2022, and Trump's comments about European allies and the Strait of Hormuz."
+      "finding": "Web evidence from ISW, JNS, and NBC confirms Iran has launched over 400 ballistic missiles at Israel since the war started, with the IDF maintaining a 92% interception rate, including recent salvos targeting Haifa oil refineries."
     },
     {
       "claim_index": 12,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Guardian, AP, PBS, and Time all confirm Iran formally rejected the US 15-point ceasefire proposal on March 25, issued its own counterproposal, and declared that Lebanon must be included in any ceasefire deal."
+      "status": "FLAGGED",
+      "finding": "The claim that the Iran war 'coincides' with the Board of Peace Gaza disarmament plan 'rollout' is misleading: web evidence from Haaretz explicitly states the Iran war is DELAYING Hamas's response to the disarmament plan, not enabling coordinated execution. The framing of 'coordinated Middle East policy execution' misrepresents the actual dynamic.",
+      "corrected_headline": "Iran war disrupts Board of Peace Gaza disarmament plan rollout as Hamas delays response to 8-month proposal",
+      "corrected_summary": "As Operation Epic Fury enters day 32, the Board of Peace's 8-month Hamas disarmament plan \u2014 which links $7B in Gaza reconstruction to weapons compliance \u2014 faces delays because the ongoing Iran war has caused Hamas to withhold its formal response. Sources told Haaretz the disarmament proposal was 'unrealistic' and Hamas will not respond while the Israel-Iran war continues. The two tracks are running in parallel but the Iran conflict is impeding rather than coordinating with the Gaza diplomatic process."
     },
     {
       "claim_index": 13,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms projectiles struck the area around Bushehr nuclear power plant multiple times during March 2026, with IAEA confirmation, no damage to the reactor, and no radiation leaks reported."
+      "finding": "Web evidence confirms Trump delayed his Iran ultimatum (extending to April 6), announced a Wednesday national address on the Iran campaign, and claimed the war could end in 2-3 weeks, consistent with the claim's description."
     },
     {
       "claim_index": 14,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms the Board of Peace is pushing an 8-month Hamas disarmament timeline with $7B reconstruction funding, and that the Iran war is delaying Hamas's decision on the disarmament plan, consistent with Trump's dual Middle East strategy framing."
+      "finding": "Web evidence from multiple law firm press releases confirms a class action securities fraud lawsuit was filed against Inovio alleging failure to disclose manufacturing deficiencies for the CELLECTRA device between October 2023 and December 2025, overstating regulatory prospects for INO-3107."
     },
     {
       "claim_index": 15,
-      "status": "FLAGGED",
-      "finding": "The claim states funds were diverted 'from disaster funds' specifically, but web evidence specifies the $1.25B was transferred from 'international disasters and peacekeeping' programs \u2014 the claim oversimplifies by saying only 'disaster funds.' More importantly, the claim asserts this occurred 'simultaneously with escalating Iran war expenses and the need to fund Gaza reconstruction commitments' as causal framing that is editorializing beyond the sourced facts, though the core $1.25B transfer figure is confirmed.",
-      "corrected_headline": "State Department transfers $1.25B from international disaster and peacekeeping programs to Board of Peace",
-      "corrected_summary": "The State Department transferred $1.25 billion drawn from international disaster relief and peacekeeping budgets to fund President Trump's Board of Peace, according to a person familiar with the funding. Senator Catherine Cortez Masto (D-NV) announced plans to introduce legislation redirecting $1 billion of those funds to the Low-Income Home Energy Assistance Program amid rising energy costs from the Iran war. The transfer has drawn Congressional scrutiny over the reallocation of humanitarian funds."
+      "status": "VERIFIED",
+      "finding": "Web evidence from 404 Media, Cyber Insider, and Security Boulevard confirms Apple provided the FBI with real identity information linked to a 'Hide My Email' address via a court-compelled disclosure, as revealed in a court affidavit."
     },
     {
       "claim_index": 16,
-      "status": "FLAGGED",
-      "finding": "The claim states 'Senate Democrats are reportedly yielding on Iran war authorization' but web evidence specifies it is House Democratic leaders who delayed the war powers vote until mid-April \u2014 not Senate Democrats. Senator Lisa Murkowski (Republican) is separately drafting war authorization. The claim conflates House and Senate dynamics.",
-      "corrected_headline": "House Democratic leaders delay Iran war powers vote until mid-April while Hamas denounces Board of Peace disarmament plan as 'catastrophic'",
-      "corrected_summary": "House Democratic leaders chose not to force a vote on an Iran war powers resolution, delaying any potential action until Congress returns from recess in mid-April 2026, drawing criticism from the anti-war left. Simultaneously, Hamas officials denounced the Board of Peace's disarmament plan \u2014 which ties Gaza reconstruction funding to weapons handover \u2014 as 'catastrophic' and serving Israel's agenda. Senator Lisa Murkowski (R-AK) is separately drafting authorization for the Iran war."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Microsoft deprecated WSUS, signaling a strategic shift away from traditional on-premises enterprise update management toward cloud-based solutions, consistent with the claim."
     },
     {
       "claim_index": 17,
       "status": "VERIFIED",
-      "finding": "Web evidence from multiple sources confirms the Inovio securities fraud class action alleging CELLECTRA manufacturing deficiencies and overstated INO-3107 regulatory prospects during the October 2023 to December 2025 class period."
+      "finding": "Web evidence confirms the war was on day 32 with continued strikes, Iran formally rejected the US ceasefire proposal on March 25 and issued a counterproposal, and Trump simultaneously claimed progress while maintaining kinetic pressure and threatening energy infrastructure."
     },
     {
       "claim_index": 18,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Apple disclosed a 'Hide My Email' user's real identity to the FBI via a court-compelled legal process, contradicting the privacy protections marketed for the feature."
+      "status": "FLAGGED",
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' and 'Senator Wyden's son' as documented contents of the released files is not corroborated by the web evidence provided; the Epstein Files Wikipedia and Britannica sources do not mention these specific contents, and the Daily Beast source references a redacted FBI report about a Trump accuser \u2014 not Trump Tower recruitment. These specific assertions appear to conflate speculative or unverified details with confirmed document contents.",
+      "corrected_headline": "DOJ Epstein library surpasses 3.5M pages through March 2026 releases including FBI 302 summaries; victims sue over privacy violations",
+      "corrected_summary": "The DOJ's Epstein document library exceeded 3.5 million pages through multiple releases, including a major January 30, 2026 drop of over 3 million pages and a sixth batch of ~50,000 files on March 5, 2026. The library includes FBI 302 interview summaries naming associates and high-profile figures, though specific contents remain subject to ongoing redaction disputes. Multiple Epstein victims have filed lawsuits against the Trump administration and Google alleging inadequate redactions exposed private identifying information."
     },
     {
       "claim_index": 19,
       "status": "FLAGGED",
-      "finding": "The claim states the tanker attack occurred 'on March 30' in both the headline and context, but web evidence (Gulf News, KPC announcement) confirms the Al Salmi was struck at approximately 12:10 am on Tuesday, March 31, 2026 \u2014 not March 30.",
-      "corrected_headline": "Iran war enters day 32 with continued US-Israeli airstrikes; Kuwaiti tanker Al Salmi struck at Dubai port on March 31",
-      "corrected_summary": "Operation Epic Fury continues into its 32nd day with ongoing US-Israeli strikes on Tehran and Isfahan as of March 31, 2026. Iran retaliated by attacking the fully loaded Kuwaiti VLCC Al Salmi at Dubai port in the early hours of March 31, causing a fire that was later contained, with UAE authorities reporting no oil leakage. Trump announced US withdrawal in 2-3 weeks regardless of ceasefire outcome, claiming regime change has been achieved."
+      "finding": "The claim that Oracle stock 'remains 44% below analyst targets' is presented as equivalent to a stock price decline, but 'below analyst price targets' is a different metric from YTD price decline. Additionally, Claim 3 notes 27% YTD decline while Claim 19 contextually implies deeper decline; Simply Wall St evidence shows ~54% decline from September 2025 peak but only ~29% YTD. The '$553B backlog' is verified. The '10.1% weekly decline' is asserted without strong corroboration in the evidence.",
+      "corrected_headline": "Oracle Q3 FY2026 revenue hits $17.2B (+22% YoY) with $553B backlog, but stock down ~29% YTD and 44% below consensus analyst price targets",
+      "corrected_summary": "Oracle delivered record Q3 FY2026 results with $17.2 billion in revenue (up 22%), OCI growth of 84%, and a $553 billion remaining performance obligations backlog. Despite the strong earnings beat, Oracle stock is down approximately 29% year-to-date and trades roughly 44% below consensus analyst price targets as of late March 2026, reflecting market concern about capital execution risk tied to Stargate commitments and Oracle's existing $100B+ debt load."
     },
     {
       "claim_index": 20,
-      "status": "FLAGGED",
-      "finding": "The claim states DOJ released '3.5M pages through January 2026' and 'nearly 100,000 pages remain withheld' \u2014 the January 30 release date is confirmed, but the Epstein Files Wikipedia article states federal prosecutors identified 6 million pages as potentially responsive and DOJ released only half (~3 million pages), with the deputy AG claiming those were the last remaining. The '100,000 pages remain withheld' figure appears inconsistent with DOJ's claim that the January 30 release was the last batch, and the total is more accurately described as 'over 3 million' not '3.5 million' per some sources.",
-      "corrected_headline": "DOJ released over 3 million Epstein pages by January 30, 2026; victims sue over privacy violations, Congress presses for remaining withheld materials",
-      "corrected_summary": "The DOJ released approximately 3 million to 3.5 million pages of Epstein-related documents by January 30, 2026, under the Epstein Files Transparency Act, with Deputy AG Todd Blanche claiming these were the last remaining documents. Epstein survivors subsequently filed a class action suit against DOJ and Google on March 27, 2026, alleging the releases exposed approximately 100 victims' personal information. Congressional oversight continues with Rep. Massie pressing FBI leadership over unreleased FBI 302 documents, while the DOJ disputes that significant materials remain withheld."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms day 31 reporting of strikes, Trump's claims about oil ships and 2-3 week wind-down, Iran's rejection of the 15-point proposal, Iranian counterproposal, and the Kuwaiti tanker strike off Dubai \u2014 all consistent with the claim's details."
     },
     {
       "claim_index": 21,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Oracle Q3 FY2026 revenue of $17.2B (+22% YoY), 84% OCI growth, $553B remaining performance obligations (+325%), and stock remaining 44% below analyst targets."
+      "finding": "Web evidence from Reuters, Times of Israel, Al Jazeera, and BBC confirms the Board of Peace's 8-month staged Hamas disarmament plan, $7B reconstruction fund contingent on compliance, and International Stabilization Force authorization under UN Resolution 2803, with Kosovo troop contributions reported."
     },
     {
       "claim_index": 22,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Day 32 US-Israeli airstrikes, Trump's extended deadline for energy infrastructure attacks to April 6, Iran's rejection of the 15-point proposal with its own counterproposal demanding reparations and Hormuz sovereignty, and Trump's claim that Iran agreed to allow oil ships through \u2014 consistent with the Iran parliamentary commission approving Hormuz tolls as described."
+      "status": "UNVERIFIABLE",
+      "finding": "Web evidence confirms PIF's general investment commitment stance and LIV Golf involvement, but the specific figures of $1.78B for Olam Agri stake increase to 80% and $5.3B LIV Golf commitment as of February 2026 are not directly corroborated or refuted by the provided web evidence; these require dedicated source verification."
     },
     {
       "claim_index": 23,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms the Board of Peace's 8-month Hamas disarmament plan, $7B reconstruction fund announced at the February 19 debut meeting, ISF deployment authorized under UN Resolution 2803, and Palestinian technocratic committee managing Gaza administration."
+      "status": "FLAGGED",
+      "finding": "The claim that FBI 302s specifically name 'Trump Tower recruitment operations' as confirmed released document contents is not directly corroborated by the web evidence; the Epstein files Wikipedia, Britannica, and DOJ sources confirm the volume and existence of 302s and victims' lawsuits, but the specific 'Trump Tower recruitment' framing is not verified and may conflate speculative reporting with confirmed document contents.",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries; victims sue DOJ and Google over privacy violations",
+      "corrected_summary": "The DOJ's online Epstein library has surpassed 3.5 million pages as of March 2026, including FBI 302 interview summaries naming associates and high-profile figures. The most recent release of approximately 50,000 files occurred March 5, 2026. Multiple Epstein survivors have filed lawsuits against the DOJ and Google, alleging that document releases inadequately redacted private identifying information, outing approximately 100 survivors."
     },
     {
       "claim_index": 24,
       "status": "FLAGGED",
-      "finding": "The claim states Mubadala 'sold its minority stake in CoolIT Systems to Ecolab' with 'deal closure expected Q3 2026' and a '$4.75B exit' but the official Mubadala press release confirms it agreed to sell only a minority stake and the transaction has not closed. More importantly, the claim in the context describes this as 'Mubadala completed its $4.75 billion exit' in Claim 2, whereas here it correctly says 'expected Q3 2026' \u2014 the headline claim is accurate but a '15x return' figure appeared in Claim 2 and is not sourced here. Also, the claim says PIF is 'cutting NEOM' which is confirmed (60% budget cut), but 'cutting funding to NEOM megaproject' understates that NEOM assets are being transferred to Aramco and Ministry of Sport per web evidence.",
-      "corrected_headline": "Saudi PIF completes $1.78B Olam Agri deal and cuts NEOM by 60% as Mubadala agrees to sell CoolIT minority stake in $4.75B deal pending Q3 2026 close",
-      "corrected_summary": "Saudi PIF completed a $1.78 billion acquisition increasing its stake in Singapore-based Olam Agri from 35.4% to 80%, while cutting NEOM's budget by approximately 60% and transferring assets to Aramco and the Ministry of Sport. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction is not yet completed. Both sovereign funds stated their overseas investment strategies remain unaffected by regional tensions."
+      "finding": "The priority verification flag is valid: web evidence from Wikipedia indicates Representative Raja Krishnamoorthi proposed House Resolution 119-635 on August 5, 2025 \u2014 which falls outside the \u00b17-day window from the April 1, 2026 run date and is a historical fact, not a recent development. The claim presents this as current news without noting it is a months-old resolution.",
+      "corrected_headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposing pardon was introduced in August 2025",
+      "corrected_summary": "Ghislaine Maxwell continues to seek clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi introduced House Resolution 119-635 in August 2025, affirming Maxwell's conviction was warranted and opposing any clemency. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026."
     },
     {
       "claim_index": 25,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms the January 30, 2026 release of 3.5 million documents, the March 27 class action lawsuit by ~100 victims against DOJ and Google citing a 'release now, retract later' approach, and ongoing Congressional pressure for remaining materials."
+      "finding": "Web evidence from Kyiv Independent, DW, and UA News confirms Russia rejected Ukraine's Easter ceasefire proposal, and Zelensky publicly accused the US of linking security guarantees to Donbas withdrawal, creating a diplomatic dispute with Rubio's office."
     },
     {
       "claim_index": 26,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Rep. Krishnamoorthi's House Resolution 119-635 opposing Maxwell clemency, Maxwell's ongoing clemency appeals to Trump, and no formal DOJ clemency decision reported."
+      "finding": "Web evidence from Axios, Al Jazeera, National Catholic Register, and hvylya.net confirms the Pentagon terminated Anthropic's $200M contract, OpenAI stepped in to fill the gap, Anthropic filed suit, and a federal judge blocked the Pentagon's 'supply chain risk' designation \u2014 consistent with all major claim details."
     },
     {
       "claim_index": 27,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Ukraine's Easter ceasefire proposal, Russia's rejection favoring comprehensive peace, and the Zelensky-Rubio dispute over whether US security guarantees were conditioned on Donbas withdrawal \u2014 with Rubio calling Zelensky's characterization inaccurate."
+      "finding": "Web evidence confirms Oracle Q3 FY2026 revenue of $17.2B (+22%), OCI growth of 84%, $553B backlog, and stock trading approximately 44% below analyst consensus targets, consistent with the claim's core assertions."
     },
     {
       "claim_index": 28,
-      "status": "FLAGGED",
-      "finding": "The claim that 'OpenAI replaces Anthropic after DOD contract termination' and that 'a federal judge blocked the Pentagon's' action is not confirmed by any of the provided web evidence. The Guardian source mentions Anthropic's Claude being used in Palantir systems and Anthropic attempting to resist Pentagon pressure, but does not confirm a formal DOD contract termination or that OpenAI was awarded a replacement contract. These specific claims appear to go beyond what the evidence supports.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military infrastructure with $10B in contracts; Anthropic reportedly resisted DOD pressure over autonomous weapons use",
-      "corrected_summary": "The Pentagon officially designated Palantir's Maven AI system as protected long-term military infrastructure, securing approximately $10 billion in contracts and providing targeting recommendations for ongoing operations. According to The Guardian, Anthropic attempted to resist Pentagon pressure to allow its Claude model to be used in autonomous weapons and mass surveillance applications, though its technology is embedded in Palantir's systems. Web evidence does not confirm a formal DOD contract termination with Anthropic or a replacement classified deal with OpenAI."
+      "status": "VERIFIED",
+      "finding": "Web evidence from Fortune, Fox News, and Federal News Network confirms OPM launched the Early Career Talent Network on March 30, 2026 targeting Gen Z workers after approximately 385,000 federal employees were shed in 2025, consistent with the claim."
     },
     {
       "claim_index": 29,
-      "status": "FLAGGED",
-      "finding": "The claim states Oracle stock is 'up 25.23%' in the context, which directly contradicts web evidence showing Oracle stock is down 27% YTD and down ~24.6% over the past 3 months. The Forbes article from March 31 reports shares rose 2.5% on that single day after layoff news, not 25.23% overall. The 'up 25.23%' figure appears to be a significant factual error.",
-      "corrected_headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with 84% OCI growth; stock down ~27% YTD despite strong results",
-      "corrected_summary": "Oracle delivered standout Q3 FY2026 results with revenue jumping 22% to $17.2 billion and 84% Oracle Cloud Infrastructure growth, marking the first time in over 15 years both revenue and EPS grew more than 20%. Despite these results and a record $553 billion remaining performance obligations backlog, Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, remaining roughly 44% below analyst price targets. On March 31, shares rose approximately 2.5% following news of workforce reductions."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms TikTok settled the KGM bellwether social media addiction lawsuit before trial, ongoing litigation advancing through courts in March 2026, with financial discovery disputes and 'defective product' arguments \u2014 consistent with the claim's description of advancing litigation distinct from the USDS JV structure."
     },
     {
       "claim_index": 30,
       "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for this claim about OPM's Early Career Talent Network launch, the 385,000 workforce reduction figure, or the February 6 Schedule Policy/Career finalization date. Cannot verify or refute without supporting evidence."
+      "finding": "No web verification evidence was provided for the CFIUS fast-track program proposal or FCC Covered List expansion to foreign routers on March 23, 2026; these specific claims cannot be verified or refuted from the available evidence."
     },
     {
       "claim_index": 31,
       "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the specific March 3, 2026 New York state judge ruling on TikTok financial documents or the Illinois privacy suits. Cannot verify these specific claims without supporting evidence."
+      "finding": "While Google's $1B Little Rock data center and Entergy's $5B savings announcement are verified by other claims, the specific AVAIO Digital 'January 2026' Little Rock campus confirmation and the 240-mile 500kV transmission line details linking to Arkansas are not directly corroborated in the provided web evidence."
     },
     {
       "claim_index": 32,
       "status": "UNVERIFIABLE",
-      "finding": "No web verification evidence was provided for the CFIUS fast-track program proposal or the March 23, 2026 FCC Covered List expansion to include foreign-produced routers. Cannot verify these specific claims without supporting evidence."
+      "finding": "Web evidence confirms PIF's general investment commitment and LIV Golf involvement, but the specific $1.78B Olam Agri stake increase to 80% and $5.3B LIV Golf total commitment as of February 2026 are not directly confirmed or refuted by the provided evidence; same assessment as Claim 22."
     },
     {
       "claim_index": 33,
+      "status": "FLAGGED",
+      "finding": "The claim that released FBI 302s specifically document 'Trump Tower recruitment activities' and 'connections to political figures including Prince Andrew and Senator Wyden's son' as confirmed released document contents is not directly corroborated by web evidence; these specific assertions go beyond what verified sources confirm about released file contents.",
+      "corrected_headline": "DOJ Epstein library exceeds 3.5M pages through March 2026 with FBI 302 summaries naming associates; victims sue over inadequate redactions",
+      "corrected_summary": "The DOJ's Epstein document library has surpassed 3.5 million pages as of March 2026 through multiple releases, including FBI 302 interview summaries naming previously undisclosed associates. The March 5, 2026 sixth release added approximately 50,000 previously withheld files. Multiple Epstein survivors have filed lawsuits against the DOJ and Google alleging the releases inadequately redacted private identifying information, outing approximately 100 survivors."
+    },
+    {
+      "claim_index": 34,
+      "status": "FLAGGED",
+      "finding": "Same issue as Claim 24: the Congressional resolution was introduced August 5, 2025, not recently; presenting it as current news without this temporal context is misleading.",
+      "corrected_headline": "Maxwell continues clemency appeals while serving 20-year sentence; House resolution opposing pardon dates to August 2025",
+      "corrected_summary": "Ghislaine Maxwell continues seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja Krishnamoorthi's House Resolution 119-635 affirming Maxwell's conviction and opposing clemency was introduced in August 2025, not as a recent development. No new formal DOJ clemency decision or court filings have been reported in the week ending April 1, 2026."
+    },
+    {
+      "claim_index": 35,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Google's $1B Little Rock data center with 1.43M sq ft across five industrial buildings at the Port of Little Rock, consistent with the claim. The AVAIO Digital campus detail is not contradicted by web evidence, though not independently confirmed in the provided sources."
+      "finding": "Web evidence from Kyiv Independent, DW, Sky News, and UA News confirms Russia rejected Ukraine's Easter ceasefire proposal, Zelensky accused the US of linking security guarantees to Donbas withdrawal, and Rubio disputed the characterization \u2014 consistent with the claim."
+    },
+    {
+      "claim_index": 36,
+      "status": "VERIFIED",
+      "finding": "Web evidence from Axios, Al Jazeera, National Catholic Register, and hvylya.net confirms all major elements: Pentagon terminated Anthropic's $200M contract, OpenAI stepped in with a classified defense deal, Anthropic sued, and a federal judge blocked the 'supply chain risk' designation."
+    },
+    {
+      "claim_index": 37,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle Q3 FY2026 revenue of $17.2B (+22%), OCI up 84%, $553B backlog, EPS up 21%, and stock approximately 44% below analyst consensus targets \u2014 consistent with all major claim details."
+    },
+    {
+      "claim_index": 38,
+      "status": "VERIFIED",
+      "finding": "Web evidence from Fortune, Fox News, Federal News Network, and Fox News confirms OPM launched the Early Career Talent Network on March 30, 2026 targeting Gen Z after approximately 385,000 federal employees were shed in 2025, with Schedule Policy/Career reclassification facing union lawsuits."
+    },
+    {
+      "claim_index": 39,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms TikTok settled the KGM bellwether case before trial, ongoing social media addiction litigation advancing in March 2026 with financial discovery disputes, and 'defective product' arguments potentially requiring platform redesign \u2014 consistent with the claim."
+    },
+    {
+      "claim_index": 40,
+      "status": "UNVERIFIABLE",
+      "finding": "No web verification evidence was provided for the CFIUS fast-track program proposal or FCC Covered List expansion to foreign routers on March 23, 2026; these specific claims cannot be verified or refuted from the available evidence."
+    },
+    {
+      "claim_index": 41,
+      "status": "UNVERIFIABLE",
+      "finding": "Google's $1B Little Rock data center (1.43M sq ft, 5 buildings) is verified by web evidence. However, AVAIO Digital's January 2026 Little Rock campus launch confirmation is not directly corroborated by the provided web evidence and cannot be verified without additional sourcing."
     }
   ]
 }
