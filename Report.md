@@ -338,7 +338,7 @@ The DOJ published three additional Epstein FBI 302 interview summaries on March 
 - **Mar 5–6, 2026**: DOJ releases the three withheld 302 summaries containing Trump-specific allegations
 - **Mar 21, 2026**: Trump posts on Truth Social following Mueller's death: "He can no longer hurt innocent people!"
 
-Both statements refer — in verifiable temporal sequence — to the same category of documentation: FBI 302 interview summaries whose suppression, release, and continued existence represent the documented leverage dynamic. **No causal claim is made**; this is a documented timeline connection. The connection is labeled `[Inference]` in `11_LEVERAGE_THESIS.md`.
+Both statements refer — in verifiable temporal sequence — to the same category of documentation: FBI 302 interview summaries whose suppression, release, and continued existence represent the documented leverage dynamic. **No causal claim is made** — the `[Inference]` label in `11_LEVERAGE_THESIS.md` marks the analytical interpretation that these specific documents are what the statements reference, which goes beyond the data itself and is presented as a hypothesis, not a conclusion.
 
 → **Full analysis**: [`_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md) (Mueller Death section — "The Withheld 302s" subsection)
 
