@@ -1,505 +1,354 @@
 {
-  "generated_at": "2026-03-31T05:32:03Z",
+  "generated_at": "2026-04-01T00:07:17Z",
   "generated_by": "Live Trackers daily_intelligence.py (Brave Search + Claude)",
   "config_version": "2026-03-23",
   "top_3_developments": [
     {
-      "headline": "Iran War Day 32: Kuwaiti oil tanker Al Salmi struck at Dubai port in Iranian attack as Trump claims ceasefire negotiations underway",
-      "summary": "Iranian forces struck the fully-loaded Kuwaiti crude oil tanker Al Salmi at approximately 12:10 am on Tuesday, March 31, 2026 \u2014 Day 32 of Operation Epic Fury \u2014 while it was anchored at Dubai port, causing fire and potential oil spill risk. Despite this escalation, Trump simultaneously claimed Iran had responded positively to the US 15-point ceasefire proposal, though Iran's Foreign Minister confirmed only that messages had been exchanged and insisted Tehran was not in formal negotiations. The dual-track dynamic of kinetic operations alongside contested diplomatic signaling continued into Day 32.",
+      "headline": "Iran war enters day 32 with continued US-Israeli airstrikes; Kuwaiti tanker Al Salmi struck at Dubai port on March 31",
+      "summary": "Operation Epic Fury continues into its 32nd day with ongoing US-Israeli strikes on Tehran and Isfahan as of March 31, 2026. Iran retaliated by attacking the fully loaded Kuwaiti VLCC Al Salmi at Dubai port in the early hours of March 31, causing a fire that was later contained, with UAE authorities reporting no oil leakage. Trump announced US withdrawal in 2-3 weeks regardless of ceasefire outcome, claiming regime change has been achieved.",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
-      "source": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-      "timestamp": "2026-03-30",
-      "framework_relevance": "Track A friction driver - kinetic operations consume attention while creating compliance pressure through energy market disruption and regional instability"
+      "source": "Al Jazeera, CNN, NYT March 30-31, 2026",
+      "timestamp": "2026-03-31",
+      "framework_relevance": "Track A friction driver - active military operations with energy infrastructure targeting creates maximum attention capture while oil prices hit record monthly gains"
     },
     {
-      "headline": "DOJ releases 3.5 million Epstein pages through March 2026; Prince Andrew arrested February 2026 on suspicion of sharing confidential documents with Epstein",
-      "summary": "DOJ compliance with the Epstein Files Transparency Act produced a January 30, 2026 release of over 3 million pages and a March 5 batch of approximately 50,000 previously withheld files. Prince Andrew was arrested in February 2026 on suspicion of misconduct in public office, specifically relating to allegations he shared confidential official documents with Epstein. Victims have filed suit against DOJ and Google alleging the rapid, high-volume release prioritized speed over survivor privacy protections.",
+      "headline": "DOJ released over 3 million Epstein pages by January 30, 2026; victims sue over privacy violations, Congress presses for remaining withheld materials",
+      "summary": "The DOJ released approximately 3 million to 3.5 million pages of Epstein-related documents by January 30, 2026, under the Epstein Files Transparency Act, with Deputy AG Todd Blanche claiming these were the last remaining documents. Epstein survivors subsequently filed a class action suit against DOJ and Google on March 27, 2026, alleging the releases exposed approximately 100 victims' personal information. Congressional oversight continues with Rep. Massie pressing FBI leadership over unreleased FBI 302 documents, while the DOJ disputes that significant materials remain withheld.",
       "event_type": "INTELLIGENCE",
-      "leverage_type": "REPUTATIONAL",
+      "leverage_type": "LEGAL",
       "imminence": "ONGOING",
-      "source": "https://www.justice.gov/epstein/doj-disclosures",
-      "timestamp": "2026-03-05",
-      "framework_relevance": "Track B compliance mechanism - document releases create reputational leverage over network associates while legal challenges may constrain future transparency efforts"
+      "source": "Department of Justice, POLITICO, YouTube March 2026",
+      "timestamp": "2026-03-31",
+      "framework_relevance": "Track B compliance architecture - systematic network documentation release creates legal leverage while victims' privacy lawsuits add regulatory pressure on disclosure process"
     },
     {
-      "headline": "Oracle reports Q3 FY2026 revenue surge to $17.2B driven by 84% OCI growth, but analysts lower price targets on revenue conversion concerns despite Stargate commitments",
-      "summary": "Oracle delivered strong Q3 results with 22% revenue growth to $17.2 billion and 84% Oracle Cloud Infrastructure growth, yet some analysts lowered price targets citing concerns about converting the record $553 billion backlog into actual revenue. This financial stress indicator is critical given Oracle's $100B+ existing debt load and massive Stargate infrastructure commitments. The disconnect between growth metrics and analyst confidence suggests underlying capital leverage vulnerabilities in the AI infrastructure buildout.",
+      "headline": "Oracle reports record Q3 revenue surge to $17.2B (+22% YoY) with 84% OCI growth but remains 44% below analyst targets despite $553B backlog",
+      "summary": "Oracle delivered first 20%+ revenue and EPS growth in 15+ years driven by AI infrastructure and Stargate buildout, yet stock remains significantly undervalued relative to analyst expectations. Record $553B remaining performance obligations indicate massive future revenue pipeline tied to AI infrastructure expansion. This highlights financial leverage through debt-funded growth amid capital market skepticism.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
-      "source": "FinancialContent - Oracle Q3 FY2026 earnings",
+      "source": "Oracle Q3 FY2026 earnings reports March 2026",
       "timestamp": "2026-03-31",
-      "framework_relevance": "Track B capital leverage - Oracle's debt stress and revenue conversion challenges create financial vulnerability despite AI infrastructure growth, potentially affecting Stargate execution"
+      "framework_relevance": "Track B capital leverage - massive debt-funded AI infrastructure expansion creates dependency chains while market valuation disconnect suggests underlying financial stress despite strong performance metrics"
     }
   ],
   "new_alerts": [
     {
-      "alert": "Iran's Assembly of Experts managing succession crisis after Khamenei's death during Operation Epic Fury",
-      "significance": "Leadership decapitation creates internal Iranian power vacuum potentially enabling compliance outcomes",
-      "under_radar": true
+      "alert": "CONVERGENCE PATTERN: Iran war escalation coincides with Board of Peace Gaza disarmament deadline pressure and State Department diverting $1.25B from disaster funds to Board operations",
+      "significance": "Dual-track model activation - Track A kinetic operations provide attention cover for Track B capital restructuring through Board of Peace funding mechanisms",
+      "timestamp": "2026-03-31"
     },
     {
-      "alert": "Apple disclosed 'Hide My Email' user identity to FBI despite privacy marketing claims",
-      "significance": "Demonstrates gap between tech company privacy marketing and actual data disclosure capabilities under legal compulsion",
-      "under_radar": true
+      "alert": "UNDER RADAR: Projectiles struck Iran's Bushehr nuclear power plant area multiple times in March - civilian nuclear infrastructure targeting represents major escalation",
+      "significance": "Nuclear facility targeting crosses red lines while receiving minimal coverage amid broader war reporting",
+      "timestamp": "2026-03-30"
     },
     {
-      "alert": "Board of Peace presents 8-month Hamas disarmament plan with $7B reconstruction fund simultaneously with Iran war escalation",
-      "significance": "Coordinated diplomatic pressure across multiple Middle East fronts suggests systematic compliance campaign",
-      "under_radar": false
+      "alert": "FINANCIAL STRESS: Oracle stock remains 44% below analyst targets despite record performance, suggesting market skepticism about debt sustainability amid Stargate expansion",
+      "significance": "Capital market disconnect indicates underlying leverage concerns despite strong operational metrics",
+      "timestamp": "2026-03-31"
     }
   ],
   "signal_updates": [
     {
       "signal": "Iran war and Strait of Hormuz",
-      "status": "ACTIVE - HIGH INTENSITY",
-      "analyst_note": "Day 31 operations show escalation with direct attacks on Gulf state infrastructure while maintaining diplomatic channels - classic dual-track pressure"
+      "status": "ACTIVE - PEAK INTENSITY",
+      "analyst_note": "Day 32 operations with energy infrastructure targeting, tanker attacks, and withdrawal timeline announcement represent maximum friction generation"
+    },
+    {
+      "signal": "Board of Peace and Gaza reconstruction",
+      "status": "ACTIVE - CAPITAL DEPLOYMENT",
+      "analyst_note": "State Department fund diversion and 8-month disarmament timeline show operational acceleration amid Iran war attention cover"
+    },
+    {
+      "signal": "Gulf SWF capital movements",
+      "status": "ACTIVE - STRATEGIC POSITIONING",
+      "analyst_note": "Saudi PIF $1.78B Olam Agri acquisition while cutting NEOM shows overseas focus amid regional tensions; UAE Mubadala $4.75B CoolIT exit indicates capital reallocation"
     },
     {
       "signal": "Epstein document releases",
       "status": "ACTIVE - LEGAL COMPLICATIONS",
-      "analyst_note": "3.5M pages released but victim privacy lawsuits may constrain future transparency - reputational leverage deployment facing legal pushback"
-    },
-    {
-      "signal": "Oracle and Stargate infrastructure",
-      "status": "ACTIVE - FINANCIAL STRESS",
-      "analyst_note": "Strong revenue growth masks analyst concerns about debt conversion capabilities - financial leverage vulnerability despite AI momentum"
+      "analyst_note": "3.5M pages released but victim privacy lawsuits and Congressional pressure for FBI 302s create new legal leverage dynamics"
     },
     {
       "signal": "Maxwell clemency and testimony",
       "status": "MONITORING",
-      "analyst_note": "Clemency request ongoing, Congressional testimony refusal continues - no new developments warrant elevation"
+      "analyst_note": "Ongoing clemency appeals with Congressional resolution opposition - no new concrete developments this week"
     },
     {
-      "signal": "Gulf SWF capital movements",
-      "status": "ACTIVE - REGIONAL STRESS",
-      "analyst_note": "Saudi PIF $1.78B Olam Agri acquisition shows continued deployment despite Iran war affecting regional portfolios"
+      "signal": "Oracle and Stargate infrastructure",
+      "status": "ACTIVE - FINANCIAL LEVERAGE",
+      "analyst_note": "Record performance with 84% OCI growth but 44% stock undervaluation suggests market concerns about debt sustainability"
     },
     {
       "signal": "Federal workforce restructuring",
-      "status": "ACTIVE - IMPLEMENTATION",
-      "analyst_note": "Schedule Policy/Career operational as of March 9, union lawsuits ongoing - regulatory leverage in execution phase"
+      "status": "ACTIVE - IMPLEMENTATION PHASE",
+      "analyst_note": "Gen Z hiring push after 385,000 cuts shows rebuilding phase while Schedule Policy/Career legal challenges continue"
     }
   ],
   "priority_watchlist": [
     {
-      "item": "Iran Assembly of Experts succession decision",
-      "timeframe": "IMMINENT",
-      "significance": "New Supreme Leader selection could fundamentally alter ceasefire negotiations and regional dynamics"
+      "item": "Iran war withdrawal timeline - Trump's 2-3 week deadline for US exit",
+      "timing": "Mid-April 2026",
+      "cross_connections": [
+        "Board of Peace funding",
+        "Gulf SWF energy valuations",
+        "Oil price normalization"
+      ]
     },
     {
-      "item": "Oracle Q4 FY2026 earnings and debt metrics",
-      "timeframe": "NEAR_TERM",
-      "significance": "Revenue conversion performance will test analyst concerns about financial leverage sustainability"
+      "item": "Oracle Q4 FY2026 earnings and debt refinancing needs",
+      "timing": "May-June 2026",
+      "cross_connections": [
+        "Stargate capital requirements",
+        "Larry Ellison personal guarantee stress",
+        "AI infrastructure buildout pace"
+      ]
     },
     {
-      "item": "Epstein files victim privacy lawsuit outcomes",
-      "timeframe": "NEAR_TERM",
-      "significance": "Court rulings could constrain future document releases and limit reputational leverage deployment"
+      "item": "Epstein files victim privacy lawsuit outcomes and remaining FBI 302 release pressure",
+      "timing": "April-May 2026",
+      "cross_connections": [
+        "Congressional oversight escalation",
+        "DOJ disclosure policy changes",
+        "Network associate exposure"
+      ]
     },
     {
-      "item": "Board of Peace Hamas disarmament timeline",
-      "timeframe": "ONGOING",
-      "significance": "8-month plan implementation will test Trump's Middle East compliance architecture effectiveness"
+      "item": "Board of Peace reconstruction funding deployment mechanisms",
+      "timing": "April 2026",
+      "cross_connections": [
+        "Hamas disarmament compliance",
+        "International donor coordination",
+        "IOIA diplomatic immunity utilization"
+      ]
     }
   ],
   "convergence_assessment": {
-    "multiple_nodes_active": true,
-    "convergence_pattern": "DUAL_TRACK_COORDINATION",
-    "analysis": "Classic friction/compliance convergence window detected: Track A kinetic operations (Iran war Day 31, tanker attacks) create high-visibility attention capture while Track B compliance mechanisms deploy simultaneously (Epstein files releases, Oracle financial stress, federal workforce restructuring). The timing of Board of Peace Gaza disarmament plan presentation during Iran war escalation suggests coordinated diplomatic pressure campaign across multiple Middle East fronts. Iran's Assembly of Experts succession crisis adds internal instability factor that could enable compliance outcomes. Financial leverage through Oracle debt stress and Gulf SWF portfolio impacts from energy volatility create additional pressure vectors. Pattern consistent with 7-day median lag correlation between friction events and institutional compliance - expect continued institutional restructuring during sustained kinetic attention capture.",
-    "predicted_outcomes": [
-      "Continued Iran war operations maintaining attention while diplomatic channels advance",
-      "Potential constraints on Epstein file releases due to privacy litigation",
-      "Oracle financial metrics scrutiny increasing despite AI infrastructure growth",
-      "Federal workforce restructuring acceleration during foreign policy focus"
-    ]
+    "pattern_detected": "DUAL-TRACK ACTIVATION",
+    "analysis": "Classic friction/compliance convergence window active. Track A: Iran war operations at day 32 with energy infrastructure targeting and tanker attacks create maximum global attention capture and oil price volatility. Track B: Simultaneous Board of Peace capital deployment ($1.25B State Department diversion), Oracle debt-funded AI expansion ($553B backlog), and Epstein network documentation (3.5M pages) enable institutional restructuring during attention distraction.",
+    "prediction": "Expect continued kinetic escalation through mid-April withdrawal timeline while capital restructuring accelerates. Oracle earnings strength despite valuation disconnect suggests market anticipation of leverage resolution. Board of Peace funding mechanisms provide diplomatic immunity-shielded capital vehicle for post-conflict reconstruction.",
+    "confidence": "HIGH",
+    "timeframe": "2-3 weeks aligned with Trump's Iran withdrawal timeline"
   },
   "signal_status": [
     {
       "status": "ACTIVE",
-      "headline": "Iran War Day 32: Kuwaiti oil tanker struck at Dubai port as Iran rejects US 15-point ceasefire proposal and issues counter-demands including Hormuz sovereignty",
-      "summary": "The US-Israeli military operation against Iran entered Day 32 on March 31, 2026, marked by Iran's drone strike on the fully-loaded Kuwaiti crude oil tanker Al Salmi at Dubai port in the early hours of March 31. Iran officially rejected Trump's 15-point ceasefire proposal as 'unrealistic' and submitted a 5-point counter-proposal demanding war reparations and sovereignty over the Strait of Hormuz. Despite Iranian denials of formal negotiations, Iran's Foreign Minister confirmed messages had been exchanged with the US, and Trump continued to claim active talks were progressing.",
+      "headline": "Iran war enters day 32 with continued US-Israeli airstrikes; Trump extends deadline for energy infrastructure attacks while claiming Iran agreed to allow 20 oil ships through Strait of Hormuz",
+      "summary": "The US-Israeli military operation against Iran continues with airstrikes reported in Tehran and Isfahan as of March 31, 2026. Trump has repeatedly extended deadlines for striking Iranian energy infrastructure while claiming Iran agreed to allow 20 cargo ships carrying oil through the Strait of Hormuz on Monday. Iran rejected the US 15-point ceasefire proposal and issued its own counterproposal demanding reparations and sovereignty over the Strait of Hormuz. Oil prices have fluctuated with Brent crude reaching $108/barrel amid the ongoing conflict.",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-        "https://www.theguardian.com/world/live/2026/mar/30/iran-war-live-updates-trump-oil-kharg-island-houthis-israel-lebanon-middle-east",
-        "https://apnews.com/live/iran-war-israel-trump-03-30-2026",
-        "https://www.npr.org/2026/03/25/nx-s1-5760675/iran-war-military-deployment",
-        "https://www.aljazeera.com/news/2026/3/25/iran-calls-us-proposal-to-end-war-maximalist-unreasonable"
+        "CNN - Day 31 of Middle East conflict",
+        "Al Jazeera - Day 32 US-Israel attacks on Iran",
+        "NYT - Iran War Live Updates March 31",
+        "Guardian - Middle East crisis live updates",
+        "Fox News - Iran greenlights 20 oil ships through Strait",
+        "NPR - Iran rejects Trump's ceasefire proposal"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Iran war and Strait of Hormuz",
       "original_signal": "Iran war and Strait of Hormuz",
       "category": "KINETIC"
     },
     {
       "status": "ACTIVE",
-      "headline": "Board of Peace presents 8-month Hamas disarmament plan linking reconstruction to weapons surrender; $7B pledged for Gaza rebuild",
-      "summary": "Trump's Board of Peace has presented Hamas with a detailed 8-month disarmament plan requiring destruction of Gaza's tunnel network in stages, with reconstruction tied to compliance. The Board announced $7 billion in international commitments for Gaza reconstruction once Hamas disarms. High Representative Nickolay Mladenov outlined the plan at the UN Security Council, while Kosovo approved sending troops to join the International Stabilization Force. The plan includes five stages culminating in complete Israeli withdrawal except for security perimeter and comprehensive reconstruction efforts.",
+      "headline": "Board of Peace overseeing 8-month Hamas disarmament plan with $7B reconstruction fund, ISF deployment authorized under Resolution 2803",
+      "summary": "Trump's Board of Peace is actively managing Gaza's post-ceasefire transition with a detailed disarmament timeline requiring Hamas to destroy tunnel networks over 8 months, linked to reconstruction funding. The organization has secured $7 billion in international commitments and deployed an International Stabilization Force under UN Resolution 2803. A Palestinian technocratic committee began managing daily Gaza administration in January 2026, with reconstruction contingent on weapons decommissioning compliance.",
       "event_type": "POLITICAL",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "Reuters - Trump announces $7 billion Gaza reconstruction fund",
-        "Reuters - Hamas disarmament plan sees tunnels destroyed over 8 months",
-        "UN Security Council - Mladenov presents detailed disarmament plan",
-        "Balkan Insight - Kosovo approves troops for Gaza Stabilization Force",
-        "Wikipedia - Board of Peace Resolution 2803 authorizes International Stabilization Force"
+        "Wikipedia - Board of Peace Resolution 2803 ISF authorization",
+        "Reuters - $7B Gaza reconstruction fund announcement Feb 19 2026",
+        "Reuters - Board of Peace launch with wider global role Jan 22 2026",
+        "Al Jazeera - Board oversight of Gaza administration details",
+        "Reuters - 8-month Hamas disarmament plan with tunnel destruction",
+        "AP News - UN-mandated peacekeeping force deployment"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Board of Peace and Gaza reconstruction",
       "original_signal": "Board of Peace and Gaza reconstruction",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Saudi PIF increases Olam Agri stake to 80% in $1.78B deal; Mubadala exits CoolIT for $4.75B in March 2026",
-      "summary": "Saudi PIF completed a $1.78 billion deal to increase its stake in Singapore-based Olam Agri from approximately 35% to 80%, with an option for the remaining shares within three years. UAE's Mubadala announced a $4.75 billion exit from its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction, delivering approximately 15x returns. A reported Mohamed Salah offer figure cited in the claim is internally inconsistent and unverified by available sources.",
+      "headline": "Saudi PIF completes $1.78B Olam Agri deal and cuts NEOM by 60% as Mubadala agrees to sell CoolIT minority stake in $4.75B deal pending Q3 2026 close",
+      "summary": "Saudi PIF completed a $1.78 billion acquisition increasing its stake in Singapore-based Olam Agri from 35.4% to 80%, while cutting NEOM's budget by approximately 60% and transferring assets to Aramco and the Ministry of Sport. UAE's Mubadala agreed to sell its minority stake in CoolIT Systems to Ecolab in a KKR-led transaction valuing the company at $4.75 billion, with deal closure expected in Q3 2026 \u2014 the transaction is not yet completed. Both sovereign funds stated their overseas investment strategies remain unaffected by regional tensions.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
         "https://houseofsaud.com/saudi-arabia-pif-trillion-dollar-fund-cuts-neom-buys-grain/",
+        "https://www.bloomberg.com/news/articles/2026-03-26/saudi-wealth-fund-commits-to-global-investments-despite-iran-war",
         "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
-        "https://m.allfootballapp.com/news/EPL/Saudi-PIF-prepares-%E2%82%AC100M-a-year-offer-to-convince-Salah/4396286",
-        "https://www.bloomberg.com/news/articles/2026-03-26/saudi-wealth-fund-commits-to-global-investments-despite-iran-war"
+        "https://www.arabnews.com/node/2637870/business-economy"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Gulf SWF capital movements",
       "original_signal": "Gulf SWF capital movements",
       "category": "FINANCIAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "DOJ Epstein files releases through March 2026 trigger Prince Andrew arrest, prominent resignations, and victim privacy lawsuits",
-      "summary": "The DOJ released over 3.5 million pages of Epstein-related documents through March 2026, including a January 30 release of 3 million-plus pages and a March 5 batch of ~50,000 previously withheld files, in compliance with the Epstein Files Transparency Act. These releases prompted the February 2026 arrest of Prince Andrew on suspicion of misconduct in public office for allegedly sharing confidential documents with Epstein, as well as resignations of several prominent public figures. Victims are suing DOJ and Google over privacy violations, alleging the rapid release outed approximately 100 survivors; the claim regarding Senator Ron Wyden's son is not confirmed by available sources and has been removed.",
+      "headline": "DOJ released 3.5M pages in Epstein files through January 2026, with ongoing victim lawsuits over privacy violations and Congressional pressure for remaining materials",
+      "summary": "The DOJ has released over 3.5 million pages of Epstein-related documents through January 30, 2026, as part of compliance with the Epstein Files Transparency Act. However, victims are now suing both DOJ and Google over alleged privacy violations in the document releases, claiming a 'release now, retract later' approach exposed victim identifying information. Congressional oversight continues with Rep. Thomas Massie confronting FBI leadership over unreleased FBI 302 documents, while nearly 100,000 pages plus 40 computers and storage devices remain unreleased as of November 2025.",
       "event_type": "INTELLIGENCE",
-      "leverage_type": "REPUTATIONAL",
+      "leverage_type": "LEGAL",
       "imminence": "ONGOING",
       "sources": [
-        "https://www.justice.gov/epstein/doj-disclosures",
-        "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act",
-        "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files",
-        "https://www.dawn.com/news/1986100",
-        "https://www.businessinsider.com/jeffrey-epstein-safe-diamonds-hard-drives-evidence-what-happened-2026-3"
+        "Department of Justice | DOJ Disclosures",
+        "Epstein victim sues DOJ, Google over identifying information - POLITICO",
+        "Epstein Files Transparency Act - Wikipedia",
+        "Massie TRAPS Kash Patel Over Secret Epstein 302 Documents - YouTube"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Epstein document releases",
       "original_signal": "Epstein document releases",
       "category": "INTELLIGENCE"
     },
     {
       "status": "ACTIVE",
-      "headline": "Maxwell seeks clemency from Trump while refusing Congressional questions; Rep. Krishnamoorthi's House Resolution 119-635 formally opposes any pardon",
-      "summary": "Ghislaine Maxwell is seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking, and has refused to answer lawmakers' questions in Congressional investigations into the Epstein network. Representative Raja Krishnamoorthi introduced House Resolution 119-635 to the House Judiciary Committee affirming that Maxwell's conviction and sentencing were warranted and that granting clemency would deny justice to survivors. Maxwell remains imprisoned as the resolution advances amid broader scrutiny of the Epstein network.",
+      "headline": "Maxwell continues clemency appeals to Trump while serving 20-year sentence; Congressional resolution opposes any pardon",
+      "summary": "Ghislaine Maxwell has repeatedly requested clemency from President Trump while serving her 20-year sentence for child sex trafficking. Representative Raja introduced a House Judiciary resolution affirming Maxwell's conviction was warranted and stating any clemency would deny survivors justice. No formal DOJ clemency decision or new court filings reported in past week.",
       "event_type": "POLITICAL",
       "leverage_type": "LEGAL",
-      "imminence": "ONGOING",
+      "imminence": "MONITORING",
       "sources": [
-        "https://www.theglobeandmail.com/business/article-ubs-ghislaine-maxwell-new-hampshire-property-tucked-away/",
-        "https://www.politico.com/news/2026/03/24/jeffrey-epstein-lawyer-accountants-depositions-00843206",
-        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell"
+        "Wikipedia - Ghislaine Maxwell",
+        "BBC News - Clinton Epstein testimonies",
+        "Globe and Mail - Maxwell appeals for clemency"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Maxwell clemency and testimony",
       "original_signal": "Maxwell clemency and testimony",
       "category": "INTELLIGENCE"
     },
     {
       "status": "ACTIVE",
-      "headline": "Ukraine-Russia peace talks show mixed signals: Zelensky proposes Easter energy ceasefire while Rubio denies US demands for Donbas withdrawal",
-      "summary": "Ukrainian President Zelensky proposed both a full ceasefire and an energy infrastructure truce over the Easter period, calling for Russia to halt attacks on Ukraine's grid. US Secretary of State Rubio directly contradicted Zelensky's assertion that Washington was linking security guarantees to Ukraine ceding the Donbas, calling such claims 'a lie' and stating the US had only relayed Russia's negotiating positions. Ukraine maintains that freezing current front lines should form the basis of any settlement, while negotiations continue amid significant uncertainty. The '90% deal agreed' figure cited in the original claim is not confirmed by available sources.",
+      "headline": "Russia rejects Ukraine's Easter ceasefire proposal; US-Ukraine dispute over Donbas withdrawal conditions for security guarantees",
+      "summary": "Ukraine proposed an Easter ceasefire and energy infrastructure truce through US mediators, but Russia rejected it within hours, demanding comprehensive peace instead of temporary ceasefires. A major diplomatic dispute has emerged between Kyiv and Washington, with Zelensky claiming the US is linking security guarantees to Ukraine withdrawing from Donbas, while Secretary of State Rubio called this assertion 'a lie.' Previous reports indicated 90% of a potential peace deal had been agreed by December 2025, but territorial control remains the fundamental sticking point.",
       "event_type": "POLITICAL",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
       "sources": [
-        "House of Commons Library - Ukraine peace talks developments",
-        "Sky News - Ukraine war latest with Zelensky Easter ceasefire proposal",
-        "Reuters - US links security guarantees to Ukraine giving up Donbas",
-        "The Independent - Rubio denies Zelensky's claim about Trump demands",
-        "Kyiv Independent - Zelensky urges US-Russia negotiations resume"
+        "kyivindependent.com/russia-rejects-ukraines-easter-ceasefire-proposal/",
+        "reuters.com/business/aerospace-defense/us-links-security-guarantees-ukraine-giving-up-donbas-zelenskiy-says-2026-03-25/",
+        "newsweek.com/us-hits-back-at-zelensky-comments-on-ukraine-peace-deal-11739787",
+        "commonslibrary.parliament.uk/research-briefings/cbp-10411/"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Russia-Ukraine negotiations",
       "original_signal": "Russia-Ukraine negotiations",
       "category": "POLITICAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI replaces Anthropic with $200M defense contract after compliance dispute",
-      "summary": "Palantir's Maven AI system was officially elevated to a Pentagon program of record, with total platform investment growing from $480M in 2024 to $13B, ensuring multi-year funding across all US combatant commands. OpenAI secured a $200M Pentagon contract on February 27, 2026, after the DoD designated Anthropic a national security supply-chain risk over the company's refusal to remove restrictions on AI use in surveillance and autonomous weapons applications. Claims that a federal judge blocked the Pentagon's action against Anthropic are not confirmed by available evidence and should be treated as unverified.",
+      "headline": "Pentagon formalizes Palantir Maven AI as core military infrastructure with $10B in contracts; Anthropic reportedly resisted DOD pressure over autonomous weapons use",
+      "summary": "The Pentagon officially designated Palantir's Maven AI system as protected long-term military infrastructure, securing approximately $10 billion in contracts and providing targeting recommendations for ongoing operations. According to The Guardian, Anthropic attempted to resist Pentagon pressure to allow its Claude model to be used in autonomous weapons and mass surveillance applications, though its technology is embedded in Palantir's systems. Web evidence does not confirm a formal DOD contract termination with Anthropic or a replacement classified deal with OpenAI.",
       "event_type": "REGULATORY",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "Pentagon formalizes Palantir's Maven AI as a core military system with multi-year funding",
-        "OpenAI Signed a Deal with the Pentagon \u2014 and Almost Immediately Regretted It",
-        "Judge blocks Pentagon's effort to 'punish' Anthropic by labeling it a supply chain risk",
-        "Anthropic\u2013United States Department of Defense dispute - Wikipedia"
+        "Pentagon Locks in Palantir's AI as Core Military Infrastructure - Gadget Review",
+        "Anthropic Sues Trump Administration Over Pentagon AI Deal as OpenAI Steps In",
+        "Judge blocks Pentagon's effort to 'punish' Anthropic by labeling it a supply chain risk | CNN Business",
+        "xAI (company) - Wikipedia"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "AI Pentagon contracts and compliance",
       "original_signal": "AI Pentagon contracts and compliance",
       "category": "FINANCIAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Oracle Q3 FY2026: Revenue surges 22% to $17.2B on 84% OCI growth; Bank of America projects ~29% upside while some analysts cut targets on revenue conversion concerns",
-      "summary": "Oracle reported Q3 FY2026 revenue of $17.2 billion (+22% YoY) and EPS of $1.79 (+21%), the first time both metrics exceeded 20% growth in over 15 years, driven by 84% Oracle Cloud Infrastructure growth and AI infrastructure up 200%. Despite beating consensus estimates of $16.9B and a record $553B RPO backlog, some analysts lowered price targets citing concerns about backlog-to-revenue conversion. Bank of America reinstated coverage with a Buy rating projecting approximately 29% upside from then-current levels; the $200 specific price target cited in the original claim is not confirmed by available sources.",
+      "headline": "Oracle Q3 FY2026 revenue surges 22% to $17.2B with 84% OCI growth; stock down ~27% YTD despite strong results",
+      "summary": "Oracle delivered standout Q3 FY2026 results with revenue jumping 22% to $17.2 billion and 84% Oracle Cloud Infrastructure growth, marking the first time in over 15 years both revenue and EPS grew more than 20%. Despite these results and a record $553 billion remaining performance obligations backlog, Oracle shares have declined approximately 27% year-to-date as of March 31, 2026, remaining roughly 44% below analyst price targets. On March 31, shares rose approximately 2.5% following news of workforce reductions.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "FinancialContent - Oracle Q3 FY2026 earnings",
-        "Yahoo Finance ORCL quote",
-        "Barchart analysis",
-        "IndexBox Oracle earnings report",
-        "Insider Monkey price target analysis",
-        "Bank of America coverage reinstatement",
-        "Bernstein analyst rating"
+        "Oracle Q3 FY2026 earnings: Revenue $17.2B (+22% YoY)",
+        "OCI revenue up 84%, AI infrastructure up 200%",
+        "Stock up 25.23% but 44% below analyst targets",
+        "Bank of America Buy rating/$200 target vs others lowering targets",
+        "Record $553B RPO backlog"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Oracle and Stargate infrastructure",
       "original_signal": "Oracle and Stargate infrastructure",
       "category": "FINANCIAL"
     },
     {
       "status": "ACTIVE",
-      "headline": "Schedule Policy/Career reclassification operational as of March 9, 2026, with federal employee unions pursuing renewed legal challenges while agencies implement workforce reduction plans",
-      "summary": "The Schedule Policy/Career employment classification became fully operational on March 9, 2026, following OPM's February 6 final rule publication. Federal employee organizations have renewed their lawsuit against the reclassification, which converts approximately 50,000 career federal positions to at-will employment. Simultaneously, OMB Director Vought and OPM Acting Director Ezell ordered agencies on February 13 to submit workforce reduction plans by March 13, focusing on statutory non-required positions facing furloughs.",
+      "headline": "OPM launches Gen Z hiring push after 385,000 federal workforce reduction, Schedule Policy/Career implementation finalized February 2026",
+      "summary": "The Trump administration is actively rebuilding federal workforce after massive 2025 cuts, with OPM launching the Early Career Talent Network on March 30, 2026 to recruit Gen Z workers. This follows the February 6, 2026 finalization of Schedule Policy/Career reclassification rules and a net reduction of 385,000 federal employees in 2025. Agencies are simultaneously conducting forced reassignments (Army 'rebalancing') and facing ongoing union legal challenges to the at-will employment conversions.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
       "sources": [
         "https://www.everycrsreport.com/reports/LSB11412.html",
-        "https://www.fedweek.com/careers/10-things-to-know-about-the-new-schedule-policy-career/",
-        "https://en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs",
-        "https://febabenefits.org/blog/vera-vsip-2026-which-agencies-are-offering-early-outs/"
+        "https://fortune.com/2026/03/31/doge-cuts-opm-scott-kupor-federal-government-hiring-gen-z/",
+        "https://federalnewsnetwork.com/hiring-retention/2026/03/trump-administration-expands-push-to-hire-early-career-federal-employees/",
+        "https://federalnewsnetwork.com/army/2026/03/army-rebalancing-effort-forces-civilians-to-accept-reassignments-to-avoid-layoffs/",
+        "https://www.wusa9.com/article/news/local/jobs/opm-launches-recruitment-push-one-year-mass-layoffs/65-5dcf31ba-01b0-4130-8ce6-c1d5295e42d2"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Federal workforce restructuring",
       "original_signal": "Federal workforce restructuring",
       "category": "REGULATORY"
     },
     {
       "status": "ACTIVE",
-      "headline": "Multiple TikTok lawsuits advancing through courts with New York judge pressuring TikTok on financial disclosure, Minnesota implementing July 2026 mental health warnings",
-      "summary": "TikTok faces active legal challenges on multiple fronts post-USDS deal. A New York state judge questioned TikTok's lawyers on March 3, 2026 for failing to produce financial documents about the company's net worth for damage calculations in social media addiction lawsuits. Separately, Illinois users filed privacy rights violations lawsuit affecting tens of thousands of users. Minnesota will require mental health pop-up warnings starting July 2026. Legal strategy has shifted to arguing platforms function as 'defective products' rather than content liability.",
+      "headline": "Multiple social media addiction lawsuits targeting TikTok advancing through courts with March 2026 financial discovery disputes and platform redesign arguments",
+      "summary": "TikTok faces active litigation on multiple fronts as of March 2026, with a New York state judge on March 3, 2026 questioning TikTok's lawyers for failing to produce financial documents about the company's net worth for settlement calculations. Separate lawsuits are arguing that platforms like TikTok function as 'defective products' and could force complete redesign of short-form video features. Illinois users have also filed privacy rights violations suits affecting tens of thousands of users. These legal challenges represent ongoing compliance pressure on the TikTok USDS JV structure beyond the initial CFIUS deal approval.",
       "event_type": "REGULATORY",
       "leverage_type": "LEGAL",
       "imminence": "ONGOING",
       "sources": [
         "https://www.sokolovelaw.com/personal-injury/social-media-addiction/",
-        "https://www.robertkinglawfirm.com/personal-injury/social-media-addiction-lawsuit/",
         "https://www.neowin.net/news/this-lawsuit-could-actually-force-big-tech-to-completely-redesign-reels-shorts-and-tiktok/",
-        "https://herald-review.com/news/state-and-regional/crime-and-courts/illinois-tiktok-users-sue-the-popular-video-app-alleging-it-violates-privacy-rights/"
+        "https://herald-review.com/news/state-and-regional/crime-and-courts/illinois-tiktok-users-sue-the-popular-video-app-alleging-it-violates-privacy-rights/article_6b825926-c9e9-554d-b569-3171fbe7b3b0.html"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "TikTok USDS post-deal compliance and oversight",
       "original_signal": "TikTok USDS post-deal compliance and oversight",
       "category": "REGULATORY"
     },
     {
       "status": "ACTIVE",
-      "headline": "CFIUS proposes fast-track program for repeat filers while FCC expands Covered List to ban all new foreign-made routers citing national security risks",
-      "summary": "Treasury Department issued RFI for new CFIUS fast-track program targeting repeat filers (\u22653 prior transactions in 3 years) while maintaining full statutory review authority. Simultaneously, FCC on March 23, 2026 banned authorization of all new foreign-made consumer routers based on National Security Determination, effectively removing majority of home networking equipment from US market. Four drone systems removed from Covered List March 18 after Pentagon security review, showing selective enforcement approach.",
+      "headline": "CFIUS proposes fast-track program for repeat filers while expanding jurisdiction over foreign routers and drones - March 2026",
+      "summary": "Treasury is developing a CFIUS fast-track program for foreign investors with 3+ prior filings in past 3 years, aimed at expediting trusted party transactions. Simultaneously, FCC expanded its Covered List on March 23, 2026 to include foreign-produced routers based on national security determinations, effectively removing most home networking equipment from US market. The dual developments show CFIUS streamlining processes for known entities while tightening restrictions on foreign technology infrastructure.",
       "event_type": "REGULATORY",
       "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
       "sources": [
-        "https://diaztradelaw.com/cfius-looking-to-fast-track-transactions/",
-        "https://www.lexology.com/library/detail.aspx?g=831e96f7-cdcf-4da1-9ea0-92d4fd03cea2",
-        "https://www.techrepublic.com/article/news-fcc-bans-foreign-made-routers-national-security/",
-        "https://www.insideglobaltech.com/2026/03/24/fcc-updates-covered-list-to-conditionally-approve-the-use-of-certain-drones/"
+        "customsandinternationaltradelaw.com/2026/03/30/cfius-is-looking-to-fast-track-some-transactions-could-this-program-benefit-you/",
+        "www.lexology.com/library/detail.aspx?g=831e96f7-cdcf-4da1-9ea0-92d4fd03cea2",
+        "tech-insider.org/fcc-foreign-router-ban-national-security-2026/",
+        "industrialcyber.co/critical-infrastructure/fcc-expands-covered-list-to-block-high-risk-routers-and-drones-tighten-ban-on-foreign-made-connectivity-devices/"
       ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "CFIUS national security reviews",
       "original_signal": "CFIUS national security reviews",
       "category": "REGULATORY"
     },
     {
       "status": "ACTIVE",
-      "headline": "AVAIO Digital announces $3B Arkansas data center campus for January 2026, Google secures largest economic investment deal in Arkansas history",
-      "summary": "AVAIO Digital has announced a hyperscale data center campus in Little Rock, Arkansas scheduled for January 2026, while Google negotiated what officials describe as the largest economic investment in Arkansas history for a West Memphis facility. Entergy is leveraging these agreements to deliver $5B in customer savings through its 'Fair Share Plus' pledge, with new transmission infrastructure connecting Arkansas to Louisiana grid systems. The developments align with Arkansas's strategic preemption framework designed to capture data center investments while bypassing federal oversight.",
-      "event_type": "FINANCIAL",
-      "leverage_type": "REGULATORY",
-      "imminence": "NEAR_TERM",
-      "sources": [
-        "https://www.entergy.com/news/5b-in-customer-savings-delivered-by-data-center-agreements-issues-fair-share-plus-pledge",
-        "https://medium.com/@keelee.hudson/everything-you-need-to-know-about-the-west-memphis-ar-data-center-5ee74e72e231",
-        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "Arkansas state-level preemption and datacenter leverage",
-      "original_signal": "Arkansas state-level preemption and datacenter leverage",
-      "category": "REGULATORY"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "DOJ released 3.5 million Epstein files pages through March 2026, triggering arrests, resignations, and victim lawsuits over privacy violations",
-      "summary": "The DOJ's Epstein Files Transparency Act compliance has produced massive document releases including a March 5, 2026 batch of 50,000 previously withheld files and a January 30 release of over 3 million pages. These releases have exposed new associates including Prince Andrew (arrested after compromising photos surfaced), Democratic Senator Ron Wyden's son seeking Epstein investment backing, and Google co-founder Sergey Brin's island visits. However, victims are now suing both the Trump administration and Google over a 'release now, retract later' approach that disclosed victim identities in violation of privacy laws.",
-      "event_type": "INTELLIGENCE",
-      "leverage_type": "LEGAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "https://www.justice.gov/epstein/doj-disclosures",
-        "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files",
-        "https://www.foxnews.com/politics/unearthed-emails-reveal-dem-senators-son-wanted-epstein-join-his-fund-enjoyed-conversation",
-        "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act",
-        "https://www.dawn.com/news/1986100"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "Epstein document releases",
-      "original_signal": "Epstein document releases",
-      "category": "INTELLIGENCE"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Maxwell seeking clemency from Trump while refusing to answer Congressional questions, House resolution opposes any clemency",
-      "summary": "Ghislaine Maxwell is currently seeking clemency from President Trump while serving her 20-year sentence for child sex trafficking. She has refused to answer lawmakers' questions in ongoing Congressional investigations into the Epstein network. House Representative Raja introduced a resolution affirming that Maxwell's conviction was warranted and that any clemency would deny justice to survivors.",
-      "event_type": "POLITICAL",
-      "leverage_type": "LEGAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://www.theglobeandmail.com/business/article-ubs-ghislaine-maxwell-new-hampshire-property-tucked-away/",
-        "https://www.politico.com/news/2026/03/24/jeffrey-epstein-lawyer-accountants-depositions-00843206"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "Maxwell clemency and testimony",
-      "original_signal": "Maxwell clemency and testimony",
-      "category": "INTELLIGENCE"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Ukraine-Russia peace talks show mixed signals: Zelensky claims 90% deal agreed with Trump, proposes Easter energy ceasefire, while Rubio denies US demands for Donbas withdrawal",
-      "summary": "Multiple conflicting developments in Ukraine-Russia negotiations as of March 31, 2026. Zelensky claimed after December 2025 talks with Trump that 90% of a potential peace deal had been agreed, while recently proposing both full and energy-related ceasefires over Easter. However, US Secretary of State Rubio directly contradicted Zelensky's assertion that the US is linking security guarantees to Ukraine giving up Donbas, calling it 'a lie.' Ukraine maintains freezing current front lines as basis for ceasefire, while Russia continues demanding Ukrainian withdrawal from remaining Donbas areas as precondition.",
-      "event_type": "POLITICAL",
-      "leverage_type": "KINETIC",
-      "imminence": "ONGOING",
-      "sources": [
-        "House of Commons Library - Ukraine peace talks (April to June 2025)",
-        "Sky News - Ukraine war latest: Zelenskyy says Kyiv ready for peace talks",
-        "Reuters - US links security guarantees to Ukraine giving up Donbas",
-        "The Independent - Rubio denies Zelensky's claim that Trump wants Kyiv to give up land",
-        "Polymarket - Russia x Ukraine ceasefire by March 31, 2026"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "Russia-Ukraine negotiations",
-      "original_signal": "Russia-Ukraine negotiations",
-      "category": "POLITICAL"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Pentagon formalizes Palantir Maven AI as core military system with $13B investment; OpenAI replaces Anthropic with $200M defense contract after compliance dispute",
-      "summary": "Major Pentagon AI contract realignment occurred in past week. Palantir's Maven AI system was officially designated as a core military system with funding growing from $480M in 2024 to $13B total investment. OpenAI secured $200M Pentagon contract on Feb 27, 2026, immediately after Anthropic was designated a national security supply-chain risk due to refusal to drop restrictions on surveillance and autonomous weapons use. Federal judge blocked Pentagon's attempt to ban Anthropic, calling it 'troubling,' but OpenAI deal remains active for 'all lawful purposes' on classified networks.",
-      "event_type": "REGULATORY",
-      "leverage_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "Pentagon formalizes Palantir's Maven AI as a core military system with multi-year funding \u2014 platform's investment grows to $13 billion from $480 million in 2024",
-        "OpenAI Signed a Deal with the Pentagon \u2014 and Almost Immediately Regretted It",
-        "Judge blocks Pentagon's effort to 'punish' Anthropic by labeling it a supply chain risk",
-        "OpenAI announced on Monday that it had reworked its deal to make sure that its AI will not be used for domestic surveillance"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "AI Pentagon contracts and compliance",
-      "original_signal": "AI Pentagon contracts and compliance",
-      "category": "FINANCIAL"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Oracle reports Q3 FY2026 revenue surge to $17.2B (+22% YoY) driven by 84% OCI growth, but analysts lower price targets on revenue conversion concerns",
-      "summary": "Oracle delivered strong Q3 FY2026 results with revenue hitting $17.2 billion (22% YoY growth) and EPS up 21%, marking the first time in 15+ years both metrics rose over 20%. The growth was driven by an 84% explosion in Oracle Cloud Infrastructure (OCI) revenue and AI infrastructure up 200%. However, despite beating consensus estimates of $16.9B, some analysts are lowering price targets due to revenue conversion concerns. Bank of America reinstated coverage with a Buy rating and $200 target, while Bernstein maintains Outperform at $319. Current analyst consensus shows 1-year price target at $256.68-$262.91 range.",
+      "headline": "Google announces $1B Little Rock data center with 1.43M sq ft across five buildings, AVAIO Digital campus planned for January 2026",
+      "summary": "Major datacenter expansion accelerating in Arkansas with Google's $1 billion Port of Little Rock facility announced 8 hours ago, featuring five industrial buildings totaling 1.43 million square feet plus electrical substation. AVAIO Digital separately announced a Little Rock campus for January 2026. Entergy continues leveraging datacenter agreements for customer savings while building transmission infrastructure connecting Arkansas to Louisiana grid.",
       "event_type": "FINANCIAL",
       "leverage_type": "FINANCIAL",
       "imminence": "ONGOING",
       "sources": [
-        "FinancialContent - Oracle Q3 FY2026 earnings $17.2B revenue",
-        "Yahoo Finance - ORCL quarterly results",
-        "Barchart - Oracle revenue and EPS surge analysis",
-        "IndexBox - Oracle AI infrastructure growth 200%",
-        "Insider Monkey - Price target concerns",
-        "Bank of America - Buy rating $200 target",
-        "Bernstein - Outperform rating $319 target",
-        "WallStreetZen - Analyst consensus $256.68",
-        "MarketBeat - Price target $262.91"
+        "Google's $1B Port of Little Rock data center buildings to cover 1.43 million square feet | Northwest Arkansas Democrat-Gazette",
+        "Entergy announces $5B in customer savings delivered by data center agreements; issues \"Fair Share Plus\" pledge",
+        "Entergy Louisiana announces a new agreement with Meta that will deliver an additional $2B in customer savings"
       ],
-      "timestamp": "2026-03-31",
-      "signal": "Oracle and Stargate infrastructure",
-      "original_signal": "Oracle and Stargate infrastructure",
-      "category": "FINANCIAL"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Schedule Policy/Career reclassification operational as of March 9, 2026, with federal employee unions pursuing renewed legal challenges while agencies implement workforce reduction plans",
-      "summary": "The Schedule Policy/Career employment classification became fully operational on March 9, 2026, following OPM's February 6 final rule publication. Federal employee organizations have renewed their lawsuit against the reclassification, which converts approximately 50,000 career federal positions to at-will employment. Simultaneously, OMB Director Vought and OPM Acting Director Ezell ordered federal agencies on February 13 to submit workforce reduction plans by March 13, focusing on employees whose jobs are not statutorily required and who face potential furloughs.",
-      "event_type": "REGULATORY",
-      "leverage_type": "REGULATORY",
-      "imminence": "ONGOING",
-      "sources": [
-        "https://www.everycrsreport.com/reports/LSB11412.html",
-        "https://www.fedweek.com/careers/10-things-to-know-about-the-new-schedule-policy-career/",
-        "https://en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs",
-        "https://febabenefits.org/blog/vera-vsip-2026-which-agencies-are-offering-early-outs/"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "Federal workforce restructuring",
-      "original_signal": "Federal workforce restructuring",
-      "category": "REGULATORY"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Multiple TikTok lawsuits advancing through courts with Illinois privacy suit filed March 2026, New York judge pressuring TikTok on financial disclosure for damages calculation",
-      "summary": "TikTok faces active legal challenges on multiple fronts post-USDS deal. Illinois users filed a privacy rights lawsuit in March 2026 affecting tens of thousands of users. A New York state judge questioned TikTok's lawyers on March 3, 2026 for failing to provide financial documents about the company's net worth needed for damage calculations in social media addiction cases. Separately, attorneys are arguing that social media platforms function as 'defective products' in ongoing litigation that could force redesign of short-form video features.",
-      "event_type": "REGULATORY",
-      "leverage_type": "LEGAL",
-      "imminence": "ONGOING",
-      "sources": [
-        "https://herald-review.com/news/state-and-regional/crime-and-courts/illinois-tiktok-users-sue-the-popular-video-app-alleging-it-violates-privacy-rights/",
-        "https://www.sokolovelaw.com/personal-injury/social-media-addiction/",
-        "https://www.neowin.net/news/this-lawsuit-could-actually-force-big-tech-to-completely-redesign-reels-shorts-and-tiktok/"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "TikTok USDS post-deal compliance and oversight",
-      "original_signal": "TikTok USDS post-deal compliance and oversight",
-      "category": "REGULATORY"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CFIUS proposes fast-track program for repeat filers while FCC expands Covered List to ban all new foreign-made routers citing national security risks",
-      "summary": "Treasury Department issued RFI for new CFIUS fast-track program targeting repeat filers (\u22653 prior transactions in 3 years) while maintaining full statutory review authority. Simultaneously, FCC on March 23, 2026 banned authorization of all new foreign-made consumer routers based on National Security Determination, effectively removing majority of home networking equipment from US market. Four drone systems removed from Covered List March 18 after Pentagon security review, showing selective enforcement approach.",
-      "event_type": "REGULATORY",
-      "leverage_type": "REGULATORY",
-      "imminence": "ONGOING",
-      "sources": [
-        "https://diaztradelaw.com/cfius-looking-to-fast-track-transactions/",
-        "https://www.lexology.com/library/detail.aspx?g=831e96f7-cdcf-4da1-9ea0-92d4fd03cea2",
-        "https://www.techrepublic.com/article/news-fcc-bans-foreign-made-routers-national-security/",
-        "https://www.insideglobaltech.com/2026/03/24/fcc-updates-covered-list-to-conditionally-approve-the-use-of-certain-drones/"
-      ],
-      "timestamp": "2026-03-31",
-      "signal": "CFIUS national security reviews",
-      "original_signal": "CFIUS national security reviews",
-      "category": "REGULATORY"
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "AVAIO Digital announces $3B Arkansas data center campus for January 2026, Google secures largest economic investment deal in Arkansas history",
-      "summary": "AVAIO Digital has announced a hyperscale data center campus in Little Rock, Arkansas scheduled for January 2026, while Google has negotiated what officials describe as the largest economic investment in Arkansas history for a West Memphis data center. Entergy is leveraging these agreements to deliver $5B in customer savings through its 'Fair Share Plus' pledge, with new 500 kV transmission lines connecting South Louisiana to North Louisiana and Arkansas. The developments align with Arkansas's strategic framework using Acts 373/548 and the DATA Act to capture utility rates and bypass federal oversight.",
-      "event_type": "FINANCIAL",
-      "leverage_type": "REGULATORY",
-      "imminence": "NEAR_TERM",
-      "sources": [
-        "https://www.entergy.com/news/5b-in-customer-savings-delivered-by-data-center-agreements-issues-fair-share-plus-pledge",
-        "https://medium.com/@keelee.hudson/everything-you-need-to-know-about-the-west-memphis-ar-data-center-5ee74e72e231",
-        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings"
-      ],
-      "timestamp": "2026-03-31",
+      "timestamp": "2026-04-01",
       "signal": "Arkansas state-level preemption and datacenter leverage",
       "original_signal": "Arkansas state-level preemption and datacenter leverage",
       "category": "REGULATORY"
@@ -507,261 +356,279 @@
   ],
   "breaking_news": [
     {
-      "headline": "Iran War Day 31: US-Israel strikes continue as Trump threatens oil infrastructure while claiming negotiations with Iran's parliamentary speaker underway \u2014 March 30, 2026",
-      "summary": "Operation Epic Fury entered its 31st day on March 30, 2026, with continued US-Israeli airstrikes on Iranian nuclear and missile facilities. Trump threatened widespread destruction of Iran's energy resources, including Kharg Island, while claiming the US is negotiating with Iran's parliamentary speaker. The casualty toll since the February 28 start of operations has not been independently confirmed at a specific figure by available sources.",
+      "headline": "Iran war enters day 32 with US-Israeli strikes continuing on Tehran and Isfahan, Trump threatens energy infrastructure",
+      "summary": "Operation Epic Fury continues with ongoing US-Israeli airstrikes across Iran, including powerful explosions reported in Tehran and Isfahan on March 31, 2026. Trump has struck 13,000 targets since February 28 and renewed threats against Iran's power plants while demanding reopening of Strait of Hormuz. Iran formally rejected the US 15-point ceasefire proposal on March 25.",
       "signal": "Iran war and Strait of Hormuz",
       "investigation_pass": "SIGNAL_SWEEP",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
       "priority": "HIGH",
-      "framework_relevance": "Track A friction driver - sustained kinetic operations creating attention capture while diplomatic back-channels remain active",
+      "framework_relevance": "Track A friction driver - active military operations consuming global attention while creating energy price volatility",
       "cross_node_connections": [
         "gulf_swf",
-        "oil_markets"
+        "oracle_stargate"
       ],
       "under_radar": false,
-      "sources": [
-        "CNN",
-        "NYT",
-        "AP News",
-        "Al Jazeera"
-      ],
-      "timestamp": "2026-03-30"
+      "sources": "Al Jazeera, CNN, ISW, multiple sources March 30-31, 2026",
+      "timestamp": "2026-03-31"
     },
     {
-      "headline": "Kuwaiti oil tanker Al Salmi struck and damaged at Dubai port in Iranian attack, fire onboard with spill risk - March 30, 2026",
-      "summary": "Kuwait Petroleum Corporation reported their fully-loaded crude oil tanker was directly targeted in what they described as an Iranian attack while anchored at Dubai port. The incident caused vessel damage, onboard fire, and potential oil spill in surrounding waters, escalating maritime warfare in Gulf shipping lanes.",
+      "headline": "Kuwaiti oil tanker Al Salmi struck by Iranian drone at Dubai port on March 31; UAE authorities report no oil leakage",
+      "summary": "Kuwait Petroleum Corporation reported that the Al Salmi, a fully loaded Kuwaiti VLCC, was directly attacked by Iranian forces at approximately 12:10 am on Tuesday, March 31, 2026, while anchored at Dubai Port. The vessel caught fire and sustained damage; however, UAE authorities stated that no one was injured and there was no oil leakage. The attack prompted dozens of nearby tankers to leave the area amid fears of further Iranian strikes on Gulf vessels.",
       "signal": "Iran war and Strait of Hormuz",
       "investigation_pass": "SIGNAL_SWEEP",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
       "priority": "HIGH",
-      "framework_relevance": "Track A friction - direct attacks on Gulf state energy infrastructure threaten regional stability and oil markets",
+      "framework_relevance": "Track A friction - Iranian retaliation against Gulf energy infrastructure threatens global oil supply chains",
       "cross_node_connections": [
         "gulf_swf",
-        "uae",
-        "saudi_arabia"
+        "uae"
       ],
       "under_radar": false,
-      "sources": [
-        "Guardian",
-        "Reuters"
-      ],
+      "sources": "New York Times, Guardian, Reuters March 30, 2026",
       "timestamp": "2026-03-30"
     },
     {
-      "headline": "Trump claims Iran agreed to allow 20 oil ships through Hormuz as 'sign of respect'; Iran rejects US 15-point proposal and submits its own 5-point counter-plan",
-      "summary": "President Trump announced on March 29-30, 2026 that Iran had agreed to allow 20 cargo ships of oil through the Strait of Hormuz starting Monday, framing it as a 'tribute' and 'sign of respect,' though this was Trump's characterization rather than a confirmed Iranian statement. Iran officially rejected the US 15-point ceasefire proposal as 'excessive and unreasonable' and submitted its own 5-point counter-proposal, which included demands for war reparations and Iranian sovereignty over the Strait of Hormuz. The claim that Iran 'gave most of the points' reflects Trump's assertion, which Iranian officials publicly disputed.",
+      "headline": "Trump announces US withdrawal from Iran in 2-3 weeks regardless of ceasefire deal, claims regime change achieved",
+      "summary": "President Trump stated the US will be finished in Iran within 2-3 weeks whether a deal is reached or not, at which point American forces will withdraw and oil prices will 'come tumbling down.' He claimed regime change has 'been achieved' and that Iran gave the US 'most of the points' in ceasefire negotiations.",
       "signal": "Iran war and Strait of Hormuz",
-      "investigation_pass": "CROSS_NODE",
+      "investigation_pass": "SIGNAL_SWEEP",
       "event_type": "POLITICAL",
-      "leverage_type": "REGULATORY",
+      "leverage_type": "KINETIC",
       "imminence": "IMMINENT",
       "priority": "HIGH",
-      "framework_relevance": "Track A/B convergence - shipping resumption signals potential compliance pathway while maintaining kinetic pressure",
+      "framework_relevance": "Track A compliance trigger - ceasefire developments or withdrawal timeline represents major geopolitical shift",
       "cross_node_connections": [
-        "oil_markets",
-        "gulf_swf"
+        "gulf_swf",
+        "board_of_peace"
       ],
       "under_radar": false,
-      "sources": [
-        "Fox News",
-        "The Hindu"
-      ],
-      "timestamp": "2026-03-30"
+      "sources": "Sky News, Guardian, NBC News March 31, 2026",
+      "timestamp": "2026-03-31"
     },
     {
-      "headline": "Oil markets set for record monthly gains amid Iran war shipping disruptions and energy infrastructure attacks - March 2026",
-      "summary": "Global oil prices are experiencing record monthly gains as the Iran war disrupts critical shipping lanes and targets energy infrastructure. The combination of Strait of Hormuz tensions, tanker attacks, and threats to Iranian oil facilities has created significant market volatility affecting Gulf sovereign wealth fund portfolios.",
-      "signal": "Gulf SWF capital movements",
-      "investigation_pass": "CROSS_NODE",
-      "event_type": "FINANCIAL",
-      "leverage_type": "FINANCIAL",
-      "imminence": "ONGOING",
-      "priority": "HIGH",
-      "framework_relevance": "Track B capital impact - energy price volatility affects Gulf SWF asset valuations and capital allocation decisions",
-      "cross_node_connections": [
-        "iran_war",
-        "saudi_pif",
-        "mubadala",
-        "adia"
-      ],
-      "under_radar": false,
-      "sources": [
-        "Guardian"
-      ],
-      "timestamp": "2026-03-30"
-    },
-    {
-      "headline": "Board of Peace interim administration formation accelerated as Trump declares Gaza war 'over' following hostage releases - October 2025",
-      "summary": "Trump announced the Board of Peace interim administration would be formed quickly after declaring the Gaza war over. This followed Hamas releasing 7 hostages to the Red Cross in Gaza City, with the Board of Peace's diplomatic immunity-shielded structure now moving into operational phase for reconstruction oversight.",
+      "headline": "Board of Peace formally established with Trump as lifetime chairman; over 20 nations participating with ~60 invited",
+      "summary": "The Board of Peace was formally established via EO 14375 with President Trump as lifetime chairman, tasked with overseeing post-conflict Gaza reconstruction and broader international conflict resolution. Approximately 60 countries were invited to join, with over 20 participating nations represented at the organization's debut meeting. No other G7 states have taken leadership roles in the Trump-led initiative.",
       "signal": "Board of Peace and Gaza reconstruction",
       "investigation_pass": "SIGNAL_SWEEP",
       "event_type": "POLITICAL",
       "leverage_type": "REGULATORY",
       "imminence": "ONGOING",
       "priority": "HIGH",
-      "framework_relevance": "Track B compliance architecture - Board of Peace operational activation creates new capital vehicle with diplomatic immunity protections",
+      "framework_relevance": "Track B compliance architecture - diplomatic immunity-shielded capital vehicle for reconstruction funding",
       "cross_node_connections": [
-        "gaza_reconstruction",
-        "international_law"
+        "gulf_swf",
+        "iran_war"
       ],
       "under_radar": true,
-      "sources": [
-        "Wikipedia"
-      ],
-      "timestamp": "2025-10-13"
+      "sources": "House of Commons Library March 30, 2026",
+      "timestamp": "2026-03-30"
     },
     {
-      "headline": "US-Israeli forces strike four key Iranian ballistic missile production facilities as combined operations intensify - March 29, 2026",
-      "summary": "Washington Post reported that combined US-Israeli forces struck four critical Iranian ballistic missile production facilities. Israeli Air Force jets used over 120 munitions targeting weapons research sites in Tehran, significantly degrading Iran's missile manufacturing capabilities during Operation Epic Fury.",
+      "headline": "Oil prices set for record monthly gain amid Iran war and Strait of Hormuz disruption",
+      "summary": "Global oil markets are experiencing record monthly gains as the month-long Iran war has disrupted energy supplies and raised inflation fears worldwide. US gas prices have hit $4 as Trump tells European allies to 'get your own oil' from the Strait of Hormuz amid ongoing shipping disruptions.",
+      "signal": "Gulf SWF capital movements",
+      "investigation_pass": "CROSS_NODE",
+      "event_type": "FINANCIAL",
+      "leverage_type": "FINANCIAL",
+      "imminence": "ONGOING",
+      "priority": "HIGH",
+      "framework_relevance": "Track B capital impact - energy price volatility affects Gulf SWF asset valuations and global capital flows",
+      "cross_node_connections": [
+        "iran_war",
+        "strait_hormuz",
+        "gulf_swf"
+      ],
+      "under_radar": false,
+      "sources": "Guardian, CNN, CBS News March 30-31, 2026",
+      "timestamp": "2026-03-31"
+    },
+    {
+      "headline": "Iran formally rejected US 15-point ceasefire proposal, issued counterproposal demanding Lebanon inclusion",
+      "summary": "Iran formally rejected the US 15-point ceasefire proposal on March 25, 2026, issuing its own counterproposal via state media and declaring it would fight 'until complete victory.' Iran asserted that Lebanon must be included as part of any ceasefire deal, making it conditional on ending the 2026 Lebanon war against Hezbollah.",
+      "signal": "Russia-Ukraine negotiations",
+      "investigation_pass": "CROSS_NODE",
+      "event_type": "POLITICAL",
+      "leverage_type": "KINETIC",
+      "imminence": "ONGOING",
+      "priority": "HIGH",
+      "framework_relevance": "Track A friction - ceasefire rejection extends military operations and regional instability",
+      "cross_node_connections": [
+        "iran_war",
+        "board_of_peace",
+        "hezbollah"
+      ],
+      "under_radar": false,
+      "sources": "Newland Chase, Wikipedia March 25, 2026",
+      "timestamp": "2026-03-25"
+    },
+    {
+      "headline": "Projectiles strike area around Iran's Bushehr nuclear power plant multiple times in March",
+      "summary": "Iranian authorities reported that projectiles have struck the area around the Bushehr nuclear power plant multiple times during March 2026. Bushehr is Iran's only functioning nuclear power plant, making these strikes significant escalations in targeting civilian nuclear infrastructure during Operation Epic Fury.",
       "signal": "Iran war and Strait of Hormuz",
       "investigation_pass": "UNDER_RADAR",
       "event_type": "KINETIC",
       "leverage_type": "KINETIC",
       "imminence": "ONGOING",
       "priority": "HIGH",
-      "framework_relevance": "Track A friction - systematic degradation of Iranian military-industrial capacity while maintaining diplomatic channels",
+      "framework_relevance": "Track A friction - nuclear facility targeting represents major escalation in military operations",
       "cross_node_connections": [
-        "israel",
-        "defense_contractors"
+        "iran_war",
+        "nuclear_facilities"
       ],
       "under_radar": true,
-      "sources": [
-        "ISW",
-        "NYT"
-      ],
-      "timestamp": "2026-03-29"
+      "sources": "CNN March 30, 2026",
+      "timestamp": "2026-03-30"
     },
     {
-      "headline": "Iran's Assembly of Experts faces succession crisis following Khamenei's death during Operation Epic Fury airstrikes",
-      "summary": "The 88-member Assembly of Experts, responsible for selecting Iran's Supreme Leader, is managing a succession crisis after Ali Khamenei was killed during US-Israeli airstrikes. The clerical body's deliberations in Mashhad will determine Iran's next supreme leader amid ongoing military operations, creating potential for internal power struggles.",
-      "signal": "Iran war and Strait of Hormuz",
-      "investigation_pass": "UNDER_RADAR",
-      "event_type": "POLITICAL",
-      "leverage_type": "POLITICAL",
-      "imminence": "IMMINENT",
-      "priority": "HIGH",
-      "framework_relevance": "Track A friction - leadership decapitation creates internal Iranian instability potentially enabling compliance outcomes",
-      "cross_node_connections": [
-        "iran_succession",
-        "regional_stability"
-      ],
-      "under_radar": true,
-      "sources": [
-        "Multiple intelligence sources"
-      ],
-      "timestamp": "2026-03"
-    },
-    {
-      "headline": "Board of Peace's 8-month Hamas disarmament plan faces rejection as Iran war dominates attention on Day 31 of conflict",
-      "summary": "Trump's Board of Peace presented an 8-month Hamas disarmament plan linking $7B in Gaza reconstruction to weapons surrender at the UN Security Council during the week of March 24-27, 2026. Hamas has denounced the plan as 'catastrophic' and sources indicate it will not respond while the Israel-Iran war is ongoing. The plan's presentation preceded Day 31 of the Iran conflict, though the two tracks remain diplomatically linked.",
+      "headline": "Iran war escalation coincides with Board of Peace Gaza disarmament deadline pressure",
+      "summary": "As the US-Israel war with Iran enters day 32 with Trump threatening energy infrastructure strikes by April 6, the Board of Peace is simultaneously pushing an 8-month Hamas disarmament timeline with $7B reconstruction funding. Both operations represent Trump's dual Middle East strategy using military pressure and reconstruction incentives.",
       "signals_connected": [
         "Iran war and Strait of Hormuz",
         "Board of Peace and Gaza reconstruction"
       ],
       "connection_type": "TIMING",
       "investigation_pass": "CROSS_NODE",
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "sources": [
-        "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-        "https://apnews.com/article/gaza-hamas-disarmament-israel-trump-weapons-ceasefire-a2cb4dc8c6f6af4a61d7102a29974a87"
+        "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
+        "https://www.reuters.com/world/middle-east/hamas-disarmament-plan-sees-gazas-tunnels-destroyed-arms-given-up-stages-text-2026-03-27/"
       ]
     },
     {
-      "headline": "Iran rejects US ceasefire proposal while Trump threatens oil facilities amid Hormuz crisis",
-      "summary": "Iran's rejection of Washington's 15-point proposal occurs simultaneously with Trump's renewed threats to 'take the oil in Iran' and seize Kharg Island, as Iranian forces strike oil infrastructure in Dubai. The coordination suggests escalatory diplomatic-military pressure campaign.",
+      "headline": "State Department transfers $1.25B from international disaster and peacekeeping programs to Board of Peace",
+      "summary": "The State Department transferred $1.25 billion drawn from international disaster relief and peacekeeping budgets to fund President Trump's Board of Peace, according to a person familiar with the funding. Senator Catherine Cortez Masto (D-NV) announced plans to introduce legislation redirecting $1 billion of those funds to the Low-Income Home Energy Assistance Program amid rising energy costs from the Iran war. The transfer has drawn Congressional scrutiny over the reallocation of humanitarian funds.",
+      "signals_connected": [
+        "Board of Peace and Gaza reconstruction",
+        "Iran war and Strait of Hormuz"
+      ],
+      "connection_type": "CAPITAL_FLOW",
+      "investigation_pass": "CROSS_NODE",
+      "confidence": "HIGH",
+      "sources": [
+        "https://www.dropsitenews.com/p/gaza-reconstruction-board-of-peace-hamas-democrats-congress-iran-war-israel-lebanon"
+      ]
+    },
+    {
+      "headline": "House Democratic leaders delay Iran war powers vote until mid-April while Hamas denounces Board of Peace disarmament plan as 'catastrophic'",
+      "summary": "House Democratic leaders chose not to force a vote on an Iran war powers resolution, delaying any potential action until Congress returns from recess in mid-April 2026, drawing criticism from the anti-war left. Simultaneously, Hamas officials denounced the Board of Peace's disarmament plan \u2014 which ties Gaza reconstruction funding to weapons handover \u2014 as 'catastrophic' and serving Israel's agenda. Senator Lisa Murkowski (R-AK) is separately drafting authorization for the Iran war.",
       "signals_connected": [
         "Iran war and Strait of Hormuz",
-        "Russia-Ukraine negotiations"
+        "Board of Peace and Gaza reconstruction"
       ],
-      "connection_type": "TIMING",
+      "connection_type": "LEGISLATIVE",
       "investigation_pass": "CROSS_NODE",
       "confidence": "MEDIUM",
       "sources": [
-        "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
-        "https://www.thehindu.com/news/international/us-israel-iran-war-updates-live-march-31-2026/article70805560.ece"
+        "https://www.dropsitenews.com/p/gaza-reconstruction-board-of-peace-hamas-democrats-congress-iran-war-israel-lebanon"
       ]
     },
     {
-      "headline": "Apple disclosed 'Hide My Email' user identity to FBI despite privacy marketing",
-      "summary": "Court affidavit reveals Apple provided identifying account information to FBI investigators when compelled by legal process, contradicting its public privacy stance. This demonstrates tech companies' actual data retention and disclosure capabilities despite marketing claims, relevant to broader surveillance and privacy frameworks.",
-      "signal": "Tech company data disclosure capabilities vs. public privacy claims",
+      "headline": "Inovio Pharmaceuticals faces securities fraud lawsuit over manufacturing deficiencies",
+      "summary": "Class action lawsuit alleges Inovio failed to disclose manufacturing deficiencies for CELLECTRA device and overstated INO-3107 regulatory prospects between October 2023-December 2025. This represents potential biotech sector stress that could affect broader investment flows, including Gulf SWF healthcare portfolios.",
+      "signal": "Gulf SWF Capital Architecture",
+      "document_type": "REGULATORY",
+      "investigation_pass": "UNDER_RADAR",
+      "under_radar": true,
+      "confidence": "LOW",
+      "sources": [
+        "PRNewswire securities lawsuit filing"
+      ]
+    },
+    {
+      "headline": "Apple disclosed Hide My Email user identity to FBI despite privacy marketing",
+      "summary": "Court affidavit reveals Apple can access and disclose identifying account information when compelled by legal process, contradicting privacy marketing. This suggests potential intelligence collection capabilities relevant to surveillance of tracked entities and their communications.",
+      "signal": "Israel Cyber/Intelligence + Tech Integration",
       "document_type": "COURT_DOCKET",
       "investigation_pass": "UNDER_RADAR",
       "under_radar": true,
       "confidence": "MEDIUM",
       "sources": [
-        "cyberinsider.com/apple-revealed-hide-my-email-user-identity-in-fbi-investigation/"
+        "FBI investigation affidavit via cyberinsider.com"
       ]
     }
   ],
   "cross_node_findings": [
     {
-      "headline": "Iran war escalation coincides with Board of Peace Gaza disarmament plan presentation",
-      "summary": "As Iran strikes Kuwaiti oil tanker in Dubai waters on Day 31 of conflict, Trump's Board of Peace simultaneously presents 8-month Hamas disarmament plan linking $7B Gaza reconstruction to weapons surrender. The timing suggests coordinated diplomatic pressure across multiple Middle East fronts.",
+      "headline": "Iran war escalation coincides with Board of Peace Gaza disarmament deadline pressure",
+      "summary": "As the US-Israel war with Iran enters day 32 with Trump threatening energy infrastructure strikes by April 6, the Board of Peace is simultaneously pushing an 8-month Hamas disarmament timeline with $7B reconstruction funding. Both operations represent Trump's dual Middle East strategy using military pressure and reconstruction incentives.",
       "signals_connected": [
         "Iran war and Strait of Hormuz",
         "Board of Peace and Gaza reconstruction"
       ],
       "connection_type": "TIMING",
       "investigation_pass": "CROSS_NODE",
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "sources": [
-        "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-        "https://apnews.com/article/gaza-hamas-disarmament-israel-trump-weapons-ceasefire-a2cb4dc8c6f6af4a61d7102a29974a87"
+        "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
+        "https://www.reuters.com/world/middle-east/hamas-disarmament-plan-sees-gazas-tunnels-destroyed-arms-given-up-stages-text-2026-03-27/"
       ]
     },
     {
-      "headline": "Iran rejects US ceasefire proposal while Trump threatens oil facilities amid Hormuz crisis",
-      "summary": "Iran's rejection of Washington's 15-point proposal occurs simultaneously with Trump's renewed threats to 'take the oil in Iran' and seize Kharg Island, as Iranian forces strike oil infrastructure in Dubai. The coordination suggests escalatory diplomatic-military pressure campaign.",
+      "headline": "State Department diverts $1.25B from disaster funds to Trump's Board of Peace amid Iran war costs",
+      "summary": "The State Department redirected $1.25 billion from disaster relief and peacekeeping budgets to fund Trump's Board of Peace operations, occurring simultaneously with escalating Iran war expenses and the need to fund Gaza reconstruction commitments.",
+      "signals_connected": [
+        "Board of Peace and Gaza reconstruction",
+        "Iran war and Strait of Hormuz"
+      ],
+      "connection_type": "CAPITAL_FLOW",
+      "investigation_pass": "CROSS_NODE",
+      "confidence": "HIGH",
+      "sources": [
+        "https://www.dropsitenews.com/p/gaza-reconstruction-board-of-peace-hamas-democrats-congress-iran-war-israel-lebanon"
+      ]
+    },
+    {
+      "headline": "Congressional Democrats cave on Iran war powers while opposing Board of Peace Gaza plan",
+      "summary": "Senate Democrats are reportedly yielding on Iran war authorization while Hamas denounces the Board of Peace disarmament plan as 'catastrophic.' This represents split Congressional positioning on Trump's dual Middle East military operations.",
       "signals_connected": [
         "Iran war and Strait of Hormuz",
-        "Russia-Ukraine negotiations"
+        "Board of Peace and Gaza reconstruction"
       ],
-      "connection_type": "TIMING",
+      "connection_type": "LEGISLATIVE",
       "investigation_pass": "CROSS_NODE",
       "confidence": "MEDIUM",
       "sources": [
-        "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
-        "https://www.thehindu.com/news/international/us-israel-iran-war-updates-live-march-31-2026/article70805560.ece"
+        "https://www.dropsitenews.com/p/gaza-reconstruction-board-of-peace-hamas-democrats-congress-iran-war-israel-lebanon"
       ]
     }
   ],
   "under_radar_findings": [
     {
-      "headline": "Apple disclosed 'Hide My Email' user identity to FBI despite privacy marketing",
-      "summary": "Court affidavit reveals Apple provided identifying account information to FBI investigators when compelled by legal process, contradicting its public privacy stance. This demonstrates tech companies' actual data retention and disclosure capabilities despite marketing claims, relevant to broader surveillance and privacy frameworks.",
-      "signal": "Tech company data disclosure capabilities vs. public privacy claims",
+      "headline": "Inovio Pharmaceuticals faces securities fraud lawsuit over manufacturing deficiencies",
+      "summary": "Class action lawsuit alleges Inovio failed to disclose manufacturing deficiencies for CELLECTRA device and overstated INO-3107 regulatory prospects between October 2023-December 2025. This represents potential biotech sector stress that could affect broader investment flows, including Gulf SWF healthcare portfolios.",
+      "signal": "Gulf SWF Capital Architecture",
+      "document_type": "REGULATORY",
+      "investigation_pass": "UNDER_RADAR",
+      "under_radar": true,
+      "confidence": "LOW",
+      "sources": [
+        "PRNewswire securities lawsuit filing"
+      ]
+    },
+    {
+      "headline": "Apple disclosed Hide My Email user identity to FBI despite privacy marketing",
+      "summary": "Court affidavit reveals Apple can access and disclose identifying account information when compelled by legal process, contradicting privacy marketing. This suggests potential intelligence collection capabilities relevant to surveillance of tracked entities and their communications.",
+      "signal": "Israel Cyber/Intelligence + Tech Integration",
       "document_type": "COURT_DOCKET",
       "investigation_pass": "UNDER_RADAR",
       "under_radar": true,
       "confidence": "MEDIUM",
       "sources": [
-        "cyberinsider.com/apple-revealed-hide-my-email-user-identity-in-fbi-investigation/"
+        "FBI investigation affidavit via cyberinsider.com"
       ]
     }
   ],
   "contamination_check": {
-    "contaminated": true,
-    "dominant_signal": "Iran war and Strait of Hormuz",
-    "dominant_percentage": 71.4,
-    "suppressed_signals": [
-      "CFIUS national security reviews",
-      "Maxwell clemency and testimony",
-      "Federal workforce restructuring",
-      "Oracle and Stargate infrastructure",
-      "Russia-Ukraine negotiations",
-      "Epstein document releases",
-      "TikTok USDS post-deal compliance and oversight",
-      "AI Pentagon contracts and compliance",
-      "Arkansas state-level preemption and datacenter leverage"
-    ]
+    "contaminated": false,
+    "dominant_signal": null,
+    "suppressed_signals": []
   },
   "entities_scanned": 58,
-  "api_calls_made": 25,
-  "daily_budget_used": 97,
+  "api_calls_made": 16,
+  "daily_budget_used": 16,
   "daily_budget_limit": 100
 }
