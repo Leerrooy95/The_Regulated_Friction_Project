@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.5
+# The Regulated Friction Project v11.6
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -156,7 +156,21 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.5) — CRINK Late-March 2026 Update — April 1, 2026
+## What's New (v11.6) — Four-Thread Integration — April 1, 2026
+
+Integrates four major developments from the last week of March 2026 that were not covered by the v11.5 CRINK update: the White House ballroom preliminary injunction (March 31), the Anthropic v. DoD preliminary injunction (March 26), the Epstein 302 cross-reference connecting withheld documents to Trump's "innocent people" statement, and the April 2026 convergence window Track D addition.
+
+- **Node 14 (AI Kill Chain) updated** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): Judge Rita Lin (Biden appointee, N.D. Cal.) granted Anthropic's preliminary injunction on **March 26, 2026** — called the Pentagon's supply chain risk designation "Orwellian" and "classic First Amendment retaliation." Court found government rationale "likely pretextual." 14-day delay for government appeal. Pentagon CTO Emil Michael immediately claimed the designation remains in effect under a separate FASCSA statute (D.C. Circuit second lawsuit still pending). Node 14 tracking item updated from ⏳ UPCOMING to ✅ RESOLVED (partial).
+- **Node 11 (April Convergence Window) upgraded from triple- to quadruple-track** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): Added **Track D** — Treasury Cuba/NK sanctions waiver expiration **April 11, 2026** (referenced in v11.5 Q2-Q3 tracking but not yet integrated into the convergence window node). Window expanded from April 12–20 to April 11–20. Four simultaneous institutional tracks: Track A (Bondi deposition Apr 14), Track B (CLARITY Act markup Apr 13-27), Track C (FISA/SAVE Act April 20), Track D (Treasury waiver April 11).
+- **Node 5 (Epstein Files) updated** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): Added Bank of America $72.5M settlement (March 28) and Comer "botched" admission (March 30) — both flagged ❌ UNABLE TO VERIFY at time of integration; flagged for follow-up. Added cross-reference to `11_LEVERAGE_THESIS.md` for the 302-to-statements timeline connection.
+- **March 2026 Events table updated**: Added **Mar 26** (Anthropic preliminary injunction) and **Mar 31** (White House ballroom preliminary injunction) entries.
+- **Section 11 added** to [`10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md): White House ballroom injunction (March 31) — documents the dual funding stream mechanism (private donor money vs. security infrastructure taxpayer money), captured regulatory body pattern (NCPC + Commission of Fine Arts), and what successful institutional guardrail engagement looks like under the framework.
+- **Section 12 added** to [`10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md): Anthropic v. DoD ruling (March 26) — judicial validation of the six-step coercion template documented in `11_LEVERAGE_THESIS.md`. A federal court explicitly characterized the government's actions as "Orwellian" and "First Amendment retaliation," directly confirming the framework's coercion template in its judicial findings.
+- **`11_LEVERAGE_THESIS.md` updated**: (1) Anthropic legal proceedings table updated (Mar 24 oral arguments → Mar 26 PI granted ✅); (2) Mueller death / "innocent people" section expanded with "The Withheld 302s" subsection documenting the three withheld FBI 302 summaries as the specific documents whose suppression Trump's September 2025 and March 2026 statements track in time — documented as a verifiable timeline connection, not a confirmed causal claim.
+- **Web-verified April 1, 2026**: Ballroom injunction confirmed (CNBC, ABC, NBC, CBS, Politico, Forbes, Roll Call, Newsweek). Anthropic PI confirmed (Breaking Defense, Rappler, Market Dash, Diginomica, FedScoop, Politico). Bank of America settlement ❌ UNABLE TO VERIFY. Comer "botched" ❌ UNABLE TO VERIFY.
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md), [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md), [`README.md`](README.md).
+
+### Previous (v11.5) — CRINK Late-March 2026 Update — April 1, 2026
 
 Integrates verified CRINK and Cuba developments from March 22–31, 2026 — the period since the last update — covering the Anatoly Kolodkin oil delivery, China rice shipments to Cuba, North Korea's missile salvo, Iran ceasefire diplomacy restart, and multiple CRINK rift analyses.
 

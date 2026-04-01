@@ -75,7 +75,12 @@
 | **AI Kill Chain / Minab school strike / Maven targeting** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14, Anthropic section, Node 2), `11_LEVERAGE_THESIS.md` |
 | **Anthropic v. DoD lawsuit / supply chain risk legal challenge** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14), `11_LEVERAGE_THESIS.md` |
 | **Maven Smart System / Claude military targeting / kill chain** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14, Node 2) |
-| **Judge Rita Lin / Anthropic preliminary injunction** | `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` | `09_CURRENT_THREADS.md` (Node 14) |
+| **Judge Rita Lin / Anthropic preliminary injunction** | `09_CURRENT_THREADS.md` (Node 14) | `10_FRAMEWORK_VALIDATION.md` (Section 12), `11_LEVERAGE_THESIS.md` (Anthropic section) |
+| **Anthropic v. DoD preliminary injunction outcome / "Orwellian" ruling** | `09_CURRENT_THREADS.md` (Node 14) | `10_FRAMEWORK_VALIDATION.md` (Section 12), `11_LEVERAGE_THESIS.md` |
+| **White House ballroom injunction / Judge Richard Leon / "steward not owner"** | `09_CURRENT_THREADS.md` (March 2026 Events table) | `10_FRAMEWORK_VALIDATION.md` (Section 11) |
+| **NCPC / Commission of Fine Arts / captured regulatory body pattern** | `10_FRAMEWORK_VALIDATION.md` (Section 11) | `09_CURRENT_THREADS.md` (March 2026 Events table) |
+| **Epstein 302 summaries / "incorrectly coded as duplicative" / accuser credibility** | `09_CURRENT_THREADS.md` (Node 5, Mar 5-6 updates) | `11_LEVERAGE_THESIS.md` (Mueller death / "innocent people" / withheld 302s section) |
+| **Treasury Cuba/NK waiver expiration April 11** | `09_CURRENT_THREADS.md` (Node 11 Track D) | `09_CURRENT_THREADS.md` (Node 2 — Cuba crisis, Q2-Q3 tracking table) |
 | **Attention economy / noise generators / quotas** | `06_ATTENTION_ECONOMY.md` | `14_Files/Main_Characters.md`, `Project_Trident/Copilot_Opus_4.6_Analysis/Narrative_Case_Studies/Attention_Economy_and_Quotas_Cross_Administration_Analysis.md` |
 | **DOGE / administrative state** | `Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/DOGE_node_timeline.md` | `06_ATTENTION_ECONOMY.md` |
 | **DOGE failure documentation / Cavanaugh deposition** | `10_Real-Time_Updates_and_Tasks/2026_March/Elon_Musk_Empire_Realignment_March_2026.md` | `09_CURRENT_THREADS.md` (Node 13), `06_ATTENTION_ECONOMY.md` (Heat Sink) |
