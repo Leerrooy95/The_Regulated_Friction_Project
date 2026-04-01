@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** April 1, 2026
-**Version:** v11.5
+**Version:** v11.6
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -303,6 +303,60 @@ Five pre-loaded distraction mechanisms were documented with deployment readiness
 → **Full analysis**: [`_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md`](_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md) (Late March 2026 Update section), [`05_Geopolitical_Vectors/CRINK_Analysis.md`](05_Geopolitical_Vectors/CRINK_Analysis.md) (March 2026 Update section)
 
 → **Full prediction document**: [`10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md)
+
+---
+
+### Late-March 2026: Four-Thread Integration (v11.6)
+
+**Filed April 1, 2026.** Four major developments from the last week of March 2026 not covered by the v11.5 CRINK update:
+
+**1. White House Ballroom Preliminary Injunction (March 31, 2026)**
+
+Judge Richard Leon (GWB appointee, D.D.C.) issued a preliminary injunction blocking above-grade construction of a White House ballroom/event facility funded through a private nonprofit donor arrangement. Key findings: "no statute comes close to giving the President the authority he claims to have" and the President acts as "steward, not the owner" of the White House. The injunction documents a dual funding stream (private donor ballroom vs. taxpayer-funded security infrastructure) and implicates the National Capital Planning Commission (NCPC) and Commission of Fine Arts as regulatory bodies subject to capture. DOJ filed immediate notice of appeal; framing shifted from construction authority to national security necessity. NCPC final vote scheduled early April.
+
+**Framework significance**: Textbook bypass activation — private capital enters a public institutional space; independent oversight bodies (NCPC, Commission of Fine Arts) are sidelined; when legal friction materializes, the response is immediate security-reframing rather than statutory compliance. The pattern matches the six-step coercion template documented in `10_FRAMEWORK_VALIDATION.md` Section 11.
+
+→ **Full analysis**: [`_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md) (Section 11 — White House Ballroom Injunction)
+
+**Sources**: [CNBC](https://www.cnbc.com/2026/03/31/trump-white-house-ballroom-judge.html), [ABC News](https://abcnews.com/Politics/federal-judge-orders-halt-white-house-ballroom-construction/story?id=131587116), [NBC News](https://www.nbcnews.com/politics/trump-administration/federal-judge-temporarily-blocks-demolition-white-house-trumps-ballroo-rcna266095), [CBS News](https://www.cbsnews.com/news/judge-temporarily-blocks-construction-of-trumps-white-house-ballroom/), [Politico](https://www.politico.com/news/2026/03/31/trump-white-house-ballroom-lawsuit-order-00852455)
+
+**2. Anthropic v. DoD Preliminary Injunction (March 26, 2026)**
+
+Judge Rita Lin (Biden appointee, N.D. Cal.) granted Anthropic's preliminary injunction against the Pentagon's supply chain risk designation, calling it "Orwellian" and "classic First Amendment retaliation." The court found the government's rationale "likely pretextual" and its actions "punitive." 14-day enforcement delay; Pentagon CTO Emil Michael immediately claimed the FASCSA D.C. Circuit designation (41 U.S.C. § 4713) remains in force — the subject of a separate pending lawsuit. Legal analysts note two Trump-appointed D.C. Circuit judges may view national security arguments more expansively, making the N.D. Cal. ruling a partial win at best. The case represents a federal court explicitly confirming the framework's six-step coercion template in judicial findings.
+
+**Framework significance**: A federal judge's findings — demand (comply with DoD AI requirements), deadline (ban imposed March 5), threat (supply chain blacklisting), punishment (enforcement), replacement (position offered to compliant successor), narrative escalation (national security reframing) — map directly to the coercion template. This is the first instance of a federal court confirming the template's mechanics in real time.
+
+→ **Full analysis**: [`_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md) (Section 12 — Anthropic v. DoD Framework Confirmation)
+
+**Sources**: [Breaking Defense](https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/), [Rappler](https://www.rappler.com/technology/united-states-judge-blocks-pentagon-anthropic-blacklisting-march-26-2026/), [Politico](https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173)
+
+**3. Epstein 302 Cross-Reference: Withheld Documents and the "Innocent People" Timeline**
+
+The DOJ published three additional Epstein FBI 302 interview summaries on March 5–6, 2026, after acknowledging they were "incorrectly coded as duplicative." These summaries — withheld during the January 30 initial release — contained Trump-specific allegations. The timeline creates a verifiable documentary sequence:
+
+- **Sep 2025**: Rep. Marjorie Taylor Greene recounts Trump telling her on the phone: "My friends will get hurt" (re: Epstein files)
+- **Mar 5–6, 2026**: DOJ releases the three withheld 302 summaries containing Trump-specific allegations
+- **Mar 21, 2026**: Trump posts on Truth Social following Mueller's death: "He can no longer hurt innocent people!"
+
+Both statements refer — in verifiable temporal sequence — to the same category of documentation: FBI 302 interview summaries whose suppression, release, and continued existence represent the documented leverage dynamic. **No causal claim is made**; this is a documented timeline connection. The connection is labeled `[Inference]` in `11_LEVERAGE_THESIS.md`.
+
+→ **Full analysis**: [`_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md) (Mueller Death section — "The Withheld 302s" subsection)
+
+**4. April 2026 Convergence Window: Track D Added**
+
+The April 2026 convergence window is now **quadruple-track**:
+- **Track A (Accountability)**: AG Bondi deposition — April 14, 2026
+- **Track B (Capital Architecture)**: CLARITY Act Senate markup — April 13–27, 2026
+- **Track C (Election Infrastructure)**: FISA Section 702 expiration ± SAVE America Act — April 20, 2026
+- **Track D (Sanctions Architecture)**: Treasury Cuba/NK sanctions waiver expiration — **April 11, 2026**
+
+Track D was documented in v11.5's CRINK Q2-Q3 tracking table but not yet integrated into the convergence window node. The waiver expiration creates a fourth simultaneous institutional trigger within the same 9-day window (April 11–20). The Anatoly Kolodkin accommodation demonstrated that enforcement bends to humanitarian optics; the waiver expiration tests whether that accommodation becomes policy or exception.
+
+**5. Epstein Bank Accountability: Bank of America Settlement (March 27, 2026)**
+
+Bank of America agreed to a $72.5 million civil settlement with Epstein survivors — the third major financial institution settlement after JPMorgan ($290M, 2023) and Deutsche Bank ($75M, 2023). Cumulative bank settlements now exceed $437M. The settlement covers the period 2008–2019 when BofA was Epstein's client; no admission of wrongdoing; requires court approval. Separately, House Oversight Chairman James Comer (R-KY) publicly admitted the DOJ "botched" the Epstein file release in a CNN interview (March 30) — conceding that excessive redactions protected powerful individuals while carelessly exposing victim information. Bipartisan backlash confirmed; the admission came from the committee's own Republican chairman.
+
+**Sources**: BofA settlement: [CNBC](https://www.cnbc.com/2026/03/27/jeffrey-epstein-bank-of-america-lawsuit-settle.html), [MSN](https://www.msn.com/en-us/money/markets/bank-of-america-joins-jp-morgan-and-deutsche-bank-in-settling-epstein-related-survivors-suits/ar-AA1ZEBEP). Comer admission: [Breitbart](https://www.breitbart.com/clips/2026/03/30/comer-department-of-justice-botched-release-of-epstein-files/), [Yahoo News](https://www.yahoo.com/news/articles/maga-congressman-admits-doj-botched-020609624.html), [Raw Story](https://www.rawstory.com/james-comer-2676640354/)
 
 ---
 
@@ -1363,4 +1417,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated March 22, 2026 (v11.4). SAVE America Act integration — H.R. 7296 passed House 218-213 (Feb 11, 2026), Senate opened debate 51-48 (March 17), requires all 50 states to hand unredacted voter rolls to DHS with zero data use restrictions, DHS SAVE database documented >50% error rate in Boone County MO flagging citizens as noncitizens, House conservatives (Luna, Fine) threatening to attach SAVE to FISA Section 702 reauthorization (expires April 20), manufactured lose-lose creating FISA-SAVE coupling. April 2026 convergence window upgraded from dual-track to triple-track: Track A (Bondi deposition April 14) + Track B (CLARITY Act April 13–27) + Track C (FISA April 20 ± SAVE America Act). Mullin DHS nomination advanced 8-7 (March 19, Fetterman crossover, Rand Paul opposed). Polymarket ~11–16% passage probability. 29/30 claims verified, 1 partially verified (FISA-SAVE coupling: threatened but not yet procedurally attempted). Full analysis: `10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`. Previous (v11.2): Elon Musk Empire Realignment. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/).*
+*This report was last updated April 1, 2026 (v11.6). Four-thread late-March 2026 integration: (1) White House ballroom preliminary injunction — Judge Leon (D.D.C.) blocks above-grade construction, "steward, not the owner," DOJ security-reframe appeal; (2) Anthropic v. DoD preliminary injunction — Judge Lin (N.D. Cal.) calls Pentagon ban "Orwellian" / "First Amendment retaliation," D.C. Circuit FASCSA case still pending; (3) Epstein 302 cross-reference — withheld 302 summaries (released Mar 5–6 after being "incorrectly coded as duplicative") are the specific documents whose suppression tracks Trump's "my friends will get hurt" (Sep 2025) and "he can no longer hurt innocent people" (Mar 21) statements in time (verifiable timeline connection; causal claim NOT made; `[Inference]` label applied); (4) April convergence window upgraded to quadruple-track: Track D = Treasury Cuba/NK waiver expiration April 11. Additionally: Bank of America $72.5M Epstein settlement (Mar 27, ✅ VERIFIED — third major bank settlement, cumulative >$437M); Comer admits DOJ "botched" Epstein file release (Mar 30, ✅ VERIFIED — Republican Oversight Chairman, CNN interview). Previous (v11.5, April 1, 2026): CRINK late-March 2026 — CRINK rift confirmed (collective restraint toward Iran), North Korea 10-missile salvo (Mar 14), Cuba dual-track aid (Kolodkin Mar 30 + China rice Mar 20–27), Treasury April 11 waiver. Previous (v11.4, March 22, 2026): SAVE America Act integration. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/).*
