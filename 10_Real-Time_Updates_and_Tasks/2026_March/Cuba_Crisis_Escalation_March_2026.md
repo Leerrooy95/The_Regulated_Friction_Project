@@ -211,13 +211,62 @@ This is the thermostat failure in action: the system was built for sequential op
 
 | Item | Date | Action |
 |------|------|--------|
-| Anatoly Kolodkin arrival | ~March 23 ✅ confirmed | Track whether vessel arrives, is intercepted, or diverts |
+| Anatoly Kolodkin arrival | **✅ RESOLVED — arrived Matanzas March 30** | Trump allowed on "humanitarian grounds"; no interception |
 | Sea Horse diversion | ✅ VERIFIED — diverted T&T then Venezuela | T&T diversion caused by March 20 Treasury amendment; documented regulatory friction event |
 | Russian destroyer port call | Unknown | Track SOUTHCOM response |
 | Embassy staffing decision | By May | Track whether State Department reduces Havana staff |
 | Cuba-U.S. talks | Ongoing | Track whether negotiations produce any agreements |
 | Grid stability | Ongoing | Track frequency and duration of subsequent blackouts |
 | April convergence window | April 12–20 | Assess whether Cuba escalation becomes the distraction event predicted by thermostat model |
+| Treasury waiver renewal | **April 11, 2026** | Waiver excluding Cuba/NK expires; watch whether renewed, expanded, or allowed to lapse |
+| China rice deliveries | Ongoing | 60,000-ton commitment; first batch ~March 20–27; further shipments en route |
+
+---
+
+## March 22–31 Update: Resolution Phase
+
+### Anatoly Kolodkin Arrival (March 30, 2026) — Prediction Partially Falsified
+
+The Anatoly Kolodkin arrived at the Port of Matanzas, Cuba on the morning of March 30, 2026. The outcome diverged from the highest-probability scenario in this document's tracking table (interception based on Skipper precedent):
+
+| Outcome | What Happened |
+|---------|--------------|
+| **US response** | Trump announced "no problem" with delivery; allowed on "humanitarian grounds"; US Coast Guard authorized passage |
+| **Russian framing** | "Our duty to provide the necessary assistance to our Cuban friends"; coordinated in advance with US authorities |
+| **Cargo** | ~730,000 barrels crude oil (~100,000 metric tons) |
+| **Relief duration** | ~9–12 days of Cuba's basic fuel demand if consumption minimized |
+| **Structural impact** | Does not resolve Cuba's underlying energy crisis; short-term relief only |
+| **Thermostat implication** | Administration backed down from its own sanctions framework in the face of humanitarian optics — consistent with the thermostat model's predicted behavior in high-visibility humanitarian scenarios where the cost of action exceeds the cost of accommodation |
+
+**Framework Note**: The interception prediction in this document's tracking table is **falsified** for the Kolodkin specifically. The broader sanctions framework (Treasury amendment excluding Cuba/NK) remains in force and expires April 11. The "no interception" outcome creates a compliance precedent that could invite additional Russian shipments before that deadline.
+
+**Sources**: [Al Jazeera (March 31)](https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage), [Euronews (March 31)](https://www.euronews.com/2026/03/31/russian-oil-tanker-docks-in-cuba-after-us-allows-passage-despite-energy-blockade), [US News (March 30)](https://www.usnews.com/news/world/articles/2026-03-30/russian-oil-tanker-has-arrived-in-cuba-interfax-reports), [Bloomberg (March 29)](https://www.bloomberg.com/news/articles/2026-03-29/us-plans-to-allow-russian-oil-tanker-into-cuba-easing-crisis), [Politico (March 30)](https://www.politico.com/news/2026/03/30/russian-tanker-cuba-blockade-humanitarian-00850838), [Moscow Times (March 30)](https://www.themoscowtimes.com/2026/03/30/russian-oil-tanker-arrives-in-cuba-after-trump-shrugs-off-his-own-fuel-blockade-a92366), [Peoples Dispatch (March 30)](https://peoplesdispatch.org/2026/03/30/russian-oil-tanker-reaches-cuba/), [Jamaica Observer (March 31)](https://www.jamaicaobserver.com/2026/03/31/russian-oil-tanker-docks-cuba-us-blockade-relief/), [Havana Times](https://havanatimes.org/news/russian-oil-tanker-arrives-in-cuba-to-alleviate-crisis/)
+
+### China Rice Aid (March 20–31, 2026)
+
+In parallel with Russia's oil delivery, China launched a rice donation program for Cuba:
+
+| Detail | Information |
+|--------|-------------|
+| **Total commitment** | 60,000 tons rice |
+| **First shipment** | ~15,600 tons; arrived Havana port ~March 20–27 |
+| **Chinese framing** | "Solidarity and friendship in the face of adversity" — Chinese ambassador in Havana |
+| **Combined signal** | Ships with Russia's oil AND China's rice simultaneously reaching Cuba = documented CRINK dual-track humanitarian intervention |
+| **CRINK significance** | Two CRINK members providing parallel, complementary aid (energy + food) to a CRINK-aligned state under US blockade — without formal coordination mechanism, as expected from a "flexible security ecosystem" |
+
+**Sources**: [Radio Angulo (March 20)](https://www.radioangulo.cu/en/2026/03/20/china-sends-first-shipment-of-60000-tons-of-rice-to-cuba/), [CibaCuba (March 27)](https://en.cibercuba.com/noticias/2026-03-27-u1-e208574-s27061-nid324237-china-envia-cuba-otras-15-mil-toneladas-arroz), [Charity Journal](https://charityjournal.org/china-sends-60000-tons-of-rice-to-cuba-amid-us-blockade/), [ABC News humanitarian convoy](https://abcnews.com/International/wireStory/tons-aid-flows-cuba-humanitarian-convoy-arrives-struggling-131270968), [CounterCurrents.org (March 31)](https://countercurrents.org/2026/03/ships-with-russias-oil-and-chinas-rice-reach-cuba/)
+
+### Treasury April 11 Deadline
+
+The March 20 OFAC general license (which explicitly excludes Cuba and North Korea from the Russian oil waiver) expires **April 11, 2026**. This creates a key pending signal for the April 12–20 convergence window:
+
+- **If waiver lapses** (not renewed): tightened blockade enters force precisely at convergence window opening
+- **If waiver is renewed with Cuba exclusion**: status quo maintained; further Russian shipments prohibited
+- **If waiver is modified (Cuba re-included)**: humanitarian accommodation formalized; signals administration retreat from sanctions posture
+
+The April 11 expiration coincides with the pre-Bondi deposition window (April 14) — the thermostat model predicts distraction events cluster in this exact window.
+
+*Updated April 1, 2026. Added March 22–31 resolution phase: Anatoly Kolodkin arrival (March 30), Trump humanitarian exception, China rice aid, Treasury April 11 deadline analysis. All new claims verified against multiple independent sources.*
 
 ---
 

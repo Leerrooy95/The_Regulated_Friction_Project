@@ -247,7 +247,7 @@ The CRINK framework would be **falsified** if:
 
 ---
 
-*Last Updated: March 6, 2026. This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
+*Last Updated: April 1, 2026. This summary distills content from `05_Geopolitical_Vectors/CRINK_Analysis.md`, `New_Data_2026/CRINK_Intelligence_Dataset_Final_Verified.csv`, and `14_Files/Implications.md`.*
 
 ---
 
@@ -313,3 +313,90 @@ Azerbaijan (former Soviet republic, close relations with both Turkey and Israel)
 | Global Election Analysis | `05_Geopolitical_Vectors/Global_Election_Analysis.md` | Election timing correlations with friction windows |
 
 *Updated March 11, 2026. Added Russia response: Ukraine peace talks postponed indefinitely due to Iran war (Kyiv Independent, Bloomberg, Sky News). Updated Iran row: mine-laying boats destroyed (March 10, CENTCOM/Axios/Army Recognition). Previous: March 8, 2026 — Ghalibaf "Epstein's gang" statement upgraded to ✅ VERIFIED via Al Jazeera and Axios (March 6, 2026). Previous: March 8, 2026 — added Iran Information Warfare section: "Operation Epstein Fury" viral rebranding (ADL-verified 91,000+ mentions). Previous: March 1, 2026.*
+
+---
+
+## Late March 2026 Update: CRINK Rift Analysis, North Korea Missile Salvo, and Cuba Dual-Track Aid
+
+### CRINK Rift Exposed by Iran War (March 4–25, 2026)
+
+The US-Israel strikes on Iran (Operation Epic Fury, Feb 28) exposed a fundamental fissure within the CRINK alignment: despite public condemnation, China, Russia, and North Korea provided little to no direct military assistance to Iran — validating the repository's characterization of CRINK as a "flexible security ecosystem" with transactional rather than treaty-based obligations.
+
+| Analysis | Source | Key Finding |
+|----------|--------|------------|
+| "US strike on Iran exposes CRINK rift" | [Chosun Biz (March 4, 2026)](https://biz.chosun.com/en/en-international/2026/03/04/YXTJKPAWENER7HVUHNFMDZ6M4Y/) | China, Russia, NK condemned strikes but provided no direct military support |
+| "Why Are China and Russia Not Rushing to Help Iran?" | [Carnegie Endowment (March 2026)](https://carnegieendowment.org/russia-eurasia/politika/2026/03/china-russia-rescue-iran) | Competing national interests and risk aversion limit CRINK collective action |
+| "War in Iran Tests the China-Russia 'No-Limits Partnership'" | [CNA (March 2026)](https://www.cna.org/our-media/indepth/2026/03/war-in-iran-tests-the-china-russia-partnership) | China-Russia no-limits framing under structural stress |
+| "Coordination without Commitment: China and the CRINKs" | [Oxus Society](https://oxussociety.org/publications/fault-lines-china-coordination-without-commitment) | Pattern documented: China coordinates without committing |
+| "Russia, China, and North Korea's Strategic Restraint in the Face of Iran's Destruction" | [JINSA](https://jinsa.org/russia-china-and-north-koreas-strategic-restraint-in-the-face-of-irans-destruction/) | Strategic restraint explained as risk calculation, not abandonment |
+| "**The Axis Behind Iran**: How China, Russia, and North Korea Sustain Tehran's Military Threat" | [JINSA (March 25, 2026)](https://jinsa.org/wp-content/uploads/2026/03/The-Axis-Behind-Iran-03.25.2026.pdf) | Decades of missile/component transfers sustain Iran's military capacity despite battlefield losses; axis enables recovery but won't directly intervene |
+
+**Framework Significance**: The rift validates the repository's model. CRINK is not a mutual defense pact — it is a shared-interest network whose members each make independent risk calculations. China prioritizes energy security and BRI stability. Russia prioritizes Ukraine leverage and its Cuba relationship. North Korea studies the conflict as a signaling opportunity. The JINSA report explicitly validates the repository's framing: the axis *sustains* Iran's military capacity through supply chains and technology transfers, but stops short of collective defense — precisely the "flexible security ecosystem" the Turkish intelligence report named on Feb 27.
+
+### Updated CRINK Pattern Table (March 1–31, 2026)
+
+| CRINK Member | Response/Action (March) | Pattern |
+|--------------|------------------------|---------|
+| **China** | Dispatched mediator Zhai Jun (early March); shipped 60,000 tons rice to Cuba (~March 20–31); restricted fuel/fertilizer exports domestically; BRI projects in Iran at heightened risk; PLA surge near Taiwan (26 aircraft, 7 vessels, March 15); defense budget +7% to ~$278B; language changed to "crack down on Taiwan independence" | Diplomatic positioning / energy security / hedging |
+| **Russia** | Anatoly Kolodkin tanker arrived Matanzas Cuba (March 30) — Trump allowed on "humanitarian grounds"; continuing to support Cuba as CRINK member under blockade | Cuba lifeline / CRINK solidarity |
+| **Iran** | War ongoing (Day 30+); retaliatory strikes on Gulf states; ceasefire talks via Oman resumed ~March 23 (Trump delayed strikes 5 days); Witkoff 15-point framework via Pakistani mediators; Iranian officials publicly deny substantive talks | Backchannel diplomacy while fighting continues |
+| **North Korea** | ✅ VERIFIED — **10 ballistic missiles fired March 14 during US-South Korea Freedom Shield exercises**; missiles traveled ~340–350 km toward Sea of Japan, altitudes up to 80 km; did not reach Japan's EEZ. Also tested advanced missile engine claiming ICBM range to US mainland. Analysts: NK studying US-Israel operations as a strategic model. | Opportunistic signaling during allied distraction; leveraging Iran war to demonstrate deterrence |
+
+### North Korea Missile Salvo (March 14, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| Date | March 14, 2026 (1:20 PM local time) |
+| Launch type | 10 short-range ballistic missiles — salvo fired from Sunan area near Pyongyang |
+| Context | During US-South Korea Freedom Shield military exercises |
+| Trajectory | ~340–350 km range; altitudes up to 80 km; landed outside Japan's EEZ |
+| Japan response | Emergency meetings; official protest filed |
+| US/ROK response | Condemned as violation of UN Security Council resolutions; emergency military readiness |
+| Also | NK tested advanced missile engine claiming ICBM capability to reach US mainland (CBS News) — independent verification limited |
+| Framework significance | First verified North Korean military action during Iran war; fills gap in prior CRINK response table (previously "Monitoring — specific response not yet verified"). Timed during Freedom Shield = standard NK signaling cycle. Analysts note NK studying US-Israel Iran operations as strategic model. |
+
+**Sources**: [CNBC (March 14, 2026)](https://www.cnbc.com/2026/03/14/north-korea-fires-10-ballistic-missiles-amid-us-south-korea-drills.html), [USNI News (March 16)](https://news.usni.org/2026/03/16/north-korea-fires-10-missiles-over-sea-of-japan-in-latest-multiple-rocket-launcher-system-test), [Army Recognition (March 2026)](https://www.armyrecognition.com/news/army-news/2026/north-korea-fires-10-ballistic-missiles-during-u-s-south-korea-military-drills), [Al Jazeera (March 14)](https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills), [The Independent](https://www.independent.co.uk/asia/east-asia/north-korea-ballistic-missiles-launch-today-sea-japan-drills-b2938468.html), [Bloomberg (March 14)](https://www.bloomberg.com/news/articles/2026-03-14/north-korea-launches-suspected-ballistic-missile-japan-says), [CBS News — ICBM engine test](https://www.cbsnews.com/news/north-korea-missile-test-united-states-reach-mainland/)
+
+### Cuba Dual-Track Aid: Russia Oil + China Rice (March 20–31, 2026)
+
+The Cuba energy crisis produced the clearest documented case of CRINK members providing parallel, coordinated humanitarian support in defiance of US sanctions pressure:
+
+| Track | Details | Verification |
+|-------|---------|--------------|
+| **Russia: Anatoly Kolodkin oil delivery** | Sanctioned tanker arrived Matanzas, Cuba, March 30, 2026 (~730,000 barrels crude). Trump announced "no problem" with delivery — allowed on "humanitarian grounds," authorized by US Coast Guard. Russia: "our duty to provide the necessary assistance to our Cuban friends." Shipment coordinated in advance with US authorities. Provides ~9–12 days of Cuba's basic fuel demand. | ✅ VERIFIED — [Al Jazeera (March 31)](https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage), [Euronews (March 31)](https://www.euronews.com/2026/03/31/russian-oil-tanker-docks-in-cuba-after-us-allows-passage-despite-energy-blockade), [US News (March 30)](https://www.usnews.com/news/world/articles/2026-03-30/russian-oil-tanker-has-arrived-in-cuba-interfax-reports), [Bloomberg (March 29)](https://www.bloomberg.com/news/articles/2026-03-29/us-plans-to-allow-russian-oil-tanker-into-cuba-easing-crisis), [Politico (March 30)](https://www.politico.com/news/2026/03/30/russian-tanker-cuba-blockade-humanitarian-00850838), [Moscow Times (March 30)](https://www.themoscowtimes.com/2026/03/30/russian-oil-tanker-arrives-in-cuba-after-trump-shrugs-off-his-own-fuel-blockade-a92366), [Havana Times](https://havanatimes.org/news/russian-oil-tanker-arrives-in-cuba-to-alleviate-crisis/) |
+| **China: Rice shipments (60,000 tons total)** | China pledged 60,000 tons of rice as aid to Cuba; first shipment (~15,600 tons) arrived ~March 20–27. Multiple further installments en route. Chinese ambassador in Havana publicly frames as "solidarity." | ✅ VERIFIED — [Radio Angulo (March 20)](https://www.radioangulo.cu/en/2026/03/20/china-sends-first-shipment-of-60000-tons-of-rice-to-cuba/), [CibaCuba (March 27)](https://en.cibercuba.com/noticias/2026-03-27-u1-e208574-s27061-nid324237-china-envia-cuba-otras-15-mil-toneladas-arroz), [ABC News humanitarian convoy](https://abcnews.com/International/wireStory/tons-aid-flows-cuba-humanitarian-convoy-arrives-struggling-131270968) |
+| **Combined signal** | Ships with Russia's oil AND China's rice simultaneously reaching Cuba — CRINK members acting in parallel on the same failing state while US holds the sanctions line. | ✅ VERIFIED — [CounterCurrents.org (March 31, 2026)](https://countercurrents.org/2026/03/ships-with-russias-oil-and-chinas-rice-reach-cuba/) |
+
+**Treasury April 11 Deadline**: The March 20 Treasury amendment waiver (which explicitly excludes Cuba and North Korea) expires April 11, 2026. Future Russian oil shipments to Cuba are prohibited under that waiver. Whether a new waiver is issued, revised, or allowed to lapse is a key pending signal — a lapse would tighten the blockade precisely as the April 12–20 convergence window opens.
+
+**Framework Significance**: The CRINK dual-track Cuba aid demonstrates the "vacuum creation" layer of the three-layer model in operation: as US sanctions pressure creates a humanitarian vacuum, CRINK members fill it — Russia with energy (its primary leverage tool), China with food (building long-term dependency and diplomatic credit). Neither intervention is treaty-obligated; both are transactional. The Anatoly Kolodkin outcome also falsifies the strongest version of the interception prediction in `Cuba_Crisis_Escalation_March_2026.md` — no seizure occurred; the US government allowed the delivery. This is a **compliance event**: the administration backed down from its own sanctions framework when confronted with the humanitarian optics, consistent with the thermostat model's predicted behavior in high-visibility humanitarian scenarios.
+
+### Iran Late-March Ceasefire Diplomacy (March 23–31, 2026)
+
+| Detail | Information |
+|--------|-------------|
+| **Trump delays strikes** | Trump delayed further strikes on Iranian power infrastructure for 5 days (~March 23) as ceasefire talks began (Bloomberg) |
+| **Witkoff 15-point framework** | US Special Envoy Witkoff revealed 15-point peace framework delivered to Iran via Pakistani mediators (ABC News) |
+| **"Strong signs" framing** | Witkoff: "strong signs" Iran will recognize it has no choice but to accept US ceasefire offer (Times of Israel) |
+| **Iran denial** | Iranian officials publicly denied substantive negotiations; framed US statements as posturing |
+| **Oman's role complicates** | Oman's Duqm port was struck by Iranian retaliatory fire during war — complicated Oman's "honest broker" status |
+| **Backchannel structure** | Communications ongoing via Oman, Pakistan, Turkey, Saudi Arabia — multiple mediation nodes |
+| **Arms Control critique** | Arms Control Association (March 11, 2026): "US Negotiators Were Ill-Prepared for Serious Nuclear Negotiations With Iran" |
+| **Framework significance** | Diplomatic track restart (~March 23) follows the same friction-compliance timing pattern: kinetic escalation (strikes + mine-laying boats destroyed) followed by diplomatic opening within 2-week window. Trump's willingness to pause strikes = thermostat behavior in response to oil market and diplomatic pressure. |
+
+**Sources**: [Bloomberg (March 23, 2026)](https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway), [ABC News — Witkoff 15-point framework](https://abcnews.com/Politics/trump-envoy-witkoff-reveals-details-us-negotiations-iran/story?id=131436482), [Times of Israel — "strong signs"](https://www.timesofisrael.com/liveblog_entry/witkoff-strong-signs-iran-will-recognize-it-has-no-choice-but-to-take-us-ceasefire-offer/), [Al Jazeera — Oman off-ramps](https://www.aljazeera.com/news/2026/3/3/oman-calls-for-immediate-ceasefire-says-off-ramps), [WBUR — breakdown of US-Iran nuclear talks (March 24)](https://www.wbur.org/onpoint/2026/03/24/inside-the-breakdown-of-u-s-iran-nuclear-talks), [Arms Control Association (March 11)](https://www.armscontrol.org/blog/2026-03-11/us-negotiators-were-ill-prepared-serious-nuclear-negotiations-iran)
+
+### China: Taiwan Surge and BRI Stress (March 12–31, 2026)
+
+| Development | Detail | Source |
+|-------------|--------|--------|
+| **Taiwan military surge (March 15)** | 26 PLA aircraft + 7 PLAN vessels near Taiwan; Taiwan Strait median crossings increased | [Politico (March 15, 2026)](https://www.politico.com/news/2026/03/15/taiwan-reports-large-scale-chinese-military-aircraft-presence-near-island-00829219) |
+| **US P-8A Taiwan Strait transit (March 12)** | US Navy patrol aircraft transit prompts PLA aircraft sorties across median line into Taiwan's ADIZ | [SCMP](https://www.scmp.com/news/china/military/article/3346400/us-navy-patrols-taiwan-strait-xi-trump-summit-triggering-pla-manoeuvres) |
+| **Diplomatic lull mid-March** | Activity reduced mid-March reportedly ahead of possible Xi-Trump summit — interpreted as tactical gesture, not de-escalation | [Daily Signal (March 25)](https://www.dailysignal.com/2026/03/25/a-diplomatic-gesture-or-something-else-examining-the-temporary-lull-in-chinese-military-activity-around-taiwan/) |
+| **2026 defense budget: +7% → ~$278B** | Government work report adopted more aggressive language — "crack down on Taiwan independence" (replacing "oppose") | [ISW/AEI China-Taiwan Update (March 13)](https://www.understandingwar.org/research/china-taiwan/china-taiwan-update-march-13-2026/) |
+| **BRI at risk** | BRI infrastructure in Iran (ports, rail corridors) at heightened risk from ongoing war instability; China restricts fuel/fertilizer exports domestically mid-March | [Lokmattimes](https://www.lokmattimes.com/international/chinas-belt-and-road-projects-tied-to-iranian-ports-rail-corridors-face-heightened-instability-report/), [NST (March 31)](https://www.nst.com.my/business/corporate/2026/03/1407035/belt-and-road-belt-tightening-chinas-neighbours-get-cold) |
+| **Pakistan-China mediation** | Pakistan seeking China to join US-Iran peace mediation efforts | [Al Jazeera (March 31)](https://www.aljazeera.com/news/2026/3/31/will-china-join-pakistan-led-efforts-to-mediate-us-iran-peace) |
+
+**Framework Note**: China's Taiwan military surge (March 15) came during the same window as the North Korea missile salvo (March 14) — two CRINK members demonstrating military capability in their respective theaters within 24 hours of each other during the Iran war. The coincidence is consistent with the CRINK opportunistic signaling pattern but has not been confirmed as coordinated.
+
+*Updated April 1, 2026. Added: Late March 2026 CRINK rift analysis (JINSA, Carnegie, CNA, Chosun), North Korea missile salvo (March 14 — fills previously unverified gap), Cuba dual-track CRINK aid (Anatoly Kolodkin arrives March 30 / China 60,000 tons rice), Iran late-March ceasefire diplomacy (Trump delays strikes March 23 / Witkoff 15-point framework), China Taiwan surge (March 15 / defense budget +7%), BRI stress. Previous: March 11, 2026.*

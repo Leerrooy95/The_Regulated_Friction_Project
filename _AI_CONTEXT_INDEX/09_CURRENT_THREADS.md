@@ -31,7 +31,7 @@
 
 ### Node 2: Iran (Cyber Leverage + Nuclear Threshold)
 
-| Detail | Status (Feb 2026) |
+| Detail | Status (April 2026) |
 |--------|-------------------|
 | Leverage type | Information leverage (cyber) + kinetic deterrent (nuclear threshold) |
 | Cyber holdings | [Inference] IRGC holds ~100GB Trump inner circle emails ("Robert" operation, 2024 campaign targeting; per ODNI briefing 2024) |
@@ -61,7 +61,11 @@
 | **US casualties update (March 11)** | **Pentagon updated total: ~140 US service members wounded (8 severely injured; 108 returned to duty). Combined with 6 killed (March 2 Kuwait drone attack). First comprehensive official accounting of American casualties from Iranian retaliatory rocket and drone attacks on US bases across Middle East. War now Day 12 as of March 11.** |
 | **Mar 11: FBI West Coast drone threat bulletin** | **FBI issued intelligence bulletin to West Coast law enforcement (initially distributed late February, public reporting March 11) warning Iran aspired to launch a surprise drone attack using UAVs from an unidentified vessel off the California coast. FBI stated it had "no additional information on timing, method, target, or perpetrators." California governor acknowledged bulletin; federal/state/local agencies coordinating readiness. No confirmed imminent threat at time of reporting.** |
 | **Diplomatic: Russia-Ukraine talks postponed** | **US-brokered Russia-Ukraine peace talks planned for early March in Abu Dhabi postponed indefinitely due to Iran war. US focus shifted to Iran crisis. Zelenskyy confirmed postponement was at US request. Alternative venues discussed (Istanbul, Switzerland) but no new date set. Prisoner swaps continue despite delay. Russia accused of trying to "manipulate" Iran conflict as second front.** |
-| Last updated | March 11, 2026 |
+| **Mar 23 update: Trump delays strikes; ceasefire talks resume** | **Trump delayed further strikes on Iranian power infrastructure for 5 days (~March 23) as ceasefire talks began via Oman. Consistent with thermostat timing pattern: kinetic escalation followed by diplomatic opening within 2-week window.** |
+| **Mar 23 update: Witkoff 15-point peace framework** | **US Special Envoy Steve Witkoff revealed a 15-point peace framework delivered to Iran via Pakistani mediators. Witkoff: "strong signs" Iran will recognize it has no choice but to accept. Iranian officials publicly denied substantive negotiations; called US statements posturing. Backchannel communications reportedly ongoing via Oman, Pakistan, Turkey, Saudi Arabia.** |
+| **Mar 2026: Oman's role complicates** | **Oman's Duqm port struck by Iranian retaliatory fire during conflict. This partially undermined Oman's "honest broker" mediating role while Oman renewed its push for diplomacy and advertised "off-ramps available."** |
+| **CRINK rift: NK, Russia, China restraint** | **Multiple analyses confirm China, Russia, and North Korea provided no direct military assistance to Iran despite public condemnation — validating CRINK as "flexible security ecosystem" (transactional, not mutual defense). JINSA report (March 25): "The Axis Behind Iran" — documents decades of supply chain support while stopping short of collective defense. See `05_CRINK_FRAMEWORK.md` (Late March 2026 Update).** |
+| Last updated | April 1, 2026 |
 
 **Sources**: 
 - ODNI briefing on "Robert" operation (2024)
@@ -87,6 +91,13 @@
 - [Rolling Stone — Iran plotted West Coast attack (March 11, 2026)](https://www.rollingstone.com/politics/politics-news/iran-plotted-attack-west-coast-fbi-alert-1235528741/) — FBI alert details
 - [Kyiv Independent — Iran war stalls Ukraine-Russia talks (March 2026)](https://kyivindependent.com/ukraine-peace-talks-with-russia-face-uncertain-future/) — Abu Dhabi talks postponed; US focus shifted to Iran
 - [Bloomberg — Ukraine-Russia talks delayed (March 2026)](https://www.bloomberg.com) — Zelenskyy confirms postponement at US request
+- [Bloomberg — Trump delays Iran strikes for 5 days as ceasefire talks begin (March 23, 2026)](https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway)
+- [ABC News — Witkoff reveals 15-point peace framework details](https://abcnews.com/Politics/trump-envoy-witkoff-reveals-details-us-negotiations-iran/story?id=131436482)
+- [Times of Israel — Witkoff: "strong signs" Iran will accept US ceasefire offer](https://www.timesofisrael.com/liveblog_entry/witkoff-strong-signs-iran-will-recognize-it-has-no-choice-but-to-take-us-ceasefire-offer/)
+- [Al Jazeera — Oman off-ramps available](https://www.aljazeera.com/news/2026/3/3/oman-calls-for-immediate-ceasefire-says-off-ramps)
+- [WBUR — Inside the breakdown of US-Iran nuclear talks (March 24, 2026)](https://www.wbur.org/onpoint/2026/03/24/inside-the-breakdown-of-u-s-iran-nuclear-talks)
+- [Arms Control Association — US negotiators ill-prepared (March 11, 2026)](https://www.armscontrol.org/blog/2026-03-11/us-negotiators-were-ill-prepared-serious-nuclear-negotiations-iran)
+- [JINSA — The Axis Behind Iran (March 25, 2026)](https://jinsa.org/wp-content/uploads/2026/03/The-Axis-Behind-Iran-03.25.2026.pdf)
 - Target mapping: `sources/2026-02-28_Iran_Strike_Target_Mapping.md`
 - Arsenal of Freedom convergence: `sources/2026-02-28_Arsenal_of_Freedom_Defense_Industrial_Convergence.md`
 - Timeline analysis: `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`
@@ -343,6 +354,18 @@
 - Mar 17: Kremlin announces assistance discussions
 - Mar 20: Treasury amends sanctions waiver (adds Cuba/NK exclusion); SOUTHCOM confirms tracking Russian vessels
 - Mar 21: Cuba refuses embassy diesel
+- **Mar 29–30: Trump authorizes Anatoly Kolodkin delivery on "humanitarian grounds"**
+
+#### March 22–31 Resolution Phase
+
+| Detail | Information |
+|--------|-------------|
+| **Anatoly Kolodkin arrival (Mar 30)** | Sanctioned tanker arrived Port of Matanzas, Cuba, March 30, 2026 — ~730,000 barrels crude oil. Trump announced "no problem" with delivery; allowed on "humanitarian grounds." US Coast Guard authorized passage. Russia: "duty to provide the necessary assistance to our Cuban friends." Coordinated in advance with US authorities. | ✅ <a href="https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage">Al Jazeera (Mar 31)</a>, <a href="https://www.euronews.com/2026/03/31/russian-oil-tanker-docks-in-cuba-after-us-allows-passage-despite-energy-blockade">Euronews (Mar 31)</a>, <a href="https://www.usnews.com/news/world/articles/2026-03-30/russian-oil-tanker-has-arrived-in-cuba-interfax-reports">US News (Mar 30)</a>, <a href="https://www.bloomberg.com/news/articles/2026-03-29/us-plans-to-allow-russian-oil-tanker-into-cuba-easing-crisis">Bloomberg (Mar 29)</a>, <a href="https://www.politico.com/news/2026/03/30/russian-tanker-cuba-blockade-humanitarian-00850838">Politico (Mar 30)</a>, <a href="https://www.themoscowtimes.com/2026/03/30/russian-oil-tanker-arrives-in-cuba-after-trump-shrugs-off-his-own-fuel-blockade-a92366">Moscow Times (Mar 30)</a> |
+| **Relief duration** | ~9–12 days of Cuba's basic fuel demand if consumption minimized. Structural energy crisis unresolved. | ✅ |
+| **China rice shipments (Mar 20–31)** | China pledged 60,000 tons rice as humanitarian aid to Cuba. First installment: ~15,600 tons arrived Havana ~March 20–27. Further shipments en route. Chinese ambassador frames as "solidarity." | ✅ <a href="https://www.radioangulo.cu/en/2026/03/20/china-sends-first-shipment-of-60000-tons-of-rice-to-cuba/">Radio Angulo (Mar 20)</a>, <a href="https://en.cibercuba.com/noticias/2026-03-27-u1-e208574-s27061-nid324237-china-envia-cuba-otras-15-mil-toneladas-arroz">CibaCuba (Mar 27)</a>, <a href="https://charityjournal.org/china-sends-60000-tons-of-rice-to-cuba-amid-us-blockade/">Charity Journal</a>, <a href="https://abcnews.com/International/wireStory/tons-aid-flows-cuba-humanitarian-convoy-arrives-struggling-131270968">ABC News</a> |
+| **CRINK dual-track signal** | Russia oil + China rice simultaneously reaching Cuba — two CRINK members providing parallel complementary aid (energy + food) to a CRINK-aligned state under US blockade. | ✅ <a href="https://countercurrents.org/2026/03/ships-with-russias-oil-and-chinas-rice-reach-cuba/">CounterCurrents.org (Mar 31)</a> |
+| **Thermostat implication** | Administration backed down from its own sanctions framework when confronted with humanitarian optics — consistent with thermostat model's predicted behavior. The Kolodkin interception prediction is **falsified** for this vessel specifically. |  |
+| **Treasury April 11 deadline** | March 20 OFAC waiver (excluding Cuba/NK) expires April 11, 2026 — key pending signal for April 12–20 convergence window. If lapsed, tightened blockade enters force precisely as Bondi deposition window opens. | ✅ <a href="https://www.thehindu.com/news/international/us-issues-new-30-day-waiver-for-sale-of-russian-oil-adding-cuba-north-korea-exceptions/article70763197.ece">The Hindu</a>, <a href="https://www.moneycontrol.com/world/us-issues-new-30-day-waiver-for-sale-of-russian-oil-excludes-cuba-north-korea-article-13865705.html">MoneyControl</a> |
 
 **Sources**: <a href="https://www.npr.org/2026/03/16/nx-s1-5749457/cuba-blackout-sanctions-oil">NPR (grid collapse)</a>, <a href="https://www.cnn.com/2026/03/16/americas/cuba-power-grid-collapse-intl-latam">CNN (grid/Trump)</a>, <a href="https://abcnews.com/US/wireStory/cuba-refuses-us-embassy-havana-import-diesel-generators-131273345">AP/ABC News (embassy)</a>, <a href="https://www.themoscowtimes.com/2026/03/20/us-tightens-sanctions-waiver-on-russian-oil-after-tanker-reportedly-delivers-fuel-to-cuba-a92279">Moscow Times (Treasury)</a>, <a href="https://www.npr.org/2026/03/20/g-s1-114535/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens">NPR (SOUTHCOM)</a>, <a href="https://www.justice.gov/opa/pr/united-states-seeks-forfeiture-oil-tanker-and-18m-barrels-crude-oil-supported-iran-and">DOJ (Skipper)</a>
 
@@ -584,12 +607,15 @@
 ### 5. CRINK Coordination Patterns
 **Question**: Do CRINK actions cluster on same calendar windows?
 
-**Status**: ⚠️ PARTIALLY VERIFIED
+**Status**: ⚠️ PARTIALLY VERIFIED — now with additional March 2026 data points
 - Dec 22 convergence (5 signal types including CRINK cyber)
 - China tariffs timed to pincer window
 - Sep 26 triple alignment confirmed
+- **March 14, 2026**: North Korea missile salvo (10 ballistic missiles) + China Taiwan military surge (26 aircraft, 7 vessels — March 15) occurred within 24 hours during Iran war — consistent with opportunistic CRINK parallel signaling
+- **CRINK rift confirmed**: China, Russia, NK provided no direct military assistance to Iran despite public condemnation (JINSA, Carnegie, CNA, Chosun — March 2026) — validates "flexible security ecosystem" characterization
+- **Cuba CRINK dual-track aid**: Russia oil (Kolodkin Mar 30) + China rice (60,000 tons, Mar 20–31) — parallel CRINK humanitarian intervention without formal coordination mechanism
 
-**Next Steps**: Continue temporal tracking through 2026
+**Next Steps**: Continue temporal tracking through 2026; monitor whether NK missile/China Taiwan activity clusters with April 12–20 convergence window
 
 ### 6. Israel-Gulf Tech Integration
 **Question**: How does Abraham Accords architecture enable capital-technology exchange?
@@ -764,10 +790,16 @@
 | Mar 6 | Oil prices up ~20% to ~$80/barrel; "biggest energy crisis since 1970s" | Capital architecture stress test |
 | Mar 6 | UK deploying RAF fighters over Bahrain | NATO ally drawn into conflict |
 | **Mar 11** | **Richard Kahn** (Epstein's accountant, estate co-executor) deposed — confirmed funds from Wexner, Dubin, Sinofsky, Black, Rothschilds; Ehud Barak financial ties to Epstein | **Epstein estate financial architecture; deposition (✅ [AP](https://apnews.com/article/jeffrey-epstein-accountant-richard-kahn-408bd7342060174bd456eb08bdd13488))** |
+| **Mar 14** | **North Korea fires 10 ballistic missiles toward Sea of Japan** — during US-South Korea Freedom Shield exercises; Sunan area, Pyongyang; ~340–350 km range; did not reach Japan's EEZ | **✅ VERIFIED — CRINK signaling; [CNBC](https://www.cnbc.com/2026/03/14/north-korea-fires-10-ballistic-missiles-amid-us-south-korea-drills.html), [USNI News](https://news.usni.org/2026/03/16/north-korea-fires-10-missiles-over-sea-of-japan-in-latest-multiple-rocket-launcher-system-test), [Al Jazeera](https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills)** |
+| **Mar 15** | **China: 26 PLA aircraft + 7 PLAN vessels near Taiwan** — surge after US Navy P-8A Taiwan Strait transit (Mar 12); lull mid-March reportedly before Xi-Trump summit | **✅ VERIFIED — CRINK China military posturing; [Politico (Mar 15)](https://www.politico.com/news/2026/03/15/taiwan-reports-large-scale-chinese-military-aircraft-presence-near-island-00829219), [SCMP (Mar 12)](https://www.scmp.com/news/china/military/article/3346400/us-navy-patrols-taiwan-strait-xi-trump-summit-triggering-pla-manoeuvres)** |
 | **~Mar 17** | **NM state investigators begin physical search of Zorro Ranch** (San Rafael Ranch) — with cooperation of Huffines family; first documented physical search of the property | **✅ VERIFIED — [AP](https://apnews.com/article/jeffrey-epstein-sex-abuse-trafficking-new-mexico-98ee07a273865c1cfc2b034ef182171a)** |
 | **Mar 19** | **Darren Indyke** (Epstein's attorney ~20 years, estate co-executor) deposed — denied knowledge; Comer confirms committee reviewed 40,000+ documents from JPMorgan/Deutsche Bank; 64+ Epstein business entities | **Epstein estate accountability (✅ [AP](https://apnews.com/article/jeffrey-epstein-darren-indyke-congress-08641aacbcbf705b7b7f51862e09f7c2))** |
 | **Mar 21** | **Robert Mueller dies** (age 81, Parkinson's). FBI Director 2001–2013 — entire Epstein operating period. Subpoenaed by Comer for Epstein investigation; withdrawn due to health. Trump: "Good, I'm glad he's dead. He can no longer hurt innocent people!" | **✅ VERIFIED — Mueller death: [NBC](https://www.nbcnews.com/politics/politics-news/robert-mueller-former-special-counsel-dies-rcna264561), [Politico](https://www.politico.com/news/2026/03/21/robert-mueller-trump-special-counsel-fbi-obituary-00039059); Comer subpoena: [CBS](https://www.cbsnews.com/news/robert-mueller-subpoena-withdrawn-jeffrey-epstein-house-overnight/), [The Hill](https://thehill.com/homenews/house/5478443-mueller-epstein-probe-oversight-testimony/)** |
 | **Mar 21** | **Thiel calls Giving Pledge "Epstein-adjacent, fake boomer club"** (NYT interview, amplified same week) — offensive deployment of Epstein frame against Gates; Thiel's own Epstein ties documented | **✅ VERIFIED — [TechCrunch](https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/), [Yahoo Finance](https://finance.yahoo.com/news/peter-thiel-actively-convincing-billionaires-174212328.html)** |
+| **~Mar 20–27** | **China ships 15,600 tons rice to Cuba (first of 60,000-ton commitment)** — parallel to Russia oil tanker; dual-track CRINK humanitarian intervention | **✅ VERIFIED — [Radio Angulo](https://www.radioangulo.cu/en/2026/03/20/china-sends-first-shipment-of-60000-tons-of-rice-to-cuba/), [CibaCuba](https://en.cibercuba.com/noticias/2026-03-27-u1-e208574-s27061-nid324237-china-envia-cuba-otras-15-mil-toneladas-arroz)** |
+| **~Mar 23** | **Trump delays further Iran strikes for 5 days; Oman-brokered ceasefire talks resume** — Witkoff 15-point framework via Pakistani mediators | **✅ VERIFIED — [Bloomberg (Mar 23)](https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway), [ABC News](https://abcnews.com/Politics/trump-envoy-witkoff-reveals-details-us-negotiations-iran/story?id=131436482)** |
+| **Mar 25** | **JINSA publishes "The Axis Behind Iran: How China, Russia, and North Korea Sustain Tehran's Military Threat"** — validates CRINK as sustaining supply network, not mutual defense pact | **✅ VERIFIED — [JINSA.org](https://jinsa.org/wp-content/uploads/2026/03/The-Axis-Behind-Iran-03.25.2026.pdf)** |
+| **Mar 30** | **Anatoly Kolodkin arrives Matanzas, Cuba** — Trump allows on "humanitarian grounds"; first oil import in 3+ months (~730,000 barrels); CRINK oil delivery prediction partially falsified (no interception) | **✅ VERIFIED — [Al Jazeera (Mar 31)](https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage), [Bloomberg (Mar 29)](https://www.bloomberg.com/news/articles/2026-03-29/us-plans-to-allow-russian-oil-tanker-into-cuba-easing-crisis), [Politico (Mar 30)](https://www.politico.com/news/2026/03/30/russian-tanker-cuba-blockade-humanitarian-00850838)** |
 
 ### March 2026
 | Date | Event |
@@ -781,18 +813,25 @@
 | **Mar 6** | **Iran war Day 7: 1,300+ killed (Iranian Red Crescent). UAE intercepts 109 drones + 9 ballistic missiles. Iran strikes Bahrain, Qatar. Israel strikes Beirut. Trump: "unconditional surrender" or nothing. China dispatches envoy Zhai Jun. Oil up ~20%.** |
 | **Mar 8** | **Schedule P/C takes effect (~50,000 positions to at-will)** |
 | **Mar 11** | **Richard Kahn (Epstein accountant, estate co-executor) deposed by House Oversight Committee** |
+| **Mar 14** | **North Korea fires 10 ballistic missiles toward Sea of Japan during US-South Korea Freedom Shield exercises** |
+| **Mar 15** | **China: 26 PLA aircraft + 7 PLAN vessels near Taiwan (surge after US Navy P-8A Strait transit Mar 12)** |
 | **~Mar 17** | **NM state investigators begin physical search of Zorro Ranch / San Rafael Ranch with Huffines cooperation** |
 | **Mar 19** | **Darren Indyke (Epstein personal attorney, estate co-executor) deposed by House Oversight Committee; committee reviewed 40,000+ documents (JPMorgan + Deutsche Bank); 64+ Epstein business entities confirmed** |
 | **Mar 21** | **Robert Mueller dies (age 81, Parkinson's). FBI Director 2001–2013 (entire Epstein operating period). Trump: "He can no longer hurt innocent people!" Comer subpoena for Epstein testimony withdrawn (health). Testimony permanently lost.** |
 | **Mar 21** | **Thiel calls Giving Pledge "Epstein-adjacent, fake boomer club" (NYT interview) — offensive Epstein-frame deployment against Gates** |
 | Mar 14 | TSA workers miss first full paycheck if DHS shutdown continues |
 | Mar 17 | Maduro next court date |
+| **~Mar 20–27** | **China ships 15,600 tons rice to Cuba (first of 60,000-ton commitment) — CRINK food aid** |
+| **~Mar 23** | **Trump delays Iran strikes for 5 days; ceasefire talks resume via Oman; Witkoff 15-point framework** |
+| **Mar 25** | **JINSA "Axis Behind Iran" report validates CRINK as Iran-sustaining supply network** |
+| **Mar 30** | **Anatoly Kolodkin arrives Matanzas, Cuba — Trump allows on "humanitarian grounds"; CRINK oil delivery succeeds** |
 
 ### Q2-Q3 2026
 | Event | Expected |
 |-------|----------|
 | California TikTok investigation results | Q1-Q2 |
 | CFIUS EA review | Q1-Q2 |
+| **Treasury Cuba/NK sanctions waiver expiration** | **April 11** |
 | League of Women Voters trial | July 20 |
 | Arkansas signature deadline | July 3 |
 | **Section 122 tariff authority expires** | **July 24** |
@@ -1123,4 +1162,14 @@ This clustering pattern is consistent with Thermostat model predictions.
 
 ---
 
-*Last Updated: March 22, 2026. Node 11 expanded: Track C (SAVE America Act / FISA Section 702 coupling) added to April 2026 Convergence Window — SAVE America Act (H.R. 7296) passed House 218-213 (Feb 11), Senate opened debate 51-48 (March 17), requires all 50 states to hand unredacted voter rolls to DHS with zero data use restrictions, House conservatives threatening to attach to FISA Section 702 reauthorization (expires April 20), DHS SAVE database documented >50% error rate flagging citizens as noncitizens, Mullin DHS nomination advanced 8-7 (March 19, Fetterman crossover), Polymarket ~11–16% passage probability. Convergence window upgraded from dual-track to triple-track: accountability (Bondi deposition April 14) + capital architecture (CLARITY Act April 13–27) + election infrastructure (FISA April 20 ± SAVE). Web verification performed: H.R. 7296 confirmed (Congress.gov, NBC News, CNBC), Senate 51-48 confirmed (Yahoo, Roll Call, CNBC), FISA coupling confirmed (Axios, Politico, The Hill), SAVE errors confirmed (ProPublica, Votebeat, Brennan Center), Mullin 8-7 confirmed (NBC News, Politico, ABC News). Source: `10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`. Previous: March 22, 2026 (Node 14).*
+*Last Updated: April 1, 2026 (v11.5 — CRINK + Cuba late-March 2026 update)*
+
+*Changes in this update:*
+- *Node 2 Iran: Trump delays strikes ~March 23, Witkoff 15-point framework via Pakistani mediators, Oman attacked complicating mediator role, JINSA "Axis Behind Iran" validates CRINK as sustaining supply network not mutual defense pact*
+- *Cuba crisis: Anatoly Kolodkin arrives Matanzas March 30 (Trump allowed "humanitarian grounds"), China 60,000 tons rice (15,600 tons first batch ~March 20–27), Treasury April 11 waiver expiration is key April convergence window trigger*
+- *North Korea: March 14 missile salvo (10 ballistic missiles, Freedom Shield timing) fills prior unverified gap in CRINK response table*
+- *China: Taiwan surge March 15 (26 aircraft, 7 vessels); BRI infrastructure stress; defense budget +7%; language changed to "crack down on Taiwan independence"*
+- *CRINK rift: confirmed by JINSA, Carnegie, CNA, Chosun — transactional not treaty-based; Cuba dual-track documented (Russia oil + China rice simultaneously)*
+- *CRINK Research Question 5 updated with March 2026 data*
+
+*Previous: March 22, 2026 (Node 11, SAVE America Act / FISA Section 702 coupling).*
