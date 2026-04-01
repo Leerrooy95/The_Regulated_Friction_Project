@@ -1,381 +1,119 @@
 {
-  "checked_at": "2026-04-01T03:07:47.361934+00:00",
+  "checked_at": "2026-04-01T09:00:18.871063+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 31,
-  "claims_verified": 18,
-  "claims_flagged": 11,
-  "claims_unverifiable": 2,
+  "claims_checked": 9,
+  "claims_verified": 5,
+  "claims_flagged": 3,
+  "claims_unverifiable": 1,
   "corrections_applied": [
     {
-      "claim_index": 0,
+      "claim_index": 1,
       "source": "node_status/iran",
       "locations_updated": 1,
-      "original_headline": "Trump delivers prime-time address April 1 claiming Iran war could end in 2-3 weeks while Iran attacks oil tanker off Dubai and denies negotiations despite China-Pakistan ceasefire proposal",
-      "corrected_headline": "Trump says US could end Iran war in 2-3 weeks on March 31; Kuwaiti tanker struck off Dubai as Iran denies negotiations despite China-Pakistan ceasefire proposal",
-      "original_summary": "President Trump delivered his promised prime-time address on April 1, 2026, claiming the U.S. could end the Iran war in 2-3 weeks while threatening to obliterate Iran's energy infrastructure if the Strait of Hormuz remains closed. Iran attacked and set ablaze a crude oil tanker off Dubai on March 31",
-      "corrected_summary": "President Trump stated on March 31, 2026 \u2014 not April 1 \u2014 that the US could end the Iran war in 2-3 weeks, with a prime-time address scheduled for the evening of April 1. Iran attacked and set ablaze the Kuwaiti crude oil tanker Al Salmi off Dubai on March 30-31, escalating regional tensions. Iranian FM Araghchi denied direct negotiations with the US even as China and Pakistan presented a new ceasefire initiative.",
-      "finding": "Trump's statements about ending the war in 2-3 weeks were made on March 31, not April 1, and the prime-time address was announced for April 1 (Wednesday evening) but the core statements occurred March 31. Additionally, the claim describes Iran attacking 'a crude oil tanker off Dubai' but the tanker (Al Salmi) was Kuwaiti, not generically described. The IRGC commander involved in the internal rift is Hossein Salami, not Ahmad Vahidi (Vahidi is Interior Minister). However the claim does not name the IRGC commander here \u2014 the main verifiable issue is the date attribution of Trump's '2-3 weeks' statement being placed on April 1 when evidence consistently shows it was made March 31, with the address scheduled for April 1."
+      "original_headline": "Iran strikes Kuwait airport and Dubai oil tanker April 1 as Trump schedules prime-time address while China-Pakistan propose immediate ceasefire plan",
+      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
+      "original_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport on April 1, causing massive fires but no casualties, while Iran also attacked and set ablaze a crude oil tanker off Dubai. Trump is scheduled to deliver a prime-time address Wednesday evening to update the public on the Iran war",
+      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway.",
+      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan."
     },
     {
-      "claim_index": 3,
-      "source": "node_status/oracle_ellison",
+      "claim_index": 2,
+      "source": "node_status/gulf_swf",
       "locations_updated": 1,
-      "original_headline": "Oracle stock down 24.6% over 3 months despite Q3 2026 revenue surge to $17.2B with 84% OCI growth, analyst price targets range $200-$400",
-      "corrected_headline": "Oracle stock down ~24.6% over 3 months and ~21% YTD despite Q3 2026 revenue surge to $17.2B with 84% OCI growth; analyst price targets range up to ~$200-$345",
-      "original_summary": "Oracle reported strong Q3 FY2026 results with 22% revenue growth to $17.2 billion and 84% cloud infrastructure growth, but the stock has declined 24.6% over three months and 27% year-to-date as of March 31, 2026. Bank of America reinstated coverage with a Buy rating and $200 price target citing 30% ",
-      "corrected_summary": "Oracle reported strong Q3 FY2026 results with 22% revenue growth to $17.2 billion and 84% cloud infrastructure growth, but the stock has declined approximately 24.6% over three months and roughly 21% year-to-date as of March 31, 2026. Bank of America reinstated coverage with a Buy rating and $200 price target. The stock traded between $139.70 and $147.43 on March 31, with Oracle's Remaining Performance Obligations reaching a record $553 billion.",
-      "finding": "The claim states Oracle stock is down '27% year-to-date' but web evidence from Artvoice (March 30) indicates a roughly 21% year-to-date decline, not 27%. The 24.6% three-month figure and $17.2B Q3 revenue with 84% OCI growth are confirmed. The Bank of America $200 price target with Buy rating is confirmed but the claim of 'other analysts maintain price targets up to $400' is not well-supported \u2014 the 52-week high was ~$345, and no evidence of current $400 targets was found."
+      "original_headline": "PIF unveils new five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war pressures",
+      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
+      "original_summary": "Saudi PIF Governor Al-Rumayyan announced the fund's new five-year strategy will be released \"in the coming few weeks\" at FII Miami, featuring a 15% reduction in capital spending while pivoting toward AI investments through subsidiary Humain's first US customer deal with Turing. Eight PIF subsidiary ",
+      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence.",
+      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified."
     },
     {
-      "claim_index": 7,
-      "source": "daily_intelligence/breaking_news",
+      "claim_index": 5,
+      "source": "node_status/epstein_files",
       "locations_updated": 1,
-      "original_headline": "Kuwaiti oil tanker Al Salmi struck and set on fire at Dubai port, threatening major oil spill",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck and set on fire off Dubai port in Iranian attack on March 30; fire later extinguished amid oil spill concerns",
-      "original_summary": "Kuwait Petroleum Corporation reported that the fully-loaded Al Salmi crude oil tanker was directly targeted in what it described as an Iranian attack while anchored at Dubai port on March 30, 2026. The vessel caught fire and sustained damage, with warnings of a possible oil spill in surrounding wate",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the fully-loaded Al Salmi crude oil tanker was struck in what it described as an Iranian attack while anchored at Dubai port's anchorage on March 30, 2026. The vessel caught fire and its hull sustained damage, raising concerns about a possible oil spill in surrounding waters. Authorities subsequently confirmed the fire was extinguished, though hull damage remained.",
-      "finding": "The claim states the attack occurred on 'March 30, 2026' while the vessel was 'anchored at Dubai port.' Web evidence confirms the attack date as March 30 and the fire being extinguished, but multiple sources clarify the fire was extinguished \u2014 the claim's framing implies ongoing fire/spill threat without noting the fire was put out. More importantly, the claim says Kuwait Petroleum Corporation described it as an 'Iranian attack' which is confirmed, but the vessel was at Dubai Port anchorage, not strictly 'at Dubai port' per some sources. The core factual issue is that the claim says the vessel 'caught fire and sustained damage, with warnings of a possible oil spill' \u2014 Reuters confirms the fire was extinguished and hull was damaged with oil spill concerns raised, which is accurate enough. However the claim attributes the attack directly to 'Iran' as confirmed fact when KPC described it as such \u2014 this is consistent with reporting. The claim is largely accurate; minor issue is omission that fire was extinguished."
-    },
-    {
-      "claim_index": 9,
-      "source": "daily_intelligence/breaking_news",
-      "locations_updated": 1,
-      "original_headline": "Iran formally rejected US 15-point ceasefire proposal, issued counter-proposal declaring fight 'until complete victory'",
-      "corrected_headline": "Iran formally rejects US 15-point ceasefire proposal on March 25, issues counter-proposal demanding war reparations and Hormuz sovereignty",
-      "original_summary": "Iran formally rejected the US 15-point ceasefire proposal on March 25, 2026, issuing its own counterproposal via state media and declaring it would fight 'until complete victory.' The White House confirmed that Operation Epic Fury continues unabated following the rejection.",
-      "corrected_summary": "Iran formally rejected the US 15-point ceasefire proposal on March 25, 2026, issuing its own counterproposal via state media that included demands for war reparations and Iranian sovereignty over the Strait of Hormuz. Iran dismissed the US plan and presented alternative negotiating conditions rather than declaring it would fight to 'complete victory.' The White House confirmed that Operation Epic Fury continues following the rejection.",
-      "finding": "The claim states Iran 'declared it would fight until complete victory' in its counterproposal, but web evidence from NPR, PBS, Guardian, and AP consistently describes Iran's counterproposal as including demands for war reparations and sovereignty over the Strait of Hormuz \u2014 not a declaration to fight 'until complete victory.' The 'complete victory' framing appears to be an inaccurate characterization of Iran's counterproposal."
-    },
-    {
-      "claim_index": 10,
-      "source": "daily_intelligence/breaking_news",
-      "locations_updated": 1,
-      "original_headline": "Iranian leadership rift emerges as President Pezeshkian warns IRGC that economy could collapse within 3-4 weeks",
-      "corrected_headline": "Iran leadership rift deepens as President Pezeshkian warns IRGC leadership that economy could collapse within 3-4 weeks",
-      "original_summary": "Anti-regime media reported March 28 that a deepening rift exists between President Pezeshkian and IRGC Commander Ahmad Vahidi over war strategy. Pezeshkian reportedly warned that IRGC attacks on regional countries are exacerbating economic damage and Iran's economy could collapse within 3-4 weeks wi",
-      "corrected_summary": "Anti-regime media reported on March 28, 2026 that a deepening rift exists between President Pezeshkian and IRGC leadership over war strategy \u2014 not specifically with Interior Minister Ahmad Vahidi as originally claimed. Pezeshkian reportedly warned that IRGC attacks on regional countries are exacerbating economic damage and Iran's economy could collapse within weeks without a ceasefire. The reports, citing anonymous sources, reflect growing tensions between Iran's civilian administration and its military command.",
-      "finding": "The claim identifies the IRGC officer Pezeshkian clashed with as 'Ahmad Vahidi.' Web evidence from Iran International and i24News describes a rift between Pezeshkian and IRGC leadership but does not name Ahmad Vahidi as the IRGC Commander \u2014 Vahidi is Iran's Interior Minister, not IRGC Commander. The IRGC Commander is Hossein Salami. The sources describe a clash with 'IRGC leadership' or 'Guards chief' without specifying Vahidi."
-    },
-    {
-      "claim_index": 19,
-      "source": "daily_intelligence/top_developments",
-      "locations_updated": 3,
-      "original_headline": "DOJ released 3.5M pages in Epstein library through March 2026 including FBI 302s naming associates, triggering victim privacy lawsuits over inadequate redactions",
-      "corrected_headline": "DOJ releases millions of Epstein documents through March 2026 including FBI 302s, triggering victim privacy lawsuits over inadequate redactions",
-      "original_summary": "The DOJ has published over 3.5 million pages of Epstein-related documents through multiple releases in 2026, including a major January 30 batch and March 5 release of 50,000 previously withheld files. The releases include FBI 302 interview summaries naming associates across politics and business, wi",
-      "corrected_summary": "The DOJ has published millions of Epstein-related documents through multiple releases in 2026, including a major January 30 batch and a March 5 release of approximately 50,000 previously withheld files; total page counts reported vary across sources. The releases include FBI 302 interview summaries naming associates across politics and business. Epstein victims are suing both the Trump administration and Google over inadequate redactions that exposed identifying information of approximately 100 survivors.",
-      "finding": "The claim states 'over 3.5 million pages' released through March 2026, but per the Epstein Files Transparency Act Wikipedia article, the total release has been described as 'over 6 million pages' with a sixth release of ~50,000 files on March 5, 2026. The claim also references 'Prince Andrew arrest following photo evidence' which is not confirmed in the web evidence provided and is a significant unverified specific allegation. The DOJ privacy lawsuit and Google lawsuit are confirmed."
-    },
-    {
-      "claim_index": 21,
-      "source": "daily_intelligence/signal/Board of Peace and Gaza reconstruction",
-      "locations_updated": 1,
-      "original_headline": "Board of Peace overseeing 8-month Hamas disarmament plan with $7B reconstruction fund, ISF deployment authorized under Resolution 2803",
-      "corrected_headline": "Board of Peace overseeing 8-month Hamas disarmament plan with international reconstruction funding; ISF deployment authorized under UN mandate",
-      "original_summary": "Trump's Board of Peace is actively managing Gaza's post-ceasefire transition with a detailed disarmament timeline requiring Hamas to destroy tunnel networks over 8 months, linked to reconstruction funding. The board has secured $7 billion in international commitments and deployed an International St",
-      "corrected_summary": "Trump's Board of Peace, formally established at Davos on January 22, 2026, is managing Gaza's post-ceasefire transition with a detailed disarmament timeline requiring Hamas to surrender arms over 8 months, linked to reconstruction funding in demilitarized zones. The Board has secured international commitments and an International Stabilization Force has been authorized under a UN Security Council mandate, though the specific resolution number and $7B funding figure cited could not be independently confirmed. Hamas has indicated it will not respond to the disarmament plan while the Iran war continues.",
-      "finding": "The claim states 'Phase 2 implementation began January 14, 2026' but web evidence indicates the Board of Peace charter was officially ratified on January 22, 2026 at Davos, making a January 14 Phase 2 start date implausible. Additionally, the $7B reconstruction fund figure and UN Resolution 2803 are not confirmed in the web evidence \u2014 Wikipedia on the ISF mentions a US draft resolution but does not confirm a numbered resolution 2803 was passed."
-    },
-    {
-      "claim_index": 25,
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "locations_updated": 2,
-      "original_headline": "Pentagon designates Palantir Maven AI as protected military infrastructure with $10B contracts while OpenAI replaces Anthropic after DOD contract termination",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with multi-billion dollar funding; OpenAI and Anthropic navigate DOD AI deployment disputes",
-      "original_summary": "Major reshuffling in Pentagon AI contracts occurred this week. The Pentagon has designated Palantir's Maven AI system as protected military infrastructure, securing $10B in contracts and providing 1,000 hourly targeting recommendations for ongoing operations. OpenAI announced a reworked Pentagon dea",
-      "corrected_summary": "The Pentagon has formalized Palantir's Maven AI as a core military system, with the platform's investment growing to approximately $13 billion from $480 million in 2024 according to available reporting \u2014 not the $10B figure cited. Anthropic reportedly attempted to resist Pentagon pressure to remove restrictions on its Claude model used in military systems, though the specific claim of a $200M contract termination and OpenAI replacement could not be independently confirmed from available sources. xAI's purported $200M military contract also remains unverified.",
-      "finding": "The claim states the Palantir Maven AI contract is '$10B' but Reddit sources in the web evidence indicate the platform's investment grew to '$13 billion' (not $10B), and separately cite '$13.4 billion' in total Pentagon AI spending. The claim that 'OpenAI replaces Anthropic after DOD contract termination' and 'Anthropic's $200M contract was terminated when the company refused to allow AI use for autonomous warfare' is not directly confirmed \u2014 Guardian reporting indicates Anthropic 'attempted to resist Pentagon pressure' but does not confirm a $200M contract termination. The xAI $200M military contract is also unverified."
-    },
-    {
-      "claim_index": 26,
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "locations_updated": 1,
-      "original_headline": "Trump administration launches Gen Z federal hiring push after 348,000+ workforce departures in 2025, while Schedule Policy/Career reclassification faces ongoing legal challenges",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal workforce departures in 2025; Schedule Policy/Career reclassification faces ongoing legal challenges",
-      "original_summary": "OPM launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers to rebuild federal workforce after massive 2025 reductions that eliminated 348,219 employees (10.3% decline). The Schedule Policy/Career reclassification affecting ~50,000 positions took effect in March 2026 amid",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers to rebuild the federal workforce after approximately 385,000 employees \u2014 not 348,219 as stated \u2014 departed in 2025 through the Deferred Resignation Program, layoffs, and resignations. The Schedule Policy/Career reclassification affecting approximately 50,000 positions took effect in March 2026 amid union lawsuits. Agencies are implementing workforce rebalancing through mandatory reassignments while OPM faces legal challenges over employee appeals processes.",
-      "finding": "The claim states 348,219 employees departed in 2025 representing a 10.3% workforce decline, but Fortune reporting states 'the federal government shed 385,000 employees last year' \u2014 a significantly higher figure than the 348,219 cited. The OPM Early Career Talent Network launch on March 30, 2026 and Schedule Policy/Career details are otherwise consistent with the entity disambiguation table."
-    },
-    {
-      "claim_index": 27,
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "locations_updated": 2,
-      "original_headline": "Multiple social media addiction lawsuits targeting TikTok advancing through courts with March 2026 financial discovery disputes and platform redesign arguments",
-      "corrected_headline": "TikTok settles landmark KGM social media addiction case before trial as broader platform addiction lawsuits continue; Meta and YouTube found liable",
-      "original_summary": "TikTok faces active litigation on multiple fronts as of March 2026, with a New York state judge on March 3, 2026 questioning TikTok's lawyers for failing to produce financial documents about the company's net worth for settlement calculations. Separate lawsuits are arguing that platforms like TikTok",
-      "corrected_summary": "TikTok and Snap reached undisclosed pre-trial settlements in the KGM social media addiction bellwether case, while Meta and YouTube were found negligent at trial on March 25, 2026, setting precedent for thousands of remaining lawsuits. The verdict signals significant litigation risk for platforms including TikTok across more than 20 scheduled bellwether trials. Separate Illinois privacy rights lawsuits affecting TikTok users continue, though the specific March 3, 2026 New York financial discovery dispute described could not be independently confirmed.",
-      "finding": "Web evidence indicates that TikTok and Snap settled the KGM social media addiction lawsuit before trial, rather than facing advancing litigation through courts as implied. The March 3, 2026 New York judge questioning about financial documents is not confirmed in web evidence. The overall framing of TikTok facing 'active litigation advancing through courts' is partially contradicted by the settlement of the bellwether KGM case."
-    },
-    {
-      "claim_index": 30,
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "locations_updated": 1,
-      "original_headline": "OPM launches Gen Z hiring push after 348,219 federal employees departed in 2025; Schedule Policy/Career final rule implemented February 6, 2026",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal departures in 2025; Schedule Policy/Career reclassification took effect March 2026",
-      "original_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers for federal employment after massive workforce reductions. Nearly 348,219 federal employees left service in 2025 through the Deferred Resignation Program, layoffs, and resignations ",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers after approximately 385,000 \u2014 not 348,219 \u2014 federal employees left service in 2025 through various reduction programs. The Schedule Policy/Career classification reclassifying excepted service positions to at-will employment took effect in March 2026 (not February 6, 2026 as stated), amid ongoing union legal challenges. Agencies continue implementing workforce rebalancing while OPM faces litigation over employee appeals processes.",
-      "finding": "The claim states Schedule Policy/Career 'final rule took effect February 6, 2026' but the entity disambiguation table specifies it 'took effect March 2026' \u2014 the February 6 date conflicts with the authoritative definition provided. Additionally, Fortune reports 385,000 departures (not 348,219), consistent with the issue flagged in Claim 26."
+      "original_headline": "DOJ releases 3.5 million Epstein documents through March 2026 with new revelations about Prince Andrew arrest and Trump files amid FBI processing criticism",
+      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
+      "original_summary": "The DOJ completed a massive document release of 3.5 million pages of Epstein-related records through March 2026, including previously unseen files pertaining to President Trump and emails showing Prince Andrew may have forwarded confidential trade documents to Epstein, which led to his recent arrest",
+      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks.",
+      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026."
     }
   ],
   "enrichment_targets_found": 0,
   "enrichments_applied": [],
   "issues_found": [
     {
-      "claim": "Trump delivers prime-time address April 1 claiming Iran war could end in 2-3 weeks while Iran attacks oil tanker off Dubai and denies negotiations despite China-Pakistan ceasefire proposal",
+      "claim": "Iran strikes Kuwait airport and Dubai oil tanker April 1 as Trump schedules prime-time address while China-Pakistan propose immediate ceasefire plan",
       "source": "node_status/iran",
-      "finding": "Trump's statements about ending the war in 2-3 weeks were made on March 31, not April 1, and the prime-time address was announced for April 1 (Wednesday evening) but the core statements occurred March 31. Additionally, the claim describes Iran attacking 'a crude oil tanker off Dubai' but the tanker (Al Salmi) was Kuwaiti, not generically described. The IRGC commander involved in the internal rift is Hossein Salami, not Ahmad Vahidi (Vahidi is Interior Minister). However the claim does not name the IRGC commander here \u2014 the main verifiable issue is the date attribution of Trump's '2-3 weeks' statement being placed on April 1 when evidence consistently shows it was made March 31, with the address scheduled for April 1.",
-      "corrected_headline": "Trump says US could end Iran war in 2-3 weeks on March 31; Kuwaiti tanker struck off Dubai as Iran denies negotiations despite China-Pakistan ceasefire proposal",
-      "corrected_summary": "President Trump stated on March 31, 2026 \u2014 not April 1 \u2014 that the US could end the Iran war in 2-3 weeks, with a prime-time address scheduled for the evening of April 1. Iran attacked and set ablaze the Kuwaiti crude oil tanker Al Salmi off Dubai on March 30-31, escalating regional tensions. Iranian FM Araghchi denied direct negotiations with the US even as China and Pakistan presented a new ceasefire initiative."
+      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan.",
+      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
+      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway."
     },
     {
-      "claim": "Oracle stock down 24.6% over 3 months despite Q3 2026 revenue surge to $17.2B with 84% OCI growth, analyst price targets range $200-$400",
-      "source": "node_status/oracle_ellison",
-      "finding": "The claim states Oracle stock is down '27% year-to-date' but web evidence from Artvoice (March 30) indicates a roughly 21% year-to-date decline, not 27%. The 24.6% three-month figure and $17.2B Q3 revenue with 84% OCI growth are confirmed. The Bank of America $200 price target with Buy rating is confirmed but the claim of 'other analysts maintain price targets up to $400' is not well-supported \u2014 the 52-week high was ~$345, and no evidence of current $400 targets was found.",
-      "corrected_headline": "Oracle stock down ~24.6% over 3 months and ~21% YTD despite Q3 2026 revenue surge to $17.2B with 84% OCI growth; analyst price targets range up to ~$200-$345",
-      "corrected_summary": "Oracle reported strong Q3 FY2026 results with 22% revenue growth to $17.2 billion and 84% cloud infrastructure growth, but the stock has declined approximately 24.6% over three months and roughly 21% year-to-date as of March 31, 2026. Bank of America reinstated coverage with a Buy rating and $200 price target. The stock traded between $139.70 and $147.43 on March 31, with Oracle's Remaining Performance Obligations reaching a record $553 billion."
+      "claim": "PIF unveils new five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war pressures",
+      "source": "node_status/gulf_swf",
+      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified.",
+      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
+      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence."
     },
     {
-      "claim": "Kuwaiti oil tanker Al Salmi struck and set on fire at Dubai port, threatening major oil spill",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states the attack occurred on 'March 30, 2026' while the vessel was 'anchored at Dubai port.' Web evidence confirms the attack date as March 30 and the fire being extinguished, but multiple sources clarify the fire was extinguished \u2014 the claim's framing implies ongoing fire/spill threat without noting the fire was put out. More importantly, the claim says Kuwait Petroleum Corporation described it as an 'Iranian attack' which is confirmed, but the vessel was at Dubai Port anchorage, not strictly 'at Dubai port' per some sources. The core factual issue is that the claim says the vessel 'caught fire and sustained damage, with warnings of a possible oil spill' \u2014 Reuters confirms the fire was extinguished and hull was damaged with oil spill concerns raised, which is accurate enough. However the claim attributes the attack directly to 'Iran' as confirmed fact when KPC described it as such \u2014 this is consistent with reporting. The claim is largely accurate; minor issue is omission that fire was extinguished.",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck and set on fire off Dubai port in Iranian attack on March 30; fire later extinguished amid oil spill concerns",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the fully-loaded Al Salmi crude oil tanker was struck in what it described as an Iranian attack while anchored at Dubai port's anchorage on March 30, 2026. The vessel caught fire and its hull sustained damage, raising concerns about a possible oil spill in surrounding waters. Authorities subsequently confirmed the fire was extinguished, though hull damage remained."
-    },
-    {
-      "claim": "Iran formally rejected US 15-point ceasefire proposal, issued counter-proposal declaring fight 'until complete victory'",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim states Iran 'declared it would fight until complete victory' in its counterproposal, but web evidence from NPR, PBS, Guardian, and AP consistently describes Iran's counterproposal as including demands for war reparations and sovereignty over the Strait of Hormuz \u2014 not a declaration to fight 'until complete victory.' The 'complete victory' framing appears to be an inaccurate characterization of Iran's counterproposal.",
-      "corrected_headline": "Iran formally rejects US 15-point ceasefire proposal on March 25, issues counter-proposal demanding war reparations and Hormuz sovereignty",
-      "corrected_summary": "Iran formally rejected the US 15-point ceasefire proposal on March 25, 2026, issuing its own counterproposal via state media that included demands for war reparations and Iranian sovereignty over the Strait of Hormuz. Iran dismissed the US plan and presented alternative negotiating conditions rather than declaring it would fight to 'complete victory.' The White House confirmed that Operation Epic Fury continues following the rejection."
-    },
-    {
-      "claim": "Iranian leadership rift emerges as President Pezeshkian warns IRGC that economy could collapse within 3-4 weeks",
-      "source": "daily_intelligence/breaking_news",
-      "finding": "The claim identifies the IRGC officer Pezeshkian clashed with as 'Ahmad Vahidi.' Web evidence from Iran International and i24News describes a rift between Pezeshkian and IRGC leadership but does not name Ahmad Vahidi as the IRGC Commander \u2014 Vahidi is Iran's Interior Minister, not IRGC Commander. The IRGC Commander is Hossein Salami. The sources describe a clash with 'IRGC leadership' or 'Guards chief' without specifying Vahidi.",
-      "corrected_headline": "Iran leadership rift deepens as President Pezeshkian warns IRGC leadership that economy could collapse within 3-4 weeks",
-      "corrected_summary": "Anti-regime media reported on March 28, 2026 that a deepening rift exists between President Pezeshkian and IRGC leadership over war strategy \u2014 not specifically with Interior Minister Ahmad Vahidi as originally claimed. Pezeshkian reportedly warned that IRGC attacks on regional countries are exacerbating economic damage and Iran's economy could collapse within weeks without a ceasefire. The reports, citing anonymous sources, reflect growing tensions between Iran's civilian administration and its military command."
-    },
-    {
-      "claim": "DOJ released 3.5M pages in Epstein library through March 2026 including FBI 302s naming associates, triggering victim privacy lawsuits over inadequate redactions",
-      "source": "daily_intelligence/top_developments",
-      "finding": "The claim states 'over 3.5 million pages' released through March 2026, but per the Epstein Files Transparency Act Wikipedia article, the total release has been described as 'over 6 million pages' with a sixth release of ~50,000 files on March 5, 2026. The claim also references 'Prince Andrew arrest following photo evidence' which is not confirmed in the web evidence provided and is a significant unverified specific allegation. The DOJ privacy lawsuit and Google lawsuit are confirmed.",
-      "corrected_headline": "DOJ releases millions of Epstein documents through March 2026 including FBI 302s, triggering victim privacy lawsuits over inadequate redactions",
-      "corrected_summary": "The DOJ has published millions of Epstein-related documents through multiple releases in 2026, including a major January 30 batch and a March 5 release of approximately 50,000 previously withheld files; total page counts reported vary across sources. The releases include FBI 302 interview summaries naming associates across politics and business. Epstein victims are suing both the Trump administration and Google over inadequate redactions that exposed identifying information of approximately 100 survivors."
-    },
-    {
-      "claim": "Board of Peace overseeing 8-month Hamas disarmament plan with $7B reconstruction fund, ISF deployment authorized under Resolution 2803",
-      "source": "daily_intelligence/signal/Board of Peace and Gaza reconstruction",
-      "finding": "The claim states 'Phase 2 implementation began January 14, 2026' but web evidence indicates the Board of Peace charter was officially ratified on January 22, 2026 at Davos, making a January 14 Phase 2 start date implausible. Additionally, the $7B reconstruction fund figure and UN Resolution 2803 are not confirmed in the web evidence \u2014 Wikipedia on the ISF mentions a US draft resolution but does not confirm a numbered resolution 2803 was passed.",
-      "corrected_headline": "Board of Peace overseeing 8-month Hamas disarmament plan with international reconstruction funding; ISF deployment authorized under UN mandate",
-      "corrected_summary": "Trump's Board of Peace, formally established at Davos on January 22, 2026, is managing Gaza's post-ceasefire transition with a detailed disarmament timeline requiring Hamas to surrender arms over 8 months, linked to reconstruction funding in demilitarized zones. The Board has secured international commitments and an International Stabilization Force has been authorized under a UN Security Council mandate, though the specific resolution number and $7B funding figure cited could not be independently confirmed. Hamas has indicated it will not respond to the disarmament plan while the Iran war continues."
-    },
-    {
-      "claim": "Pentagon designates Palantir Maven AI as protected military infrastructure with $10B contracts while OpenAI replaces Anthropic after DOD contract termination",
-      "source": "daily_intelligence/signal/AI Pentagon contracts and compliance",
-      "finding": "The claim states the Palantir Maven AI contract is '$10B' but Reddit sources in the web evidence indicate the platform's investment grew to '$13 billion' (not $10B), and separately cite '$13.4 billion' in total Pentagon AI spending. The claim that 'OpenAI replaces Anthropic after DOD contract termination' and 'Anthropic's $200M contract was terminated when the company refused to allow AI use for autonomous warfare' is not directly confirmed \u2014 Guardian reporting indicates Anthropic 'attempted to resist Pentagon pressure' but does not confirm a $200M contract termination. The xAI $200M military contract is also unverified.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with multi-billion dollar funding; OpenAI and Anthropic navigate DOD AI deployment disputes",
-      "corrected_summary": "The Pentagon has formalized Palantir's Maven AI as a core military system, with the platform's investment growing to approximately $13 billion from $480 million in 2024 according to available reporting \u2014 not the $10B figure cited. Anthropic reportedly attempted to resist Pentagon pressure to remove restrictions on its Claude model used in military systems, though the specific claim of a $200M contract termination and OpenAI replacement could not be independently confirmed from available sources. xAI's purported $200M military contract also remains unverified."
-    },
-    {
-      "claim": "Trump administration launches Gen Z federal hiring push after 348,000+ workforce departures in 2025, while Schedule Policy/Career reclassification faces ongoing legal challenges",
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "finding": "The claim states 348,219 employees departed in 2025 representing a 10.3% workforce decline, but Fortune reporting states 'the federal government shed 385,000 employees last year' \u2014 a significantly higher figure than the 348,219 cited. The OPM Early Career Talent Network launch on March 30, 2026 and Schedule Policy/Career details are otherwise consistent with the entity disambiguation table.",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal workforce departures in 2025; Schedule Policy/Career reclassification faces ongoing legal challenges",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers to rebuild the federal workforce after approximately 385,000 employees \u2014 not 348,219 as stated \u2014 departed in 2025 through the Deferred Resignation Program, layoffs, and resignations. The Schedule Policy/Career reclassification affecting approximately 50,000 positions took effect in March 2026 amid union lawsuits. Agencies are implementing workforce rebalancing through mandatory reassignments while OPM faces legal challenges over employee appeals processes."
-    },
-    {
-      "claim": "Multiple social media addiction lawsuits targeting TikTok advancing through courts with March 2026 financial discovery disputes and platform redesign arguments",
-      "source": "daily_intelligence/signal/TikTok USDS post-deal compliance and oversight",
-      "finding": "Web evidence indicates that TikTok and Snap settled the KGM social media addiction lawsuit before trial, rather than facing advancing litigation through courts as implied. The March 3, 2026 New York judge questioning about financial documents is not confirmed in web evidence. The overall framing of TikTok facing 'active litigation advancing through courts' is partially contradicted by the settlement of the bellwether KGM case.",
-      "corrected_headline": "TikTok settles landmark KGM social media addiction case before trial as broader platform addiction lawsuits continue; Meta and YouTube found liable",
-      "corrected_summary": "TikTok and Snap reached undisclosed pre-trial settlements in the KGM social media addiction bellwether case, while Meta and YouTube were found negligent at trial on March 25, 2026, setting precedent for thousands of remaining lawsuits. The verdict signals significant litigation risk for platforms including TikTok across more than 20 scheduled bellwether trials. Separate Illinois privacy rights lawsuits affecting TikTok users continue, though the specific March 3, 2026 New York financial discovery dispute described could not be independently confirmed."
-    },
-    {
-      "claim": "OPM launches Gen Z hiring push after 348,219 federal employees departed in 2025; Schedule Policy/Career final rule implemented February 6, 2026",
-      "source": "daily_intelligence/signal/Federal workforce restructuring",
-      "finding": "The claim states Schedule Policy/Career 'final rule took effect February 6, 2026' but the entity disambiguation table specifies it 'took effect March 2026' \u2014 the February 6 date conflicts with the authoritative definition provided. Additionally, Fortune reports 385,000 departures (not 348,219), consistent with the issue flagged in Claim 26.",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal departures in 2025; Schedule Policy/Career reclassification took effect March 2026",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers after approximately 385,000 \u2014 not 348,219 \u2014 federal employees left service in 2025 through various reduction programs. The Schedule Policy/Career classification reclassifying excepted service positions to at-will employment took effect in March 2026 (not February 6, 2026 as stated), amid ongoing union legal challenges. Agencies continue implementing workforce rebalancing while OPM faces litigation over employee appeals processes."
+      "claim": "DOJ releases 3.5 million Epstein documents through March 2026 with new revelations about Prince Andrew arrest and Trump files amid FBI processing criticism",
+      "source": "node_status/epstein_files",
+      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026.",
+      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
+      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
-      "status": "FLAGGED",
-      "finding": "Trump's statements about ending the war in 2-3 weeks were made on March 31, not April 1, and the prime-time address was announced for April 1 (Wednesday evening) but the core statements occurred March 31. Additionally, the claim describes Iran attacking 'a crude oil tanker off Dubai' but the tanker (Al Salmi) was Kuwaiti, not generically described. The IRGC commander involved in the internal rift is Hossein Salami, not Ahmad Vahidi (Vahidi is Interior Minister). However the claim does not name the IRGC commander here \u2014 the main verifiable issue is the date attribution of Trump's '2-3 weeks' statement being placed on April 1 when evidence consistently shows it was made March 31, with the address scheduled for April 1.",
-      "corrected_headline": "Trump says US could end Iran war in 2-3 weeks on March 31; Kuwaiti tanker struck off Dubai as Iran denies negotiations despite China-Pakistan ceasefire proposal",
-      "corrected_summary": "President Trump stated on March 31, 2026 \u2014 not April 1 \u2014 that the US could end the Iran war in 2-3 weeks, with a prime-time address scheduled for the evening of April 1. Iran attacked and set ablaze the Kuwaiti crude oil tanker Al Salmi off Dubai on March 30-31, escalating regional tensions. Iranian FM Araghchi denied direct negotiations with the US even as China and Pakistan presented a new ceasefire initiative."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms DOJ search warrant applications disclosed March 31, 2026 revealed emails suggesting Maxwell arranged women for Prince Andrew including communications ahead of his 2002 Peru state visit."
     },
     {
       "claim_index": 1,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms the Mubadala CoolIT exit at $4.75B with 15x return finalized March 26, 2026, and the PIF new strategy with spending cuts is corroborated by multiple sources referencing the FII Miami summit."
+      "status": "FLAGGED",
+      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan.",
+      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
+      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway."
     },
     {
       "claim_index": 2,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Times of Israel and JFeed confirms Israeli strikes on Beirut targeting senior Hezbollah commanders on or around April 1, 2026, and the IDF battalion suspension over the CNN crew detention in the West Bank is corroborated."
+      "status": "FLAGGED",
+      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified.",
+      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
+      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence."
     },
     {
       "claim_index": 3,
-      "status": "FLAGGED",
-      "finding": "The claim states Oracle stock is down '27% year-to-date' but web evidence from Artvoice (March 30) indicates a roughly 21% year-to-date decline, not 27%. The 24.6% three-month figure and $17.2B Q3 revenue with 84% OCI growth are confirmed. The Bank of America $200 price target with Buy rating is confirmed but the claim of 'other analysts maintain price targets up to $400' is not well-supported \u2014 the 52-week high was ~$345, and no evidence of current $400 targets was found.",
-      "corrected_headline": "Oracle stock down ~24.6% over 3 months and ~21% YTD despite Q3 2026 revenue surge to $17.2B with 84% OCI growth; analyst price targets range up to ~$200-$345",
-      "corrected_summary": "Oracle reported strong Q3 FY2026 results with 22% revenue growth to $17.2 billion and 84% cloud infrastructure growth, but the stock has declined approximately 24.6% over three months and roughly 21% year-to-date as of March 31, 2026. Bank of America reinstated coverage with a Buy rating and $200 price target. The stock traded between $139.70 and $147.43 on March 31, with Oracle's Remaining Performance Obligations reaching a record $553 billion."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Israel conducted two strikes in the Beirut area on April 1 targeting a senior Hezbollah commander and another senior member, and separately conducted wide-scale strikes on Iranian infrastructure. The IDF battalion suspension over the CNN crew detention in the West Bank is consistent with reporting; the core claims are supported."
     },
     {
       "claim_index": 4,
-      "status": "UNVERIFIABLE",
-      "finding": "While DOJ releases of 3+ million Epstein pages and FBI 302s are confirmed, the specific claim about 'Prince Andrew's arrest on March 19 for forwarding confidential trade documents to Epstein' is a highly specific and serious allegation not corroborated by any of the web evidence provided, and cannot be verified or refuted with available sources."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle Q3 FY2026 revenue of $17.2B (22% growth), 84% cloud infrastructure growth, 44% overall cloud growth, 14% stock surge, $0.50 dividend with April 9 2026 ex-date, and stock down ~24.6% over three months. The April 9 ex-date is a future date relative to April 1 run date but is a scheduled corporate action, not a speculative claim."
     },
     {
       "claim_index": 5,
-      "status": "VERIFIED",
-      "finding": "All core facts confirmed by web evidence: Google's $1B Port of Little Rock data center at 1.43M sq ft across 5 industrial buildings is confirmed by the Arkansas Democrat-Gazette; Entergy's $5B customer savings pledge and Fair Share Plus announcement are confirmed by Entergy's own press releases and Reuters."
+      "status": "FLAGGED",
+      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026.",
+      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
+      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks."
     },
     {
       "claim_index": 6,
       "status": "VERIFIED",
-      "finding": "Web evidence from Bloomberg, Politico, NYT, and Al Jazeera confirms Iran war day 32 on March 31, Trump's 2-3 week withdrawal statement, willingness to leave without fully resolving Hormuz, and ongoing US-Israeli strikes. The 13,000 targets figure and Bushehr proximity strikes are reported in Economic Times coverage."
+      "finding": "Web evidence directly confirms Google's $1B Port of Little Rock data center consists of five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation per Army Corps documents, and that Meta is funding seven new natural gas plants to power its Louisiana data center through an Entergy partnership creating thousands of construction jobs."
     },
     {
       "claim_index": 7,
-      "status": "FLAGGED",
-      "finding": "The claim states the attack occurred on 'March 30, 2026' while the vessel was 'anchored at Dubai port.' Web evidence confirms the attack date as March 30 and the fire being extinguished, but multiple sources clarify the fire was extinguished \u2014 the claim's framing implies ongoing fire/spill threat without noting the fire was put out. More importantly, the claim says Kuwait Petroleum Corporation described it as an 'Iranian attack' which is confirmed, but the vessel was at Dubai Port anchorage, not strictly 'at Dubai port' per some sources. The core factual issue is that the claim says the vessel 'caught fire and sustained damage, with warnings of a possible oil spill' \u2014 Reuters confirms the fire was extinguished and hull was damaged with oil spill concerns raised, which is accurate enough. However the claim attributes the attack directly to 'Iran' as confirmed fact when KPC described it as such \u2014 this is consistent with reporting. The claim is largely accurate; minor issue is omission that fire was extinguished.",
-      "corrected_headline": "Kuwaiti oil tanker Al Salmi struck and set on fire off Dubai port in Iranian attack on March 30; fire later extinguished amid oil spill concerns",
-      "corrected_summary": "Kuwait Petroleum Corporation reported that the fully-loaded Al Salmi crude oil tanker was struck in what it described as an Iranian attack while anchored at Dubai port's anchorage on March 30, 2026. The vessel caught fire and its hull sustained damage, raising concerns about a possible oil spill in surrounding waters. Authorities subsequently confirmed the fire was extinguished, though hull damage remained."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Day 32 of the Iran war as of March 31, 2026, Trump's claim that Iran agreed to allow 20 oil ships through the Strait of Hormuz, Iran's rejection of the 15-point US ceasefire proposal with counterdemands including war reparations and sovereignty over the Strait, and the Kuwaiti tanker strike off Dubai. All core claims are supported by multiple sources."
     },
     {
       "claim_index": 8,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Reuters, Wikipedia, and House of Commons Library confirms the Board of Peace was established under EO 14375 with Trump as lifetime chairman, up to 35 states joined, and no other G7 state participated."
-    },
-    {
-      "claim_index": 9,
-      "status": "FLAGGED",
-      "finding": "The claim states Iran 'declared it would fight until complete victory' in its counterproposal, but web evidence from NPR, PBS, Guardian, and AP consistently describes Iran's counterproposal as including demands for war reparations and sovereignty over the Strait of Hormuz \u2014 not a declaration to fight 'until complete victory.' The 'complete victory' framing appears to be an inaccurate characterization of Iran's counterproposal.",
-      "corrected_headline": "Iran formally rejects US 15-point ceasefire proposal on March 25, issues counter-proposal demanding war reparations and Hormuz sovereignty",
-      "corrected_summary": "Iran formally rejected the US 15-point ceasefire proposal on March 25, 2026, issuing its own counterproposal via state media that included demands for war reparations and Iranian sovereignty over the Strait of Hormuz. Iran dismissed the US plan and presented alternative negotiating conditions rather than declaring it would fight to 'complete victory.' The White House confirmed that Operation Epic Fury continues following the rejection."
-    },
-    {
-      "claim_index": 10,
-      "status": "FLAGGED",
-      "finding": "The claim identifies the IRGC officer Pezeshkian clashed with as 'Ahmad Vahidi.' Web evidence from Iran International and i24News describes a rift between Pezeshkian and IRGC leadership but does not name Ahmad Vahidi as the IRGC Commander \u2014 Vahidi is Iran's Interior Minister, not IRGC Commander. The IRGC Commander is Hossein Salami. The sources describe a clash with 'IRGC leadership' or 'Guards chief' without specifying Vahidi.",
-      "corrected_headline": "Iran leadership rift deepens as President Pezeshkian warns IRGC leadership that economy could collapse within 3-4 weeks",
-      "corrected_summary": "Anti-regime media reported on March 28, 2026 that a deepening rift exists between President Pezeshkian and IRGC leadership over war strategy \u2014 not specifically with Interior Minister Ahmad Vahidi as originally claimed. Pezeshkian reportedly warned that IRGC attacks on regional countries are exacerbating economic damage and Iran's economy could collapse within weeks without a ceasefire. The reports, citing anonymous sources, reflect growing tensions between Iran's civilian administration and its military command."
-    },
-    {
-      "claim_index": 11,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Reuters, Wikipedia (2026 Iran war and 2026 Lebanon war articles), and Japan Times confirms Iran has made any ceasefire conditional on ending hostilities against Hezbollah in Lebanon, linking the two conflicts as described."
-    },
-    {
-      "claim_index": 12,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Haaretz, Times of Israel, BBC, and Drop Site News confirms the Board of Peace is pursuing an 8-month Hamas disarmament plan linked to reconstruction, and that the Iran war timeline is impacting Hamas's willingness to respond to the plan. The $7B reconstruction funding figure is not directly confirmed but the overall framing of the claim is supported."
-    },
-    {
-      "claim_index": 13,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Iranian drone strikes on Kuwaiti tankers in Dubai waters and ongoing Strait of Hormuz shipping disruptions, and the claim accurately notes Gulf SWFs maintaining investment positions \u2014 consistent with PIF Governor's statements at FII Miami. The claim is a reasonable analytical synthesis of confirmed events."
-    },
-    {
-      "claim_index": 14,
-      "status": "VERIFIED",
-      "finding": "The claim accurately reports that Iran war coverage and ongoing Epstein document releases are occurring simultaneously, and that commentators have noted a potential attention-capture dynamic. The claim appropriately frames this as an observed media dynamic rather than confirmed deliberate strategy, which is consistent with the web evidence."
-    },
-    {
-      "claim_index": 15,
-      "status": "VERIFIED",
-      "finding": "Web evidence from The Information, Reuters, and Motley Fool confirms SpaceX was aiming to file for IPO as soon as the week of March 24-31, 2026, consistent with the claim. Seeking Alpha notes prediction markets are skeptical of imminent filing, but the Motley Fool sourcing cited in the claim is confirmed accurate."
-    },
-    {
-      "claim_index": 16,
-      "status": "VERIFIED",
-      "finding": "Web evidence from multiple law firm press releases confirms at least two separate class action lawsuits (DJS Law Group and Schall Law Firm among others) against Inovio over CELLECTRA manufacturing deficiencies and overstated regulatory prospects for INO-3107, with the complaint period October 2023 to December 2025."
-    },
-    {
-      "claim_index": 17,
-      "status": "VERIFIED",
-      "finding": "Web evidence from PSCA, 401k Specialist, ASPPA, CNBC, and AltsWire confirms the DOL 401(k) alternative investment proposed rule cleared OMB review and is advancing toward public comment, consistent with all factual claims made."
-    },
-    {
-      "claim_index": 18,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Al Jazeera, NYT, Gulf News, and Guardian confirms day 32 of the Iran war on March 31, Trump's 2-3 week withdrawal timeline, the Al Salmi tanker strike off Dubai on March 30, and Iran's rejection of the US 15-point ceasefire proposal."
-    },
-    {
-      "claim_index": 19,
-      "status": "FLAGGED",
-      "finding": "The claim states 'over 3.5 million pages' released through March 2026, but per the Epstein Files Transparency Act Wikipedia article, the total release has been described as 'over 6 million pages' with a sixth release of ~50,000 files on March 5, 2026. The claim also references 'Prince Andrew arrest following photo evidence' which is not confirmed in the web evidence provided and is a significant unverified specific allegation. The DOJ privacy lawsuit and Google lawsuit are confirmed.",
-      "corrected_headline": "DOJ releases millions of Epstein documents through March 2026 including FBI 302s, triggering victim privacy lawsuits over inadequate redactions",
-      "corrected_summary": "The DOJ has published millions of Epstein-related documents through multiple releases in 2026, including a major January 30 batch and a March 5 release of approximately 50,000 previously withheld files; total page counts reported vary across sources. The releases include FBI 302 interview summaries naming associates across politics and business. Epstein victims are suing both the Trump administration and Google over inadequate redactions that exposed identifying information of approximately 100 survivors."
-    },
-    {
-      "claim_index": 20,
-      "status": "VERIFIED",
-      "finding": "Web evidence from TIKR, Invezz, Yahoo Finance, and IndexBox confirms Oracle Q3 FY2026 revenue of $17.2B (22% growth), 84% OCI growth, $553B remaining performance obligations, 10.1% weekly stock decline, and the stock remaining 44% below analyst targets."
-    },
-    {
-      "claim_index": 21,
-      "status": "FLAGGED",
-      "finding": "The claim states 'Phase 2 implementation began January 14, 2026' but web evidence indicates the Board of Peace charter was officially ratified on January 22, 2026 at Davos, making a January 14 Phase 2 start date implausible. Additionally, the $7B reconstruction fund figure and UN Resolution 2803 are not confirmed in the web evidence \u2014 Wikipedia on the ISF mentions a US draft resolution but does not confirm a numbered resolution 2803 was passed.",
-      "corrected_headline": "Board of Peace overseeing 8-month Hamas disarmament plan with international reconstruction funding; ISF deployment authorized under UN mandate",
-      "corrected_summary": "Trump's Board of Peace, formally established at Davos on January 22, 2026, is managing Gaza's post-ceasefire transition with a detailed disarmament timeline requiring Hamas to surrender arms over 8 months, linked to reconstruction funding in demilitarized zones. The Board has secured international commitments and an International Stabilization Force has been authorized under a UN Security Council mandate, though the specific resolution number and $7B funding figure cited could not be independently confirmed. Hamas has indicated it will not respond to the disarmament plan while the Iran war continues."
-    },
-    {
-      "claim_index": 22,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Bloomberg, House of Saud analysis, and The National confirms Saudi PIF's Olam Agri $1.78B acquisition (35.4% to 80% stake), continued global investment commitment despite Iran war, and Mubadala's $4.75B CoolIT exit. The $2B Affinity Partners position is confirmed by Public Investment Fund Wikipedia article."
-    },
-    {
-      "claim_index": 23,
       "status": "UNVERIFIABLE",
-      "finding": "While the House Resolution by Raja Krishnamoorthi opposing Maxwell pardon is confirmed by Wikipedia, the claims about Maxwell 'repeatedly requesting clemency from Trump according to recent testimony releases' and specific details about her 'New Hampshire arrest property now being sold after 10 months on market' cannot be verified or refuted from the available web evidence."
-    },
-    {
-      "claim_index": 24,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Kyiv Independent and Mezha.net confirms Ukraine proposed an Easter ceasefire (April 16, 2026 is a future date relative to the March 31 run context, appropriately flagged), Russia rejected it, and territorial demands remain the core sticking point. The claim appropriately treats the April 16 date as a future proposal date rather than a confirmed past event."
-    },
-    {
-      "claim_index": 25,
-      "status": "FLAGGED",
-      "finding": "The claim states the Palantir Maven AI contract is '$10B' but Reddit sources in the web evidence indicate the platform's investment grew to '$13 billion' (not $10B), and separately cite '$13.4 billion' in total Pentagon AI spending. The claim that 'OpenAI replaces Anthropic after DOD contract termination' and 'Anthropic's $200M contract was terminated when the company refused to allow AI use for autonomous warfare' is not directly confirmed \u2014 Guardian reporting indicates Anthropic 'attempted to resist Pentagon pressure' but does not confirm a $200M contract termination. The xAI $200M military contract is also unverified.",
-      "corrected_headline": "Pentagon formalizes Palantir Maven AI as core military system with multi-billion dollar funding; OpenAI and Anthropic navigate DOD AI deployment disputes",
-      "corrected_summary": "The Pentagon has formalized Palantir's Maven AI as a core military system, with the platform's investment growing to approximately $13 billion from $480 million in 2024 according to available reporting \u2014 not the $10B figure cited. Anthropic reportedly attempted to resist Pentagon pressure to remove restrictions on its Claude model used in military systems, though the specific claim of a $200M contract termination and OpenAI replacement could not be independently confirmed from available sources. xAI's purported $200M military contract also remains unverified."
-    },
-    {
-      "claim_index": 26,
-      "status": "FLAGGED",
-      "finding": "The claim states 348,219 employees departed in 2025 representing a 10.3% workforce decline, but Fortune reporting states 'the federal government shed 385,000 employees last year' \u2014 a significantly higher figure than the 348,219 cited. The OPM Early Career Talent Network launch on March 30, 2026 and Schedule Policy/Career details are otherwise consistent with the entity disambiguation table.",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal workforce departures in 2025; Schedule Policy/Career reclassification faces ongoing legal challenges",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers to rebuild the federal workforce after approximately 385,000 employees \u2014 not 348,219 as stated \u2014 departed in 2025 through the Deferred Resignation Program, layoffs, and resignations. The Schedule Policy/Career reclassification affecting approximately 50,000 positions took effect in March 2026 amid union lawsuits. Agencies are implementing workforce rebalancing through mandatory reassignments while OPM faces legal challenges over employee appeals processes."
-    },
-    {
-      "claim_index": 27,
-      "status": "FLAGGED",
-      "finding": "Web evidence indicates that TikTok and Snap settled the KGM social media addiction lawsuit before trial, rather than facing advancing litigation through courts as implied. The March 3, 2026 New York judge questioning about financial documents is not confirmed in web evidence. The overall framing of TikTok facing 'active litigation advancing through courts' is partially contradicted by the settlement of the bellwether KGM case.",
-      "corrected_headline": "TikTok settles landmark KGM social media addiction case before trial as broader platform addiction lawsuits continue; Meta and YouTube found liable",
-      "corrected_summary": "TikTok and Snap reached undisclosed pre-trial settlements in the KGM social media addiction bellwether case, while Meta and YouTube were found negligent at trial on March 25, 2026, setting precedent for thousands of remaining lawsuits. The verdict signals significant litigation risk for platforms including TikTok across more than 20 scheduled bellwether trials. Separate Illinois privacy rights lawsuits affecting TikTok users continue, though the specific March 3, 2026 New York financial discovery dispute described could not be independently confirmed."
-    },
-    {
-      "claim_index": 28,
-      "status": "VERIFIED",
-      "finding": "Web evidence from Diaz Trade Law, CFIUS customs blog, TWiT.TV, and Broadband Breakfast confirms CFIUS fast-track program proposal for repeat filers, FCC expansion of Covered List to include foreign routers and drones, and the overall regulatory tightening described."
-    },
-    {
-      "claim_index": 29,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Google's $1B Little Rock data center at 1.43M sq ft across 5 buildings (Arkansas Democrat-Gazette, March 31), and Sanders/AOC Artificial Intelligence Data Center Moratorium Act introduced March 25, 2026 (The Hill, Sanders.senate.gov, PBS, Axios)."
-    },
-    {
-      "claim_index": 30,
-      "status": "FLAGGED",
-      "finding": "The claim states Schedule Policy/Career 'final rule took effect February 6, 2026' but the entity disambiguation table specifies it 'took effect March 2026' \u2014 the February 6 date conflicts with the authoritative definition provided. Additionally, Fortune reports 385,000 departures (not 348,219), consistent with the issue flagged in Claim 26.",
-      "corrected_headline": "OPM launches Gen Z Early Career Talent Network after ~385,000 federal departures in 2025; Schedule Policy/Career reclassification took effect March 2026",
-      "corrected_summary": "The Office of Personnel Management launched the Early Career Talent Network on March 30, 2026, targeting Gen Z workers after approximately 385,000 \u2014 not 348,219 \u2014 federal employees left service in 2025 through various reduction programs. The Schedule Policy/Career classification reclassifying excepted service positions to at-will employment took effect in March 2026 (not February 6, 2026 as stated), amid ongoing union legal challenges. Agencies continue implementing workforce rebalancing while OPM faces litigation over employee appeals processes."
+      "finding": "Web evidence confirms the Board of Peace 8-month Hamas disarmament plan and ISF authorization framework, but the specific claims of '$7B reconstruction fund announced' and 'UN Resolution 2803' authorizing ISF deployment and Kosovo troop contributions cannot be verified or refuted from the available evidence, making a full verification or confident correction impossible."
     }
   ]
 }

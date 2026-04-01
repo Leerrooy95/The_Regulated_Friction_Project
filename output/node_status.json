@@ -1,257 +1,274 @@
 {
-  "run_timestamp": "2026-04-01T02:55:04.133402+00:00",
+  "run_timestamp": "2026-04-01T08:55:55.622434+00:00",
   "run_date": "2026-04-01",
   "nodes_queried": 7,
-  "nodes_active": 6,
+  "nodes_active": 7,
   "nodes_critical": 1,
   "convergence_detected": true,
   "node_statuses": {
     "maxwell": {
       "node_id": "maxwell",
-      "status": "MONITORING",
-      "headline": "Maxwell clemency debate continues with Congressional opposition resolution while deposition videos released March 27, 2026",
-      "summary": "Recent developments include the release of Bill and Hillary Clinton's Epstein-related deposition videos on March 27, 2026, where Bill Clinton was specifically asked about potential Trump clemency for Ghislaine Maxwell. Representative Raja Krishnamoorthi introduced House Resolution 119-635 to the Judiciary Committee formally opposing any Maxwell clemency, stating her conviction was 'more than warranted by the facts.' New testimony emerged showing Jeffrey Epstein's diamonds, passports, and hard drives went missing for 5 days after the 2019 FBI raid before being returned. Maxwell remains at FPC Bryan serving her 20-year sentence with her clemency petition still pending and no new court filings this week.",
-      "is_new_development": true,
-      "event_classification": "FRICTION",
-      "leverage_type": "REPUTATIONAL",
-      "impact_score": 6,
-      "under_radar_flags": [
-        "Missing Epstein evidence (diamonds, hard drives) for 5 days after 2019 raid now documented",
-        "Clinton deposition specifically addresses Maxwell clemency question",
-        "House Resolution 119-635 creates formal Congressional opposition record"
-      ],
-      "key_entities_mentioned": [
-        "Ghislaine Maxwell",
-        "Bill Clinton",
-        "Hillary Clinton",
-        "Jeffrey Epstein",
-        "Raja Krishnamoorthi",
-        "House Judiciary Committee",
-        "FBI"
-      ],
-      "sources": [
-        "https://www.bbc.com/news/live/ce94y2yykgrt",
-        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://www.businessinsider.com/jeffrey-epstein-safe-diamonds-hard-drives-evidence-what-happened-2026-3"
-      ],
-      "confidence": "HIGH",
-      "timestamp": "2026-04-01",
-      "raw_response_length": 1808
-    },
-    "iran": {
-      "node_id": "iran",
-      "status": "CRITICAL",
-      "headline": "Trump says US could end Iran war in 2-3 weeks on March 31; Kuwaiti tanker struck off Dubai as Iran denies negotiations despite China-Pakistan ceasefire proposal",
-      "summary": "President Trump stated on March 31, 2026 \u2014 not April 1 \u2014 that the US could end the Iran war in 2-3 weeks, with a prime-time address scheduled for the evening of April 1. Iran attacked and set ablaze the Kuwaiti crude oil tanker Al Salmi off Dubai on March 30-31, escalating regional tensions. Iranian FM Araghchi denied direct negotiations with the US even as China and Pakistan presented a new ceasefire initiative.",
-      "is_new_development": true,
-      "event_classification": "ESCALATION",
-      "leverage_type": "KINETIC",
-      "impact_score": 9,
-      "under_radar_flags": [
-        "Backchannel communications reportedly active through Pakistan despite Iran's public denials",
-        "Trump privately telling aides he wants to avoid 'forever war' while publicly threatening escalation",
-        "European allies beginning to distance from some U.S.-Israeli operations",
-        "Iran threatening U.S. businesses in the region as new pressure tactic"
-      ],
-      "key_entities_mentioned": [
-        "Trump",
-        "Iran",
-        "Strait of Hormuz",
-        "Pete Hegseth",
-        "Abbas Araghchi",
-        "China",
-        "Pakistan",
-        "France",
-        "Italy"
-      ],
-      "sources": [
-        "https://www.reuters.com/world/iran/",
-        "https://apnews.com/live/iran-war-israel-trump-03-31-2026",
-        "https://www.reuters.com/business/energy/giant-oil-tanker-off-dubai-hit-by-iranian-strike-trump-threatens-obliterate-iran-2026-03-31/",
-        "https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire",
-        "https://www.aljazeera.com/news/2026/3/31/no-truth-to-us-iranian-negotiations-irans-fm-tells-al-jazeera"
-      ],
-      "confidence": "HIGH",
-      "timestamp": "2026-04-01",
-      "raw_response_length": 2250,
-      "fact_check_notes": [
-        "Trump's statements about ending the war in 2-3 weeks were made on March 31, not April 1, and the prime-time address was announced for April 1 (Wednesday evening) but the core statements occurred March 31. Additionally, the claim describes Iran attacking 'a crude oil tanker off Dubai' but the tanker (Al Salmi) was Kuwaiti, not generically described. The IRGC commander involved in the internal rift is Hossein Salami, not Ahmad Vahidi (Vahidi is Interior Minister). However the claim does not name the IRGC commander here \u2014 the main verifiable issue is the date attribution of Trump's '2-3 weeks' statement being placed on April 1 when evidence consistently shows it was made March 31, with the address scheduled for April 1."
-      ]
-    },
-    "gulf_swf": {
-      "node_id": "gulf_swf",
       "status": "ACTIVE",
-      "headline": "Mubadala exits CoolIT Systems in $4.75B deal with 15x return while securing new energy assets; PIF cuts spending 15% in new strategy amid Iran war pressures",
-      "summary": "Mubadala completed a major exit from CoolIT Systems in a $4.75B deal with Ecolab (finalized March 26, 2026), generating a 15x return on its 2023 investment alongside KKR. Simultaneously, Mubadala Energy secured 100% operatorship of Indonesia's Southwest Andaman exploration block and announced a $6.2B all-cash acquisition of Clear Channel Outdoor with 71% premium. Saudi PIF officially unveiled its new five-year strategy with 15% capital spending cuts while pivoting to AI through HUMAIN's first US customer deal with Turing. The strategy shift comes as Gulf SWFs navigate wartime economic pressures from the Iran conflict, with PIF planning 8 IPOs in 2026 to raise capital.",
-      "is_new_development": true,
-      "event_classification": "COMPLIANCE",
-      "leverage_type": "FINANCIAL",
-      "impact_score": 7,
-      "under_radar_flags": [
-        "Mubadala's rapid asset rotation suggests liquidity optimization during wartime",
-        "PIF's 15% spending cut indicates war-driven capital conservation",
-        "Clear Channel acquisition gives UAE control over major US outdoor advertising infrastructure",
-        "HUMAIN-Turing AI partnership represents Gulf SWF penetration into US enterprise AI market"
-      ],
-      "key_entities_mentioned": [
-        "Mubadala Investment Company",
-        "Saudi PIF",
-        "CoolIT Systems",
-        "Ecolab",
-        "KKR",
-        "Clear Channel Outdoor",
-        "HUMAIN",
-        "Turing",
-        "Mubadala Energy"
-      ],
-      "sources": [
-        "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
-        "https://usaherald.com/mubadala-capital-to-acquire-clear-channel-in-6-2b-deal/",
-        "https://houseofsaud.com/pif-five-year-strategy-humain-ai-fii-miami/",
-        "https://www.oilandgasadvancement.com/news/mubadala-energy-wins-southwest-andaman-exploration-block/"
-      ],
-      "confidence": "HIGH",
-      "timestamp": "2026-04-01",
-      "raw_response_length": 2110
-    },
-    "israel": {
-      "node_id": "israel",
-      "status": "ACTIVE",
-      "headline": "Israel strikes senior Hezbollah commanders in Beirut April 1 while expanding Tehran infrastructure attacks and suspending IDF battalion over CNN detention",
-      "summary": "Israel conducted fresh strikes on Beirut targeting senior Hezbollah commanders on April 1, 2026, while simultaneously attacking Iranian regime infrastructure throughout Tehran as part of ongoing Operation Epic Fury. The IDF suspended a reservist battalion after it detained a CNN crew in the West Bank, indicating internal military discipline issues during wartime operations. Israeli forces continue ground operations in southern Lebanon with no clear timeline for withdrawal, while Prime Minister Netanyahu announced building new regional alliances against Iran without specifying partner countries. The multi-front campaign shows Israel maintaining offensive operations across Lebanon, Iran, and occupied territories simultaneously.",
-      "is_new_development": true,
-      "event_classification": "ESCALATION",
-      "leverage_type": "KINETIC",
-      "impact_score": 7,
-      "under_radar_flags": [
-        "IDF battalion suspension suggests internal military discipline problems during active operations",
-        "Netanyahu's unnamed 'new regional alliances' may indicate covert Abraham Accords expansion",
-        "Continued ground operations in Lebanon with no exit timeline suggests long-term occupation planning"
-      ],
-      "key_entities_mentioned": [
-        "Israel",
-        "IDF",
-        "Hezbollah",
-        "Netanyahu",
-        "IRGC",
-        "Tehran",
-        "Beirut",
-        "Lebanon"
-      ],
-      "sources": [
-        "https://www.thehindu.com/news/international/us-israel-iran-war-updates-live-march-31-2026/article70805560.ece",
-        "https://news.sky.com/story/iran-war-latest-trump-tehran-us-israel-kharg-island-netanyahu-lebanon-strikes-drone-live-sky-news-13509565",
-        "https://www.washingtonpost.com/world/2026/03/30/israel-suspends-battalion-cnn/",
-        "https://www.theguardian.com/world/live/2026/mar/20/iran-war-live-updates-oil-prices-israel-netanyahu-ground-component-us-tensions-hormuz"
-      ],
-      "confidence": "HIGH",
-      "timestamp": "2026-04-01",
-      "raw_response_length": 2138
-    },
-    "oracle_ellison": {
-      "node_id": "oracle_ellison",
-      "status": "ACTIVE",
-      "headline": "Oracle stock down ~24.6% over 3 months and ~21% YTD despite Q3 2026 revenue surge to $17.2B with 84% OCI growth; analyst price targets range up to ~$200-$345",
-      "summary": "Oracle reported strong Q3 FY2026 results with 22% revenue growth to $17.2 billion and 84% cloud infrastructure growth, but the stock has declined approximately 24.6% over three months and roughly 21% year-to-date as of March 31, 2026. Bank of America reinstated coverage with a Buy rating and $200 price target. The stock traded between $139.70 and $147.43 on March 31, with Oracle's Remaining Performance Obligations reaching a record $553 billion.",
-      "is_new_development": true,
-      "event_classification": "COMPLIANCE",
-      "leverage_type": "FINANCIAL",
-      "impact_score": 6,
-      "under_radar_flags": [
-        "Stock down 27% YTD despite strong earnings suggests market pricing in execution risk",
-        "Record $553B backlog creates massive future revenue obligations requiring capital deployment",
-        "Oracle Federal Financials added to Treasury marketplace as first cloud-native offering",
-        "AI infrastructure growth of 200% mentioned alongside existing $100B+ debt burden"
-      ],
-      "key_entities_mentioned": [
-        "Oracle Corporation",
-        "Bank of America",
-        "Oracle Cloud Infrastructure",
-        "Treasury marketplace",
-        "Jefferies"
-      ],
-      "sources": [
-        "https://www.tikr.com/blog/oracle-stock-is-down-24-6-over-the-past-3-months-heres-what-could-drive-the-next-move",
-        "https://markets.financialcontent.com/stocks/article/finterra-2026-3-26-oracle-orcl-deep-dive-ai-transformation-meets-legal-and-financial-headwinds",
-        "https://invezz.com/news/2026/03/25/oracle-stock-down-25-in-2026-why-bofa-sees-30-upside/",
-        "https://robinhood.com/us/en/stocks/ORCL/",
-        "https://www.cnbc.com/2026/03/30/stock-market-today-live-updates.html"
-      ],
-      "confidence": "HIGH",
-      "timestamp": "2026-04-01",
-      "raw_response_length": 2139,
-      "fact_check_notes": [
-        "The claim states Oracle stock is down '27% year-to-date' but web evidence from Artvoice (March 30) indicates a roughly 21% year-to-date decline, not 27%. The 24.6% three-month figure and $17.2B Q3 revenue with 84% OCI growth are confirmed. The Bank of America $200 price target with Buy rating is confirmed but the claim of 'other analysts maintain price targets up to $400' is not well-supported \u2014 the 52-week high was ~$345, and no evidence of current $400 targets was found."
-      ]
-    },
-    "epstein_files": {
-      "node_id": "epstein_files",
-      "status": "ACTIVE",
-      "headline": "DOJ releases 3+ million Epstein documents through March 2026 amid FBI processing criticism and survivor privacy lawsuits",
-      "summary": "The DOJ has released over 3 million Epstein-related documents through March 2026, including FBI 302 interview summaries and evidence from Epstein's safe (diamonds, hard drives, passports). New revelations include Prince Andrew's arrest on March 19 for forwarding confidential trade documents to Epstein, and FBI tracking of 4chan users who posted about Epstein's death. House Oversight Chairman James Comer admitted Trump's DOJ 'botched' the file release process, while survivors filed class action suits against DOJ and Google alleging privacy violations. The massive document review required 1,000+ FBI personnel on 24-hour shifts, with counterintelligence specialists dropping other work to process files.",
+      "headline": "DOJ emails suggest Maxwell arranged women for Prince Andrew including 2002 Peru state visit, revealed in search warrant application March 31, 2026",
+      "summary": "New DOJ search warrant applications disclosed March 31, 2026 reveal emails suggesting Ghislaine Maxwell arranged women for Prince Andrew, including communications ahead of his official state visit to Peru in 2002. This represents fresh documentary evidence of Maxwell's operational role beyond her convicted trafficking activities. Separately, Representative Raja Krishnamoorthi introduced House Resolution 119-635 on August 5 formally opposing any Maxwell clemency, stating her conviction was 'more than warranted by the facts.' The resolution affirms that clemency would 'deny survivors the justice they deserve.' These developments occur as Maxwell continues serving her 20-year sentence at FPC Bryan while her habeas corpus petition remains pending.",
       "is_new_development": true,
       "event_classification": "FRICTION",
       "leverage_type": "LEGAL",
       "impact_score": 7,
       "under_radar_flags": [
-        "Anonymous hackers threatening to release unredacted Epstein files",
-        "FBI subpoenaed 4chan for user data related to Epstein death posts",
-        "Evidence from Epstein's safe went missing for 5 days during 2019 raid",
-        "JPMorgan filed suspicious activity reports for $1B in transactions by Epstein associates"
+        "Search warrant applications suggest broader DOJ investigation beyond Maxwell's conviction",
+        "Prince Andrew communications evidence could implicate additional high-profile figures",
+        "Congressional resolution timing suggests coordinated opposition to clemency discussions"
       ],
       "key_entities_mentioned": [
-        "DOJ",
-        "FBI",
-        "Pam Bondi",
+        "Ghislaine Maxwell",
         "Prince Andrew",
-        "James Comer",
-        "Thomas Massie",
-        "JPMorgan Chase",
-        "Virginia Giuffre"
+        "DOJ",
+        "Representative Raja Krishnamoorthi",
+        "House Resolution 119-635"
       ],
       "sources": [
-        "https://en.wikipedia.org/wiki/Epstein_files",
-        "https://www.cnn.com/2026/03/26/politics/epstein-files-prison-officials-night-he-died",
-        "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files",
-        "https://www.businessinsider.com/jeffrey-epstein-safe-diamonds-hard-drives-evidence-what-happened-2026-3",
-        "https://www.rawstory.com/james-comer-2676640354/"
+        "https://www.yahoo.com/news/articles/doj-told-judge-emails-suggest-182405699.html",
+        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-04-01",
-      "raw_response_length": 2019
+      "raw_response_length": 1793
     },
-    "arkansas_datacenter": {
-      "node_id": "arkansas_datacenter",
+    "iran": {
+      "node_id": "iran",
+      "status": "CRITICAL",
+      "headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
+      "summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway.",
+      "is_new_development": true,
+      "event_classification": "ESCALATION",
+      "leverage_type": "KINETIC",
+      "impact_score": 9,
+      "under_radar_flags": [
+        "Iran targeting Gulf state infrastructure (Kuwait airport, Dubai tanker) signals expansion beyond direct US-Iran confrontation",
+        "Trump's 4-6 week timeline for conflict resolution appears 'shaky' according to White House officials",
+        "Pakistan serving as primary diplomatic intermediary with 'Committee of Four' structured backchannel",
+        "Iran threatening US businesses in region while US allies urge continued military pressure"
+      ],
+      "key_entities_mentioned": [
+        "Iran",
+        "Kuwait International Airport",
+        "Dubai",
+        "Trump",
+        "Pete Hegseth",
+        "Abbas Araghchi",
+        "Pakistan",
+        "China",
+        "Strait of Hormuz",
+        "CENTCOM"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/iran/",
+        "https://apnews.com/live/iran-war-israel-trump-03-31-2026",
+        "https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire",
+        "https://www.aljazeera.com/news/2026/3/31/no-truth-to-us-iranian-negotiations-irans-fm-tells-al-jazeera",
+        "https://www.reuters.com/business/energy/giant-oil-tanker-off-dubai-hit-by-iranian-strike-trump-threatens-obliterate-iran-2026-03-31/"
+      ],
+      "confidence": "HIGH",
+      "timestamp": "2026-04-01",
+      "raw_response_length": 2341,
+      "fact_check_notes": [
+        "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan."
+      ]
+    },
+    "gulf_swf": {
+      "node_id": "gulf_swf",
       "status": "ACTIVE",
-      "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Entergy announces $5B customer savings from data center agreements, March 2026",
-      "summary": "Google's $1 billion data center project at the Port of Little Rock has been detailed as consisting of five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation, according to documents submitted to the U.S. Army Corps of Engineers. Separately, Entergy announced $5 billion in customer savings delivered by data center agreements and issued a 'Fair Share Plus' pledge, with Google agreeing to support construction of a new 600-megawatt solar and 350-megawatt battery facility that will serve all Entergy Arkansas customers. Meta also signed a new agreement with Entergy Louisiana that will deliver an additional $2 billion in customer savings and create thousands of construction jobs from 2026 to 2031. The developments demonstrate continued momentum in Arkansas datacenter capital deployment under the Strategic Investment Rider framework established by Act 373.",
+      "headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
+      "summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence.",
+      "is_new_development": true,
+      "event_classification": "COMPLIANCE",
+      "leverage_type": "FINANCIAL",
+      "impact_score": 7,
+      "under_radar_flags": [
+        "PIF capital spending cuts coinciding with war escalation suggests resource reallocation to defense priorities",
+        "Eight simultaneous IPO planning indicates urgent liquidity generation needs",
+        "Mubadala's dual major transactions ($11B combined) during wartime suggests strategic asset repositioning",
+        "Both funds publicly emphasizing investment continuity may signal private capital flight concerns"
+      ],
+      "key_entities_mentioned": [
+        "Saudi PIF",
+        "Mubadala",
+        "Al-Rumayyan",
+        "Humain",
+        "CoolIT Systems",
+        "Clear Channel",
+        "Ecolab",
+        "KKR",
+        "Dar Global",
+        "NEOM",
+        "Vision 2030"
+      ],
+      "sources": [
+        "https://houseofsaud.com/pif-five-year-strategy-humain-ai-fii-miami/",
+        "https://www.cnbc.com/video/2026/03/27/saudi-arabia-pifs-new-strategy-will-hinge-on-third-party-investments.html",
+        "https://usaherald.com/mubadala-capital-to-acquire-clear-channel-in-6-2b-deal/",
+        "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+        "https://www.bloomberg.com/news/articles/2026-03-26/saudi-wealth-fund-commits-to-global-investments-despite-iran-war"
+      ],
+      "confidence": "HIGH",
+      "timestamp": "2026-04-01",
+      "raw_response_length": 2506,
+      "fact_check_notes": [
+        "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified."
+      ]
+    },
+    "israel": {
+      "node_id": "israel",
+      "status": "ACTIVE",
+      "headline": "Israel strikes senior Hezbollah commanders in Beirut April 1 while expanding Tehran infrastructure attacks and suspending IDF battalion over CNN detention",
+      "summary": "Israel conducted two separate strikes in the Beirut area on April 1, 2026, targeting a senior Hezbollah commander and another senior member, according to IDF statements. Simultaneously, Israeli forces completed wide-scale strikes on Iranian regime infrastructure sites in Tehran, with the IDF reporting 170 targets hit over 24 hours including weapons research facilities. The Israeli military suspended an entire reserve battalion on March 30 after soldiers detained a CNN crew in the West Bank village of Tayasir, with the unit pulled for additional training. Iran continues launching missile salvos toward central Israel, with IDF air defenses actively intercepting threats as the conflict enters day 33.",
+      "is_new_development": true,
+      "event_classification": "ESCALATION",
+      "leverage_type": "KINETIC",
+      "impact_score": 8,
+      "under_radar_flags": [
+        "IDF battalion suspension suggests internal discipline issues during wartime operations",
+        "Coordinated Tehran infrastructure targeting indicates systematic degradation campaign",
+        "Hezbollah leadership targeting in Beirut shows expansion beyond Iran proper",
+        "Iranian missile launches continuing despite Israeli strikes suggests sustained capability"
+      ],
+      "key_entities_mentioned": [
+        "IDF",
+        "Hezbollah",
+        "Iran",
+        "Tehran",
+        "Beirut",
+        "CNN",
+        "West Bank",
+        "Lebanese territory"
+      ],
+      "sources": [
+        "https://www.thehindu.com/news/international/us-israel-iran-war-updates-live-march-31-2026/article70805560.ece",
+        "https://www.washingtonpost.com/world/2026/03/30/israel-suspends-battalion-cnn/",
+        "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
+        "https://www.jfeed.com/latest-news",
+        "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-israel-oil-kharg-island-b2948081.html"
+      ],
+      "confidence": "HIGH",
+      "timestamp": "2026-04-01",
+      "raw_response_length": 2131
+    },
+    "oracle_ellison": {
+      "node_id": "oracle_ellison",
+      "status": "ACTIVE",
+      "headline": "Oracle stock surged 14% following Q3 2026 results with $17.2B revenue (22% growth) and 84% cloud infrastructure growth, while announcing $0.50 dividend with April 9, 2026 ex-date",
+      "summary": "Oracle reported strong Q3 FY2026 results (ended February 2026) with total revenue jumping 22% to $17.2 billion, driven by an 84% explosion in Oracle Cloud Infrastructure (OCI) revenue and 44% overall cloud growth. The company announced a $0.50 cash dividend with ex-date of April 9, 2026, and stock surged 14% on the results. Remaining Performance Obligations (RPO) reached a record $553 billion backlog. Despite the strong quarter, Oracle stock remains down 24.6% over the past 3 months and analysts maintain mixed ratings with price targets ranging from $200 (Bank of America buy rating) to $262.91 consensus target. Oracle also secured a federal contract win with Treasury's financial management marketplace as the first cloud-native offering.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
       "impact_score": 6,
       "under_radar_flags": [
-        "Google data center construction details submitted to Army Corps of Engineers suggests federal permitting process underway",
-        "Entergy's 'Fair Share Plus' pledge language indicates potential response to criticism of datacenter utility rate structures",
-        "Meta Louisiana agreement creating construction jobs 2026-2031 timeline aligns with broader Gulf Coast datacenter expansion",
-        "600MW solar + 350MW battery facility represents significant grid infrastructure investment tied to datacenter demand"
+        "Oracle Federal Financials joins Treasury marketplace as first cloud-native offering - potential government revenue stream",
+        "Record $553 billion RPO backlog suggests strong future revenue visibility despite stock decline",
+        "Massive layoffs of nearly 12,000 staff in India amid $2.1 billion restructuring costs allocation",
+        "AI infrastructure growth up 200% according to some reports, positioning for Stargate partnership"
       ],
       "key_entities_mentioned": [
-        "Google",
-        "Entergy Arkansas",
-        "Entergy Louisiana",
-        "Meta",
-        "Port of Little Rock",
-        "U.S. Army Corps of Engineers"
+        "Oracle Corporation",
+        "ORCL",
+        "Oracle Cloud Infrastructure",
+        "OCI",
+        "U.S. Treasury",
+        "Oracle Federal Financials",
+        "Bank of America"
       ],
       "sources": [
-        "https://www.arkansasonline.com/news/2026/mar/31/googles-1b-port-of-little-rock-data-center/",
-        "https://www.entergy.com/news/5b-in-customer-savings-delivered-by-data-center-agreements-issues-fair-share-plus-pledge",
-        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings"
+        "https://finance.yahoo.com/quote/ORCL/",
+        "https://www.tikr.com/blog/oracle-stock-is-down-24-6-over-the-past-3-months-heres-what-could-drive-the-next-move",
+        "https://markets.financialcontent.com/stocks/article/finterra-2026-3-26-oracle-orcl-deep-dive-ai-transformation-meets-legal-and-financial-headwinds",
+        "https://invezz.com/news/2026/03/25/oracle-stock-down-25-in-2026-why-bofa-sees-30-upside/",
+        "https://www.stocktitan.net/news/ORCL/oracle-s-ai-powered-financials-help-federal-agencies-modernize-lk1opfqwbu39.html",
+        "https://www.timesnownews.com/business-economy/companies/oracle-layoffs-nearly-12000-staff-in-india-losses-job-amid-rising-ai-spends-article-153970727"
       ],
       "confidence": "HIGH",
       "timestamp": "2026-04-01",
-      "raw_response_length": 2454
+      "raw_response_length": 2569
+    },
+    "epstein_files": {
+      "node_id": "epstein_files",
+      "status": "ACTIVE",
+      "headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
+      "summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks.",
+      "is_new_development": true,
+      "event_classification": "FRICTION",
+      "leverage_type": "REPUTATIONAL",
+      "impact_score": 8,
+      "under_radar_flags": [
+        "FBI tracked 4chan users who posted about Epstein's death, obtaining IP addresses via grand jury subpoena",
+        "JPMorgan Chase filed suspicious activity reports for $1 billion in transactions by Dubin, Black, Dershowitz, and Wexner",
+        "Diamonds, passports, and hard drives from Epstein's safe went missing for 5 days after 2019 raid",
+        "House Oversight Committee notes DOJ shut down probe into Epstein's New Mexico ranch under Trump",
+        "Counterintelligence specialists were reassigned from national security work to process Epstein documents"
+      ],
+      "key_entities_mentioned": [
+        "DOJ",
+        "Pam Bondi",
+        "Prince Andrew",
+        "Donald Trump",
+        "FBI",
+        "Thomas Massie",
+        "Dick Durbin",
+        "JPMorgan Chase",
+        "Alan Dershowitz",
+        "Leslie Wexner",
+        "Leon Black",
+        "Glenn Dubin"
+      ],
+      "sources": [
+        "https://www.justice.gov/epstein/doj-disclosures",
+        "https://www.cbsnews.com/tag/jeffrey-epstein/",
+        "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files",
+        "https://www.cnn.com/2026/03/26/politics/epstein-files-prison-officials-night-he-died",
+        "https://www.vanityfair.com/news/story/epstein-files-redactions-victims",
+        "https://en.wikipedia.org/wiki/EpsteinExposed"
+      ],
+      "confidence": "HIGH",
+      "timestamp": "2026-04-01",
+      "raw_response_length": 2550,
+      "fact_check_notes": [
+        "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026."
+      ]
+    },
+    "arkansas_datacenter": {
+      "node_id": "arkansas_datacenter",
+      "status": "ACTIVE",
+      "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Meta funds 7 gas plants for Louisiana facility creating thousands of construction jobs 2026-2031",
+      "summary": "Google's $1 billion Port of Little Rock data center project has been detailed as consisting of five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation, according to recent U.S. Army Corps documents. Meanwhile, Meta is funding construction of seven new natural gas-fired plants to power its Louisiana data center, with Entergy announcing the project will create thousands of construction jobs from 2026 to 2031. The developments reinforce Arkansas-Louisiana as a major datacenter corridor, with Google also supporting a new 600-megawatt solar and 350-megawatt battery facility that will serve all Entergy Arkansas customers. West Memphis, Arkansas is being positioned as home to one of the world's largest AI data centers, representing the largest economic investment in Arkansas history.",
+      "is_new_development": true,
+      "event_classification": "COMPLIANCE",
+      "leverage_type": "FINANCIAL",
+      "impact_score": 7,
+      "under_radar_flags": [
+        "Google's Arkansas solar/battery facility will serve ALL Entergy Arkansas customers - potential rate impact mechanism",
+        "West Memphis positioned as 'world's largest AI data center' - scale beyond previous announcements",
+        "Meta's 7 gas plants model could be template for Arkansas datacenter power sourcing",
+        "Construction job creation timeline 2026-2031 aligns with DATA Act implementation window"
+      ],
+      "key_entities_mentioned": [
+        "Google",
+        "Meta",
+        "Entergy Arkansas",
+        "Port of Little Rock",
+        "West Memphis Arkansas",
+        "U.S. Army Corps"
+      ],
+      "sources": [
+        "https://www.arkansasonline.com/news/2026/mar/31/googles-1b-port-of-little-rock-data-center/",
+        "https://medium.com/@keelee.hudson/everything-you-need-to-know-about-the-west-memphis-ar-data-center-5ee74e72e231",
+        "https://www.entergy.com/news/5b-in-customer-savings-delivered-by-data-center-agreements-issues-fair-share-plus-pledge",
+        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings",
+        "https://www.bloomberg.com/news/articles/2026-03-27/meta-funds-seven-entergy-gas-plants-to-power-biggest-data-center"
+      ],
+      "confidence": "HIGH",
+      "timestamp": "2026-04-01",
+      "raw_response_length": 2532
     }
   },
-  "convergence_note": "7 nodes active simultaneously \u2014 within the 7-day convergence window defined by the thermostat model."
+  "convergence_note": "8 nodes active simultaneously \u2014 within the 7-day convergence window defined by the thermostat model."
 }
