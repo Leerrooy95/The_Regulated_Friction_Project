@@ -385,6 +385,99 @@ This is real-time validation that the same consolidation pattern documented in t
 
 ---
 
+## Section 11: White House Ballroom Injunction — Institutional Guardrail Engagement (March 31, 2026)
+
+### The Event
+
+On March 31, 2026, U.S. District Judge Richard Leon (D.C., appointed by George W. Bush) granted a preliminary injunction halting all above-grade construction on President Trump's planned $400 million, 90,000 sq ft East Wing ballroom.
+
+**Key Rulings:**
+> "No statute comes close to giving the President the authority he claims to have."
+
+> "He is a steward of the White House — not, however, the owner!"
+
+- The ruling found the National Trust for Historic Preservation likely to succeed on the merits: construction requires Congressional authorization.
+- Judge Leon carved out a security exception: work "strictly necessary to ensure the safety and security of the White House and its grounds" may continue.
+- 14-day enforcement delay granted to allow government appeal.
+- DOJ filed notice of appeal immediately following the ruling.
+
+**Sources:**
+- [CNBC](https://www.cnbc.com/2026/03/31/trump-white-house-ballroom-judge.html), [ABC News](https://abcnews.com/Politics/federal-judge-orders-halt-white-house-ballroom-construction/story?id=131587116), [NBC News](https://www.nbcnews.com/politics/trump-administration/federal-judge-temporarily-blocks-demolition-white-house-trumps-ballroo-rcna266095), [CBS News](https://www.cbsnews.com/news/judge-temporarily-blocks-construction-of-trumps-white-house-ballroom/), [Politico](https://www.politico.com/news/2026/03/31/trump-white-house-ballroom-lawsuit-order-00852455), [Forbes](https://www.forbes.com/sites/zacharyfolk/2026/03/31/trump-ordered-to-halt-white-house-ballroom-construction/), [Roll Call](https://rollcall.com/2026/03/31/congress-must-approve-trump-ballroom-judge-finds/), [Newsweek](https://www.newsweek.com/republican-appointed-judge-halts-trump-white-house-ballroom-project-11765278)
+
+### Institutional Bypass Mechanisms Documented
+
+Two patterns relevant to the framework emerged in the litigation:
+
+**1. Dual Funding Stream / Regulatory Arbitrage**
+
+The project claimed private donor funding to argue it did not require Congressional appropriations. The administration simultaneously asserted that security infrastructure underneath the ballroom (bomb shelters, access tunnels, classified systems) constituted legitimate national security expenditure — creating a legal wedge between the "vanity project" (private funding) and the security infrastructure (claimed executive authority + security carve-out). ⚠️ PARTIALLY VERIFIED — The dual funding structure and national security framing are confirmed ([NBC4 Washington](https://www.nbcwashington.com/news/national-international/trump-white-house-ballroom-matter-national-security/4029741/), [The Hill](https://thehill.com/blogs/in-the-know/5802453-trump-white-house-ballroom/), [MSN](https://www.msn.com/en-us/news/politics/trump-administration-says-white-house-ballroom-project-must-continue-for-national-security-reasons/ar-AA1SsR1Q)); specific security features of the underground infrastructure (beyond the general "bomb shelters, access tunnels" framing reported in press) not independently confirmed via web search.
+
+**2. Captured Regulatory Body Pattern (NCPC + Commission of Fine Arts)**
+
+The Commission of Fine Arts approved the ballroom proposal despite preservation objections. ⚠️ PARTIALLY VERIFIED — Commission approval confirmed in earlier litigation context (see first search of [factually.co](https://factually.co/fact-checks/justice/judge-richard-leon-white-house-ballroom-ruling-construction-timeline-impact-bdbd8c)); the description of the Commission as "stacked with Trump-appointed members" is reported in press but has not been independently verified at the member level by this project. The NCPC vote on the project remained scheduled for early April 2026 despite the March 31 injunction. The security carve-out Leon wrote into the injunction creates a potential pathway for the administration to continue construction by recharacterizing above-grade work as security-related.
+
+### Framework Alignment
+
+| Mechanism | Validation |
+|-----------|------------|
+| **Institutional guardrail resistance** | A GWB-appointed judge, not a Democrat, issued the blocking injunction — validates that institutional friction can originate from within the executive's own partisan coalition |
+| **Executive Firewall activation** | DOJ filed notice of appeal within hours; Trump framed project as national security (per filing), recharacterizing it to fall within the security exception the judge himself created |
+| **Captured regulatory body pattern** | Commission of Fine Arts approved; NCPC vote proceeded despite injunction — regulatory capture as institutional bypass mechanism |
+| **"Steward not owner" as framework language** | Judge Leon's framing explicitly defines the limit of executive authority over public historical assets — the opposite of Sanders's "he has tools in his toolbox" declaration |
+
+**Framework Significance**: The ballroom injunction documents what **successful institutional guardrail engagement** looks like. A Republican-appointed judge applied existing law to block executive overreach without partisan framing — and the administration's immediate response (security reframing + DOJ appeal) validated the Executive Firewall thesis: when a check succeeds, bypass mechanisms are immediately activated.
+
+---
+
+## Section 12: Anthropic v. DoD Ruling — Judicial Validation of Coercion Template (March 26, 2026)
+
+### The Event
+
+On March 26, 2026, Judge Rita Lin (Biden appointee, N.D. Cal.) granted Anthropic's request for a preliminary injunction, blocking the Pentagon's "supply chain risk" designation.
+
+**Key Rulings (Direct Quotes):**
+> "Nothing in the governing statute supports the Orwellian notion that an American company may be branded a potential adversary and saboteur of the US for expressing disagreement with the government."
+
+> "Punishing Anthropic for bringing public scrutiny to the government's contracting position is classic illegal First Amendment retaliation."
+
+- Court found government rationale "likely pretextual" and its measures "punitive."
+- 14-day enforcement delay granted for government appeal.
+- Pentagon CTO Emil Michael immediately stated the designation remains in effect under a **separate** FASCSA statute (41 U.S.C. § 4713) — the subject of the D.C. Circuit second lawsuit, still pending.
+- Legal analysts note the D.C. Circuit outcome is uncertain: judges Katsas and Rao (both Trump appointees) may view national security statutory arguments more expansively.
+
+**Sources:**
+- [Breaking Defense](https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/), [Rappler](https://www.rappler.com/technology/united-states-judge-blocks-pentagon-anthropic-blacklisting-march-26-2026/), [Market Dash](https://www.marketdash.com/stock-market-news/65474/judge-blocks-trumps-ai-ban-calls-it-first-amendment-retaliation-against-anthropic), [Diginomica](https://diginomica.com/first-blood-anthropic-us-judge-slams-trump-20s-orwellian-attempt-cripple-firm-unconstitutional-and), [FedScoop](https://fedscoop.com/district-court-temporarily-blocks-anthropic-ban-supply-chain-risk-designation/), [Politico](https://www.politico.com/news/2026/03/27/premature-anthropic-still-in-trouble-despite-court-win-lawyers-and-lobbyists-say-00849173)
+
+### Framework Validation: Judicial Confirmation of the Coercion Template
+
+The framework documented the Anthropic coercion sequence in Section 7 of this file (and in `11_LEVERAGE_THESIS.md`) as a six-step template:
+
+| Step | What Happened | What Judge Lin Found |
+|------|--------------|---------------------|
+| 1. **Demand** | Allow "all lawful purposes" including autonomous weapons + mass surveillance | Confirmed demand was made |
+| 2. **Deadline** | 5:01 PM ET, February 27 | Confirmed deadline was set |
+| 3. **Threat** | Supply chain risk designation + DPA invocation | Confirmed threat was made |
+| 4. **Punishment** | Blacklisting, contract termination, revenue destruction (~$200M lost contract) | Confirmed as "punitive" |
+| 5. **Replacement** | OpenAI accepted same terms with weaker enforcement; Grok cleared for classified | Confirmed as rushed replacement |
+| 6. **Narrative escalation** | "Woke AI" → "supply chain risk" → "foreign worker security threat" | Found to be **pretextual** |
+
+**The exception that proves the rule**: Anthropic held the red lines (no fully autonomous weapons; no domestic mass surveillance). The court agreed the designation was illegal retaliation — explicitly confirming that the government's stated rationale (supply chain security) was a pretext for punishing First Amendment-protected speech. This is the judicial system validating the framework's coercion template documentation in real time.
+
+**Why it remains incomplete**: The D.C. Circuit second lawsuit is still pending. If the D.C. Circuit upholds the FASCSA designation, Anthropic's N.D. Cal. win becomes a partial victory — the government will have successfully used a second statutory hook to sustain the same punitive outcome. This would validate a secondary framework prediction: the compliance architecture adapts to judicial checks by invoking alternative statutory authorities.
+
+### Framework Alignment
+
+| Mechanism | Validation |
+|-----------|------------|
+| **Coercion template confirmed judicially** | A federal court characterized the government's actions using the exact mechanics the framework documents: demand, punishment, replacement, narrative escalation |
+| **First Amendment as compliance enforcement tool** | Designating a company as a "supply chain risk" for *publicly disagreeing* with government contracting terms is — per Judge Lin — classic First Amendment retaliation |
+| **Replacement pipeline pre-positioned** | OpenAI closed its deal within hours of the Anthropic ban (Feb 27); the judicial record confirms this speed as anomalous, not routine procurement |
+| **Dual-track legal strategy** | Pentagon CTO's immediate claim that a separate statute still applies demonstrates the compliance architecture's adaptability: when one legal theory is blocked, an alternative is activated |
+
+**Cross-references**: `11_LEVERAGE_THESIS.md` (Anthropic Standoff section, coercion template), `09_CURRENT_THREADS.md` (Node 14, Anthropic v. DoD), `06_ATTENTION_ECONOMY.md`
+
+---
+
 ## Cross-References
 
 - **For core theory**: `01_CORE_THEORY.md`
@@ -401,4 +494,4 @@ This is real-time validation that the same consolidation pattern documented in t
 
 ---
 
-*Last Updated: March 11, 2026. Added Section 10: Trump Victory Narrative vs. Pentagon Reality — Trump-Hegseth attention split, mine-laying boats, FBI West Coast drone threat, Russia-Ukraine talks postponed. Sources: CBS News, Rolling Stone, CENTCOM/Axios/Army Recognition, The Independent/Newsweek, Kyiv Independent/Bloomberg. Previous: March 8, 2026. Added Section 9: Measurable Attention Capture — Google search interest in Epstein files dropped ~95% after Iran strikes (Al Jazeera, ThePost.co.in, Google Trends). Previous: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
+*Last Updated: April 1, 2026 (v11.6). Added Section 11: White House Ballroom Injunction (March 31, 2026) — institutional guardrail engagement, dual funding stream, NCPC captured regulatory body pattern. Added Section 12: Anthropic v. DoD Ruling (March 26, 2026) — judicial validation of coercion template, Judge Rita Lin's "Orwellian" / "First Amendment retaliation" findings, dual-track legal strategy (N.D. Cal. blocked; D.C. Circuit FASCSA case still pending). Sources: CNBC, ABC News, NBC News, CBS News, Politico, Forbes, Roll Call, Newsweek (ballroom); Breaking Defense, Rappler, Market Dash, Diginomica, FedScoop, Politico (Anthropic). Previous: March 11, 2026. Added Section 10: Trump Victory Narrative vs. Pentagon Reality — Trump-Hegseth attention split, mine-laying boats, FBI West Coast drone threat, Russia-Ukraine talks postponed. Sources: CBS News, Rolling Stone, CENTCOM/Axios/Army Recognition, The Independent/Newsweek, Kyiv Independent/Bloomberg. Previous: March 8, 2026. Added Section 9: Measurable Attention Capture — Google search interest in Epstein files dropped ~95% after Iran strikes (Al Jazeera, ThePost.co.in, Google Trends). Previous: March 7, 2026. Added Section 8: Oracle-Stargate Contraction as capital architecture stress test (March 6-7, 2026). All items verified via Bloomberg, DCD, The Register, CNBC. Previous: March 6, 2026. Added March 1-6 war widening convergence, thermostat stress test, March 5 multi-track convergence (5 events), Anthropic non-compliance case study update. All March additions verified via web search (AP News, NPR, Reuters, Axios). Items unable to verify documented in Project_Trident/Copilot_Opus_4.6_Analysis/Unable_to_Verify_March_2026.md.*
