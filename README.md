@@ -6,7 +6,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 |---|---|
 | **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
 | **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with embedded `_AI_CONTEXT_INDEX` knowledge base |
-| **🏛️ Arkansas Tracker** | [Arkansas Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) — live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
+| **🏛️ Arkansas Trackers** | [Arkansas Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) · [Arkansas Dashboard](https://ark.regulatedfriction.me/) — live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
