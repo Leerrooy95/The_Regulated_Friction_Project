@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** March 22, 2026
-**Version:** v11.4
+**Last Updated:** April 1, 2026
+**Version:** v11.5
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -284,7 +284,21 @@ The public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) di
 
 **Falsification criteria:** If April 12–20 passes with NO major competing news events AND the Bondi deposition AND the CLARITY Act vote receive sustained, prominent media coverage, the distraction prediction is falsified for this window.
 
-Five pre-loaded distraction mechanisms documented with deployment readiness assessments: UAP disclosure (zero cost — announcement already made), Cuba kinetic action (low cost — justification pre-built), Iran war escalation (zero cost — already active), domestic crisis events (variable cost), and U.S.-Russia naval confrontation over Cuban oil (variable cost — Anatoly Kolodkin tanker, sanctioned, 730K barrels, ETA ~March 23; Skipper seizure precedent; SOUTHCOM tracking confirmed; see [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md)).
+Five pre-loaded distraction mechanisms documented with deployment readiness assessments: UAP disclosure (zero cost — announcement already made), Cuba kinetic action (low cost — justification pre-built), Iran war escalation (zero cost — already active), domestic crisis events (variable cost), and U.S.-Russia naval confrontation over Cuban oil (variable cost — Anatoly Kolodkin tanker, sanctioned, 730K barrels; **UPDATE: arrived Matanzas Cuba March 30 — Trump allowed on "humanitarian grounds"; no interception; prediction partially falsified for this vessel but Treasury April 11 waiver expiration may trigger next enforcement action**; see [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md)).
+
+### CRINK Late-March 2026: Rift Analysis, North Korea Missile Salvo, and Cuba Dual-Track Aid
+
+**Filed April 1, 2026.** Three major CRINK-framework developments between March 22–31, 2026:
+
+**1. CRINK Rift Confirmed**: Multiple independent analyses documented that China, Russia, and North Korea provided no direct military assistance to Iran despite public condemnation of US-Israel strikes — validating the framework's "flexible security ecosystem" characterization rather than falsifying it. Key analyses: Chosun Biz (March 4): "US strike on Iran exposes CRINK rift"; Carnegie Endowment: "Why Are China and Russia Not Rushing to Help Iran?"; CNA: "War in Iran Tests the China-Russia 'No-Limits Partnership'"; JINSA (March 25): "The Axis Behind Iran: How China, Russia, and North Korea Sustain Tehran's Military Threat." JINSA documents decades of supply chain support for Iran — missiles, components, dual-use technology — while stopping short of collective defense. The CRINK alignment is transactional, not treaty-based.
+
+**2. North Korea Missile Salvo (March 14, 2026)**: North Korea fired 10 ballistic missiles toward the Sea of Japan during US-South Korea Freedom Shield exercises — from Sunan area, Pyongyang, ~340–350 km range. This fills the prior "Monitoring — unverified" gap in the CRINK response table. The salvo follows NK's standard signaling cycle during allied exercises, while analysts note NK is studying US-Israel operations as a strategic model for its own deterrence calculus. An additional advanced missile engine test (ICBM range claimed) was also documented. China simultaneously surged 26 PLA aircraft + 7 PLAN vessels near Taiwan the following day (March 15) — two CRINK members demonstrating military capability in their respective theaters within 24 hours.
+
+**3. Cuba Dual-Track CRINK Aid**: Russia and China provided simultaneous, parallel humanitarian support to Cuba: (a) Anatoly Kolodkin arrived Port of Matanzas, Cuba on March 30 with ~730,000 barrels crude oil — Trump allowed on "humanitarian grounds," US Coast Guard authorized passage; (b) China committed 60,000 tons rice, first ~15,600-ton installment arrived ~March 20–27. Both acts are documented by CounterCurrents.org (March 31): "Ships with Russia's Oil and China's Rice Reach Cuba." The Kolodkin outcome falsifies the interception prediction for this specific vessel — the administration backed down from its own sanctions framework in the face of humanitarian optics, consistent with the thermostat model's predicted behavior. The Treasury April 11 waiver expiration (explicitly excluding Cuba and North Korea) creates the next enforcement trigger.
+
+**Framework Significance**: The March 2026 CRINK data validates three core framework claims simultaneously: (1) CRINK is a transactional network, not a mutual defense pact — confirmed by collective restraint toward Iran; (2) CRINK members do provide tangible support for aligned states facing US pressure — confirmed by Cuba dual-track aid; (3) US enforcement of its own sanctions framework is subject to thermostat dynamics — the Kolodkin humanitarian accommodation demonstrates sanctions pressure bending in response to visible humanitarian costs.
+
+→ **Full analysis**: [`_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md`](_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md) (Late March 2026 Update section), [`05_Geopolitical_Vectors/CRINK_Analysis.md`](05_Geopolitical_Vectors/CRINK_Analysis.md) (March 2026 Update section)
 
 → **Full prediction document**: [`10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md`](10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md)
 

@@ -213,4 +213,47 @@ Key Alignments:
 
 ---
 
-*Analysis conducted January 10, 2026*
+## March 2026 Update: CRINK Rift, Missile Salvo, and Cuba Aid
+
+### March 4–31, 2026: Iran War Exposes CRINK Limits
+
+The US-Israel strikes on Iran (Feb 28) produced the most significant real-world stress test of the CRINK framework to date. Key findings:
+
+**CRINK Rift**: Despite public condemnation, China, Russia, and North Korea provided no direct military intervention to assist Iran. Multiple think tank analyses documented this:
+- Chosun Biz (March 4): "US strike on Iran exposes CRINK rift"
+- Carnegie Endowment (March 2026): "Why Are China and Russia Not Rushing to Help Iran?"
+- CNA (March 2026): "War in Iran Tests the China-Russia 'No-Limits Partnership'"
+- JINSA (March 25): "Russia, China, and North Korea's Strategic Restraint in the Face of Iran's Destruction"
+
+**JINSA Axis Report (March 25, 2026)**: "The Axis Behind Iran: How China, Russia, and North Korea Sustain Tehran's Military Threat" — documents that while the axis supplies Iran with missiles, components, and dual-use technology over decades (enabling military recovery from battlefield losses), they stop short of collective defense. Source: [JINSA.org](https://jinsa.org/wp-content/uploads/2026/03/The-Axis-Behind-Iran-03.25.2026.pdf), [GeopoliticsPulse](https://geopoliticspulse.com/2026/03/25/the-axis-behind-iran-how-china-russia-and-north-korea-sustain-tehrans-military-threat-2/)
+
+**Framework Validation**: This rift is consistent with — not a falsification of — the "flexible security ecosystem" characterization in this analysis. CRINK is a transactional network where each member makes independent risk calculations, not a mutual defense pact. The Turkish intelligence report (Feb 27) naming CRINK as "flexible" has been empirically validated by the March behavior.
+
+### North Korea: First Verified Military Action During Iran War
+
+**March 14, 2026**: North Korea fired 10 ballistic missiles toward the Sea of Japan during US-South Korea Freedom Shield military exercises. Missiles from Sunan area, Pyongyang. Range: ~340–350 km. Altitude: up to 80 km. Did not reach Japan's EEZ. South Korea, Japan, and US condemned as UNSC violation.
+
+Additional: North Korea tested advanced missile engine technology it claims can power ICBMs to reach US mainland (CBS News — independent verification limited).
+
+This fills the prior gap in this analysis where North Korea's response to the Iran war was listed as unverified. The salvo follows NK's standard signaling cycle — firing during allied exercises — while analysts note NK is studying US-Israel operations as a strategic model for its own deterrence calculus.
+
+**Sources**: CNBC, USNI News, Al Jazeera, Bloomberg, Army Recognition (March 14–16, 2026)
+
+### Cuba Dual-Track CRINK Aid (March 20–31, 2026)
+
+Russia and China simultaneously provided parallel humanitarian support to Cuba despite US sanctions:
+
+- **Russia**: Anatoly Kolodkin (sanctioned tanker) arrived Matanzas, Cuba, March 30 with ~730,000 barrels crude. Trump allowed on "humanitarian grounds." ~9–12 days supply.
+- **China**: 60,000 tons rice commitment; first 15,600-ton shipment arrived ~March 20–27. Chinese ambassador frames as "solidarity."
+
+Combined signal documented by CounterCurrents.org (March 31): "Ships with Russia's Oil and China's Rice Reach Cuba" — parallel CRINK humanitarian intervention.
+
+### Dataset Update Note
+
+The CRINK_Intelligence_Dataset_Final_Verified.csv currently covers January 2025 – January 2026 (34 records). The March 2026 developments represent a new high-density period requiring dataset extension:
+- JINSA report (March 25, 2026): **New Military_Security entry**
+- Chosun Biz CRINK rift (March 4): **New Analysis entry**
+- Carnegie/CNA rift analyses: **New Analysis entries**
+- North Korea missile salvo (March 14): **New Military_Security entry**
+
+*Updated April 1, 2026. Previous: January 10, 2026.*

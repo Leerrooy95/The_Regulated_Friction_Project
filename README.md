@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.4
+# The Regulated Friction Project v11.5
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -156,7 +156,21 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.4) — SAVE America Act / Election Infrastructure Integration — March 22, 2026
+## What's New (v11.5) — CRINK Late-March 2026 Update — April 1, 2026
+
+Integrates verified CRINK and Cuba developments from March 22–31, 2026 — the period since the last update — covering the Anatoly Kolodkin oil delivery, China rice shipments to Cuba, North Korea's missile salvo, Iran ceasefire diplomacy restart, and multiple CRINK rift analyses.
+
+- **Node 2 (Iran) updated** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md): Trump delayed further strikes ~March 23 as ceasefire talks resumed via Oman. Witkoff 15-point peace framework delivered to Iran via Pakistani mediators. Witkoff: "strong signs" Iran will recognize it has no choice but to accept. Iranian officials publicly denied substantive talks. Oman's Duqm port struck by Iran, partially complicating mediating role. Multiple mediation channels confirmed (Oman, Pakistan, Turkey, Saudi Arabia). JINSA "Axis Behind Iran" (March 25) validates CRINK as Iran-sustaining supply network, not mutual defense pact.
+- **Cuba crisis updated** in [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md) and [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md): Anatoly Kolodkin arrived Port of Matanzas, Cuba, **March 30**. Trump allowed on "humanitarian grounds"; US Coast Guard authorized passage. ~730,000 barrels crude; ~9–12 days relief. Interception prediction **falsified** for this vessel. China separately shipped 60,000 tons rice total (first 15,600-ton installment ~March 20–27). CRINK dual-track Cuba aid documented (Russia energy + China food, simultaneous). Treasury April 11 waiver expiration is a key upcoming signal for the April convergence window.
+- **North Korea missile salvo documented** (previously listed as "Monitoring — unverified"): 10 ballistic missiles fired **March 14** toward Sea of Japan during US-South Korea Freedom Shield exercises. ~340–350 km range; did not reach Japan's EEZ. NK also tested advanced missile engine claiming ICBM range. Fills prior gap in CRINK response table.
+- **China Taiwan surge documented**: 26 PLA aircraft + 7 PLAN vessels near Taiwan (**March 15**); preceded by US Navy P-8A Taiwan Strait transit (March 12). China 2026 defense budget +7% to ~$278B; language hardened to "crack down on Taiwan independence." Tactical lull mid-March reportedly before possible Xi-Trump summit.
+- **CRINK rift analysis integrated** into [`05_CRINK_FRAMEWORK.md`](_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md) and [`CRINK_Analysis.md`](05_Geopolitical_Vectors/CRINK_Analysis.md): Multiple think-tank analyses document China, Russia, NK provided no direct military assistance to Iran — Chosun Biz (Mar 4), Carnegie Endowment, CNA, Oxus Society, JINSA (Mar 25). Validates "flexible security ecosystem" characterization. JINSA report documents decades of supply chain support enabling Iran's military recovery; stops short of collective defense.
+- **Key dates added**: March 2026 calendar expanded with NK missile salvo (Mar 14), China Taiwan surge (Mar 15), China Cuba rice (Mar 20–27), Iran ceasefire talks restart (~Mar 23), JINSA Axis report (Mar 25), Kolodkin arrival (Mar 30). Treasury April 11 deadline added to Q2-Q3 tracking.
+- **CRINK Research Question updated**: Research Question 5 updated with March 2026 data points validating opportunistic parallel signaling pattern.
+- **Web-verified April 1, 2026**: Kolodkin arrival confirmed (Al Jazeera, Euronews, US News, Bloomberg, Politico, Moscow Times), China rice confirmed (Radio Angulo, CibaCuba, ABC News), NK missiles confirmed (CNBC, USNI News, Al Jazeera, Bloomberg), Iran ceasefire restart confirmed (Bloomberg, ABC News, Times of Israel), JINSA report confirmed (JINSA.org), CRINK rift confirmed (Chosun Biz, Carnegie, CNA, Oxus Society).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`05_CRINK_FRAMEWORK.md`](_AI_CONTEXT_INDEX/05_CRINK_FRAMEWORK.md), [`CRINK_Analysis.md`](05_Geopolitical_Vectors/CRINK_Analysis.md), [`Cuba_Crisis_Escalation_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/Cuba_Crisis_Escalation_March_2026.md), [`Report.md`](Report.md).
+
+### Previous (v11.4) — SAVE America Act / Election Infrastructure Integration — March 22, 2026
 
 Integrates the new SAVE America Act analysis (`10_Real-Time_Updates_and_Tasks/2026_March/SAVE_America_Act_Election_Infrastructure.md`) — 29/30 claims verified with sourced tables throughout — into the repository's active tracking infrastructure. Adds a third convergence track (Track C — election infrastructure) to the April 2026 prediction window.
 
@@ -166,8 +180,6 @@ Integrates the new SAVE America Act analysis (`10_Real-Time_Updates_and_Tasks/20
 - **Web-verified March 22**: H.R. 7296 confirmed (Congress.gov, NBC News, CNBC, NACo), Senate 51-48 confirmed (Yahoo, CNBC, Roll Call), FISA Section 702 April 20 expiration confirmed (Congress.gov CRS, Brennan Center, Brookings), FISA-SAVE coupling confirmed (Axios, Politico, The Hill), SAVE database errors confirmed (ProPublica, Votebeat, Brennan Center, Houston Public Media), Mullin 8-7 confirmed (NBC News, Politico, ABC News, CNBC), Trump "I will not sign other Bills" confirmed (NBC News), Polymarket odds confirmed (Yahoo, USA Today).
 - **Verification corrections applied to source document**: Mullin ICE-at-polls claim nuanced per CNBC/Politico (declined to categorically rule out, not a flat refusal); "Confirmed" → "Advanced from committee" (not yet full Senate confirmation); Rand Paul opposition noted; Polymarket odds updated to ~11–16% range with fluctuation note.
 - **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`Report.md`](Report.md).
-
-### Previous (v11.3) — AI Kill Chain / Minab School Strike Integration — March 22, 2026
 
 Integrates the new AI Kill Chain analysis (`10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`) — 51/53 claims verified with sourced tables throughout — into the repository's active tracking infrastructure.
 
@@ -330,7 +342,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: March 22, 2026 (v11.4)
+**Last updated**: April 1, 2026 (v11.5)
 
 ---
 
