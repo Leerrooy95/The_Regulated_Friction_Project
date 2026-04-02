@@ -8,7 +8,7 @@ https://github.com/Leerrooy95/Sovereign-Capital-Audit
 
 ## Executive Summary: The "Heat Sink" Hypothesis
 
-**This module audits the capital structures behind the "New Right" media ecosystem (Tucker Carlson Network, Daily Wire) to determine if their "anti-establishment" positioning aligns with their financial reality. The forensic analysis suggests these platforms function as a "Media Firewall" or "Heat Sink".**
+**This module audits the capital structures behind the "New Right" media ecosystem (Daily Wire and, until June 2025, Tucker Carlson Network) to determine if their "anti-establishment" positioning aligns with their financial reality. The forensic analysis suggests these platforms function as a "Media Firewall" or "Heat Sink".**
  * The Function: Narrative energy is directed toward high-valence foreign policy disputes (NATO, Ukraine, Israel) and cultural issues ("Wokeness").
  * The Structural Void: There is a distinct absence of critique regarding domestic financial plumbing (e.g., The "Great Taking," Prime Brokerage, or UCC Article 8).
  * The Thesis: This silence is not accidental; it is a structural necessity imposed by the specific financial intermediaries that capitalize these ventures.
@@ -18,9 +18,10 @@ https://github.com/Leerrooy95/Sovereign-Capital-Audit
 ## Key Forensic Findings
 
 **1. The Tucker Carlson Paradox (1789 Capital)**
- * The Backer: The primary financier of the Tucker Carlson Network is 1789 Capital, founded by Omeed Malik.
+ * The Backer: The primary financier of the Tucker Carlson Network **was** 1789 Capital ($15M seed, Oct 2023), founded by Omeed Malik. **In June 2025, Carlson and co-founder Neil Patel bought out all investors, making TCN fully independent.**
  * The Conflict: Malik is a former Managing Director of Prime Brokerage at Bank of America and a senior executive at MF Global.
- * The Implication: The specific financial mechanisms that enable asset dispossession (Rehypothecation, "Security Entitlements") are the same mechanisms that built the wealth funding the "anti-establishment" opposition.
+ * The Implication: The specific financial mechanisms that enable asset dispossession (Rehypothecation, "Security Entitlements") are the same mechanisms that built the wealth that **previously** funded the "anti-establishment" opposition.
+ * **Post-Buyout Development (2025–2026)**: After severing ties with 1789 Capital, Carlson openly broke with the Trump administration over Iran policy, accused Trump of betraying "America First" principles, and was publicly cut from MAGA. This behavioral shift — silent while funded, outspoken after independence — is consistent with the Media Firewall thesis. See `_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md` for full analysis.
 
  **2. The Daily Wire & Distressed Debt**
  * The Backer: The platform was incubated with seed capital from the Wilks Brothers.
@@ -39,7 +40,7 @@ Forensic analysis reveals that Omeed Malik is not merely a passive financier via
 
 ### A. Direct Ownership & Operational Control
 * **The Daily Caller (2020–Present):** Minority owner and contributing editor. Crucially, Malik co-hosts the program *"Wall Street Meets Washington,"* explicitly acting as the bridge between Prime Brokerage capital and populist policy narratives. This predates his TCN investment, establishing a long-term strategic placement.
-* **Tucker Carlson Network (TCN):** Beyond the $15M seed capital, forensic patterns suggest a "Capital Recycling" loop. Malik's SPAC, **PublicSq**, purchases significant advertising inventory on TCN (seven-figure revenue), effectively moving public market capital into the private media firewall.
+* **Tucker Carlson Network (TCN):** 1789 Capital provided $15M in seed capital (Oct 2023). **In June 2025, Carlson and Neil Patel bought out all investors, severing the 1789 Capital link.** Prior to the buyout, forensic patterns suggested a "Capital Recycling" loop — Malik's SPAC, **PublicSq**, purchased significant advertising inventory on TCN (seven-figure revenue), effectively moving public market capital into the private media firewall. This capital relationship is now historical.
 * **Substack:** Portfolio investment via 1789 Capital, securing influence over the "decentralized" creator economy infrastructure.
 
 ### B. Mainstream Validation ("The Loyal Opposition")

@@ -89,7 +89,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 |------|---------|
 | `00_START_HERE.md` | Navigation guide, Dual-Track System, Cartel Statecraft Model |
 | `01_CORE_THEORY.md` | Thermostat model, 7-day median lag (corrected from 14-day), convergence pattern, framework validation |
-| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
+| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN (historical — bought out June 2025), narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff, capital pipeline |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, DATA Act, AVAIO Arkansas |
 | `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |

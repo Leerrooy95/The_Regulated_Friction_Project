@@ -16,6 +16,7 @@
 | **Ritual / calendar timing** | `Project_Trident/Ritual_Timing_Signal_Analysis.md` | `Project_Trident/DATASET_REFERENCE.md`, `Project_Trident/temporal_correlations_analyzed.csv` |
 | **Media firewall / 1789 Capital / Omeed Malik** | `02_MEDIA_FIREWALL.md` | `12_The_Media_Firewall/README.md`, `12_The_Media_Firewall/1789_Symbolism_Analysis.md`, `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` |
 | **Tucker Carlson / Fitts interview** | `sources/2026-02-27_Carlson_Fitts_Control_Grid.md` | `02_MEDIA_FIREWALL.md` |
+| **Tucker Carlson buyout / post-independence** | `02_MEDIA_FIREWALL.md` (Tucker Carlson Buyout section) | `12_The_Media_Firewall/README.md`, `Report.md` (Media Firewall Narrative Timing) |
 | **Board of Peace / private diplomacy** | `03_BOARD_OF_PEACE.md` | `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md`, `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` |
 | **Kushner / Affinity Partners** | `Node_Dossiers/tier1_kushner_historical.md` | `Node_Dossiers/tier2_affinity_qxo.md`, `03_BOARD_OF_PEACE.md` |
 | **Gulf SWF / Silicon Sovereignty** | `04_CAPITAL_ARCHITECTURE.md` | `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md` |

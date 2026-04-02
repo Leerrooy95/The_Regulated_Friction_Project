@@ -18,6 +18,8 @@ government records, SEC filings, and investigative journalism. Where verificatio
 failed or was partial, the claim is explicitly marked as UNVERIFIED or PARTIALLY
 VERIFIED. Treat this as analysis to be verified, not as established fact.
 
+> **⚠️ Critical Update (June 2025):** This analysis was conducted in February 2026 and reflects the capital structure as it existed at that time. In **June 2025**, Tucker Carlson and Neil Patel **bought out all 1789 Capital investors**, making TCN fully independent. The TCN-related findings below (seed investment, capital recycling loop, media domain connections) are **historically accurate** but the 1789 Capital → TCN link is no longer active. Post-buyout, Carlson openly broke with the Trump administration over Iran policy — behavior consistent with the Media Firewall thesis documented here. Malik's other connections (Daily Caller, PublicSq, Anduril, xAI, SpaceX, Fannie Mae) remain active. See `_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md` for the full buyout analysis.
+
 ---
 
 ## Hypothesis Under Test
