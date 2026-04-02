@@ -247,9 +247,9 @@ Private data center developer with $18B+ in announced projects across Arkansas, 
 ### 1789 Capital
 Investment firm founded 2021 in Palm Beach, Florida. Founders: Omeed Malik, Rebekah Mercer, Chris Buskirk. Donald Trump Jr. joined as partner November 2024.
 
-**Portfolio**: Tucker Carlson media ($15M), Anduril, Neuralink, xAI, SpaceX, Cerebras, Groq
+**Portfolio**: Anduril, Neuralink, xAI, SpaceX, Cerebras, Groq, PublicSq. Tucker Carlson media ($15M, Oct 2023) — **bought out June 2025; TCN now independent**.
 
-**Relevance**: Documents US-Gulf financial network connections; "1789" symbolism analysis.
+**Relevance**: Documents US-Gulf financial network connections; "1789" symbolism analysis. TCN buyout (June 2025) and Carlson's subsequent break with the administration provide supporting evidence for the Media Firewall thesis.
 
 ---
 

@@ -212,7 +212,7 @@ Source: [MGX press release](https://www.mgx.ae/en/news/tahnoon-bin-zayed-chairs-
 | Perplexity AI | ✅ VERIFIED | [Fox Business](https://www.foxbusiness.com/markets/trump-jr-backed-investment-fund-explodes-200m-2b-single-year-closing-doors) |
 | xAI | ✅ VERIFIED | [Fox Business](https://www.foxbusiness.com/markets/trump-jr-backed-investment-fund-explodes-200m-2b-single-year-closing-doors), [Capital Digest](https://capitaldigest.com/trump-family-fund-hits-1-billion-in-assets-amid-controversy/) |
 | Anduril | ✅ VERIFIED | [Fox Business](https://www.foxbusiness.com/markets/trump-jr-backed-investment-fund-explodes-200m-2b-single-year-closing-doors) |
-| Tucker Carlson's media company | ✅ VERIFIED | [Capital Digest](https://capitaldigest.com/trump-family-fund-hits-1-billion-in-assets-amid-controversy/) |
+| Tucker Carlson's media company | ✅ VERIFIED — **HISTORICAL**: Carlson & Patel bought out all investors June 2025; TCN now independent | [Capital Digest](https://capitaldigest.com/trump-family-fund-hits-1-billion-in-assets-amid-controversy/), [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors) |
 
 ### Claims Requiring Further Verification
 

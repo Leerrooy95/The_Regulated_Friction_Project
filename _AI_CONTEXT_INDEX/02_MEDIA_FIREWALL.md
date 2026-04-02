@@ -8,7 +8,9 @@
 
 | Claim | Verification | Evidence Location |
 |-------|--------------|-------------------|
-| 1789 Capital funded Tucker Carlson Network with $15M | ✅ VERIFIED | Wikipedia, Mother Jones |
+| 1789 Capital funded Tucker Carlson Network with $15M (Oct 2023) | ✅ VERIFIED | Wikipedia, Mother Jones |
+| Carlson & Patel bought out all 1789 Capital investors (June 2025); TCN now independent | ✅ VERIFIED | [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors) |
+| Post-buyout: Carlson openly criticized Trump administration on Iran policy (2025–2026) | ✅ VERIFIED | [ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270), [NBC News](https://www.nbcnews.com/politics/donald-trump/tucker-carlson-maga-trump-rcna217473) |
 | Omeed Malik was Managing Director at Bank of America Prime Brokerage | ✅ VERIFIED | Professional records |
 | 1789 holds dual symbolism for US (Constitution) and Saudi (1789 conquest) | ⚠️ OBSERVATION | `12_The_Media_Firewall/1789_Symbolism_Analysis.md` |
 | Media firewall directs attention away from financial architecture | 🔍 HYPOTHESIS | Repository analysis |
@@ -17,7 +19,7 @@
 
 ## The Media Firewall Thesis
 
-**Core Argument**: "New Right" media platforms (Tucker Carlson Network, Daily Wire) function as a "heat sink" or "firewall" that:
+**Core Argument**: "New Right" media platforms (Daily Wire and, until June 2025, Tucker Carlson Network) function as a "heat sink" or "firewall" that:
 
 1. **Directs attention**: Toward high-valence foreign policy disputes (NATO, Ukraine, Israel) and cultural issues
 2. **Creates structural void**: Notably silent on domestic financial plumbing (prime brokerage, UCC Article 8)
@@ -36,7 +38,7 @@
 | Location | Palm Beach, Florida |
 | Founders | Omeed Malik, Rebekah Mercer, Chris Buskirk |
 | Trump Jr. joined | November 2024 (as partner) |
-| Key investment | Tucker Carlson's TCN - $15M (October 2023) |
+| Key investment | Tucker Carlson's TCN - $15M (October 2023) — **bought out June 2025; TCN now independent** |
 | Portfolio | Anduril, Neuralink, xAI, SpaceX, Cerebras, Groq |
 
 ### Omeed Malik
@@ -137,7 +139,7 @@ Level 2: Fund of Funds / Subsidiary
     ↓ Anchor Investment
 Level 3: Regional VC/PE (1789 Capital, Wilks Brothers)
     ↓ Series A/B Funding
-Level 4: Consumer Platform (TCN, Daily Wire, PublicSq)
+Level 4: Consumer Platform (Daily Wire, PublicSq; TCN until June 2025 buyout)
 ```
 
 **Key Insight**: The architecture creates "layered distance" separating sovereign capital from consumer content.
@@ -167,12 +169,13 @@ Level 4: Consumer Platform (TCN, Daily Wire, PublicSq)
 
 | Fact | Value |
 |------|-------|
-| 1789 Capital TCN investment | $15M (Oct 2023) |
+| 1789 Capital TCN investment | $15M (Oct 2023) — **bought out June 2025** |
+| Tucker Carlson buyout | June 2025 — Carlson & Patel bought out all investors; TCN now fully independent |
+| Post-buyout Carlson behavior | Openly criticized Trump on Iran policy (2025–2026); triggered "MAGA media civil war" |
 | Trump Jr. joined 1789 | November 2024 |
 | FII Riyadh appearance | October 2025 |
 | World Liberty Financial UAE stake | 49% ($500M) |
 | Charlie Kirk (TPUSA founder) | Original 1789 Capital investor |
-| Tucker Carlson buyout | June 2025 (now independent) |
 
 ---
 
@@ -197,6 +200,48 @@ Research conducted via web searches against current public reporting, DOJ releas
 **Verification**: ✅ All items above confirmed via multiple independent reporting outlets.
 
 **Analytical Note**: The 10× growth ($200M → $2B) occurred in the year following Trump's return to the White House, validating the "Patriotic Capitalism" thesis documented in this repository — political proximity is the core value proposition.
+
+---
+
+### Tucker Carlson Buyout & Post-Independence Behavior (June 2025–Present)
+
+#### The Buyout
+
+In June 2025, Tucker Carlson and co-founder Neil Patel bought out all external investors in the Tucker Carlson Network, including 1789 Capital. The buyout gave Carlson and Patel total ownership and editorial control over TCN, severing the capital link between 1789 Capital and the Tucker Carlson media ecosystem.
+
+| Detail | Information | Source |
+|--------|-------------|--------|
+| Date | June 2025 | [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors) |
+| Action | Carlson & Patel bought out all investors | [DeepNewz](https://deepnewz.com/business/tucker-carlson-neil-patel-buy-out-investors-gain-full-control-2023-founded-15-41936657) |
+| Result | TCN now fully independent; no external capital influence | ✅ VERIFIED |
+| Original investment | $15M seed from 1789 Capital (Oct 2023) | Wikipedia, Mother Jones |
+
+#### Post-Independence Behavior: The Natural Experiment
+
+After exiting the 1789 Capital orbit, Carlson's behavior changed dramatically — providing what amounts to a **natural experiment** for the Media Firewall thesis:
+
+| Period | Behavior | Firewall Status |
+|--------|----------|-----------------|
+| **Oct 2023 – June 2025** (inside capital structure) | Directed anger at CIA/Mossad on Epstein; silent on 1789 Capital/Silver Lake financial architecture; "NATO is dead" narrative seeded compliance windows | 🔇 Firewall active |
+| **June 2025 – Present** (independent) | Openly criticized Trump administration on Iran policy; accused Trump of betraying "America First" principles; triggered "MAGA media civil war" | 🔊 Firewall inactive |
+
+**Key developments post-buyout:**
+- Carlson accused Trump of being "complicit" in Israeli strikes on Iran, breaking with administration messaging ([ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270))
+- Trump publicly dismissed Carlson: "Let him go get a television network and say it so that people listen" ([The Hill](https://thehill.com/policy/technology/5355445-trump-carlson-sparks-media-division/))
+- Trump told allies Carlson had "lost his way" and was no longer "MAGA" ([Newsweek](https://www.newsweek.com/donald-trump-cuts-tucker-carlson-out-maga-iran-war-11632180))
+- Forbes described the resulting fallout as a "MAGA media civil war" ([Forbes](https://www.forbes.com/sites/andymeek/2026/03/20/the-maga-media-civil-war-is-getting-ugly-and-personal/))
+- Carlson echoed MAGA voter frustration: "I can't believe he did this to us" ([Mediaite](https://www.mediaite.com/media/tv/tucker-carlson-echoes-maga-voters-upset-with-trump-i-cant-believe-he-did-this-to-us/))
+
+#### Analytical Significance
+
+**This sequence is structurally significant for the Media Firewall thesis.** The repository's core argument is that capital structures constrain narrative output — platforms funded by 1789 Capital direct attention away from the financial architecture and toward sanctioned targets. Carlson's trajectory provides a before/after test:
+
+- **Before buyout**: Carlson's coverage pattern matched the Media Firewall model — loud on foreign policy friction, silent on financial plumbing, anger directed at sanctioned targets (CIA/Mossad) rather than capital architecture (1789 Capital, Silver Lake).
+- **After buyout**: Carlson broke with the administration on substantive policy, publicly feuded with Trump, and became the leading voice of internal MAGA dissent — behavior that would have been structurally difficult while 1789 Capital (with Trump Jr. as partner) held an equity stake.
+
+**⚠️ Caveat**: Correlation is not causation. The Iran policy shift alone provides sufficient explanation for Carlson's criticism. However, the *timing* — speaking out only after severing financial ties to the Trump-adjacent capital structure — is consistent with the firewall thesis and should be tracked as a supporting data point, not a proof.
+
+**Update to Semiotic Bridge analysis**: The TCN link in the Mubadala → Silver Lake → 1789 Capital → TCN pipeline documented in Report.md is now **historical** (Oct 2023 – June 2025). 1789 Capital's other investments (Anduril, xAI, SpaceX, Neuralink, Cerebras, Groq, PublicSq) remain active. Omeed Malik's role as Semiotic Bridge persists through all non-TCN domains.
 
 ---
 

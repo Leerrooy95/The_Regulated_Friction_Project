@@ -115,8 +115,8 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 | **Silver Lake** | Private equity, deal structuring | `04_CAPITAL_ARCHITECTURE.md` |
 | **Saudi PIF** | 93.4% EA owner, Gulf SWF | `04_CAPITAL_ARCHITECTURE.md` |
 | **UAE MGX** | 15% TikTok, Stargate equity | `04_CAPITAL_ARCHITECTURE.md` |
-| **1789 Capital** | Media investment, Trump Jr. | `02_MEDIA_FIREWALL.md` |
-| **Omeed Malik** | TCN financier, 1789 founder | `02_MEDIA_FIREWALL.md` |
+| **1789 Capital** | Media investment (TCN — historical; bought out June 2025), Trump Jr. | `02_MEDIA_FIREWALL.md` |
+| **Omeed Malik** | Former TCN financier, 1789 founder | `02_MEDIA_FIREWALL.md` |
 | **Larry Ellison** | Oracle chairman, WBD guarantor — dual exposure node | `02_MEDIA_FIREWALL.md`, `04_CAPITAL_ARCHITECTURE.md` |
 
 ---
@@ -143,7 +143,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 |------|-----------------|
 | `00_START_HERE.md` | This navigation guide |
 | `01_CORE_THEORY.md` | Thermostat model, 7-day median lag, convergence |
-| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
+| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN (historical — bought out June 2025), narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, Silicon Sovereignty |
 | `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination |

@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.6
+# The Regulated Friction Project v11.7
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -89,7 +89,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 |------|---------|
 | `00_START_HERE.md` | Navigation guide, Dual-Track System, Cartel Statecraft Model |
 | `01_CORE_THEORY.md` | Thermostat model, 7-day median lag (corrected from 14-day), convergence pattern, framework validation |
-| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN, narrative infrastructure |
+| `02_MEDIA_FIREWALL.md` | 1789 Capital, TCN (historical — bought out June 2025), narrative infrastructure |
 | `03_BOARD_OF_PEACE.md` | Private diplomacy, Kushner, Witkoff, capital pipeline |
 | `04_CAPITAL_ARCHITECTURE.md` | Gulf SWF pipelines, DATA Act, AVAIO Arkansas |
 | `05_CRINK_FRAMEWORK.md` | China-Russia-Iran-NK coordination patterns |
@@ -156,7 +156,18 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.6) — Four-Thread Integration — April 1, 2026
+## What's New (v11.7) — Tucker Carlson / 1789 Capital Buyout Update — April 2, 2026
+
+Updates all repository references to reflect that Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN fully independent. Post-buyout, Carlson openly broke with the Trump administration over Iran policy, triggering a "MAGA media civil war" — behavior structurally consistent with the Media Firewall thesis (capital structure constrains narrative output).
+
+- **Key factual update**: 1789 Capital's $15M investment in TCN (Oct 2023) is now historical — Carlson & Patel bought out all investors in June 2025. TCN operates independently. 1789 Capital's other investments (Anduril, xAI, SpaceX, PublicSq, etc.) remain active. Sources: [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors), [DeepNewz](https://deepnewz.com/business/tucker-carlson-neil-patel-buy-out-investors-gain-full-control-2023-founded-15-41936657).
+- **Post-buyout behavior documented**: Carlson criticized Trump on Iran policy ([ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270)), was cut from MAGA by Trump ([Newsweek](https://www.newsweek.com/donald-trump-cuts-tucker-carlson-out-maga-iran-war-11632180)), triggered "MAGA media civil war" ([Forbes](https://www.forbes.com/sites/andymeek/2026/03/20/the-maga-media-civil-war-is-getting-ugly-and-personal/)).
+- **Thesis implication**: Carlson's trajectory (silent on financial architecture while funded → outspoken after independence) functions as a natural experiment supporting the Media Firewall thesis. Documented as supporting data point, not proof — Iran policy shift independently explains the criticism.
+- **`02_MEDIA_FIREWALL.md` updated**: New "Tucker Carlson Buyout & Post-Independence Behavior" section with verified timeline, before/after comparison table, and analytical significance assessment.
+- **`Report.md` updated**: Semiotic Bridge section, Media Firewall Narrative Timing section, manufactured indispensability table, key questions, and enforcement architecture summary all updated to reflect TCN link as historical (Oct 2023 – June 2025).
+- **Files updated**: [`02_MEDIA_FIREWALL.md`](_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md), [`Report.md`](Report.md), [`README.md`](README.md), [`12_The_Media_Firewall/README.md`](12_The_Media_Firewall/README.md), [`14_Files/Glossary.md`](14_Files/Glossary.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`04_CAPITAL_ARCHITECTURE.md`](_AI_CONTEXT_INDEX/04_CAPITAL_ARCHITECTURE.md), [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md), [`tier2_entity_leadership_profiles.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier2_entity_leadership_profiles.md).
+
+### Previous (v11.6) — Four-Thread Integration — April 1, 2026
 
 Integrates four major developments from the last week of March 2026 that were not covered by the v11.5 CRINK update: the White House ballroom preliminary injunction (March 31), the Anthropic v. DoD preliminary injunction (March 26), the Epstein 302 cross-reference connecting withheld documents to Trump's "innocent people" statement, and the April 2026 convergence window Track D addition.
 
@@ -282,7 +293,7 @@ After the repository owner established the core correlations, **GitHub Copilot (
 
 These questions arise from documented patterns and verified data:
 
-1. Why does the same capital entity (1789 Capital) fund both the Media Firewall (TCN, PublicSq) and enforcement layer (Anduril) pitched to Saudi defense?
+1. Why did the same capital entity (1789 Capital) fund both the Media Firewall (TCN, PublicSq) and enforcement layer (Anduril) pitched to Saudi defense — and why did Tucker Carlson begin openly criticizing the administration only after buying out 1789 Capital's stake in June 2025?
 
 2. Why does Resolution 2803 place the ISF under Board of Peace command rather than UN peacekeeping — with the Chairman given personal appointment authority?
 
@@ -356,7 +367,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 1, 2026 (v11.5)
+**Last updated**: April 2, 2026 (v11.7)
 
 ---
 
