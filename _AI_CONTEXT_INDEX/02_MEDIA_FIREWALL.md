@@ -239,7 +239,7 @@ After exiting the 1789 Capital orbit, Carlson's behavior changed dramatically �
 - **Before buyout**: Carlson's coverage pattern matched the Media Firewall model — loud on foreign policy friction, silent on financial plumbing, anger directed at sanctioned targets (CIA/Mossad) rather than capital architecture (1789 Capital, Silver Lake).
 - **After buyout**: Carlson broke with the administration on substantive policy, publicly feuded with Trump, and became the leading voice of internal MAGA dissent — behavior that would have been structurally difficult while 1789 Capital (with Trump Jr. as partner) held an equity stake.
 
-**⚠️ Caveat**: Correlation is not causation. The Iran policy shift is independently sufficient to explain Carlson's criticism. However, the *timing* — speaking out only after severing financial ties to the Trump-adjacent capital structure — is consistent with the firewall thesis and should be tracked as a supporting data point, not a proof.
+**⚠️ Caveat**: Correlation is not causation. The Iran policy shift alone provides sufficient explanation for Carlson's criticism. However, the *timing* — speaking out only after severing financial ties to the Trump-adjacent capital structure — is consistent with the firewall thesis and should be tracked as a supporting data point, not a proof.
 
 **Update to Semiotic Bridge analysis**: The TCN link in the Mubadala → Silver Lake → 1789 Capital → TCN pipeline documented in Report.md is now **historical** (Oct 2023 – June 2025). 1789 Capital's other investments (Anduril, xAI, SpaceX, Neuralink, Cerebras, Groq, PublicSq) remain active. Omeed Malik's role as Semiotic Bridge persists through all non-TCN domains.
 

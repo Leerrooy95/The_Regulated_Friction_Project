@@ -749,7 +749,7 @@ Mubadala (UAE SWF)
                                                       └── Fannie Mae board — Housing/Finance
 ```
 
-**What this means:** A single node (1789 Capital / Malik) deploys Gulf-sourced capital (Silver Lake → Mubadala chain), sits on government housing boards (Fannie Mae), and funds the enforcement layer (Anduril) — all under a "Patriotic Capitalism" brand that functions as a scrutiny dampener. The TCN media link was active from October 2023 until June 2025, when Carlson and Patel bought out all investors. Post-buyout, Carlson openly broke with the Trump administration (see Media Firewall Narrative Timing section above), which is consistent with the thesis that capital structure constrains narrative output.
+**What this means:** A single node (1789 Capital / Malik) deploys Gulf-sourced capital (Silver Lake → Mubadala chain), sits on government housing boards (Fannie Mae), and funds the enforcement layer (Anduril) — all under a "Patriotic Capitalism" brand that functions as a scrutiny dampener. During October 2023 – June 2025, this node also controlled narrative infrastructure through TCN; that link was severed when Carlson and Patel bought out all investors. Post-buyout, Carlson openly broke with the Trump administration (see Media Firewall Narrative Timing section above), which is consistent with the thesis that capital structure constrains narrative output.
 
 **Caveats:** No Epstein connection found. Board of Peace adjacency is structural, not formal membership. Gulf SWF funding is indirect (Mubadala → Silver Lake → 1789), not direct LP investment. Editorial intent is unconfirmable. TCN link is now historical (Oct 2023 – June 2025).
 
