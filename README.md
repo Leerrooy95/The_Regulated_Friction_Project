@@ -367,7 +367,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 1, 2026 (v11.5)
+**Last updated**: April 2, 2026 (v11.7)
 
 ---
 

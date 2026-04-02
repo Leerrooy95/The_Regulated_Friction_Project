@@ -36,7 +36,7 @@ https://github.com/Leerrooy95/Sovereign-Capital-Audit
 
 ## Operational Footprint: The Expanded Malik Ecosystem
 
-Forensic analysis reveals that Omeed Malik is not merely a passive financier via 1789 Capital; he is an active operator embedded in the media infrastructure. His footprint extends beyond the Tucker Carlson Network (TCN) into direct ownership, content creation, and mainstream normalization.
+Forensic analysis reveals that Omeed Malik is not merely a passive financier via 1789 Capital; he is an active operator embedded in the media infrastructure. His footprint extends beyond the Tucker Carlson Network (TCN) — from which 1789 Capital was bought out in June 2025 — into direct ownership, content creation, and mainstream normalization.
 
 ### A. Direct Ownership & Operational Control
 * **The Daily Caller (2020–Present):** Minority owner and contributing editor. Crucially, Malik co-hosts the program *"Wall Street Meets Washington,"* explicitly acting as the bridge between Prime Brokerage capital and populist policy narratives. This predates his TCN investment, establishing a long-term strategic placement.
