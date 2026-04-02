@@ -1,119 +1,295 @@
 {
-  "checked_at": "2026-04-01T09:00:18.871063+00:00",
+  "checked_at": "2026-04-02T08:57:52.931250+00:00",
   "status": "CORRECTED",
   "model": "claude-sonnet-4-6",
-  "claims_checked": 9,
-  "claims_verified": 5,
-  "claims_flagged": 3,
-  "claims_unverifiable": 1,
+  "claims_checked": 29,
+  "claims_verified": 20,
+  "claims_flagged": 7,
+  "claims_unverifiable": 2,
   "corrections_applied": [
     {
-      "claim_index": 1,
-      "source": "node_status/iran",
+      "claim_index": 0,
+      "source": "node_status/maxwell",
       "locations_updated": 1,
-      "original_headline": "Iran strikes Kuwait airport and Dubai oil tanker April 1 as Trump schedules prime-time address while China-Pakistan propose immediate ceasefire plan",
-      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
-      "original_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport on April 1, causing massive fires but no casualties, while Iran also attacked and set ablaze a crude oil tanker off Dubai. Trump is scheduled to deliver a prime-time address Wednesday evening to update the public on the Iran war",
-      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway.",
-      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan."
+      "original_headline": "Maxwell's lawyers offer full testimony about Epstein relationship in exchange for Trump clemency, April 2026",
+      "corrected_headline": "Maxwell lawyers publicly offer full Epstein testimony in exchange for Trump clemency; House resolution opposes any pardon",
+      "original_summary": "According to BBC reporting from April 2, 2026, lawyers for Ghislaine Maxwell have stated she will speak 'fully and honestly' about her relationship with Jeffrey Epstein, but only if President Trump grants her clemency. This represents a more explicit public offer than previous clemency negotiations.",
+      "corrected_summary": "Lawyers for Ghislaine Maxwell have publicly stated she would speak fully and honestly about her relationship with Jeffrey Epstein if President Trump grants her clemency, representing an explicit public offer. Representative Raja Krishnamoorthi has proposed House Resolution 119-635 to the House Judiciary Committee opposing any clemency, affirming her conviction was warranted. The DOJ has published approximately 3.5 million responsive pages under the Epstein Files Transparency Act, with a sixth release on March 5, 2026, though reports suggest the full file set exceeds 6 million pages.",
+      "finding": "The claim states the total document release is 3.5 million pages, but web evidence indicates over 6 million pages exist in the full Epstein files, with a sixth release on March 5, 2026; the 3.5 million figure refers to an earlier DOJ press release milestone, not the complete March 2026 total. Additionally, the claim references 'House Resolution 119-635' as a recent April 2026 development, but Wikipedia places this resolution on August 5 (no year specified), and the BBC April 2 reporting date for the clemency offer is unverifiable from provided evidence. The core BBC-reported clemency offer framing ('fully and honestly') is partially supported by web evidence but the precise April 2 date and wording cannot be fully confirmed."
     },
     {
-      "claim_index": 2,
-      "source": "node_status/gulf_swf",
+      "claim_index": 4,
+      "source": "node_status/oracle_ellison",
       "locations_updated": 1,
-      "original_headline": "PIF unveils new five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war pressures",
-      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
-      "original_summary": "Saudi PIF Governor Al-Rumayyan announced the fund's new five-year strategy will be released \"in the coming few weeks\" at FII Miami, featuring a 15% reduction in capital spending while pivoting toward AI investments through subsidiary Humain's first US customer deal with Turing. Eight PIF subsidiary ",
-      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence.",
-      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified."
+      "original_headline": "Oracle stock plunges 57% after massive layoffs and $10B AI bet raises financial stability concerns, April 1-2 2026",
+      "corrected_headline": "Oracle stock down ~57% amid AI spending concerns as company cuts up to 30,000 jobs and sets $2.1B restructuring budget",
+      "original_summary": "Oracle's stock has crashed 57% following the announcement of laying off approximately 30,000 workers (18% of global workforce) to fund AI expansion, with nearly 12,000 job cuts in India alone. The company has set aside $2.1 billion for restructuring costs this fiscal year, including an additional $5",
+      "corrected_summary": "Oracle's stock has fallen approximately 57% amid investor concerns over its aggressive AI infrastructure push, coinciding with the announcement of up to 30,000 layoffs globally \u2014 roughly 18% of its workforce \u2014 to fund a $10 billion AI expansion. The company has set aside up to $2.1 billion for restructuring costs in fiscal 2026. Despite strong Q3 results showing 22% revenue growth to $17.2 billion, analysts are questioning Oracle's financial stability given its existing $100B+ debt load and deeply negative free cash flow.",
+      "finding": "The stock decline figure is inconsistently reported: Forbes cites 57% while CapitalAI Daily cites 58%; the claim uses 57% which aligns with Forbes. However, the claim states Oracle 'set aside $2.1 billion for restructuring costs this fiscal year, including an additional $500 million allocation' \u2014 web evidence from The Guardian confirms the $2.1B restructuring cost figure but does not confirm a separate additional $500M allocation as a distinct line item. More critically, the claim frames the 57% drop as a single-event crash tied to the layoff announcement, but evidence suggests it reflects cumulative stock decline from AI spending pressures rather than a single-day crash. The core facts (57% decline, ~30,000 layoffs, $10B AI bet, $2.1B restructuring) are supported."
     },
     {
       "claim_index": 5,
       "source": "node_status/epstein_files",
       "locations_updated": 1,
-      "original_headline": "DOJ releases 3.5 million Epstein documents through March 2026 with new revelations about Prince Andrew arrest and Trump files amid FBI processing criticism",
-      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
-      "original_summary": "The DOJ completed a massive document release of 3.5 million pages of Epstein-related records through March 2026, including previously unseen files pertaining to President Trump and emails showing Prince Andrew may have forwarded confidential trade documents to Epstein, which led to his recent arrest",
-      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks.",
-      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026."
+      "original_headline": "DOJ released 3.5 million Epstein documents by March 2026 with Prince Andrew arrested, while FBI Director Patel claims no evidence of trafficking to other high-profile individuals despite congressional pressure",
+      "corrected_headline": "DOJ published 3.5M Epstein pages by January 2026 with further releases through March; Prince Andrew arrested in February over email disclosures",
+      "original_summary": "The DOJ completed its major Epstein file release with 3.5 million pages by March 2026, leading to Prince Andrew's arrest over allegations he forwarded confidential trade documents to Epstein based on newly revealed emails. FBI Director Kash Patel told Congress that an 'exhaustive review' by nearly 1",
+      "corrected_summary": "The DOJ released approximately 3.5 million responsive pages under the Epstein Files Transparency Act on January 30, 2026, with a sixth release on March 5, 2026; reports indicate the full file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released documents suggested he may have shared confidential information with Epstein. FBI Director Kash Patel told Congress that an exhaustive review found no evidence Epstein trafficked women to other high-profile individuals, drawing pushback from lawmakers including Rep. Thomas Massie.",
+      "finding": "The claim states the DOJ released 3.5 million Epstein documents 'by March 2026,' but web evidence indicates the major 3.5 million page release occurred on January 30, 2026, with a sixth release on March 5, 2026, and the full file set reportedly exceeds 6 million pages \u2014 the 3.5 million figure is not the March 2026 total. Additionally, Prince Andrew's arrest is confirmed by web evidence as occurring in February 2026 based on the January 30 release, not as a result of a March release."
+    },
+    {
+      "claim_index": 10,
+      "source": "daily_intelligence/breaking_news",
+      "locations_updated": 1,
+      "original_headline": "Kuwaiti oil tanker struck and caught fire off Dubai amid Iran war escalation - March 30, 2026",
+      "corrected_headline": "Kuwaiti oil tanker struck by Iranian drone attack off Dubai on March 30, 2026; fire extinguished with crew aboard",
+      "original_summary": "A Kuwaiti oil tanker carrying crude caught fire after being struck off Dubai, occurring one day after Trump's threats against Iranian infrastructure targets. The incident highlights the vulnerability of Gulf shipping lanes during the ongoing US-Iran conflict, with 21 crew members aboard the vessel a",
+      "corrected_summary": "A fully loaded Kuwaiti crude oil tanker, the Al-Salmi, was struck by an apparent Iranian drone attack while anchored at Dubai Port on March 30, 2026, one day after Trump's threats against Iranian infrastructure targets. Kuwait Petroleum Corporation confirmed the vessel was directly attacked, causing a fire that was subsequently extinguished by Dubai authorities. The incident underscores the vulnerability of Gulf shipping amid the ongoing US-Iran conflict.",
+      "finding": "The claim attributes crew count reporting to the 'Qatari Defense Ministry,' but no web source mentions Qatar's Defense Ministry in connection with this incident; sources cite Kuwait Petroleum Corporation and Dubai/UAE authorities. The 21 crew member figure is not confirmed in available web evidence."
+    },
+    {
+      "claim_index": 16,
+      "source": "daily_intelligence/top_developments",
+      "locations_updated": 2,
+      "original_headline": "DOJ completed 3.5 million page Epstein document release in March 2026, revealing new prison guard details and triggering Prince Andrew arrest",
+      "corrected_headline": "DOJ's 3.5M-page Epstein release in January 2026 triggered Prince Andrew arrest; March 5 sixth release added further documents",
+      "original_summary": "The Department of Justice completed a massive document release of 3.5 million pages under the Epstein Files Transparency Act, including FBI 302 interview summaries and previously sealed materials. New revelations include detailed accounts of what prison officials were doing the night Epstein died, w",
+      "corrected_summary": "The DOJ published approximately 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, with a sixth supplemental release on March 5, 2026; reports indicate the complete file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released materials included photos and emails suggesting he may have shared confidential information with Epstein. New documents also detailed what prison guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks.",
+      "finding": "The claim states the DOJ 'completed' a 3.5 million page release 'in March 2026,' but web evidence shows the major 3.5 million page release occurred January 30, 2026 (not March), with a sixth supplemental release on March 5, 2026, and total files reportedly exceed 6 million pages. Prince Andrew's arrest occurred in February 2026 following the January release, not as a result of a March 2026 release."
+    },
+    {
+      "claim_index": 21,
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "locations_updated": 2,
+      "original_headline": "Russia rejects Ukraine's Easter ceasefire proposal; trilateral US-Ukraine-Russia talks continue without breakthrough as Trump's Easter deadline passes",
+      "corrected_headline": "Russia rejects Ukraine's Easter ceasefire proposal; US-mediated trilateral talks continue without breakthrough as Trump's deadline passes",
+      "original_summary": "Ukraine proposed an Easter ceasefire covering energy infrastructure strikes, which Russia rejected through Kremlin spokesman Peskov, demanding instead that Ukraine withdraw from parts of Donbas as a precondition. Trilateral talks involving Ukraine, Russia, and the US continue with Trump administrati",
+      "corrected_summary": "Russia rejected Ukraine's proposed Easter ceasefire covering energy infrastructure strikes, with Kremlin spokesman Peskov dismissing it as a 'PR stunt' and demanding Ukraine withdraw from parts of Donbas as a precondition. Trilateral negotiations involving Ukraine, Russia, and the US continue with US special envoy Steve Witkoff as the primary American mediator, but no breakthrough has been achieved. Trump's Easter deadline for a ceasefire has passed without resolution, with key sticking points including territorial control and Ukraine's NATO membership aspirations.",
+      "finding": "The claim names 'Jared Kushner' as a Trump administration mediator in Ukraine-Russia talks, but web evidence identifies Steve Witkoff as the US special envoy handling these negotiations; Kushner is not mentioned in any of the provided sources as a Ukraine-Russia mediator. Kushner's role is associated with Gulf/Middle East investment, not Ukraine diplomacy."
+    },
+    {
+      "claim_index": 28,
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "locations_updated": 1,
+      "original_headline": "DOJ released 3.5 million pages of Epstein documents in March 2026, revealing new details on prison officials' activities during Epstein's death and ongoing Congressional investigations",
+      "corrected_headline": "DOJ Epstein document releases surpass 3.5M pages through March 2026 with sixth release on March 5; prison guard details and Prince Andrew arrest among key developments",
+      "original_summary": "The Department of Justice has released approximately 3.5 million pages of Epstein-related documents as of March 2026 under the Epstein Files Transparency Act, including new FBI 302 interview summaries and prison records. Recent releases shed light on what prison guards were doing the night Epstein d",
+      "corrected_summary": "The DOJ published a landmark 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, followed by a sixth supplemental release on March 5, 2026; the full file set is reported to exceed 6 million pages. Recent releases include FBI 302 interview summaries and prison records detailing what guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks. The document releases triggered Prince Andrew's arrest in February 2026 and ongoing Congressional investigations, with the DOJ Epstein library serving as a live repository.",
+      "finding": "The claim states the DOJ released approximately 3.5 million pages 'as of March 2026,' but web evidence shows the 3.5 million page milestone was reached with the January 30, 2026 release, with a sixth supplemental release on March 5, 2026; the total file set reportedly exceeds 6 million pages, making '3.5 million pages as of March 2026' an undercount of the cumulative total."
     }
   ],
   "enrichment_targets_found": 0,
   "enrichments_applied": [],
   "issues_found": [
     {
-      "claim": "Iran strikes Kuwait airport and Dubai oil tanker April 1 as Trump schedules prime-time address while China-Pakistan propose immediate ceasefire plan",
-      "source": "node_status/iran",
-      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan.",
-      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
-      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway."
+      "claim": "Maxwell's lawyers offer full testimony about Epstein relationship in exchange for Trump clemency, April 2026",
+      "source": "node_status/maxwell",
+      "finding": "The claim states the total document release is 3.5 million pages, but web evidence indicates over 6 million pages exist in the full Epstein files, with a sixth release on March 5, 2026; the 3.5 million figure refers to an earlier DOJ press release milestone, not the complete March 2026 total. Additionally, the claim references 'House Resolution 119-635' as a recent April 2026 development, but Wikipedia places this resolution on August 5 (no year specified), and the BBC April 2 reporting date for the clemency offer is unverifiable from provided evidence. The core BBC-reported clemency offer framing ('fully and honestly') is partially supported by web evidence but the precise April 2 date and wording cannot be fully confirmed.",
+      "corrected_headline": "Maxwell lawyers publicly offer full Epstein testimony in exchange for Trump clemency; House resolution opposes any pardon",
+      "corrected_summary": "Lawyers for Ghislaine Maxwell have publicly stated she would speak fully and honestly about her relationship with Jeffrey Epstein if President Trump grants her clemency, representing an explicit public offer. Representative Raja Krishnamoorthi has proposed House Resolution 119-635 to the House Judiciary Committee opposing any clemency, affirming her conviction was warranted. The DOJ has published approximately 3.5 million responsive pages under the Epstein Files Transparency Act, with a sixth release on March 5, 2026, though reports suggest the full file set exceeds 6 million pages."
     },
     {
-      "claim": "PIF unveils new five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war pressures",
-      "source": "node_status/gulf_swf",
-      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified.",
-      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
-      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence."
+      "claim": "Oracle stock plunges 57% after massive layoffs and $10B AI bet raises financial stability concerns, April 1-2 2026",
+      "source": "node_status/oracle_ellison",
+      "finding": "The stock decline figure is inconsistently reported: Forbes cites 57% while CapitalAI Daily cites 58%; the claim uses 57% which aligns with Forbes. However, the claim states Oracle 'set aside $2.1 billion for restructuring costs this fiscal year, including an additional $500 million allocation' \u2014 web evidence from The Guardian confirms the $2.1B restructuring cost figure but does not confirm a separate additional $500M allocation as a distinct line item. More critically, the claim frames the 57% drop as a single-event crash tied to the layoff announcement, but evidence suggests it reflects cumulative stock decline from AI spending pressures rather than a single-day crash. The core facts (57% decline, ~30,000 layoffs, $10B AI bet, $2.1B restructuring) are supported.",
+      "corrected_headline": "Oracle stock down ~57% amid AI spending concerns as company cuts up to 30,000 jobs and sets $2.1B restructuring budget",
+      "corrected_summary": "Oracle's stock has fallen approximately 57% amid investor concerns over its aggressive AI infrastructure push, coinciding with the announcement of up to 30,000 layoffs globally \u2014 roughly 18% of its workforce \u2014 to fund a $10 billion AI expansion. The company has set aside up to $2.1 billion for restructuring costs in fiscal 2026. Despite strong Q3 results showing 22% revenue growth to $17.2 billion, analysts are questioning Oracle's financial stability given its existing $100B+ debt load and deeply negative free cash flow."
     },
     {
-      "claim": "DOJ releases 3.5 million Epstein documents through March 2026 with new revelations about Prince Andrew arrest and Trump files amid FBI processing criticism",
+      "claim": "DOJ released 3.5 million Epstein documents by March 2026 with Prince Andrew arrested, while FBI Director Patel claims no evidence of trafficking to other high-profile individuals despite congressional pressure",
       "source": "node_status/epstein_files",
-      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026.",
-      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
-      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks."
+      "finding": "The claim states the DOJ released 3.5 million Epstein documents 'by March 2026,' but web evidence indicates the major 3.5 million page release occurred on January 30, 2026, with a sixth release on March 5, 2026, and the full file set reportedly exceeds 6 million pages \u2014 the 3.5 million figure is not the March 2026 total. Additionally, Prince Andrew's arrest is confirmed by web evidence as occurring in February 2026 based on the January 30 release, not as a result of a March release.",
+      "corrected_headline": "DOJ published 3.5M Epstein pages by January 2026 with further releases through March; Prince Andrew arrested in February over email disclosures",
+      "corrected_summary": "The DOJ released approximately 3.5 million responsive pages under the Epstein Files Transparency Act on January 30, 2026, with a sixth release on March 5, 2026; reports indicate the full file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released documents suggested he may have shared confidential information with Epstein. FBI Director Kash Patel told Congress that an exhaustive review found no evidence Epstein trafficked women to other high-profile individuals, drawing pushback from lawmakers including Rep. Thomas Massie."
+    },
+    {
+      "claim": "Kuwaiti oil tanker struck and caught fire off Dubai amid Iran war escalation - March 30, 2026",
+      "source": "daily_intelligence/breaking_news",
+      "finding": "The claim attributes crew count reporting to the 'Qatari Defense Ministry,' but no web source mentions Qatar's Defense Ministry in connection with this incident; sources cite Kuwait Petroleum Corporation and Dubai/UAE authorities. The 21 crew member figure is not confirmed in available web evidence.",
+      "corrected_headline": "Kuwaiti oil tanker struck by Iranian drone attack off Dubai on March 30, 2026; fire extinguished with crew aboard",
+      "corrected_summary": "A fully loaded Kuwaiti crude oil tanker, the Al-Salmi, was struck by an apparent Iranian drone attack while anchored at Dubai Port on March 30, 2026, one day after Trump's threats against Iranian infrastructure targets. Kuwait Petroleum Corporation confirmed the vessel was directly attacked, causing a fire that was subsequently extinguished by Dubai authorities. The incident underscores the vulnerability of Gulf shipping amid the ongoing US-Iran conflict."
+    },
+    {
+      "claim": "DOJ completed 3.5 million page Epstein document release in March 2026, revealing new prison guard details and triggering Prince Andrew arrest",
+      "source": "daily_intelligence/top_developments",
+      "finding": "The claim states the DOJ 'completed' a 3.5 million page release 'in March 2026,' but web evidence shows the major 3.5 million page release occurred January 30, 2026 (not March), with a sixth supplemental release on March 5, 2026, and total files reportedly exceed 6 million pages. Prince Andrew's arrest occurred in February 2026 following the January release, not as a result of a March 2026 release.",
+      "corrected_headline": "DOJ's 3.5M-page Epstein release in January 2026 triggered Prince Andrew arrest; March 5 sixth release added further documents",
+      "corrected_summary": "The DOJ published approximately 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, with a sixth supplemental release on March 5, 2026; reports indicate the complete file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released materials included photos and emails suggesting he may have shared confidential information with Epstein. New documents also detailed what prison guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks."
+    },
+    {
+      "claim": "Russia rejects Ukraine's Easter ceasefire proposal; trilateral US-Ukraine-Russia talks continue without breakthrough as Trump's Easter deadline passes",
+      "source": "daily_intelligence/signal/Russia-Ukraine negotiations",
+      "finding": "The claim names 'Jared Kushner' as a Trump administration mediator in Ukraine-Russia talks, but web evidence identifies Steve Witkoff as the US special envoy handling these negotiations; Kushner is not mentioned in any of the provided sources as a Ukraine-Russia mediator. Kushner's role is associated with Gulf/Middle East investment, not Ukraine diplomacy.",
+      "corrected_headline": "Russia rejects Ukraine's Easter ceasefire proposal; US-mediated trilateral talks continue without breakthrough as Trump's deadline passes",
+      "corrected_summary": "Russia rejected Ukraine's proposed Easter ceasefire covering energy infrastructure strikes, with Kremlin spokesman Peskov dismissing it as a 'PR stunt' and demanding Ukraine withdraw from parts of Donbas as a precondition. Trilateral negotiations involving Ukraine, Russia, and the US continue with US special envoy Steve Witkoff as the primary American mediator, but no breakthrough has been achieved. Trump's Easter deadline for a ceasefire has passed without resolution, with key sticking points including territorial control and Ukraine's NATO membership aspirations."
+    },
+    {
+      "claim": "DOJ released 3.5 million pages of Epstein documents in March 2026, revealing new details on prison officials' activities during Epstein's death and ongoing Congressional investigations",
+      "source": "daily_intelligence/signal/Epstein document releases",
+      "finding": "The claim states the DOJ released approximately 3.5 million pages 'as of March 2026,' but web evidence shows the 3.5 million page milestone was reached with the January 30, 2026 release, with a sixth supplemental release on March 5, 2026; the total file set reportedly exceeds 6 million pages, making '3.5 million pages as of March 2026' an undercount of the cumulative total.",
+      "corrected_headline": "DOJ Epstein document releases surpass 3.5M pages through March 2026 with sixth release on March 5; prison guard details and Prince Andrew arrest among key developments",
+      "corrected_summary": "The DOJ published a landmark 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, followed by a sixth supplemental release on March 5, 2026; the full file set is reported to exceed 6 million pages. Recent releases include FBI 302 interview summaries and prison records detailing what guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks. The document releases triggered Prince Andrew's arrest in February 2026 and ongoing Congressional investigations, with the DOJ Epstein library serving as a live repository."
     }
   ],
   "full_results": [
     {
       "claim_index": 0,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms DOJ search warrant applications disclosed March 31, 2026 revealed emails suggesting Maxwell arranged women for Prince Andrew including communications ahead of his 2002 Peru state visit."
+      "status": "FLAGGED",
+      "finding": "The claim states the total document release is 3.5 million pages, but web evidence indicates over 6 million pages exist in the full Epstein files, with a sixth release on March 5, 2026; the 3.5 million figure refers to an earlier DOJ press release milestone, not the complete March 2026 total. Additionally, the claim references 'House Resolution 119-635' as a recent April 2026 development, but Wikipedia places this resolution on August 5 (no year specified), and the BBC April 2 reporting date for the clemency offer is unverifiable from provided evidence. The core BBC-reported clemency offer framing ('fully and honestly') is partially supported by web evidence but the precise April 2 date and wording cannot be fully confirmed.",
+      "corrected_headline": "Maxwell lawyers publicly offer full Epstein testimony in exchange for Trump clemency; House resolution opposes any pardon",
+      "corrected_summary": "Lawyers for Ghislaine Maxwell have publicly stated she would speak fully and honestly about her relationship with Jeffrey Epstein if President Trump grants her clemency, representing an explicit public offer. Representative Raja Krishnamoorthi has proposed House Resolution 119-635 to the House Judiciary Committee opposing any clemency, affirming her conviction was warranted. The DOJ has published approximately 3.5 million responsive pages under the Epstein Files Transparency Act, with a sixth release on March 5, 2026, though reports suggest the full file set exceeds 6 million pages."
     },
     {
       "claim_index": 1,
-      "status": "FLAGGED",
-      "finding": "Web evidence confirms the Kuwait airport drone strike and the tanker strike off Dubai, but the tanker struck was a Kuwaiti-owned tanker (Kuwait Petroleum), not described as an Iranian attack on 'April 1' \u2014 the tanker strike occurred on March 30-31 per evidence. More critically, no web evidence supports a China-Pakistan '5-point peace initiative' presented on March 31; the verified peace proposal referenced is a 15-point US proposal that Iran rejected. The claim misattributes the ceasefire initiative to China and Pakistan.",
-      "corrected_headline": "Iran strikes Kuwait airport and Kuwaiti oil tanker off Dubai as Trump plans prime-time address; Iran rejects US 15-point ceasefire proposal",
-      "corrected_summary": "Iranian drone attacks struck fuel tanks at Kuwait International Airport and set ablaze a Kuwaiti crude oil tanker off Dubai, causing fires but no reported casualties. Trump is scheduled to deliver a prime-time address on the Iran war, with Defense Secretary Hegseth stating the next few days will be decisive. Iran's foreign minister confirmed his country had neither responded to the US 15-point peace proposal nor made a counteroffer, denying formal negotiations were underway."
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Trump's 'Stone Age' threat, the fifth-week war timeline, Iran's denial of requesting a ceasefire, and backchannel negotiations via intermediaries including Pakistan; the China-Pakistan mediation framing is partially supported by NBC reporting referencing Pakistan as an intermediary country."
     },
     {
       "claim_index": 2,
-      "status": "FLAGGED",
-      "finding": "The CoolIT exit is confirmed as a Mubadala and KKR deal, but the claim describes it as a 'Mubadala exit' when Mubadala was only a minority investor \u2014 the deal was led by KKR. The Clear Channel acquisition by Mubadala is not supported by any web evidence provided. The PIF and CoolIT details are otherwise verified.",
-      "corrected_headline": "PIF unveils five-year strategy cutting capital spending 15% with eight IPOs planned for 2026 while Mubadala and KKR complete $4.75B CoolIT exit amid Iran war pressures",
-      "corrected_summary": "Saudi PIF Governor Al-Rumayyan announced a new five-year strategy to be released in coming weeks, featuring a 15% reduction in capital spending and a pivot toward AI investments, with eight PIF subsidiary IPOs planned for 2026. UAE's Mubadala, as a minority investor alongside lead seller KKR, completed an exit from CoolIT Systems in a $4.75B deal with 15x returns, with the transaction expected to close in Q3. The claim regarding a Mubadala acquisition of Clear Channel could not be verified from available evidence."
+      "status": "VERIFIED",
+      "finding": "Multiple web sources confirm Saudi PIF announced a strategic pivot toward private sector partnerships in a new 2026-2030 five-year plan, as outlined by Governor Al-Rumayyan at FII PRIORITY Miami, with third-party capital emphasis despite regional war pressures."
     },
     {
       "claim_index": 3,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Israel conducted two strikes in the Beirut area on April 1 targeting a senior Hezbollah commander and another senior member, and separately conducted wide-scale strikes on Iranian infrastructure. The IDF battalion suspension over the CNN crew detention in the West Bank is consistent with reporting; the core claims are supported."
+      "finding": "Web evidence confirms Israeli strikes on approximately 400 Iranian targets over 48 hours ending April 1, 2026, targeting military infrastructure in Tehran, and Israel establishing a security zone in southern Lebanon with Netanyahu confirmation, alongside ongoing Iranian missile exchanges."
     },
     {
       "claim_index": 4,
-      "status": "VERIFIED",
-      "finding": "Web evidence confirms Oracle Q3 FY2026 revenue of $17.2B (22% growth), 84% cloud infrastructure growth, 44% overall cloud growth, 14% stock surge, $0.50 dividend with April 9 2026 ex-date, and stock down ~24.6% over three months. The April 9 ex-date is a future date relative to April 1 run date but is a scheduled corporate action, not a speculative claim."
+      "status": "FLAGGED",
+      "finding": "The stock decline figure is inconsistently reported: Forbes cites 57% while CapitalAI Daily cites 58%; the claim uses 57% which aligns with Forbes. However, the claim states Oracle 'set aside $2.1 billion for restructuring costs this fiscal year, including an additional $500 million allocation' \u2014 web evidence from The Guardian confirms the $2.1B restructuring cost figure but does not confirm a separate additional $500M allocation as a distinct line item. More critically, the claim frames the 57% drop as a single-event crash tied to the layoff announcement, but evidence suggests it reflects cumulative stock decline from AI spending pressures rather than a single-day crash. The core facts (57% decline, ~30,000 layoffs, $10B AI bet, $2.1B restructuring) are supported.",
+      "corrected_headline": "Oracle stock down ~57% amid AI spending concerns as company cuts up to 30,000 jobs and sets $2.1B restructuring budget",
+      "corrected_summary": "Oracle's stock has fallen approximately 57% amid investor concerns over its aggressive AI infrastructure push, coinciding with the announcement of up to 30,000 layoffs globally \u2014 roughly 18% of its workforce \u2014 to fund a $10 billion AI expansion. The company has set aside up to $2.1 billion for restructuring costs in fiscal 2026. Despite strong Q3 results showing 22% revenue growth to $17.2 billion, analysts are questioning Oracle's financial stability given its existing $100B+ debt load and deeply negative free cash flow."
     },
     {
       "claim_index": 5,
       "status": "FLAGGED",
-      "finding": "The claim states Prince Andrew's arrest was linked to him forwarding confidential trade documents to Epstein, which is confirmed. However, the claim says 'led to his recent arrest' implying it is recent as of the claim date (March/April 2026), when web evidence shows Andrew was arrested on February 18, 2026 \u2014 not recently relative to late March 2026. More critically, the claim states '3.5 million Epstein documents' were released, but web evidence indicates the DOJ press release cites 3.5 million responsive pages while a Wikipedia source notes the database indexed only 2.15 million documents as of March 2026, suggesting the 3.5M figure refers to pages not documents. The framing of 'new revelations about Prince Andrew arrest' as if the arrest is recent is misleading given it occurred in February 2026.",
-      "corrected_headline": "DOJ releases 3.5 million pages of Epstein records through March 2026; Prince Andrew arrested in February over trade document allegations",
-      "corrected_summary": "The DOJ published 3.5 million responsive pages of Epstein-related records in compliance with the Epstein Files Transparency Act through March 2026, including files pertaining to President Trump. Emails showing Prince Andrew may have forwarded confidential trade documents to Epstein were cited by police in connection with his arrest on February 18, 2026 on suspicion of misconduct in public office. The release also included new details about Epstein's final hours, with guards failing to conduct required 30-minute checks."
+      "finding": "The claim states the DOJ released 3.5 million Epstein documents 'by March 2026,' but web evidence indicates the major 3.5 million page release occurred on January 30, 2026, with a sixth release on March 5, 2026, and the full file set reportedly exceeds 6 million pages \u2014 the 3.5 million figure is not the March 2026 total. Additionally, Prince Andrew's arrest is confirmed by web evidence as occurring in February 2026 based on the January 30 release, not as a result of a March release.",
+      "corrected_headline": "DOJ published 3.5M Epstein pages by January 2026 with further releases through March; Prince Andrew arrested in February over email disclosures",
+      "corrected_summary": "The DOJ released approximately 3.5 million responsive pages under the Epstein Files Transparency Act on January 30, 2026, with a sixth release on March 5, 2026; reports indicate the full file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released documents suggested he may have shared confidential information with Epstein. FBI Director Kash Patel told Congress that an exhaustive review found no evidence Epstein trafficked women to other high-profile individuals, drawing pushback from lawmakers including Rep. Thomas Massie."
     },
     {
       "claim_index": 6,
       "status": "VERIFIED",
-      "finding": "Web evidence directly confirms Google's $1B Port of Little Rock data center consists of five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation per Army Corps documents, and that Meta is funding seven new natural gas plants to power its Louisiana data center through an Entergy partnership creating thousands of construction jobs."
+      "finding": "Web evidence fully confirms both the Google $1B Little Rock data center (1.43M sq ft, five industrial buildings, two office buildings, electrical substation per Army Corps documents) and Meta funding seven new natural gas plants for its Louisiana Hyperion data center via Entergy, with thousands of construction jobs projected."
     },
     {
       "claim_index": 7,
       "status": "VERIFIED",
-      "finding": "Web evidence confirms Day 32 of the Iran war as of March 31, 2026, Trump's claim that Iran agreed to allow 20 oil ships through the Strait of Hormuz, Iran's rejection of the 15-point US ceasefire proposal with counterdemands including war reparations and sovereignty over the Strait, and the Kuwaiti tanker strike off Dubai. All core claims are supported by multiple sources."
+      "finding": "Multiple major outlets including Reuters, CNBC, Politico, and NYT confirm Trump's April 1 claim that Iran requested a ceasefire, his Hormuz precondition, Iran's denial calling the claims 'false and baseless,' and backchannel negotiations via intermediaries."
     },
     {
       "claim_index": 8,
+      "status": "VERIFIED",
+      "finding": "Reuters, NPR, NYT, The Guardian, and AP all confirm Trump's primetime address stating US core strategic objectives are nearing completion, with a 2-3 week timeline for continued strikes, and oil price spikes following his remarks."
+    },
+    {
+      "claim_index": 9,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms the Board of Peace was formally established under EO 14375 with Trump as chairman, up to 35 states agreed to join with no other G7 nations participating, and it operates with IOIA diplomatic immunity protections."
+    },
+    {
+      "claim_index": 10,
+      "status": "FLAGGED",
+      "finding": "The claim attributes crew count reporting to the 'Qatari Defense Ministry,' but no web source mentions Qatar's Defense Ministry in connection with this incident; sources cite Kuwait Petroleum Corporation and Dubai/UAE authorities. The 21 crew member figure is not confirmed in available web evidence.",
+      "corrected_headline": "Kuwaiti oil tanker struck by Iranian drone attack off Dubai on March 30, 2026; fire extinguished with crew aboard",
+      "corrected_summary": "A fully loaded Kuwaiti crude oil tanker, the Al-Salmi, was struck by an apparent Iranian drone attack while anchored at Dubai Port on March 30, 2026, one day after Trump's threats against Iranian infrastructure targets. Kuwait Petroleum Corporation confirmed the vessel was directly attacked, causing a fire that was subsequently extinguished by Dubai authorities. The incident underscores the vulnerability of Gulf shipping amid the ongoing US-Iran conflict."
+    },
+    {
+      "claim_index": 11,
+      "status": "VERIFIED",
+      "finding": "CSIS analysis confirmed by web evidence explicitly states Iran is abandoning calibrated retaliation for rapid escalation, expanding the war across the region; the March 27, 2026 date and CSIS attribution are supported."
+    },
+    {
+      "claim_index": 12,
+      "status": "VERIFIED",
+      "finding": "Multiple sources including The Guardian, 2026 Iran war Wikipedia, and 2026 Lebanon war Wikipedia confirm Iran has conditioned any ceasefire on Lebanon being included, linking a ceasefire to ending the 2026 Lebanon war against Hezbollah."
+    },
+    {
+      "claim_index": 13,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms the simultaneous timing of Trump's April 1 Iran ceasefire claims (Day 33 of the conflict beginning February 28) and the Board of Peace presenting an 8-month Hamas disarmament plan requiring tunnel destruction, with both being active Trump-led diplomatic initiatives."
+    },
+    {
+      "claim_index": 14,
+      "status": "VERIFIED",
+      "finding": "Reuters confirms Trump announced $7 billion in international commitments for Gaza reconstruction at the Board of Peace's first meeting on February 19, 2026; the claim accurately notes contributor nations are not specifically disclosed in available sources."
+    },
+    {
+      "claim_index": 15,
+      "status": "VERIFIED",
+      "finding": "Bloomberg, Reuters, and The Guardian all confirm SpaceX filed confidentially with the SEC for an IPO ahead of OpenAI and Anthropic, targeting a potential June 2026 listing, consistent with the claim's description."
+    },
+    {
+      "claim_index": 16,
+      "status": "FLAGGED",
+      "finding": "The claim states the DOJ 'completed' a 3.5 million page release 'in March 2026,' but web evidence shows the major 3.5 million page release occurred January 30, 2026 (not March), with a sixth supplemental release on March 5, 2026, and total files reportedly exceed 6 million pages. Prince Andrew's arrest occurred in February 2026 following the January release, not as a result of a March 2026 release.",
+      "corrected_headline": "DOJ's 3.5M-page Epstein release in January 2026 triggered Prince Andrew arrest; March 5 sixth release added further documents",
+      "corrected_summary": "The DOJ published approximately 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, with a sixth supplemental release on March 5, 2026; reports indicate the complete file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released materials included photos and emails suggesting he may have shared confidential information with Epstein. New documents also detailed what prison guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks."
+    },
+    {
+      "claim_index": 17,
+      "status": "VERIFIED",
+      "finding": "Web evidence from TheStreet, Yahoo Finance, and ainvest confirms Oracle's Q3 FY2026 22% revenue growth to $17.2B, $50B capex target for FY2026, deeply negative free cash flow (approximately -$24.7B trailing four quarters), and growing concerns about dividend sustainability."
+    },
+    {
+      "claim_index": 18,
+      "status": "VERIFIED",
+      "finding": "Reuters, Al Jazeera, and Times of Israel confirm the Board of Peace presented an 8-month staged Hamas disarmament plan requiring tunnel destruction, with $7 billion in reconstruction commitments announced at the Board's February 19 debut meeting, authorized under UN Resolution 2803."
+    },
+    {
+      "claim_index": 19,
       "status": "UNVERIFIABLE",
-      "finding": "Web evidence confirms the Board of Peace 8-month Hamas disarmament plan and ISF authorization framework, but the specific claims of '$7B reconstruction fund announced' and 'UN Resolution 2803' authorizing ISF deployment and Kosovo troop contributions cannot be verified or refuted from the available evidence, making a full verification or confident correction impossible."
+      "finding": "While Saudi PIF's commitment to global investment despite the Iran war is confirmed by multiple sources, the specific claims about Mubadala exiting CoolIT for $4.75B (sold to Ecolab) and acquiring Clear Channel Outdoor for $6.2B cannot be verified or refuted from the provided web evidence, which contains no mention of either transaction."
+    },
+    {
+      "claim_index": 20,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms House Resolution 119-635 proposed by Rep. Krishnamoorthi opposing Maxwell clemency; Wikipedia confirms Maxwell's invocation of Fifth Amendment rights before Congress; the Pam Bondi 'die in prison' quote is not contradicted by available evidence and is consistent with the context."
+    },
+    {
+      "claim_index": 21,
+      "status": "FLAGGED",
+      "finding": "The claim names 'Jared Kushner' as a Trump administration mediator in Ukraine-Russia talks, but web evidence identifies Steve Witkoff as the US special envoy handling these negotiations; Kushner is not mentioned in any of the provided sources as a Ukraine-Russia mediator. Kushner's role is associated with Gulf/Middle East investment, not Ukraine diplomacy.",
+      "corrected_headline": "Russia rejects Ukraine's Easter ceasefire proposal; US-mediated trilateral talks continue without breakthrough as Trump's deadline passes",
+      "corrected_summary": "Russia rejected Ukraine's proposed Easter ceasefire covering energy infrastructure strikes, with Kremlin spokesman Peskov dismissing it as a 'PR stunt' and demanding Ukraine withdraw from parts of Donbas as a precondition. Trilateral negotiations involving Ukraine, Russia, and the US continue with US special envoy Steve Witkoff as the primary American mediator, but no breakthrough has been achieved. Trump's Easter deadline for a ceasefire has passed without resolution, with key sticking points including territorial control and Ukraine's NATO membership aspirations."
+    },
+    {
+      "claim_index": 22,
+      "status": "UNVERIFIABLE",
+      "finding": "While web evidence confirms the general contours of the Anthropic-Pentagon dispute and OpenAI filling the gap, the specific claims \u2014 including the exact $200M contract figure, the precise February 27, 2026 date, the 'supply chain risk' designation triggering a lawsuit, and the federal judge's temporary stay \u2014 cannot be fully verified or refuted from the provided web evidence, which describes the situation in general terms without confirming these specific details."
+    },
+    {
+      "claim_index": 23,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Oracle's Q3 FY2026 22% revenue growth to $17.2B, 84% OCI revenue growth, $50B FY2026 capex target, deeply negative free cash flow at approximately -$24.7B trailing four quarters, and analyst concerns about dividend sustainability amid $100B+ existing debt."
+    },
+    {
+      "claim_index": 24,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms OPM launched the Early Career Talent Network targeting Gen Z workers after 2025 mass federal workforce reductions, with Schedule Policy/Career implementation ongoing amid legal challenges; the claim accurately uses OPM rather than the disbanded DOGE as the active institutional actor."
+    },
+    {
+      "claim_index": 25,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms TikTok addiction lawsuits are advancing through courts in 2026, Minnesota's July 2026 mental health pop-up warning requirement, and the 'defective product' legal theory being validated by recent verdicts, consistent with all key claims."
+    },
+    {
+      "claim_index": 26,
+      "status": "VERIFIED",
+      "finding": "Web evidence from the Customs and International Trade Law Blog confirms CFIUS is soliciting input on a fast-track program for repeat filers (3+ transactions in past 3 years), with Treasury stressing it does not guarantee outcomes or alter statutory procedures, consistent with the claim."
+    },
+    {
+      "claim_index": 27,
+      "status": "VERIFIED",
+      "finding": "Web evidence confirms Google's $1B Port of Little Rock data center (1.43M sq ft, five industrial buildings) and Entergy's announcement of $5 billion in projected savings for 2.3 million customers across Arkansas, Louisiana, and Mississippi from data center agreements under the Fair Share Plus framework."
+    },
+    {
+      "claim_index": 28,
+      "status": "FLAGGED",
+      "finding": "The claim states the DOJ released approximately 3.5 million pages 'as of March 2026,' but web evidence shows the 3.5 million page milestone was reached with the January 30, 2026 release, with a sixth supplemental release on March 5, 2026; the total file set reportedly exceeds 6 million pages, making '3.5 million pages as of March 2026' an undercount of the cumulative total.",
+      "corrected_headline": "DOJ Epstein document releases surpass 3.5M pages through March 2026 with sixth release on March 5; prison guard details and Prince Andrew arrest among key developments",
+      "corrected_summary": "The DOJ published a landmark 3.5 million responsive Epstein pages on January 30, 2026, under the Epstein Files Transparency Act, followed by a sixth supplemental release on March 5, 2026; the full file set is reported to exceed 6 million pages. Recent releases include FBI 302 interview summaries and prison records detailing what guards Noel and Thomas were doing the night Epstein died, including failures to conduct required 30-minute checks. The document releases triggered Prince Andrew's arrest in February 2026 and ongoing Congressional investigations, with the DOJ Epstein library serving as a live repository."
     }
   ]
 }

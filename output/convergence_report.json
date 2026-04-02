@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-04-01T08:59:04.253975+00:00",
-  "total_runs_analyzed": 71,
+  "analysis_timestamp": "2026-04-02T08:49:05.913681+00:00",
+  "total_runs_analyzed": 73,
   "window_days": 7,
   "adaptive_windows": {
     "maxwell": 7,
@@ -1247,15 +1247,139 @@
       ],
       "has_friction_compliance_pair": true,
       "has_new_developments": true
+    },
+    {
+      "date": "2026-04-01",
+      "active_node_count": 6,
+      "nodes": [
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Trump threatens Iran with 'Stone Age' bombing if Strait of Hormuz remains closed while claiming Iran requested ceasefire on April 1, 2026 - Iran denies both ceasefire request and negotiations",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "PIF announces new five-year strategy launch 'within weeks' focusing on private partnerships while Mubadala completes $4.75B CoolIT exit and $6.2B Clear Channel acquisition amid Iran war pressures",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel conducts 570+ strikes on Iranian targets over 48 hours while killing senior Hezbollah commander and IRGC Lebanon chief, April 1 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle announces massive layoffs of 29,000 employees (18% of workforce) on March 31, 2026 to fund AI infrastructure expansion while stock remains down 24.6% over past 3 months despite Q3 earnings beat",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ releases 3.5 million Epstein pages by January 30, 2026; Prince Andrew arrested February 2026 over trade documents; Trump files revealed despite redaction attempts",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Meta funds 7 gas plants for Louisiana facility creating thousands of construction jobs 2026-2031",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": true
+    },
+    {
+      "date": "2026-04-02",
+      "active_node_count": 7,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "Maxwell's lawyers offer full testimony about Epstein relationship in exchange for Trump clemency, April 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "iran",
+          "status": "ACTIVE",
+          "classification": "ESCALATION",
+          "headline": "US-Iran war enters fifth week with Trump threatening 'Stone Age' bombing while backchannel ceasefire negotiations reportedly underway via China-Pakistan mediation, April 1-2 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Saudi PIF announces strategic pivot to private partnerships in new five-year plan covering 2026-2030, with third-party capital focus amid regional war pressures",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "israel",
+          "status": "ACTIVE",
+          "classification": "ESCALATION",
+          "headline": "Israel strikes 400 Iranian targets over 48 hours ending April 1, 2026, while creating 'security zone' in southern Lebanon amid ongoing missile exchanges",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle stock plunges 57% after massive layoffs and $10B AI bet raises financial stability concerns, April 1-2 2026",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ released 3.5 million Epstein documents by March 2026 with Prince Andrew arrested, while FBI Director Patel claims no evidence of trafficking to other high-profile individuals despite congressional pressure",
+          "is_new_headline": true
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Meta funds 7 gas plants for Louisiana facility creating thousands of construction jobs 2026-2031",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "FRICTION",
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": true
     }
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 66,
-      "active_count": 23,
+      "total_appearances": 68,
+      "active_count": 25,
       "critical_count": 4,
       "classifications": {
-        "COMPLIANCE": 22,
+        "COMPLIANCE": 24,
         "NEUTRAL": 41,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
@@ -1263,51 +1387,51 @@
       }
     },
     "oracle_ellison": {
-      "total_appearances": 63,
-      "active_count": 20,
-      "critical_count": 0,
+      "total_appearances": 65,
+      "active_count": 22,
+      "critical_count": 2,
       "classifications": {
-        "COMPLIANCE": 18,
+        "COMPLIANCE": 20,
         "FRICTION": 2,
         "NEUTRAL": 43
       }
     },
     "epstein_files": {
-      "total_appearances": 65,
-      "active_count": 22,
+      "total_appearances": 67,
+      "active_count": 24,
       "critical_count": 6,
       "classifications": {
         "COMPLIANCE": 4,
-        "FRICTION": 18,
+        "FRICTION": 20,
         "NEUTRAL": 43
       }
     },
     "maxwell": {
-      "total_appearances": 63,
-      "active_count": 16,
+      "total_appearances": 65,
+      "active_count": 17,
       "critical_count": 3,
       "classifications": {
-        "FRICTION": 17,
-        "NEUTRAL": 45,
+        "FRICTION": 18,
+        "NEUTRAL": 46,
         "COMPLIANCE": 1
       }
     },
     "iran": {
-      "total_appearances": 64,
-      "active_count": 34,
-      "critical_count": 18,
+      "total_appearances": 66,
+      "active_count": 36,
+      "critical_count": 19,
       "classifications": {
-        "ESCALATION": 20,
+        "ESCALATION": 22,
         "NEUTRAL": 30,
         "DE_ESCALATION": 14
       }
     },
     "israel": {
-      "total_appearances": 57,
-      "active_count": 32,
-      "critical_count": 9,
+      "total_appearances": 59,
+      "active_count": 34,
+      "critical_count": 10,
       "classifications": {
-        "ESCALATION": 14,
+        "ESCALATION": 16,
         "NEUTRAL": 21,
         "COMPLIANCE": 15,
         "FRICTION": 3,
@@ -1315,11 +1439,11 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 56,
-      "active_count": 14,
+      "total_appearances": 58,
+      "active_count": 16,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 14,
+        "COMPLIANCE": 16,
         "NEUTRAL": 42
       }
     }
@@ -1349,6 +1473,7 @@
     "2026-03-29": 2,
     "2026-03-30": 7,
     "2026-03-31": 7,
-    "2026-04-01": 7
+    "2026-04-01": 6,
+    "2026-04-02": 7
   }
 }

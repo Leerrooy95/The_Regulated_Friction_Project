@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T03:05:16Z",
+  "generated_at": "2026-04-02T08:55:58Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 10,
   "status_summary": {
@@ -12,145 +12,146 @@
       "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "Ghislaine Maxwell has repeatedly requested clemency from Trump, with her lawyer indicating she could provide information clearing Trump and Bill Clinton of Epstein-related wrongdoing in exchange for clemency. Trump has responded noncommittally, stating he's \"allowed to do it\" but hasn't thought about it, while DOJ officials have made contradictory statements about her prison transfer.",
-      "source": "https://en.wikipedia.org/wiki/Epstein_files",
+      "description": "Ghislaine Maxwell is actively seeking clemency from the Trump administration, with Democratic lawmakers questioning the possibility of Trump granting her a pardon or commutation. A DOJ official was caught on video claiming Maxwell was transferred to lower-security prison to keep her quiet, while the clemency petition remains under consideration with no final decision announced.",
+      "source": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
       "citations": [
-        "https://en.wikipedia.org/wiki/Epstein_files",
         "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://www.bbc.com/news/live/ce94y2yykgrt",
         "https://english.elpais.com/usa/2026-03-29/the-flourishing-industry-of-presidential-pardons-breaks-records-in-trumps-washington.html",
-        "https://www.cnn.com/2026/03/10/politics/jeffrey-epstein-inner-circle-relationships-vis"
+        "https://okmagazine.com/p/jen-shah-former-prison-mate-ghislaine-maxwell-showed-no-remorse-victims/",
+        "https://www.theglobeandmail.com/business/article-ubs-ghislaine-maxwell-new-hampshire-property-tucked-away/"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "The Iran-US conflict remains active with no ceasefire achieved as of April 1, 2026. Iran has rejected multiple US ceasefire proposals, including a 15-point peace plan, while Trump claims negotiations are ongoing despite Iranian officials denying any direct talks are taking place. The conflict continues with ongoing strikes across the region.",
-      "source": "https://www.theguardian.com/world/2026/mar/25/iran-gives-negative-response-to-us-ceasefire-plan-amid-push-for-talks",
+      "description": "The conflict remains active with contradictory signals on ceasefire prospects. Trump claims Iran requested a ceasefire and wants the Strait of Hormuz reopened first, while Iranian officials consistently deny any ongoing negotiations and reject US ceasefire proposals as \"one-sided and unfair.\" Recent strikes continue including attacks on Tehran that injured Iranian officials, indicating neither ceasefire nor major escalation threshold has been definitively reached.",
+      "source": "https://www.reuters.com/world/trump-says-iranian-leader-has-asked-ceasefire-2026-04-01/",
       "citations": [
-        "https://www.theguardian.com/world/2026/mar/25/iran-gives-negative-response-to-us-ceasefire-plan-amid-push-for-talks",
+        "https://www.reuters.com/world/trump-says-iranian-leader-has-asked-ceasefire-2026-04-01/",
+        "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html",
         "https://apnews.com/article/iran-us-israel-trump-lebanon-march-25-2026-be07c54139bcc70672bb33f0773ede6a",
-        "https://www.cnbc.com/2026/03/25/iran-war-us-trump.html",
-        "https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26/",
-        "https://en.wikipedia.org/wiki/2026_Iran_war"
+        "https://www.theguardian.com/world/middle-east-live/live/2026/apr/01/iran-live-updates-trump-claims-war-will-end-rubio-nato-relationship",
+        "https://www.axios.com/2026/04/01/trump-iran-ceasefire-president"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Strait of Hormuz full shipping restoration",
       "timeframe": "Ongoing",
       "status": "monitoring",
-      "description": "The Strait of Hormuz remains effectively closed to most commercial shipping as of late March 2026, with Iran maintaining control through mines and selective passage permissions. While Iran has allowed a small number of vessels from China, Malaysia, India, and Pakistan to pass through, approximately 2,000 ships remain stranded and tanker traffic has dropped by roughly 70 percent since the closure began March 1, 2026.",
-      "source": "https://www.aljazeera.com/economy/2026/3/27/saudi-uae-iraq-can-three-pipelines-help-oil-escape-strait-of-hormuz",
+      "description": "The Strait of Hormuz remains effectively closed after nearly four weeks, with Iran blocking most commercial shipping through VHF transmissions stating passages are \"not allowed.\" While a few Chinese, Indian, Pakistani, and Malaysian vessels have been granted selective passage through diplomatic arrangements, approximately 2,000 ships from other nations remain stranded on either side of the waterway. The U.S. Navy is conducting mine-clearing operations and strikes against Iranian naval vessels, but Defense Secretary Hegseth has not specified concrete measures or timeline for full reopening.",
+      "source": "https://www.cnn.com/2026/03/26/middleeast/how-iran-controls-strait-of-hormuz-explained-intl-vis",
       "citations": [
-        "https://www.aljazeera.com/economy/2026/3/27/saudi-uae-iraq-can-three-pipelines-help-oil-escape-strait-of-hormuz",
+        "https://www.cnn.com/2026/03/26/middleeast/how-iran-controls-strait-of-hormuz-explained-intl-vis",
+        "https://en.wikipedia.org/wiki/Strait_of_Hormuz",
         "https://www.theguardian.com/world/2026/mar/26/strait-of-hormuz-visual-guide-trickle-of-ships-iran",
-        "https://houseofsaud.com/iran-mines-strait-hormuz-reopening-challenge-us-navy/",
-        "https://www.nytimes.com/2026/03/12/world/middleeast/strait-of-hormuz-iran-blockade-explained.html",
-        "https://www.cnn.com/2026/03/26/middleeast/how-iran-controls-strait-of-hormuz-explained-intl-vis"
+        "https://www.aljazeera.com/economy/2026/3/27/saudi-uae-iraq-can-three-pipelines-help-oil-escape-strait-of-hormuz",
+        "https://www.npr.org/2026/04/01/nx-s1-5766222/mines-persian-gulf-strait-navy-lcs"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Oracle Stargate financial restructuring or default",
       "timeframe": "2026",
       "status": "partial",
-      "description": "Oracle is undergoing significant financial restructuring amid its AI infrastructure buildout, including a $2.1 billion restructuring plan with up to 30,000 layoffs and $58 billion in new debt. The company faces securities fraud class action lawsuits with an April 6, 2026 deadline, and credit default swap spreads have hit record highs at 198.18 basis points as Oracle manages $120 billion in outstanding debt. While not a formal default, Oracle is experiencing severe financial stress related to its Stargate commitments.",
-      "source": "https://thenextweb.com/news/oracle-layoffs-march-2026",
+      "description": "Oracle has implemented a major $2.1 billion restructuring plan involving up to 30,000 layoffs to free up $8-10 billion in annual cash flow for AI infrastructure spending. The company's credit default swap spreads reached record highs at 198.18 basis points, indicating market concerns about default risk amid $100B+ debt levels and $50B additional capital raising for Stargate and other AI investments.",
+      "source": "https://business-news-today.com/oracle-layoffs-2026-up-to-30000-employees-terminated-by-6am-email-as-stargate-debt-tops-100bn/",
       "citations": [
-        "https://thenextweb.com/news/oracle-layoffs-march-2026",
-        "https://economictimes.indiatimes.com/tech/technology/oracle-begins-new-round-of-layoffs-amid-rising-ai-data-centre-spends-indian-employees-also-impacted/articleshow/129930464.cms",
-        "https://www.newsglobenow.com/new299854.html",
-        "https://www.prnewswire.com/news-releases/oracle-corporation-orcl-investors-april-6-2026-deadline-in-securities-fraud-class-action-lawsuit-filed-by-kessler-topaz-meltzer--check-llp-302720249.html",
-        "https://www.businessinsider.com/oracle-layoffs-employees-costs-ai-buildout-job-cuts-2026-3"
+        "https://business-news-today.com/oracle-layoffs-2026-up-to-30000-employees-terminated-by-6am-email-as-stargate-debt-tops-100bn/",
+        "https://www.business-standard.com/world-news/oracle-layoffs-india-job-cuts-ai-spending-data-centres-cash-flow-debt-deal-126040100527_1.html",
+        "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+        "https://www.moneycontrol.com/news/business/information-technology/oracle-layoffs-is-india-paying-the-price-for-its-global-ai-push-13876908.html",
+        "https://uz.kursiv.media/en/2026-04-01/oracle-launches-sweeping-global-layoffs-amid-ai-expansion/"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "New batch of Epstein documents released",
       "timeframe": "Ongoing",
       "status": "verified",
-      "description": "The DOJ has released multiple new batches of Epstein documents in 2026. On January 30, 2026, over 3 million pages of documents, 180,000 images, and 2,000 videos were released. A sixth release was published on March 5, 2026, releasing about 50,000 previously removed files after DOJ and FBI review.",
+      "description": "The DOJ has released multiple new batches of Epstein documents in 2026. On January 30, 2026, the DOJ released over 3 million pages of documents, 180,000 images, and 2,000 videos, which Deputy Attorney General Todd Blanche stated would be the final major release under the Epstein Files Transparency Act. A sixth release was published on March 5, 2026, followed by the restoration of about 50,000 previously removed files after DOJ and FBI review.",
       "source": "https://en.wikipedia.org/wiki/Epstein_files",
       "citations": [
         "https://en.wikipedia.org/wiki/Epstein_files",
         "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act",
+        "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline",
         "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline/2026-Contempt-delays-and-more-documents",
-        "https://www.justice.gov/epstein/doj-disclosures",
-        "https://www.cnn.com/2026/03/27/us/epstein-survivors-sue-doj-google-hnk"
+        "https://www.justice.gov/epstein/doj-disclosures"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Epstein associate indicted or named in new documents",
       "timeframe": "2026",
       "status": "partial",
-      "description": "The 2026 Epstein files releases have named multiple associates in new documents, including Commerce Secretary Howard Lutnick (planned 2012 island visit despite claiming no contact after 2005) and physicist Lawrence Krauss (ongoing relationship through 2018). However, FBI Director Kash Patel told Congress that an exhaustive review by nearly 1,000 agents found no evidence warranting new indictments against uncharged third parties.",
+      "description": "The Epstein Files Transparency Act has resulted in the release of over 2.1 million documents through March 2026, including FBI 302 victim interview statements and emails from Epstein's computers. Several associates have been newly named in released documents, including Commerce Secretary Howard Lutnick (shown planning a 2012 island visit despite claiming no contact after 2005) and physicist Lawrence Krauss (revealed ongoing relationship through 2018). However, FBI Director Kash Patel stated that an exhaustive review by nearly 1,000 agents found no evidence warranting new indictments against uncharged third parties.",
       "source": "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline/2026-Contempt-delays-and-more-documents",
       "citations": [
         "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline/2026-Contempt-delays-and-more-documents",
+        "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
         "https://en.wikipedia.org/wiki/Connections_of_Jeffrey_Epstein",
         "https://www.vanityfair.com/news/story/epstein-files-redactions-victims",
-        "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files"
+        "https://en.wikipedia.org/wiki/EpsteinExposed"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Gulf SWF emergency capital reallocation from US markets",
       "timeframe": "Ongoing",
       "status": "partial",
-      "description": "Gulf sovereign wealth funds are showing signs of strategic shift amid regional conflict, with some GCC members reportedly revisiting investment plans. However, Saudi PIF Governor Al Rumayyan recently reaffirmed commitment to global investments despite Iran war, stating the fund remains \"structurally resilient\" with a well-diversified portfolio. The UAE has also reaffirmed its $1.4 trillion US investment commitment, suggesting measured caution rather than emergency withdrawal.",
+      "description": "Gulf sovereign wealth funds are facing strategic pressure but maintaining US market commitments with modifications. Saudi PIF's governor reaffirmed global investment commitment despite Iran war tensions, while the fund shifts toward attracting third-party capital in its upcoming five-year strategy. However, reports indicate potential pullbacks from Middle Eastern investments could limit capital availability to US tech startups and investment firms that rely on Gulf funding.",
       "source": "https://www.bloomberg.com/news/articles/2026-03-26/saudi-wealth-fund-commits-to-global-investments-despite-iran-war",
       "citations": [
         "https://www.bloomberg.com/news/articles/2026-03-26/saudi-wealth-fund-commits-to-global-investments-despite-iran-war",
-        "https://en.bloomingbit.io/feed/news/108644",
-        "https://www.ainvest.com/news/gulf-sovereign-wealth-funds-face-strategic-shift-global-investors-domestic-stabilization-conflict-damage-fiscal-pressure-2603/",
         "https://www.politico.com/news/2026/03/26/immensely-destabilizing-iran-war-threatens-gulfs-us-investments-00845486",
-        "https://www.thenationalnews.com/news/us/2026/03/26/saudi-arabias-fii-kicks-off-as-iran-war-overshadows-global-investment-outlook/"
+        "https://www.ainvest.com/news/gulf-sovereign-wealth-funds-face-strategic-shift-global-investors-domestic-stabilization-conflict-damage-fiscal-pressure-2603/",
+        "https://www.asiaasset.com/sovereign-wealth-funds/saudi-wealth-fund-pif-aims-to-draw-more-third-party-capital-in-new-five-year-strategy/",
+        "https://siliconcanals.com/sc-d-the-invisible-subsidy-how-gulf-sovereign-wealth-funds-became-the-default-buyers-of-western-ai-infrastructure-and-what-that-means-for-who-controls-the-next-decade-of-computing/"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "TikTok USDS JV lawsuit outcome or Congressional review action",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "The TikTok USDS Joint Venture LLC was restructured in January 2026 with 80% ownership by non-Chinese investors including Oracle, following ByteDance's May 2024 lawsuit challenging the Protecting Americans from Foreign Adversary Controlled Applications Act. The joint venture now oversees data protection, algorithm security, content moderation, and software assurance in the U.S. market with algorithm licensing from ByteDance.",
-      "source": "https://www.upmarket.co/private-markets/pre-ipo/tiktok-old/",
+      "description": "The TikTok USDS Joint Venture LLC was officially established on January 22, 2026, with 80% ownership by non-Chinese investors including Oracle, Silver Lake, and MGX, while ByteDance retains a 19.9% stake. The joint venture oversees data protection, algorithm security, content moderation, and software assurance in the U.S. market. No specific lawsuit outcomes or Congressional review actions regarding the USDS joint venture structure have been identified in current search results.",
+      "source": "https://www.tubebuddy.com/blog/youtube-creator-news-march-2026",
       "citations": [
+        "https://www.tubebuddy.com/blog/youtube-creator-news-march-2026",
         "https://www.upmarket.co/private-markets/pre-ipo/tiktok-old/",
-        "https://www.peoplenewstoday.com/news/en/2026/03/31/1136306.html.When-TikToks-Algorithm-Stops-Following-Beijings-Orders-(Part-1).html",
+        "https://www.peoplenewstoday.com/news/en/2026/03/31/1136306.html.When-TikToks-Algorithm-Stops-Following-Beijings-Orders.html",
         "https://en.wikipedia.org/wiki/Protecting_Americans_from_Foreign_Adversary_Controlled_Applications_Act"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
       "timeframe": "2026",
       "status": "monitoring",
-      "description": "Schedule Policy/Career legal challenges are actively proceeding through federal courts with mixed preliminary outcomes. The NTEU has filed an amended complaint and the court accepted their proposal on March 17, 2026, while a separate Ninth Circuit case vacated a preliminary injunction that had blocked Executive Order 14,251 related to federal collective bargaining requirements. No final resolution on the core Schedule Policy/Career reclassification has been reached yet.",
+      "description": "Schedule Policy/Career implementation began in March 2026 following OPM's February 6 final rule, with multiple legal challenges filed by unions including NTEU. Courts have accepted amended complaints and litigation is actively proceeding, but no final judicial ruling on the constitutional or statutory validity of the reclassification has been issued yet.",
       "source": "https://www.everycrsreport.com/reports/LSB11412.html",
       "citations": [
         "https://www.everycrsreport.com/reports/LSB11412.html",
-        "https://hkm.com/riverside-californias-february-2026-employment-labor-law-cases/"
+        "https://www.fedweek.com/issue-briefs/report-lays-out-current-potential-future-legal-challenges-to-schedule-p-c/"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     },
     {
       "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
       "timeframe": "2026",
       "status": "verified",
-      "description": "Mojtaba Khamenei was officially confirmed as Iran's third Supreme Leader by the Assembly of Experts on March 8, 2026, following his father Ali Khamenei's assassination during the 2026 Iran war. The 88-member clerical body chose him in what was reported as both a unanimous vote and separately as receiving 59 out of 88 votes, above the required two-thirds majority.",
+      "description": "Mojtaba Khamenei was officially selected as Iran's third Supreme Leader by the Assembly of Experts on March 8, 2026, following his father Ali Khamenei's assassination during the 2026 Iran war. The 88-member clerical body chose him in what was reported as both a unanimous vote and separately as receiving 59 out of 88 votes, above the required two-thirds majority.",
       "source": "https://en.wikipedia.org/wiki/2026_Iranian_supreme_leader_election",
       "citations": [
         "https://en.wikipedia.org/wiki/2026_Iranian_supreme_leader_election",
-        "https://en.wikipedia.org/wiki/Mojtaba_Khamenei",
         "https://en.wikipedia.org/wiki/Assassination_of_Ali_Khamenei",
-        "https://en.wikipedia.org/wiki/2026_Iran_war",
-        "https://www.unitedagainstnucleariran.com/mojtaba-khamenei-third-supreme-leader-of-iran"
+        "https://www.unitedagainstnucleariran.com/mojtaba-khamenei-third-supreme-leader-of-iran",
+        "https://en.wikipedia.org/wiki/Mojtaba_Khamenei",
+        "https://en.wikipedia.org/wiki/2026_Iran_war"
       ],
-      "date_checked": "2026-04-01"
+      "date_checked": "2026-04-02"
     }
   ]
 }
