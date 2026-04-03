@@ -121,6 +121,12 @@
 | **Hegseth theological convergence** | `Node_Dossiers/tier2_religious_infrastructure.md` | `09_CURRENT_THREADS.md` (Node 10), `15_The_Religious_Layer/The_Religious_Layer.md` |
 | **Dan Patrick / Religious Liberty Commission** | `Node_Dossiers/tier2_religious_infrastructure.md` | `15_The_Religious_Layer/The_Lever.md` |
 | **Theological enforcement / Boller / denominational fault line** | `15_The_Religious_Layer/The_Lever.md` | `Node_Dossiers/tier2_religious_infrastructure.md`, `09_CURRENT_THREADS.md` (Node 10) |
+| **TPUSA institutional merger / post-assassination sequence** | `15_The_Religious_Layer/The_Religious_Layer.md` (TPUSA Youth Infrastructure section) | `09_CURRENT_THREADS.md` (Node 10), `06_ATTENTION_ECONOMY.md` (Patel section), `11_LEVERAGE_THESIS.md` (Sep 2025 reconciliation) |
+| **Erika Kirk / Air Force Academy Board / TPUSA CEO** | `15_The_Religious_Layer/The_Religious_Layer.md` (TPUSA Youth Infrastructure section) | `09_CURRENT_THREADS.md` (Node 10) |
+| **Sanders TPUSA proclamation / Club America / Arkansas schools** | `09_CURRENT_THREADS.md` (Node 9 — Sanders TPUSA cross-reference) | `15_The_Religious_Layer/The_Religious_Layer.md` (TPUSA Youth Infrastructure section), `13_State_and_County_Analysis/Arkansas_Law_Forensic_Audit.md` |
+| **Equal Access Act / student clubs / ACLU Arkansas** | `15_The_Religious_Layer/The_Religious_Layer.md` (Equal Access Act Shield section) | `09_CURRENT_THREADS.md` (Node 10) |
+| **ADL neutralization / extremism glossary retired / FBI-ADL cut** | `15_The_Religious_Layer/The_Religious_Layer.md` (TPUSA Youth Infrastructure Phase 2) | `09_CURRENT_THREADS.md` (Node 10), `06_ATTENTION_ECONOMY.md` |
+| **TPUSA campus tour / Leavitt-Kirk GWU / Vance UGA / Homan Baylor** | `15_The_Religious_Layer/The_Religious_Layer.md` (TPUSA Youth Infrastructure Phase 3) | `09_CURRENT_THREADS.md` (Node 10) |
 | **Super Bowl case study** | `12_The_Media_Firewall/Super_Bowl_LX_Media_Firewall_Case_Study.md` | `02_MEDIA_FIREWALL.md` |
 | **Enforcement hollowing / PineBridge** | `Project_Trident/Copilot_Opus_4.6_Analysis/Enforcement_Hollowing_and_PineBridge_Analysis_Feb14_2026.md` | `04_CAPITAL_ARCHITECTURE.md` |
 | **December 2025 convergence** | `14_Files/CRUCIAL_Synthesis_Dec19_Convergence.md` | `01_CORE_THEORY.md`, `New_Data_2026/2026_Analysis.md` |
