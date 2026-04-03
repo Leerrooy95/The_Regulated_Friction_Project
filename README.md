@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.7
+# The Regulated Friction Project v11.9
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -156,7 +156,22 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.7) — Tucker Carlson / 1789 Capital Buyout Update — April 2, 2026
+## What's New (v11.9) — April 1–3, 2026: Ballroom Bypass, Bondi Firing, Military Purge, 25th Amendment Calls — April 3, 2026
+
+Integrates four streams of April 1–3, 2026 developments, all web-verified before committing.
+
+- **Ballroom bypass executed (April 2)**: NCPC voted 8-1 to approve the White House ballroom project the day after Judge Leon's injunction. NCPC Chair Will Scharf (White House Staff Secretary, Trump appointee) explicitly stated the court order "does not impact our action here today." Security/bunker construction continued. Public Citizen filed a statutory challenge alleging Scharf, Levenbach, and Blair lack the "city or regional planning" experience federal law requires. Updated in `09_CURRENT_THREADS.md` (March/April 2026 Events table) and `10_FRAMEWORK_VALIDATION.md` (Section 11 — bypass executed notation, Framework Alignment table, Framework Significance expanded).
+- **Pam Bondi fired (April 2)**: Trump fired AG Bondi amid bipartisan criticism of Epstein file handling. Todd Blanche (Trump's former personal defense attorney, current Deputy AG) named acting AG. Congress confirmed the April 14 House Oversight deposition subpoena remains legally valid. Added to `09_CURRENT_THREADS.md` events table and `tier2_purged_officials.md`.
+- **Military leadership purge mid-conflict (April 2)**: Hegseth fired Army Chief of Staff Gen. Randy George effective immediately — no modern precedent for senior command removal during active combat operations. Also removed: Gen. David Hodne (Army Transformation and Training Command) and Maj. Gen. William Green Jr. (Chief of Army Chaplain Corps — first chaplain chief firing in US history). Gen. Christopher LaNeve named acting CSA. Added to Node 2 (Iran war) in `09_CURRENT_THREADS.md` and `tier2_purged_officials.md`.
+- **25th Amendment calls + approval ratings (April 3)**: Ty Cobb (Trump WH special counsel 2017–2018) called Trump "clearly insane" and demanded 25th Amendment invocation on Jim Acosta Show — notable as conservative former administration insider. UMass/YouGov poll: 33% approval (second-term low, down from 44% April 2025); Economist/YouGov: 35%. Added as April 3 entries in `09_CURRENT_THREADS.md` events table.
+- **New dossier**: `_AI_CONTEXT_INDEX/Node_Dossiers/tier2_purged_officials.md` — running log of second-term removals with friction-adjacency pattern notes. Seeded: Bongino (Dec 17), Noem (Mar 5), Bondi (Apr 2), George/Hodne/Green (Apr 2).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`10_FRAMEWORK_VALIDATION.md`](_AI_CONTEXT_INDEX/10_FRAMEWORK_VALIDATION.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`Node_Dossiers/NODE_INDEX.md`](_AI_CONTEXT_INDEX/Node_Dossiers/NODE_INDEX.md), [`Node_Dossiers/tier2_purged_officials.md`](_AI_CONTEXT_INDEX/Node_Dossiers/tier2_purged_officials.md) (new), [`README.md`](README.md).
+
+### Previous (v11.8) — TPUSA Post-Assassination Institutional Merger — April 3, 2026
+
+Node 10 updated with TPUSA post-assassination institutional merger sequence (Sep 2025–Apr 2026): Kirk assassination → ADL neutralization → Erika Kirk CEO/Medal of Freedom/Air Force Academy Board/Sanders proclamation/TPUSA campus tour with WH Press Sec. Equal Access Act legal architecture. Tucker enforcement contrast note. Node 9 Sanders TPUSA proclamation cross-reference.
+
+### Previous (v11.7) — Tucker Carlson / 1789 Capital Buyout Update — April 2, 2026
 
 Updates all repository references to reflect that Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN fully independent. Post-buyout, Carlson openly broke with the Trump administration over Iran policy, triggering a "MAGA media civil war" — behavior structurally consistent with the Media Firewall thesis (capital structure constrains narrative output).
 
@@ -367,7 +382,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 2, 2026 (v11.7)
+**Last updated**: April 3, 2026 (v11.9)
 
 ---
 

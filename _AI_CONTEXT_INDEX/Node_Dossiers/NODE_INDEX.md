@@ -58,6 +58,7 @@ These dossiers document current financial positioning that the dashboard tracks 
 | **UAE Coordination Node** | `tier2_uae_coordination_node.md` | UAE, Abu Dhabi, Russia-Ukraine talks, BRICS, mBridge, OPEC+, Kushner, Witkoff, Board of Peace | Documents UAE's function as multi-track coordination node: Russia-Ukraine negotiation venue + BRICS member + mBridge participant + OPEC+ coordination with Russia + US diplomatic operations via Kushner/Witkoff. |
 | **Entity Leadership Profiles** | `tier2_entity_leadership_profiles.md` | SoftBank, Masayoshi Son, Vision Fund, Saudi PIF, Yasir Al-Rumayyan, Mubadala, Khaldoon Al Mubarak, MGX, Sheikh Tahnoon, 1789 Capital, Omeed Malik, Stargate | Verified leadership structure of entities in capital architecture: SoftBank Group, Saudi PIF, UAE Mubadala, UAE MGX, and 1789 Capital. Board interlocking, capital flow authority, and royal family governance. |
 | **Religious Infrastructure** | `tier2_religious_infrastructure.md` | Paula White, Dan Patrick, Ralph Drollinger, Capitol Ministries, Doug Wilson, CREC, CUFI, John Hagee, Pete Hegseth (theological context), White House Faith Office, Religious Liberty Commission, Christian Zionism, eschatology, NAR, Carrie Prejean Boller, Candace Owens (enforcement boundary) | Documents the eschatological policy pipeline: four theological input channels (White House Faith Office, Capitol Ministries weekly Bible study, CREC/Pentagon worship, CUFI lobbying), Hegseth as convergence node, enforcement mechanism (Corporate → Government → Intelligence escalation), denominational fault line, and Vought personnel overlap. |
+| **Purged Officials** | `tier2_purged_officials.md` | Bongino, Noem, Bondi, Randy George, David Hodne, William Green Jr., fired, removed, purged, second-term removals, acting AG, acting CSA, wartime firing | Running log of cabinet, military, and senior officials removed during Trump's second term. Documents friction-adjacency pattern, replacement logic (loyalty over seniority), and wartime precedents. Includes Bongino (Dec 2025), Noem (Mar 5), Bondi (Apr 2), and the three-general April 2 purge. |
 
 ---
 
@@ -116,6 +117,12 @@ This is the master logic file. Load this for any timing analysis.
 | Russell Vought (theological overlap) | `tier2_religious_infrastructure.md` |
 | New Apostolic Reformation (NAR) | `tier2_religious_infrastructure.md` |
 | Eschatological infrastructure / denominational fault line | `tier2_religious_infrastructure.md`, `15_The_Religious_Layer/The_Religious_Layer.md` |
+| Purged officials / fired officials / second-term removals | `tier2_purged_officials.md` |
+| Pam Bondi / acting AG Todd Blanche | `tier2_purged_officials.md`, `09_CURRENT_THREADS.md` (Node 5, March/April 2026 Events) |
+| Gen. Randy George / Army CSA removed | `tier2_purged_officials.md`, `09_CURRENT_THREADS.md` (Node 2) |
+| Gen. David Hodne / Maj. Gen. William Green Jr. | `tier2_purged_officials.md`, `09_CURRENT_THREADS.md` (Node 2) |
+| Dan Bongino / FBI Deputy Director / Dec 17 resignation | `tier2_purged_officials.md`, `06_ATTENTION_ECONOMY.md` |
+| Kristi Noem / DHS firing / Special Envoy | `tier2_purged_officials.md`, `09_CURRENT_THREADS.md` (DHS Shutdown section) |
 
 ---
 
