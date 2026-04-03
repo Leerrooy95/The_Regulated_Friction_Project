@@ -1,168 +1,172 @@
 {
-  "run_timestamp": "2026-04-02T08:46:03.456353+00:00",
-  "run_date": "2026-04-02",
+  "run_timestamp": "2026-04-03T08:43:19.513348+00:00",
+  "run_date": "2026-04-03",
   "nodes_queried": 7,
   "nodes_active": 7,
-  "nodes_critical": 1,
+  "nodes_critical": 3,
   "convergence_detected": true,
   "node_statuses": {
     "maxwell": {
       "node_id": "maxwell",
       "status": "ACTIVE",
-      "headline": "Maxwell lawyers publicly offer full Epstein testimony in exchange for Trump clemency; House resolution opposes any pardon",
-      "summary": "Lawyers for Ghislaine Maxwell have publicly stated she would speak fully and honestly about her relationship with Jeffrey Epstein if President Trump grants her clemency, representing an explicit public offer. Representative Raja Krishnamoorthi has proposed House Resolution 119-635 to the House Judiciary Committee opposing any clemency, affirming her conviction was warranted. The DOJ has published approximately 3.5 million responsive pages under the Epstein Files Transparency Act, with a sixth release on March 5, 2026, though reports suggest the full file set exceeds 6 million pages.",
+      "headline": "Maxwell moved to minimum-security Texas facility after DOJ transfer; House Resolution 119-635 opposes clemency as Blanche cites safety concerns",
+      "summary": "Ghislaine Maxwell was transferred to a minimum-security prison camp in Texas, with Deputy AG Todd Blanche stating the Bureau of Prisons made the decision due to numerous threats against her life \u2014 not as part of clemency negotiations. Maxwell did meet with top DOJ officials including Blanche for a two-day interview about Epstein's network. Representative Raja Krishnamoorthi proposed House Resolution 119-635 opposing any clemency for Maxwell, affirming her conviction was warranted.",
       "is_new_development": true,
-      "event_classification": "FRICTION",
+      "event_classification": "COMPLIANCE",
       "leverage_type": "LEGAL",
       "impact_score": 6,
       "under_radar_flags": [
-        "Maxwell alleges 29 Epstein associates were protected through 'secret settlements' by DOJ in petition to overturn conviction",
-        "Former prison mate Jen Shah reports Maxwell shows 'complete disregard' for victims with no remorse",
-        "Congressional access to unredacted files suggests potential new revelations about Maxwell's role"
+        "Deputy AG personally interviewing Maxwell is highly unusual for someone of Blanche's rank",
+        "Prison transfer to minimum-security facility suggests potential clemency preparation",
+        "Maxwell's petition alleges 29 protected associates through DOJ secret settlements",
+        "House resolution timing suggests Congressional pushback against clemency discussions"
       ],
       "key_entities_mentioned": [
         "Ghislaine Maxwell",
-        "Donald Trump",
-        "Jeffrey Epstein",
+        "Todd Blanche",
         "Raja Krishnamoorthi",
-        "House Judiciary Committee",
-        "Department of Justice",
-        "BBC",
-        "Jen Shah"
+        "House Resolution 119-635",
+        "Jeffrey Epstein",
+        "Jen Shah",
+        "Department of Justice"
       ],
       "sources": [
-        "https://www.bbc.com/audio/play/p0n0466d",
+        "https://www.latimes.com/world-nation/story/2026-04-02/trump-has-privately-discussed-possibility-of-firing-bondi-ap-sources-say",
         "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://okmagazine.com/p/jen-shah-former-prison-mate-ghislaine-maxwell-showed-no-remorse-victims/"
+        "https://okmagazine.com/p/jen-shah-former-prison-mate-ghislaine-maxwell-showed-no-remorse-victims/",
+        "https://www.bbc.com/audio/play/p0n0466d"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 1966,
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2169,
       "fact_check_notes": [
-        "The claim states the total document release is 3.5 million pages, but web evidence indicates over 6 million pages exist in the full Epstein files, with a sixth release on March 5, 2026; the 3.5 million figure refers to an earlier DOJ press release milestone, not the complete March 2026 total. Additionally, the claim references 'House Resolution 119-635' as a recent April 2026 development, but Wikipedia places this resolution on August 5 (no year specified), and the BBC April 2 reporting date for the clemency offer is unverifiable from provided evidence. The core BBC-reported clemency offer framing ('fully and honestly') is partially supported by web evidence but the precise April 2 date and wording cannot be fully confirmed."
+        "The claim states House Resolution 119-635 was proposed on August 5th, but this date is inconsistent with the April 1-2 2026 timeframe of the claim; the web evidence confirms the resolution was proposed by Krishnamoorthi but does not confirm 'August 5th' as the date within the April 2026 context. Additionally, the claim says the resolution 'formally opposes clemency' which the Wikipedia source confirms, but the framing that Maxwell's move occurred 'within days of being personally interviewed by Deputy AG Todd Blanche' is misleading \u2014 web sources indicate Blanche said the Bureau of Prisons made the decision to move Maxwell due to threats against her life, not as part of clemency negotiations."
       ]
     },
     "iran": {
       "node_id": "iran",
-      "status": "ACTIVE",
-      "headline": "US-Iran war enters fifth week with Trump threatening 'Stone Age' bombing while backchannel ceasefire negotiations reportedly underway via China-Pakistan mediation, April 1-2 2026",
-      "summary": "President Trump delivered a prime-time address on April 1, 2026 claiming US forces will 'finish the job' in Iran within 2-3 weeks as 'core strategic objectives are nearing completion,' while threatening to bomb Iran back to the 'Stone Age' if the Strait of Hormuz remains closed. Simultaneously, China and Pakistan presented a new ceasefire initiative on March 31 linking immediate ceasefire to reopening the Strait of Hormuz, with multiple sources reporting backchannel negotiations are underway despite Iranian Foreign Minister Araghchi publicly stating 'at present there is no negotiation.' Iran is demanding a guaranteed permanent ceasefire according to senior Iranian sources, while US intelligence assessments suggest Iran believes it is in a strong position and does not trust Trump's negotiation intentions. The war has now entered its fifth week with oil supplies squeezed and inflation rising.",
+      "status": "CRITICAL",
+      "headline": "Trump vows more aggressive Iran strikes after failed ceasefire speculation while Hegseth fires Army Chief George amid ongoing war, April 2-3 2026",
+      "summary": "President Trump escalated rhetoric on April 2, posting 'IT IS TIME FOR IRAN TO MAKE A DEAL BEFORE IT IS TOO LATE' after speculation about ending the war proved false in his Wednesday speech. Defense Secretary Hegseth fired Army Chief of Staff Gen. Randy George effective immediately on April 2, marking over a dozen general/admiral dismissals during active combat operations. Iran continues rejecting ceasefire negotiations, with officials stating no active talks are taking place despite intermediary contacts on Tuesday. The Strait of Hormuz remains disrupted with oil prices back above $100/barrel, while Lebanese PM Salam reports 1 million displaced in the last month alone. Iranian Foreign Minister Araghchi had stated on February 25 that a 'historic' agreement was 'within reach,' but current intelligence assessments indicate Iran believes it's in a strong position and doesn't need to accede to US demands.",
       "is_new_development": true,
       "event_classification": "ESCALATION",
       "leverage_type": "KINETIC",
       "impact_score": 8,
       "under_radar_flags": [
-        "NATO ambassador confirms backchannel communications with Iranian decision-makers on de-escalation",
-        "US strikes reportedly destroyed over 50 Iranian vessels and delayed nuclear programs by 15-20 years according to NATO sources",
-        "Iranian president signaling US has entered as proxy for Israel rather than independent actor",
-        "Trump telling allies to 'go get your own oil' and saying securing Strait of Hormuz is 'not America's job'"
+        "Firing generals during active combat operations is nearly unprecedented",
+        "Iran demanding 'guaranteed ceasefire' vs temporary halt suggests strategic patience",
+        "Dozens of countries seeking alternative energy routes indicates sustained Hormuz disruption",
+        "Hedge funds facing worst monthly drawdowns in 4+ years due to war volatility"
       ],
       "key_entities_mentioned": [
-        "Donald Trump",
+        "Trump",
         "Iran",
+        "Pete Hegseth",
+        "Gen. Randy George",
         "Strait of Hormuz",
         "Abbas Araghchi",
-        "Pete Hegseth",
-        "China",
-        "Pakistan",
-        "NATO"
+        "Lebanese PM Nawaf Salam"
       ],
       "sources": [
-        "https://www.reuters.com/world/iran/",
-        "https://apnews.com/article/iran-us-israel-trump-lebanon-april-1-2026-19cf516c2d2c614eb182dbad7a6592ef",
-        "https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire",
+        "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+        "https://apnews.com/article/pentagon-hegseth-army-chief-iran-war-c6707d1d3a95ea5f679e0f9a5c5012e7",
         "https://www.cnbc.com/2026/04/01/iran-demands-guaranteed-ceasefire-to-end-war-permanently-senior-source-says.html",
-        "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war.html"
+        "https://www.reuters.com/world/iran/",
+        "https://en.wikipedia.org/wiki/2026_Iran_war"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2441
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2347
     },
     "gulf_swf": {
       "node_id": "gulf_swf",
       "status": "ACTIVE",
-      "headline": "Saudi PIF announces strategic pivot to private partnerships in new five-year plan covering 2026-2030, with third-party capital focus amid regional war pressures",
-      "summary": "Saudi Arabia's Public Investment Fund is implementing a major strategic shift from self-funded mega-projects toward private sector partnerships in its new 2026-2030 strategy, as announced by Governor Al-Rumayyan at FII PRIORITY Miami. The strategy emphasizes attracting third-party capital to flow into PIF portfolio companies across multiple sectors, moving away from the previous model of predominantly internal funding. This pivot comes as regional tensions from the Iran war create economic pressures, though S&P raised Saudi's 2026 growth forecast to 4.1% despite the conflict. Meanwhile, UAE's Mubadala completed a $4.75 billion exit from CoolIT Systems in a KKR-led transaction, capitalizing on AI infrastructure demand, while also securing new energy assets with a 100% stake in Indonesia's Southwest Andaman exploration block.",
+      "headline": "SpaceX holds talks with Saudi PIF for $5 billion anchor investment in record $75 billion IPO targeting June 2026",
+      "summary": "SpaceX has engaged in discussions with Saudi Arabia's Public Investment Fund for a potential $5 billion anchor investment in its planned IPO, which aims to raise a record-breaking $75 billion, according to Reuters sources. The IPO is targeting a June 2026 launch date. PIF's precise existing stake in SpaceX and the specific mechanism through which it was acquired have not been confirmed in available reporting.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
       "impact_score": 7,
       "under_radar_flags": [
-        "PIF strategy shift from mega-projects to private partnerships suggests capital constraints despite public messaging",
-        "Mubadala's simultaneous asset sales and energy acquisitions indicates portfolio rebalancing under war stress",
-        "S&P growth forecast upgrade to 4.1% contrasts with regional war economic pressures",
-        "King Salman Park Foundation secured $3.8 billion at MIPIM 2026 while NEOM cancels Trojena contracts"
+        "PIF's existing SpaceX exposure through HUMAIN subsidiary creates layered investment structure",
+        "Eight planned PIF subsidiary IPOs in 2026 suggests major capital market activity ahead",
+        "SpaceX IPO timing aligns with Gulf SWF strategy pivots amid regional war stress"
       ],
       "key_entities_mentioned": [
         "Saudi PIF",
+        "SpaceX",
+        "HUMAIN",
+        "xAI",
         "Mubadala",
-        "Al-Rumayyan",
-        "KKR",
         "CoolIT Systems",
         "Ecolab",
-        "NEOM",
-        "King Salman Park Foundation",
-        "Humain",
-        "Turing"
+        "KKR"
       ],
       "sources": [
-        "https://thesauditimes.net/en/saudi-arabias-pif-announces-strategic-pivot-toward-private-sector-partnerships-in-new-five-year-plan/",
-        "https://saudigazette.com.sa/article/660028",
-        "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
-        "https://gulfbusiness.com/en/2026/energy/mubadala-energy-awarded-new-andaman-exploration-block-in-indonesia/",
-        "https://maaal.com/en/news/details/al-rumayyan-pif-new-stra/"
+        "https://www.reuters.com/business/finance/spacex-has-held-talks-with-saudi-fund-possible-5-billion-investment-ipo-sources-2026-04-02/",
+        "https://sundayguardianlive.com/business/spacex-in-talks-with-saudi-arabias-pif-for-5-billion-anchor-investment-company-aims-for-record-75-billion-ipo-at-175-trillion-valuation-reports-181006/",
+        "https://houseofsaud.com/pif-five-year-strategy-humain-ai-fii-miami/"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2452
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2005,
+      "fact_check_notes": [
+        "The claim states PIF invested in SpaceX through its HUMAIN subsidiary, which invested $3 billion in xAI before its merger with SpaceX. Web evidence does not support this specific chain of ownership; PIF's SpaceX stake and HUMAIN's role in this context are not confirmed by the Reuters/Yahoo sources, which only confirm the $5B anchor investment talks and $75B IPO target. The xAI-SpaceX merger and HUMAIN's $3B xAI investment as the mechanism for PIF's SpaceX stake appear unverified or potentially fabricated details."
+      ]
     },
     "israel": {
       "node_id": "israel",
-      "status": "ACTIVE",
-      "headline": "Israel strikes 400 Iranian targets over 48 hours ending April 1, 2026, while creating 'security zone' in southern Lebanon amid ongoing missile exchanges",
-      "summary": "The Israeli Air Force conducted strikes on approximately 400 Iranian regime targets over the past two days, with overnight operations targeting dozens of military infrastructure sites in central Tehran including around 15 facilities, according to IDF announcements on April 1, 2026. Simultaneously, Israel is establishing a 'security zone' in southern Lebanon designed to push anti-tank missile fire away from Israel's northern border, as confirmed by PM Netanyahu. Iranian missile attacks continue with Israel's air defense systems responding to fresh waves of missile fire marking the fourth such attack within recent days. The IDF also killed IRGC's Lebanon engineering chief and struck 170 Iranian regime targets in the previous 24-hour period, indicating sustained high-tempo operations across multiple fronts.",
+      "status": "CRITICAL",
+      "headline": "Israel expands Lebanon ground operations while Iran claims downing second US F-35 amid ongoing US-Israel war on Iran",
+      "summary": "Israel has escalated ground operations in southern Lebanon, with the IDF reporting killing 15 Hezbollah operatives in a recent airstrike as part of ongoing raids combined with aerial and naval strikes. Iran's IRGC claims to have destroyed a second American F-35 fighter jet during joint US-Israel strikes, while Iranian forces have continued launching missile barrages targeting Israeli territory. The conflict has now entered its 34th day.",
       "is_new_development": true,
       "event_classification": "ESCALATION",
       "leverage_type": "KINETIC",
-      "impact_score": 8,
+      "impact_score": 9,
       "under_radar_flags": [
-        "Israel establishing permanent 'security zone' in southern Lebanon suggests long-term territorial control intentions",
-        "Targeting of Iranian weapons research and production facilities indicates intelligence-driven precision strikes",
-        "Fourth wave of Iranian missile attacks suggests sustained retaliation capability despite Israeli strikes"
+        "Israeli military reportedly stretched thin by regional wars and settler violence with manpower shortage warnings",
+        "Israel declining to provide ground troops for potential US invasion of Iran despite joint air operations",
+        "Hezbollah maintaining precision missile capabilities against northern Israeli communities",
+        "Iranian claims of F-35 downing unverified but represents significant propaganda escalation"
       ],
       "key_entities_mentioned": [
         "IDF",
-        "IRGC",
         "Hezbollah",
-        "Israeli Air Force",
-        "Netanyahu",
-        "Tehran"
+        "IRGC",
+        "Iran",
+        "Lebanon",
+        "Tel Aviv",
+        "Kiryat Shmona",
+        "Trump"
       ],
       "sources": [
-        "https://www.jfeed.com/latest-news",
-        "https://www.npr.org/2026/04/01/g-s1-115929/israel-south-lebanon-evacuation",
-        "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
-        "https://www.haaretz.com/",
-        "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-iran-drone-missile-attack-gulf-dubai-qatar-news-strait-of-hormuz-crude-oil-latest-news/liveblog/129939448.cms"
+        "https://www.timesnownews.com/world/middle-east/iran-israel-us-war-live-updates-us-iran-news-ceasefire-trump-nuclear-sites-tensions-latest-news-liveblog-153970574",
+        "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-rcna266339",
+        "https://www.timesofisrael.com/",
+        "https://www.aljazeera.com/news/2026/4/2/iran-war-what-is-happening-on-day-34-of-us-israel-attacks",
+        "https://www.euronews.com/2026/04/02/israels-military-stretched-thin-by-regional-wars-and-settler-violence"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2224
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2455,
+      "fact_check_notes": [
+        "The claim states Israel killed 'over 40 Hezbollah operatives' but the Times of Israel web evidence states the IDF killed 15 Hezbollah operatives in a recent airstrike; the '40+' figure is not supported by the provided evidence. The IRGC claim of downing a second F-35 and Iranian missile barrages targeting Tel Aviv are supported by web evidence."
+      ]
     },
     "oracle_ellison": {
       "node_id": "oracle_ellison",
       "status": "CRITICAL",
-      "headline": "Oracle stock down ~57% amid AI spending concerns as company cuts up to 30,000 jobs and sets $2.1B restructuring budget",
-      "summary": "Oracle's stock has fallen approximately 57% amid investor concerns over its aggressive AI infrastructure push, coinciding with the announcement of up to 30,000 layoffs globally \u2014 roughly 18% of its workforce \u2014 to fund a $10 billion AI expansion. The company has set aside up to $2.1 billion for restructuring costs in fiscal 2026. Despite strong Q3 results showing 22% revenue growth to $17.2 billion, analysts are questioning Oracle's financial stability given its existing $100B+ debt load and deeply negative free cash flow.",
+      "headline": "Oracle stock down 57% from September peak amid $10B AI spending push, 30,000 layoffs, and financial stress concerns over $300B OpenAI backlog dependency",
+      "summary": "Oracle shares have fallen approximately 57% since last September and roughly 30% year-to-date following a massive restructuring that includes laying off 30,000 workers globally while spending $10 billion on AI infrastructure. The company's financial condition is under scrutiny due to $300 billion in contracted backlog tied to OpenAI and concerns about cash flow sustainability amid aggressive capital expenditure. Oracle has set aside $2.1 billion for restructuring costs in fiscal 2026.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
       "impact_score": 9,
       "under_radar_flags": [
-        "Stock decline of 57% suggests severe market confidence crisis beyond normal earnings volatility",
-        "$2.1 billion restructuring fund indicates this is largest Oracle workforce reduction in company history",
-        "Email-based layoff execution suggests urgency and potential legal liability concerns",
-        "OpenAI cutting costs and shuttering Sora tool raises questions about Stargate partnership stability"
+        "OpenAI cutting costs ahead of IPO raises questions about $300B Oracle backlog sustainability",
+        "Stock decline of 57% suggests market pricing in significant financial stress beyond reported metrics",
+        "Restructuring costs of $2.1B indicate deeper operational challenges than Q3 earnings suggested",
+        "Layoffs conducted via email suggests urgency in cost-cutting measures"
       ],
       "key_entities_mentioned": [
         "Oracle Corporation",
@@ -170,95 +174,94 @@
         "OpenAI",
         "Stargate",
         "AWS",
-        "Microsoft Azure"
+        "Azure"
       ],
       "sources": [
         "https://www.forbes.com/sites/petercohan/2026/04/01/oracles-10-billion-bet-on-ai-sends-shares-down-57-and-30000-workers-out-the-door/",
         "https://www.timesnownews.com/business-economy/companies/oracle-layoffs-nearly-12000-staff-in-india-losses-job-amid-rising-ai-spends-article-153970727",
-        "https://finviz.com/quote.ashx?t=ORCL",
-        "https://www.cnn.com/markets/stocks/ORCL"
+        "https://finance.yahoo.com/quote/ORCL/",
+        "https://www.morningstar.com/stocks/xnys/orcl/quote"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2033,
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2102,
       "fact_check_notes": [
-        "The stock decline figure is inconsistently reported: Forbes cites 57% while CapitalAI Daily cites 58%; the claim uses 57% which aligns with Forbes. However, the claim states Oracle 'set aside $2.1 billion for restructuring costs this fiscal year, including an additional $500 million allocation' \u2014 web evidence from The Guardian confirms the $2.1B restructuring cost figure but does not confirm a separate additional $500M allocation as a distinct line item. More critically, the claim frames the 57% drop as a single-event crash tied to the layoff announcement, but evidence suggests it reflects cumulative stock decline from AI spending pressures rather than a single-day crash. The core facts (57% decline, ~30,000 layoffs, $10B AI bet, $2.1B restructuring) are supported."
+        "The claim that Oracle stock 'plunged 57%' is misleading: web evidence (Motley Fool) indicates the stock has plummeted 57% since last September \u2014 not as a single recent plunge following layoff announcements. The Washington Times notes the stock has lost 'nearly 30%' this year specifically. Additionally, the claim that OpenAI is 'cutting costs by shuttering AI tools like Sora ahead of its IPO' is not supported by any web evidence provided and appears fabricated."
       ]
     },
     "epstein_files": {
       "node_id": "epstein_files",
       "status": "ACTIVE",
-      "headline": "DOJ published 3.5M Epstein pages by January 2026 with further releases through March; Prince Andrew arrested in February over email disclosures",
-      "summary": "The DOJ released approximately 3.5 million responsive pages under the Epstein Files Transparency Act on January 30, 2026, with a sixth release on March 5, 2026; reports indicate the full file set exceeds 6 million pages. Prince Andrew was arrested in February 2026 after newly released documents suggested he may have shared confidential information with Epstein. FBI Director Kash Patel told Congress that an exhaustive review found no evidence Epstein trafficked women to other high-profile individuals, drawing pushback from lawmakers including Rep. Thomas Massie.",
+      "headline": "DOJ released 3.5 million Epstein documents in late January 2026 with Trump allegations; Prince Andrew arrested February 18 on misconduct suspicion",
+      "summary": "The DOJ released approximately 3.5 million pages of Epstein documents in late January 2026 (sources cite January 29-30), including unverified allegations against Trump. Prince Andrew was arrested on February 18, 2026, on suspicion of misconduct in public office \u2014 not 'approximately one week ago' relative to April 2026 and not specifically linked to forwarding trade documents per available evidence. House Oversight members have continued pressing FBI Director Kash Patel over undisclosed FBI 302 documents.",
       "is_new_development": true,
       "event_classification": "FRICTION",
-      "leverage_type": "REPUTATIONAL",
-      "impact_score": 7,
+      "leverage_type": "LEGAL",
+      "impact_score": 8,
       "under_radar_flags": [
-        "FBI leadership claiming no evidence of trafficking to high-profile individuals despite massive document release",
-        "Congressional confrontation over secret FBI 302 documents suggests withheld information",
-        "Timing of major document releases during Iran war operations follows friction/compliance pattern",
-        "Redaction controversies exposing victims rather than perpetrators indicates institutional protection"
+        "DOJ claimed full compliance with Transparency Act despite releasing only half of 6 million identified pages",
+        "FBI Director Patel told Congress 1,000 agents found no evidence of trafficking to other high-profile individuals",
+        "Victim lawsuit alleges DOJ releases were 'retaliatory' against survivors who demanded transparency",
+        "JPMorgan filed suspicious activity reports for $1 billion in transactions by Epstein associates"
       ],
       "key_entities_mentioned": [
-        "DOJ",
-        "FBI",
-        "Kash Patel",
-        "Thomas Massie",
+        "Donald Trump",
         "Prince Andrew",
-        "Jeffrey Epstein",
+        "Thomas Massie",
+        "Kash Patel",
+        "Ro Khanna",
         "Pam Bondi",
-        "Deepak Chopra",
-        "EpsteinExposed database"
+        "DOJ",
+        "House Oversight Committee",
+        "JPMorgan Chase",
+        "Alan Dershowitz",
+        "Leon Black",
+        "Leslie Wexner"
       ],
       "sources": [
+        "https://nymag.com/intelligencer/article/trump-epstein-files-explained-timeline.html",
         "https://www.justice.gov/epstein/doj-disclosures",
-        "https://en.wikipedia.org/wiki/Epstein_files",
         "https://www.axios.com/2026/02/19/prince-andrew-arrest-epstein-files",
-        "https://www.cbsnews.com/tag/jeffrey-epstein/",
         "https://www.youtube.com/watch?v=XzZa6vRGig0",
-        "https://en.wikipedia.org/wiki/EpsteinExposed"
+        "https://www.politico.com/news/2026/03/27/jeffrey-epstein-victim-doj-google-lawsuit-00848030",
+        "https://en.wikipedia.org/wiki/Draft:Epstein_Exposed"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2268,
+      "timestamp": "2026-04-03",
+      "raw_response_length": 2464,
       "fact_check_notes": [
-        "The claim states the DOJ released 3.5 million Epstein documents 'by March 2026,' but web evidence indicates the major 3.5 million page release occurred on January 30, 2026, with a sixth release on March 5, 2026, and the full file set reportedly exceeds 6 million pages \u2014 the 3.5 million figure is not the March 2026 total. Additionally, Prince Andrew's arrest is confirmed by web evidence as occurring in February 2026 based on the January 30 release, not as a result of a March release."
+        "The claim states the 3.5 million pages were released on January 30, 2026, but the NY Mag source indicates release on January 29, 2026; the Britannica source says January 30 \u2014 this discrepancy is minor. More critically, the claim states Prince Andrew was arrested 'based on revelations in the files showing he may have forwarded confidential trade documents to Epstein,' but the Britannica source states Andrew was arrested on February 18, 2026 'on suspicion of misconduct in public office' \u2014 not approximately 'one week ago' from April 2026, and the specific reason given (forwarding confidential trade documents) is not confirmed by web evidence."
       ]
     },
     "arkansas_datacenter": {
       "node_id": "arkansas_datacenter",
       "status": "ACTIVE",
-      "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Meta funds 7 gas plants for Louisiana facility creating thousands of construction jobs 2026-2031",
-      "summary": "Google's $1 billion data center project at the Port of Little Rock has been detailed with five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation according to documents submitted to the U.S. Army Corps of Engineers on March 31, 2026. Meanwhile, Meta is funding construction of seven new natural gas-fired plants to power its largest data center in Louisiana, with Entergy Louisiana announcing the project will create thousands of construction jobs from 2026 to 2031. The University of Arkansas at Pine Bluff launched a new AI and Data Center program on April 2, 2026, approved by the UA System Board of Trustees to strengthen workforce pathways for the expanding sector. These developments occur as data center construction spending shows record growth in early 2026, with the sector among the largest gainers in nonresidential construction despite overall market weakness.",
+      "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while UAPB launches AI center April 2, 2026",
+      "summary": "Google's $1 billion data center project at the Port of Little Rock has been detailed as consisting of five industrial buildings totaling 1.43 million square feet, two office buildings and an electrical substation, according to documents submitted to the U.S. Army Corps of Engineers on March 31, 2026. Simultaneously, the University of Arkansas at Pine Bluff launched its Center for Artificial Intelligence and Data Analytics (CAIDA) on April 2, 2026, approved by the UA System Board of Trustees to strengthen workforce pathways in emerging technologies. These developments complement the existing AVAIO Digital $6-21B campus announcement and demonstrate accelerating AI infrastructure buildout in Arkansas under the state's datacenter-friendly regulatory framework established through Acts 373/548.",
       "is_new_development": true,
       "event_classification": "COMPLIANCE",
       "leverage_type": "FINANCIAL",
-      "impact_score": 7,
+      "impact_score": 6,
       "under_radar_flags": [
-        "UAPB AI workforce program launch suggests state-level coordination for datacenter labor pipeline",
-        "Meta's reliance on fossil fuel plants contradicts clean energy narratives while securing power independence",
-        "Google's Army Corps filing indicates federal permitting coordination for critical infrastructure",
-        "Construction job creation timeline 2026-2031 aligns with broader datacenter deployment cycles"
+        "Google project requires U.S. Army Corps approval suggesting significant environmental/water impact",
+        "UAPB AI center launch indicates state-level workforce development coordination with datacenter investments",
+        "Timing coordination between private (Google) and public (UAPB) AI infrastructure announcements"
       ],
       "key_entities_mentioned": [
         "Google",
-        "Meta",
-        "Entergy Louisiana",
-        "University of Arkansas at Pine Bluff",
         "Port of Little Rock",
+        "University of Arkansas at Pine Bluff",
+        "CAIDA",
         "U.S. Army Corps of Engineers"
       ],
       "sources": [
-        "https://www.arkansasonline.com/news/2026/mar/31/googles-1b-port-of-little-rock-data-center/",
-        "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings",
-        "https://www.pbcommercial.com/news/2026/apr/02/uapb-launches-ai-and-data-center/",
-        "https://bloomberg.com/news/articles/2026-03-27/meta-funds-seven-entergy-gas-plants-to-power-biggest-data-center"
+        "https://www.nwaonline.com/news/2026/mar/31/googles-1b-port-of-little-rock-data-center/",
+        "https://www.pbcommercial.com/news/2026/apr/02/uapb-launches-ai-and-data-center/"
       ],
       "confidence": "HIGH",
-      "timestamp": "2026-04-02",
-      "raw_response_length": 2496
+      "timestamp": "2026-04-03",
+      "raw_response_length": 1913
     }
   },
-  "convergence_note": "8 nodes active simultaneously \u2014 within the 7-day convergence window defined by the thermostat model."
+  "convergence_note": "10 nodes active simultaneously \u2014 within the 7-day convergence window defined by the thermostat model."
 }

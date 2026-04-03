@@ -1,8 +1,8 @@
 {
-  "extraction_timestamp": "2026-04-02T08:49:04.564548+00:00",
+  "extraction_timestamp": "2026-04-03T08:46:13.290190+00:00",
   "extraction_engine": "gliner2",
   "model": "fastino/gliner2-base-v1",
-  "total_entities": 77,
+  "total_entities": 78,
   "total_relationships": 0,
   "nodes": {
     "maxwell": {
@@ -13,7 +13,7 @@
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "President Trump",
+          "name": "Jen Shah",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from maxwell"
         },
@@ -23,42 +23,32 @@
           "context": "Extracted by GLiNER2 from maxwell (normalized from 'Epstein')"
         },
         {
-          "name": "Representative Raja Krishnamoorthi",
+          "name": "Todd Blanche",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "Jeffrey Epstein",
+          "name": "Raja Krishnamoorthi",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "Trump",
-          "type": "PERSON",
-          "context": "Extracted by GLiNER2 from maxwell"
-        },
-        {
-          "name": "BBC",
+          "name": "DOJ",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "FPC Bryan",
-          "type": "ORG",
+          "name": "Texas",
+          "type": "LOCATION",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "House Judiciary Committee",
-          "type": "ORG",
+          "name": "August 5th",
+          "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from maxwell"
         },
         {
-          "name": "US Congress",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from maxwell"
-        },
-        {
-          "name": "April 2, 2026",
+          "name": "April 1-2 2026",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from maxwell"
         },
@@ -71,16 +61,11 @@
           "name": "clemency",
           "type": "LEGAL",
           "context": "Extracted by GLiNER2 from maxwell"
-        },
-        {
-          "name": "habeas corpus petition",
-          "type": "LEGAL",
-          "context": "Extracted by GLiNER2 from maxwell"
         }
       ],
       "relationships": [],
       "temporal_markers": [],
-      "event_classification": "FRICTION",
+      "event_classification": "COMPLIANCE",
       "cross_node_connections": []
     },
     "iran": {
@@ -91,12 +76,22 @@
           "context": "Extracted by GLiNER2 from iran"
         },
         {
+          "name": "Hegseth",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from iran"
+        },
+        {
+          "name": "Army Chief George",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from iran"
+        },
+        {
           "name": "Araghchi",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "US forces",
+          "name": "Lebanese PM Salam",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from iran"
         },
@@ -116,17 +111,22 @@
           "context": "Extracted by GLiNER2 from iran (disambiguated)"
         },
         {
-          "name": "Pakistan",
-          "type": "LOCATION",
+          "name": "April 2",
+          "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "China",
-          "type": "LOCATION",
+          "name": "February 25",
+          "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from iran"
         },
         {
-          "name": "March 31",
+          "name": "Wednesday",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from iran"
+        },
+        {
+          "name": "Tuesday",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from iran"
         },
@@ -141,57 +141,37 @@
       "event_classification": "ESCALATION",
       "cross_node_connections": [
         {
-          "target_node": "maxwell",
+          "target_node": "israel",
           "connection_type": "shared_entity",
           "detail": "Shared entity: trump"
+        },
+        {
+          "target_node": "israel",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: tiktok usds jv llc"
+        },
+        {
+          "target_node": "israel",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: iran"
         }
       ]
     },
     "gulf_swf": {
       "entities": [
         {
-          "name": "Governor Al-Rumayyan",
-          "type": "PERSON",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Saudi PIF",
+          "name": "SpaceX",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "S&P",
+          "name": "PIF",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "FII PRIORITY Miami",
+          "name": "xAI",
           "type": "ORG",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Mubadala",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "CoolIT Systems",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "PIF portfolio companies",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "Indonesia",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from gulf_swf"
-        },
-        {
-          "name": "UAE",
-          "type": "LOCATION",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
@@ -200,17 +180,37 @@
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "third-party capital",
+          "name": "Iran",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "HUMAIN",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "capital reallocation",
           "type": "FINANCIAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "2026-2030",
+          "name": "June 2026",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
         },
         {
-          "name": "KKR-led transaction",
+          "name": "2026",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "five-year strategy",
+          "type": "LEGAL",
+          "context": "Extracted by GLiNER2 from gulf_swf"
+        },
+        {
+          "name": "IPO",
           "type": "FINANCIAL",
           "context": "Extracted by GLiNER2 from gulf_swf"
         }
@@ -218,19 +218,35 @@
       "relationships": [],
       "temporal_markers": [],
       "event_classification": "COMPLIANCE",
-      "cross_node_connections": []
+      "cross_node_connections": [
+        {
+          "target_node": "iran",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: iran"
+        },
+        {
+          "target_node": "israel",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: iran"
+        },
+        {
+          "target_node": "oracle_ellison",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: ipo"
+        }
+      ]
     },
     "israel": {
       "entities": [
         {
-          "name": "PM Netanyahu",
+          "name": "Trump",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from israel"
         },
         {
-          "name": "Lebanon engineering chief",
-          "type": "PERSON",
-          "context": "Extracted by GLiNER2 from israel"
+          "name": "Hezbollah",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from israel (disambiguated)"
         },
         {
           "name": "IDF",
@@ -243,17 +259,27 @@
           "context": "Extracted by GLiNER2 from israel"
         },
         {
-          "name": "Israeli Air Force",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "Iranian",
+          "name": "Israel",
           "type": "LOCATION",
           "context": "Extracted by GLiNER2 from israel"
         },
         {
-          "name": "Israel",
+          "name": "TikTok USDS JV LLC",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from israel (normalized from 'US')"
+        },
+        {
+          "name": "Iran",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from israel"
+        },
+        {
+          "name": "Kiryat Shmona",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from israel"
+        },
+        {
+          "name": "Tel Aviv",
           "type": "LOCATION",
           "context": "Extracted by GLiNER2 from israel"
         },
@@ -263,28 +289,13 @@
           "context": "Extracted by GLiNER2 from israel"
         },
         {
-          "name": "Israeli",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "southern Lebanon",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "Tehran",
-          "type": "LOCATION",
-          "context": "Extracted by GLiNER2 from israel"
-        },
-        {
-          "name": "April 1, 2026",
+          "name": "Day 27-34",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from israel"
         },
         {
-          "name": "security zone",
-          "type": "LEGAL",
+          "name": "April 2-3 2026",
+          "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from israel"
         }
       ],
@@ -296,6 +307,21 @@
     "oracle_ellison": {
       "entities": [
         {
+          "name": "OpenAI",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from oracle_ellison"
+        },
+        {
+          "name": "Azure",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from oracle_ellison"
+        },
+        {
+          "name": "AWS",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from oracle_ellison"
+        },
+        {
           "name": "Oracle Corporation",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from oracle_ellison (normalized from 'Oracle')"
@@ -306,7 +332,7 @@
           "context": "Extracted by GLiNER2 from oracle_ellison"
         },
         {
-          "name": "March 31, 2026",
+          "name": "fiscal 2026",
           "type": "TEMPORAL",
           "context": "Extracted by GLiNER2 from oracle_ellison"
         },
@@ -316,7 +342,7 @@
           "context": "Extracted by GLiNER2 from oracle_ellison"
         },
         {
-          "name": "debt load",
+          "name": "IPO",
           "type": "FINANCIAL",
           "context": "Extracted by GLiNER2 from oracle_ellison"
         }
@@ -334,22 +360,22 @@
           "context": "Extracted by GLiNER2 from epstein_files (normalized from 'Epstein')"
         },
         {
+          "name": "Trump",
+          "type": "PERSON",
+          "context": "Extracted by GLiNER2 from epstein_files"
+        },
+        {
           "name": "Prince Andrew",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "Deepak Chopra",
+          "name": "Thomas Massie",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "Congressman Thomas Massie",
-          "type": "PERSON",
-          "context": "Extracted by GLiNER2 from epstein_files"
-        },
-        {
-          "name": "FBI Director Patel",
+          "name": "Kash Patel",
           "type": "PERSON",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
@@ -359,18 +385,33 @@
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "FBI",
+          "name": "Google",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
-          "name": "Congress",
+          "name": "House Oversight",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from epstein_files"
+        },
+        {
+          "name": "FBI",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from epstein_files"
         },
         {
           "name": "March 2026",
           "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from epstein_files"
+        },
+        {
+          "name": "January 30, 2026",
+          "type": "TEMPORAL",
+          "context": "Extracted by GLiNER2 from epstein_files"
+        },
+        {
+          "name": "lawsuit",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from epstein_files"
         }
       ],
@@ -382,28 +423,28 @@
           "target_node": "maxwell",
           "connection_type": "shared_entity",
           "detail": "Shared entity: epstein files transparency act"
+        },
+        {
+          "target_node": "maxwell",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: doj"
+        },
+        {
+          "target_node": "iran",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: trump"
+        },
+        {
+          "target_node": "israel",
+          "connection_type": "shared_entity",
+          "detail": "Shared entity: trump"
         }
       ]
     },
     "arkansas_datacenter": {
       "entities": [
         {
-          "name": "Meta",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
           "name": "Google",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
-          "name": "University of Arkansas at Pine Bluff",
-          "type": "ORG",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
-          "name": "Entergy Louisiana",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
@@ -413,12 +454,27 @@
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "UA System Board of Trustees",
+          "name": "University of Arkansas at Pine Bluff",
           "type": "ORG",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "Louisiana",
+          "name": "UAPB",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "AVAIO Digital",
+          "type": "ORG",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Arkansas",
+          "type": "LOCATION",
+          "context": "Extracted by GLiNER2 from arkansas_datacenter"
+        },
+        {
+          "name": "Port of Little Rock",
           "type": "LOCATION",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
@@ -438,18 +494,8 @@
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         },
         {
-          "name": "2026-2031",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
-          "name": "early 2026",
-          "type": "TEMPORAL",
-          "context": "Extracted by GLiNER2 from arkansas_datacenter"
-        },
-        {
-          "name": "2026 to 2031",
-          "type": "TEMPORAL",
+          "name": "Acts 373/548",
+          "type": "LEGAL",
           "context": "Extracted by GLiNER2 from arkansas_datacenter"
         }
       ],
@@ -458,14 +504,9 @@
       "event_classification": "COMPLIANCE",
       "cross_node_connections": [
         {
-          "target_node": "maxwell",
+          "target_node": "epstein_files",
           "connection_type": "shared_entity",
-          "detail": "Shared entity: april 2, 2026"
-        },
-        {
-          "target_node": "oracle_ellison",
-          "connection_type": "shared_entity",
-          "detail": "Shared entity: march 31, 2026"
+          "detail": "Shared entity: google"
         }
       ]
     }
@@ -481,26 +522,52 @@
     },
     {
       "nodes_involved": [
-        "iran",
+        "epstein_files",
         "maxwell"
+      ],
+      "mechanism": "shared entity: doj",
+      "confidence": "MEDIUM"
+    },
+    {
+      "nodes_involved": [
+        "epstein_files",
+        "iran",
+        "israel"
       ],
       "mechanism": "shared entity: trump",
       "confidence": "MEDIUM"
     },
     {
       "nodes_involved": [
-        "arkansas_datacenter",
-        "maxwell"
+        "iran",
+        "israel"
       ],
-      "mechanism": "shared entity: april 2, 2026",
+      "mechanism": "shared entity: tiktok usds jv llc",
+      "confidence": "MEDIUM"
+    },
+    {
+      "nodes_involved": [
+        "gulf_swf",
+        "iran",
+        "israel"
+      ],
+      "mechanism": "shared entity: iran",
+      "confidence": "MEDIUM"
+    },
+    {
+      "nodes_involved": [
+        "gulf_swf",
+        "oracle_ellison"
+      ],
+      "mechanism": "shared entity: ipo",
       "confidence": "MEDIUM"
     },
     {
       "nodes_involved": [
         "arkansas_datacenter",
-        "oracle_ellison"
+        "epstein_files"
       ],
-      "mechanism": "shared entity: march 31, 2026",
+      "mechanism": "shared entity: google",
       "confidence": "MEDIUM"
     }
   ]
