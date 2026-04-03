@@ -426,3 +426,72 @@ Larry Ellison is simultaneously exposed to:
 Cross-reference: `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section), `10_FRAMEWORK_VALIDATION.md` (Section 8), `09_CURRENT_THREADS.md` (Node 8)
 
 *Updated March 7, 2026.*
+
+---
+
+## Government-Side Narrative Infrastructure: Pentagon PFAC Credentialing (March 2026)
+
+**Added April 3, 2026**
+
+The Pentagon Facilities Alternative Credentials (PFAC) policy — implemented by Defense Secretary Pete Hegseth — represents the government side of the structural pattern this document describes as emergent in the private media ecosystem. A federal judge explicitly confirmed the mechanism.
+
+### The PFAC Policy and Ruling
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| Policy implemented | Late 2025, under SecDef Hegseth. Required journalists to sign acknowledgment not to publish or solicit information not explicitly approved for public release, even if unclassified. Pentagon given broad discretion to deny, revoke, or suspend credentials for "security or safety risk." | ✅ VERIFIED |
+| Effect | Major news organizations (NYT, CNN, ABC, CBS, NBC, Fox News, and others) refused to sign and turned in credentials en masse. MAGA-aligned outlets and content creators received front-row seats at Iran war briefings. | ✅ VERIFIED |
+| Lawsuit | *New York Times v. Department of Defense* — filed by NYT and reporter Julian E. Barnes; claimed First and Fifth Amendment violations. | ✅ VERIFIED |
+| Ruling | March 20, 2026: US District Senior Judge Paul L. Friedman ruled the policy violated both the First Amendment and the Fifth Amendment. | ✅ VERIFIED |
+| First Amendment finding | Policy imposed "unreasonable and viewpoint-based restrictions" — its "true purpose and practical effect: to weed out disfavoured journalists ... and replace them with news entities that are 'on board and willing to serve.'" | ✅ VERIFIED |
+| Fifth Amendment finding | Policy was unconstitutionally vague, failing to provide adequate notice of what conduct would lead to credential revocation — chilling reporters from routine newsgathering. | ✅ VERIFIED |
+| Court statement | "Those who drafted the First Amendment believed that the nation's security requires a free press and an informed people ... That principle has preserved the nation's security for almost 250 years. It must not be abandoned now." — Judge Friedman | ✅ VERIFIED |
+| Pentagon response | Spokesperson Sean Parnell expressed disagreement; announced plans to appeal. Began implementing additional workspace restrictions for journalists post-ruling. | ✅ VERIFIED |
+
+**Sources**:
+- [ABC News — Federal judge strikes down Pentagon's press access policy (March 20, 2026)](https://abcnews.com/Politics/federal-judge-strikes-pentagons-press-access-policy/story?id=131271115)
+- [Politico — Federal judge reverses Pentagon press restrictions (March 20, 2026)](https://www.politico.com/news/2026/03/20/federal-judge-reverses-pentagon-press-restrictions-00838904)
+- [CBS News — Judge strikes down restrictive Pentagon press policy (March 20, 2026)](https://www.cbsnews.com/news/judge-strikes-down-restrictive-pentagon-press-policy-finding-it-violates-first-amendment/)
+- [Yale Law School MFIA — Court ruling striking down Pentagon press credential policy](https://law.yale.edu/yls-today/news/mfia-welcomes-federal-court-ruling-striking-down-pentagon-press-credential-policy)
+- [RCFP — Federal judge: Pentagon press access policy is unconstitutional](https://www.rcfp.org/pentagon-nyt-press-access-ruling/)
+- [First Amendment Encyclopedia (MTSU) — *New York Times v. Department of Defense* (2026)](https://firstamendment.mtsu.edu/article/new-york-times-v-department-of-defense-2026-u-s-district-court-d-c/)
+
+### Media Firewall Connection
+
+The PFAC policy is the **government-side mirror** of the private-sector Media Firewall documented above. Where the private architecture (1789 Capital → TCN/Daily Wire ecosystem) shapes narrative through capital structure and audience capture, PFAC shaped narrative through **access control at the point of government information production**.
+
+The pattern documented in this file — "narrative energy absorbed by cultural/political controversies while infrastructure consolidation proceeds beneath" — was here confirmed by a federal judge as a deliberate government policy: credentials denied to critical outlets, granted to aligned ones, during an active war (Iran, February–March 2026).
+
+This connects `02_MEDIA_FIREWALL.md` to `06_ATTENTION_ECONOMY.md` through a **documented government policy**, not inference. The attention economy model describes how noise generators consume bandwidth; PFAC demonstrates the supply-side mechanism — controlling which journalists can generate informed coverage in the first place.
+
+Cross-reference: `06_ATTENTION_ECONOMY.md` (attention economy model), `09_CURRENT_THREADS.md` (Node 2 — Iran war context), `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md`
+
+---
+
+## Tucker Carlson NATO Narrative → January 17 Tariffs: Tightened Timing Sequence
+
+**Added April 3, 2026**
+
+The existing `media_firewall_narrative_timing_analysis.md` documents Tucker Carlson's Jan 6-8 "NATO is dead" narrative and the Jan 22 TikTok/Board of Peace harvest (14-16 day lag). The sharper data point not previously surfaced in this context index is the **9-day sequence**:
+
+### The Jan 6-8 → Jan 17 Sequence
+
+| Date | Event | Source |
+|------|-------|--------|
+| Jan 6–8 | Tucker Carlson (TCN): "NATO has come to an end" — frames US taking Greenland as ending NATO, calls this "a huge victory for the world and for the United States." "If I have the power, I get to take what I want" — frames NATO as "an elaborate series of rules designed to pretend that's not true." | [Media Matters](https://www.mediamatters.org/tucker-carlson/tucker-carlson-says-us-taking-greenland-would-end-nato-calls-it-huge-victory-world), [Tasnim News](https://www.tasnimnews.ir/en/news/2026/01/08/3490757/nato-is-now-done-tucker-carlson-on-greenland), [AllSides](https://www.allsides.com/news/2026-01-16-0800/media-bias-tucker-carlson-says-us-taking-greenland-would-end-nato-calls-it-huge-victory-world-and-united-states) |
+| Jan 7–8 | TASS (Russian state media) quotes Carlson's anti-NATO statements prominently — amplification from Russian media ecosystem. | [Tapatalk](https://www.tapatalk.com/groups/theerant/tass-quotes-tucker-t140465.html) |
+| **Jan 17** | **Trump announces 10% tariffs on eight NATO allies — Denmark, Finland, France, Germany, Norway, Sweden, Netherlands, UK — specifically for opposing his Greenland acquisition.** Tariffs escalate to 25% by June 1. | [CNBC](https://www.cnbc.com/2026/01/17/trump-greenland-tariffs-nato.html), [ABC News](https://abcnews.com/US/trump-announces-tariffs-nato-allies-opposing-us-control/story?id=129310383), [Bloomberg](https://www.bloomberg.com/news/articles/2026-01-17/trump-to-impose-tariffs-on-some-european-nations-over-greenland), [Al Jazeera](https://www.aljazeera.com/news/2026/1/17/trump-pledges-to-slap-tariffs-on-european-allies-over-greenland), [Politico](https://www.politico.com/news/2026/01/17/trump-tariffs-europe-greenland-00735582) |
+| Jan 22 | TikTok deal closes ($14B — Oracle/Silver Lake/MGX each 15%); Board of Peace signed at Davos ($1B membership). | See `media_firewall_narrative_timing_analysis.md` Week 4 |
+
+### Timing Significance
+
+The narrative didn't just soften ground generally — it pre-framed the **exact action** Trump took nine days later. Carlson's frame: "NATO ending would be a victory" → Trump imposes tariffs on NATO allies to end their opposition to Greenland acquisition. The sequence:
+
+- **9-day lag**: Jan 6-8 (narrative) → Jan 17 (tariff action targeting the specific alliance Carlson declared "dead")
+- **14-16 day lag**: Jan 6-8 (narrative) → Jan 22 (TikTok/Board of Peace compliance harvest under narrative cover)
+
+Both lags fall within the documented 7-day median lag (±1 week) of the thermostat model. The 9-day sequence is a tighter data point than the 14-16 day window previously documented.
+
+**Note**: This tightens an existing data point — the full narrative-policy timeline is in `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md`. This entry surfaces the sharper connection for the context index without duplicating the full analysis.
+
+Cross-reference: `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md` (full analysis), `01_CORE_THEORY.md` (thermostat model), `09_CURRENT_THREADS.md` (Node 11 — convergence window timing)
