@@ -259,6 +259,106 @@ The Huffines family's rebranding of the former Zorro Ranch is a documented data 
 
 ---
 
+## TPUSA Youth Infrastructure — Post-Assassination Institutional Merger
+
+**Added**: April 3, 2026
+**Status**: Three-phase sequence — Phases 2 and 3 verified; Phase 1 partially verified
+**Cross-references**: `_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md` (Patel section), `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md` (September 2025 reconciliation), `_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md` (Node 10, Node 9)
+
+### Core Finding
+
+Between September 10, 2025, and April 2, 2026, a documented five-month sequence transformed the assassination of Charlie Kirk into durable government-embedded infrastructure: narrative control during the crisis → neutralization of the organization that had documented TPUSA's extremism connections → institutional merger placing TPUSA leadership into DoD advisory roles, state education systems, and White House co-headlined campus events.
+
+This section documents what happened and when. It does not claim the phases were centrally coordinated — the connection is a verifiable timeline sequence, consistent with the project's methodology.
+
+**Existing cross-reference**: Charlie Kirk currently appears in this repo for three separate documented reasons: (1) as an attention economy event via Patel's premature custody claim (`06_ATTENTION_ECONOMY.md`), (2) as the Trump-Musk reconciliation venue at the September 21 memorial (`11_LEVERAGE_THESIS.md`), and (3) as a Patel FBI jet allegation (`09_CURRENT_THREADS.md`). This section connects those threads and documents what came after.
+
+---
+
+### Phase 1 — Narrative Control (September 10–13, 2025)
+
+| Date | Event | Verification |
+|------|-------|-------------|
+| **Sep 10, 2025** | Charlie Kirk assassinated at Utah Valley University in Orem, Utah | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), CBS News, NYT |
+| **Sep 10, 2025** | FBI Director Kash Patel posted on social media that "the subject" in Kirk's assassination had been apprehended; Utah law enforcement simultaneously said the gunman was still at large. Patel retracted ~90 minutes later after the detained individual was released following interrogation. | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), CBS News, Fox News |
+| **Sep 10, 2025** | On the FBI crisis call, Patel and then-Deputy Director Dan Bongino reportedly prioritized social media coordination — who posts what and in what order — over investigative briefings. A senior FBI executive described Patel stating: "The most important thing in any crisis is controlling the narrative." | ⚠️ PARTIALLY VERIFIED — Patel's premature post and social media prioritization documented (CBS, Wikipedia); specific "controlling the narrative" quote and crisis call social media assignment details reported but not independently verified through multiple named sources as of April 2026. |
+| **Sep 10, 2025** | Utah Gov. Spencer Cox warned about social media as "cancer on our society" with Patel standing next to him | ✅ VERIFIED — CBS News, Fox News (already in `06_ATTENTION_ECONOMY.md`) |
+| **Feb 2026** | Whistleblower report (shared by Sen. Dick Durbin) revealed FBI shooting reconstruction team was delayed one day reaching the scene due to plane/pilot shortage caused by Patel's personal use of FBI aircraft | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk) |
+
+**Note**: The premature custody announcement and social media prioritization are already documented in `06_ATTENTION_ECONOMY.md` (Patel section). This section adds the connection to what follows — the "controlling the narrative" doctrine and its relationship to the ADL neutralization and institutional merger phases.
+
+---
+
+### Phase 2 — ADL Neutralization (September–October 2025)
+
+The Kirk assassination created an attention window in which the primary institutional body documenting TPUSA's extremism connections was defunded, publicly attacked, and forced to retire its own tracking list.
+
+| Date | Event | Verification |
+|------|-------|-------------|
+| **Pre-Sep 2025** | ADL's "Glossary of Extremism and Hate" included entries on TPUSA, documenting alleged extremism connections | ✅ VERIFIED — [Jewish Insider](https://jewishinsider.com/2025/09/adl-glossary-of-extremism-charlie-kirk-turning-point-usa-elon-musk/), [Snopes](https://www.snopes.com/news/2025/10/04/adl-tpusa-extremism-designation/) |
+| **Late Sep 2025** | Elon Musk called the ADL a "hate group" and accused it of being "anti-Christian," following post-assassination attention to the ADL's documentation of TPUSA | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), [The Independent](https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-adl-turning-point-usa-b2835605.html), [JTA](https://www.jta.org/2025/09/29/united-states/elon-musk-calls-adl-a-hate-group-that-hates-christians), [Times of Israel](https://www.timesofisrael.com/musk-attacks-adl-calling-it-a-hate-group-that-hates-christians/) |
+| **Late Sep 2025** | ADL retired its "Glossary of Extremism," citing "outdated entries" — removing the documentation that had listed TPUSA | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), [Jewish Insider](https://jewishinsider.com/2025/09/adl-glossary-of-extremism-charlie-kirk-turning-point-usa-elon-musk/), [Newsweek](https://www.newsweek.com/adl-scraps-glossary-of-extremism-after-backlash-10808711) |
+| **~Oct 1, 2025** | FBI Director Patel severed the FBI's longstanding partnership with the ADL and publicly condemned the organization. Patel stated: "This FBI won't partner with political fronts masquerading as watchdogs." FBI also cut ties with the SPLC. | ✅ VERIFIED — [Politico](https://www.politico.com/news/2025/10/01/kash-patel-pulls-the-plug-on-adls-fbi-training-on-extremism-00591105), [The Hill](https://thehill.com/policy/national-security/5535569-kash-patel-fbi-adl/), [Al Jazeera](https://www.aljazeera.com/news/2025/10/2/fbi-cuts-ties-with-anti-defamation-league-amid-conservative-backlash), [US News](https://www.usnews.com/news/politics/articles/2025-10-01/fbi-cuts-ties-with-anti-defamation-league), [National Review](https://www.nationalreview.com/news/fbi-cuts-ties-with-adl-for-designating-turning-point-usa-an-extremist-group/), [Jerusalem Post](https://www.jpost.com/american-politics/article-869254) |
+
+**What this section documents**: The sequence — assassination → public attention to ADL's TPUSA documentation → Musk attack on ADL → ADL retires glossary → FBI severs ADL partnership — is a verified chronological sequence occurring within the same attention window. The section does **not** claim the neutralization was intentional or coordinated. It documents what happened and when.
+
+**Framework significance**: The organization that maintained the most prominent institutional documentation of TPUSA's extremism connections was defunded by the FBI, publicly attacked by the owner of the platform Kirk's movement relied on, and retired its own tracking list — all within the attention window created by Kirk's assassination. This cleared the institutional landscape for what followed in Phase 3.
+
+---
+
+### Phase 3 — Institutional Merger (October 2025 — April 2026)
+
+After the assassination window, the martyrdom narrative was converted into durable government-embedded infrastructure.
+
+| Date | Event | Verification |
+|------|-------|-------------|
+| **Sep 2025** | Erika Kirk becomes TPUSA CEO and Chair within days of Charlie Kirk's death | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), [Politico](https://www.politico.com/news/2025/10/14/charlie-kirk-posthumous-presidential-medal-of-freedom-white-house-00608608), multiple sources |
+| **Sep 21, 2025** | Kirk memorial service at State Farm Stadium, Glendale, AZ — attended by Trump, Musk, VP Vance. Trump and Musk publicly reconcile at this event (see `11_LEVERAGE_THESIS.md` for Musk reconciliation significance). | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk), [Economic Times](https://economictimes.indiatimes.com/news/international/us/trump-musk-reunion-at-charlie-kirk-memorial-lip-reader-revels-the-conversation-claims-user-after-rift-over-epstein-files/articleshow/124037746.cms) |
+| **Oct 14, 2025** | Trump awards Charlie Kirk the Presidential Medal of Freedom posthumously in the White House Rose Garden — what would have been Kirk's 32nd birthday. Erika Kirk present, accepted the medal on his behalf. | ✅ VERIFIED — [ABC News](https://abcnews.com/Politics/trump-set-posthumously-award-charlie-kirk-presidential-medal/story?id=126485749), [PBS](https://www.pbs.org/newshour/politics/watch-live-trump-awards-charlie-kirk-posthumous-presidential-medal-of-freedom), [CBS News](https://www.cbsnews.com/news/trump-awards-charlie-kirk-presidential-medal-of-freedom/), [Politico](https://www.politico.com/news/2025/10/14/charlie-kirk-posthumous-presidential-medal-of-freedom-white-house-00608608), [NBC News](https://www.nbcnews.com/politics/donald-trump/trump-posthumously-awards-charlie-kirk-presidential-medal-freedom-mont-rcna237660) |
+| **~Mar 10, 2026** | Trump appoints Erika Kirk to the US Air Force Academy Board of Visitors — a 16-member DoD advisory board with authority over curriculum, morale, academic programs, and discipline. She fills the same seat her late husband held for approximately five months before his assassination. | ✅ VERIFIED — [Stars and Stripes](https://www.stripes.com/branches/air_force/2026-03-10/erika-kirk-air-force-academy-21016996.html), [Military.com](https://www.military.com/feature/2026/03/10/erika-kirk-and-air-force-academy-board-what-appointment-reveals-about-panel.html), [Newsmax](https://www.newsmax.com/politics/erika-kirk-air-force-academy-trump/2026/03/10/id/1248967/), [Colorado Springs Gazette](https://gazette.com/2026/03/09/trump-appoints-erika-kirk-to-air-force-academy-board/), [Inside Higher Ed](https://www.insidehighered.com/news/quick-takes/2026/03/12/trump-appoints-erika-kirk-us-air-force-academy-board), [The Intercept](https://theintercept.com/2026/03/19/air-force-academy-charlie-erika-kirk/) |
+| **Mar 11, 2026** | Governor Sarah Huckabee Sanders signs a formal state proclamation at the Arkansas Governor's Mansion encouraging every Arkansas high school and college to establish TPUSA Club America chapters. Erika Kirk was present. Violence broke out between TPUSA supporters and protesters outside; state troopers were injured and arrests were made. | ✅ VERIFIED — [KATV](https://katv.com/news/local/sanders-hosts-turning-point-usas-erika-kirk-at-mansion-signs-club-america-proclamation), [Arkansas Times](https://arktimes.com/arkansas-blog/2026/03/11/arkansas-governor-proclaims-students-should-launch-turning-point-usa-chapters), [Arkansas Advocate](https://arkansasadvocate.com/2026/03/11/sanders-encouraging-all-arkansas-high-schools-to-start-turning-point-usa-youth-club-chapters/), [KARK](https://www.kark.com/news/local-news/turning-point-usas-erika-kirk-joins-arkansas-governor-sanders-to-support-the-expansion-of-club-america-in-schools/), [5News](https://www.5newsonline.com/article/news/regional/arkansas-news/erika-kirk-gov-sanders-announcement/527-17f5ddb3-2ff7-4fed-a2e1-d1cb92cf0004), [Governor's Office](https://governor.arkansas.gov/news_post/governor-sanders-awards-the-arkansas-medal-of-freedom-2/) |
+| **Apr 2, 2026** | White House Press Secretary Karoline Leavitt co-headlined the spring TPUSA "This Is the Turning Point Tour" kickoff at George Washington University alongside Erika Kirk. Future stops: VP JD Vance (University of Georgia, April 14), Donald Trump Jr. and Border Czar Tom Homan (Baylor, April 22). Active executive branch officials are participating in partisan campus events. | ✅ VERIFIED — [FOX 5 DC](https://www.fox5dc.com/news/turning-point-usa-tour-featuring-karoline-leavitt-coming-gwu-thursday), [C-SPAN](https://www.c-span.org/event/public-affairs-event/wh-press-secretary-karoline-leavitt-and-erika-kirk-speak-at-turning-point-usa-event/441788), [CBS News Atlanta](https://www.cbsnews.com/atlanta/news/jd-vance-erika-kirk-university-of-georgia-turning-point-usa-tour-rsvp-tickets/), [TPUSA](https://www.tpusa.com/live/tpusas-this-is-the-turning-point-tour-resumes-in-spring-2026/), [Baylor Lariat](https://baylorlariat.com/2026/03/14/turning-point-usa-tour-to-stop-at-baylor/) |
+
+---
+
+### The Equal Access Act Shield
+
+Once any Arkansas public school has a single non-curriculum student club, federal law prohibits it from refusing TPUSA a chapter on political or religious content grounds.
+
+| Detail | Information | Verification |
+|--------|-------------|--------------|
+| **Law** | Equal Access Act of 1984 (20 U.S.C. §§ 4071–4074) | ✅ VERIFIED — [Wikipedia](https://en.wikipedia.org/wiki/Equal_Access_Act), [US Dept. of Education](https://www.ed.gov/sites/ed/files/policy/elsec/guid/secletter/groupsguide.doc) |
+| **Mechanism** | If a federally funded public secondary school creates a "limited open forum" by allowing any noncurriculum-related student group, it cannot deny equal access to other student-initiated groups based on political, religious, or philosophical content | ✅ VERIFIED — *Board of Education v. Mergens* (1990), [ACLU-WA](https://www.aclu-wa.org/app/uploads/2011/07/Equal-Access-Act-FAQs.pdf) |
+| **Key requirement** | Clubs must be **student-initiated** and student-led; adults cannot direct, control, or regularly participate | ✅ VERIFIED — 20 U.S.C. § 4071(c), Dept. of Education guidelines |
+| **Sanders proclamation effect** | Proclamation explicitly encouraged schools to allow TPUSA chapters and discouraged administrators from suppressing them | ✅ VERIFIED — [Arkansas Advocate](https://arkansasadvocate.com/2026/03/11/sanders-encouraging-all-arkansas-high-schools-to-start-turning-point-usa-youth-club-chapters/), [5News](https://www.5newsonline.com/article/news/regional/arkansas-news/erika-kirk-gov-sanders-announcement/527-17f5ddb3-2ff7-4fed-a2e1-d1cb92cf0004) |
+| **ACLU of Arkansas response** | Noted the proclamation may create legal complications: the Equal Access Act requires clubs to be student-initiated — a governor actively promoting a specific organization blurs that line. ACLU stated: "The Governor's endorsement...only to the exclusion of all other student clubs...is differential treatment based on content or viewpoint, and a problem under the First Amendment... adults must not push for the formation of or meddle in the content and activities of student clubs in our public schools." | ✅ VERIFIED — [ACLU of Arkansas](https://www.acluarkansas.org/press-releases/aclu-of-arkansas-statement-on-school-clubs-announcement-by-governor-sanders/) |
+
+**Legal architecture**: The proclamation creates a practical one-way ratchet. Most Arkansas public schools already have at least one noncurriculum student club (chess, hiking, etc.), which triggers the Equal Access Act's "limited open forum" provision. Once triggered, schools cannot refuse a TPUSA chapter on content grounds. The governor's active promotion of a specific organization adds political pressure against administrator resistance while the ACLU argues it undermines the student-initiation requirement the Act depends on.
+
+---
+
+### The Structural Sequence
+
+```
+Sep 10, 2025: Kirk assassinated — Patel prioritizes social media narrative over investigation
+    ↓ (same attention window)
+Late Sep 2025: Musk attacks ADL as "hate group" — ADL retires extremism glossary that listed TPUSA
+    ↓ (same attention window)
+Oct 1, 2025: FBI severs partnership with ADL — primary institutional monitor neutralized
+    ↓ (two weeks later)
+Oct 14, 2025: Medal of Freedom — martyrdom formalized in White House ceremony
+    ↓ (five months later)
+Mar 10, 2026: Erika Kirk appointed to Air Force Academy Board of Visitors — DoD seat
+Mar 11, 2026: Sanders signs TPUSA proclamation — state education system integration
+Apr 2, 2026: White House Press Secretary co-headlines TPUSA campus tour — executive branch participation
+```
+
+**What this documents**: A verifiable five-month timeline from political assassination to institutional embedding — DoD advisory board, state education system, White House co-headlined campus events. The organization that monitored TPUSA's extremism connections (ADL) was neutralized in the same attention window as the assassination. No causal claim is made between phases. The connection is a documented timeline sequence.
+
+**Cross-reference**: For the Musk-Trump reconciliation at the Kirk memorial (September 21) and its significance in the Epstein leverage framework, see `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md` (Pre-September Context). The five-day gap between reconciliation (Sep 21) and Epstein calendar release naming Musk (Sep 26) is documented there.
+
+---
+
 ## What This Analysis Does NOT Claim
 
 - ❌ No claim that religious belief is inherently dangerous or disqualifying
@@ -284,7 +384,11 @@ The Huffines family's rebranding of the former Zorro Ranch is a documented data 
 | DOGE integration / Vought | `14_Files/Claude's_Analysis.md` |
 | Hegseth Camden speech timeline | `_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md` |
 | Enforcement mechanisms | `The_Lever.md` (companion file) |
+| TPUSA post-assassination institutional merger | This file (TPUSA Youth Infrastructure section) |
+| Patel social media / Kirk crisis response | `_AI_CONTEXT_INDEX/06_ATTENTION_ECONOMY.md` (Patel section) |
+| Trump-Musk reconciliation at Kirk memorial | `_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md` (Pre-September Context) |
+| Sanders TPUSA proclamation / Arkansas track | `_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md` (Node 9) |
 
 ---
 
-*This file created March 15, 2026. All claims marked for independent verification by Copilot Claude Opus 4.6. The analytical framework assumes actors mean what they publicly state about their theological beliefs, and maps the organizational infrastructure through which those beliefs translate into policy outcomes.*
+*This file created March 15, 2026. Updated April 3, 2026: Added TPUSA Youth Infrastructure — Post-Assassination Institutional Merger section documenting the five-month sequence from assassination (Sep 10, 2025) to institutional embedding (Apr 2, 2026). All claims marked for independent verification by Copilot Claude Opus 4.6. The analytical framework assumes actors mean what they publicly state about their theological beliefs, and maps the organizational infrastructure through which those beliefs translate into policy outcomes.*
