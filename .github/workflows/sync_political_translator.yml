@@ -1,0 +1,74 @@
+name: Sync Political Translator Reports
+
+on:
+  schedule:
+    # Runs daily at 08:30 UTC
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-political-translator:
+    name: Pull Political_Translator_Reports into DAILY_REPORTS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout Political_Translator repository
+        uses: actions/checkout@v4
+        with:
+          repository: Leerrooy95/Political_Translator
+          path: _political_translator
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Sync Political_Translator_Reports to DAILY_REPORTS
+        run: |
+          mkdir -p DAILY_REPORTS
+
+          if [ -d "_political_translator/Political_Translator_Reports" ]; then
+            cp -r _political_translator/Political_Translator_Reports/. DAILY_REPORTS/
+            echo "✅ Synced Political_Translator_Reports → DAILY_REPORTS"
+          else
+            echo "⚠️  Political_Translator_Reports directory not found in Political_Translator repo"
+            exit 1
+          fi
+
+      - name: Clean up Political_Translator checkout
+        run: rm -rf _political_translator
+
+      - name: Commit and push synced reports
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add DAILY_REPORTS/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "📋 Sync: Political Translator Reports ($(date -u '+%Y-%m-%d'))"
+
+            MAX_RETRIES=3
+            for i in $(seq 1 $MAX_RETRIES); do
+              echo "--- Push attempt $i of $MAX_RETRIES ---"
+              git fetch origin main
+              if ! git merge origin/main --no-edit --strategy-option=ours; then
+                git merge --abort 2>/dev/null || true
+                sleep $((i * 2))
+                continue
+              fi
+              if git push origin main; then
+                echo "✅ Push succeeded on attempt $i"
+                exit 0
+              fi
+              sleep $((i * 2))
+            done
+
+            echo "::error::Failed to push after $MAX_RETRIES attempts"
+            exit 1
+          else
+            echo "No new reports to sync."
+          fi
