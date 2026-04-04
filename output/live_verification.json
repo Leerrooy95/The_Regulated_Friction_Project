@@ -1,156 +1,100 @@
 {
-  "generated_at": "2026-04-03T08:53:15Z",
+  "generated_at": "2026-04-04T08:42:04Z",
   "generated_by": "Live Trackers daily_intelligence.py (prediction verifier)",
   "total_predictions": 10,
   "status_summary": {
-    "monitoring": 5,
-    "partial": 2,
-    "verified": 3
+    "error": 10
   },
   "results": [
     {
       "prediction": "Maxwell clemency decision by Trump DOJ",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "No clemency decision has been announced for Ghislaine Maxwell as of April 2026. Search results indicate a DOJ official was caught on video claiming Maxwell was transferred to lower-security prison to 'keep her mouth shut,' and there are references to clemency discussions, but no formal decision has been made public. Attorney General Pam Bondi was recently fired by Trump, partly over her handling of Epstein-related matters.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
-        "https://www.theguardian.com/us-news/2026/apr/02/pam-bondi-attorney-general-trump-timeline",
-        "https://time.com/article/2026/04/02/pam-bondi-out-as-trump-s-attorney-general/",
-        "https://2paragraphs.com/2026/04/ex-doj-spokesperson-hints-at-pam-bondi-pardon-his-cabinet-is-not-immune/"
-      ],
-      "date_checked": "2026-04-03"
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Iran war ceasefire or major escalation",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "The situation remains unresolved with contradictory claims. Trump announced on June 24 that he declared a ceasefire, but Iranian officials consistently deny any negotiations are taking place and reject ceasefire conditions. Military strikes continue with recent attacks on Tehran and Iranian infrastructure, indicating neither a definitive ceasefire nor major escalation threshold has been reached.",
-      "source": "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html",
-      "citations": [
-        "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html",
-        "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
-        "https://www.axios.com/2026/04/01/trump-iran-ceasefire-president",
-        "https://www.nytimes.com/live/2026/03/25/world/iran-war-trump-oil-news",
-        "https://understandingwar.org/research/middle-east/iran-update-special-report-april-1-2026/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Strait of Hormuz full shipping restoration",
       "timeframe": "Ongoing",
-      "status": "monitoring",
-      "description": "The Strait of Hormuz remains largely closed after nearly four weeks of Iranian mining operations and attacks on merchant vessels. While the US military began operations on March 19 to reopen the strait, approximately 1,000 vessels remain anchored or in port, with only a trickle of ships willing to transit. Defense Secretary Pete Hegseth indicated the US is taking steps to clear mines, but no clear timeline for full restoration has been established.",
-      "source": "https://www.cnn.com/2026/03/26/middleeast/how-iran-controls-strait-of-hormuz-explained-intl-vis",
-      "citations": [
-        "https://www.cnn.com/2026/03/26/middleeast/how-iran-controls-strait-of-hormuz-explained-intl-vis",
-        "https://www.theguardian.com/world/2026/mar/26/strait-of-hormuz-visual-guide-trickle-of-ships-iran",
-        "https://www.houstonpublicmedia.org/npr/2026/04/01/nx-s1-5766222/is-the-u-s-navy-ready-to-clear-sea-mines-in-the-persian-gulf/",
-        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
-        "https://hormuzstraitmonitor.com/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Oracle Stargate financial restructuring or default",
       "timeframe": "2026",
-      "status": "partial",
-      "description": "Oracle has implemented a $2.1 billion restructuring plan involving layoffs of up to 30,000 employees to free up $8-10 billion in annual cash flow for AI infrastructure investments. The company's debt has exceeded $100 billion due to Stargate commitments, with credit default swap spreads reaching record highs at 198.18 basis points, and bondholders filing lawsuits alleging Oracle concealed true costs of its OpenAI deal.",
-      "source": "https://business-news-today.com/oracle-layoffs-2026-up-to-30000-employees-terminated-by-6am-email-as-stargate-debt-tops-100bn/",
-      "citations": [
-        "https://business-news-today.com/oracle-layoffs-2026-up-to-30000-employees-terminated-by-6am-email-as-stargate-debt-tops-100bn/",
-        "https://www.business-standard.com/world-news/oracle-layoffs-india-job-cuts-ai-spending-data-centres-cash-flow-debt-deal-126040100527_1.html",
-        "https://www.naturalnews.com/2026-04-02-oracle-mass-layoffs-data-breach-mounting-debt.html",
-        "https://www.morningstar.com/news/pr-newswire/20260401ny24516/levi-korsinsky-notifies-shareholders-of-oracle-corporationorcl-of-a-class-action-lawsuit-and-an-upcoming-deadline",
-        "https://technext24.com/2026/04/01/oracle-cuts-up-to-30000-jobs-globally/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "New batch of Epstein documents released",
       "timeframe": "Ongoing",
-      "status": "verified",
-      "description": "The DOJ has released multiple new batches of Epstein documents in 2026. On January 30, 2026, over 3 million pages of documents, 180,000 images, and 2,000 videos were released. A sixth release was published on March 5, 2026, with about 50,000 previously removed files restored after DOJ and FBI review.",
-      "source": "https://en.wikipedia.org/wiki/Epstein_files",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Epstein_files",
-        "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act",
-        "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline/2026-Contempt-delays-and-more-documents",
-        "https://www.washingtontimes.com/news/2026/mar/27/epstein-victim-sues-doj-google-release-name-files/",
-        "https://thehill.com/regulation/court-battles/5804358-epstein-survivors-sue-justice-google/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Epstein associate indicted or named in new documents",
       "timeframe": "2026",
-      "status": "verified",
-      "description": "Multiple Epstein associates have been named in new documents released in 2026 under the Epstein Files Transparency Act. The DOJ has released nearly 3.5 million pages including FBI 302 victim interview statements, with files revealing ongoing relationships between Epstein and associates like Lawrence Krauss up to 2018, and Commerce Secretary Howard Lutnick's planned 2012 visit to Epstein's island despite claiming no contact after 2005.",
-      "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
-      "citations": [
-        "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
-        "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline/2026-Contempt-delays-and-more-documents",
-        "https://en.wikipedia.org/wiki/Connections_of_Jeffrey_Epstein",
-        "https://www.justice.gov/epstein/doj-disclosures",
-        "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Gulf SWF emergency capital reallocation from US markets",
       "timeframe": "Ongoing",
-      "status": "partial",
-      "description": "Gulf sovereign wealth funds are undergoing strategic shifts but not emergency withdrawals from US markets. Saudi PIF's new five-year strategy focuses on attracting third-party capital rather than withdrawing existing investments, while Gulf funds continue investing in Western AI infrastructure and technology assets. The reallocation appears strategic rather than emergency-driven, with funds pivoting toward domestic stabilization amid regional conflicts.",
-      "source": "https://www.hubbis.com/news/saudi-arabia-s-public-investment-fund-s-targets-greater-third-party-capital-in-upcoming-five-year-strategy",
-      "citations": [
-        "https://www.hubbis.com/news/saudi-arabia-s-public-investment-fund-s-targets-greater-third-party-capital-in-upcoming-five-year-strategy",
-        "https://siliconcanals.com/sc-d-the-invisible-subsidy-how-gulf-sovereign-wealth-funds-became-the-default-buyers-of-western-ai-infrastructure-and-what-that-means-for-who-controls-the-next-decade-of-computing/",
-        "https://www.ainvest.com/news/gulf-sovereign-wealth-funds-face-strategic-shift-global-investors-domestic-stabilization-conflict-damage-fiscal-pressure-2603/",
-        "https://www.breakwaveadvisors.com/insights/2026/4/1/a-direct-threat-to-the-gulf-business-model",
-        "https://www.asiaasset.com/sovereign-wealth-funds/saudi-wealth-fund-pif-aims-to-draw-more-third-party-capital-in-new-five-year-strategy/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "TikTok USDS JV lawsuit outcome or Congressional review action",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "The TikTok USDS Joint Venture LLC officially closed on January 22, 2026, with Oracle, Silver Lake, and MGX holding majority control while ByteDance retains a 19.9% stake. While ByteDance previously filed a lawsuit challenging the original legislation in May 2024, no specific information was found regarding current lawsuits against the joint venture structure or Congressional review actions targeting the post-deal entity.",
+      "status": "error",
+      "description": "Verification call failed.",
       "source": "",
-      "citations": [
-        "https://www.tubebuddy.com/blog/youtube-creator-news-march-2026",
-        "https://www.peoplenewstoday.com/news/en/2026/03/31/1136306.html.When-TikToks-Algorithm-Stops-Following-Beijings-Orders-(Part-1).html",
-        "https://en.wikipedia.org/wiki/Protecting_Americans_from_Foreign_Adversary_Controlled_Applications_Act"
-      ],
-      "date_checked": "2026-04-03"
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Schedule Policy/Career legal challenge succeeds or fails",
       "timeframe": "2026",
-      "status": "monitoring",
-      "description": "Schedule Policy/Career implementation began in March 2026 with OPM's final rule published February 6, 2026. Legal challenges are actively proceeding, with NTEU filing an amended complaint by March 31, 2026 following a court-accepted proposal from March 17. The legal challenges are ongoing but no final court ruling on success or failure has been issued yet.",
-      "source": "https://www.everycrsreport.com/reports/LSB11412.html",
-      "citations": [
-        "https://www.everycrsreport.com/reports/LSB11412.html",
-        "https://www.fedweek.com/issue-briefs/report-lays-out-current-potential-future-legal-challenges-to-schedule-p-c/"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     },
     {
       "prediction": "Mojtaba Khamenei confirmed as Supreme Leader of Iran",
       "timeframe": "2026",
-      "status": "verified",
-      "description": "Mojtaba Khamenei was officially selected as Iran's third Supreme Leader by the Assembly of Experts on March 8, 2026, following his father Ali Khamenei's assassination during the 2026 Iran war. The 88-member clerical body chose him to succeed his father, with reports indicating he received the required two-thirds majority vote.",
-      "source": "https://en.wikipedia.org/wiki/2026_Iranian_supreme_leader_election",
-      "citations": [
-        "https://en.wikipedia.org/wiki/2026_Iranian_supreme_leader_election",
-        "https://www.unitedagainstnucleariran.com/mojtaba-khamenei-third-supreme-leader-of-iran",
-        "https://en.wikipedia.org/wiki/Mojtaba_Khamenei",
-        "https://en.wikipedia.org/wiki/Assassination_of_Ali_Khamenei",
-        "https://www.britannica.com/topic/supreme-leader-of-Iran"
-      ],
-      "date_checked": "2026-04-03"
+      "status": "error",
+      "description": "Verification call failed.",
+      "source": "",
+      "citations": [],
+      "date_checked": "2026-04-04"
     }
   ]
 }
