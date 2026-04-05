@@ -14,7 +14,7 @@
 | Omeed Malik was Managing Director at Bank of America Prime Brokerage | ✅ VERIFIED | Professional records |
 | 1789 holds dual symbolism for US (Constitution) and Saudi (1789 conquest) | ⚠️ OBSERVATION | `12_The_Media_Firewall/1789_Symbolism_Analysis.md` |
 | Media firewall directs attention away from financial architecture | 🔍 HYPOTHESIS | Repository analysis |
-| Post-buyout Carlson still operates within firewall — redirecting anger to non-actionable targets (Israel, Zionism, Chabad) that cannot be subpoenaed, FOIAed, or counter-measured | 🔍 HYPOTHESIS (v12.1) | Repository analysis; Carlson–Owens interview (Aug 1, 2025) |
+| Post-buyout Carlson still operates within firewall — redirecting anger to non-actionable targets (Israel, Zionism, Chabad) that cannot be subpoenaed, FOIAed, or counter-measured | 🔍 HYPOTHESIS | Repository analysis; Carlson–Owens interview (Aug 1, 2025); added v12.1 |
 
 ---
 
@@ -27,7 +27,7 @@
 3. **Operates with Gulf capital**: Same networks have documented relationships with Gulf sovereign wealth
 4. **Redirects anger toward non-actionable targets** (v12.1): Even post-buyout, Carlson's criticism targets entities that cannot be subpoenaed, FOIAed, or counter-measured (Israel, Zionism, Chabad) — preserving the structural void on domestic financial architecture
 
-**The Function**: Narrative energy is absorbed by cultural/political controversies while infrastructure consolidation proceeds beneath. The post-buyout shift (v12.1) reveals the firewall has **two modes**: (a) directing anger at sanctioned targets while funded (CIA/Mossad, pre-June 2025), and (b) redirecting anger toward *different* non-actionable targets after independence (Israel/Zionism) — both achieving the same structural outcome of protecting domestic financial architecture from public scrutiny.
+**The Function**: Narrative energy is absorbed by cultural/political controversies while infrastructure consolidation proceeds beneath. The post-buyout shift (v12.1) reveals the firewall has **two modes**: (a) directing anger at non-actionable targets while funded (CIA/Mossad, pre-June 2025), and (b) redirecting anger toward *different* non-actionable targets after independence (Israel/Zionism) — both achieving the same structural outcome of protecting domestic financial architecture from public scrutiny.
 
 ---
 
@@ -260,7 +260,7 @@ The Tucker Carlson Show interview with Candace Owens (August 1, 2025 — "Macron
 
 The v12.1 reassessment:
 
-- **Before buyout**: Carlson's coverage pattern matched one mode of the Media Firewall — loud on foreign policy friction, silent on financial plumbing, anger directed at sanctioned targets (CIA/Mossad).
+- **Before buyout**: Carlson's coverage pattern matched one mode of the Media Firewall — loud on foreign policy friction, silent on financial plumbing, anger directed at non-actionable targets (CIA/Mossad).
 - **After buyout**: Carlson shifted to a *different* mode of the same firewall — loud on Israel/Zionism, still silent on financial plumbing, anger directed at different non-actionable targets. The structural void on domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo) persists.
 
 The buyout changed the *flavor* of the firewall, not its *function*. Whether audiences are angry at CIA/Mossad or angry at Israel/Zionism, the domestic financial architecture remains invisible.
