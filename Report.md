@@ -362,7 +362,7 @@ Bank of America agreed to a $72.5 million civil settlement with Epstein survivor
 
 ### Planet Labs Imagery Blackout and the Compliance Contrast (April 5, 2026)
 
-**Filed April 5, 2026.** Planet Labs (NYSE: PL) announced an indefinite blackout of all satellite imagery over Iran and Middle East conflict zones at US government request. The blackout covers all new and archived imagery dating back to March 9, 2026, shifting from a 14-day delay to "managed distribution" — case-by-case release only for urgent, mission-critical situations.
+**Filed April 5, 2026.** Planet Labs (NYSE: PL) announced an indefinite blackout of all satellite imagery over Iran and Middle East conflict zones at US government request.
 
 **What happened**: The US government cited concerns that adversaries were using commercially available satellite imagery for tactical military advantage — target identification, weapons guidance, missile tracking. Planet Labs complied without legal challenge. Other US satellite firms (Vantor/formerly Maxar, BlackSky) imposed their own parallel restrictions. Non-US alternatives (ESA, Asian providers) remain available but offer lower resolution and less frequent coverage.
 
