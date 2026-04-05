@@ -111,6 +111,8 @@ This interview represents a **narrative expansion** within the Media Firewall, n
 
 **Conclusion**: The permissible boundary has expanded to include systemic financial critique (CBDCs, central bank operations) while the **specific actors and capital pipelines** documented in this repository remain structurally protected.
 
+**v12.1 Note**: This Fitts interview analysis predates and supports the v12.1 reassessment of Tucker Carlson. The pattern documented here — anger directed at abstractions, specific actors unnamed — is the same redirect mechanism identified in Carlson's post-buyout behavior more broadly. Whether the targets are "CBDCs" (Fitts interview), "CIA/Mossad" (pre-buyout Epstein coverage), or "Israel/Zionism" (post-buyout Iran criticism), the domestic financial architecture remains invisible. See `02_MEDIA_FIREWALL.md` (v12.1 Redirect section) for full analysis.
+
 ---
 
 ## Cross-References

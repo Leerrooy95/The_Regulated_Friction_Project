@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** April 5, 2026
-**Version:** v12.0
+**Version:** v12.1
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -588,7 +588,7 @@ Analysis of influencer narratives from the Media Firewall ecosystem (Tucker Carl
 
 **Boundary marker:** The Candace Owens departure from Daily Wire (March 2024) over Israel commentary shows where the firewall's tolerance ends — anti-Israel is not tolerated because Israel is structurally necessary to the Vendor-State model documented in this repository.
 
-> **⚠️ Critical Update (June 2025):** Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN fully independent. After exiting the capital structure, Carlson openly broke with the Trump administration over Iran policy, accused Trump of betraying "America First" principles, and triggered a "MAGA media civil war" — behavior structurally consistent with the firewall thesis (see `02_MEDIA_FIREWALL.md` for full analysis). The three patterns above describe the **Oct 2023 – June 2025 period** when TCN operated within the 1789 Capital orbit. TCN is no longer part of the Media Firewall capital structure.
+> **⚠️ Critical Update (v12.1 — April 5, 2026):** Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN financially independent. The three patterns above describe the **Oct 2023 – June 2025 period** when TCN operated within the 1789 Capital orbit. However, the initial assessment that Carlson's post-buyout criticism of Trump on Iran represented the firewall becoming "inactive" was **incorrect** (see v12.1 correction in `02_MEDIA_FIREWALL.md`). Post-buyout, Carlson redirected audience anger toward non-actionable targets (Israel, Zionism) — entities that cannot be subpoenaed, FOIAed, or counter-measured. The domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) remains unmentioned across both periods. The firewall's *flavor* changed; its *function* — protecting domestic financial architecture from scrutiny — did not. Case study: Carlson–Owens interview (August 1, 2025) — when Owens moves toward naming specific accountable individuals, Carlson deflects back to abstract/non-actionable framing.
 
 ### February 2026: The Compliance Window (Feb 1–19)
 
@@ -777,7 +777,7 @@ Mubadala (UAE SWF)
                                                       └── Fannie Mae board — Housing/Finance
 ```
 
-**What this means:** A single node (1789 Capital / Malik) deploys Gulf-sourced capital (Silver Lake → Mubadala chain), sits on government housing boards (Fannie Mae), and funds the enforcement layer (Anduril) — all under a "Patriotic Capitalism" brand that functions as a scrutiny dampener. During October 2023 – June 2025, this node also controlled narrative infrastructure through TCN; that link was severed when Carlson and Patel bought out all investors. Post-buyout, Carlson openly broke with the Trump administration (see Media Firewall Narrative Timing section above), which is consistent with the thesis that capital structure constrains narrative output.
+**What this means:** A single node (1789 Capital / Malik) deploys Gulf-sourced capital (Silver Lake → Mubadala chain), sits on government housing boards (Fannie Mae), and funds the enforcement layer (Anduril) — all under a "Patriotic Capitalism" brand that functions as a scrutiny dampener. During October 2023 – June 2025, this node also controlled narrative infrastructure through TCN; that capital link was severed when Carlson and Patel bought out all investors. Post-buyout, Carlson redirected audience anger toward non-actionable foreign targets (Israel, Zionism) while maintaining structural silence on domestic financial architecture — the firewall function persists through a different channel (see v12.1 reassessment in `02_MEDIA_FIREWALL.md`).
 
 **Caveats:** No Epstein connection found. Board of Peace adjacency is structural, not formal membership. Gulf SWF funding is indirect (Mubadala → Silver Lake → 1789), not direct LP investment. Editorial intent is unconfirmable. TCN link is now historical (Oct 2023 – June 2025).
 
@@ -1367,7 +1367,7 @@ These predictions derive from the model's logic: if calendar anchors drive clust
 - Key question: Why do the same entities appear in EA, TikTok, Stargate, Board of Peace, and World Liberty Financial?
 - Key question: Why was Warsh's Fed Chair nomination announced the same day as the largest Epstein file release?
 - Key question: Why does the Media Firewall ecosystem never cover Gulf sovereign fund capital flows or Board of Peace financial architecture?
-- Key question: Why did 1789 Capital simultaneously fund narrative infrastructure (TCN, until June 2025 buyout) and defense enforcement (Anduril) pitched to Gulf state partners — and why did Carlson begin publicly breaking with the administration only after exiting the capital structure?
+- Key question: Why did 1789 Capital simultaneously fund narrative infrastructure (TCN, until June 2025 buyout) and defense enforcement (Anduril) pitched to Gulf state partners — and why does Carlson's post-buyout criticism consistently target non-actionable entities (Israel, Zionism) rather than the domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) documented in this repository?
 - Key question: Why does Resolution 2803 place ISF command under the Board of Peace rather than UN DPKO — and give the Chairman personal appointment authority?
 - Key question: Why was the Schedule Policy/Career rule published despite 94% opposition — and during the Epstein files media cycle?
 - Key question: Why does the verified capital pipeline (PIF → Affinity → Phoenix → settlements → Gaza reconstruction) run through a body presented as a diplomatic peace initiative?
@@ -1403,7 +1403,7 @@ This research documents sixteen connected patterns:
 
 **The vendor-state stress test (Feb 2026):** Vendor instability contradicts consolidation assumptions — xAI co-founder exodus, Oracle $248B lease stress, Anduril test failures. Board of Peace forensic vetting confirmed "Board of Profits" thesis; "Lifeboat" hypothesis NOT SUPPORTED.
 
-**The enforcement architecture & semiotic bridge (Feb 2026):** Three-pillar privatized security model (private contractors, state military, cyber infrastructure) under Board of Peace command (not UN). 1789 Capital (Omeed Malik) verified as "Semiotic Bridge" linking defense technology, government boards, and finance through Gulf SWF capital chain. The TCN media link (Oct 2023 – June 2025) was severed when Carlson bought out all investors; post-buyout, Carlson broke with the administration — consistent with the firewall thesis.
+**The enforcement architecture & semiotic bridge (Feb 2026):** Three-pillar privatized security model (private contractors, state military, cyber infrastructure) under Board of Peace command (not UN). 1789 Capital (Omeed Malik) verified as "Semiotic Bridge" linking defense technology, government boards, and finance through Gulf SWF capital chain. The TCN capital link (Oct 2023 – June 2025) was severed when Carlson bought out all investors; however, post-buyout Carlson redirected audience anger toward non-actionable foreign targets (Israel/Zionism) while maintaining silence on domestic financial architecture — the firewall function persists through redirect (v12.1 reassessment).
 
 **The financial architecture layer (Feb 14, 2026):** Most significant arrangements operate below 13F visibility. Apollo as credit backbone ($3B QXO + $3.5B xAI + $29B Meta) while Rowan sits on Board of Peace executive committee — governance → financing pipeline. 13F visibility gap confirms Prong 2.
 

@@ -10,22 +10,24 @@
 |-------|--------------|-------------------|
 | 1789 Capital funded Tucker Carlson Network with $15M (Oct 2023) | ✅ VERIFIED | Wikipedia, Mother Jones |
 | Carlson & Patel bought out all 1789 Capital investors (June 2025); TCN now independent | ✅ VERIFIED | [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors) |
-| Post-buyout: Carlson openly criticized Trump administration on Iran policy (2025–2026) | ✅ VERIFIED | [ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270), [NBC News](https://www.nbcnews.com/politics/donald-trump/tucker-carlson-maga-trump-rcna217473) |
+| Post-buyout: Carlson criticized Trump on Iran policy — but redirected anger toward non-actionable targets (Israel/Zionism), not domestic financial architecture (2025–2026) | ✅ VERIFIED (criticism); 🔍 REDIRECT THESIS (see below) | [ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270), [NBC News](https://www.nbcnews.com/politics/donald-trump/tucker-carlson-maga-trump-rcna217473) |
 | Omeed Malik was Managing Director at Bank of America Prime Brokerage | ✅ VERIFIED | Professional records |
 | 1789 holds dual symbolism for US (Constitution) and Saudi (1789 conquest) | ⚠️ OBSERVATION | `12_The_Media_Firewall/1789_Symbolism_Analysis.md` |
 | Media firewall directs attention away from financial architecture | 🔍 HYPOTHESIS | Repository analysis |
+| Post-buyout Carlson still operates within firewall — redirecting anger to non-actionable targets (Israel, Zionism, Chabad) that cannot be subpoenaed, FOIAed, or counter-measured | 🔍 HYPOTHESIS (v12.1) | Repository analysis; Carlson–Owens interview (Aug 1, 2025) |
 
 ---
 
 ## The Media Firewall Thesis
 
-**Core Argument**: "New Right" media platforms (Daily Wire and, until June 2025, Tucker Carlson Network) function as a "heat sink" or "firewall" that:
+**Core Argument**: "New Right" media platforms (Daily Wire and Tucker Carlson Network) function as a "heat sink" or "firewall" that:
 
-1. **Directs attention**: Toward high-valence foreign policy disputes (NATO, Ukraine, Israel) and cultural issues
+1. **Directs attention**: Toward high-valence targets — foreign policy disputes (NATO, Ukraine, Israel) and cultural issues
 2. **Creates structural void**: Notably silent on domestic financial plumbing (prime brokerage, UCC Article 8)
 3. **Operates with Gulf capital**: Same networks have documented relationships with Gulf sovereign wealth
+4. **Redirects anger toward non-actionable targets** (v12.1): Even post-buyout, Carlson's criticism targets entities that cannot be subpoenaed, FOIAed, or counter-measured (Israel, Zionism, Chabad) — preserving the structural void on domestic financial architecture
 
-**The Function**: Narrative energy is absorbed by cultural/political controversies while infrastructure consolidation proceeds beneath.
+**The Function**: Narrative energy is absorbed by cultural/political controversies while infrastructure consolidation proceeds beneath. The post-buyout shift (v12.1) reveals the firewall has **two modes**: (a) directing anger at sanctioned targets while funded (CIA/Mossad, pre-June 2025), and (b) redirecting anger toward *different* non-actionable targets after independence (Israel/Zionism) — both achieving the same structural outcome of protecting domestic financial architecture from public scrutiny.
 
 ---
 
@@ -216,32 +218,56 @@ In June 2025, Tucker Carlson and co-founder Neil Patel bought out all external i
 | Result | TCN now fully independent; no external capital influence | ✅ VERIFIED |
 | Original investment | $15M seed from 1789 Capital (Oct 2023) | Wikipedia, Mother Jones |
 
-#### Post-Independence Behavior: The Natural Experiment
+#### Post-Independence Behavior: The Redirect (v12.1 Reassessment)
 
-After exiting the 1789 Capital orbit, Carlson's behavior changed dramatically — providing what amounts to a **natural experiment** for the Media Firewall thesis:
+> **⚠️ v12.1 Correction (April 5, 2026):** The previous assessment (v11.7) concluded that Carlson's post-buyout break with the Trump administration represented the firewall becoming "inactive." This was a misjudgment. Upon closer analysis, Carlson's post-buyout behavior represents a **redirect** — anger is now directed toward Israel, Zionism, and related entities rather than CIA/Mossad, but the structural outcome is identical: **domestic financial architecture remains unscrutinized.**
 
-| Period | Behavior | Firewall Status |
-|--------|----------|-----------------|
-| **Oct 2023 – June 2025** (inside capital structure) | Directed anger at CIA/Mossad on Epstein; silent on 1789 Capital/Silver Lake financial architecture; "NATO is dead" narrative seeded compliance windows | 🔇 Firewall active |
-| **June 2025 – Present** (independent) | Openly criticized Trump administration on Iran policy; accused Trump of betraying "America First" principles; triggered "MAGA media civil war" | 🔊 Firewall inactive |
+The critical distinction is **actionability**:
 
-**Key developments post-buyout:**
+| Target Category | Can Be Subpoenaed? | Can Be FOIAed? | Can Be Counter-Measured? | Firewall Function |
+|-----------------|---------------------|----------------|--------------------------|-------------------|
+| CIA/Mossad (pre-buyout) | No (classified) | No (FOIA exempt) | No (sovereign immunity) | ✅ Anger absorbed |
+| Israel/Zionism/Chabad (post-buyout) | No (foreign sovereign) | No (foreign entity) | No (no legal mechanism) | ✅ Anger absorbed |
+| 1789 Capital/Silver Lake/MGX/PIF (domestic financial architecture) | **Yes** (SEC subpoena) | **Yes** (public filings) | **Yes** (regulatory action) | 🔇 Never targeted |
+
+**The firewall function is preserved across both periods** — only the targets change, not the structural outcome.
+
+| Period | Targets | What's Never Named | Firewall Status |
+|--------|---------|-------------------|-----------------|
+| **Oct 2023 – June 2025** (inside capital structure) | CIA/Mossad on Epstein; NATO; foreign policy friction | 1789 Capital, Silver Lake, Gulf SWF flows, domestic financial architecture | 🔇 Firewall active — anger at intelligence agencies |
+| **June 2025 – Present** (independent) | Israel, Zionism, Iran war, "America First" betrayal | 1789 Capital, Silver Lake, Gulf SWF flows, domestic financial architecture | 🔇 Firewall active — anger redirected to non-actionable foreign targets |
+
+#### Case Study: Carlson–Owens Interview (August 1, 2025)
+
+The Tucker Carlson Show interview with Candace Owens (August 1, 2025 — "Macron, Harvey Weinstein, and Why 'Christ Is King' Totally Broke People's Brains") provides a behavioral case study of the redirect mechanism:
+
+**Observable pattern**: When Owens moves toward naming specific individuals or entities that could produce institutional accountability, Carlson becomes visibly uncomfortable — laughing, broadly agreeing, then pivoting back to abstract or non-actionable framing (Israel, Zionism, cultural issues). The conversation absorbs audience anger into channels where millions of people can be furious about "Zionist influence" without producing a single subpoena, FOIA request, or regulatory filing.
+
+**Structural significance**: This is the firewall operating in its post-buyout mode. The anger is real. The audience is real. The targets are non-actionable. Millions of people angry about Israel cannot subpoena Israel. They cannot FOIA Chabad. They cannot file counter-measurements against "Zionist influence." The domestic financial plumbing documented in this repository — 1789 Capital, Silver Lake, MGX, PIF, Apollo, Board of Peace capital structure — remains invisible.
+
+#### Key developments post-buyout (unchanged facts, revised interpretation):
 - Carlson accused Trump of being "complicit" in Israeli strikes on Iran, breaking with administration messaging ([ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270))
 - Trump publicly dismissed Carlson: "Let him go get a television network and say it so that people listen" ([The Hill](https://thehill.com/policy/technology/5355445-trump-carlson-sparks-media-division/))
 - Trump told allies Carlson had "lost his way" and was no longer "MAGA" ([Newsweek](https://www.newsweek.com/donald-trump-cuts-tucker-carlson-out-maga-iran-war-11632180))
 - Forbes described the resulting fallout as a "MAGA media civil war" ([Forbes](https://www.forbes.com/sites/andymeek/2026/03/20/the-maga-media-civil-war-is-getting-ugly-and-personal/))
 - Carlson echoed MAGA voter frustration: "I can't believe he did this to us" ([Mediaite](https://www.mediaite.com/media/tv/tucker-carlson-echoes-maga-voters-upset-with-trump-i-cant-believe-he-did-this-to-us/))
 
-#### Analytical Significance
+**v12.1 reinterpretation**: The Trump–Carlson feud is itself absorbed by the firewall. Audience attention goes to "will Tucker and Trump reconcile?" and "is the MAGA movement splitting?" — not to "who funds Anduril?" or "where did PIF's exited capital go?" The feud generates friction that consumes bandwidth.
 
-**This sequence is structurally significant for the Media Firewall thesis.** The repository's core argument is that capital structures constrain narrative output — platforms funded by 1789 Capital direct attention away from the financial architecture and toward sanctioned targets. Carlson's trajectory provides a before/after test:
+#### Analytical Significance (v12.1 Revision)
 
-- **Before buyout**: Carlson's coverage pattern matched the Media Firewall model — loud on foreign policy friction, silent on financial plumbing, anger directed at sanctioned targets (CIA/Mossad) rather than capital architecture (1789 Capital, Silver Lake).
-- **After buyout**: Carlson broke with the administration on substantive policy, publicly feuded with Trump, and became the leading voice of internal MAGA dissent — behavior that would have been structurally difficult while 1789 Capital (with Trump Jr. as partner) held an equity stake.
+**The original "natural experiment" conclusion was incorrect.** The repository previously argued that Carlson's post-buyout criticism of Trump demonstrated that capital structure constrains narrative output — and that removing the capital constraint freed Carlson to dissent. This reading was too generous.
 
-**⚠️ Caveat**: Correlation is not causation. The Iran policy shift alone provides sufficient explanation for Carlson's criticism. However, the *timing* — speaking out only after severing financial ties to the Trump-adjacent capital structure — is consistent with the firewall thesis and should be tracked as a supporting data point, not a proof.
+The v12.1 reassessment:
 
-**Update to Semiotic Bridge analysis**: The TCN link in the Mubadala → Silver Lake → 1789 Capital → TCN pipeline documented in Report.md is now **historical** (Oct 2023 – June 2025). 1789 Capital's other investments (Anduril, xAI, SpaceX, Neuralink, Cerebras, Groq, PublicSq) remain active. Omeed Malik's role as Semiotic Bridge persists through all non-TCN domains.
+- **Before buyout**: Carlson's coverage pattern matched one mode of the Media Firewall — loud on foreign policy friction, silent on financial plumbing, anger directed at sanctioned targets (CIA/Mossad).
+- **After buyout**: Carlson shifted to a *different* mode of the same firewall — loud on Israel/Zionism, still silent on financial plumbing, anger directed at different non-actionable targets. The structural void on domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo) persists.
+
+The buyout changed the *flavor* of the firewall, not its *function*. Whether audiences are angry at CIA/Mossad or angry at Israel/Zionism, the domestic financial architecture remains invisible.
+
+**⚠️ Caveat**: This remains a hypothesis. Carlson may genuinely oppose the Iran war on principled grounds. The analytical claim is narrower: *regardless of motivation*, the structural effect of directing millions of viewers toward non-actionable foreign targets is identical to the pre-buyout firewall function. The absence of any coverage of domestic financial architecture — across both periods — is the constant.
+
+**Update to Semiotic Bridge analysis**: The TCN link in the Mubadala → Silver Lake → 1789 Capital → TCN pipeline is **historically severed** (Oct 2023 – June 2025). However, the firewall function persists through the redirect mechanism. 1789 Capital's other investments (Anduril, xAI, SpaceX, Neuralink, Cerebras, Groq, PublicSq) remain active. Omeed Malik's role as Semiotic Bridge persists through all domains.
 
 ---
 
