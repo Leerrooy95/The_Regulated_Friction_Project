@@ -1,6 +1,6 @@
 {
-  "run_timestamp": "2026-04-04T08:31:54.110956+00:00",
-  "run_date": "2026-04-04",
+  "run_timestamp": "2026-04-05T08:34:12.980063+00:00",
+  "run_date": "2026-04-05",
   "nodes_queried": 7,
   "nodes_active": 0,
   "nodes_critical": 0,
@@ -248,5 +248,5 @@
       "raw_response_length": 1913
     }
   },
-  "_fallback_source": "2026-04-03"
+  "_fallback_source": "2026-04-04"
 }

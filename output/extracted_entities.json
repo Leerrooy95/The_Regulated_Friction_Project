@@ -1,5 +1,5 @@
 {
-  "extraction_timestamp": "2026-04-04T08:34:44.925664+00:00",
+  "extraction_timestamp": "2026-04-05T08:37:01.745462+00:00",
   "extraction_engine": "gliner2",
   "model": "fastino/gliner2-base-v1",
   "total_entities": 78,
