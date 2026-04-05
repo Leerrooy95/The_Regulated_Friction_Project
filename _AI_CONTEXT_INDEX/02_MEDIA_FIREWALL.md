@@ -395,7 +395,7 @@ Larry Ellison is now personally leveraged across two of the largest capital arch
 | Larry Ellison's role | Personal "irrevocable guarantee" of $40.4B equity commitment | ✅ VERIFIED |
 | Ellison share pledge | ~30% of Oracle stake (~$69B) already pledged as loan collateral; remaining ~$161B unpledged | ✅ VERIFIED |
 | Regulatory status | FCC approval required; current FCC signaling pro-business review under Chairman Brendan Carr | ⚠️ PARTIALLY VERIFIED |
-| FCC "cleaner than previous bids" | ❌ UNVERIFIED — no specific quote found from FCC officials |
+| FCC "cleaner than previous bids" | ✅ VERIFIED — FCC Chair Brendan Carr told CNBC on March 3, 2026 that the Paramount/WBD deal is "a lot cleaner" than Netflix's abandoned bid and expected approval "pretty quickly" ([CNBC, March 3, 2026](https://www.cnbc.com/2026/03/03/fcc-chair-brendan-carr-wbd-paramount-merger-deal-netflix.html), [CNBC video](https://www.cnbc.com/video/2026/03/03/fcc-chair-paramount-deal-for-wbd-is-a-lot-cleaner.html)) |
 | Expected close | Q3-Q4 2026 | ✅ VERIFIED |
 | Combined subscribers | ~200M streaming subscribers (Paramount+ + HBO Max) | ✅ VERIFIED |
 | Saudi PIF involvement | PIF listed as equity investor in Paramount's financing | ✅ VERIFIED |

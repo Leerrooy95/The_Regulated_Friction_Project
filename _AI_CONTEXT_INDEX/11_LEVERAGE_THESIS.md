@@ -24,7 +24,7 @@
 | Epstein sought Putin meeting via Barak — meeting NOT confirmed to have occurred | ✅ VERIFIED (seeking confirmed; meeting NOT confirmed) | [Times of Israel](https://www.timesofisrael.com/liveblog_entry/epstein-sought-meeting-with-putin-through-barak-report/), [Straits Times](https://www.straitstimes.com/world/united-states/epstein-waged-years-long-quest-to-meet-putin-and-talk-finance), [France24](https://www.france24.com/en/americas/20260217-putin-women-doj-files-reveal-jeffrey-epstein-build-russian-ties), [Moscow Times](https://www.themoscowtimes.com/2026/02/06/what-the-epstein-files-tell-us-and-dont-tell-us-about-his-ties-to-russia-a91883), [Meduza](https://meduza.io/en/feature/2026/02/03/who-are-the-russians-named-in-the-latest-epstein-files-vladimir-putin-for-one) — DOJ files contain 5,553 Russia mentions, 1,005 Putin mentions; Kremlin denied meeting; Peskov dismissed claims |
 | Raskin called Iran strikes "desperate" distraction from Epstein files | ✅ VERIFIED | [FOX 5 DC](https://www.fox5dc.com/news/dc-maryland-virginia-leaders-react-mpd-increases-vigilance-after-us-strikes-iran) |
 | Raskin: Trump mentioned >1M times in unredacted Epstein files | ✅ VERIFIED | [Axios](https://www.axios.com/2026/02/10/trump-epstein-files-jamie-raskin-unredacted), [Truthout](https://truthout.org/articles/raskin-trump-mentioned-more-than-a-million-times-in-unredacted-epstein-files/), [Mediaite](https://www.mediaite.com/media/news/jamie-raskin-reveals-trumps-name-shows-up-in-unredacted-epstein-files-more-than-a-million-times/) |
-| Epstein Dec 20, 2018 texts predicting Trump would bomb Iran "cornered like a rat" | ❌ UNVERIFIED | No credible source found; 2018 texts are Bannon-Epstein re: 25th Amendment ([WION](https://www.wionews.com/world/epstein-files-bannon-trump-25th-amendment-texts-1772112782982)) |
+| Epstein Dec 20, 2018 iMessages predicting Trump would bomb Iran "cornered like a rat" | ⚠️ PARTIALLY VERIFIED | Texts exist in DOJ release (Dataset 9, EFTA01211330–EFTA01211347) to an **unidentified, redacted contact** — NOT Bannon. Confirmed Bannon exchanges are a separate thread: "Trump threatened Iran ;)" (July 2018) and "Focus on Iran" (when Trump Jr. was summoned). See correction note below. |
 | Jacobin: Epstein promoted hawkish Iran/Syria stances | ✅ VERIFIED | [Jacobin](https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china) — "Jeffrey Epstein Wanted More War" (Nov 2025) |
 
 ---
@@ -349,11 +349,18 @@ The same capital sources that funded Epstein-adjacent networks (Kushner's Affini
 
 ## Epstein's Geopolitical Role & the "Epstein War" Framing
 
-### ~~The December 2018 Text Messages~~ — ❌ NOT VERIFIED
+## ~~The December 2018 Text Messages~~ — ⚠️ TWO SEPARATE THREADS (Corrected April 5, 2026)
 
-> **Correction (March 1, 2026):** The previous version of this section claimed that released documents included Epstein text messages dated December 20, 2018, predicting Trump would bomb Iran when "cornered like a rat." **This claim could not be verified.** Multiple searches of DOJ archives, CBS News, PBS, CNBC, Newsweek, and the searchable Epstein databases ([DOJ Epstein Library](https://www.justice.gov/epstein), [Jmail](https://jmail.world/), [Epstein Document Archive](https://www.epsteinarchive.org/)) found no such text. The 2018 texts that DO exist in the released files are Bannon-Epstein exchanges about removing Trump via the 25th Amendment — not about Iran. ([WION](https://www.wionews.com/world/epstein-files-bannon-trump-25th-amendment-texts-1772112782982), [Iran International](https://www.iranintl.com/en/202602033927))
+> **Correction (updated April 5, 2026 from March 1, 2026):** The previous version claimed Epstein text messages dated December 20, 2018 predicting Trump would bomb Iran ("cornered like a rat") could not be verified. **Updated sourcing now clarifies there are two separate conversation threads:**
 >
-> This claim should have been flagged ❌ UNVERIFIED by the previous agent. It has been downgraded accordingly.
+> **Thread 1 — December 20, 2018 "cornered rat" / "bomb Iran" iMessages**: These texts DO exist in the DOJ release as **Dataset 9 (EFTA01211330–EFTA01211347)**. However, the counterparty is **unidentified and redacted** in the DOJ release — there is no confirmed attribution to Bannon or any other named individual. Attribution to Bannon for this specific conversation was an error introduced in earlier versions of this document.
+>
+> **Thread 2 — Confirmed Bannon–Epstein Iran exchanges**: Separate exchanges between Bannon and Epstein DO reference Iran: "Trump threatened Iran ;)" (July 2018) and "Focus on Iran" (context: when Trump Jr. was summoned before the Senate Judiciary Committee). These are **verified Bannon exchanges** — both say the same thing thematically, but they are **different conversations** with a different (confirmed) counterparty than Thread 1.
+>
+> **What the December 20, 2018 Bannon texts ARE**: The Bannon–Epstein exchanges documented around that period in the released files center on removing Trump via the 25th Amendment — not the "cornered rat" Iran prediction. ([WION](https://www.wionews.com/world/epstein-files-bannon-trump-25th-amendment-texts-1772112782982), [Iran International](https://www.iranintl.com/en/202602033927))
+>
+> **Summary**: The "cornered rat"/"bomb Iran" prediction (Dec 20, 2018, Dataset 9) is ⚠️ PARTIALLY VERIFIED — the texts exist but the counterparty is unidentified/redacted. The Bannon Iran exchanges are verified but are separate conversations. Nobody should cite these as the same document.
+
 
 ### The Ehud Barak–Epstein Russia/Israel Back Channel
 
@@ -406,7 +413,7 @@ DOJ-released documents show Epstein's extensive but largely *unsuccessful* effor
 
 ### [Inference] Interpretation
 
-The Barak–Epstein back channel and the "Epstein war" framing suggest that Epstein's leverage activities extended beyond domestic actors to geopolitical strategy. The Jacobin reporting demonstrates Epstein was actively advocating for hawkish Iran/Syria policy in 2013 — predating the framework's September 2025 Theory Origin Date. However, the December 2018 "cornered like a rat" prediction ~~was fabricated or conflated~~ could not be verified and should not be cited. The verified evidence shows Epstein as a would-be geopolitical intermediary who *attempted* high-level Russian contacts but largely failed to secure them directly.
+The Barak–Epstein back channel and the "Epstein war" framing suggest that Epstein's leverage activities extended beyond domestic actors to geopolitical strategy. The Jacobin reporting demonstrates Epstein was actively advocating for hawkish Iran/Syria policy in 2013 — predating the framework's September 2025 Theory Origin Date. The December 2018 "cornered like a rat" prediction exists in Dataset 9 (EFTA01211330–EFTA01211347) but is addressed to an unidentified/redacted counterparty — it should not be attributed to Bannon. The confirmed Bannon–Epstein Iran exchanges ("Trump threatened Iran ;)" July 2018; "Focus on Iran") are a separate conversation thread and are verified. The verified evidence shows Epstein as a would-be geopolitical intermediary who *attempted* high-level Russian contacts but largely failed to secure them directly.
 
 ---
 
