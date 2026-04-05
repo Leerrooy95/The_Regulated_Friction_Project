@@ -2,7 +2,7 @@
 
 **Author:** Austin
 **Last Updated:** April 5, 2026
-**Version:** v12.1
+**Version:** v12.2
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -589,6 +589,8 @@ Analysis of influencer narratives from the Media Firewall ecosystem (Tucker Carl
 **Boundary marker:** The Candace Owens departure from Daily Wire (March 2024) over Israel commentary shows where the firewall's tolerance ends — anti-Israel is not tolerated because Israel is structurally necessary to the Vendor-State model documented in this repository.
 
 > **⚠️ Critical Update (v12.1 — April 5, 2026):** Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN financially independent. The three patterns above describe the **Oct 2023 – June 2025 period** when TCN operated within the 1789 Capital orbit. However, the initial assessment that Carlson's post-buyout criticism of Trump on Iran represented the firewall becoming "inactive" was **incorrect** (see v12.1 correction in `02_MEDIA_FIREWALL.md`). Post-buyout, Carlson redirected audience anger toward non-actionable targets (Israel, Zionism) — entities that cannot be subpoenaed, FOIAed, or counter-measured. The domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) remains unmentioned across both periods. The firewall's *flavor* changed; its *function* — protecting domestic financial architecture from scrutiny — did not. Case study: Carlson–Owens interview (August 1, 2025) — when Owens moves toward naming specific accountable individuals, Carlson deflects back to abstract/non-actionable framing.
+>
+> **v12.2 Addition — The Four-Step Cycle:** The redirect is not a static two-mode model. Across six documented instances (Jan 2026 NATO/tariffs, Jan 30 Epstein/Warsh, Feb 8 Super Bowl/West Bank, Feb 27 Fitts/control grid, June 2025 buyout/Iran, Aug 1 Carlson–Owens), Carlson operates through a repeating cycle: **pre-frame → action → redirect → structural silence on financial architecture**. The pre-frame topic changes, the redirect flavor changes, but the structural silence on domestic financial architecture is the constant. Whether this cycle reflects conscious media strategy or a man whose instincts consistently produce the same structural outcome is an open question — and for structural analysis, the distinction is immaterial. See `02_MEDIA_FIREWALL.md` (Four-Step Cycle section).
 
 ### February 2026: The Compliance Window (Feb 1–19)
 

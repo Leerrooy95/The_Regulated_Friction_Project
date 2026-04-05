@@ -1,4 +1,4 @@
-# The Regulated Friction Project v12.1
+# The Regulated Friction Project v12.2
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -156,7 +156,15 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v12.1) — Tucker Carlson Redirect Reassessment — April 5, 2026
+## What's New (v12.2) — Tucker Carlson Four-Step Cycle Formalization — April 5, 2026
+
+Adds the nuance missing from v12.1: the redirect is not a static two-mode model — it is a **repeating four-step cycle** that has never been a one-off.
+
+- **Four-step cycle formalized**: Pre-frame → Action → Redirect → Structural Silence on financial architecture. Documented across **six instances** (Jan 6–8 NATO/tariffs, Jan 30 Epstein/Warsh, Feb 8 Super Bowl/West Bank, Feb 27 Fitts/control grid, June 2025 buyout/Iran, Aug 1 Carlson–Owens). The pre-frame topic changes, the action type changes, the redirect flavor changes — but the structural silence on domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo) is the constant across every instance.
+- **Conscious vs instinct — open question**: Whether Carlson executes the four-step cycle deliberately or is a man whose instincts consistently produce the same structural outcome is unresolved. Both explanations produce the identical structural outcome. Consistent with the repository's broader framing: correlation, not causation; no claim of conscious coordination.
+- **Files updated**: [`02_MEDIA_FIREWALL.md`](_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md), [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`README.md`](README.md), [`Report.md`](Report.md).
+
+### Previous (v12.1) — Tucker Carlson Redirect Reassessment — April 5, 2026
 
 Corrects a misjudgment in the v11.7 assessment of Tucker Carlson's post-buyout behavior.
 

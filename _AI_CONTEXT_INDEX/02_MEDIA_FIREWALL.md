@@ -271,6 +271,56 @@ The buyout changed the *flavor* of the firewall, not its *function*. Whether aud
 
 ---
 
+### The Four-Step Cycle: Pre-Frame → Action → Redirect → Structural Silence (v12.2)
+
+**Added April 5, 2026**
+
+The v12.1 reassessment identified the redirect mechanism but described it as a static two-mode model (pre-buyout vs post-buyout). The more precise observation is that Carlson operates through a **repeating four-step cycle** — and it is never a one-off:
+
+```
+Step 1: PRE-FRAME     — Carlson introduces a narrative frame that softens ground for a coming policy action
+Step 2: ACTION         — The administration executes a policy move under narrative cover
+Step 3: REDIRECT       — Audience anger is channeled toward non-actionable targets (CIA/Mossad, Israel/Zionism, Chabad)
+Step 4: STRUCTURAL SILENCE — Domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo) is never named
+```
+
+#### Documented Instances
+
+| Date | Step 1: Pre-Frame | Step 2: Action | Step 3: Redirect | Step 4: Structural Silence | Source |
+|------|-------------------|----------------|------------------|---------------------------|--------|
+| **Jan 6–8 → Jan 17, 2026** | "NATO has come to an end" — frames alliance dissolution as victory | Trump imposes 10% tariffs on 8 NATO allies over Greenland (9-day lag) | Audience anger at European "freeloaders" and NATO bureaucracy | TikTok deal closes Jan 22 (Silver Lake/MGX each 15%); Board of Peace signed at Davos — zero TCN coverage of financial architecture | [Media Matters](https://www.mediamatters.org/tucker-carlson/tucker-carlson-says-us-taking-greenland-would-end-nato-calls-it-huge-victory-world), [CNBC](https://www.cnbc.com/2026/01/17/trump-greenland-tariffs-nato.html) |
+| **Jan 30, 2026** | "Who was Epstein working for?" — frames as intelligence cover-up | Kevin Warsh nominated as Fed Chair (same day) | Anger at CIA/Mossad as Epstein handlers | Warsh nomination restructures US monetary policy leadership; 1789 Capital/Prime Brokerage class connection never mentioned | [The Hill](https://thehill.com/video/tucker-carlson-slams-epstein-files-coverup-claims-convicted-sex-offender-was-intel-asset-rising/10888590/) |
+| **Feb 8, 2026** (Super Bowl LX) | TPUSA "All-American Halftime Show" — Bad Bunny vs Kid Rock culture war | Israeli security cabinet votes West Bank transfer; Board of Peace meeting | Anger at immigration, cultural identity, "woke NFL" | 1789 Capital → Gulf SWF pipeline; West Bank annexation — zero coverage | `12_The_Media_Firewall/Super_Bowl_LX_Media_Firewall_Case_Study.md` |
+| **Feb 27, 2026** | Carlson–Fitts interview: "The Control Grid" — frames Epstein as father of programmable money | CBDCs and digital ID infrastructure advancing | Anger at abstract "control grid," crypto, programmable money | Fitts names no specific intermediaries (1789 Capital, Silver Lake, MGX, PIF, Omeed Malik) — anger at abstractions, not accountable entities | [Solari Report](https://solari.com/catherine-on-the-tucker-carlson-show/) |
+| **June 2025 → Present** | Buyout announced — "we wanted total independence" | Carlson breaks with Trump on Iran/Israel policy | Anger at Israel, Zionism, Chabad — non-actionable foreign targets | Post-buyout coverage still names zero domestic financial entities; 1789 Capital, Silver Lake, Apollo remain invisible | [Axios](https://www.axios.com/2025/06/13/tucker-carlson-investors), [ABC News](https://abcnews.com/US/trumps-iran-decision-sparks-backlash-tucker-carlson-maga/story?id=130622270) |
+| **Aug 1, 2025** | Carlson–Owens interview — "Christ is King totally broke people's brains" | Discussion approaches naming accountable individuals | Carlson pivots to abstract Israel/Zionism framing when Owens moves toward specifics | Millions of viewers angry about "Zionist influence" — no subpoenas, no FOIA requests, no regulatory filings against actual financial entities | Carlson–Owens interview case study (above) |
+
+#### The Repeating Structure
+
+**This is never a one-off.** Across six documented instances spanning October 2023 to April 2026, the cycle repeats with mechanical consistency:
+
+- The **pre-frame** changes topic (NATO, Epstein, culture war, control grid, Iran, Zionism) — but always softens ground for or distracts from a structural action.
+- The **action** changes type (tariffs, nominations, deals, annexations) — but always involves financial or institutional restructuring.
+- The **redirect** changes flavor (CIA/Mossad → Israel/Zionism → "control grid" → cultural identity) — but always directs anger toward targets that cannot be subpoenaed, FOIAed, or counter-measured.
+- The **structural silence** is the constant. Across every instance, across both the funded and independent periods, the domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo, Board of Peace, Omeed Malik, prime brokerage class) is never named.
+
+#### The Open Question: Conscious Design or Structural Instinct?
+
+Whether Tucker Carlson does this consciously — as a deliberate strategy — or is simply a man whose instincts consistently produce the same structural outcome is an **open question** that this repository does not resolve. The analytical claim does not require resolving it.
+
+Consider two possibilities:
+
+1. **Conscious design**: Carlson understands the four-step cycle and executes it deliberately, choosing non-actionable targets to protect the financial architecture he understands.
+2. **Structural instinct**: Carlson is a genuine populist whose editorial instincts — formed by decades in media, shaped by the incentive structures of audience engagement — naturally gravitate toward high-valence, emotionally satisfying targets (intelligence agencies, foreign powers, cultural enemies) and away from technical financial plumbing that does not generate audience engagement.
+
+**Both explanations produce the identical structural outcome.** The domestic financial architecture remains invisible regardless of whether the silence is strategic or instinctive. This is consistent with the repository's broader framing: the thermostat model documents correlation, not causation, and does not require conscious coordination to operate.
+
+**🔍 HYPOTHESIS**: The repeating four-step cycle (pre-frame → action → redirect → structural silence) is observable across every documented Carlson instance. Whether the cycle reflects conscious media strategy or emergent instinct is unresolved — and for purposes of structural analysis, the distinction is immaterial. The effect is the constant.
+
+Cross-reference: `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md` (full week-by-week timing analysis), `06_ATTENTION_ECONOMY.md` (no claim of conscious coordination), `01_CORE_THEORY.md` (thermostat model — correlation, not causation)
+
+---
+
 ### Carlson–Fitts Interview — "The Control Grid" (Feb 27, 2026)
 
 **Full analysis**: `_AI_CONTEXT_INDEX/sources/2026-02-27_Carlson_Fitts_Control_Grid.md`
