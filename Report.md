@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** April 2, 2026
-**Version:** v11.7
+**Last Updated:** April 5, 2026
+**Version:** v12.0
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -357,6 +357,34 @@ Track D was documented in v11.5's CRINK Q2-Q3 tracking table but not yet integra
 Bank of America agreed to a $72.5 million civil settlement with Epstein survivors — the third major financial institution settlement after JPMorgan ($290M, 2023) and Deutsche Bank ($75M, 2023). Cumulative bank settlements now exceed $437M. The settlement covers the period 2008–2019 when BofA was Epstein's client; no admission of wrongdoing; requires court approval. Separately, House Oversight Chairman James Comer (R-KY) publicly admitted the DOJ "botched" the Epstein file release in a CNN interview (March 30) — conceding that excessive redactions protected powerful individuals while carelessly exposing victim information. Bipartisan backlash confirmed; the admission came from the committee's own Republican chairman.
 
 **Sources**: BofA settlement: [CNBC](https://www.cnbc.com/2026/03/27/jeffrey-epstein-bank-of-america-lawsuit-settle.html), [MSN](https://www.msn.com/en-us/money/markets/bank-of-america-joins-jp-morgan-and-deutsche-bank-in-settling-epstein-related-survivors-suits/ar-AA1ZEBEP). Comer admission: [Breitbart](https://www.breitbart.com/clips/2026/03/30/comer-department-of-justice-botched-release-of-epstein-files/), [Yahoo News](https://www.yahoo.com/news/articles/maga-congressman-admits-doj-botched-020609624.html), [Raw Story](https://www.rawstory.com/james-comer-2676640354/)
+
+---
+
+### Planet Labs Imagery Blackout and the Compliance Contrast (April 5, 2026)
+
+**Filed April 5, 2026.** Planet Labs (NYSE: PL) announced an indefinite blackout of all satellite imagery over Iran and Middle East conflict zones at US government request.
+
+**What happened**: The US government cited concerns that adversaries were using commercially available satellite imagery for tactical military advantage — target identification, weapons guidance, missile tracking. Planet Labs complied without legal challenge. Other US satellite firms (Vantor/formerly Maxar, BlackSky) imposed their own parallel restrictions. Non-US alternatives (ESA, Asian providers) remain available but offer lower resolution and less frequent coverage.
+
+**What it severed**: This is the same imagery ecosystem that enabled independent verification of the Minab school strike (Node 14). Journalists, human rights investigators (HRW, Amnesty), and OSINT analysts — the people who independently confirm or challenge government narratives about military operations — lost their primary ground-truth tool. The last comparable blackout was during the 2003 Iraq War.
+
+**The Anthropic contrast**: Two companies faced government pressure in the same conflict window and chose opposite responses:
+
+| | Anthropic | Planet Labs |
+|--|-----------|-------------|
+| **Government demand** | Remove AI safety guardrails for autonomous weapons/surveillance | Withhold satellite imagery from public |
+| **Response** | Refused | Complied |
+| **Consequence** | Lost ~$200M contract; designated "supply chain risk" | Stock surged +17%; no legal challenge |
+| **Public reaction** | Claude hit #1 App Store; paid subscribers doubled | Minimal public awareness |
+| **Legal outcome** | Judge Lin: ban is "Orwellian" / "First Amendment retaliation" (Mar 26) | No litigation filed |
+| **Information effect** | AI safety guardrails preserved (temporarily) | OSINT transparency layer severed |
+| **Market reward** | Consumer market surge | Defense/government investor surge |
+
+Both were commercially rewarded — by different audiences. Anthropic's resistance generated consumer friction that benefited the company. Planet Labs' compliance generated information suppression that benefited the requesting authority. The thermostat model predicts exactly this bifurcation: the system rewards both compliance and high-profile resistance, because both generate outputs useful to different institutional actors.
+
+**Framework significance**: The Planet Labs blackout functions as a Track A reinforcement mechanism. Combined with Schedule P/C (career civil service protections removed March 9), the NCPC ballroom bypass (institutional oversight overridden April 2), and the AG firing (accountability leader removed April 2), this represents a fourth concurrent institutional capacity reduction — all within the April convergence window. The pattern is structural: transparency infrastructure, workforce independence, regulatory oversight, and accountability leadership are all being reduced simultaneously during maximum kinetic friction.
+
+**Sources**: [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/us-satellite-firm-planet-labs-announces-blackout-on-war-on-iran-images), [CNBC](https://www.cnbc.com/2026/04/05/satellite-firm-planet-labs-to-indefinitely-withhold-iran-war-images.html), [SatNews](https://satnews.com/2026/04/05/planet-labs-imposes-indefinite-blackout-on-iran-satellite-imagery-at-u-s-request/), [Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/planet-labs-halts-middle-east-034002313.html), [The Wrap](https://www.thewrap.com/media-platforms/journalism/satellite-company-restricts-images-press-cover-iran-war-government-request/)
 
 ---
 
@@ -1419,4 +1447,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated April 1, 2026 (v11.6). Four-thread late-March 2026 integration: (1) White House ballroom preliminary injunction — Judge Leon (D.D.C.) blocks above-grade construction, "steward, not the owner," DOJ security-reframe appeal; (2) Anthropic v. DoD preliminary injunction — Judge Lin (N.D. Cal.) calls Pentagon ban "Orwellian" / "First Amendment retaliation," D.C. Circuit FASCSA case still pending; (3) Epstein 302 cross-reference — withheld 302 summaries (released Mar 5–6 after being "incorrectly coded as duplicative") are the specific documents whose suppression tracks Trump's "my friends will get hurt" (Sep 2025) and "he can no longer hurt innocent people" (Mar 21) statements in time (verifiable timeline connection; causal claim NOT made; `[Inference]` label applied); (4) April convergence window upgraded to quadruple-track: Track D = Treasury Cuba/NK waiver expiration April 11. Additionally: Bank of America $72.5M Epstein settlement (Mar 27, ✅ VERIFIED — third major bank settlement, cumulative >$437M); Comer admits DOJ "botched" Epstein file release (Mar 30, ✅ VERIFIED — Republican Oversight Chairman, CNN interview). Previous (v11.5, April 1, 2026): CRINK late-March 2026 — CRINK rift confirmed (collective restraint toward Iran), North Korea 10-missile salvo (Mar 14), Cuba dual-track aid (Kolodkin Mar 30 + China rice Mar 20–27), Treasury April 11 waiver. Previous (v11.4, March 22, 2026): SAVE America Act integration. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/).*
+*This report was last updated April 5, 2026 (v12.0). Planet Labs imagery blackout (April 5) — indefinite satellite imagery blackout over Iran/Middle East at US government request; OSINT/journalism transparency layer severed; Anthropic compliance contrast documented (resistance vs. compliance both commercially rewarded). Three verification upgrades: Barak–Epstein backchannel (⚠️ → ✅, 7+ outlets), SpaceX IPO filing (⚠️ → ✅, confidential SEC filing April 1), Epstein-Putin meeting seeking (⚠️ → ✅, DOJ 5,553 Russia/1,005 Putin mentions). Previous (v11.6, April 1, 2026): Four-thread late-March 2026 integration. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/).*
