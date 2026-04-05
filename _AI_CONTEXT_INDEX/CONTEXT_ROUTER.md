@@ -51,6 +51,9 @@
 | **White House ballroom NCPC bypass / Scharf court order dismissed** | `10_FRAMEWORK_VALIDATION.md` (Section 11) | `09_CURRENT_THREADS.md` (March/April 2026 Events — Apr 2 NCPC vote) |
 | **25th Amendment calls / Ty Cobb / Trump fitness for office** | `09_CURRENT_THREADS.md` (March/April 2026 Events — Apr 3 entry) | `10_FRAMEWORK_VALIDATION.md` (Section 11), `11_LEVERAGE_THESIS.md` |
 | **Trump approval rating low / 33% / UMass YouGov / second-term record** | `09_CURRENT_THREADS.md` (March/April 2026 Events — Apr 3 entry) | `06_ATTENTION_ECONOMY.md` |
+| **Planet Labs satellite blackout / Iran imagery / OSINT transparency** | `09_CURRENT_THREADS.md` (Node 15) | `06_ATTENTION_ECONOMY.md`, `10_FRAMEWORK_VALIDATION.md`, `11_LEVERAGE_THESIS.md` |
+| **Shutter control / commercial satellite government restriction** | `09_CURRENT_THREADS.md` (Node 15) | `06_ATTENTION_ECONOMY.md` |
+| **Anthropic vs. Planet Labs / compliance contrast / resistance rewarded** | `09_CURRENT_THREADS.md` (Node 15 — Anthropic contrast section) | `09_CURRENT_THREADS.md` (Node 14), `10_FRAMEWORK_VALIDATION.md` (Section 12) |
 | **Energy crisis / oil prices / Strait of Hormuz** | `04_CAPITAL_ARCHITECTURE.md` (March update) | `09_CURRENT_THREADS.md` (Node 2, Node 3) |
 | **Oracle financial stress / Stargate contraction** | `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section) | `09_CURRENT_THREADS.md` (Node 8), `10_FRAMEWORK_VALIDATION.md` (Section 8) |
 | **Oracle stock decline / bondholder lawsuit / layoffs** | `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section) | `09_CURRENT_THREADS.md` (Node 8) |

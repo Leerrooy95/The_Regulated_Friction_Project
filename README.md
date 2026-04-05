@@ -1,4 +1,4 @@
-# The Regulated Friction Project v11.9
+# The Regulated Friction Project v12.0
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -96,7 +96,7 @@ The `_AI_CONTEXT_INDEX/` directory provides structured context for AI assistants
 | `06_ATTENTION_ECONOMY.md` | Attention economy & quotas: cross-administration noise generator patterns |
 | `07_METHODOLOGY.md` | Correlation methodology, verification standards |
 | `08_KEY_DATASETS.md` | CSV schemas and data file reference |
-| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window, Zorro Ranch — 12 nodes; Mueller death / lost testimony; Cuba crisis escalation) |
+| `09_CURRENT_THREADS.md` | Active leverage nodes (Maxwell, Iran, Gulf SWFs, Israel, Oracle, Arkansas, Religious Layer, April 2026 Window, Zorro Ranch, Planet Labs Imagery Blackout — 15 nodes; Mueller death / lost testimony; Cuba crisis escalation) |
 | `10_FRAMEWORK_VALIDATION.md` | High-profile statements validating framework |
 | `11_LEVERAGE_THESIS.md` | Leverage thesis: Musk/Epstein origin, Iran extension, Anthropic standoff, capital architecture |
 
@@ -156,7 +156,19 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v11.9) — April 1–3, 2026: Ballroom Bypass, Bondi Firing, Military Purge, 25th Amendment Calls — April 3, 2026
+## What's New (v12.0) — Planet Labs Blackout, Verification Upgrades, Anthropic Contrast — April 5, 2026
+
+Integrates the Planet Labs satellite imagery blackout (April 5, 2026) and three verification upgrades, all web-verified.
+
+- **Planet Labs imagery blackout (April 5)**: Planet Labs (NYSE: PL) announced an indefinite blackout of all satellite imagery over Iran and Middle East conflict zones at US government request. All new and archived imagery since March 9 withheld; shift from 14-day delay to "managed distribution." Other US satellite firms (Vantor/Maxar, BlackSky) imposing similar restrictions. OSINT analysts, journalists, and human rights investigators lose independent ground-truth verification — the same imagery ecosystem that verified the Minab school strike (Node 14). PL stock surged +17% on compliance. Added as Node 15 in `09_CURRENT_THREADS.md`.
+- **Anthropic contrast documented**: Anthropic refused Pentagon demands → lost contract → "supply chain risk" → Claude hit #1 App Store → Judge Lin ruled ban "Orwellian." Planet Labs complied → stock surged → no legal challenge → transparency severed. Two opposite responses to government pressure; both commercially rewarded by different audiences (consumers vs. defense investors). Demonstrates thermostat dynamics: resistance generates consumer friction (beneficial to resisting entity), compliance generates information suppression (beneficial to requesting authority).
+- **Three verification upgrades**:
+  - **Barak–Epstein Russia/Israel back channel** → ⚠️ to ✅ VERIFIED: 7+ independent outlets now confirm (Al Jazeera, Middle East Monitor, Drop Site News, Democracy Now, News.az, TJV News, Factually.co). Barak-Lavrov SPIEF meetings confirmed; Putin direct meeting NOT confirmed.
+  - **SpaceX IPO** → ⚠️ to ✅ VERIFIED: Confidential SEC filing **April 1, 2026** confirmed (CNBC, Forbes, Teslarati). June–July 2026 Nasdaq listing; $1.5–1.75T valuation; $50B–$80B capital raise; Goldman Sachs, Morgan Stanley, JPMorgan lead underwriters.
+  - **Epstein sought Putin meeting via Barak** → ⚠️ to ✅ VERIFIED (seeking confirmed; meeting NOT confirmed): DOJ files contain 5,553 Russia mentions, 1,005 Putin mentions; Kremlin denied meeting; multiple outlets confirm the seeking (Times of Israel, Straits Times, France24, Moscow Times, Meduza).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`11_LEVERAGE_THESIS.md`](_AI_CONTEXT_INDEX/11_LEVERAGE_THESIS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`README.md`](README.md), [`Report.md`](Report.md).
+
+### Previous (v11.9) — Ballroom Bypass, Bondi Firing, Military Purge, 25th Amendment Calls — April 3, 2026
 
 Integrates four streams of April 1–3, 2026 developments, all web-verified before committing.
 
@@ -382,7 +394,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 3, 2026 (v11.9)
+**Last updated**: April 5, 2026 (v12.0)
 
 ---
 
