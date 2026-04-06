@@ -1,6 +1,6 @@
 # 📰 Political Translator — Daily Report
 
-### April 05, 2026
+### April 06, 2026
 
 > This report takes complex political data — PAC filings, government actions, and intelligence
 > analysis — and explains it in plain English so anyone can understand what's happening and
@@ -10,17 +10,22 @@
 
 ## 📌 Here's What Happened Today
 
-- Entergy Arkansas wants to build a new power plant called the Jefferson Power Station. It would produce 754 MW (megawatts — a unit that measures how much electricity a plant can make). Government officials say this plant is needed to help grow the economy in Jefferson County, Arkansas.
-- Arkansas lawmakers and Governor Sanders say these new rules make elections more fair and honest. They say the rules stop fake signatures. They also say the rules keep out-of-state people from collecting signatures. Supporters point to a few cases of accused signature fraud in other states.
-- On April 1, President Trump gave a prime-time speech about Operation Epic Fury. He said the war's "core strategic objectives" (the main goals of the military mission) are "nearing completion." The White House also suggested Iran asked for a ceasefire (an agreement to stop fighting).
-- The Trump administration said releasing DOJ Epstein documents was keeping a promise about being open with the public.
+- Entergy Arkansas is building a new power plant. It is called the Jefferson Power Station. It will make 754 megawatts (MW) of electricity. That is enough power for hundreds of thousands of homes.
 
-Attorney General Pam Bondi (the AG is the top law enforcement official in the country) publicly told the FBI to hand over all files. She said the FBI was hiding materials.
-- Big changes are happening in Arkansas. Many powerful groups are working there right now.
+Arkansas Governor Sanders and Entergy Arkansas say this plant is needed.
+- A lawsuit in Arkansas is called LWV v. Jester. It fights against new laws that make it harder to put measures on the ballot. A ballot measure is when citizens vote directly on a new law.
 
-Here is what is going on:
+Here is what the new laws require:
 
-1. Arkansas shows up more than any other place in the data. It appears more often than even Oracle or the U.S. Department of Justice.
+1. Each signature must be checked in a specific way.
+2.
+- On April 1, President Trump gave a speech on TV. He said Operation Epic Fury's main goals are "almost done."
+
+The White House also said Iran was asking for a ceasefire (an agreement to stop fighting). But Iran's Foreign Minister Abbas Araghchi said on April 2 that this was not true.
+- The Trump administration said releasing DOJ documents about Jeffrey Epstein was a big step toward being open with the public.
+
+Todd Blanche is now the Acting AG (the top law enforcement official in the country). He said the document release was done on January 30, 2026.
+- Arkansas keeps coming up again and again in this data. Certain words appear together very often across many sources. "AVAIO Digital" and "Arkansas" appear together 61 times. "Act 548" and "Arkansas" appear together 45 times. "Arkansas" alone is mentioned 37 times.
 
 ## 💵 Follow The Money
 
@@ -28,400 +33,387 @@ Here is what is going on:
 
 ## 🎭 What They Said vs. What's Real
 
-- Entergy Arkansas wants to build a new power plant called the Jefferson Power Station. It would produce 754 MW (megawatts — a unit that measures how much electricity a plant can make). Government officials say this plant is needed to help grow the economy in Jefferson County, Arkansas.
+- Entergy Arkansas is building a new power plant. It is called the Jefferson Power Station. It will make 754 megawatts (MW) of electricity. That is enough power for hundreds of thousands of homes.
 
-A company called AVAIO Digital says it needs a lot of electricity for something called "Leo Hub." This is a large data center (a building full of computers that stores and processes information). Officials say building this plant will create jobs in Jefferson County.
+Arkansas Governor Sanders and Entergy Arkansas say this plant is needed. They say it will help the economy. They also say it will create jobs in Jefferson County.
 
-Here is what the official records show:
+A company called AVAIO Digital wants to build a big data center nearby. The data center is called Leo Hub. The plant is partly meant to power that data center.
 
-1. The PSC (Public Service Commission — the government group that oversees utility companies) reviewed the Jefferson Power Station.
-2. The PSC's own analysis found this plant was NOT the cheapest option available.
-3. Other options were reviewed and found to cost less.
-4. The PSC approved the plant anyway.
+A law called Act 373 was used to approve this project. Here is how that worked:
 
-The PSC approved it using something called Act 373. This law created a special process. If the PSC rejects a project, the utility company can keep resubmitting it. Eventually, it gets approved automatically. This skips the normal rule that requires projects to be "reasonable and prudent" (meaning fair in cost and sensible).
+1. Entergy asked the PSC to approve the plant. The PSC is the government group that watches over utility companies.
+2. The PSC's own study said the Jefferson Power Station was NOT the cheapest option.
+3. Entergy asked again using Act 373's special rules.
+4. Act 373 lets a company keep asking until the project gets approved on its own.
+5. This skipped the normal rule. That rule says a project must be "reasonable and prudent." That means fair and cost-effective.
 
-Now, a charge called the Strategic Investment Rider has been added to your bill. If you are an Arkansas electricity customer, you are already paying about $2.85 more per month. This is happening right now, during construction. The plant has not produced any electricity yet.
+Now Entergy is hiring builders to start construction. This triggers a charge called the Strategic Investment Rider. A rider is an extra fee added to your utility bill.
 
-There is another important problem. No signed contract from AVAIO Digital has been made public. There is no legal agreement proving AVAIO Digital will actually use this electricity. The entire reason for building this plant was based on AVAIO Digital's promise to need that power — but that promise is not backed by a public contract.
+You are already paying for this plant right now. The average home customer pays about $2.85 more each month. This started before the plant has made even one kilowatt-hour of electricity. A kilowatt-hour is one basic unit of electricity.
 
-Construction has already started. Money is already being spent. This makes it very hard to stop or change course.
+There is another problem. No signed contract from AVAIO Digital has been shared with the public. Without a contract, there is no legal promise that AVAIO Digital will actually use the power.
 
-Here is what this means for you as a ratepayer (a person who pays electricity bills):
+If AVAIO Digital never uses the power, ratepayers could be stuck with a stranded asset. Ratepayers are people who pay utility bills. A stranded asset means you paid for something that nobody uses. In this case, that something cost $1.5 billion.
 
-1. You start paying extra charges right now, during the years it takes to build the plant.
-2. Lower-income households are hit hardest by this extra monthly charge.
-3. If AVAIO Digital does not end up using the electricity as promised, you could be stuck paying for a plant that is not needed. This is called "stranded asset risk" — meaning you paid for something that has no use.
-4. The extra cost above the cheaper alternatives has not been clearly published. You cannot look up exactly how much more you are paying compared to the less expensive options.
-5. People living near Jefferson County also deal with extra impacts from building large power grid equipment in their area.
-  - 👉 **What this means for you:** Arkansas residents will start seeing a new charge of about $2.85 per month on their Entergy bills right now, even though the Jefferson Power Station hasn't been built yet and won't produce any electricity for years. The state's own utility regulators determined this plant was not the most cost-effective option available, but approved it anyway under a new law that allows a utility to keep resubmitting a project until it gets a green light. If the tech company whose energy needs were used to justify the plant doesn't follow through, everyday Arkansans — especially lower-income households already stretched thin — could be left paying for a costly power plant that was never truly needed.
-- Arkansas is making a very large financial commitment. Here are the facts you need to know.
+Lower-income families are hurt more by this extra charge. Poorer families spend a bigger share of their money on utility bills. That means this charge takes more from them than it does from wealthier families.
+  - 👉 **What this means for you:** Entergy Arkansas customers are already being charged roughly $2.85 more on their monthly electric bills to help finance the Jefferson Power Station — even though the plant hasn't produced any electricity yet and the state's own regulators found it wasn't the most cost-effective option. The company building the plant, AVAIO Digital, has not publicly committed to a contract guaranteeing they'll actually use the power, meaning if that demand never fully materializes, Arkansas ratepayers could be left paying off a $1.5 billion gas plant that isn't needed. For lower-income households in Arkansas, where utility bills already take up a bigger slice of the budget, these added costs hit harder and will likely grow as construction continues.
+- Arkansas made a big deal with a company called AVAIO Digital. The deal is called the Leo Hub project.
 
-**What officials are saying:**
+Governor Sanders says this is the biggest investment in Arkansas history. The total investment could be between $6 billion and $21 billion. Officials say it will create jobs. They say it will bring in more tax money. They also say it will show other tech companies that Arkansas is a good place to invest.
 
-Governor Sanders and Arkansas leaders call the Leo Hub the biggest investment in Arkansas history. The project could bring in between $6 billion and $21 billion. Officials say it will create jobs. They also say it will grow the state's tax base (the total amount of money the state can collect taxes on). They say it shows tech companies that Arkansas is a good place to do business.
+AVAIO Digital is based in Connecticut. It builds data centers. A data center is a large building full of computers. These computers store and process information. Here is the problem: nobody knows who actually owns AVAIO Digital. The real owner has not been listed in any public state records. They are not listed in tax incentive applications either. A tax incentive is a tax break given to a company. They are not listed in Arkansas Economic Development Commission records either.
 
-A law called Act 548 lowered the minimum investment needed to get tax breaks. The minimum dropped to $100 million. Officials say this lower amount made the Leo Hub deal possible.
+The investment amount is also unclear. It could be $6 billion. It could be $21 billion. That is a very wide gap. Nobody is sure how much money is actually committed.
 
-**What the data actually shows:**
+Arkansas has already given AVAIO Digital two benefits:
 
-The Leo Hub is being built by a company called AVAIO Digital. AVAIO Digital is based in Connecticut. Here is the problem: nobody knows who truly owns AVAIO Digital. The real owner is called the "beneficial owner." That means the person or group who actually controls the company and gets the profits. This information has not been made public. It is not in any state records. It is not in their tax applications. It is not in Arkansas Economic Development Commission files.
+1. Tax exemptions on data center equipment and electricity. A tax exemption means you do not have to pay certain taxes. This comes from a law called Act 548.
+2. Approval of a new power plant called the Jefferson Power Station.
 
-The investment range of $6 billion to $21 billion is very wide. Think of it like this. Imagine someone says a car costs somewhere between $10,000 and $35,000. That range is so big it means nobody is sure how much money is actually promised. Nobody knows how much is just announced.
+Act 548 lowered the minimum investment needed to get tax breaks. The minimum used to be higher. Now it is $100 million. Officials say this lower amount helped make the Leo Hub deal possible.
 
-Arkansas has already given AVAIO Digital tax breaks under Act 548. Arkansas also approved a power plant called the Jefferson Power Station. That approval is in a government file called PSC Docket 25-047-U. One reason the power plant was approved was because AVAIO Digital said it would need a lot of electricity. All of this happened without anyone revealing who truly owns the project.
+Arkansas has no law that checks whether foreign money is behind deals like this. The federal government has a process called CFIUS. That stands for Committee on Foreign Investment in the United States. CFIUS checks foreign investments for safety risks. Arkansas has nothing like that at the state level.
 
-Act 548 does not require companies to reveal their true owners before getting tax breaks. Arkansas also has no law to check whether foreign money is behind projects like this. The federal government has a process called CFIUS review. That is a security check to see if foreign ownership of U.S. assets is a risk to the country. Arkansas has no similar process.
+The real owner of AVAIO Digital could be a foreign government. It could be a foreign company. It could be a private investment group in the U.S. Nobody knows for sure.
 
-Data center projects often use "shell companies." A shell company is a business set up mainly on paper. It does not do real work. Shell companies can hide who is really in charge. The true money behind a project like this could be American investors. But it could also be a foreign government's investment fund or a foreign company.
+Here is why this matters for people in Arkansas:
 
-**What this costs you:**
+1. Arkansas taxpayers are giving tax breaks to this project. They do not know who is getting those benefits.
+2. Entergy Arkansas customers pay electric bills. They are helping pay for 754 MW of new gas-powered electricity. MW stands for megawatts. That is enough power for a very large city. AVAIO Digital is expected to use most of that power.
+3. If the mystery owner pulls out, the project may not happen.
+4. If the project fails, taxpayers and electric customers could be stuck paying for things no longer needed.
+5. There is no identified person or company to hold responsible.
 
-Arkansas taxpayers are giving this project sales tax exemptions on equipment and electricity. A tax exemption means the company does not have to pay certain taxes that other businesses pay. The true owner of the company getting these benefits is still unknown.
+Also, on April 6, 2026, a system used to track Arkansas state filings stopped working. This made it impossible to check for new ownership information filed around that time.
+  - 👉 **What this means for you:** Arkansas taxpayers are handing out major tax breaks and energy infrastructure commitments to a billion-dollar project without knowing who actually owns or controls it — meaning if the deal falls apart, there's no clear party to hold accountable for the losses. Entergy Arkansas customers could end up paying higher electricity bills to cover the cost of a new 754-megawatt power plant built largely to serve this project, even if the project never fully materializes. Without any requirement to disclose who is behind the money — whether it's a foreign government, a foreign corporation, or a private investment firm — everyday Arkansans are taking on real financial risk with no guarantee of the jobs or tax revenue they were promised.
+- Google is building a huge data center in Little Rock, Arkansas. It will be at the Port of Little Rock. The project includes five large industrial buildings. Those buildings will cover 1.43 million square feet of space. There will also be two office buildings. There will also be an electrical substation. A substation is a facility that controls and sends out electricity.
 
-Entergy Arkansas customers are also paying for this through their electric bills. A charge called the Strategic Investment Rider is being used to pay for 754 MW of new gas power. MW stands for megawatts. That is a measure of electrical power. 754 MW is enough to power hundreds of thousands of homes. The main reason that power plant was built was to serve AVAIO Digital. But nobody knows who AVAIO Digital's real owner is.
+Arkansas officials and Google say this shows Arkansas is becoming a center for AI and technology. Governor Sanders has supported projects like this. She says they help grow the state's economy. The University of Arkansas at Pine Bluff, called UAPB, is also starting a new AI center. It is called CAIDA. It opens on April 2, 2026. UAPB is an HBCU. That means it is a college that was historically built to serve Black students. Officials say CAIDA will give UAPB students access to AI education and job training.
 
-Here are two specific risks this creates:
+Here are the key facts about the project:
 
-1. The true owner could turn out to be a foreign government or foreign company. If that happens, Arkansas will have given public money and built public energy infrastructure to benefit a foreign interest. There is currently no process to review or stop this.
-2. The unknown backer could pull out of the deal. If that happens, Arkansas ratepayers could be stuck paying for a power plant with no customer. Ratepayers are people who pay electric bills. This situation is called a "stranded asset." That means something was built and paid for but ends up with no use or value.
-  - 👉 **What this means for you:** Arkansas taxpayers and Entergy customers are helping fund a massive data center project — through tax breaks and higher electricity rates — without knowing who actually owns or controls it. If the mystery investor pulls out or turns out to be a foreign government or corporation, everyday Arkansans could be left paying for a power plant and infrastructure that no longer has a purpose. Until the state requires the company to disclose who is really behind this deal, residents are taking on real financial risk with no guarantee of the promised jobs or economic benefits.
-- Google is building a huge data center in Little Rock, Arkansas. It will have five large industrial buildings. Those buildings will cover 1.43 million square feet total. There will also be two office buildings. There will also be an electrical substation. A substation moves electricity from power lines into buildings.
+1. The Army Corps of Engineers got official documents about this project on March 31, 2026.
+2. The data center will likely use between 100 and 500 or more megawatts of electricity. That is enough power to run tens of thousands of homes.
+3. Two Arkansas laws exist called Act 373 and Act 548. These laws decide how electricity is priced. They shift more of the cost onto regular people and small businesses.
+4. You, as a home customer or small-business owner, help pay for the cheaper electricity rates that big data centers get.
+5. You also help pay for expanding the power grid. The grid needs to handle 100 to 500 or more megawatts of new electricity use.
 
-Arkansas officials and Google say this shows Arkansas is becoming a tech hub. Governor Sanders supports data centers as a way to grow the economy. A new AI learning center called CAIDA is opening at UAPB on April 2, 2026. UAPB stands for University of Arkansas at Pine Bluff. It is an HBCU. That means it is a college that was built to serve Black students. Officials say CAIDA will train students for tech jobs.
+On December 11, 2025, the Arkansas Supreme Court made a big ruling. The case was called Good Day Farm. Before this ruling, there was a 74-year-old legal protection. It was called the Edgmon precedent. A precedent is a rule based on an old court decision. This rule stopped the state legislature from changing laws that voters had directly approved. The Good Day Farm ruling got rid of that protection.
 
-Here is what the official documents actually show:
+Here is what that means for you:
 
-1. The Army Corps of Engineers got paperwork about this project on March 31, 2026. The Army Corps of Engineers is a federal government agency.
-2. The project includes a large electrical substation. Data centers this size usually need 100 to 500 or more megawatts of power. One megawatt can power about 1,000 homes. So this project could use enough power for tens of thousands of homes.
-3. That power demand will go straight onto Arkansas's electric grid.
+1. Arkansas voters could vote to pass a law. That law could limit data center subsidies. Subsidies are special financial benefits given to companies.
+2. Before December 2025, the legislature could not easily undo a law that voters approved.
+3. Now, after the ruling, the legislature can change or cancel a law that voters passed.
+4. This takes away a tool that regular people had to check government decisions.
 
-People can share their opinions about this project until April 24, 2026. This is called a public comment period. You can officially respond to the permit during this time. The permit number is SWL-2026-00038. A permit is an official document that gives permission to build. But the water usage numbers were left out of the permit. That means the public cannot see how much water this project will use.
+The UAPB CAIDA center was approved by the University of Arkansas System Board of Trustees. But the public does not know where the money is coming from. The public also does not know exactly what will be taught. On April 6, 2026, attempts to check Arkansas government records did not work. This means some details about Army Corps permits and UAPB funding could not be confirmed.
 
-Arkansas passed two laws. They are called Act 373 and Act 548. These laws let data center companies pay lower electricity rates. Think of it like a store giving a big discount to one customer. When that happens, other customers may end up paying more. In this case, that means you — regular homeowners and small business owners.
+UAPB students will be trained for jobs in AI and technology. But the companies that will benefit most from these trained workers are based outside of Arkansas.
+  - 👉 **What this means for you:** Arkansas electricity customers — including renters, homeowners, and small business owners — may see higher power bills as the state's grid expands to serve Google's massive new data center, with state law already structured to shift those infrastructure costs onto everyday ratepayers rather than the corporation benefiting from them. If Arkansans tried to fight back through a ballot initiative to change how utility costs are distributed, a recent state Supreme Court ruling now allows the legislature to simply override whatever voters decide. Meanwhile, public university students at UAPB may be trained for tech jobs that primarily benefit out-of-state companies like Google, with no clear public accounting of where the funding for that program is coming from or who it truly serves.
+- A lawsuit in Arkansas is called LWV v. Jester. It fights against new laws that make it harder to put measures on the ballot. A ballot measure is when citizens vote directly on a new law.
 
-Here is how the costs break down:
+Here is what the new laws require:
 
-1. Arkansas residents and small businesses help pay for Google's cheaper electricity rates.
-2. Residents also pay for upgrades to the electric grid. Those upgrades are needed to handle 100 to 500-plus megawatts of new power.
-3. The federal government pays for the Army Corps of Engineers to review this private company's project.
-4. UAPB students will be trained using public university money and resources. Google is the main company that benefits from those trained workers. Google is based outside Arkansas.
-5. Local governments may be giving up tax money through special deals. The exact terms of those deals have not been shared with the public.
+1. Each signature must be checked in a specific way.
+2. People who collect signatures must sign up with the state first.
+3. Only certain people are allowed to collect signatures.
+4. You have less time to fix problems with your signatures.
+5. There are more ways your signatures can be thrown out.
 
-There is one more legal change to know about. On December 11, 2025, the Arkansas Supreme Court made a ruling called the Good Day Farm decision. Before this ruling, voters could pass laws that were hard for politicians to change. Now, state lawmakers can change voter-approved laws if two-thirds of them agree. Two-thirds means two out of every three lawmakers. This removes a protection that used to make it harder for big companies to get special treatment from the government.
+The lawsuit says these rules together make it nearly impossible to qualify by the July 3 deadline. Groups without much money are hurt the most.
 
-The funding details and lesson plans for the UAPB CAIDA center have not been shared with the public yet.
-  - 👉 **What this means for you:** Google's massive new data center in Little Rock will likely raise electricity bills for everyday Arkansans, because state laws (Acts 373 and 548) allow large corporations like Google to negotiate cheaper power rates while the cost of upgrading the electric grid gets passed on to regular households and small businesses. The project's full water usage was left out of federal permit documents, meaning the public had no way to weigh in on how it could affect local water supplies before the comment deadline. And while the deal is being sold as a jobs and education win, the workforce trained at UAPB through the new AI program would primarily be serving an out-of-state company — one whose tax breaks and incentive terms haven't been made public, reducing money that would otherwise fund local schools, roads, and services.
-- Arkansas lawmakers and Governor Sanders say these new rules make elections more fair and honest. They say the rules stop fake signatures. They also say the rules keep out-of-state people from collecting signatures. Supporters point to a few cases of accused signature fraud in other states.
+Arkansas lawmakers and Governor Sanders say the laws protect voters. They say the laws stop fake signatures. They also say the laws keep out-of-state groups from interfering.
 
-Here is what the rules actually do:
+On December 11, 2025, a court made a big decision called the Good Day Farm ruling. It got rid of a 74-year-old rule called the Edgmon precedent. A precedent is an old court ruling that other courts are supposed to follow. Now, the state legislature can change a ballot measure even after voters already approved it. This means a measure can be blocked at two different points.
 
-1. People who collect petition signatures must sign up and pay a bond (a sum of money held as a promise to follow the rules).
-2. Paid signature collectors must live in Arkansas.
-3. Groups have less time to fix problems with their petitions.
-4. More small mistakes can get a petition rejected.
+Cole Jester is the government official being sued in LWV v. Jester. He has publicly supported Kim Hammer for Arkansas Secretary of State. The Secretary of State is the official who checks signatures, approves signature collectors, and decides who gets on the ballot. Those are exactly the things the lawsuit is about.
 
-All of these rules together make it much harder to collect enough signatures by July 3.
+If Hammer wins in November, the new Secretary of State would be someone Jester picked. That means the same type of leadership would stay in charge of the process. This would be true even if LWV wins the lawsuit.
 
-There is a court case called LWV v. Jester. The people suing say all these rules together make it nearly impossible for most groups to get on the ballot in time. They say only groups with a lot of money can do it.
+On April 6, 2026, the Arkansas tracking system stopped working. Because of that, no new updates about the lawsuit or Hammer's campaign could be confirmed.
 
-A court decision called Good Day Farm was made on December 11, 2025. It changed something important. For 74 years, a rule called the Edgmon precedent (an old court decision used as a standard) kept lawmakers from changing laws that voters had already passed. The Good Day Farm decision ended that protection. Now, lawmakers can change voter-approved laws if two-thirds of them agree.
+Lower-income communities and minority communities have often used ballot measures to push for change. They do this when the legislature does not act on their needs. These communities are hurt more by these new restrictions than others are.
+  - 👉 **What this means for you:** If you've ever signed a petition to put a measure on the ballot — like raising the minimum wage or expanding healthcare — it's now much harder for those efforts to succeed, because new laws have made the signature-gathering process so complicated and costly that only well-funded groups can realistically meet the deadlines. This matters most for everyday Arkansans who can't afford lobbyists, since the ballot initiative process has historically been one of the few tools regular people have to push for changes the legislature won't act on. If the official who oversees this process in the future is someone aligned with the politicians who created these restrictions, there's little reason to expect the rules to get easier anytime soon.
+- Secretary Hegseth visited East Camden, Arkansas. The visit was called a way to honor Arkansas's role in making defense equipment for the U.S.
 
-This creates a two-step problem:
+East Camden has a facility called R2S. R2S stands for Raytheon-Rafael Protection Systems. It is a joint venture (two companies working together as business partners). The two partners are RTX, an American company, and Rafael Advanced Defense Systems, an Israeli company. They make Tamir interceptors (missiles that shoot down other missiles). This means an Israeli defense company is part of a U.S. facility. That facility receives U.S. government contracts.
 
-1. It is very hard to get something on the ballot at all.
-2. Even if voters pass it, lawmakers can still change it later.
+There is also a deal to triple PAC-3 MSE missile production. PAC-3 MSE is a type of air defense missile. Tripling means making three times as many as before. This deal involves a partnership with South Korea.
 
-This affects real people in real ways:
+A man named Alex Wong once worked for Senator Tom Cotton. He was a senior foreign policy adviser (a top advisor on international issues). Wong now works at Hanwha Defense USA. His title is global chief strategy officer (a top executive focused on business planning). Hanwha is a South Korean company. Its U.S. branch is growing its defense work in Arkansas.
 
-- Regular citizens have a right to vote directly on laws. That right is now harder to use.
-- Groups that want to get something on the ballot must spend much more money and time than before.
-- This creates a money barrier. Think of it like a door that only opens if you can pay. Poorer groups simply cannot pay to get through.
-- Lower-income communities and minority communities have often used direct voting when lawmakers ignored their needs. These groups are hurt the most by these changes.
+No public revolving door review has been done for Wong. A revolving door review is an official check. It looks at whether someone used their government job to help a private company. A federal law called 18 U.S.C. § 207 requires this check. This law covers conflicts of interest (when personal gain affects public decisions). Senate Ethics rules also require this check. No record of it has been made public.
 
-One more important detail: Cole Jester is the person being sued in LWV v. Jester. He has publicly supported Kim Hammer for Arkansas Secretary of State. The Secretary of State checks whether signatures are valid and decides who gets on the ballot. If Hammer wins in November, the office that controls the ballot process would be run by someone supported by the person currently being sued over that same process.
-  - 👉 **What this means for you:** If you've ever signed a petition to put a measure on the ballot in Arkansas, it's now significantly harder for those efforts to succeed — new rules around who can collect signatures, tighter deadlines, and easier grounds to throw out petitions mean that only well-funded organizations can realistically get initiatives qualified. Even if a citizen-backed measure does make it onto the ballot and passes, the Arkansas legislature can now turn around and change it with a two-thirds vote, meaning your vote on a constitutional amendment may not be the final word. For everyday Arkansans — especially those in lower-income communities who have used ballot initiatives to push for things like minimum wage increases or Medicaid expansion when the legislature wouldn't act — this makes it harder to use direct democracy as a tool to shape the laws that affect your paycheck, your healthcare, and your rights.
-- Senator Cotton wants to pass a new law. It is called the DATA Act of 2026. People in Washington say it will help build data centers. They also say it will make America stronger in AI (artificial intelligence — computer programs that can think and learn).
+Senator Cotton is also pushing a law called the DATA Act of 2026. This law would create CREU exemptions (special exceptions to existing rules). These exceptions would help companies that run data centers in multiple Arkansas locations.
 
-The DATA Act includes something called the CREU exemption. CREU stands for Coordinated Renewable Energy Use. An exemption is a special rule that lets certain people skip normal requirements. This exemption lets data center companies add up their energy use from many locations. They can count it all as if it came from one place. This changes how government officials sort them into categories.
+There are claims that Arkansas-built missiles were used in a military operation. The claim says this operation led to the capture of Venezuelan leader Maduro. The Department of War has not confirmed this. No independent sources have confirmed it either.
 
-In Arkansas, this directly helps a company called AVAIO Digital. AVAIO Digital runs something called the Leo Hub. The exemption also helps other large data centers. These are centers that Arkansas's Act 548 already approved.
+On April 6, 2026, a tracking system for Arkansas defense contracts stopped working. Because of this, no new contract records or disclosures (official public records) about Wong could be confirmed.
 
-Three separate rules are now stacking on top of each other:
+Here is what this means in plain terms:
 
-1. Arkansas's Act 373 — a state law that automatically approves certain energy projects. These projects skip a full review.
-2. The DATA Act CREU exemption — a federal rule. It reduces how closely the government watches data center energy use.
-3. Accelerated NRC relicensing — the NRC is the Nuclear Regulatory Commission. It watches over nuclear power. Right now, it is approving nuclear plant renewals faster than normal. This is happening at a plant called Diablo Canyon.
+1. Arkansas defense workers are part of a supply chain that includes Rafael Advanced Defense Systems. That is a foreign company. It has access to U.S. missile production technology and data.
 
-Together, these three rules create what is called a deregulatory stack. Think of it like three separate hall passes. Together, they let someone skip almost every checkpoint. They affect three different agencies. Those agencies are:
-- State utility commissions (state offices that watch over power companies)
-- FERC (the Federal Energy Regulatory Commission, which watches over energy moving across state lines)
-- The NRC
+2. Cotton, Wong, and Hanwha are all connected. Together, they have influence over two things. Those two things are data center deregulation (removing rules on data centers) and defense manufacturing in Arkansas. The money connections in this network have not been shared with the public.
 
-No single agency has looked at how all three rules work together. Nobody has checked what they do to ratepayers (people who pay electricity bills). Nobody has checked their effect on the environment. Nobody has checked what they mean for the safety of the national power grid (the connected system that sends electricity across the country).
+3. No revolving door review has been done. This means Arkansas residents cannot officially check whether a conflict of interest exists.
 
-A company called Entergy Arkansas has already started looking for contractors. They want to build something called the Jefferson Power Station. Arkansas ratepayers will start paying for this right away. The charge will show up on bills through something called the Strategic Investment Rider. A rider is an extra fee added to your electricity bill.
+4. Wong worked as a government staff member. If he used that access to help Hanwha get a foothold in Arkansas, that could be a problem. It could hurt defense procurement integrity (the fairness of how the government buys military equipment).
+  - 👉 **What this means for you:** Defense jobs in East Camden may look like a win for Arkansas workers, but the companies involved include foreign defense firms — one Israeli, one South Korean — that have access to sensitive U.S. missile production technology, meaning the economic benefits come with security and oversight questions that haven't been publicly answered. A former aide to Senator Cotton moved directly into a top role at a South Korean defense company now expanding in Arkansas, while Cotton simultaneously pushes legislation that could benefit large tech and data operations in the state — and none of that has gone through a formal ethics review that Arkansans can actually read or scrutinize. For everyday Arkansans, this matters because decisions about who gets defense contracts, who gets tax breaks, and who shapes state and federal policy may be driven by a tight network of political and corporate relationships that operate without the transparency needed to know whether those decisions are being made in the public's interest or in the interest of well-connected insiders.
+- Three laws are working together. Two are from Arkansas. One is a proposed federal law. Together, they create fewer rules for energy companies and data centers. No one has studied how all three work together.
 
-If the DATA Act passes, government agencies will have less power. They will have a harder time watching how much energy large data centers use. This affects environmental rules. It also affects who gets to make decisions about energy moving across state lines.
+**Here is what each law does:**
 
-People who live near nuclear power plants could lose something called intervenor access. Intervenor access is the right of regular citizens to formally object during government reviews. It also lets them ask questions during those reviews. If the faster Diablo Canyon review becomes the new normal, fewer people will have that right.
+1. **Act 373** is an Arkansas state law. It has an "auto-approval" feature. This means certain energy projects get approved without a full review. No one has to check them first.
 
-There is also a concern about a person named Alex Wong. He used to be a top advisor for Senator Cotton on international issues. He now works as a top planning executive at a company called Hanwha Defense USA. Hanwha Defense USA is growing its manufacturing in Arkansas.
+2. **Act 548** is another Arkansas state law. It makes it easier for companies to get tax breaks. A tax break means a company pays less in taxes. It also lets companies skip paying certain taxes altogether.
 
-This raises what are called revolving door questions. The revolving door describes people moving from government jobs to private companies. These are often companies they once had power over. There is a federal law about this. It is called 18 U.S.C. § 207 (a United States law that sets rules about that kind of job change). These questions have not been publicly reviewed or answered.
+3. **The DATA Act of 2026** is a proposed federal law. Senator Cotton introduced it in Washington, D.C. It includes a "CREU exemption." Here is what that means. A big data center company might have buildings in many states. Normally, each building follows rules on its own. With this exemption, the company adds up energy use from all its buildings. Then it counts them all as one single unit. This changes which rules apply to them.
 
-Cotton, Wong, and Hanwha are connected. Together, they give a small group of people influence over data center rules. They also have influence over defense manufacturing decisions. This group has known ties to Arkansas. Their financial relationships have not been made public. They have not gone through a revolving door review.
-  - 👉 **What this means for you:** Arkansas utility customers could soon see higher electricity bills as Entergy Arkansas locks in major construction costs for the Jefferson Power Station — costs that get passed directly to ratepayers through a special fee before the project is even finished. At the same time, a stack of new federal and state rules is quietly removing the oversight bodies that would normally push back on those charges on your behalf, meaning neither state regulators nor federal agencies are fully reviewing how these changes affect what you pay or the safety of your power supply. If you live near an energy facility or simply pay an electric bill in Arkansas, decisions about your rates, your environment, and your grid reliability are increasingly being made through a web of policy and business relationships that no single public institution has fully examined or approved.
-- East Camden, Arkansas is an important place for U.S. defense manufacturing. Here is what you need to know.
+4. **The NRC** is the Nuclear Regulatory Commission. It is the federal agency that watches over nuclear power plants. The NRC sped up its approval process for the Diablo Canyon nuclear plant. This faster process could become the new normal for all nuclear plants in the country.
 
-There are two separate operations in East Camden.
+**Why does this matter?**
 
-The first is called R2S. Its full name is Raytheon-Rafael Protection Systems. It is a joint venture (two companies working together as business partners). One partner is RTX, an American company. The other is Rafael Advanced Defense Systems, an Israeli company. Together, they make missiles called Tamir interceptors. These missiles shoot down other missiles.
+These four things build on each other. Think of it like stacking blocks. Together, they reduce oversight. Oversight means the government checks and monitors energy companies. Three different agencies are affected:
 
-The second operation is called AAPF. That stands for Arkansas Advanced Propulsion Facilities. A company called L3Harris runs it. They are growing their work making solid rocket motors. These motors are the engines that power missiles.
+- Arkansas utility commissions. These are state agencies that protect people who pay electricity bills.
+- FERC, the Federal Energy Regulatory Commission. This is the federal agency that watches over energy that moves between states.
+- The NRC.
 
-Secretary Hegseth visited East Camden. Officials said the visit was about recognizing Arkansas's role in defense manufacturing.
+**Who benefits from the DATA Act's CREU exemption?**
 
-There is also a deal to triple production of PAC-3 MSE missiles. These missiles protect against air attacks. Officials say this deal strengthens U.S. air defense and partnerships with South Korea.
+A company called AVAIO Digital runs a large data center in Arkansas. It is called the Leo Hub. The CREU exemption would directly help this company. It would also help other large data centers that Act 548 brought to Arkansas.
 
-A man named Alex Wong once worked for Senator Cotton. He handled foreign policy (decisions about how the U.S. deals with other countries). He then took a job at Hanwha Defense USA. Hanwha is a South Korean company. Its U.S. branch operates in Arkansas. His title is chief strategy officer.
+**Who pays the costs?**
 
-This job change raises revolving door concerns. A revolving door happens when government workers leave to work for companies they used to oversee (watch over). Think of it like a referee quitting to coach one of the teams they used to call fouls on. This can create conflicts of interest (when personal gain might affect fair decisions). Two laws apply here. One is called 18 U.S.C. § 207. It limits what former government workers can do after leaving their jobs. The other is Senate Ethics rules. Neither law has been publicly reviewed in this case.
+1. People in Arkansas who pay electricity bills are already being charged more. Entergy Arkansas added a new fee. It is called the "Strategic Investment Rider." This fee started as soon as Entergy began its plan to buy the Jefferson Power Station.
 
-There is a claim that Arkansas-built missiles were used in an operation that led to the capture of Venezuelan leader Maduro. The Department of War has not confirmed this claim. No independent sources have verified it either.
+2. If the DATA Act passes, government agencies will have less power. They will find it harder to track how much energy data centers use. This affects rules in many states.
 
-Secretary Hegseth visited East Camden less than 24 hours before something called Operation Epic Fury. That operation involved U.S. military strikes on Iran. The strikes began on February 28, 2026.
+3. People who live near nuclear plants could lose a right they currently have. Right now, they can formally challenge nuclear decisions. That means they can legally object in an official process. This right could disappear if the fast-track process used for Diablo Canyon becomes standard everywhere.
 
-Here are four cost and risk concerns:
+**What information is missing?**
 
-1. The R2S partnership gives an Israeli company access to U.S. missile technology. This creates technology transfer risk. That means sensitive technology could be shared or exposed through the partnership.
+- No single government agency has studied how all four of these rules work together.
+- No one has officially checked how they affect electricity customer protections, environmental rules, or the safety of the national power grid.
+- The CBO is the Congressional Budget Office. It is the government office that estimates what laws will cost. The CBO has not published any estimate of how the DATA Act would affect tax money that states collect from energy companies.
+- On April 6, 2026, Arkansas's system for tracking new laws stopped working. Because of this, it was not possible to confirm the latest updates on the DATA Act or the NRC's new approval process.
+  - 👉 **What this means for you:** Arkansas residents could soon see new charges appear on their Entergy electric bills through the Strategic Investment Rider, meaning you pay more each month to help fund power infrastructure that primarily serves large data centers — before any public vote or full regulatory review. State laws passed recently make it easier for these massive tech facilities to get approved quickly and receive significant tax breaks, which shifts more of the tax and cost burden onto ordinary households and small businesses. On top of that, a proposed federal law could reduce the oversight that utility commissions use to keep your energy costs and environmental protections in check, leaving fewer guardrails in place with no single agency responsible for watching how all these changes work together.
+- Ghislaine Maxwell was moved from a prison in Tallahassee, Florida to a prison in Texas. The new prison has fewer rules and less supervision. This is called a "security downgrade."
 
-2. Arkansas taxpayers help support this defense work. They do this through state incentives (tax breaks or financial benefits from the state). The revolving door from Senator Cotton's office to Hanwha Defense USA may make it harder for Congress to watch over military actions that Arkansas residents depend on.
+Todd Blanche is the second-highest lawyer in the U.S. Justice Department. He said Maxwell was moved because people threatened her safety. He said the move was NOT to prepare for early release. Early release is called clemency. Clemency is when the president cuts or cancels someone's prison sentence.
 
-3. If the Venezuela claim is true, Arkansas-made weapons were used in a unilateral military action. Unilateral means the U.S. acted alone, without allies or formal approval. The legal authorization (official legal permission) for that action has not been explained publicly.
+No official safety report has been shared to back this up. The only explanation is what Blanche said publicly.
 
-4. U.S. defense budget money funds production in Camden. However, the full dollar amounts for the R2S and AAPF contracts have not been made public.
-  - 👉 **What this means for you:** Arkansas taxpayers are helping fund and support defense facilities in East Camden through state incentives and public services, but the full details of those contracts — including how much money is involved and how technology is being shared with foreign partners like an Israeli defense company — aren't publicly disclosed. A former aide to Senator Tom Cotton moved directly into a top strategy role at a South Korean defense company operating in Arkansas, raising questions about whether the congressional oversight that's supposed to protect constituents' interests is compromised. If reports are accurate that Arkansas-built missiles were used in a military strike related to Venezuela, people in the state have a stake in understanding the legal authority behind that action — but so far, no clear public accounting has been provided.
-- On April 1, President Trump gave a prime-time speech about Operation Epic Fury. He said the war's "core strategic objectives" (the main goals of the military mission) are "nearing completion." The White House also suggested Iran asked for a ceasefire (an agreement to stop fighting).
+Around the same time, the Justice Department interviewed Maxwell for two days. Officials said this was a normal interview. It was about Jeffrey Epstein's network. That means the group of people connected to Epstein's crimes.
 
-However, Iran's Foreign Ministry publicly denied asking for a ceasefire. This denial was reported by Reuters and CNBC on April 1–2, 2026.
+The White House has not said it wants to free Maxwell early.
 
-The conflict is now past Day 34. Iran has continued firing missiles at Israel. A group called CSIS analyzed the situation on April 1, 2026. They found that Iran changed its strategy. Iran moved from careful, limited responses to fast, large-scale attacks. This means the war is getting bigger, not winding down.
+A member of Congress named Representative Krishnamoorthi introduced House Resolution 119-635. Here is what you need to know about it:
 
-On April 2, General Randy George was fired immediately. He was the Army Chief of Staff (the top general in charge of the U.S. Army). The White House called it a normal management decision. This firing was part of a pattern. More than a dozen generals and flag officers (high-ranking military leaders) have been fired during this active war. Nothing like this has happened before in modern U.S. history.
+1. Members of both political parties supported it
+2. It says Maxwell's conviction should stay. A conviction is a guilty verdict in court
+3. It shows Congress thinks clemency for Maxwell could really happen
+4. It cannot actually stop the president from granting clemency. It has no legal power to do that
 
-Here is what is unclear about the law:
+Maxwell once used her 5th Amendment right when Congress questioned her. That right lets you refuse to answer questions that could get you in trouble.
 
-1. Congress has a law called the War Powers Resolution. It requires the President to notify Congress within 48 hours of starting military action. Congress must then approve the war within 60 days.
-2. No public confirmation exists that the President followed these steps for Operation Epic Fury.
-3. No AUMF (Authorization for Use of Military Force — a formal vote by Congress to approve a war) has been confirmed as passed for this operation.
+No official documents from the SEC, PACER, or the Justice Department have proven the safety threat with specific evidence. The SEC watches over financial crimes. PACER is the federal court records system.
 
-Some Pentagon officials and Defense Secretary Hegseth have warned that operations may be "just beginning." This directly contradicts Trump's claim that goals are nearly complete. Trump's statement also has no clear definition or timeline attached to it.
+This situation costs real money and time. Here is who pays:
 
-The Strait of Hormuz (a narrow waterway that much of the world's oil passes through) remains effectively closed. This is causing higher fuel prices for American consumers.
+1. The Federal Bureau of Prisons spent money moving Maxwell to her new prison
+2. Top Justice Department officials spent two full days on the interview instead of other work
+3. Congress spent time and staff resources on Resolution 119-635
+4. Epstein's victims may pay the biggest price. If Maxwell gets clemency, she has less reason to help investigations. Victims could also lose strength in their civil lawsuits. Those are court cases where victims sue for money. No government program exists to pay victims back for that loss
+  - 👉 **What this means for you:** For most Arkansans, this situation won't affect their taxes or daily services directly, but it does mean federal resources — including senior Justice Department officials' time and Bureau of Prisons funding — are being spent managing Ghislaine Maxwell's transfer and interviews rather than on other law enforcement priorities. If Maxwell were to receive clemency, it could weaken the legal pressure that has pushed her to cooperate in exposing others connected to Jeffrey Epstein's network, meaning victims seeking justice or civil settlements may face longer, harder legal battles with no government support. The Congressional resolution opposing clemency has no real legal teeth, so ordinary Americans — including any Arkansans who are survivors of trafficking or who care about accountability in these cases — have no guaranteed protection against an executive decision to free her.
+- On April 1, President Trump gave a speech on TV. He said Operation Epic Fury's main goals are "almost done."
 
-Here is what the war is costing:
+The White House also said Iran was asking for a ceasefire (an agreement to stop fighting). But Iran's Foreign Minister Abbas Araghchi said on April 2 that this was not true. He said there were no ceasefire talks happening at all. Reuters and CNBC reported his denial.
 
-- Each carrier strike group (a large naval fleet built around an aircraft carrier) costs about $6.5 million per day just to operate.
-- Two or more carrier groups have been deployed.
-- After 34+ days, naval operating costs alone are at least $440 million. This does not include the cost of weapons used.
-- The U.S. Army runs on a budget of about $182 billion per year. Firing the Army's top general during an active war disrupts the chain of command managing that budget.
+A research group called CSIS released a report on April 1, 2026. It said Iran changed its military strategy. Iran moved from careful, measured responses to fast, aggressive attacks. This means the conflict is getting bigger, not smaller.
 
-American service members have also been killed and wounded. Six U.S. soldiers died in a drone attack at Port Shuaiba, Kuwait on March 2. About 140 service members have been wounded.
+On April 2, General Randy George was fired. He was the Army's top general. His firing happened in the middle of an active war. More than a dozen generals have been fired during this conflict. Nothing like this has happened in modern U.S. military history.
 
-13,000 or more targets have been struck. The administration points to this number as proof the military is being effective.
+Iranian missiles kept hitting Israeli territory through Day 34 of the conflict. The Strait of Hormuz (a critical waterway used to ship oil around the world) is still closed. The U.S. military says it has struck more than 13,000 targets so far.
 
-If the War Powers Resolution was not followed, Congress was left out of the decision to go to war. That includes the congressional delegation (the senators and representatives) from Arkansas. The Constitution gives Congress the power to authorize (officially approve) wars. This war is now in its fifth week.
-  - 👉 **What this means for you:** The ongoing military operation in the Middle East is already costing hundreds of millions of taxpayer dollars, and with the Strait of Hormuz closed, Arkansans are likely paying more at the gas pump for fuel that affects everything from their commute to grocery prices. Six American troops have been killed and roughly 140 wounded so far, meaning some Arkansas military families may be directly affected. If Congress was never properly notified or given a vote on this war as the law requires, that means Arkansas's own elected representatives in Washington were cut out of a decision that is spending public money and putting American lives at risk.
-- SpaceX plans to let regular people buy shares (small pieces of ownership) in the company. Officials say this would be the biggest stock sale in US history.
+Here are the costs of this operation:
 
-Saudi Arabia's government investment fund, called PIF, may put $5 billion into SpaceX. Reuters confirmed this on April 2, 2026. That would make Saudi PIF one of the first and biggest investors in the company.
+1. Each aircraft carrier group costs about $6.5 million per day just to operate at sea.
+2. Two or more carrier groups have been active for over 34 days. That means naval operating costs alone are already over $440 million. This does not include the cost of weapons used.
+3. The Strait of Hormuz being closed keeps gas and fuel prices high for American families and businesses.
+4. Firing the Army's top general during a war disrupts leadership. The Army manages a budget of about $182 billion per year.
+5. The War Powers Resolution (a law that requires the president to notify Congress before going to war) has not been confirmed as submitted to Congress. This means Congress may not have officially approved a war that is now in its fifth week. The U.S. Constitution gives Congress the power to authorize war.
 
-SpaceX filed a secret document called an S-1 with the SEC. The SEC is the government agency that watches over stock sales. The public cannot see this document yet. The law lets SpaceX keep it hidden until 15 days before shares go on sale. That means regular people and Congress cannot review it until very late.
+Trump said the mission is "nearing completion." However, no specific goal or finish date has been given to explain what that means.
+  - 👉 **What this means for you:** For Arkansans, the most immediate effect of this conflict is at the gas pump — the closure of the Strait of Hormuz is keeping fuel prices elevated, meaning higher costs to fill up your car, heat your home, and buy groceries that have to be trucked in. The military operation has already cost hundreds of millions of dollars in naval expenses alone, and with no clear end point defined, that spending could continue to grow and put pressure on the federal budget that funds programs many Arkansans rely on. Perhaps most concerning, Congress has not formally authorized this war, which means the elected representatives who are supposed to speak for you have been largely cut out of a decision that is costing real money and carrying real risks of escalation.
+- SpaceX plans to sell shares to the public for the first time. This is called an IPO. An IPO (Initial Public Offering) is when a company sells its stock to regular people for the first time.
 
-Here is why that matters:
+Saudi Arabia has a large government fund called the PIF. PIF stands for Public Investment Fund. The Saudi government controls this fund. It uses the fund to invest money around the world. The PIF may put $5 billion into SpaceX. This would be an anchor stake. An anchor stake is a very large investment that helps lead an IPO. Reuters reported this on April 2, 2026.
 
-1. SpaceX has contracts with the US military, NASA, and the NRO. The NRO runs secret spy satellites.
-2. NASA alone paid SpaceX $4.99 billion through 2021 for its rocket program.
-3. Some of these contracts are classified, meaning they involve secret government work.
-4. A foreign government fund would own $5 billion worth of this company.
+SpaceX filed a confidential S-1 with the SEC. The SEC (Securities and Exchange Commission) is the US government agency that watches over stock sales. An S-1 is a document a company must file before selling shares to the public. "Confidential" means the public cannot read it yet. CNBC reported this on April 1, 2026.
 
-There is a review process called CFIUS. It checks if foreign investments in US companies are a safety risk. No one has confirmed that CFIUS is reviewing the Saudi investment in SpaceX.
+Here is why that matters. The law lets SpaceX keep this document hidden until 15 days before it starts selling shares. Regular people cannot read it yet. Members of Congress cannot read it yet either.
 
-SpaceX is valued at $1.75 trillion. That means investors think the whole company is worth $1.75 trillion.
+SpaceX has secret contracts with the US government. These include:
+1. NASA's Commercial Crew program, worth $4.99 billion total
+2. Contracts with the DOD (Department of Defense — the US military)
+3. Contracts with the NRO (National Reconnaissance Office — the agency that runs spy satellites)
 
-Elon Musk runs SpaceX. He also works closely with US government offices. His staff work inside OPM, which manages federal workers. He also works directly with OMB, which controls the federal budget.
+There is a US government group called CFIUS. CFIUS stands for Committee on Foreign Investment in the United States. This group checks if foreign investments could be a danger to US security. No one has confirmed that CFIUS has started reviewing the $5 billion Saudi investment in SpaceX.
 
-Saudi PIF owns a company called HUMAIN. HUMAIN is putting money into US artificial intelligence systems. Saudi PIF also owns Sanabil Investments. Sanabil has invested in more than 40 US firms that fund other businesses. This gives Saudi PIF a wide reach into the US economy.
+Elon Musk also has advisory roles inside US government operations right now.
 
-Your tax dollars pay for the government contracts that send money to SpaceX. That money goes into a company that may soon be partly owned by a foreign government's fund.
+Here is what this means for you. Your tax dollars pay for SpaceX through government contracts. That money helps make SpaceX worth more. Now a foreign government fund may become a major investor in that same company.
 
-Arkansas is also connected. SpaceX's Starlink and Starshield programs are linked to the same Gulf investment funds. Those include Saudi PIF and a UAE fund called MGX. These funds are also investing in Arkansas data centers. Those investments connect to a project called Stargate and a company called AVAIO Digital.
+The S-1 filing is still confidential. So the public cannot see key details yet. Those details include who already owns shares. They also include how SpaceX works with its partners. They also show how much SpaceX depends on government contracts.
 
-If CFIUS does not review this deal, it sets a precedent. A precedent means it becomes the normal example for future cases. Future foreign governments could also buy large stakes in US companies that do secret government work, with no safety review required.
-  - 👉 **What this means for you:** If SpaceX goes public with a $5 billion investment from Saudi Arabia's government wealth fund, Arkansas taxpayers — who have already helped fund SpaceX through NASA and military contracts — may have little say or visibility into how that foreign money shapes a company handling classified U.S. defense programs. Arkansans using Starlink for rural internet, or living near the data center projects being built in the state with Gulf investment money, could find that critical local infrastructure is quietly tied to foreign government interests with no public review. Without a formal national security check, there is no guarantee that the people and communities depending on these services are protected if those foreign financial relationships ever conflict with American interests.
-- The Trump administration said releasing DOJ Epstein documents was keeping a promise about being open with the public.
+The US national security system would need to watch a company that holds secret contracts and also has a foreign government as a major investor. It has not been confirmed that this watching process has formally started through CFIUS.
+  - 👉 **What this means for you:** If this deal goes through without proper national security review, Arkansas taxpayers — like all Americans — are effectively helping fund a company that could end up partially anchored by a foreign government's money. Federal contracts paid for with your tax dollars, including NASA and Defense Department deals, flow directly into SpaceX, and there's no confirmed process yet to ensure a $5 billion Saudi stake doesn't create a conflict with classified U.S. programs. Because the financial filing is being kept confidential, ordinary people have no way right now to see the full picture of who owns what or how their tax dollars are connected to this arrangement.
+- The Trump administration said releasing DOJ documents about Jeffrey Epstein was a big step toward being open with the public.
 
-Attorney General Pam Bondi (the AG is the top law enforcement official in the country) publicly told the FBI to hand over all files. She said the FBI was hiding materials. She blamed the FBI, not the DOJ (Department of Justice), for the problem.
+Todd Blanche is now the Acting AG (the top law enforcement official in the country). He said the document release was done on January 30, 2026. He also said Trump was not protected during the review.
 
-The White House has not responded to specific claims about Trump found in the released 302s. A 302 is a written summary of an FBI interview.
+The White House says Trump is "totally exonerated" (cleared of any wrongdoing) by the released documents.
 
-Bondi was fired on April 2. Todd Blanche then became acting AG. Blanche was Trump's personal defense lawyer before this job. Blanche has said nothing publicly about the Epstein files.
+The DOJ (Department of Justice) released about 3.5 million pages of documents. This was required by the Epstein Files Transparency Act.
 
-Here is what the data shows:
+But three FBI 302s were held back. A 302 is an official written summary of an FBI interview. Members of the House Oversight Committee (lawmakers who make sure the government follows the rules) found these three documents were labeled as duplicates (copies of things already released). That label was wrong. The documents were only released on March 5–6, 2026. That happened after pressure from the media and Congress.
 
-1. The DOJ released about 3.5 million pages of documents. This was required by the Epstein Files Transparency Act. Large groups of documents came out on January 29–30, 2026. You can find them at justice.gov/epstein/doj-disclosures.
+Those three hidden 302s contained unverified (not yet proven) claims against Trump.
 
-2. Three FBI interview summaries were held back for months. These summaries had unverified (not proven true or false) claims about Trump. The FBI said they were held back by mistake. They said the files were wrongly labeled as copies of other documents. But these same files showed up in multiple FBI systems. They appeared in a July 2025 FBI PowerPoint. They also appeared in a task force spreadsheet about child crimes. The files were finally released on March 5–6, 2026. That happened after news organizations and members of Congress pushed for them.
+FBI agents did four interviews with the person making the claims. They found her credible (believable). This was written down in two places:
+1. A July 2025 FBI PowerPoint presentation
+2. A Child Exploitation task force spreadsheet that checked the 302s before they were made public
 
-3. House Oversight Chairman James Comer (R-KY) said on March 30, 2026, that the DOJ badly mishandled the document release.
+This makes it hard to believe the wrong label was just an accident.
 
-4. A subpoena (a legal order forcing someone to answer questions) was sent to Bondi. It requires her to give sworn answers to questions on April 14. The questions will cover how the Epstein files were handled. They will also cover why certain parts were redacted (blacked out). This subpoena is still valid even though Bondi was fired.
+Before she was fired, AG Pam Bondi got a subpoena (a legal order to appear and answer questions). It required her to speak before Congress on April 14 about the DOJ not following the rules. Bondi was fired on April 2, 2026. Blanche took her place.
 
-5. Bank of America agreed to pay $72.5 million to Epstein survivors on March 27, 2026. A settlement means two sides agree to resolve a legal dispute, usually with a payment. This was the third major bank settlement tied to Epstein. Banks have now paid more than $437 million total in settlements.
+Blanche used to be Trump's personal defense attorney (a lawyer who defended Trump in criminal cases). The FBI agents tied to those same criminal cases were later fired.
 
-6. Robert Mueller died on March 21. Mueller was FBI Director the entire time Epstein was operating. His death means his testimony can never be obtained.
+The April 14 subpoena is still legally valid. It applies to whoever holds the AG job, not just Bondi.
 
-Here are the costs involved:
+This creates a conflict of interest (when someone's personal ties might affect their official decisions). Here is why:
+1. Blanche personally defended Trump in criminal cases
+2. Blanche was paid for that work
+3. Blanche now oversees documents with claims against that same person — Trump
 
-- DOJ staff spent a lot of time reviewing and blacking out parts of 3.5 million+ pages. The exact cost has not been made public.
-- Congressional oversight committees (groups of lawmakers who watch over government actions) have spent money on the subpoena process and follow-up investigations.
-- Epstein survivors face privacy risks because so many documents are now public.
-- Todd Blanche was Trump's personal defense lawyer. Now he is acting AG. He will oversee the April 14 questioning about the Epstein files. This is a conflict of interest. That means his personal connections could affect his official decisions. Victims' advocates and members of Congress have not formally addressed this yet.
-- Federal courts are still handling civil lawsuits (cases filed by individuals seeking money or justice) from Epstein victims.
-- Mueller's death permanently removes important knowledge. He knew what the FBI knew while Epstein was operating at his properties in Zorro Ranch, New York, and Palm Beach.
-  - 👉 **What this means for you:** For everyday Arkansans, this situation means their federal tax dollars are funding a massive, ongoing government document review process whose full costs haven't been disclosed, while key questions about whether powerful people were held accountable remain unanswered. The appointment of Trump's former personal lawyer to oversee the very investigation that involves Trump raises serious concerns about whether anyone in a position of real authority is truly independent — which affects every American's trust in equal justice under the law. If you or someone you know has ever felt that the legal system works differently for the wealthy and connected, this case is a concrete example of why that concern doesn't go away easily.
+This is called a structural conflict of interest (a built-in problem where someone cannot be fully neutral).
+
+Here is who pays for all of this:
+1. DOJ staff spent time reviewing and redacting (blocking out private information in) 3.5 million+ pages
+2. Congressional oversight committees spent resources on the subpoena process
+3. Epstein victims face privacy risks from so many documents being made public
+4. Federal taxpayers pay for both the DOJ costs and the Congressional oversight costs
+  - 👉 **What this means for you:** Federal investigators found the FBI agents who interviewed an Epstein accuser considered her credible, yet documents about those interviews were quietly held back until Congress and the media forced their release — meaning the "transparency" your tax dollars paid for may not have been complete. Now that the Attorney General overseeing this process is Trump's former personal defense attorney, the person responsible for deciding what gets released has a direct financial history with the person named in those documents. For Arkansans, this matters because it raises real questions about whether the Justice Department — a federal agency funded by your taxes — is being used to protect powerful individuals rather than enforce the law equally for everyone.
 
 ## 👤 What This Means For You
 
-- Arkansas residents will start seeing a new charge of about $2.85 per month on their Entergy bills right now, even though the Jefferson Power Station hasn't been built yet and won't produce any electricity for years. The state's own utility regulators determined this plant was not the most cost-effective option available, but approved it anyway under a new law that allows a utility to keep resubmitting a project until it gets a green light. If the tech company whose energy needs were used to justify the plant doesn't follow through, everyday Arkansans — especially lower-income households already stretched thin — could be left paying for a costly power plant that was never truly needed.
-- Arkansas taxpayers and Entergy customers are helping fund a massive data center project — through tax breaks and higher electricity rates — without knowing who actually owns or controls it. If the mystery investor pulls out or turns out to be a foreign government or corporation, everyday Arkansans could be left paying for a power plant and infrastructure that no longer has a purpose. Until the state requires the company to disclose who is really behind this deal, residents are taking on real financial risk with no guarantee of the promised jobs or economic benefits.
-- Google's massive new data center in Little Rock will likely raise electricity bills for everyday Arkansans, because state laws (Acts 373 and 548) allow large corporations like Google to negotiate cheaper power rates while the cost of upgrading the electric grid gets passed on to regular households and small businesses. The project's full water usage was left out of federal permit documents, meaning the public had no way to weigh in on how it could affect local water supplies before the comment deadline. And while the deal is being sold as a jobs and education win, the workforce trained at UAPB through the new AI program would primarily be serving an out-of-state company — one whose tax breaks and incentive terms haven't been made public, reducing money that would otherwise fund local schools, roads, and services.
-- If you've ever signed a petition to put a measure on the ballot in Arkansas, it's now significantly harder for those efforts to succeed — new rules around who can collect signatures, tighter deadlines, and easier grounds to throw out petitions mean that only well-funded organizations can realistically get initiatives qualified. Even if a citizen-backed measure does make it onto the ballot and passes, the Arkansas legislature can now turn around and change it with a two-thirds vote, meaning your vote on a constitutional amendment may not be the final word. For everyday Arkansans — especially those in lower-income communities who have used ballot initiatives to push for things like minimum wage increases or Medicaid expansion when the legislature wouldn't act — this makes it harder to use direct democracy as a tool to shape the laws that affect your paycheck, your healthcare, and your rights.
-- Arkansas utility customers could soon see higher electricity bills as Entergy Arkansas locks in major construction costs for the Jefferson Power Station — costs that get passed directly to ratepayers through a special fee before the project is even finished. At the same time, a stack of new federal and state rules is quietly removing the oversight bodies that would normally push back on those charges on your behalf, meaning neither state regulators nor federal agencies are fully reviewing how these changes affect what you pay or the safety of your power supply. If you live near an energy facility or simply pay an electric bill in Arkansas, decisions about your rates, your environment, and your grid reliability are increasingly being made through a web of policy and business relationships that no single public institution has fully examined or approved.
+- Entergy Arkansas customers are already being charged roughly $2.85 more on their monthly electric bills to help finance the Jefferson Power Station — even though the plant hasn't produced any electricity yet and the state's own regulators found it wasn't the most cost-effective option. The company building the plant, AVAIO Digital, has not publicly committed to a contract guaranteeing they'll actually use the power, meaning if that demand never fully materializes, Arkansas ratepayers could be left paying off a $1.5 billion gas plant that isn't needed. For lower-income households in Arkansas, where utility bills already take up a bigger slice of the budget, these added costs hit harder and will likely grow as construction continues.
+- Arkansas taxpayers are handing out major tax breaks and energy infrastructure commitments to a billion-dollar project without knowing who actually owns or controls it — meaning if the deal falls apart, there's no clear party to hold accountable for the losses. Entergy Arkansas customers could end up paying higher electricity bills to cover the cost of a new 754-megawatt power plant built largely to serve this project, even if the project never fully materializes. Without any requirement to disclose who is behind the money — whether it's a foreign government, a foreign corporation, or a private investment firm — everyday Arkansans are taking on real financial risk with no guarantee of the jobs or tax revenue they were promised.
+- Arkansas electricity customers — including renters, homeowners, and small business owners — may see higher power bills as the state's grid expands to serve Google's massive new data center, with state law already structured to shift those infrastructure costs onto everyday ratepayers rather than the corporation benefiting from them. If Arkansans tried to fight back through a ballot initiative to change how utility costs are distributed, a recent state Supreme Court ruling now allows the legislature to simply override whatever voters decide. Meanwhile, public university students at UAPB may be trained for tech jobs that primarily benefit out-of-state companies like Google, with no clear public accounting of where the funding for that program is coming from or who it truly serves.
+- If you've ever signed a petition to put a measure on the ballot — like raising the minimum wage or expanding healthcare — it's now much harder for those efforts to succeed, because new laws have made the signature-gathering process so complicated and costly that only well-funded groups can realistically meet the deadlines. This matters most for everyday Arkansans who can't afford lobbyists, since the ballot initiative process has historically been one of the few tools regular people have to push for changes the legislature won't act on. If the official who oversees this process in the future is someone aligned with the politicians who created these restrictions, there's little reason to expect the rules to get easier anytime soon.
+- Defense jobs in East Camden may look like a win for Arkansas workers, but the companies involved include foreign defense firms — one Israeli, one South Korean — that have access to sensitive U.S. missile production technology, meaning the economic benefits come with security and oversight questions that haven't been publicly answered. A former aide to Senator Cotton moved directly into a top role at a South Korean defense company now expanding in Arkansas, while Cotton simultaneously pushes legislation that could benefit large tech and data operations in the state — and none of that has gone through a formal ethics review that Arkansans can actually read or scrutinize. For everyday Arkansans, this matters because decisions about who gets defense contracts, who gets tax breaks, and who shapes state and federal policy may be driven by a tight network of political and corporate relationships that operate without the transparency needed to know whether those decisions are being made in the public's interest or in the interest of well-connected insiders.
 
 ## 👀 What To Watch Next
 
-- Someone thinks the secret investors behind AVAIO Digital will be revealed soon. This should happen within 60 days. There are three ways it could happen.
+- A company called AVAIO Digital has kept its investors secret. This prediction says those investors will be revealed within 60 days. That could happen by June 6, 2026.
 
-1. The Arkansas PSC could hold a rate case. The PSC (Public Service Commission) is a government agency. It watches over utility companies. A rate case is when a company asks to charge customers new prices. This process might force AVAIO to name its investors.
+Two things could force the reveal:
 
-2. The Army Corps of Engineers is reviewing a permit. The permit number is SWL-2026-00038. It is called a Section 404 permit. This permit lets companies build near water. The public can comment on this permit until April 24, 2026. People could use FOIA requests to learn who the investors are. FOIA stands for Freedom of Information Act. It lets you demand to see government records.
+1. A final decision on an Army Corps Section 404 permit. This is a government approval you need before building near water.
+2. A congressional inquiry into a group of data centers in Arkansas. This means members of Congress officially investigate something.
 
-3. A competing data center company could file a legal challenge. They could argue that hiding the investors is not allowed by law.
-
-All of this should happen by June 5, 2026.
-
-Here is why people think this will happen. AVAIO Digital has hidden its investors for 5 years. Those investors put in between $6 billion and $21 billion. That is a huge amount of money. Hiding investors was easier before. That was during the announcement phase. Now the project is moving into construction. Construction rules are stricter. They require naming who is involved. The investor was only described as an "undisclosed $25 billion investment manager." That description worked before. But construction permits need more details. Also, a tracking tool found 61 cases online. Each case showed "AVAIO" and "Arkansas" together. This means many people are watching this project closely.
-- Oracle is a big tech company. It may sell part of its business soon.
-
-Here is what is predicted to happen:
-
-1. Oracle will likely sell its Cerner health division. Cerner is a company Oracle bought for $28.3 billion. It helps hospitals manage patient records.
-
-2. This sale would happen by July 31, 2026.
-
-3. Oracle needs a lot of money right now. It wants to buy another company called WBD. That deal could cost $45 to $50 billion.
-
-Why won't Oracle just borrow the money instead? There are several reasons:
-
-1. Interest rates (the cost of borrowing money) are rising. This makes borrowing more expensive.
-2. CDS spreads (a measure of how risky lenders think a company is) are at their highest point since 2009. That means lenders see Oracle as risky right now.
-3. Oracle is facing a lawsuit from bondholders (people who lent Oracle money). This makes it harder to borrow more money from new lenders.
-
-Selling Cerner would help Oracle in two ways. First, it brings in cash right away. Second, it reduces Oracle's legal risk.
-
-There is also a deadline to consider. On July 24, 2026, certain trade tariffs (taxes on goods between countries) expire. After that date, borrowing money gets even more expensive. That is another reason Oracle would want to act before then.
-
-Two other clues suggest Oracle is under financial stress. Its free cash flow (money left over after expenses) is being closely tracked. A pension fund (a retirement savings fund) called the Ohio Carpenters Pension Fund is also watching Oracle closely.
-- Apple and the FBI may be heading toward a major public fight. This could happen by May 5, 2026 — within 30 days.
-
-The fight would likely be one of two things:
-
-1. A court order forcing Apple to unlock a device
-2. Apple filing a preemptive challenge (meaning Apple strikes first in court before being forced to act)
-
-Why does this seem likely? Apple and the FBI have been mentioned together unusually often in recent data. When two groups are mentioned together that much, it usually means something is happening behind the scenes.
-
-This has happened before. In 2016, the FBI wanted Apple to unlock a phone used in the San Bernardino shooting. In 2020, the same thing happened after a shooting in Pensacola. Both times, the same pattern played out:
-
-1. The FBI made a request
-2. Apple said no
-3. The fight became public and went to court
-
-Right now, the U.S. is in an active conflict with Iran. The FBI also released a bulletin (an official warning notice) on March 11 about drone threats on the West Coast. These conditions could push the government to use wartime national security authority (special legal powers the government gets during a war or national emergency) to demand Apple hand over access to devices.
-
-There is also a recent example involving Anthropic (an AI company). The government made a demand, Anthropic refused, and then the government gave Anthropic a supply chain risk designation (an official label saying the company is a security risk). That same playbook could be used against Apple.
-
-Apple is a bigger target than Anthropic. Apple has a larger market cap (the total value of a company's stock) and hundreds of millions of customers. That makes this potential fight even higher stakes.
-- Between April 11 and 20, 2026, at least two of these four things are predicted to happen.
-
-Here are the four predicted events:
-
-1. A government deadline expires on April 11. This deadline is called the Treasury Cuba/NK waiver expiration. A waiver (a temporary exception to a rule) for Cuba and North Korea runs out. This could cause a new crisis with Cuba.
-
-2. On April 14, a woman named Bondi gives a deposition (formal recorded testimony under oath). This testimony could reveal major new information about a person named Epstein.
-
-3. A bill called the CLARITY Act moves forward. A Senate Banking markup (an official meeting where senators review and edit a bill) was planned for April 13-27.
-
-4. A big distraction event happens on April 12 or 13. This event would split media attention away from stories about government accountability (holding officials responsible for their actions).
-
-Here is why these predictions were made:
-
-- This prediction was officially filed on March 21, 2026. It is stored in a repository (a collection of saved records).
-- All four events were already happening at the same time in this period.
-- The April 11 deadline is set by law. It cannot be moved.
-- The April 14 deposition was ordered by Congress. It is confirmed and real.
-- Past data shows a pattern. When many compliance events (times when rules are followed) happen close together, friction events (pushback or disruptions) tend to follow. The math shows a correlation (a measured relationship between two things) of r=+0.6196. That means the two things happen together fairly often.
-- The distraction prediction is the easiest part to prove wrong or right.
-- Saudi Arabia has a government investment fund called the PIF (Public Investment Fund). This prediction says PIF will invest in SpaceX and xAI before they go public.
-
-"Going public" means a company starts selling shares of itself to regular people. This is called an IPO (Initial Public Offering).
-
-SpaceX and xAI are being valued at $1.5 to $1.75 trillion. That means experts think the combined companies are worth that much money.
-
-The prediction says PIF will invest between $5 billion and $20 billion. This investment would happen before the IPO filing. An IPO filing is the official paperwork a company submits before going public.
-
-This would be announced by September 30, 2026. The announcement would come through one of two ways:
-
-1. A 13F amendment (a government form that shows what big investors own)
-2. A direct press release (an official public announcement)
-
-Here is why people think this might happen:
-
-1. Saudi PIF and SpaceX have been mentioned together 23 times in recent reports. This is a new pattern that hasn't been explained yet.
-2. PIF's official plan for 2026 to 2030 focuses heavily on AI and space technology.
-3. SpaceX plans to raise more than $30 billion when it goes public in mid-to-late 2026.
-4. PIF has invested early in other big tech companies before. For example, it owned 93.4% of EA and joined a group of investors in TikTok.
-
-However, there is a serious problem. SpaceX has secret contracts with the U.S. government. These include programs called Starshield and NRO contracts.
-
-Because of these secret contracts, a U.S. government committee called CFIUS (Committee on Foreign Investment in the United States) may block or delay the deal. CFIUS reviews investments from foreign countries to protect U.S. national security.
-
-PIF is a Gulf SWF (Sovereign Wealth Fund). That means it is a large investment fund owned and controlled by a foreign government.
-
-The overall confidence in this prediction is LOW. There are two main reasons:
-
-1. The CFIUS barrier is real and could stop the deal completely.
-2. The 23 times SpaceX and PIF were mentioned together might just be analysts connecting dots, not proof of an actual deal.
-- Someone made a prediction about the University of Arkansas at Pine Bluff (UAPB). The prediction says UAPB will soon be named a partner in a big defense project.
-
-The project is connected to Hanwha Defense USA. Hanwha Defense USA plans to spend $1.3 billion at Pine Bluff Arsenal. An arsenal is a place where the military makes and stores weapons. This announcement is expected within 90 days, by July 5, 2026.
-
-The partnership would focus on one of two things:
-1. Workforce development — training local people for jobs
-2. Research — studying topics related to the project
+When the investors are revealed, they will likely be one of two things. They could be a Gulf SWF intermediary. Think of this as a middleman. He works between a government-owned investment fund from a Gulf country and the deal. Or they could be part of the Stargate consortium. That is a group of big tech companies working together on AI projects.
 
 Here is why this prediction was made:
 
-1. UAPB appears in key documents 24 times next to the word "Arkansas." That is a very high number.
-2. Only two other names appear that often or more. Those are Entergy (a large energy company) and Governor Sanders.
-3. Right now, no one knows of an official reason why UAPB appears so many times.
-4. UAPB is an HBCU (a Historically Black College or University). It is in Pine Bluff — the same city as the Hanwha project.
-5. Big companies have used HBCU partnerships before. It helps show that their investment helps the local community.
-6. Governor Sanders appears 25 times in the same documents. This suggests politicians are actively planning these announcements.
+- Public comments on the permit closed April 24, 2026.
+- After comments close, a final permit decision usually takes 30 to 60 days.
+- The permit application left out water usage numbers. That is a documented problem.
+- Missing information creates a legal weak spot. That weak spot could force investor names to go public.
+- Data shows AVAIO is actively moving through the approval process right now.
+- AVAIO's investors have stayed secret for 5 years. That is very unusual.
+- Keeping investors secret gets harder once construction starts.
+- The total investment is between $6 billion and $21 billion. That is a huge amount of money to keep hidden.
+- Oracle is a big tech company. It may make a major financial announcement soon.
 
-Several big companies are investing in Arkansas right now. These include L3Harris, R2S, Hanwha, and AVAIO. Big investments like these need public support. A university partnership can help build that support.
+Here is what might happen. Oracle could either sell a large part of its business or cut a huge number of jobs. Specifically, it might sell its Cerner health division. Oracle bought Cerner for $28.3 billion. Or it might lay off between 15,000 and 30,000 workers. This prediction says one of these things will happen within 45 days. The deadline is May 21, 2026.
+
+Here is why this might happen. Oracle is trying to raise between $45 billion and $50 billion. Raising money means getting large amounts of cash, usually by borrowing or selling investments. But this is getting harder. Bond yields (the interest rate Oracle has to pay when it borrows money) are rising. Think of it like this. If you borrow $100 from a friend and now have to pay back $115 instead of $105, borrowing becomes more painful. That is what is happening to Oracle, but with billions of dollars.
+
+The rising bond yields are connected to an energy crisis caused by the Iran war. Oil prices are above $90 per barrel. Higher oil prices push up costs across the economy, including borrowing costs.
+
+There are also data signals pointing to financial stress. Two specific data patterns were tracked:
+1. The words "Oracle" and "free cash flow" (money a company has left after paying its bills) appeared together 40 times in tracked data.
+2. The words "Ohio Carpenters Pension Fund" and "Oracle" appeared together 31 times.
+
+These patterns suggest more people are talking about Oracle's money problems.
+
+There is another warning sign. Oracle's financing plan (its plan to raise money) showed up as a COMPLIANCE signal (a flag meaning something needs to be fixed) three days in a row. Those days were March 8, 9, and 10. It never got resolved. This suggests Oracle's plan to raise money is stuck.
+
+Finally, April 2026 is a busy time for big news events. Those events include the Bondi deposition (a formal legal interview), the CLARITY Act (a piece of legislation), and FISA (a law about government surveillance). All this big news could give Oracle a chance to make a major announcement without it getting as much attention.
+- Saudi Arabia's Public Investment Fund (PIF) — the country's government-owned investment group — will likely announce a major investment in SpaceX. This announcement is expected to happen around the time SpaceX goes public on the stock market. SpaceX is aiming for that to happen in June or July 2026. The prediction says this will be confirmed by July 31, 2026.
+
+The investment will probably be set up through a middleman company in the Gulf region. This is done to hide how much Saudi Arabia actually owns. If a foreign government owns more than 5% of a U.S. company, they must publicly report it. Using a middleman helps them stay under that 5% limit without full disclosure (full public reporting).
+
+Here is why experts believe this prediction is likely:
+
+1. Saudi PIF and SpaceX are mentioned together in data more than any other PIF pairing. They appear together 23 times. That is more than PIF paired with Oracle or PIF paired with Stargate.
+
+2. SpaceX secretly filed paperwork with the SEC (the U.S. government agency that oversees investments) on April 1, 2026. This has been confirmed.
+
+3. Saudi PIF has a documented plan for 2026 to 2030. That plan focuses heavily on AI and industry. Investing in SpaceX fits perfectly into that plan.
+
+4. Gulf investment funds have done this middleman strategy before. For example, they used Silver Lake for TikTok and Affinity Partners for Kushner's firm. This also helps avoid CFIUS review. CFIUS is a U.S. government committee that blocks foreign investments it considers a national security risk.
+- The FBI may demand that Apple unlock encrypted (locked and scrambled) devices by April 30, 2026. Apple is expected to say no. If Apple refuses, the government could officially label them as uncooperative.
+
+This prediction comes from a pattern in tracked data. The word "Apple" appeared next to "FBI" 20 times. The word "FBI" alone appeared only 4 times. That means Apple and FBI appeared together 5 times more often than FBI alone. A similar pattern showed up before a company called Anthropic was labeled a supply chain risk. That means the government flagged Anthropic as a possible security threat.
+
+Three events may happen close together. They could distract the public. That could make it easier for the government to act quietly. Here are the three events:
+
+1. A deposition (formal legal questioning) involving someone named Bondi is set for April 14.
+2. A law called FISA Section 702 expires on April 20. This law allows the government to spy on people for national security reasons.
+3. A Treasury Department waiver (special permission) tied to Cuba and North Korea expires on April 11.
+
+There is also an ongoing situation involving Iran and national security. This could give the government a reason to demand access to locked devices.
+
+This prediction comes from only one data source. No other sources have confirmed it. Because of that, the confidence level in this prediction is low.
+- A prediction has been made about a major diplomatic agreement. Here is what it says and why.
+
+The prediction is that the G7 (a group of 7 wealthy countries) and the GCC (Gulf Cooperation Council, a group of 6 Middle Eastern countries) will make a formal agreement. This agreement would be a framework (an official plan that guides future decisions). It is expected to happen within 30 days of the prediction. The deadline is May 6, 2026.
+
+The agreement would be connected to two things:
+1. Reopening the Strait of Hormuz (a narrow waterway where a lot of the world's oil passes through)
+2. Funding the rebuilding of Gaza through something called the Board of Peace
+
+Right now, the Board of Peace has a 90% funding gap (meaning 90% of the money needed has not been promised yet). This agreement would turn that gap into a shared commitment between multiple countries.
+
+The agreement would also work around a $1 billion membership fee. The Board of Peace currently charges $1 billion to become a permanent member. This new plan would let countries fund Gaza's rebuilding without paying that fee directly.
+
+Here is the evidence behind the prediction:
+
+1. The G7-GCC combination has shown up 4 times in tracking data with no connections to other groups yet. This suggests it is a brand new and early signal worth watching.
+2. The Board of Peace and Hamas have appeared together 24 times in the data. That is the highest number for any Board of Peace pairing. This means Gaza's future government is the main pressure point right now.
+3. There is active diplomacy around Iran's war ceasefire (a pause in fighting). This includes a 15-point plan by someone named Witkoff, a secret communication channel through Oman, and a 5-day pause in strikes ordered by Trump on March 23. These events create an opening for a larger multilateral (involving many countries) agreement.
+4. This G7-GCC agreement would give Gulf states a way to fund Gaza's rebuilding without it looking like they are paying the $1 billion Board of Peace membership fee.
+- A prediction has been made about the University of Arkansas at Pine Bluff (UAPB). The prediction says UAPB will be picked for a federal (U.S. government) research partnership. This partnership would focus on AI (artificial intelligence, like computer programs that think) or national defense. The announcement is expected within 60 days, by June 6, 2026.
+
+This prediction is connected to other big projects nearby. All of these projects are in Jefferson County, Arkansas. Jefferson County has become a hub (a center of activity) for major projects. Here are the key ones:
+
+1. The Jefferson Power Station — a large power plant approved in January 2026. It can produce 754 megawatts (MW) of electricity. That is enough to power hundreds of thousands of homes.
+2. The Pine Bluff Arsenal — a military base. A company called Hanwha Defense USA is spending $1.3 billion there.
+3. The AVAIO campus site — another big development in the same area.
+
+UAPB sits in the middle of all these projects. That location is part of why this prediction was made.
+
+There is also a legal tool called an Enhanced Use Lease. It lets the government use land in new ways to earn money or support growth. This tool was already used at Pine Bluff Arsenal. It can also be used on land owned by HBCUs (Historically Black Colleges and Universities, like UAPB).
+
+The announcement will likely be presented as HBCU economic development. That means it will be described as a way to bring jobs and money to a historically Black college. Both political parties tend to support that idea.
+
+The prediction is also based on data. UAPB and Arkansas showed up together 24 times in a national tracking system called live_trackers. That is more than what appears in a local system called arkansas_tracker. The difference shows this story is getting national attention.
 
 ## 🔍 How We Know This
 
@@ -433,7 +425,7 @@ This report is built by a computer program that:
 4. **Finds connections** — like when a PAC gives money to a politician who then votes a certain way
 5. **Translates** everything into plain English so you don't need a law degree to understand it
 
-**Today's fact-check results:** 2 verified ✅ | 4 contradicted ❌ | 28 need more context ⚠️
+**Today's fact-check results:** 2 verified ✅ | 4 contradicted ❌ | 30 need more context ⚠️
 
 > 📖 For the full detailed report with all sources and methodology, see
 > [Intelligence_Report.md](Intelligence_Report.md)
@@ -443,4 +435,4 @@ This report is built by a computer program that:
 *This report is generated daily by the [Political Translator](https://github.com/Leerrooy95/Political_Translator) pipeline.
 Facts are checked against live web evidence. This is not opinion — it's data.*
 
-*April 05, 2026 at 08:53 AM UTC*
+*April 06, 2026 at 09:20 AM UTC*
