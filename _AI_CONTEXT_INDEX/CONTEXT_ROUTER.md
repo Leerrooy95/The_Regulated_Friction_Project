@@ -16,7 +16,11 @@
 | **Ritual / calendar timing** | `Project_Trident/Ritual_Timing_Signal_Analysis.md` | `Project_Trident/DATASET_REFERENCE.md`, `Project_Trident/temporal_correlations_analyzed.csv` |
 | **Media firewall / 1789 Capital / Omeed Malik** | `02_MEDIA_FIREWALL.md` | `12_The_Media_Firewall/README.md`, `12_The_Media_Firewall/1789_Symbolism_Analysis.md`, `12_The_Media_Firewall/Omeed_Malik_Forensic_Node_Analysis.md` |
 | **Tucker Carlson / Fitts interview** | `sources/2026-02-27_Carlson_Fitts_Control_Grid.md` | `02_MEDIA_FIREWALL.md` |
-| **Tucker Carlson buyout / post-independence** | `02_MEDIA_FIREWALL.md` (Tucker Carlson Buyout section) | `12_The_Media_Firewall/README.md`, `Report.md` (Media Firewall Narrative Timing) |
+| **Tucker Carlson buyout / post-buyout redirect** | `02_MEDIA_FIREWALL.md` (Tucker Carlson Buyout section — v12.1 reassessment) | `12_The_Media_Firewall/README.md`, `Report.md` (Media Firewall Narrative Timing) |
+| **Tucker Carlson redirect thesis / actionability test** | `02_MEDIA_FIREWALL.md` (v12.1 Redirect section, Actionability table) | `09_CURRENT_THREADS.md` (Node 10 enforcement mechanism), `15_The_Religious_Layer/The_Lever.md` |
+| **Carlson–Owens interview case study** | `02_MEDIA_FIREWALL.md` (Carlson–Owens Interview subsection) | `15_The_Religious_Layer/The_Lever.md` |
+| **Tucker Carlson four-step cycle (pre-frame → action → redirect → structural silence)** | `02_MEDIA_FIREWALL.md` (Four-Step Cycle section, v12.2) | `Project_Trident/Copilot_Opus_4.6_Analysis/Influencer_Narrative_Timing/media_firewall_narrative_timing_analysis.md`, `09_CURRENT_THREADS.md` (Node 10) |
+| **Tucker Carlson conscious vs instinct question** | `02_MEDIA_FIREWALL.md` (Open Question subsection, v12.2) | `06_ATTENTION_ECONOMY.md` (no claim of conscious coordination) |
 | **Board of Peace / private diplomacy** | `03_BOARD_OF_PEACE.md` | `05_Geopolitical_Vectors/Board_of_Peace_Security_Architecture.md`, `Project_Trident/Claude_Code_Analysis/Privatized_Integration_Networks_Q1_2026_Synthesis.md` |
 | **Kushner / Affinity Partners** | `Node_Dossiers/tier1_kushner_historical.md` | `Node_Dossiers/tier2_affinity_qxo.md`, `03_BOARD_OF_PEACE.md` |
 | **Gulf SWF / Silicon Sovereignty** | `04_CAPITAL_ARCHITECTURE.md` | `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md` |

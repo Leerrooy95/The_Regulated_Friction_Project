@@ -208,7 +208,8 @@ The pipeline should track this growing intra-Christian theological conflict:
 |----------|-------------|------------|---------------|-------------------|
 | **Christian Zionism** | Israel's covenant eternal; Third Temple required; Ezekiel 38-39 = Iran | Hegseth, Huckabee, Drollinger, Hagee, Paula White, Dan Patrick | Unconditional military support | Prophetically necessary |
 | **Catholic / Replacement Theology** | Church inherited covenant; modern Israel has no special theological status | Boller, Catholic traditionalists, Rev. Fares Abraham (Palestinian pastor) | Criticism permissible; Palestinian Christians recognized | Opposition or skepticism |
-| **Emerging Dissent** | Varies — anti-war, anti-Zionist, or theologically independent | Tucker Carlson (platforming dissenters), Sarah Palin, Michael Flynn (defended Boller) | Questioning | Questioning or opposed |
+| **Redirect Channel** | Varies — anti-war, anti-Israel framing | Tucker Carlson (directs anger toward non-actionable targets — Israel/Zionism — rather than domestic financial architecture; see v12.1 Media Firewall reassessment in `_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md`) | Critical of Israel | Opposed (but through non-actionable framing) |
+| **Emerging Dissent** | Varies — anti-war, anti-Zionist, or theologically independent | Sarah Palin, Michael Flynn (defended Boller) | Questioning | Questioning or opposed |
 
 **Tracking Signal**: The administration enforces Christian Zionism as the official theological position through government apparatus (Religious Liberty Commission) while suppressing Catholic and other dissenting Christian positions. A "Religious Liberty" commission is being used to restrict religious liberty for non-Zionist Christians.
 

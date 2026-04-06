@@ -1,4 +1,4 @@
-# The Regulated Friction Project v12.0
+# The Regulated Friction Project v12.2
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -156,7 +156,25 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v12.0) — Planet Labs Blackout, Verification Upgrades, Anthropic Contrast — April 5, 2026
+## What's New (v12.2) — Tucker Carlson Four-Step Cycle Formalization — April 5, 2026
+
+Adds the nuance missing from v12.1: the redirect is not a static two-mode model — it is a **repeating four-step cycle** that has never been a one-off.
+
+- **Four-step cycle formalized**: Pre-frame → Action → Redirect → Structural Silence on financial architecture. Documented across **six instances** (Jan 6–8 NATO/tariffs, Jan 30 Epstein/Warsh, Feb 8 Super Bowl/West Bank, Feb 27 Fitts/control grid, June 2025 buyout/Iran, Aug 1 Carlson–Owens). The pre-frame topic changes, the action type changes, the redirect flavor changes — but the structural silence on domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF, Apollo) is the constant across every instance.
+- **Conscious vs instinct — open question**: Whether Carlson executes the four-step cycle deliberately or is a man whose instincts consistently produce the same structural outcome is unresolved. Both explanations produce the identical structural outcome. Consistent with the repository's broader framing: correlation, not causation; no claim of conscious coordination.
+- **Files updated**: [`02_MEDIA_FIREWALL.md`](_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md), [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`README.md`](README.md), [`Report.md`](Report.md).
+
+### Previous (v12.1) — Tucker Carlson Redirect Reassessment — April 5, 2026
+
+Corrects a misjudgment in the v11.7 assessment of Tucker Carlson's post-buyout behavior.
+
+- **Carlson firewall reclassification**: The previous assessment concluded that Carlson's post-buyout criticism of Trump on Iran represented the media firewall becoming "inactive." This was incorrect. Post-buyout, Carlson redirected audience anger toward **non-actionable targets** (Israel, Zionism, Chabad) — entities that cannot be subpoenaed, FOIAed, or counter-measured. The domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) remains unmentioned across both periods. The firewall's *flavor* changed; its *function* — protecting domestic financial architecture from scrutiny — did not.
+- **Carlson–Owens interview case study (August 1, 2025)**: When Candace Owens moves toward naming specific individuals or entities that could produce institutional accountability, Carlson deflects — laughing, broadly agreeing, then pivoting back to abstract or non-actionable framing. Observable behavioral pattern of the redirect mechanism in action.
+- **Actionability test added**: New analytical framework distinguishing targets by whether they can be subpoenaed, FOIAed, or counter-measured. Both pre-buyout targets (CIA/Mossad) and post-buyout targets (Israel/Zionism) fail the actionability test. Only the domestic financial architecture (1789 Capital, Silver Lake, etc.) passes — and it's never targeted.
+- **Key question revised**: "Why did Carlson break with Trump only after exiting the capital structure?" replaced with "Why does Carlson's post-buyout criticism consistently target non-actionable entities rather than the domestic financial architecture?"
+- **Files updated**: [`02_MEDIA_FIREWALL.md`](_AI_CONTEXT_INDEX/02_MEDIA_FIREWALL.md), [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`README.md`](README.md), [`Report.md`](Report.md), [`15_The_Religious_Layer/The_Lever.md`](15_The_Religious_Layer/The_Lever.md).
+
+### Previous (v12.0) — Planet Labs Blackout, Verification Upgrades, Anthropic Contrast — April 5, 2026
 
 Integrates the Planet Labs satellite imagery blackout (April 5, 2026) and three verification upgrades, all web-verified.
 
@@ -181,7 +199,7 @@ Integrates four streams of April 1–3, 2026 developments, all web-verified befo
 
 ### Previous (v11.7–v11.8) — Tucker Buyout, TPUSA Integration — April 2–3, 2026
 
-- **Tucker Carlson/1789 Capital buyout** (v11.7): Carlson and Patel bought out all 1789 Capital investors (June 2025), making TCN independent. Post-buyout, Carlson broke with Trump over Iran policy — behavior consistent with Media Firewall thesis. All repository references updated.
+- **Tucker Carlson/1789 Capital buyout** (v11.7): Carlson and Patel bought out all 1789 Capital investors (June 2025), making TCN independent. **v12.1 correction**: Post-buyout behavior initially assessed as "firewall inactive"; reclassified as **firewall redirected** — anger directed toward non-actionable targets (Israel/Zionism) rather than domestic financial architecture. See `02_MEDIA_FIREWALL.md`.
 - **TPUSA post-assassination merger** (v11.8): Kirk assassination → ADL neutralization → institutional consolidation (Erika Kirk CEO/Medal of Freedom/Air Force Academy Board). Equal Access Act legal architecture documented.
 
 ### Previous (v11.5–v11.6) — Four-Thread Integration, CRINK Update — April 1, 2026
@@ -244,7 +262,7 @@ After the repository owner established the core correlations, **GitHub Copilot (
 
 These questions arise from documented patterns and verified data:
 
-1. Why did the same capital entity (1789 Capital) fund both the Media Firewall (TCN, PublicSq) and enforcement layer (Anduril) pitched to Saudi defense — and why did Tucker Carlson begin openly criticizing the administration only after buying out 1789 Capital's stake in June 2025?
+1. Why did the same capital entity (1789 Capital) fund both the Media Firewall (TCN, PublicSq) and enforcement layer (Anduril) pitched to Saudi defense — and why does Tucker Carlson's post-buyout criticism consistently target non-actionable entities (Israel, Zionism) rather than the domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) documented in this repository?
 
 2. Why does Resolution 2803 place the ISF under Board of Peace command rather than UN peacekeeping — with the Chairman given personal appointment authority?
 

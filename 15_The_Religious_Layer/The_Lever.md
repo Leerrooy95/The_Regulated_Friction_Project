@@ -16,7 +16,7 @@ The eschatological infrastructure documented in this repository (Capitol Ministr
 |--------|----------|-----------------|--------|------|
 | **Candace Owens** | The Daily Wire | Criticized Israel / questioned Zionist framing | Departed Daily Wire | 2024 |
 | **Carrie Prejean Boller** | White House Religious Liberty Commission | Defended Owens, questioned if criticizing Israel = antisemitism, raised Catholic theology against Zionist framing | Fired by Dan Patrick, then formally terminated by Trump (March 12, 2026) | Feb-March 2026 |
-| **Tucker Carlson** | Tucker Carlson Network (Last Country, Inc.) | Talked to Iranians pre-war, questioned Israel framing, platformed Boller and Owens | CIA criminal referral reportedly under consideration (FARA) | March 2026 |
+| **Tucker Carlson** | Tucker Carlson Network (Last Country, Inc.) | Talked to Iranians pre-war, questioned Israel framing, platformed Boller and Owens | CIA criminal referral reportedly under consideration (FARA). **v12.1 note**: Carlson's post-buyout behavior reclassified as **firewall redirect** — anger directed toward non-actionable targets (Israel/Zionism) rather than domestic financial architecture. See `02_MEDIA_FIREWALL.md`. | March 2026 |
 
 **Pattern**: Each successive dissenter was higher-profile and more embedded in the system than the last. The enforcement escalated accordingly — departure, firing, federal criminal referral.
 
