@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2026-04-06T09:05:46.703164+00:00",
-  "total_runs_analyzed": 81,
+  "analysis_timestamp": "2026-04-07T08:56:48.605847+00:00",
+  "total_runs_analyzed": 83,
   "window_days": 7,
   "adaptive_windows": {
     "maxwell": 7,
@@ -1899,15 +1899,147 @@
       ],
       "has_friction_compliance_pair": true,
       "has_new_developments": false
+    },
+    {
+      "date": "2026-04-06",
+      "active_node_count": 7,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Maxwell moved to minimum-security Texas facility after DOJ Deputy AG Todd Blanche interview, while House Resolution 119-635 formally opposes clemency, April 1-2 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Trump vows more aggressive Iran strikes after failed ceasefire speculation while Hegseth fires Army Chief George amid ongoing war, April 2-3 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "SpaceX holds talks with Saudi PIF for $5 billion anchor investment in record $75 billion IPO targeting June 2026 launch, April 2 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel expands Lebanon ground operations while Iran claims downing second US F-35 fighter jet amid Day 27-34 of US-Israel joint war on Iran, April 2-3 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle stock plunges 57% amid $10B AI spending push, 30,000 layoffs including 12,000 in India, and financial stress concerns over $300B OpenAI backlog dependency",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ released 3.5 million Epstein documents on January 30, 2026 with new Trump allegations; House Oversight continues pressure on DOJ compliance while Prince Andrew arrested based on file revelations",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while UAPB launches AI center April 2, 2026",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": false
+    },
+    {
+      "date": "2026-04-07",
+      "active_node_count": 7,
+      "nodes": [
+        {
+          "node_id": "maxwell",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Maxwell moved to minimum-security Texas facility after DOJ Deputy AG Todd Blanche interview, while House Resolution 119-635 formally opposes clemency, April 1-2 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "iran",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Trump vows more aggressive Iran strikes after failed ceasefire speculation while Hegseth fires Army Chief George amid ongoing war, April 2-3 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "gulf_swf",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "SpaceX holds talks with Saudi PIF for $5 billion anchor investment in record $75 billion IPO targeting June 2026 launch, April 2 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "israel",
+          "status": "CRITICAL",
+          "classification": "ESCALATION",
+          "headline": "Israel expands Lebanon ground operations while Iran claims downing second US F-35 fighter jet amid Day 27-34 of US-Israel joint war on Iran, April 2-3 2026",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "oracle_ellison",
+          "status": "CRITICAL",
+          "classification": "COMPLIANCE",
+          "headline": "Oracle stock plunges 57% amid $10B AI spending push, 30,000 layoffs including 12,000 in India, and financial stress concerns over $300B OpenAI backlog dependency",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "epstein_files",
+          "status": "ACTIVE",
+          "classification": "FRICTION",
+          "headline": "DOJ released 3.5 million Epstein documents on January 30, 2026 with new Trump allegations; House Oversight continues pressure on DOJ compliance while Prince Andrew arrested based on file revelations",
+          "is_new_headline": false
+        },
+        {
+          "node_id": "arkansas_datacenter",
+          "status": "ACTIVE",
+          "classification": "COMPLIANCE",
+          "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while UAPB launches AI center April 2, 2026",
+          "is_new_headline": false
+        }
+      ],
+      "classification_mix": [
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "ESCALATION",
+        "COMPLIANCE",
+        "FRICTION",
+        "COMPLIANCE"
+      ],
+      "has_friction_compliance_pair": true,
+      "has_new_developments": false
     }
   ],
   "node_activity_summary": {
     "gulf_swf": {
-      "total_appearances": 76,
-      "active_count": 33,
+      "total_appearances": 78,
+      "active_count": 35,
       "critical_count": 4,
       "classifications": {
-        "COMPLIANCE": 32,
+        "COMPLIANCE": 34,
         "NEUTRAL": 41,
         "ESCALATION": 1,
         "DE_ESCALATION": 1,
@@ -1915,51 +2047,51 @@
       }
     },
     "oracle_ellison": {
-      "total_appearances": 73,
-      "active_count": 30,
-      "critical_count": 10,
+      "total_appearances": 75,
+      "active_count": 32,
+      "critical_count": 12,
       "classifications": {
-        "COMPLIANCE": 28,
+        "COMPLIANCE": 30,
         "FRICTION": 2,
         "NEUTRAL": 43
       }
     },
     "epstein_files": {
-      "total_appearances": 75,
-      "active_count": 32,
+      "total_appearances": 77,
+      "active_count": 34,
       "critical_count": 6,
       "classifications": {
         "COMPLIANCE": 4,
-        "FRICTION": 28,
+        "FRICTION": 30,
         "NEUTRAL": 43
       }
     },
     "maxwell": {
-      "total_appearances": 73,
-      "active_count": 25,
+      "total_appearances": 75,
+      "active_count": 27,
       "critical_count": 3,
       "classifications": {
         "FRICTION": 19,
         "NEUTRAL": 46,
-        "COMPLIANCE": 8
+        "COMPLIANCE": 10
       }
     },
     "iran": {
-      "total_appearances": 74,
-      "active_count": 44,
-      "critical_count": 27,
+      "total_appearances": 76,
+      "active_count": 46,
+      "critical_count": 29,
       "classifications": {
-        "ESCALATION": 30,
+        "ESCALATION": 32,
         "NEUTRAL": 30,
         "DE_ESCALATION": 14
       }
     },
     "israel": {
-      "total_appearances": 67,
-      "active_count": 42,
-      "critical_count": 18,
+      "total_appearances": 69,
+      "active_count": 44,
+      "critical_count": 20,
       "classifications": {
-        "ESCALATION": 24,
+        "ESCALATION": 26,
         "NEUTRAL": 21,
         "COMPLIANCE": 15,
         "FRICTION": 3,
@@ -1967,11 +2099,11 @@
       }
     },
     "arkansas_datacenter": {
-      "total_appearances": 66,
-      "active_count": 24,
+      "total_appearances": 68,
+      "active_count": 26,
       "critical_count": 0,
       "classifications": {
-        "COMPLIANCE": 24,
+        "COMPLIANCE": 26,
         "NEUTRAL": 42
       }
     }
@@ -2006,6 +2138,7 @@
     "2026-04-03": 7,
     "2026-04-04": 7,
     "2026-04-05": 7,
-    "2026-04-06": 7
+    "2026-04-06": 7,
+    "2026-04-07": 7
   }
 }

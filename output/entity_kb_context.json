@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-06T09:13:26.864465+00:00",
+  "generated_at": "2026-04-07T09:04:31.242531+00:00",
   "source_files": {
     "entities": "output/extracted_entities.json",
     "convergence": "output/convergence_report.json",
     "rhetoric_reality": "output/rhetoric_reality.json"
   },
   "entity_summary": {
-    "extraction_timestamp": "2026-04-06T09:05:45.443600+00:00",
+    "extraction_timestamp": "2026-04-07T08:56:47.341105+00:00",
     "total_entities": 78,
     "total_relationships": 0,
     "nodes": {
@@ -608,12 +608,110 @@
     }
   },
   "convergence_summary": {
-    "analysis_timestamp": "2026-04-06T09:05:46.703164+00:00",
-    "total_runs_analyzed": 81,
+    "analysis_timestamp": "2026-04-07T08:56:48.605847+00:00",
+    "total_runs_analyzed": 83,
     "window_days": 7,
-    "total_convergence_events": 32,
-    "friction_compliance_pairs": 31,
+    "total_convergence_events": 34,
+    "friction_compliance_pairs": 33,
     "recent_events": [
+      {
+        "date": "2026-04-07",
+        "active_node_count": 7,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Maxwell moved to minimum-security Texas facility after DOJ Deputy AG Todd Blanche interview, while House Resolution 119-635 formally opposes clemency, April 1-2 2026"
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Trump vows more aggressive Iran strikes after failed ceasefire speculation while Hegseth fires Army Chief George amid ongoing war, April 2-3 2026"
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "SpaceX holds talks with Saudi PIF for $5 billion anchor investment in record $75 billion IPO targeting June 2026 launch, April 2 2026"
+          },
+          {
+            "node_id": "israel",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Israel expands Lebanon ground operations while Iran claims downing second US F-35 fighter jet amid Day 27-34 of US-Israel joint war on Iran, April 2-3 2026"
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle stock plunges 57% amid $10B AI spending push, 30,000 layoffs including 12,000 in India, and financial stress concerns over $300B OpenAI backlog dependency"
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ released 3.5 million Epstein documents on January 30, 2026 with new Trump allegations; House Oversight continues pressure on DOJ compliance while Prince Andrew arrested based on file revelations"
+          },
+          {
+            "node_id": "arkansas_datacenter",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while UAPB launches AI center April 2, 2026"
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
+      {
+        "date": "2026-04-06",
+        "active_node_count": 7,
+        "nodes": [
+          {
+            "node_id": "maxwell",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Maxwell moved to minimum-security Texas facility after DOJ Deputy AG Todd Blanche interview, while House Resolution 119-635 formally opposes clemency, April 1-2 2026"
+          },
+          {
+            "node_id": "iran",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Trump vows more aggressive Iran strikes after failed ceasefire speculation while Hegseth fires Army Chief George amid ongoing war, April 2-3 2026"
+          },
+          {
+            "node_id": "gulf_swf",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "SpaceX holds talks with Saudi PIF for $5 billion anchor investment in record $75 billion IPO targeting June 2026 launch, April 2 2026"
+          },
+          {
+            "node_id": "israel",
+            "status": "CRITICAL",
+            "classification": "ESCALATION",
+            "headline": "Israel expands Lebanon ground operations while Iran claims downing second US F-35 fighter jet amid Day 27-34 of US-Israel joint war on Iran, April 2-3 2026"
+          },
+          {
+            "node_id": "oracle_ellison",
+            "status": "CRITICAL",
+            "classification": "COMPLIANCE",
+            "headline": "Oracle stock plunges 57% amid $10B AI spending push, 30,000 layoffs including 12,000 in India, and financial stress concerns over $300B OpenAI backlog dependency"
+          },
+          {
+            "node_id": "epstein_files",
+            "status": "ACTIVE",
+            "classification": "FRICTION",
+            "headline": "DOJ released 3.5 million Epstein documents on January 30, 2026 with new Trump allegations; House Oversight continues pressure on DOJ compliance while Prince Andrew arrested based on file revelations"
+          },
+          {
+            "node_id": "arkansas_datacenter",
+            "status": "ACTIVE",
+            "classification": "COMPLIANCE",
+            "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while UAPB launches AI center April 2, 2026"
+          }
+        ],
+        "has_friction_compliance_pair": true
+      },
       {
         "date": "2026-04-06",
         "active_node_count": 7,
@@ -1002,104 +1100,6 @@
             "status": "ACTIVE",
             "classification": "COMPLIANCE",
             "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Meta funds 7 gas plants for Louisiana facility creating thousands of construction jobs 2026-2031"
-          }
-        ],
-        "has_friction_compliance_pair": true
-      },
-      {
-        "date": "2026-04-02",
-        "active_node_count": 7,
-        "nodes": [
-          {
-            "node_id": "maxwell",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "Maxwell lawyers offer full testimony deal for clemency while House Resolution 119-635 formally opposes any pardon, April 1-2 2026"
-          },
-          {
-            "node_id": "iran",
-            "status": "CRITICAL",
-            "classification": "ESCALATION",
-            "headline": "Trump vows aggressive Iran strikes over next 2-3 weeks while claiming core war objectives near completion, April 1-2 2026, as Strait of Hormuz closure sends oil over $100/barrel"
-          },
-          {
-            "node_id": "gulf_swf",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Saudi PIF unveils new five-year strategy with 15% capital spending cut and private sector pivot while Mubadala exits CoolIT Systems for $4.75B, March 26-27 2026"
-          },
-          {
-            "node_id": "israel",
-            "status": "CRITICAL",
-            "classification": "ESCALATION",
-            "headline": "Israel conducts extensive strikes on Tehran and southern Lebanon while US evacuates Americans from Iraq amid escalating Iran-backed militia threats, April 1-2 2026"
-          },
-          {
-            "node_id": "oracle_ellison",
-            "status": "CRITICAL",
-            "classification": "COMPLIANCE",
-            "headline": "Oracle stock plunges 57% amid $10B AI spending as company lays off 30,000 workers globally including 12,000 in India, April 1-2 2026"
-          },
-          {
-            "node_id": "epstein_files",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "House Oversight subpoena of AG Pam Bondi remains active despite her resignation, with Rep. Nancy Mace stating April 1 that subpoena 'still stands' by name not title"
-          },
-          {
-            "node_id": "arkansas_datacenter",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "UAPB launches AI and Data Center initiative April 2, 2026 while Google's Little Rock facility details emerge showing 1.43M sq ft across 5 buildings"
-          }
-        ],
-        "has_friction_compliance_pair": true
-      },
-      {
-        "date": "2026-04-01",
-        "active_node_count": 7,
-        "nodes": [
-          {
-            "node_id": "maxwell",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "Rep. Krishnamoorthi introduces House Resolution 119-635 opposing Maxwell clemency while new Epstein evidence reveals missing diamonds and hard drives from 2019 FBI raid"
-          },
-          {
-            "node_id": "iran",
-            "status": "CRITICAL",
-            "classification": "ESCALATION",
-            "headline": "Trump claims US could end Iran war in 2-3 weeks while Iran denies direct negotiations despite backchannel activity, as China-Pakistan present 5-point ceasefire plan on March 31, 2026"
-          },
-          {
-            "node_id": "gulf_swf",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Saudi PIF unveils new five-year strategy cutting capital spending 15% while planning 8 IPOs for 2026, announced March 27-28, 2026"
-          },
-          {
-            "node_id": "israel",
-            "status": "ACTIVE",
-            "classification": "ESCALATION",
-            "headline": "Israel Defense Minister announces permanent occupation of southern Lebanon buffer zone while IDF strikes senior Hezbollah commanders in Beirut on March 31, 2026"
-          },
-          {
-            "node_id": "oracle_ellison",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Oracle stock down 27% YTD amid AI competition concerns while analysts maintain mixed ratings with $200-262 price targets, March 31 2026"
-          },
-          {
-            "node_id": "epstein_files",
-            "status": "ACTIVE",
-            "classification": "FRICTION",
-            "headline": "DOJ releases additional Epstein documents March 30, 2026 while victims file class action lawsuit against DOJ and Google over privacy violations in document releases"
-          },
-          {
-            "node_id": "arkansas_datacenter",
-            "status": "ACTIVE",
-            "classification": "COMPLIANCE",
-            "headline": "Google's $1B Little Rock data center detailed at 1.43M sq ft across 5 buildings while Entergy announces $5B customer savings from data center agreements, March 2026"
           }
         ],
         "has_friction_compliance_pair": true
