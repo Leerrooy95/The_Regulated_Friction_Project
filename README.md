@@ -1,12 +1,10 @@
-# The Regulated Friction Project v12.2
+# The Regulated Friction Project v12.3
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
 | | |
 |---|---|
-| **🔴 Live Dashboard** | **[regulatedfriction.me](https://regulatedfriction.me/)** — 8-tab intelligence dashboard with live pipeline data |
-| **🤖 AI Assistant on Dashboard** | Gradient AI chatbot at [regulatedfriction.me](https://regulatedfriction.me/) with embedded `_AI_CONTEXT_INDEX` knowledge base |
-| **🏛️ Arkansas Trackers** | [Arkansas Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) · [Arkansas Dashboard](https://ark.regulatedfriction.me/) — live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
+| **🏛️ Arkansas Tracker** | [Arkansas Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) — live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
@@ -34,9 +32,9 @@ When high-visibility friction events spike (document releases, scandals, media c
 
 ---
 
-## Live Intelligence Pipeline
+## Intelligence Pipeline
 
-The [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) repository runs a 6-stage automated pipeline twice daily (08:00 & 20:00 UTC) via GitHub Actions, monitoring all active leverage nodes and producing real-time intelligence. Results are published to the public dashboard at **[regulatedfriction.me](https://regulatedfriction.me/)**.
+The [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) repository runs a 6-stage automated pipeline via GitHub Actions, monitoring all active leverage nodes and producing real-time intelligence. Pipeline outputs are synced to this repository's `output/` directory.
 
 | Stage | Tool | Output |
 |-------|------|--------|
@@ -46,8 +44,6 @@ The [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) repository runs
 | 4. Daily Intelligence | Perplexity sonar-pro | `daily_intelligence.json` — signal tracking & breaking news |
 | 5. Fact Checker | Anthropic Claude | `fact_check.json` — claim verification & correction |
 | 6. Rhetoric vs. Reality | Anthropic Claude | `rhetoric_reality.json` — three-column gap analysis with statute citations |
-
-The dashboard at [regulatedfriction.me](https://regulatedfriction.me/) features 8 tabs: **Node Status**, **Intelligence**, **Convergence**, **Predictions**, **Entities**, **Charts**, **Rhetoric vs. Reality**, and **History** — with Chart.js visualizations (Thermostat Timeline, Dual-Track Stacked Area, Node Activation Heatmap) that accumulate data over time. A **Gradient AI chatbot** with the `_AI_CONTEXT_INDEX` knowledge base is available on the dashboard for interactive queries.
 
 ---
 
@@ -156,7 +152,19 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v12.2) — Tucker Carlson Four-Step Cycle Formalization — April 5, 2026
+## What's New (v12.3) — April 5-7 Iran Ceasefire Events — April 8, 2026
+
+Integrates the April 5-7 Iran war escalation-to-ceasefire sequence, all web-verified. Dashboard links removed (live dashboards closed to save API costs).
+
+- **Trump Easter post (April 5)**: On Easter Sunday, Trump posted on Truth Social threatening Iran: "Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran... Open the Fuckin' Strait, you crazy bastards, or you'll be living in Hell — JUST WATCH! Praise be to Allah." International condemnation followed — ICRC President Spoljaric urged parties to "spare civilians and civilian objects"; 100+ US legal experts signed statement calling targeting energy infrastructure "could entail war crimes"; CNN's Fareed Zakaria called it "certainly on plain reading a violation of the Geneva Convention." Tucker Carlson called the post "vile on every level" for mocking Islam on Easter Sunday.
+- **Trump sets 8 PM ET deadline (April 6)**: At White House press conference, Trump gave Iran until 8 PM ET Tuesday (April 7) to agree to a deal and reopen the Strait of Hormuz — or face destruction of all power plants, bridges, oil wells, and "possibly all desalinization plants." This was the latest in a series of delayed deadlines originally set ~March 23.
+- **"A whole civilization will die tonight" (April 7, 8:06 AM)**: Trump posted on Truth Social: "A whole civilization will die tonight, never to be brought back again. I don't want that to happen, but it probably will. However, now that we have Complete and Total Regime Change, where different, smarter, and less radicalized minds prevail, maybe something revolutionarily wonderful can happen, WHO KNOWS? We will find out tonight, one of the most important moments in the long and complex history of the World. 47 years of extortion, corruption, and death, will finally end. God Bless the Great People of Iran!"
+- **Two-week ceasefire (April 7, ~6:30 PM ET)**: Less than two hours before his 8 PM deadline, Trump announced a two-week ceasefire. Pakistan's PM Sharif and military chief brokered the deal. Key terms: Iran to reopen the Strait of Hormuz; Iran's 10-point proposal accepted as "workable basis on which to negotiate"; Islamabad talks invited for April 10. Trump claimed "total and complete victory." Iran's Supreme National Security Council claimed "enduring defeat" for the US. Supreme Leader Mojtaba Khamenei ordered ceasefire ~8:30 PM ET. Oil plunged 17-18% (WTI to $92, Brent to $91); Dow surged +1,374 points (+2.95%); Nikkei +5.39%; Kospi +6.87%.
+- **Carlson–Trump break deepens**: Tucker Carlson delivered harshest criticism of Trump to date — suggested Trump might be the antichrist, warned about nuclear codes, called destroying civilian infrastructure "a war crime, a moral crime." Alex Jones floated 25th Amendment same day. Trump responded: Carlson is "a low-IQ person." Extends the four-step cycle documented in v12.2 — Carlson's targets remain non-actionable (religious/civilizational framing) while domestic financial architecture remains unmentioned.
+- **Dashboard removal**: Live dashboards at regulatedfriction.me and ark.regulatedfriction.me closed to save API costs. Pipeline outputs continue to sync to `output/` via GitHub Actions.
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`CONTEXT_ROUTER.md`](_AI_CONTEXT_INDEX/CONTEXT_ROUTER.md), [`00_START_HERE.md`](_AI_CONTEXT_INDEX/00_START_HERE.md), [`README.md`](README.md), [`Report.md`](Report.md).
+
+### Previous (v12.2) — Tucker Carlson Four-Step Cycle Formalization — April 5, 2026
 
 Adds the nuance missing from v12.1: the redirect is not a static two-mode model — it is a **repeating four-step cycle** that has never been a one-off.
 
@@ -227,7 +235,7 @@ Integrates four streams of April 1–3, 2026 developments, all web-verified befo
 
 ### Previous (v10.1–v10.7) — Pipeline, Verification, Infrastructure — February–March 15, 2026
 
-- Live Trackers v2.1 pipeline (6-stage, 8-tab dashboard at [regulatedfriction.me](https://regulatedfriction.me/)).
+- Live Trackers v2.1 pipeline (6-stage intelligence pipeline).
 - Nodes 8–9 added (Oracle Financial Stress, Arkansas State-Level Preemption).
 - Leverage Thesis (`11_LEVERAGE_THESIS.md`), Report.md rewritten, 7-day median lag corrected, robustness audit, source decontamination.
 
@@ -319,7 +327,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 | Repository | Focus |
 |------------|-------|
-| [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — powers the public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) with 8 tabs, Chart.js visualizations, and Gradient AI chatbot |
+| [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — outputs synced to `output/` directory |
 | [Arkansas_Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) | Live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | [Crypto COI Tracker](https://signalwebdevelopment.github.io/) | Automated live tracking of cryptocurrency conflicts of interest |
 | [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
@@ -336,7 +344,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 5, 2026 (v12.0)
+**Last updated**: April 8, 2026 (v12.3)
 
 ---
 
