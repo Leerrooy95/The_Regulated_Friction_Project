@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** April 5, 2026
-**Version:** v12.2
+**Last Updated:** April 8, 2026
+**Version:** v12.3
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -175,6 +175,26 @@ On that same day, a Tomahawk cruise missile triple-tapped the Shajareh Tayyebeh 
 
 → **Full analysis**: [`10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md`](10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md)
 
+### April 5-7, 2026: From Civilizational Threat to Two-Week Ceasefire
+
+The 72-hour sequence from Easter Sunday to Tuesday evening represents one of the most dramatic escalation-to-deescalation arcs of the Iran war.
+
+**Easter Sunday (April 5)**: Trump posted on Truth Social: "Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran... Open the Fuckin' Strait, you crazy bastards, or you'll be living in Hell — JUST WATCH! Praise be to Allah." The post drew immediate condemnation — the ICRC President called for parties to "spare civilians"; 100+ US legal experts signed a statement that targeting energy infrastructure "could entail war crimes"; CNN's Fareed Zakaria called it "certainly on plain reading a violation of the Geneva Convention." Tucker Carlson called it "vile on every level" for mocking Islam on Easter Sunday.
+
+**April 6 (White House press conference)**: Trump set an 8 PM ET Tuesday deadline for Iran to agree to a deal and reopen the Strait of Hormuz — or face destruction of all power plants, bridges, oil wells, and "possibly all desalinization plants." When asked about war crimes: "The war crime is allowing Iran to have a nuclear weapon."
+
+**April 7 (8:06 AM)**: Trump posted on Truth Social: "A whole civilization will die tonight, never to be brought back again. I don't want that to happen, but it probably will. However, now that we have Complete and Total Regime Change, where different, smarter, and less radicalized minds prevail, maybe something revolutionarily wonderful can happen, WHO KNOWS? We will find out tonight, one of the most important moments in the long and complex history of the World. 47 years of extortion, corruption, and death, will finally end. God Bless the Great People of Iran!" The "reality TV showman" timing — deadline set for prime-time US viewing hours — is consistent with the attention economy model documented throughout this research.
+
+**April 7 (~6:30 PM ET)**: Less than two hours before his 8 PM deadline, Trump announced a two-week ceasefire on Truth Social. Pakistan's PM Sharif and military chief brokered the deal. Key terms: Iran to reopen the Strait of Hormuz; Iran's 10-point proposal accepted as "workable basis on which to negotiate"; Islamabad talks invited for April 10. Trump claimed "total and complete victory." Iran's Supreme National Security Council claimed "enduring defeat" for the US and asserted its 10-point plan was accepted. Supreme Leader Mojtaba Khamenei ordered ceasefire ~8:30 PM ET. Missile attacks continued across the Gulf and Israel shortly after the announcement before the ceasefire took hold.
+
+**Market reaction**: Oil plunged 17-18% (WTI to $92, Brent to $91 — still ~$25 above pre-war levels); Dow surged +1,374 points (+2.95%); S&P +2.56%; Nikkei +5.39%; Kospi +6.87%. Gas prices $4.16 average (+40% since war began) — expected to take weeks to return to pre-war $3 levels.
+
+**Carlson–Trump break deepens**: Tucker Carlson delivered his harshest criticism to date — suggested Trump might be the antichrist, warned about nuclear codes, called destroying civilian infrastructure "a war crime, a moral crime." Alex Jones floated the 25th Amendment the same day. Trump responded: Carlson is "a low-IQ person." This deepens the four-step cycle formalized in v12.2: Carlson's targets remain non-actionable (religious/civilizational framing) while the domestic financial architecture documented in this repository goes entirely unmentioned.
+
+**Framework significance**: The deadline-to-ceasefire sequence follows the thermostat pattern precisely — escalation produces friction (international condemnation, bipartisan domestic opposition, market panic), and when the friction exceeds the threshold, compliance is achieved (ceasefire), and the system resets. The prime-time deadline and social media announcement format demonstrate the attention economy principles documented in `06_ATTENTION_ECONOMY.md`. The ceasefire was announced in the middle of the April convergence window — the same window that includes the Bondi deposition (April 14), CLARITY Act markup, and FISA/SAVE coupling (April 20).
+
+**Sources**: [CNN legal analysis (April 7)](https://www.cnn.com/2026/04/07/politics/infrastructure-iran-trump-truth-social-legal-analysis), [CNN Day 39 live updates (April 7)](https://www.cnn.com/2026/04/07/world/live-news/iran-war-trump-us-israel), [CNN ceasefire explainer (April 8)](https://www.cnn.com/2026/04/08/middleeast/us-iran-ceasefire-explainer-war-intl-hnk), [CNN Carlson (April 7)](https://www.cnn.com/2026/04/07/politics/tucker-carlson-trump-iran), [CNN markets (April 7-8)](https://www.cnn.com/2026/04/07/markets/us-stocks-oil-trump-iran-ceasefire), [AP News Iran hub](https://apnews.com/hub/iran)
+
 ### SAVE America Act: Election Infrastructure Centralization and the April Convergence (March 2026)
 
 The SAVE America Act (H.R. 7296) — which passed the House 218-213 on February 11, 2026 — evolved from a voter ID bill into a mechanism for centralizing all 50 states' unredacted voter registration data under DHS. The bill requires states to submit complete voter rolls (name, address, DOB, SSN last 4, driver's license number) to DHS for comparison against the SAVE database, with no restrictions on what the federal government does with that data, no sunset provision, no independent audit requirement, and no safeguards against using it for voter purges.
@@ -267,7 +287,7 @@ Key pipeline findings:
 - **Rhetoric vs. Reality (Stage 6)** produces autonomous three-column gap analysis — what was said, what documents show, what Americans pay — with statute citations (EO 14375, 22 U.S.C. § 288, 5 U.S.C. § 7511, War Powers Resolution) for each development
 - **11 claims checked** in the latest fact-check cycle: 1 verified, 2 flagged for internal contradictions, 8 unverifiable (post-training-cutoff events)
 
-The public dashboard at [regulatedfriction.me](https://regulatedfriction.me/) displays all pipeline outputs across 8 tabs (Node Status, Intelligence, Convergence, Predictions, Entities, Charts, Rhetoric vs. Reality, History) with Chart.js visualizations that accumulate data over time. A Gradient AI chatbot with the `_AI_CONTEXT_INDEX` knowledge base provides interactive queries on both live data and research context.
+Pipeline outputs are synced to the repository's `output/` directory via GitHub Actions.
 
 ### Upcoming: April 2026 Convergence Window (Pre-Event Prediction)
 
@@ -1449,4 +1469,4 @@ The data is public. The code is public. The claims are reproducible and sourced.
 
 ---
 
-*This report was last updated April 5, 2026 (v12.0). Planet Labs imagery blackout (April 5) — indefinite satellite imagery blackout over Iran/Middle East at US government request; OSINT/journalism transparency layer severed; Anthropic compliance contrast documented (resistance vs. compliance both commercially rewarded). Three verification upgrades: Barak–Epstein backchannel (⚠️ → ✅, 7+ outlets), SpaceX IPO filing (⚠️ → ✅, confidential SEC filing April 1), Epstein-Putin meeting seeking (⚠️ → ✅, DOJ 5,553 Russia/1,005 Putin mentions). Previous (v11.6, April 1, 2026): Four-thread late-March 2026 integration. Live intelligence pipeline at [regulatedfriction.me](https://regulatedfriction.me/).*
+*This report was last updated April 8, 2026 (v12.3). April 5-7 Iran ceasefire events: Trump Easter post threatening Iran infrastructure; April 6 8 PM ET deadline set; April 7 "A whole civilization will die tonight" post; two-week ceasefire announced ~6:30 PM (Pakistan-brokered, Iran 10-point plan as basis, Strait of Hormuz to reopen, Islamabad talks April 10); Carlson–Trump break deepens (antichrist, nuclear codes warning); oil plunges 17-18%, stocks surge. Dashboard links removed (live dashboards closed). Previous (v12.0, April 5, 2026): Planet Labs blackout, three verification upgrades, Anthropic contrast.*
