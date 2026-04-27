@@ -1,8 +1,8 @@
 # The Regulated Friction Project: Report
 
 **Author:** Austin
-**Last Updated:** April 8, 2026
-**Version:** v12.3
+**Last Updated:** April 26, 2026
+**Version:** v12.4
 **Repository:** [https://github.com/Leerrooy95/The_Regulated_Friction_Project](https://github.com/Leerrooy95/The_Regulated_Friction_Project)
 
 ---
@@ -611,6 +611,8 @@ Analysis of influencer narratives from the Media Firewall ecosystem (Tucker Carl
 > **⚠️ Critical Update (v12.1 — April 5, 2026):** Tucker Carlson and Neil Patel bought out all 1789 Capital investors in June 2025, making TCN financially independent. The three patterns above describe the **Oct 2023 – June 2025 period** when TCN operated within the 1789 Capital orbit. However, the initial assessment that Carlson's post-buyout criticism of Trump on Iran represented the firewall becoming "inactive" was **incorrect** (see v12.1 correction in `02_MEDIA_FIREWALL.md`). Post-buyout, Carlson redirected audience anger toward non-actionable targets (Israel, Zionism) — entities that cannot be subpoenaed, FOIAed, or counter-measured. The domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) remains unmentioned across both periods. The firewall's *flavor* changed; its *function* — protecting domestic financial architecture from scrutiny — did not. Case study: Carlson–Owens interview (August 1, 2025) — when Owens moves toward naming specific accountable individuals, Carlson deflects back to abstract/non-actionable framing.
 >
 > **v12.2 Addition — The Four-Step Cycle:** The redirect is not a static two-mode model. Across six documented instances (Jan 2026 NATO/tariffs, Jan 30 Epstein/Warsh, Feb 8 Super Bowl/West Bank, Feb 27 Fitts/control grid, June 2025 buyout/Iran, Aug 1 Carlson–Owens), Carlson operates through a repeating cycle: **pre-frame → action → redirect → structural silence on financial architecture**. The pre-frame topic changes, the redirect flavor changes, but the structural silence on domestic financial architecture is the constant. Whether this cycle reflects conscious media strategy or a man whose instincts consistently produce the same structural outcome is an open question — and for structural analysis, the distinction is immaterial. See `02_MEDIA_FIREWALL.md` (Four-Step Cycle section).
+>
+> **⚠️ Critical Update (v12.4 — April 26, 2026):** Tucker Carlson publicly apologized (~April 21–22) in a podcast episode with brother Buckley Carlson (former Trump speechwriter) for supporting Trump. Said he is "tormented by it for a long time" and has been "misleading people." Called the Iran war "disgusting and evil." Buckley raised the 25th Amendment; Trump called them "nut jobs" and "troublemakers." This constitutes a fifth documented step in the four-step cycle — full public repudiation. The structural constant continues: domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) remains unmentioned across the entire arc of behavior from January 2025 through April 2026. Sources: [Forbes](https://www.forbes.com/sites/conormurray/2026/04/21/tucker-carlson-apologizes-for-helping-trump-get-elected-says-hes-tormented-by-it/), [Variety](https://variety.com/2026/digital/news/tucker-carlson-apologizes-misleading-donald-trump-tormented-1236727002/), [USA Today](https://www.usatoday.com/story/news/politics/2026/04/22/does-tucker-carlson-still-support-donald-trump-their-fallout-explained/89730321007/).
 
 ### February 2026: The Compliance Window (Feb 1–19)
 
