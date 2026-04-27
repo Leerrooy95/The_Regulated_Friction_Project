@@ -1,4 +1,4 @@
-# The Regulated Friction Project v12.4
+# The Regulated Friction Project v12.5
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -149,7 +149,17 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v12.4) — Iran/Islamabad Stalemate, Carlson Public Break, Dependabot Updates — April 26, 2026
+## What's New (v12.5) — WHCD Shooting → Ballroom Lawsuit Pressure (Textbook Regulated Friction) — April 27, 2026
+
+Documents the April 25–26, 2026 White House Correspondents' Dinner shooting and the immediate DOJ pretext operation to advance the White House ballroom agenda. All web-verified from multiple independent sources.
+
+- **WHCD shooting (April 25, night)**: Suspect Cole Tomas Allen (31, Torrance, CA) charged a Secret Service checkpoint at the Washington Hilton armed with a shotgun, handgun, and multiple knives. Exchanged gunfire with law enforcement. A Secret Service officer was shot at close range but saved by his bulletproof vest (minor injury). Allen was tackled alive, sustaining a knee injury. Trump, Melania, and all attendees evacuated safely. Allen was staying in the hotel and accessed the secured area via an interior stairwell. A manifesto described him as a "friendly federal assassin." Charges filed: using a firearm during a crime of violence and assault on a federal officer with a dangerous weapon. Sources: [NBC Washington](https://www.nbcwashington.com/news/national-international/suspect-white-house-correspondent-dinner-shooting-identified/4096092/), [ABC News](https://abcnews.com/US/suspect-white-house-correspondents-dinner-shooting/story?id=132393780), [TMZ](https://www.tmz.com/2026/04/26/white-house-correspondents-dinner-shooting-suspect-identified/), [Wikipedia](https://en.wikipedia.org/wiki/2026_White_House_Correspondents%27_dinner_shooting)
+- **DOJ ballroom pretext (April 26, within ~12 hours)**: Acting AG Todd Blanche posted on X: *"It's time to build the ballroom."* AAG Brett Shumate's letter gave the National Trust for Historic Preservation — which has sued to block Trump's $400M White House ballroom on the site of the former East Wing — until 9 AM Monday to voluntarily dismiss its lawsuit. If not, DOJ would ask the court to dismiss "in light of last night's extraordinary events," calling the Washington Hilton "demonstrably unsafe" for events with the president "because its size presents extraordinary security challenges for the Secret Service." Trump called the preservation lawsuit "ridiculous." NTHP said it would review the letter with legal counsel. Sources: [PBS NewsHour](https://www.pbs.org/newshour/nation/justice-department-cites-correspondents-dinner-shooting-in-push-to-drop-trump-ballroom-lawsuit), [US News / AP](https://www.usnews.com/news/us/articles/2026-04-26/justice-department-cites-dinner-shooting-to-press-preservationists-to-drop-trump-ballroom-suit), [PolitiFact](https://www.politifact.com/article/2026/apr/26/correspondents-dinner-shooting-trump-ballroom/)
+- **Appeals court pause**: A federal appeals court temporarily paused Judge Richard Leon's March 31 injunction blocking above-grade construction, allowing work to proceed pending the DOJ's legal arguments.
+- **Framework significance — textbook regulated friction**: Friction event (shooting, unplanned) → compliance pressure (DOJ ballroom pretext, <24 hours) → structural advancement (appeals court pause of injunction). Key features: (1) The friction was real and unmanufactured — but the compliance move was pre-loaded; the ballroom litigation was already queued, waiting for a pretext. (2) Lag is near-instantaneous (<24 hours vs. 7-day median) — the pre-loaded nature of the compliance action collapsed the normal lag window. (3) The compliance action advances a pre-existing structural goal (demolition of the East Wing, construction of a secure presidential venue) that had been blocked by the court on March 31. (4) The framing explicitly links the friction event to the compliance outcome: "demonstrably unsafe." This is the mechanism described in the thermostat model — a real crisis being exploited to advance a queued institutional move under cover of urgency. The pattern does not require the crisis to be manufactured; it only requires the compliance infrastructure to be ready.
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`README.md`](README.md), [`Report.md`](Report.md).
+
+### Previous (v12.4) — Iran/Islamabad Stalemate, Carlson Public Break, Dependabot Updates — April 26, 2026
 
 Integrates April 8–26, 2026 developments, all web-verified from multiple independent sources.
 
@@ -354,7 +364,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 26, 2026 (v12.4)
+**Last updated**: April 27, 2026 (v12.5)
 
 ---
 
