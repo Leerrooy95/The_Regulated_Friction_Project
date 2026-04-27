@@ -1,4 +1,4 @@
-# The Regulated Friction Project v12.3
+# The Regulated Friction Project v12.4
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -34,16 +34,13 @@ When high-visibility friction events spike (document releases, scandals, media c
 
 ## Intelligence Pipeline
 
-The [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) repository runs a 6-stage automated pipeline via GitHub Actions, monitoring all active leverage nodes and producing real-time intelligence. Pipeline outputs are synced to this repository's `output/` directory.
+Research is manually curated and web-verified. See `_AI_CONTEXT_INDEX/` for the full structured context used to maintain research continuity and verify claims before committing.
 
-| Stage | Tool | Output |
-|-------|------|--------|
-| 1. Node Tracker | Perplexity sonar-pro | `node_status.json` — live status of all leverage nodes |
-| 2. Entity Extractor | Llama Scout 17B | `extracted_entities.json` — structured entities & relationships |
-| 3. Convergence Detector | Local analysis | `convergence_report.json` — multi-node convergence windows |
-| 4. Daily Intelligence | Perplexity sonar-pro | `daily_intelligence.json` — signal tracking & breaking news |
-| 5. Fact Checker | Anthropic Claude | `fact_check.json` — claim verification & correction |
-| 6. Rhetoric vs. Reality | Anthropic Claude | `rhetoric_reality.json` — three-column gap analysis with statute citations |
+| Verification Tier | Standard |
+|-------------------|----------|
+| ✅ VERIFIED | Multiple independent sources; reproducible |
+| ⚠️ PARTIALLY VERIFIED | Some evidence, gaps remain |
+| 🔍 HYPOTHESIS | Analytical interpretation from pattern observation |
 
 ---
 
@@ -122,9 +119,9 @@ The_Regulated_Friction_Project/
 ├── Project_Trident/              # Independent verification (Opus 4.6 — 16 statistical tests, 80+ docs)
 ├── Run_Correlations_Yourself/    # Reproducibility scripts
 ├── New_Data_2026/                # 2026 datasets
-├── output/                       # Daily data synced from Live_Trackers pipeline
+├── output/                       # Historical pipeline output snapshots
 ├── Archive/                      # Deprecated files (Streamlit dashboard, spider, old workflows)
-└── .github/workflows/            # Single workflow: sync output from Live_Trackers
+└── .github/workflows/            # Sync workflow: Political Translator Reports → DAILY_REPORTS
 ```
 
 ---
@@ -152,7 +149,23 @@ Between 2024 and early 2026, a specific pattern of capital consolidation emerged
 
 ---
 
-## What's New (v12.3) — April 5-7 Iran Ceasefire Events — April 8, 2026
+## What's New (v12.4) — Iran/Islamabad Stalemate, Carlson Public Break, Dependabot Updates — April 26, 2026
+
+Integrates April 8–26, 2026 developments, all web-verified from multiple independent sources.
+
+- **Islamabad talks fail (April 10–12)**: JD Vance led US delegation; 21-hour marathon talks ended without agreement. Main sticking point: US demanded Iran commit never to develop nuclear weapons *or the infrastructure to do so*; Iran rejected as "excessive demands." Key sources: [Al Jazeera](https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan), [TIME](https://time.com/article/2026/04/11/strait-of-hormuz-iran-peace-talks/), [CNBC](https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html), [Telegraph](https://www.telegraph.co.uk/world-news/2026/04/12/jd-vance-iran-war-peace-deal-talks-islamabad-donald-trump/). Vance: "bad news for Iran much more than for the US." Both delegations departed; Strait of Hormuz issue and Lebanon also unresolved.
+- **Bondi no-show + DOJ IG audit (April 14)**: Pam Bondi did not appear for House Oversight deposition; DOJ argued subpoena was in her capacity as AG (fired April 2) and no longer applies. Rep. Garcia threatens contempt. DOJ Inspector General announced formal audit of Epstein file handling. Maxwell pardon speculation growing among Republicans (described as "vile" by some). Sources: [PBS](https://www.pbs.org/newshour/politics/bondi-wont-appear-for-house-deposition-next-week-in-the-epstein-investigation), [The Independent](https://www.independent.co.uk/news/world/americas/us-politics/pam-bondi-epstein-contempt-deposition-hearing-b2957483.html), [Just The News](https://justthenews.com/nation/states/center-square/doj-face-audit-handling-epstein-files-release).
+- **AP-NORC poll (April 16–20)**: Trump overall approval 33% — new second-term low. Economic approval 30%; cost of living approval 25%. RCP aggregate ~39–41%. Sources: [AP](https://www.ap.org/news-highlights/spotlights/2026/trumps-approval-on-economy-falls-in-ap-norc-poll-showing-new-warning-signs-for-president/), [CNBC](https://www.cnbc.com/2026/04/23/trumps-approval-rating-on-economy-and-overall-falls-to-lowest-of-his-two-terms-cnbc-survey-shows.html), [Washington Times](https://www.washingtontimes.com/news/2026/apr/22/trumps-economic-approval-rating-craters-30-poll/).
+- **Trump extends ceasefire indefinitely (April 22)**: Original two-week ceasefire (April 7) expired without new deal. Trump extended indefinitely but maintained naval blockade; cited Iran "collapsing financially." Hours later: gunfire hit 3 container ships in Strait; IRGC seized 2 foreign vessels. JD Vance's planned follow-up trip cancelled. Sources: [France24](https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa), [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-22/trump-extends-iran-ceasefire-blockade-as-peace-talks-stumble), [Politico](https://www.politico.com/news/2026/04/22/iran-war-ceasefire-strait-of-hormuz-00886525), [ABC.net.au](https://www.abc.net.au/news/2026-04-22/iran-war-live-updates-trump-us-extends-ceasefire-iran/106588912).
+- **Tucker Carlson publicly apologizes (April 21–22)**: Podcast episode with brother Buckley Carlson (former Trump speechwriter). Tucker said he is "tormented" by helping Trump get elected and has been "misleading people." Called Iran war "disgusting and evil." Buckley raised 25th Amendment. Trump responded calling them "nut jobs" and "troublemakers." Sources: [Forbes](https://www.forbes.com/sites/conormurray/2026/04/21/tucker-carlson-apologizes-for-helping-trump-get-elected-says-hes-tormented-by-it/), [Variety](https://variety.com/2026/digital/news/tucker-carlson-apologizes-misleading-donald-trump-tormented-1236727002/), [USA Today](https://www.usatoday.com/story/news/politics/2026/04/22/does-tucker-carlson-still-support-donald-trump-their-fallout-explained/89730321007/), [WUSF](https://www.wusf.org/2026-04-24/why-tucker-carlson-is-expressing-remorse-for-supporting-trump). Framework note: fifth documented step in the four-step cycle (v12.2) — full public break from Trump over Iran; domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) still unmentioned across all instances.
+- **SpaceX IPO S-1 imminent**: Public S-1 prospectus expected late April/May 2026; investor roadshow week of June 8; Nasdaq listing shortly after. $75B capital raise target at $1.75T valuation (would surpass Saudi Aramco as largest IPO in history). Starlink $10B+ revenue (2025), projected $20B+ (2026). Musk retains ~79% voting control with ~42% equity (dual-class shares). 30% retail investor allocation (vs. typical 5–10%). Sources: [Economic Times](https://economictimes.indiatimes.com/news/international/us/spacex-ipo-secrets-are-about-to-go-public-and-the-numbers-will-blow-your-mind-heres-when-investors-can-finally-see-elon-musks-real-numbers/articleshow/130493386.cms), [TNW](https://thenextweb.com/news/spacex-ipo-s1-musk-voting-control).
+- **Pipeline removed**: `sync_from_live_trackers.yml` GitHub Actions workflow deleted — Live_Trackers pipeline no longer active.
+- **Dependabot updates applied**: `Run_Correlations_Yourself/requirements.txt` bumped to `pandas>=3.0.2`, `numpy>=2.4.4`, `scipy>=1.17.1`, `statsmodels>=0.14.6` (addresses PRs #170–173; no security advisories).
+- **Files updated**: [`09_CURRENT_THREADS.md`](_AI_CONTEXT_INDEX/09_CURRENT_THREADS.md), [`README.md`](README.md), [`Report.md`](Report.md), [`Run_Correlations_Yourself/requirements.txt`](Run_Correlations_Yourself/requirements.txt).
+
+
+
+### Previous (v12.3) — April 5-7 Iran Ceasefire Events — April 8, 2026
 
 Integrates the April 5-7 Iran war escalation-to-ceasefire sequence, all web-verified. Dashboard links removed (live dashboards closed to save API costs).
 
@@ -327,14 +340,11 @@ This repository documents **correlations, not causation**. All findings derive f
 
 | Repository | Focus |
 |------------|-------|
-| [Live_Trackers](https://github.com/Leerrooy95/Live_Trackers) | 6-stage automated intelligence pipeline (Perplexity → Llama Scout → Convergence → Intelligence → Fact-Check → Rhetoric vs. Reality) — outputs synced to `output/` directory |
 | [Arkansas_Tracker](https://leerrooy95.github.io/Arkansas_Tracker/) | Live tracking of Arkansas energy policy, regulatory decisions, and rhetoric vs. reality gap analysis (PSC dockets, Act 373, Entergy rate actions, ballot initiative restrictions) |
 | [Crypto COI Tracker](https://signalwebdevelopment.github.io/) | Automated live tracking of cryptocurrency conflicts of interest |
 | [OSINT_ChatBot](https://github.com/Leerrooy95/OSINT_ChatBot) | BYOK ChatBot using `_AI_CONTEXT_INDEX` as reference |
 | [Project-Chrysanthemum_Japan-China-AI](https://github.com/Leerrooy95/Project-Chrysanthemum_Japan-China-AI) | Japan-China tech integration |
 | [Sovereign-Capital-Audit](https://github.com/Leerrooy95/Sovereign-Capital-Audit) | Gulf SWF positioning |
-
-> **Note:** The `output/` directory in this repository is synced daily from Live_Trackers via `sync_from_live_trackers.yml`, keeping local copies of pipeline outputs up to date.
 
 > **Note:** DOGE_Global_Effects and BRICS-NDB-LocalCurrency-DiD were removed due to Grok-fabricated data. See [Archive/Retracted_Three_Layer_References.md](Archive/Retracted_Three_Layer_References.md).
 
@@ -344,7 +354,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 8, 2026 (v12.3)
+**Last updated**: April 26, 2026 (v12.4)
 
 ---
 
