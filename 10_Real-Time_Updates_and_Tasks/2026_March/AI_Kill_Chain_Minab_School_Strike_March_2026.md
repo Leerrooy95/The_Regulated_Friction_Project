@@ -111,12 +111,12 @@ Claude was integrated as Maven's LLM reasoning and language layer under a **$200
 | Model | Developer | Role | Status (March 2026) |
 |-------|-----------|------|---------------------|
 | **Claude** | Anthropic | Target identification, intelligence synthesis, battle simulations via Palantir Maven | Being phased out (6-month deadline, Aug 27 expiry). Still operational in classified networks as of March 22. |
-| **GPT-5.4** | OpenAI | "Decision compression" — high-speed targeting for classified network operations | Actively deployed as primary replacement. Announced Feb 27, same day as Anthropic blacklisting. Altman acknowledged deal was "definitely rushed." |
+| **GPT-5.4** | OpenAI | "Decision compression" (analytical characterization — not OpenAI's official designation) — high-speed data synthesis for classified network operations | ✅ Actively deployed as primary replacement. Announced Feb 27, same day as Anthropic blacklisting. Altman acknowledged deal was "definitely rushed." Specific classified military functions not publicly detailed by OpenAI. |
 | **Grok** | xAI | Strategic forecasting and predictive analytics | Cleared for classified settings (Feb 2026). Slated for increased deployment. |
 
 **Underlying platforms**: Palantir AIP/Gotham and Anduril Lattice continue as foundational data-fusion platforms that these reasoning models plug into.
 
-**Sources**: [NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban), [Fortune](https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/), [MIT Technology Review](https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/)
+**Sources**: [NPR](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban), [Fortune](https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/), [MIT Technology Review](https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/), [Decrypt](https://decrypt.co/360148/openai-launches-gpt-5-4-quitgpt-exodus-gains-steam), [Tomorrow Explained](https://tomorrowexplained.com/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-as-openai-releases-gpt-5-4/), [OpenAI DoW agreement](https://openai.com/index/our-agreement-with-the-department-of-war/)
 
 ---
 
@@ -137,7 +137,7 @@ Claude was integrated as Maven's LLM reasoning and language layer under a **$200
 - Second strike hit the prayer room before parents could arrive
 - Third strike hit the school again
 - Tomahawk cruise missile identified by munitions experts — a U.S.-only weapon in this conflict
-- Al Jazeera satellite investigation: strike pattern **bypassed** the Shahid Absalan Specialist Clinic between the school and the IRGC base, then hit the clinic separately after it began treating school victims
+- Al Jazeera Digital Investigations Unit satellite analysis (March 3, 2026): strike pattern **bypassed** the Shahid Absalan Specialist Clinic between the school and the IRGC base, then hit the clinic separately after it began treating school victims. Al Jazeera: "Missiles hit the military base and the school, but bypassed the specialised clinic complex located between the two without touching it. This exclusion cannot be explained as coincidence; it strongly indicates that the executing party was operating with coordinates and maps that distinguished between the complex's different facilities."
 
 ### The Official Explanation
 
@@ -196,9 +196,15 @@ The question: **What happens to that error-catching capability when the entity c
   - Information flow between Anthropic and the operational pipeline may have been disrupted
   - The 6-month phase-out created an environment of institutional uncertainty
 
-### The Al Jazeera Finding
+### The Al Jazeera Finding — ✅ VERIFIED
 
-The most significant data point remains the Al Jazeera satellite investigation finding that the strike pattern **bypassed the Shahid Absalan Specialist Clinic** that sat between the school and the IRGC compound, then hit the clinic separately after it began treating school victims.
+The Al Jazeera Digital Investigations Unit satellite analysis (March 3, 2026) — published as "Al Jazeera investigation: Iran girls' school targeting likely 'deliberate'" — confirms the strike pattern **bypassed the Shahid Absalan Specialist Clinic** that sat between the school and the IRGC compound. Al Jazeera's explicit finding: "Missiles hit the military base and the school, but **bypassed** the specialised clinic complex located between the two without touching it. **This exclusion cannot be explained as coincidence; it strongly indicates that the executing party was operating with coordinates and maps that distinguished between the complex's different facilities.**"
+
+Al Jazeera further articulated the core contradiction: "If the intelligence was up to date enough to spare a clinic that had been open for only one year, how did it fail to identify an elementary school that had been separated from the military complex and had become a clearly defined civilian institution for more than 10 years?"
+
+**Source**: [Al Jazeera Digital Investigations Unit, March 3, 2026](https://www.aljazeera.com/news/2026/3/3/questions-over-minab-girls-school-strike-as-israel-us-deny-involvement)
+
+The clinic was subsequently struck after beginning to treat school victims, confirmed independently by: [HRW (March 7)](https://www.hrw.org/news/2026/03/07/us/israel-investigate-iran-school-attack-as-a-war-crime), [Amnesty International (March 16)](https://www.amnesty.org/en/latest/news/2026/03/usa-iran-those-responsible-for-deadly-and-unlawful-us-strike-on-school-that-killed-over-100-children-must-be-held-accountable/), [NPR/Brumfiel (March 4)](https://www.npr.org/2026/03/04/nx-s1-5735801/satellite-imagery-shows-strike-that-destroyed-iranian-school-was-more-extensive-than-first-reported)
 
 This is inconsistent with "outdated maps" — precision targeting that excludes the clinic but hits the school indicates accurate geospatial awareness of the building layout. The strike knew where the clinic was. The question is why it didn't know the school was a school.
 
@@ -264,14 +270,13 @@ The Anthropic-Pentagon dispute is a live example of the coercion template:
 |----------|-----------|----------------------|-------------------|-------|
 | Timeline events | 22 | 0 | 0 | 22 |
 | Maven/Claude architecture | 8 | 0 | 0 | 8 |
-| Minab school strike | 9 | 1 | 0 | 10 |
+| Minab school strike | 10 | 0 | 0 | 10 |
 | Legal proceedings | 8 | 0 | 0 | 8 |
 | Model transition | 4 | 1 | 0 | 5 |
-| **Total** | **51** | **2** | **0** | **53** |
+| **Total** | **52** | **1** | **0** | **53** |
 
 **Partially verified items:**
-- ⚠️ Al Jazeera "bypassed clinic" finding: reported in earlier session analysis; multiple sources reference the clinic strike but the specific "bypassed" characterization needs re-verification against primary Al Jazeera investigation
-- ⚠️ GPT-5.4 specific "decision compression" role: sourced from Austin's compiled research; OpenAI has not publicly detailed GPT-5.4's specific military functions
+- ⚠️ GPT-5.4 specific military functions: deployment on Pentagon networks confirmed via multiple sources (NPR, Fortune, Decrypt, OpenAI's own DoW agreement); "decision compression" is an analytical characterization — not OpenAI's official designation; specific classified function details are not publicly detailed by OpenAI
 
 ---
 
@@ -282,7 +287,7 @@ The Anthropic-Pentagon dispute is a live example of the coercion template:
 3. **Congressional response**: 120+ members asked for answers by March 20. As of March 22, Pentagon has only said "under investigation." Will Congress escalate?
 4. **Automation bias during transition**: As OpenAI's GPT-5.4 replaces Claude in classified networks, does targeting accuracy change? (Not publicly measurable, but civilian casualty tracking serves as a proxy.)
 5. **Tucker Carlson's intelligence pipeline question**: Carlson argues Israeli SIGINT processing may have introduced targeting corruption. The AI kill chain question is separate but parallel — both point to the same structural vulnerability: who controls the data that flows into targeting decisions.
-6. **Al Jazeera investigation follow-up**: The clinic bypass finding is the strongest indicator that precision was maintained for some structures but not the school. Full primary source investigation needed.
+6. **Al Jazeera investigation — RESOLVED**: The clinic bypass finding is ✅ VERIFIED via Al Jazeera Digital Investigations Unit (March 3, 2026). The precision targeting of the clinic (struck after treating victims) vs. school (struck in initial wave) is documented with satellite imagery. The fundamental contradiction Al Jazeera identified remains open as a policy question: how was intelligence current enough to spare a clinic open for one year but not to identify a school separate from the compound for ten years?
 
 ---
 
