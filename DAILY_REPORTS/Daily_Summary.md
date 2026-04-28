@@ -1,354 +1,321 @@
-# 🔍 Political Translator — Daily Context Summary
+# 🔍 Political Translator — Daily Briefing
 
-**Date:** April 27, 2026
-**Generated:** 10:08 UTC
-**Source:** _AI_CONTEXT_INDEX (32 files, hash 3a7959a8417c6f83)
-
----
-
-> ⚠️ **Note:** This summary is generated automatically by a single AI pass
-> over the research knowledge base.  It preserves all facts and numbers from
-> the source material but presents them in plain language.  Always refer to
-> the original files for full context and citations.
+**Date:** April 28, 2026
+**Generated:** 00:22 UTC
+**Source:** _AI_CONTEXT_INDEX (32 files, hash 29b2e2e11e57a885)
 
 ---
 
-# The Regulated Friction Project: Plain-Language Summary
-
-**As of April 27, 2026 | Repository Version 12.5**
-
----
-
-## 1. Overview
-
-This research project tracks a measurable pattern. High-visibility "friction" events — scandals, document releases, media crises — tend to cluster near major policy and financial changes. The project uses statistics, open-source data, and live tracking to document this pattern. It does **not** claim anyone is coordinating these events. It documents that the pattern exists and is statistically significant.
+> ⚠️ **Note:** This briefing is generated automatically by a single AI
+> pass over the `_AI_CONTEXT_INDEX/` knowledge base.  It focuses on
+> recent dated developments and active research threads.  All facts and
+> numbers are preserved from the source material; the framework theory
+> and statistical correlations are summarised only briefly at the end.
+> Always refer to the original files for full context and citations.
 
 ---
 
-## 2. Core Findings
-
-| Finding | Number | Status |
-|---|---|---|
-| Friction → compliance correlation (2-week lag) | r = +0.6196 | ✅ Verified |
-| Chance this is random | p = 0.0004 (less than 0.05%) | ✅ Verified |
-| Sample size | 28 paired observations | ✅ Verified |
-| Actual median lag between events | 7 days | ✅ Verified (66-pair backfill) |
-| Ritual/calendar → policy proximity | 50.7% vs. 19.9% baseline | ✅ Verified |
-| Independent stress tests passed | 16 of 16 | ✅ Verified |
-| Permutation test result | p < 0.0001 | ✅ Verified |
-| Granger causality (friction predicts compliance) | p = 0.0008 | ✅ Verified |
-| Events 20–42× above baseline on friction dates | Event-study result | ✅ Verified |
-
-**What these numbers mean in plain English:** When a big scandal or document release happens, major policy or financial moves tend to follow within about 7 days. This happens far more often than chance would predict. An AI system (Claude Opus 4.6) independently ran 16 tests and confirmed the pattern every time.
-
-**Important note:** The original three-layer model had Layers 2 and 3 retracted. An AI tool (Grok) fabricated statistics used in those layers. Layer 1 — the r = 0.6196 correlation — remains valid and reproducible.
+# Regulated Friction Project — Intelligence Briefing
+**As of: April 28, 2026 | Version 12.4**
 
 ---
 
-## 3. Key Topics
+## 1. Latest Developments (Last 30 Days)
 
-### A. The Thermostat Model (Core Theory)
-
-**What it is:** The project uses a "thermostat" metaphor. High-visibility events (friction) act like a thermostat — they regulate public attention. While attention is focused on a scandal, structural changes (policy shifts, financial deals) happen with less scrutiny.
-
-**Key facts:**
-- Friction events and compliance events cluster on shared "calendar anchors" — holidays, fiscal deadlines, solstices
-- The lag between friction and compliance is 7 days (median), measured at calendar-day resolution
-- At 5-week lag, the correlation reverses to r = −0.6064 — suggesting a roughly 10-week oscillation cycle
-- The pattern is described as **emergent** — multiple actors responding to the same signals, not necessarily coordinating
-
-**December 22, 2025 case study:** Five different signal types converged on a single day between Christmas and the winter solstice:
-1. Epstein file redaction failures (friction)
-2. China-EU dairy tariffs of 42.7% (geopolitics)
-3. BlackRock Bitcoin ETF announcement (financial)
-4. Travel ban expansion and DOGE analysis (policy)
-5. CRINK cyber threat analysis (intelligence)
-
-These events did not cause each other. They clustered because December 22 is a predictable low-attention window.
+*Newest first. All dates from `09_CURRENT_THREADS.md` unless noted.*
 
 ---
 
-### B. Capital Flows (Gulf Sovereign Wealth Funds)
+- **Apr 26, 2026** — DOJ leverages WHCD shooting to pressure White House ballroom lawsuit dismissal. Acting AG Todd Blanche posts "It's time to build the ballroom" on X within hours of the shooting. DOJ letter gives National Trust for Historic Preservation until 9 AM Monday to drop its lawsuit or face court dismissal. Federal appeals court temporarily pauses Judge Leon's March 31 injunction. Above-ground construction may now proceed. (09_CURRENT_THREADS.md — Node 11 / March-April Events table)
 
-**What it is:** A small group of entities — Oracle, Silver Lake, Saudi Arabia's Public Investment Fund (PIF), and UAE's MGX — appear repeatedly across major US technology and infrastructure deals.
+- **Apr 25, 2026 (night)** — WHCD shooting at Washington Hilton. Cole Tomas Allen (31, Torrance, CA) charged a Secret Service checkpoint armed with a shotgun, handgun, and knives. One Secret Service officer shot but saved by bulletproof vest. Allen taken alive. Trump and all attendees evacuated safely. No fatalities. (09_CURRENT_THREADS.md — March/April Events table)
 
-**Key facts:**
-- Saudi PIF owns **93.4%** of Electronic Arts (EA) in a **$55 billion** deal
-- Oracle, Silver Lake, and MGX each own **15%** of TikTok US (deal closed January 22, 2026; total value ~$14 billion)
-- Stargate AI infrastructure: **$500 billion** commitment over 4 years; UAE MGX is an equity partner
-- UAE's Mubadala controls **81.5%** of GlobalFoundries, which receives US CHIPS Act subsidies
-- Combined Gulf sovereign wealth fund assets under management: approximately **$4.9 trillion**
-- ⚠️ [Hypothesis] These funds may act as a "thermostat" — regulating friction intensity to protect their infrastructure investments
+- **Apr 22, 2026** — Trump extends Iran ceasefire indefinitely on Truth Social, citing Iran "collapsing financially." Naval blockade of Iranian ports maintained. Within hours: gunfire hit at least 3 container ships in the Strait of Hormuz; IRGC seized 2 foreign vessels. JD Vance's planned follow-up trip to Islamabad cancelled after Iran refused to attend. Pakistani mediators continuing shuttle diplomacy. (09_CURRENT_THREADS.md — Node 2; France24, Bloomberg, Politico)
 
-**Oracle financial stress (March 2026):**
-- Oracle stock fell approximately **55%** from its September 2025 high
-- Total debt approaching **$108 billion**
-- Needs to raise **$45–50 billion** in new debt and equity in 2026
-- Bondholders sued (January 2026) alleging Oracle concealed $38 billion in additional debt
-- Considering **20,000–30,000 layoffs** to generate cash
-- About **58%** of Oracle's contract backlog depends on a single customer: OpenAI
+- **~Apr 23, 2026** — Maxwell pardon debate intensifies. House Oversight Committee Republicans openly discussing a presidential pardon as a way to compel Maxwell's testimony without 5th Amendment protection. Only about 6–8 of 26 Republican members have clearly opposed a pardon. Democrats unanimously oppose, calling it a "massive cover-up." White House has not formally commented. ⚠️ PARTIALLY VERIFIED (09_CURRENT_THREADS.md — Node 5; Atlanta Black Star)
 
-**Arkansas infrastructure:**
-- AVAIO Digital announced a **$6–21 billion** data center campus near Little Rock
-- The investor's identity remains undisclosed despite a multi-billion-dollar commitment
-- State laws (Acts 373 and 548) created special tax exemptions and regulatory pathways for data centers
-- A 754-MW natural gas plant was approved despite the state's own regulators finding the cost "not reasonable"
-- Senator Tom Cotton (R-AR) introduced the DATA Act of 2026, which would exempt certain data centers from federal energy oversight
+- **Apr 21–22, 2026** — Tucker Carlson publicly apologizes for supporting Trump in a podcast with his brother Buckley Carlson (former Trump speechwriter). Said he is "tormented" by helping Trump get elected. Called the Iran war "disgusting and evil." Buckley raised the 25th Amendment. Trump called them "nut jobs" and "troublemakers." Note: Carlson has still never named 1789 Capital, Silver Lake, MGX, or PIF across the entire arc. (09_CURRENT_THREADS.md — Node 10; Forbes, Variety, USA Today)
 
----
+- **Apr 16–20, 2026** — AP-NORC poll: Trump overall approval 33% — new second-term low. Economic approval 30%; cost of living approval 25%. RCP aggregate ~39–41%. Iran war and gas prices ($4.16/gallon, +40% since war start) are primary drivers. Cross-base erosion confirmed: men, working class, independents, African Americans all declining. (09_CURRENT_THREADS.md — Node 11; AP, CNBC)
 
-### C. Media Ecosystem
+- **Apr 14, 2026** — Former AG Pam Bondi did not appear for her House Oversight deposition on Epstein file handling. DOJ argued the subpoena "no longer applies" since Bondi was fired April 2. Rep. Robert Garcia (D-CA) threatened contempt proceedings, arguing the subpoena was "by name, not by title." DOJ Inspector General separately announced a formal audit of Epstein file handling under Bondi. (09_CURRENT_THREADS.md — Node 5; PBS, CBS News, The Independent)
 
-**What it is:** The project documents how certain media platforms are funded and what topics they cover — and don't cover.
+- **Apr 10–12, 2026** — Islamabad peace talks between US and Iran fail after a 21-hour marathon session. JD Vance led the US delegation. Main sticking point: US demanded Iran commit never to develop nuclear weapons or the infrastructure to do so. Iran's Speaker Qalibaf and FM Araghchi called US demands "excessive." Vance: "bad news for Iran much more than for the US." No new talks scheduled. (09_CURRENT_THREADS.md — Node 2; Al Jazeera, TIME, Telegraph)
 
-**Key facts:**
-- 1789 Capital invested **$15 million** in Tucker Carlson's network (TCN) in October 2023
-- Tucker Carlson and co-founder Neil Patel bought out all investors in **June 2025**; TCN is now independent
-- 1789 Capital grew from **$200 million to $2 billion** in assets under management in one year (2025)
-- Trump Jr. joined 1789 Capital as a partner in **November 2024**
-- 1789 Capital and Trump Jr. appeared at the **Future Investment Initiative** in Riyadh (October 2025) pitching to Saudi investors
-- A **$260 million SPAC** (Colombier III) was filed in October 2025 by Malik, Trump Jr., and Chamath Palihapitiya; closed at $299 million
-- Larry Ellison personally guaranteed **$40.4 billion** for the Paramount acquisition of Warner Bros. Discovery (~$111 billion enterprise value); Saudi PIF is listed as an equity investor in Paramount's financing
+- **Apr 7, 2026** — US-Iran two-week ceasefire announced at approximately 6:30 PM ET — less than two hours before Trump's 8 PM deadline. Pakistan brokered the deal. Iran's 10-point proposal accepted as a negotiating basis. Strait of Hormuz to reopen with Iranian military coordination. Islamabad talks invited for April 10. Oil plunged 17–18% (WTI to $92, Brent to $91). Dow surged +1,374 points (+2.95%). (09_CURRENT_THREADS.md — Node 2; CNN, AP)
 
-**The "four-step cycle" (⚠️ Hypothesis):**
-The project documents a repeating pattern in Tucker Carlson's coverage:
-1. **Pre-frame** — Carlson introduces a narrative that softens ground for a coming policy action
-2. **Action** — The administration executes a policy move
-3. **Redirect** — Audience anger is directed toward targets that cannot be subpoenaed or regulated (foreign governments, abstract concepts)
-4. **Structural silence** — Domestic financial entities (1789 Capital, Silver Lake, MGX, PIF) are never named
+- **Apr 7, 2026** — Trump posts "A whole civilization will die tonight" on Truth Social at 8:06 AM ET. Critics warned this could constitute a war crime. House Democratic leaders called on Republicans to return to session and vote to end the war. (09_CURRENT_THREADS.md — Node 2; CNN)
 
-This pattern is documented across six instances from October 2023 to April 2026. Whether it is conscious strategy or instinct is explicitly left unresolved.
+- **Apr 7, 2026** — Tucker Carlson delivers harshest-ever criticism of Trump. Suggested Trump might be the antichrist. Called threatening civilian infrastructure "a war crime, a moral crime." Warned people around Trump to "figure out the codes on the football yourself." Alex Jones floated invoking the 25th Amendment the same day. Trump responded: Carlson is "a low-IQ person." (09_CURRENT_THREADS.md — Node 10; CNN, Mediaite)
 
-**Pentagon press credentialing (March 2026):**
-A federal judge struck down the Pentagon's press credential policy on March 20, 2026. Judge Paul L. Friedman found the policy violated the First and Fifth Amendments. The policy had required journalists to sign agreements not to publish unapproved information, and gave the Pentagon broad power to revoke credentials. Major news organizations refused to sign. MAGA-aligned outlets received front-row seats at Iran war briefings.
+- **Apr 6, 2026** — Trump sets 8 PM ET Tuesday deadline at White House press conference. Iran must agree to a deal and reopen the Strait of Hormuz or face destruction of all power plants, bridges, oil wells, and "possibly all desalinization plants." (09_CURRENT_THREADS.md — Node 2; CNN)
+
+- **Apr 5, 2026 (Easter Sunday)** — Trump posts on Truth Social threatening Iran's power plants and bridges: "Open the Fuckin' Strait, you crazy bastards, or you'll be living in Hell — JUST WATCH! Praise be to Allah." International condemnation. ICRC President Spoljaric urged parties to "spare civilians and civilian objects." 100+ US legal experts signed a statement calling the targeting of energy infrastructure a potential war crime. (09_CURRENT_THREADS.md — Node 2; CNN)
+
+- **Apr 5, 2026** — Planet Labs announces indefinite blackout of all satellite imagery over Iran and Middle East conflict zones at US government request. All new and archived imagery since March 9 withheld. Journalists, human rights investigators, and OSINT analysts lose independent verification capability. Planet Labs stock +17% YTD ($35.88, $12.4B market cap). (09_CURRENT_THREADS.md — Node 15; Al Jazeera, CNBC, SatNews)
+
+- **Apr 3, 2026** — Ty Cobb (Trump White House special counsel 2017–2018) calls Trump "clearly insane" and demands the 25th Amendment on the Jim Acosta Show. Notable as a conservative former administration insider, not a political opponent. (09_CURRENT_THREADS.md — March/April Events table; The Independent)
+
+- **Apr 3, 2026** — Trump approval: UMass/YouGov 33% (second-term low, down from 44% in April 2025). Economist/YouGov 35%. 62% disapprove overall; 71% disapprove of Iran war handling; 64% negative on tariffs. (09_CURRENT_THREADS.md — March/April Events table; UMass Amherst, The Hill)
+
+- **Apr 2, 2026** — NCPC votes 8-1 to approve White House ballroom one day after Judge Leon's injunction. NCPC Chair Will Scharf (White House Staff Secretary, Trump appointee) stated the court order "does not impact our action here today." Security and bunker construction visibly continues. Public Citizen files statutory challenge alleging three commissioners lack required planning expertise. (09_CURRENT_THREADS.md — March/April Events table; CNBC, Politico)
+
+- **Apr 2, 2026** — Trump fires AG Pam Bondi. Todd Blanche (Trump's former personal defense attorney) named acting AG. Bipartisan criticism centered on Epstein file handling. April 14 deposition subpoena before House Oversight remains legally valid. (09_CURRENT_THREADS.md — Node 5; Politico, NBC News, Forbes)
+
+- **Apr 2, 2026** — Hegseth fires Army Chief of Staff Gen. Randy George effective immediately — no modern precedent for senior command removal during active combat operations. Also removed: Gen. David Hodne (Army Transformation and Training Command) and Maj. Gen. William Green Jr. (Chief of Army Chaplain Corps — first chaplain chief firing in US history). Gen. Christopher LaNeve (Hegseth ally) named acting CSA. (09_CURRENT_THREADS.md — Node 2; CBS News, CNBC, Politico)
+
+- **Apr 1, 2026** — SpaceX confidentially files for IPO with the SEC. Public S-1 prospectus expected late April–May 2026. Investor roadshow confirmed for week of June 8. Valuation target $1.75T; capital raise target $75B. Musk retains ~79% voting control with ~42% equity (dual-class shares confirmed). Up to 30% retail investor allocation. (09_CURRENT_THREADS.md — Node 13; CNBC, Economic Times)
 
 ---
 
-### D. Geopolitics: Board of Peace
-
-**What it is:** A new international governance structure created by the Trump administration.
-
-**Key facts:**
-- Charter signed **January 22, 2026** at the World Economic Forum in Davos
-- Trump serves as **chairman for life**; removal requires unanimous Executive Board vote
-- Permanent membership fee: **$1 billion**
-- Inaugural summit (February 19, 2026): approximately 50 countries attended; **$7 billion** pledged from 9 countries
-- Estimated total need: **$70 billion** — meaning only **10%** is funded
-- Executive Board includes Marco Rubio, Steve Witkoff, Jared Kushner, Tony Blair, Ajay Banga (World Bank), and Marc Rowan (Apollo Global Management)
-- Countries that refused to sign include France, Germany, UK, Canada, Norway, Sweden, Italy, Greece, and Slovenia
-- Italy cited its constitution's requirement for equality in international organizations
-- Belgium was initially listed as a signatory; its Deputy Prime Minister publicly denied this
-
-**Security architecture:**
-- Private contractors: UG Solutions (North Carolina-based)
-- State proxy forces: Pakistan (via Saudi-Pakistan Strategic Mutual Defence Agreement, September 2025)
-- Cyber infrastructure: Palo Alto Networks/CyberArk merger + G42/Microsoft/Meta
+## 2. Active Threads
 
 ---
 
-### E. CRINK Framework (China-Russia-Iran-North Korea)
+### Iran War / Ceasefire
 
-**What it is:** An analytical framework for tracking coordination among four adversary nations. The term was established at the 2023 Halifax Security Forum.
+**Status today:** A fragile, indefinitely extended ceasefire is holding as of April 28, but the Strait of Hormuz remains effectively restricted, Islamabad talks have collapsed, and no new negotiations are scheduled.
 
-**Key facts:**
-- CRINK is **not a formal alliance** — it is a shared-interest network
-- Turkish intelligence publicly validated the "flexible security ecosystem" characterization (February 27, 2026)
-- China's Belt and Road Initiative engagement reached **$124 billion** in the first half of 2025 — nearly matching all of 2024
-- Africa BRI construction grew **+395%** from the first half of 2024
-- This surge coincided with USAID being dissolved (July 1, 2025) and 83% of USAID programs being cancelled
+**What changed recently:**
+- **Apr 22:** Trump extended the ceasefire indefinitely. Within hours, gunfire hit 3 container ships and IRGC seized 2 foreign vessels in the Strait. Vance's follow-up trip to Islamabad was cancelled after Iran refused to attend a second round.
+- **Apr 10–12:** 21-hour Islamabad talks failed. Nuclear non-development commitment was the main sticking point. Vance left a "final and best offer" on the table. Both delegations departed with no new talks scheduled.
+- **Apr 7:** Ceasefire announced less than 2 hours before Trump's 8 PM deadline. Pakistan brokered the deal. Oil fell 17–18%; Dow surged +1,374 points.
+- **Mar 23:** Trump delayed further strikes for 5 days as Oman-brokered ceasefire talks began. Witkoff revealed a 15-point peace framework delivered via Pakistani mediators.
 
-**Iran war (February 28 – ongoing):**
-- US and Israel launched Operation Epic Fury on February 28, 2026
-- Iran retaliated under Operation Fateh Khyber, striking UAE, Saudi Arabia, Qatar, Bahrain, and Kuwait
-- Supreme Leader Khamenei was killed; confirmed by Iranian state TV on March 1, 2026
-- 6 US soldiers were killed in a drone attack at Port Shuaiba, Kuwait (March 2, 2026)
-- Iran declared the Strait of Hormuz closed; insurance-driven shipping shutdown followed
-- Oil prices rose approximately **20%** to ~$80/barrel initially, then to **$90–93/barrel** (+35–40%) by March 7
-- Approximately **3,200 vessels** were idled in the Gulf region; insurance premiums surged **1,000%+**
-- A US submarine torpedoed the Iranian naval frigate Dena — the first torpedo sinking since World War II
-- A girls' school in Minab, Iran was struck, killing **175 people** (majority children ages 7–12); attributed to "outdated targeting data"
-- North Korea fired **10 ballistic missiles** toward the Sea of Japan on March 14, 2026 during US-South Korea military exercises
-- China surged **26 PLA aircraft and 7 naval vessels** near Taiwan on March 15, 2026
-
-**Ceasefire (April 7, 2026):**
-- Pakistan brokered a two-week ceasefire announced approximately 90 minutes before Trump's 8 PM deadline
-- Iran's 10-point proposal was accepted as a negotiating basis
-- Oil prices fell **17–18%**; the Dow surged **+1,374 points (+2.95%)**
-- Islamabad peace talks (April 10–12) failed after 21 hours; main sticking point was Iran's nuclear program
-- Trump extended the ceasefire indefinitely on April 22; Strait incidents continued
-
-**CRINK rift:**
-Multiple analyses confirmed that China, Russia, and North Korea provided **no direct military assistance** to Iran despite public condemnation. This validates the "flexible security ecosystem" characterization — CRINK members make independent risk calculations rather than acting as a mutual defense alliance.
-
-**Cuba crisis:**
-- US capture of Maduro (January 3, 2026) cut Venezuelan oil to Cuba
-- Cuba experienced three island-wide blackouts; the third (March 16) lasted 29 hours and affected all 11 million people
-- Russia delivered approximately **730,000 barrels** of crude oil to Cuba on March 30, 2026; Trump allowed it on "humanitarian grounds"
-- China shipped **60,000 tons of rice** to Cuba in parallel — a documented case of CRINK members providing complementary aid simultaneously
+**What to watch next:**
+- Whether Pakistan's shuttle diplomacy produces a third round of talks.
+- Strait of Hormuz shipping incidents — any escalation could restart kinetic operations.
+- Iran's internal division between hardliners and dialogue advocates.
+- ⚠️ [Inference consistent with thermostat model]: Both sides are maintaining economic pressure rather than resuming kinetic operations. The 18-day ceasefire interval is consistent with the 7-day median lag pattern documented in the framework.
 
 ---
 
-### F. Legislation and Election Infrastructure
+### Ghislaine Maxwell / Epstein Network
 
-**Key facts:**
-- The SAVE America Act (H.R. 7296) passed the House **218–213** on February 11, 2026
-- It would require all 50 states to hand unredacted voter rolls to DHS with no data use restrictions
-- The DHS SAVE database has a documented error rate **above 50%** in at least one county (Boone County, Missouri) for flagging citizens as noncitizens
-- House conservatives threatened to attach SAVE to FISA Section 702 reauthorization (which expired April 20, 2026)
-- The CLARITY Act (crypto market structure) advanced through the Senate Agriculture Committee **12–11** on January 29, 2026; Senate Banking Committee markup was targeted for April 13–27
-- USD1 stablecoin (Trump family's World Liberty Financial) had approximately **$4.59 billion** in market cap; UAE's MGX settled a **$2 billion** Binance investment in USD1
-- The Supreme Court struck down IEEPA tariff authority **6–3** on February 20, 2026; the administration pivoted to Section 122 of the Trade Act of 1974, which expires **July 24, 2026**
+**Status today:** Maxwell remains incarcerated at FPC Bryan, Texas. Her pardon is under active debate among House Republicans. The DOJ IG audit of Epstein file handling is underway. Bondi's deposition was blocked.
 
----
+**What changed recently:**
+- **~Apr 23:** House Oversight Republicans openly debating a presidential pardon for Maxwell as a mechanism to compel testimony. Only ~6–8 of 26 GOP members have clearly opposed it. Democrats unanimously oppose.
+- **Apr 14:** Bondi did not appear for her deposition. DOJ argued the subpoena no longer applies. Rep. Garcia threatened contempt. DOJ IG announced a formal audit of Epstein file handling.
+- **Apr 2:** Bondi fired as AG. Todd Blanche (Trump's former personal defense attorney) named acting AG.
+- **Mar 30:** House Oversight Chairman Comer (R-KY) publicly admitted the DOJ "botched" the Epstein file release — a significant concession from a Republican ally of the administration.
 
-### G. Epstein Files and Accountability
-
-**Key facts:**
-- The DOJ released approximately **3.5 million pages** under the Epstein Files Transparency Act (signed November 2025)
-- About **3 million pages** were withheld for privacy, privilege, or CSAM reasons
-- Sultan bin Sulayem (DP World CEO) was mentioned **4,700+ times** in DOJ files; he resigned February 13, 2026
-- Epstein invested **$3 million** in Coinbase (2014), made indirect investments in Blockstream, and donated **$525,000** to MIT's Digital Currency Initiative — all verified in DOJ documents
-- The claim that Epstein was Satoshi Nakamoto (Bitcoin's creator) has been **debunked**
-- Three FBI interview summaries containing allegations against Trump were initially withheld; DOJ released them after NPR investigation (March 5, 2026)
-- Bank of America agreed to a **$72.5 million** settlement with Epstein survivors (March 27, 2026) — the third major bank settlement after JPMorgan ($290 million) and Deutsche Bank ($75 million); cumulative bank settlements now exceed **$437 million**
-- Former FBI Director Robert Mueller died March 21, 2026 (age 81); he had been subpoenaed for Epstein testimony; that testimony is now permanently inaccessible
-- AG Pam Bondi was fired April 2, 2026; she did not appear for her April 14 House Oversight deposition; DOJ Inspector General announced a formal audit of Epstein file handling
-- House Oversight Chairman James Comer (Republican) publicly stated the DOJ "botched" the Epstein file release (March 30, 2026)
-- ⚠️ Republicans on House Oversight were openly discussing a presidential pardon for Ghislaine Maxwell as a mechanism to compel her testimony (~April 23, 2026)
-- New Mexico reopened its criminal investigation of Zorro Ranch (February 19, 2026); state investigators began a physical search of the property (~March 17, 2026) — the first documented law enforcement search of the ranch
-- The NM investigation had been closed at federal request in 2019 and remained closed for **7 years**
+**What to watch next:**
+- Whether the House Oversight Committee pursues contempt proceedings against Bondi.
+- Whether Trump formally acts on Maxwell pardon discussions.
+- DOJ IG audit findings on Epstein file handling under Bondi.
+- Acting AG Blanche's compliance with congressional document requests.
 
 ---
 
-### H. Attention Economy and Officials
+### Gulf Sovereign Wealth Funds (Capital Leverage)
 
-**What it is:** The project tracks how high-visibility officials generate media coverage ("noise quotas") and how that coverage correlates with institutional changes happening at the same time.
+**Status today:** Gulf SWFs (~$4.9T combined AUM) remain active in US infrastructure, but the Iran war and Strait of Hormuz restrictions are creating sustained stress on their capital architecture.
 
-**Key facts:**
-- Trump's first-term "A-Team" had **85% turnover** — the highest in modern presidential history (Brookings Institution)
-- Trump had **5 DHS secretaries** in his first term
-- Kristi Noem was fired March 5, 2026; Sen. Markwayne Mullin (R-OK) was nominated as replacement
-- Mullin publicly admitted blocking an Epstein file release resolution to "give Trump cover"
-- The Bondi hearing (February 11, 2026) coincided with **17 compliance events** — **467% above baseline** — in the surrounding 7-day window
-- Pete Hegseth's "Department of War" rebrand was estimated to cost **$2 billion** and consumed 15–20 days of news cycles in Q4 2025
-- Kristi Noem's DHS ad campaign had a **$220 million** budget
-- Q4 2025 total attention saturation from high-visibility officials: estimated **43–59 days** of cumulative news cycles
-- Trump's approval rating fell to **33%** (UMass/YouGov, April 3, 2026) — a second-term low, down from 44% in April 2025; **71%** disapproved of his Iran war handling
+**What changed recently:**
+- **Apr 22 (ongoing):** Strait of Hormuz effectively restricted. Gunfire on container ships and IRGC vessel seizures continue despite ceasefire extension.
+- **Mar 6:** UAE intercepted 109 drones and 9 ballistic missiles in a single day. Dubai's Jebel Ali port was struck. Oil/gas infrastructure in UAE, Saudi Arabia, and Qatar was hit.
+- **Mar 6:** Oil prices rose ~20% to ~$80/barrel during peak conflict. Described as "biggest energy crisis since the 1970s oil embargo" (RBC Capital Markets).
+- **Feb 28:** Iran struck Al Dhafra Air Base (UAE), Riyadh (Saudi Arabia), Al Udeid Air Base (Qatar), 5th Fleet HQ (Bahrain), and Ali al-Salem Air Base (Kuwait) — all Gulf SWF capital infrastructure nodes.
 
-**The "Epstein class" counter-frame:**
-A bipartisan label emerged linking the Iran war to Epstein file suppression:
-- Sen. Jon Ossoff (D-GA) coined "Epstein class" in a viral speech (February 7–9, 2026)
-- Rep. Thomas Massie (R-KY) called the Iran strikes a "weapon of mass distraction" and said "bombing a country won't make the Epstein files go away" (March 1, 2026)
-- Rep. Marjorie Taylor Greene (R-GA) criticized the war-over-accountability trade-off (February 28, 2026)
-- Iran Parliament Speaker Ghalibaf called Trump's team "Epstein's gang" (March 6, 2026) — verified by Al Jazeera and Axios
-- The ADL documented **91,000+ mentions** from **60,000+ unique authors** on X within 48 hours of the February 28 strikes, linking the operation to Epstein files
+**What to watch next:**
+- Q1 2026 13F filings (due mid-May) — will reveal Gulf SWF positioning changes during the Iran war.
+- Section 122 tariff authority expires July 24, 2026 — a critical deadline for capital flow mechanisms.
+- CFIUS review of the EA ($55B) deal — pending Q1–Q2 2026.
+- SpaceX IPO (roadshow June 8) — Gulf SWF participation expected.
 
 ---
 
-### I. Religious Layer
+### Board of Peace
 
-**What it is:** The project tracks how theological beliefs — specifically Christian Zionism and end-times (eschatological) frameworks — connect to policy decisions.
+**Status today:** The Board of Peace remains operational but underfunded. 90% of the estimated $70B need is unfunded. The Gaza stablecoin proposal is in preliminary discussions.
 
-**Key facts:**
-- Four documented theological input channels into executive/military decision-making: Paula White (White House Faith Office), Ralph Drollinger/Capitol Ministries (weekly Cabinet Bible Study), Doug Wilson/CREC (Hegseth's denomination), and CUFI/John Hagee (10 million+ members)
-- Capitol Ministries Cabinet Bible Study was reignited February 26, 2025; 14 attendees; studies cover Israel's prophetic role
-- Doug Wilson was invited to preach at the Pentagon (February 18, 2026); monthly Christian prayer services are streamed on the internal DOD network
-- CUFI frames the Iran war as fulfilling Ezekiel 38–39 prophecy
-- Hegseth gutted civilian casualty review offices by approximately **90%** before the Iran war
-- US troops were reportedly briefed that the war fulfills "God's divine plan" — **110 complaints** filed with the Military Religious Freedom Foundation from **40 units** at **30 installations**
-- Carrie Prejean Boller was fired from the White House Religious Liberty Commission after raising Catholic theological objections to Christian Zionist framing
-- Governor Sanders signed a proclamation encouraging all Arkansas high schools to establish Turning Point USA chapters (March 11, 2026); the ACLU of Arkansas warned this may violate the Equal Access Act
+**What changed recently:**
+- **Feb 19:** Summit held with ~62 invited, 25 charter signatories. $7B pledged from 9 countries plus $10B US. UK, France, Norway, and Canada declined or rescinded.
+- **Feb 23:** Gaza stablecoin proposal first reported (Financial Times). Preliminary discussions only. Potential coins: Tether (Cantor Fitzgerald/Lutnick connection) or USD1 (Trump family's World Liberty Financial).
+- **Apr 10–12:** Islamabad talks failure leaves Lebanon/Hezbollah issues unresolved — directly relevant to Board of Peace's Gaza mandate.
 
----
-
-### J. AI and Technology Governance
-
-**Key facts:**
-- Anthropic refused Pentagon demands to remove AI safeguards (February 26, 2026); lost approximately **$200 million** in contracts
-- OpenAI signed a replacement deal with the Pentagon within hours
-- A federal judge granted Anthropic a preliminary injunction on March 26, 2026, calling the Pentagon's designation "Orwellian" and "classic First Amendment retaliation"
-- The Minab school strike (February 28, 2026) killed **175 people**; the Pentagon attributed it to "outdated targeting data"; 120+ Democratic members of Congress asked whether AI targeting was involved
-- SpaceX filed confidentially for an IPO on **April 1, 2026**; public S-1 expected late April–May 2026; investor roadshow confirmed for the week of **June 8, 2026**; valuation target **$1.75 trillion**; capital raise target **$75 billion**
-- The SpaceX-xAI merger (announced February 2–3, 2026) created a combined entity valued at **$1.25 trillion** — described as the largest merger in history
-- Planet Labs announced an indefinite blackout of satellite imagery over Iran and Middle East conflict zones at US government request (April 5, 2026); Planet Labs stock rose **+17% YTD**
-- Three Tennessee high school students filed a class action lawsuit against xAI (Grok) for generating child sexual abuse material (March 16, 2026; Case No. 5:26-cv-02246)
+**What to watch next:**
+- Gaza stablecoin governance decisions (Board of Peace + NCAG).
+- UG Solutions contractor talks (ongoing).
+- Whether Lebanon ceasefire is included in any future Iran deal — Israel excluded Lebanon from the April 7 ceasefire.
 
 ---
 
-## 4. Active Research Threads
+### Arkansas Defense-Capital Infrastructure
 
-| Thread | Status |
-|---|---|
-| Iran ceasefire stability / Strait of Hormuz | 🔴 Active — talks stalled; Strait incidents ongoing |
-| Epstein accountability / Bondi contempt / DOJ IG audit | 🔴 Active — deposition blocked; audit underway |
-| Maxwell pardon speculation | 🟡 Monitoring |
-| CLARITY Act / USD1 / crypto legislation | 🟡 Monitoring — Senate Banking markup pending |
-| SAVE America Act / FISA Section 702 | 🟡 Monitoring — FISA expired April 20 |
-| Section 122 tariff authority expiration (July 24) | 🟡 Critical deadline approaching |
-| SpaceX IPO (S-1 public filing imminent) | 🟡 Imminent |
-| Oracle financial stress / Stargate contraction | 🟡 Monitoring |
-| Arkansas data center / democratic preemption | 🟡 Monitoring — League of Women Voters trial July 20 |
-| New Mexico Zorro Ranch investigation | 🟡 Active — physical search completed |
-| CRINK coordination patterns | 🟡 Monitoring — rift confirmed; Cuba dual-track aid documented |
-| Anthropic v. DoD lawsuit | 🟡 Active — D.C. Circuit case pending |
-| xAI CSAM class action | 🟡 Active — class certification expected May–June 2026 |
-| White House ballroom / WHCD shooting legal aftermath | 🟡 Active — appeals court paused injunction |
-| TPUSA institutional embedding | 🟡 Monitoring |
+**Status today:** Arkansas remains a convergence point for defense manufacturing, data infrastructure, regulatory capture, and political alignment. The League of Women Voters trial is set for July 20, 2026.
+
+**What changed recently:**
+- **Mar 11:** Governor Sanders signed a formal state proclamation encouraging every Arkansas high school and college to establish TPUSA Club America chapters. Violence broke out between supporters and protesters outside. ACLU of Arkansas warned the proclamation may violate the Equal Access Act.
+- **Dec 11, 2025 (background):** Arkansas Supreme Court reversed a 1951 precedent, allowing the legislature to amend or repeal any citizen-initiated constitutional amendment with a 2/3 vote.
+- **Jan 2026 (background):** Pine Bluff Arsenal received a $1.3B Hanwha Defense USA investment via Army Enhanced Use Lease.
+
+**What to watch next:**
+- **July 3, 2026:** Arkansas ballot initiative signature deadline.
+- **July 20, 2026:** League of Women Voters v. Jester trial.
+- **July 24, 2026:** Section 122 tariff authority expires — affects AVAIO and data center investment stability.
+- Army Corps Section 404 permit (SWL-2026-00038) for Willowbend/Port of Little Rock — public comment period closed April 24.
+- AVAIO investor identity remains undisclosed.
 
 ---
 
-## 5. What To Watch
+### Media Ecosystem / Tucker Carlson
 
-| Date / Deadline | Event |
-|---|---|
-| Late April–May 2026 | SpaceX public S-1 prospectus filing |
-| Late April 2026 | Tesla Q1 2026 delivery data |
-| April 2026 | X Money launch (early public access) |
-| May–June 2026 | xAI CSAM class action (class certification) |
-| Week of June 8, 2026 | SpaceX investor roadshow + Nasdaq listing |
-| Q1–Q2 2026 | California TikTok investigation results |
-| Q1–Q2 2026 | CFIUS review of EA deal |
-| **July 3, 2026** | Arkansas ballot initiative signature deadline |
-| **July 4, 2026** | DOGE executive order expires |
-| **July 20, 2026** | League of Women Voters v. Jester trial (Arkansas) |
-| **July 24, 2026** | Section 122 tariff authority expires — critical deadline |
-| August 27, 2026 | Anthropic Pentagon phase-out period ends |
-| Ongoing | Iran ceasefire / Islamabad talks / Strait of Hormuz |
-| Ongoing | Maxwell pardon / clemency decision |
-| Ongoing | DOJ IG audit of Epstein file handling |
-| Ongoing | Bondi contempt proceedings |
+**Status today:** Carlson has completed a five-step arc from Trump ally to public apologist — but has never named the domestic financial architecture (1789 Capital, Silver Lake, MGX, PIF) across the entire arc.
+
+**What changed recently:**
+- **Apr 21–22:** Carlson publicly apologized for supporting Trump. Called the Iran war "disgusting and evil." Brother Buckley raised the 25th Amendment. Trump called them "nut jobs."
+- **Apr 7:** Carlson suggested Trump might be the antichrist. Called Easter post "vile on every level." Warned about nuclear codes.
+- **Apr 5 (Easter):** Trump's Truth Social post mocking Islam triggered Carlson's initial break.
+- **Mar 2026 (background):** CIA criminal referral reportedly under consideration for Carlson under FARA after he talked to Iranians and platformed dissenters.
+
+**What to watch next:**
+- Whether Carlson's audience migrates to alternative platforms.
+- Whether any media figure names the specific financial intermediaries (1789 Capital, Silver Lake, MGX, PIF) that remain unmentioned across the entire ecosystem.
+- TPUSA campus tour continues: VP Vance (UGA, Apr 14), Homan (Baylor, Apr 22).
 
 ---
 
-## 6. How This Research Works
+### CRINK Framework (China-Russia-Iran-North Korea)
 
-**Data collection:** The project uses open-source intelligence (OSINT) — publicly available documents, SEC filings, government press releases, court records, and news reporting. A live pipeline queries Perplexity AI daily for tracked entities and signals. Scrapy web spiders collect Executive Orders and DOJ press releases automatically.
+**Status today:** CRINK validated as a "flexible security ecosystem" — members provided no direct military assistance to Iran despite public condemnation, but delivered parallel humanitarian aid to Cuba.
 
-**Scoring:** The researcher hand-scored 30 weeks of events on a 1–10 scale for "friction intensity" and "compliance intensity." This produced the primary 30-row dataset used for the r = 0.6196 correlation.
+**What changed recently:**
+- **Mar 30:** Russian tanker Anatoly Kolodkin arrived at Matanzas, Cuba (~730,000 barrels crude). Trump allowed delivery on "humanitarian grounds." CRINK oil delivery prediction partially falsified — no interception occurred.
+- **Mar 25:** JINSA published "The Axis Behind Iran" — documents decades of supply chain support while stopping short of collective defense. Validates CRINK as sustaining network, not mutual defense pact.
+- **~Mar 20–27:** China shipped 15,600 tons of rice to Cuba (first of a 60,000-ton commitment). Russia oil + China rice = parallel CRINK humanitarian intervention without formal coordination.
+- **Mar 14–15:** North Korea fired 10 ballistic missiles toward the Sea of Japan during US-South Korea Freedom Shield exercises. China surged 26 PLA aircraft and 7 PLAN vessels near Taiwan within 24 hours — consistent with opportunistic CRINK parallel signaling.
 
-**Verification levels:** Every claim is tagged:
-- ✅ **VERIFIED** — confirmed through multiple independent sources
-- ⚠️ **PARTIALLY VERIFIED** — some evidence supports; needs more
-- 🔍 **HYPOTHESIS** — proposed but not yet verified
-- ❌ **FAILED** — prediction did not materialize
-
-**Independent testing:** An AI system (Claude Opus 4.6, via GitHub Copilot) independently wrote and ran 16 statistical test scripts without access to the original analysis. The core finding survived every test.
-
-**What the research does NOT claim:**
-- It does not claim central coordination between actors
-- It does not claim friction events *cause* compliance events
-- It does not claim illegal activity
-- It does not claim any individual acts with improper intent
-
-**Retraction:** Layers 2 and 3 of the original three-layer model were retracted after an AI tool (Grok) was found to have fabricated statistics from external repositories. The retraction is documented in the repository. Layer 1 remains valid.
-
-**The pattern can be falsified if:**
-- The r = 0.6196 correlation cannot be reproduced
-- Future friction-compliance windows show no pattern
-- Calendar anchors show random distribution of events
-
-The analysis scripts are publicly available in the repository under `Run_Correlations_Yourself/`.
+**What to watch next:**
+- Treasury Cuba/NK sanctions waiver expired April 11 — monitoring for renewal or tightening.
+- Whether North Korea or China activity clusters with any new Iran escalation window.
+- Skipper DOJ forfeiture case — connects all four CRINK nodes through a single vessel.
 
 ---
 
-*Generated by [Political Translator](https://github.com/Leerrooy95/Political_Translator) — 2026-04-27T10:08:05.491567+00:00*
+### Oracle / Stargate Financial Stress
+
+**Status today:** Oracle is financially stressed. Its stock is down ~50–55% from its September 2025 high. The Abilene expansion was scrapped. The company needs $45–50B in new debt and equity in 2026.
+
+**What changed recently:**
+- **Mar 6–7:** Oracle and OpenAI scrapped the 600 MW Abilene expansion due to financing difficulties. Core site continues. Meta is in talks to lease abandoned capacity from Crusoe.
+- **Jan 2026 (background):** Ohio Carpenters' Pension Plan sued Oracle, alleging it concealed $38B in debt in a September 2025 bond offering. Defendants include Larry Ellison and Safra Catz.
+- **Background:** ~58% of Oracle's backlog is tied to OpenAI. OpenAI revenue (~$10–13B) cannot cover Oracle's $60B/year obligation.
+
+**What to watch next:**
+- Goldman Sachs bond offering and Citigroup equity raise — Oracle needs $45–50B in 2026.
+- OpenAI GPT-5.4 classified deployment milestones (Q2 2026).
+- SpaceX IPO (June 8 roadshow) — may compete for the same institutional capital Oracle needs.
+
+---
+
+### AI Kill Chain / Anthropic v. Pentagon
+
+**Status today:** Anthropic has a preliminary injunction from a California federal court blocking the Pentagon's "supply chain risk" designation, but a separate D.C. Circuit case under FASCSA is still pending.
+
+**What changed recently:**
+- **Mar 26:** Judge Rita Lin (N.D. Cal.) granted Anthropic's preliminary injunction. Called the Pentagon's designation "Orwellian" and "classic First Amendment retaliation." Pentagon CTO Emil Michael immediately claimed the FASCSA designation still stands.
+- **Mar 9:** Anthropic filed two federal lawsuits challenging the designation as illegal retaliation.
+- **Feb 28 (background):** Minab school strike — Shajareh Tayyebeh girls' primary school in Minab, Iran struck by Tomahawk cruise missile. 175 killed (majority children ages 7–12). DIA attributed to "outdated targeting data."
+- **Feb 27 (background):** Hegseth designated Anthropic "supply chain risk." OpenAI signed a $200M Pentagon deal within hours.
+
+**What to watch next:**
+- D.C. Circuit FASCSA case — two Trump-appointed judges (Katsas, Rao) may view national security arguments more expansively.
+- Claude phase-out deadline: August 27, 2026.
+- Pentagon investigation findings on AI/Maven role in the Minab school strike — response to 120+ Democratic members overdue.
+- Congressional deadline response on AI targeting accountability.
+
+---
+
+### Cuba Crisis
+
+**Status today:** Cuba's structural energy crisis is unresolved. The Kolodkin delivery provided only ~9–12 days of basic fuel. The Treasury sanctions waiver expired April 11.
+
+**What changed recently:**
+- **Mar 30:** Sanctioned Russian tanker Anatoly Kolodkin arrived at Matanzas, Cuba. Trump allowed delivery on "humanitarian grounds." US Coast Guard authorized passage.
+- **Mar 20:** Treasury amended the sanctions waiver to explicitly exclude Cuba and North Korea. The Sea Horse tanker diverted to Trinidad and Tobago as a direct result — a documented regulatory friction event.
+- **Mar 16:** Third island-wide blackout (29 hours) affecting all 11 million Cubans. Trump: "Taking Cuba in some form… whether I free it, take it, I think I can do anything I want with it."
+- **Mar 14:** Protesters attacked Communist Party headquarters in Morón.
+
+**What to watch next:**
+- Whether the Treasury Cuba/NK sanctions waiver (expired April 11) is renewed or allowed to lapse.
+- Russian and Chinese follow-on deliveries to Cuba.
+- US Embassy staffing decisions in Havana.
+
+---
+
+## 3. New Entries / Significant Edits
+
+Based on "Last updated" markers and version notes in the knowledge base:
+
+- **Node 15 (Planet Labs Imagery Blackout)** — New node added April 5, 2026. Documents the indefinite blackout of Iran/Middle East satellite imagery at US government request. Anthropic contrast documented (resistance vs. compliance both commercially rewarded by different audiences). (09_CURRENT_THREADS.md — Node 15)
+
+- **tier2_purged_officials.md** — New dossier created April 3, 2026 (v11.9). Running log of second-term removals: Bongino (Dec 2025), Noem (Mar 5), Bondi (Apr 2), George/Hodne/Green (Apr 2). Documents friction-adjacency pattern and wartime precedents. (Node_Dossiers/tier2_purged_officials.md)
+
+- **Node 11 (April 2026 Convergence Window)** — Updated April 26, 2026 with results: Bondi blocked rather than testified (Track A partially falsified); Strait incidents provided distraction concurrent with talks collapse (distraction prediction partially confirmed); AP-NORC poll results added. (09_CURRENT_THREADS.md — Node 11)
+
+- **Node 2 (Iran)** — Last updated April 26, 2026 (v12.4). Added: Islamabad talks failure (Apr 10–12); ceasefire extended indefinitely (Apr 22); Strait incidents; Vance trip cancelled; stalemate ongoing. (09_CURRENT_THREADS.md — Node 2)
+
+- **Node 5 (Epstein Network)** — Last updated April 26, 2026. Added: Bondi no-show (Apr 14); DOJ IG audit announced; Maxwell pardon speculation (~Apr 23, ⚠️ PARTIALLY VERIFIED). (09_CURRENT_THREADS.md — Node 5)
+
+- **Node 10 (Religious Layer / Tucker Carlson)** — Last updated April 26, 2026 (v12.4). Added fifth step in four-step cycle: Carlson's public apology (Apr 21–22). Domestic financial architecture still unmentioned across entire arc. (09_CURRENT_THREADS.md — Node 10)
+
+- **Node 13 (SpaceX IPO)** — Updated April 26, 2026. Refined details: S-1 public filing imminent (late April/May); roadshow June 8; $1.75T valuation at $75B raise; Musk 79% votes/42% equity (dual-class confirmed); 30% retail allocation; Starlink $10B+ 2025 revenue. (09_CURRENT_THREADS.md — Node 13)
+
+- **Node 9 (Arkansas)** — Last updated April 3, 2026. Added: water consumption dimension (300,000–5M gallons/day per hyperscale data center); Army Corps Section 404 permit SWL-2026-00038; Arkansas Valley Conduit veto (Dec 31, 2025) and override failure (Jan 8, 2026). (09_CURRENT_THREADS.md — Node 9)
+
+- **v12.2 (April 5, 2026)** — Tucker Carlson four-step cycle formalized in `02_MEDIA_FIREWALL.md`: pre-frame → action → redirect → structural silence. Six documented instances. (09_CURRENT_THREADS.md — Node 10 version notes)
+
+- **v12.1 (April 5, 2026)** — Tucker Carlson reclassified from "firewall inactive" to "firewall redirected" in `02_MEDIA_FIREWALL.md`. Post-buyout anger targets non-actionable entities (Israel/Zionism) rather than domestic financial architecture. (09_CURRENT_THREADS.md — Node 10 version notes)
+
+---
+
+## 4. Background Context (Brief)
+
+The Regulated Friction Project tracks whether political friction events (document releases, scandals, media crises) predict financial compliance events (policy shifts, capital moves) with a measurable time lag. The headline statistical finding is a correlation of **r = 0.6196** (p = 0.0004, n = 28 paired observations) at a two-week index resolution, with a median lag of 7 days — meaning friction tends to predict compliance roughly one week later. The project previously published Layers 2 and 3 of its analysis, but both have since been **retracted** due to methodological concerns; only the core Layer 1 statistical finding remains active. The framework uses a "thermostat" model to describe how multiple actors with shared incentives may independently time actions around low-attention calendar windows, producing clustering without requiring central coordination. No claim of illegal coordination is made.
+
+---
+
+## 5. Open Questions / Gaps
+
+The following items are explicitly flagged as unverified, pending, or requiring further investigation in the source files:
+
+**Unverified / Unable to Verify:**
+- Post-February 9 Maxwell communications, visitors, or new legal proceedings — ❌ UNABLE TO VERIFY (prison visitor records not public; no news reports found). (Node_Dossiers/tier1_maxwell_leverage.md)
+- Al Jazeera's specific "bypassed clinic" characterization in the Minab school strike — ⚠️ PARTIALLY VERIFIED; needs re-verification against primary Al Jazeera investigation. (09_CURRENT_THREADS.md — Node 14)
+- Maxwell pardon speculation — ⚠️ PARTIALLY VERIFIED (single primary source: Atlanta Black Star). (09_CURRENT_THREADS.md — Node 5)
+- Sea Horse early March Cuba delivery — ⚠️ PARTIALLY VERIFIED (Windward/Kpler maritime intelligence; no official confirmation). (09_CURRENT_THREADS.md — Cuba Crisis section)
+
+**Pending Data:**
+- Q1 2026 13F filings — Gulf SWF positioning changes during the Iran war not yet available. (09_CURRENT_THREADS.md — Active Research Questions)
+- Tesla Q1 2026 delivery data — expected late April 2026; not yet released. (09_CURRENT_THREADS.md — Node 13)
+- X Money launch — April 2026 early public access confirmed but not yet launched as of last update. (09_CURRENT_THREADS.md — Node 13)
+- SpaceX S-1 public prospectus — imminent (late April/May 2026). (09_CURRENT_THREADS.md — Node 13)
+
+**Pending Investigations / Decisions:**
+- California TikTok investigation results — Q1–Q2 2026; pending. (09_CURRENT_THREADS.md — Active Research Questions)
+- CFIUS review of EA ($55B) deal — Q1–Q2 2026; pending. (09_CURRENT_THREADS.md — Active Research Questions)
+- Section 122 tariff authority expiration — **July 24, 2026** — no new legislative action verified; critical deadline. (09_CURRENT_THREADS.md — Active Research Questions)
+- DOGE executive order expiration — **July 4, 2026**. (09_CURRENT_THREADS.md — Node 13)
+- League of Women Voters v. Jester trial — **July 20, 2026**. (09_CURRENT_THREADS.md — Active Research Questions)
+- Arkansas ballot initiative signature deadline — **July 3, 2026**. (09_CURRENT_THREADS.md — Active Research Questions)
+- AVAIO Digital investor identity — remains undisclosed. (09_CURRENT_THREADS.md — Active Research Questions)
+- Pentagon investigation findings on AI/Maven role in Minab school strike — overdue; no response as of last update. (09_CURRENT_THREADS.md — Node 14)
+- D.C. Circuit FASCSA case (Anthropic v. DoD) — pending; separate from the N.D. Cal. preliminary injunction already granted. (09_CURRENT_THREADS.md — Node 14)
+- xAI CSAM class action (Doe 1 v. X.AI Corp., Case No. 5:26-cv-02246) — class certification expected May–June 2026. (09_CURRENT_THREADS.md — Node 13)
+- DOJ IG audit of Epstein file handling under Bondi — findings pending. (09_CURRENT_THREADS.md — Node 5)
+- Contempt proceedings against Bondi — threatened by Rep. Garcia; no formal vote yet. (09_CURRENT_THREADS.md — Node 5)
+- UK Parliament disclosure of Mandelson vetting documents — unanimous vote taken; outcome not yet verified. (09_CURRENT_THREADS.md — February 2026 Developments)
+- Khanna investigation findings (March 1 document deadline) — outcome unable to verify. (09_CURRENT_THREADS.md — Testable Predictions)
+
+**Methodological Gaps Flagged by Source:**
+- Full 13F analysis of Q4 2025 Gulf SWF positions — pending. (09_CURRENT_THREADS.md — Research Gaps)
+- UG Solutions Board of Peace contract terms — needs more data. (09_CURRENT_THREADS.md — Research Gaps)
+- Pakistan ISF contribution details — needs more data. (09_CURRENT_THREADS.md — Research Gaps)
+- NSO Group export licensing status (2025–2026) — needs verification. (09_CURRENT_THREADS.md — Research Gaps)
+- First-differencing for autocorrelation control — methodological improvement suggested but not yet implemented. (09_CURRENT_THREADS.md — Research Gaps)
+
+---
+
+*Generated by [Political Translator](https://github.com/Leerrooy95/Political_Translator) — 2026-04-28T00:22:36.068953+00:00*
