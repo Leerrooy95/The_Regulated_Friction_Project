@@ -470,11 +470,11 @@ Larry Ellison is now personally leveraged across two of the largest capital arch
 | Rating | Fitch/Moody's downgraded combined entity to junk status (~6x EBITDA leverage) | ✅ VERIFIED |
 | Larry Ellison's role | Personal "irrevocable guarantee" of $40.4B equity commitment | ✅ VERIFIED |
 | Ellison share pledge | ~30% of Oracle stake (~$69B) already pledged as loan collateral; remaining ~$161B unpledged | ✅ VERIFIED |
-| Regulatory status | FCC approval required; current FCC signaling pro-business review under Chairman Brendan Carr | ⚠️ PARTIALLY VERIFIED |
+| Regulatory status | FCC approval required; both shareholder votes passed; Paramount filed FCC foreign-ownership application April 27, 2026 (49.5% equity to Gulf SWFs — PIF, QIA, Abu Dhabi L'imad — as passive non-voting investors); FCC chair Brendan Carr expects "quick" approval; DOJ antitrust review also active; expected close Q3 2026 | ✅ VERIFIED — [Deadline](https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/), [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-27/paramount-asks-fcc-to-bless-foreign-funding-in-warner-bros-deal), [Yahoo Finance](https://finance.yahoo.com/economy/policy/articles/paramount-seeks-fcc-approval-foreign-162700986.html), [US News](https://money.usnews.com/investing/news/articles/2026-04-27/paramount-seeks-fcc-approval-for-foreign-investors-helping-fund-warner-bros-acquisition) |
 | FCC "cleaner than previous bids" | ✅ VERIFIED — FCC Chair Brendan Carr told CNBC on March 3, 2026 that the Paramount/WBD deal is "a lot cleaner" than Netflix's abandoned bid and expected approval "pretty quickly" ([CNBC, March 3, 2026](https://www.cnbc.com/2026/03/03/fcc-chair-brendan-carr-wbd-paramount-merger-deal-netflix.html), [CNBC video](https://www.cnbc.com/video/2026/03/03/fcc-chair-paramount-deal-for-wbd-is-a-lot-cleaner.html)) |
 | Expected close | Q3-Q4 2026 | ✅ VERIFIED |
 | Combined subscribers | ~200M streaming subscribers (Paramount+ + HBO Max) | ✅ VERIFIED |
-| Saudi PIF involvement | PIF listed as equity investor in Paramount's financing | ✅ VERIFIED |
+| Saudi PIF involvement | PIF committed ~$10B; L'imad (Abu Dhabi, wholly government-owned) holds 12.8% of combined entity; Gulf bloc total: $24B ($38.5% equity); foreign ownership total: 49.5% — structured as passive non-voting to avoid CFIUS review | ✅ VERIFIED — [Enterprise AM](https://enterpriseam.com/uae/2026/04/09/limad-other-gcc-swfs-reportedly-commit-usd-24-bn-to-paramounts-takeover-of-warner-bros/), [Deadline](https://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/), [Variety](https://variety.com/2026/film/global/middle-east-paramount-warner-bros-discovery-1236675832/), [Forbes](https://www.forbes.com/sites/zacharyfolk/2025/12/10/saudi-qatari-and-emirati-funding-in-paramount-warner-bros-takeover-bid-raises-national-security-concerns-democrats-say/) |
 
 **Sources**:
 - [Bloomberg (Dec 23, 2025)](https://www.bloomberg.com/news/articles/2025-12-23/larry-ellison-s-pledge-to-backstop-paramount-bid-would-reshape-fortune) — Ellison pledge details
@@ -489,15 +489,15 @@ Larry Ellison is now personally leveraged across two of the largest capital arch
 
 Larry Ellison is simultaneously exposed to:
 
-1. **Oracle (AI infrastructure)** — Stock down ~55%; $108B debt; $45-50B capital raise needed; bondholder lawsuit; 20-30K potential layoffs; Stargate Abilene expansion scrapped. Ellison's ~$230B Oracle fortune is the collateral backing both Oracle's operations AND the WBD acquisition guarantee.
+1. **Oracle (AI infrastructure)** — Stock down ~50% from September 2025 peak ($345.72 → ~$173 by late April 2026) ✅ VERIFIED — [Bloomberg](https://www.bloomberg.com/news/articles/2026-01-29/oracle-shares-tumble-50-from-record-as-ai-caution-intensifies); $108B debt; $45-50B capital raise needed; bondholder lawsuit; 20-30K potential layoffs; Stargate Abilene expansion scrapped. Ellison's ~$230B Oracle fortune is the collateral backing both Oracle's operations AND the WBD acquisition guarantee.
 
 2. **Warner Bros. Discovery (media consolidation)** — $111B acquisition with ~$79-80B combined debt; personal $40.4B guarantee; ~30% of Oracle shares already pledged as loan collateral.
 
-**The Risk Chain**: If Oracle stock continues falling (already down 55%), the WBD equity commitment becomes harder to cover without selling Oracle shares — which would further depress Oracle's stock price, creating a potential downward spiral. Oracle's financial stress (documented in `04_CAPITAL_ARCHITECTURE.md`) directly threatens the media consolidation (documented here).
+**The Risk Chain**: If Oracle stock continues falling (already down ~50% from September 2025 peak per Bloomberg), the WBD equity commitment becomes harder to cover without selling Oracle shares — which would further depress Oracle's stock price, creating a potential downward spiral. Oracle's financial stress (documented in `04_CAPITAL_ARCHITECTURE.md`) directly threatens the media consolidation (documented here).
 
 **Media Firewall Significance**: The WBD deal would give the Ellison family control over CNN, HBO, Discovery networks, Warner Bros. studios, and DC Entertainment — a massive narrative infrastructure acquisition. Combined with Oracle's positions in TikTok (15%) and Pentagon AI, this represents a single family straddling both the capital architecture and the media firewall simultaneously.
 
-**PIF Connection**: Saudi PIF is listed as an equity investor in Paramount's financing, linking this media consolidation to the same Gulf SWF capital architecture documented in `04_CAPITAL_ARCHITECTURE.md`. The same capital sources funding TikTok, EA ($55B), and Stargate are also funding the WBD acquisition.
+**Gulf Capital Connection**: Saudi PIF (~$10B), Qatar QIA, and Abu Dhabi L'imad together committed $24B (38.5% equity; 49.5% foreign-owned total) to Paramount's financing — structured as passive non-voting to sidestep CFIUS. This links the WBD media consolidation to the same Gulf SWF capital architecture documented in `04_CAPITAL_ARCHITECTURE.md`. The same capital sources funding TikTok (MGX 15%), EA ($55B), and Stargate are now also funding the largest media consolidation in a generation.
 
 Cross-reference: `04_CAPITAL_ARCHITECTURE.md` (Oracle Financial Stress section), `10_FRAMEWORK_VALIDATION.md` (Section 8), `09_CURRENT_THREADS.md` (Node 8)
 
