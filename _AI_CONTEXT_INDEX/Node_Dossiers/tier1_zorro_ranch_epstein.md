@@ -31,7 +31,7 @@ This dossier documents the Zorro Ranch property—Jeffrey Epstein's New Mexico e
 | Sale date | August 2023 | ✅ VERIFIED — Santa Fe Reporter, AP |
 | Buyer | Huffines family (Texas developers) | ✅ VERIFIED — Multiple outlets |
 | New name | San Rafael Ranch | ✅ VERIFIED — Santa Fe Reporter |
-| Sale price | Undisclosed (~$18M estimated) | ⚠️ ESTIMATED — based on listing price |
+| Sale price | Undisclosed (listed at $27.5M, reduced to ~$18M; buyer's tax protest cited "notoriety" and successfully reduced assessed value to $13.4M for 2023) | ⚠️ ESTIMATED — sale price remains officially undisclosed; tax records provide a lower bound |
 | Broker | Ranch & Land Co. (Santa Fe) | ✅ VERIFIED |
 
 ### Key Figures — Huffines Family

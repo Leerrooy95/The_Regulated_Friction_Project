@@ -25,7 +25,7 @@
 |--------|------|---------------|
 | **Oracle** | Tech infrastructure | 15% TikTok, Stargate equity partner |
 | **Silver Lake** | Private equity ($110B+ AUM) | 15% TikTok, 5.5% EA, 1789 Capital investor |
-| **Saudi PIF** | SWF ($600B+ AUM) | 93.4% EA, Savvy Games Group |
+| **Saudi PIF** | SWF (~$1.15T AUM, mid-2025; $913B end-2024 official) | 93.4% EA, Savvy Games Group |
 | **UAE MGX** | SWF (AI-focused) | 15% TikTok, Stargate equity partner |
 | **Affinity Partners** | Kushner's firm ($5.4B AUM) | 1.1% EA, $2B+ from Gulf |
 
@@ -202,7 +202,7 @@ While information leverage (Track A) consumes public attention through high-visi
 
 | Fund | AUM (Est.) | Key Role |
 |------|------------|----------|
-| **PIF** (Saudi Arabia) | ~$930B | Gaming infrastructure, EA acquisition |
+| **PIF** (Saudi Arabia) | ~$1.15T (mid-2025); $913B end-2024 ✅ VERIFIED — PIF 2024 Annual Report | Gaming infrastructure, EA acquisition |
 | **Mubadala** (UAE) | ~$300B | GlobalFoundries, Bitcoin ETF, tech diversification |
 | **ADIA** (UAE) | ~$990B | Diversified portfolio, real estate, infrastructure |
 | **QIA** (Qatar) | ~$500B | Global diversification, US real estate |
@@ -319,7 +319,7 @@ Iran retaliation strikes (Operation Fateh Khyber, Feb 28, 2026) targeted Gulf st
 | Target | SWF Exposure |
 |--------|--------------|
 | UAE (Al Dhafra Air Base) | Mubadala ($300B), MGX, ADIA |
-| Saudi Arabia (Riyadh) | PIF ($930B) |
+| Saudi Arabia (Riyadh) | PIF (~$1.15T mid-2025) |
 | Qatar (Al Udeid Air Base) | QIA ($500B) |
 | Bahrain (5th Fleet HQ) | — |
 | Kuwait (Ali al-Salem Air Base) | KIA ($900B) |
@@ -357,7 +357,7 @@ The ongoing US-Israeli military campaign in Iran (Day 7 as of March 6) has creat
 | Target | SWF Exposure | Iranian Attack (March 6) |
 |--------|--------------|--------------------------|
 | UAE (Al Dhafra + Dubai Jebel Ali) | Mubadala ($300B), MGX, ADIA | 109 drones + 9 ballistic missiles intercepted (single day) |
-| Saudi Arabia (Riyadh) | PIF ($930B) | Oil/gas infrastructure struck |
+| Saudi Arabia (Riyadh) | PIF (~$1.15T mid-2025) | Oil/gas infrastructure struck |
 | Qatar (Al Udeid Air Base) | QIA ($500B) | Drone targeting Al-Udeid intercepted |
 | Bahrain (5th Fleet HQ) | — | 7 attack drones at residential neighborhoods (one near Israeli embassy); UK RAF deploying |
 | Kuwait (Ali al-Salem Air Base) | KIA ($900B) | 6 US soldiers killed in drone attack at Port Shuaiba (March 2) |
@@ -508,7 +508,7 @@ The SpaceX-xAI merger (announced February 2, confirmed February 3, 2026) created
 | Data infrastructure | TikTok 15% (200M+ US users) | X (social media) + Starshield (spy satellites) |
 | Finance | — | X Money (pending April 2026) |
 | Space | — | SpaceX launch + Starlink + orbital data centers |
-| Financial stress | Oracle stock -55%, $108B debt, bondholder lawsuit | Tesla stock -45-50%, shareholder lawsuits, brand collapse |
+| Financial stress | Oracle stock ~50% from Sep 2025 peak, $108B debt, bondholder lawsuit ✅ VERIFIED — [Bloomberg](https://www.bloomberg.com/news/articles/2026-01-29/oracle-shares-tumble-50-from-record-as-ai-caution-intensifies) | Tesla stock -45-50%, shareholder lawsuits, brand collapse |
 
 Both patterns represent multi-domain consolidation of data, compute, and algorithm infrastructure — the same Silicon Sovereignty thesis tracked throughout this document. Grok's Pentagon classified integration places it in the same AI infrastructure layer as Oracle, Google, and OpenAI, announced simultaneously by SecDef Hegseth in January 2026.
 
