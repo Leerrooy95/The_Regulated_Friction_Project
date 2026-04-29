@@ -160,6 +160,9 @@
 | **Russia-Ukraine negotiations** | `Node_Dossiers/tier2_uae_coordination_node.md` | `09_CURRENT_THREADS.md` |
 | **BRICS / mBridge / CBDC** | `Node_Dossiers/tier2_uae_coordination_node.md` | `sources/2026-02-27_Carlson_Fitts_Control_Grid.md` |
 | **Glossary / terminology** | `14_Files/Glossary.md` | `01_CORE_THEORY.md` |
+| **Author synthesis / succession thesis / unhedged interpretation / analog→digital leverage succession** | `14_Files/Succession_Thesis.md` | `11_LEVERAGE_THESIS.md`, `04_CAPITAL_ARCHITECTURE.md`, `09_CURRENT_THREADS.md`, `02_MEDIA_FIREWALL.md`, `06_ATTENTION_ECONOMY.md` |
+| **BIS tokenization / unified ledger / programmable money recommendation** | `14_Files/Succession_Thesis.md` (Digital Successor Architecture table) | `04_CAPITAL_ARCHITECTURE.md` (UAE Multi-Track Bridge); [BIS AER 2023 Ch. III](https://www.bis.org/publ/arpdf/ar2023e3.htm) |
+| **EU digital euro / ECON committee vote June 23 2026 / legal tender / mandatory merchant acceptance** | `14_Files/Succession_Thesis.md` (Digital Successor Architecture table) | `04_CAPITAL_ARCHITECTURE.md`; [EU Council Dec 2025](https://www.consilium.europa.eu/en/press/press-releases/2025/12/19/single-currency-council-agrees-position-on-the-digital-euro-and-on-strengthening-the-role-of-cash/) |
 | **Full repository audit** | `REPO_AUDIT_2026-03-01.md` | `GAP_ANALYSIS.md` |
 
 ---

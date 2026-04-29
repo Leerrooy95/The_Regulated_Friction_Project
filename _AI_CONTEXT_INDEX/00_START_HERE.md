@@ -250,6 +250,7 @@ For full analysis, read these primary files:
 - `Report.md` - Executive summary and core findings
 - `README.md` - Repository overview and statistics
 - `14_Files/Glossary.md` - Term definitions
+- `14_Files/Succession_Thesis.md` - **Author synthesis** (interpretive, less hedged than framework files): a single straightforward thesis that reads the analog Epstein-era leverage as being inherited by institutional actors, the digital successor architecture (programmable money + tokenized assets + Gulf-funded compute) as being assembled in parallel, and the Iran war as the attention cover under which the lock-in is happening. Sits *next to* the formal framework, not in place of it. Every factual claim cross-references back to the verified framework files. Explicitly **does not** claim that COVID was engineered or that any named individual planned a pandemic.
 - `Run_Correlations_Yourself/README.md` - Verification instructions
 
 ---
