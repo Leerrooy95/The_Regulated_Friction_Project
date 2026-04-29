@@ -250,6 +250,7 @@ For full analysis, read these primary files:
 - `Report.md` - Executive summary and core findings
 - `README.md` - Repository overview and statistics
 - `14_Files/Glossary.md` - Term definitions
+- `14_Files/Succession_Thesis.md` - **Author synthesis** (interpretive, less hedged than framework files): names what the author reads the stacked-up evidence as pointing toward — analog Epstein-era leverage being inherited by institutional actors, digital successor architecture being assembled in parallel, Iran war as cover for the lock-in. Sits *next to* the formal framework, not in place of it. Every factual claim cross-references back to the verified framework files.
 - `Run_Correlations_Yourself/README.md` - Verification instructions
 
 ---

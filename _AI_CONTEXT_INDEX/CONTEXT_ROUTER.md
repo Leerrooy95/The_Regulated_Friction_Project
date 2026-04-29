@@ -160,6 +160,7 @@
 | **Russia-Ukraine negotiations** | `Node_Dossiers/tier2_uae_coordination_node.md` | `09_CURRENT_THREADS.md` |
 | **BRICS / mBridge / CBDC** | `Node_Dossiers/tier2_uae_coordination_node.md` | `sources/2026-02-27_Carlson_Fitts_Control_Grid.md` |
 | **Glossary / terminology** | `14_Files/Glossary.md` | `01_CORE_THEORY.md` |
+| **Author synthesis / succession thesis / unhedged interpretation / analog→digital leverage succession** | `14_Files/Succession_Thesis.md` | `11_LEVERAGE_THESIS.md`, `04_CAPITAL_ARCHITECTURE.md`, `09_CURRENT_THREADS.md`, `02_MEDIA_FIREWALL.md`, `06_ATTENTION_ECONOMY.md` |
 | **Full repository audit** | `REPO_AUDIT_2026-03-01.md` | `GAP_ANALYSIS.md` |
 
 ---
