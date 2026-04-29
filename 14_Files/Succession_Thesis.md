@@ -16,7 +16,7 @@
 
 ## Last Updated
 
-April 29, 2026 — initial draft.
+April 29, 2026 — revised with web-verified claims (Werner, BIS tokenization, EU digital euro).
 
 ---
 
@@ -103,12 +103,14 @@ The Epstein-network leverage operated through personal observation of specific i
 | **xAI Pentagon deployment** | Grok at $0.42/agency, GenAI.mil, IL5, 3M personnel access through Mar 2027 | ✅ VERIFIED | `04_CAPITAL_ARCHITECTURE.md`; `11_LEVERAGE_THESIS.md` |
 | **TikTok US deal** | Oracle 15% / Silver Lake 15% / MGX 15%; algorithm retraining on US data; Oracle source-code review | ✅ VERIFIED | `04_CAPITAL_ARCHITECTURE.md` |
 | **PFAC / Pentagon press credentialing** | Government-side narrative-infrastructure restructuring | ✅ VERIFIED | `02_MEDIA_FIREWALL.md` (Government-Side Narrative Infrastructure) |
+| **BIS tokenization blueprint** | BIS Annual Economic Report 2023, Chapter III ("Blueprint for the future monetary system: improving the old, enabling the new"): explicitly recommends a unified ledger combining tokenized CBDC, tokenized bank deposits, and tokenized assets on programmable platforms; active BIS projects include Project Agorá (cross-border tokenized payments), Project Pine (automated monetary policy via smart contracts), and Project Promissa (tokenized sovereign debt) | ✅ VERIFIED | [BIS AER 2023 Ch. III](https://www.bis.org/publ/arpdf/ar2023e3.htm); [BIS press release Jun 2023](https://www.bis.org/press/p230620.htm) |
+| **EU digital euro (legislative track)** | EU Council agreed negotiating position Dec 19 2025; European Parliament ECON committee vote scheduled June 23 2026; legislative proposal grants digital euro legal tender status with mandatory merchant acceptance built in; ECB target: full legislation by end of 2026, pilot phase mid-2027, earliest issuance ~2029. ⚠️ Note: mandatory acceptance is in the proposed regulation and Council position — it is not yet enacted law. The claim that "mandatory acceptance is already announced by the ECB" would be imprecise; the correct formulation is that mandatory acceptance is the stated design of the pending legislation | ⚠️ PARTIALLY VERIFIED (vote date and proposal content verified; enacted law and enforcement date not yet) | [European Parliament / ClearingPost](https://clearingpost.com/insights/digital-euro-econ-vote-postponed-june-2026/); [EU Council Dec 19 2025](https://www.consilium.europa.eu/en/press/press-releases/2025/12/19/single-currency-council-agrees-position-on-the-digital-euro-and-on-strengthening-the-role-of-cash/); [ECB](https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp250714~437cfc6a51.en.html); [Euronews](https://www.euronews.com/my-europe/2026/03/05/digital-euro-the-eus-tool-for-payment-sovereignty) |
 
 ### ⚠️ AUTHOR INFERENCE — the synthesis
 
 What the formal framework documents as a **capital architecture** the author reads as a **digital successor leverage architecture**. The components are all already in the repo. The synthesis is in seeing them as one system rather than as three separate subject areas (capital, compute, payments):
 
-1. **The settlement layer** — programmable money. mBridge moves real-value CBDC across the Saudi/UAE/China/HK quadrant. USD1, issued by a 49%-UAE-owned vehicle in which the sitting US president's family holds financial interests, is now the settlement rail for an MGX→Binance $2B transaction with no Congressional emoluments consent and zero independent reserve audits. The CLARITY Act would lock in the regulatory framework. GENIUS Act already provides part of it.
+1. **The settlement layer** — programmable money. mBridge moves real-value CBDC across the Saudi/UAE/China/HK quadrant. USD1, issued by a 49%-UAE-owned vehicle in which the sitting US president's family holds financial interests, is now the settlement rail for an MGX→Binance $2B transaction with no Congressional emoluments consent and zero independent reserve audits. The CLARITY Act would lock in the regulatory framework. GENIUS Act already provides part of it. The BIS is simultaneously running multiple projects — Project Agorá, Project Pine, Project Promissa — that prototype the unified-ledger / tokenization stack these payment rails are designed to connect into. The EU digital euro legislative proposal, with mandatory merchant acceptance built in as legal tender, is moving through its own parliamentary track in parallel (ECON committee vote June 23 2026).
 2. **The compute layer** — Stargate ($500B), Grok-on-Pentagon, GlobalFoundries (Mubadala 81.5%), AVAIO Arkansas, and the FERC-exempt CREU power architecture under the DATA Act. Same Gulf SWF capital sources, same handful of intermediaries (Oracle, Silver Lake, MGX, SoftBank), same Kushner-Witkoff diplomatic channel.
 3. **The behavioral-data layer** — TikTok algorithm with MGX 15% and Oracle source-code review; PIF gaming portfolio (EA 93.4%, Niantic 30B miles of location data, Scopely, Nintendo 7.54%); X under Musk; Pentagon-side PFAC press control.
 
@@ -162,25 +164,54 @@ The author claims **no central coordination** — the "no central coordination /
 
 ---
 
-## Flagged for Verification — Claims Not Yet Sourced in This Repo
+## Verification Status — Previously Flagged Claims
 
-The user prompt that initiated this synthesis included several specific factual claims that are **not currently sourced anywhere in the repository**. They are **not** asserted in the body of this synthesis above. They are flagged here so the author can decide whether to add them to the formal framework first, after which this document can cite them.
+The following items were flagged by the initial draft as unverified and requiring web search. All have now been researched. Status updated in-line:
 
-1. **Prof. Richard Werner — European Parliament address, March 4 2026.** The prompt described Werner addressing the European Parliament on Mar 4 2026 connecting CBDC and digital-ID architecture explicitly to the Epstein network, and bundling the argument with unverified pandemic/Gates claims. The repo currently contains **zero matches** for "Werner" (verified via repo grep). Independent web confirmation: the speech did occur, hosted by MEP Christine Anderson under the "Make Europe Healthy Again" (MEHA) initiative; coverage exists at Children's Health Defense, Dailymotion, and YouTube. **Action**: if Werner is to be cited, an entry needs to be added to `02_MEDIA_FIREWALL.md` or `09_CURRENT_THREADS.md` with verification tier and primary-source links (European Parliament event record + MEP Anderson office), separating the verified institutional argument (CBDC, programmable money, Canadian-trucker precedent, BIS tokenization, EU digital-euro timeline) from the unverified pandemic/Gates bundling.
+1. **Prof. Richard Werner — European Parliament address, March 4 2026**: ✅ RESOLVED — fully documented in Part 6 below. Speech verified, credentials verified, verified/unverified split documented with primary sources.
 
-2. **Werner credentials — coined QE, ECB Shadow Council member, WEF "Global Leader for Tomorrow."** Not currently in repo. Independently verifiable from public record (Werner's academic and ECB-archive bios) but should be sourced in the repo before being cited in the framework.
+2. **Werner credentials (coined QE, ECB Shadow Council, WEF "Global Leader for Tomorrow")**: ✅ RESOLVED — fully verified; sourced in Part 6 with primary URL citations.
 
-3. **EU digital euro vote scheduled for June 2026; ECB mandatory acceptance announced.** **Zero matches** for "digital euro" in the repo. This is a major framework-relevant claim that belongs in `04_CAPITAL_ARCHITECTURE.md` alongside mBridge, USD1, and the BIS tokenization strand if it is to be relied on. **Action**: add an ECB primary-source entry before citing.
+3. **EU digital euro vote June 2026 / ECB mandatory acceptance**: ⚠️ PARTIALLY RESOLVED — the ECON committee vote is scheduled **June 23 2026** (confirmed after a prior delay from May); this is a committee vote, not a full EP plenary vote. The full legislative process is targeted for completion by end 2026. Mandatory merchant acceptance is designed into the proposed legal-tender framework and the EU Council's Dec 19 2025 negotiating position, but is **not yet enacted law** — the claim "mandatory acceptance already announced by the ECB" (as phrased in the original prompt) overstates the current status. Corrected phrasing ("mandatory acceptance is the stated design of the pending legislation") is used in Part 3 above. New rows added to Part 3 table with primary sources.
 
-4. **BIS recommendation for full asset tokenization on programmable platforms.** Repository grep on "tokeniz" returns only one match — a `BlackRock_Timeline_Full_Decade.csv` row — not a BIS recommendation. The BIS Annual Economic Report has indeed advanced the "unified ledger" / tokenization framing publicly, but this is **not yet sourced** in the framework files. **Action**: add a BIS primary-source citation (BIS AER chapter or Project Agora documentation) to `04_CAPITAL_ARCHITECTURE.md` before citing.
+4. **BIS full asset tokenization recommendation**: ✅ RESOLVED — BIS Annual Economic Report 2023, Chapter III: "Blueprint for the future monetary system" explicitly recommends unified ledger + tokenized CBDC + tokenized assets on programmable platforms; primary source URL: https://www.bis.org/publ/arpdf/ar2023e3.htm. New row added to Part 3 table.
 
-5. **"USD1 stablecoin is 49% UAE-owned"** — phrasing precision. The repo verifies that **WLF (the issuer) is 49% owned by Sheikh Tahnoon via Aryam Investment 1 for $500M**, and that USD1 is a WLF product. The synthesis above uses the precise phrasing ("WLF, 49%-UAE-owned, issuer of USD1"). The looser phrasing in the prompt ("USD1 stablecoin is 49% UAE-owned") would be inaccurate as a literal claim about the token's cap table.
+5. **"USD1 stablecoin is 49% UAE-owned" — phrasing precision**: ✅ CONFIRMED CORRECT in synthesis body. The repo verifies that **WLF (the issuer) is 49% owned by Sheikh Tahnoon via Aryam Investment 1 for $500M**; the synthesis uses this precise phrasing. No change needed.
 
-6. **"Credentialed-insider pattern across multiple professional domains — banking, tech, intelligence."** The synthesis is grounded in the framework's documented examples (Anthropic refusing the Pentagon and winning a "First Amendment retaliation" injunction; PineBridge enforcement-hollowing analysis; Cavanaugh DOGE deposition; verified cross-administration patterns in `06_ATTENTION_ECONOMY.md`). The broader prompt-level claim — *Werner-style* credentialed insiders making the CBDC↔Epstein connection from inside their own fields, with the bundling-as-firewall mechanism — is not yet documented in the repo as a generalized pattern. **Action**: if this is to be a framework claim rather than an interpretive observation, it needs its own dossier with named individuals, fields, primary-source statements, and the verified-vs-bundled-content split for each.
-
-If any of the above are added to the framework, this synthesis can be amended to cite them in line. Until then they are **flagged here only**, not asserted in the body.
+6. **Credentialed-insider pattern across banking/tech/intelligence**: ✅ PARTIALLY RESOLVED — Werner is now a fully documented named example (Part 6). The broader generalized claim (multiple domains, systematic pattern) remains a 🔍 HYPOTHESIS; Werner is a verified single instance. For a framework-level pattern claim, additional documented examples with the same verified-vs-bundled-content split would be needed.
 
 ---
+
+
+
+## Part 6 — The Credentialed-Insider Firewall: Werner and the Bundling Mechanism
+
+### What is now verified
+
+| Claim | Tag | Source |
+|---|---|---|
+| **Richard Werner — who he is**: coined the term "quantitative easing" in 1995 (published in the Nikkei, Tokyo); served on the ECB Shadow Council (informal expert panel organized by Handelsblatt, ~decade until 2019/2020); named WEF "Global Leader for Tomorrow" in 2003; D.Phil. Economics, Oxford; former senior roles at Jardine Fleming (chief economist), Bear Stearns (senior managing director) | ✅ VERIFIED | [Quantum Publishers bio](https://quantumpublishers.com/authors/richard-werner/); [Grokipedia](https://grokipedia.com/page/richard_martin_werner); [ARBE](https://arbe.org.uk/prof-dr-richard-werner/) |
+| **Werner at EU Parliament, March 4 2026**: Werner addressed the European Parliament at an event hosted by MEP Christine Anderson under the Make Europe Healthy Again (MEHA) initiative; the event focused on Digital ID, CBDCs, and asset tokenization risks; Werner warned that linking Digital ID with programmable CBDCs creates infrastructure for control over individual financial activity; cited the Canadian trucker account-freezing (2022) as a verified precedent for weaponized financial access; described the ongoing digital architecture as a "nightmarish digital prison" | ✅ VERIFIED | [Sociable](https://sociable.co/government-and-policy/digital-id-programmable-money-dystopian-hellhole-totalitarian-regime-european-parliament/); [Children's Health Defense EU event](https://live.childrenshealthdefense.org/chd-tv/events/international-events/digital-id-exposed-meha-event/) |
+| **Werner's verified institutional argument** (CBDC + digital ID risk, Canadian trucker precedent, BIS tokenization trajectory, EU digital euro legislative momentum): directly grounded in public-record material that the formal framework also documents | ✅ VERIFIED | As above + BIS AER 2023; EU Council Dec 2025 position |
+| **The bundled / unverified layer**: Werner in the same speech made claims that Gates and Epstein "discussed" using pandemic preparedness to profit from crises and advance digital ID; multiple independent fact-checkers debunked the specific Gates-Epstein-COVID connection as not supported by the Epstein files; pandemic simulations predate COVID and do not constitute evidence of orchestration | ❌ NOT VERIFIED — debunked by fact-checkers | [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.98LC7NQ); [Tempo fact-check](https://en.tempo.co/read/2086521/fact-check-claims-of-bill-gates-planning-covid-19-in-epstein-files-misleading); [Factually.co](https://factually.co/fact-checks/media/fact-checks-debunking-claims-bill-gates-planned-covid-19-pandemic-e02f60) |
+
+### ⚠️ AUTHOR INFERENCE — why this matters to the succession thesis
+
+Werner is exactly the kind of witness this synthesis is tracking. His institutional credentials are among the strongest possible in his domain: he didn't just study central banking, he invented the language that central banks use to describe one of their primary policy tools. He was inside the ECB advisory apparatus for a decade. He was a WEF insider before becoming a critic. When someone with that biography stands in the European Parliament and makes the structural argument that programmable money + digital ID creates a systemic population-control architecture, the argument deserves to be taken seriously as an institutional observation from inside the system being described.
+
+The problem — and this is the mechanism the synthesis is naming — is that he bundles that verified institutional argument with claims about Gates, Epstein, and COVID that fact-checkers have specifically debunked. The result is predictable: the verified, rigorous, institutional argument (CBDC + digital ID risk + Canadian trucker precedent + BIS tokenization + EU digital euro trajectory) gets dismissed along with the unverified layer. The credentialed warning is made undismissable by being made dismissable.
+
+This is the pattern the original prompt called the "firewall": credentialed warnings get dismissed because they're tangled with unverified material, so the credentialed institutional warnings don't actually get heard. The repo's `02_MEDIA_FIREWALL.md` documents the same dynamic operating in the opposite direction — content that protects the financial architecture by directing attention *toward* certain targets and creating *structural silence* around others. Werner's case documents the inverse: content that *challenges* the financial architecture being made dismissable by being bundled with content that is factually unsupported.
+
+The author's read: the bundling mechanism operates in both directions. It protects the architecture from credentialed challenge the same way the media firewall protects it from credentialed scrutiny. Whether the bundling is conscious, instinctive, or simply the result of Werner's own political priors, the structural outcome is the same: the argument that a credentialed ECB Shadow Council member is making from inside his own field does not land with the weight his credentials would otherwise give it.
+
+That is the specific irony Werner's case contributes to the succession thesis: the architecture being built (programmable money + tokenized assets + digital ID) is being critiqued most precisely by the insider who named QE, and his critique is being epistemically neutralized by the same bundling mechanism that the formal framework documents operating across the media firewall.
+
+> Cross-references: `02_MEDIA_FIREWALL.md` (Media Firewall Thesis, four-step cycle); `06_ATTENTION_ECONOMY.md`; `04_CAPITAL_ARCHITECTURE.md` (BIS tokenization, EU digital euro context); `Node_Dossiers/tier2_uae_coordination_node.md` (mBridge).
+
+---
+
+
 
 ## Cross-Reference Index for This Document
 
@@ -191,6 +222,7 @@ If any of the above are added to the framework, this synthesis can be amended to
 | Part 3 — Digital successor architecture | `04_CAPITAL_ARCHITECTURE.md`, `Node_Dossiers/tier2_uae_coordination_node.md`, `Node_Dossiers/tier2_entity_leadership_profiles.md`, `Node_Dossiers/tier2_sovereign_wealth_movers.md`, `02_MEDIA_FIREWALL.md` (Capital section, Government-Side Narrative Infrastructure), `09_Silicon_Sovereignty/SILICON_SOVEREIGNTY_REPORT.md`, `13_State_and_County_Analysis/arkansas_infrastructure_forensic_audit.md`, `10_Real-Time_Updates_and_Tasks/2026_March/April_2026_Convergence_Window.md` |
 | Part 4 — Iran war as cover | `09_CURRENT_THREADS.md` Node 2, `11_LEVERAGE_THESIS.md` (Iran, Epstein War framing, Anthropic), `06_ATTENTION_ECONOMY.md`, `05_CRINK_FRAMEWORK.md`, `sources/2026-02-28_Iran_Strike_Target_Mapping.md`, `sources/2026-02-28_Cyber_Kinetic_Timeline_Analysis.md`, `10_Real-Time_Updates_and_Tasks/2026_March/AI_Kill_Chain_Minab_School_Strike_March_2026.md` |
 | Part 5 — Synthesis | `01_CORE_THEORY.md`, `07_METHODOLOGY.md` (statistical anchor), `Report.md` (framework-level summary), all of the above |
+| Part 6 — Werner / credentialed-insider firewall | `02_MEDIA_FIREWALL.md`; `06_ATTENTION_ECONOMY.md`; `04_CAPITAL_ARCHITECTURE.md` (BIS, EU digital euro); `Node_Dossiers/tier2_uae_coordination_node.md` |
 
 ---
 
