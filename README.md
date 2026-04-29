@@ -4,7 +4,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 
 | | |
 |---|---|
-| **Friction Breaker** | [Friction Breaker](https://github.com/Leerrooy95/Friction_Breaker) — An open-source tool that identifies legal, regulatory, and procedural mechanisms used to bypass democratic accountability — and generates ranked countermeasures that citizens, legislators, and courts can implement. Discord OAuth with Patreon tiers at [regulatedfriction.me](regulatedfriction.me) |
+| **Friction Breaker** | [Friction Breaker](https://github.com/Leerrooy95/Friction_Breaker) — An open-source tool that identifies legal, regulatory, and procedural mechanisms used to bypass democratic accountability — and generates ranked countermeasures that citizens, legislators, and courts can implement. Discord OAuth with Patreon tiers at [regulatedfriction.me](https://regulatedfriction.me) |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
 
 | Quick Links | |
