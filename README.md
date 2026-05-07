@@ -1,4 +1,4 @@
-# The Regulated Friction Project v12.5
+# The Regulated Friction Project v12.7
 
 A data-driven analysis of temporal correlations between friction events, policy shifts, and capital flows (2015–2026).
 
@@ -6,6 +6,7 @@ A data-driven analysis of temporal correlations between friction events, policy 
 |---|---|
 | **Friction Breaker** | [Friction Breaker](https://github.com/Leerrooy95/Friction_Breaker) — An open-source tool that identifies legal, regulatory, and procedural mechanisms used to bypass democratic accountability — and generates ranked countermeasures that citizens, legislators, and courts can implement. Discord OAuth with Patreon tiers at [regulatedfriction.me](https://regulatedfriction.me) |
 | **OSINT ChatBot** | [BYOK ChatBot](https://personal-chatbot-qej0.onrender.com/login) — uses [_AI_CONTEXT_INDEX](https://github.com/Leerrooy95/The_Regulated_Friction_Project/tree/main/_AI_CONTEXT_INDEX) as reference ([source repo](https://github.com/Leerrooy95/OSINT_ChatBot)) |
+| **friction-intel — Entity Database** | <a href="https://database.regulatedfriction.me">friction-intel</a> — A tier-aware entity lookup tool that searches the project's curated dossiers and indexed prose mentions, then synthesizes a grounded research summary citing the exact source files. 153 entities indexed at last build. Live at <a href="https://database.regulatedfriction.me">database.regulatedfriction.me</a> |
 
 | Quick Links | |
 |---|---|
@@ -364,7 +365,7 @@ This repository documents **correlations, not causation**. All findings derive f
 
 **GitHub**: [@Leerrooy95](https://github.com/Leerrooy95)
 
-**Last updated**: April 27, 2026 (v12.5)
+**Last updated**: May 7, 2026 (v12.7)
 
 ---
 
