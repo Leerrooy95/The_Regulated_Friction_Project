@@ -111,6 +111,7 @@ Key results include: permutation testing (p < 0.0001), Granger causality (p = 0.
 
 | Entity | Role | Key Documents |
 |--------|------|---------------|
+| **Tony Blair** | Board of Peace Executive Board + Gaza Executive Board; only non-US citizen in 20-point plan; TBI Executive Chairman; Oracle's diplomatic deployment vehicle | `Node_Dossiers/tier1_blair_node.md`, `03_BOARD_OF_PEACE.md`, `Node_Dossiers/tier1_ellison_node.md` |
 | **Oracle** | Infrastructure provider (TikTok, Stargate) | `04_CAPITAL_ARCHITECTURE.md` |
 | **Silver Lake** | Private equity, deal structuring | `04_CAPITAL_ARCHITECTURE.md` |
 | **Saudi PIF** | 93.4% EA owner, Gulf SWF | `04_CAPITAL_ARCHITECTURE.md` |
