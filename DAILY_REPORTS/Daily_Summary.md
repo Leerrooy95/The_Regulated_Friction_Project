@@ -1,8 +1,8 @@
 # 🔍 Political Translator — Daily Briefing
 
-**Date:** May 08, 2026
-**Generated:** 09:06 UTC
-**Source:** _AI_CONTEXT_INDEX (36 files, hash 9caf13c40c0d2fa3)
+**Date:** June 16, 2026
+**Generated:** 09:48 UTC
+**Source:** _AI_CONTEXT_INDEX (36 files, hash f14752f22c105184)
 
 ---
 
@@ -15,303 +15,288 @@
 
 ---
 
-# PLAIN-LANGUAGE INTELLIGENCE BRIEFING
-**Date: May 8, 2026 | Prepared from _AI_CONTEXT_INDEX knowledge base**
+# Regulated Friction Project — Plain-Language Briefing
+**Date of briefing: June 16, 2026 | Knowledge base version: v12.8 (June 15, 2026)**
 
 ---
 
-## 1. LATEST DEVELOPMENTS (Last 30 Days)
+## 1. Latest Developments (Last 30 Days)
 
-*Newest first. All dates from source files.*
+Events ordered newest first.
 
----
+- **June 15, 2026** — US and Iran sign a preliminary 60-day ceasefire memorandum of understanding (MOU). Formal signing ceremony set for Switzerland on June 19. Israel was not part of the talks. *(09_CURRENT_THREADS.md, v12.8)*
 
-- **~May 7, 2026** — Two new Tier 1 node dossiers added to the knowledge base: `tier1_blair_node.md` (Tony Blair as Board of Peace architect and Oracle deployment vehicle) and `tier1_ellison_node.md` (Larry and David Ellison as infrastructure, media, and policy operators). These are the most recent additions to the repository. (Source: `Node_Dossiers/tier1_blair_node.md`, `Node_Dossiers/tier1_ellison_node.md`)
+- **June 14, 2026** — Trump posts publicly that Israeli strikes on Beirut's Dahiyeh suburb "should not have happened." This is the most direct US public criticism of Israeli military action in this conflict. *(09_CURRENT_THREADS.md)*
 
-- **~May 1, 2026** — New dossier `tier1_zampolli_node.md` added. It documents Paolo Zampolli (Trump's Special Envoy for Global Partnerships) and his ties to the Epstein network, the Amanda Ungaro deportation case, and a multi-country defamation lawsuit campaign. (Source: `Node_Dossiers/tier1_zampolli_node.md`)
+- **June 14, 2026** — Israel carries out precision strikes on two residential buildings in Dahiyeh, killing 3 and wounding 16. *(09_CURRENT_THREADS.md)*
 
-- **~Apr 30, 2026** — New dossier `tier1_thiel_node.md` (v1) added. Updated to v2 on May 6, 2026, adding the verified June 26, 2016 Brexit email between Epstein and Thiel and Thiel's Bilderberg Steering Committee position. (Source: `Node_Dossiers/tier1_thiel_node.md`)
+- **June 15, 2026** — Israeli drone strike kills a driver in southern Lebanon — the first confirmed fatality since the MOU announcement. *(09_CURRENT_THREADS.md)*
 
-- **Apr 26, 2026** — DOJ used the WHCD shooting to pressure the National Trust for Historic Preservation to drop its White House ballroom lawsuit. Acting AG Todd Blanche posted "It's time to build the ballroom" on X. A federal appeals court temporarily paused Judge Leon's March 31 injunction. (Source: `09_CURRENT_THREADS.md`)
+- **June 8, 2026** — SpaceX IPO roadshow begins. S-1 was filed confidentially on April 1. Target valuation: $1.75 trillion. Raise target: $75 billion. Elon Musk keeps 79% of votes and 42% of equity. Retail investors get 30% of shares. *(09_CURRENT_THREADS.md, Node 13)*
 
-- **Apr 25, 2026 (night)** — Shooting at the White House Correspondents' Dinner (Washington Hilton). Cole Tomas Allen (31, Torrance, CA) charged a Secret Service checkpoint with a shotgun, handgun, and knives. One officer was shot but saved by a bulletproof vest. No fatalities. Allen was taken alive. (Source: `09_CURRENT_THREADS.md`)
+- **June 6, 2026** — Defense Intelligence Agency (DIA) gives Israel a "critical" designation over US-Israel friction on Iran diplomacy. *(09_CURRENT_THREADS.md, Node 3)*
 
-- **Apr 22, 2026** — Trump extended the Iran ceasefire indefinitely on Truth Social. He cited Iran "collapsing financially." Within hours, gunfire hit at least 3 container ships in the Strait of Hormuz. The IRGC seized 2 foreign vessels. JD Vance's planned follow-up trip to Islamabad was cancelled. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, France24, Bloomberg, Politico)
+- **May 2026** — EFTA (Emergency Fiscal Transparency Act) coalition collapses. Thomas Massie loses his primary in the most expensive House primary in US history ($35 million spent). Marjorie Taylor Greene resigned. The EFTA law itself survives as permanent law. *(09_CURRENT_THREADS.md, Node 16)*
 
-- **~Apr 23, 2026** — House Oversight Committee Republicans openly debated a presidential pardon for Ghislaine Maxwell. Chairman Comer opposed it. Rep. Anna Paulina Luna (R-FL) said "the votes are not there." Most GOP members stayed silent. Democrats unanimously opposed. Trump has not ruled it out. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, Politico, Forbes)
+- **May 7, 2026** — New node dossiers published: `tier1_blair_node.md` (Tony Blair as Board of Peace architect and Oracle deployment vehicle) and `tier1_ellison_node.md` (Larry Ellison family architecture across infrastructure, media, and policy). *(Node_Dossiers/)*
 
-- **Apr 21–22, 2026** — Tucker Carlson publicly apologized for supporting Trump in a podcast with his brother Buckley. He called the Iran war "disgusting and evil" and said he is "tormented" by helping Trump get elected. Trump called them "nut jobs." (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, Forbes, Variety, USA Today)
+- **May 6, 2026** — Howard Lutnick gives interview touching on Epstein archive. *(09_CURRENT_THREADS.md, Node 5)*
 
-- **Apr 16–20, 2026** — AP-NORC poll: Trump overall approval at 33% — a new second-term low. Economic approval: 30%. Cost-of-living approval: 25%. The Iran war and rising gas prices ($4.16/gallon, up 40% since the war started) are the main drivers. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, AP, CNBC)
+- **May 1, 2026** — New node dossier published: `tier1_zampolli_node.md` (Paolo Zampolli as diplomatic cover operator). *(Node_Dossiers/)*
 
-- **Apr 14, 2026** — Former AG Pam Bondi did not appear for her House Oversight deposition on Epstein file handling. DOJ said the subpoena "no longer applies" since she was fired. Rep. Robert Garcia (D-CA) threatened contempt. The DOJ Inspector General announced a formal audit of Epstein file handling. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, PBS, CBS News)
+- **April 30 / May 6, 2026** — `tier1_thiel_node.md` updated to v2. Adds the verified June 26, 2016 Brexit email between Epstein and Thiel ("Brexit, just the beginning… return to tribalism, amazing new alliances"), Bilderberg Steering Committee position, and structural lineage to the Board of Peace. *(Node_Dossiers/tier1_thiel_node.md)*
 
-- **Apr 12, 2026** — US-Iran peace talks in Islamabad collapsed after 21 hours. JD Vance led the US side. The main sticking point: the US demanded Iran commit never to develop nuclear weapons or the infrastructure to build them. Iran called the demands "excessive." No new talks were scheduled. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, Al Jazeera, TIME, Telegraph)
+- **April 17, 2026** — Senators Merkley, Warren, Van Hollen, and Sanders send letter raising concerns about the Board of Peace stablecoin (WLF/USD1 + Tether/Lutnick conflict of interest). *(09_CURRENT_THREADS.md, Node 19)*
 
-- **Apr 10, 2026** — Islamabad peace talks began. Both delegations arrived. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CNBC)
+- **April 14, 2026** — AG Pam Bondi's subpoenaed deposition date. She did not appear. DOJ declared the subpoena moot. Rep. Garcia threatened contempt. *(09_CURRENT_THREADS.md; tier1_zorro_ranch_epstein.md)*
 
-- **Apr 7, 2026** — US-Iran two-week ceasefire announced at ~6:30 PM ET — less than 2 hours before Trump's 8 PM deadline. Pakistan brokered the deal. Iran's 10-point proposal was accepted as a negotiating basis. Oil fell 17–18% (WTI to $92). The Dow surged +1,374 points (+2.95%). (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CNN, AP)
+- **April 9, 2026** — First Lady Melania Trump delivers surprise White House statement denying Epstein ties. Confirms a Maxwell email exists but calls it "casual correspondence." Calls on Congress to hold survivor hearings. *(tier1_zampolli_node.md)*
 
-- **Apr 7, 2026** — Trump posted "A whole civilization will die tonight" on Truth Social at 8:06 AM ET. He later announced the ceasefire. Tucker Carlson suggested Trump might be the Antichrist and warned about nuclear codes. Trump called Carlson "a low-IQ person." (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CNN, Mediaite)
+- **April 3, 2026** — `tier2_purged_officials.md` created, logging six officials removed in Trump's second term. *(Node_Dossiers/tier2_purged_officials.md)*
 
-- **Apr 5, 2026** — Planet Labs announced an indefinite blackout of all satellite imagery over Iran and the Middle East at US government request. All imagery since March 9 was withheld. Journalists and human rights groups lost independent verification tools. Planet Labs stock rose 17%. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, Al Jazeera, CNBC)
+- **April 2, 2026** — Three senior Army generals fired on the same day during active Iran war operations: Gen. Randy George (Army Chief of Staff), Gen. David Hodne (Army Transformation Command), and Maj. Gen. William Green Jr. (Chief of Army Chaplains — first such firing in US history). Acting CSA: Gen. Christopher LaNeve. *(tier2_purged_officials.md)*
 
-- **Apr 5, 2026 (Easter)** — Trump posted on Truth Social threatening Iran's power plants, bridges, and oil wells. He wrote: "Open the Fuckin' Strait, you crazy bastards, or you'll be living in Hell — JUST WATCH! Praise be to Allah." Over 100 US legal experts called targeting civilian energy infrastructure a potential war crime. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CNN)
-
-- **Apr 3, 2026** — Trump approval fell to 33% in UMass/YouGov poll (down from 44% in April 2025). Former Trump White House special counsel Ty Cobb called Trump "clearly insane" and called for the 25th Amendment on the Jim Acosta Show. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, UMass Amherst, The Independent)
-
-- **Apr 2, 2026** — Trump fired AG Pam Bondi. Todd Blanche (Trump's former personal defense attorney) became acting AG. On the same day, SecDef Hegseth fired Army Chief of Staff Gen. Randy George — no modern precedent for removing a senior commander during active combat. Also fired: Gen. David Hodne and Maj. Gen. William Green Jr. (first chaplain chief firing in US history). Gen. Christopher LaNeve, a Hegseth ally, was named acting Army Chief. (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CBS News, CNBC, Politico)
-
-- **Apr 2, 2026** — The National Capital Planning Commission (NCPC) voted 8-1 to approve Trump's White House ballroom project — one day after a federal judge had blocked it. NCPC Chair Will Scharf (also White House Staff Secretary) said the court order "does not impact our action here today." (Source: `09_CURRENT_THREADS.md` — ✅ VERIFIED, CNBC, Politico)
+- **April 2, 2026** — AG Pam Bondi fired. Deputy AG Todd Blanche named acting AG. *(tier2_purged_officials.md; 09_CURRENT_THREADS.md)*
 
 ---
 
-## 2. ACTIVE THREADS
+## 2. Active Threads
 
 ---
 
-### 🇮🇷 Iran War / Ceasefire
+### Thread 1 — Iran / US-Iran Ceasefire (Node 2)
 
-**Status today:** A ceasefire extended indefinitely on April 22 is holding in name only. The Strait of Hormuz remains contested. Peace talks have stalled.
+**Status today:** A 60-day MOU was signed June 15. The formal ceremony is set for June 19 in Switzerland. But Israel is still striking Lebanon, and Hezbollah says it will only hold fire if Israel stops. Active conflict continues on the ground.
 
 **What changed recently:**
-- **Apr 22:** Trump extended the ceasefire indefinitely. He cited Iran "collapsing financially." Within hours, 3 container ships were hit by gunfire and the IRGC seized 2 foreign vessels in the Strait.
-- **Apr 12:** Islamabad talks collapsed after 21 hours. The US demanded Iran permanently give up nuclear weapons *and* the infrastructure to build them. Iran refused.
-- **Apr 7:** Ceasefire announced less than 2 hours before Trump's 8 PM deadline. Pakistan brokered it. Oil fell ~18%. Stocks surged.
-- **Mar 23:** Trump delayed further strikes for 5 days. US Special Envoy Steve Witkoff revealed a 15-point peace framework delivered via Pakistani mediators.
+- **June 15** — US-Iran MOU announced. Both sides committed to a 60-day halt in direct US-Iran hostilities.
+- **June 14** — Trump publicly criticized Israeli strikes on Dahiyeh — the strongest US rebuke of Israel in this conflict.
+- **June 14-15** — Israel struck Dahiyeh (3 killed, 16 wounded) and killed a driver in southern Lebanon via drone — both after the MOU announcement.
+- **June 6** — DIA gave Israel a "critical" designation over friction with US on Iran diplomacy.
+
+**⚠️ Framework note (v12.8):** The "ceasefire" label is a political narrative marker. Operational reality is continued active conflict on the Lebanon front.
 
 **What to watch next:**
-- Whether Iran returns to talks (no new date set as of April 26)
-- Strait of Hormuz transit fee/coordination mechanism — not yet finalized
-- Section 122 tariff authority expires **July 24, 2026** — may affect energy-crisis economic pressure
-- ⚠️ [Inference per source]: The thermostat model predicts continued economic pressure rather than kinetic restart as the primary lever
+- **June 19** — Formal ceasefire signing ceremony in Switzerland.
+- Whether Netanyahu's "freedom of action" stance forces a US response.
+- NDAA Section 224 advancing in Congress — would lock in US-Israel defense ties independent of political goodwill, reducing US leverage over Israel.
 
 ---
 
-### 📁 Epstein Files / Maxwell / DOJ Accountability
+### Thread 2 — Ghislaine Maxwell / Epstein Archive (Nodes 1 & 5)
 
-**Status today:** The DOJ IG is auditing Epstein file handling. Maxwell pardon debate is active. The main deposition witness (Bondi) did not appear.
+**Status today:** Maxwell is at FPC Bryan (minimum-security prison in Texas). She invoked the 5th Amendment on February 9. Her habeas corpus petition is pending. A Maxwell pardon has been suggested by White House Counsel Warrington. The "Regime Change" book (Haberman-Swan) publishes June 23 and reportedly confirms "Trump had no interest in releasing anything related to Epstein."
 
 **What changed recently:**
-- **Apr 14:** Bondi no-show for House Oversight deposition. DOJ said the subpoena was moot since she was fired April 2. Rep. Garcia threatened contempt. DOJ IG announced a formal audit.
-- **~Apr 23:** House Oversight Republicans debated a Maxwell pardon as a way to compel her testimony. Comer opposed it. Most GOP members stayed silent. Democrats unanimously opposed.
-- **Mar 30:** House Oversight Chairman Comer (R-KY) — a Republican — publicly admitted the DOJ "botched" the Epstein file release (CNN interview).
-- **Mar 27:** Bank of America agreed to a $72.5 million settlement with Epstein survivors. This is the third major bank settlement. Combined bank settlements now exceed $437 million (JPMorgan $290M, Deutsche Bank $75M, Bank of America $72.5M).
+- **June 23 (upcoming)** — "Regime Change" book publishes. Contains Situation Room revelations, Maxwell pardon suggestion by Warrington, and Vance-Tucker-Maxwell plan details.
+- **May 6** — Lutnick interview touched on Epstein archive.
+- **March 5, 2026** — 16 new pages plus 1,000+ additional pages of Epstein files released.
+- **February 26-27** — Both Clintons testified before House Oversight. Both denied knowledge of crimes.
 
 **What to watch next:**
-- DOJ IG audit findings (no timeline given)
-- Whether acting AG Todd Blanche ensures full compliance with House Oversight subpoenas
-- Maxwell's habeas corpus petition (filed January 2026) — no ruling yet
-- Whether Trump formally acts on the pardon question
+- **June 23** — "Regime Change" book publication.
+- Maxwell habeas corpus petition outcome vs. potential pardon timing.
+- 🔍 Framework prediction: pardon before petition resolution, to avoid legal precedent.
 
 ---
 
-### 🏛️ Gulf Capital / Board of Peace / Arkansas Infrastructure
+### Thread 3 — Board of Peace / Gaza Financial Architecture (Node 19)
 
-**Status today:** Gulf sovereign wealth funds (~$4.9T combined) remain active in US infrastructure. The Board of Peace is operational with Tony Blair as a key member. Arkansas data center and defense investment continues.
+**Status today:** The Board of Peace stablecoin proposal (WLF/USD1 + Tether, with Lutnick conflict of interest) is under Senate scrutiny. The Gaza Humanitarian Foundation (GHF) has seen 1,200+ Palestinians killed at distribution sites. The Board's structural lineage to the 2016 Epstein-Thiel Brexit email thesis is now formally documented.
 
 **What changed recently:**
-- **May 7, 2026:** New dossier `tier1_blair_node.md` documents Blair's dual role: Board of Peace Executive Board member AND chairman of the Tony Blair Institute (TBI), which has received £257M+ from Larry Ellison's foundation since 2021. TBI staff describe their work as "lobbying for Oracle."
-- **May 7, 2026:** New dossier `tier1_ellison_node.md` documents Larry Ellison's March 25, 2026 appointment to PCAST (alongside Safra Catz). Ellison's data-unification pitch: "Citizens will be on their best behavior, because we're constantly recording and reporting everything that is going on."
-- **Mar 25, 2026:** Larry Ellison and Safra Catz appointed to PCAST alongside Marc Andreessen, Jensen Huang, Mark Zuckerberg, and others. Elon Musk and Sam Altman were notably absent.
-- **Mar 11, 2026:** Gov. Sanders signed a proclamation encouraging all Arkansas high schools to establish Turning Point USA chapters. The ACLU of Arkansas warned this may violate the Equal Access Act.
+- **April 17** — Senators Merkley, Warren, Van Hollen, and Sanders sent a letter raising concerns about the stablecoin conflict of interest.
+- **May 7** — `tier1_blair_node.md` published, documenting Tony Blair as the only non-US citizen named in Trump's 20-point peace plan and as an Oracle deployment vehicle (TBI received £257M+ from Larry Ellison's foundation since 2021).
+- **May 6, 2026** — `tier1_thiel_node.md` v2 formally links the 2016 Epstein-Thiel Brexit email to the Board of Peace architecture.
 
 **What to watch next:**
-- **July 3, 2026:** Arkansas ballot initiative signature deadline
-- **July 20, 2026:** League of Women Voters v. Jester trial (Arkansas direct democracy)
-- **July 24, 2026:** Section 122 tariff authority expires — critical for Gulf SWF positioning
-- AVAIO campus investor identity still undisclosed
-- Q1 2026 13F filings — Gulf SWF positioning changes
+- Senate GENIUS Act / CLARITY Act stablecoin legislation progress.
+- Whether the WLF/USD1 conflict of interest triggers formal investigation.
+- GHF distribution site security and Palestinian casualty tracking.
 
 ---
 
-### 🔐 Maxwell / Clemency
+### Thread 4 — DHS Shutdown (Node 6)
 
-**Status today:** Maxwell remains at FPC Bryan, Texas. She invoked the 5th Amendment on February 9. A pardon debate is active but no formal recommendation has been made.
+**Status today:** DHS has been in a leadership crisis since February 14. Kristi Noem was fired March 5 and moved to a ceremonial "Special Envoy for The Shield of the Americas" role. Sen. Markwayne Mullin (R-OK) was nominated as replacement. The shutdown continues into June.
 
 **What changed recently:**
-- **~Apr 23:** Republicans on House Oversight openly discussed recommending a pardon. Only ~6 of 25 GOP members clearly opposed it. Comer called Maxwell "the worst person in this whole investigation besides Epstein."
-- **Jan 2026:** Maxwell filed a habeas corpus petition (pro se) on 9 grounds including juror misconduct and suppressed evidence.
-- **Feb 9, 2026:** Maxwell invoked the 5th Amendment in a virtual deposition. Her attorney said she would testify "fully and honestly" only if Trump grants clemency.
+- **March 5** — Noem fired; Mullin nominated.
+- Shutdown has continued for over four months with no confirmed DHS secretary.
 
 **What to watch next:**
-- Trump's formal response to the pardon question (no statement yet)
-- DOJ Office of the Pardon Attorney — petition pending, no public grant or denial
-- ❌ UNABLE TO VERIFY: No new public reporting on Maxwell's communications or visitors since February 9
+- Mullin confirmation vote timing.
+- Whether the extended leadership vacuum affects border enforcement or immigration court operations.
 
 ---
 
-### 🏗️ White House Ballroom / Institutional Oversight
+### Thread 5 — Anthropic-Pentagon Standoff (Node 7)
 
-**Status today:** Construction is proceeding despite a federal court injunction. A federal appeals court paused the injunction after the WHCD shooting.
+**Status today:** Anthropic was designated a "supply chain risk" by the Pentagon in March after refusing to remove AI safeguards. It lost approximately $200 million in contracts. OpenAI replaced it. Anthropic filed a legal challenge.
 
 **What changed recently:**
-- **Apr 26:** DOJ cited the WHCD shooting to pressure the National Trust for Historic Preservation to drop its lawsuit. Acting AG Blanche posted "It's time to build the ballroom." A federal appeals court temporarily paused Judge Leon's March 31 injunction.
-- **Apr 25:** WHCD shooting at the Washington Hilton. Cole Tomas Allen (31) charged a Secret Service checkpoint. One officer was shot but survived. No fatalities.
-- **Apr 2:** NCPC voted 8-1 to approve the ballroom despite Judge Leon's injunction. NCPC Chair Scharf (also White House Staff Secretary) said the court order "does not impact our action here today."
-- **Mar 31:** Judge Richard Leon (GWB appointee) granted a preliminary injunction blocking above-grade construction. He called Trump a "steward, not the owner" of the White House.
+- **March 5-6** — Official "supply chain risk" designation issued.
+- OpenAI named as replacement vendor.
+- Anthropic legal challenge filed (date not specified in source).
 
 **What to watch next:**
-- Federal appeals court ruling on the paused injunction
-- National Trust for Historic Preservation response to DOJ pressure (deadline was 9 AM Monday, ~Apr 27)
-- Public Citizen's statutory challenge to NCPC commissioner qualifications
+- Outcome of Anthropic's legal challenge.
+- Whether the Pentagon's supply chain risk designation is used against other non-compliant AI vendors.
 
 ---
 
-### 🤖 AI / Anthropic / Kill Chain Integrity
+### Thread 6 — Oracle / Stargate Contraction (Node 8)
 
-**Status today:** Anthropic won a preliminary injunction in California but the Pentagon's separate FASCSA designation is still being litigated in DC.
+**Status today:** Oracle stock fell roughly 50% from its September 2025 peak ($345.72 to ~$173). The Abilene, Texas Stargate expansion was scrapped. Meta is being discussed as a replacement. Oracle carries ~$108 billion in total debt and needs to raise $45-50 billion. A bondholder lawsuit (Ohio Carpenters' Pension Plan) names Larry Ellison and Safra Catz personally.
 
 **What changed recently:**
-- **Mar 26:** Judge Rita Lin (N.D. Cal.) granted Anthropic a preliminary injunction. She called the Pentagon's "supply chain risk" designation "Orwellian" and "classic First Amendment retaliation."
-- **Mar 13:** 150 retired federal and state judges filed an amicus brief supporting Anthropic.
-- **Mar 9:** Anthropic filed two federal lawsuits challenging the designation.
-- **Feb 28:** The Minab school strike killed 175 people (majority children ages 7–12) in Minab, Iran. Al Jazeera satellite analysis found the strike pattern bypassed a clinic between the school and an IRGC base — then hit the clinic after it began treating victims. ✅ VERIFIED — Al Jazeera Digital Investigations Unit.
+- **March 25, 2026** — Larry Ellison and Safra Catz both appointed to PCAST (President's Council of Advisors on Science and Technology), alongside Marc Andreessen, Jensen Huang, Mark Zuckerberg, and 9 others.
+- Stargate Abilene expansion scrapped.
+- Potential layoffs of 20,000-30,000 employees flagged.
 
 **What to watch next:**
-- DC Circuit ruling on the FASCSA designation (still pending)
-- Pentagon investigation findings on AI/Maven role in the school strike (overdue — 120+ members of Congress asked by March 20)
-- Claude phase-out deadline: **August 27, 2026**
-- xAI CSAM class action (Case No. 5:26-cv-02246) — class certification expected May–June 2026
+- Q2-Q3 2026 — Possible Oracle restructuring or dividend cut.
+- SpaceX IPO roadshow (June 8) — interdependent with Stargate capital uncertainty.
 
 ---
 
-### 🛰️ Musk / SpaceX IPO
+### Thread 7 — SpaceX IPO (Node 13)
 
-**Status today:** SpaceX filed confidentially for an IPO on April 1, 2026. The public S-1 is imminent.
+**Status today:** SpaceX filed its S-1 confidentially on April 1. The roadshow began June 8. Target valuation is $1.75 trillion. Target raise is $75 billion. Musk retains 79% of votes and 42% of equity through dual-class shares. Retail investors get 30%.
 
 **What changed recently:**
-- **Apr 1, 2026:** SpaceX filed a confidential SEC S-1.
-- **Mar 11, 2026:** Tesla and xAI announced the joint "Macrohard / Digital Optimus" agentic AI project.
-- **Mar 16, 2026:** Three Tennessee high school students filed a class action against xAI (Case No. 5:26-cv-02246) alleging Grok generated child sexual abuse material using their photos.
+- **April 1** — Confidential S-1 filed with SEC.
+- **June 8** — Roadshow began.
 
 **What to watch next:**
-- **Late April–May 2026:** SpaceX public S-1 filing (imminent)
-- **Week of June 8, 2026:** SpaceX investor roadshow; Nasdaq listing to follow
-- **Late April 2026:** Tesla Q1 2026 delivery data (not yet released as of knowledge base)
-- **July 4, 2026:** DOGE executive order expires
-- Target valuation: $1.75T; capital raise target: $75B; Musk retains ~79% voting control with ~42% equity
+- Whether the roadshow proceeds to IPO filing given Stargate contraction.
+- July 2026 — Potential convergence with tariff authority expiration.
 
 ---
 
-### 🇨🇺 Cuba Crisis
+### Thread 8 — Arkansas State Preemption / Datacenter Capital (Node 9)
 
-**Status today:** The immediate energy crisis was partially relieved by a Russian oil delivery in late March. The structural crisis is unresolved.
+**Status today:** Arkansas is tracking water consumption from data centers. Section 404 permit SWL-2026-00038 is active. The Arkansas Valley Corridor (AVC) veto was issued December 31, 2025. This is documented as a regulatory capture case study.
+
+**What to watch next:**
+- Section 404 permit outcome.
+- Whether the DATA Act of 2026 (Tom Cotton, CREU exemption for data centers) advances.
+
+---
+
+### Thread 9 — Media Ecosystem / Tucker Carlson (Node 10)
+
+**Status today:** Carlson and Patel bought out all investors in Tucker Carlson Network (TCN) in June 2025. TCN is now independent. The framework documents a 4-step cycle: pre-frame → action → redirect → silence. Carlson's Easter Iran post drew criticism.
 
 **What changed recently:**
-- **Mar 30:** Russian tanker Anatoly Kolodkin arrived at Port of Matanzas with ~730,000 barrels of crude oil. Trump allowed it on "humanitarian grounds." This was a reversal of his own sanctions framework.
-- **Mar 20:** Treasury amended the sanctions waiver to explicitly exclude Cuba and North Korea from Russian oil purchases.
-- **Mar 16:** Cuba's third island-wide blackout in four months (29 hours). Trump said: "Taking Cuba in some form… I think I can do anything I want with it."
-- **~Mar 20–27:** China shipped 15,600 tons of rice to Cuba (first installment of a 60,000-ton commitment).
+- **June 2025** — Carlson and Patel buyout of all TCN investors completed. 1789 Capital's stake (historical) ended.
+- Carlson-Owens interview documented as a case study in the redirect mechanism.
 
 **What to watch next:**
-- Whether the Treasury Cuba/NK sanctions waiver was renewed after April 11 expiration (not yet confirmed in knowledge base)
-- Cuba's structural energy crisis — the Kolodkin delivery provided only ~9–12 days of basic fuel
+- Whether Carlson's post-buyout editorial direction shifts further from the documented redirect pattern.
 
 ---
 
-### 🔐 CRINK Framework
+### Thread 10 — Jonathan Buma Trial / Thiel Handler Pattern (Node 17)
 
-**Status today:** China, Russia, and North Korea provided no direct military help to Iran during the war — confirming CRINK as a "flexible security ecosystem," not a mutual defense pact.
+**Status today:** The Buma trial has had three continuances. All three occurred at Epstein friction windows (3-for-3 pattern). The next date is October 6, 2026.
+
+**What to watch next:**
+- **October 6, 2026** — Trial date. Watch for a fourth continuance.
+
+---
+
+### Thread 11 — Tariff Authority Expiration (Active Research Question 9)
+
+**Status today:** Section 122 of trade law (150-day statutory limit on tariff authority) expires July 24, 2026. Congress has not codified tariff authority. This is flagged as a potential Q3 2026 convergence window.
+
+**What to watch next:**
+- **July 24, 2026** — Tariff authority expiration. Critical deadline in 38 days.
+
+---
+
+### Thread 12 — Zorro Ranch / New Mexico Investigation (Node 12)
+
+**Status today:** NM AG Raúl Torrez reopened the criminal investigation in February 2026. The NM legislature created a bipartisan truth commission with subpoena power and a $2 million+ budget. Physical search of the ranch (now "San Rafael Ranch," owned by the Huffines family) began in March 2026.
 
 **What changed recently:**
-- **Mar 25:** JINSA published "The Axis Behind Iran" — documenting decades of supply chain support from China, Russia, and North Korea to Iran while stopping short of collective defense. ✅ VERIFIED.
-- **Mar 14:** North Korea fired 10 ballistic missiles toward the Sea of Japan during US-South Korea Freedom Shield exercises.
-- **Mar 15:** China sent 26 PLA aircraft and 7 PLAN vessels near Taiwan — a surge after a US Navy P-8A transit on March 12.
-- **Mar 30 + ~Mar 20–27:** Russia oil and China rice reached Cuba simultaneously — parallel CRINK humanitarian aid without formal coordination.
+- **March 2026** — NM state investigators began physical search of the property with Huffines family cooperation.
+- **March 19** — Darren Indyke (estate co-executor) deposed by House Oversight.
+- **March 11** — Richard Kahn (estate co-executor) deposed. Confirmed Epstein received funds from Wexner, Glenn Dubin, Steven Sinofsky, Leon Black, and the Rothschilds.
 
 **What to watch next:**
-- Whether NK missile activity or China Taiwan posturing clusters with upcoming US domestic accountability windows
-- CRINK supply chain to Iran — whether it resumes during the ceasefire
+- Kahn and Indyke deposition follow-up actions.
+- Estate class action settlement ($25-35 million proposed) pending judge approval.
 
 ---
 
-### 📜 CLARITY Act / Crypto Regulation
+### Thread 13 — Planet Labs Imagery Blackout (Node 15)
 
-**Status today:** The CLARITY Act is moving through the Senate but faces ethics amendment hurdles. The Senate Banking Committee markup was targeted for April 13–27.
-
-**What changed recently:**
-- **Mar 20:** Senators Tillis (R-NC) and Alsobrooks (D-MD) reached a deal "in principle" with the White House to resolve the stablecoin yield dispute.
-- **Jan 29:** Senate Agriculture Committee advanced the bill 12-11 on a party-line vote.
-- USD1 stablecoin (Trump family's World Liberty Financial) has a ~$4.59B market cap. UAE's MGX invested $2B in Binance, settled in USD1.
+**Status today:** Planet Labs imposed an indefinite blackout on Iran and Middle East satellite imagery starting April 5. Industry-wide compliance followed (Vantor, BlackSky). Planet Labs stock rose 17%. The framework notes the contrast: Anthropic resisted Pentagon demands and was penalized; Planet Labs complied and was rewarded.
 
 **What to watch next:**
-- Senate Banking Committee markup (targeted April 13–27 — may have occurred; not yet in knowledge base)
-- Full Senate vote targeted by May 2026
-- Warren/Merkley ethics/anti-self-dealing amendments — still unresolved
-- WLF OCC charter application — pending
+- Whether the blackout is lifted after the June 19 ceasefire signing.
+- OSINT and intelligence blind spots created by the blackout.
 
 ---
 
-### 🏛️ Section 122 Tariff Authority
+## 3. New Entries / Significant Edits
 
-**Status today:** The IEEPA tariff mechanism was struck down by the Supreme Court (6-3) on February 20. The Section 122 workaround expires July 24, 2026.
+The following dossiers appear to be newly added or substantially revised since the last major update cycle:
 
-**What changed recently:**
-- **Feb 20:** SCOTUS ruled in *Learning Resources, Inc. v. Trump* that IEEPA does not authorize tariffs (6-3). Roberts, Sotomayor, Kagan, Gorsuch, Barrett, and Jackson in the majority.
-- **Feb 23:** Speaker Johnson said Congressional codification of tariffs is "unlikely."
-- The administration pivoted to Section 122 of the Trade Act of 1974 — a 150-day temporary surcharge authority.
-
-**What to watch next:**
-- **July 24, 2026:** Section 122 expires — critical deadline
-- Whether the administration invokes Section 232 (national security) or Section 301 (unfair trade) as replacements
-- Gulf SWF positioning changes as the deadline approaches
-
----
-
-## 3. NEW ENTRIES / SIGNIFICANT EDITS
-
-The following appear to be newly added or substantially revised since the last major update (v12.4, April 26, 2026):
-
-| Entry | Type | Key Content |
-|-------|------|-------------|
-| `tier1_blair_node.md` | **NEW** (Last updated May 7, 2026) | Tony Blair as Board of Peace architect, Oracle/TBI deployment vehicle, £257M+ Ellison funding, Mandelson-Epstein adjacency |
-| `tier1_ellison_node.md` | **NEW** (Last updated May 7, 2026) | Larry Ellison (PCAST, national data unification, "citizens on their best behavior"), David Ellison (WBD acquisition, Bari Weiss, CBS News), Safra Catz (PCAST, bondholder lawsuit) |
-| `tier1_thiel_node.md` | **UPDATED to v2** (May 6, 2026 from April 30 v1) | Added verified June 26, 2016 Brexit email (Epstein-Thiel: "Return to tribalism, counter to globalization, amazing new alliances"); added Bilderberg Steering Committee position; added structural lineage to Board of Peace |
-| `tier1_zampolli_node.md` | **NEW** (Last updated May 1, 2026) | Paolo Zampolli, Amanda Ungaro deportation, ICE contact via David Venturella, multi-country SLAPP campaign, Hungary/Vance/Orbán meeting April 7 |
-| `NODE_INDEX.md` | **UPDATED** (March 16, 2026 listed, but new dossiers added after) | New dossiers not yet reflected in the index — `tier1_blair_node.md`, `tier1_ellison_node.md`, `tier1_thiel_node.md`, `tier1_zampolli_node.md` are not listed in the index |
-
-**Note on Live Data Supplement:** The Katzilla API data retrieved at pipeline run-time returned only a 1946-01-01 date for all economic indicators (WTI oil, gas prices, CPI, unemployment) and a generic "joint session of Congress" bill title for all legislative queries. These results appear to be API errors or placeholder data. They have not been incorporated into this briefing. The knowledge base's own figures (e.g., WTI at ~$92/barrel post-ceasefire, gas at $4.16/gallon) are used instead.
+| File | Date | What's New |
+|------|------|------------|
+| `09_CURRENT_THREADS.md` | **June 15, 2026 (v12.8)** | Iran framing corrected (ceasefire as political narrative vs. operational reality); Node 3 Israel expanded (DIA "critical" designation, NDAA Section 224); Node 5 Epstein extended (Lutnick interview, Massie removal, Regime Change book); Nodes 16-20 added (EFTA coalition, Buma trial, Regime Change, Board of Peace stablecoin, Palantir short); Musk-Altman trial removed as non-load-bearing |
+| `tier1_blair_node.md` | **May 7, 2026 (v1)** | Entirely new dossier. Documents Tony Blair as Board of Peace architect, Oracle deployment vehicle (TBI funded £257M+ by Ellison), and legitimacy anchor. Covers Mandelson-Epstein connection and UK political utility |
+| `tier1_ellison_node.md` | **May 7, 2026 (v1)** | Entirely new dossier. Documents Larry Ellison (Oracle, PCAST, WBD guarantor, TBI funder), David Ellison (Paramount Skydance, CBS News, Bari Weiss appointment, CNN acquisition), and Safra Catz (Oracle CEO, PCAST, bondholder lawsuit defendant) |
+| `tier1_thiel_node.md` | **May 6, 2026 (v2)** | Major revision. Adds verified June 26, 2016 Brexit email (Epstein-Thiel: "return to tribalism, amazing new alliances"), Bilderberg Steering Committee position, and formal structural lineage to Board of Peace |
+| `tier1_zampolli_node.md` | **May 1, 2026 (v1)** | Entirely new dossier. Documents Paolo Zampolli (ID Models, TerraMar Project partner, Special Envoy, Amanda Ungaro deportation case, April 2026 SLAPP campaign across US/Italy/Brazil) |
+| `tier2_purged_officials.md` | **April 3, 2026 (v1)** | Entirely new dossier. Running log of six officials removed in Trump's second term: Bongino (Dec 2025), Noem (Mar 5), Bondi (Apr 2), George/Hodne/Green (Apr 2) |
+| `tier2_religious_infrastructure.md` | **March 16, 2026** | New dossier documenting the eschatological policy pipeline: White House Faith Office, Capitol Ministries, CREC/Pentagon, CUFI, and the enforcement mechanism (Corporate → Government → Intelligence escalation) |
 
 ---
 
-## 4. BACKGROUND CONTEXT (BRIEF)
+## 4. Background Context (Brief)
 
-This research project tracks what it calls a "thermostat" model. The idea is that powerful actors — especially Gulf sovereign wealth funds with ~$4.9 trillion in combined assets — may regulate the intensity of US-Iran friction to protect their infrastructure investments. The project's headline statistical finding is a correlation of **r = 0.6196** between friction events and compliance events at a two-week index resolution. This means the two tend to move together, but correlation does not prove causation. The project previously published "Layers 2 and 3" of its analysis, but those layers have since been **retracted** due to methodological concerns. The remaining Layer 1 documents the observable patterns without claiming to explain why they occur. The project tracks 14 "leverage nodes" — entities that hold or are subject to information, capital, or kinetic leverage in current geopolitical dynamics.
-
----
-
-## 5. OPEN QUESTIONS / GAPS
-
-The source files explicitly flag the following as unverified, pending, or needing more investigation:
-
-| Item | Status | Source |
-|------|--------|--------|
-| Maxwell's communications, visitors, or legal proceedings since Feb 9 deposition | ❌ UNABLE TO VERIFY | `09_CURRENT_THREADS.md` Node 1 |
-| Maxwell's formal OPA clemency petition — grant or denial | ⚠️ PARTIALLY VERIFIED (individual case details not public) | `09_CURRENT_THREADS.md` Node 1 |
-| Maxwell's strategic value — access to unreleased Epstein documentation | 🔍 HYPOTHESIS | `09_CURRENT_THREADS.md` Node 1 |
-| AVAIO campus investor identity (Arkansas) | ❌ Not yet identified | `09_CURRENT_THREADS.md` Node 9 |
-| Q1 2026 13F filings — Gulf SWF positioning | ⚠️ PENDING DATA | `09_CURRENT_THREADS.md` |
-| Pentagon investigation findings on AI/Maven role in Minab school strike | Overdue — no response as of knowledge base | `09_CURRENT_THREADS.md` Node 14 |
-| DOJ IG audit findings on Epstein file handling | No timeline given | `09_CURRENT_THREADS.md` Node 5 |
-| Whether Treasury Cuba/NK sanctions waiver was renewed after April 11 | Not confirmed in knowledge base | `09_CURRENT_THREADS.md` |
-| California TikTok investigation results | ⚠️ Pending (Q1-Q2 2026) | `09_CURRENT_THREADS.md` |
-| CFIUS review of EA (Electronic Arts) deal | ⚠️ Pending (Q1-Q2 2026) | `09_CURRENT_THREADS.md` |
-| UK Parliament Mandelson vetting disclosure | ⚠️ Unable to verify outcome | `09_CURRENT_THREADS.md` |
-| Rep. Ro Khanna investigation findings (March 1 deadline) | ⚠️ Unable to verify outcome | `09_CURRENT_THREADS.md` |
-| UG Solutions Board of Peace contract terms | Needs more data | `09_CURRENT_THREADS.md` |
-| Pakistan ISF contribution details | Needs more data | `09_CURRENT_THREADS.md` |
-| NSO Group export licensing status (2025-2026) | Needs verification | `09_CURRENT_THREADS.md` |
-| TikTok "power outage" explanation for content blocking | Needs verification | `09_CURRENT_THREADS.md` |
-| Stargate infrastructure security status post-Switch failure | Needs verification | `09_CURRENT_THREADS.md` |
-| ⚠️ Gulf SWF "thermostat" function | 🔍 HYPOTHESIS — inferred from capital positioning patterns | `09_CURRENT_THREADS.md` Node 3 |
-| ⚠️ Iran succession: Mojtaba Khamenei's path to Supreme Leader | 🔍 HYPOTHESIS — constitutional mechanics vs. IRGC weight | `09_CURRENT_THREADS.md` Node 2 |
-| Methodological improvements needed: first-differencing for autocorrelation, robustness checks excluding December 2025, inter-rater reliability for event classification | Flagged by source | `09_CURRENT_THREADS.md` |
+The Regulated Friction Project is an open-source intelligence (OSINT) research effort. It documents a statistically significant pattern: high-visibility "friction" events (document releases, scandals, media crises) and institutional "compliance" events (policy shifts, financial moves) cluster together on predictable calendar windows. The headline statistical finding is a correlation of **r = 0.6196** at a two-week lag (p = 0.0004, n = 28 paired observations), meaning friction events tend to predict compliance events roughly 7 days later. This finding survived 16 independent robustness tests run by GitHub Copilot (Claude Opus 4.6). The project previously proposed "Layer 2" and "Layer 3" theoretical extensions; both have been retracted as non-load-bearing. The core r = 0.6196 finding and the dual-track (Track A: information leverage; Track B: capital leverage) framework remain active.
 
 ---
 
-*Briefing covers events through approximately May 8, 2026. All facts are drawn from the _AI_CONTEXT_INDEX knowledge base. Verification levels (✅ ⚠️ ❌ 🔍) are preserved from source files. Items marked [Inference] or 🔍 HYPOTHESIS are the source's own characterizations, not this briefing's conclusions.*
+## 5. Open Questions / Gaps
+
+The following items are explicitly flagged in the source files as unverified, pending, or requiring further investigation:
+
+**Unverified / Pending:**
+- ❌ Maxwell's private communications and visitor records since February 9 — prison records are not public; no news reports found.
+- ❌ Whether White House Counsel Warrington's Maxwell pardon suggestion has advanced beyond the "Regime Change" book account.
+- ❌ Silver Lake as a direct investor in 1789 Capital — not confirmed by SEC filings, Bloomberg, or press releases.
+- ❌ Oracle's $800 million deployed figure across its portfolio — not independently confirmed.
+- ❌ Whether Thiel has publicly responded to the Brexit email release.
+
+**Flagged as Hypotheses (🔍):**
+- 🔍 Maxwell's 5th Amendment invocation signals negotiation leverage, not refusal to cooperate.
+- 🔍 Framework prediction: Maxwell pardon will come before habeas petition resolution, to avoid legal precedent.
+- 🔍 Gulf SWFs (~$4.9 trillion AUM) function as a "thermostat" regulating US-Iran friction intensity to protect infrastructure investments.
+- 🔍 The Board of Peace is the institutional implementation of the investment-political thesis Epstein and Thiel articulated in the June 26, 2016 Brexit email.
+- 🔍 The Clalit healthcare breach (February 25) functioned as an escalatory precursor to Operation Epic Fury (February 28) — though it followed Trump's public military ultimatum by 6 days, complicating simple causality.
+
+**Upcoming Dates Requiring Monitoring:**
+- **June 19, 2026** — Formal US-Iran ceasefire signing in Switzerland (3 days away).
+- **June 23, 2026** — "Regime Change" book publication (Haberman-Swan); Maxwell pardon suggestion and Situation Room revelations.
+- **July 24, 2026** — Section 122 tariff authority expiration (38 days away). Congress has not codified authority. Flagged as a potential Q3 convergence window.
+- **October 6, 2026** — Jonathan Buma trial (third continuance). Watch for fourth continuance.
+
+**Distributed Investigations Still Active:**
+- US (Rep. Ro Khanna Select Committee) — UAE crypto deal
+- US (Sen. Elizabeth Warren Banking Committee) — Foreign influence
+- UK (Metropolitan Police) — Mandelson misconduct
+- UK (Parliament ISC) — Vetting disclosure
+- Poland (PM Tusk task force) — Russian intel links
+- Lithuania (Prosecutors) — Trafficking investigation
+- Turkey (Ankara prosecutor) — Trafficking to Epstein network
+
+*Note: Live data supplement fields (WTI crude, gas price, CPI, unemployment) returned placeholder dates (1946-01-01) indicating the API did not return current values. These fields are excluded from this briefing.*
 
 ---
 
-*Generated by [Political Translator](https://github.com/Leerrooy95/Political_Translator) — 2026-05-08T09:06:45.080379+00:00*
+*Generated by [Political Translator](https://github.com/Leerrooy95/Political_Translator) — 2026-06-16T09:48:29.397230+00:00*
