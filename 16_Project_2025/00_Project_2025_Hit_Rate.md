@@ -1,12 +1,18 @@
 # Project 2025 → Repository Hit-Rate Analysis
 
-**Purpose**: Cross-reference the 30 chapter directives of Project 2025's *Mandate for Leadership* against the event corpus already documented in `_AI_CONTEXT_INDEX/` and the wider repository, to see how much of what this repo tracks corroborates, executes, or extends specific Project 2025 chapter recommendations.
+**Purpose**: Cross-reference the 30 chapter directives of Project 2025's *Mandate for Leadership* against what has actually happened in the real world (2025–2026), to see how much of the blueprint was executed, how much was attempted and then blocked or reversed, and how much simply didn't happen.
 
-**Method**: Targeted keyword/entity searches across the full repository (department names, named authors, and each chapter's specific proposals — Schedule F, mifepristone, NOAA, CFPB, Ex-Im Bank, etc.), followed by close reads of the most relevant files (the `Administrative_State_Audit/` node timelines, `Node_Dossiers/tier2_purged_officials.md`, `09_CURRENT_THREADS.md`, `02_MEDIA_FIREWALL.md`, `04_CAPITAL_ARCHITECTURE.md`, `08_KEY_DATASETS.md`). Every row is anchored to a specific repo file; verification status follows this repository's own three-tier convention (✅ VERIFIED / ⚠️ PARTIALLY VERIFIED), plus a fourth category, **NO REPO MATCH**, added for this analysis to honestly record the absence of a hit — consistent with the repo's stated standard of documenting negative findings (see `CONTEXT_ROUTER.md`, "What NOT to Assume").
+**Method (two passes)**:
+- **Pass 1 (repo-only)**: cross-referenced each chapter against events already documented inside this repository's own `_AI_CONTEXT_INDEX/` corpus.
+- **Pass 2 (web-researched)**: the repo owner's own research surfaced a blindspot Pass 1 couldn't see — several directives were *implemented and then blocked, vacated, or reversed by courts, Congress, or other checks*. Pass 2 extended the same rigor (real, dated, cited sources; explicit search for blocked/reversed outcomes) to every chapter, closing the gaps Pass 1 left as "no repo match."
 
-**Companion file**: `project_2025_mapping.csv` (Date, Chapter, Directive, Repo_Event, Verification_Status, Repo_Source_File — 47 rows).
+**Companion file**: `project_2025_mapping.csv` — 140 data rows across all 30 chapters, columns: Date, Chapter, Directive, Repo_Event, Verification_Status, Repo_Source_File.
 
-**Important framing note**: This is *not* an independent audit of full Project 2025 implementation — that work already exists and is better resourced (Center for Progressive Reform/Governing for Impact's tracker reports 53% of the domestic agenda, 283/532 actions, initiated or completed as of the February 2026 update; project2025.observer reports ~48–50%; both are cited in the attached overview document). This analysis instead asks a narrower question: **of the events this specific OSINT repository happens to have already documented (friction-compliance timeline, administrative-state audit, purged-officials log, media/capital architecture), how many independently corroborate a named Project 2025 chapter directive?** The two figures measure different things and should not be conflated.
+**Outcome categories used throughout** (this repo's own ✅/⚠️/🔍 convention, extended with two categories this analysis needed):
+- `VERIFIED` — action confirmed by credible sources, not currently blocked or reversed
+- `ATTEMPTED — BLOCKED/REVERSED` — the action was taken, then blocked, enjoined, vacated, or reversed by a court, Congress, or (in one case) the agency itself under public pressure — name the mechanism
+- `PARTIALLY VERIFIED` — confirmed but outcome is unresolved, forward-looking, proposed-not-final, or only partially executed
+- `NO MATCH FOUND (web-researched)` — genuinely nothing found after real search (successor to Pass 1's "NO REPO MATCH," now meaning "we checked the open web, not just the repo, and still found nothing")
 
 ---
 
@@ -14,60 +20,80 @@
 
 | Metric | Count |
 |---|---|
-| Total Project 2025 chapters (Ch.1–30) | 30 |
-| Chapters with at least one repo-documented event | 9 (Ch.1, 2, 3, 4, 5, 9, 17, 26, 28) |
-| Chapters with **no** corresponding repo event found | 21 |
-| Total mapped CSV rows | 47 |
-| Rows marked ✅ VERIFIED | 21 |
-| Rows marked ⚠️ PARTIALLY VERIFIED | 5 |
-| Rows marked NO REPO MATCH | 21 |
-| Repo-corpus hit rate (chapters with ≥1 real match) | **~27–30%** (8/30 if Ch.1 — which has no independent event of its own — is excluded as adjacent-only; 9/30 if included) |
+| Chapters covered | **30 of 30** (complete, after Pass 2) |
+| Total CSV rows | 140 |
+| Rows: VERIFIED | 55 |
+| Rows: PARTIALLY VERIFIED | 28 |
+| Rows: ATTEMPTED — BLOCKED/REVERSED | 22 |
+| Rows: NO MATCH FOUND / NO REPO MATCH | 35 |
 
-The repo's own hit rate is lower than the independent trackers' ~48–53% because this repository was never built as a Project 2025 tracker — it was built around a different thesis (calendar-timed friction/compliance clustering, Gulf capital architecture, the Epstein leverage network, and the media firewall). Where its existing threads happen to overlap with Project 2025 chapters — chiefly the DOGE→OPM→DOJ "administrative state" consolidation loop, which a prior Copilot/Opus 4.6 analysis (`Project_Trident/Copilot_Opus_4.6_Analysis/Administrative_State_Audit/`) already mapped in detail — the correspondence is strong and well-sourced. Where the repo has no existing thread (Education, EPA, HHS abortion policy, HUD, Interior, Labor, Transportation, VA, Ex-Im Bank, the Federal Reserve, SBA, FEC, most of Ch.22's tax specifics), there is simply no data to report, and this analysis says so plainly rather than stretching a weak inference.
+Read that first row carefully: **22 of 140 tracked sub-directives (16%) were actively attempted and then hit a wall** — a court injunction, a Supreme Court ruling, a congressional rejection, or, in one case, the agency itself backing down under public pressure. That number was invisible in Pass 1, which could only say "verified" or "no match" — it had no way to represent "yes, and then no." Below, a chapter-by-chapter verdict, then the cross-cutting patterns worth knowing.
 
 ---
 
-## Chapters With Repo-Documented Matches
+## Chapter-by-Chapter Verdicts
 
-| Chapter | Author | Match Strength | Summary |
-|---|---|---|---|
-| **Ch.3 — Central Personnel Agencies** (Schedule F) | Devine, Kirk, Dans | **Strongest** | Direct, granular, dated match. OPM's Schedule F guidance (Jan 20, 2025) → "Fork in the Road" (Jan 28) → probationary firings (Feb 14) → RIF guidance (Feb 26) → DOGE disbanded/absorbed into OPM (Nov 24, 2025) → Schedule Policy/Career final rule strips ~50,000 positions of MSPB protection (Feb 5, 2026). This is close to a 1:1 execution record of the chapter's core ask. |
-| **Ch.17 — Department of Justice** | Gene Hamilton | **Strong** | Six dated events: Thursday Night Massacre (Feb 2025), White House bypassing DOJ to fire U.S. Attorneys, Bondi's Weaponization Working Group (Feb 5, 2025), 230+ DOJ lawyers fired/6,400+ departures, Ed Martin's removal (Jan/Feb 2026), and Bondi's own firing (Apr 2, 2026). Matches the chapter's "expand political appointees, align litigation with the president's agenda" directive closely. |
-| **Ch.9 — USAID** | Max Primorac | **Strong** | USAID formally dissolved into the State Dept July 1, 2025; only 718 of ~10,500 positions survived (6.8%) — nearly a literal execution of "deradicalize/dismantle USAID." |
-| **Ch.5 — Department of Homeland Security** | Ken Cuccinelli | **Moderate** | Noem fired Mar 5, 2026; DHS "shutdown" thread running Feb–June 2026; SAVE America Act centralizing state voter data into the DHS SAVE database. None of this confirms the chapter's specific "break DHS into a standalone border agency" recommendation — it documents DHS instability and data-authority expansion, which is adjacent but not identical. |
-| **Ch.4 — Department of Defense** | Christopher Miller | **Moderate** | Hegseth's April 2, 2026 wartime purge of Gen. George, Gen. Hodne, and the Army's Chief of Chaplains matches the chapter's loyalty-over-seniority personnel theme; the chapter's specific DEI/transgender/COVID-discharge items have no independent repo event. |
-| **Ch.28 — Federal Communications Commission** | Brendan Carr | **Moderate, with an irony flag** | Carr (the chapter's own author, now FCC Chair) fast-tracking the Paramount/WBD merger and the Oracle-led TikTok divestiture both touch the chapter's "rein in Big Tech" mandate, but the repo documents these as enabling large-scale *consolidation* into allied private hands (Ellison/Oracle/a16z/MGX) rather than the chapter's stated Section 230/antitrust rationale. Flagged as directionally related, not a clean match. |
-| **Ch.2 — Executive Office of the President** | Russ Vought | **Moderate** | Vought's OMB role is explicitly tied by the repo to institutionalizing DOGE post-Musk, and he co-sponsors the Cabinet Bible Study — corroborated but sourced mainly through the repo's own dossier rather than independent citation within it. |
-| **Ch.26 — Trade** | Navarro / Lassman | **Weak-Moderate** | SCOTUS struck down IEEPA tariffs (Feb 20, 2026); pivot to Section 122 (15% global surcharge, expiring Jul 24, 2026). Directionally consistent with Navarro's tariff approach but executed under different statutory authority than his proposed Reciprocal Trade Act. |
-| **Ch.1 — White House Office** | Rick Dearborn | **Weak / adjacent only** | No independent event; only corroborated through the DOJ chain-of-command bypass logged under Ch.17. Listed for completeness, not counted as a strong hit. |
-
----
-
-## Chapters With No Repo Match (21 of 30)
-
-Ch.6 (State), Ch.7 (Intelligence Community), Ch.8 (Media Agencies/USAGM/CPB), Ch.10 (Agriculture), Ch.11 (Education), Ch.12 (Energy), Ch.13 (EPA), Ch.14 (HHS), Ch.15 (HUD), Ch.16 (Interior), Ch.18 (Labor), Ch.19 (Transportation), Ch.20 (Veterans Affairs), Ch.21 (Commerce/NOAA), Ch.22 (Treasury — the chapter's specific tax-bracket/IRS-DEI proposals; the repo's Treasury-adjacent stablecoin/CLARITY Act coverage is a different topic), Ch.23 (Export-Import Bank), Ch.24 (Federal Reserve), Ch.25 (SBA), Ch.27 (SEC/CFPB), Ch.29 (FEC), Ch.30 (FTC).
-
-This is not evidence these directives went unimplemented — several (Department of Education restructuring, the EPA endangerment-finding rescission, Medicaid work requirements) are independently reported as enacted or in progress by mainstream outlets per the attached baseline documents. It only means **this specific repository's existing corpus does not currently document them**, most likely because the repo's collection focus (calendar-timed friction/compliance events, Gulf capital flows, the Epstein leverage network, and the DOGE/OPM/DOJ/FBI administrative-state loop) never had a reason to track, e.g., FERC rulemaking or VA disability-rating changes.
-
----
-
-## Cross-Cutting Observations
-
-1. **The strongest matches all cluster in one pre-existing repo thread.** Chapters 2, 3, 9, and 17 are all covered by the `Administrative_State_Audit/` analysis (a prior Copilot/Opus 4.6 deep-dive on the "DOGE → OPM → DOJ (+FBI)" consolidation loop, dated Feb 10, 2026). That analysis was not built with Project 2025 in mind, but it independently reconstructed almost exactly the mechanism Chapters 2–3 and 17 describe (Schedule F reclassification, OMB-driven bureaucratic alignment, DOJ as "the Shield"). This is the single highest-confidence overlap in the repository.
-
-2. **Personnel-loyalty and purge patterns repeat across Ch.1, Ch.3, Ch.4, Ch.5, and Ch.17.** The `tier2_purged_officials.md` dossier's running log (Bongino, Noem, Bondi, Gen. George, Gen. Hodne, Maj. Gen. Green) is itself a cross-chapter signal: Project 2025's repeated instruction to replace career/independent leadership with loyalists shows up as a single recurring personnel-replacement pattern rather than 30 separate department-by-department stories.
-
-3. **Ch.28 (FCC/Big Tech) is the one chapter where the repo shows outcome divergence from stated rationale.** Carr's chapter frames FCC action against Big Tech in free-speech/antitrust terms; the repo's Media Firewall and Ellison-node material instead documents Carr's FCC facilitating media-ownership *consolidation* (Paramount/WBD, TikTok into an Oracle-led consortium). Both are "FCC action shaping Big Tech," but the direction is closer to concentration than the chapter's stated deconcentration goal — worth flagging explicitly rather than counting as a clean hit.
-
-4. **Absence is concentrated in domestic-agency substantive policy (not administrative-state mechanics).** Every chapter with no match (Agriculture, Education, Energy, EPA, HHS, HUD, Interior, Labor, Transportation, VA, Commerce/NOAA, Treasury tax specifics, Ex-Im, Fed, SBA, SEC/CFPB, FEC, FTC) is a substantive-policy chapter rather than a personnel/structural-power chapter. This is consistent with the repo's stated focus areas in `00_START_HERE.md` and `CONTEXT_ROUTER.md` — it was simply never built to track, e.g., NHTSA fuel-economy rulemaking.
-
----
-
-## Suggested Next Steps (if you want to close some of these gaps)
-
-- If you want independent-tracker-level coverage of the substantive-policy chapters (Education, EPA, HHS, etc.), the Center for Progressive Reform/Governing for Impact tracker and project2025.observer (both cited in the attached overview doc) are already doing that work at scale — worth linking rather than re-deriving inside this repo.
-- If you want to extend *this* repo's own tracking, the highest-leverage additions (given what's already being tracked) would be: (a) a dedicated Department of Education node dossier, since Ch.11 is one of Project 2025's most consequential and most-reported chapters and currently has zero repo presence; (b) an EPA/endangerment-finding entry, since the repo's `07_METHODOLOGY.md`/`09_CURRENT_THREADS.md` framework would likely find a friction-compliance timing pattern there similar to the Schedule F case; and (c) closing the Ch.22 Treasury gap by distinguishing the chapter's tax-bracket proposal from the repo's existing (and unrelated) WLF/USD1 stablecoin coverage, so the two don't get conflated in future analysis.
+| Ch. | Department (Author) | Verdict |
+|---|---|---|
+| 1 | White House Office (Dearborn) | No standalone event; loyalty/personnel-vetting theme corroborated only indirectly via Ch.3/17 |
+| 2 | EOP/OMB (Vought) | Vought installed and credited with institutionalizing DOGE; role confirmed, not independently deep-researched |
+| 3 | Central Personnel Agencies — Schedule F (Devine/Kirk/Dans) | **Executed near-completely.** Schedule Policy/Career final rule published Feb 2026, ~50,000 positions reclassified, MSPB rights stripped — the strongest single match in this whole project |
+| 4 | Defense (Miller) | Wartime loyalty purge (Gen. George, Hodne, Chief of Chaplains) executed; DEI/transgender/COVID-discharge sub-items unresearched |
+| 5 | DHS (Cuccinelli) | Noem fired, DHS shutdown ongoing, SAVE Act data-centralization advancing — but the chapter's core "break up DHS into a standalone agency" ask itself is unconfirmed |
+| 6 | State (Skinner) | Largely executed: Rubio's reorg (132 offices, 700 positions cut), Dec. 2025 career-ambassador purge, China visa crackdown. Treaty-freeze mechanism as literally described — not confirmed |
+| 7 | Intelligence Community (Carmack) | Executed: ODNI 2.0 cut headcount 40%; CIA/ODNI DEI-role firings upheld in court. EO 12333 revision — no evidence found |
+| 8 | Media Agencies: USAGM/CPB (Namdar/Gonzalez) | **The richest blocked/reversed case study in this dataset.** USAGM/VOA fought through 5+ rounds of litigation, unresolved as of Sep 2026; CPB's defunding EO was blocked in court, then the same goal achieved anyway via a $9B congressional rescission — CPB has since shut down |
+| 9 | USAID (Primorac) | **Executed completely.** Only 718 of ~10,500 positions survived; agency formally dissolved into State |
+| 10 | Agriculture (Bakst) | Mixed-to-reversed: Climate-Smart Commodities program canceled (executed), but SNAP waiver terminations were self-reversed amid litigation, GMO labeling was *expanded* by a court (opposite of repeal), and sugar subsidies were *increased* by Congress (opposite of elimination) |
+| 11 | Education (Burke) | **Second-richest blocked/reversed case study.** ED's RIF was blocked by a district court and the 1st Circuit, then unblocked by a 5-4-ish SCOTUS emergency stay with the underlying legality still unresolved; the $1.6T student-loan-to-SBA transfer was enjoined; the PSLF restriction rule was vacated by two separate courts; Title I/IDEA block-granting was rejected by Congress twice. Title IX rewrite and the school-choice tax credit did land, unblocked |
+| 12 | Energy (McNamee) | Executed on LNG exports and DOE reorganization; the October 2025 clean-energy grant cancellations were ruled unconstitutional and partly reinstated by a federal judge |
+| 13 | EPA (Gunasekara) | Endangerment-finding repeal finalized (Feb 2026) but under active, unresolved litigation from 24 states; coal-ash permitting devolved to states successfully |
+| 14 | HHS (Severino) | Mifepristone approval itself never reversed — the one court-ordered access restriction was stayed by the Supreme Court; Medicaid work requirements enacted and in force; Section 1557 reinterpretation partly enjoined |
+| 15 | HUD (Carson) | AFFH rule ended (executed); disparate-impact rescission and state-devolution both still in proposed/budget-request stage, not final |
+| 16 | Interior (Pendley) | ANWR leasing reinstated and 30x30 revoked (executed, though the ANWR lease sale drew zero bids); Bears Ears/Grand Staircase monument shrinkage and the ESA rollback both face pending, unresolved litigation |
+| 17 | DOJ (Hamilton) | **Executed near-completely.** Weaponization Working Group, mass career-attorney departures, two AG firings (Bondi) tied to Epstein-file fallout |
+| 18 | Labor (Berry) | Contractor-DEI rollback (EO 14173) and EEOC religious-accommodation reorientation both executed; comp-time/Sabbath-mandate legislation never passed |
+| 19 | Transportation (Furchtgott-Roth) | California's EV mandate waivers revoked via a novel, contested use of the Congressional Review Act — now in litigation; FAA privatization was **affirmatively declined** by DOT's own Secretary, the opposite of the chapter's ask; Jones Act waived, then narrowed under industry pressure |
+| 20 | Veterans Affairs (Tucker) | Abortion and gender-surgery policy rollbacks both executed; **a new outcome variant**: the Feb 2026 disability-rating rule was suspended by the Secretary within two days of public backlash, without ever being formally rescinded — neither "blocked" by a court nor "reversed," just quietly shelved |
+| 21 | Commerce/NOAA (Gilman) | Staff cuts proceeded, but Commerce Secretary Lutnick **explicitly disavowed** this chapter's NOAA-privatization plank at his own confirmation hearing; EDA proposed for elimination twice, Congress funded it anyway both times |
+| 22 | Treasury (Walton/Moore/Burton) | **A clean reversal, not just an absence of data.** The enacted "One Big Beautiful Bill Act" kept the existing 7-bracket/21%-corporate structure rather than adopting this chapter's specific two-rate (15%/30%)/18%-corporate proposal. IRS funding rescission and DEI-office closure did happen |
+| 23 | Export-Import Bank (de Rugy pro-abolition / Hazelton pro-retention) | **A clean reversal.** Rather than moving toward abolition, EXIM was actively expanded (record $10B "Project Vault" loan) — Hazelton's opposing view is what materialized, not de Rugy's |
+| 24 | Federal Reserve (Winfree) | **Third-richest blocked/reversed case study.** The attempted for-cause removal of Fed Governor Lisa Cook was blocked 5-4 by the Supreme Court (*Trump v. Cook*, Jun 2026); separately, this chapter's own author (Paul Winfree) was hired as new Fed Chair Kevin Warsh's first policy adviser — even though Warsh has publicly distanced himself from Winfree's own dual-mandate-elimination proposal |
+| 25 | SBA (Kerrigan) | COVID-loan fraud crackdown strongly executed ($22B referred to Treasury); DEI-targeting policy shift confirmed; disaster-lending-to-private-insurance shift not found (current guidance runs the opposite direction) |
+| 26 | Trade (Navarro/Lassman) | IEEPA tariffs struck down by SCOTUS; pivot to Section 122 tariffs, directionally consistent with Navarro's approach, set to expire Jul 2026 with no congressional codification |
+| 27 | SEC & CFPB (Burton/Bowes) | **The single richest blocked/reversed case study in the entire dataset.** CFPB's shutdown attempt ran through a preliminary injunction → partial appellate stay → reinstatement → appellate vacatur, then a *second, separate* funding-lapse maneuver was independently blocked by a different court in Dec 2025 — the agency is "largely inoperable" but still not formally abolished, and litigation continues. Section 1071 repeal failed in Congress but was achieved administratively via a narrowing rule instead |
+| 28 | FCC (Carr) | Carr (the chapter's own author) fast-tracked Paramount/WBD merger approval and the Oracle-led TikTok divestiture — but this executes "Big Tech action" via consolidation into allied ownership, not the chapter's stated antitrust/Section 230 rationale |
+| 29 | FEC (von Spakovsky) | The FEC lost its voting quorum entirely (May 2025), achieving the chapter's deregulatory goal by attrition rather than policy; Commissioner Weintraub's disputed removal remains legally unresolved |
+| 30 | FTC (Candeub) | Mixed record: the FTC's Meta monopolization case was rejected by a federal judge (a blocked/reversed outcome, on appeal), while the chapter's "reduce antitrust enforcement generally" directive was **not** followed — Ferguson's FTC kept aggressive merger enforcement |
 
 ---
 
-*Analysis performed by cross-referencing the two attached Project 2025 baseline documents against the live `_AI_CONTEXT_INDEX/` and repository corpus as of the current session. All "VERIFIED" rows in `project_2025_mapping.csv` trace to a specific, already-sourced repo file; no new external web research was performed for this analysis — it is a corpus cross-reference, not a fresh investigation.*
+## Cross-Cutting Patterns
+
+1. **The blindspot the owner caught is real and large.** 22 of 140 rows are attempted-then-blocked/reversed — concentrated in Ch.8 (media agencies), Ch.11 (Education), Ch.24 (Fed), and Ch.27 (CFPB), which together account for over half of all blocked/reversed rows. These four chapters are the best evidence that "Project 2025 was implemented" is too simple a claim — the more accurate picture, at least for these four, is "attempted aggressively, contested aggressively, outcome still unsettled."
+
+2. **A new outcome the original three-category framework didn't anticipate: blocked-then-achieved-anyway, via a different route.** Ch.8's CPB defunding is the clearest example — a court blocked the executive order on First Amendment grounds, and the administration got the same result anyway through a $9 billion congressional rescissions package. "Blocked" was not the end of the story; it was a detour.
+
+3. **Another new outcome: self-halted, not court-blocked.** Ch.20's VA disability-rating rule was suspended by the Secretary within 48 hours of public backlash — no court, no congressional vote, just political retreat. This is a third failure mode alongside judicial and legislative blocks, worth watching for elsewhere.
+
+4. **Several chapters show the enacted outcome directly contradicting the chapter's own stated goal — not merely "no match," but the opposite result.** Ch.22 (Treasury kept the existing tax-bracket structure instead of this chapter's two-rate plan), Ch.23 (Ex-Im Bank was expanded, not abolished — the *opposing* essay's position won), Ch.10 (sugar subsidies increased, not eliminated), Ch.19 (FAA privatization affirmatively declined), and Ch.30 (antitrust enforcement not reduced) are all cases where the administration diverged from, rather than simply ignored, its own blueprint. That's a distinct and arguably more interesting finding than a flat "no match."
+
+5. **Personnel-loyalty and purge patterns still repeat across Ch.1, 3, 4, 5, 6, 7, 17.** This was true in Pass 1 and remains the dataset's most consistent throughline: whatever else diverged from the text, the drive to replace career/independent staff with loyalists shows up almost everywhere Pass 2 looked.
+
+6. **The Judiciary — not Congress — is doing most of the blocking.** Of the 22 blocked/reversed rows, the clear majority involve a federal court (district court, circuit court, or the Supreme Court) as the blocking mechanism; Congress rejecting a proposal (Ch.11's Title I/IDEA block grants, Ch.21's EDA elimination) is the second most common path; only Ch.20's VA case involved neither.
+
+---
+
+## What This Does *Not* Show
+
+This is still not an independent, comprehensive audit of full Project 2025 implementation — the Center for Progressive Reform/Governing for Impact tracker (53%, 283/532 actions) and project2025.observer (~48%) already do that at a scale and with a methodology this file doesn't replicate. What this file adds that a simple percentage doesn't: **which specific attempts were fought to a standstill, how, and by whom** — the texture behind the headline number, including several cases (Ch.22, Ch.23, Ch.30) where the real-world outcome ran opposite to the chapter's own text.
+
+---
+
+## Sourcing Note
+
+Every row's sources are named, real, dated outlets (courts, Federal Register entries, wire services, and beat reporters — never fabricated or invented) and are recorded in the `Verification_Status` and `Repo_Source_File` columns of the CSV. Rows carried over from Pass 1 (chapters 1–5, 9, 17, 26, 28) are sourced from this repository's own `_AI_CONTEXT_INDEX/` corpus; all other rows are from live web research conducted specifically for this analysis and are marked `[web research — not repo corpus]` in the source column.
+
+---
+
+*Analysis completed across two passes: an initial repo-only cross-reference, and a full web-research pass across all remaining chapters, explicitly designed to catch attempted-then-blocked/reversed outcomes the repo-only pass could not see. See `RESEARCH_PROGRESS.md` for the methodology and a chapter-by-chapter completion log.*

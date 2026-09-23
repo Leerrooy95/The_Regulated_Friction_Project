@@ -1,5 +1,7 @@
 # Project 2025 Mapping — Research Progress Checkpoint
 
+**Status: COMPLETE.** All 30 chapters have been researched (7 repo-only in Pass 1, 23 web-researched in Pass 2). The CSV has 140 data rows and `00_Project_2025_Hit_Rate.md` has been fully rewritten to reflect the complete dataset. This file is kept as a record of the methodology and completion log — a future session extending or re-verifying this work should still read it first, but no chapters remain pending.
+
 **Purpose of this file**: This is a resumability checkpoint, not a finished deliverable. If this work gets interrupted (session ends, usage limit, etc.), a fresh session should read this file first, then `project_2025_mapping.csv`, to see exactly what is done, what is in progress, and what is left — without redoing completed chapters or re-researching from scratch.
 
 **How to resume**: Open `project_2025_mapping.csv`, find the chapters marked `PENDING` below, and continue the same methodology (see "Methodology" section) starting from the first `PENDING` chapter. Update this file's status table and the "Session Log" at the bottom after every batch of chapters completed, then commit + push both files together.
@@ -71,7 +73,7 @@ For each chapter, using the chapter's directive text from `Project_2025_Mandate_
 | Ch.29 | Federal Election Commission | DONE (v2, web-researched) | FEC lost voting quorum entirely (May 2025), achieving the chapter's deregulatory goal by attrition rather than policy; Commissioner Weintraub's disputed removal remains legally unresolved |
 | Ch.30 | Federal Trade Commission | DONE (v2, web-researched) | Mixed/contradictory record: FTC's Meta monopolization case was rejected by a federal judge (Nov 2025, on appeal) — a blocked/reversed outcome — while the chapter's "reduce antitrust enforcement generally" directive was NOT followed (Ferguson's FTC kept aggressive merger enforcement) |
 
-**Remaining chapters pending as of this checkpoint: Ch.10, 11, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30 (15 chapters)** — Ch.6/7/8 completed in this pass (see Session Log).
+**All 30 chapters complete as of this checkpoint.** No chapters remain pending.
 
 ---
 
@@ -79,5 +81,6 @@ For each chapter, using the chapter's directive text from `Project_2025_Mandate_
 
 - **Session 1** (mapping v1): Built initial repo-only CSV (47 rows), Hit Rate doc, PR #197 opened.
 - **Session 2** (mapping v2): User identified the blocked/reversed blindspot and independently web-researched Ch.12, Ch.13, Ch.14 (added rows 49–63). Merged that expanded CSV into the repo copy, added this checkpoint file, and dispatched three parallel background research batches for the remaining PENDING chapters.
-- **Session 2, Batch A landed**: Ch.6 (State), Ch.7 (Intelligence Community), Ch.8 (USAGM/CPB) researched and appended (18 new rows, CSV now 80 data rows). Notable finding: Ch.8's CPB defunding EO was blocked by a federal court on First Amendment grounds, but the administration achieved the same goal anyway via a separate $9B congressional rescissions package — CPB has since shut down operations. Batches B (7 domestic-agency chapters) and C (8 economic/regulatory chapters) still running in background as of this log entry.
+- **Session 2, Batch A landed**: Ch.6 (State), Ch.7 (Intelligence Community), Ch.8 (USAGM/CPB) researched and appended (18 new rows, CSV now 80 data rows). Notable finding: Ch.8's CPB defunding EO was blocked by a federal court on First Amendment grounds, but the administration achieved the same goal anyway via a separate $9B congressional rescissions package — CPB has since shut down operations.
+- **Session 2, Batches B and C landed**: Batch B (Ch.10, 11, 15, 16, 18, 19, 20 — 33 rows) and Batch C (Ch.21, 22, 23, 24, 25, 27, 29, 30 — 27 rows) both completed and were appended in the same work session, bringing the CSV to 140 total data rows across all 30 chapters. `00_Project_2025_Hit_Rate.md` was fully rewritten with a complete chapter-by-chapter verdict table and cross-cutting pattern analysis (22 blocked/reversed rows total; notable new outcome variants found: "blocked-then-achieved-via-a-different-route" for Ch.8/CPB, and "self-halted without formal rescission" for Ch.20/VA disability ratings; several chapters — Ch.10, 22, 23, 19, 30 — show the enacted outcome directly contradicting rather than merely missing the chapter's own stated goal). **This closes out the research pass — all 30 chapters done.**
 
