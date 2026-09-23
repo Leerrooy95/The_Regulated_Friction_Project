@@ -45,9 +45,9 @@ For each chapter, using the chapter's directive text from `Project_2025_Mandate_
 | Ch.3 | Central Personnel Agencies (Schedule F) | DONE (v1, repo-only) | Strongest match in the repo; no further work needed |
 | Ch.4 | Department of Defense | DONE (v1, repo-only) | Hegseth purge covered; DEI/transgender/COVID-discharge sub-items still unmatched — low priority for a re-pass |
 | Ch.5 | Department of Homeland Security | DONE (v1, repo-only) | Noem firing + SAVE Act covered |
-| Ch.6 | Department of State | **PENDING** | Not yet web-researched |
-| Ch.7 | Intelligence Community | **PENDING** | Not yet web-researched (Ratcliffe/CIA lead worth checking) |
-| Ch.8 | Media Agencies (USAGM/CPB) | **PENDING** | Not yet web-researched |
+| Ch.6 | Department of State | DONE (v2, web-researched) | Rubio reorg, ambassador purge, China visa crackdown; treaty-freeze sub-directive only partially matched |
+| Ch.7 | Intelligence Community | DONE (v2, web-researched) | ODNI 2.0 downsizing, DEI-role firings upheld in court; EO 12333 revision — no match found |
+| Ch.8 | Media Agencies (USAGM/CPB) | DONE (v2, web-researched) | Strong "blocked/reversed" case study: USAGM/VOA shutdown fought through multiple rounds of litigation, still unresolved as of Sep 2026; CPB defunding EO blocked by court on First Amendment grounds but the same goal achieved anyway via a separate congressional rescission (CPB has since shut down) — a distinct "blocked-then-achieved-via-alternate-route" pattern worth flagging in the Hit Rate doc |
 | Ch.9 | USAID | DONE (v1, repo-only) | Strong match; no further work needed |
 | Ch.10 | Department of Agriculture | **PENDING** | Not yet web-researched |
 | Ch.11 | Department of Education | **PENDING** | Not yet web-researched — high priority, one of P2025's most consequential chapters |
@@ -71,12 +71,13 @@ For each chapter, using the chapter's directive text from `Project_2025_Mandate_
 | Ch.29 | Federal Election Commission | **PENDING** | Not yet web-researched |
 | Ch.30 | Federal Trade Commission | **PENDING** | Not yet web-researched |
 
-**Remaining chapter count as of this checkpoint: 15 pending** (Ch.6, 7, 8, 10, 11, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30 — 18 listed above as PENDING; count precisely from the table, not this line, if they diverge).
+**Remaining chapters pending as of this checkpoint: Ch.10, 11, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30 (15 chapters)** — Ch.6/7/8 completed in this pass (see Session Log).
 
 ---
 
 ## Session Log
 
 - **Session 1** (mapping v1): Built initial repo-only CSV (47 rows), Hit Rate doc, PR #197 opened.
-- **Session 2** (mapping v2, this checkpoint): User identified the blocked/reversed blindspot and independently web-researched Ch.12, Ch.13, Ch.14 (added rows 49–63). This session merged that expanded CSV into the repo copy, added this checkpoint file, and is dispatching research passes for the remaining PENDING chapters. *(Update this line with what was actually completed before ending the session.)*
+- **Session 2** (mapping v2): User identified the blocked/reversed blindspot and independently web-researched Ch.12, Ch.13, Ch.14 (added rows 49–63). Merged that expanded CSV into the repo copy, added this checkpoint file, and dispatched three parallel background research batches for the remaining PENDING chapters.
+- **Session 2, Batch A landed**: Ch.6 (State), Ch.7 (Intelligence Community), Ch.8 (USAGM/CPB) researched and appended (18 new rows, CSV now 80 data rows). Notable finding: Ch.8's CPB defunding EO was blocked by a federal court on First Amendment grounds, but the administration achieved the same goal anyway via a separate $9B congressional rescissions package — CPB has since shut down operations. Batches B (7 domestic-agency chapters) and C (8 economic/regulatory chapters) still running in background as of this log entry.
 
