@@ -16,8 +16,11 @@
 | Read general background on Project 2025 itself (origins, status, four pillars) | `Project_2025_Overview_of_the_Heritage_Foundation.md` |
 | Understand the methodology, or pick up unfinished research | `RESEARCH_PROGRESS.md` |
 | See exactly which rows were removed in cleanup, and why | `_pass1_superseded_rows_removed.csv` |
+| See the follow-up analysis of Heritage's next family-policy report (SR323, Jan 2026) | **`Heritage_2026_Successor_Documents/README.md`** |
 
 Most people only need the first two.
+
+Note: `Heritage_2026_Successor_Documents/` tracks a separate, later Heritage Foundation report (Special Report No. 323, Jan 2026) — not a continuation of the Mandate for Leadership's 30 chapters tracked above. It lives here because it's the same institution's next major policy document and uses the same method.
 
 ---
 
