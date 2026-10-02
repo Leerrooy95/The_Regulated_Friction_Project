@@ -2,7 +2,7 @@
 
 **What this folder answers**: of the 30 chapter directives in Project 2025's *Mandate for Leadership*, how many were actually executed in 2025–2026, how many were attempted and then blocked or reversed, how many produced the *opposite* of what the chapter asked for, and how many simply never happened?
 
-**Current status**: complete. All 30 chapters researched, 125 dated and sourced findings, four correction rounds behind it (two external reviews plus two self-caught follow-ups — see `RESEARCH_PROGRESS.md` for the full history if you want it).
+**Current status**: complete. All 30 chapters researched, 125 dated and sourced findings, five correction rounds behind it (two external reviews, two self-caught follow-ups, and a fifth round from the repo owner's own independent fact-check — see `RESEARCH_PROGRESS.md` for the full history if you want it).
 
 ---
 
@@ -12,6 +12,7 @@
 |---|---|
 | See the headline numbers and a one-line verdict per chapter | **`00_Project_2025_Hit_Rate.md`** |
 | Look up, sort, or filter the underlying findings | **`project_2025_mapping.csv`** |
+| See the individual dated events behind each finding, one row per event rather than one row per directive | `project_2025_events.csv` |
 | Read the original Project 2025 chapter summaries this was built from | `Project_2025_Mandate_for_Leadership_Chapter-by-Chapter_Policy.md` |
 | Read general background on Project 2025 itself (origins, status, four pillars) | `Project_2025_Overview_of_the_Heritage_Foundation.md` |
 | Understand the methodology, or pick up unfinished research | `RESEARCH_PROGRESS.md` |
@@ -60,11 +61,20 @@ Every `Repo_Event` and `Verification_Status` is backed by real, named, dated sou
 
 ---
 
+## How `project_2025_events.csv` is laid out
+
+A finer-grained companion to the mapping CSV: 213 rows, one per individual dated event, rather than one per chapter sub-directive. A single mapping-CSV row that describes a multi-stage saga (a bill signed, then a rule proposed, then a lawsuit, then a ruling) breaks out into several event rows here, all sharing the same `Chapter_Num`/`CSV_Row` link back to the row they support. Columns: `Event_ID, CSV_Row, Chapter_Num, Chapter_Name, Directive_Short, Event_Date, Event_Date_End, Date_Precision, Event_Type, Event, Row_Outcome, Date_Note, Date_Check`.
+
+This file is where the repo owner's own independent fact-check (Round 5, see Correction Log) was actually done — the `Date_Check` column records, event by event, whether a claimed date/figure was independently confirmed, flagged as inconsistent, or left as-is from the original research pass. Several corrections surfaced here were then carried back into `project_2025_mapping.csv`.
+
+---
+
 ## Method, briefly
 
 1. **Pass 1** checked each chapter directive against events already documented in this repo's `_AI_CONTEXT_INDEX/`. Chapters with nothing there got flagged for follow-up.
 2. **Pass 2** did full live web research on every flagged chapter, explicitly searching not just for "was this done" but for the blindspot a repo-only pass can't see: directives that were *attempted and then blocked or reversed*.
 3. **Pass 3** was cleanup after review — both external (an independent model audit, a GitHub Copilot PR review) and self-caught. It added the `AFFIRMATIVELY CONTRADICTED` category, removed 21 stale duplicate placeholder rows left behind by how Pass 1/2 were built, fixed two rows where a status update wasn't matched by an update to the surrounding text, corrected two factual errors that surfaced along the way, and reverted one retag that turned out not to meet this file's own stated definition of its category once someone checked it against the definition rather than against "does it match the other rows."
+4. **Round 5** was the repo owner's own independent fact-check, built out as `project_2025_events.csv` (one row per dated event) and cross-checked against outside sources. It caught nine more date/figure errors — none changed a row's outcome status, all were corrected in place. See the Correction Log in `00_Project_2025_Hit_Rate.md` for the full list.
 
 Full round-by-round detail — including the two mistakes that were caught and fixed in public — is in `00_Project_2025_Hit_Rate.md`'s Correction Log and `RESEARCH_PROGRESS.md`'s Session Log. Nothing here was swept under the rug; the corrections are as visible as the findings.
 
