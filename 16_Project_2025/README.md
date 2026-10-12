@@ -2,7 +2,7 @@
 
 **What this folder answers**: of the 30 chapter directives in Project 2025's *Mandate for Leadership*, how many were actually executed in 2025–2026, how many were attempted and then blocked or reversed, how many produced the *opposite* of what the chapter asked for, and how many simply never happened?
 
-**Current status**: complete. All 30 chapters researched, 125 dated and sourced findings, five correction rounds behind it (two external reviews, two self-caught follow-ups, and a fifth round from the repo owner's own independent fact-check — see `RESEARCH_PROGRESS.md` for the full history if you want it).
+**Current status**: complete as a first full pass. All 30 chapters researched, 125 dated and sourced findings, five correction rounds behind it (four from outside review — Gemini, a dedicated Claude review session, that session's follow-up, and a GitHub Copilot PR review — plus a fifth from the repo owner's own fact-check). Known gaps, mainly that the Round 5 date check covered only the events under `VERIFIED` rows, are listed in the "Known gaps" bullet at the end of `RESEARCH_PROGRESS.md`'s Session Log.
 
 ---
 
@@ -65,7 +65,9 @@ Every `Repo_Event` and `Verification_Status` is backed by real, named, dated sou
 
 A finer-grained companion to the mapping CSV: 214 rows, one per individual dated event, rather than one per chapter sub-directive. A single mapping-CSV row that describes a multi-stage saga (a bill signed, then a rule proposed, then a lawsuit, then a ruling) breaks out into several event rows here, all sharing the same `Chapter_Num`/`CSV_Row` link back to the row they support. Columns: `Event_ID, CSV_Row, Chapter_Num, Chapter_Name, Directive_Short, Event_Date, Event_Date_End, Date_Precision, Event_Type, Event, Row_Outcome, Date_Note, Date_Check`.
 
-This file is where the repo owner's own independent fact-check (Round 5, see Correction Log) was actually done — the `Date_Check` column records, event by event, whether a claimed date/figure was independently confirmed, flagged as inconsistent, or left as-is from the original research pass. Several corrections surfaced here were then carried back into `project_2025_mapping.csv`.
+This file is where the repo owner's own independent fact-check (Round 5, see Correction Log) was actually done — the `Date_Check` column records, event by event, whether a claimed date/figure was independently confirmed, flagged as inconsistent, or corrected. Several corrections surfaced here were then carried back into `project_2025_mapping.csv`.
+
+**A blank `Date_Check` means "not individually re-checked in Round 5," not "confirmed."** Round 5 covered all 79 events under `VERIFIED` rows and none of the 135 events under the other four statuses (60 blocked/reversed, 59 partially verified, 11 contradicted, 5 no match); six chapters (1, 2, 21, 23, 24, 27) have no checked events at all. Those 135 events still rest on the original Pass 1/Pass 2 sourcing and the Round 1–4 reviews, which were aimed at classification rather than dates.
 
 ---
 
