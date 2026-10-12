@@ -8,6 +8,8 @@
 
 ## Quick Start
 
+**Requires Python 3.12 or newer** — the pinned numpy 2.5 and scipy 1.18 releases need it, and on Python 3.11 `pip install` fails with "No matching distribution."
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
